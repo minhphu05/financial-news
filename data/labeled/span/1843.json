@@ -1,0 +1,442 @@
+[
+    {
+        "text": "11/5",
+        "label": "DATE",
+        "evidence": "Trong bài trên trang cá nhân đăng ngày 11/5, ông Đỗ Cao Bảo viết:"
+    },
+    {
+        "text": "Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Trong bài trên trang cá nhân đăng ngày 11/5, ông Đỗ Cao Bảo viết:"
+    },
+    {
+        "text": "Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ",
+        "label": "EVENT",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "iPad",
+        "label": "ASSET",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "Mac",
+        "label": "ASSET",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "Apple Watch",
+        "label": "ASSET",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "AirPods",
+        "label": "ASSET",
+        "evidence": "\"Ấn Độ sẽ sản xuất iPhone, Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPods cho thị trường Mỹ"
+    },
+    {
+        "text": "Tim Cook",
+        "label": "PERSON",
+        "evidence": "Theo Tim Cook, CEO Apple, để phù hợp với chính sách thuế đối ứng của chính quyền Trump, Apple sẽ đa dạng hóa cơ sở sản xuất của họ bên ngoài Trung Quốc, trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Theo Tim Cook, CEO Apple, để phù hợp với chính sách thuế đối ứng của chính quyền Trump, Apple sẽ đa dạng hóa cơ sở sản xuất của họ bên ngoài Trung Quốc, trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "chính sách thuế đối ứng của chính quyền Trump",
+        "label": "EVENT",
+        "evidence": "Theo Tim Cook, CEO Apple, để phù hợp với chính sách thuế đối ứng của chính quyền Trump, Apple sẽ đa dạng hóa cơ sở sản xuất của họ bên ngoài Trung Quốc, trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Apple sẽ đa dạng hóa cơ sở sản xuất của họ bên ngoài Trung Quốc",
+        "label": "EVENT",
+        "evidence": "Theo Tim Cook, CEO Apple, để phù hợp với chính sách thuế đối ứng của chính quyền Trump, Apple sẽ đa dạng hóa cơ sở sản xuất của họ bên ngoài Trung Quốc, trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Ấn Độ sẽ sản xuất iPhone",
+        "label": "EVENT",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ",
+        "label": "EVENT",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "iPad",
+        "label": "ASSET",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Mac",
+        "label": "ASSET",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "Apple Watch",
+        "label": "ASSET",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "AirPods",
+        "label": "ASSET",
+        "evidence": "trong đó Ấn Độ sẽ sản xuất iPhone,Việt Nam sẽ sản xuất iPad, Mac, Apple Watch và AirPodscho thị trường Mỹ."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Tất nhiên Trung Quốc vẫn sản xuất iPhone, iPad, Mac, Apple Watch và AirPods cho các thị trường ngoài Mỹ."
+    },
+    {
+        "text": "iPad",
+        "label": "ASSET",
+        "evidence": "Tất nhiên Trung Quốc vẫn sản xuất iPhone, iPad, Mac, Apple Watch và AirPods cho các thị trường ngoài Mỹ."
+    },
+    {
+        "text": "Mac",
+        "label": "ASSET",
+        "evidence": "Tất nhiên Trung Quốc vẫn sản xuất iPhone, iPad, Mac, Apple Watch và AirPods cho các thị trường ngoài Mỹ."
+    },
+    {
+        "text": "Apple Watch",
+        "label": "ASSET",
+        "evidence": "Tất nhiên Trung Quốc vẫn sản xuất iPhone, iPad, Mac, Apple Watch và AirPods cho các thị trường ngoài Mỹ."
+    },
+    {
+        "text": "AirPods",
+        "label": "ASSET",
+        "evidence": "Tất nhiên Trung Quốc vẫn sản xuất iPhone, iPad, Mac, Apple Watch và AirPods cho các thị trường ngoài Mỹ."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Theo Apple, thị trường Mỹ mỗi năm cần 60 triệu chiếc iPhone, chiếm 20% thị trường iPhone toàn cầu."
+    },
+    {
+        "text": "60 triệu chiếc iPhone",
+        "label": "VOLUME",
+        "evidence": "Theo Apple, thị trường Mỹ mỗi năm cần 60 triệu chiếc iPhone, chiếm 20% thị trường iPhone toàn cầu."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Theo Apple, thị trường Mỹ mỗi năm cần 60 triệu chiếc iPhone, chiếm 20% thị trường iPhone toàn cầu."
+    },
+    {
+        "text": "Foxconn",
+        "label": "ORG",
+        "evidence": "Điều này đồng nghĩa với việc các nhà máy Foxconn và Tata, đối tác của Apple tại Ấn Độ cần nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm."
+    },
+    {
+        "text": "Tata",
+        "label": "ORG",
+        "evidence": "Điều này đồng nghĩa với việc các nhà máy Foxconn và Tata, đối tác của Apple tại Ấn Độ cần nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Điều này đồng nghĩa với việc các nhà máy Foxconn và Tata, đối tác của Apple tại Ấn Độ cần nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm."
+    },
+    {
+        "text": "nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm",
+        "label": "EVENT",
+        "evidence": "Điều này đồng nghĩa với việc các nhà máy Foxconn và Tata, đối tác của Apple tại Ấn Độ cần nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm."
+    },
+    {
+        "text": "60 triệu chiếc iPhone",
+        "label": "VOLUME",
+        "evidence": "Điều này đồng nghĩa với việc các nhà máy Foxconn và Tata, đối tác của Apple tại Ấn Độ cần nâng năng lực sản xuất lên 60 triệu chiếc iPhone một năm."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Tuy nhiên việc nâng năng lực sản xuất lên không thể hoàn tất trong năm 2025, dự kiến việc dịch chuyển này sẽ hoàn tất vào cuối năm 2026 (những chiếc iPhone made in India đầu tiên sẽ được nhập về Mỹ từ đầu tháng 6/2025)."
+    },
+    {
+        "text": "cuối năm 2026",
+        "label": "DATE",
+        "evidence": "Tuy nhiên việc nâng năng lực sản xuất lên không thể hoàn tất trong năm 2025, dự kiến việc dịch chuyển này sẽ hoàn tất vào cuối năm 2026 (những chiếc iPhone made in India đầu tiên sẽ được nhập về Mỹ từ đầu tháng 6/2025)."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên việc nâng năng lực sản xuất lên không thể hoàn tất trong năm 2025, dự kiến việc dịch chuyển này sẽ hoàn tất vào cuối năm 2026 (những chiếc iPhone made in India đầu tiên sẽ được nhập về Mỹ từ đầu tháng 6/2025)."
+    },
+    {
+        "text": "đầu tháng 6/2025",
+        "label": "DATE",
+        "evidence": "Tuy nhiên việc nâng năng lực sản xuất lên không thể hoàn tất trong năm 2025, dự kiến việc dịch chuyển này sẽ hoàn tất vào cuối năm 2026 (những chiếc iPhone made in India đầu tiên sẽ được nhập về Mỹ từ đầu tháng 6/2025)."
+    },
+    {
+        "text": "chiến lược cơ cấu lại các cơ sở sản xuất của Apple tại 3 quốc gia: Trung Quốc, Ấn Độ, Việt Nam",
+        "label": "EVENT",
+        "evidence": "Với chiến lược cơ cấu lại các cơ sở sản xuất của Apple tại 3 quốc gia: Trung Quốc, Ấn Độ, Việt Nam như trên, đồng nghĩa với việc trước mắt Apple không chuyển sản xuất về Mỹ như mong đợi của chính quyền Trump."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Với chiến lược cơ cấu lại các cơ sở sản xuất của Apple tại 3 quốc gia: Trung Quốc, Ấn Độ, Việt Nam như trên, đồng nghĩa với việc trước mắt Apple không chuyển sản xuất về Mỹ như mong đợi của chính quyền Trump."
+    },
+    {
+        "text": "Apple không chuyển sản xuất về Mỹ",
+        "label": "EVENT",
+        "evidence": "Với chiến lược cơ cấu lại các cơ sở sản xuất của Apple tại 3 quốc gia: Trung Quốc, Ấn Độ, Việt Nam như trên, đồng nghĩa với việc trước mắt Apple không chuyển sản xuất về Mỹ như mong đợi của chính quyền Trump."
+    },
+    {
+        "text": "CNBC",
+        "label": "ORG",
+        "evidence": "Theo CNBC, Bộ trưởng Bộ trưởng Bộ Thương Mại Mỹ Lutnick cho biết, khi ông hỏi Tim Cook về việc Apple chuyển sản xuất về Mỹ, Tim Cook đã trả lời “Tôi cần phải có cánh tay robot, đúng vậy, làm điều đó ở quy mô và độ chính xác mà tôi có thể mang nó đến đây\"."
+    },
+    {
+        "text": "Bộ Thương Mại Mỹ",
+        "label": "ORG",
+        "evidence": "Theo CNBC, Bộ trưởng Bộ trưởng Bộ Thương Mại Mỹ Lutnick cho biết, khi ông hỏi Tim Cook về việc Apple chuyển sản xuất về Mỹ, Tim Cook đã trả lời “Tôi cần phải có cánh tay robot, đúng vậy, làm điều đó ở quy mô và độ chính xác mà tôi có thể mang nó đến đây\"."
+    },
+    {
+        "text": "Lutnick",
+        "label": "PERSON",
+        "evidence": "Theo CNBC, Bộ trưởng Bộ trưởng Bộ Thương Mại Mỹ Lutnick cho biết, khi ông hỏi Tim Cook về việc Apple chuyển sản xuất về Mỹ, Tim Cook đã trả lời “Tôi cần phải có cánh tay robot, đúng vậy, làm điều đó ở quy mô và độ chính xác mà tôi có thể mang nó đến đây\"."
+    },
+    {
+        "text": "Tim Cook",
+        "label": "PERSON",
+        "evidence": "Theo CNBC, Bộ trưởng Bộ trưởng Bộ Thương Mại Mỹ Lutnick cho biết, khi ông hỏi Tim Cook về việc Apple chuyển sản xuất về Mỹ, Tim Cook đã trả lời “Tôi cần phải có cánh tay robot, đúng vậy, làm điều đó ở quy mô và độ chính xác mà tôi có thể mang nó đến đây\"."
+    },
+    {
+        "text": "Apple chuyển sản xuất về Mỹ",
+        "label": "EVENT",
+        "evidence": "Theo CNBC, Bộ trưởng Bộ trưởng Bộ Thương Mại Mỹ Lutnick cho biết, khi ông hỏi Tim Cook về việc Apple chuyển sản xuất về Mỹ, Tim Cook đã trả lời “Tôi cần phải có cánh tay robot, đúng vậy, làm điều đó ở quy mô và độ chính xác mà tôi có thể mang nó đến đây\"."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "iPad",
+        "label": "ASSET",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "Mac",
+        "label": "ASSET",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "Apple Watch",
+        "label": "ASSET",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "AirPods",
+        "label": "ASSET",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Câu hỏi đặt ra là “ai sẽ làm các cánh tay robot có độ chính xác cao ở qui mô lớn có khả năng chế tạo và lắp ráp iPhone, iPad, Mac, Apple Watch, AirPods tinh xảo của Apple và khi nào có?”."
+    },
+    {
+        "text": "Lutnick",
+        "label": "PERSON",
+        "evidence": "Theo Lutnick, Cook cho biết cần phải có những cánh tay robot này trước khi bắt đầu sản xuất iPhone tại quê nhà vì những cỗ máy này có thể thực hiện \"ở quy mô và độ chính xác cao\" để tạo ra điện thoại thông minh."
+    },
+    {
+        "text": "Cook",
+        "label": "PERSON",
+        "evidence": "Theo Lutnick, Cook cho biết cần phải có những cánh tay robot này trước khi bắt đầu sản xuất iPhone tại quê nhà vì những cỗ máy này có thể thực hiện \"ở quy mô và độ chính xác cao\" để tạo ra điện thoại thông minh."
+    },
+    {
+        "text": "sản xuất iPhone tại quê nhà",
+        "label": "EVENT",
+        "evidence": "Theo Lutnick, Cook cho biết cần phải có những cánh tay robot này trước khi bắt đầu sản xuất iPhone tại quê nhà vì những cỗ máy này có thể thực hiện \"ở quy mô và độ chính xác cao\" để tạo ra điện thoại thông minh."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Theo Lutnick, Cook cho biết cần phải có những cánh tay robot này trước khi bắt đầu sản xuất iPhone tại quê nhà vì những cỗ máy này có thể thực hiện \"ở quy mô và độ chính xác cao\" để tạo ra điện thoại thông minh."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Chuỗi cung ứng không chỉ của Apple mà còn của các nhà sản xuất thiết bị điện tử lớn khác đã chủ yếu nằm ở Châu Á trong nhiều thập kỷ."
+    },
+    {
+        "text": "Dan Ives",
+        "label": "PERSON",
+        "evidence": "Nhà phân tích Dan Ives từ công ty đầu tư Wedbush nếu ví dụ: nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "Wedbush",
+        "label": "ORG",
+        "evidence": "Nhà phân tích Dan Ives từ công ty đầu tư Wedbush nếu ví dụ: nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Nhà phân tích Dan Ives từ công ty đầu tư Wedbush nếu ví dụ: nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey",
+        "label": "EVENT",
+        "evidence": "nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Nhà phân tích Dan Ives từ công ty đầu tư Wedbush nếu ví dụ: nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "3.500 USD",
+        "label": "MONEY",
+        "evidence": "Nhà phân tích Dan Ives từ công ty đầu tư Wedbush nếu ví dụ: nếu Apple sản xuất iPhone tại một nhà máy ở Tây Virginia hoặc New Jersey, giá của một thiết bị sẽ là 3.500 USD."
+    },
+    {
+        "text": "chuyển mười phần trăm chuỗi cung ứng của mình sang Hoa Kỳ",
+        "label": "EVENT",
+        "evidence": "Nếu công ty chỉ chuyển mười phần trăm chuỗi cung ứng của mình sang Hoa Kỳ, thì sẽ mất ba năm và 30 tỷ USD."
+    },
+    {
+        "text": "mười phần trăm",
+        "label": "RATE",
+        "evidence": "Nếu công ty chỉ chuyển mười phần trăm chuỗi cung ứng của mình sang Hoa Kỳ, thì sẽ mất ba năm và 30 tỷ USD."
+    },
+    {
+        "text": "30 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Nếu công ty chỉ chuyển mười phần trăm chuỗi cung ứng của mình sang Hoa Kỳ, thì sẽ mất ba năm và 30 tỷ USD."
+    },
+    {
+        "text": "Apple Insider",
+        "label": "ORG",
+        "evidence": "Theo trang Apple Insider, khả năng sáng tạo là một bộ kỹ năng không dễ dàng chuyển giao cho robot, cũng không thể học nhanh chóng."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Bất kể Apple cuối cùng có sử dụng cánh tay robot hay con người để sản xuất iPhone và các sản phẩm khác tại Hoa Kỳ hay không, thì cũng phải mất khá nhiều năm nữa để điều này trở thành hiện thực, nếu có thể."
+    },
+    {
+        "text": "sản xuất iPhone và các sản phẩm khác tại Hoa Kỳ",
+        "label": "EVENT",
+        "evidence": "Bất kể Apple cuối cùng có sử dụng cánh tay robot hay con người để sản xuất iPhone và các sản phẩm khác tại Hoa Kỳ hay không, thì cũng phải mất khá nhiều năm nữa để điều này trở thành hiện thực, nếu có thể."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Bất kể Apple cuối cùng có sử dụng cánh tay robot hay con người để sản xuất iPhone và các sản phẩm khác tại Hoa Kỳ hay không, thì cũng phải mất khá nhiều năm nữa để điều này trở thành hiện thực, nếu có thể."
+    },
+    {
+        "text": "thuế quan của Tổng thống Donald Trump có hiệu lực",
+        "label": "EVENT",
+        "evidence": "Khi thuế quan của Tổng thống Donald Trump có hiệu lực, Apple sẽ phải đối mặt với mức thuế nhập khẩu cao hơn."
+    },
+    {
+        "text": "Donald Trump",
+        "label": "PERSON",
+        "evidence": "Khi thuế quan của Tổng thống Donald Trump có hiệu lực, Apple sẽ phải đối mặt với mức thuế nhập khẩu cao hơn."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Khi thuế quan của Tổng thống Donald Trump có hiệu lực, Apple sẽ phải đối mặt với mức thuế nhập khẩu cao hơn."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Trên thực tế, trước đây đã có báo cáo rằng Apple đã vội vã vận chuyển những chiếc máy bay chở đầy iPhone từ Trung Quốc và Ấn Độ đến Hoa Kỳ để ngăn chặn điều không thể tránh khỏi."
+    },
+    {
+        "text": "Apple đã vội vã vận chuyển những chiếc máy bay chở đầy iPhone từ Trung Quốc và Ấn Độ đến Hoa Kỳ",
+        "label": "EVENT",
+        "evidence": "Trên thực tế, trước đây đã có báo cáo rằng Apple đã vội vã vận chuyển những chiếc máy bay chở đầy iPhone từ Trung Quốc và Ấn Độ đến Hoa Kỳ để ngăn chặn điều không thể tránh khỏi."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Trên thực tế, trước đây đã có báo cáo rằng Apple đã vội vã vận chuyển những chiếc máy bay chở đầy iPhone từ Trung Quốc và Ấn Độ đến Hoa Kỳ để ngăn chặn điều không thể tránh khỏi."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, có thông tin cho rằng Apple không muốn làm điều này trong dài hạn, đó là lý do tại sao Trump tin rằng Apple có thể chuyển hoạt động sản xuất iPhone trở lại Hoa Kỳ trong tương lai."
+    },
+    {
+        "text": "Trump",
+        "label": "PERSON",
+        "evidence": "Tuy nhiên, có thông tin cho rằng Apple không muốn làm điều này trong dài hạn, đó là lý do tại sao Trump tin rằng Apple có thể chuyển hoạt động sản xuất iPhone trở lại Hoa Kỳ trong tương lai."
+    },
+    {
+        "text": "Apple có thể chuyển hoạt động sản xuất iPhone trở lại Hoa Kỳ trong tương lai",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, có thông tin cho rằng Apple không muốn làm điều này trong dài hạn, đó là lý do tại sao Trump tin rằng Apple có thể chuyển hoạt động sản xuất iPhone trở lại Hoa Kỳ trong tương lai."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, có thông tin cho rằng Apple không muốn làm điều này trong dài hạn, đó là lý do tại sao Trump tin rằng Apple có thể chuyển hoạt động sản xuất iPhone trở lại Hoa Kỳ trong tương lai."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, vẫn chưa có kế hoạch cụ thể nào về cách Apple sẽ thực hiện điều này và gã khổng lồ công nghệ có trụ sở tại Cupertino vẫn chưa xác nhận bất kỳ điều gì về việc đưa hoạt động sản xuất iPhone trở lại Hoa Kỳ."
+    },
+    {
+        "text": "đưa hoạt động sản xuất iPhone trở lại Hoa Kỳ",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, vẫn chưa có kế hoạch cụ thể nào về cách Apple sẽ thực hiện điều này và gã khổng lồ công nghệ có trụ sở tại Cupertino vẫn chưa xác nhận bất kỳ điều gì về việc đưa hoạt động sản xuất iPhone trở lại Hoa Kỳ."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, vẫn chưa có kế hoạch cụ thể nào về cách Apple sẽ thực hiện điều này và gã khổng lồ công nghệ có trụ sở tại Cupertino vẫn chưa xác nhận bất kỳ điều gì về việc đưa hoạt động sản xuất iPhone trở lại Hoa Kỳ."
+    },
+    {
+        "text": "Trump",
+        "label": "PERSON",
+        "evidence": "Nếu Trump tiếp tục áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu, nhiều công ty, bao gồm cả Apple, sẽ không còn lựa chọn nào khác ngoài việc chuyển hoạt động sản xuất về nước, tăng giá hoặc tránh bán sản phẩm tại Hoa Kỳ hoàn toàn."
+    },
+    {
+        "text": "áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu",
+        "label": "EVENT",
+        "evidence": "Nếu Trump tiếp tục áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu, nhiều công ty, bao gồm cả Apple, sẽ không còn lựa chọn nào khác ngoài việc chuyển hoạt động sản xuất về nước, tăng giá hoặc tránh bán sản phẩm tại Hoa Kỳ hoàn toàn."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Nếu Trump tiếp tục áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu, nhiều công ty, bao gồm cả Apple, sẽ không còn lựa chọn nào khác ngoài việc chuyển hoạt động sản xuất về nước, tăng giá hoặc tránh bán sản phẩm tại Hoa Kỳ hoàn toàn."
+    },
+    {
+        "text": "chuyển hoạt động sản xuất về nước",
+        "label": "EVENT",
+        "evidence": "Nếu Trump tiếp tục áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu, nhiều công ty, bao gồm cả Apple, sẽ không còn lựa chọn nào khác ngoài việc chuyển hoạt động sản xuất về nước, tăng giá hoặc tránh bán sản phẩm tại Hoa Kỳ hoàn toàn."
+    },
+    {
+        "text": "tăng giá",
+        "label": "EVENT",
+        "evidence": "Nếu Trump tiếp tục áp dụng mức thuế quan lớn đối với hàng hóa nhập khẩu, nhiều công ty, bao gồm cả Apple, sẽ không còn lựa chọn nào khác ngoài việc chuyển hoạt động sản xuất về nước, tăng giá hoặc tránh bán sản phẩm tại Hoa Kỳ hoàn toàn."
+    },
+    {
+        "text": "TechTimes",
+        "label": "ORG",
+        "evidence": "Theo TechTimes, The Verge"
+    },
+    {
+        "text": "The Verge",
+        "label": "ORG",
+        "evidence": "Theo TechTimes, The Verge"
+    }
+]

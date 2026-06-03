@@ -1,0 +1,737 @@
+[
+    {
+        "text": "thị trường chứng khoán mở cửa phiên 14/02",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán mở cửa phiên 14/02 rơi vào trạng thái giằng co."
+    },
+    {
+        "text": "14/02",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán mở cửa phiên 14/02 rơi vào trạng thái giằng co."
+    },
+    {
+        "text": "đà giảm của VN-Index bị nới rộng",
+        "label": "EVENT",
+        "evidence": "Sang tới phiên chiều, áp lực bán dâng cao khiến đà giảm của VN-Index bị nới rộng."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "đà giảm của VN-Index bị nới rộng."
+    },
+    {
+        "text": "thanh khoản trên HoSE sụt giảm mạnh về mức thấp nhất trong vòng hơn 2 năm kể từ tháng 11/2020",
+        "label": "EVENT",
+        "evidence": "Tâm lý thận trọng của nhà đầu tư khiến thanh khoản trên HoSE sụt giảm mạnh về mức thấp nhất trong vòng hơn 2 năm kể từ tháng 11/2020"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "thanh khoản trên HoSE sụt giảm mạnh"
+    },
+    {
+        "text": "tháng 11/2020",
+        "label": "DATE",
+        "evidence": "hơn 2 năm kể từ tháng 11/2020"
+    },
+    {
+        "text": "giá trị khớp lệnh trên HoSE đạt xấp xỉ 5.490 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "giá trị khớp lệnh trên HoSE đạt xấp xỉ 5.490 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "giá trị khớp lệnh trên HoSE đạt xấp xỉ 5.490 tỷ đồng."
+    },
+    {
+        "text": "5.490 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt xấp xỉ 5.490 tỷ đồng."
+    },
+    {
+        "text": "VN-Index giảm 5,06 điểm (-0,48%) xuống 1.038,64 điểm",
+        "label": "EVENT",
+        "evidence": "VN-Index giảm 5,06 điểm (-0,48%) xuống 1.038,64 điểm"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index giảm 5,06 điểm"
+    },
+    {
+        "text": "5,06 điểm",
+        "label": "PRICE",
+        "evidence": "giảm 5,06 điểm"
+    },
+    {
+        "text": "-0,48%",
+        "label": "RATE",
+        "evidence": "(-0,48%)"
+    },
+    {
+        "text": "1.038,64 điểm",
+        "label": "PRICE",
+        "evidence": "xuống 1.038,64 điểm"
+    },
+    {
+        "text": "HNX-Index tăng 0,37 điểm lên 204,86 điểm",
+        "label": "EVENT",
+        "evidence": "HNX-Index tăng 0,37 điểm lên 204,86 điểm"
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index tăng 0,37 điểm"
+    },
+    {
+        "text": "0,37 điểm",
+        "label": "PRICE",
+        "evidence": "tăng 0,37 điểm"
+    },
+    {
+        "text": "204,86 điểm",
+        "label": "PRICE",
+        "evidence": "lên 204,86 điểm"
+    },
+    {
+        "text": "UpCOM-Index tăng 0,74 điểm lên 77,94 điểm",
+        "label": "EVENT",
+        "evidence": "UpCOM-Index tăng 0,74 điểm lên 77,94 điểm."
+    },
+    {
+        "text": "UpCOM-Index",
+        "label": "ASSET",
+        "evidence": "UpCOM-Index tăng 0,74 điểm"
+    },
+    {
+        "text": "0,74 điểm",
+        "label": "PRICE",
+        "evidence": "tăng 0,74 điểm"
+    },
+    {
+        "text": "77,94 điểm",
+        "label": "PRICE",
+        "evidence": "lên 77,94 điểm."
+    },
+    {
+        "text": "NĐT nước ngoài trở lại mua ròng hơn 77 tỷ đồng trên toàn thị trường",
+        "label": "EVENT",
+        "evidence": "nhóm NĐT nước ngoài trở lại mua ròng hơn 77 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "77 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng hơn 77 tỷ đồng"
+    },
+    {
+        "text": "Lực mua tập trung giải ngân vào HPG",
+        "label": "EVENT",
+        "evidence": "Lực mua tập trung giải ngân vào HPG"
+    },
+    {
+        "text": "HPG",
+        "label": "ORG",
+        "evidence": "giải ngân vào HPG"
+    },
+    {
+        "text": "HPG",
+        "label": "ASSET",
+        "evidence": "giải ngân vào HPG"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "giải ngân vào HPG"
+    },
+    {
+        "text": "bán ròng mạnh VIC",
+        "label": "EVENT",
+        "evidence": "bán ròng mạnh VIC."
+    },
+    {
+        "text": "VIC",
+        "label": "ORG",
+        "evidence": "bán ròng mạnh VIC."
+    },
+    {
+        "text": "VIC",
+        "label": "ASSET",
+        "evidence": "bán ròng mạnh VIC."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "bán ròng mạnh VIC."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE"
+    },
+    {
+        "text": "khối ngoại mua ròng với giá trị 56 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại mua ròng vớigiá trị 56tỷ đồng"
+    },
+    {
+        "text": "56 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 56tỷ đồng"
+    },
+    {
+        "text": "HPG được mua ròng mạnh nhất với giá trị 96 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "HPG được mua ròng mạnh nhất với giá trị 96 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "ORG",
+        "evidence": "HPG được mua ròng mạnh nhất"
+    },
+    {
+        "text": "HPG",
+        "label": "ASSET",
+        "evidence": "HPG được mua ròng mạnh nhất"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "HPG được mua ròng mạnh nhất"
+    },
+    {
+        "text": "96 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 96 tỷ đồng."
+    },
+    {
+        "text": "KBC xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 22 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "KBC xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 22 tỷ đồng."
+    },
+    {
+        "text": "KBC",
+        "label": "ORG",
+        "evidence": "KBC xếp tiếp theo danh sách mua ròng mạnh"
+    },
+    {
+        "text": "KBC",
+        "label": "ASSET",
+        "evidence": "KBC xếp tiếp theo danh sách mua ròng mạnh"
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "KBC xếp tiếp theo danh sách mua ròng mạnh"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "mua ròng mạnh trên HoSE"
+    },
+    {
+        "text": "22 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với 22 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại cũng mua ròng VND, HSG, MSN với giá trị lần lượt 19, 14 và 12 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại cũng mua ròng VND, HSG, MSN với giá trị lần lượt 19, 14 và 12 tỷ đồng."
+    },
+    {
+        "text": "VND",
+        "label": "ORG",
+        "evidence": "mua ròng VND"
+    },
+    {
+        "text": "VND",
+        "label": "ASSET",
+        "evidence": "mua ròng VND"
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "mua ròng VND"
+    },
+    {
+        "text": "HSG",
+        "label": "ORG",
+        "evidence": "HSG"
+    },
+    {
+        "text": "HSG",
+        "label": "ASSET",
+        "evidence": "HSG"
+    },
+    {
+        "text": "HSG",
+        "label": "TICKER",
+        "evidence": "HSG"
+    },
+    {
+        "text": "MSN",
+        "label": "ORG",
+        "evidence": "MSN"
+    },
+    {
+        "text": "MSN",
+        "label": "ASSET",
+        "evidence": "MSN"
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "MSN"
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt 19, 14 và 12 tỷ đồng."
+    },
+    {
+        "text": "14 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt 19, 14 và 12 tỷ đồng."
+    },
+    {
+        "text": "12 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt 19, 14 và 12 tỷ đồng."
+    },
+    {
+        "text": "VIC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 43 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VIC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 43 tỷ đồng."
+    },
+    {
+        "text": "VIC",
+        "label": "ORG",
+        "evidence": "VIC chịu áp lực bán ròng mạnh nhất"
+    },
+    {
+        "text": "VIC",
+        "label": "ASSET",
+        "evidence": "VIC chịu áp lực bán ròng mạnh nhất"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "VIC chịu áp lực bán ròng mạnh nhất"
+    },
+    {
+        "text": "43 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 43 tỷ đồng."
+    },
+    {
+        "text": "STB và VHM bị bán khoảng 40 tỷ và 35 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "STB và VHM bị bán khoảng 40 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "STB và VHM bị bán"
+    },
+    {
+        "text": "STB",
+        "label": "ASSET",
+        "evidence": "STB và VHM bị bán"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB và VHM bị bán"
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "VHM bị bán"
+    },
+    {
+        "text": "VHM",
+        "label": "ASSET",
+        "evidence": "VHM bị bán"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM bị bán"
+    },
+    {
+        "text": "40 tỷ",
+        "label": "MONEY",
+        "evidence": "khoảng 40 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "35 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 40 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX"
+    },
+    {
+        "text": "khối ngoại mua ròng hơn 15 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại mua ròng hơn 15 tỷ đồng"
+    },
+    {
+        "text": "15 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 15 tỷ đồng"
+    },
+    {
+        "text": "IDC được khối ngoại mua ròng với giá trị 6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "IDC được khối ngoại mua ròng với giá trị 6 tỷ đồng"
+    },
+    {
+        "text": "IDC",
+        "label": "ORG",
+        "evidence": "IDC được khối ngoại mua ròng"
+    },
+    {
+        "text": "IDC",
+        "label": "ASSET",
+        "evidence": "IDC được khối ngoại mua ròng"
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "IDC được khối ngoại mua ròng"
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 6 tỷ đồng"
+    },
+    {
+        "text": "dòng vốn ngoại cò﻿n tìm tới CEO, TNG, PVS với giá trị mua ròng đạt một vài tỷ đồng",
+        "label": "EVENT",
+        "evidence": "dòng vốn ngoại cò﻿n tìm tới CEO, TNG, PVS với giá trị mua ròng đạt một vài tỷ đồng."
+    },
+    {
+        "text": "CEO",
+        "label": "ORG",
+        "evidence": "tìm tới CEO"
+    },
+    {
+        "text": "CEO",
+        "label": "ASSET",
+        "evidence": "tìm tới CEO"
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "tìm tới CEO"
+    },
+    {
+        "text": "TNG",
+        "label": "ORG",
+        "evidence": "TNG"
+    },
+    {
+        "text": "TNG",
+        "label": "ASSET",
+        "evidence": "TNG"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "TNG"
+    },
+    {
+        "text": "PVS",
+        "label": "ORG",
+        "evidence": "PVS"
+    },
+    {
+        "text": "PVS",
+        "label": "ASSET",
+        "evidence": "PVS"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVS"
+    },
+    {
+        "text": "một vài tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt một vài tỷ đồng."
+    },
+    {
+        "text": "THD bị bán ròng 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "THD bị bán ròng 2 tỷ đồng."
+    },
+    {
+        "text": "THD",
+        "label": "ORG",
+        "evidence": "THD bị bán ròng"
+    },
+    {
+        "text": "THD",
+        "label": "ASSET",
+        "evidence": "THD bị bán ròng"
+    },
+    {
+        "text": "THD",
+        "label": "TICKER",
+        "evidence": "THD bị bán ròng"
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "2 tỷ đồng."
+    },
+    {
+        "text": "NVB, VCS, ONE,... bị bán ròng hàng trăm triệu trên HNX",
+        "label": "EVENT",
+        "evidence": "NVB, VCS, ONE,... bị bán ròng hàng trăm triệu trên HNX."
+    },
+    {
+        "text": "NVB",
+        "label": "ORG",
+        "evidence": "NVB, VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "NVB",
+        "label": "ASSET",
+        "evidence": "NVB, VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "NVB, VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "VCS",
+        "label": "ORG",
+        "evidence": "VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "VCS",
+        "label": "ASSET",
+        "evidence": "VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "VCS",
+        "label": "TICKER",
+        "evidence": "VCS, ONE,... bị bán ròng"
+    },
+    {
+        "text": "ONE",
+        "label": "ORG",
+        "evidence": "ONE,... bị bán ròng"
+    },
+    {
+        "text": "ONE",
+        "label": "ASSET",
+        "evidence": "ONE,... bị bán ròng"
+    },
+    {
+        "text": "ONE",
+        "label": "TICKER",
+        "evidence": "ONE,... bị bán ròng"
+    },
+    {
+        "text": "hàng trăm triệu",
+        "label": "MONEY",
+        "evidence": "bán ròng hàng trăm triệu trên HNX."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "trên HNX."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM"
+    },
+    {
+        "text": "khối ngoại mua ròng hơn 6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại mua ròng hơn 6 tỷ đồng"
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 6 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu QNS và BSR hôm nay được khối ngoại mua 3 tỷ đồng mỗi mã",
+        "label": "EVENT",
+        "evidence": "cổ phiếu QNS và BSR hôm nay được khối ngoại mua 3 tỷ đồng mỗi mã"
+    },
+    {
+        "text": "cổ phiếu QNS",
+        "label": "ASSET",
+        "evidence": "cổ phiếu QNS và BSR"
+    },
+    {
+        "text": "QNS",
+        "label": "ORG",
+        "evidence": "cổ phiếu QNS"
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "cổ phiếu QNS"
+    },
+    {
+        "text": "BSR",
+        "label": "ORG",
+        "evidence": "BSR hôm nay"
+    },
+    {
+        "text": "BSR",
+        "label": "ASSET",
+        "evidence": "cổ phiếu QNS và BSR"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "BSR hôm nay"
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "BSR hôm nay được khối ngoại mua"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "3 tỷ đồng mỗi mã"
+    },
+    {
+        "text": "VEA, TCW, CNC cũng đồng loạt được mua ròng mỗi cổ phiếu vài trăm triệu đồng",
+        "label": "EVENT",
+        "evidence": "VEA, TCW, CNC cũng đồng loạt được mua ròng mỗi cổ phiếu vài trăm triệu đồng."
+    },
+    {
+        "text": "VEA",
+        "label": "ORG",
+        "evidence": "VEA, TCW, CNC"
+    },
+    {
+        "text": "VEA",
+        "label": "ASSET",
+        "evidence": "VEA, TCW, CNC"
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "VEA, TCW, CNC"
+    },
+    {
+        "text": "TCW",
+        "label": "ORG",
+        "evidence": "TCW, CNC"
+    },
+    {
+        "text": "TCW",
+        "label": "ASSET",
+        "evidence": "VEA, TCW, CNC"
+    },
+    {
+        "text": "TCW",
+        "label": "TICKER",
+        "evidence": "TCW, CNC"
+    },
+    {
+        "text": "CNC",
+        "label": "ORG",
+        "evidence": "CNC cũng đồng loạt"
+    },
+    {
+        "text": "CNC",
+        "label": "ASSET",
+        "evidence": "VEA, TCW, CNC"
+    },
+    {
+        "text": "CNC",
+        "label": "TICKER",
+        "evidence": "CNC cũng đồng loạt"
+    },
+    {
+        "text": "vài trăm triệu đồng",
+        "label": "MONEY",
+        "evidence": "mỗi cổ phiếu vài trăm triệu đồng."
+    },
+    {
+        "text": "ACV, VTP, OIL, VGI,... hôm nay bị khối ngoại bán ròng với giá trị không đáng kể",
+        "label": "EVENT",
+        "evidence": "ACV, VTP, OIL, VGI,... hôm nay bị khối ngoại bán ròng với giá trị không đáng kể."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "ACV",
+        "label": "ASSET",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "VTP",
+        "label": "ORG",
+        "evidence": "VTP, OIL, VGI,..."
+    },
+    {
+        "text": "VTP",
+        "label": "ASSET",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "VTP, OIL, VGI,..."
+    },
+    {
+        "text": "OIL",
+        "label": "ORG",
+        "evidence": "OIL, VGI,..."
+    },
+    {
+        "text": "OIL",
+        "label": "ASSET",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "OIL",
+        "label": "TICKER",
+        "evidence": "OIL, VGI,..."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "VGI,... hôm nay"
+    },
+    {
+        "text": "VGI",
+        "label": "ASSET",
+        "evidence": "ACV, VTP, OIL, VGI,..."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "VGI,... hôm nay"
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "hôm nay bị khối ngoại bán ròng"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Ngày 1-4",
+        "label": "DATE",
+        "evidence": "Ngày 1-4, các công ty kinh doanh gas đầu mối đồng loạt áp dụng bảng giá mới sau khi giá gas thế giới chốt theo hợp đồng (CP) giảm."
+    },
+    {
+        "text": "các công ty kinh doanh gas đầu mối đồng loạt áp dụng bảng giá mới",
+        "label": "EVENT",
+        "evidence": "Ngày 1-4, các công ty kinh doanh gas đầu mối đồng loạt áp dụng bảng giá mới sau khi giá gas thế giới chốt theo hợp đồng (CP) giảm."
+    },
+    {
+        "text": "giá gas thế giới chốt theo hợp đồng (CP) giảm",
+        "label": "EVENT",
+        "evidence": "Ngày 1-4, các công ty kinh doanh gas đầu mối đồng loạt áp dụng bảng giá mới sau khi giá gas thế giới chốt theo hợp đồng (CP) giảm."
+    },
+    {
+        "text": "617,5 USD/tấn",
+        "label": "PRICE",
+        "evidence": "Cụ thể, giá CP tháng 4 chốt ở mức 617,5 USD/tấn, giảm 17,5 USD/tấn so với tháng 3."
+    },
+    {
+        "text": "giảm 17,5 USD/tấn",
+        "label": "RATE",
+        "evidence": "Cụ thể, giá CP tháng 4 chốt ở mức 617,5 USD/tấn, giảm 17,5 USD/tấn so với tháng 3."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Cụ thể, giá CP tháng 4 chốt ở mức 617,5 USD/tấn, giảm 17,5 USD/tấn so với tháng 3."
+    },
+    {
+        "text": "giá gas bán lẻ trong nước tháng 4 cũng được điều chỉnh giảm",
+        "label": "EVENT",
+        "evidence": "Theo đó, giá gas bán lẻ trong nước tháng 4 cũng được điều chỉnh giảm khoảng 417 đồng/kg (đã bao gồm thuế GTGT), tương ứng 5.000 đồng/bình 12 kg – loại sử dụng phổ biến trong các bếp ăn gia đình và 19.000 đồng/bình 45 kg – loại dùng trong các chuỗi nhà hàng, khách sạn, khu công nghiệp."
+    },
+    {
+        "text": "khoảng 417 đồng/kg",
+        "label": "RATE",
+        "evidence": "Theo đó, giá gas bán lẻ trong nước tháng 4 cũng được điều chỉnh giảm khoảng 417 đồng/kg (đã bao gồm thuế GTGT), tương ứng 5.000 đồng/bình 12 kg – loại sử dụng phổ biến trong các bếp ăn gia đình và 19.000 đồng/bình 45 kg – loại dùng trong các chuỗi nhà hàng, khách sạn, khu công nghiệp."
+    },
+    {
+        "text": "5.000 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "Theo đó, giá gas bán lẻ trong nước tháng 4 cũng được điều chỉnh giảm khoảng 417 đồng/kg (đã bao gồm thuế GTGT), tương ứng 5.000 đồng/bình 12 kg – loại sử dụng phổ biến trong các bếp ăn gia đình và 19.000 đồng/bình 45 kg – loại dùng trong các chuỗi nhà hàng, khách sạn, khu công nghiệp."
+    },
+    {
+        "text": "19.000 đồng/bình 45 kg",
+        "label": "PRICE",
+        "evidence": "Theo đó, giá gas bán lẻ trong nước tháng 4 cũng được điều chỉnh giảm khoảng 417 đồng/kg (đã bao gồm thuế GTGT), tương ứng 5.000 đồng/bình 12 kg – loại sử dụng phổ biến trong các bếp ăn gia đình và 19.000 đồng/bình 45 kg – loại dùng trong các chuỗi nhà hàng, khách sạn, khu công nghiệp."
+    },
+    {
+        "text": "Giá gas tháng 4 giảm",
+        "label": "EVENT",
+        "evidence": "Giá gas tháng 4 giảm"
+    },
+    {
+        "text": "430.000-440.000 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "Sau điều chỉnh, giá gas bán lẻ của các thương hiệu phổ biến ở mức 430.000-440.000 đồng/bình 12 kg (vỏ bình màu xám) và 450.000 – 460.000 đồng/bình 12 kg (vỏ bình các màu khác như: vàng, hồng, đỏ,…)"
+    },
+    {
+        "text": "450.000 – 460.000 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "Sau điều chỉnh, giá gas bán lẻ của các thương hiệu phổ biến ở mức 430.000-440.000 đồng/bình 12 kg (vỏ bình màu xám) và 450.000 – 460.000 đồng/bình 12 kg (vỏ bình các màu khác như: vàng, hồng, đỏ,…)"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Hiện nay, nguồn gas cung cấp trong nước đã đáp ứng được khoảng 60% nhu cầu, còn lại là nhập khẩu."
+    },
+    {
+        "text": "giá CP",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, công thức tính giá gas trong nước dựa trên giá gas thế giới nên bị ảnh hưởng các yếu tố như: giá CP, tỉ giá USD/VNĐ và chi phí vận chuyển."
+    },
+    {
+        "text": "tỉ giá USD/VNĐ",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, công thức tính giá gas trong nước dựa trên giá gas thế giới nên bị ảnh hưởng các yếu tố như: giá CP, tỉ giá USD/VNĐ và chi phí vận chuyển."
+    }
+]

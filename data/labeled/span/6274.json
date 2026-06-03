@@ -1,0 +1,77 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank vừa thông báo về việc đóng tài khoản thanh toán cá nhân."
+    },
+    {
+        "text": "thông báo về việc đóng tài khoản thanh toán cá nhân",
+        "label": "EVENT",
+        "evidence": "Sacombank vừa thông báo về việc đóng tài khoản thanh toán cá nhân."
+    },
+    {
+        "text": "11/7/2025",
+        "label": "DATE",
+        "evidence": "Theo đó, từ ngày 11/7/2025, ngân hàng sẽ đóng các tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong thời gian ít nhất 6 tháng kể từ thời điểm tài khoản có số dư bằng 0, căn cứ theo thỏa thuận mở và sử dụng tài khoản giữa Sacombank và khách hàng (khoản 2 Điều 5 tại Phụ lục điều khoản và điều kiện đính kèm phiếu đăng ký kiêm hợp đồng sử dụng dịch vụ)."
+    },
+    {
+        "text": "đóng các tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong thời gian ít nhất 6 tháng",
+        "label": "EVENT",
+        "evidence": "Theo đó, từ ngày 11/7/2025, ngân hàng sẽ đóng các tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong thời gian ít nhất 6 tháng kể từ thời điểm tài khoản có số dư bằng 0, căn cứ theo thỏa thuận mở và sử dụng tài khoản giữa Sacombank và khách hàng (khoản 2 Điều 5 tại Phụ lục điều khoản và điều kiện đính kèm phiếu đăng ký kiêm hợp đồng sử dụng dịch vụ)."
+    },
+    {
+        "text": "số dư bằng 0",
+        "label": "MONEY",
+        "evidence": "Theo đó, từ ngày 11/7/2025, ngân hàng sẽ đóng các tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong thời gian ít nhất 6 tháng kể từ thời điểm tài khoản có số dư bằng 0, căn cứ theo thỏa thuận mở và sử dụng tài khoản giữa Sacombank và khách hàng (khoản 2 Điều 5 tại Phụ lục điều khoản và điều kiện đính kèm phiếu đăng ký kiêm hợp đồng sử dụng dịch vụ)."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Theo đó, từ ngày 11/7/2025, ngân hàng sẽ đóng các tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong thời gian ít nhất 6 tháng kể từ thời điểm tài khoản có số dư bằng 0, căn cứ theo thỏa thuận mở và sử dụng tài khoản giữa Sacombank và khách hàng (khoản 2 Điều 5 tại Phụ lục điều khoản và điều kiện đính kèm phiếu đăng ký kiêm hợp đồng sử dụng dịch vụ)."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "...căn cứ theo thỏa thuận mở và sử dụng tài khoản giữa Sacombank và khách hàng (khoản 2 Điều 5 tại Phụ lục điều khoản và điều kiện đính kèm phiếu đăng ký kiêm hợp đồng sử dụng dịch vụ)."
+    },
+    {
+        "text": "11/7/2025",
+        "label": "DATE",
+        "evidence": "Nếu khách hàng vẫn còn nhu cầu sử dụng thì thực hiện các giao dịch bổ sung nộp tiền/chuyển khoản vào tài khoản để tiếp tục duy trì mọi giao dịch liên quan trước 11/7/2025."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sau thời gian này, Sacombank sẽ thực hiện đóng tài khoản theo quy định."
+    },
+    {
+        "text": "đóng tài khoản theo quy định",
+        "label": "EVENT",
+        "evidence": "Sau thời gian này, Sacombank sẽ thực hiện đóng tài khoản theo quy định."
+    },
+    {
+        "text": "đóng tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch",
+        "label": "EVENT",
+        "evidence": "Việc đóng tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong một khoảng thời gian nhất định là thông lệ phổ biến tại nhiều ngân hàng ở Việt Nam nhằm tối ưu hóa quản lý tài khoản và giảm chi phí vận hành."
+    },
+    {
+        "text": "số dư bằng 0",
+        "label": "MONEY",
+        "evidence": "Việc đóng tài khoản thanh toán có số dư bằng 0 và không phát sinh giao dịch trong một khoảng thời gian nhất định là thông lệ phổ biến tại nhiều ngân hàng ở Việt Nam nhằm tối ưu hóa quản lý tài khoản và giảm chi phí vận hành."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Tùy thuộc vào từng ngân hàng, tài khoản thanh toán cá nhân không giao dịch trong 12 tháng liên tục hoặc 6 tháng liên tục và có số dư bằng 0 sẽ bị đóng tự động."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Tùy thuộc vào từng ngân hàng, tài khoản thanh toán cá nhân không giao dịch trong 12 tháng liên tục hoặc 6 tháng liên tục và có số dư bằng 0 sẽ bị đóng tự động."
+    },
+    {
+        "text": "số dư bằng 0",
+        "label": "MONEY",
+        "evidence": "Tùy thuộc vào từng ngân hàng, tài khoản thanh toán cá nhân không giao dịch trong 12 tháng liên tục hoặc 6 tháng liên tục và có số dư bằng 0 sẽ bị đóng tự động."
+    }
+]

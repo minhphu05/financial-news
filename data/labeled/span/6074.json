@@ -1,0 +1,382 @@
+[
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tuần trước,Tập đoàn FPTđã tổ chức cuộc họp chuyên viên phân tích."
+    },
+    {
+        "text": "cuộc họp chuyên viên phân tích",
+        "label": "EVENT",
+        "evidence": "Tuần trước,Tập đoàn FPTđã tổ chức cuộc họp chuyên viên phân tích."
+    },
+    {
+        "text": "Công ty chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Sau cuộc họp, Công ty chứng khoán SSI đã có báo cáo cập nhật kế hoạch của FPT trong năm 2025."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Sau cuộc họp, Công ty chứng khoán SSI đã có báo cáo cập nhật kế hoạch của FPT trong năm 2025."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Sau cuộc họp, Công ty chứng khoán SSI đã có báo cáo cập nhật kế hoạch của FPT trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Sau cuộc họp, Công ty chứng khoán SSI đã có báo cáo cập nhật kế hoạch của FPT trong năm 2025."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Theo đó, SSI cho biết, doanh thu và lợi nhuận trước thuế năm 2025 được kỳ vọng lần lượt đạt mức tăng trưởng 20% và 21% so với cùng kỳ, tiếp tục được thúc đẩy nhờ mảng công nghệ thông tin."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Theo đó, SSI cho biết, doanh thu và lợi nhuận trước thuế năm 2025 được kỳ vọng lần lượt đạt mức tăng trưởng 20% và 21% so với cùng kỳ, tiếp tục được thúc đẩy nhờ mảng công nghệ thông tin."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Theo đó, SSI cho biết, doanh thu và lợi nhuận trước thuế năm 2025 được kỳ vọng lần lượt đạt mức tăng trưởng 20% và 21% so với cùng kỳ, tiếp tục được thúc đẩy nhờ mảng công nghệ thông tin."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Theo đó, SSI cho biết, doanh thu và lợi nhuận trước thuế năm 2025 được kỳ vọng lần lượt đạt mức tăng trưởng 20% và 21% so với cùng kỳ, tiếp tục được thúc đẩy nhờ mảng công nghệ thông tin."
+    },
+    {
+        "text": "27-30%",
+        "label": "RATE",
+        "evidence": "Ban lãnh đạo dự báo doanh thu tăng mạnh tại thị trường nước ngoài, khoảng 27-30% so với cùng kỳ đối với Nhật Bản và 25-30% so với cùng kỳ đối với Châu Âu và APAC."
+    },
+    {
+        "text": "25-30%",
+        "label": "RATE",
+        "evidence": "Ban lãnh đạo dự báo doanh thu tăng mạnh tại thị trường nước ngoài, khoảng 27-30% so với cùng kỳ đối với Nhật Bản và 25-30% so với cùng kỳ đối với Châu Âu và APAC."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đối với Châu Mỹ, FPT cho rằng chi tiêu công nghệ thông tin của Mỹ sẽ cải thiện dưới thời Tổng thống Trump, qua đó hỗ trợ tăng trưởng 20% so với cùng kỳ (cao hơn so với năm 2024)."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Đối với Châu Mỹ, FPT cho rằng chi tiêu công nghệ thông tin của Mỹ sẽ cải thiện dưới thời Tổng thống Trump, qua đó hỗ trợ tăng trưởng 20% so với cùng kỳ (cao hơn so với năm 2024)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đối với Châu Mỹ, FPT cho rằng chi tiêu công nghệ thông tin của Mỹ sẽ cải thiện dưới thời Tổng thống Trump, qua đó hỗ trợ tăng trưởng 20% so với cùng kỳ (cao hơn so với năm 2024)."
+    },
+    {
+        "text": "25-30%",
+        "label": "RATE",
+        "evidence": "Mức tăng trưởng kế hoạch cho giá trị hợp đồng ký mới là khoảng 25-30% so với cùng kỳ."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Ngoài ra, 2025 có thể cũng sẽ là một năm tích cực đối với công nghệ thông tin trong nước, nhờ sự phục hồi đến từ khu vực công và các doanh nghiệp trong nước, và việc đi vào hoạt động của FPT AI Factory."
+    },
+    {
+        "text": "đi vào hoạt động của FPT AI Factory",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, 2025 có thể cũng sẽ là một năm tích cực đối với công nghệ thông tin trong nước, nhờ sự phục hồi đến từ khu vực công và các doanh nghiệp trong nước, và việc đi vào hoạt động của FPT AI Factory."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "Ngoài ra, 2025 có thể cũng sẽ là một năm tích cực đối với công nghệ thông tin trong nước, nhờ sự phục hồi đến từ khu vực công và các doanh nghiệp trong nước, và việc đi vào hoạt động của FPT AI Factory."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT dự báo số lượng thuê bao tiếp tục tăng trưởng, kết quả kinh doanh của Pay TV và trung tâm dữ liệu tiếp tục cải thiện, cũng như đóng góp doanh thu từ lĩnh vực mới, dịch vụ lưu trữ Cloud Camera."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Theo SSI, dịch vụ này là một trong những thành phần quan trọng của sản phẩm công nghệ FPT Camera (ra mắt năm 2019), cung cấp dịch vụ tiện lợi/thông minh cho việc giám sát và bảo mật thông tin."
+    },
+    {
+        "text": "FPT Camera",
+        "label": "ASSET",
+        "evidence": "Theo SSI, dịch vụ này là một trong những thành phần quan trọng của sản phẩm công nghệ FPT Camera (ra mắt năm 2019), cung cấp dịch vụ tiện lợi/thông minh cho việc giám sát và bảo mật thông tin."
+    },
+    {
+        "text": "ra mắt năm 2019",
+        "label": "EVENT",
+        "evidence": "Theo SSI, dịch vụ này là một trong những thành phần quan trọng của sản phẩm công nghệ FPT Camera (ra mắt năm 2019), cung cấp dịch vụ tiện lợi/thông minh cho việc giám sát và bảo mật thông tin."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Theo SSI, dịch vụ này là một trong những thành phần quan trọng của sản phẩm công nghệ FPT Camera (ra mắt năm 2019), cung cấp dịch vụ tiện lợi/thông minh cho việc giám sát và bảo mật thông tin."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài ra, FPT đang thảo luận với một số đối tác để xây dựng một trung tâm dữ liệu quy mô lớn, mà chúng tôi cho rằng đây sẽ là động lực tăng trưởng dài hạn đối với lĩnh vực trung tâm dữ liệu."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Do mảng giáo dục gặp nhiều khó khăn trong năm 2024, FPT kỳ vọng doanh thu đi ngang hoặc tăng trưởng 1 chữ số trong năm 2025."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Do mảng giáo dục gặp nhiều khó khăn trong năm 2024, FPT kỳ vọng doanh thu đi ngang hoặc tăng trưởng 1 chữ số trong năm 2025."
+    },
+    {
+        "text": "1 chữ số",
+        "label": "RATE",
+        "evidence": "Do mảng giáo dục gặp nhiều khó khăn trong năm 2024, FPT kỳ vọng doanh thu đi ngang hoặc tăng trưởng 1 chữ số trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Do mảng giáo dục gặp nhiều khó khăn trong năm 2024, FPT kỳ vọng doanh thu đi ngang hoặc tăng trưởng 1 chữ số trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, ban lãnh đạo kỳ vọng tình hình tuyển sinh sẽ phục hồi trong năm 2025."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài việc tiếp tục mở rộng các trường K-12, FPT đặt kế hoạch thực hiện các chương trình tiếp thị và mở rộng danh mục giáo dục của mình, đặc biệt là các lĩnh vực mà chính phủ Việt Nam đang nỗ lực thu hút đầu tư nhiều hơn, như bán dẫn và các lĩnh vực công nghệ cao. SSI cho biết FPT đã tuyển được khoảng 1.500 sinh viên ngành bán dẫn trong năm 2024."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Ngoài việc tiếp tục mở rộng các trường K-12, FPT đặt kế hoạch thực hiện các chương trình tiếp thị và mở rộng danh mục giáo dục của mình, đặc biệt là các lĩnh vực mà chính phủ Việt Nam đang nỗ lực thu hút đầu tư nhiều hơn, như bán dẫn và các lĩnh vực công nghệ cao. SSI cho biết FPT đã tuyển được khoảng 1.500 sinh viên ngành bán dẫn trong năm 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài việc tiếp tục mở rộng các trường K-12, FPT đặt kế hoạch thực hiện các chương trình tiếp thị và mở rộng danh mục giáo dục của mình, đặc biệt là các lĩnh vực mà chính phủ Việt Nam đang nỗ lực thu hút đầu tư nhiều hơn, như bán dẫn và các lĩnh vực công nghệ cao. SSI cho biết FPT đã tuyển được khoảng 1.500 sinh viên ngành bán dẫn trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Ngoài việc tiếp tục mở rộng các trường K-12, FPT đặt kế hoạch thực hiện các chương trình tiếp thị và mở rộng danh mục giáo dục của mình, đặc biệt là các lĩnh vực mà chính phủ Việt Nam đang nỗ lực thu hút đầu tư nhiều hơn, như bán dẫn và các lĩnh vực công nghệ cao. SSI cho biết FPT đã tuyển được khoảng 1.500 sinh viên ngành bán dẫn trong năm 2024."
+    },
+    {
+        "text": "DeepSeek",
+        "label": "ASSET",
+        "evidence": "DeepSeek có thể là một điểm cộng cho FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "DeepSeek có thể là một điểm cộng cho FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo FPT, sự ra đời của DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "DeepSeek",
+        "label": "ASSET",
+        "evidence": "Theo FPT, sự ra đời của DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "Theo FPT, sự ra đời của DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "DeepSeek",
+        "label": "ASSET",
+        "evidence": "Mặt khác, sự xuất hiện của các mô hình AI chi phí thấp tương tự như DeepSeek có thể thúc đẩy việc ứng dụng AI hơn trong các doanh nghiệp/tổ chức, cho thấy cơ hội của các công ty công nghệ, bao gồm lĩnh vực AI của FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mặt khác, sự xuất hiện của các mô hình AI chi phí thấp tương tự như DeepSeek có thể thúc đẩy việc ứng dụng AI hơn trong các doanh nghiệp/tổ chức, cho thấy cơ hội của các công ty công nghệ, bao gồm lĩnh vực AI của FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Để nắm bắt cơ hội này, FPT đã thực hiện nhiều phương án để chuẩn bị nguồn nhân lực AI, bao gồm cung cấp giáo dục cấp đại học (như Đại học FPT AI Quy Nhơn, ra mắt năm 2021), cung cấp các chương trình đào tạo nội bộ cho nhân viên, hợp tác với các tổ chức toàn cầu trong lĩnh vực đào tạo nhân lực AI cũng như tuyển dụng nhân viên công nghệ thông tin có trình độ học vấn ở nước ngoài."
+    },
+    {
+        "text": "Đại học FPT AI Quy Nhơn",
+        "label": "ORG",
+        "evidence": "Để nắm bắt cơ hội này, FPT đã thực hiện nhiều phương án để chuẩn bị nguồn nhân lực AI, bao gồm cung cấp giáo dục cấp đại học (như Đại học FPT AI Quy Nhơn, ra mắt năm 2021), cung cấp các chương trình đào tạo nội bộ cho nhân viên, hợp tác với các tổ chức toàn cầu trong lĩnh vực đào tạo nhân lực AI cũng như tuyển dụng nhân viên công nghệ thông tin có trình độ học vấn ở nước ngoài."
+    },
+    {
+        "text": "ra mắt năm 2021",
+        "label": "EVENT",
+        "evidence": "Để nắm bắt cơ hội này, FPT đã thực hiện nhiều phương án để chuẩn bị nguồn nhân lực AI, bao gồm cung cấp giáo dục cấp đại học (như Đại học FPT AI Quy Nhơn, ra mắt năm 2021), cung cấp các chương trình đào tạo nội bộ cho nhân viên, hợp tác với các tổ chức toàn cầu trong lĩnh vực đào tạo nhân lực AI cũng như tuyển dụng nhân viên công nghệ thông tin có trình độ học vấn ở nước ngoài."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Để nắm bắt cơ hội này, FPT đã thực hiện nhiều phương án để chuẩn bị nguồn nhân lực AI, bao gồm cung cấp giáo dục cấp đại học (như Đại học FPT AI Quy Nhơn, ra mắt năm 2021), cung cấp các chương trình đào tạo nội bộ cho nhân viên, hợp tác với các tổ chức toàn cầu trong lĩnh vực đào tạo nhân lực AI cũng như tuyển dụng nhân viên công nghệ thông tin có trình độ học vấn ở nước ngoài."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI cho biết, doanh thu liên quan đến AI hiện chiếm khoảng 12% doanh thu chuyển đổi số (DX) (5%-6% doanh thu công nghệ thông tin toàn cầu)."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "SSI cho biết, doanh thu liên quan đến AI hiện chiếm khoảng 12% doanh thu chuyển đổi số (DX) (5%-6% doanh thu công nghệ thông tin toàn cầu)."
+    },
+    {
+        "text": "5%-6%",
+        "label": "RATE",
+        "evidence": "SSI cho biết, doanh thu liên quan đến AI hiện chiếm khoảng 12% doanh thu chuyển đổi số (DX) (5%-6% doanh thu công nghệ thông tin toàn cầu)."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "FPT AI Factory triển khai chậm hơn dự kiến"
+    },
+    {
+        "text": "AI Factory",
+        "label": "ORG",
+        "evidence": "Dự án AI Factory được triển khai tại Việt Nam và Nhật Bản (FPT gọi là hai dự án NCP)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Dự án AI Factory được triển khai tại Việt Nam và Nhật Bản (FPT gọi là hai dự án NCP)."
+    },
+    {
+        "text": "giữa tháng 2/2025",
+        "label": "DATE",
+        "evidence": "Theo ban lãnh đạo, tính đến giữa tháng 2/2025, dự án NCP tại Việt Nam đã hoàn thành lắp đặt, trong khi dự án tại Nhật Bản dự kiến hoàn thành vào giữa tháng 3/2025, cho thấy tiến độ triển khai chậm hơn dự kiến."
+    },
+    {
+        "text": "giữa tháng 3/2025",
+        "label": "DATE",
+        "evidence": "Theo ban lãnh đạo, tính đến giữa tháng 2/2025, dự án NCP tại Việt Nam đã hoàn thành lắp đặt, trong khi dự án tại Nhật Bản dự kiến hoàn thành vào giữa tháng 3/2025, cho thấy tiến độ triển khai chậm hơn dự kiến."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Trước đó, SSI dự báo dự án sẽ bắt đầu hoạt động vào tháng 1/2025."
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "Trước đó, SSI dự báo dự án sẽ bắt đầu hoạt động vào tháng 1/2025."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT cũng đặt mục tiêu ghi nhận doanh thu đầu tiên trong Q1/2025."
+    },
+    {
+        "text": "Q1/2025",
+        "label": "DATE",
+        "evidence": "FPT cũng đặt mục tiêu ghi nhận doanh thu đầu tiên trong Q1/2025."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Triển vọng lợi nhuận 2025"
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "SSI giảm ước tính lợi nhuận trước thuế FPT năm 2025 xuống 3% so với ước tính trước đó, chủ yếu do giảm ước tính doanh thu dự án FPT AI Factory và mảng giáo dục, do tiến độ triển khai FPT AI Factory chậm hơn dự kiến và việc tuyển sinh còn khó khăn tại hệ thống giáo dục FPT trong năm 2024."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "Với FPT AI Factory, SSI điều chỉnh giảm ước tính doanh thu dự án này xuống còn 35 triệu USD (từ gần 100 triệu USD)."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Với FPT AI Factory, SSI điều chỉnh giảm ước tính doanh thu dự án này xuống còn 35 triệu USD (từ gần 100 triệu USD)."
+    },
+    {
+        "text": "35 triệu USD",
+        "label": "MONEY",
+        "evidence": "Với FPT AI Factory, SSI điều chỉnh giảm ước tính doanh thu dự án này xuống còn 35 triệu USD (từ gần 100 triệu USD)."
+    },
+    {
+        "text": "gần 100 triệu USD",
+        "label": "MONEY",
+        "evidence": "Với FPT AI Factory, SSI điều chỉnh giảm ước tính doanh thu dự án này xuống còn 35 triệu USD (từ gần 100 triệu USD)."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "Dự án này tương đương khoảng 2% doanh thu mảng công nghệ thông tin."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Với mảng giáo dục, SSI điều chỉnh giảm ước tính doanh thu năm 2025 khoảng 9%, về mức 7,7 nghìn tỷ đồng (tăng 8% so với cùng kỳ)"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Với mảng giáo dục, SSI điều chỉnh giảm ước tính doanh thu năm 2025 khoảng 9%, về mức 7,7 nghìn tỷ đồng (tăng 8% so với cùng kỳ)"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "Với mảng giáo dục, SSI điều chỉnh giảm ước tính doanh thu năm 2025 khoảng 9%, về mức 7,7 nghìn tỷ đồng (tăng 8% so với cùng kỳ)"
+    },
+    {
+        "text": "7,7 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với mảng giáo dục, SSI điều chỉnh giảm ước tính doanh thu năm 2025 khoảng 9%, về mức 7,7 nghìn tỷ đồng (tăng 8% so với cùng kỳ)"
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Với mảng giáo dục, SSI điều chỉnh giảm ước tính doanh thu năm 2025 khoảng 9%, về mức 7,7 nghìn tỷ đồng (tăng 8% so với cùng kỳ)"
+    }
+]

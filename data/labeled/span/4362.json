@@ -1,0 +1,417 @@
+[
+    {
+        "text": "Tết Nguyên Đán",
+        "label": "DATE",
+        "evidence": "sau khi một loạt công ty công bố mức thưởng cho lao động dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "mức thưởng Tết năm nay tại các doanh nghiệp phân hóa rõ rệt."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "mức thưởng Tết năm nay tại các doanh nghiệp phân hóa rõ rệt."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "HAGL, Masan, Đường Quảng Ngãi... thưởng Tết cao nhất 150 triệu cho 1 nhân viên"
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "HAGL, Masan, Đường Quảng Ngãi... thưởng Tết cao nhất 150 triệu cho 1 nhân viên"
+    },
+    {
+        "text": "Đường Quảng Ngãi",
+        "label": "ORG",
+        "evidence": "HAGL, Masan, Đường Quảng Ngãi... thưởng Tết cao nhất 150 triệu cho 1 nhân viên"
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "HAGL, Masan, Đường Quảng Ngãi... thưởng Tết cao nhất 150 triệu cho 1 nhân viên"
+    },
+    {
+        "text": "150 triệu",
+        "label": "MONEY",
+        "evidence": "HAGL, Masan, Đường Quảng Ngãi... thưởng Tết cao nhất 150 triệu cho 1 nhân viên"
+    },
+    {
+        "text": "Hoàng Anh Gia Lai",
+        "label": "ORG",
+        "evidence": "Hoàng Anh Gia Laikhép lại một năm với tín hiệu khả quan: Lợi nhuận vượt 1.120 tỷ đồng - chính thức quay lại mức lãi nghìn tỷ đồng kể từ năm 2014 đến nay."
+    },
+    {
+        "text": "1.120 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận vượt 1.120 tỷ đồng - chính thức quay lại mức lãi nghìn tỷ đồng kể từ năm 2014 đến nay."
+    },
+    {
+        "text": "năm 2014",
+        "label": "DATE",
+        "evidence": "Lợi nhuận vượt 1.120 tỷ đồng - chính thức quay lại mức lãi nghìn tỷ đồng kể từ năm 2014 đến nay."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "trên các diễn đàn cũng lan truyền bài viết về một nhân viên của HAGL với tiêu đề “Mùa xuân đến sớm với nông trường”, ghi nhận nhân viên HAGL được thưởng hơn cả năm lương vì hoàn thành được nhiệm vụ giao phó."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "trên các diễn đàn cũng lan truyền bài viết về một nhân viên của HAGL với tiêu đề “Mùa xuân đến sớm với nông trường”, ghi nhận nhân viên HAGL được thưởng hơn cả năm lương vì hoàn thành được nhiệm vụ giao phó."
+    },
+    {
+        "text": "thưởng hơn cả năm lương",
+        "label": "EVENT",
+        "evidence": "ghi nhận nhân viên HAGL được thưởng hơn cả năm lương vì hoàn thành được nhiệm vụ giao phó."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "Đại diện HAGL cũng xác nhận về thông tin này, đồng thời cho biết chế độ lương thưởng năm nay của Công ty khá phấn khởi."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "Đại diện HAGL cũng xác nhận về thông tin này, đồng thời cho biết chế độ lương thưởng năm nay của Công ty khá phấn khởi."
+    },
+    {
+        "text": "Tết Dương lịch",
+        "label": "DATE",
+        "evidence": "dịp Tết Dương lịch và Tết Nguyên đán Quý Mão 2023, trung bình mỗi thành viên của HAGL được bầu Đức thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "Tết Nguyên đán Quý Mão 2023",
+        "label": "DATE",
+        "evidence": "dịp Tết Dương lịch và Tết Nguyên đán Quý Mão 2023, trung bình mỗi thành viên của HAGL được bầu Đức thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "dịp Tết Dương lịch và Tết Nguyên đán Quý Mão 2023, trung bình mỗi thành viên của HAGL được bầu Đức thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "bầu Đức",
+        "label": "PERSON",
+        "evidence": "trung bình mỗi thành viên của HAGL được bầu Đức thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "thưởng 1 tháng lương",
+        "label": "EVENT",
+        "evidence": "được bầu Đức thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "thưởng 1 tháng lương, có người nhận lên tới150 triệu đồng."
+    },
+    {
+        "text": "Gia súc Lơ Pang",
+        "label": "ORG",
+        "evidence": "Còn tạiGia súc Lơ Pang(thành viên của HAGL), chuyên trồng chuối và chăn nuôi heo ăn chuối, gà chạy bộ..., Giám đốc Nông trường Hàm Rồng 1B, kiêm Giám đốc HR1B thực nghiệm, ngoài số tiền lương tháng 13 được thưởng, vị giám đốc trẻ này còn được nhận thêm khoảng150 triệu đồng(đã trừ thuế) tiền thưởng nhờ quản lý, chăm sóc vườn chuối vượt năng suất."
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "Còn tạiGia súc Lơ Pang(thành viên của HAGL), chuyên trồng chuối và chăn nuôi heo ăn chuối, gà chạy bộ..., Giám đốc Nông trường Hàm Rồng 1B, kiêm Giám đốc HR1B thực nghiệm, ngoài số tiền lương tháng 13 được thưởng, vị giám đốc trẻ này còn được nhận thêm khoảng150 triệu đồng(đã trừ thuế) tiền thưởng nhờ quản lý, chăm sóc vườn chuối vượt năng suất."
+    },
+    {
+        "text": "lương tháng 13 được thưởng",
+        "label": "EVENT",
+        "evidence": "ngoài số tiền lương tháng 13 được thưởng, vị giám đốc trẻ này còn được nhận thêm khoảng150 triệu đồng(đã trừ thuế) tiền thưởng nhờ quản lý, chăm sóc vườn chuối vượt năng suất."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "còn được nhận thêm khoảng150 triệu đồng(đã trừ thuế) tiền thưởng nhờ quản lý, chăm sóc vườn chuối vượt năng suất."
+    },
+    {
+        "text": "Nguyễn Thị Ánh Lan",
+        "label": "PERSON",
+        "evidence": "bà Nguyễn Thị Ánh Lan, Giám đốc Sở Lao động, Thương binh và Xã hội tỉnh Quảng Ngãi cũng tiết lộ, năm nay, doanh nghiệp có mức thưởng Tết Quý Mão cao nhất trên địa bàn tỉnh làCông ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "Sở Lao động, Thương binh và Xã hội tỉnh Quảng Ngãi",
+        "label": "ORG",
+        "evidence": "Giám đốc Sở Lao động, Thương binh và Xã hội tỉnh Quảng Ngãi cũng tiết lộ, năm nay, doanh nghiệp có mức thưởng Tết Quý Mão cao nhất trên địa bàn tỉnh làCông ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "năm nay, doanh nghiệp có mức thưởng Tết Quý Mão cao nhất trên địa bàn tỉnh làCông ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "thưởng Tết Quý Mão",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp có mức thưởng Tết Quý Mão cao nhất trên địa bàn tỉnh làCông ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "Công ty CP Đường Quảng Ngãi",
+        "label": "ORG",
+        "evidence": "trên địa bàn tỉnh làCông ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Công ty CP Đường Quảng Ngãi (QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "120 triệu đồng",
+        "label": "MONEY",
+        "evidence": "(QNS)với mức120 triệu đồng/người."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022, QNS cũng ghi nhận KQKD khả quan với ước tính doanh thu hợp nhất 8.300 tỷ đồng và lợi nhuận sau thuế 1.198 tỷ, lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Năm 2022, QNS cũng ghi nhận KQKD khả quan với ước tính doanh thu hợp nhất 8.300 tỷ đồng và lợi nhuận sau thuế 1.198 tỷ, lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "8.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu hợp nhất 8.300 tỷ đồng và lợi nhuận sau thuế 1.198 tỷ, lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "1.198 tỷ",
+        "label": "MONEY",
+        "evidence": "doanh thu hợp nhất 8.300 tỷ đồng và lợi nhuận sau thuế 1.198 tỷ, lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "lần lượt vượt 4% kế hoạch doanh thu và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "và vượt 19% kế hoạch năm 2022."
+    },
+    {
+        "text": "Công ty TNHH MTV Masan Brewery",
+        "label": "ORG",
+        "evidence": "Công ty TNHH MTV Masan Brewery- công ty con của Masan hoạt động trong lĩnh vực thực phẩm và đồ uống ở khu công nghiệp Hòa Hiệp, Phú Yên thưởng Tết cho người lao động cao nhất là100 triệu đồng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "công ty con của Masan hoạt động trong lĩnh vực thực phẩm và đồ uống ở khu công nghiệp Hòa Hiệp, Phú Yên thưởng Tết cho người lao động cao nhất là100 triệu đồng."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "thưởng Tết cho người lao động cao nhất là100 triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "thưởng Tết cho người lao động cao nhất là100 triệu đồng."
+    },
+    {
+        "text": "Công ty CP Xây dựng Trường Phát",
+        "label": "ORG",
+        "evidence": "Lãnh đạoCông ty CP Xây dựng Trường Phát- một đơn vị xây dựng có tiếng ở ĐBSCL chia sẻ: \"Chúng tôi lên kế hoạch thưởng tháng 13."
+    },
+    {
+        "text": "thưởng tháng 13",
+        "label": "EVENT",
+        "evidence": "\"Chúng tôi lên kế hoạch thưởng tháng 13."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Mức thưởng của công ty đối với cán bộ kỹ sư bình quân khoảng100 triệu đồng trở lênmột người một năm\"."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Doanh nghiệp thưởng Tết cho bảo vệ ngang bằng chủ tịch, giám đốc"
+    },
+    {
+        "text": "Hồ Xuân Hiếu",
+        "label": "PERSON",
+        "evidence": "Ông Hồ Xuân Hiếu - Chủ tịch Hội đồng quản trị Công ty Cổ phần Tổng công ty Thương mại Quảng Trị (Sepon Group) - cho hay, Tết Nguyên đán Quý Mão này đơn vị sẽ thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "Công ty Cổ phần Tổng công ty Thương mại Quảng Trị",
+        "label": "ORG",
+        "evidence": "Chủ tịch Hội đồng quản trị Công ty Cổ phần Tổng công ty Thương mại Quảng Trị (Sepon Group) - cho hay, Tết Nguyên đán Quý Mão này đơn vị sẽ thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "Sepon Group",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Tổng công ty Thương mại Quảng Trị (Sepon Group) - cho hay, Tết Nguyên đán Quý Mão này đơn vị sẽ thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "Tết Nguyên đán Quý Mão",
+        "label": "DATE",
+        "evidence": "Tết Nguyên đán Quý Mão này đơn vị sẽ thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "thưởng đồng đều 25 triệu đồng/người",
+        "label": "EVENT",
+        "evidence": "đơn vị sẽ thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "thưởng đồng đều 25 triệu đồng/người cho 600 người lao động của 13 đơn vị trực thuộc."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "trị giá mỗi suất 1 triệu đồng để tặng người lao động."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Song riêng thưởng Tết, chúng tôi chia đồng đều bởi Tết đến ai cũng có nhu cầu mua sắm, thăm nội ngoại, ăn uống, vui chơi…\", ông Hiếu nói."
+    },
+    {
+        "text": "ông Hiếu",
+        "label": "PERSON",
+        "evidence": "ăn uống, vui chơi…\", ông Hiếu nói."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Ngoài mức thưởng Tết, Công ty cũng tổ chức thăm tứ thân phụ mẫu của người lao động trong dịp Tết Dương lịch 2023."
+    },
+    {
+        "text": "Tết Dương lịch 2023",
+        "label": "DATE",
+        "evidence": "Công ty cũng tổ chức thăm tứ thân phụ mẫu của người lao động trong dịp Tết Dương lịch 2023."
+    },
+    {
+        "text": "2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Người từ 70 - 79 tuổi được tặng 2 triệu đồng, người từ 80 - 89 tuổi được tặng 3 triệu đồng và người trên 90 tuổi được tặng 4 triệu đồng."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Người từ 70 - 79 tuổi được tặng 2 triệu đồng, người từ 80 - 89 tuổi được tặng 3 triệu đồng và người trên 90 tuổi được tặng 4 triệu đồng."
+    },
+    {
+        "text": "4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Người từ 70 - 79 tuổi được tặng 2 triệu đồng, người từ 80 - 89 tuổi được tặng 3 triệu đồng và người trên 90 tuổi được tặng 4 triệu đồng."
+    },
+    {
+        "text": "gần 1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tiền trị giá gần 1 tỷ đồng để mừng thọ tứ thân phụ mẫu của người lao động."
+    },
+    {
+        "text": "quà Tết",
+        "label": "EVENT",
+        "evidence": "Hàng chục nghìn công nhân xúc động khi thấy quà Tết được buộc cẩn thận trên xe"
+    },
+    {
+        "text": "tiền thưởng",
+        "label": "EVENT",
+        "evidence": "Ngoài tiền thưởng, tùy theo điều kiện, các doanh nghiệp cũng có nhiều hình thức khác nhằm hỗ trợ, chăm lo cho người lao động như tặng giỏ quà, hiện vật, tặng tiền tàu xe hoặc bố trí phương tiện đưa người lao động về quê."
+    },
+    {
+        "text": "Tân Đệ",
+        "label": "ORG",
+        "evidence": "hình ảnh bãi xe của công ty Tân Đệ (Thái Bình) được chia sẻ rầm rộ trên khắp các trang mạng xã hội."
+    },
+    {
+        "text": "Tân Đệ",
+        "label": "ORG",
+        "evidence": "18.000 công nhân đang làm việc tại 10 nhà máy của Tân Đệ đều có quà Tết trị giá 1,8 triệu."
+    },
+    {
+        "text": "quà Tết",
+        "label": "EVENT",
+        "evidence": "Tân Đệ đều có quà Tết trị giá 1,8 triệu."
+    },
+    {
+        "text": "1,8 triệu",
+        "label": "MONEY",
+        "evidence": "đều có quà Tết trị giá 1,8 triệu."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Ngoài ra thưởng Tết trung bình 1,5 tháng lương, và phong bao lì xì 600.000 đồng/người."
+    },
+    {
+        "text": "600.000 đồng",
+        "label": "MONEY",
+        "evidence": "và phong bao lì xì 600.000 đồng/người."
+    },
+    {
+        "text": "phong bao lì xì",
+        "label": "EVENT",
+        "evidence": "bánh quy và phong bao lì xì."
+    },
+    {
+        "text": "Ngôi nhà Tân Đệ",
+        "label": "ORG",
+        "evidence": "Vào fanpage Ngôi nhà Tân Đệ, status quà Tết này có hàng nghìn lượt like, share và comment."
+    },
+    {
+        "text": "quà Tết",
+        "label": "EVENT",
+        "evidence": "status quà Tết này có hàng nghìn lượt like, share và comment."
+    },
+    {
+        "text": "Tân Đệ",
+        "label": "ORG",
+        "evidence": "Tất cả đều là những công nhân của Tân Đệ thể hiện sự cảm kích."
+    },
+    {
+        "text": "Tân Đệ",
+        "label": "ORG",
+        "evidence": "có thể về quy mô, Tân Đệ còn thua kém nhiều tập đoàn, công ty lớn, nhưng đã công trong xây dựng văn hóa doanh nghiệp, với sự quan tâm thực sự tới người lao động sau một năm kinh tế khó khăn."
+    },
+    {
+        "text": "thưởng 6 tháng lương",
+        "label": "EVENT",
+        "evidence": "Một nhà băng thưởng 6 tháng lương﻿"
+    },
+    {
+        "text": "H.A",
+        "label": "PERSON",
+        "evidence": "sau khi H.A (30 tuổi, Hà Nội), hiện đang là trưởng phòng khách hàng doanh nghiệp của 1 ngân hàng thuộc top 4 \"ông lớn\" trong ngành chia sẻ: \"Thưởng Tết năm nay của từng khu vực đã được công bố, mức thưởng trung bình các nhân viên có phần cao hơn năm ngoái.\""
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "\"Thưởng Tết năm nay của từng khu vực đã được công bố, mức thưởng trung bình các nhân viên có phần cao hơn năm ngoái.\""
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "\"Thưởng Tết năm nay của từng khu vực đã được công bố, mức thưởng trung bình các nhân viên có phần cao hơn năm ngoái.\""
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "mức thưởng trung bình các nhân viên có phần cao hơn năm ngoái.\""
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Mình cũng đã nhận được thông báo thưởng Tết."
+    },
+    {
+        "text": "thưởng Tết",
+        "label": "EVENT",
+        "evidence": "Đây là phần thưởng Tết chưa tính lương và thưởng doanh số khu vực\"."
+    }
+]

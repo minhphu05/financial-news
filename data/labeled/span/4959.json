@@ -1,0 +1,297 @@
+[
+    {
+        "text": "Công ty cổ phần Đầu tư Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Đầu tư Thế giới Di động (mã MWG)vừa công bố báo cáo giảm vốn điều lệ công ty."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "(mã MWG)"
+    },
+    {
+        "text": "báo cáo giảm vốn điều lệ công ty",
+        "label": "EVENT",
+        "evidence": "vừa công bố báo cáo giảm vốn điều lệ công ty."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "số lượng chứng khoán MWG giảm 1.462.177 cổ phiếu."
+    },
+    {
+        "text": "1.462.177 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "giảm 1.462.177 cổ phiếu."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "vốn điều lệ của Thế giới di động giảm từ gần 14.634 tỷ đồng xuống 14.622 tỷ đồng."
+    },
+    {
+        "text": "giảm vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "vốn điều lệ của Thế giới di động giảm từ gần 14.634 tỷ đồng xuống 14.622 tỷ đồng."
+    },
+    {
+        "text": "gần 14.634 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm từ gần 14.634 tỷ đồng"
+    },
+    {
+        "text": "14.622 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "xuống 14.622 tỷ đồng."
+    },
+    {
+        "text": "17/5",
+        "label": "DATE",
+        "evidence": "Thời gian giảm vốn điều lệ từ ngày 17/5."
+    },
+    {
+        "text": "giảm vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Thời gian giảm vốn điều lệ từ ngày 17/5."
+    },
+    {
+        "text": "thay đổi niêm yết giảm vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Lý do của thay đổi niêm yết giảm vốn điều lệ do huỷ cổ phiếu quỹ hiện có."
+    },
+    {
+        "text": "huỷ cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "do huỷ cổ phiếu quỹ hiện có."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "sau giao dịch trên, MWG không còn bất kỳ cổ phiếu quỹ nào"
+    },
+    {
+        "text": "31/3/2024",
+        "label": "DATE",
+        "evidence": "tại thời điểm 31/3/2024"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "lượng cổ phiếu quỹ trên được Thế giới Di động ghi nhận với tổng giá trị hơn 11 tỷ đồng"
+    },
+    {
+        "text": "hơn 11 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng giá trị hơn 11 tỷ đồng"
+    },
+    {
+        "text": "10.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "giá trung bình 10.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Lượng cổ phiếu quỹ của MWG hầu hết đều được mua lại từ nhân viên nghỉ việc"
+    },
+    {
+        "text": "tháng 2 và tháng 3/2024",
+        "label": "DATE",
+        "evidence": "trong tháng 2 và tháng 3/2024"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "MWG vừa thông báo mua lại hơn 154 nghìn cổ phiếu quỹ."
+    },
+    {
+        "text": "thông báo mua lại hơn 154 nghìn cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "MWG vừa thông báo mua lại hơn 154 nghìn cổ phiếu quỹ."
+    },
+    {
+        "text": "hơn 154 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 154 nghìn cổ phiếu quỹ."
+    },
+    {
+        "text": "ESOP",
+        "label": "ASSET",
+        "evidence": "chương trình lựa chọn cho người lao động ESOP"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Thế Giới Di Động ghi nhận doanh thu sơ bộ tháng 4/2024 đạt 11.500 tỷ đồng"
+    },
+    {
+        "text": "tháng 4/2024",
+        "label": "DATE",
+        "evidence": "doanh thu sơ bộ tháng 4/2024"
+    },
+    {
+        "text": "11.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 11.500 tỷ đồng"
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "tăng 15% so với cùng kỳ 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "cùng kỳ 2023"
+    },
+    {
+        "text": "tăng 17%",
+        "label": "RATE",
+        "evidence": "tăng 17% so với tháng trước."
+    },
+    {
+        "text": "4 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Lũy kế 4 tháng đầu năm 2024"
+    },
+    {
+        "text": "43.000 tỷ",
+        "label": "MONEY",
+        "evidence": "ước tính xấp xỉ 43.000 tỷ"
+    },
+    {
+        "text": "tăng trưởng 17%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 17% so với cùng kỳ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "trước đó MWG báo lãi ròng 902 tỷ đồng trong quý 1"
+    },
+    {
+        "text": "báo lãi ròng 902 tỷ đồng trong quý 1",
+        "label": "EVENT",
+        "evidence": "MWG báo lãi ròng 902 tỷ đồng trong quý 1"
+    },
+    {
+        "text": "902 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi ròng 902 tỷ đồng"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "trong quý 1"
+    },
+    {
+        "text": "gấp 43 lần",
+        "label": "RATE",
+        "evidence": "gấp 43 lần cùng kỳ"
+    },
+    {
+        "text": "6 quý",
+        "label": "DATE",
+        "evidence": "trong vòng 6 quý"
+    },
+    {
+        "text": "quý 3/2022",
+        "label": "DATE",
+        "evidence": "kể từ quý 3/2022."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "chuỗi Thế Giới Di Động và Điện Máy Xanh duy trì mức doanh thu ổn định"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "và Điện Máy Xanh duy trì mức doanh thu ổn định những tháng qua"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Chuỗi Bách Hóa Xanh (BHX) duy trì mức tăng trưởng mạnh"
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "(BHX) duy trì mức tăng trưởng mạnh"
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "Trong tháng 4, doanh thu bình quân đã đạt xấp xỉ 1,9 tỷ đồng/cửa hàng trong tháng 4"
+    },
+    {
+        "text": "1,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt xấp xỉ 1,9 tỷ đồng/cửa hàng"
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "trong tháng 4 - mức cao nhất trong một tháng mà BHX từng đạt được"
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "một tháng mà BHX từng đạt được kể từ khi hoạt động."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "chuỗi bách hóa của MWG đã có lãi trong tháng vừa qua"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "ban lãnh đạo MWG cũng vừa chia sẻ về việc chuỗi điện máy tại Indonesia EraBlue"
+    },
+    {
+        "text": "EraBlue",
+        "label": "ORG",
+        "evidence": "chuỗi điện máy tại Indonesia EraBlue đã đạt cột mốc lịch sử"
+    },
+    {
+        "text": "đạt cột mốc lịch sử \"mang tiền về cho mẹ\"",
+        "label": "EVENT",
+        "evidence": "EraBlue đã đạt cột mốc lịch sử \"mang tiền về cho mẹ\"."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "trở thành nhà bán lẻ điện máy hàng đầu tại Indonesia của MWG."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "cổ phiếu MWG chốt phiên 17/5 đạt 59.400 đồng/cp"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu MWG"
+    },
+    {
+        "text": "17/5",
+        "label": "DATE",
+        "evidence": "chốt phiên 17/5"
+    },
+    {
+        "text": "59.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đạt 59.400 đồng/cp"
+    },
+    {
+        "text": "tăng 39%",
+        "label": "RATE",
+        "evidence": "tăng 39% từ đầu năm 2024."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "từ đầu năm 2024."
+    }
+]

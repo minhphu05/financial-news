@@ -1,0 +1,192 @@
+[
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Cụ thể, giá gas bình Petrolimex bán lẻ (đã bao gồm VAT) tháng 3 tại thị trường Hà Nội là 460.740 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Cụ thể, giá gas bình Petrolimex bán lẻ (đã bao gồm VAT) tháng 3 tại thị trường Hà Nội là 460.740 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "460.740 đồng/bình dân dụng 12 kg",
+        "label": "PRICE",
+        "evidence": "Cụ thể, giá gas bình Petrolimex bán lẻ (đã bao gồm VAT) tháng 3 tại thị trường Hà Nội là 460.740 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "1.842.760 đồng/bình công nghiệp 48kg",
+        "label": "PRICE",
+        "evidence": "1.842.760 đồng/bình công nghiệp 48kg"
+    },
+    {
+        "text": "tăng 2.640 đồng/bình 12 kg",
+        "label": "EVENT",
+        "evidence": "lần lượt tăng 2.640 đồng/bình 12 kg và 10.560 đồng/bình 48 kg (đã bao gồm VAT) so với tháng 2"
+    },
+    {
+        "text": "tăng 10.560 đồng/bình 48 kg",
+        "label": "EVENT",
+        "evidence": "lần lượt tăng 2.640 đồng/bình 12 kg và 10.560 đồng/bình 48 kg (đã bao gồm VAT) so với tháng 2"
+    },
+    {
+        "text": "tháng 2",
+        "label": "DATE",
+        "evidence": "lần lượt tăng 2.640 đồng/bình 12 kg và 10.560 đồng/bình 48 kg (đã bao gồm VAT) so với tháng 2"
+    },
+    {
+        "text": "Tổng Công ty Gas Petrolimex",
+        "label": "ORG",
+        "evidence": "Theo Tổng Công ty Gas Petrolimex, mặc dù hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2 nhưng do biến động tỷ giá nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "hợp đồng giá gas thế giới bình quân tháng 3",
+        "label": "ASSET",
+        "evidence": "Theo Tổng Công ty Gas Petrolimex, mặc dù hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2 nhưng do biến động tỷ giá nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Theo Tổng Công ty Gas Petrolimex, mặc dù hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2 nhưng do biến động tỷ giá nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "635 USD/tấn",
+        "label": "PRICE",
+        "evidence": "Theo Tổng Công ty Gas Petrolimex, mặc dù hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2 nhưng do biến động tỷ giá nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "không thay đổi",
+        "label": "EVENT",
+        "evidence": "hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2"
+    },
+    {
+        "text": "tháng 2",
+        "label": "DATE",
+        "evidence": "hợp đồng giá gas thế giới bình quân tháng 3 ở mức 635 USD/tấn, không thay đổi so với tháng 2"
+    },
+    {
+        "text": "biến động tỷ giá",
+        "label": "EVENT",
+        "evidence": "nhưng do biến động tỷ giá nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "Tổng Công ty Gas Petrolimex",
+        "label": "ORG",
+        "evidence": "nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "thực hiện điều chỉnh theo mức tăng tương ứng",
+        "label": "EVENT",
+        "evidence": "nên Tổng Công ty Gas Petrolimex thực hiện điều chỉnh theo mức tăng tương ứng."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Hiện nguồn cung gas nội địa chỉ đáp ứng được khoảng 60% nhu cầu tiêu dùng"
+    },
+    {
+        "text": "giá nhập khẩu gas thế giới theo hợp đồng (giá CP)",
+        "label": "ASSET",
+        "evidence": "Mặc dù giá nhập khẩu gas thế giới theo hợp đồng (giá CP) cho tháng 3 chính thức chốt ở mức 635$ bằng với tháng trước"
+    },
+    {
+        "text": "giá CP",
+        "label": "ASSET",
+        "evidence": "Mặc dù giá nhập khẩu gas thế giới theo hợp đồng (giá CP) cho tháng 3 chính thức chốt ở mức 635$ bằng với tháng trước"
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Mặc dù giá nhập khẩu gas thế giới theo hợp đồng (giá CP) cho tháng 3 chính thức chốt ở mức 635$ bằng với tháng trước"
+    },
+    {
+        "text": "635$",
+        "label": "PRICE",
+        "evidence": "Mặc dù giá nhập khẩu gas thế giới theo hợp đồng (giá CP) cho tháng 3 chính thức chốt ở mức 635$ bằng với tháng trước"
+    },
+    {
+        "text": "tỷ giá USD/VND tăng",
+        "label": "EVENT",
+        "evidence": "nhưng tỷ giá USD/VND tăng nên giá gas tháng 3 trong nước được điều chỉnh tăng khoảng 1.000 đồng/bình 6kg"
+    },
+    {
+        "text": "giá gas tháng 3 trong nước được điều chỉnh tăng khoảng 1.000 đồng/bình 6kg",
+        "label": "EVENT",
+        "evidence": "nên giá gas tháng 3 trong nước được điều chỉnh tăng khoảng 1.000 đồng/bình 6kg, tăng 2.000 đồng/bình 12kg và tăng 8.000 đồng/bình 45kg."
+    },
+    {
+        "text": "tăng 2.000 đồng/bình 12kg",
+        "label": "EVENT",
+        "evidence": "tăng 2.000 đồng/bình 12kg"
+    },
+    {
+        "text": "tăng 8.000 đồng/bình 45kg",
+        "label": "EVENT",
+        "evidence": "và tăng 8.000 đồng/bình 45kg."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Với biến động nhẹ của giá gas tháng 3 này, việc tiêu dùng gas cho nấu nướng có thể không quá lớn đối với các hộ gia đình."
+    },
+    {
+        "text": "giá gas đã giảm xuống mức thấp nhất trong gần 3 năm",
+        "label": "EVENT",
+        "evidence": "Tại châu Á, giá gas đã giảm xuống mức thấp nhất trong gần 3 năm do nhu cầu yếu ở cả châu Á và châu Âu tạo áp lực giảm giá."
+    },
+    {
+        "text": "giảm gần 30%",
+        "label": "RATE",
+        "evidence": "Giá gas giao ngay tại châu Á đã giảm gần 30% kể từ đầu năm do nhu cầu suy giảm và dồi dào tồn kho ở cả Đông Á và châu Âu."
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "Giá gas giao ngay tại châu Á đã giảm gần 30% kể từ đầu năm do nhu cầu suy giảm và dồi dào tồn kho ở cả Đông Á và châu Âu."
+    },
+    {
+        "text": "Diễn đàn các nước xuất khẩu khí đốt GECF",
+        "label": "ORG",
+        "evidence": "Theo Diễn đàn các nước xuất khẩu khí đốt GECF (tổ chức liên chính phủ hiện gồm 19 quốc gia thành viên của các nhà sản xuất khí đốt tự nhiên hàng đầu thế giới), năm 2024, nhu cầu LNG thế giới dự kiến tăng 1,5% và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "GECF",
+        "label": "ORG",
+        "evidence": "Theo Diễn đàn các nước xuất khẩu khí đốt GECF (tổ chức liên chính phủ hiện gồm 19 quốc gia thành viên của các nhà sản xuất khí đốt tự nhiên hàng đầu thế giới), năm 2024, nhu cầu LNG thế giới dự kiến tăng 1,5% và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "năm 2024, nhu cầu LNG thế giới dự kiến tăng 1,5% và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "LNG",
+        "label": "ASSET",
+        "evidence": "nhu cầu LNG thế giới dự kiến tăng 1,5% và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "tăng 1,5%",
+        "label": "RATE",
+        "evidence": "nhu cầu LNG thế giới dự kiến tăng 1,5% và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "năm 2050",
+        "label": "DATE",
+        "evidence": "và có thể lên đến 22% vào năm 2050."
+    },
+    {
+        "text": "GECF",
+        "label": "ORG",
+        "evidence": "GECF cảnh báo về khả năng giá LNG giao ngay sẽ tăng cao kỷ lục và biến động mạnh ở cả thị trường châu Âu và châu Á."
+    },
+    {
+        "text": "giá LNG giao ngay sẽ tăng cao kỷ lục và biến động mạnh",
+        "label": "EVENT",
+        "evidence": "GECF cảnh báo về khả năng giá LNG giao ngay sẽ tăng cao kỷ lục và biến động mạnh ở cả thị trường châu Âu và châu Á."
+    }
+]

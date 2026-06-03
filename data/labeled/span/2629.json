@@ -1,0 +1,262 @@
+[
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Giữa cuộc chiến giá quyết liệt, FPT Shop vừa tiếp tục thông báo sẽ triển khai chương trình ưu đãi ‘có một không hai’: “NHÂN ĐÔI TỐC ĐỘ - GIÁ KHÔNG ĐỔI”."
+    },
+    {
+        "text": "thông báo sẽ triển khai chương trình ưu đãi ‘có một không hai’: “NHÂN ĐÔI TỐC ĐỘ - GIÁ KHÔNG ĐỔI”",
+        "label": "EVENT",
+        "evidence": "FPT Shop vừa tiếp tục thông báo sẽ triển khai chương trình ưu đãi ‘có một không hai’: “NHÂN ĐÔI TỐC ĐỘ - GIÁ KHÔNG ĐỔI”."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "FPT Shop cũng ký kết hợp tác chiến lược với các thương hiệu máy tính lớn và các hãng sản xuất chip máy tính."
+    },
+    {
+        "text": "ký kết hợp tác chiến lược với các thương hiệu máy tính lớn và các hãng sản xuất chip máy tính",
+        "label": "EVENT",
+        "evidence": "FPT Shop cũng ký kết hợp tác chiến lược với các thương hiệu máy tính lớn và các hãng sản xuất chip máy tính."
+    },
+    {
+        "text": "kế hoạch lên kệ số lượng lớn laptop với ưu đãi ‘khủng’",
+        "label": "EVENT",
+        "evidence": "Đây là sự kiện khởi động cho kế hoạch lên kệ số lượng lớn laptop với ưu đãi ‘khủng’ dành riêng cho học sinh, sinh viên, giáo viên trong mùa tựu trường năm nay."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Đặc biệt, nằm trong khuôn khổ mùa tựu trường hàng năm, FPT Shop đặt mục tiêu sẽ cung cấp gần 200.000 laptop đến học sinh - sinh viên với ưu đãi đặc quyền, gồm có: giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "200.000 laptop",
+        "label": "VOLUME",
+        "evidence": "Đặc biệt, nằm trong khuôn khổ mùa tựu trường hàng năm, FPT Shop đặt mục tiêu sẽ cung cấp gần 200.000 laptop đến học sinh - sinh viên với ưu đãi đặc quyền, gồm có: giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "giảm giá ngay đến 50%",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, nằm trong khuôn khổ mùa tựu trường hàng năm, FPT Shop đặt mục tiêu sẽ cung cấp gần 200.000 laptop đến học sinh - sinh viên với ưu đãi đặc quyền, gồm có: giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "giảm thêm đến 5.000.000 đồng",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, nằm trong khuôn khổ mùa tựu trường hàng năm, FPT Shop đặt mục tiêu sẽ cung cấp gần 200.000 laptop đến học sinh - sinh viên với ưu đãi đặc quyền, gồm có: giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "5.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "trả góp 0% lãi suất",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, nằm trong khuôn khổ mùa tựu trường hàng năm, FPT Shop đặt mục tiêu sẽ cung cấp gần 200.000 laptop đến học sinh - sinh viên với ưu đãi đặc quyền, gồm có: giảm giá ngay đến 50%, giảm thêm đến 5.000.000 đồng (thêm đến 10%), tặng thêm 1 năm bảo hành, 100% có quà và trả góp 0% lãi suất."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "trả góp 0% lãi suất."
+    },
+    {
+        "text": "GfK",
+        "label": "ORG",
+        "evidence": "Với vị thế là nhà bán lẻ laptop số 1 về thị phần laptop gaming tại Việt Nam (Theo số liệu của GfK), FPT Shop tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Với vị thế là nhà bán lẻ laptop số 1 về thị phần laptop gaming tại Việt Nam (Theo số liệu của GfK), FPT Shop tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng."
+    },
+    {
+        "text": "tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng",
+        "label": "EVENT",
+        "evidence": "FPT Shop tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng."
+    },
+    {
+        "text": "50.000 laptop gaming",
+        "label": "VOLUME",
+        "evidence": "FPT Shop tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng."
+    },
+    {
+        "text": "10.990.000 đồng",
+        "label": "PRICE",
+        "evidence": "FPT Shop tiên phong lên kệ 50.000 laptop gaming với giá ‘sốc’ chỉ 10.990.000 đồng."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Khách hàng là giáo viên, học sinh, sinh viên sẽ nhận ưu đãi khi chọn mua laptop tại FPT Shop, gồm có: giảm giá đến 50%, giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "giảm giá đến 50%",
+        "label": "EVENT",
+        "evidence": "Khách hàng là giáo viên, học sinh, sinh viên sẽ nhận ưu đãi khi chọn mua laptop tại FPT Shop, gồm có: giảm giá đến 50%, giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "gồm có: giảm giá đến 50%, giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "giảm thêm đến 1.500.000 đồng",
+        "label": "EVENT",
+        "evidence": "Khách hàng là giáo viên, học sinh, sinh viên sẽ nhận ưu đãi khi chọn mua laptop tại FPT Shop, gồm có: giảm giá đến 50%, giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "1.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "giảm thêm đến 1.500.000 đồng (thêm 3%), tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "chương trình: “MUA NGAY - RẺ NỮA”",
+        "label": "EVENT",
+        "evidence": "tặng thêm 01 năm bảo hành và 100% nhận quà thông qua chương trình: “MUA NGAY - RẺ NỮA”."
+    },
+    {
+        "text": "Quý 3",
+        "label": "DATE",
+        "evidence": "Quý 3 hằng năm, doanh số máy tính tại FPT Shop thường tăng cao gấp đôi so với quý trước đó."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Quý 3 hằng năm, doanh số máy tính tại FPT Shop thường tăng cao gấp đôi so với quý trước đó."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Hiện nay, theo sát diễn biến thị trường, FPT Shop nhận thấy dòng laptop gaming (laptop cấu hình cao) đang được số đông các bạn trẻ lựa chọn."
+    },
+    {
+        "text": "tăng trưởng 50%",
+        "label": "RATE",
+        "evidence": "Theo số liệu thống kê, doanh số laptop gaming của hệ thống tăng trưởng 50% trong 3 năm liên tiếp."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Theo số liệu thống kê, doanh số laptop gaming của hệ thống tăng trưởng 50% trong 3 năm liên tiếp."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, dòng máy tính trang bị sẵn RAM 16GB cũng đang tăng trưởng gấp 2 lần trong nửa đầu năm và đóng góp tỷ trọng đến 1/3 số máy bán ra tại hệ thống."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Trở lại với cuộc chiến giá giữa các đại gia bán lẻ, từ lĩnh vực điện thoại, các bên gồm Thế giới Di động và FPT Shop đang dần “kích hoạt” cuộc chiến giá sang mảng hàng điện lạnh, gia dụng và laptop."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Trở lại với cuộc chiến giá giữa các đại gia bán lẻ, từ lĩnh vực điện thoại, các bên gồm Thế giới Di động và FPT Shop đang dần “kích hoạt” cuộc chiến giá sang mảng hàng điện lạnh, gia dụng và laptop."
+    },
+    {
+        "text": "“kích hoạt” cuộc chiến giá sang mảng hàng điện lạnh, gia dụng và laptop",
+        "label": "EVENT",
+        "evidence": "Thế giới Di động và FPT Shop đang dần “kích hoạt” cuộc chiến giá sang mảng hàng điện lạnh, gia dụng và laptop."
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "Cuộc chiến giá bắt đầu từ tháng 4 được khởi đầu bởi nhà bán lẻ lớn nhất thị trường, sau đó lôi cuốn theo các nhà bán lẻ lớn khác CellphoneS… tham gia."
+    },
+    {
+        "text": "CellphoneS",
+        "label": "ORG",
+        "evidence": "Cuộc chiến giá bắt đầu từ tháng 4 được khởi đầu bởi nhà bán lẻ lớn nhất thị trường, sau đó lôi cuốn theo các nhà bán lẻ lớn khác CellphoneS… tham gia."
+    },
+    {
+        "text": "gần cuối tháng 5",
+        "label": "DATE",
+        "evidence": "Theo chia sẻ của người trong cuộc, gần cuối tháng 5, Viettel Store cũng bắt đầu tham gia vào cuộc chiến giá mà chủ yếu tập trung vào các dòng sản phẩm Apple và một số flagship của Samsung, cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "Viettel Store",
+        "label": "ORG",
+        "evidence": "Theo chia sẻ của người trong cuộc, gần cuối tháng 5, Viettel Store cũng bắt đầu tham gia vào cuộc chiến giá mà chủ yếu tập trung vào các dòng sản phẩm Apple và một số flagship của Samsung, cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "tham gia vào cuộc chiến giá",
+        "label": "EVENT",
+        "evidence": "Viettel Store cũng bắt đầu tham gia vào cuộc chiến giá mà chủ yếu tập trung vào các dòng sản phẩm Apple và một số flagship của Samsung, cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "chủ yếu tập trung vào các dòng sản phẩm Apple và một số flagship của Samsung, cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "chủ yếu tập trung vào các dòng sản phẩm Apple và một số flagship của Samsung, cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "Xiaomi",
+        "label": "ORG",
+        "evidence": "cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "Realme",
+        "label": "ORG",
+        "evidence": "cũng như các dòng sản phẩm nhạy cảm về giá như Xiaomi, Realme cũng như các phụ kiện có thương hiệu."
+    },
+    {
+        "text": "OPPO",
+        "label": "ORG",
+        "evidence": "Riêng OPPO là một trong nhãn hàng hiếm hoi trên thị trường không xảy ra tình trạng phá giá, bán âm giá nhập do việc kiểm soát tốt thị trường của hãng cũng như thị phần lớn vẫn thuộc vào tgdd, là nhóm giữ lợi nhuận của họ."
+    },
+    {
+        "text": "tgdd",
+        "label": "ORG",
+        "evidence": "thị phần lớn vẫn thuộc vào tgdd, là nhóm giữ lợi nhuận của họ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "“Suốt hơn 1 tháng qua, cuộc chiến giá diễn ra rất gay gắt với nhiều thủ thuật, chiến thuật thay đổi liên tục từ MWG khi thì họ đặt giá thấp theo cửa hàng, theo khu vực để cạnh tranh, khi thì phá giá dưới giá nhập một số mã hàng họ vốn không mạnh để gây sức ép."
+    },
+    {
+        "text": "đặt giá thấp theo cửa hàng, theo khu vực để cạnh tranh",
+        "label": "EVENT",
+        "evidence": "khi thì họ đặt giá thấp theo cửa hàng, theo khu vực để cạnh tranh, khi thì phá giá dưới giá nhập một số mã hàng họ vốn không mạnh để gây sức ép."
+    },
+    {
+        "text": "phá giá dưới giá nhập một số mã hàng",
+        "label": "EVENT",
+        "evidence": "khi thì phá giá dưới giá nhập một số mã hàng họ vốn không mạnh để gây sức ép."
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "Qua tháng 6, cuộc chiến giá bắt đầu lan sang các sản phẩm điện máy ở các phân khúc cao cấp với chiến thuật hoàn tiền nếu nơi khác bán rẻ hơn điện máy xanh, mặc dù chưa rõ về tính thực tế của cam kết này tuy nhiên chắc chắn sẽ lôi kéo các nhà bán lẻ khác phải có hành động."
+    },
+    {
+        "text": "chiến thuật hoàn tiền nếu nơi khác bán rẻ hơn",
+        "label": "EVENT",
+        "evidence": "Qua tháng 6, cuộc chiến giá bắt đầu lan sang các sản phẩm điện máy ở các phân khúc cao cấp với chiến thuật hoàn tiền nếu nơi khác bán rẻ hơn điện máy xanh, mặc dù chưa rõ về tính thực tế của cam kết này tuy nhiên chắc chắn sẽ lôi kéo các nhà bán lẻ khác phải có hành động."
+    },
+    {
+        "text": "điện máy xanh",
+        "label": "ORG",
+        "evidence": "chiến thuật hoàn tiền nếu nơi khác bán rẻ hơn điện máy xanh, mặc dù chưa rõ về tính thực tế của cam kết này tuy nhiên chắc chắn sẽ lôi kéo các nhà bán lẻ khác phải có hành động."
+    }
+]

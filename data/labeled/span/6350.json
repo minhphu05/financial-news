@@ -1,0 +1,192 @@
+[
+    {
+        "text": "Anh",
+        "label": "ORG",
+        "evidence": "Mô hình này cũng đã được áp dụng tại một số quốc gia trên thế giới như Anh, Singapore, Australia, Mỹ..."
+    },
+    {
+        "text": "Singapore",
+        "label": "ORG",
+        "evidence": "Mô hình này cũng đã được áp dụng tại một số quốc gia trên thế giới như Anh, Singapore, Australia, Mỹ..."
+    },
+    {
+        "text": "Australia",
+        "label": "ORG",
+        "evidence": "Mô hình này cũng đã được áp dụng tại một số quốc gia trên thế giới như Anh, Singapore, Australia, Mỹ..."
+    },
+    {
+        "text": "Mỹ",
+        "label": "ORG",
+        "evidence": "Mô hình này cũng đã được áp dụng tại một số quốc gia trên thế giới như Anh, Singapore, Australia, Mỹ..."
+    },
+    {
+        "text": "Metro số 1 Bến Thành - Suối Tiên sẽ chạy miễn phí một tháng",
+        "label": "EVENT",
+        "evidence": "Metro số 1 Bến Thành - Suối Tiên sẽ chạy miễn phí một tháng, từ 22/12/2024"
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Metro số 1 Bến Thành - Suối Tiên sẽ chạy miễn phí một tháng, từ 22/12/2024"
+    },
+    {
+        "text": "22/12/2024",
+        "label": "DATE",
+        "evidence": "Metro số 1 Bến Thành - Suối Tiên sẽ chạy miễn phí một tháng, từ 22/12/2024"
+    },
+    {
+        "text": "Thái Lan cho hệ thống tàu điện ở thủ đô Bangkok",
+        "label": "EVENT",
+        "evidence": "các nước trên thế giới đã dần chuyển sang thu phí giao thông theo công nghệ Open-loop, gần đây là Thái Lan cho hệ thống tàu điện ở thủ đô Bangkok."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Hành khách có thể sử dụng những gì đã có sẵn như thẻ tín dụng, thẻ thanh toán, thẻ trả trước ưa thích, hay Apple Pay, Samsung Pay tiện lợi chỉ với một chạm hoặc các ví điện tử để quét QR thanh toán cho chuyến đi."
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "Hành khách có thể sử dụng những gì đã có sẵn như thẻ tín dụng, thẻ thanh toán, thẻ trả trước ưa thích, hay Apple Pay, Samsung Pay tiện lợi chỉ với một chạm hoặc các ví điện tử để quét QR thanh toán cho chuyến đi."
+    },
+    {
+        "text": "thẻ trả trước",
+        "label": "ASSET",
+        "evidence": "Hành khách có thể sử dụng những gì đã có sẵn như thẻ tín dụng, thẻ thanh toán, thẻ trả trước ưa thích, hay Apple Pay, Samsung Pay tiện lợi chỉ với một chạm hoặc các ví điện tử để quét QR thanh toán cho chuyến đi."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Hành khách có thể sử dụng những gì đã có sẵn như thẻ tín dụng, thẻ thanh toán, thẻ trả trước ưa thích, hay Apple Pay, Samsung Pay tiện lợi chỉ với một chạm hoặc các ví điện tử để quét QR thanh toán cho chuyến đi."
+    },
+    {
+        "text": "Samsung Pay",
+        "label": "ASSET",
+        "evidence": "Hành khách có thể sử dụng những gì đã có sẵn như thẻ tín dụng, thẻ thanh toán, thẻ trả trước ưa thích, hay Apple Pay, Samsung Pay tiện lợi chỉ với một chạm hoặc các ví điện tử để quét QR thanh toán cho chuyến đi."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank tiên phong cung cấp hạ tầng kỹ thuật cho thanh toán giao thông xanh"
+    },
+    {
+        "text": "Sacombank đã tiên phong hợp tác cùng HURC1 và Mastercard triển khai hệ thống thanh toán vé tự động theo công nghệ Open-loop trên tuyến metro số 1 Bến Thành - Suối Tiên",
+        "label": "EVENT",
+        "evidence": "Chính vì những mặt lợi ích thiết thực kể trên, Sacombank đã tiên phong hợp tác cùng HURC1 và Mastercard triển khai hệ thống thanh toán vé tự động theo công nghệ Open-loop trên tuyến metro số 1 Bến Thành - Suối Tiên, giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "HURC1",
+        "label": "ORG",
+        "evidence": "Sacombank đã tiên phong hợp tác cùng HURC1 và Mastercard triển khai hệ thống thanh toán vé tự động theo công nghệ Open-loop trên tuyến metro số 1 Bến Thành - Suối Tiên, giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "Sacombank đã tiên phong hợp tác cùng HURC1 và Mastercard triển khai hệ thống thanh toán vé tự động theo công nghệ Open-loop trên tuyến metro số 1 Bến Thành - Suối Tiên, giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "UnionPay",
+        "label": "ORG",
+        "evidence": "giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "American Express",
+        "label": "ORG",
+        "evidence": "giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "giúp khách hàng có thể chạm thẻ thanh toán không tiền mặt từ tất cả các ngân hàng và tổ chức thẻ như Mastercard, Visa, JCB, UnionPay, American Express, Napas,…"
+    },
+    {
+        "text": "Sacombank cũng đang tích cực đồng hành cùng Trung tâm Quản lý Giao thông công cộng TP.HCM, triển khai giải pháp thanh toán theo công nghệ Open-loop đối với hệ thống xe buýt, buýt sông, xe điện buggy",
+        "label": "EVENT",
+        "evidence": "Đồng thời, Sacombank cũng đang tích cực đồng hành cùng Trung tâm Quản lý Giao thông công cộng TP.HCM, triển khai giải pháp thanh toán theo công nghệ Open-loop đối với hệ thống xe buýt, buýt sông, xe điện buggy dự kiến ra mắt trong đầu năm 2025, giúp cho trải nghiệm của khách hàng được liền mạch với tất cả loại hình giao thông công cộng của Thành phố."
+    },
+    {
+        "text": "Trung tâm Quản lý Giao thông công cộng TP.HCM",
+        "label": "ORG",
+        "evidence": "Đồng thời, Sacombank cũng đang tích cực đồng hành cùng Trung tâm Quản lý Giao thông công cộng TP.HCM, triển khai giải pháp thanh toán theo công nghệ Open-loop đối với hệ thống xe buýt, buýt sông, xe điện buggy dự kiến ra mắt trong đầu năm 2025, giúp cho trải nghiệm của khách hàng được liền mạch với tất cả loại hình giao thông công cộng của Thành phố."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Đồng thời, Sacombank cũng đang tích cực đồng hành cùng Trung tâm Quản lý Giao thông công cộng TP.HCM, triển khai giải pháp thanh toán theo công nghệ Open-loop đối với hệ thống xe buýt, buýt sông, xe điện buggy dự kiến ra mắt trong đầu năm 2025, giúp cho trải nghiệm của khách hàng được liền mạch với tất cả loại hình giao thông công cộng của Thành phố."
+    },
+    {
+        "text": "HURC1 đã tích cực cùng Mastercard, Sacombank và các đối tác triển khai thành công hệ thống thanh toán vé tự động",
+        "label": "EVENT",
+        "evidence": "\"HURC1 đã tích cực cùng Mastercard, Sacombank và các đối tác triển khai thành công hệ thống thanh toán vé tự động giúp mang lại sự tiện lợi, nhanh chóng và an toàn cho hành khách tham gia giao thông công cộng tại TP.HCM."
+    },
+    {
+        "text": "40.000 lượt/ngày",
+        "label": "VOLUME",
+        "evidence": "Với lượng khách dự kiến trong giai đoạn đầu khai thác metro là 40.000 lượt/ngày, việc tối ưu hóa các quy trình và thủ tục mua vé và thanh toán là hết sức quan trọng\", đại diện HURC1 cho biết."
+    },
+    {
+        "text": "Sacombank được vinh danh là Đối tác cung cấp hạ tầng kỹ thuật của năm - Technical Enabler of the Year (2024)",
+        "label": "EVENT",
+        "evidence": "vừa qua, tại Hội nghị Khách hàng thường niên của Mastercard diễn ra tại Hà Nội, Sacombank được vinh danh là Đối tác cung cấp hạ tầng kỹ thuật của năm - Technical Enabler of the Year (2024)."
+    },
+    {
+        "text": "Technical Enabler of the Year (2024)",
+        "label": "EVENT",
+        "evidence": "Sacombank được vinh danh là Đối tác cung cấp hạ tầng kỹ thuật của năm - Technical Enabler of the Year (2024)."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Sacombank được vinh danh là Đối tác cung cấp hạ tầng kỹ thuật của năm - Technical Enabler of the Year (2024)."
+    },
+    {
+        "text": "Hội nghị Khách hàng thường niên của Mastercard diễn ra tại Hà Nội",
+        "label": "EVENT",
+        "evidence": "vừa qua, tại Hội nghị Khách hàng thường niên của Mastercard diễn ra tại Hà Nội, Sacombank được vinh danh là Đối tác cung cấp hạ tầng kỹ thuật của năm - Technical Enabler of the Year (2024)."
+    },
+    {
+        "text": "Sacombank phát hành thẻ Metro Pass",
+        "label": "EVENT",
+        "evidence": "Sacombank phát hành thẻ Metro Pass"
+    },
+    {
+        "text": "tuyến metro số 1 Bến Thành - Suối Tiên chính thức đi vào hoạt động",
+        "label": "EVENT",
+        "evidence": "Chào mừng tuyến metro số 1 Bến Thành - Suối Tiên chính thức đi vào hoạt động - một sự kiện quan trọng của TP.HCM, Sacombank phát hành thẻ thanh toán Sacombank Mastercard Metro Pass, khách hàng có thể chạm thẻ để thanh toán không tiền mặt khi đi metro cũng như sử dụng các tiện ích khác như rút tiền mặt, chuyển khoản, thanh toán mua sắm tiêu dùng như thông thường."
+    },
+    {
+        "text": "Sacombank phát hành thẻ thanh toán Sacombank Mastercard Metro Pass",
+        "label": "EVENT",
+        "evidence": "Chào mừng tuyến metro số 1 Bến Thành - Suối Tiên chính thức đi vào hoạt động - một sự kiện quan trọng của TP.HCM, Sacombank phát hành thẻ thanh toán Sacombank Mastercard Metro Pass, khách hàng có thể chạm thẻ để thanh toán không tiền mặt khi đi metro cũng như sử dụng các tiện ích khác như rút tiền mặt, chuyển khoản, thanh toán mua sắm tiêu dùng như thông thường."
+    },
+    {
+        "text": "Sacombank Mastercard Metro Pass",
+        "label": "ASSET",
+        "evidence": "Sacombank phát hành thẻ thanh toán Sacombank Mastercard Metro Pass, khách hàng có thể chạm thẻ để thanh toán không tiền mặt khi đi metro cũng như sử dụng các tiện ích khác như rút tiền mặt, chuyển khoản, thanh toán mua sắm tiêu dùng như thông thường."
+    },
+    {
+        "text": "Sacombank sẽ triển khai gian hàng đặt tại 14 nhà ga metro hỗ trợ phát hành thẻ Sacombank Mastercard Metro Pass miễn phí cho các khách hàng có nhu cầu",
+        "label": "EVENT",
+        "evidence": "Đồng thời, Sacombank sẽ triển khai gian hàng đặt tại 14 nhà ga metro hỗ trợ phát hành thẻ Sacombank Mastercard Metro Pass miễn phí cho các khách hàng có nhu cầu."
+    },
+    {
+        "text": "mở thẻ Sacombank Mastercard Metro Pass tại các điểm giao dịch, mở thẻ trực tuyến trên Sacombank Pay hay ứng dụng Metro sẽ được tặng 50.000 đồng",
+        "label": "EVENT",
+        "evidence": "Với các khách hàng mở thẻ Sacombank Mastercard Metro Pass tại các điểm giao dịch, mở thẻ trực tuyến trên Sacombank Pay hay ứng dụng Metro sẽ được tặng 50.000 đồng."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "mở thẻ trực tuyến trên Sacombank Pay hay ứng dụng Metro sẽ được tặng 50.000 đồng."
+    }
+]

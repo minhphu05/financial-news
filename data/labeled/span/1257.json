@@ -1,0 +1,27 @@
+[
+    {
+        "text": "MBank",
+        "label": "ORG",
+        "evidence": "phần mềm giả mạo ứng dụng của các ngân hàng như: MBank, VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "phần mềm giả mạo ứng dụng của các ngân hàng như: MBank, VietinBank"
+    },
+    {
+        "text": "1 đến 5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "họ sẽ chuyển tiền từ 1 đến 5 triệu đồng"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Trung đã trả 50% cho các đối tượng khác trong nhóm."
+    },
+    {
+        "text": "hàng tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng số tiền lên đến hàng tỷ đồng."
+    }
+]

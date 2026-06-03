@@ -1,0 +1,332 @@
+[
+    {
+        "text": "ngày 15/4",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch ngày 15/4, hàng loạt nhà đầu tư bị \"sốc\" trước cú đảo chiều đột ngột của thị trường chứng khoán Việt Nam."
+    },
+    {
+        "text": "cú đảo chiều đột ngột của thị trường chứng khoán Việt Nam",
+        "label": "EVENT",
+        "evidence": "Phiên giao dịch ngày 15/4, hàng loạt nhà đầu tư bị \"sốc\" trước cú đảo chiều đột ngột của thị trường chứng khoán Việt Nam."
+    },
+    {
+        "text": "Làn sóng bán tháo xảy ra",
+        "label": "EVENT",
+        "evidence": "Làn sóng bán tháo xảy ra trong vài chục phút giao dịch cuối cùng của phiên khi đồng loạt các nhóm ngành lao dốc."
+    },
+    {
+        "text": "đồng loạt các nhóm ngành lao dốc",
+        "label": "EVENT",
+        "evidence": "Làn sóng bán tháo xảy ra trong vài chục phút giao dịch cuối cùng của phiên khi đồng loạt các nhóm ngành lao dốc."
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, VNIndex còn 1.216,61 điểm, giảm 59,99 điểm (-4,7%)."
+    },
+    {
+        "text": "1.216,61 điểm",
+        "label": "PRICE",
+        "evidence": "Đóng cửa, VNIndex còn 1.216,61 điểm, giảm 59,99 điểm (-4,7%)."
+    },
+    {
+        "text": "giảm 59,99 điểm",
+        "label": "RATE",
+        "evidence": "Đóng cửa, VNIndex còn 1.216,61 điểm, giảm 59,99 điểm (-4,7%)."
+    },
+    {
+        "text": "-4,7%",
+        "label": "RATE",
+        "evidence": "Đóng cửa, VNIndex còn 1.216,61 điểm, giảm 59,99 điểm (-4,7%)."
+    },
+    {
+        "text": "HNX",
+        "label": "ASSET",
+        "evidence": "HNX giảm 11,63 điểm (-4,82%) xuống 229,71 điểm."
+    },
+    {
+        "text": "giảm 11,63 điểm",
+        "label": "RATE",
+        "evidence": "HNX giảm 11,63 điểm (-4,82%) xuống 229,71 điểm."
+    },
+    {
+        "text": "-4,82%",
+        "label": "RATE",
+        "evidence": "HNX giảm 11,63 điểm (-4,82%) xuống 229,71 điểm."
+    },
+    {
+        "text": "229,71 điểm",
+        "label": "PRICE",
+        "evidence": "HNX giảm 11,63 điểm (-4,82%) xuống 229,71 điểm."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ASSET",
+        "evidence": "UPCoM giảm 2,23 điểm xuống 88,98 điểm."
+    },
+    {
+        "text": "giảm 2,23 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM giảm 2,23 điểm xuống 88,98 điểm."
+    },
+    {
+        "text": "88,98 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM giảm 2,23 điểm xuống 88,98 điểm."
+    },
+    {
+        "text": "đột ngột quay đầu lao dốc không phanh",
+        "label": "EVENT",
+        "evidence": "Nhóm cổ phiếu ngân hàng sáng nay giao dịch trong sắc xanh nhẹ cũng đột ngột quay đầu lao dốc không phanh trong những phút cuối cùng."
+    },
+    {
+        "text": "giảm sàn",
+        "label": "EVENT",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "VAB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng giảm sàn trong phiên như BID vủa BIDV, CTG của VietinBank, LPB của LPBank, VAB của VietABank."
+    },
+    {
+        "text": "giảm hơn 6%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-6,33%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-6,34%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-6,42%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-6,82%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-6,93%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "VAB",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "-7,37%",
+        "label": "RATE",
+        "evidence": "Nhiều cổ phiếu đóng cửa với mức giảm hơn 6% gồm có: TCB (-6,33%), EIB (-6,34%), TPB (-6,42%), CTG (-6,82%), BID (-6,93%), VAB (-7,37%)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu vốn hóa lớn nhất thị trường là VCB của Vietcombank cũng \"bốc hơi\" mạnh, giảm 2,75% trong phiên hôm nay."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu vốn hóa lớn nhất thị trường là VCB của Vietcombank cũng \"bốc hơi\" mạnh, giảm 2,75% trong phiên hôm nay."
+    },
+    {
+        "text": "giảm 2,75%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu vốn hóa lớn nhất thị trường là VCB của Vietcombank cũng \"bốc hơi\" mạnh, giảm 2,75% trong phiên hôm nay."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Mã duy nhất trong nhóm ngân hàng đóng cửa trong sắc xanh là SHB."
+    },
+    {
+        "text": "quay đầu giảm mạnh",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, SHB cũng đã quay đầu giảm mạnh so với mức tăng kịch trần sáng nay."
+    },
+    {
+        "text": "tăng kịch trần",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, SHB cũng đã quay đầu giảm mạnh so với mức tăng kịch trần sáng nay."
+    },
+    {
+        "text": "99 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản SHB tăng mạnh với 99 triệu cổ phiếu được khớp lệnh, giá trị hơn 1.100 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản SHB tăng mạnh với 99 triệu cổ phiếu được khớp lệnh, giá trị hơn 1.100 tỷ đồng."
+    },
+    {
+        "text": "hơn 9,4 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "SHB cũng được khối ngoại giao dịch sôi động, mua vào hơn 9,4 triệu đơn vị trong khi bán ra hơn 6,7 triệu đơn vị, tương đương mua ròng gần 3 triệu cp."
+    },
+    {
+        "text": "hơn 6,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "SHB cũng được khối ngoại giao dịch sôi động, mua vào hơn 9,4 triệu đơn vị trong khi bán ra hơn 6,7 triệu đơn vị, tương đương mua ròng gần 3 triệu cp."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "SHB cũng được khối ngoại giao dịch sôi động, mua vào hơn 9,4 triệu đơn vị trong khi bán ra hơn 6,7 triệu đơn vị, tương đương mua ròng gần 3 triệu cp."
+    },
+    {
+        "text": "gần 3 triệu cp",
+        "label": "VOLUME",
+        "evidence": "SHB cũng được khối ngoại giao dịch sôi động, mua vào hơn 9,4 triệu đơn vị trong khi bán ra hơn 6,7 triệu đơn vị, tương đương mua ròng gần 3 triệu cp."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "Ngoại trừ SHB được mua ròng, nhà đầu tư nước ngoài chủ yếu bán ròng các cổ phiếu ngân hàng khác trong phiên 15/4."
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "Ngoại trừ SHB được mua ròng, nhà đầu tư nước ngoài chủ yếu bán ròng các cổ phiếu ngân hàng khác trong phiên 15/4."
+    },
+    {
+        "text": "phiên 15/4",
+        "label": "DATE",
+        "evidence": "Ngoại trừ SHB được mua ròng, nhà đầu tư nước ngoài chủ yếu bán ròng các cổ phiếu ngân hàng khác trong phiên 15/4."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "234 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "89 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "84 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó CTG bị bán mạnh nhất với giá trị 234 tỷ đồng, tiếp đến là VCB (89 tỷ đồng), TPB (84 tỷ đồng),…"
+    },
+    {
+        "text": "phiên 15/4",
+        "label": "DATE",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 15/4 tăng mạnh và đạt hơn 7.500 tỷ đồng."
+    },
+    {
+        "text": "Thanh khoản khớp lệnh toàn ngành phiên 15/4 tăng mạnh",
+        "label": "EVENT",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 15/4 tăng mạnh và đạt hơn 7.500 tỷ đồng."
+    },
+    {
+        "text": "hơn 7.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 15/4 tăng mạnh và đạt hơn 7.500 tỷ đồng."
+    },
+    {
+        "text": "trên 1.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, ba mã có giá trị giao dịch trên 1.000 tỷ là SHB, MBB, CTG."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Trong đó, ba mã có giá trị giao dịch trên 1.000 tỷ là SHB, MBB, CTG."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Trong đó, ba mã có giá trị giao dịch trên 1.000 tỷ là SHB, MBB, CTG."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Trong đó, ba mã có giá trị giao dịch trên 1.000 tỷ là SHB, MBB, CTG."
+    }
+]

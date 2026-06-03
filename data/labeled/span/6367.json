@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "Mới đây, ngân hàng Nam A Bank thông báo, kể từ ngày 01/01/2025, nhà băng này sẽ tạm dừng giao dịch thẻ, giao dịch thanh toán, rút tiền trên tài khoản thanh toán trong trường hợp giấy tờ tùy thân của khách hàng hết hiệu lực hoặc hết thời hạn sử dụng hoặc giấy tờ chứng minh thời hạn cư trú tại Việt Nam của khách hàng hết hiệu lực."
+    },
+    {
+        "text": "01/01/2025",
+        "label": "DATE",
+        "evidence": "Mới đây, ngân hàng Nam A Bank thông báo, kể từ ngày 01/01/2025, nhà băng này sẽ tạm dừng giao dịch thẻ, giao dịch thanh toán, rút tiền trên tài khoản thanh toán trong trường hợp giấy tờ tùy thân của khách hàng hết hiệu lực hoặc hết thời hạn sử dụng hoặc giấy tờ chứng minh thời hạn cư trú tại Việt Nam của khách hàng hết hiệu lực."
+    },
+    {
+        "text": "tạm dừng giao dịch thẻ, giao dịch thanh toán, rút tiền trên tài khoản thanh toán trong trường hợp giấy tờ tùy thân của khách hàng hết hiệu lực hoặc hết thời hạn sử dụng hoặc giấy tờ chứng minh thời hạn cư trú tại Việt Nam của khách hàng hết hiệu lực",
+        "label": "EVENT",
+        "evidence": "Mới đây, ngân hàng Nam A Bank thông báo, kể từ ngày 01/01/2025, nhà băng này sẽ tạm dừng giao dịch thẻ, giao dịch thanh toán, rút tiền trên tài khoản thanh toán trong trường hợp giấy tờ tùy thân của khách hàng hết hiệu lực hoặc hết thời hạn sử dụng hoặc giấy tờ chứng minh thời hạn cư trú tại Việt Nam của khách hàng hết hiệu lực."
+    },
+    {
+        "text": "tạm dừng giao dịch khi chưa hoàn thành việc đối chiếu khớp đúng giấy tờ tùy thân và thông tin sinh trắc học của khách hàng",
+        "label": "EVENT",
+        "evidence": "Đồng thời, đối với giao dịch thẻ, giao dịch rút tiền, giao dịch thanh toán bằng phương tiện điện tử, ngân hàng này sẽ tạm dừng giao dịch khi chưa hoàn thành việc đối chiếu khớp đúng giấy tờ tùy thân và thông tin sinh trắc học của khách hàng."
+    },
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "Nam A Bank khuyến nghị khách hàng chủ động cập nhật thông tin giấy tờ tùy thân, giấy tờ chứng minh thời hạn cư trú tại Việt Nam còn hiệu lực và thông tin sinh trắc học tại Nam A Bank."
+    },
+    {
+        "text": "đầu tháng 10",
+        "label": "DATE",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng",
+        "label": "EVENT",
+        "evidence": "Kể từ đầu tháng 10 đến nay, hàng loạt ngân hàng nhưVPBank, Sacombank, VietBank, SHB,TPBank,… phát đi thông báo tương tự về việc cập nhật giấy tờ tùy thân và thông tin sinh trắc học trên tài khoản ngân hàng."
+    },
+    {
+        "text": "phát đi thông báo khuyến nghị khách hàng cập nhật sinh trắc học và giấy tờ tùy thân hợp lệ",
+        "label": "EVENT",
+        "evidence": "Đến thời điểm hiện tại, nhiều ngân hàng phát đi thông báo khuyến nghị khách hàng cập nhật sinh trắc học và giấy tờ tùy thân hợp lệ."
+    },
+    {
+        "text": "Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\"",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\" diễn ra vào ngày 2/10/2024, ông Phạm Tiến Dũng, Phó Thống đốc Ngân hàng Nhà nước Việt Nam đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng."
+    },
+    {
+        "text": "2/10/2024",
+        "label": "DATE",
+        "evidence": "Trước đó, tại Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\" diễn ra vào ngày 2/10/2024, ông Phạm Tiến Dũng, Phó Thống đốc Ngân hàng Nhà nước Việt Nam đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng."
+    },
+    {
+        "text": "Phạm Tiến Dũng",
+        "label": "PERSON",
+        "evidence": "Trước đó, tại Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\" diễn ra vào ngày 2/10/2024, ông Phạm Tiến Dũng, Phó Thống đốc Ngân hàng Nhà nước Việt Nam đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng."
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Trước đó, tại Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\" diễn ra vào ngày 2/10/2024, ông Phạm Tiến Dũng, Phó Thống đốc Ngân hàng Nhà nước Việt Nam đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng."
+    },
+    {
+        "text": "đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại Hội thảo \"Hà Nội - thành phố thông minh và hệ sinh thái ngân hàng mở\" diễn ra vào ngày 2/10/2024, ông Phạm Tiến Dũng, Phó Thống đốc Ngân hàng Nhà nước Việt Nam đề nghị các lãnh đạo ngân hàng đẩy nhanh việc cập nhật dữ liệu thông tin trên các tài khoản ngân hàng."
+    },
+    {
+        "text": "Dũng",
+        "label": "PERSON",
+        "evidence": "Ông Dũng nhấn mạnh, ngành ngân hàng lấy đích ngày 1/1/2025, hoàn toàn đảm bảo dữ liệu tài khoản của ngân hàng phải là dữ liệu sống."
+    },
+    {
+        "text": "1/1/2025",
+        "label": "DATE",
+        "evidence": "Ông Dũng nhấn mạnh, ngành ngân hàng lấy đích ngày 1/1/2025, hoàn toàn đảm bảo dữ liệu tài khoản của ngân hàng phải là dữ liệu sống."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo thống kê của NHNN, sau hơn 3 tháng triển khai thực hiện xác thực sinh trắc học, biện pháp này đã cho thấy hiệu quả rõ rệt trong việc phòng, chống lừa đảo."
+    },
+    {
+        "text": "triển khai thực hiện xác thực sinh trắc học",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của NHNN, sau hơn 3 tháng triển khai thực hiện xác thực sinh trắc học, biện pháp này đã cho thấy hiệu quả rõ rệt trong việc phòng, chống lừa đảo."
+    },
+    {
+        "text": "giảm đến 50%",
+        "label": "RATE",
+        "evidence": "Thống kê cho thấy có khoảng 38 triệu lượt khách hàng đăng ký thông tin sinh trắc học thành công và số lượng vụ lừa đảo đã giảm đến 50%, số lượng tài khoản nhận tiền lừa đảo cũng giảm trên 70% so với trung bình 7 tháng năm 2024."
+    },
+    {
+        "text": "giảm trên 70%",
+        "label": "RATE",
+        "evidence": "Thống kê cho thấy có khoảng 38 triệu lượt khách hàng đăng ký thông tin sinh trắc học thành công và số lượng vụ lừa đảo đã giảm đến 50%, số lượng tài khoản nhận tiền lừa đảo cũng giảm trên 70% so với trung bình 7 tháng năm 2024."
+    },
+    {
+        "text": "7 tháng năm 2024",
+        "label": "DATE",
+        "evidence": "Thống kê cho thấy có khoảng 38 triệu lượt khách hàng đăng ký thông tin sinh trắc học thành công và số lượng vụ lừa đảo đã giảm đến 50%, số lượng tài khoản nhận tiền lừa đảo cũng giảm trên 70% so với trung bình 7 tháng năm 2024."
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "Đặc biệt, tại một số đơn vị đã không phát sinh vụ việc lừa đảo trong tháng 8 và tháng 9."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "Đặc biệt, tại một số đơn vị đã không phát sinh vụ việc lừa đảo trong tháng 8 và tháng 9."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đại diện NHNN cho biết thêm, khuôn khổ pháp lý, cơ chế, chính sách cho hoạt động thanh toán không dùng tiền mặt và hoạt động ngân hàng số tiếp tục được bổ sung, hoàn thiện, tạo sự đồng bộ và điều kiện thuận lợi cho phát triển thanh toán không dùng tiền mặt, thúc đẩy hoạt động ngân hàng số, ứng dụng công nghệ mới và đảm bảo an ninh, an toàn trong hoạt động thanh toán."
+    }
+]

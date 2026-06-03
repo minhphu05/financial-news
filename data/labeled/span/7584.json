@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Dưới đây là các nguyên nhân phổ biến khiến mã PIN thẻ Vietcombank không kích hoạt được."
+    },
+    {
+        "text": "không kích hoạt được",
+        "label": "EVENT",
+        "evidence": "Dưới đây là các nguyên nhân phổ biến khiến mã PIN thẻ Vietcombank không kích hoạt được."
+    },
+    {
+        "text": "được kích hoạt",
+        "label": "EVENT",
+        "evidence": "Khi bạn mới nhận thẻ, nó có thể chưa được kích hoạt do chưa có bất kỳ giao dịch nào được thực hiện."
+    },
+    {
+        "text": "giao dịch nào được thực hiện",
+        "label": "EVENT",
+        "evidence": "Khi bạn mới nhận thẻ, nó có thể chưa được kích hoạt do chưa có bất kỳ giao dịch nào được thực hiện."
+    },
+    {
+        "text": "rút tiền tại ATM",
+        "label": "EVENT",
+        "evidence": "Một số ngân hàng sẽ yêu cầu bạn thực hiện giao dịch đầu tiên như rút tiền tại ATM hoặc thực hiện thanh toán để kích hoạt thẻ và mã PIN."
+    },
+    {
+        "text": "thực hiện thanh toán",
+        "label": "EVENT",
+        "evidence": "Một số ngân hàng sẽ yêu cầu bạn thực hiện giao dịch đầu tiên như rút tiền tại ATM hoặc thực hiện thanh toán để kích hoạt thẻ và mã PIN."
+    },
+    {
+        "text": "kích hoạt thẻ và mã PIN",
+        "label": "EVENT",
+        "evidence": "Một số ngân hàng sẽ yêu cầu bạn thực hiện giao dịch đầu tiên như rút tiền tại ATM hoặc thực hiện thanh toán để kích hoạt thẻ và mã PIN."
+    },
+    {
+        "text": "thẻ được phát hành",
+        "label": "EVENT",
+        "evidence": "Điều này nhằm đảm bảo thẻ được phát hành đúng người và tránh các rủi ro liên quan đến bảo mật."
+    },
+    {
+        "text": "Thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng hoặc thẻ ghi nợ có thời hạn sử dụng nhất định."
+    },
+    {
+        "text": "thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng hoặc thẻ ghi nợ có thời hạn sử dụng nhất định."
+    },
+    {
+        "text": "gia hạn thẻ",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp này, bạn cần liên hệ với ngân hàng để gia hạn thẻ hoặc nhận thẻ mới."
+    },
+    {
+        "text": "nhận thẻ mới",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp này, bạn cần liên hệ với ngân hàng để gia hạn thẻ hoặc nhận thẻ mới."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ảnh minh họa: FPT."
+    },
+    {
+        "text": "khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng có thể khóa thẻ của bạn vì nhiều lý do, bao gồm lỡ mất, bị đánh cắp hoặc có dấu hiệu gian lận."
+    },
+    {
+        "text": "được kích hoạt",
+        "label": "EVENT",
+        "evidence": "Khi thẻ bị khóa, mã PIN của bạn sẽ không còn được kích hoạt."
+    },
+    {
+        "text": "mở khóa",
+        "label": "EVENT",
+        "evidence": "Bạn cần liên hệ ngay với ngân hàng để báo cáo tình trạng thẻ và yêu cầu mở khóa hoặc cấp lại thẻ mới."
+    },
+    {
+        "text": "cấp lại thẻ mới",
+        "label": "EVENT",
+        "evidence": "Bạn cần liên hệ ngay với ngân hàng để báo cáo tình trạng thẻ và yêu cầu mở khóa hoặc cấp lại thẻ mới."
+    },
+    {
+        "text": "không được kích hoạt",
+        "label": "EVENT",
+        "evidence": "Một nguyên nhân khác khiến mã PIN không được kích hoạt là do thẻ bị hỏng."
+    },
+    {
+        "text": "cấp lại thẻ mới",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp này, bạn cần kiểm tra thẻ và nếu thấy thẻ bị hỏng, hãy yêu cầu ngân hàng cấp lại thẻ mới."
+    },
+    {
+        "text": "đăng ký thẻ",
+        "label": "EVENT",
+        "evidence": "Nếu bạn chưa hoàn thành các thủ tục đăng ký thẻ tại ngân hàng, mã PIN cũng sẽ không được kích hoạt."
+    },
+    {
+        "text": "không được kích hoạt",
+        "label": "EVENT",
+        "evidence": "Nếu bạn chưa hoàn thành các thủ tục đăng ký thẻ tại ngân hàng, mã PIN cũng sẽ không được kích hoạt."
+    },
+    {
+        "text": "không kích hoạt được mã PIN",
+        "label": "EVENT",
+        "evidence": "Đôi khi, nguyên nhân không kích hoạt được mã PIN có thể đến từ lỗi hệ thống của ngân hàng."
+    },
+    {
+        "text": "không thể kích hoạt mã PIN",
+        "label": "EVENT",
+        "evidence": "Hệ thống xử lý giao dịch của ngân hàng có thể gặp sự cố hoặc lỗi kỹ thuật, dẫn đến việc không thể kích hoạt mã PIN cho thẻ của bạn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lưu ý:Để giải quyết vấn đề này, bạn cần kiểm tra kỹ lưỡng từng nguyên nhân và liên hệ với ngân hàng Vietcombank để được hỗ trợ kịp thời."
+    }
+]

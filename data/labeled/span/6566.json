@@ -1,0 +1,82 @@
+[
+    {
+        "text": "thẻ ngân hàng",
+        "label": "ASSET",
+        "evidence": "Các hình thức lừa đảo nhằm đánh cắp thông tin và chiếm đoạt tài sản qua thẻ ngân hàng đang ngày càng trở nên tinh vi."
+    },
+    {
+        "text": "Ngân hàng Techcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Techcombank đã phát đi cảnh báo về một số phương thức lừa đảo phổ biến mà khách hàng cần đặc biệt lưu ý để bảo vệ tài sản của mình."
+    },
+    {
+        "text": "phát đi cảnh báo về một số phương thức lừa đảo phổ biến",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Techcombank đã phát đi cảnh báo về một số phương thức lừa đảo phổ biến mà khách hàng cần đặc biệt lưu ý để bảo vệ tài sản của mình."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Kẻ gian lợi dụng sơ hở của khách hàng trong quá trình thanh toán (tại nhà hàng, siêu thị) để tráo chip thật trên thẻ bằng một con chip giả."
+    },
+    {
+        "text": "toàn bộ số thẻ",
+        "label": "ASSET",
+        "evidence": "Các đối tượng sẽ giả danh nhân viên ngân hàng, gọi điện hoặc nhắn tin yêu cầu khách hàng cung cấp thông tin \"sinh tử\" như toàn bộ số thẻ, ngày hết hạn, mã CVV (ba số bảo mật ở mặt sau thẻ) và mã OTP."
+    },
+    {
+        "text": "ngày hết hạn",
+        "label": "ASSET",
+        "evidence": "Các đối tượng sẽ giả danh nhân viên ngân hàng, gọi điện hoặc nhắn tin yêu cầu khách hàng cung cấp thông tin \"sinh tử\" như toàn bộ số thẻ, ngày hết hạn, mã CVV (ba số bảo mật ở mặt sau thẻ) và mã OTP."
+    },
+    {
+        "text": "mã CVV",
+        "label": "ASSET",
+        "evidence": "Các đối tượng sẽ giả danh nhân viên ngân hàng, gọi điện hoặc nhắn tin yêu cầu khách hàng cung cấp thông tin \"sinh tử\" như toàn bộ số thẻ, ngày hết hạn, mã CVV (ba số bảo mật ở mặt sau thẻ) và mã OTP."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Các đối tượng sẽ giả danh nhân viên ngân hàng, gọi điện hoặc nhắn tin yêu cầu khách hàng cung cấp thông tin \"sinh tử\" như toàn bộ số thẻ, ngày hết hạn, mã CVV (ba số bảo mật ở mặt sau thẻ) và mã OTP."
+    },
+    {
+        "text": "nâng hạn mức tín dụng",
+        "label": "EVENT",
+        "evidence": "Chúng thường đưa ra các lý do hấp dẫn như xác minh tài khoản, nâng hạng thẻ, nâng hạn mức tín dụng, miễn phí thường niên hoặc nhận quà tặng ưu đãi."
+    },
+    {
+        "text": "miễn phí thường niên",
+        "label": "EVENT",
+        "evidence": "Chúng thường đưa ra các lý do hấp dẫn như xác minh tài khoản, nâng hạng thẻ, nâng hạn mức tín dụng, miễn phí thường niên hoặc nhận quà tặng ưu đãi."
+    },
+    {
+        "text": "nhận quà tặng ưu đãi",
+        "label": "EVENT",
+        "evidence": "Chúng thường đưa ra các lý do hấp dẫn như xác minh tài khoản, nâng hạng thẻ, nâng hạn mức tín dụng, miễn phí thường niên hoặc nhận quà tặng ưu đãi."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank khẳng định, hiện tại ngân hàng không thu bất kỳ khoản phí nào khi phát hành hoặc giao thẻ đến khách hàng, do đó mọi yêu cầu nộp phí theo hình thức này đều là lừa đảo."
+    },
+    {
+        "text": "khẳng định, hiện tại ngân hàng không thu bất kỳ khoản phí nào khi phát hành hoặc giao thẻ đến khách hàng",
+        "label": "EVENT",
+        "evidence": "Techcombank khẳng định, hiện tại ngân hàng không thu bất kỳ khoản phí nào khi phát hành hoặc giao thẻ đến khách hàng, do đó mọi yêu cầu nộp phí theo hình thức này đều là lừa đảo."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "Để bảo vệ khách hàng, Techcombank khuyến cáo người dùng tuyệt đối không cung cấp mã OTP, số thẻ, mã CVV hay ngày hết hạn thẻ cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng."
+    },
+    {
+        "text": "ngày hết hạn thẻ",
+        "label": "ASSET",
+        "evidence": "Để bảo vệ khách hàng, Techcombank khuyến cáo người dùng tuyệt đối không cung cấp mã OTP, số thẻ, mã CVV hay ngày hết hạn thẻ cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng."
+    },
+    {
+        "text": "chức năng thanh toán trực tuyến",
+        "label": "ASSET",
+        "evidence": "Một trong những biện pháp bảo vệ chủ động và hiệu quả nhất làchỉ mở chức năng thanh toán trực tuyến khi có nhu cầu sử dụng và tắt ngay sau khi hoàn tất giao dịch."
+    }
+]

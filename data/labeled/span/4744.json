@@ -1,0 +1,742 @@
+[
+    {
+        "text": "21/7-25/7",
+        "label": "DATE",
+        "evidence": "chốt quyền cổ tức trong tuần 21/7-25/7"
+    },
+    {
+        "text": "chốt quyền cổ tức",
+        "label": "EVENT",
+        "evidence": "27 doanh nghiệp thông báo chốt quyền cổ tức trong tuần 21/7-25/7"
+    },
+    {
+        "text": "cổ tức",
+        "label": "ASSET",
+        "evidence": "27 doanh nghiệp thông báo chốt quyền cổ tức trong tuần 21/7-25/7"
+    },
+    {
+        "text": "trả cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "17 doanh nghiệp trả cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "mức cao nhất là 30%"
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "thấp nhất là 0,5%"
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "5 doanh nghiệp trả cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "thưởng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "2 doanh nghiệp thưởng cổ phiếu"
+    },
+    {
+        "text": "phát hành trái phiếu chuyển đổi",
+        "label": "EVENT",
+        "evidence": "1 DN phát hành trái phiếu chuyển đổi"
+    },
+    {
+        "text": "phát hành thêm",
+        "label": "EVENT",
+        "evidence": "1 DN phát hành thêm"
+    },
+    {
+        "text": "trả cổ tức hỗn hợp",
+        "label": "EVENT",
+        "evidence": "1 DN trả cổ tức hỗn hợp"
+    },
+    {
+        "text": "CTCP Thành Thành Công - Biên Hòa",
+        "label": "ORG",
+        "evidence": "CTCP Thành Thành Công - Biên Hòa (TTC AgriS, mã: SBT)"
+    },
+    {
+        "text": "TTC AgriS",
+        "label": "ORG",
+        "evidence": "CTCP Thành Thành Công - Biên Hòa (TTC AgriS, mã: SBT)"
+    },
+    {
+        "text": "SBT",
+        "label": "TICKER",
+        "evidence": "CTCP Thành Thành Công - Biên Hòa (TTC AgriS, mã: SBT)"
+    },
+    {
+        "text": "hồ sơ đăng ký chào bán trái phiếu chuyển đổi ra công chúng năm 2025 cho cổ đông sở hữu cổ phần phổ thông",
+        "label": "EVENT",
+        "evidence": "vừa thông qua hồ sơ đăng ký chào bán trái phiếu chuyển đổi ra công chúng năm 2025 cho cổ đông sở hữu cổ phần phổ thông"
+    },
+    {
+        "text": "trái phiếu chuyển đổi",
+        "label": "ASSET",
+        "evidence": "chào bán trái phiếu chuyển đổi ra công chúng năm 2025 cho cổ đông sở hữu cổ phần phổ thông"
+    },
+    {
+        "text": "cổ phần phổ thông",
+        "label": "ASSET",
+        "evidence": "chào bán trái phiếu chuyển đổi ra công chúng năm 2025 cho cổ đông sở hữu cổ phần phổ thông"
+    },
+    {
+        "text": "Ngày giao dịch không hưởng quyền",
+        "label": "EVENT",
+        "evidence": "Ngày giao dịch không hưởng quyền là 25/7"
+    },
+    {
+        "text": "25/7",
+        "label": "DATE",
+        "evidence": "Ngày giao dịch không hưởng quyền là 25/7"
+    },
+    {
+        "text": "SBT",
+        "label": "TICKER",
+        "evidence": "Theo đó, SBT dự kiến phát hành hơn 4,99 triệu trái phiếu chuyển đổi"
+    },
+    {
+        "text": "phát hành hơn 4,99 triệu trái phiếu chuyển đổi",
+        "label": "EVENT",
+        "evidence": "SBT dự kiến phát hành hơn 4,99 triệu trái phiếu chuyển đổi"
+    },
+    {
+        "text": "hơn 4,99 triệu trái phiếu chuyển đổi",
+        "label": "VOLUME",
+        "evidence": "SBT dự kiến phát hành hơn 4,99 triệu trái phiếu chuyển đổi"
+    },
+    {
+        "text": "trái phiếu chuyển đổi",
+        "label": "ASSET",
+        "evidence": "phát hành hơn 4,99 triệu trái phiếu chuyển đổi"
+    },
+    {
+        "text": "100,000 đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "mệnh giá 100,000 đồng/trái phiếu"
+    },
+    {
+        "text": "gần 500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng giá trị huy động gần 500 tỷ đồng"
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Trái phiếu có kỳ hạn 1 năm"
+    },
+    {
+        "text": "9,5%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cố định 9,5%/năm"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "trả lãi định kỳ 3 tháng"
+    },
+    {
+        "text": "trái phiếu không có tài sản đảm bảo",
+        "label": "ASSET",
+        "evidence": "Đây là trái phiếu không có tài sản đảm bảo"
+    },
+    {
+        "text": "chứng quyền",
+        "label": "ASSET",
+        "evidence": "không kèm chứng quyền"
+    },
+    {
+        "text": "chuyển đổi thành cổ phần phổ thông",
+        "label": "EVENT",
+        "evidence": "và được chuyển đổi thành cổ phần phổ thông"
+    },
+    {
+        "text": "cổ phần phổ thông",
+        "label": "ASSET",
+        "evidence": "chuyển đổi thành cổ phần phổ thông"
+    },
+    {
+        "text": "16.291:100",
+        "label": "RATE",
+        "evidence": "Tỷ lệ phân bổ quyền là 16.291:100"
+    },
+    {
+        "text": "VietinBank Securities",
+        "label": "ORG",
+        "evidence": "VietinBank Securities là đơn vị tư vấn, đại lý phát hành và bảo lãnh phát hành"
+    },
+    {
+        "text": "CTS",
+        "label": "ORG",
+        "evidence": "CTS cam kết mua tối đa 2 triệu trái phiếu chưa phân phối hết"
+    },
+    {
+        "text": "mua tối đa 2 triệu trái phiếu",
+        "label": "EVENT",
+        "evidence": "CTS cam kết mua tối đa 2 triệu trái phiếu chưa phân phối hết"
+    },
+    {
+        "text": "2 triệu trái phiếu",
+        "label": "VOLUME",
+        "evidence": "CTS cam kết mua tối đa 2 triệu trái phiếu chưa phân phối hết"
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 200 tỷ đồng"
+    },
+    {
+        "text": "22/7",
+        "label": "DATE",
+        "evidence": "Ngày 22/7 tới đây"
+    },
+    {
+        "text": "Tổng công ty Hàng không Việt Nam – CTCP",
+        "label": "ORG",
+        "evidence": "Tổng công ty Hàng không Việt Nam – CTCP (Vietnam Airlines, mã:HVN)"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Tổng công ty Hàng không Việt Nam – CTCP (Vietnam Airlines, mã:HVN)"
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "Tổng công ty Hàng không Việt Nam – CTCP (Vietnam Airlines, mã:HVN)"
+    },
+    {
+        "text": "chốt danh sách cổ đông thực hiện quyền mua cổ phiếu phát hành thêm cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "sẽ chốt danh sách cổ đông thực hiện quyền mua cổ phiếu phát hành thêm cho cổ đông hiện hữu"
+    },
+    {
+        "text": "cổ phiếu phát hành thêm",
+        "label": "ASSET",
+        "evidence": "quyền mua cổ phiếu phát hành thêm cho cổ đông hiện hữu"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Theo đó, Vietnam Airlines dự kiến phát hành thêm 900 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "phát hành thêm 900 triệu cổ phiếu cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "Vietnam Airlines dự kiến phát hành thêm 900 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "900 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành thêm 900 triệu cổ phiếu"
+    },
+    {
+        "text": "10.000 đồng/CP",
+        "label": "PRICE",
+        "evidence": "với giá 10.000 đồng/CP"
+    },
+    {
+        "text": "9.000 tỷ",
+        "label": "MONEY",
+        "evidence": "số tiền thu về tối đa dự kiến đạt 9.000 tỷ"
+    },
+    {
+        "text": "hơn 1:0,406",
+        "label": "RATE",
+        "evidence": "Tỷ lệ thực hiện quyền là hơn 1:0,406"
+    },
+    {
+        "text": "1.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "cổ đông sở hữu 1.000 cổ phiếu"
+    },
+    {
+        "text": "hơn 406 cổ phiếu mới",
+        "label": "VOLUME",
+        "evidence": "sẽ được mua thêm hơn 406 cổ phiếu mới"
+    },
+    {
+        "text": "cổ phiếu lẻ",
+        "label": "ASSET",
+        "evidence": "Số lượng cổ phiếu lẻ phát sinh do làm tròn xuống"
+    },
+    {
+        "text": "cổ phiếu không thực hiện quyền mua",
+        "label": "ASSET",
+        "evidence": "số cổ phiếu không thực hiện quyền mua"
+    },
+    {
+        "text": "ĐHCĐ",
+        "label": "ORG",
+        "evidence": "sẽ được ĐHCĐ ủy quyền cho HĐQT xem xét"
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "sẽ được ĐHCĐ ủy quyền cho HĐQT xem xét"
+    },
+    {
+        "text": "quyết định chào bán cho các nhà đầu tư khác",
+        "label": "EVENT",
+        "evidence": "quyết định chào bán cho các nhà đầu tư khác với giá không thấp hơn 10.000 đồng/CP"
+    },
+    {
+        "text": "10.000 đồng/CP",
+        "label": "PRICE",
+        "evidence": "giá không thấp hơn 10.000 đồng/CP"
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "hạn chế chuyển nhượng trong 1 năm kể từ ngày kết thúc đợt chào bán"
+    },
+    {
+        "text": "22/7",
+        "label": "DATE",
+        "evidence": "Ngày 22/7 tới đây"
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT (mã:FPT)"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT (mã:FPT)"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Tập đoàn FPT (mã:FPT)"
+    },
+    {
+        "text": "chốt danh sách cổ đông để phát hành cổ phiếu tăng vốn cổ phần từ nguồn vốn chủ sở hữu (cổ phiếu thưởng)",
+        "label": "EVENT",
+        "evidence": "sẽ chốt danh sách cổ đông để phát hành cổ phiếu tăng vốn cổ phần từ nguồn vốn chủ sở hữu (cổ phiếu thưởng)"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "phát hành cổ phiếu tăng vốn cổ phần từ nguồn vốn chủ sở hữu (cổ phiếu thưởng)"
+    },
+    {
+        "text": "cổ phiếu thưởng",
+        "label": "ASSET",
+        "evidence": "phát hành cổ phiếu tăng vốn cổ phần từ nguồn vốn chủ sở hữu (cổ phiếu thưởng)"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo đó, FPT sẽ phát hành hơn 222 triệu cổ phiếu"
+    },
+    {
+        "text": "phát hành hơn 222 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "FPT sẽ phát hành hơn 222 triệu cổ phiếu"
+    },
+    {
+        "text": "hơn 222 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "FPT sẽ phát hành hơn 222 triệu cổ phiếu"
+    },
+    {
+        "text": "20:3 (15%)",
+        "label": "RATE",
+        "evidence": "tỷ lệ thực hiện quyền là 20:3 (15%)"
+    },
+    {
+        "text": "20 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "cổ đông sở hữu 20 cổ phiếu"
+    },
+    {
+        "text": "3 cổ phiếu mới",
+        "label": "VOLUME",
+        "evidence": "được nhận 3 cổ phiếu mới"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Sau khi hoàn tất, FPT sẽ nâng vốn điều lệ lên hơn 17.000 tỷ đồng"
+    },
+    {
+        "text": "hơn 17.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nâng vốn điều lệ lên hơn 17.000 tỷ đồng"
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "Trong tháng 6 vừa qua"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT chi hơn 1.800 tỷ đồng để thanh toán cổ tức tiền mặt năm 2024 cho cổ đông"
+    },
+    {
+        "text": "hơn 1.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "FPT chi hơn 1.800 tỷ đồng để thanh toán cổ tức tiền mặt năm 2024 cho cổ đông"
+    },
+    {
+        "text": "thanh toán cổ tức tiền mặt năm 2024",
+        "label": "EVENT",
+        "evidence": "thanh toán cổ tức tiền mặt năm 2024 cho cổ đông"
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "thanh toán cổ tức tiền mặt năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "thanh toán cổ tức tiền mặt năm 2024"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 10%"
+    },
+    {
+        "text": "trả cổ tức lần 1 năm 2024",
+        "label": "EVENT",
+        "evidence": "đã hoàn tất đợt trả cổ tức lần 1 năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "đợt trả cổ tức lần 1 năm 2024"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "cũng với tỷ lệ 10%"
+    },
+    {
+        "text": "giữa tháng 12/2024",
+        "label": "DATE",
+        "evidence": "vào giữa tháng 12/2024"
+    },
+    {
+        "text": "tổng cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "tổng cổ tức tiền mặt mà cổ đông FPT nhận được cho cả năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "cho cả năm 2024"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "là 20%"
+    },
+    {
+        "text": "CTCP Sonadezi Long Bình",
+        "label": "ORG",
+        "evidence": "CTCP Sonadezi Long Bình (mã: SZB)"
+    },
+    {
+        "text": "SZB",
+        "label": "TICKER",
+        "evidence": "CTCP Sonadezi Long Bình (mã: SZB)"
+    },
+    {
+        "text": "22/07",
+        "label": "DATE",
+        "evidence": "ngày 22/07 tới đây"
+    },
+    {
+        "text": "chốt danh sách cổ đông nhận cổ tức còn lại của năm 2024",
+        "label": "EVENT",
+        "evidence": "chốt danh sách cổ đông nhận cổ tức còn lại của năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "cổ tức còn lại của năm 2024"
+    },
+    {
+        "text": "Sonadezi Long Bình",
+        "label": "ORG",
+        "evidence": "Sonadezi Long Bình sẽ trả cổ tức bằng tiền"
+    },
+    {
+        "text": "trả cổ tức bằng tiền",
+        "label": "EVENT",
+        "evidence": "Sonadezi Long Bình sẽ trả cổ tức bằng tiền"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 30%"
+    },
+    {
+        "text": "01 cổ phiếu được nhận 3.000 đồng",
+        "label": "PRICE",
+        "evidence": "tương ứng 01 cổ phiếu được nhận 3.000 đồng"
+    },
+    {
+        "text": "22/08",
+        "label": "DATE",
+        "evidence": "Thời gian thanh toán vào ngày 22/08 tới"
+    },
+    {
+        "text": "30 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với 30 triệu cổ phiếu đang lưu hành"
+    },
+    {
+        "text": "SZB",
+        "label": "TICKER",
+        "evidence": "SZB sẽ chi tương ứng 90 tỷ đồng cho đợt trả cổ tức này"
+    },
+    {
+        "text": "90 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi tương ứng 90 tỷ đồng cho đợt trả cổ tức này"
+    },
+    {
+        "text": "đợt trả cổ tức",
+        "label": "EVENT",
+        "evidence": "chi tương ứng 90 tỷ đồng cho đợt trả cổ tức này"
+    },
+    {
+        "text": "SZB",
+        "label": "TICKER",
+        "evidence": "Trước đó, SZB đã tạm ứng cổ tức đợt 1/2024 với tỷ lệ 10%"
+    },
+    {
+        "text": "tạm ứng cổ tức đợt 1/2024",
+        "label": "EVENT",
+        "evidence": "SZB đã tạm ứng cổ tức đợt 1/2024 với tỷ lệ 10%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 10%"
+    },
+    {
+        "text": "hoàn tất nghĩa vụ trả cổ tức cho năm 2024",
+        "label": "EVENT",
+        "evidence": "công ty sẽ hoàn tất nghĩa vụ trả cổ tức cho năm 2024 cho cổ đông"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "trả cổ tức cho năm 2024"
+    },
+    {
+        "text": "40% bằng tiền mặt",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 40% bằng tiền mặt"
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "niêm yết vào năm 2019"
+    },
+    {
+        "text": "25/7",
+        "label": "DATE",
+        "evidence": "Ngày 25/7 tới đây là ngày đăng ký cuối cùng"
+    },
+    {
+        "text": "CTCP Du lịch Vietravel",
+        "label": "ORG",
+        "evidence": "CTCP Du lịch Vietravel (mã: VTR)"
+    },
+    {
+        "text": "VTR",
+        "label": "TICKER",
+        "evidence": "CTCP Du lịch Vietravel (mã: VTR)"
+    },
+    {
+        "text": "chốt danh sách cổ đông nhận cổ tức năm 2024 bằng tiền mặt tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "chốt danh sách cổ đông nhận cổ tức năm 2024 bằng tiền mặt tỷ lệ 10%"
+    },
+    {
+        "text": "cổ tức năm 2024 bằng tiền mặt",
+        "label": "ASSET",
+        "evidence": "nhận cổ tức năm 2024 bằng tiền mặt"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "cổ tức năm 2024"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 10%"
+    },
+    {
+        "text": "1 cổ phiếu nhận về 1.000 đồng",
+        "label": "PRICE",
+        "evidence": "tương ứng 1 cổ phiếu nhận về 1.000 đồng"
+    },
+    {
+        "text": "hơn 28,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với hơn 28,6 triệu cổ phiếu đang lưu hành"
+    },
+    {
+        "text": "VTR",
+        "label": "TICKER",
+        "evidence": "VTR cần chi ra gần 29 tỷ để chi trả cho cổ đông"
+    },
+    {
+        "text": "gần 29 tỷ",
+        "label": "MONEY",
+        "evidence": "VTR cần chi ra gần 29 tỷ để chi trả cho cổ đông"
+    },
+    {
+        "text": "chi trả cho cổ đông",
+        "label": "EVENT",
+        "evidence": "VTR cần chi ra gần 29 tỷ để chi trả cho cổ đông"
+    },
+    {
+        "text": "thanh toán cổ tức tiền mặt",
+        "label": "EVENT",
+        "evidence": "Doanh nghiệp dự kiến thanh toán cổ tức tiền mặt từ ngày 7/8/2025"
+    },
+    {
+        "text": "7/8/2025",
+        "label": "DATE",
+        "evidence": "từ ngày 7/8/2025"
+    },
+    {
+        "text": "Du lịch Vietravel",
+        "label": "ORG",
+        "evidence": "Cơ cấu cổ đông tại Du lịch Vietravel tại thời điểm hiện tại"
+    },
+    {
+        "text": "Nguyễn Thuỷ Tiên",
+        "label": "PERSON",
+        "evidence": "ghi nhận bà Nguyễn Thuỷ Tiên là cổ đông lớn nhất"
+    },
+    {
+        "text": "6 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "lượng cổ phiếu nắm giữ là 6 triệu đơn vị"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "tỷ lệ sở hữu 20%"
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dự kiến nhận về 6 tỷ đồng tiền cổ tức"
+    },
+    {
+        "text": "tiền cổ tức",
+        "label": "ASSET",
+        "evidence": "nhận về 6 tỷ đồng tiền cổ tức"
+    },
+    {
+        "text": "ông Nguyễn Quốc Kỳ",
+        "label": "PERSON",
+        "evidence": "nhóm cổ đông liên quan tới ông Nguyễn Quốc Kỳ, Chủ tịch HĐQT VTR"
+    },
+    {
+        "text": "Chủ tịch HĐQT VTR",
+        "label": "PERSON",
+        "evidence": "ông Nguyễn Quốc Kỳ, Chủ tịch HĐQT VTR"
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT VTR"
+    },
+    {
+        "text": "VTR",
+        "label": "TICKER",
+        "evidence": "Chủ tịch HĐQT VTR"
+    },
+    {
+        "text": "hơn 7,5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "nắm giữ hơn 7,5 triệu cổ phiếu"
+    },
+    {
+        "text": "7,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dự kiến nhận về khoảng 7,5 tỷ đồng"
+    },
+    {
+        "text": "25/7",
+        "label": "DATE",
+        "evidence": "ngày 25/7 tới đây"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Thế giới Di động (mã:MWG)"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Thế giới Di động (mã:MWG)"
+    },
+    {
+        "text": "chốt danh sách cổ đông để trả cổ tức năm 2024 bằng tiền với tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "sẽ chốt danh sách cổ đông để trả cổ tức năm 2024 bằng tiền với tỷ lệ 10%"
+    },
+    {
+        "text": "cổ tức năm 2024 bằng tiền",
+        "label": "ASSET",
+        "evidence": "trả cổ tức năm 2024 bằng tiền"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "cổ tức năm 2024"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 10%"
+    },
+    {
+        "text": "1 cổ phiếu sẽ nhận 1.000 đồng",
+        "label": "PRICE",
+        "evidence": "cổ đông sở hữu 1 cổ phiếu sẽ nhận 1.000 đồng"
+    },
+    {
+        "text": "8/8",
+        "label": "DATE",
+        "evidence": "ngày thanh toán dự kiến là ngày 8/8"
+    },
+    {
+        "text": "1.478,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với 1.478,6 triệu cổ phiếu đang lưu hành"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "ước tính Thế giới Di động sẽ trả tổng cộng khoảng 1.478,6 tỷ đồng"
+    },
+    {
+        "text": "khoảng 1.478,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sẽ trả tổng cộng khoảng 1.478,6 tỷ đồng"
+    },
+    {
+        "text": "trả cổ tức",
+        "label": "EVENT",
+        "evidence": "trong lần trả cổ tức sắp tới"
+    }
+]

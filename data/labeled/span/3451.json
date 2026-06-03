@@ -1,0 +1,267 @@
+[
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "trong đó “anh cả” HPG bứt phá 1,55%"
+    },
+    {
+        "text": "1,55%",
+        "label": "RATE",
+        "evidence": "trong đó “anh cả” HPG bứt phá 1,55%"
+    },
+    {
+        "text": "HSG",
+        "label": "TICKER",
+        "evidence": "bộ đôi HSG và NKG cũng lần lượt tăng 2,98% và 2,61%"
+    },
+    {
+        "text": "NKG",
+        "label": "TICKER",
+        "evidence": "bộ đôi HSG và NKG cũng lần lượt tăng 2,98% và 2,61%"
+    },
+    {
+        "text": "2,98%",
+        "label": "RATE",
+        "evidence": "bộ đôi HSG và NKG cũng lần lượt tăng 2,98% và 2,61%"
+    },
+    {
+        "text": "2,61%",
+        "label": "RATE",
+        "evidence": "bộ đôi HSG và NKG cũng lần lượt tăng 2,98% và 2,61%"
+    },
+    {
+        "text": "TIS",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu khác cũng tăng tốc với TIS (+8,96%)"
+    },
+    {
+        "text": "8,96%",
+        "label": "RATE",
+        "evidence": "TIS (+8,96%)"
+    },
+    {
+        "text": "TVN",
+        "label": "TICKER",
+        "evidence": "TVN (+3,45%)"
+    },
+    {
+        "text": "3,45%",
+        "label": "RATE",
+        "evidence": "TVN (+3,45%)"
+    },
+    {
+        "text": "SMC",
+        "label": "TICKER",
+        "evidence": "SMC (+47%)"
+    },
+    {
+        "text": "47%",
+        "label": "RATE",
+        "evidence": "SMC (+47%)"
+    },
+    {
+        "text": "Ngân hàng Nhân dân Trung Quốc",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhân dân Trung Quốc (PBOC) công bố kế hoạch tung ra gói kích thích tiền tệ lớn và quan trọng nhất kể từ khi xảy ra đại dịch Covid để ngăn chặn sự lao dốc không phanh của thị trường nhà ở"
+    },
+    {
+        "text": "PBOC",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhân dân Trung Quốc (PBOC) công bố kế hoạch tung ra gói kích thích tiền tệ lớn và quan trọng nhất kể từ khi xảy ra đại dịch Covid để ngăn chặn sự lao dốc không phanh của thị trường nhà ở"
+    },
+    {
+        "text": "Ngân hàng Nhân dân Trung Quốc (PBOC) công bố kế hoạch tung ra gói kích thích tiền tệ lớn và quan trọng nhất kể từ khi xảy ra đại dịch Covid để ngăn chặn sự lao dốc không phanh của thị trường nhà ở",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhân dân Trung Quốc (PBOC) công bố kế hoạch tung ra gói kích thích tiền tệ lớn và quan trọng nhất kể từ khi xảy ra đại dịch Covid để ngăn chặn sự lao dốc không phanh của thị trường nhà ở"
+    },
+    {
+        "text": "giảm 50 điểm cơ bản đối với tỷ lệ dự trữ bắt buộc (RRR)",
+        "label": "EVENT",
+        "evidence": "Gói kích thích này bao gồm giảm 50 điểm cơ bản đối với tỷ lệ dự trữ bắt buộc (RRR)"
+    },
+    {
+        "text": "50 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "giảm 50 điểm cơ bản đối với tỷ lệ dự trữ bắt buộc (RRR)"
+    },
+    {
+        "text": "lãi suất cho vay trung hạn (MLF)",
+        "label": "ASSET",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "MLF",
+        "label": "ASSET",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "lãi suất cho vay cơ bản (LPR)",
+        "label": "ASSET",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "LPR",
+        "label": "ASSET",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)",
+        "label": "EVENT",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "20 – 30 điểm",
+        "label": "RATE",
+        "evidence": "giảm 20 – 30 điểm đối với lãi suất cho vay trung hạn (MLF) và lãi suất cho vay cơ bản (LPR)"
+    },
+    {
+        "text": "PBOC cũng công bố gói hỗ trợ thị trường bất động sản đang chìm trong khủng hoảng, bao gồm giảm chi phí vay lên tới 5.300 tỷ USD cho các khoản thế chấp và nới lỏng các quy định về việc mua ngôi nhà thứ hai",
+        "label": "EVENT",
+        "evidence": "PBOC cũng công bố gói hỗ trợ thị trường bất động sản đang chìm trong khủng hoảng, bao gồm giảm chi phí vay lên tới 5.300 tỷ USD cho các khoản thế chấp và nới lỏng các quy định về việc mua ngôi nhà thứ hai"
+    },
+    {
+        "text": "5.300 tỷ USD",
+        "label": "MONEY",
+        "evidence": "giảm chi phí vay lên tới 5.300 tỷ USD cho các khoản thế chấp và nới lỏng các quy định về việc mua ngôi nhà thứ hai"
+    },
+    {
+        "text": "giá thép thanh tương lai",
+        "label": "ASSET",
+        "evidence": "giá thép thanh tương lai tăng vọt lên trên 3.130 CNY/tấn (phiên 24/9)"
+    },
+    {
+        "text": "3.130 CNY/tấn",
+        "label": "PRICE",
+        "evidence": "giá thép thanh tương lai tăng vọt lên trên 3.130 CNY/tấn (phiên 24/9)"
+    },
+    {
+        "text": "24/9",
+        "label": "DATE",
+        "evidence": "phiên 24/9"
+    },
+    {
+        "text": "Chứng khoán MBS",
+        "label": "ORG",
+        "evidence": "Chứng khoán MBS cũng dự báo tích cực về triển vọng giá thép trong thời gian tới"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Chứng khoán MBS cũng dự báo tích cực về triển vọng giá thép trong thời gian tới"
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "xu hướng giảm giá thép Trung Quốc trong 9 tháng đầu năm"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "áp lực có thể được giảm bớt kể từ quý 4 nhờ cắt giảm sản lượng tại nước này"
+    },
+    {
+        "text": "thép xây dựng",
+        "label": "ASSET",
+        "evidence": "đã thúc đẩy sự phục hồi của thép xây dựng"
+    },
+    {
+        "text": "CBRE",
+        "label": "ORG",
+        "evidence": "Theo CBRE, nguồn cung căn hộ tại HN và HCM sẽ tăng lần lượt 30% svck và 20% svck"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "sẽ tăng lần lượt 30% svck"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "và 20% svck"
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "tiếp tục tăng trưởng 12% svck"
+    },
+    {
+        "text": "638 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với giá trị khoảng 638 nghìn tỷ đồng"
+    },
+    {
+        "text": "HRC",
+        "label": "ASSET",
+        "evidence": "giá thép xây dựng và HRC Việt Nam sẽ có mức hồi phục tích cực"
+    },
+    {
+        "text": "Quý 4/2024",
+        "label": "DATE",
+        "evidence": "kể từ Quý 4/2024"
+    },
+    {
+        "text": "571 USD/tấn",
+        "label": "PRICE",
+        "evidence": "có thể đạt trung bình 571 USD/tấn"
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "(+4%)"
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "HRC giảm 7%"
+    },
+    {
+        "text": "556 USD/tấn",
+        "label": "PRICE",
+        "evidence": "xuống 556 USD/tấn"
+    },
+    {
+        "text": "6T24",
+        "label": "DATE",
+        "evidence": "trong 6T24"
+    },
+    {
+        "text": "8 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "sản lượng tiêu thụ thép 8 tháng đầu năm tăng 16%"
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "sản lượng tiêu thụ thép 8 tháng đầu năm tăng 16%"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "tiêu thụ thép trong nước tăng 19%"
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "xuất khẩu tăng 8%"
+    },
+    {
+        "text": "Chứng khoán BVSC",
+        "label": "ORG",
+        "evidence": "Chứng khoán BVSC kỳ vọng sản lượng tiêu thụ thép trong 2 quý cuối năm sẽ tiếp tục duy trì mức tăng hai chữ số"
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Thêm vào đó, KBSV nhận định khả năng cạnh tranh của các nhà sản xuất thép nội địa sẽ được cải thiện"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "giảm đáng kể so với 2023"
+    },
+    {
+        "text": "6 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "chi phí đầu vào suy giảm trong 6 tháng đầu năm 2024"
+    }
+]

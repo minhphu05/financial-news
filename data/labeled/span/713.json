@@ -1,0 +1,62 @@
+[
+    {
+        "text": "ngày 11/8/2010",
+        "label": "DATE",
+        "evidence": "Thời hạn sử dụng đất: 50 năm (tính từ ngày 11/8/2010)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Lô bất động sản trên được BIDV rao bán với giá khởi điểm gần 200,5 tỷ đồng."
+    },
+    {
+        "text": "rao bán",
+        "label": "EVENT",
+        "evidence": "Lô bất động sản trên được BIDV rao bán với giá khởi điểm gần 200,5 tỷ đồng."
+    },
+    {
+        "text": "gần 200,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lô bất động sản trên được BIDV rao bán với giá khởi điểm gần 200,5 tỷ đồng."
+    },
+    {
+        "text": "đấu giá",
+        "label": "EVENT",
+        "evidence": "Tài sản được đấu giá theo nguyên trạng (bao gồm nguyên trạng tài sản, tình trạng pháp lý và các rủi ro tiềm ẩn) và theo phương thức \"có sao bán vậy\"."
+    },
+    {
+        "text": "mở phiên đấu giá",
+        "label": "EVENT",
+        "evidence": "Trước ngày mở phiên đấu giá, nếu chủ tài sản đã thực hiện đầy đủ nghĩa vụ của mình đối với BIDV Chi nhánh Hóc Môn và/hoặcBIDVChi nhánh Hóc Môn đồng ý giải chấp tài sản thì chủ tài sản có quyền nhận lại tài sản đó."
+    },
+    {
+        "text": "BIDV Chi nhánh Hóc Môn",
+        "label": "ORG",
+        "evidence": "Trước ngày mở phiên đấu giá, nếu chủ tài sản đã thực hiện đầy đủ nghĩa vụ của mình đối với BIDV Chi nhánh Hóc Môn và/hoặcBIDVChi nhánh Hóc Môn đồng ý giải chấp tài sản thì chủ tài sản có quyền nhận lại tài sản đó."
+    },
+    {
+        "text": "BIDVChi nhánh Hóc Môn",
+        "label": "ORG",
+        "evidence": "Trước ngày mở phiên đấu giá, nếu chủ tài sản đã thực hiện đầy đủ nghĩa vụ của mình đối với BIDV Chi nhánh Hóc Môn và/hoặcBIDVChi nhánh Hóc Môn đồng ý giải chấp tài sản thì chủ tài sản có quyền nhận lại tài sản đó."
+    },
+    {
+        "text": "giải chấp tài sản",
+        "label": "EVENT",
+        "evidence": "Trước ngày mở phiên đấu giá, nếu chủ tài sản đã thực hiện đầy đủ nghĩa vụ của mình đối với BIDV Chi nhánh Hóc Môn và/hoặcBIDVChi nhánh Hóc Môn đồng ý giải chấp tài sản thì chủ tài sản có quyền nhận lại tài sản đó."
+    },
+    {
+        "text": "dừng việc đấu giá tài sản",
+        "label": "EVENT",
+        "evidence": "BIDV Chi nhánh Hóc Môn, Trung tâm Dịch vụ đấu giá tài sản Thành phố Hồ Chí Minh sẽ dừng việc đấu giá tài sản và hoàn trả lại tiền hồ sơ, tiền đặt trước cho người đăng ký tham gia đấu giá (nếu có) mà không phải bồi thường bất kì chi phí nào khác."
+    },
+    {
+        "text": "Trung tâm Dịch vụ đấu giá tài sản Thành phố Hồ Chí Minh",
+        "label": "ORG",
+        "evidence": "BIDV Chi nhánh Hóc Môn, Trung tâm Dịch vụ đấu giá tài sản Thành phố Hồ Chí Minh sẽ dừng việc đấu giá tài sản và hoàn trả lại tiền hồ sơ, tiền đặt trước cho người đăng ký tham gia đấu giá (nếu có) mà không phải bồi thường bất kì chi phí nào khác."
+    },
+    {
+        "text": "hoàn trả lại tiền hồ sơ, tiền đặt trước",
+        "label": "EVENT",
+        "evidence": "BIDV Chi nhánh Hóc Môn, Trung tâm Dịch vụ đấu giá tài sản Thành phố Hồ Chí Minh sẽ dừng việc đấu giá tài sản và hoàn trả lại tiền hồ sơ, tiền đặt trước cho người đăng ký tham gia đấu giá (nếu có) mà không phải bồi thường bất kì chi phí nào khác."
+    }
+]

@@ -1,0 +1,367 @@
+[
+    {
+        "text": "Công ty chứng khoán VNDirect",
+        "label": "ORG",
+        "evidence": "Công ty chứng khoán VNDirect vừa có báo cáo cập nhật hoạt động kinh doanh của Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), và công ty con FE Credit."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Công ty chứng khoán VNDirect vừa có báo cáo cập nhật hoạt động kinh doanh của Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), và công ty con FE Credit."
+    },
+    {
+        "text": "báo cáo cập nhật hoạt động kinh doanh",
+        "label": "EVENT",
+        "evidence": "VNDirect vừa có báo cáo cập nhật hoạt động kinh doanh của Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)"
+    },
+    {
+        "text": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), và công ty con FE Credit."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), và công ty con FE Credit."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), và công ty con FE Credit."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho biết, ﻿FE Credit tiếp tục ghi nhận lỗ liên tiếp tại quý thứ 5, khi ngành tài chính tiêu dùng tiếp tục gặp khó khăn."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "VNDirect cho biết, ﻿FE Credit tiếp tục ghi nhận lỗ liên tiếp tại quý thứ 5, khi ngành tài chính tiêu dùng tiếp tục gặp khó khăn."
+    },
+    {
+        "text": "ghi nhận lỗ liên tiếp tại quý thứ 5",
+        "label": "EVENT",
+        "evidence": "FE Credit tiếp tục ghi nhận lỗ liên tiếp tại quý thứ 5, khi ngành tài chính tiêu dùng tiếp tục gặp khó khăn."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Theo ước tính của VNDirect, NIM của công ty giảm về mức 16% từ mức 20,2% so với cùng kỳ, trong khi tỷ lệ nợ xấu duy trì tăng nhẹ và đạt 30,3% tại cuối quý 2/2023."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "NIM của công ty giảm về mức 16% từ mức 20,2% so với cùng kỳ"
+    },
+    {
+        "text": "20,2%",
+        "label": "RATE",
+        "evidence": "giảm về mức 16% từ mức 20,2% so với cùng kỳ"
+    },
+    {
+        "text": "30,3%",
+        "label": "RATE",
+        "evidence": "tỷ lệ nợ xấu duy trì tăng nhẹ và đạt 30,3% tại cuối quý 2/2023."
+    },
+    {
+        "text": "cuối quý 2/2023",
+        "label": "DATE",
+        "evidence": "đạt 30,3% tại cuối quý 2/2023."
+    },
+    {
+        "text": "Dư nợ cho vay",
+        "label": "ASSET",
+        "evidence": "Dư nợ cho vay của FE cũng duy trì so với quý trước khi công ty quyết định giới hạn lại cho vay để tập trung hoàn toàn vào quá trình tái cấu trúc."
+    },
+    {
+        "text": "FE",
+        "label": "ORG",
+        "evidence": "Dư nợ cho vay của FE cũng duy trì so với quý trước"
+    },
+    {
+        "text": "giới hạn lại cho vay",
+        "label": "EVENT",
+        "evidence": "công ty quyết định giới hạn lại cho vay để tập trung hoàn toàn vào quá trình tái cấu trúc."
+    },
+    {
+        "text": "quá trình tái cấu trúc",
+        "label": "EVENT",
+        "evidence": "tập trung hoàn toàn vào quá trình tái cấu trúc."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng FE Credit đã ghi nhận một khoản lỗ khoảng 2.000 tỷ đồng trước thuế trong quý 2/2023, cao hơn một chút so với quý 1/2023."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng FE Credit đã ghi nhận một khoản lỗ khoảng 2.000 tỷ đồng trước thuế trong quý 2/2023, cao hơn một chút so với quý 1/2023."
+    },
+    {
+        "text": "ghi nhận một khoản lỗ khoảng 2.000 tỷ đồng trước thuế",
+        "label": "EVENT",
+        "evidence": "FE Credit đã ghi nhận một khoản lỗ khoảng 2.000 tỷ đồng trước thuế trong quý 2/2023, cao hơn một chút so với quý 1/2023."
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "một khoản lỗ khoảng 2.000 tỷ đồng trước thuế trong quý 2/2023"
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "2.000 tỷ đồng trước thuế trong quý 2/2023, cao hơn một chút so với quý 1/2023."
+    },
+    {
+        "text": "quý 1/2023",
+        "label": "DATE",
+        "evidence": "cao hơn một chút so với quý 1/2023."
+    },
+    {
+        "text": "FE",
+        "label": "ORG",
+        "evidence": "Tựu chung lại, FE vẫn sẽ gặp khó khăn trong ngắn hạn."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cũng tin rằng VPB có đủ nguồn vốn cũng như khả năng để tháo gỡ những khó khăn trong dài hạn"
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "VNDirect cũng tin rằng VPB có đủ nguồn vốn cũng như khả năng để tháo gỡ những khó khăn trong dài hạn"
+    },
+    {
+        "text": "tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "các nỗ lực tái cơ cấu của ngân hàng thành công."
+    },
+    {
+        "text": "Dư nợ cho vay",
+        "label": "ASSET",
+        "evidence": "Dư nợ cho vay và NIM của FE Credit, theo ước tính của VNDirect"
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Dư nợ cho vay và NIM của FE Credit, theo ước tính của VNDirect"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Dư nợ cho vay và NIM của FE Credit, theo ước tính của VNDirect"
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Tỷ lệ nợ xấu và bao nợ xấu của FE Credit, theo ước tính của VNDirect"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Tỷ lệ nợ xấu và bao nợ xấu của FE Credit, theo ước tính của VNDirect"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Về phía ngân hàng mẹ VPBank, VNDirect cho biết, tại cuối quý 2/2023"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Về phía ngân hàng mẹ VPBank, VNDirect cho biết, tại cuối quý 2/2023"
+    },
+    {
+        "text": "cuối quý 2/2023",
+        "label": "DATE",
+        "evidence": "tại cuối quý 2/2023, VPBank ghi nhận tăng trưởng tín dụng đạt 13,1% so với đầu năm"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank ghi nhận tăng trưởng tín dụng đạt 13,1% so với đầu năm, cao nhất trong toàn hệ thống."
+    },
+    {
+        "text": "tăng trưởng tín dụng đạt 13,1%",
+        "label": "EVENT",
+        "evidence": "VPBank ghi nhận tăng trưởng tín dụng đạt 13,1% so với đầu năm, cao nhất trong toàn hệ thống."
+    },
+    {
+        "text": "13,1%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng đạt 13,1% so với đầu năm"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tăng trưởng tín dụng của VPBank ﻿chủ yếu đến từ cho vay nhóm khách hàng lớn (18,9% so với đầu năm)"
+    },
+    {
+        "text": "18,9%",
+        "label": "RATE",
+        "evidence": "cho vay nhóm khách hàng lớn (18,9% so với đầu năm)"
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "và bán lẻ (13% so với đầu năm)"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "danh mục trái phiếu doanh nghiệp có mức tăng trưởng âm 13,9% so với cuối năm 2022."
+    },
+    {
+        "text": "âm 13,9%",
+        "label": "RATE",
+        "evidence": "danh mục trái phiếu doanh nghiệp có mức tăng trưởng âm 13,9% so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "tăng trưởng âm 13,9% so với cuối năm 2022."
+    },
+    {
+        "text": "cho vay kinh doanh",
+        "label": "ASSET",
+        "evidence": "cho vay kinh doanh (+20% so với đầu năm) và cho vay thẻ (+18% so với đầu năm)"
+    },
+    {
+        "text": "+20%",
+        "label": "RATE",
+        "evidence": "cho vay kinh doanh (+20% so với đầu năm)"
+    },
+    {
+        "text": "cho vay thẻ",
+        "label": "ASSET",
+        "evidence": "và cho vay thẻ (+18% so với đầu năm)"
+    },
+    {
+        "text": "+18%",
+        "label": "RATE",
+        "evidence": "cho vay thẻ (+18% so với đầu năm)"
+    },
+    {
+        "text": "cho vay mua nhà",
+        "label": "ASSET",
+        "evidence": "trong khi cho vay mua nhà giảm tốc khi giá trị giao dịch trong nửa đầu năm 2023"
+    },
+    {
+        "text": "giảm tốc",
+        "label": "EVENT",
+        "evidence": "cho vay mua nhà giảm tốc khi giá trị giao dịch trong nửa đầu năm 2023"
+    },
+    {
+        "text": "nửa đầu năm 2023",
+        "label": "DATE",
+        "evidence": "giá trị giao dịch trong nửa đầu năm 2023 chứng kiến mức thấp nhất kể từ năm 2019."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "chứng kiến mức thấp nhất kể từ năm 2019."
+    },
+    {
+        "text": "cho vay doanh nghiệp phát triển bất động sản",
+        "label": "ASSET",
+        "evidence": "cho vay doanh nghiệp phát triển bất động sản và dịch vụ tài chính dẫn đầu ở cho vay khách hàng lớn."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng VPBank vẫn có nhiều dư địa để duy trì mức tăng trưởng của tín dụng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng VPBank vẫn có nhiều dư địa để duy trì mức tăng trưởng của tín dụng"
+    },
+    {
+        "text": "bán vốn",
+        "label": "EVENT",
+        "evidence": "nhờ nguồn vốn dư dả sau thương vụ bán vốn vs SMBC."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "sau thương vụ bán vốn vs SMBC."
+    },
+    {
+        "text": "giảm mạnh",
+        "label": "EVENT",
+        "evidence": "NIM của ngân hàng mẹ giảm mạnh trong quý 2/2023."
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "NIM của ngân hàng mẹ giảm mạnh trong quý 2/2023."
+    },
+    {
+        "text": "sụt giảm 1,44 điểm %",
+        "label": "RATE",
+        "evidence": "NIM riêng lẻ sụt giảm 1,44 điểm % về 3,97%."
+    },
+    {
+        "text": "3,97%",
+        "label": "RATE",
+        "evidence": "sụt giảm 1,44 điểm % về 3,97%."
+    },
+    {
+        "text": "18,1%",
+        "label": "RATE",
+        "evidence": "tỷ lệ CASA thấp hơn từ 18,1% tại cuối quý 2/2022 còn 14,5% tại cuối quý 2/2023"
+    },
+    {
+        "text": "cuối quý 2/2022",
+        "label": "DATE",
+        "evidence": "từ 18,1% tại cuối quý 2/2022 còn 14,5% tại cuối quý 2/2023"
+    },
+    {
+        "text": "14,5%",
+        "label": "RATE",
+        "evidence": "còn 14,5% tại cuối quý 2/2023 và tỷ trọng nguồn vốn ngoại tệ/tổng tài sản chịu lãi cao."
+    },
+    {
+        "text": "cuối quý 2/2023",
+        "label": "DATE",
+        "evidence": "còn 14,5% tại cuối quý 2/2023 và tỷ trọng nguồn vốn ngoại tệ/tổng tài sản chịu lãi cao."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Cho dù vậy, VPBank vẫn còn nhiều dư địa để cải thiện NIM trong nửa cuối năm nay"
+    },
+    {
+        "text": "cải thiện NIM",
+        "label": "EVENT",
+        "evidence": "VPBank vẫn còn nhiều dư địa để cải thiện NIM trong nửa cuối năm nay"
+    },
+    {
+        "text": "lãi suất tiền gửi đã giảm mạnh 1-2,8%",
+        "label": "EVENT",
+        "evidence": "khi lãi suất tiền gửi đã giảm mạnh 1-2,8% từ cuối quý 2/2023 cho các khoản tiền gửi có kỳ hạn dài hơn 6 tháng"
+    },
+    {
+        "text": "1-2,8%",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi đã giảm mạnh 1-2,8% từ cuối quý 2/2023"
+    },
+    {
+        "text": "cuối quý 2/2023",
+        "label": "DATE",
+        "evidence": "từ cuối quý 2/2023 cho các khoản tiền gửi có kỳ hạn dài hơn 6 tháng"
+    },
+    {
+        "text": "giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "sau với 4 lần giảm lãi suất điều hành của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "giảm lãi suất điều hành của Ngân hàng Nhà nước."
+    }
+]

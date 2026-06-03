@@ -1,0 +1,107 @@
+[
+    {
+        "text": "thông tư 17/2024/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "Tuân thủ thông tư 17/2024/TT-NHNN và 18/2024/TT-NHNN của Ngân hàng Nhà nước về hoạt động thẻ ngân hàng (thẻ ghi nợ, thẻ tín dụng...)"
+    },
+    {
+        "text": "thông tư 18/2024/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "Tuân thủ thông tư 17/2024/TT-NHNN và 18/2024/TT-NHNN của Ngân hàng Nhà nước về hoạt động thẻ ngân hàng (thẻ ghi nợ, thẻ tín dụng...)"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tuân thủ thông tư 17/2024/TT-NHNN và 18/2024/TT-NHNN của Ngân hàng Nhà nước về hoạt động thẻ ngân hàng (thẻ ghi nợ, thẻ tín dụng...)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhiều ngân hàng trong đó có Vietcombank, Vietinbank, Agribank... đã phát đi thông báo về việc tạm dừng giao dịch đối với các tài khoản và thẻ doanh nghiệp có giấy tờ tùy thân hết hạn và chưa hoàn tất xác minh sinh trắc học."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Nhiều ngân hàng trong đó có Vietcombank, Vietinbank, Agribank... đã phát đi thông báo về việc tạm dừng giao dịch đối với các tài khoản và thẻ doanh nghiệp có giấy tờ tùy thân hết hạn và chưa hoàn tất xác minh sinh trắc học."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nhiều ngân hàng trong đó có Vietcombank, Vietinbank, Agribank... đã phát đi thông báo về việc tạm dừng giao dịch đối với các tài khoản và thẻ doanh nghiệp có giấy tờ tùy thân hết hạn và chưa hoàn tất xác minh sinh trắc học."
+    },
+    {
+        "text": "tạm dừng giao dịch đối với các tài khoản và thẻ doanh nghiệp có giấy tờ tùy thân hết hạn và chưa hoàn tất xác minh sinh trắc học",
+        "label": "EVENT",
+        "evidence": "Nhiều ngân hàng trong đó có Vietcombank, Vietinbank, Agribank... đã phát đi thông báo về việc tạm dừng giao dịch đối với các tài khoản và thẻ doanh nghiệp có giấy tờ tùy thân hết hạn và chưa hoàn tất xác minh sinh trắc học."
+    },
+    {
+        "text": "1/1/2025",
+        "label": "DATE",
+        "evidence": "Các quy định này chính thức có hiệu lực từ 1/1/2025 và nhằm nâng cao tính bảo mật và an toàn trong giao dịch ngân hàng."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Hình ảnh khách hàng cập nhật thông tin sinh trắc học trên ứng dụng VCB Digibank (Nguồn: Vietcombank)."
+    },
+    {
+        "text": "Luật Căn cước 2023",
+        "label": "EVENT",
+        "evidence": "Theo quy định tại Luật Căn cước 2023 (Luật số 26/2023/QH15), các loại CMND cũ (9 số và 12 số) sẽ chỉ còn giá trị sử dụng trong các giao dịch đến hết ngày 31/12/2024."
+    },
+    {
+        "text": "Luật số 26/2023/QH15",
+        "label": "EVENT",
+        "evidence": "Theo quy định tại Luật Căn cước 2023 (Luật số 26/2023/QH15), các loại CMND cũ (9 số và 12 số) sẽ chỉ còn giá trị sử dụng trong các giao dịch đến hết ngày 31/12/2024."
+    },
+    {
+        "text": "31/12/2024",
+        "label": "DATE",
+        "evidence": "các loại CMND cũ (9 số và 12 số) sẽ chỉ còn giá trị sử dụng trong các giao dịch đến hết ngày 31/12/2024."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Ngoài ra, việc không thực hiện xác thực sinh trắc học như vân tay hoặc nhận diện khuôn mặt cũng sẽ khiến tài khoản bị dừng giao dịch từ đầu năm 2025."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV thông báo các trường hợp bị tạm dừng giao dịch (Nguồn: BIDV)"
+    },
+    {
+        "text": "BIDV thông báo các trường hợp bị tạm dừng giao dịch",
+        "label": "EVENT",
+        "evidence": "BIDV thông báo các trường hợp bị tạm dừng giao dịch (Nguồn: BIDV)"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo thông báo từ các ngân hàng như Agribank, Vietcombank, BIDV, VietinBank, VPBank, Techcombank, ACB, SHB và nhiều ngân hàng khác, tất cả tài khoản có thông tin không khớp với dữ liệu từ Bộ Công an sẽ bị từ chối giao dịch."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo thông báo từ các ngân hàng như Agribank, Vietcombank, BIDV, VietinBank, VPBank, Techcombank, ACB, SHB và nhiều ngân hàng khác, tất cả tài khoản có thông tin không khớp với dữ liệu từ Bộ Công an sẽ bị từ chối giao dịch."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo thông báo từ các ngân hàng như Agribank, Vietcombank, BIDV, VietinBank, VPBank, Techcombank, ACB, SHB và nhiều ngân hàng khác, tất cả tài khoản có thông tin không khớp với dữ liệu từ Bộ Công an sẽ bị từ chối giao dịch."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Theo thông báo từ các ngân hàng như Agribank, Vietcombank, BIDV, VietinBank, VPBank, Techcombank, ACB, SHB và nhiều ngân hàng khác, tất cả tài khoản có thông tin không khớp với dữ liệu từ Bộ Công an sẽ bị từ chối giao dịch."
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "Theo thông báo từ các ngân hàng như Agribank, Vietcombank, BIDV, VietinBank, VPBank, Techcombank, ACB, SHB và nhiều ngân hàng khác, tất cả tài khoản có thông tin không khớp với dữ liệu từ Bộ Công an sẽ bị từ chối giao dịch."
+    },
+    {
+        "text": "Quyết định 2345",
+        "label": "EVENT",
+        "evidence": "Quy trình xác thực sinh trắc học lần đầu theo Quyết định 2345 gồm ba bước:"
+    }
+]

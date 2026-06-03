@@ -1,0 +1,462 @@
+[
+    {
+        "text": "thị trường chứng khoán Việt",
+        "label": "ORG",
+        "evidence": "Nối dài đà hưng phấn phiên hôm qua, thị trường chứng khoán Việt giao dịch bùng nổ trong phiên giao dịch sáng nay ."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Ngay từ đầu phiên, lực cầu áp đảo đã giúp VN-Index bật tăng mạnh mẽ với thanh khoản ở mức rất cao."
+    },
+    {
+        "text": "10h45",
+        "label": "DATE",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "tăng 35 điểm",
+        "label": "RATE",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "1.563 điểm",
+        "label": "PRICE",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "23.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến 10h45, VN-Index tăng 35 điểm lên mức kỷ lục mới 1.563 điểm, giá trị khớp lệnh trên HoSE đạt 23.000 tỷ đồng."
+    },
+    {
+        "text": "10h45",
+        "label": "DATE",
+        "evidence": "Ghi nhận lúc 10h45, toàn bộ 27 mã ngân hàng đều tràn ngập trong sắc xanh."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Trong đó, MBB và TPB tăng trần và dư mua hàng triệu đơn vị."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, MBB và TPB tăng trần và dư mua hàng triệu đơn vị."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu MBB tăng mạnh trong bối cảnh MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Cổ phiếu MBB tăng mạnh trong bối cảnh MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024."
+    },
+    {
+        "text": "MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu MBB tăng mạnh trong bối cảnh MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024."
+    },
+    {
+        "text": "14/8",
+        "label": "DATE",
+        "evidence": "Cổ phiếu MBB tăng mạnh trong bối cảnh MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cổ phiếu MBB tăng mạnh trong bối cảnh MB vừa thông báo 14/8 là ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức bằng cổ phiếu và tiền mặt năm 2024."
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Theo đó, cổ đông sẽ nhận cổ tức bằng cổ phiếu tỷ lệ 32% và cổ tức tiền mặt tỷ lệ 3%."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "Theo đó, cổ đông sẽ nhận cổ tức bằng cổ phiếu tỷ lệ 32% và cổ tức tiền mặt tỷ lệ 3%."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Theo đó, cổ đông sẽ nhận cổ tức bằng cổ phiếu tỷ lệ 32% và cổ tức tiền mặt tỷ lệ 3%."
+    },
+    {
+        "text": "Thời gian thanh toán cổ tức tiền mặt bắt đầu từ ngày 21/8/2025",
+        "label": "EVENT",
+        "evidence": "Thời gian thanh toán cổ tức tiền mặt bắt đầu từ ngày 21/8/2025."
+    },
+    {
+        "text": "21/8/2025",
+        "label": "DATE",
+        "evidence": "Thời gian thanh toán cổ tức tiền mặt bắt đầu từ ngày 21/8/2025."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu TPB cũng bước sang phiên tăng trần thứ hai liên tiếp với thanh khoản ở mức cao."
+    },
+    {
+        "text": "đầu tháng 8",
+        "label": "DATE",
+        "evidence": "Tính từ đầu tháng 8, cổ phiếu này đã tăng tổng cộng 14% sau khi tăng 17% trong tháng 7."
+    },
+    {
+        "text": "tăng tổng cộng 14%",
+        "label": "RATE",
+        "evidence": "Tính từ đầu tháng 8, cổ phiếu này đã tăng tổng cộng 14% sau khi tăng 17% trong tháng 7."
+    },
+    {
+        "text": "tăng 17%",
+        "label": "RATE",
+        "evidence": "Tính từ đầu tháng 8, cổ phiếu này đã tăng tổng cộng 14% sau khi tăng 17% trong tháng 7."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Tính từ đầu tháng 8, cổ phiếu này đã tăng tổng cộng 14% sau khi tăng 17% trong tháng 7."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "trên 3%",
+        "label": "RATE",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Cùng với TPB và MB, nhiều cổ phiếu ngân hàng trên thị trường cũng ghi nhận mức tăng trên 3% như:TCB, CTG, STB, SHB, HDB."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Nhìn chung, cổ phiếu ngân hàng đã có một \"tháng 7 rực rỡ\" với hàng loạt mã tăng giá mạnh đi cùng thanh khoản duy trì ở mức cao."
+    },
+    {
+        "text": "tín dụng tăng trưởng bứt phá trong quý II",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu ngân hàng liên tục tăng giá trong thời gian gần đây, sau khi đón nhận nhiều thông tin tích cực, đặc biệt là tín dụng tăng trưởng bứt phá trong quý II và việc Quốc hội luật hóa Nghị quyết 42."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Cổ phiếu ngân hàng liên tục tăng giá trong thời gian gần đây, sau khi đón nhận nhiều thông tin tích cực, đặc biệt là tín dụng tăng trưởng bứt phá trong quý II và việc Quốc hội luật hóa Nghị quyết 42."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Cổ phiếu ngân hàng liên tục tăng giá trong thời gian gần đây, sau khi đón nhận nhiều thông tin tích cực, đặc biệt là tín dụng tăng trưởng bứt phá trong quý II và việc Quốc hội luật hóa Nghị quyết 42."
+    },
+    {
+        "text": "luật hóa Nghị quyết 42",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu ngân hàng liên tục tăng giá trong thời gian gần đây, sau khi đón nhận nhiều thông tin tích cực, đặc biệt là tín dụng tăng trưởng bứt phá trong quý II và việc Quốc hội luật hóa Nghị quyết 42."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "30/6",
+        "label": "DATE",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "17,2 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "tăng 9,9%",
+        "label": "RATE",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "19,32%",
+        "label": "RATE",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "cùng kỳ năm 2024",
+        "label": "DATE",
+        "evidence": "Theo số liệu thống kê của Ngân hàng Nhà nước, tính đến 30/6, tín dụng toàn hệ thống đạt 17,2 triệu tỷ đồng, tăng 9,9% so với cuối năm 2024 và 19,32% so với cùng kỳ năm 2024."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Đây là mức tăng trưởng cao nhất kể từ năm 2022 đến nay."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Tăng trưởng tín dụng tốt được nhận định là nhân tố chủ chốt thúc đẩy lợi nhuận ngân hàng trong quý II và 6 tháng đầu năm."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Tăng trưởng tín dụng tốt được nhận định là nhân tố chủ chốt thúc đẩy lợi nhuận ngân hàng trong quý II và 6 tháng đầu năm."
+    },
+    {
+        "text": "BaoViet Bank",
+        "label": "ORG",
+        "evidence": "Báo cáo tài chính từ 29 ngân hàng (bao gồm 27 ngân hàng niêm yết và BaoViet Bank, Agribank) cho thấy lợi nhuận ngành này tiếp tục tăng tốc."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Báo cáo tài chính từ 29 ngân hàng (bao gồm 27 ngân hàng niêm yết và BaoViet Bank, Agribank) cho thấy lợi nhuận ngành này tiếp tục tăng tốc."
+    },
+    {
+        "text": "lợi nhuận ngành này tiếp tục tăng tốc",
+        "label": "EVENT",
+        "evidence": "Báo cáo tài chính từ 29 ngân hàng (bao gồm 27 ngân hàng niêm yết và BaoViet Bank, Agribank) cho thấy lợi nhuận ngành này tiếp tục tăng tốc."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Cụ thể, tính riêng quý II, lợi nhuận trước thuế những ngân hàng trên đã tăng trưởng 17,5% so với cùng kỳ, mang về khoảng 89.361 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận trước thuế những ngân hàng trên đã tăng trưởng 17,5% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Cụ thể, tính riêng quý II, lợi nhuận trước thuế những ngân hàng trên đã tăng trưởng 17,5% so với cùng kỳ, mang về khoảng 89.361 tỷ đồng."
+    },
+    {
+        "text": "17,5%",
+        "label": "RATE",
+        "evidence": "Cụ thể, tính riêng quý II, lợi nhuận trước thuế những ngân hàng trên đã tăng trưởng 17,5% so với cùng kỳ, mang về khoảng 89.361 tỷ đồng."
+    },
+    {
+        "text": "89.361 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, tính riêng quý II, lợi nhuận trước thuế những ngân hàng trên đã tăng trưởng 17,5% so với cùng kỳ, mang về khoảng 89.361 tỷ đồng."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế nửa đầu năm, lợi nhuận các nhà băng trên đã tăng 14,7%, đạt 185.134 tỷ đồng."
+    },
+    {
+        "text": "tăng 14,7%",
+        "label": "RATE",
+        "evidence": "Lũy kế nửa đầu năm, lợi nhuận các nhà băng trên đã tăng 14,7%, đạt 185.134 tỷ đồng."
+    },
+    {
+        "text": "185.134 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế nửa đầu năm, lợi nhuận các nhà băng trên đã tăng 14,7%, đạt 185.134 tỷ đồng."
+    },
+    {
+        "text": "trên 10%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "NamABank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, nhiều ngân hàng ghi nhận tăng trưởng tín dụng cao trên 10%, lợi nhuận tăng trưởng hai con số như VietinBank, VPBank, MB, HDBank, TPBank, NamABank, Kienlongbank, PGBank, VietABank,…"
+    },
+    {
+        "text": "chiều ngày 31/7/2025",
+        "label": "DATE",
+        "evidence": "Trong bối cảnh tăng trưởng tín dụng tích cực, chiều ngày 31/7/2025, Ngân hàng Nhà nước Việt Nam (NHNN) đã phát đi thông báo liên quan đến tăng trưởng tín dụng."
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh tăng trưởng tín dụng tích cực, chiều ngày 31/7/2025, Ngân hàng Nhà nước Việt Nam (NHNN) đã phát đi thông báo liên quan đến tăng trưởng tín dụng."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh tăng trưởng tín dụng tích cực, chiều ngày 31/7/2025, Ngân hàng Nhà nước Việt Nam (NHNN) đã phát đi thông báo liên quan đến tăng trưởng tín dụng."
+    },
+    {
+        "text": "phát đi thông báo liên quan đến tăng trưởng tín dụng",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh tăng trưởng tín dụng tích cực, chiều ngày 31/7/2025, Ngân hàng Nhà nước Việt Nam (NHNN) đã phát đi thông báo liên quan đến tăng trưởng tín dụng."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Theo đó, bám sát Nghị quyết của Quốc hội, chỉ đạo của Chính phủ và Thủ tướng Chính phủ, NHNN đã điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả, phối hợp đồng bộ, hài hòa, chặt chẽ với chính sách tài khóa và các chính sách kinh tế vĩ mô khác góp phần ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Theo đó, bám sát Nghị quyết của Quốc hội, chỉ đạo của Chính phủ và Thủ tướng Chính phủ, NHNN đã điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả, phối hợp đồng bộ, hài hòa, chặt chẽ với chính sách tài khóa và các chính sách kinh tế vĩ mô khác góp phần ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Theo đó, bám sát Nghị quyết của Quốc hội, chỉ đạo của Chính phủ và Thủ tướng Chính phủ, NHNN đã điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả, phối hợp đồng bộ, hài hòa, chặt chẽ với chính sách tài khóa và các chính sách kinh tế vĩ mô khác góp phần ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo đó, bám sát Nghị quyết của Quốc hội, chỉ đạo của Chính phủ và Thủ tướng Chính phủ, NHNN đã điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả, phối hợp đồng bộ, hài hòa, chặt chẽ với chính sách tài khóa và các chính sách kinh tế vĩ mô khác góp phần ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế."
+    },
+    {
+        "text": "điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả",
+        "label": "EVENT",
+        "evidence": "Theo đó, bám sát Nghị quyết của Quốc hội, chỉ đạo của Chính phủ và Thủ tướng Chính phủ, NHNN đã điều hành chính sách tiền tệ (CSTT) chủ động, linh hoạt, kịp thời, hiệu quả, phối hợp đồng bộ, hài hòa, chặt chẽ với chính sách tài khóa và các chính sách kinh tế vĩ mô khác góp phần ưu tiên thúc đẩy mạnh mẽ tăng trưởng kinh tế gắn với giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát, bảo đảm các cân đối lớn của nền kinh tế."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Ngay từ đầu năm 2025, NHNN đã giao chỉ tiêu tăng trưởng tín dụng (TTTD) cho các tổ chức tín dụng (TCTD)."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngay từ đầu năm 2025, NHNN đã giao chỉ tiêu tăng trưởng tín dụng (TTTD) cho các tổ chức tín dụng (TCTD)."
+    },
+    {
+        "text": "giao chỉ tiêu tăng trưởng tín dụng (TTTD) cho các tổ chức tín dụng (TCTD)",
+        "label": "EVENT",
+        "evidence": "Ngay từ đầu năm 2025, NHNN đã giao chỉ tiêu tăng trưởng tín dụng (TTTD) cho các tổ chức tín dụng (TCTD)."
+    },
+    {
+        "text": "28/7/2025",
+        "label": "DATE",
+        "evidence": "Đến ngày 28/7/2025, tín dụng toàn hệ thống tăng 9,64% so với cuối năm 2024."
+    },
+    {
+        "text": "tăng 9,64%",
+        "label": "RATE",
+        "evidence": "Đến ngày 28/7/2025, tín dụng toàn hệ thống tăng 9,64% so với cuối năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Đến ngày 28/7/2025, tín dụng toàn hệ thống tăng 9,64% so với cuối năm 2024."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Trong điều kiện lạm phát được kiểm soát phù hợp với mục tiêu Quốc hội, Chính phủ đề ra và thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ về điều hành TTTD phù hợp, kịp thời, hiệu quả, đáp ứng nhu cầu vốn cho nền kinh tế, ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Trong điều kiện lạm phát được kiểm soát phù hợp với mục tiêu Quốc hội, Chính phủ đề ra và thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ về điều hành TTTD phù hợp, kịp thời, hiệu quả, đáp ứng nhu cầu vốn cho nền kinh tế, ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Trong điều kiện lạm phát được kiểm soát phù hợp với mục tiêu Quốc hội, Chính phủ đề ra và thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ về điều hành TTTD phù hợp, kịp thời, hiệu quả, đáp ứng nhu cầu vốn cho nền kinh tế, ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "31/7/2025",
+        "label": "DATE",
+        "evidence": "Trong điều kiện lạm phát được kiểm soát phù hợp với mục tiêu Quốc hội, Chính phủ đề ra và thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ về điều hành TTTD phù hợp, kịp thời, hiệu quả, đáp ứng nhu cầu vốn cho nền kinh tế, ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong điều kiện lạm phát được kiểm soát phù hợp với mục tiêu Quốc hội, Chính phủ đề ra và thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ về điều hành TTTD phù hợp, kịp thời, hiệu quả, đáp ứng nhu cầu vốn cho nền kinh tế, ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD",
+        "label": "EVENT",
+        "evidence": "ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "ngày 31/7/2025 NHNN đã thông báo điều chỉnh tăng thêm chỉ tiêu TTTD năm 2025 đối với các TCTD theo nguyên tắc cụ thể, đảm bảo công khai, minh bạch."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Việc bổ sung hạn mức này là sự chủ động của NHNN mà các TCTD không cần phải đề nghị."
+    }
+]

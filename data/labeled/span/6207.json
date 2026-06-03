@@ -1,0 +1,462 @@
+[
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "phiên giao dịch 6/2"
+    },
+    {
+        "text": "9 điểm",
+        "label": "RATE",
+        "evidence": "giảm tới hơn 9 điểm"
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "VNIndex đã đảo chiều phục hồi"
+    },
+    {
+        "text": "1.089,29 điểm",
+        "label": "PRICE",
+        "evidence": "kết phiên ở 1.089,29 điểm"
+    },
+    {
+        "text": "12,14 điểm",
+        "label": "RATE",
+        "evidence": "tăng 12,14 điểm"
+    },
+    {
+        "text": "6/2/2022",
+        "label": "DATE",
+        "evidence": "6 mã giảm giá trong ngày 6/2/2022"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "MSB là mã tăng giá mạnh nhất"
+    },
+    {
+        "text": "5,8%",
+        "label": "RATE",
+        "evidence": "tăng giá mạnh nhất (5,8%)"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "ngày giao dịch 6/2"
+    },
+    {
+        "text": "12.850 đồng/cp",
+        "label": "PRICE",
+        "evidence": "12.850 đồng/cp"
+    },
+    {
+        "text": "1,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Khối lượng giao dịch MSB đạt gần 1,7 triệu đơn vị"
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID (tăng 3,8%)"
+    },
+    {
+        "text": "3,8%",
+        "label": "RATE",
+        "evidence": "tăng 3,8%"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB (tăng 3,2%)"
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "tăng 3,2%"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB (3,1%)"
+    },
+    {
+        "text": "3,1%",
+        "label": "RATE",
+        "evidence": "TCB (3,1%)"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG (2,9%)"
+    },
+    {
+        "text": "2,9%",
+        "label": "RATE",
+        "evidence": "CTG (2,9%)"
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "kéo mạnh VNIndex nhất"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "VPB (1,4%)"
+    },
+    {
+        "text": "1,4%",
+        "label": "RATE",
+        "evidence": "VPB (1,4%)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB (0,4%)"
+    },
+    {
+        "text": "0,4%",
+        "label": "RATE",
+        "evidence": "TPB (0,4%)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB của TPBank"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPB của TPBank"
+    },
+    {
+        "text": "ghi nhận phiên tăng giá thứ 3 liên tiếp",
+        "label": "EVENT",
+        "evidence": "TPB của TPBank ghi nhận phiên tăng giá thứ 3 liên tiếp"
+    },
+    {
+        "text": "4,5 triệu cp",
+        "label": "VOLUME",
+        "evidence": "Hơn 4,5 triệu cp được trao tay"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "trong ngày 6/2"
+    },
+    {
+        "text": "109 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 109 tỷ đồng"
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "từ đầu năm 2023"
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "giá tăng hơn 14%"
+    },
+    {
+        "text": "176 tỷ đồng/phiên",
+        "label": "VOLUME",
+        "evidence": "thanh khoản bình quân 176 tỷ đồng/phiên"
+    },
+    {
+        "text": "Đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Đầu năm 2023, cổ đông TPBank nhận tin vui"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "cổ đông TPBank nhận tin vui"
+    },
+    {
+        "text": "dự kiến sẽ trả cổ tức 25% bằng tiền mặt trong quý I này",
+        "label": "EVENT",
+        "evidence": "ngân hàng này dự kiến sẽ trả cổ tức 25% bằng tiền mặt trong quý I này"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "trả cổ tức 25% bằng tiền mặt"
+    },
+    {
+        "text": "quý I này",
+        "label": "DATE",
+        "evidence": "trong quý I này"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "VIB (-2,7%)"
+    },
+    {
+        "text": "-2,7%",
+        "label": "RATE",
+        "evidence": "VIB (-2,7%)"
+    },
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "KLB (-1,7%)"
+    },
+    {
+        "text": "-1,7%",
+        "label": "RATE",
+        "evidence": "KLB (-1,7%)"
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "-1,5%",
+        "label": "RATE",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (-1,3%)"
+    },
+    {
+        "text": "-1,3%",
+        "label": "RATE",
+        "evidence": "STB (-1,3%)"
+    },
+    {
+        "text": "ABB",
+        "label": "TICKER",
+        "evidence": "ABB (-1,2%)"
+    },
+    {
+        "text": "-1,2%",
+        "label": "RATE",
+        "evidence": "ABB (-1,2%)"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB (-0,3%)"
+    },
+    {
+        "text": "-0,3%",
+        "label": "RATE",
+        "evidence": "HDB (-0,3%)"
+    },
+    {
+        "text": "1.800 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị giao dịch đạt 1.800 tỷ đồng"
+    },
+    {
+        "text": "2.900 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "mức bình quân 2.900 tỷ đồng"
+    },
+    {
+        "text": "30/1-3/2/2023",
+        "label": "DATE",
+        "evidence": "tuần trước (30/1-3/2/2023)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (503 tỷ)"
+    },
+    {
+        "text": "503 tỷ",
+        "label": "VOLUME",
+        "evidence": "STB (503 tỷ)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "VPB (308 tỷ)"
+    },
+    {
+        "text": "308 tỷ",
+        "label": "VOLUME",
+        "evidence": "VPB (308 tỷ)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (123 tỷ)"
+    },
+    {
+        "text": "123 tỷ",
+        "label": "VOLUME",
+        "evidence": "MBB (123 tỷ)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB (109 tỷ)"
+    },
+    {
+        "text": "109 tỷ",
+        "label": "VOLUME",
+        "evidence": "TPB (109 tỷ)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB (109 tỷ)"
+    },
+    {
+        "text": "109 tỷ",
+        "label": "VOLUME",
+        "evidence": "VCB (109 tỷ)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "mua ròng STB, HDB, CTG, VCB"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "mua ròng STB, HDB, CTG, VCB"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "mua ròng STB, HDB, CTG, VCB"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "mua ròng STB, HDB, CTG, VCB"
+    },
+    {
+        "text": "HDB đã được mua ròng 9 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "HDB đã được mua ròng 9 phiên liên tiếp"
+    },
+    {
+        "text": "181 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị mua ròng 181 tỷ đồng"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "riêng phiên 6/2 là 15,5 tỷ đồng"
+    },
+    {
+        "text": "15,5 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "riêng phiên 6/2 là 15,5 tỷ đồng"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "giá cổ phiếu HDB diễn biến"
+    },
+    {
+        "text": "đầu 2023",
+        "label": "DATE",
+        "evidence": "từ đầu 2023"
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "mức tăng 16%"
+    },
+    {
+        "text": "STB cũng được mua ròng 6 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "STB cũng được mua ròng 6 phiên liên tiếp"
+    },
+    {
+        "text": "460 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị mua ròng 460 tỷ đồng"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "riêng phiên 6/2 là 125 tỷ"
+    },
+    {
+        "text": "125 tỷ",
+        "label": "VOLUME",
+        "evidence": "riêng phiên 6/2 là 125 tỷ"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG và VCB ghi nhận"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "CTG và VCB ghi nhận"
+    },
+    {
+        "text": "22,4 tỷ",
+        "label": "VOLUME",
+        "evidence": "giá trị mua ròng lần lượt là 22,4 tỷ"
+    },
+    {
+        "text": "31,6 tỷ",
+        "label": "VOLUME",
+        "evidence": "và 31,6 tỷ trong hôm nay"
+    },
+    {
+        "text": "Chứng khoán VCSC",
+        "label": "ORG",
+        "evidence": "Theo Chứng khoán VCSC"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "trong năm 2022"
+    },
+    {
+        "text": "mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room",
+        "label": "EVENT",
+        "evidence": "khối ngoại đã mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "dẫn dắt bởi STB, CTG, VCB, HDB"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "dẫn dắt bởi STB, CTG, VCB, HDB"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "dẫn dắt bởi STB, CTG, VCB, HDB"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "dẫn dắt bởi STB, CTG, VCB, HDB"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "ngân hàng trong 2023"
+    }
+]

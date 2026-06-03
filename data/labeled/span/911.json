@@ -1,0 +1,77 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo thông tin BIDV cung cấp"
+    },
+    {
+        "text": "quyền sử dụng đất tại số 29 phố Đội Cung, phường Phú Hội, TP. Huế theo giấy chứng nhận quyền sử dụng đất cấp, quyền sở hữu nhà ở và tài sản trên đất",
+        "label": "ASSET",
+        "evidence": "tài sản đấu giá là quyền sử dụng đất tại số 29 phố Đội Cung, phường Phú Hội, TP. Huế theo giấy chứng nhận quyền sử dụng đất cấp, quyền sở hữu nhà ở và tài sản trên đất do Sở TN&MT tỉnh Thừa Thiên – Huế cấp ngày 4/9/2019 cho Công ty TNHH Thanh Trang."
+    },
+    {
+        "text": "Sở TN&MT tỉnh Thừa Thiên – Huế",
+        "label": "ORG",
+        "evidence": "do Sở TN&MT tỉnh Thừa Thiên – Huế cấp ngày 4/9/2019 cho Công ty TNHH Thanh Trang."
+    },
+    {
+        "text": "ngày 4/9/2019",
+        "label": "DATE",
+        "evidence": "cấp ngày 4/9/2019 cho Công ty TNHH Thanh Trang."
+    },
+    {
+        "text": "Công ty TNHH Thanh Trang",
+        "label": "ORG",
+        "evidence": "cho Công ty TNHH Thanh Trang."
+    },
+    {
+        "text": "Giá khởi điểm của tài sản là 99,758 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giá khởi điểm của tài sản là 99,758 tỷ đồng."
+    },
+    {
+        "text": "Giá khởi điểm của tài sản",
+        "label": "PRICE",
+        "evidence": "Giá khởi điểm của tài sản là 99,758 tỷ đồng."
+    },
+    {
+        "text": "99,758 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá khởi điểm của tài sản là 99,758 tỷ đồng."
+    },
+    {
+        "text": "khách sạn này từng được BIDV Thừa Thiên Huế đấu giá vào ngày 30/5 với giá khởi điểm 105 tỷ đồng nhưng không thành công",
+        "label": "EVENT",
+        "evidence": "Trước đó, khách sạn này từng được BIDV Thừa Thiên Huế đấu giá vào ngày 30/5 với giá khởi điểm 105 tỷ đồng nhưng không thành công."
+    },
+    {
+        "text": "BIDV Thừa Thiên Huế",
+        "label": "ORG",
+        "evidence": "từng được BIDV Thừa Thiên Huế đấu giá vào ngày 30/5 với giá khởi điểm 105 tỷ đồng nhưng không thành công."
+    },
+    {
+        "text": "ngày 30/5",
+        "label": "DATE",
+        "evidence": "đấu giá vào ngày 30/5 với giá khởi điểm 105 tỷ đồng nhưng không thành công."
+    },
+    {
+        "text": "giá khởi điểm",
+        "label": "PRICE",
+        "evidence": "với giá khởi điểm 105 tỷ đồng nhưng không thành công."
+    },
+    {
+        "text": "105 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá khởi điểm 105 tỷ đồng nhưng không thành công."
+    },
+    {
+        "text": "MidTown Huế",
+        "label": "ASSET",
+        "evidence": "khách sạn này có tên MidTown Huế."
+    },
+    {
+        "text": "Công ty TNHH Thanh Trang",
+        "label": "ORG",
+        "evidence": "Đây là khách sạn do Công ty TNHH Thanh Trang làm chủ đầu tư."
+    }
+]

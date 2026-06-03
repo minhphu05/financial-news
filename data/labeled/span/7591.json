@@ -1,0 +1,182 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cho biết, mất thẻ, mất ví hoặc bị lộ thông tin thẻ là những tình huống gây ra rủi ro cho khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Vietcombank cho biết, mất thẻ, mất ví hoặc bị lộ thông tin thẻ là những tình huống gây ra rủi ro cho khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Trong trường hợp này, khách hàng có thể khóa khẩn cấp toàn bộ thẻ trên ứng dụng ngân hàng này và thực hiện các bước sau."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Bước 1:Truy cập VCB Digibank >> Gõ từ khóa \"khóa thẻ\" trong ô tìm kiếm."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Để mở khóa thẻ trở lại, khách hàng thực hiện: Đăng nhập VCB Digibank >> chọn \"Sản phẩm\" >> Dịch vụ thẻ >> chọn thẻ từ danh sách >> chọn tab \"Dịch vụ\" >> nhấn biểu tượng \"Mở khóa thẻ\"."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Để mở khóa thẻ trở lại, khách hàng thực hiện: Đăng nhập VCB Digibank >> chọn \"Sản phẩm\" >> Dịch vụ thẻ >> chọn thẻ từ danh sách >> chọn tab \"Dịch vụ\" >> nhấn biểu tượng \"Mở khóa thẻ\"."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo Vietcombank, khi kích hoạt lại ứng dụng VCB Digibank trên thiết bị khác, hệ thống sẽ mặc định khóa đăng nhập VCB Digibank trên kênh web."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Theo Vietcombank, khi kích hoạt lại ứng dụng VCB Digibank trên thiết bị khác, hệ thống sẽ mặc định khóa đăng nhập VCB Digibank trên kênh web."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Để mở lại đăng nhập kênh web trên ứng dụng, quý khách có thể thực hiện theo hướng dẫn sau: Đăng nhập ứng dụng VCB Digibank >> chọn \"Cài đặt\" >> Quản lý đăng nhập kênh web >> bấm \"Cài đặt đăng nhập VCB Digibank trên web\"."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "7 tháng năm 2024",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "58,44%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "35,13%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "qua kênh Internet tăng tương ứng 49,83% và 33,72%",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "49,83%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "33,72%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "59,09%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "37,97%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "106,83%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "105,51%",
+        "label": "RATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước, trong 7 tháng năm 2024 so với cùng kỳ năm 2023, giao dịch thanh toán không dùng tiền mặt tăng 58,44% về số lượng và 35,13% về giá trị; qua kênh Internet tăng tương ứng 49,83% và 33,72%; qua kênh điện thoại di động tăng tương ứng 59,09% và 37,97%, giao dịch qua QR Code tăng 106,83% về số lượng và 105,51% về giá trị."
+    },
+    {
+        "text": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị",
+        "label": "EVENT",
+        "evidence": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị so với cùng kỳ năm 2023, cho thấy xu hướng dịch chuyển của người dân sang thanh toán không tiền mặt."
+    },
+    {
+        "text": "ATM",
+        "label": "ASSET",
+        "evidence": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị so với cùng kỳ năm 2023, cho thấy xu hướng dịch chuyển của người dân sang thanh toán không tiền mặt."
+    },
+    {
+        "text": "13,35%",
+        "label": "RATE",
+        "evidence": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị so với cùng kỳ năm 2023, cho thấy xu hướng dịch chuyển của người dân sang thanh toán không tiền mặt."
+    },
+    {
+        "text": "6,13%",
+        "label": "RATE",
+        "evidence": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị so với cùng kỳ năm 2023, cho thấy xu hướng dịch chuyển của người dân sang thanh toán không tiền mặt."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Giao dịch qua ATM giảm 13,35% về số lượng và giảm 6,13% về giá trị so với cùng kỳ năm 2023, cho thấy xu hướng dịch chuyển của người dân sang thanh toán không tiền mặt."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trước tình trạng đó, Ngân hàng Nhà nước thực hiện nhiều giải pháp nhằm hạn chế đảm bảo an toàn tài khoản cho khách hàng."
+    },
+    {
+        "text": "Quyết định số 2345/QĐ-NHNN được ban hành",
+        "label": "EVENT",
+        "evidence": "Để đảm bảo an ninh, an toàn tài khoản cho khách hàng trong các giao dịch ngân hàng trực tuyến, Quyết định số 2345/QĐ-NHNN được ban hành, nhằm triển khai các giải pháp an toàn, bảo mật trong thanh toán trực tuyến và thanh toán thẻ ngân hàng."
+    },
+    {
+        "text": "thẻ ngân hàng",
+        "label": "ASSET",
+        "evidence": "Để đảm bảo an ninh, an toàn tài khoản cho khách hàng trong các giao dịch ngân hàng trực tuyến, Quyết định số 2345/QĐ-NHNN được ban hành, nhằm triển khai các giải pháp an toàn, bảo mật trong thanh toán trực tuyến và thanh toán thẻ ngân hàng."
+    },
+    {
+        "text": "Quyết định số 2345",
+        "label": "EVENT",
+        "evidence": "Quyết định số 2345 có quy định từ 1/7/2024, các giao dịch chuyển tiền điện tử của cá nhân có giá trị trên 10 triệu đồng hoặc tổng giá trị giao dịch chuyển tiền điện tử trong ngày vượt 20 triệu đồng phải áp dụng một trong các biện pháp xác thực sinh trắc học."
+    },
+    {
+        "text": "1/7/2024",
+        "label": "DATE",
+        "evidence": "Quyết định số 2345 có quy định từ 1/7/2024, các giao dịch chuyển tiền điện tử của cá nhân có giá trị trên 10 triệu đồng hoặc tổng giá trị giao dịch chuyển tiền điện tử trong ngày vượt 20 triệu đồng phải áp dụng một trong các biện pháp xác thực sinh trắc học."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Quyết định số 2345 có quy định từ 1/7/2024, các giao dịch chuyển tiền điện tử của cá nhân có giá trị trên 10 triệu đồng hoặc tổng giá trị giao dịch chuyển tiền điện tử trong ngày vượt 20 triệu đồng phải áp dụng một trong các biện pháp xác thực sinh trắc học."
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Quyết định số 2345 có quy định từ 1/7/2024, các giao dịch chuyển tiền điện tử của cá nhân có giá trị trên 10 triệu đồng hoặc tổng giá trị giao dịch chuyển tiền điện tử trong ngày vượt 20 triệu đồng phải áp dụng một trong các biện pháp xác thực sinh trắc học."
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "vị lãnh đạo FPT cho biết"
+    },
+    {
+        "text": "Hơn 110 ngàn doanh nghiệp bị biến mất",
+        "label": "EVENT",
+        "evidence": "“Hơn 110 ngàn doanh nghiệp bị biến mất”"
+    },
+    {
+        "text": "hơn 111,6 ngàn doanh nghiệp rút lui khỏi thị trường",
+        "label": "EVENT",
+        "evidence": "“hơn 111,6 ngàn doanh nghiệp rút lui khỏi thị trường”"
+    },
+    {
+        "text": "111.600 DN ngừng hoạt động",
+        "label": "VOLUME",
+        "evidence": "con số 111.600 DN ngừng hoạt động trong 5 tháng đầu năm 2025"
+    },
+    {
+        "text": "5 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "con số 111.600 DN ngừng hoạt động trong 5 tháng đầu năm 2025"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "lãnh đạo FPT cho biết"
+    },
+    {
+        "text": "thời hạn tạm ngừng kinh doanh của một DN",
+        "label": "EVENT",
+        "evidence": "theo quy định hiện hành, thời hạn tạm ngừng kinh doanh của một DN chỉ được tối đa là 1 năm"
+    },
+    {
+        "text": "làm lại thủ tục tạm ngừng kinh doanh tiếp",
+        "label": "EVENT",
+        "evidence": "Sau 1 năm DN bắt buộc phải làm lại thủ tục tạm ngừng kinh doanh tiếp"
+    },
+    {
+        "text": "thông báo tạm ngừng kinh doanh",
+        "label": "EVENT",
+        "evidence": "trong thông báo tạm ngừng kinh doanh không hề có mục tạm ngừng kinh doanh lần đầu hay tạm ngừng kinh doanh lần tiếp theo"
+    },
+    {
+        "text": "giải thể",
+        "label": "EVENT",
+        "evidence": "nếu DN không giải thể"
+    },
+    {
+        "text": "phá sản",
+        "label": "EVENT",
+        "evidence": "hoặc phá sản"
+    },
+    {
+        "text": "quay trở lại hoạt động",
+        "label": "EVENT",
+        "evidence": "hoặc quay trở lại hoạt động"
+    },
+    {
+        "text": "tháng 6/2021",
+        "label": "DATE",
+        "evidence": "Chẳng hạn tháng 6/2021 do đại dịch Covid, DN A tạm ngừng kinh doanh"
+    },
+    {
+        "text": "DN A tạm ngừng kinh doanh",
+        "label": "EVENT",
+        "evidence": "Chẳng hạn tháng 6/2021 do đại dịch Covid, DN A tạm ngừng kinh doanh"
+    },
+    {
+        "text": "tháng 6 các năm 2022, 2023, 2024, 2025",
+        "label": "DATE",
+        "evidence": "tháng 6 các năm 2022, 2023, 2024, 2025 DN A buộc phải làm thông báo tạm ngừng kinh doanh tiếp"
+    },
+    {
+        "text": "làm thông báo tạm ngừng kinh doanh tiếp",
+        "label": "EVENT",
+        "evidence": "DN A buộc phải làm thông báo tạm ngừng kinh doanh tiếp"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "thành viên HĐQT FPT viết"
+    },
+    {
+        "text": "ÔngĐỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "ÔngĐỗ Cao Bảo- Thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "số DN ngừng hoạt động lần đầu tiên",
+        "label": "EVENT",
+        "evidence": "số liệu đúng để đo số DN ngừng hoạt động trong kỳ chỉ là số DN ngừng hoạt động lần đầu tiên"
+    },
+    {
+        "text": "số DN tiếp tục ngừng hoạt động",
+        "label": "EVENT",
+        "evidence": "không được tính số DN tiếp tục ngừng hoạt động"
+    },
+    {
+        "text": "5 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "số DN ngừng hoạt động trong 5 tháng đầu năm 2025"
+    },
+    {
+        "text": "111,6 ngàn DN ngừng hoạt động",
+        "label": "VOLUME",
+        "evidence": "Trong 111,6 ngàn DN ngừng hoạt động có 44,6 ngàn DN ngừng hoạt động lần đầu"
+    },
+    {
+        "text": "44,6 ngàn DN ngừng hoạt động lần đầu",
+        "label": "VOLUME",
+        "evidence": "có 44,6 ngàn DN ngừng hoạt động lần đầu"
+    },
+    {
+        "text": "12 ngàn DN lần 2",
+        "label": "VOLUME",
+        "evidence": "12 ngàn DN lần 2"
+    },
+    {
+        "text": "15 ngàn DN lần 3",
+        "label": "VOLUME",
+        "evidence": "15 ngàn DN lần 3"
+    },
+    {
+        "text": "18 ngàn DN lần 4",
+        "label": "VOLUME",
+        "evidence": "18 ngàn DN lần 4"
+    },
+    {
+        "text": "22 ngàn DN lần 5",
+        "label": "VOLUME",
+        "evidence": "và 22 ngàn DN lần 5"
+    },
+    {
+        "text": "5 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Trong 5 tháng đầu năm 2025, có 44,6 ngàn DN ngừng hoạt động mới"
+    },
+    {
+        "text": "44,6 ngàn DN ngừng hoạt động mới",
+        "label": "VOLUME",
+        "evidence": "có 44,6 ngàn DN ngừng hoạt động mới"
+    },
+    {
+        "text": "111,8 ngàn DN",
+        "label": "VOLUME",
+        "evidence": "và có 111,8 ngàn DN thành lập mới và quay trở lại hoạt động"
+    },
+    {
+        "text": "thành lập mới và quay trở lại hoạt động",
+        "label": "EVENT",
+        "evidence": "và có 111,8 ngàn DN thành lập mới và quay trở lại hoạt động"
+    }
+]

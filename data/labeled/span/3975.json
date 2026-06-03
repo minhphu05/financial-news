@@ -1,0 +1,82 @@
+[
+    {
+        "text": "ngày 10/1",
+        "label": "DATE",
+        "evidence": "trên Biển Đỏ vào ngày 10/1."
+    },
+    {
+        "text": "ngày 11/1",
+        "label": "DATE",
+        "evidence": "Theo kênh NBC News, ngày 11/1, hai quan chức Mỹ cho biết Mỹ và Anh đã tiến hành các cuộc tấn công quân sự nhằm vào nhiều mục tiêu Houthi trên khắp đất nước Yemen."
+    },
+    {
+        "text": "Mỹ",
+        "label": "ORG",
+        "evidence": "Mỹ và Anh đã tiến hành các cuộc tấn công quân sự nhằm vào nhiều mục tiêu Houthi trên khắp đất nước Yemen."
+    },
+    {
+        "text": "Anh",
+        "label": "ORG",
+        "evidence": "Mỹ và Anh đã tiến hành các cuộc tấn công quân sự nhằm vào nhiều mục tiêu Houthi trên khắp đất nước Yemen."
+    },
+    {
+        "text": "tiến hành các cuộc tấn công quân sự nhằm vào nhiều mục tiêu Houthi",
+        "label": "EVENT",
+        "evidence": "Mỹ và Anh đã tiến hành các cuộc tấn công quân sự nhằm vào nhiều mục tiêu Houthi trên khắp đất nước Yemen."
+    },
+    {
+        "text": "Bộ Chỉ huy Trung tâm Mỹ",
+        "label": "ORG",
+        "evidence": "ngay sau khi Bộ Chỉ huy Trung tâm Mỹ (CENTCOM) báo cáo về việc lực lượng Houthi bắn tên lửa đạn đạo chống hạm từ Yemen vào các tuyến đường vận chuyển quốc tế ở Vịnh Aden."
+    },
+    {
+        "text": "CENTCOM",
+        "label": "ORG",
+        "evidence": "ngay sau khi Bộ Chỉ huy Trung tâm Mỹ (CENTCOM) báo cáo về việc lực lượng Houthi bắn tên lửa đạn đạo chống hạm từ Yemen vào các tuyến đường vận chuyển quốc tế ở Vịnh Aden."
+    },
+    {
+        "text": "lực lượng Houthi bắn tên lửa đạn đạo chống hạm từ Yemen vào các tuyến đường vận chuyển quốc tế ở Vịnh Aden",
+        "label": "EVENT",
+        "evidence": "về việc lực lượng Houthi bắn tên lửa đạn đạo chống hạm từ Yemen vào các tuyến đường vận chuyển quốc tế ở Vịnh Aden."
+    },
+    {
+        "text": "ngày 19/11/2023",
+        "label": "DATE",
+        "evidence": "lực lượng Hồi giáo Houthi nhắm mục tiêu vào hoạt động vận chuyển quốc tế kể từ ngày 19/11/2023."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Hồi tháng 12/2023, để xử lý các cuộc tấn công của Houthi ở Biển Đỏ, Mỹ đã thành lập một liên minh hải quân mang tên \"Chiến dịch Người bảo vệ Thịnh vượng\""
+    },
+    {
+        "text": "Mỹ",
+        "label": "ORG",
+        "evidence": "Hồi tháng 12/2023, để xử lý các cuộc tấn công của Houthi ở Biển Đỏ, Mỹ đã thành lập một liên minh hải quân mang tên \"Chiến dịch Người bảo vệ Thịnh vượng\""
+    },
+    {
+        "text": "thành lập một liên minh hải quân mang tên \"Chiến dịch Người bảo vệ Thịnh vượng\"",
+        "label": "EVENT",
+        "evidence": "Mỹ đã thành lập một liên minh hải quân mang tên \"Chiến dịch Người bảo vệ Thịnh vượng\", để bảo vệ an ninh cho tuyến đường vận tải biển quan trọng vốn chiếm khoảng 12% hoạt động thương mại hàng hải toàn cầu này."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "vốn chiếm khoảng 12% hoạt động thương mại hàng hải toàn cầu này."
+    },
+    {
+        "text": "Maersk",
+        "label": "ORG",
+        "evidence": "Nhiều hãng vận tải lớn, bao gồm Maersk và Hapag-Lloyd, đã quyết định để các tàu của hãng tạm dừng di chuyển qua Biển Đỏ và thay đổi lộ trình di chuyển theo tuyến đường dài hơn qua Mũi Hảo Vọng ở Nam Phi."
+    },
+    {
+        "text": "Hapag-Lloyd",
+        "label": "ORG",
+        "evidence": "Nhiều hãng vận tải lớn, bao gồm Maersk và Hapag-Lloyd, đã quyết định để các tàu của hãng tạm dừng di chuyển qua Biển Đỏ và thay đổi lộ trình di chuyển theo tuyến đường dài hơn qua Mũi Hảo Vọng ở Nam Phi."
+    },
+    {
+        "text": "quyết định để các tàu của hãng tạm dừng di chuyển qua Biển Đỏ và thay đổi lộ trình di chuyển theo tuyến đường dài hơn qua Mũi Hảo Vọng ở Nam Phi",
+        "label": "EVENT",
+        "evidence": "Maersk và Hapag-Lloyd, đã quyết định để các tàu của hãng tạm dừng di chuyển qua Biển Đỏ và thay đổi lộ trình di chuyển theo tuyến đường dài hơn qua Mũi Hảo Vọng ở Nam Phi."
+    }
+]

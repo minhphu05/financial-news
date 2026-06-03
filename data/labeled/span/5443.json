@@ -1,0 +1,562 @@
+[
+    {
+        "text": "cuối tháng 6",
+        "label": "DATE",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "46.987 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "giảm 2.004 tỷ",
+        "label": "EVENT",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "2.004 tỷ",
+        "label": "MONEY",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "4,09%",
+        "label": "RATE",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "hồi đầu năm",
+        "label": "DATE",
+        "evidence": "Theo đó, tổng tài sản ngân hàng tính đến cuối tháng 6 ở mức  46.987 tỷ đồng, giảm 2.004 tỷ  (tương đương 4,09%) so với hồi đầu năm."
+    },
+    {
+        "text": "dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm",
+        "label": "EVENT",
+        "evidence": "Đi sâu vào cấu trúc tài sản, dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm lên mức 30.250 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Đi sâu vào cấu trúc tài sản, dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm lên mức 30.250 tỷ đồng."
+    },
+    {
+        "text": "4,13%",
+        "label": "RATE",
+        "evidence": "Đi sâu vào cấu trúc tài sản, dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm lên mức 30.250 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Đi sâu vào cấu trúc tài sản, dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm lên mức 30.250 tỷ đồng."
+    },
+    {
+        "text": "30.250 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đi sâu vào cấu trúc tài sản, dư nợ cho vay khách hàng của PGBank tăng 4,13% trong 6 tháng đầu năm lên mức 30.250 tỷ đồng."
+    },
+    {
+        "text": "dư nợ của hoạt động mua nợ giảm hơn 59%",
+        "label": "EVENT",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "hơn 59%",
+        "label": "RATE",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "1.316 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20%",
+        "label": "EVENT",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "trái phiếu chính phủ",
+        "label": "ASSET",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "hơn 20%",
+        "label": "RATE",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "2.776 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, dư nợ của hoạt động mua nợ giảm hơn 59% xuống còn hơn 1.316 tỷ đồng; quy mô danh mục chứng khoán đầu tư (chủ yếu là trái phiếu chính phủ) giảm hơn 20% về còn 2.776 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Như vậy, sự sụt giảm quy mô tài sản của PGBank trong nửa đầu năm chủ yếu do sự thu hẹp của hoạt động mua nợ và danh mục chứng khoán đầu tư."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Như vậy, sự sụt giảm quy mô tài sản của PGBank trong nửa đầu năm chủ yếu do sự thu hẹp của hoạt động mua nợ và danh mục chứng khoán đầu tư."
+    },
+    {
+        "text": "tiền gửi khách hàng của PGBank giảm nhẹ 32 tỷ",
+        "label": "EVENT",
+        "evidence": "Bên phía nguồn vốn, tiền gửi khách hàng của PGBank giảm nhẹ 32 tỷ xuống mức 31.228 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Bên phía nguồn vốn, tiền gửi khách hàng của PGBank giảm nhẹ 32 tỷ xuống mức 31.228 tỷ đồng."
+    },
+    {
+        "text": "32 tỷ",
+        "label": "MONEY",
+        "evidence": "Bên phía nguồn vốn, tiền gửi khách hàng của PGBank giảm nhẹ 32 tỷ xuống mức 31.228 tỷ đồng."
+    },
+    {
+        "text": "31.228 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên phía nguồn vốn, tiền gửi khách hàng của PGBank giảm nhẹ 32 tỷ xuống mức 31.228 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Đây là là lần đầu tiên trong nhiều năm qua ngân hàng bị sụt giảm tiền gửi khách hàng trong 6 tháng đầu năm."
+    },
+    {
+        "text": "tiền gửi của tổ chức kinh tế giảm 1.196 tỷ",
+        "label": "EVENT",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "1.196 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "6.854 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "14,9%",
+        "label": "RATE",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "tiền gửi của cá nhân tăng 1.165 tỷ",
+        "label": "EVENT",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "1.165 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "31.228 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi của tổ chức kinh tế giảm 1.196 tỷ, xuống mức 6.854 tỷ đồng (tương đương 14,9%); tiền gửi của cá nhân tăng 1.165 tỷ lên hơn 31.228 tỷ đồng (tương đương %)."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "Tập đoàn Xăng dầu Việt Nam",
+        "label": "ORG",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "158 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thuyết minh báo cáo tài chính cho biết, trong 6 tháng đầu năm, lượng tiền gửi có kỳ hạn Tập đoàn Xăng dầu Việt Nam (Petrolimex) tại PGBank đã giảm 600 tỷ đồng; đồng thời tiền gửi thanh toán cũng giảm hơn 158 tỷ đồng."
+    },
+    {
+        "text": "các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "111 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "1.302 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "hồi đầu năm",
+        "label": "DATE",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "1.191 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, các công ty con, công ty liên kết của Petrolimex cũng giảm 111 tỷ đồng tiền gửi có kỳ hạn tại PGBank từ mức hơn 1.302 tỷ đồng hồi đầu năm xuống còn hơn 1.191 tỷ đồng."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Lượng tiền gửi của Petrolimex và các công ty con, công ty liên kết tại PGBank ở thời điểm 30/6 ."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Lượng tiền gửi của Petrolimex và các công ty con, công ty liên kết tại PGBank ở thời điểm 30/6 ."
+    },
+    {
+        "text": "30/6",
+        "label": "DATE",
+        "evidence": "Lượng tiền gửi của Petrolimex và các công ty con, công ty liên kết tại PGBank ở thời điểm 30/6 ."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "(Nguồn: BCTC quý II)"
+    },
+    {
+        "text": "Petrolimex đã thoái toàn bộ vốn góp tại PGBank",
+        "label": "EVENT",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "đấu giá bán thành công 120 triệu cổ phiếu PGB",
+        "label": "EVENT",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "120 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "đầu tháng 4",
+        "label": "DATE",
+        "evidence": "Trước đó, Petrolimex đã thoái toàn bộ vốn góp tại PGBank sau khi đấu giá bán thành công 120 triệu cổ phiếu PGB  vào đầu tháng 4, không còn là cổ đông lớn của ngân hàng này."
+    },
+    {
+        "text": "hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)”",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)” trước thềm thoái vốn, ông Trần Ngọc Năm - Thành viên HĐQT kiêm Phó Tổng giám đốc Petrolimex - cho biết:Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Ngân hàng TMCP Xăng dầu Petrolimex",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)” trước thềm thoái vốn, ông Trần Ngọc Năm - Thành viên HĐQT kiêm Phó Tổng giám đốc Petrolimex - cho biết:Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "PG Bank",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)” trước thềm thoái vốn, ông Trần Ngọc Năm - Thành viên HĐQT kiêm Phó Tổng giám đốc Petrolimex - cho biết:Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Trần Ngọc Năm",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)” trước thềm thoái vốn, ông Trần Ngọc Năm - Thành viên HĐQT kiêm Phó Tổng giám đốc Petrolimex - cho biết:Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại hội thảo “Cơ hội đầu tư Ngân hàng TMCP Xăng dầu Petrolimex (PG Bank)” trước thềm thoái vốn, ông Trần Ngọc Năm - Thành viên HĐQT kiêm Phó Tổng giám đốc Petrolimex - cho biết:Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Petrolimex thoái vốn",
+        "label": "EVENT",
+        "evidence": "Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "PG Bank",
+        "label": "ORG",
+        "evidence": "Sau khi Petrolimex thoái vốn, không có cam kết về số dư tiền gửi tại PG Bank."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với trách nhiệm, tình cảm gắn bó của Petrolimex với PG Bank, vẫn có ưu tiên dựa trên nguyên tắc bình đẳng, chia sẻ lợi ích và Petrolimex tiếp tục hỗ trợ PG Bank trong phạm vị luật pháp cho phép."
+    },
+    {
+        "text": "PG Bank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với trách nhiệm, tình cảm gắn bó của Petrolimex với PG Bank, vẫn có ưu tiên dựa trên nguyên tắc bình đẳng, chia sẻ lợi ích và Petrolimex tiếp tục hỗ trợ PG Bank trong phạm vị luật pháp cho phép."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với trách nhiệm, tình cảm gắn bó của Petrolimex với PG Bank, vẫn có ưu tiên dựa trên nguyên tắc bình đẳng, chia sẻ lợi ích và Petrolimex tiếp tục hỗ trợ PG Bank trong phạm vị luật pháp cho phép."
+    },
+    {
+        "text": "PG Bank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với trách nhiệm, tình cảm gắn bó của Petrolimex với PG Bank, vẫn có ưu tiên dựa trên nguyên tắc bình đẳng, chia sẻ lợi ích và Petrolimex tiếp tục hỗ trợ PG Bank trong phạm vị luật pháp cho phép."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "cuối tháng 6",
+        "label": "DATE",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "Tập đoàn Xăng dầu Việt Nam",
+        "label": "ORG",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "dưới 5%",
+        "label": "RATE",
+        "evidence": "Dù đã thoái vốn thành công, báo cáo tài chính PGBank tại thời điểm cuối tháng 6 vẫn ghi nhậnTập đoàn Xăng dầu Việt Nam(Petrolimex) là cổ đông lớn nhất với tỷ lệ 40%, trong khi 60% còn lại được nắm giữ bởi các cổ đông nhỏ (dưới 5%)."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "PGBank vẫn ghi nhận Petrolimex là cổ đông lớn tại thời điểm 30/6/2023."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "PGBank vẫn ghi nhận Petrolimex là cổ đông lớn tại thời điểm 30/6/2023."
+    },
+    {
+        "text": "30/6/2023",
+        "label": "DATE",
+        "evidence": "PGBank vẫn ghi nhận Petrolimex là cổ đông lớn tại thời điểm 30/6/2023."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "(Nguồn: BCTC quý 2)"
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Về kết quả kinh doanh của PGBank, lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ."
+    },
+    {
+        "text": "lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Về kết quả kinh doanh của PGBank, lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Về kết quả kinh doanh của PGBank, lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ."
+    },
+    {
+        "text": "150 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về kết quả kinh doanh của PGBank, lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ."
+    },
+    {
+        "text": "gần 27%",
+        "label": "RATE",
+        "evidence": "Về kết quả kinh doanh của PGBank, lợi nhuận trước thuế quý 2 đạt 150 tỷ đồng, tăng gần 27% so với cùng kỳ."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 6 tháng đầu năm, lợi nhuận trước thuế đạt 303 tỷ đồng, tăng 24%."
+    },
+    {
+        "text": "lợi nhuận trước thuế đạt 303 tỷ đồng, tăng 24%",
+        "label": "EVENT",
+        "evidence": "Lũy kế 6 tháng đầu năm, lợi nhuận trước thuế đạt 303 tỷ đồng, tăng 24%."
+    },
+    {
+        "text": "303 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 6 tháng đầu năm, lợi nhuận trước thuế đạt 303 tỷ đồng, tăng 24%."
+    },
+    {
+        "text": "24%",
+        "label": "RATE",
+        "evidence": "Lũy kế 6 tháng đầu năm, lợi nhuận trước thuế đạt 303 tỷ đồng, tăng 24%."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Trong nửa đầu năm, hầu hết các mảng kinh doanh, từ nguồn thu cốt lõi thu nhập lãi, hoạt động dịch vụ đến kinh doanh ngoại hối đều có kết quả khả quan."
+    },
+    {
+        "text": "tổng thu nhập hoạt động của PGBank tăng 8%",
+        "label": "EVENT",
+        "evidence": "Điều này giúp tổng thu nhập hoạt động của PGBank tăng 8%, đạt 756 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Điều này giúp tổng thu nhập hoạt động của PGBank tăng 8%, đạt 756 tỷ đồng."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Điều này giúp tổng thu nhập hoạt động của PGBank tăng 8%, đạt 756 tỷ đồng."
+    },
+    {
+        "text": "756 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Điều này giúp tổng thu nhập hoạt động của PGBank tăng 8%, đạt 756 tỷ đồng."
+    },
+    {
+        "text": "chi phí hoạt động chỉ tăng 16,9%",
+        "label": "EVENT",
+        "evidence": "Trong khi chi phí hoạt động chỉ tăng 16,9%, giúp lợi nhuận thuần tăng nhẹ lên mức trên 390 tỷ đồng."
+    },
+    {
+        "text": "16,9%",
+        "label": "RATE",
+        "evidence": "Trong khi chi phí hoạt động chỉ tăng 16,9%, giúp lợi nhuận thuần tăng nhẹ lên mức trên 390 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận thuần tăng nhẹ lên mức trên 390 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong khi chi phí hoạt động chỉ tăng 16,9%, giúp lợi nhuận thuần tăng nhẹ lên mức trên 390 tỷ đồng."
+    },
+    {
+        "text": "390 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi chi phí hoạt động chỉ tăng 16,9%, giúp lợi nhuận thuần tăng nhẹ lên mức trên 390 tỷ đồng."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "cắt giảm chi phí dự phòng rủi ro",
+        "label": "EVENT",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "chi phí này giảm 39%",
+        "label": "EVENT",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "39%",
+        "label": "RATE",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "87 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Động lực tăng trưởng lợi nhuận của PGBank trong 6 tháng đầu năm đến từ việc cắt giảm chi phí dự phòng rủi ro, khi chi phí này giảm 39% xuống còn chưa đầy 87 tỷ đồng."
+    },
+    {
+        "text": "ngày 30/6/2023",
+        "label": "DATE",
+        "evidence": "Tại ngày 30/6/2023, nợ xấu của ngân hàng tăng 12,7% lên 839 tỷ đồng, chiếm 2,77% trong tổng dư nợ cho vay."
+    },
+    {
+        "text": "nợ xấu của ngân hàng tăng 12,7%",
+        "label": "EVENT",
+        "evidence": "Tại ngày 30/6/2023, nợ xấu của ngân hàng tăng 12,7% lên 839 tỷ đồng, chiếm 2,77% trong tổng dư nợ cho vay."
+    },
+    {
+        "text": "12,7%",
+        "label": "RATE",
+        "evidence": "Tại ngày 30/6/2023, nợ xấu của ngân hàng tăng 12,7% lên 839 tỷ đồng, chiếm 2,77% trong tổng dư nợ cho vay."
+    },
+    {
+        "text": "839 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngày 30/6/2023, nợ xấu của ngân hàng tăng 12,7% lên 839 tỷ đồng, chiếm 2,77% trong tổng dư nợ cho vay."
+    },
+    {
+        "text": "2,77%",
+        "label": "RATE",
+        "evidence": "Tại ngày 30/6/2023, nợ xấu của ngân hàng tăng 12,7% lên 839 tỷ đồng, chiếm 2,77% trong tổng dư nợ cho vay."
+    },
+    {
+        "text": "2,56%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ này tăng so với mức 2,56% hồi đầu năm."
+    },
+    {
+        "text": "hồi đầu năm",
+        "label": "DATE",
+        "evidence": "Tỷ lệ này tăng so với mức 2,56% hồi đầu năm."
+    }
+]

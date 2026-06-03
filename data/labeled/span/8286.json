@@ -1,0 +1,272 @@
+[
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Tại báo cáo gửi Chính phủ, Bộ Tài chính, lũy kế 5 tháng đầu năm 2024, thu ngân sách nhà nước ước đạt 898.400 tỷ đồng, tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Tại báo cáo gửi Chính phủ, Bộ Tài chính, lũy kế 5 tháng đầu năm 2024, thu ngân sách nhà nước ước đạt 898.400 tỷ đồng, tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "5 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "lũy kế 5 tháng đầu năm 2024, thu ngân sách nhà nước ước đạt 898.400 tỷ đồng, tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "898.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thu ngân sách nhà nước ước đạt 898.400 tỷ đồng, tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "gần 15%",
+        "label": "RATE",
+        "evidence": "tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "tăng gần 15% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "757.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thu nội địa ước đạt 757.500 tỷ đồng, tăng 16,8%."
+    },
+    {
+        "text": "16,8%",
+        "label": "RATE",
+        "evidence": "tăng 16,8%."
+    },
+    {
+        "text": "90.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "các khoản thu từ nhà, đất ước đạt 90.600 tỷ đồng, tăng 78,2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "78,2%",
+        "label": "RATE",
+        "evidence": "tăng 78,2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Theo Bộ Tài chính, thu từ nhà đất tăng mạnh nhờ phát sinh số tiền nộp đầu năm nay từ các cuộc đấu giá, giao đất của các địa phương vào cuối 2023."
+    },
+    {
+        "text": "đấu giá, giao đất",
+        "label": "EVENT",
+        "evidence": "nhờ phát sinh số tiền nộp đầu năm nay từ các cuộc đấu giá, giao đất của các địa phương vào cuối 2023."
+    },
+    {
+        "text": "cuối 2023",
+        "label": "DATE",
+        "evidence": "từ các cuộc đấu giá, giao đất của các địa phương vào cuối 2023."
+    },
+    {
+        "text": "Vinhomes Vũ Yên",
+        "label": "ORG",
+        "evidence": "dự án Vinhomes Vũ Yên (Hải Phòng) góp khoảng 5.600 tỷ, Ecopark (Nghệ An) 1.000 tỷ, Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "5.600 tỷ",
+        "label": "MONEY",
+        "evidence": "dự án Vinhomes Vũ Yên (Hải Phòng) góp khoảng 5.600 tỷ, Ecopark (Nghệ An) 1.000 tỷ, Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "Ecopark",
+        "label": "ORG",
+        "evidence": "Ecopark (Nghệ An) 1.000 tỷ, Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "1.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Ecopark (Nghệ An) 1.000 tỷ, Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "Phố Mới",
+        "label": "ORG",
+        "evidence": "Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "700 tỷ",
+        "label": "MONEY",
+        "evidence": "Phố Mới (Hưng Yên) 700 tỷ, khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "khu dân cư Mai Bá Hương",
+        "label": "ORG",
+        "evidence": "khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "970 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khu dân cư Mai Bá Hương (Long An) khoảng 970 tỷ đồng."
+    },
+    {
+        "text": "Vinhomes Vũ Yên",
+        "label": "ORG",
+        "evidence": "Dự án Vinhomes Vũ Yên 1.000 tỷ, dự án Mặt trời Kiên Giang 644 tỷ, cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "1.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Dự án Vinhomes Vũ Yên 1.000 tỷ, dự án Mặt trời Kiên Giang 644 tỷ, cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "Mặt trời Kiên Giang",
+        "label": "ORG",
+        "evidence": "dự án Mặt trời Kiên Giang 644 tỷ, cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "644 tỷ",
+        "label": "MONEY",
+        "evidence": "dự án Mặt trời Kiên Giang 644 tỷ, cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "cáp treo Hòn Thơm",
+        "label": "ORG",
+        "evidence": "cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "570 tỷ",
+        "label": "MONEY",
+        "evidence": "cáp treo Hòn Thơm 570 tỷ, EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "EcoLand",
+        "label": "ORG",
+        "evidence": "EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "580 tỷ",
+        "label": "MONEY",
+        "evidence": "EcoLand (Hưng Yên) 580 tỷ."
+    },
+    {
+        "text": "Vinhomes Vũ Yên",
+        "label": "ORG",
+        "evidence": "Dự án Vinhomes Vũ Yên (Hải Phòng)"
+    },
+    {
+        "text": "5 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "bởi 5 tháng đầu năm 2023 thực hiện chính sách gia hạn thuế và tiền thuê đất theo Nghị định 12, làm giảm số tiền thu khoảng 38.000 tỷ đồng."
+    },
+    {
+        "text": "chính sách gia hạn thuế và tiền thuê đất theo Nghị định 12",
+        "label": "EVENT",
+        "evidence": "thực hiện chính sách gia hạn thuế và tiền thuê đất theo Nghị định 12, làm giảm số tiền thu khoảng 38.000 tỷ đồng."
+    },
+    {
+        "text": "38.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "làm giảm số tiền thu khoảng 38.000 tỷ đồng."
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Cũng theo báo cáo của Bộ Tài chính, tháng 5, ngân sách chi khoảng 140.000 tỷ đồng."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "tháng 5, ngân sách chi khoảng 140.000 tỷ đồng."
+    },
+    {
+        "text": "140.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân sách chi khoảng 140.000 tỷ đồng."
+    },
+    {
+        "text": "5 tháng",
+        "label": "DATE",
+        "evidence": "Sau 5 tháng, ngân sách nhà nước đã chi khoảng 656.700 tỷ đồng, tăng 0,5% so với cùng kỳ."
+    },
+    {
+        "text": "656.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân sách nhà nước đã chi khoảng 656.700 tỷ đồng, tăng 0,5% so với cùng kỳ."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "tăng 0,5% so với cùng kỳ."
+    },
+    {
+        "text": "VOV",
+        "label": "ORG",
+        "evidence": "Theo VOV, trong gần 10 năm trở lại đây, số thu từ nhà đất liên tục tăng cao."
+    },
+    {
+        "text": "Năm 2013",
+        "label": "DATE",
+        "evidence": "Năm 2013, số thu từ nhà đất là gần 63.700 tỷ đồng, năm 2022, số thu này tăng khoảng 4 lần."
+    },
+    {
+        "text": "63.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số thu từ nhà đất là gần 63.700 tỷ đồng, năm 2022, số thu này tăng khoảng 4 lần."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "năm 2022, số thu này tăng khoảng 4 lần."
+    },
+    {
+        "text": "khoảng 4 lần",
+        "label": "RATE",
+        "evidence": "số thu này tăng khoảng 4 lần."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, do thị trường bất động sản trầm lắng nên thu ngân sách từ nhà đất giảm so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "thu ngân sách từ nhà đất giảm so với năm 2022."
+    },
+    {
+        "text": "định giá đất phù hợp với giá trị thị trường",
+        "label": "EVENT",
+        "evidence": "cơ quan chức năng cần nghiên cứu giải pháp nhằm định giá đất phù hợp với giá trị thị trường”"
+    },
+    {
+        "text": "PGS. TS. Ngô Trí Long",
+        "label": "PERSON",
+        "evidence": "PGS. TS. Ngô Trí Long, chuyên gia kinh tế nêu ý kiến."
+    },
+    {
+        "text": "tạm nộp 3 kỳ thuế thu nhập doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp đã tạm nộp 3 kỳ thuế thu nhập doanh nghiệp, thuế thu nhập cá nhân tăng 13,9%, thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "thuế thu nhập cá nhân tăng 13,9%",
+        "label": "EVENT",
+        "evidence": "thuế thu nhập cá nhân tăng 13,9%, thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "13,9%",
+        "label": "RATE",
+        "evidence": "thuế thu nhập cá nhân tăng 13,9%, thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "thu thuế bảo vệ môi trường tăng 20,3%",
+        "label": "EVENT",
+        "evidence": "thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "20,3%",
+        "label": "RATE",
+        "evidence": "thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "thuế thu nhập cá nhân tăng 13,9%, thu thuế bảo vệ môi trường tăng 20,3% so với cùng kỳ năm 2023."
+    }
+]

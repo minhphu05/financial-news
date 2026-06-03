@@ -1,0 +1,1017 @@
+[
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Theo đó, MBS kỳ vọng tăng trưởng tín dụng trong quý III sẽ tiếp tục cải thiện so với quý II"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "kỳ vọng tăng trưởng tín dụng trong quý III sẽ tiếp tục cải thiện so với quý II"
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng trong quý III sẽ tiếp tục cải thiện so với quý II"
+    },
+    {
+        "text": "tăng trưởng tín dụng đạt 7,38% tính đến 17/09/2024 so với 6% cuối quý 2/2024",
+        "label": "EVENT",
+        "evidence": "tăng trưởng tín dụng đạt 7,38% tính đến 17/09/2024 so với 6% cuối quý 2/2024) nhờ sự phục hồi của hoạt động sản xuất kinh doanh."
+    },
+    {
+        "text": "7,38%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng đạt 7,38% tính đến 17/09/2024"
+    },
+    {
+        "text": "17/09/2024",
+        "label": "DATE",
+        "evidence": "tính đến 17/09/2024"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "so với 6% cuối quý 2/2024"
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "cuối quý 2/2024"
+    },
+    {
+        "text": "Biên lãi thuần (NIM) quý III được dự báo sẽ đi ngang, hoặc giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "Biên lãi thuần (NIM) quý III được dự báo sẽ đi ngang, hoặc giảm nhẹ so với đầu năm."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "Biên lãi thuần (NIM) quý III được dự báo sẽ đi ngang"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Theo MBS, hầu hết các ngân hàng tăng dần lãi suất tiền gửi"
+    },
+    {
+        "text": "tăng dần lãi suất tiền gửi",
+        "label": "EVENT",
+        "evidence": "hầu hết các ngân hàng tăng dần lãi suất tiền gửi để đẩy mạnh hoạt động huy động vốn"
+    },
+    {
+        "text": "lãi suất cho vay dự kiến vẫn sẽ duy trì ở mức thấp",
+        "label": "EVENT",
+        "evidence": "lãi suất cho vay dự kiến vẫn sẽ duy trì ở mức thấp để hỗ trợ nền kinh tế."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "nợ xấu các ngân hàng niêm yết trong quý III được dự báo không tăng so với quý liền trước"
+    },
+    {
+        "text": "giảm tốc trích lập dự phòng",
+        "label": "EVENT",
+        "evidence": "các ngân hàng sẽ giảm tốc trích lập dự phòng trong nửa cuối 2024"
+    },
+    {
+        "text": "nửa cuối 2024",
+        "label": "DATE",
+        "evidence": "trong nửa cuối 2024"
+    },
+    {
+        "text": "duy trì hoạt động xóa nợ xấu",
+        "label": "EVENT",
+        "evidence": "ngân hàng vẫn duy trì hoạt động xóa nợ xấu như trong nửa đầu năm."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "như trong nửa đầu năm."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "MBS cho rằng một số ngân hàng có được mức tăng trưởng lợi nhuận nổi bật như HDBank"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "như HDBank (+44%)"
+    },
+    {
+        "text": "+44%",
+        "label": "RATE",
+        "evidence": "HDBank (+44%)"
+    },
+    {
+        "text": "HDBank (+44%)",
+        "label": "EVENT",
+        "evidence": "như HDBank (+44%)"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank (+35%)"
+    },
+    {
+        "text": "+35%",
+        "label": "RATE",
+        "evidence": "TPBank (+35%)"
+    },
+    {
+        "text": "TPBank (+35%)",
+        "label": "EVENT",
+        "evidence": "TPBank (+35%)"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbank (+70%)"
+    },
+    {
+        "text": "+70%",
+        "label": "RATE",
+        "evidence": "Eximbank (+70%)"
+    },
+    {
+        "text": "Eximbank (+70%)",
+        "label": "EVENT",
+        "evidence": "Eximbank (+70%)"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank (+40%)"
+    },
+    {
+        "text": "+40%",
+        "label": "RATE",
+        "evidence": "VietinBank (+40%)"
+    },
+    {
+        "text": "VietinBank (+40%)",
+        "label": "EVENT",
+        "evidence": "VietinBank (+40%)"
+    },
+    {
+        "text": "Ngân hàng TMCP Xuất Nhập khẩu Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Xuất Nhập khẩu Việt Nam (Eximbank)được MBS dự báo"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Xuất Nhập khẩu Việt Nam (Eximbank)được MBS dự báo"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Eximbank)được MBS dự báo sẽ là ngân hàng có được mức tăng trưởng lợi nhuận cao nhất trong quý III"
+    },
+    {
+        "text": "tăng trưởng lợi nhuận cao nhất trong quý III, ở mức 70% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Eximbank)được MBS dự báo sẽ là ngân hàng có được mức tăng trưởng lợi nhuận cao nhất trong quý III, ở mức 70% so với cùng kỳ nhờ mức nền thấp và NIM duy trì trương đương so với quý II."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "tăng trưởng lợi nhuận cao nhất trong quý III"
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "ở mức 70% so với cùng kỳ"
+    },
+    {
+        "text": "NIM duy trì trương đương so với quý II",
+        "label": "EVENT",
+        "evidence": "NIM duy trì trương đương so với quý II."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "NIM duy trì trương đương so với quý II."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Cả năm 2024, lợi nhuận Eximbank chỉ tăng 16%."
+    },
+    {
+        "text": "lợi nhuận Eximbank chỉ tăng 16%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận Eximbank chỉ tăng 16%."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "lợi nhuận Eximbank chỉ tăng 16%."
+    },
+    {
+        "text": "Ngân hàng TMCP Phát triển TP HCM",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TP HCM (HDBank)được kỳ vọng có tăng trưởng lợi nhuận 44% trong quý III"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TP HCM (HDBank)được kỳ vọng có tăng trưởng lợi nhuận 44% trong quý III"
+    },
+    {
+        "text": "tăng trưởng lợi nhuận 44% trong quý III",
+        "label": "EVENT",
+        "evidence": "kỳ vọng có tăng trưởng lợi nhuận 44% trong quý III"
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận 44% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "tăng trưởng lợi nhuận 44% trong quý III"
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "và 31% cho cả năm 2024."
+    },
+    {
+        "text": "có tăng trưởng lợi nhuận 31% cho cả năm 2024",
+        "label": "EVENT",
+        "evidence": "được kỳ vọng có tăng trưởng lợi nhuận 44% trong quý III và 31% cho cả năm 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "và 31% cho cả năm 2024."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "MBS dự báo, tăng trưởng tín dụng của HDBank sẽ tiếp tục khả quan"
+    },
+    {
+        "text": "tăng trưởng tín dụng của HDBank sẽ tiếp tục khả quan",
+        "label": "EVENT",
+        "evidence": "MBS dự báo, tăng trưởng tín dụng của HDBank sẽ tiếp tục khả quan như trong nửa đầu năm"
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "như trong nửa đầu năm"
+    },
+    {
+        "text": "NIM giảm nhẹ xuống 5% trong quý III",
+        "label": "EVENT",
+        "evidence": "NIM giảm nhẹ xuống 5% trong quý III"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "NIM giảm nhẹ xuống 5% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "xuống 5% trong quý III"
+    },
+    {
+        "text": "NIM tăng rất khả quan trong 6T2024",
+        "label": "EVENT",
+        "evidence": "NIM tăng rất khả quan trong 6T2024"
+    },
+    {
+        "text": "6T2024",
+        "label": "DATE",
+        "evidence": "trong 6T2024"
+    },
+    {
+        "text": "giảm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "giúp HDBank có thêm dư địa giảm lãi suất cho vay."
+    },
+    {
+        "text": "chi phí dự phòng được dự báo sẽ tăng mạnh",
+        "label": "EVENT",
+        "evidence": "chi phí dự phòng được dự báo sẽ tăng mạnh so với cùng kỳ."
+    },
+    {
+        "text": "Ngân hàng TMCP Lộc Phát Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank)được dự báo đạt mức tăng trưởng lợi nhuận 41%"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank)được dự báo đạt mức tăng trưởng lợi nhuận 41%"
+    },
+    {
+        "text": "đạt mức tăng trưởng lợi nhuận 41%",
+        "label": "EVENT",
+        "evidence": "được dự báo đạt mức tăng trưởng lợi nhuận 41% so với cùng kỳ"
+    },
+    {
+        "text": "41%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận 41%"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "nhờ mức nền thấp trong năm 2023."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Cả năm 2024, lợi nhuận LPBank sẽ tăng 46%."
+    },
+    {
+        "text": "lợi nhuận LPBank sẽ tăng 46%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận LPBank sẽ tăng 46%."
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "lợi nhuận LPBank sẽ tăng 46%."
+    },
+    {
+        "text": "được cấp thêm room tín dụng",
+        "label": "EVENT",
+        "evidence": "ngân hàng dự kiến được cấp thêm room tín dụng"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "chạm ngưỡng tăng trưởng 15%."
+    },
+    {
+        "text": "Nợ xấu giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "Nợ xấu giảm nhẹ so với quý II"
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "so với quý II"
+    },
+    {
+        "text": "Ngân hàng TMCP Công thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Công thương Việt Nam (VietinBank)kỳ vọng sẽ tăng 40%"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Công thương Việt Nam (VietinBank)kỳ vọng sẽ tăng 40%"
+    },
+    {
+        "text": "tăng 40% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "kỳ vọng sẽ tăng 40% so với cùng kỳ"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "sẽ tăng 40% so với cùng kỳ"
+    },
+    {
+        "text": "NIM duy trì tương đương nửa đầu năm",
+        "label": "EVENT",
+        "evidence": "NIM duy trì tương đương nửa đầu năm"
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "NIM duy trì tương đương nửa đầu năm"
+    },
+    {
+        "text": "chi phí trích lập đi ngang",
+        "label": "EVENT",
+        "evidence": "chi phí trích lập đi ngang."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Cả năm 2024, lợi nhuận VietinBank sẽ tăng trưởng 12%."
+    },
+    {
+        "text": "lợi nhuận VietinBank sẽ tăng trưởng 12%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận VietinBank sẽ tăng trưởng 12%."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "lợi nhuận VietinBank sẽ tăng trưởng 12%."
+    },
+    {
+        "text": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)được kỳ vọng có lợi nhuận tăng 37%"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)được kỳ vọng có lợi nhuận tăng 37%"
+    },
+    {
+        "text": "lợi nhuận tăng 37% trong quý III",
+        "label": "EVENT",
+        "evidence": "kỳ vọng có lợi nhuận tăng 37% trong quý III"
+    },
+    {
+        "text": "37%",
+        "label": "RATE",
+        "evidence": "lợi nhuận tăng 37% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận tăng 37% trong quý III"
+    },
+    {
+        "text": "69%",
+        "label": "RATE",
+        "evidence": "và 69% cho cả năm 2024."
+    },
+    {
+        "text": "có lợi nhuận tăng 69% cho cả năm 2024",
+        "label": "EVENT",
+        "evidence": "được kỳ vọng có lợi nhuận tăng 37% trong quý III và 69% cho cả năm 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "và 69% cho cả năm 2024."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Theo MBS, NIM trong quý III được dự báo sẽ duy trì tương đương với nửa đầu năm"
+    },
+    {
+        "text": "NIM trong quý III được dự báo sẽ duy trì tương đương với nửa đầu năm",
+        "label": "EVENT",
+        "evidence": "NIM trong quý III được dự báo sẽ duy trì tương đương với nửa đầu năm"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "NIM trong quý III được dự báo sẽ duy trì"
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "tương đương với nửa đầu năm"
+    },
+    {
+        "text": "tín dụng tăng tốc",
+        "label": "EVENT",
+        "evidence": "giúp tín dụng tăng tốc."
+    },
+    {
+        "text": "Ngân hàng TMCP Tiên phong",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Tiên phong (TPBank), lợi nhuận sau thuế được dự báo tăng trưởng 35%"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Tiên phong (TPBank), lợi nhuận sau thuế được dự báo tăng trưởng 35%"
+    },
+    {
+        "text": "lợi nhuận sau thuế được dự báo tăng trưởng 35%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế được dự báo tăng trưởng 35% so với cùng kỳ trong quý III"
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 35% so với cùng kỳ"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "trong quý III"
+    },
+    {
+        "text": "23%",
+        "label": "RATE",
+        "evidence": "và 23% cho cả năm."
+    },
+    {
+        "text": "lợi nhuận sau thuế được dự báo tăng trưởng 23% cho cả năm",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế được dự báo tăng trưởng 35% so với cùng kỳ trong quý III và 23% cho cả năm."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "MBS nhận định việc ngân hàng giảm lãi suất cho vay sẽ kích thích nhu cầu tín dụng."
+    },
+    {
+        "text": "giảm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "việc ngân hàng giảm lãi suất cho vay sẽ kích thích nhu cầu tín dụng."
+    },
+    {
+        "text": "tăng cường trích lập",
+        "label": "EVENT",
+        "evidence": "TPBank có thể tiếp tục tăng cường trích lập để củng cố bộ đệm."
+    },
+    {
+        "text": "Ngân hàng TMCP Sài Gòn Thương tín",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Sài Gòn Thương tín (Sacombank), MBS cho rằng"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Sài Gòn Thương tín (Sacombank), MBS cho rằng"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Sacombank), MBS cho rằng room tín dụng trong nửa cuối năm của Sacombank sẽ bị hạn chế."
+    },
+    {
+        "text": "room tín dụng trong nửa cuối năm của Sacombank sẽ bị hạn chế",
+        "label": "EVENT",
+        "evidence": "room tín dụng trong nửa cuối năm của Sacombank sẽ bị hạn chế."
+    },
+    {
+        "text": "nửa cuối năm",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm của Sacombank"
+    },
+    {
+        "text": "NIM được dự báo sẽ giảm mạnh trong nửa cuối năm",
+        "label": "EVENT",
+        "evidence": "NIM được dự báo sẽ giảm mạnh trong nửa cuối năm."
+    },
+    {
+        "text": "nửa cuối năm",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm."
+    },
+    {
+        "text": "Tỷ lệ chi phí trên thu nhập (CIR) vẫn ở mức 49%",
+        "label": "EVENT",
+        "evidence": "Tỷ lệ chi phí trên thu nhập (CIR) vẫn ở mức 49%, cao hơn khác nhiều so với toàn ngành."
+    },
+    {
+        "text": "49%",
+        "label": "RATE",
+        "evidence": "ở mức 49%"
+    },
+    {
+        "text": "chi phí dự phòng sẽ giảm khi không còn trích lập cho trái phiếu VAMC",
+        "label": "EVENT",
+        "evidence": "chi phí dự phòng sẽ giảm khi không còn trích lập cho trái phiếu VAMC."
+    },
+    {
+        "text": "trái phiếu VAMC",
+        "label": "ASSET",
+        "evidence": "trái phiếu VAMC."
+    },
+    {
+        "text": "Tăng trưởng lợi nhuận trong quý III của Sacombank dự báo ở mức 29%",
+        "label": "EVENT",
+        "evidence": "Tăng trưởng lợi nhuận trong quý III của Sacombank dự báo ở mức 29%"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "trong quý III của Sacombank"
+    },
+    {
+        "text": "29%",
+        "label": "RATE",
+        "evidence": "ở mức 29%"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "và cả năm là 9%."
+    },
+    {
+        "text": "Tăng trưởng lợi nhuận cả năm là 9%",
+        "label": "EVENT",
+        "evidence": "Tăng trưởng lợi nhuận trong quý III của Sacombank dự báo ở mức 29% và cả năm là 9%."
+    },
+    {
+        "text": "Ngân hàng TMCP Kỹ thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Kỹ thương Việt Nam (Techcombank)được dự báo lợi nhuận tăng 20%"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Kỹ thương Việt Nam (Techcombank)được dự báo lợi nhuận tăng 20%"
+    },
+    {
+        "text": "lợi nhuận tăng 20% trong quý III",
+        "label": "EVENT",
+        "evidence": "lợi nhuận tăng 20% trong quý III"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "lợi nhuận tăng 20% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận tăng 20% trong quý III"
+    },
+    {
+        "text": "lợi nhuận cả năm tăng 34%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận cả năm tăng 34%."
+    },
+    {
+        "text": "34%",
+        "label": "RATE",
+        "evidence": "lợi nhuận cả năm tăng 34%."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Với trường hợp của Techcombank, MBS cho rằng tăng trưởng tín dụng sẽ chậm lại"
+    },
+    {
+        "text": "tăng trưởng tín dụng sẽ chậm lại",
+        "label": "EVENT",
+        "evidence": "tăng trưởng tín dụng sẽ chậm lại trong bối cảnh room tín dụng không còn nhiều."
+    },
+    {
+        "text": "NIM sẽ được duy trì ở mức 4,5 - 4,6%",
+        "label": "EVENT",
+        "evidence": "NIM sẽ được duy trì ở mức 4,5 - 4,6% nhờ lợi thế về CASA và chi phí vốn thấp"
+    },
+    {
+        "text": "4,5 - 4,6%",
+        "label": "RATE",
+        "evidence": "ở mức 4,5 - 4,6%"
+    },
+    {
+        "text": "Thu nhập ngoài lãi được dự báo sẽ giảm tốc",
+        "label": "EVENT",
+        "evidence": "Thu nhập ngoài lãi được dự báo sẽ giảm tốc khi phí mảng ngân hàng đầu tư (IB) hạ nhiệt"
+    },
+    {
+        "text": "phí mảng ngân hàng đầu tư (IB) hạ nhiệt",
+        "label": "EVENT",
+        "evidence": "phí mảng ngân hàng đầu tư (IB) hạ nhiệt so với nửa đầu năm."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "so với nửa đầu năm."
+    },
+    {
+        "text": "Chi phí trích lập được duy trì tương đương với quý II",
+        "label": "EVENT",
+        "evidence": "Chi phí trích lập được duy trì tương đương với quý II."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "tương đương với quý II."
+    },
+    {
+        "text": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)sẽ ghi nhận lợi nhuận tăng trưởng 20%"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)sẽ ghi nhận lợi nhuận tăng trưởng 20%"
+    },
+    {
+        "text": "lợi nhuận tăng trưởng 20% trong quý III",
+        "label": "EVENT",
+        "evidence": "lợi nhuận tăng trưởng 20% trong quý III"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "lợi nhuận tăng trưởng 20% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận tăng trưởng 20% trong quý III"
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "và 17% cho cả năm"
+    },
+    {
+        "text": "lợi nhuận tăng trưởng 17% cho cả năm",
+        "label": "EVENT",
+        "evidence": "sẽ ghi nhận lợi nhuận tăng trưởng 20% trong quý III và 17% cho cả năm nhờ tín dụng cải thiện."
+    },
+    {
+        "text": "áp lực gia tăng nợ xấu sẽ giảm",
+        "label": "EVENT",
+        "evidence": "áp lực gia tăng nợ xấu sẽ giảm trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "sẽ giảm trong quý III"
+    },
+    {
+        "text": "nợ nhóm 2 đã đi xuống 46 điểm cơ bản (bps)",
+        "label": "EVENT",
+        "evidence": "nợ nhóm 2 đã đi xuống 46 điểm cơ bản (bps) trong quý liền trước."
+    },
+    {
+        "text": "46 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "xuống 46 điểm cơ bản (bps)"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Trong danh sách của MBS cũng có 4 ngân hàng dự báo có mức tăng trưởng lợi nhuận thấp hơn trung bình ngành."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý III củaNgân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%"
+    },
+    {
+        "text": "Ngân hàng TMCP Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "lợi nhuận quý III củaNgân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%"
+    },
+    {
+        "text": "lợi nhuận quý III củaNgân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận quý III củaNgân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "kỳ vọng sẽ tăng 9%"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "cả năm tăng 5%."
+    },
+    {
+        "text": "lợi nhuận cả năm tăng 5%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận quý III củaNgân hàng TMCP Ngoại thương Việt Nam (Vietcombank)kỳ vọng sẽ tăng 9%, cả năm tăng 5%."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Theo MBS, Vietcombank sẽ duy trì đà tăng trưởng 12%"
+    },
+    {
+        "text": "Vietcombank sẽ duy trì đà tăng trưởng 12%",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ duy trì đà tăng trưởng 12% nhờ nhu cầu vay cá nhân phục hồi."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "đà tăng trưởng 12%"
+    },
+    {
+        "text": "NIM sẽ duy trì tương đương quý II",
+        "label": "EVENT",
+        "evidence": "NIM sẽ duy trì tương đương quý II khi Vietcombank vẫn là ngân hàng đi đầu cho việc giảm lãi suất để hỗ trợ khách hàng."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "tương đương quý II"
+    },
+    {
+        "text": "giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "ngân hàng đi đầu cho việc giảm lãi suất để hỗ trợ khách hàng."
+    },
+    {
+        "text": "nợ xấu cải thiện nhẹ",
+        "label": "EVENT",
+        "evidence": "nợ xấu cải thiện nhẹ khi nợ nhóm II đã có xu hướng giảm."
+    },
+    {
+        "text": "nợ nhóm II đã có xu hướng giảm",
+        "label": "EVENT",
+        "evidence": "nợ nhóm II đã có xu hướng giảm."
+    },
+    {
+        "text": "Ngân hàng TMCP Á Châu",
+        "label": "ORG",
+        "evidence": "VớiNgân hàng TMCP Á Châu (ACB), lợi nhuận quý III được dự báo tăng trưởng 7%"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "VớiNgân hàng TMCP Á Châu (ACB), lợi nhuận quý III được dự báo tăng trưởng 7%"
+    },
+    {
+        "text": "lợi nhuận quý III được dự báo tăng trưởng 7%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận quý III được dự báo tăng trưởng 7%"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý III được dự báo tăng trưởng 7%"
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 7%"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "và cả năm là 6%"
+    },
+    {
+        "text": "lợi nhuận cả năm là 6%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận quý III được dự báo tăng trưởng 7% và cả năm là 6% trong bối cảnh NIM được dự báo sẽ giảm nhẹ"
+    },
+    {
+        "text": "NIM được dự báo sẽ giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "NIM được dự báo sẽ giảm nhẹ và room tín dụng không còn quá nhiều."
+    },
+    {
+        "text": "chi phí trích lập được dự báo sẽ giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "chi phí trích lập được dự báo sẽ giảm nhẹ so với quý liền trước."
+    },
+    {
+        "text": "Ngân hàng TMCP Quốc tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quốc tế Việt Nam (VIB)được dự báo lợi nhuận giảm 19%"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quốc tế Việt Nam (VIB)được dự báo lợi nhuận giảm 19%"
+    },
+    {
+        "text": "lợi nhuận giảm 19% trong quý III",
+        "label": "EVENT",
+        "evidence": "lợi nhuận giảm 19% trong quý III"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "lợi nhuận giảm 19% trong quý III"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận giảm 19% trong quý III"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "và 10% cho cả năm."
+    },
+    {
+        "text": "lợi nhuận giảm 10% cho cả năm",
+        "label": "EVENT",
+        "evidence": "lợi nhuận giảm 19% trong quý III và 10% cho cả năm."
+    },
+    {
+        "text": "tăng trưởng tín dụng quý III sẽ khả quan hơn",
+        "label": "EVENT",
+        "evidence": "tăng trưởng tín dụng quý III sẽ khả quan hơn nửa đầu năm"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng quý III"
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "khả quan hơn nửa đầu năm"
+    },
+    {
+        "text": "NIM sẽ duy trì ở mức 3.8% trong nửa cuối năm",
+        "label": "EVENT",
+        "evidence": "NIM sẽ duy trì ở mức 3.8% trong nửa cuối năm."
+    },
+    {
+        "text": "3.8%",
+        "label": "RATE",
+        "evidence": "ở mức 3.8%"
+    },
+    {
+        "text": "nửa cuối năm",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm."
+    },
+    {
+        "text": "Chi phí trích lập tăng khoảng 12%",
+        "label": "EVENT",
+        "evidence": "Chi phí trích lập tăng khoảng 12% svck do nền cao của năm 2023"
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "tăng khoảng 12%"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "do nền cao của năm 2023"
+    },
+    {
+        "text": "xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "việc xử lý nợ xấu khi TTTD gia tăng"
+    },
+    {
+        "text": "Ngân hàng TMCP Phương Đông",
+        "label": "ORG",
+        "evidence": "VớiNgân hàng TMCP Phương Đông (OCB), MBS cho rằng lợi nhuận sẽ giảm"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "VớiNgân hàng TMCP Phương Đông (OCB), MBS cho rằng lợi nhuận sẽ giảm"
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "(OCB), MBS cho rằng lợi nhuận sẽ giảm do nền cao của năm 2023."
+    },
+    {
+        "text": "lợi nhuận sẽ giảm",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sẽ giảm do nền cao của năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "do nền cao của năm 2023."
+    },
+    {
+        "text": "NIM được dự báo suy giảm",
+        "label": "EVENT",
+        "evidence": "NIM được dự báo suy giảm khi cả tăng trưởng tín dụng không tốt như kỳ vọng"
+    },
+    {
+        "text": "lãi suất cho vay bán lẻ buộc phải hạ xuống",
+        "label": "EVENT",
+        "evidence": "lãi suất cho vay bán lẻ buộc phải hạ xuống nhằm thu hút tín dụng."
+    },
+    {
+        "text": "Chi phí trích lập được duy trì tương đương quý II",
+        "label": "EVENT",
+        "evidence": "Chi phí trích lập được duy trì tương đương quý II và dự báo cao gấp đôi so với cùng kỳ."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "tương đương quý II"
+    },
+    {
+        "text": "lợi nhuận quý III và cả năm 2024 của OCB cùng giảm 20%",
+        "label": "EVENT",
+        "evidence": "lợi nhuận quý III và cả năm 2024 của OCB cùng giảm 20% so với cùng kỳ."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý III và cả năm 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "và cả năm 2024 của OCB"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "cùng giảm 20%"
+    }
+]

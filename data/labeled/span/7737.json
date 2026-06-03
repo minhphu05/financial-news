@@ -1,0 +1,222 @@
+[
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất huy động cao nhất của ngân hàng chỉ còn 5,3%/năm, giảm 0,2 điểm % so với trước khi thay đổi."
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "lãi suất huy động cao nhất của ngân hàng chỉ còn 5,3%/năm, giảm 0,2 điểm % so với trước khi thay đổi."
+    },
+    {
+        "text": "kỳ hạn từ 12 tháng trở lên",
+        "label": "DATE",
+        "evidence": "Đây là mức lãi suất áp dụng cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "kỳ hạn 6 tháng, 9 tháng",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, lãi suất kỳ hạn 6 tháng, 9 tháng cũng giảm 0,2 điểm % xuống còn 4,3%/năm."
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, lãi suất kỳ hạn 6 tháng, 9 tháng cũng giảm 0,2 điểm % xuống còn 4,3%/năm."
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, lãi suất kỳ hạn 6 tháng, 9 tháng cũng giảm 0,2 điểm % xuống còn 4,3%/năm."
+    },
+    {
+        "text": "kỳ hạn 3 tháng",
+        "label": "DATE",
+        "evidence": "Lãi suất kỳ hạn 3 tháng giảm mức tương tự, xuống 3,3%/năm."
+    },
+    {
+        "text": "3,3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 3 tháng giảm mức tương tự, xuống 3,3%/năm."
+    },
+    {
+        "text": "kỳ hạn 1 tháng",
+        "label": "DATE",
+        "evidence": "Lãi suất kỳ hạn 1 tháng giữ nguyên 3%/năm."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 1 tháng giữ nguyên 3%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, Vietcombank đã có 2 lần liên tiếp giảm lãi suất huy động chỉ sau vài tuần."
+    },
+    {
+        "text": "Vietcombank đã có 2 lần liên tiếp giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Như vậy, Vietcombank đã có 2 lần liên tiếp giảm lãi suất huy động chỉ sau vài tuần."
+    },
+    {
+        "text": "ngày 14/9",
+        "label": "DATE",
+        "evidence": "Lần gần nhất là ngày 14/9, Vietcombank cũng đã điều chỉnh giảm 0,3 điểm % ở loạt kỳ hạn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lần gần nhất là ngày 14/9, Vietcombank cũng đã điều chỉnh giảm 0,3 điểm % ở loạt kỳ hạn."
+    },
+    {
+        "text": "điều chỉnh giảm 0,3 điểm % ở loạt kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Lần gần nhất là ngày 14/9, Vietcombank cũng đã điều chỉnh giảm 0,3 điểm % ở loạt kỳ hạn."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Lần gần nhất là ngày 14/9, Vietcombank cũng đã điều chỉnh giảm 0,3 điểm % ở loạt kỳ hạn."
+    },
+    {
+        "text": "ngày 3/10/2023",
+        "label": "DATE",
+        "evidence": "Lãi suất huy động tại Vietcombank từ ngày 3/10/2023"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động tại Vietcombank từ ngày 3/10/2023"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Với mức lãi suất 5,3%/năm kỳ hạn từ 12 tháng trở lên, Vietcombank đã đưa lãi suất huy động của ngân hàng này xuống mức thấp lịch sử, thấp hơn cả giai đoạn Covid-19."
+    },
+    {
+        "text": "kỳ hạn từ 12 tháng trở lên",
+        "label": "DATE",
+        "evidence": "Với mức lãi suất 5,3%/năm kỳ hạn từ 12 tháng trở lên, Vietcombank đã đưa lãi suất huy động của ngân hàng này xuống mức thấp lịch sử, thấp hơn cả giai đoạn Covid-19."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Với mức lãi suất 5,3%/năm kỳ hạn từ 12 tháng trở lên, Vietcombank đã đưa lãi suất huy động của ngân hàng này xuống mức thấp lịch sử, thấp hơn cả giai đoạn Covid-19."
+    },
+    {
+        "text": "Vietcombank đã đưa lãi suất huy động của ngân hàng này xuống mức thấp lịch sử",
+        "label": "EVENT",
+        "evidence": "Với mức lãi suất 5,3%/năm kỳ hạn từ 12 tháng trở lên, Vietcombank đã đưa lãi suất huy động của ngân hàng này xuống mức thấp lịch sử, thấp hơn cả giai đoạn Covid-19."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, Vietcombank đã từng niêm yết lãi suất kỳ hạn 12 tháng ở mức 5,5%/năm suốt giai đoạn từ tháng 7/2021 đến tháng 7/2022."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Cụ thể, Vietcombank đã từng niêm yết lãi suất kỳ hạn 12 tháng ở mức 5,5%/năm suốt giai đoạn từ tháng 7/2021 đến tháng 7/2022."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, Vietcombank đã từng niêm yết lãi suất kỳ hạn 12 tháng ở mức 5,5%/năm suốt giai đoạn từ tháng 7/2021 đến tháng 7/2022."
+    },
+    {
+        "text": "tháng 7/2021 đến tháng 7/2022",
+        "label": "DATE",
+        "evidence": "Cụ thể, Vietcombank đã từng niêm yết lãi suất kỳ hạn 12 tháng ở mức 5,5%/năm suốt giai đoạn từ tháng 7/2021 đến tháng 7/2022."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng trong 9 tháng đầu năm mới chỉ đạt hơn 5,7%, trong khi mục tiêu cả năm là 14%."
+    },
+    {
+        "text": "hơn 5,7%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng trong 9 tháng đầu năm mới chỉ đạt hơn 5,7%, trong khi mục tiêu cả năm là 14%."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng trong 9 tháng đầu năm mới chỉ đạt hơn 5,7%, trong khi mục tiêu cả năm là 14%."
+    },
+    {
+        "text": "Tổng cục thống kê",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của Tổng cục thống kê, tính đến thời điểm 20/9/2023, huy động vốn của các tổ chức tín dụng tăng 5,8%."
+    },
+    {
+        "text": "20/9/2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo của Tổng cục thống kê, tính đến thời điểm 20/9/2023, huy động vốn của các tổ chức tín dụng tăng 5,8%."
+    },
+    {
+        "text": "5,8%",
+        "label": "RATE",
+        "evidence": "Theo báo cáo của Tổng cục thống kê, tính đến thời điểm 20/9/2023, huy động vốn của các tổ chức tín dụng tăng 5,8%."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Đây cũng là lần đầu tiên sau 3 năm, hệ thống ngân hàng mới chứng kiến lại hiện tượng tăng trưởng huy động vốn cao hơn tăng trưởng tín dụng trong 9 tháng đầu năm."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trong một diễn biến liên quan gần đây, Ngân hàng Nhà nước cũng đã trở lại phát hành tín phiếu để hút bớt tiền đồng do thanh khoản quá dồi dào."
+    },
+    {
+        "text": "trở lại phát hành tín phiếu để hút bớt tiền đồng",
+        "label": "EVENT",
+        "evidence": "Trong một diễn biến liên quan gần đây, Ngân hàng Nhà nước cũng đã trở lại phát hành tín phiếu để hút bớt tiền đồng do thanh khoản quá dồi dào."
+    },
+    {
+        "text": "8 phiên liên tiếp",
+        "label": "DATE",
+        "evidence": "Tổng cộng trong 8 phiên liên tiếp từ ngày 21/9 đến nay, NHNN đã hút về tổng cộng hơn 100.000 tỷ đồng."
+    },
+    {
+        "text": "ngày 21/9",
+        "label": "DATE",
+        "evidence": "Tổng cộng trong 8 phiên liên tiếp từ ngày 21/9 đến nay, NHNN đã hút về tổng cộng hơn 100.000 tỷ đồng."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Tổng cộng trong 8 phiên liên tiếp từ ngày 21/9 đến nay, NHNN đã hút về tổng cộng hơn 100.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 100.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng cộng trong 8 phiên liên tiếp từ ngày 21/9 đến nay, NHNN đã hút về tổng cộng hơn 100.000 tỷ đồng."
+    },
+    {
+        "text": "công ty chứng khoán BSC",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích mới phát hành, công ty chứng khoán BSC cho biết, số dư Citad tại hệ thống đã lên gần 400.000 tỷ đồng, trong khi dự trữ bắt buộc chỉ ở mức khoảng 280.000 tỷ đồng."
+    },
+    {
+        "text": "BSC",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích mới phát hành, công ty chứng khoán BSC cho biết, số dư Citad tại hệ thống đã lên gần 400.000 tỷ đồng, trong khi dự trữ bắt buộc chỉ ở mức khoảng 280.000 tỷ đồng."
+    },
+    {
+        "text": "gần 400.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong báo cáo phân tích mới phát hành, công ty chứng khoán BSC cho biết, số dư Citad tại hệ thống đã lên gần 400.000 tỷ đồng, trong khi dự trữ bắt buộc chỉ ở mức khoảng 280.000 tỷ đồng."
+    },
+    {
+        "text": "khoảng 280.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong báo cáo phân tích mới phát hành, công ty chứng khoán BSC cho biết, số dư Citad tại hệ thống đã lên gần 400.000 tỷ đồng, trong khi dự trữ bắt buộc chỉ ở mức khoảng 280.000 tỷ đồng."
+    },
+    {
+        "text": "dưới 1%",
+        "label": "RATE",
+        "evidence": "Lãi suất trên thị trường liên ngân hàng cũng duy trì ở mức rất thấp dưới 1% trong thời gian dài."
+    }
+]

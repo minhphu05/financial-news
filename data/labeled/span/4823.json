@@ -1,0 +1,377 @@
+[
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Thế giới Di động giải thể loạt công ty con trong năm 2024."
+    },
+    {
+        "text": "giải thể loạt công ty con",
+        "label": "EVENT",
+        "evidence": "Thế giới Di động giải thể loạt công ty con trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Thế giới Di động giải thể loạt công ty con trong năm 2024."
+    },
+    {
+        "text": "Công ty CP Đầu tư Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Công ty CP Đầu tư Thế giới Di động (MCK: MWG) mới đây đã công bố BCTC hợp nhất quý IV/2024 với nhiều chỉ số tăng trưởng tích cực."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Công ty CP Đầu tư Thế giới Di động (MCK: MWG) mới đây đã công bố BCTC hợp nhất quý IV/2024 với nhiều chỉ số tăng trưởng tích cực."
+    },
+    {
+        "text": "công bố BCTC hợp nhất quý IV/2024",
+        "label": "EVENT",
+        "evidence": "Công ty CP Đầu tư Thế giới Di động (MCK: MWG) mới đây đã công bố BCTC hợp nhất quý IV/2024 với nhiều chỉ số tăng trưởng tích cực."
+    },
+    {
+        "text": "quý IV/2024",
+        "label": "DATE",
+        "evidence": "Công ty CP Đầu tư Thế giới Di động (MCK: MWG) mới đây đã công bố BCTC hợp nhất quý IV/2024 với nhiều chỉ số tăng trưởng tích cực."
+    },
+    {
+        "text": "852 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, trong kỳ, lợi nhuận sau thuế hợp nhất của doanh nghiệp này đạt 852 tỷ đồng, tăng tới 843% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "843%",
+        "label": "RATE",
+        "evidence": "Theo đó, trong kỳ, lợi nhuận sau thuế hợp nhất của doanh nghiệp này đạt 852 tỷ đồng, tăng tới 843% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo đó, trong kỳ, lợi nhuận sau thuế hợp nhất của doanh nghiệp này đạt 852 tỷ đồng, tăng tới 843% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "cả năm 2024",
+        "label": "DATE",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "báo lãi ròng 3.733 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "3.733 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "2.124%",
+        "label": "RATE",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "167,8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lũy kế cả năm 2024, Thế giới Di động báo lãi ròng 3.733 tỷ đồng, tăng 2.124% so với con số 167,8 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "gấp 22 lần",
+        "label": "RATE",
+        "evidence": "Theo giải trình của doanh nghiệp, kết quả tăng trưởng trên đến từ việc lợi nhuận ròng cả năm tăng trưởng mạnh mẽ, gấp 22 lần cùng kỳ đến từ doanh thu thuần tăng 13,6%; lợi nhuận gộp tăng 22,1% và tối ưu chi phí vận hành theo chiến lược đã đề ra."
+    },
+    {
+        "text": "tăng 13,6%",
+        "label": "RATE",
+        "evidence": "Theo giải trình của doanh nghiệp, kết quả tăng trưởng trên đến từ việc lợi nhuận ròng cả năm tăng trưởng mạnh mẽ, gấp 22 lần cùng kỳ đến từ doanh thu thuần tăng 13,6%; lợi nhuận gộp tăng 22,1% và tối ưu chi phí vận hành theo chiến lược đã đề ra."
+    },
+    {
+        "text": "tăng 22,1%",
+        "label": "RATE",
+        "evidence": "Theo giải trình của doanh nghiệp, kết quả tăng trưởng trên đến từ việc lợi nhuận ròng cả năm tăng trưởng mạnh mẽ, gấp 22 lần cùng kỳ đến từ doanh thu thuần tăng 13,6%; lợi nhuận gộp tăng 22,1% và tối ưu chi phí vận hành theo chiến lược đã đề ra."
+    },
+    {
+        "text": "thegioididong.com",
+        "label": "ORG",
+        "evidence": "thegioididong.com và Điện Máy Xanh dù vận hành ít hơn 221 cửa hàng so với cuối năm 2023 nhưng vẫn duy trì tăng trưởng doanh thu."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "thegioididong.com và Điện Máy Xanh dù vận hành ít hơn 221 cửa hàng so với cuối năm 2023 nhưng vẫn duy trì tăng trưởng doanh thu."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "thegioididong.com và Điện Máy Xanh dù vận hành ít hơn 221 cửa hàng so với cuối năm 2023 nhưng vẫn duy trì tăng trưởng doanh thu."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Bách Hóa Xanh cũng có doanh thu tăng hơn 30% so với cùng kỳ dù không mở cửa hàng mới."
+    },
+    {
+        "text": "tăng hơn 30%",
+        "label": "RATE",
+        "evidence": "Bách Hóa Xanh cũng có doanh thu tăng hơn 30% so với cùng kỳ dù không mở cửa hàng mới."
+    },
+    {
+        "text": "quý IV/2024",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, BCTC hợp nhất quý IV/2024 Thế giới Di động ghi nhận việc 5 công ty con được hợp nhất vào báo cáo này làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, BCTC hợp nhất quý IV/2024 Thế giới Di động ghi nhận việc 5 công ty con được hợp nhất vào báo cáo này làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "làm thủ tục giải thể",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, BCTC hợp nhất quý IV/2024 Thế giới Di động ghi nhận việc 5 công ty con được hợp nhất vào báo cáo này làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, BCTC hợp nhất quý IV/2024 Thế giới Di động ghi nhận việc 5 công ty con được hợp nhất vào báo cáo này làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "Công ty CP Thế giới số Trần Anh",
+        "label": "ORG",
+        "evidence": "Đầu tiên phải kể đến Công ty CP Thế giới số Trần Anh."
+    },
+    {
+        "text": "19/8/2024",
+        "label": "DATE",
+        "evidence": "Theo Nghị quyết số 10/NQ/HĐQT-2024 ngày 19/8/2024, HĐQT MWG thông qua quyết định giải thể Thế giới số Trần Anh theo kế hoạch tái cơ cấu nhằm tối ưu hóa hoạt động vận hành của công ty."
+    },
+    {
+        "text": "HĐQT MWG",
+        "label": "ORG",
+        "evidence": "Theo Nghị quyết số 10/NQ/HĐQT-2024 ngày 19/8/2024, HĐQT MWG thông qua quyết định giải thể Thế giới số Trần Anh theo kế hoạch tái cơ cấu nhằm tối ưu hóa hoạt động vận hành của công ty."
+    },
+    {
+        "text": "thông qua quyết định giải thể Thế giới số Trần Anh",
+        "label": "EVENT",
+        "evidence": "Theo Nghị quyết số 10/NQ/HĐQT-2024 ngày 19/8/2024, HĐQT MWG thông qua quyết định giải thể Thế giới số Trần Anh theo kế hoạch tái cơ cấu nhằm tối ưu hóa hoạt động vận hành của công ty."
+    },
+    {
+        "text": "Thế giới số Trần Anh",
+        "label": "ORG",
+        "evidence": "Theo Nghị quyết số 10/NQ/HĐQT-2024 ngày 19/8/2024, HĐQT MWG thông qua quyết định giải thể Thế giới số Trần Anh theo kế hoạch tái cơ cấu nhằm tối ưu hóa hoạt động vận hành của công ty."
+    },
+    {
+        "text": "Điện máy Trần Anh",
+        "label": "ORG",
+        "evidence": "Điện máy Trần Anh là công ty hoạt động trong lĩnh vực bán lẻ điện máy; từng là nhà phân phối hàng đầu trong lĩnh vực thiết bị tin học và điện máy tại thị trường miền Bắc."
+    },
+    {
+        "text": "Đầu năm 2021",
+        "label": "DATE",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "chính thức thâu tóm Trần Anh",
+        "label": "EVENT",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "Trần Anh",
+        "label": "ORG",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "mua cổ phần nhỏ lẻ",
+        "label": "EVENT",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "vượt 99%",
+        "label": "RATE",
+        "evidence": "Đầu năm 2021, Thế giới Di động chính thức thâu tóm Trần Anh và liên tục mua cổ phần nhỏ lẻ để nâng tỷ lệ sở hữu vượt 99% vốn."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Tại thời điểm bị MWG thâu tóm, Trần Anh đang sở hữu hệ thống hơn 30 siêu thị và nắm khoảng 17% thị phần khu vực phía Bắc."
+    },
+    {
+        "text": "Trần Anh",
+        "label": "ORG",
+        "evidence": "Tại thời điểm bị MWG thâu tóm, Trần Anh đang sở hữu hệ thống hơn 30 siêu thị và nắm khoảng 17% thị phần khu vực phía Bắc."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Tại thời điểm bị MWG thâu tóm, Trần Anh đang sở hữu hệ thống hơn 30 siêu thị và nắm khoảng 17% thị phần khu vực phía Bắc."
+    },
+    {
+        "text": "Thế giới số Trần Anh",
+        "label": "ORG",
+        "evidence": "Như vậy, Thế giới số Trần Anh bị \"khai tử\" sau 6 năm \"về tay\"MWG."
+    },
+    {
+        "text": "bị \"khai tử\"",
+        "label": "EVENT",
+        "evidence": "Như vậy, Thế giới số Trần Anh bị \"khai tử\" sau 6 năm \"về tay\"MWG."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Như vậy, Thế giới số Trần Anh bị \"khai tử\" sau 6 năm \"về tay\"MWG."
+    },
+    {
+        "text": "Trần Anh",
+        "label": "ORG",
+        "evidence": "Trước Trần Anh, Thế Giới Di Động cũng quyết định giải thể 2 công ty con là: Công ty cổ phần 4KFarm và Công ty cổ phần Logistics Toàn Tín."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Trước Trần Anh, Thế Giới Di Động cũng quyết định giải thể 2 công ty con là: Công ty cổ phần 4KFarm và Công ty cổ phần Logistics Toàn Tín."
+    },
+    {
+        "text": "quyết định giải thể 2 công ty con",
+        "label": "EVENT",
+        "evidence": "Trước Trần Anh, Thế Giới Di Động cũng quyết định giải thể 2 công ty con là: Công ty cổ phần 4KFarm và Công ty cổ phần Logistics Toàn Tín."
+    },
+    {
+        "text": "Công ty cổ phần 4KFarm",
+        "label": "ORG",
+        "evidence": "Trước Trần Anh, Thế Giới Di Động cũng quyết định giải thể 2 công ty con là: Công ty cổ phần 4KFarm và Công ty cổ phần Logistics Toàn Tín."
+    },
+    {
+        "text": "Công ty cổ phần Logistics Toàn Tín",
+        "label": "ORG",
+        "evidence": "Trước Trần Anh, Thế Giới Di Động cũng quyết định giải thể 2 công ty con là: Công ty cổ phần 4KFarm và Công ty cổ phần Logistics Toàn Tín."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Đây là 2 công ty con của MWG với tỷ lệ sở hữu 99,99% vốn điều lệ."
+    },
+    {
+        "text": "99,99%",
+        "label": "RATE",
+        "evidence": "Đây là 2 công ty con của MWG với tỷ lệ sở hữu 99,99% vốn điều lệ."
+    },
+    {
+        "text": "Logistics Toàn Tín",
+        "label": "ORG",
+        "evidence": "Logistics Toàn Tín hoạt động chính trong lĩnh vực vận tải hàng hoá bằng đường bộ; là nhà cung cấp dịch vụ kho bãi, cung ứng hàng hóa cho chuỗi siêu thị Bách hóa Xanh, Thế giới Di động, An Khang ... trên toàn quốc."
+    },
+    {
+        "text": "Bách hóa Xanh",
+        "label": "ORG",
+        "evidence": "Logistics Toàn Tín hoạt động chính trong lĩnh vực vận tải hàng hoá bằng đường bộ; là nhà cung cấp dịch vụ kho bãi, cung ứng hàng hóa cho chuỗi siêu thị Bách hóa Xanh, Thế giới Di động, An Khang ... trên toàn quốc."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Logistics Toàn Tín hoạt động chính trong lĩnh vực vận tải hàng hoá bằng đường bộ; là nhà cung cấp dịch vụ kho bãi, cung ứng hàng hóa cho chuỗi siêu thị Bách hóa Xanh, Thế giới Di động, An Khang ... trên toàn quốc."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Logistics Toàn Tín hoạt động chính trong lĩnh vực vận tải hàng hoá bằng đường bộ; là nhà cung cấp dịch vụ kho bãi, cung ứng hàng hóa cho chuỗi siêu thị Bách hóa Xanh, Thế giới Di động, An Khang ... trên toàn quốc."
+    },
+    {
+        "text": "4KFarm",
+        "label": "ORG",
+        "evidence": "Còn 4KFarm là mô hình nuôi trồng nông nghiệp công nghệ theo 4 tiêu chí: không thuốc trừ sâu, không thực phẩm biến đổi gen, không thuốc tăng trưởng và không chất bảo quản."
+    },
+    {
+        "text": "4KFarm",
+        "label": "ORG",
+        "evidence": "4KFarm không thu mua sản phẩm từ các bên thứ ba, không hợp tác mà chỉ mua từ những đối tác nông dân của dự án."
+    },
+    {
+        "text": "Bách hóa Xanh",
+        "label": "ORG",
+        "evidence": "Công ty này có đội chuyên gia chuyển giao công nghệ cho người nông dân và cam kết bao tiêu đầu ra, sau đó đưa đến tay người tiêu dùng thông qua Bách hóa Xanh."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Một công ty con khác do Thế giới Di động sở hữu 99,95% vốn là MWG (Cambodia) Co., Ltd cũng làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "99,95%",
+        "label": "RATE",
+        "evidence": "Một công ty con khác do Thế giới Di động sở hữu 99,95% vốn là MWG (Cambodia) Co., Ltd cũng làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "MWG (Cambodia) Co., Ltd",
+        "label": "ORG",
+        "evidence": "Một công ty con khác do Thế giới Di động sở hữu 99,95% vốn là MWG (Cambodia) Co., Ltd cũng làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "làm thủ tục giải thể",
+        "label": "EVENT",
+        "evidence": "Một công ty con khác do Thế giới Di động sở hữu 99,95% vốn là MWG (Cambodia) Co., Ltd cũng làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Một công ty con khác do Thế giới Di động sở hữu 99,95% vốn là MWG (Cambodia) Co., Ltd cũng làm thủ tục giải thể trong năm 2024."
+    },
+    {
+        "text": "MWG (Cambodia)",
+        "label": "ORG",
+        "evidence": "MWG (Cambodia) hoạt động trong lĩnh vực thương mại sản phẩm điện tử; từng được kỳ vọng sẽ mở ra hướng đi mới cho Thế giới Di động."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "MWG (Cambodia) hoạt động trong lĩnh vực thương mại sản phẩm điện tử; từng được kỳ vọng sẽ mở ra hướng đi mới cho Thế giới Di động."
+    },
+    {
+        "text": "Công ty TNHH Vui Vui",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Vui Vui là công ty con do MWG sở hữu 100% vốn điều lệ; hoạt động trong lĩnh vwch thương mại điện tử."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Vui Vui là công ty con do MWG sở hữu 100% vốn điều lệ; hoạt động trong lĩnh vwch thương mại điện tử."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Công ty TNHH Vui Vui là công ty con do MWG sở hữu 100% vốn điều lệ; hoạt động trong lĩnh vwch thương mại điện tử."
+    },
+    {
+        "text": "quý IV/2024",
+        "label": "DATE",
+        "evidence": "BCTC quý IV/2024 của MWG ghi nhận, trong năm 2024, doanh nghiệp này cũng làm thủ tục giải thể."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "BCTC quý IV/2024 của MWG ghi nhận, trong năm 2024, doanh nghiệp này cũng làm thủ tục giải thể."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "BCTC quý IV/2024 của MWG ghi nhận, trong năm 2024, doanh nghiệp này cũng làm thủ tục giải thể."
+    },
+    {
+        "text": "làm thủ tục giải thể",
+        "label": "EVENT",
+        "evidence": "BCTC quý IV/2024 của MWG ghi nhận, trong năm 2024, doanh nghiệp này cũng làm thủ tục giải thể."
+    }
+]

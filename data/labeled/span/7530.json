@@ -1,0 +1,307 @@
+[
+    {
+        "text": "100.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thống kê, toàn sàn chứng khoán có khoảng 18 doanh nghiệp có vốn hóa trên 100.000 tỷ đồng (~ 4 tỷ USD) tính đến ngày 6/2/2025, trong đó có 8 doanh nghiệp Nhà nước."
+    },
+    {
+        "text": "4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Thống kê, toàn sàn chứng khoán có khoảng 18 doanh nghiệp có vốn hóa trên 100.000 tỷ đồng (~ 4 tỷ USD) tính đến ngày 6/2/2025, trong đó có 8 doanh nghiệp Nhà nước."
+    },
+    {
+        "text": "ngày 6/2/2025",
+        "label": "DATE",
+        "evidence": "Thống kê, toàn sàn chứng khoán có khoảng 18 doanh nghiệp có vốn hóa trên 100.000 tỷ đồng (~ 4 tỷ USD) tính đến ngày 6/2/2025, trong đó có 8 doanh nghiệp Nhà nước."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, top 4 doanh nghiệp hàng đầu đều là những tên tuổi do Nhà nước chi phối: Vietcombank (VCB), Viettel Global (VGI), BIDV (BID) và ACV."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank là ngân hàng quốc doanh dẫn đầu thị trường chứng khoán về vốn hóa từ đầu năm 2022 và giữ vững vị trí này cho tới nay."
+    },
+    {
+        "text": "đầu năm 2022",
+        "label": "DATE",
+        "evidence": "Vietcombank là ngân hàng quốc doanh dẫn đầu thị trường chứng khoán về vốn hóa từ đầu năm 2022 và giữ vững vị trí này cho tới nay."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cũng là cái tên đầu tiên trong lịch sử chứng khoán Việt Nam vượt ngưỡng nửa triệu tỷ vốn hóa khi lập đỉnh mới vào tháng 7/2023."
+    },
+    {
+        "text": "lập đỉnh mới",
+        "label": "EVENT",
+        "evidence": "Vietcombank cũng là cái tên đầu tiên trong lịch sử chứng khoán Việt Nam vượt ngưỡng nửa triệu tỷ vốn hóa khi lập đỉnh mới vào tháng 7/2023."
+    },
+    {
+        "text": "tháng 7/2023",
+        "label": "DATE",
+        "evidence": "Vietcombank cũng là cái tên đầu tiên trong lịch sử chứng khoán Việt Nam vượt ngưỡng nửa triệu tỷ vốn hóa khi lập đỉnh mới vào tháng 7/2023."
+    },
+    {
+        "text": "520.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dù đã điều chỉnh đôi chút nhưng nhà băng này hiện vẫn bỏ xa top phía sau trên đường đua vốn hóa với giá trị lên đến 520.000 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo sau Vietcombank, cổ phiếu Viettel Global liên tục tăng trưởng trong năm 2024 và có thời điểm đạt đỉnh lịch sử, nhờ đó vốn hóa cũng tăng trưởng vượt trội."
+    },
+    {
+        "text": "cổ phiếu Viettel Global",
+        "label": "ASSET",
+        "evidence": "Theo sau Vietcombank, cổ phiếu Viettel Global liên tục tăng trưởng trong năm 2024 và có thời điểm đạt đỉnh lịch sử, nhờ đó vốn hóa cũng tăng trưởng vượt trội."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "Theo sau Vietcombank, cổ phiếu Viettel Global liên tục tăng trưởng trong năm 2024 và có thời điểm đạt đỉnh lịch sử, nhờ đó vốn hóa cũng tăng trưởng vượt trội."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo sau Vietcombank, cổ phiếu Viettel Global liên tục tăng trưởng trong năm 2024 và có thời điểm đạt đỉnh lịch sử, nhờ đó vốn hóa cũng tăng trưởng vượt trội."
+    },
+    {
+        "text": "đạt đỉnh lịch sử",
+        "label": "EVENT",
+        "evidence": "Theo sau Vietcombank, cổ phiếu Viettel Global liên tục tăng trưởng trong năm 2024 và có thời điểm đạt đỉnh lịch sử, nhờ đó vốn hóa cũng tăng trưởng vượt trội."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "278.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "275.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "270.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện tại, dù đã bị thu hẹp lại sau nhịp điều chỉnh, VGI vẫn đứng ở vị trí Á quân trong danh sách với giá trị vốn hóa 278.000 tỷ trong khi BID và ACV theo sát, ghi nhận lần lượt 275.000 tỷ và 270.000 tỷ đồng."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "GAS",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "GVR",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "VIMC",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "MVN",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, nhiều đại gia Nhà nước khác cũng góp mặt trong danh sách như VietinBank (CTG), PV GAS (GAS), GVR và mới nhất là VIMC (MVN)."
+    },
+    {
+        "text": "Cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu “ông trùm” ngành cảng và vận tải biển Việt Nam bứt phá mạnh từ đầu năm, qua đó lập đỉnh lịch sử mới tại 88.000 đồng/cp."
+    },
+    {
+        "text": "bứt phá mạnh",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu “ông trùm” ngành cảng và vận tải biển Việt Nam bứt phá mạnh từ đầu năm, qua đó lập đỉnh lịch sử mới tại 88.000 đồng/cp."
+    },
+    {
+        "text": "lập đỉnh lịch sử mới tại 88.000 đồng/cp",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu “ông trùm” ngành cảng và vận tải biển Việt Nam bứt phá mạnh từ đầu năm, qua đó lập đỉnh lịch sử mới tại 88.000 đồng/cp."
+    },
+    {
+        "text": "88.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu “ông trùm” ngành cảng và vận tải biển Việt Nam bứt phá mạnh từ đầu năm, qua đó lập đỉnh lịch sử mới tại 88.000 đồng/cp."
+    },
+    {
+        "text": "VIMC",
+        "label": "ORG",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "lập kỷ lục hơn 106.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "106.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Vốn hóa thị trường của VIMC cũng theo đó lập kỷ lục hơn 106.000 tỷ đồng (~ 4 tỷ USD), tăng 60% từ đầu năm 2025."
+    },
+    {
+        "text": "TOS",
+        "label": "ORG",
+        "evidence": "Ngoài câu lạc bộ các doanh nghiệp vốn hóa trên trăm nghìn tỷ kể trên, nhiều doanh nghiệp Nhà nước cũng chứng kiến đà bứt phá mạnh mẽ thời gian gần đây phải kể tới: TOS, KSV, PHP,… liên tiếp lập đỉnh lịch sử."
+    },
+    {
+        "text": "KSV",
+        "label": "ORG",
+        "evidence": "Ngoài câu lạc bộ các doanh nghiệp vốn hóa trên trăm nghìn tỷ kể trên, nhiều doanh nghiệp Nhà nước cũng chứng kiến đà bứt phá mạnh mẽ thời gian gần đây phải kể tới: TOS, KSV, PHP,… liên tiếp lập đỉnh lịch sử."
+    },
+    {
+        "text": "PHP",
+        "label": "ORG",
+        "evidence": "Ngoài câu lạc bộ các doanh nghiệp vốn hóa trên trăm nghìn tỷ kể trên, nhiều doanh nghiệp Nhà nước cũng chứng kiến đà bứt phá mạnh mẽ thời gian gần đây phải kể tới: TOS, KSV, PHP,… liên tiếp lập đỉnh lịch sử."
+    },
+    {
+        "text": "liên tiếp lập đỉnh lịch sử",
+        "label": "EVENT",
+        "evidence": "Ngoài câu lạc bộ các doanh nghiệp vốn hóa trên trăm nghìn tỷ kể trên, nhiều doanh nghiệp Nhà nước cũng chứng kiến đà bứt phá mạnh mẽ thời gian gần đây phải kể tới: TOS, KSV, PHP,… liên tiếp lập đỉnh lịch sử."
+    },
+    {
+        "text": "giai đoạn 2020-2021",
+        "label": "DATE",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "Vincom Retail",
+        "label": "ORG",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "VRE",
+        "label": "TICKER",
+        "evidence": "Còn nhớ giai đoạn 2020-2021 trước đây, nhiều doanh nghiệp tư nhân thậm chí chi phối sàn chứng khoán Việt Nam, điển hình như bộ 3 “đình đám” Vingroup (VIC), Vinhomes (VHM) và Vincom Retail (VRE)."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp “họ” Vingroup có thời điểm đạt tổng mức vốn hóa lên đến 1 triệu tỷ đồng, chiếm khoảng 1/4 giá trị toàn thị trường."
+    },
+    {
+        "text": "1 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các doanh nghiệp “họ” Vingroup có thời điểm đạt tổng mức vốn hóa lên đến 1 triệu tỷ đồng, chiếm khoảng 1/4 giá trị toàn thị trường."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Thời điểm hiện tại, tổng vốn hóa của các doanh nghiệp “họ” Vingroup (tính cả VEFAC) cũng chỉ vào khoảng 381.000 tỷ đồng, chiếm 5,5% giá trị toàn thị trường."
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "Thời điểm hiện tại, tổng vốn hóa của các doanh nghiệp “họ” Vingroup (tính cả VEFAC) cũng chỉ vào khoảng 381.000 tỷ đồng, chiếm 5,5% giá trị toàn thị trường."
+    },
+    {
+        "text": "381.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thời điểm hiện tại, tổng vốn hóa của các doanh nghiệp “họ” Vingroup (tính cả VEFAC) cũng chỉ vào khoảng 381.000 tỷ đồng, chiếm 5,5% giá trị toàn thị trường."
+    },
+    {
+        "text": "5,5%",
+        "label": "RATE",
+        "evidence": "Thời điểm hiện tại, tổng vốn hóa của các doanh nghiệp “họ” Vingroup (tính cả VEFAC) cũng chỉ vào khoảng 381.000 tỷ đồng, chiếm 5,5% giá trị toàn thị trường."
+    }
+]

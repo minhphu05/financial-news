@@ -1,0 +1,97 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB vừa thông báo về việc đăng ký sinh trắc học và bổ sung hồ sơ mở tài khoản thanh toán của khách hàng tổ chức."
+    },
+    {
+        "text": "đăng ký sinh trắc học và bổ sung hồ sơ mở tài khoản thanh toán của khách hàng tổ chức",
+        "label": "EVENT",
+        "evidence": "ACB vừa thông báo về việc đăng ký sinh trắc học và bổ sung hồ sơ mở tài khoản thanh toán của khách hàng tổ chức."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Cụ thể, nhằm tuân thủ Thông tư 17/2024/TT-NHNN của Ngân hàng Nhà nước, để không bị gián đoạn giao dịch, khách hàng tổ chức cần hoàn tất: Đăng ký sinh trắc học trước ngày 01/07/2025 và bổ sung hồ sơ mở tài khoản thanh toán trước 01/01/2026."
+    },
+    {
+        "text": "Đăng ký sinh trắc học",
+        "label": "EVENT",
+        "evidence": "khách hàng tổ chức cần hoàn tất: Đăng ký sinh trắc học trước ngày 01/07/2025 và bổ sung hồ sơ mở tài khoản thanh toán trước 01/01/2026."
+    },
+    {
+        "text": "01/07/2025",
+        "label": "DATE",
+        "evidence": "Đăng ký sinh trắc học trước ngày 01/07/2025 và bổ sung hồ sơ mở tài khoản thanh toán trước 01/01/2026."
+    },
+    {
+        "text": "bổ sung hồ sơ mở tài khoản thanh toán",
+        "label": "EVENT",
+        "evidence": "Đăng ký sinh trắc học trước ngày 01/07/2025 và bổ sung hồ sơ mở tài khoản thanh toán trước 01/01/2026."
+    },
+    {
+        "text": "01/01/2026",
+        "label": "DATE",
+        "evidence": "bổ sung hồ sơ mở tài khoản thanh toán trước 01/01/2026."
+    },
+    {
+        "text": "mở tài khoản thanh toán và ký hợp đồng ACB online",
+        "label": "EVENT",
+        "evidence": "Khách hàng mở tài khoản thanh toán và ký hợp đồng ACB online của người đại diện hợp pháp (nếu chưa có)."
+    },
+    {
+        "text": "đăng ký xác thực khuôn mặt",
+        "label": "EVENT",
+        "evidence": "Sau đó, khách hàng đăng ký xác thực khuôn mặt trên ứng dụng ACB ONE (**) hoặc tại CN/PGD ACB gần nhất (trong giờ hành chính) để được hỗ trợ."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ORG",
+        "evidence": "Sau đó, khách hàng đăng ký xác thực khuôn mặt trên ứng dụng ACB ONE (**) hoặc tại CN/PGD ACB gần nhất (trong giờ hành chính) để được hỗ trợ."
+    },
+    {
+        "text": "CN/PGD ACB",
+        "label": "ORG",
+        "evidence": "hoặc tại CN/PGD ACB gần nhất (trong giờ hành chính) để được hỗ trợ."
+    },
+    {
+        "text": "mở tài khoản thanh toán và ký hợp đồng ACB online",
+        "label": "EVENT",
+        "evidence": "Khách hàng mở tài khoản thanh toán và ký hợp đồng ACB online của người đại diện hợp pháp (nếu chưa có)."
+    },
+    {
+        "text": "đăng ký xác thực khuôn mặt",
+        "label": "EVENT",
+        "evidence": "Cuối cùng, khách hàng đăng ký xác thực khuôn mặt tại CN/PGD ACB gần nhất (trong giờ hành chính) để được hỗ trợ."
+    },
+    {
+        "text": "CN/PGD ACB",
+        "label": "ORG",
+        "evidence": "Cuối cùng, khách hàng đăng ký xác thực khuôn mặt tại CN/PGD ACB gần nhất (trong giờ hành chính) để được hỗ trợ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ngân hàng cũng lưu ý những khách hàng tổ chức đang giao dịch tại ACB nhưng chưa cập nhật hồ sơ mở tài khoản thanh toán mở trước ngày 01/10/2024 phải bổ sung cho ngân hàng trước ngày 01/01/2026 để tránh bị gián đoạn tất cả các giao dịch."
+    },
+    {
+        "text": "cập nhật hồ sơ mở tài khoản thanh toán",
+        "label": "EVENT",
+        "evidence": "chưa cập nhật hồ sơ mở tài khoản thanh toán mở trước ngày 01/10/2024 phải bổ sung cho ngân hàng trước ngày 01/01/2026 để tránh bị gián đoạn tất cả các giao dịch."
+    },
+    {
+        "text": "01/10/2024",
+        "label": "DATE",
+        "evidence": "cập nhật hồ sơ mở tài khoản thanh toán mở trước ngày 01/10/2024 phải bổ sung cho ngân hàng trước ngày 01/01/2026 để tránh bị gián đoạn tất cả các giao dịch."
+    },
+    {
+        "text": "01/01/2026",
+        "label": "DATE",
+        "evidence": "phải bổ sung cho ngân hàng trước ngày 01/01/2026 để tránh bị gián đoạn tất cả các giao dịch."
+    },
+    {
+        "text": "bổ sung hồ sơ",
+        "label": "EVENT",
+        "evidence": "Để bổ sung hồ sơ, khách hàng cần đến chi nhánh, phòng giao dịch trong giờ hành chính để được hỗ trợ."
+    }
+]

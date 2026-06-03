@@ -1,0 +1,62 @@
+[
+    {
+        "text": "hệ thống ngân hàng Việt Nam",
+        "label": "ORG",
+        "evidence": "Giao dịch qua ngân hàng số đang là xu hướng cần được khuyến khích và phát triển của hệ thống ngân hàng Việt Nam."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đại diện lãnh đạo ACB đã chỉ ra 3 điều lợi khi khách hàng nhận thông báo giao dịch qua Ngân hàng số."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Để giúp khách hàng nâng cao cảnh giác, ACB cũng thường xuyên truyền thông nội dung các hướng dẫn, gợi ý phòng tránh những thủ đoạn lừa đảo công nghệ cao trên các kênh truyền thông của ngân hàng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Vị đại diện lãnh đạo ACB cũng cho biết chính Ngân hàng cũng sẽ tiết giảm khoản chi phí lớn phải trả cho dịch vụ SMS Banking của các công ty viễn thông khi khách hàng dùng tính năng thông báo có sẵn của Ngân hàng số."
+    },
+    {
+        "text": "1/1/2024",
+        "label": "DATE",
+        "evidence": "Đối với những khách hàng có nhu cầu sử dụng dịch vụ SMS Banking, từ 1/1/2024, ACB sẽ điều chỉnh mức phí SMS Banking từ gói cố định hàng tháng chuyển thành biểu phí theo số lượng tin nhắn (SMS)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đối với những khách hàng có nhu cầu sử dụng dịch vụ SMS Banking, từ 1/1/2024, ACB sẽ điều chỉnh mức phí SMS Banking từ gói cố định hàng tháng chuyển thành biểu phí theo số lượng tin nhắn (SMS)."
+    },
+    {
+        "text": "ACB sẽ điều chỉnh mức phí SMS Banking từ gói cố định hàng tháng chuyển thành biểu phí theo số lượng tin nhắn (SMS)",
+        "label": "EVENT",
+        "evidence": "Đối với những khách hàng có nhu cầu sử dụng dịch vụ SMS Banking, từ 1/1/2024, ACB sẽ điều chỉnh mức phí SMS Banking từ gói cố định hàng tháng chuyển thành biểu phí theo số lượng tin nhắn (SMS)."
+    },
+    {
+        "text": "15.000đ",
+        "label": "MONEY",
+        "evidence": "Số lượng SMS ≤ 20: 15.000đ/tháng/thuê bao/khách hàng"
+    },
+    {
+        "text": "15.000đ",
+        "label": "MONEY",
+        "evidence": "Số lượng SMS > 20: 15.000đ + 700đ x Số lượng tin nhắn, tính từ tin nhắn thứ 21 trở lên, tính trên tháng/thuê bao/khách hàng"
+    },
+    {
+        "text": "700đ",
+        "label": "MONEY",
+        "evidence": "Số lượng SMS > 20: 15.000đ + 700đ x Số lượng tin nhắn, tính từ tin nhắn thứ 21 trở lên, tính trên tháng/thuê bao/khách hàng"
+    },
+    {
+        "text": "50.000đ",
+        "label": "MONEY",
+        "evidence": "Thông báo biến động số dư chỉ gửi SMS cho các giao dịch từ 50.000đ trở lên"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Mọi chi tiết về thông tin dịch vụ, khách hàng vui lòng liên hệ Phòng Chăm sóc và dịch vụ khách hàng: 1900 545486 - (028) 38247 247 hoặc chi nhánh/ phòng giao dịch ACB gần nhất."
+    }
+]

@@ -1,0 +1,19 @@
+model:
+  name: BiLSTM
+  type: sequence_tagger
+
+  embedding:
+    embedding_dim: 300
+    padding_idx: 0
+  
+  encoder:
+    hidden_size: 256
+    num_layers: 5
+    bidirectional: true
+    dropout: 0.3
+  
+  classifier:
+    use_crf: false # If using -CRF
+
+training:
+  max_seq_sequence: 256

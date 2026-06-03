@@ -1,0 +1,82 @@
+[
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "ngân hàng NCB cho biết"
+    },
+    {
+        "text": "cảnh báo phát đi",
+        "label": "EVENT",
+        "evidence": "Trong cảnh báo phát đi, ngân hàng NCB cho biết"
+    },
+    {
+        "text": "Trung tâm Giám sát an toàn không gian mạng Quốc gia",
+        "label": "ORG",
+        "evidence": "Trung tâm Giám sát an toàn không gian mạng Quốc gia (NCSC) thuộc Cục An toàn Thông tin phát hiện thêm nhiều website giả mạo các trang dịch vụ công, ngân hàng và sàn thương mại điện tử nhằm mục đích lừa đảo người dùng."
+    },
+    {
+        "text": "NCSC",
+        "label": "ORG",
+        "evidence": "Trung tâm Giám sát an toàn không gian mạng Quốc gia (NCSC) thuộc Cục An toàn Thông tin phát hiện thêm nhiều website giả mạo các trang dịch vụ công, ngân hàng và sàn thương mại điện tử nhằm mục đích lừa đảo người dùng."
+    },
+    {
+        "text": "Cục An toàn Thông tin",
+        "label": "ORG",
+        "evidence": "Trung tâm Giám sát an toàn không gian mạng Quốc gia (NCSC) thuộc Cục An toàn Thông tin phát hiện thêm nhiều website giả mạo các trang dịch vụ công, ngân hàng và sàn thương mại điện tử nhằm mục đích lừa đảo người dùng."
+    },
+    {
+        "text": "phát hiện thêm nhiều website giả mạo các trang dịch vụ công, ngân hàng và sàn thương mại điện tử nhằm mục đích lừa đảo người dùng",
+        "label": "EVENT",
+        "evidence": "Trung tâm Giám sát an toàn không gian mạng Quốc gia (NCSC) thuộc Cục An toàn Thông tin phát hiện thêm nhiều website giả mạo các trang dịch vụ công, ngân hàng và sàn thương mại điện tử nhằm mục đích lừa đảo người dùng."
+    },
+    {
+        "text": "giả mạo tin nhắn từ ngân hàng và cổng dịch vụ công",
+        "label": "EVENT",
+        "evidence": "Thứ nhất, đối tượng lừa đảo giả mạo tin nhắn từ ngân hàng và cổng dịch vụ công: Các đối tượng gửi tin nhắn với nội dung thông báo tài khoản có vấn đề hoặc cần cập nhật thông tin."
+    },
+    {
+        "text": "gửi tin nhắn với nội dung thông báo tài khoản có vấn đề hoặc cần cập nhật thông tin",
+        "label": "EVENT",
+        "evidence": "Các đối tượng gửi tin nhắn với nội dung thông báo tài khoản có vấn đề hoặc cần cập nhật thông tin."
+    },
+    {
+        "text": "mạo danh website ngân hàng, sàn thương mại điện tử và cổng dịch vụ công",
+        "label": "EVENT",
+        "evidence": "Thứ hai, đối tượng lừa đảo mạo danh website ngân hàng, sàn thương mại điện tử và cổng dịch vụ công."
+    },
+    {
+        "text": "yêu cầu người dùng cung cấp thông tin cá nhân hoặc tài khoản ngân hàng để hoàn tất giao dịch",
+        "label": "EVENT",
+        "evidence": "Các trang này giả mạo các dịch vụ lớn, yêu cầu người dùng cung cấp thông tin cá nhân hoặc tài khoản ngân hàng để hoàn tất giao dịch, từ đó đánh cắp thông tin tài khoản."
+    },
+    {
+        "text": "đánh cắp thông tin tài khoản",
+        "label": "EVENT",
+        "evidence": "từ đó đánh cắp thông tin tài khoản."
+    },
+    {
+        "text": "NCSC",
+        "label": "ORG",
+        "evidence": "Danh sách các website giả mạo. (Nguồn: NCSC)"
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "NCB khuyến cáo khách hàng không truy cập vào liên kết lạ và xác minh thông tin qua các kênh chính thống."
+    },
+    {
+        "text": "khuyến cáo khách hàng không truy cập vào liên kết lạ và xác minh thông tin qua các kênh chính thống",
+        "label": "EVENT",
+        "evidence": "NCB khuyến cáo khách hàng không truy cập vào liên kết lạ và xác minh thông tin qua các kênh chính thống."
+    },
+    {
+        "text": "khóa tài khoản khẩn cấp",
+        "label": "EVENT",
+        "evidence": "khách hàng hãy khóa tài khoản khẩn cấp ngay như nhập sai 5 lần liên tiếp mật khẩu để hệ thống ghi nhận tài khoản bị khóa và không cho kẻ gian đăng nhập lại trong phiên đăng nhập kế tiếp."
+    },
+    {
+        "text": "nhập sai 5 lần liên tiếp mật khẩu để hệ thống ghi nhận tài khoản bị khóa và không cho kẻ gian đăng nhập lại trong phiên đăng nhập kế tiếp",
+        "label": "EVENT",
+        "evidence": "nhập sai 5 lần liên tiếp mật khẩu để hệ thống ghi nhận tài khoản bị khóa và không cho kẻ gian đăng nhập lại trong phiên đăng nhập kế tiếp."
+    }
+]

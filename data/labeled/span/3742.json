@@ -1,0 +1,642 @@
+[
+    {
+        "text": "25/9",
+        "label": "DATE",
+        "evidence": "phiêm giao dịch 25/9"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Trong đó, MSB bất ngờ bật tăng hơn 3%"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "MSB bất ngờ bật tăng hơn 3%"
+    },
+    {
+        "text": "tháng 2/2024",
+        "label": "DATE",
+        "evidence": "thanh khoản cao nhất kể từ tháng 2/2024"
+    },
+    {
+        "text": "MSB đã hoàn thành việc phát hành 600 triệu cổ phiếu để trả cổ tức cho cổ đông theo tỷ lệ 30%",
+        "label": "EVENT",
+        "evidence": "Mới đây, MSB đã hoàn thành việc phát hành 600 triệu cổ phiếu để trả cổ tức cho cổ đông theo tỷ lệ 30% (người sở hữu 100 cổ phiếu được nhận 30 cổ phiếu)."
+    },
+    {
+        "text": "600 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành 600 triệu cổ phiếu"
+    },
+    {
+        "text": "cổ tức",
+        "label": "ASSET",
+        "evidence": "trả cổ tức cho cổ đông"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "theo tỷ lệ 30%"
+    },
+    {
+        "text": "Đại hội đồng cổ đôngMSB2024",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, Đại hội đồng cổ đôngMSB2024 cũng đã phê duyệt chủ trương chia cổ tức với tỷ lệ ≤15% bằng tiền hoặc/và bằng cổ phiếu từ lợi nhuận được tạo ra trong năm 2024 cùng với lợi nhuận để lại sau khi hoàn thành tăng vốn điều lệ."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Đại hội đồng cổ đôngMSB2024"
+    },
+    {
+        "text": "chia cổ tức với tỷ lệ ≤15% bằng tiền hoặc/và bằng cổ phiếu từ lợi nhuận được tạo ra trong năm 2024 cùng với lợi nhuận để lại sau khi hoàn thành tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Đại hội đồng cổ đôngMSB2024 cũng đã phê duyệt chủ trương chia cổ tức với tỷ lệ ≤15% bằng tiền hoặc/và bằng cổ phiếu từ lợi nhuận được tạo ra trong năm 2024 cùng với lợi nhuận để lại sau khi hoàn thành tăng vốn điều lệ."
+    },
+    {
+        "text": "≤15%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ ≤15%"
+    },
+    {
+        "text": "tiền",
+        "label": "ASSET",
+        "evidence": "bằng tiền hoặc/và bằng cổ phiếu"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "bằng tiền hoặc/và bằng cổ phiếu"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "trong năm 2024"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "đại diện MSB cho biết"
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "thực hiện tạm ứng cổ tức tiền mặt"
+    },
+    {
+        "text": "quý 4 năm nay",
+        "label": "DATE",
+        "evidence": "ngay trong quý 4 năm nay"
+    },
+    {
+        "text": "cổ phiếu STB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu STB của Sacombank"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu STB của Sacombank"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu STB của Sacombank"
+    },
+    {
+        "text": "2,7%",
+        "label": "RATE",
+        "evidence": "bật tăng 2,7%"
+    },
+    {
+        "text": "32.700 đồng/cp",
+        "label": "PRICE",
+        "evidence": "lên 32.700 đồng/cp"
+    },
+    {
+        "text": "cổ phiếu MBB",
+        "label": "ASSET",
+        "evidence": "cổ phiếu MBB và VIB"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu MBB và VIB cũng có được mức tăng giá tốt khi xanh lần lượt 1,98% và 1,83%."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "cổ phiếu MBB và VIB cũng có được mức tăng giá tốt khi xanh lần lượt 1,98% và 1,83%."
+    },
+    {
+        "text": "1,98%",
+        "label": "RATE",
+        "evidence": "xanh lần lượt 1,98%"
+    },
+    {
+        "text": "1,83%",
+        "label": "RATE",
+        "evidence": "và 1,83%"
+    },
+    {
+        "text": "Vn-Index",
+        "label": "ASSET",
+        "evidence": "Là mã kéo điểm Vn-Index mạnh nhất phiên hôm nay"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB kết phiên tăng 1,75%"
+    },
+    {
+        "text": "1,75%",
+        "label": "RATE",
+        "evidence": "tăng 1,75%"
+    },
+    {
+        "text": "chiều 24/9",
+        "label": "DATE",
+        "evidence": "chiều 24/9"
+    },
+    {
+        "text": "Ủy ban Thường vụ Quốc hội",
+        "label": "ORG",
+        "evidence": "Ủy ban Thường vụ Quốc hội đã nhất trí"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "vốn nhà nước tại Vietcombank"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "bổ sung vốn Nhà nước tại VCB"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Tờ trình của Chính phủ"
+    },
+    {
+        "text": "bổ sung gần 20.700 tỷ đồng vốn điều lệ choVietcombanktừ nguồn lợi nhuận còn lại (sau thuế, sau trích lập các quỹ và sau khi đã chi trả tiền mặt) lũy kế đến hết năm 2018 và lợi nhuận còn lại sau thuế, sau trích lập các quỹ năm 2021",
+        "label": "EVENT",
+        "evidence": "Theo đó, Chính phủ đề xuất bổ sung gần 20.700 tỷ đồng vốn điều lệ choVietcombanktừ nguồn lợi nhuận còn lại (sau thuế, sau trích lập các quỹ và sau khi đã chi trả tiền mặt) lũy kế đến hết năm 2018 và lợi nhuận còn lại sau thuế, sau trích lập các quỹ năm 2021."
+    },
+    {
+        "text": "gần 20.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bổ sung gần 20.700 tỷ đồng"
+    },
+    {
+        "text": "vốn điều lệ",
+        "label": "ASSET",
+        "evidence": "vốn điều lệ choVietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "vốn điều lệ choVietcombank"
+    },
+    {
+        "text": "năm 2018",
+        "label": "DATE",
+        "evidence": "lũy kế đến hết năm 2018"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "các quỹ năm 2021"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Ngoài VCB, một số cổ phiếu ngân hàng trong nhóm VN30"
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "nhóm VN30"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "như ACB (+1,55%)"
+    },
+    {
+        "text": "1,55%",
+        "label": "RATE",
+        "evidence": "ACB (+1,55%)"
+    },
+    {
+        "text": "BID",
+        "label": "ORG",
+        "evidence": "BID(+1,52%)"
+    },
+    {
+        "text": "1,52%",
+        "label": "RATE",
+        "evidence": "BID(+1,52%)"
+    },
+    {
+        "text": "TPB",
+        "label": "ORG",
+        "evidence": "TPB (+1,3%)"
+    },
+    {
+        "text": "1,3%",
+        "label": "RATE",
+        "evidence": "TPB (+1,3%)"
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "VPB(+1,3%)"
+    },
+    {
+        "text": "1,3%",
+        "label": "RATE",
+        "evidence": "VPB(+1,3%)"
+    },
+    {
+        "text": "TCB",
+        "label": "ORG",
+        "evidence": "TCB (+1,06%)"
+    },
+    {
+        "text": "1,06%",
+        "label": "RATE",
+        "evidence": "TCB (+1,06%)"
+    },
+    {
+        "text": "cổ phiếu TPB",
+        "label": "ASSET",
+        "evidence": "Trong đó, cổ phiếu TPB bật tăng phiên thứ hai liên tiếp"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu TPB bật tăng phiên thứ hai liên tiếp"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "sau khi TPBank chốt danh sách cổ đông nhận cổ tức bằng cổ phiếu với tỷ lệ 20% vào ngày 24/9."
+    },
+    {
+        "text": "chốt danh sách cổ đông nhận cổ tức bằng cổ phiếu với tỷ lệ 20% vào ngày 24/9",
+        "label": "EVENT",
+        "evidence": "sau khi TPBank chốt danh sách cổ đông nhận cổ tức bằng cổ phiếu với tỷ lệ 20% vào ngày 24/9."
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 20%"
+    },
+    {
+        "text": "ngày 24/9",
+        "label": "DATE",
+        "evidence": "vào ngày 24/9"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, TPBank sẽ phát hành thêm 440,3 triệu cổ phiếu mới"
+    },
+    {
+        "text": "phát hành thêm 440,3 triệu cổ phiếu mới để trả cổ tức cho cổ đông",
+        "label": "EVENT",
+        "evidence": "Cụ thể, TPBank sẽ phát hành thêm 440,3 triệu cổ phiếu mới để trả cổ tức cho cổ đông."
+    },
+    {
+        "text": "440,3 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành thêm 440,3 triệu cổ phiếu"
+    },
+    {
+        "text": "cổ tức",
+        "label": "ASSET",
+        "evidence": "để trả cổ tức cho cổ đông"
+    },
+    {
+        "text": "vốn điều lệ của TPBank sẽ tăng từ 22.016 tỷ đồng lên tối đa 26.420 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Sau phát hành, vốn điều lệ của TPBank sẽ tăng từ 22.016 tỷ đồng lên tối đa 26.420 tỷ đồng, tương ứng với số cổ phiếu lưu hành là gần 2,642 tỷ đơn vị."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "vốn điều lệ của TPBank"
+    },
+    {
+        "text": "22.016 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 22.016 tỷ đồng"
+    },
+    {
+        "text": "26.420 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên tối đa 26.420 tỷ đồng"
+    },
+    {
+        "text": "gần 2,642 tỷ đơn vị",
+        "label": "VOLUME",
+        "evidence": "là gần 2,642 tỷ đơn vị"
+    },
+    {
+        "text": "TPBank đã thực hiện thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 5% vào tháng 7/2024",
+        "label": "EVENT",
+        "evidence": "Trước đó, TPBank đã thực hiện thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 5% vào tháng 7/2024."
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "thanh toán cổ tức tiền mặt"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 5%"
+    },
+    {
+        "text": "tháng 7/2024",
+        "label": "DATE",
+        "evidence": "vào tháng 7/2024"
+    },
+    {
+        "text": "hơn 1.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là hơn 1.100 tỷ đồng"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "thị trường UPCoM và HNX"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "thị trường UPCoM và HNX"
+    },
+    {
+        "text": "ABB",
+        "label": "ORG",
+        "evidence": "như ABB (+2,63%)"
+    },
+    {
+        "text": "2,63%",
+        "label": "RATE",
+        "evidence": "ABB (+2,63%)"
+    },
+    {
+        "text": "BVB",
+        "label": "ORG",
+        "evidence": "BVB (+2,63%)"
+    },
+    {
+        "text": "2,63%",
+        "label": "RATE",
+        "evidence": "BVB (+2,63%)"
+    },
+    {
+        "text": "NVB",
+        "label": "ORG",
+        "evidence": "NVB (+2,2%)"
+    },
+    {
+        "text": "2,2%",
+        "label": "RATE",
+        "evidence": "NVB (+2,2%)"
+    },
+    {
+        "text": "VAB",
+        "label": "ORG",
+        "evidence": "VAB (+2,15%)"
+    },
+    {
+        "text": "2,15%",
+        "label": "RATE",
+        "evidence": "VAB (+2,15%)"
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "Trong đó, VPB dẫn đầu toàn ngành với 45,9 triệu cổ phiếu được giao dịch khớp lệnh trực tiếp trên sàn."
+    },
+    {
+        "text": "45,9 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "với 45,9 triệu cổ phiếu"
+    },
+    {
+        "text": "MBB",
+        "label": "ORG",
+        "evidence": "Đứng sau lần lượt là MBB (32 triệu cp)"
+    },
+    {
+        "text": "32 triệu cp",
+        "label": "VOLUME",
+        "evidence": "MBB (32 triệu cp)"
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "STB (28,6 triệu cp)"
+    },
+    {
+        "text": "28,6 triệu cp",
+        "label": "VOLUME",
+        "evidence": "STB (28,6 triệu cp)"
+    },
+    {
+        "text": "TCB",
+        "label": "ORG",
+        "evidence": "TCB (23,4 triệu cp)"
+    },
+    {
+        "text": "23,4 triệu cp",
+        "label": "VOLUME",
+        "evidence": "TCB (23,4 triệu cp)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB (23 triệu cp)"
+    },
+    {
+        "text": "23 triệu cp",
+        "label": "VOLUME",
+        "evidence": "ACB (23 triệu cp)"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "MSB (22,4 triệu cp)"
+    },
+    {
+        "text": "22,4 triệu cp",
+        "label": "VOLUME",
+        "evidence": "MSB (22,4 triệu cp)"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước đã giảm lãi suất"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đây là lần thứ hai NHNN giảm lãi suất OMO"
+    },
+    {
+        "text": "giảm lãi suất cho vay cầm cố giấy tờ có giá (OMO) xuống còn 4%/năm trong phiên 16/9, từ mức 4,25%/năm duy trì từ đầu tháng 8",
+        "label": "EVENT",
+        "evidence": "Mới đây, Ngân hàng Nhà nước đã giảm lãi suất cho vay cầm cố giấy tờ có giá (OMO) xuống còn 4%/năm trong phiên 16/9, từ mức 4,25%/năm duy trì từ đầu tháng 8."
+    },
+    {
+        "text": "4%/năm",
+        "label": "RATE",
+        "evidence": "xuống còn 4%/năm"
+    },
+    {
+        "text": "phiên 16/9",
+        "label": "DATE",
+        "evidence": "trong phiên 16/9"
+    },
+    {
+        "text": "4,25%/năm",
+        "label": "RATE",
+        "evidence": "từ mức 4,25%/năm"
+    },
+    {
+        "text": "đầu tháng 8",
+        "label": "DATE",
+        "evidence": "từ đầu tháng 8"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đây là lần thứ hai NHNN giảm lãi suất OMO"
+    },
+    {
+        "text": "lãi suất OMO",
+        "label": "RATE",
+        "evidence": "giảm lãi suất OMO"
+    },
+    {
+        "text": "hạ lãi suất này từ 4,5%/năm xuống 4,25%/năm trong phiên giao dịch 5/8",
+        "label": "EVENT",
+        "evidence": "Trước đó, Nhà điều hành cũng đã hạ lãi suất này từ 4,5%/năm xuống 4,25%/năm trong phiên giao dịch 5/8."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "từ 4,5%/năm"
+    },
+    {
+        "text": "4,25%/năm",
+        "label": "RATE",
+        "evidence": "xuống 4,25%/năm"
+    },
+    {
+        "text": "phiên giao dịch 5/8",
+        "label": "DATE",
+        "evidence": "trong phiên giao dịch 5/8"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "khi NHNN đã có 2 lần điều chỉnh tăng"
+    },
+    {
+        "text": "NHNN đã có 2 lần điều chỉnh tăng vào trung tuần tháng 4 và tháng 5/2024, từ 4% lên 4,25% và sau đó từ 4,25% lên 4,5%",
+        "label": "EVENT",
+        "evidence": "khi NHNN đã có 2 lần điều chỉnh tăng vào trung tuần tháng 4 và tháng 5/2024, từ 4% lên 4,25% và sau đó từ 4,25% lên 4,5%."
+    },
+    {
+        "text": "trung tuần tháng 4",
+        "label": "DATE",
+        "evidence": "trung tuần tháng 4"
+    },
+    {
+        "text": "tháng 5/2024",
+        "label": "DATE",
+        "evidence": "và tháng 5/2024"
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "từ 4% lên 4,25%"
+    },
+    {
+        "text": "4,25%",
+        "label": "RATE",
+        "evidence": "từ 4% lên 4,25%"
+    },
+    {
+        "text": "4,25%",
+        "label": "RATE",
+        "evidence": "từ 4,25% lên 4,5%"
+    },
+    {
+        "text": "4,5%",
+        "label": "RATE",
+        "evidence": "từ 4,25% lên 4,5%"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trước đó, NHNN đã có loạt chính sách điều hành mang tính nới lỏng."
+    },
+    {
+        "text": "thông báo kể từ ngày 28/8, tổ chức tín dụng có tốc độ tăng trưởng tín dụng năm 2024 đạt từ 80% chỉ tiêu phân bổ đầu năm sẽ được chủ động điều chỉnh tăng thêm dư nợ tín dụng dựa trên cơ sở điểm xếp hạng của TCTD đó",
+        "label": "EVENT",
+        "evidence": "Cụ thể, Nhà điều hành đã thông báo kể từ ngày 28/8, tổ chức tín dụng có tốc độ tăng trưởng tín dụng năm 2024 đạt từ 80% chỉ tiêu phân bổ đầu năm sẽ được chủ động điều chỉnh tăng thêm dư nợ tín dụng dựa trên cơ sở điểm xếp hạng của TCTD đó."
+    },
+    {
+        "text": "ngày 28/8",
+        "label": "DATE",
+        "evidence": "kể từ ngày 28/8"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng năm 2024"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "đạt từ 80% chỉ tiêu"
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "xếp hạng của TCTD đó"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN cũng đã chủ động ngừng phát hành trên kênh tín phiếu"
+    },
+    {
+        "text": "ngừng phát hành trên kênh tín phiếu",
+        "label": "EVENT",
+        "evidence": "NHNN cũng đã chủ động ngừng phát hành trên kênh tín phiếu nhằm hỗ trợ thanh khoản hệ thống ngân hàng."
+    },
+    {
+        "text": "tín phiếu",
+        "label": "ASSET",
+        "evidence": "trên kênh tín phiếu"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "của NHNN sẽ giúp giảm chi phí"
+    }
+]

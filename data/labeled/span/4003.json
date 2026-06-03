@@ -1,0 +1,177 @@
+[
+    {
+        "text": "gần 2 tháng",
+        "label": "DATE",
+        "evidence": "Chỉ trong gần 2 tháng đã xảy ra 7 vụ các đối tượng giả danh cán bộ quân đội hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự; hoặc dùng chiêu điện thoại đặt tiệc cho khách VIP rồi lừa đảo số tiền lớn."
+    },
+    {
+        "text": "các đối tượng giả danh cán bộ quân đội hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự",
+        "label": "EVENT",
+        "evidence": "Chỉ trong gần 2 tháng đã xảy ra 7 vụ các đối tượng giả danh cán bộ quân đội hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự; hoặc dùng chiêu điện thoại đặt tiệc cho khách VIP rồi lừa đảo số tiền lớn."
+    },
+    {
+        "text": "dùng chiêu điện thoại đặt tiệc cho khách VIP rồi lừa đảo số tiền lớn",
+        "label": "EVENT",
+        "evidence": "Chỉ trong gần 2 tháng đã xảy ra 7 vụ các đối tượng giả danh cán bộ quân đội hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự; hoặc dùng chiêu điện thoại đặt tiệc cho khách VIP rồi lừa đảo số tiền lớn."
+    },
+    {
+        "text": "Nhà hàng bị lừa đảo chiếm đoạt gần 240 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Nhà hàng bị lừa đảo chiếm đoạt gần 240 triệu đồng"
+    },
+    {
+        "text": "gần 240 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Nhà hàng bị lừa đảo chiếm đoạt gần 240 triệu đồng"
+    },
+    {
+        "text": "Bộ Chỉ huy quân sự (CHQS) tỉnh Lâm Đồng",
+        "label": "ORG",
+        "evidence": "Bộ Chỉ huy quân sự (CHQS) tỉnh Lâm Đồng vừa có công văn về việc cảnh giác, phòng chống thủ đoạn giả danh cán bộ quân đội để lừa đảo trên địa bàn tỉnh."
+    },
+    {
+        "text": "giả danh cán bộ quân đội để lừa đảo",
+        "label": "EVENT",
+        "evidence": "Bộ Chỉ huy quân sự (CHQS) tỉnh Lâm Đồng vừa có công văn về việc cảnh giác, phòng chống thủ đoạn giả danh cán bộ quân đội để lừa đảo trên địa bàn tỉnh."
+    },
+    {
+        "text": "từ đầu tháng 5 đến nay",
+        "label": "DATE",
+        "evidence": "Theo đó, từ đầu tháng 5 đến nay, các đối tượng giả danh cán bộ quân đội đã gây ra 7 vụ lừa đảo trên địa bàn TP Đà Lạt và các huyện Lâm Hà, Đơn Dương, Đạ Tẻh..."
+    },
+    {
+        "text": "hàng chục đến vài trăm triệu đồng",
+        "label": "MONEY",
+        "evidence": "Số tiền mà các đối tượng chiếm đoạt khá lớn, từ hàng chục đến vài trăm triệu đồng mỗi vụ."
+    },
+    {
+        "text": "Bộ CHQS tỉnh",
+        "label": "ORG",
+        "evidence": "Các đối tượng thường dùng điện thoại gọi đến nhà hàng, dịch vụ nấu ăn, dịch vụ tiệc cưới, giả danh là cán bộ thuộc Bộ CHQS tỉnh hoặc Ban CHQS huyện đặt từ 5 - 7 bàn tiệc mời khách VIP, sau đó tiếp tục nhờ mua rượu, sâm đắt tiền, nhãn hiệu lạ để làm quà biếu."
+    },
+    {
+        "text": "Ban CHQS huyện",
+        "label": "ORG",
+        "evidence": "Các đối tượng thường dùng điện thoại gọi đến nhà hàng, dịch vụ nấu ăn, dịch vụ tiệc cưới, giả danh là cán bộ thuộc Bộ CHQS tỉnh hoặc Ban CHQS huyện đặt từ 5 - 7 bàn tiệc mời khách VIP, sau đó tiếp tục nhờ mua rượu, sâm đắt tiền, nhãn hiệu lạ để làm quà biếu."
+    },
+    {
+        "text": "Zalo",
+        "label": "ORG",
+        "evidence": "Cách liên hệ thường là qua tài khoản Zalo mà hình đại diện của các đối tượng là người mặc quân phục để tạo niềm tin."
+    },
+    {
+        "text": "Zalo",
+        "label": "ORG",
+        "evidence": "Chưa hết, các đối tượng còn gọi điện thoại, nhắn tin qua mạng xã hội (Zalo, Messenger…) giả danh sĩ quan quân đội để bán thuốc, bán sách… hoặc hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự."
+    },
+    {
+        "text": "Messenger",
+        "label": "ORG",
+        "evidence": "Chưa hết, các đối tượng còn gọi điện thoại, nhắn tin qua mạng xã hội (Zalo, Messenger…) giả danh sĩ quan quân đội để bán thuốc, bán sách… hoặc hù dọa tống tiền gia đình có con em đang thực hiện nghĩa vụ quân sự."
+    },
+    {
+        "text": "báoTiền Phong",
+        "label": "ORG",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "Hải",
+        "label": "PERSON",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "Ban CHQS huyện",
+        "label": "ORG",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc",
+        "label": "EVENT",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "gần 240 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "nhà hàng An Mộc",
+        "label": "ORG",
+        "evidence": "Như báoTiền Phongđã thông tin, với thủ đoạn trên, đối tượng xưng tên là Hải (giả danh cán bộ của một Ban CHQS huyện) cùng đồng bọn đã lừa đảo chiếm đoạt gần 240 triệu đồng của nhà hàng An Mộc ở TP Đà Lạt."
+    },
+    {
+        "text": "Việt Thanh",
+        "label": "PERSON",
+        "evidence": "Một đối tượng xưng tên là Việt Thanh, cũng giả danh cán bộ quân đội lừa đảo chiếm đoạt 526 triệu đồng của nhà hàng Vừng Ơi (TP Đà Lạt)."
+    },
+    {
+        "text": "lừa đảo chiếm đoạt 526 triệu đồng của nhà hàng Vừng Ơi",
+        "label": "EVENT",
+        "evidence": "Một đối tượng xưng tên là Việt Thanh, cũng giả danh cán bộ quân đội lừa đảo chiếm đoạt 526 triệu đồng của nhà hàng Vừng Ơi (TP Đà Lạt)."
+    },
+    {
+        "text": "526 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Một đối tượng xưng tên là Việt Thanh, cũng giả danh cán bộ quân đội lừa đảo chiếm đoạt 526 triệu đồng của nhà hàng Vừng Ơi (TP Đà Lạt)."
+    },
+    {
+        "text": "nhà hàng Vừng Ơi",
+        "label": "ORG",
+        "evidence": "Một đối tượng xưng tên là Việt Thanh, cũng giả danh cán bộ quân đội lừa đảo chiếm đoạt 526 triệu đồng của nhà hàng Vừng Ơi (TP Đà Lạt)."
+    },
+    {
+        "text": "Hải",
+        "label": "PERSON",
+        "evidence": "Tương tự, đối tượng xưng tên là Hải (giả danh là cán bộ một đơn vị quân đội, đóng chân trên địa bàn tỉnh Đắk Nông) lừa gạt, chiếm đoạt gần 50 triệu đồng của một tiệm bánh mì ở TP Bảo Lộc."
+    },
+    {
+        "text": "lừa gạt, chiếm đoạt gần 50 triệu đồng của một tiệm bánh mì",
+        "label": "EVENT",
+        "evidence": "Tương tự, đối tượng xưng tên là Hải (giả danh là cán bộ một đơn vị quân đội, đóng chân trên địa bàn tỉnh Đắk Nông) lừa gạt, chiếm đoạt gần 50 triệu đồng của một tiệm bánh mì ở TP Bảo Lộc."
+    },
+    {
+        "text": "gần 50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, đối tượng xưng tên là Hải (giả danh là cán bộ một đơn vị quân đội, đóng chân trên địa bàn tỉnh Đắk Nông) lừa gạt, chiếm đoạt gần 50 triệu đồng của một tiệm bánh mì ở TP Bảo Lộc."
+    },
+    {
+        "text": "Cửa hàng bánh mì bị lừa gạt, chiếm đoạt gần 50 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Cửa hàng bánh mì bị lừa gạt, chiếm đoạt gần 50 triệu đồng"
+    },
+    {
+        "text": "gần 50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cửa hàng bánh mì bị lừa gạt, chiếm đoạt gần 50 triệu đồng"
+    },
+    {
+        "text": "Bộ CHQS tỉnh",
+        "label": "ORG",
+        "evidence": "Theo Bộ CHQS tỉnh, các vụ việc trên không chỉ gây thiệt hại tài sản của người dân, mất an ninh trật tự trên địa bàn mà còn làm xấu hình ảnh “Bộ đội Cụ Hồ”, ảnh hưởng đến uy tín của quân đội."
+    },
+    {
+        "text": "Bộ CHQS tỉnh",
+        "label": "ORG",
+        "evidence": "Trước tình hình đó, Bộ CHQS tỉnh khuyến cáo người dân khi nhận được các cuộc gọi của người lạ tự xưng là cán bộ quân đội để đặt hàng, yêu cầu cung cấp thông tin, nhờ giúp đỡ… thì liên hệ với Ban CHQS cấp xã, cấp huyện để xác minh, tránh bị lừa đảo."
+    },
+    {
+        "text": "Ban CHQS cấp xã",
+        "label": "ORG",
+        "evidence": "Trước tình hình đó, Bộ CHQS tỉnh khuyến cáo người dân khi nhận được các cuộc gọi của người lạ tự xưng là cán bộ quân đội để đặt hàng, yêu cầu cung cấp thông tin, nhờ giúp đỡ… thì liên hệ với Ban CHQS cấp xã, cấp huyện để xác minh, tránh bị lừa đảo."
+    },
+    {
+        "text": "cấp huyện",
+        "label": "ORG",
+        "evidence": "Trước tình hình đó, Bộ CHQS tỉnh khuyến cáo người dân khi nhận được các cuộc gọi của người lạ tự xưng là cán bộ quân đội để đặt hàng, yêu cầu cung cấp thông tin, nhờ giúp đỡ… thì liên hệ với Ban CHQS cấp xã, cấp huyện để xác minh, tránh bị lừa đảo."
+    },
+    {
+        "text": "cơ quan quân sự các cấp",
+        "label": "ORG",
+        "evidence": "Đồng thời, người dân nên cấp báo cho cơ quan quân sự các cấp và cơ quan công an nơi gần nhất để phối hợp xác minh vụ việc, xử lý kịp thời."
+    },
+    {
+        "text": "cơ quan công an",
+        "label": "ORG",
+        "evidence": "Đồng thời, người dân nên cấp báo cho cơ quan quân sự các cấp và cơ quan công an nơi gần nhất để phối hợp xác minh vụ việc, xử lý kịp thời."
+    }
+]

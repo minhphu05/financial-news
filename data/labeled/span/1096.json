@@ -1,0 +1,457 @@
+[
+    {
+        "text": "quý 3/2025",
+        "label": "DATE",
+        "evidence": "Bảng xếp hạng lợi nhuận sau thuế quý 3/2025 của các ngân hàng ghi nhận nhiều thay đổi so với quý 2."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Bảng xếp hạng lợi nhuận sau thuế quý 3/2025 của các ngân hàng ghi nhận nhiều thay đổi so với quý 2."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank vươn lên dẫn đầu hệ thống khi đạt 9.026 tỷ đồng, tăng 2,1% so với quý trước."
+    },
+    {
+        "text": "9.026 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank vươn lên dẫn đầu hệ thống khi đạt 9.026 tỷ đồng, tăng 2,1% so với quý trước."
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "Vietcombank vươn lên dẫn đầu hệ thống khi đạt 9.026 tỷ đồng, tăng 2,1% so với quý trước."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank – quán quân quý 2 – giảm 12,7% xuống còn 8.512 tỷ đồng, qua đó lùi xuống vị trí thứ hai."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "VietinBank – quán quân quý 2 – giảm 12,7% xuống còn 8.512 tỷ đồng, qua đó lùi xuống vị trí thứ hai."
+    },
+    {
+        "text": "12,7%",
+        "label": "RATE",
+        "evidence": "VietinBank – quán quân quý 2 – giảm 12,7% xuống còn 8.512 tỷ đồng, qua đó lùi xuống vị trí thứ hai."
+    },
+    {
+        "text": "8.512 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VietinBank – quán quân quý 2 – giảm 12,7% xuống còn 8.512 tỷ đồng, qua đó lùi xuống vị trí thứ hai."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank ghi nhận mức tăng mạnh nhất trong nhóm ngân hàng lớn, với lợi nhuận tăng 49,1% lên 7.364 tỷ đồng, qua đó tăng ba bậc để trở lại top 3."
+    },
+    {
+        "text": "49,1%",
+        "label": "RATE",
+        "evidence": "VPBank ghi nhận mức tăng mạnh nhất trong nhóm ngân hàng lớn, với lợi nhuận tăng 49,1% lên 7.364 tỷ đồng, qua đó tăng ba bậc để trở lại top 3."
+    },
+    {
+        "text": "7.364 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VPBank ghi nhận mức tăng mạnh nhất trong nhóm ngân hàng lớn, với lợi nhuận tăng 49,1% lên 7.364 tỷ đồng, qua đó tăng ba bậc để trở lại top 3."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV giảm 11,8%, rơi từ vị trí thứ ba xuống hạng năm, còn Techcombank tăng nhẹ 4,2% và giữ nguyên hạng tư."
+    },
+    {
+        "text": "11,8%",
+        "label": "RATE",
+        "evidence": "BIDV giảm 11,8%, rơi từ vị trí thứ ba xuống hạng năm, còn Techcombank tăng nhẹ 4,2% và giữ nguyên hạng tư."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "BIDV giảm 11,8%, rơi từ vị trí thứ ba xuống hạng năm, còn Techcombank tăng nhẹ 4,2% và giữ nguyên hạng tư."
+    },
+    {
+        "text": "4,2%",
+        "label": "RATE",
+        "evidence": "BIDV giảm 11,8%, rơi từ vị trí thứ ba xuống hạng năm, còn Techcombank tăng nhẹ 4,2% và giữ nguyên hạng tư."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB giảm 3,4%, xếp vị trí thứ sáu, trong khi ACB và HDBank giữ nguyên thứ hạng bảy và tám."
+    },
+    {
+        "text": "3,4%",
+        "label": "RATE",
+        "evidence": "MB giảm 3,4%, xếp vị trí thứ sáu, trong khi ACB và HDBank giữ nguyên thứ hạng bảy và tám."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "MB giảm 3,4%, xếp vị trí thứ sáu, trong khi ACB và HDBank giữ nguyên thứ hạng bảy và tám."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "MB giảm 3,4%, xếp vị trí thứ sáu, trong khi ACB và HDBank giữ nguyên thứ hạng bảy và tám."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ở nhóm trung bình, Sacombank và LPBank cùng cải thiện vị trí. Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Ở nhóm trung bình, Sacombank và LPBank cùng cải thiện vị trí. Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "0,3%",
+        "label": "RATE",
+        "evidence": "Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "15,3%",
+        "label": "RATE",
+        "evidence": "Sacombank tăng nhẹ 0,3% để vươn lên hạng chín, còn LPBank tăng 15,3% và lọt vào top 10."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Ngược lại, SHB giảm 28,5%, lùi hai bậc xuống hạng 11, đánh mất vị trí trong nhóm mười ngân hàng có lợi nhuận cao nhất."
+    },
+    {
+        "text": "28,5%",
+        "label": "RATE",
+        "evidence": "Ngược lại, SHB giảm 28,5%, lùi hai bậc xuống hạng 11, đánh mất vị trí trong nhóm mười ngân hàng có lợi nhuận cao nhất."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB là một trong những ngân hàng tăng trưởng nổi bật nhất quý này, với lợi nhuận tăng 54,9%, giúp ngân hàng này nhảy ba bậc lên vị trí thứ 15."
+    },
+    {
+        "text": "54,9%",
+        "label": "RATE",
+        "evidence": "OCB là một trong những ngân hàng tăng trưởng nổi bật nhất quý này, với lợi nhuận tăng 54,9%, giúp ngân hàng này nhảy ba bậc lên vị trí thứ 15."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Chiều ngược lại, SeABank giảm 31,2%, rơi hai bậc xuống hạng 17, còn ABBank giảm 37,6% và tụt một bậc xuống hạng 18."
+    },
+    {
+        "text": "31,2%",
+        "label": "RATE",
+        "evidence": "Chiều ngược lại, SeABank giảm 31,2%, rơi hai bậc xuống hạng 17, còn ABBank giảm 37,6% và tụt một bậc xuống hạng 18."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Chiều ngược lại, SeABank giảm 31,2%, rơi hai bậc xuống hạng 17, còn ABBank giảm 37,6% và tụt một bậc xuống hạng 18."
+    },
+    {
+        "text": "37,6%",
+        "label": "RATE",
+        "evidence": "Chiều ngược lại, SeABank giảm 31,2%, rơi hai bậc xuống hạng 17, còn ABBank giảm 37,6% và tụt một bậc xuống hạng 18."
+    },
+    {
+        "text": "Vietbank",
+        "label": "ORG",
+        "evidence": "Trong nhóm quy mô nhỏ, Vietbank tăng 32,4% và vươn ba bậc lên hạng 21."
+    },
+    {
+        "text": "32,4%",
+        "label": "RATE",
+        "evidence": "Trong nhóm quy mô nhỏ, Vietbank tăng 32,4% và vươn ba bậc lên hạng 21."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "BVBank có tỷ lệ tăng lớn nhất toàn hệ thống, khi lợi nhuận tăng từ 10 tỷ đồng trong quý 2 lên 274 tỷ đồng trong quý 3, tương đương tăng hơn 26 lần, qua đó tiến 5 bậc lên vị trí 22."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BVBank có tỷ lệ tăng lớn nhất toàn hệ thống, khi lợi nhuận tăng từ 10 tỷ đồng trong quý 2 lên 274 tỷ đồng trong quý 3, tương đương tăng hơn 26 lần, qua đó tiến 5 bậc lên vị trí 22."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "BVBank có tỷ lệ tăng lớn nhất toàn hệ thống, khi lợi nhuận tăng từ 10 tỷ đồng trong quý 2 lên 274 tỷ đồng trong quý 3, tương đương tăng hơn 26 lần, qua đó tiến 5 bậc lên vị trí 22."
+    },
+    {
+        "text": "274 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BVBank có tỷ lệ tăng lớn nhất toàn hệ thống, khi lợi nhuận tăng từ 10 tỷ đồng trong quý 2 lên 274 tỷ đồng trong quý 3, tương đương tăng hơn 26 lần, qua đó tiến 5 bậc lên vị trí 22."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "BVBank có tỷ lệ tăng lớn nhất toàn hệ thống, khi lợi nhuận tăng từ 10 tỷ đồng trong quý 2 lên 274 tỷ đồng trong quý 3, tương đương tăng hơn 26 lần, qua đó tiến 5 bậc lên vị trí 22."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "Trong khi đó, NCB giảm 39,1% và rơi ba bậc, còn Bac A Bank giảm 51,4% và xuống hạng 26."
+    },
+    {
+        "text": "39,1%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, NCB giảm 39,1% và rơi ba bậc, còn Bac A Bank giảm 51,4% và xuống hạng 26."
+    },
+    {
+        "text": "Bac A Bank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, NCB giảm 39,1% và rơi ba bậc, còn Bac A Bank giảm 51,4% và xuống hạng 26."
+    },
+    {
+        "text": "51,4%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, NCB giảm 39,1% và rơi ba bậc, còn Bac A Bank giảm 51,4% và xuống hạng 26."
+    },
+    {
+        "text": "quý 3/2025",
+        "label": "DATE",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Tính đến hết quý 3/2025, mười ngân hàng có lợi nhuận sau thuế cao nhất lần lượt là Vietcombank, VietinBank, VPBank, Techcombank, BIDV, MB, ACB, HDBank, Sacombank và LPBank."
+    },
+    {
+        "text": "họp báo thông tin kết quả hoạt động ngân hàng quý 3/2025",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại họp báo thông tin kết quả hoạt động ngân hàng quý 3/2025, lãnh đạo Ngân hàng Nhà nước cho biết tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024, duy trì xu hướng tháng sau cao hơn tháng trước."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trước đó, tại họp báo thông tin kết quả hoạt động ngân hàng quý 3/2025, lãnh đạo Ngân hàng Nhà nước cho biết tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024, duy trì xu hướng tháng sau cao hơn tháng trước."
+    },
+    {
+        "text": "tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại họp báo thông tin kết quả hoạt động ngân hàng quý 3/2025, lãnh đạo Ngân hàng Nhà nước cho biết tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024, duy trì xu hướng tháng sau cao hơn tháng trước."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "lãnh đạo Ngân hàng Nhà nước cho biết tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024, duy trì xu hướng tháng sau cao hơn tháng trước."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "lãnh đạo Ngân hàng Nhà nước cho biết tín dụng năm 2025 tăng cao hơn so với cùng kỳ 2024, duy trì xu hướng tháng sau cao hơn tháng trước."
+    },
+    {
+        "text": "29/9/2025",
+        "label": "DATE",
+        "evidence": "Đến 29/9/2025, tín dụng tăng 13,37% so với cuối năm 2024, cơ cấu tập trung sản xuất kinh doanh, lĩnh vực ưu tiên."
+    },
+    {
+        "text": "tín dụng tăng 13,37% so với cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "Đến 29/9/2025, tín dụng tăng 13,37% so với cuối năm 2024, cơ cấu tập trung sản xuất kinh doanh, lĩnh vực ưu tiên."
+    },
+    {
+        "text": "13,37%",
+        "label": "RATE",
+        "evidence": "Đến 29/9/2025, tín dụng tăng 13,37% so với cuối năm 2024, cơ cấu tập trung sản xuất kinh doanh, lĩnh vực ưu tiên."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Đến 29/9/2025, tín dụng tăng 13,37% so với cuối năm 2024, cơ cấu tập trung sản xuất kinh doanh, lĩnh vực ưu tiên."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong điều hành lãi suất, NHNN tiếp tục duy trì lãi suất điều hành ở mức thấp để định hướng thị trường giảm lãi suất cho vay, hỗ trợ doanh nghiệp và người dân."
+    },
+    {
+        "text": "duy trì lãi suất điều hành ở mức thấp",
+        "label": "EVENT",
+        "evidence": "Trong điều hành lãi suất, NHNN tiếp tục duy trì lãi suất điều hành ở mức thấp để định hướng thị trường giảm lãi suất cho vay, hỗ trợ doanh nghiệp và người dân."
+    },
+    {
+        "text": "định hướng thị trường giảm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "Trong điều hành lãi suất, NHNN tiếp tục duy trì lãi suất điều hành ở mức thấp để định hướng thị trường giảm lãi suất cho vay, hỗ trợ doanh nghiệp và người dân."
+    },
+    {
+        "text": "chỉ đạo các TCTD tiết giảm chi phí hoạt động, đẩy mạnh ứng dụng công nghệ thông tin nhằm hạ lãi suất",
+        "label": "EVENT",
+        "evidence": "Đồng thời, chỉ đạo các TCTD tiết giảm chi phí hoạt động, đẩy mạnh ứng dụng công nghệ thông tin nhằm hạ lãi suất."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "Đồng thời, chỉ đạo các TCTD tiết giảm chi phí hoạt động, đẩy mạnh ứng dụng công nghệ thông tin nhằm hạ lãi suất."
+    },
+    {
+        "text": "hạ lãi suất",
+        "label": "EVENT",
+        "evidence": "Đồng thời, chỉ đạo các TCTD tiết giảm chi phí hoạt động, đẩy mạnh ứng dụng công nghệ thông tin nhằm hạ lãi suất."
+    },
+    {
+        "text": "Mặt bằng lãi suất cho vay tiếp tục xu hướng giảm",
+        "label": "EVENT",
+        "evidence": "Mặt bằng lãi suất cho vay tiếp tục xu hướng giảm."
+    },
+    {
+        "text": "NHNN điều hành tỷ giá linh hoạt, phù hợp, phối hợp với các công cụ chính sách tiền tệ khác",
+        "label": "EVENT",
+        "evidence": "Với thị trường ngoại tệ, NHNN điều hành tỷ giá linh hoạt, phù hợp, phối hợp với các công cụ chính sách tiền tệ khác."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Với thị trường ngoại tệ, NHNN điều hành tỷ giá linh hoạt, phù hợp, phối hợp với các công cụ chính sách tiền tệ khác."
+    },
+    {
+        "text": "30/12/2024",
+        "label": "DATE",
+        "evidence": "Trong điều hành tín dụng, ngày 30/12/2024, NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD, công khai nguyên tắc triển khai."
+    },
+    {
+        "text": "NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD",
+        "label": "EVENT",
+        "evidence": "Trong điều hành tín dụng, ngày 30/12/2024, NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD, công khai nguyên tắc triển khai."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong điều hành tín dụng, ngày 30/12/2024, NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD, công khai nguyên tắc triển khai."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD, công khai nguyên tắc triển khai."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "NHNN đã gửi văn bản thông báo toàn bộ chỉ tiêu tăng trưởng tín dụng năm 2025 tới các TCTD, công khai nguyên tắc triển khai."
+    },
+    {
+        "text": "31/7/2025",
+        "label": "DATE",
+        "evidence": "Tiếp đó, ngày 31/7/2025, NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025 theo nguyên tắc minh bạch, công khai, các TCTD không cần đề nghị."
+    },
+    {
+        "text": "NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025",
+        "label": "EVENT",
+        "evidence": "Tiếp đó, ngày 31/7/2025, NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025 theo nguyên tắc minh bạch, công khai, các TCTD không cần đề nghị."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Tiếp đó, ngày 31/7/2025, NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025 theo nguyên tắc minh bạch, công khai, các TCTD không cần đề nghị."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025 theo nguyên tắc minh bạch, công khai, các TCTD không cần đề nghị."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "NHNN điều chỉnh tăng thêm chỉ tiêu tín dụng năm 2025 theo nguyên tắc minh bạch, công khai, các TCTD không cần đề nghị."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "Các TCTD được chỉ đạo tăng trưởng tín dụng an toàn, hiệu quả, tập trung vào sản xuất kinh doanh, lĩnh vực ưu tiên và động lực tăng trưởng, kiểm soát tín dụng rủi ro."
+    },
+    {
+        "text": "tăng trưởng tín dụng an toàn, hiệu quả, tập trung vào sản xuất kinh doanh, lĩnh vực ưu tiên và động lực tăng trưởng, kiểm soát tín dụng rủi ro",
+        "label": "EVENT",
+        "evidence": "Các TCTD được chỉ đạo tăng trưởng tín dụng an toàn, hiệu quả, tập trung vào sản xuất kinh doanh, lĩnh vực ưu tiên và động lực tăng trưởng, kiểm soát tín dụng rủi ro."
+    },
+    {
+        "text": "Nhiều chương trình tín dụng hỗ trợ được triển khai",
+        "label": "EVENT",
+        "evidence": "Nhiều chương trình tín dụng hỗ trợ được triển khai, như cho vay nông, lâm, thủy sản; cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long; cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ; cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội."
+    },
+    {
+        "text": "cho vay nông, lâm, thủy sản",
+        "label": "EVENT",
+        "evidence": "Nhiều chương trình tín dụng hỗ trợ được triển khai, như cho vay nông, lâm, thủy sản; cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long; cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ; cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội."
+    },
+    {
+        "text": "cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long",
+        "label": "EVENT",
+        "evidence": "Nhiều chương trình tín dụng hỗ trợ được triển khai, như cho vay nông, lâm, thủy sản; cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long; cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ; cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội."
+    },
+    {
+        "text": "cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ",
+        "label": "EVENT",
+        "evidence": "Nhiều chương trình tín dụng hỗ trợ được triển khai, như cho vay nông, lâm, thủy sản; cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long; cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ; cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội."
+    },
+    {
+        "text": "cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội",
+        "label": "EVENT",
+        "evidence": "Nhiều chương trình tín dụng hỗ trợ được triển khai, như cho vay nông, lâm, thủy sản; cho vay sản xuất, tiêu thụ lúa gạo chất lượng cao ở Đồng bằng sông Cửu Long; cho vay nhà ở xã hội, nhà ở công nhân, cải tạo chung cư cũ; cho vay người trẻ dưới 35 tuổi mua nhà ở xã hội."
+    }
+]

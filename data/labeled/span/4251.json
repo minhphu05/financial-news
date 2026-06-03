@@ -1,0 +1,447 @@
+[
+    {
+        "text": "Ngày 6/3",
+        "label": "DATE",
+        "evidence": "Ngày 6/3, thị trường chứng khoán Việt Nam có 1 phiên giao dịch giảm điểm trên cả 3 sàn."
+    },
+    {
+        "text": "1 phiên giao dịch giảm điểm trên cả 3 sàn",
+        "label": "EVENT",
+        "evidence": "Ngày 6/3, thị trường chứng khoán Việt Nam có 1 phiên giao dịch giảm điểm trên cả 3 sàn."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên giao dịch, VN-Index giảm 7,25 điểm về 1.262,73 điểm, tương ứng giảm 0,57%."
+    },
+    {
+        "text": "giảm 7,25 điểm",
+        "label": "RATE",
+        "evidence": "Kết phiên giao dịch, VN-Index giảm 7,25 điểm về 1.262,73 điểm, tương ứng giảm 0,57%."
+    },
+    {
+        "text": "1.262,73 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên giao dịch, VN-Index giảm 7,25 điểm về 1.262,73 điểm, tương ứng giảm 0,57%."
+    },
+    {
+        "text": "giảm 0,57%",
+        "label": "RATE",
+        "evidence": "Kết phiên giao dịch, VN-Index giảm 7,25 điểm về 1.262,73 điểm, tương ứng giảm 0,57%."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Ngược dòng với thị trường, giá 2 cổ phiếu của Masan (MSN) và Techcombank (TCB) lại tăng trong hôm nay."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Ngược dòng với thị trường, giá 2 cổ phiếu của Masan (MSN) và Techcombank (TCB) lại tăng trong hôm nay."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ngược dòng với thị trường, giá 2 cổ phiếu của Masan (MSN) và Techcombank (TCB) lại tăng trong hôm nay."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Ngược dòng với thị trường, giá 2 cổ phiếu của Masan (MSN) và Techcombank (TCB) lại tăng trong hôm nay."
+    },
+    {
+        "text": "cổ phiếu MSN",
+        "label": "ASSET",
+        "evidence": "Cụ thể, cổ phiếu MSN đã tăng 1,6%, tương ứng tăng 1.200 đồng/cp lên mức 76.900 đồng/cp."
+    },
+    {
+        "text": "tăng 1,6%",
+        "label": "RATE",
+        "evidence": "Cụ thể, cổ phiếu MSN đã tăng 1,6%, tương ứng tăng 1.200 đồng/cp lên mức 76.900 đồng/cp."
+    },
+    {
+        "text": "tăng 1.200 đồng/cp",
+        "label": "MONEY",
+        "evidence": "Cụ thể, cổ phiếu MSN đã tăng 1,6%, tương ứng tăng 1.200 đồng/cp lên mức 76.900 đồng/cp."
+    },
+    {
+        "text": "76.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cụ thể, cổ phiếu MSN đã tăng 1,6%, tương ứng tăng 1.200 đồng/cp lên mức 76.900 đồng/cp."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Với mức giá này, vốn hóa của Masan hiện đang hơn 110.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 110.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với mức giá này, vốn hóa của Masan hiện đang hơn 110.000 tỷ đồng."
+    },
+    {
+        "text": "từ đầu tháng 2 tới nay",
+        "label": "DATE",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay, cổ phiếu MSN đã tăng 19%."
+    },
+    {
+        "text": "cổ phiếu MSN",
+        "label": "ASSET",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay, cổ phiếu MSN đã tăng 19%."
+    },
+    {
+        "text": "tăng 19%",
+        "label": "RATE",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay, cổ phiếu MSN đã tăng 19%."
+    },
+    {
+        "text": "cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Còn cổ phiếu TCB đã tăng 1,3%, tương ứng tăng 550 đồng/cp lên mức 42.750 đồng/cp."
+    },
+    {
+        "text": "tăng 1,3%",
+        "label": "RATE",
+        "evidence": "Còn cổ phiếu TCB đã tăng 1,3%, tương ứng tăng 550 đồng/cp lên mức 42.750 đồng/cp."
+    },
+    {
+        "text": "tăng 550 đồng/cp",
+        "label": "MONEY",
+        "evidence": "Còn cổ phiếu TCB đã tăng 1,3%, tương ứng tăng 550 đồng/cp lên mức 42.750 đồng/cp."
+    },
+    {
+        "text": "42.750 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Còn cổ phiếu TCB đã tăng 1,3%, tương ứng tăng 550 đồng/cp lên mức 42.750 đồng/cp."
+    },
+    {
+        "text": "gần 150.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa hiện tại gần 150.600 tỷ đồng."
+    },
+    {
+        "text": "từ đầu tháng 2 tới nay",
+        "label": "DATE",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay,cổ phiếu TCBđã tăng 24%."
+    },
+    {
+        "text": "cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay,cổ phiếu TCBđã tăng 24%."
+    },
+    {
+        "text": "tăng 24%",
+        "label": "RATE",
+        "evidence": "Nếu tính từ đầu tháng 2 tới nay,cổ phiếu TCBđã tăng 24%."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "kết thúc chính sách 10 năm không chia cổ tức tiền mặt",
+        "label": "EVENT",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "Đại hội đồng cổ đông năm 2024",
+        "label": "DATE",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá",
+        "label": "EVENT",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "20% lợi nhuận sau thuế",
+        "label": "RATE",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "15% mệnh giá",
+        "label": "RATE",
+        "evidence": "Gần đây, Techcombank cũng đã kết thúc chính sách 10 năm không chia cổ tức tiền mặt, và dự kiến tại Đại hội đồng cổ đông năm 2024 sẽ trình phương án chia cổ tức bằng 20% lợi nhuận sau thuế, tương đương 15% mệnh giá."
+    },
+    {
+        "text": "Phùng Quang Hưng",
+        "label": "PERSON",
+        "evidence": "\"Điều này sẽ đảm bảo dòng tiền thường xuyên cho cổ đông, khi vừa có thu nhập trực tiếp đến từ kết quả kinh doanh hàng năm, trong khi vẫn tối ưu hóa lợi ích từ tiềm năng tăng giá dựa trên vị thế dẫn đầu của ngân hàng tại thị trường tài chính Việt Nam\", ông Phùng Quang Hưng, Phó Tổng giám đốc Techcombank nói."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Điều này sẽ đảm bảo dòng tiền thường xuyên cho cổ đông, khi vừa có thu nhập trực tiếp đến từ kết quả kinh doanh hàng năm, trong khi vẫn tối ưu hóa lợi ích từ tiềm năng tăng giá dựa trên vị thế dẫn đầu của ngân hàng tại thị trường tài chính Việt Nam\", ông Phùng Quang Hưng, Phó Tổng giám đốc Techcombank nói."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Đối với Masan, năm 2023 là năm Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ - giảm hơn 88% so với cùng kỳ."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đối với Masan, năm 2023 là năm Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ - giảm hơn 88% so với cùng kỳ."
+    },
+    {
+        "text": "Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ",
+        "label": "EVENT",
+        "evidence": "Đối với Masan, năm 2023 là năm Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ - giảm hơn 88% so với cùng kỳ."
+    },
+    {
+        "text": "419 tỷ",
+        "label": "MONEY",
+        "evidence": "Đối với Masan, năm 2023 là năm Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ - giảm hơn 88% so với cùng kỳ."
+    },
+    {
+        "text": "giảm hơn 88%",
+        "label": "RATE",
+        "evidence": "Đối với Masan, năm 2023 là năm Masan ghi nhận mức lợi nhuận ròng thấp nhất trong 10 năm trở lại đây với 419 tỷ - giảm hơn 88% so với cùng kỳ."
+    },
+    {
+        "text": "Chứng khoán Bảo Việt",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, theo Chứng khoán Bảo Việt (BVSC), một điểm sáng của Masan là áp lực tài chính sẽ giảm đáng kể từ 2024."
+    },
+    {
+        "text": "BVSC",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, theo Chứng khoán Bảo Việt (BVSC), một điểm sáng của Masan là áp lực tài chính sẽ giảm đáng kể từ 2024."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, theo Chứng khoán Bảo Việt (BVSC), một điểm sáng của Masan là áp lực tài chính sẽ giảm đáng kể từ 2024."
+    },
+    {
+        "text": "từ 2024",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, theo Chứng khoán Bảo Việt (BVSC), một điểm sáng của Masan là áp lực tài chính sẽ giảm đáng kể từ 2024."
+    },
+    {
+        "text": "Cuối quý 4/2023",
+        "label": "DATE",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "8.963 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "giảm 62%",
+        "label": "RATE",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "21,6%",
+        "label": "RATE",
+        "evidence": "Cuối quý 4/2023, nợ vay đến hạn trong 12 tháng tới của MSN là 8.963 tỷ đồng (giảm 62%) và chiếm 21,6% tổng dư nợ dài hạn."
+    },
+    {
+        "text": "Cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Cuối năm 2023, MSN cũng cho biết đã hoàn tất thanh toán đầy đủ nghĩa vụ nợ đáo hạn trong năm 2023."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Cuối năm 2023, MSN cũng cho biết đã hoàn tất thanh toán đầy đủ nghĩa vụ nợ đáo hạn trong năm 2023."
+    },
+    {
+        "text": "hoàn tất thanh toán đầy đủ nghĩa vụ nợ đáo hạn trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Cuối năm 2023, MSN cũng cho biết đã hoàn tất thanh toán đầy đủ nghĩa vụ nợ đáo hạn trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Cuối năm 2023, MSN cũng cho biết đã hoàn tất thanh toán đầy đủ nghĩa vụ nợ đáo hạn trong năm 2023."
+    },
+    {
+        "text": "Trong năm 2024",
+        "label": "DATE",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "6.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "250 triệu USD",
+        "label": "MONEY",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "Bain Capital",
+        "label": "ORG",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "thương vụ gần đây với Bain Capital",
+        "label": "EVENT",
+        "evidence": "Trong năm 2024, tổng mức đáo hạn trái phiếu theo tính toán của giới phân tích chỉ rơi vào mức 6.000 tỷ đồng, với dòng tiền cải thiện cùng với lượng tiền lớn lên đến 250 triệu USD từ thương vụ gần đây với Bain Capital, theo đó vấn đề thanh khoản không còn là nỗi lo trong thời gian tới với DN này."
+    },
+    {
+        "text": "VietCap",
+        "label": "ORG",
+        "evidence": "Theo quan điểm của VietCap trong báo cáo phân tích mới nhất, MSN sở hữu nhiều mảng kinh doanh tiêu dùng từ sản xuất thực phẩm và đồ uống đến mạng lưới bán lẻ toàn quốc, mỗi mảng có sự cộng hưởng ý nghĩa với nhau."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Theo quan điểm của VietCap trong báo cáo phân tích mới nhất, MSN sở hữu nhiều mảng kinh doanh tiêu dùng từ sản xuất thực phẩm và đồ uống đến mạng lưới bán lẻ toàn quốc, mỗi mảng có sự cộng hưởng ý nghĩa với nhau."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Trong 3 năm qua, ban lãnh đạo đã định vị MSN rõ ràng hơn là một công ty tiêu dùng, với việc tăng quyền sở hữu và đầu tư vào các hoạt động kinh doanh liên quan đến mảng tiêu dùng cũng như thoái vốn khỏi hoạt động kinh doanh thức ăn chăn nuôi không cốt lõi."
+    },
+    {
+        "text": "thoái vốn khỏi hoạt động kinh doanh thức ăn chăn nuôi không cốt lõi",
+        "label": "EVENT",
+        "evidence": "Trong 3 năm qua, ban lãnh đạo đã định vị MSN rõ ràng hơn là một công ty tiêu dùng, với việc tăng quyền sở hữu và đầu tư vào các hoạt động kinh doanh liên quan đến mảng tiêu dùng cũng như thoái vốn khỏi hoạt động kinh doanh thức ăn chăn nuôi không cốt lõi."
+    },
+    {
+        "text": "Masan High-Tech Materials",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Công ty hiện đang đặt mục tiêu giảm tỷ lệ sở hữu trong một hoạt động kinh doanh không cốt lõi khác là Masan High-Tech Materials (MHT) ."
+    },
+    {
+        "text": "MHT",
+        "label": "TICKER",
+        "evidence": "Đặc biệt, Công ty hiện đang đặt mục tiêu giảm tỷ lệ sở hữu trong một hoạt động kinh doanh không cốt lõi khác là Masan High-Tech Materials (MHT) ."
+    },
+    {
+        "text": "VietCap",
+        "label": "ORG",
+        "evidence": "Đây là hoạt động mà VietCap coi là yếu tố hỗ trợ tăng đáng kể cho giá trị doanh nghiệp MSN."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Đây là hoạt động mà VietCap coi là yếu tố hỗ trợ tăng đáng kể cho giá trị doanh nghiệp MSN."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Cùng nhau khởi nghiệp ở Đông Âu rồi về nước phát triển sự nghiệp kinh doanh lên tầm cao mới, bộ đôi tỷ phú Hồ Hùng Anh và Nguyễn Đăng Quang đã gây dựng nên Masan và Techcombank trở thành 2 doanh nghiệp hàng đầu tại Việt Nam."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Cùng nhau khởi nghiệp ở Đông Âu rồi về nước phát triển sự nghiệp kinh doanh lên tầm cao mới, bộ đôi tỷ phú Hồ Hùng Anh và Nguyễn Đăng Quang đã gây dựng nên Masan và Techcombank trở thành 2 doanh nghiệp hàng đầu tại Việt Nam."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Cùng nhau khởi nghiệp ở Đông Âu rồi về nước phát triển sự nghiệp kinh doanh lên tầm cao mới, bộ đôi tỷ phú Hồ Hùng Anh và Nguyễn Đăng Quang đã gây dựng nên Masan và Techcombank trở thành 2 doanh nghiệp hàng đầu tại Việt Nam."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Cùng nhau khởi nghiệp ở Đông Âu rồi về nước phát triển sự nghiệp kinh doanh lên tầm cao mới, bộ đôi tỷ phú Hồ Hùng Anh và Nguyễn Đăng Quang đã gây dựng nên Masan và Techcombank trở thành 2 doanh nghiệp hàng đầu tại Việt Nam."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Hai doanh nghiệp có nhiều mối liên quan khi cả ôngHồ Hùng Anhvà ông Nguyễn Đăng Quang đều sở hữu cổ phần tại TCB và MSN."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Hai doanh nghiệp có nhiều mối liên quan khi cả ôngHồ Hùng Anhvà ông Nguyễn Đăng Quang đều sở hữu cổ phần tại TCB và MSN."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Hai doanh nghiệp có nhiều mối liên quan khi cả ôngHồ Hùng Anhvà ông Nguyễn Đăng Quang đều sở hữu cổ phần tại TCB và MSN."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Hai doanh nghiệp có nhiều mối liên quan khi cả ôngHồ Hùng Anhvà ông Nguyễn Đăng Quang đều sở hữu cổ phần tại TCB và MSN."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan còn đang là cổ đông lớn nhất của Techcombank khi sở hữu hơn 524 triệu cổ phiếu TCB, tỷ lệ sở hữu 14,88%."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Masan còn đang là cổ đông lớn nhất của Techcombank khi sở hữu hơn 524 triệu cổ phiếu TCB, tỷ lệ sở hữu 14,88%."
+    },
+    {
+        "text": "hơn 524 triệu cổ phiếu TCB",
+        "label": "VOLUME",
+        "evidence": "Masan còn đang là cổ đông lớn nhất của Techcombank khi sở hữu hơn 524 triệu cổ phiếu TCB, tỷ lệ sở hữu 14,88%."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Masan còn đang là cổ đông lớn nhất của Techcombank khi sở hữu hơn 524 triệu cổ phiếu TCB, tỷ lệ sở hữu 14,88%."
+    },
+    {
+        "text": "14,88%",
+        "label": "RATE",
+        "evidence": "Masan còn đang là cổ đông lớn nhất của Techcombank khi sở hữu hơn 524 triệu cổ phiếu TCB, tỷ lệ sở hữu 14,88%."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Ông Nguyễn Đăng Quang cũng đang là Phó Chủ tịch HĐQT Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Nguyễn Đăng Quang cũng đang là Phó Chủ tịch HĐQT Techcombank."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    },
+    {
+        "text": "gần 24.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    },
+    {
+        "text": "hơn 24.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    },
+    {
+        "text": "tăng 375 tỷ",
+        "label": "MONEY",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    },
+    {
+        "text": "384 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau đà tăng của cổ phiếu, hiện nay, khối tài sản chứng khoán của ôngNguyễn Đăng Quangđạt gần 24.100 tỷ đồng và của ông Hồ Hùng Anh đạt hơn 24.900 tỷ đồng, lần lượt tăng 375 tỷ và 384 tỷ đồng trong ngày hôm nay."
+    }
+]

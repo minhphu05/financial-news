@@ -1,0 +1,247 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngay sau thông tin ACB triển khai cho vay mua căn nhà đầu tiên với lãi suất từ 5,5%/năm, nhiều người cho biết đã liên hệ để hỏi thông tin vay vốn."
+    },
+    {
+        "text": "triển khai cho vay mua căn nhà đầu tiên",
+        "label": "EVENT",
+        "evidence": "Ngay sau thông tin ACB triển khai cho vay mua căn nhà đầu tiên với lãi suất từ 5,5%/năm, nhiều người cho biết đã liên hệ để hỏi thông tin vay vốn."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Ngay sau thông tin ACB triển khai cho vay mua căn nhà đầu tiên với lãi suất từ 5,5%/năm, nhiều người cho biết đã liên hệ để hỏi thông tin vay vốn."
+    },
+    {
+        "text": "Anh Ngọc Dương",
+        "label": "PERSON",
+        "evidence": "Anh Ngọc Dương (ngụ quận 7, TP HCM) cho biết đang có nhu cầu vay tiền mua căn hộ ở TP HCM nên đã liên hệ ngân hàng ACB hỏi thủ tục vay mua căn nhà đầu tiên."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Anh Ngọc Dương (ngụ quận 7, TP HCM) cho biết đang có nhu cầu vay tiền mua căn hộ ở TP HCM nên đã liên hệ ngân hàng ACB hỏi thủ tục vay mua căn nhà đầu tiên."
+    },
+    {
+        "text": "chương trình cho vay \"Ngôi nhà đầu tiên\"",
+        "label": "EVENT",
+        "evidence": "Nhân viên tín dụng cho biết chương trình cho vay \"Ngôi nhà đầu tiên\" hỗ trợ nguồn vốn cho các nhu cầu mua nhà/đất ở hoặc xây dựng/sửa chữa nhà."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "Thời hạn vay tối đa 30 năm."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất ưu đãi từ 5,5%/năm, tính trên dư nợ thực tế (dư nợ giảm dần)."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "mức vay tối thiểu từ 200 triệu đồng."
+    },
+    {
+        "text": "15 triệu đồng/ tháng",
+        "label": "MONEY",
+        "evidence": "bảo đảm khả năng trả nợ (tối thiểu từ 15 triệu đồng/ tháng)."
+    },
+    {
+        "text": "anh Dương",
+        "label": "PERSON",
+        "evidence": "Các điều kiện trên tôi đều đáp ứng nhưng nhân viên tín dụng nói phải xem hồ sơ để xác định mức lãi suất cụ thể và thời gian được ân hạn trả nợ gốc\" – anh Dương kể."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đến thời điểm hện tại, ACB là ngân hàng thương mại đầu tiên công bố gói tín dụng cho khách hàng trẻ ngay sau yêu cầu của Thủ tướng."
+    },
+    {
+        "text": "công bố gói tín dụng cho khách hàng trẻ",
+        "label": "EVENT",
+        "evidence": "Đến thời điểm hện tại, ACB là ngân hàng thương mại đầu tiên công bố gói tín dụng cho khách hàng trẻ ngay sau yêu cầu của Thủ tướng."
+    },
+    {
+        "text": "Báo Người Lao Động",
+        "label": "ORG",
+        "evidence": "Ghi nhận của phóng viên Báo Người Lao Động, không chỉ ACB, nhiều ngân hàng thương mại cũng đang triển khai loạt gói tín dụng ưu đãi cho khách hàng vay mua bất động sản, với mức lãi suất thấp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ghi nhận của phóng viên Báo Người Lao Động, không chỉ ACB, nhiều ngân hàng thương mại cũng đang triển khai loạt gói tín dụng ưu đãi cho khách hàng vay mua bất động sản, với mức lãi suất thấp."
+    },
+    {
+        "text": "triển khai loạt gói tín dụng ưu đãi cho khách hàng vay mua bất động sản",
+        "label": "EVENT",
+        "evidence": "Ghi nhận của phóng viên Báo Người Lao Động, không chỉ ACB, nhiều ngân hàng thương mại cũng đang triển khai loạt gói tín dụng ưu đãi cho khách hàng vay mua bất động sản, với mức lãi suất thấp."
+    },
+    {
+        "text": "PVcomBank",
+        "label": "ORG",
+        "evidence": "PVcomBank đang triển khai gói tín dụng vay mua bất động sản với lãi suất từ 3,99%/năm (ưu đãi trong 3 tháng đầu)."
+    },
+    {
+        "text": "triển khai gói tín dụng vay mua bất động sản",
+        "label": "EVENT",
+        "evidence": "PVcomBank đang triển khai gói tín dụng vay mua bất động sản với lãi suất từ 3,99%/năm (ưu đãi trong 3 tháng đầu)."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "PVcomBank đang triển khai gói tín dụng vay mua bất động sản với lãi suất từ 3,99%/năm (ưu đãi trong 3 tháng đầu)."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "PVcomBank đang triển khai gói tín dụng vay mua bất động sản với lãi suất từ 3,99%/năm (ưu đãi trong 3 tháng đầu)."
+    },
+    {
+        "text": "35 năm",
+        "label": "DATE",
+        "evidence": "Thời gian vay dài lên tới 35 năm, kế hoạch trả nợ linh hoạt, phù hợp khả năng."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Ngân hàng này cũng áp dụng chính sách ân hạn trả gốc tới 36 tháng; hạn mức vay tối đa 50 tỉ đồng và tỉ lệ cho vay tối đa 85% giá trị tài sản bảo đảm."
+    },
+    {
+        "text": "50 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "hạn mức vay tối đa 50 tỉ đồng và tỉ lệ cho vay tối đa 85% giá trị tài sản bảo đảm."
+    },
+    {
+        "text": "85%",
+        "label": "RATE",
+        "evidence": "tỉ lệ cho vay tối đa 85% giá trị tài sản bảo đảm."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Nếu khách vay chọn cố định lãi suất trong 12 tháng, lãi suất là 6,2% và cố định trong 18 tháng lãi suất sẽ là 6,99%/năm."
+    },
+    {
+        "text": "6,2%",
+        "label": "RATE",
+        "evidence": "Nếu khách vay chọn cố định lãi suất trong 12 tháng, lãi suất là 6,2% và cố định trong 18 tháng lãi suất sẽ là 6,99%/năm."
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Nếu khách vay chọn cố định lãi suất trong 12 tháng, lãi suất là 6,2% và cố định trong 18 tháng lãi suất sẽ là 6,99%/năm."
+    },
+    {
+        "text": "6,99%/năm",
+        "label": "RATE",
+        "evidence": "cố định trong 18 tháng lãi suất sẽ là 6,99%/năm."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Một số ngân hàng cho vay mua bất động sản với lãi suất từ 3,99%/năm"
+    },
+    {
+        "text": "tung chương trình ưu đãi vay mua nhà đất",
+        "label": "EVENT",
+        "evidence": "Một ngân hàng khác cũng vừa tung chương trình ưu đãi vay mua nhà đất, với lãi suất từ 3,99%/năm là SHB."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Một ngân hàng khác cũng vừa tung chương trình ưu đãi vay mua nhà đất, với lãi suất từ 3,99%/năm là SHB."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Một ngân hàng khác cũng vừa tung chương trình ưu đãi vay mua nhà đất, với lãi suất từ 3,99%/năm là SHB."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, khách hàng có thể vay mua bất động sản với lãi suất từ 3,99%/năm; vay đến 90% giá trị nhà mua."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "vay đến 90% giá trị nhà mua."
+    },
+    {
+        "text": "35 năm",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, các ngân hàng cho vay tới gian dài lên tới 35 năm, miễn trả nợ gốc tối đa 5 năm đầu."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "miễn trả nợ gốc tối đa 5 năm đầu."
+    },
+    {
+        "text": "hàng tháng",
+        "label": "DATE",
+        "evidence": "trả gốc theo dòng tiền của định kỳ hàng tháng/hàng quý hoặc 6 tháng/lần"
+    },
+    {
+        "text": "hàng quý",
+        "label": "DATE",
+        "evidence": "trả gốc theo dòng tiền của định kỳ hàng tháng/hàng quý hoặc 6 tháng/lần"
+    },
+    {
+        "text": "6 tháng/lần",
+        "label": "DATE",
+        "evidence": "trả gốc theo dòng tiền của định kỳ hàng tháng/hàng quý hoặc 6 tháng/lần"
+    },
+    {
+        "text": "ABBANK",
+        "label": "ORG",
+        "evidence": "Tại ABBANK, ngân hàng này cho vay mua nhà với thời gian lên tới 35 năm."
+    },
+    {
+        "text": "35 năm",
+        "label": "DATE",
+        "evidence": "Tại ABBANK, ngân hàng này cho vay mua nhà với thời gian lên tới 35 năm."
+    },
+    {
+        "text": "Ưu đãi lãi vay – Trao tay giải pháp",
+        "label": "EVENT",
+        "evidence": "Trong chương trình tín dụng ưu đãi mới nhất tên \"Ưu đãi lãi vay – Trao tay giải pháp\", khách hàng có thể vay mua nhà với lãi suất từ 7,3%/năm."
+    },
+    {
+        "text": "7,3%/năm",
+        "label": "RATE",
+        "evidence": "khách hàng có thể vay mua nhà với lãi suất từ 7,3%/năm."
+    },
+    {
+        "text": "hàng tháng",
+        "label": "DATE",
+        "evidence": "Thời gian vay dài giúp khách hàng giảm bớt áp lực tài chính hàng tháng, đồng thời tạo cơ hội cho các gia đình trẻ có khoản tích lũy còn khiêm tốn dễ dàng cân đối ngân sách và các mục đích tài chính khác trong cuộc sống."
+    },
+    {
+        "text": "5 giờ",
+        "label": "DATE",
+        "evidence": "phê duyệt siêu tốc chỉ từ 5 giờ, đáp ứng tới 100% nhu cầu vốn vay"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "đáp ứng tới 100% nhu cầu vốn vay"
+    },
+    {
+        "text": "ABBANK",
+        "label": "ORG",
+        "evidence": "đại diện ABBANK nói."
+    },
+    {
+        "text": "TS Đinh Thế Hiển",
+        "label": "PERSON",
+        "evidence": "Chuyên gia kinh tế, TS Đinh Thế Hiển phân tích, cùng với lãi suất, quan trọng là nguồn cung trên thị trường bất động sản với những căn hộ, nhà đất ở phân khúc phù hợp với thu nhập của phần lớn người dân."
+    },
+    {
+        "text": "TS Đinh Thế Hiển",
+        "label": "PERSON",
+        "evidence": "Do đó, cùng với chính sách về lãi suất ưu đãi, cơ quan quản lý cần tiếp tục tháo gỡ khó khăn về pháp lý cho các dự án nhà đất, tạo niềm tin cho thị trường\" – TS Đinh Thế Hiển nói."
+    }
+]

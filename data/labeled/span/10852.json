@@ -1,0 +1,187 @@
+[
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "Khối nghiên cứu của ngân hàng HSBC đánh giá Việt Nam thuộc top 5 nước châu Á được dự báo có mức tăng trưởng thị trường tiêu dùng nhanh nhất trong giai đoạn 2021-2030, được kỳ vọng trở thành thị trường tiêu dùng lớn thứ 10 thế giới vào năm 2030."
+    },
+    {
+        "text": "2021-2030",
+        "label": "DATE",
+        "evidence": "Khối nghiên cứu của ngân hàng HSBC đánh giá Việt Nam thuộc top 5 nước châu Á được dự báo có mức tăng trưởng thị trường tiêu dùng nhanh nhất trong giai đoạn 2021-2030, được kỳ vọng trở thành thị trường tiêu dùng lớn thứ 10 thế giới vào năm 2030."
+    },
+    {
+        "text": "2030",
+        "label": "DATE",
+        "evidence": "Khối nghiên cứu của ngân hàng HSBC đánh giá Việt Nam thuộc top 5 nước châu Á được dự báo có mức tăng trưởng thị trường tiêu dùng nhanh nhất trong giai đoạn 2021-2030, được kỳ vọng trở thành thị trường tiêu dùng lớn thứ 10 thế giới vào năm 2030."
+    },
+    {
+        "text": "Cake",
+        "label": "ORG",
+        "evidence": "Cake hợp tác cùng ông lớn VinFast phổ cập xe điện"
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Cake hợp tác cùng ông lớn VinFast phổ cập xe điện"
+    },
+    {
+        "text": "Cake hợp tác cùng ông lớn VinFast phổ cập xe điện",
+        "label": "EVENT",
+        "evidence": "Cake hợp tác cùng ông lớn VinFast phổ cập xe điện"
+    },
+    {
+        "text": "ngân hàng số Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Mới đây, ngân hàng số Cake by VPBank công bố thương vụ hợp tác với VinFast để cho vay mua xe máy điện từ 0% lãi suất."
+    },
+    {
+        "text": "thương vụ hợp tác với VinFast để cho vay mua xe máy điện từ 0% lãi suất",
+        "label": "EVENT",
+        "evidence": "Mới đây, ngân hàng số Cake by VPBank công bố thương vụ hợp tác với VinFast để cho vay mua xe máy điện từ 0% lãi suất."
+    },
+    {
+        "text": "0% lãi suất",
+        "label": "RATE",
+        "evidence": "Mới đây, ngân hàng số Cake by VPBank công bố thương vụ hợp tác với VinFast để cho vay mua xe máy điện từ 0% lãi suất."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Cũng theo thỏa thuận này, VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác."
+    },
+    {
+        "text": "Be",
+        "label": "ORG",
+        "evidence": "Cũng theo thỏa thuận này, VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác."
+    },
+    {
+        "text": "VinFast Feliz S",
+        "label": "ASSET",
+        "evidence": "Cũng theo thỏa thuận này, VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Cũng theo thỏa thuận này, VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác."
+    },
+    {
+        "text": "VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác.",
+        "label": "EVENT",
+        "evidence": "Cũng theo thỏa thuận này, VinFast sẽ hỗ trợ tài xế Be chuyển đổi từ xe máy xăng sang xe máy điện VinFast Feliz S với mức ưu đãi 4% trên giá niêm yết trong giai đoạn đầu hợp tác."
+    },
+    {
+        "text": "Bộ Công thương",
+        "label": "ORG",
+        "evidence": "Theo số liệu từ Bộ Công thương, doanh số xe máy điện bán ra tại Việt Nam đã tăng khoảng 30-35% trong những năm gần đây, đưa Việt Nam trở thành thị trường xe máy điện lớn nhất ASEAN và đứng thứ 2 thế giới, chỉ sau Trung Quốc."
+    },
+    {
+        "text": "doanh số xe máy điện bán ra tại Việt Nam đã tăng khoảng 30-35%",
+        "label": "EVENT",
+        "evidence": "Theo số liệu từ Bộ Công thương, doanh số xe máy điện bán ra tại Việt Nam đã tăng khoảng 30-35% trong những năm gần đây, đưa Việt Nam trở thành thị trường xe máy điện lớn nhất ASEAN và đứng thứ 2 thế giới, chỉ sau Trung Quốc."
+    },
+    {
+        "text": "30-35%",
+        "label": "RATE",
+        "evidence": "Theo số liệu từ Bộ Công thương, doanh số xe máy điện bán ra tại Việt Nam đã tăng khoảng 30-35% trong những năm gần đây, đưa Việt Nam trở thành thị trường xe máy điện lớn nhất ASEAN và đứng thứ 2 thế giới, chỉ sau Trung Quốc."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh này, việc bắt tay giữa nhà sản xuất xe điện quy mô lớn với nền tảng tài chính số Cake by VPBank được kỳ vọng đem lại lợi ích cho tập khách hàng đại chúng của các bên."
+    },
+    {
+        "text": "Cake by VPBank sẽ tiếp tục hợp tác cùng VinFast để nghiên cứu các gói sản phẩm tài chính khác nhau",
+        "label": "EVENT",
+        "evidence": "\"Trong thời gian tới, Cake by VPBank sẽ tiếp tục hợp tác cùng VinFast để nghiên cứu các gói sản phẩm tài chính khác nhau, phù hợp với các khách hàng muốn tiếp cận sản phẩm xe điện ở nhiều kênh."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "\"Trong thời gian tới, Cake by VPBank sẽ tiếp tục hợp tác cùng VinFast để nghiên cứu các gói sản phẩm tài chính khác nhau, phù hợp với các khách hàng muốn tiếp cận sản phẩm xe điện ở nhiều kênh."
+    },
+    {
+        "text": "Nguyễn Hữu Quang",
+        "label": "PERSON",
+        "evidence": "Chúng tôi cũng đang trong quá trình thảo luận để phát triển các sản phẩm đa dạng hơn nhằm mang lại lợi ích thiết thực cho người dùng để đóng góp vào tiến trình thúc đẩy tài chính số toàn diện và năng lượng xanh tại Việt Nam\", ông Nguyễn Hữu Quang, Tổng giám đốc Ngân hàng số Cake by VPBank cho biết thêm."
+    },
+    {
+        "text": "Ngân hàng số Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Chúng tôi cũng đang trong quá trình thảo luận để phát triển các sản phẩm đa dạng hơn nhằm mang lại lợi ích thiết thực cho người dùng để đóng góp vào tiến trình thúc đẩy tài chính số toàn diện và năng lượng xanh tại Việt Nam\", ông Nguyễn Hữu Quang, Tổng giám đốc Ngân hàng số Cake by VPBank cho biết thêm."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Cake by VPBank là trường hợp điển hình cho xu hướng sáng tạo về mặt sản phẩm tài chính tiêu dùng."
+    },
+    {
+        "text": "ứng dụng ngân hàng số này đã cho phép các tài xế công nghệ được vay tiền mặt trực tuyến chỉ trong vài phút",
+        "label": "EVENT",
+        "evidence": "Trước khi đến với thị trường xe điện, ứng dụng ngân hàng số này đã cho phép các tài xế công nghệ được vay tiền mặt trực tuyến chỉ trong vài phút."
+    },
+    {
+        "text": "Cake",
+        "label": "ORG",
+        "evidence": "Cake cũng giới thiệu các sản phẩm cho vay phân khúc ngách như \"Ứng tiền nhanh\", với tốc độ phê duyệt tức thì."
+    },
+    {
+        "text": "Cake cũng giới thiệu các sản phẩm cho vay phân khúc ngách như \"Ứng tiền nhanh\"",
+        "label": "EVENT",
+        "evidence": "Cake cũng giới thiệu các sản phẩm cho vay phân khúc ngách như \"Ứng tiền nhanh\", với tốc độ phê duyệt tức thì."
+    },
+    {
+        "text": "\"Ứng tiền nhanh\"",
+        "label": "ASSET",
+        "evidence": "Cake cũng giới thiệu các sản phẩm cho vay phân khúc ngách như \"Ứng tiền nhanh\", với tốc độ phê duyệt tức thì."
+    },
+    {
+        "text": "Cake còn lấn sân sang bán vé các show ca nhạc",
+        "label": "EVENT",
+        "evidence": "Gần đây nhất, Cake còn lấn sân sang bán vé các show ca nhạc và đạt được những kết quả ấn tượng."
+    },
+    {
+        "text": "Đại dịch Covid-19",
+        "label": "EVENT",
+        "evidence": "Đại dịch Covid-19 đã thúc đẩy người dân gia tăng sử dụng các dịch vụ tài chính số cũng như thay đổi hành vi tiêu dùng."
+    },
+    {
+        "text": "báo cáo về thị trường tài chính tiêu dùng năm 2023 của FiinGroup",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo về thị trường tài chính tiêu dùng năm 2023 của FiinGroup, xu hướng thấy rõ là sự chuyển đổi về cách tiếp cận lấy sản phẩm làm trung tâm sang tiếp cận theo hướng khách hàng là trung tâm."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo về thị trường tài chính tiêu dùng năm 2023 của FiinGroup, xu hướng thấy rõ là sự chuyển đổi về cách tiếp cận lấy sản phẩm làm trung tâm sang tiếp cận theo hướng khách hàng là trung tâm."
+    },
+    {
+        "text": "FiinGroup",
+        "label": "ORG",
+        "evidence": "Theo báo cáo về thị trường tài chính tiêu dùng năm 2023 của FiinGroup, xu hướng thấy rõ là sự chuyển đổi về cách tiếp cận lấy sản phẩm làm trung tâm sang tiếp cận theo hướng khách hàng là trung tâm."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Nhìn từ khía cạnh này, việc bắt tay giữa Cake by VPBank với VinFast còn mang ý nghĩa khác, thể hiện sức mạnh công nghệ của ngân hàng số này khi tích hợp được vào mô hình bán hàng của ông lớn sản xuất xe điện."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Nhìn từ khía cạnh này, việc bắt tay giữa Cake by VPBank với VinFast còn mang ý nghĩa khác, thể hiện sức mạnh công nghệ của ngân hàng số này khi tích hợp được vào mô hình bán hàng của ông lớn sản xuất xe điện."
+    },
+    {
+        "text": "Ngân hàng số Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng số Cake by VPBank hiện có khoảng hơn 3,7 triệu người dùng, với nhiều con số tăng trưởng ấn tượng khi so sánh với các mô hình tài chính truyền thống."
+    },
+    {
+        "text": "3,7 triệu người dùng",
+        "label": "VOLUME",
+        "evidence": "Ngân hàng số Cake by VPBank hiện có khoảng hơn 3,7 triệu người dùng, với nhiều con số tăng trưởng ấn tượng khi so sánh với các mô hình tài chính truyền thống."
+    },
+    {
+        "text": "Cake",
+        "label": "ORG",
+        "evidence": "Hiện nay, người dùng Cake có thể sử dụng dịch vụ ngân hàng với nhiều dịch vụ tài chính số khác nhau như thanh toán, tiết kiệm, đầu tư, vay tiêu dùng và thẻ tín dụng,… cùng nhiều dịch vụ số sáng tạo khác tùy vào đối tượng người dùng."
+    }
+]

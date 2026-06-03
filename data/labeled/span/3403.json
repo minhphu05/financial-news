@@ -1,0 +1,557 @@
+[
+    {
+        "text": "6-7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị khớp lệnh bình quân mỗi phiến thường xuyên dao động quanh mức 6-7.000 tỷ đồng"
+    },
+    {
+        "text": "tháng 11/2020",
+        "label": "DATE",
+        "evidence": "thấp nhất kể từ tháng 11/2020"
+    },
+    {
+        "text": "7/3",
+        "label": "DATE",
+        "evidence": "Phiên 7/3 vừa qua"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "bộ 3 HPG, HSG và NKG"
+    },
+    {
+        "text": "HSG",
+        "label": "TICKER",
+        "evidence": "bộ 3 HPG, HSG và NKG"
+    },
+    {
+        "text": "NKG",
+        "label": "TICKER",
+        "evidence": "bộ 3 HPG, HSG và NKG"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "giao dịch lớn nhất sàn HoSE"
+    },
+    {
+        "text": "trên 24 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "cả 3 cổ phiếu thép đều khớp lệnh trên 24 triệu đơn vị"
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "HQC",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "DXG",
+        "label": "TICKER",
+        "evidence": "xếp sau như SSI, NVL, HQC, VND, VPB, DXG"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tiền vào khỏe đẩy HPG (+3,4%), HSG (+4,9%), NKG (+6,5%) đều tăng mạnh trong phiên 7/3"
+    },
+    {
+        "text": "+3,4%",
+        "label": "RATE",
+        "evidence": "HPG (+3,4%)"
+    },
+    {
+        "text": "HSG",
+        "label": "TICKER",
+        "evidence": "Tiền vào khỏe đẩy HPG (+3,4%), HSG (+4,9%), NKG (+6,5%) đều tăng mạnh trong phiên 7/3"
+    },
+    {
+        "text": "+4,9%",
+        "label": "RATE",
+        "evidence": "HSG (+4,9%)"
+    },
+    {
+        "text": "NKG",
+        "label": "TICKER",
+        "evidence": "Tiền vào khỏe đẩy HPG (+3,4%), HSG (+4,9%), NKG (+6,5%) đều tăng mạnh trong phiên 7/3"
+    },
+    {
+        "text": "+6,5%",
+        "label": "RATE",
+        "evidence": "NKG (+6,5%)"
+    },
+    {
+        "text": "HPG (+3,4%), HSG (+4,9%), NKG (+6,5%) đều tăng mạnh trong phiên 7/3",
+        "label": "EVENT",
+        "evidence": "Tiền vào khỏe đẩy HPG (+3,4%), HSG (+4,9%), NKG (+6,5%) đều tăng mạnh trong phiên 7/3 sau một khoảng thời gian chững lại"
+    },
+    {
+        "text": "7/3",
+        "label": "DATE",
+        "evidence": "trong phiên 7/3"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "So với đáy,HPGđã tăng hơn 70%"
+    },
+    {
+        "text": "HPGđã tăng hơn 70%",
+        "label": "EVENT",
+        "evidence": "So với đáy,HPGđã tăng hơn 70% trong khiHSGvà NKG đều tăng bằng lần"
+    },
+    {
+        "text": "hơn 70%",
+        "label": "RATE",
+        "evidence": "HPGđã tăng hơn 70%"
+    },
+    {
+        "text": "NKG",
+        "label": "TICKER",
+        "evidence": "Riêng NKG còn leo lên mức cao nhất trong vòng hơn 4 tháng kể từ cuối tháng 10 năm ngoái"
+    },
+    {
+        "text": "NKG còn leo lên mức cao nhất trong vòng hơn 4 tháng kể từ cuối tháng 10 năm ngoái",
+        "label": "EVENT",
+        "evidence": "Riêng NKG còn leo lên mức cao nhất trong vòng hơn 4 tháng kể từ cuối tháng 10 năm ngoái"
+    },
+    {
+        "text": "cuối tháng 10 năm ngoái",
+        "label": "DATE",
+        "evidence": "kể từ cuối tháng 10 năm ngoái"
+    },
+    {
+        "text": "Giá thép thanh tại thị trường Trung Quốc đã tăng 21% trong 4 tháng lên trên 4.200 CNY/tấn",
+        "label": "EVENT",
+        "evidence": "Giá thép thanh tại thị trường Trung Quốc đã tăng 21% trong 4 tháng lên trên 4.200 CNY/tấn, cao nhất trong vòng hơn 8 tháng"
+    },
+    {
+        "text": "tăng 21%",
+        "label": "RATE",
+        "evidence": "đã tăng 21%"
+    },
+    {
+        "text": "4.200 CNY/tấn",
+        "label": "PRICE",
+        "evidence": "lên trên 4.200 CNY/tấn"
+    },
+    {
+        "text": "Giá HRC thậm chí còn nóng hơn khi tăng gần gấp đôi lên 1.270 USD/tấn chỉ sau chưa đầy 3 tháng",
+        "label": "EVENT",
+        "evidence": "Giá HRC thậm chí còn nóng hơn khi tăng gần gấp đôi lên 1.270 USD/tấn chỉ sau chưa đầy 3 tháng"
+    },
+    {
+        "text": "1.270 USD/tấn",
+        "label": "PRICE",
+        "evidence": "lên 1.270 USD/tấn"
+    },
+    {
+        "text": "giá thép xây dựng tại thị trường trong nước cũng đã liên tục tăng từ đầu năm đến nay, với tổng mức tăng hơn 1 triệu đồng/tấn",
+        "label": "EVENT",
+        "evidence": "Cùng xu hướng, giá thép xây dựng tại thị trường trong nước cũng đã liên tục tăng từ đầu năm đến nay, với tổng mức tăng hơn 1 triệu đồng/tấn"
+    },
+    {
+        "text": "hơn 1 triệu đồng/tấn",
+        "label": "MONEY",
+        "evidence": "tổng mức tăng hơn 1 triệu đồng/tấn"
+    },
+    {
+        "text": "Hiệp hội Thép Việt Nam",
+        "label": "ORG",
+        "evidence": "Hiệp hội Thép Việt Nam (VSA)"
+    },
+    {
+        "text": "VSA",
+        "label": "ORG",
+        "evidence": "Hiệp hội Thép Việt Nam (VSA)"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Hòa Phát đánh giá"
+    },
+    {
+        "text": "Thép Nam Kim",
+        "label": "ORG",
+        "evidence": "lãnh đạo Thép Nam Kim (NKG)"
+    },
+    {
+        "text": "NKG",
+        "label": "ORG",
+        "evidence": "lãnh đạo Thép Nam Kim (NKG)"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "khởi đầu năm 2023 dự ổn hơn"
+    },
+    {
+        "text": "Hoa Sen",
+        "label": "ORG",
+        "evidence": "Thận trọng hơn, Hoa Sen đánh giá"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "xuất khẩu thép 2023"
+    },
+    {
+        "text": "tăng lãi suất",
+        "label": "EVENT",
+        "evidence": "tăng lãi suất"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Báo cáo mới nhất của VNDirect"
+    },
+    {
+        "text": "vận hành trở lại một/bốn lò cao tại Hải Dương từ 27/12/2022",
+        "label": "EVENT",
+        "evidence": "dù đã vận hành trở lại một/bốn lò cao tại Hải Dương từ 27/12/2022"
+    },
+    {
+        "text": "27/12/2022",
+        "label": "DATE",
+        "evidence": "từ 27/12/2022"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "sản lượng sản xuất của Hòa Phát"
+    },
+    {
+        "text": "2 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "trong 2 tháng đầu năm 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "năm 2023 với tổng sản lượng"
+    },
+    {
+        "text": "809.000 tấn",
+        "label": "VOLUME",
+        "evidence": "tổng sản lượng chỉ đạt 809.000 tấn"
+    },
+    {
+        "text": "42%",
+        "label": "RATE",
+        "evidence": "giảm 42%"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect kỳ vọng"
+    },
+    {
+        "text": "3 lò cao còn lại sẽ bắt đầu hoạt động trở lại từ tháng 5/2023",
+        "label": "EVENT",
+        "evidence": "3 lò cao còn lại sẽ bắt đầu hoạt động trở lại từ tháng 5/2023"
+    },
+    {
+        "text": "tháng 5/2023",
+        "label": "DATE",
+        "evidence": "từ tháng 5/2023"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "tăng dần hiệu suất hoạt động lên 90%"
+    },
+    {
+        "text": "tháng 9/2023",
+        "label": "DATE",
+        "evidence": "kể từ tháng 9/2023"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "sản lượng sản xuất thép thô của Hòa Phát"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "của Hòa Phát năm 2023"
+    },
+    {
+        "text": "7,16 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "sẽ đạt 7,16 triệu tấn"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "giảm 5%"
+    },
+    {
+        "text": "lợi nhuận ròng của Hòa Phát vẫn sẽ âm trong quý 1/2023 và cải thiện trong quý 3/2023",
+        "label": "EVENT",
+        "evidence": "lợi nhuận ròng của Hòa Phát vẫn sẽ âm trong quý 1/2023 và cải thiện trong quý 3/2023"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "lợi nhuận ròng của Hòa Phát"
+    },
+    {
+        "text": "quý 1/2023",
+        "label": "DATE",
+        "evidence": "trong quý 1/2023"
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "trong quý 3/2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "của Việt Nam trong năm 2023"
+    },
+    {
+        "text": "9,2%",
+        "label": "RATE",
+        "evidence": "giảm 9,2%"
+    },
+    {
+        "text": "9,5 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "xuống mức 9,5 triệu tấn"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "của Hòa Phát năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Hòa Phát năm 2023"
+    },
+    {
+        "text": "150.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 150.000 tỷ đồng"
+    },
+    {
+        "text": "8.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 8.000 tỷ đồng"
+    },
+    {
+        "text": "6,1%",
+        "label": "RATE",
+        "evidence": "tăng 6,1%"
+    },
+    {
+        "text": "5,7%",
+        "label": "RATE",
+        "evidence": "giảm 5,7%"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "kế hoạch kinh doanh năm 2023"
+    },
+    {
+        "text": "Hoa Sen",
+        "label": "ORG",
+        "evidence": "Hoa Sen thậm chí còn lên 2 kịch bản"
+    },
+    {
+        "text": "niên độ 2022/23",
+        "label": "DATE",
+        "evidence": "cho niên độ 2022/23"
+    },
+    {
+        "text": "1,4 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "đạt sản lượng thành phẩm đạt 1,4 triệu tấn"
+    },
+    {
+        "text": "1,52 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "sẽ là 1,52 triệu tấn"
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "giảm 16%"
+    },
+    {
+        "text": "34.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu kế hoạch là 34.000 tỷ đồng"
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "giảm 32%"
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "LNST chỉ đạt 100 tỷ đồng"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "“đi lùi” 60%"
+    },
+    {
+        "text": "Hoa Sen",
+        "label": "ORG",
+        "evidence": "Hoa Sen đặt mục tiêu sản lượng"
+    },
+    {
+        "text": "1,63 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "sản lượng 1,63 triệu tấn"
+    },
+    {
+        "text": "1,5 triệu tấn",
+        "label": "VOLUME",
+        "evidence": "thành phẩm đạt 1,5 triệu tấn"
+    },
+    {
+        "text": "36.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên mức 36.000 tỷ đồng"
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "giảm 18%"
+    },
+    {
+        "text": "300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt mức 300 tỷ đồng"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "tăng 20%"
+    },
+    {
+        "text": "VCBS",
+        "label": "ORG",
+        "evidence": "VCBS dự phóng doanh thu thuần"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "LNST năm 2023"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "của Hòa Phát có thể đạt"
+    },
+    {
+        "text": "112.800 tỷ",
+        "label": "MONEY",
+        "evidence": "đạt 112.800 tỷ"
+    },
+    {
+        "text": "9.271 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 9.271 tỷ đồng"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "giảm 19%"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "tăng 9%"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "so với năm 2022"
+    },
+    {
+        "text": "Thép Nam Kim",
+        "label": "ORG",
+        "evidence": "Thép Nam Kim được kỳ vọng"
+    },
+    {
+        "text": "chuyển lỗ thành lãi 413 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "sẽ chuyển lỗ thành lãi 413 tỷ đồng"
+    },
+    {
+        "text": "413 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi 413 tỷ đồng"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "giảm 15%"
+    },
+    {
+        "text": "19.577 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "xuống 19.577 tỷ đồng"
+    },
+    {
+        "text": "VCBS",
+        "label": "ORG",
+        "evidence": "VCBS ước tính"
+    },
+    {
+        "text": "Hoa Sen",
+        "label": "ORG",
+        "evidence": "Hoa Sen có thể lãi"
+    },
+    {
+        "text": "494 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi 494 tỷ đồng"
+    },
+    {
+        "text": "niên độ 2022/23",
+        "label": "DATE",
+        "evidence": "niên độ 2022/23"
+    },
+    {
+        "text": "gần 29%",
+        "label": "RATE",
+        "evidence": "giảm gần 29%"
+    },
+    {
+        "text": "29.339 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "còn 29.339 tỷ đồng"
+    }
+]

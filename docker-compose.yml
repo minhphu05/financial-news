@@ -1,0 +1,386 @@
+# version: "3.9"
+
+# ==============================================================================================================
+# Financial News RAG Stack
+#
+# Services
+# -------------------------
+# * mongodb       - raw + cleaned article store.
+# * pref
+# ==============================================================================================================
+
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: financial-mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER:-admin}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD:-admin}
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    ports:
+      - "27018:27017"   
+    networks: [financial-net]
+
+  postgresql-prefect:
+    image: postgres:14
+    container_name: financial-prefect-psql
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PF_POSTGRES_USER:-prefect}
+      POSTGRES_PASSWORD: ${PF_POSTGRES_PASSWORD:-prefect}
+      POSTGRES_DB: ${PF_POSTGRES_DB:-prefectdb}
+    ports:
+      - "${PF_POSTGRES_EXTERNAL_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PF_POSTGRES_USER:-prefect} -d ${PF_POSTGRES_DB:-prefectdb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [financial-net]
+  
+  redis-prefect:
+    image: redis:7
+    container_name: financial-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks: [financial-net]
+
+  mlflow:
+    build:
+      context: ./docker/mlflow
+    container_name: financial-mlflow
+    restart: unless-stopped
+    ports:
+      - "5555:5000"
+    volumes:
+      - mlflow_store:/mlflow/store
+      - mlflow_artifacts:/mlflow/artifacts
+    networks: [financial-net]
+
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    container_name: financial-pf-server
+    restart: unless-stopped
+    depends_on:
+      postgresql-prefect:
+        condition: service_healthy
+      redis-prefect:
+        condition: service_healthy
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER}:${PF_POSTGRES_PASSWORD}@postgresql-prefect:5432/${PF_POSTGRES_DB}
+      PREFECT_SERVER_API_HOST: 0.0.0.0
+      PREFECT_SERVER_UI_API_URL: http://localhost:4200/api
+      PREFECT_MESSAGING_BROKER: prefect_redis.messaging
+      PREFECT_MESSAGING_CACHE: prefect_redis.messaging
+      PREFECT_REDIS_MESSAGING_HOST: redis-prefect
+      PREFECT_REDIS_MESSAGING_PORT: 6379
+      PREFECT_REDIS_MESSAGING_DB: 0
+    command: prefect server start --no-services
+    ports:
+      - "4200:4200"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:4200/api/health', timeout=1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks: [financial-net]
+  
+  prefect-services:
+    image: prefecthq/prefect:3-latest
+    container_name: financial-pf-services
+    restart: unless-stopped
+    depends_on:
+      prefect-server:
+        condition: service_healthy
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER}:${PF_POSTGRES_PASSWORD}@postgresql-prefect:5432/${PF_POSTGRES_DB}
+      PREFECT_MESSAGING_BROKER: prefect_redis.messaging
+      PREFECT_MESSAGING_CACHE: prefect_redis.messaging
+      PREFECT_REDIS_MESSAGING_HOST: redis-prefect
+      PREFECT_REDIS_MESSAGING_PORT: 6379
+      PREFECT_REDIS_MESSAGING_DB: 0
+    command: prefect server services start
+    networks: [financial-net]
+
+  prefect-worker:
+    build:
+      context: .
+      dockerfile: docker/ingestion/Dockerfile
+    container_name: financial-pf-worker
+    restart: unless-stopped
+    env_file: .env
+    depends_on:
+      prefect-server:
+        condition: service_healthy
+    command: python -m src.flows.deploy
+    environment:
+      PREFECT_API_URL: http://prefect-server:4200/api
+      MONGO_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-admin}@mongodb:27017/?authSource=admin
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      POSTGRES_HOST: postgresql-prefect
+      CACHE_REDIS_URL: redis://redis-prefect:6379/0
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      METADATA_POSTGRES_HOST_EXTERNAL: postgresql
+      METADATA_POSTGRES_EXTERNAL_PORT: 5432
+      PIPELINE_LOG_DIR: /app/logs/pipeline
+    volumes:
+      - ./logs/pipeline:/app/logs/pipeline
+      - ./data:/app/data
+    networks: [financial-net]
+  
+  postgresql:
+    build:
+      context: ./docker/postgresql
+    container_name: financial-metadata-psql
+    restart: unless-stopped
+    environment:
+      # PostgreSQL superuser credentials
+      POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+      POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+      POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+      
+      # Performance tuning parameters
+      POSTGRES_INITDB_ARGS: >-
+        -c shared_buffers=${METADATA_POSTGRES_SHARED_BUFFERS:-64MB}
+        -c effective_cache_size=${METADATA_POSTGRES_EFFECTIVE_CACHE_SIZE:-256MB}
+        -c work_mem=${METADATA_POSTGRES_WORK_MEM:-4MB}
+        -c maintenance_work_mem=${METADATA_POSTGRES_MAINTENANCE_WORK_MEM:-64MB}
+        -c max_connections=${METADATA_POSTGRES_MAX_CONNECTIONS:-100}
+      
+      # Additional PostgreSQL configuration
+      POSTGRES_HOST_AUTH_METHOD: md5
+    
+    ports:
+      - "${METADATA_POSTGRES_EXTERNAL_PORT:-5434}:${METADATA_POSTGRES_INTERNAL_PORT:-5432}"
+    
+    volumes:
+      # Persistent data volume
+      - ${METADATA_POSTGRES_DATA_VOLUME:-metadata_postgres_data}:/var/lib/postgresql/data
+      
+      # Custom initialization scripts (optional)
+      # - ./docker/postgresql/init-scripts:/docker-entrypoint-initdb.d:ro
+    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${METADATA_POSTGRES_USER:-metadata_user} -d ${METADATA_POSTGRES_DB:-financial_metadata}"]
+      interval: ${HEALTH_CHECK_INTERVAL:-10}s
+      timeout: ${HEALTH_CHECK_TIMEOUT:-5}s
+      retries: ${HEALTH_CHECK_RETRIES:-5}
+      start_period: ${HEALTH_CHECK_START_PERIOD:-10}s
+    
+    networks: [financial-net]
+
+  # ===========================================================================
+  # Observability Stack: Loki + Grafana + Fluent Bit + Prometheus + Pushgateway
+  # ===========================================================================
+  loki:
+    image: grafana/loki:3.1.0
+    container_name: financial-loki
+    restart: unless-stopped
+    user: "0"
+    command: -config.file=/etc/loki/loki-config.yaml
+    ports:
+      - "${LOKI_EXTERNAL_PORT:-3100}:3100"
+    volumes:
+      - ./docker/loki/loki-config.yaml:/etc/loki/loki-config.yaml:ro
+      - loki_data:/tmp/loki
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:3100/ready || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks: [financial-net]
+
+  grafana:
+    image: grafana/grafana:11.1.0
+    container_name: financial-grafana
+    restart: unless-stopped
+    depends_on:
+      loki:
+        condition: service_healthy
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    ports:
+      - "${GRAFANA_EXTERNAL_PORT:-3000}:3000"
+    volumes:
+      - ./docker/grafana/provisioning:/etc/grafana/provisioning:ro
+      - grafana_data:/var/lib/grafana
+    networks: [financial-net]
+
+  fluent-bit:
+    image: fluent/fluent-bit:3.1
+    container_name: financial-fluent-bit
+    restart: unless-stopped
+    depends_on:
+      loki:
+        condition: service_healthy
+    volumes:
+      - ./docker/fluent-bit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf:ro
+      - ./docker/fluent-bit/parsers.conf:/fluent-bit/etc/parsers.conf:ro
+      - ./logs/scraper:/var/log/scraper:ro
+      - ./logs/pipeline:/var/log/pipeline:ro
+    ports:
+      - "${FLUENT_BIT_METRICS_PORT:-2020}:2020"
+    networks: [financial-net]
+
+  prometheus:
+    image: prom/prometheus:v2.53.0
+    container_name: financial-prometheus
+    restart: unless-stopped
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yaml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--storage.tsdb.retention.time=30d"
+    ports:
+      - "${PROMETHEUS_EXTERNAL_PORT:-9090}:9090"
+    volumes:
+      - ./docker/prometheus/prometheus.yaml:/etc/prometheus/prometheus.yaml:ro
+      - prometheus_data:/prometheus
+    networks: [financial-net]
+
+  pushgateway:
+    image: prom/pushgateway:v1.9.0
+    container_name: financial-pushgateway
+    restart: unless-stopped
+    ports:
+      - "${PUSHGATEWAY_EXTERNAL_PORT:-9091}:9091"
+    networks: [financial-net]
+
+  # ---- Container & Host Metrics (cAdvisor + Node Exporter) ----------------
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1
+    container_name: financial-cadvisor
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    ports:
+      - "8080:8080"
+    networks: [financial-net]
+
+  node-exporter:
+    image: prom/node-exporter:v1.8.1
+    container_name: financial-node-exporter
+    restart: unless-stopped
+    pid: host
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+    command:
+      - "--path.procfs=/host/proc"
+      - "--path.sysfs=/host/sys"
+      - "--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)"
+    ports:
+      - "9100:9100"
+    networks: [financial-net]
+
+  qdrant:
+    image: qdrant/qdrant:v1.13.1
+    container_name: financial-qdrant
+    restart: unless-stopped
+    ports:
+      - "${QDRANT_EXTERNAL_PORT:-6333}:6333"
+      - "${QDRANT_GRPC_PORT:-6334}:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo >/dev/tcp/localhost/6333' 2>/dev/null || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks: [financial-net]
+
+  # ===========================================================================
+  # Application: FastAPI backend + React frontend
+  # ===========================================================================
+  api:
+    build:
+      context: .
+      dockerfile: docker/api/Dockerfile
+    container_name: financial-api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MONGO_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-admin}@mongodb:27017/?authSource=admin
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      CACHE_REDIS_URL: redis://redis-prefect:6379/1
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      PIPELINE_LOG_DIR: /app/logs/pipeline
+    volumes:
+      - ./logs/pipeline:/app/logs/pipeline
+    ports:
+      - "${API_EXTERNAL_PORT:-8000}:8000"
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)\" || exit 1"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks: [financial-net]
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: /api
+    container_name: financial-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_EXTERNAL_PORT:-3002}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    networks: [financial-net]
+
+networks:
+  financial-net:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local
+  postgres_data:
+    driver: local
+  metadata_postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  mlflow_store:
+    driver: local
+  mlflow_artifacts:
+    driver: local
+  loki_data:
+    driver: local
+  grafana_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  qdrant_data:
+    driver: local
+      

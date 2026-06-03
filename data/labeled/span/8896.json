@@ -1,0 +1,322 @@
+[
+    {
+        "text": "05/02/2023",
+        "label": "DATE",
+        "evidence": "trong thời gian từ nay đến 05/02/2023"
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "trị giá từ 100 triệu đồng"
+    },
+    {
+        "text": "chương trình quay số trúng thưởng",
+        "label": "EVENT",
+        "evidence": "tham gia chương trình quay số trúng thưởng"
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "trị giá 500.000đ"
+    },
+    {
+        "text": "400.000đ",
+        "label": "MONEY",
+        "evidence": "400.000đ"
+    },
+    {
+        "text": "300.000đ",
+        "label": "MONEY",
+        "evidence": "và 300.000đ"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "của khách hàng tại VIB"
+    },
+    {
+        "text": "Mở Tiết kiệm trực tuyến",
+        "label": "EVENT",
+        "evidence": "Mở Tiết kiệm trực tuyến"
+    },
+    {
+        "text": "Tiết kiệm trực tuyến",
+        "label": "ASSET",
+        "evidence": "Mở Tiết kiệm trực tuyến"
+    },
+    {
+        "text": "Sổ tiền gửi có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Sổ tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "06 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn gửi ≥ 06 tháng"
+    },
+    {
+        "text": "nhận chuyển quyền sở hữu Tiền gửi iDepo (VND)",
+        "label": "EVENT",
+        "evidence": "nhận chuyển quyền sở hữu Tiền gửi iDepo (VND)"
+    },
+    {
+        "text": "Tiền gửi iDepo (VND)",
+        "label": "ASSET",
+        "evidence": "Tiền gửi iDepo (VND)"
+    },
+    {
+        "text": "Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB",
+        "label": "EVENT",
+        "evidence": "Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB"
+    },
+    {
+        "text": "Chuyển tiền quốc tế tại quầy",
+        "label": "EVENT",
+        "evidence": "Chuyển tiền quốc tế tại quầy"
+    },
+    {
+        "text": "Nhận tiền kiều hối tại quầy",
+        "label": "EVENT",
+        "evidence": "Nhận tiền kiều hối tại quầy"
+    },
+    {
+        "text": "Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB",
+        "label": "EVENT",
+        "evidence": "Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "khách hàng tại VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB cũng dành tặng khách hàng nhiều ưu đãi"
+    },
+    {
+        "text": "VIB cũng dành tặng khách hàng nhiều ưu đãi khi gửi tiết kiệm và giao dịch tại ngân hàng",
+        "label": "EVENT",
+        "evidence": "VIB cũng dành tặng khách hàng nhiều ưu đãi khi gửi tiết kiệm và giao dịch tại ngân hàng."
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "nhận 500.000đ"
+    },
+    {
+        "text": "tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)",
+        "label": "EVENT",
+        "evidence": "tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "sản phẩm mới của VIB"
+    },
+    {
+        "text": "tiền gửi trực tuyến",
+        "label": "ASSET",
+        "evidence": "tiền gửi trực tuyến"
+    },
+    {
+        "text": "sổ tiết kiệm",
+        "label": "ASSET",
+        "evidence": "sổ tiết kiệm"
+    },
+    {
+        "text": "tiền gửi iDepo",
+        "label": "ASSET",
+        "evidence": "tiền gửi iDepo"
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "thẻ tín dụng"
+    },
+    {
+        "text": "hợp đồng bảo hiểm nhân thọ",
+        "label": "ASSET",
+        "evidence": "hợp đồng bảo hiểm nhân thọ"
+    },
+    {
+        "text": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán",
+        "label": "EVENT",
+        "evidence": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán."
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "từ 5 triệu đồng"
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn từ 1 tháng"
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "mở thành công thẻ tín dụng"
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "được tặng 500.000đ"
+    },
+    {
+        "text": "ngân hàng số MyVIB",
+        "label": "ORG",
+        "evidence": "ngân hàng số MyVIB"
+    },
+    {
+        "text": "MyVIB",
+        "label": "ORG",
+        "evidence": "ngân hàng số MyVIB"
+    },
+    {
+        "text": "thẻ thanh toán IDC",
+        "label": "ASSET",
+        "evidence": "thẻ thanh toán IDC"
+    },
+    {
+        "text": "voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada",
+        "label": "EVENT",
+        "evidence": "voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "tới 100.000 đồng"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "trên Lazada"
+    },
+    {
+        "text": "Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước",
+        "label": "EVENT",
+        "evidence": "Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Giảm 3%"
+    },
+    {
+        "text": "Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G",
+        "label": "EVENT",
+        "evidence": "Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Giảm 10%"
+    },
+    {
+        "text": "Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB",
+        "label": "EVENT",
+        "evidence": "Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB"
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "50.000 đồng"
+    },
+    {
+        "text": "MyVIB",
+        "label": "ORG",
+        "evidence": "qua MyVIB"
+    },
+    {
+        "text": "Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác",
+        "label": "EVENT",
+        "evidence": "Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác"
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "10.000 đồng"
+    },
+    {
+        "text": "Circle K",
+        "label": "ORG",
+        "evidence": "ĐCNTT Circle K"
+    },
+    {
+        "text": "GS25",
+        "label": "ORG",
+        "evidence": "GS25"
+    },
+    {
+        "text": "7-Eleven",
+        "label": "ORG",
+        "evidence": "7-Eleven"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Thế Giới Di Động"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Bách Hóa Xanh"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Điện Máy Xanh"
+    },
+    {
+        "text": "Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật",
+        "label": "EVENT",
+        "evidence": "Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Hoàn 10%"
+    },
+    {
+        "text": "Co.opMart",
+        "label": "ORG",
+        "evidence": "tại Co.opMart"
+    },
+    {
+        "text": "hoàn tiền lên đến 2% cho mọi giao dịch",
+        "label": "EVENT",
+        "evidence": "đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "đến 2%"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "tại VIB"
+    },
+    {
+        "text": "gia tăng quyền lợi tối đa với lãi suất tiền gửi không kỳ hạn lên tới 1%/năm",
+        "label": "EVENT",
+        "evidence": "gia tăng quyền lợi tối đa với lãi suất tiền gửi không kỳ hạn lên tới 1%/năm."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "lãi suất tiền gửi không kỳ hạn"
+    },
+    {
+        "text": "1%/năm",
+        "label": "RATE",
+        "evidence": "tới 1%/năm"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "khách hàng của VIB"
+    }
+]

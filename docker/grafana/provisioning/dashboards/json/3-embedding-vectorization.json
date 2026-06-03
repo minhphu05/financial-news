@@ -1,0 +1,157 @@
+{
+  "title": "3 - Embedding & Vectorization",
+  "uid": "embedding-vectorization",
+  "editable": true,
+  "graphTooltip": 1,
+  "refresh": "30s",
+  "time": { "from": "now-24h", "to": "now" },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Documents Embedded",
+      "id": 1,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "blue", "mode": "fixed" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_articles_embedded_total",
+        "legendFormat": "Embedded",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Tokens Processed",
+      "id": 2,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 6, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "purple", "mode": "fixed" }, "unit": "short" } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_tokens_embedded_total",
+        "legendFormat": "Tokens",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Embedding Failures",
+      "id": 3,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 12, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "orange" }, { "value": 5, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_embedding_failures_total",
+        "legendFormat": "Failures",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Embedding Duration",
+      "id": 4,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 18, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "s", "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 120, "color": "yellow" }, { "value": 300, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_embedding_duration_seconds",
+        "legendFormat": "Duration",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Embedding API Latency (p95 & p99)",
+      "id": 5,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 5 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_embedding_api_latency_p95_seconds",
+        "legendFormat": "p95 Latency",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_embedding_api_latency_p99_seconds",
+        "legendFormat": "p99 Latency",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Vector DB Write Rate",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 5 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "unit": "wps", "custom": { "lineWidth": 2, "fillOpacity": 20, "gradientMode": "scheme" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_vector_db_write_rps",
+        "legendFormat": "Write RPS",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "gauge",
+      "title": "Vector DB Sync Lag",
+      "id": 7,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 0, "y": 13 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "showThresholdLabels": true, "showThresholdMarkers": true },
+      "fieldConfig": { "defaults": { "unit": "s", "min": 0, "max": 300, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 30, "color": "yellow" }, { "value": 120, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_vector_db_sync_lag_seconds",
+        "legendFormat": "Sync Lag",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "piechart",
+      "title": "Embedding Success vs Failure",
+      "id": 8,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 8, "y": 13 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "legend": { "displayMode": "table", "placement": "right" }, "pieType": "donut" },
+      "fieldConfig": { "defaults": { "color": { "mode": "palette-classic" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_articles_embedded_total",
+        "legendFormat": "Successful",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_embedding_failures_total",
+        "legendFormat": "Failed",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Last Embedding Timestamp",
+      "id": 9,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 16, "y": 13 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "dateTimeFromNow" } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_last_run_timestamp_seconds * 1000",
+        "legendFormat": "Last Embedding",
+        "refId": "A"
+      }]
+    }
+  ]
+}

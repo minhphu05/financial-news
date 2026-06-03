@@ -1,0 +1,587 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động BIDV dành cho khách hàng cá nhân"
+    },
+    {
+        "text": "lãi suất huy động tại BIDV dao động trong khoảng2,2 - 5,3%/năm",
+        "label": "EVENT",
+        "evidence": "Với khách hàng cá nhân, lãi suất huy động tại BIDV dao động trong khoảng2,2 - 5,3%/năm theo hình thức nhận lãi cuối kỳ."
+    },
+    {
+        "text": "2,2 - 5,3%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất huy động tại BIDV dao động trong khoảng2,2 - 5,3%/năm theo hình thức nhận lãi cuối kỳ."
+    },
+    {
+        "text": "các khoản tiền gửi tại kỳ hạn 1 - 2 tháng được áp dụng chung mức lãi suất là 2,2%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, các khoản tiền gửi tại kỳ hạn 1 - 2 tháng được áp dụng chung mức lãi suất là 2,2%/năm, giảm 0,8%/năm so với đấu tháng 12."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "các khoản tiền gửi tại kỳ hạn 1 - 2 tháng được áp dụng chung mức lãi suất là 2,2%/năm, giảm 0,8%/năm so với đấu tháng 12."
+    },
+    {
+        "text": "giảm 0,8%/năm",
+        "label": "RATE",
+        "evidence": "giảm 0,8%/năm so với đấu tháng 12."
+    },
+    {
+        "text": "tháng 12",
+        "label": "DATE",
+        "evidence": "giảm 0,8%/năm so với đấu tháng 12."
+    },
+    {
+        "text": "kỳ hạn 3 – 5 tháng,khách hàng được nhận mức lãi suất là 2,5%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 3 – 5 tháng,khách hàng được nhận mức lãi suất là 2,5%/năm, giảm từ mức 3,3% trước đó 1 tháng."
+    },
+    {
+        "text": "2,5%/năm",
+        "label": "RATE",
+        "evidence": "khách hàng được nhận mức lãi suất là 2,5%/năm, giảm từ mức 3,3% trước đó 1 tháng."
+    },
+    {
+        "text": "giảm từ mức 3,3% trước đó 1 tháng",
+        "label": "EVENT",
+        "evidence": "giảm từ mức 3,3% trước đó 1 tháng."
+    },
+    {
+        "text": "3,3%",
+        "label": "RATE",
+        "evidence": "giảm từ mức 3,3% trước đó 1 tháng."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "giảm từ mức 3,3% trước đó 1 tháng."
+    },
+    {
+        "text": "kỳ hạn 6 – 9 tháng cũng giảm từ 4,3%/năm xuống 3,5%/năm",
+        "label": "EVENT",
+        "evidence": "Tương tự, kỳ hạn 6 – 9 tháng cũng giảm từ 4,3%/năm xuống 3,5%/năm."
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 – 9 tháng cũng giảm từ 4,3%/năm xuống 3,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 – 9 tháng cũng giảm từ 4,3%/năm xuống 3,5%/năm."
+    },
+    {
+        "text": "BIDV triển khai ở mức lãi suất huy động là 5%/năm",
+        "label": "EVENT",
+        "evidence": "Tại các kỳ hạn 12 - 18 tháng, BIDV triển khai ở mức lãi suất huy động là 5%/năm, giảm 0,3 điểm % so với tháng trước."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "BIDV triển khai ở mức lãi suất huy động là 5%/năm, giảm 0,3 điểm % so với tháng trước."
+    },
+    {
+        "text": "giảm 0,3 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,3 điểm % so với tháng trước."
+    },
+    {
+        "text": "tháng trước",
+        "label": "DATE",
+        "evidence": "giảm 0,3 điểm % so với tháng trước."
+    },
+    {
+        "text": "Mức lãi suất huy động cao nhất đang được BIDV áp dụng là 5,3%/năm",
+        "label": "EVENT",
+        "evidence": "Mức lãi suất huy động cao nhất đang được BIDV áp dụng là 5,3%/năm dành cho các khoản tiền gửi có kỳ hạn 24 tháng và 36 tháng."
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất huy động cao nhất đang được BIDV áp dụng là 5,3%/năm dành cho các khoản tiền gửi có kỳ hạn 24 tháng và 36 tháng."
+    },
+    {
+        "text": "không bị giảm lãi suất so với tháng 12/2023",
+        "label": "EVENT",
+        "evidence": "Đây cũng là hai kỳ hạn duy nhất không bị giảm lãi suất so với tháng 12/2023."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "không bị giảm lãi suất so với tháng 12/2023."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Với các khoản tiền gửi không kỳ hạn, khách hàng được hưởng mức lãi suất 0,1%/năm - không thay đổi so với đầu tháng 12/2023."
+    },
+    {
+        "text": "khách hàng được hưởng mức lãi suất 0,1%/năm",
+        "label": "EVENT",
+        "evidence": "khách hàng được hưởng mức lãi suất 0,1%/năm - không thay đổi so với đầu tháng 12/2023."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "khách hàng được hưởng mức lãi suất 0,1%/năm - không thay đổi so với đầu tháng 12/2023."
+    },
+    {
+        "text": "không thay đổi so với đầu tháng 12/2023",
+        "label": "EVENT",
+        "evidence": "không thay đổi so với đầu tháng 12/2023."
+    },
+    {
+        "text": "đầu tháng 12/2023",
+        "label": "DATE",
+        "evidence": "không thay đổi so với đầu tháng 12/2023."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất ngân hàng BIDV dành cho khách hàng cá nhân tháng 1/2024"
+    },
+    {
+        "text": "tháng 1/2024",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất ngân hàng BIDV dành cho khách hàng cá nhân tháng 1/2024"
+    },
+    {
+        "text": "Không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Không kỳ hạn\n0.1%"
+    },
+    {
+        "text": "0.1%",
+        "label": "RATE",
+        "evidence": "Không kỳ hạn\n0.1%"
+    },
+    {
+        "text": "1 Tháng",
+        "label": "ASSET",
+        "evidence": "1 Tháng\n2.2%"
+    },
+    {
+        "text": "2.2%",
+        "label": "RATE",
+        "evidence": "1 Tháng\n2.2%"
+    },
+    {
+        "text": "2 Tháng",
+        "label": "ASSET",
+        "evidence": "2 Tháng\n2.2%"
+    },
+    {
+        "text": "2.2%",
+        "label": "RATE",
+        "evidence": "2 Tháng\n2.2%"
+    },
+    {
+        "text": "3 Tháng",
+        "label": "ASSET",
+        "evidence": "3 Tháng\n2.5%"
+    },
+    {
+        "text": "2.5%",
+        "label": "RATE",
+        "evidence": "3 Tháng\n2.5%"
+    },
+    {
+        "text": "5 Tháng",
+        "label": "ASSET",
+        "evidence": "5 Tháng\n2.5%"
+    },
+    {
+        "text": "2.5%",
+        "label": "RATE",
+        "evidence": "5 Tháng\n2.5%"
+    },
+    {
+        "text": "6 Tháng",
+        "label": "ASSET",
+        "evidence": "6 Tháng\n3.5%"
+    },
+    {
+        "text": "3.5%",
+        "label": "RATE",
+        "evidence": "6 Tháng\n3.5%"
+    },
+    {
+        "text": "9 Tháng",
+        "label": "ASSET",
+        "evidence": "9 Tháng\n3.5%"
+    },
+    {
+        "text": "3.5%",
+        "label": "RATE",
+        "evidence": "9 Tháng\n3.5%"
+    },
+    {
+        "text": "12 Tháng",
+        "label": "ASSET",
+        "evidence": "12 Tháng\n5%"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "12 Tháng\n5%"
+    },
+    {
+        "text": "13 Tháng",
+        "label": "ASSET",
+        "evidence": "13 Tháng\n5%"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "13 Tháng\n5%"
+    },
+    {
+        "text": "15 Tháng",
+        "label": "ASSET",
+        "evidence": "15 Tháng\n5%"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "15 Tháng\n5%"
+    },
+    {
+        "text": "18 Tháng",
+        "label": "ASSET",
+        "evidence": "18 Tháng\n5%"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "18 Tháng\n5%"
+    },
+    {
+        "text": "24 Tháng",
+        "label": "ASSET",
+        "evidence": "24 Tháng\n5.3%"
+    },
+    {
+        "text": "5.3%",
+        "label": "RATE",
+        "evidence": "24 Tháng\n5.3%"
+    },
+    {
+        "text": "36 Tháng",
+        "label": "ASSET",
+        "evidence": "36 Tháng\n5.3%"
+    },
+    {
+        "text": "5.3%",
+        "label": "RATE",
+        "evidence": "36 Tháng\n5.3%"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nguồn:BIDV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động BIDV dành cho khách hàng doanh nghiệp"
+    },
+    {
+        "text": "tháng 01/2024",
+        "label": "DATE",
+        "evidence": "bước sang tháng 01/2024, lãi suất huy động tại ngân hàng BIDV cũng điều chỉnh giảm mạnh 0,3 - 0,8 %/năm."
+    },
+    {
+        "text": "lãi suất huy động tại ngân hàng BIDV cũng điều chỉnh giảm mạnh 0,3 - 0,8 %/năm",
+        "label": "EVENT",
+        "evidence": "lãi suất huy động tại ngân hàng BIDV cũng điều chỉnh giảm mạnh 0,3 - 0,8 %/năm."
+    },
+    {
+        "text": "0,3 - 0,8 %/năm",
+        "label": "RATE",
+        "evidence": "lãi suất huy động tại ngân hàng BIDV cũng điều chỉnh giảm mạnh 0,3 - 0,8 %/năm."
+    },
+    {
+        "text": "Lãi suất áp dụng cho hình thức lĩnh lãi cuối kỳ dao động trong khoảng 2,2% - 4,5%/năm",
+        "label": "EVENT",
+        "evidence": "Lãi suất áp dụng cho hình thức lĩnh lãi cuối kỳ dao động trong khoảng 2,2% - 4,5%/năm."
+    },
+    {
+        "text": "2,2% - 4,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất áp dụng cho hình thức lĩnh lãi cuối kỳ dao động trong khoảng 2,2% - 4,5%/năm."
+    },
+    {
+        "text": "kỳ hạn 1 tháng và 2 tháng được huy động lãi suất 2,2%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, kỳ hạn 1 tháng và 2 tháng được huy động lãi suất 2,2%/năm, giảm 0,5%/năm so với đầu tháng 12."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 1 tháng và 2 tháng được huy động lãi suất 2,2%/năm, giảm 0,5%/năm so với đầu tháng 12."
+    },
+    {
+        "text": "giảm 0,5%/năm",
+        "label": "RATE",
+        "evidence": "giảm 0,5%/năm so với đầu tháng 12."
+    },
+    {
+        "text": "đầu tháng 12",
+        "label": "DATE",
+        "evidence": "giảm 0,5%/năm so với đầu tháng 12."
+    },
+    {
+        "text": "kỳ hạn 3 - 5 tháng mức giảm lên tới 0,8%/năm, từ 3,2%/năm xuống còn 2,4%/năm",
+        "label": "EVENT",
+        "evidence": "Tại các kỳ hạn 3 - 5 tháng mức giảm lên tới 0,8%/năm, từ 3,2%/năm xuống còn 2,4%/năm."
+    },
+    {
+        "text": "0,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 - 5 tháng mức giảm lên tới 0,8%/năm, từ 3,2%/năm xuống còn 2,4%/năm."
+    },
+    {
+        "text": "3,2%/năm",
+        "label": "RATE",
+        "evidence": "từ 3,2%/năm xuống còn 2,4%/năm."
+    },
+    {
+        "text": "2,4%/năm",
+        "label": "RATE",
+        "evidence": "từ 3,2%/năm xuống còn 2,4%/năm."
+    },
+    {
+        "text": "Các khoản tiền gửi 6 - 11 tháng cũng giảm tương tự, từ 4,2%/năm xuống 3,4%/năm",
+        "label": "EVENT",
+        "evidence": "Các khoản tiền gửi 6 - 11 tháng cũng giảm tương tự, từ 4,2%/năm xuống 3,4%/năm."
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "từ 4,2%/năm xuống 3,4%/năm."
+    },
+    {
+        "text": "3,4%/năm",
+        "label": "RATE",
+        "evidence": "từ 4,2%/năm xuống 3,4%/năm."
+    },
+    {
+        "text": "Các kỳ hạn từ 12 tháng đến 60 tháng có cùng mức lãi suất huy động là 4,5%/năm",
+        "label": "EVENT",
+        "evidence": "Các kỳ hạn từ 12 tháng đến 60 tháng có cùng mức lãi suất huy động là 4,5%/năm, giảm 0,3%/năm so với đầu tháng 12/2023."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn từ 12 tháng đến 60 tháng có cùng mức lãi suất huy động là 4,5%/năm, giảm 0,3%/năm so với đầu tháng 12/2023."
+    },
+    {
+        "text": "giảm 0,3%/năm",
+        "label": "RATE",
+        "evidence": "giảm 0,3%/năm so với đầu tháng 12/2023."
+    },
+    {
+        "text": "đầu tháng 12/2023",
+        "label": "DATE",
+        "evidence": "giảm 0,3%/năm so với đầu tháng 12/2023."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn vẫn áp dụng mức lãi suất thấp nhất chỉ 0,1%/năm",
+        "label": "EVENT",
+        "evidence": "Trong khi tiền gửi không kỳ hạn vẫn áp dụng mức lãi suất thấp nhất chỉ 0,1%/năm."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "tiền gửi không kỳ hạn vẫn áp dụng mức lãi suất thấp nhất chỉ 0,1%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất ngân hàng BIDV dành cho khách hàng doanh nghiệp tháng 1/2024"
+    },
+    {
+        "text": "tháng 1/2024",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất ngân hàng BIDV dành cho khách hàng doanh nghiệp tháng 1/2024"
+    },
+    {
+        "text": "Không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Không kỳ hạn\n0,1%"
+    },
+    {
+        "text": "0,1%",
+        "label": "RATE",
+        "evidence": "Không kỳ hạn\n0,1%"
+    },
+    {
+        "text": "1 tháng",
+        "label": "ASSET",
+        "evidence": "1 tháng\n2,20%"
+    },
+    {
+        "text": "2,20%",
+        "label": "RATE",
+        "evidence": "1 tháng\n2,20%"
+    },
+    {
+        "text": "2 tháng",
+        "label": "ASSET",
+        "evidence": "2 tháng\n2,20%"
+    },
+    {
+        "text": "2,20%",
+        "label": "RATE",
+        "evidence": "2 tháng\n2,20%"
+    },
+    {
+        "text": "3 tháng",
+        "label": "ASSET",
+        "evidence": "3 tháng\n2,40%"
+    },
+    {
+        "text": "2,40%",
+        "label": "RATE",
+        "evidence": "3 tháng\n2,40%"
+    },
+    {
+        "text": "4 tháng",
+        "label": "ASSET",
+        "evidence": "4 tháng\n2,40%"
+    },
+    {
+        "text": "2,40%",
+        "label": "RATE",
+        "evidence": "4 tháng\n2,40%"
+    },
+    {
+        "text": "5 tháng",
+        "label": "ASSET",
+        "evidence": "5 tháng\n2,40%"
+    },
+    {
+        "text": "2,40%",
+        "label": "RATE",
+        "evidence": "5 tháng\n2,40%"
+    },
+    {
+        "text": "6 tháng",
+        "label": "ASSET",
+        "evidence": "6 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "6 tháng\n3,40%"
+    },
+    {
+        "text": "7 tháng",
+        "label": "ASSET",
+        "evidence": "7 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "7 tháng\n3,40%"
+    },
+    {
+        "text": "8 tháng",
+        "label": "ASSET",
+        "evidence": "8 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "8 tháng\n3,40%"
+    },
+    {
+        "text": "9 tháng",
+        "label": "ASSET",
+        "evidence": "9 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "9 tháng\n3,40%"
+    },
+    {
+        "text": "10 tháng",
+        "label": "ASSET",
+        "evidence": "10 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "10 tháng\n3,40%"
+    },
+    {
+        "text": "11 tháng",
+        "label": "ASSET",
+        "evidence": "11 tháng\n3,40%"
+    },
+    {
+        "text": "3,40%",
+        "label": "RATE",
+        "evidence": "11 tháng\n3,40%"
+    },
+    {
+        "text": "12 tháng",
+        "label": "ASSET",
+        "evidence": "12 tháng\n4,50%"
+    },
+    {
+        "text": "4,50%",
+        "label": "RATE",
+        "evidence": "12 tháng\n4,50%"
+    },
+    {
+        "text": "24 tháng",
+        "label": "ASSET",
+        "evidence": "24 tháng\n4,50%"
+    },
+    {
+        "text": "4,50%",
+        "label": "RATE",
+        "evidence": "24 tháng\n4,50%"
+    },
+    {
+        "text": "36 tháng",
+        "label": "ASSET",
+        "evidence": "36 tháng\n4,50%"
+    },
+    {
+        "text": "4,50%",
+        "label": "RATE",
+        "evidence": "36 tháng\n4,50%"
+    },
+    {
+        "text": "48 tháng",
+        "label": "ASSET",
+        "evidence": "48 tháng\n4,50%"
+    },
+    {
+        "text": "4,50%",
+        "label": "RATE",
+        "evidence": "48 tháng\n4,50%"
+    },
+    {
+        "text": "60 tháng",
+        "label": "ASSET",
+        "evidence": "60 tháng\n4,50%"
+    },
+    {
+        "text": "4,50%",
+        "label": "RATE",
+        "evidence": "60 tháng\n4,50%"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nguồn:BIDV."
+    }
+]

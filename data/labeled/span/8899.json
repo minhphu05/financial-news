@@ -1,0 +1,277 @@
+[
+    {
+        "text": "05/02/2023",
+        "label": "DATE",
+        "evidence": "Theo đó, trong thời gian từ nay đến 05/02/2023 khách hàng cá nhân thực hiện 01 trong các giao dịch hợp lệ sẽ được cấp ngay mã dự thưởng tham gia chương trình quay số trúng thưởng \"Gửi vạn điều may, sung túc trao tay\" cho mỗi giao dịch giá trị từ 100 triệu đồng."
+    },
+    {
+        "text": "chương trình quay số trúng thưởng \"Gửi vạn điều may, sung túc trao tay\"",
+        "label": "EVENT",
+        "evidence": "Theo đó, trong thời gian từ nay đến 05/02/2023 khách hàng cá nhân thực hiện 01 trong các giao dịch hợp lệ sẽ được cấp ngay mã dự thưởng tham gia chương trình quay số trúng thưởng \"Gửi vạn điều may, sung túc trao tay\" cho mỗi giao dịch giá trị từ 100 triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, trong thời gian từ nay đến 05/02/2023 khách hàng cá nhân thực hiện 01 trong các giao dịch hợp lệ sẽ được cấp ngay mã dự thưởng tham gia chương trình quay số trúng thưởng \"Gửi vạn điều may, sung túc trao tay\" cho mỗi giao dịch giá trị từ 100 triệu đồng."
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng là tiền mặt trị giá 500.000đ, 400.000đ và 300.000đ được chuyển ngay vào tài khoản thanh toán của khách hàng tại VIB."
+    },
+    {
+        "text": "400.000đ",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng là tiền mặt trị giá 500.000đ, 400.000đ và 300.000đ được chuyển ngay vào tài khoản thanh toán của khách hàng tại VIB."
+    },
+    {
+        "text": "300.000đ",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng là tiền mặt trị giá 500.000đ, 400.000đ và 300.000đ được chuyển ngay vào tài khoản thanh toán của khách hàng tại VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Cơ cấu giải thưởng là tiền mặt trị giá 500.000đ, 400.000đ và 300.000đ được chuyển ngay vào tài khoản thanh toán của khách hàng tại VIB."
+    },
+    {
+        "text": "Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "Tiền gửi iDepo (VND)",
+        "label": "ASSET",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "nhận chuyển quyền sở hữu Tiền gửi iDepo (VND)",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "Chuyển tiền quốc tế tại quầy",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "Nhận tiền kiều hối tại quầy",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB",
+        "label": "EVENT",
+        "evidence": "Các giao dịch hợp lệ gồm: Mở Tiết kiệm trực tuyến/Sổ tiền gửi có kỳ hạn gửi ≥ 06 tháng hoặc nhận chuyển quyền sở hữu Tiền gửi iDepo (VND) hoặc; Nộp tiền mặt VND tại quầy vào tài khoản của chính khách hàng tại VIB; Chuyển tiền quốc tế tại quầy; Nhận tiền kiều hối tại quầy; Thanh toán tiền lãi VND tại quầy cho khoản vay của chính khách hàng tại VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Nhân dịp này, VIB cũng dành tặng khách hàng nhiều ưu đãi khi gửi tiết kiệm và giao dịch tại ngân hàng."
+    },
+    {
+        "text": "nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)",
+        "label": "EVENT",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "tiền gửi trực tuyến",
+        "label": "ASSET",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "sổ tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "tiền gửi iDepo",
+        "label": "ASSET",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "hợp đồng bảo hiểm nhân thọ",
+        "label": "ASSET",
+        "evidence": "Khách hàng nhận 500.000đ cho mỗi lần tham gia sản phẩm mới của VIB (tiền gửi trực tuyến, sổ tiết kiệm/ tiền gửi iDepo, thẻ tín dụng, hợp đồng bảo hiểm nhân thọ)."
+    },
+    {
+        "text": "gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán",
+        "label": "EVENT",
+        "evidence": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán."
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán."
+    },
+    {
+        "text": "500.000đ",
+        "label": "MONEY",
+        "evidence": "Khách hàng gửi tiết kiệm trực tuyến với giá trị từ 5 triệu đồng, kỳ hạn từ 1 tháng đồng thời mở thành công thẻ tín dụng sẽ được tặng 500.000đ vào tài khoản thanh toán."
+    },
+    {
+        "text": "MyVIB",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "thẻ thanh toán IDC",
+        "label": "ASSET",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "MyVIB",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "SmartPay-QR",
+        "label": "ASSET",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Circle K",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "GS25",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "7-Eleven",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "Co.opMart",
+        "label": "ORG",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "hoàn tiền lên đến 2% cho mọi giao dịch",
+        "label": "EVENT",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "Khách hàng được tận hưởng vô vàn ưu đãi 24/7 từ ngân hàng số MyVIB và thẻ thanh toán IDC như: voucher giảm giá lên tới 100.000 đồng mỗi ngày khi mua sắm trên Lazada; Giảm 3% không giới hạn khi nạp tiền điện thoại trả trước; Giảm 10% không giới hạn khi nạp tiền Gói Data 3G/4G, Hoàn tiền 50.000 đồng khi thanh toán học phí SSC qua MyVIB; Giảm 10.000 đồng khi quét mã SmartPay-QR tại các ĐCNTT Circle K, GS25, 7-Eleven, Thế Giới Di Động, Bách Hóa Xanh, Điện Máy Xanh và hàng chục nghìn điểm chấp nhận thanh toán khác; Hoàn 10% khi mua sắm tại Co.opMart mỗi thứ bảy, chủ nhật và đặc biệt, đượchoàn tiền lên đến 2%cho mọi giao dịch."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Bên cạnh các chương trình ưu đãi, khách hàng có tài khoản thanh toán tại VIB cũng được gia tăng quyền lợi tối đa với lãi suất tiền gửi không kỳ hạn lên tới 1%/năm."
+    },
+    {
+        "text": "1%/năm",
+        "label": "RATE",
+        "evidence": "Bên cạnh các chương trình ưu đãi, khách hàng có tài khoản thanh toán tại VIB cũng được gia tăng quyền lợi tối đa với lãi suất tiền gửi không kỳ hạn lên tới 1%/năm."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tham khảo các chương trình ưu đãi dành cho khách hàng của VIBtại đây."
+    }
+]

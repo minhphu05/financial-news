@@ -1,0 +1,82 @@
+2026-06-04 02:38:06 - src.scraper - INFO - [94mLogging this run to: /Users/kittnguyen/Documents/Project/financial-news/logs/scraper/scrape_20260604T023806.log[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mJSON log (FluentBit): /Users/kittnguyen/Documents/Project/financial-news/logs/scraper/scrape_20260604T023806.json.log[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mProject root      : /Users/kittnguyen/Documents/Project/financial-news[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mInput Excel dir   : /Users/kittnguyen/Documents/Project/financial-news/data/raw[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mPostgreSQL host   : localhost:5434[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mMongoDB target    : financial_news.articles_content[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mMax pages/keyword : 200[0m
+2026-06-04 02:38:06 - src.scraper - INFO - [94mEarly-stop thresh : 100 consecutive known[0m
+2026-06-04 02:38:06 - src.scraper.pipeline - INFO - [94mLoading keyword table: /Users/kittnguyen/Documents/Project/financial-news/data/raw/vn30.xlsx[0m
+2026-06-04 02:38:06 - src.scraper.storage - SUCCESS - [32mConnected to PostgreSQL (localhost:5434) and MongoDB (financial_news.articles_content).[0m
+2026-06-04 02:38:06 - src.scraper.pipeline - INFO - [94mScrape run #5 started.[0m
+2026-06-04 02:38:06 - src.scraper.pipeline - INFO - [94m[ACB] Ngân hàng TMCP Á Châu - 5 keyword(s)[0m
+2026-06-04 02:38:14 - src.scraper.page_scraper - INFO - [94mEarly stop for 'ACB': 100 consecutive known articles reached.[0m
+2026-06-04 02:38:14 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'ACB' [ACB] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:38:16 - src.scraper.page_scraper - INFO - [94mKeyword 'Ngân hàng Á Châu' exhausted at page 2.[0m
+2026-06-04 02:38:16 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Ngân hàng Á Châu' [ACB] -> 0 new, 3 skipped, 1 pages[0m
+2026-06-04 02:38:18 - src.scraper.page_scraper - INFO - [94mKeyword 'Asia Commercial Bank' exhausted at page 1.[0m
+2026-06-04 02:38:18 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Asia Commercial Bank' [ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:38:19 - src.scraper.page_scraper - INFO - [94mKeyword 'ACB Bank' exhausted at page 1.[0m
+2026-06-04 02:38:19 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'ACB Bank' [ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:38:26 - src.scraper.page_scraper - INFO - [94mEarly stop for 'Ngân hàng ACB': 100 consecutive known articles reached.[0m
+2026-06-04 02:38:26 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Ngân hàng ACB' [ACB] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:38:26 - src.scraper.pipeline - INFO - [94m[BCM] Tổng công ty Đầu tư và Phát triển Công nghiệp – CTCP - 5 keyword(s)[0m
+2026-06-04 02:38:31 - src.scraper.page_scraper - INFO - [94mKeyword 'BCM' exhausted at page 4.[0m
+2026-06-04 02:38:31 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'BCM' [BCM] -> 0 new, 56 skipped, 3 pages[0m
+2026-06-04 02:38:37 - src.scraper.page_scraper - INFO - [94mEarly stop for 'Becamex': 100 consecutive known articles reached.[0m
+2026-06-04 02:38:37 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Becamex' [BCM] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:38:45 - src.scraper.page_scraper - INFO - [94mEarly stop for 'Becamex IDC': 100 consecutive known articles reached.[0m
+2026-06-04 02:38:45 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Becamex IDC' [BCM] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:38:48 - src.scraper.page_scraper - INFO - [94mKeyword 'Tổng công ty Becamex' exhausted at page 2.[0m
+2026-06-04 02:38:48 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Tổng công ty Becamex' [BCM] -> 0 new, 2 skipped, 1 pages[0m
+2026-06-04 02:38:49 - src.scraper.page_scraper - INFO - [94mKeyword 'Becamex Industrial' exhausted at page 1.[0m
+2026-06-04 02:38:49 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Becamex Industrial' [BCM] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:38:49 - src.scraper.pipeline - INFO - [94m[BID] Ngân hàng TMCP Đầu tư và Phát triển Việt Nam - 4 keyword(s)[0m
+2026-06-04 02:38:57 - src.scraper.page_scraper - INFO - [94mEarly stop for 'BID': 100 consecutive known articles reached.[0m
+2026-06-04 02:38:57 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'BID' [BID] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:39:04 - src.scraper.page_scraper - INFO - [94mEarly stop for 'BIDV': 100 consecutive known articles reached.[0m
+2026-06-04 02:39:04 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'BIDV' [BID] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:39:05 - src.scraper.page_scraper - INFO - [94mKeyword 'Bank for Investment and Development of Vietnam' exhausted at page 1.[0m
+2026-06-04 02:39:05 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Bank for Investment and Development of Vietnam' [BID] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:39:06 - src.scraper.page_scraper - INFO - [94mKeyword 'Ngân hàng Đầu tư và Phát triển Việt Nam' exhausted at page 1.[0m
+2026-06-04 02:39:06 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Ngân hàng Đầu tư và Phát triển Việt Nam' [BID] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:39:06 - src.scraper.pipeline - INFO - [94m[CTG] Ngân hàng TMCP Công Thương Việt Nam - 5 keyword(s)[0m
+2026-06-04 02:39:15 - src.scraper.page_scraper - INFO - [94mEarly stop for 'CTG': 100 consecutive known articles reached.[0m
+2026-06-04 02:39:15 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'CTG' [CTG] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:39:22 - src.scraper.page_scraper - INFO - [94mEarly stop for 'VietinBank': 100 consecutive known articles reached.[0m
+2026-06-04 02:39:22 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'VietinBank' [CTG] -> 0 new, 100 skipped, 5 pages (early-stop)[0m
+2026-06-04 02:39:24 - src.scraper.page_scraper - INFO - [94mKeyword 'Vietnam Joint Stock Commercial Bank for Industry and Trade' exhausted at page 1.[0m
+2026-06-04 02:39:24 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Vietnam Joint Stock Commercial Bank for Industry and Trade' [CTG] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-04 02:39:29 - src.scraper.page_scraper - INFO - [94mKeyword 'Ngân hàng Công Thương Việt Nam' exhausted at page 2.[0m
+2026-06-04 02:39:29 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'Ngân hàng Công Thương Việt Nam' [CTG] -> 3 new, 0 skipped, 1 pages[0m
+2026-06-04 02:39:33 - src.scraper.page_scraper - INFO - [94mKeyword 'ICB' exhausted at page 2.[0m
+2026-06-04 02:39:33 - src.scraper.page_scraper - SUCCESS - [32mKeyword 'ICB' [CTG] -> 1 new, 0 skipped, 1 pages[0m
+2026-06-04 02:39:33 - src.scraper.pipeline - INFO - [94m[DGC] CTCP Tập đoàn Hoá chất Đức Giang - 4 keyword(s)[0m
+2026-06-04 02:41:20 - src.scraper.pipeline - WARNING - [33mPipeline interrupted by user (Ctrl+C).[0m
+2026-06-04 02:41:20 - src.scraper.metrics - WARNING - [33mFailed to push scraper metrics to pushgateway:9091: <urlopen error [Errno 8] nodename nor servname provided, or not known>[0m
+2026-06-04 02:41:20 - src.scraper.metrics - INFO - [94mScraper metrics pushed to Pushgateway (localhost:9091): found=865, new=4, skipped=861, pages=47, errors=0, duration=194.0s, volume=0 bytes[0m
+2026-06-04 02:41:20 - src.scraper.pipeline - SUCCESS - [32mRun summary
+  tickers processed   : 5
+  keywords processed  : 19
+  articles found      : 865
+  articles persisted  : 4
+  articles skipped    : 861
+  pages crawled       : 47
+  errors              : 0
+  failed keywords     : 0[0m
+2026-06-04 02:41:20 - src.scraper - INFO - [94mNew scraped data detected; starting automatic preprocessing/chunking/embedding.[0m
+2026-06-04 02:41:20 - src.scraper - ERROR - [31mRun aborted by unhandled exception: No module named 'pydantic_settings'[0m
+Traceback (most recent call last):
+  File "/Users/kittnguyen/Documents/Project/financial-news/src/scraper/run.py", line 198, in main
+    _run_auto_ingestion(
+  File "/Users/kittnguyen/Documents/Project/financial-news/src/scraper/run.py", line 136, in _run_auto_ingestion
+    from src.rag.config import get_settings as get_rag_settings
+  File "/Users/kittnguyen/Documents/Project/financial-news/src/rag/__init__.py", line 16, in <module>
+    from src.rag.config.settings import get_settings  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kittnguyen/Documents/Project/financial-news/src/rag/config/__init__.py", line 3, in <module>
+    from src.rag.config.settings import Settings, get_settings
+  File "/Users/kittnguyen/Documents/Project/financial-news/src/rag/config/settings.py", line 22, in <module>
+    from pydantic_settings import BaseSettings, SettingsConfigDict
+ModuleNotFoundError: No module named 'pydantic_settings'
+2026-06-04 02:41:20 - src.scraper - INFO - [94mTotal elapsed: 194.5s[0m

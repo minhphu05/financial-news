@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "thực hiện chỉ đạo của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Theo đó, các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo đó, các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo đó, các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Theo đó, các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Theo đó, các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận",
+        "label": "EVENT",
+        "evidence": "các ngân hàng như MB, BIDV, Vietcombank, VietinBank và mới đây nhất là Agribank đã áp dụng hệ thống tự động cảnh báo các tài khoản có dấu hiệu gian lận."
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "danh sách đen do các cơ quan chức năng như Bộ Công an, Ngân hàng Nhà nước cung cấp và cơ sở dữ liệu nội bộ của ngân hàng về các tài khoản có dấu hiệu rủi ro."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "danh sách đen do các cơ quan chức năng như Bộ Công an, Ngân hàng Nhà nước cung cấp và cơ sở dữ liệu nội bộ của ngân hàng về các tài khoản có dấu hiệu rủi ro."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đơn cử như tại BIDV, chỉ trong một tháng thử nghiệm, hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Đơn cử như tại BIDV, chỉ trong một tháng thử nghiệm, hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "160 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tương tự, ngân hàng tiên phong triển khai là MB cũng ghi nhận 1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo chỉ trong tháng đầu tiên áp dụng."
+    },
+    {
+        "text": "tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo chỉ trong tháng đầu tiên áp dụng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TPBank cũng đã tích hợp giải pháp bảo mật trực tiếp trên ứng dụng, có khả năng cảnh báo nếu phát hiện điện thoại của khách hàng chứa phần mềm được cấp các quyền nguy hiểm như quyền trợ năng, vốn thường bị kẻ gian lợi dụng để chiếm quyền điều khiển."
+    },
+    {
+        "text": "tích hợp giải pháp bảo mật trực tiếp trên ứng dụng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TPBank cũng đã tích hợp giải pháp bảo mật trực tiếp trên ứng dụng, có khả năng cảnh báo nếu phát hiện điện thoại của khách hàng chứa phần mềm được cấp các quyền nguy hiểm như quyền trợ năng, vốn thường bị kẻ gian lợi dụng để chiếm quyền điều khiển."
+    }
+]

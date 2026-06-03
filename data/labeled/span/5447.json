@@ -1,0 +1,427 @@
+[
+    {
+        "text": "ngày 11/5",
+        "label": "DATE",
+        "evidence": "Chiều ngày 11/5 vừa qua, sau điều chỉnh của liên bộ Công Thương - Tài chính, giá các mặt hàng xăng dầu đã đồng loạt giảm mạnh."
+    },
+    {
+        "text": "liên bộ Công Thương - Tài chính",
+        "label": "ORG",
+        "evidence": "Chiều ngày 11/5 vừa qua, sau điều chỉnh của liên bộ Công Thương - Tài chính, giá các mặt hàng xăng dầu đã đồng loạt giảm mạnh."
+    },
+    {
+        "text": "giá các mặt hàng xăng dầu đã đồng loạt giảm mạnh",
+        "label": "EVENT",
+        "evidence": "Chiều ngày 11/5 vừa qua, sau điều chỉnh của liên bộ Công Thương - Tài chính, giá các mặt hàng xăng dầu đã đồng loạt giảm mạnh."
+    },
+    {
+        "text": "xăng RON 95-III",
+        "label": "ASSET",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "giá xăng RON 95-III đã giảm 1.320 đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "1.320 đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "21.000 đồng/lít",
+        "label": "PRICE",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "dầu diesel",
+        "label": "ASSET",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "giá dầu diesel cũng giảm 600 đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "600 đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "17.650 đồng/lít",
+        "label": "PRICE",
+        "evidence": "Cụ thể, giá xăng RON 95-III đã giảm 1.320 đồng, xuống mức 21.000 đồng/lít, giá dầu diesel cũng giảm 600 đồng xuống 17.650 đồng/lít."
+    },
+    {
+        "text": "giá các loại mặt hàng này điều chỉnh giảm",
+        "label": "EVENT",
+        "evidence": "Đây đã lần lần thứ 3 liên tiếp giá các loại mặt hàng này điều chỉnh giảm."
+    },
+    {
+        "text": "xăng RON 95-III",
+        "label": "ASSET",
+        "evidence": "Đối với xăng RON 95-III, giá hiện tại là mức thấp nhất kể từ đầu năm 2023 trong khi giá dầu diesel thậm chí đã rơi xuống mức thấp nhất trong khoảng 1 năm rưỡi trở lại đây."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Đối với xăng RON 95-III, giá hiện tại là mức thấp nhất kể từ đầu năm 2023 trong khi giá dầu diesel thậm chí đã rơi xuống mức thấp nhất trong khoảng 1 năm rưỡi trở lại đây."
+    },
+    {
+        "text": "dầu diesel",
+        "label": "ASSET",
+        "evidence": "Đối với xăng RON 95-III, giá hiện tại là mức thấp nhất kể từ đầu năm 2023 trong khi giá dầu diesel thậm chí đã rơi xuống mức thấp nhất trong khoảng 1 năm rưỡi trở lại đây."
+    },
+    {
+        "text": "1 năm rưỡi",
+        "label": "DATE",
+        "evidence": "Đối với xăng RON 95-III, giá hiện tại là mức thấp nhất kể từ đầu năm 2023 trong khi giá dầu diesel thậm chí đã rơi xuống mức thấp nhất trong khoảng 1 năm rưỡi trở lại đây."
+    },
+    {
+        "text": "quý đầu năm nay",
+        "label": "DATE",
+        "evidence": "Xu hướng này nếu tiếp diễn có thể sẽ ảnh hưởng đến nguồn thu của các nhà bán lẻ xăng dầu vốn đã bị thu hẹp trong quý đầu năm nay."
+    },
+    {
+        "text": "nghìn tỷ",
+        "label": "MONEY",
+        "evidence": "Bình quân mỗi ngày thu gần nghìn tỷ"
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo ước tính, Việt Nam hiện có hơn 17.000 cửa hàng bán lẻ xăng dầu, cung cấp hàng chục triệu tấn sản phẩm cho người tiêu dùng mỗi năm."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "Khoảng 70% thị phần xăng dầu dựa trên doanh thu nội địa hiện nằm trong tay 2 doanh nghiệp Nhà nước làPetrolimex (PLX)vàPV Oil (OIL)."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Khoảng 70% thị phần xăng dầu dựa trên doanh thu nội địa hiện nằm trong tay 2 doanh nghiệp Nhà nước làPetrolimex (PLX)vàPV Oil (OIL)."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Khoảng 70% thị phần xăng dầu dựa trên doanh thu nội địa hiện nằm trong tay 2 doanh nghiệp Nhà nước làPetrolimex (PLX)vàPV Oil (OIL)."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Khoảng 70% thị phần xăng dầu dựa trên doanh thu nội địa hiện nằm trong tay 2 doanh nghiệp Nhà nước làPetrolimex (PLX)vàPV Oil (OIL)."
+    },
+    {
+        "text": "OIL",
+        "label": "TICKER",
+        "evidence": "Khoảng 70% thị phần xăng dầu dựa trên doanh thu nội địa hiện nằm trong tay 2 doanh nghiệp Nhà nước làPetrolimex (PLX)vàPV Oil (OIL)."
+    },
+    {
+        "text": "quý đầu năm",
+        "label": "DATE",
+        "evidence": "Dù mặt bằng giá xăng, dầu không quá thấp so với các quý trước nhưng cả 2 “ông lớn” này đều có phần thất thu trong quý đầu năm."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "doanh thu thuần quý 1 đạt 67.432 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "67.432 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "0,6%",
+        "label": "RATE",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "cùng kỳ năm ngoái",
+        "label": "DATE",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "4 quý",
+        "label": "DATE",
+        "evidence": "Petrolimex - nhà bán lẻ xăng dầu lớn nhất cả nước ghi nhận doanh thu thuần quý 1 đạt 67.432 tỷ đồng, nhích nhẹ 0,6% so với cùng kỳ năm ngoái nhưng là mức thấp nhất trong vòng 4 quý."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Doanh thu thuần của PV Oil thậm chí đã giảm 3 quý liên tiếp xuống mức 20.538 tỷ đồng trong quý 1."
+    },
+    {
+        "text": "Doanh thu thuần của PV Oil thậm chí đã giảm 3 quý liên tiếp xuống mức 20.538 tỷ đồng trong quý 1",
+        "label": "EVENT",
+        "evidence": "Doanh thu thuần của PV Oil thậm chí đã giảm 3 quý liên tiếp xuống mức 20.538 tỷ đồng trong quý 1."
+    },
+    {
+        "text": "3 quý",
+        "label": "DATE",
+        "evidence": "Doanh thu thuần của PV Oil thậm chí đã giảm 3 quý liên tiếp xuống mức 20.538 tỷ đồng trong quý 1."
+    },
+    {
+        "text": "20.538 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu thuần của PV Oil thậm chí đã giảm 3 quý liên tiếp xuống mức 20.538 tỷ đồng trong quý 1."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Con số này thấp hơn 13% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Thực tế, doanh thu của Petrolimex và PV Oil vẫn là con số “khổng lồ” không chỉ với các doanh nghiệp cùng ngành mà còn với phần lớn doanh nghiệp trên sàn chứng khoán."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Thực tế, doanh thu của Petrolimex và PV Oil vẫn là con số “khổng lồ” không chỉ với các doanh nghiệp cùng ngành mà còn với phần lớn doanh nghiệp trên sàn chứng khoán."
+    },
+    {
+        "text": "Tổng doanh thu của hai nhà bán lẻ xăng dầu lớn nhất cả nước trong quý đầu năm đạt xấp xỉ 88.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng doanh thu của hai nhà bán lẻ xăng dầu lớn nhất cả nước trong quý đầu năm đạt xấp xỉ 88.000 tỷ đồng, tương đương bình quân mỗi ngày thu gần nghìn tỷ."
+    },
+    {
+        "text": "quý đầu năm",
+        "label": "DATE",
+        "evidence": "Tổng doanh thu của hai nhà bán lẻ xăng dầu lớn nhất cả nước trong quý đầu năm đạt xấp xỉ 88.000 tỷ đồng, tương đương bình quân mỗi ngày thu gần nghìn tỷ."
+    },
+    {
+        "text": "88.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng doanh thu của hai nhà bán lẻ xăng dầu lớn nhất cả nước trong quý đầu năm đạt xấp xỉ 88.000 tỷ đồng, tương đương bình quân mỗi ngày thu gần nghìn tỷ."
+    },
+    {
+        "text": "5 quý",
+        "label": "DATE",
+        "evidence": "Dù vậy, con số này vẫn là mức thấp nhất trong vòng 5 quý kể từ đầu năm 2022."
+    },
+    {
+        "text": "đầu năm 2022",
+        "label": "DATE",
+        "evidence": "Dù vậy, con số này vẫn là mức thấp nhất trong vòng 5 quý kể từ đầu năm 2022."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tương tự doanh thu, lợi nhuận củaPetrolimexvà PV Oil cũng biến động trái chiều nếu so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Tương tự doanh thu, lợi nhuận củaPetrolimexvà PV Oil cũng biến động trái chiều nếu so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "51%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "667 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "cùng kỳ",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "265,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế quý 1 của Petrolimex tăng đến 51% lên mức 667 tỷ đồng trong khi PV Oil lại báo lãi giảm nhẹ 6% so với cùng kỳ xuống còn 265,6 tỷ đồng."
+    },
+    {
+        "text": "Petrloimex",
+        "label": "ORG",
+        "evidence": "Theo giải trình từ phía Petrloimex, lợi nhuận tăng trưởng cao là nhờ hoạt động kinh xăng dầu trong điều kiện bình thường hơn so với cùng kỳ: (1) giá dầu thế giới không chịu tác động bất thường như khi xảy ra cuộc xung đột giữa Nga và Ukraine vào tháng 2/2022; (2) cung xăng dầu từ các nhà máy lọc dầu trong nước khá ổn định, các thương nhân thực hiện nhập mua xăng dầu theo đúng kế hoạch và đảm bảo hiệu quả."
+    },
+    {
+        "text": "Nga",
+        "label": "ORG",
+        "evidence": "(1) giá dầu thế giới không chịu tác động bất thường như khi xảy ra cuộc xung đột giữa Nga và Ukraine vào tháng 2/2022;"
+    },
+    {
+        "text": "Ukraine",
+        "label": "ORG",
+        "evidence": "(1) giá dầu thế giới không chịu tác động bất thường như khi xảy ra cuộc xung đột giữa Nga và Ukraine vào tháng 2/2022;"
+    },
+    {
+        "text": "tháng 2/2022",
+        "label": "DATE",
+        "evidence": "(1) giá dầu thế giới không chịu tác động bất thường như khi xảy ra cuộc xung đột giữa Nga và Ukraine vào tháng 2/2022;"
+    },
+    {
+        "text": "cuối quý",
+        "label": "DATE",
+        "evidence": "Ngoài ra, tỷ giá ngoại tệ biến động theo xu hướng giảm vào cuối quý cũng giúp tập đoàn có lãi chênh lệch tỷ giá thay vì bị lỗ như cùng kỳ."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Đối với PV Oil, doanh nghiệp lý giải lợi nhuận sau thuế quý 1 giảm so với cùng kỳ là do giá vốn và các chi phí phátsinh trong kỳ như chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp đều tăng."
+    },
+    {
+        "text": "lợi nhuận sau thuế quý 1 giảm so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Đối với PV Oil, doanh nghiệp lý giải lợi nhuận sau thuế quý 1 giảm so với cùng kỳ là do giá vốn và các chi phí phátsinh trong kỳ như chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp đều tăng."
+    },
+    {
+        "text": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng sau quý đầu năm, xuống còn gần 14.600 tỷ đồng, thấp nhất từ đầu năm 2022."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng sau quý đầu năm, xuống còn gần 14.600 tỷ đồng, thấp nhất từ đầu năm 2022."
+    },
+    {
+        "text": "2.650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng sau quý đầu năm, xuống còn gần 14.600 tỷ đồng, thấp nhất từ đầu năm 2022."
+    },
+    {
+        "text": "14.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng sau quý đầu năm, xuống còn gần 14.600 tỷ đồng, thấp nhất từ đầu năm 2022."
+    },
+    {
+        "text": "đầu năm 2022",
+        "label": "DATE",
+        "evidence": "Giá trị hàng tồn kho của Petrolimex đã giảm 2.650 tỷ đồng sau quý đầu năm, xuống còn gần 14.600 tỷ đồng, thấp nhất từ đầu năm 2022."
+    },
+    {
+        "text": "giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng sau quý 1 lên gần 3.300 tỷ đồng."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Ngược lại, giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng sau quý 1 lên gần 3.300 tỷ đồng."
+    },
+    {
+        "text": "342 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng sau quý 1 lên gần 3.300 tỷ đồng."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Ngược lại, giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng sau quý 1 lên gần 3.300 tỷ đồng."
+    },
+    {
+        "text": "3.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, giá trị hàng tồn kho của PV Oil đã tăng 342 tỷ đồng sau quý 1 lên gần 3.300 tỷ đồng."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Petrolimex và PV Oil đều trích lập dự phòng giảm giá không đáng kể cho khoản mục này vào cuối quý vừa qua."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Petrolimex và PV Oil đều trích lập dự phòng giảm giá không đáng kể cho khoản mục này vào cuối quý vừa qua."
+    },
+    {
+        "text": "cuối quý vừa qua",
+        "label": "DATE",
+        "evidence": "Petrolimex và PV Oil đều trích lập dự phòng giảm giá không đáng kể cho khoản mục này vào cuối quý vừa qua."
+    },
+    {
+        "text": "tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "31/3",
+        "label": "DATE",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "17.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "2.300 tỷ",
+        "label": "MONEY",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Tính chung cả 2 doanh nghiệp, tổng lượng tồn kho tại thời điểm 31/3 đạt gần 17.900 tỷ đồng, giảm hơn 2.300 tỷ so với đầu năm và là mức thấp nhất kể từ cuối năm 2021."
+    },
+    {
+        "text": "giá bán giảm mạnh từ đầu quý 2 đến nay",
+        "label": "EVENT",
+        "evidence": "Tồn kho ở mức thấp giúp 2 nhà bán lẻ xăng dầu phần nào vơi bớt áp lực khi giá bán giảm mạnh từ đầu quý 2 đến nay."
+    },
+    {
+        "text": "đầu quý 2 đến nay",
+        "label": "DATE",
+        "evidence": "Tồn kho ở mức thấp giúp 2 nhà bán lẻ xăng dầu phần nào vơi bớt áp lực khi giá bán giảm mạnh từ đầu quý 2 đến nay."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Dù vậy, nếu giá xăng, dầu tiếp tục xu hướng giảm, biên lợi nhuận gộp của Petrolimex và PV Oil chắc chắn sẽ bị ảnh hưởng nhưng với mức độ khác nhau."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Dù vậy, nếu giá xăng, dầu tiếp tục xu hướng giảm, biên lợi nhuận gộp của Petrolimex và PV Oil chắc chắn sẽ bị ảnh hưởng nhưng với mức độ khác nhau."
+    }
+]

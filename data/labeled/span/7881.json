@@ -1,0 +1,607 @@
+[
+    {
+        "text": "tuần giao dịch 20-24/3",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán ghi nhận sự phục hồi nhẹ trong tuần giao dịch 20-24/3."
+    },
+    {
+        "text": "Fed",
+        "label": "ORG",
+        "evidence": "Diễn biến tuần qua xoay quanh thông tin Fed đã quyết định nâng lãi suất 25 điểm cơ bản lên 4,75%-5%, tâm lý nhà đầu tư thể hiện sự thận trọng nhất định."
+    },
+    {
+        "text": "nâng lãi suất 25 điểm cơ bản lên 4,75%-5%",
+        "label": "EVENT",
+        "evidence": "Diễn biến tuần qua xoay quanh thông tin Fed đã quyết định nâng lãi suất 25 điểm cơ bản lên 4,75%-5%, tâm lý nhà đầu tư thể hiện sự thận trọng nhất định."
+    },
+    {
+        "text": "25 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "Diễn biến tuần qua xoay quanh thông tin Fed đã quyết định nâng lãi suất 25 điểm cơ bản lên 4,75%-5%, tâm lý nhà đầu tư thể hiện sự thận trọng nhất định."
+    },
+    {
+        "text": "4,75%-5%",
+        "label": "RATE",
+        "evidence": "Diễn biến tuần qua xoay quanh thông tin Fed đã quyết định nâng lãi suất 25 điểm cơ bản lên 4,75%-5%, tâm lý nhà đầu tư thể hiện sự thận trọng nhất định."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Lực cầu xuất hiện sau khi VN-Index giảm dưới vùng điểm 1.020 đã giúp thị trường lấy lại được sắc xanh, phục hồi lên sát khu vực 1.050."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Lực cầu xuất hiện sau khi VN-Index giảm dưới vùng điểm 1.020 đã giúp thị trường lấy lại được sắc xanh, phục hồi lên sát khu vực 1.050."
+    },
+    {
+        "text": "1.020",
+        "label": "PRICE",
+        "evidence": "Lực cầu xuất hiện sau khi VN-Index giảm dưới vùng điểm 1.020 đã giúp thị trường lấy lại được sắc xanh, phục hồi lên sát khu vực 1.050."
+    },
+    {
+        "text": "1.050",
+        "label": "PRICE",
+        "evidence": "Lực cầu xuất hiện sau khi VN-Index giảm dưới vùng điểm 1.020 đã giúp thị trường lấy lại được sắc xanh, phục hồi lên sát khu vực 1.050."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index tăng gần 2 điểm để kết phiên cuối tuần tại mức 1.046,79 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "VN-Index tăng gần 2 điểm để kết phiên cuối tuần tại mức 1.046,79 điểm."
+    },
+    {
+        "text": "gần 2 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index tăng gần 2 điểm để kết phiên cuối tuần tại mức 1.046,79 điểm."
+    },
+    {
+        "text": "1.046,79 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index tăng gần 2 điểm để kết phiên cuối tuần tại mức 1.046,79 điểm."
+    },
+    {
+        "text": "gần 20%",
+        "label": "RATE",
+        "evidence": "Thanh khoản sụt giảm gần 20% so với tuần trước, giá trị giao dịch trung bình trên HoSE chỉ đạt khoảng 10.000 tỷ đồng/phiên."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản sụt giảm gần 20% so với tuần trước, giá trị giao dịch trung bình trên HoSE chỉ đạt khoảng 10.000 tỷ đồng/phiên."
+    },
+    {
+        "text": "10.000 tỷ đồng/phiên",
+        "label": "MONEY",
+        "evidence": "Thanh khoản sụt giảm gần 20% so với tuần trước, giá trị giao dịch trung bình trên HoSE chỉ đạt khoảng 10.000 tỷ đồng/phiên."
+    },
+    {
+        "text": "10.000 tỷ đồng/phiên",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản sụt giảm gần 20% so với tuần trước, giá trị giao dịch trung bình trên HoSE chỉ đạt khoảng 10.000 tỷ đồng/phiên."
+    },
+    {
+        "text": "cơ cấu ETFs",
+        "label": "EVENT",
+        "evidence": "Về giao dịch khối ngoại, sau tuần cơ cấu ETFs, lực mua của nhà đầu tư nước ngoài sụt giảm đáng kể, thậm chí họ quay đầu bán ròng mạnh trong phiên đầu tuần."
+    },
+    {
+        "text": "ETFs",
+        "label": "ASSET",
+        "evidence": "Về giao dịch khối ngoại, sau tuần cơ cấu ETFs, lực mua của nhà đầu tư nước ngoài sụt giảm đáng kể, thậm chí họ quay đầu bán ròng mạnh trong phiên đầu tuần."
+    },
+    {
+        "text": "399 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo thống kê, khối ngoại chỉ mua ròng 399 tỷ đồng sau 5 phiên giao dịch, giảm rõ rệt so với giá trị hơn 2.300 tỷ tuần trước."
+    },
+    {
+        "text": "399 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Theo thống kê, khối ngoại chỉ mua ròng 399 tỷ đồng sau 5 phiên giao dịch, giảm rõ rệt so với giá trị hơn 2.300 tỷ tuần trước."
+    },
+    {
+        "text": "5 phiên giao dịch",
+        "label": "DATE",
+        "evidence": "Theo thống kê, khối ngoại chỉ mua ròng 399 tỷ đồng sau 5 phiên giao dịch, giảm rõ rệt so với giá trị hơn 2.300 tỷ tuần trước."
+    },
+    {
+        "text": "hơn 2.300 tỷ",
+        "label": "MONEY",
+        "evidence": "Theo thống kê, khối ngoại chỉ mua ròng 399 tỷ đồng sau 5 phiên giao dịch, giảm rõ rệt so với giá trị hơn 2.300 tỷ tuần trước."
+    },
+    {
+        "text": "hơn 2.300 tỷ",
+        "label": "VOLUME",
+        "evidence": "Theo thống kê, khối ngoại chỉ mua ròng 399 tỷ đồng sau 5 phiên giao dịch, giảm rõ rệt so với giá trị hơn 2.300 tỷ tuần trước."
+    },
+    {
+        "text": "340 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, khối ngoại mua ròng 340 tỷ đồng trên kênh khớp lệnh và mua ròng thêm 60 tỷ đồng thoả thuận."
+    },
+    {
+        "text": "340 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trong đó, khối ngoại mua ròng 340 tỷ đồng trên kênh khớp lệnh và mua ròng thêm 60 tỷ đồng thoả thuận."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, khối ngoại mua ròng 340 tỷ đồng trên kênh khớp lệnh và mua ròng thêm 60 tỷ đồng thoả thuận."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trong đó, khối ngoại mua ròng 340 tỷ đồng trên kênh khớp lệnh và mua ròng thêm 60 tỷ đồng thoả thuận."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Xét riêng theo từng mã cổ phiếu, dòng tiền ngoại tuần nào ghi nhận giá trị giao dịch mua ròng mạnh nhất tại cổ phiếu bất động sản VHM với giá trị gần 280 tỷ đồng."
+    },
+    {
+        "text": "gần 280 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Xét riêng theo từng mã cổ phiếu, dòng tiền ngoại tuần nào ghi nhận giá trị giao dịch mua ròng mạnh nhất tại cổ phiếu bất động sản VHM với giá trị gần 280 tỷ đồng."
+    },
+    {
+        "text": "gần 280 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Xét riêng theo từng mã cổ phiếu, dòng tiền ngoại tuần nào ghi nhận giá trị giao dịch mua ròng mạnh nhất tại cổ phiếu bất động sản VHM với giá trị gần 280 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, nhà đầu tư ngoại tuần này gom ròng cổ phiếu HPG, VCI, DCM, POW,... với vài chục tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "VCI",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, nhà đầu tư ngoại tuần này gom ròng cổ phiếu HPG, VCI, DCM, POW,... với vài chục tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "DCM",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, nhà đầu tư ngoại tuần này gom ròng cổ phiếu HPG, VCI, DCM, POW,... với vài chục tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "POW",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, nhà đầu tư ngoại tuần này gom ròng cổ phiếu HPG, VCI, DCM, POW,... với vài chục tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Ngược lại, cổ phiếu bán lẻ MSN bị khối ngoại bán ròng mạnh nhất trong tuần này với giá trị gând 120 tỷ đồng, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "gând 120 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, cổ phiếu bán lẻ MSN bị khối ngoại bán ròng mạnh nhất trong tuần này với giá trị gând 120 tỷ đồng, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "gând 120 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, cổ phiếu bán lẻ MSN bị khối ngoại bán ròng mạnh nhất trong tuần này với giá trị gând 120 tỷ đồng, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, các mã khác như PLX, CTG... cũng bị bán ròng trong tuần qua, giá trị đều khoảng 70-100 tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, các mã khác như PLX, CTG... cũng bị bán ròng trong tuần qua, giá trị đều khoảng 70-100 tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "70-100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, các mã khác như PLX, CTG... cũng bị bán ròng trong tuần qua, giá trị đều khoảng 70-100 tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "70-100 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, các mã khác như PLX, CTG... cũng bị bán ròng trong tuần qua, giá trị đều khoảng 70-100 tỷ đồng tại mỗi mã."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "ASSET",
+        "evidence": "Những chứng chỉ quỹ FUEVFVND, FUESSVFL cũng bị bán ròng trong tuần qua."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "Những chứng chỉ quỹ FUEVFVND, FUESSVFL cũng bị bán ròng trong tuần qua."
+    },
+    {
+        "text": "FUESSVFL",
+        "label": "ASSET",
+        "evidence": "Những chứng chỉ quỹ FUEVFVND, FUESSVFL cũng bị bán ròng trong tuần qua."
+    },
+    {
+        "text": "FUESSVFL",
+        "label": "TICKER",
+        "evidence": "Những chứng chỉ quỹ FUEVFVND, FUESSVFL cũng bị bán ròng trong tuần qua."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE, khối ngoại ghi nhận mua ròng 385 tỷ đồng trong tuần qua."
+    },
+    {
+        "text": "385 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn HoSE, khối ngoại ghi nhận mua ròng 385 tỷ đồng trong tuần qua."
+    },
+    {
+        "text": "385 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên sàn HoSE, khối ngoại ghi nhận mua ròng 385 tỷ đồng trong tuần qua."
+    },
+    {
+        "text": "325 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể nhà đầu tư ngoại mua ròng 325 tỷ đồng thông qua khớp lệnh trên sàn cộng thêm mua ròng 60 tỷ đồng tại kênh thỏa thuận."
+    },
+    {
+        "text": "325 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cụ thể nhà đầu tư ngoại mua ròng 325 tỷ đồng thông qua khớp lệnh trên sàn cộng thêm mua ròng 60 tỷ đồng tại kênh thỏa thuận."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể nhà đầu tư ngoại mua ròng 325 tỷ đồng thông qua khớp lệnh trên sàn cộng thêm mua ròng 60 tỷ đồng tại kênh thỏa thuận."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cụ thể nhà đầu tư ngoại mua ròng 325 tỷ đồng thông qua khớp lệnh trên sàn cộng thêm mua ròng 60 tỷ đồng tại kênh thỏa thuận."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, khối ngoại tỏ ra ưa thích cổ phiếu VHM, đây là tâm điểm mua ròng tuần qua với giá trị mua ròng đạt 276 tỷ đồng, hầu hết là mua ròng khớp lệnh."
+    },
+    {
+        "text": "276 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, khối ngoại tỏ ra ưa thích cổ phiếu VHM, đây là tâm điểm mua ròng tuần qua với giá trị mua ròng đạt 276 tỷ đồng, hầu hết là mua ròng khớp lệnh."
+    },
+    {
+        "text": "276 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại chiều mua, khối ngoại tỏ ra ưa thích cổ phiếu VHM, đây là tâm điểm mua ròng tuần qua với giá trị mua ròng đạt 276 tỷ đồng, hầu hết là mua ròng khớp lệnh."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "94 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "94 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "VCI",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "91 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "91 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, lực mua ròng mạnh của khối ngoại trong tuần qua còn ghi nhận tại HPG với 94 tỷ đồng và VCI với 91 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "DCM",
+        "label": "TICKER",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "67 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "67 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "POW",
+        "label": "TICKER",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "65 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "65 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Danh sách TOP cổ phiếu được mua ròng trong tuần qua tại sàn HoSE còn có DCM (67 tỷ đồng), POW (65 tỷ đồng),..."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, tâm điểm dòng vốn ngoại rút ròng ghi nhận tại mã MSN, giá trị tuần này ghi nhận bán ròng hơn 117 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "hơn 117 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, tâm điểm dòng vốn ngoại rút ròng ghi nhận tại mã MSN, giá trị tuần này ghi nhận bán ròng hơn 117 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "hơn 117 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, tâm điểm dòng vốn ngoại rút ròng ghi nhận tại mã MSN, giá trị tuần này ghi nhận bán ròng hơn 117 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "104 tỷ",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "104 tỷ",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "70 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "70 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, áp lực bán ròng ghi nhận tại PLX và MSN với giá trị lần lượt là 104 tỷ và 70 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên sàn HNX, khối ngoại tiếp tục mua ròng nhưng đã giảm so với tuần trước, giá trị chỉ đtaj 41 tỷ đồng trong cả tuần, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "41 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn HNX, khối ngoại tiếp tục mua ròng nhưng đã giảm so với tuần trước, giá trị chỉ đtaj 41 tỷ đồng trong cả tuần, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "41 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên sàn HNX, khối ngoại tiếp tục mua ròng nhưng đã giảm so với tuần trước, giá trị chỉ đtaj 41 tỷ đồng trong cả tuần, tập trung toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Khối ngoại tiếp tục mua ròng trên sàn HNX nhiều nhất tại cổ phiếu IDC với giá trị khoảng 25 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "Khối ngoại tiếp tục mua ròng trên sàn HNX nhiều nhất tại cổ phiếu IDC với giá trị khoảng 25 tỷ đồng."
+    },
+    {
+        "text": "khoảng 25 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối ngoại tiếp tục mua ròng trên sàn HNX nhiều nhất tại cổ phiếu IDC với giá trị khoảng 25 tỷ đồng."
+    },
+    {
+        "text": "khoảng 25 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Khối ngoại tiếp tục mua ròng trên sàn HNX nhiều nhất tại cổ phiếu IDC với giá trị khoảng 25 tỷ đồng."
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "10 tỷ",
+        "label": "MONEY",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "10 tỷ",
+        "label": "VOLUME",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "5 tỷ",
+        "label": "MONEY",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "5 tỷ",
+        "label": "VOLUME",
+        "evidence": "PVS và CEO cũng lần lượt được mua ròng lần lượt 10 tỷ và 5 tỷ."
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu được mua ròng trong tuần qua còn có TNG, PVI, SLS,..."
+    },
+    {
+        "text": "PVI",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu được mua ròng trong tuần qua còn có TNG, PVI, SLS,..."
+    },
+    {
+        "text": "SLS",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu được mua ròng trong tuần qua còn có TNG, PVI, SLS,..."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Giao dịch chiều bán tại HNX ghi nhận giá trị bán ròng lớn nhất tại THD với 3 tỷ đồng."
+    },
+    {
+        "text": "THD",
+        "label": "TICKER",
+        "evidence": "Giao dịch chiều bán tại HNX ghi nhận giá trị bán ròng lớn nhất tại THD với 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch chiều bán tại HNX ghi nhận giá trị bán ròng lớn nhất tại THD với 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Giao dịch chiều bán tại HNX ghi nhận giá trị bán ròng lớn nhất tại THD với 3 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Những cái tên trong danh sách bán ròng nhiều nhất sàn HNX trong tuần qua còn có BVS, TIG, NVB,..."
+    },
+    {
+        "text": "BVS",
+        "label": "TICKER",
+        "evidence": "Những cái tên trong danh sách bán ròng nhiều nhất sàn HNX trong tuần qua còn có BVS, TIG, NVB,..."
+    },
+    {
+        "text": "TIG",
+        "label": "TICKER",
+        "evidence": "Những cái tên trong danh sách bán ròng nhiều nhất sàn HNX trong tuần qua còn có BVS, TIG, NVB,..."
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "Những cái tên trong danh sách bán ròng nhiều nhất sàn HNX trong tuần qua còn có BVS, TIG, NVB,..."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài tuần này tiếp tục bán ròng 27 tỷ đồng, toàn bộ giao dịch trên kênh khớp lệnh."
+    },
+    {
+        "text": "27 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài tuần này tiếp tục bán ròng 27 tỷ đồng, toàn bộ giao dịch trên kênh khớp lệnh."
+    },
+    {
+        "text": "27 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài tuần này tiếp tục bán ròng 27 tỷ đồng, toàn bộ giao dịch trên kênh khớp lệnh."
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "14 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "14 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cổ phiếu BSR và VTP tuần này tiếp tục bị nhà đầu tư ngoại bán ròng nhiều nhất với 19 tỷ đồng và14 tỷ đồng tại mỗi cổ phiếu."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng bán ròng QNS với 2 tỷ đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng bán ròng QNS với 2 tỷ đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngoài ra, khối ngoại cũng bán ròng QNS với 2 tỷ đồng."
+    },
+    {
+        "text": "QTP",
+        "label": "TICKER",
+        "evidence": "Tại phía mua vào, cổ phiếu QTP dẫn đầu danh sách mua ròng tuần qua khi được khối ngoại mua ròng 3 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại phía mua vào, cổ phiếu QTP dẫn đầu danh sách mua ròng tuần qua khi được khối ngoại mua ròng 3 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại phía mua vào, cổ phiếu QTP dẫn đầu danh sách mua ròng tuần qua khi được khối ngoại mua ròng 3 tỷ đồng, toàn bộ trên kênh khớp lệnh."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, một số cổ phiếu được mua ròng từ nhà đầu tư ngoại tuần qua trên UPCoM còn CST, ACV, VEA,..."
+    },
+    {
+        "text": "CST",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, một số cổ phiếu được mua ròng từ nhà đầu tư ngoại tuần qua trên UPCoM còn CST, ACV, VEA,..."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, một số cổ phiếu được mua ròng từ nhà đầu tư ngoại tuần qua trên UPCoM còn CST, ACV, VEA,..."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, một số cổ phiếu được mua ròng từ nhà đầu tư ngoại tuần qua trên UPCoM còn CST, ACV, VEA,..."
+    }
+]

@@ -1,0 +1,327 @@
+[
+    {
+        "text": "10/7",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán ghi nhận rung lắc mạnh trong phiên 10/7."
+    },
+    {
+        "text": "ghi nhận rung lắc mạnh trong phiên 10/7",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán ghi nhận rung lắc mạnh trong phiên 10/7."
+    },
+    {
+        "text": "chứng khoán",
+        "label": "ASSET",
+        "evidence": "Thị trường chứng khoán ghi nhận rung lắc mạnh trong phiên 10/7."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, VN-Index giảm 7,77 điểm xuống 1.285,94 điểm."
+    },
+    {
+        "text": "Đà tăng không thể bảo toàn trước áp lực bán mạnh khiến chỉ số quay đầu giảm điểm",
+        "label": "EVENT",
+        "evidence": "Đà tăng không thể bảo toàn trước áp lực bán mạnh khiến chỉ số quay đầu giảm điểm."
+    },
+    {
+        "text": "VN-Index giảm 7,77 điểm",
+        "label": "EVENT",
+        "evidence": "Đóng cửa, VN-Index giảm 7,77 điểm xuống 1.285,94 điểm."
+    },
+    {
+        "text": "1.285,94 điểm",
+        "label": "PRICE",
+        "evidence": "Đóng cửa, VN-Index giảm 7,77 điểm xuống 1.285,94 điểm."
+    },
+    {
+        "text": "Giao dịch khối ngoại là điểm trừ khi bán ròng hơn 1.000 tỷ đồng trên toàn thị trường",
+        "label": "EVENT",
+        "evidence": "Giao dịch khối ngoại là điểm trừ khi bán ròng hơn 1.000 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch khối ngoại là điểm trừ khi bán ròng hơn 1.000 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "tự doanh CTCK tiếp tục mua ròng 345 tỷ trên cả ba sàn",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh đó,tự doanh CTCK tiếptụcmua ròng345tỷ trên cả ba sàn."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK tiếptụcmua ròng345tỷ trên cả ba sàn."
+    },
+    {
+        "text": "345 tỷ",
+        "label": "MONEY",
+        "evidence": "tự doanh CTCK tiếptụcmua ròng345tỷ trên cả ba sàn."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK mua ròng353tỷ đồng,trong đó mua ròng 364 tỷ đồng trên kênh khớp lệnh cộng nhưng bán ròng hơn 11 tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "tự doanh CTCK mua ròng 353 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK mua ròng353tỷ đồng,trong đó mua ròng 364 tỷ đồng trên kênh khớp lệnh cộng nhưng bán ròng hơn 11 tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "353 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tự doanh CTCK mua ròng353tỷ đồng"
+    },
+    {
+        "text": "mua ròng 364 tỷ đồng trên kênh khớp lệnh cộng",
+        "label": "EVENT",
+        "evidence": "trong đó mua ròng 364 tỷ đồng trên kênh khớp lệnh cộng"
+    },
+    {
+        "text": "364 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 364 tỷ đồng"
+    },
+    {
+        "text": "bán ròng hơn 11 tỷ tại kênh thoả thuận",
+        "label": "EVENT",
+        "evidence": "bán ròng hơn 11 tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "11 tỷ",
+        "label": "MONEY",
+        "evidence": "bán ròng hơn 11 tỷ"
+    },
+    {
+        "text": "giao dịch của các CTCK mua ròng mạnh nhất tại HDB và FPT với giá trị lần lượt 50 tỷ và 48 tỷ",
+        "label": "EVENT",
+        "evidence": "Cụ thể, giao dịch của các CTCK mua ròng mạnh nhất tại HDB và FPT với giá trị lần lượt 50 tỷ và 48 tỷ"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "mua ròng mạnh nhất tại HDB và FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "mua ròng mạnh nhất tại HDB và FPT"
+    },
+    {
+        "text": "50 tỷ",
+        "label": "MONEY",
+        "evidence": "với giá trị lần lượt 50 tỷ"
+    },
+    {
+        "text": "48 tỷ",
+        "label": "MONEY",
+        "evidence": "và 48 tỷ"
+    },
+    {
+        "text": "DCM",
+        "label": "TICKER",
+        "evidence": "mã DCM cũng được mua ròng 27 tỷ."
+    },
+    {
+        "text": "mã DCM cũng được mua ròng 27 tỷ",
+        "label": "EVENT",
+        "evidence": "mã DCM cũng được mua ròng 27 tỷ."
+    },
+    {
+        "text": "27 tỷ",
+        "label": "MONEY",
+        "evidence": "mua ròng 27 tỷ."
+    },
+    {
+        "text": "các mã như MWG, TCB, DPM, VNM, VPB… cũng được mua ròng trong phiên 10/7",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các mã như MWG, TCB, DPM, VNM, VPB… cũng được mua ròng trong phiên 10/7."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "các mã như MWG, TCB, DPM, VNM, VPB…"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "các mã như MWG, TCB, DPM, VNM, VPB…"
+    },
+    {
+        "text": "DPM",
+        "label": "TICKER",
+        "evidence": "các mã như MWG, TCB, DPM, VNM, VPB…"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "các mã như MWG, TCB, DPM, VNM, VPB…"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "các mã như MWG, TCB, DPM, VNM, VPB…"
+    },
+    {
+        "text": "10/7",
+        "label": "DATE",
+        "evidence": "cũng được mua ròng trong phiên 10/7."
+    },
+    {
+        "text": "nhóm CTCK bán ròng mạnh nhất tại MSN với 26 tỷ",
+        "label": "EVENT",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại MSN với 26 tỷ."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "bán ròng mạnh nhất tại MSN với 26 tỷ."
+    },
+    {
+        "text": "26 tỷ",
+        "label": "MONEY",
+        "evidence": "MSN với 26 tỷ."
+    },
+    {
+        "text": "Hai mã VPI và E1VFVN30 bị bán ròng với giá trị lần lượt là 26 tỷ và 17 tỷ",
+        "label": "EVENT",
+        "evidence": "Hai mã VPI và E1VFVN30 bị bán ròng với giá trị lần lượt là 26 tỷ và 17 tỷ."
+    },
+    {
+        "text": "VPI",
+        "label": "TICKER",
+        "evidence": "Hai mã VPI và E1VFVN30"
+    },
+    {
+        "text": "E1VFVN30",
+        "label": "TICKER",
+        "evidence": "Hai mã VPI và E1VFVN30"
+    },
+    {
+        "text": "26 tỷ",
+        "label": "MONEY",
+        "evidence": "giá trị lần lượt là 26 tỷ"
+    },
+    {
+        "text": "17 tỷ",
+        "label": "MONEY",
+        "evidence": "và 17 tỷ."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB cũng bị bán ròng khoảng 10 tỷ đồng."
+    },
+    {
+        "text": "MBB cũng bị bán ròng khoảng 10 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MBB cũng bị bán ròng khoảng 10 tỷ đồng."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 10 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Các cổ phiếu bị bán ròng trong phiên hôm nay còn có loạt mã GVR, REE, CMG…"
+    },
+    {
+        "text": "Các cổ phiếu bị bán ròng trong phiên hôm nay còn có loạt mã GVR, REE, CMG…",
+        "label": "EVENT",
+        "evidence": "Các cổ phiếu bị bán ròng trong phiên hôm nay còn có loạt mã GVR, REE, CMG…"
+    },
+    {
+        "text": "GVR",
+        "label": "TICKER",
+        "evidence": "loạt mã GVR, REE, CMG…"
+    },
+    {
+        "text": "REE",
+        "label": "TICKER",
+        "evidence": "loạt mã GVR, REE, CMG…"
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "loạt mã GVR, REE, CMG…"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, tự doanh CTCKbán ròng 2tỷ đồng,trong đó PVS bị bán ròng khoảng 2 tỷ."
+    },
+    {
+        "text": "tự doanh CTCK bán ròng 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, tự doanh CTCKbán ròng 2tỷ đồng,trong đó PVS bị bán ròng khoảng 2 tỷ."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCKbán ròng 2tỷ đồng"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVS bị bán ròng khoảng 2 tỷ."
+    },
+    {
+        "text": "PVS bị bán ròng khoảng 2 tỷ",
+        "label": "EVENT",
+        "evidence": "PVS bị bán ròng khoảng 2 tỷ."
+    },
+    {
+        "text": "2 tỷ",
+        "label": "MONEY",
+        "evidence": "bán ròng khoảng 2 tỷ."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM, tự doanh CTCK bánròng gần 6 tỷ đồng, trong đó BSR bị bán ròng gần 4 tỷ và DDV bị bán ròng khoảng 2 tỷ đồng."
+    },
+    {
+        "text": "tự doanh CTCK bán ròng gần 6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên UPCoM, tự doanh CTCK bánròng gần 6 tỷ đồng, trong đó BSR bị bán ròng gần 4 tỷ và DDV bị bán ròng khoảng 2 tỷ đồng."
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bánròng gần 6 tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "BSR bị bán ròng gần 4 tỷ"
+    },
+    {
+        "text": "BSR bị bán ròng gần 4 tỷ",
+        "label": "EVENT",
+        "evidence": "BSR bị bán ròng gần 4 tỷ"
+    },
+    {
+        "text": "4 tỷ",
+        "label": "MONEY",
+        "evidence": "bán ròng gần 4 tỷ"
+    },
+    {
+        "text": "DDV",
+        "label": "TICKER",
+        "evidence": "DDV bị bán ròng khoảng 2 tỷ đồng."
+    },
+    {
+        "text": "DDV bị bán ròng khoảng 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "DDV bị bán ròng khoảng 2 tỷ đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng khoảng 2 tỷ đồng."
+    }
+]

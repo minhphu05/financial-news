@@ -1,0 +1,267 @@
+[
+    {
+        "text": "5/1",
+        "label": "DATE",
+        "evidence": "Tối 5/1, đội tuyển Việt Nam lần thứ ba lên ngôi vô địch Đông Nam Á sau trận thắng Thái Lan 3-2 trên sân khách."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "giảm giá tivi đến 50%",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "giảm thêm giá tủ lạnh đến 10%",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "1,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "3 ngày 6-8/1",
+        "label": "DATE",
+        "evidence": "Đáng chú ý có thể kể đến Điện Máy Xanh, chuỗi bán lẻ điện máy hàng đầu cả nước, với tuyên bố đồng loạt giảm giá tivi đến 50%, giảm thêm giá tủ lạnh đến 10% (tối đa 1,5 triệu đồng) trong 3 ngày 6-8/1."
+    },
+    {
+        "text": "Điện Máy xanh",
+        "label": "ORG",
+        "evidence": "Bài đăng thông báo của Điện Máy xanh đã nhận được 6.500 lượt tương tác, 1.800 bình luận và 182 lượt chia sẻ."
+    },
+    {
+        "text": "6.500 lượt tương tác",
+        "label": "VOLUME",
+        "evidence": "Bài đăng thông báo của Điện Máy xanh đã nhận được 6.500 lượt tương tác, 1.800 bình luận và 182 lượt chia sẻ."
+    },
+    {
+        "text": "1.800 bình luận",
+        "label": "VOLUME",
+        "evidence": "Bài đăng thông báo của Điện Máy xanh đã nhận được 6.500 lượt tương tác, 1.800 bình luận và 182 lượt chia sẻ."
+    },
+    {
+        "text": "182 lượt chia sẻ",
+        "label": "VOLUME",
+        "evidence": "Bài đăng thông báo của Điện Máy xanh đã nhận được 6.500 lượt tương tác, 1.800 bình luận và 182 lượt chia sẻ."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "tặng deal mua 1 tặng 1 trên GrabFood",
+        "label": "EVENT",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "GrabFood",
+        "label": "ORG",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "6/1",
+        "label": "DATE",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "11.000 lượt tương tác",
+        "label": "VOLUME",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "2.700 bình luận",
+        "label": "VOLUME",
+        "evidence": "Phúc Long thông báo tặng deal mua 1 tặng 1 trên GrabFood trong ngày 6/1, nhận được tới 11.000 lượt tương tác và 2.700 bình luận với bài đăng này."
+    },
+    {
+        "text": "Highlands Coffee",
+        "label": "ORG",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "chạy chương trình mua 1 tặng 1",
+        "label": "EVENT",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "chiều 5/1 đến hết trưa 6/1",
+        "label": "DATE",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "tung deal nhiều món 1 đồng",
+        "label": "EVENT",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "1 đồng",
+        "label": "MONEY",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "voucher 50.000 đồng",
+        "label": "ASSET",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "ShopeeFood",
+        "label": "ORG",
+        "evidence": "Highlands Coffee – đối thủ của Phúc Long cũng chạy chương trình mua 1 tặng 1 từ chiều 5/1 đến hết trưa 6/1, đồng thời tung deal nhiều món 1 đồng và voucher 50.000 đồng trên ShopeeFood."
+    },
+    {
+        "text": "Gong Cha",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "khuyến mãi mua 1 tặng 1",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "6/1",
+        "label": "DATE",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "Koi Thé",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "miễn phí topping trân châu hoàng kim",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "Phê La",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "khuyến mãi mua 2 tặng 1 trên BeFood",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "BeFood",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các hãng trà sữa như Gong Cha cũng khuyến mãi mua 1 tặng 1 trong ngày 6/1, Koi Thé miễn phí topping trân châu hoàng kim, Phê La khuyến mãi mua 2 tặng 1 trên BeFood…"
+    },
+    {
+        "text": "Golden Gate",
+        "label": "ORG",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "Kichi Kichi",
+        "label": "ORG",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "Gogi House",
+        "label": "ORG",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "Manwah",
+        "label": "ORG",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "tặng buffet tráng miệng miễn phí",
+        "label": "EVENT",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "tặng 1 suất buffet 469.000 đồng",
+        "label": "EVENT",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "469.000 đồng",
+        "label": "MONEY",
+        "evidence": "Các thương hiệu thuộc Golden Gate như Kichi Kichi, Gogi House, Manwah cũng đưa ra nhiều chương trình khác nhau, như tặng buffet tráng miệng miễn phí cho những khách hàng trên Long và Hải, tặng 1 suất buffet 469.000 đồng cho nhóm 5."
+    },
+    {
+        "text": "Beta Cinemas",
+        "label": "ORG",
+        "evidence": "Về phía ngành dịch vụ, nổi bật có Beta Cinemas tuyên bố khao bắp 0 đồng, duy nhất ngày 6/1."
+    },
+    {
+        "text": "khao bắp 0 đồng",
+        "label": "EVENT",
+        "evidence": "Về phía ngành dịch vụ, nổi bật có Beta Cinemas tuyên bố khao bắp 0 đồng, duy nhất ngày 6/1."
+    },
+    {
+        "text": "0 đồng",
+        "label": "MONEY",
+        "evidence": "Về phía ngành dịch vụ, nổi bật có Beta Cinemas tuyên bố khao bắp 0 đồng, duy nhất ngày 6/1."
+    },
+    {
+        "text": "6/1",
+        "label": "DATE",
+        "evidence": "Về phía ngành dịch vụ, nổi bật có Beta Cinemas tuyên bố khao bắp 0 đồng, duy nhất ngày 6/1."
+    },
+    {
+        "text": "CGV Cinemas",
+        "label": "ORG",
+        "evidence": "Trong khi đó, đối thủ CGV Cinemas tung vé xem phim có giá chỉ từ 49.000 đồng."
+    },
+    {
+        "text": "tung vé xem phim có giá chỉ từ 49.000 đồng",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, đối thủ CGV Cinemas tung vé xem phim có giá chỉ từ 49.000 đồng."
+    },
+    {
+        "text": "49.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, đối thủ CGV Cinemas tung vé xem phim có giá chỉ từ 49.000 đồng."
+    },
+    {
+        "text": "Grab",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các hãng xe công nghệ như Grab, Be, Xanh SM có chương trình giảm giá đến 50% khi nhập mã \"VNVODICH\", \"VNMAIDINH\"."
+    },
+    {
+        "text": "Be",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các hãng xe công nghệ như Grab, Be, Xanh SM có chương trình giảm giá đến 50% khi nhập mã \"VNVODICH\", \"VNMAIDINH\"."
+    },
+    {
+        "text": "Xanh SM",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các hãng xe công nghệ như Grab, Be, Xanh SM có chương trình giảm giá đến 50% khi nhập mã \"VNVODICH\", \"VNMAIDINH\"."
+    },
+    {
+        "text": "chương trình giảm giá đến 50%",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các hãng xe công nghệ như Grab, Be, Xanh SM có chương trình giảm giá đến 50% khi nhập mã \"VNVODICH\", \"VNMAIDINH\"."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, các hãng xe công nghệ như Grab, Be, Xanh SM có chương trình giảm giá đến 50% khi nhập mã \"VNVODICH\", \"VNMAIDINH\"."
+    }
+]

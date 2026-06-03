@@ -1,0 +1,87 @@
+[
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Nhằm tuân thủ quy định của Ngân hàng Nhà nước và tăng cường an toàn, Vietcombank đã áp dụng các biện pháp bảo mật mới sau đây."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhằm tuân thủ quy định của Ngân hàng Nhà nước và tăng cường an toàn, Vietcombank đã áp dụng các biện pháp bảo mật mới sau đây."
+    },
+    {
+        "text": "Vietcombank đã áp dụng các biện pháp bảo mật mới",
+        "label": "EVENT",
+        "evidence": "Nhằm tuân thủ quy định của Ngân hàng Nhà nước và tăng cường an toàn, Vietcombank đã áp dụng các biện pháp bảo mật mới sau đây."
+    },
+    {
+        "text": "cập nhật ứng dụng lên phiên bản mới nhất",
+        "label": "EVENT",
+        "evidence": "Người dùng cần cập nhật ứng dụng lên phiên bản mới nhất để các tính năng này hoạt động hiệu quả."
+    },
+    {
+        "text": "đổi mật khẩu, bạn phải xác thực bằng SMS OTP hoặc Smart OTP",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, mỗi khi đổi mật khẩu, bạn phải xác thực bằng SMS OTP hoặc Smart OTP để tăng cường an ninh."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Mã PIN của Smart OTP sẽ có hiệu lực tối đa 12 tháng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ gửi thông báo trước 10 ngày để khách hàng chủ động gia hạn khi mã PIN sắp hết hiệu lực."
+    },
+    {
+        "text": "gửi thông báo trước 10 ngày",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ gửi thông báo trước 10 ngày để khách hàng chủ động gia hạn khi mã PIN sắp hết hiệu lực."
+    },
+    {
+        "text": "10 ngày",
+        "label": "DATE",
+        "evidence": "Vietcombank sẽ gửi thông báo trước 10 ngày để khách hàng chủ động gia hạn khi mã PIN sắp hết hiệu lực."
+    },
+    {
+        "text": "Tính năng xác thực bằng khuôn mặt sẽ tự động khóa nếu bạn thực hiện sai 10 lần liên tiếp",
+        "label": "EVENT",
+        "evidence": "Tính năng xác thực bằng khuôn mặt sẽ tự động khóa nếu bạn thực hiện sai 10 lần liên tiếp."
+    },
+    {
+        "text": "thu thập lại dữ liệu sinh trắc học",
+        "label": "EVENT",
+        "evidence": "Để mở lại, bạn cần thu thập lại dữ liệu sinh trắc học theo hướng dẫn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ không còn chèn các đường dẫn (link) trong email gửi đến khách hàng, giúp bạn tránh bấm nhầm vào các trang web giả mạo."
+    },
+    {
+        "text": "Vietcombank sẽ không còn chèn các đường dẫn (link) trong email gửi đến khách hàng",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ không còn chèn các đường dẫn (link) trong email gửi đến khách hàng, giúp bạn tránh bấm nhầm vào các trang web giả mạo."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Bên cạnh các thay đổi từ hệ thống, Vietcombank nhấn mạnh rằng sự cẩn trọng của người dùng là yếu tố then chốt."
+    },
+    {
+        "text": "thay đổi mật khẩu và mã PIN định kỳ, tối thiểu 12 tháng/lần",
+        "label": "EVENT",
+        "evidence": "Nên thay đổi mật khẩu và mã PIN định kỳ, tối thiểu 12 tháng/lần."
+    },
+    {
+        "text": "12 tháng/lần",
+        "label": "DATE",
+        "evidence": "Nên thay đổi mật khẩu và mã PIN định kỳ, tối thiểu 12 tháng/lần."
+    },
+    {
+        "text": "Thông báo ngay cho ngân hàng",
+        "label": "EVENT",
+        "evidence": "Thông báo ngay cho ngân hàngkhi phát hiện giao dịch bất thường, mất điện thoại hoặc nghi ngờ tài khoản bị tấn công."
+    }
+]

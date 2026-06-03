@@ -1,0 +1,107 @@
+[
+    {
+        "text": "00h00-01h00 ngày 27/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 1:Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025 (60 phút)."
+    },
+    {
+        "text": "Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025",
+        "label": "EVENT",
+        "evidence": "Giai đoạn 1:Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025 (60 phút)."
+    },
+    {
+        "text": "00h00-01h00 ngày 31/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 2:Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025 (60 phút)."
+    },
+    {
+        "text": "Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025",
+        "label": "EVENT",
+        "evidence": "Giai đoạn 2:Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025 (60 phút)."
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "một số dịch vụ chuyển tiền và thanh toán được xử lý qua hệ thống của NAPAS có thể xảy ra gián đoạn tạm thời như sau:"
+    },
+    {
+        "text": "Napas247",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Chuyển tiền nhanh Napas247 (bao gồm giao dịch chuyển tiền và giao dịch VietQR);"
+    },
+    {
+        "text": "VietQR",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Chuyển tiền nhanh Napas247 (bao gồm giao dịch chuyển tiền và giao dịch VietQR);"
+    },
+    {
+        "text": "POS",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán thẻ nội địa trên POS/Ecom (bao gồm cả thẻ vật lý và thẻ số hóa trên thiết bị Samsung Pay);"
+    },
+    {
+        "text": "Ecom",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán thẻ nội địa trên POS/Ecom (bao gồm cả thẻ vật lý và thẻ số hóa trên thiết bị Samsung Pay);"
+    },
+    {
+        "text": "Samsung Pay",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán thẻ nội địa trên POS/Ecom (bao gồm cả thẻ vật lý và thẻ số hóa trên thiết bị Samsung Pay);"
+    },
+    {
+        "text": "ATM",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Rút tiền/thanh toán trên ATM;"
+    },
+    {
+        "text": "QR Thái Lan",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán QR Thái Lan, QR Lào;"
+    },
+    {
+        "text": "QR Lào",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán QR Thái Lan, QR Lào;"
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "Master",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "UPI",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "VietQRPay",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán VietQRPay, VietQRGlobal và dịch vụ thanh toán bằng mã QR cho các đơn vị chấp nhận thanh toán."
+    },
+    {
+        "text": "VietQRGlobal",
+        "label": "ASSET",
+        "evidence": "- Dịch vụ Thanh toán VietQRPay, VietQRGlobal và dịch vụ thanh toán bằng mã QR cho các đơn vị chấp nhận thanh toán."
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "khách hàng chủ động thực hiện các giao dịch trước hoặc sau thời gian Napas thực hiện chuyển đổi hệ thống kỹ thuật nêu trên."
+    },
+    {
+        "text": "Napas thực hiện chuyển đổi hệ thống kỹ thuật",
+        "label": "EVENT",
+        "evidence": "khách hàng chủ động thực hiện các giao dịch trước hoặc sau thời gian Napas thực hiện chuyển đổi hệ thống kỹ thuật nêu trên."
+    }
+]

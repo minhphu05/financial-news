@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Reuters",
+        "label": "ORG",
+        "evidence": "Theo thông tin từReuters"
+    },
+    {
+        "text": "CDH Investments",
+        "label": "ORG",
+        "evidence": "CDH Investments đến từ Trung Quốc đang đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động (MWG)."
+    },
+    {
+        "text": "đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động",
+        "label": "EVENT",
+        "evidence": "CDH Investments đến từ Trung Quốc đang đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động (MWG)."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "CDH Investments đến từ Trung Quốc đang đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động (MWG)."
+    },
+    {
+        "text": "CTCP Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "CDH Investments đến từ Trung Quốc đang đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động (MWG)."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "CDH Investments đến từ Trung Quốc đang đàm phán mua lại cổ phần thiểu số của chuỗi Bách Hóa Xanh từ CTCP Đầu tư Thế Giới Di Động (MWG)."
+    },
+    {
+        "text": "1,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Nếu đạt được thỏa thuận, định giá của chuỗi Bách Hóa Xanh có thể đạt mức 1,7 tỷ USD."
+    },
+    {
+        "text": "CDH",
+        "label": "ORG",
+        "evidence": "Các nguồn tin cho biết CDH, một trong những công ty đầu tư lớn nhất Trung Quốc."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Doanh nghiệp này cũng đã từng sở hữu cổ phần của Thế giới Di động."
+    },
+    {
+        "text": "sở hữu cổ phần của Thế giới Di động",
+        "label": "EVENT",
+        "evidence": "Doanh nghiệp này cũng đã từng sở hữu cổ phần của Thế giới Di động."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Công ty Trung Quốc này đã nổi lên như ứng cử viên hàng đầu để mua lại tối đa 10% cổ phần Bách Hoá Xanh sau khi vượt qua các đối thủ cạnh tranh."
+    },
+    {
+        "text": "mua lại tối đa 10% cổ phần Bách Hoá Xanh",
+        "label": "EVENT",
+        "evidence": "Công ty Trung Quốc này đã nổi lên như ứng cử viên hàng đầu để mua lại tối đa 10% cổ phần Bách Hoá Xanh sau khi vượt qua các đối thủ cạnh tranh."
+    },
+    {
+        "text": "CDH Investment",
+        "label": "ORG",
+        "evidence": "\"CDH Investment đang có ý đinh mua lại từ 5% đến 10% số cổ phần của Bách Hóa Xanh\", nguồn tin này cho biết."
+    },
+    {
+        "text": "mua lại từ 5% đến 10% số cổ phần của Bách Hóa Xanh",
+        "label": "EVENT",
+        "evidence": "\"CDH Investment đang có ý đinh mua lại từ 5% đến 10% số cổ phần của Bách Hóa Xanh\", nguồn tin này cho biết."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "\"CDH Investment đang có ý đinh mua lại từ 5% đến 10% số cổ phần của Bách Hóa Xanh\", nguồn tin này cho biết."
+    },
+    {
+        "text": "từ chối bình luận",
+        "label": "EVENT",
+        "evidence": "CDH và Đầu tư Thế Giới Di Động đều từ chối bình luận về vấn đề nếu trên."
+    },
+    {
+        "text": "Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "CDH và Đầu tư Thế Giới Di Động đều từ chối bình luận về vấn đề nếu trên."
+    },
+    {
+        "text": "công bố kế hoạch bán một phần vốn thiểu số của chuỗi Bách Hoá Xanh",
+        "label": "EVENT",
+        "evidence": "Lần đầu tiên Thế Giới Di Động công bố kế hoạch bán một phần vốn thiểu số của chuỗi Bách Hoá Xanh là vào năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Lần đầu tiên Thế Giới Di Động công bố kế hoạch bán một phần vốn thiểu số của chuỗi Bách Hoá Xanh là vào năm 2022."
+    },
+    {
+        "text": "kế hoạch này tạm ngưng",
+        "label": "EVENT",
+        "evidence": "Sau đó kế hoạch này tạm ngưng vì điều kiện thị trường không thuận lợi."
+    },
+    {
+        "text": "quá trình bán lại được tái khởi động",
+        "label": "EVENT",
+        "evidence": "Năm ngoái, quá trình bán lại được tái khởi động và thu hút sự quan tâm từ Quỹ đầu tư quốc gia Singapore GIC và các công ty từ Thái Lan."
+    },
+    {
+        "text": "Quỹ đầu tư quốc gia Singapore GIC",
+        "label": "ORG",
+        "evidence": "Năm ngoái, quá trình bán lại được tái khởi động và thu hút sự quan tâm từ Quỹ đầu tư quốc gia Singapore GIC và các công ty từ Thái Lan."
+    },
+    {
+        "text": "GIC",
+        "label": "ORG",
+        "evidence": "Năm ngoái, quá trình bán lại được tái khởi động và thu hút sự quan tâm từ Quỹ đầu tư quốc gia Singapore GIC và các công ty từ Thái Lan."
+    },
+    {
+        "text": "thành lập vào năm 2002",
+        "label": "EVENT",
+        "evidence": "Theo tìm hiểu, CDH Investment được thành lập vào năm 2002 bởi Chủ tịch Wu Sangzhi, là một trong những công ty cổ phần tư nhân đầu tiên của Trung Quốc, nổi tiếng với các hoạt động đầu tư mạo hiểm trong các ngành truyền thống như tiêu dùng và sản xuất."
+    },
+    {
+        "text": "năm 2002",
+        "label": "DATE",
+        "evidence": "Theo tìm hiểu, CDH Investment được thành lập vào năm 2002 bởi Chủ tịch Wu Sangzhi, là một trong những công ty cổ phần tư nhân đầu tiên của Trung Quốc, nổi tiếng với các hoạt động đầu tư mạo hiểm trong các ngành truyền thống như tiêu dùng và sản xuất."
+    },
+    {
+        "text": "Wu Sangzhi",
+        "label": "PERSON",
+        "evidence": "Theo tìm hiểu, CDH Investment được thành lập vào năm 2002 bởi Chủ tịch Wu Sangzhi, là một trong những công ty cổ phần tư nhân đầu tiên của Trung Quốc, nổi tiếng với các hoạt động đầu tư mạo hiểm trong các ngành truyền thống như tiêu dùng và sản xuất."
+    },
+    {
+        "text": "hơn 27 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Hiện tại, CDH quản lý hơn 27 tỷ USD tài sản và là nhà đầu tư lớn của WH Group - đơn vị cung cấp thịt lợn lớn nhất thế giới, và Midea Group - nhà sản xuất thiết bị gia dụng."
+    },
+    {
+        "text": "WH Group",
+        "label": "ORG",
+        "evidence": "Hiện tại, CDH quản lý hơn 27 tỷ USD tài sản và là nhà đầu tư lớn của WH Group - đơn vị cung cấp thịt lợn lớn nhất thế giới, và Midea Group - nhà sản xuất thiết bị gia dụng."
+    },
+    {
+        "text": "Midea Group",
+        "label": "ORG",
+        "evidence": "Hiện tại, CDH quản lý hơn 27 tỷ USD tài sản và là nhà đầu tư lớn của WH Group - đơn vị cung cấp thịt lợn lớn nhất thế giới, và Midea Group - nhà sản xuất thiết bị gia dụng."
+    },
+    {
+        "text": "thoái vốn khỏi Thế giới Di động",
+        "label": "EVENT",
+        "evidence": "Một trong những nguồn tin cho biết, CDH đã thoái vốn khỏi Thế giới Di động gần 10 năm trước để thu lợi nhuận từ khoản đầu tư này."
+    },
+    {
+        "text": "thành lập vào năm 2015",
+        "label": "EVENT",
+        "evidence": "Bách Hóa Xanh, được thành lập vào năm 2015, hiện đang vận hành hơn 1.700 cửa hàng chủ yếu tại phía Nam, dự kiến sẽ bắt đầu có lãi trong năm nay."
+    },
+    {
+        "text": "năm 2015",
+        "label": "DATE",
+        "evidence": "Bách Hóa Xanh, được thành lập vào năm 2015, hiện đang vận hành hơn 1.700 cửa hàng chủ yếu tại phía Nam, dự kiến sẽ bắt đầu có lãi trong năm nay."
+    }
+]

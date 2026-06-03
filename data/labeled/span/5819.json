@@ -1,0 +1,72 @@
+[
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB sẽ tiến hành thu phí 15.000 VNĐ/tháng/số điện thoại/tài khoản thanh toán."
+    },
+    {
+        "text": "tiến hành thu phí 15.000 VNĐ/tháng/số điện thoại/tài khoản thanh toán",
+        "label": "EVENT",
+        "evidence": "SHB sẽ tiến hành thu phí 15.000 VNĐ/tháng/số điện thoại/tài khoản thanh toán."
+    },
+    {
+        "text": "15.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "SHB sẽ tiến hành thu phí 15.000 VNĐ/tháng/số điện thoại/tài khoản thanh toán."
+    },
+    {
+        "text": "mức phí áp dụng sẽ là 15.000 VNĐ + 750 VNĐ cho mỗi tin nhắn thực tế phát sinh thêm trong tháng",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp khách hàng phát sinh trên 15 SMS, mức phí áp dụng sẽ là 15.000 VNĐ + 750 VNĐ cho mỗi tin nhắn thực tế phát sinh thêm trong tháng."
+    },
+    {
+        "text": "750 VNĐ",
+        "label": "MONEY",
+        "evidence": "mức phí áp dụng sẽ là 15.000 VNĐ + 750 VNĐ cho mỗi tin nhắn thực tế phát sinh thêm trong tháng."
+    },
+    {
+        "text": "01 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ tính phí trong 01 tháng, bắt đầu từ đầu tháng đến ngày cuối tháng."
+    },
+    {
+        "text": "cuối ngày 05 của tháng tiếp theo",
+        "label": "DATE",
+        "evidence": "Ngày thu phí là cuối ngày 05 của tháng tiếp theo."
+    },
+    {
+        "text": "SHB Mobile",
+        "label": "ORG",
+        "evidence": "OTT trên ứng dụng Ngân hàng điện tử SHB Mobile/SHB SAHA vì hiện nay,SHBđang miễn hầu hết các loại phí giao dịch và quản lý tài khoản cho khách hàng."
+    },
+    {
+        "text": "SHB SAHA",
+        "label": "ORG",
+        "evidence": "OTT trên ứng dụng Ngân hàng điện tử SHB Mobile/SHB SAHA vì hiện nay,SHBđang miễn hầu hết các loại phí giao dịch và quản lý tài khoản cho khách hàng."
+    },
+    {
+        "text": "miễn hầu hết các loại phí giao dịch và quản lý tài khoản",
+        "label": "EVENT",
+        "evidence": "SHBđang miễn hầu hết các loại phí giao dịch và quản lý tài khoản cho khách hàng."
+    },
+    {
+        "text": "truyền thông hướng dẫn, gợi ý và đưa ra các khuyến cáo phòng tránh những thủ đoạn lừa đảo công nghệ cao trên các kênh truyền thông của ngân hàng",
+        "label": "EVENT",
+        "evidence": "SHB đã và đang thường xuyên truyền thông hướng dẫn, gợi ý và đưa ra các khuyến cáo phòng tránh những thủ đoạn lừa đảo công nghệ cao trên các kênh truyền thông của ngân hàng nhằm giúp khách hàng nâng cao cảnh giác, phòng ngừa từ xa."
+    },
+    {
+        "text": "đầu tư nâng cấp, cập nhật công nghệ, giải pháp bảo mật mới cho hệ thống ngân hàng điện tử",
+        "label": "EVENT",
+        "evidence": "giúp ngân hàng dành phần ngân sách phải trả cho các nhà mạng sang đầu tư nâng cấp, cập nhật công nghệ, giải pháp bảo mật mới cho hệ thống ngân hàng điện tử, từ đó mang đến cho khách hàng những trải nghiệm hiện đại và an toàn nhất trên không gian số"
+    },
+    {
+        "text": "hủy dịch vụ nhận thông báo biến động số dư qua tin nhắn điện thoại (SMS)",
+        "label": "EVENT",
+        "evidence": "đồng thời hủy dịch vụ nhận thông báo biến động số dư qua tin nhắn điện thoại (SMS), khách hàng sẽ không còn phát sinh thêm phí SMS banking."
+    },
+    {
+        "text": "không còn phát sinh thêm phí SMS banking",
+        "label": "EVENT",
+        "evidence": "khách hàng sẽ không còn phát sinh thêm phí SMS banking."
+    }
+]

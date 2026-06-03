@@ -1,0 +1,122 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Khi phát hiện có ứng dụng lạ, hệ thốngACB sẽ tạm khóa việc thực hiện giao dịch để đảm bảo an toàn cho Khách hàng."
+    },
+    {
+        "text": "tạm khóa việc thực hiện giao dịch",
+        "label": "EVENT",
+        "evidence": "Khi phát hiện có ứng dụng lạ, hệ thốngACB sẽ tạm khóa việc thực hiện giao dịch để đảm bảo an toàn cho Khách hàng."
+    },
+    {
+        "text": "ACB ONE chủ động ngăn chặn giao dịch liên quan đến quyền trợ năng",
+        "label": "EVENT",
+        "evidence": "ACB ONE chủ động ngăn chặn giao dịch liên quan đến quyền trợ năng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trước sự tinh vi của hình thức này, để bảo vệ khách hàng, ACB đã nhanh chóng chủ động tăng cường thêm lớp bảo vệ, bằng việc bổ sung chức năng tự động hỗ trợ khách hàng phát hiện những ứng dụng có nguy cơ cao trong thiết bị của khách hàng."
+    },
+    {
+        "text": "bổ sung chức năng tự động hỗ trợ khách hàng phát hiện những ứng dụng có nguy cơ cao trong thiết bị của khách hàng",
+        "label": "EVENT",
+        "evidence": "bằng việc bổ sung chức năng tự động hỗ trợ khách hàng phát hiện những ứng dụng có nguy cơ cao trong thiết bị của khách hàng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đồng thời, hệ thống ACB sẽ thực hiện tạm khóa việc thực hiện giao dịch trên ACB ONE để đảm bảo an toàn cho khách hàng."
+    },
+    {
+        "text": "tạm khóa việc thực hiện giao dịch trên ACB ONE",
+        "label": "EVENT",
+        "evidence": "Đồng thời, hệ thống ACB sẽ thực hiện tạm khóa việc thực hiện giao dịch trên ACB ONE để đảm bảo an toàn cho khách hàng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật phiên bản mới trên App Store và Google play, nâng cao tinh thần cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    },
+    {
+        "text": "App Store",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật phiên bản mới trên App Store và Google play, nâng cao tinh thần cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    },
+    {
+        "text": "Google play",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật phiên bản mới trên App Store và Google play, nâng cao tinh thần cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Thời gian qua khách hàng của ACB đã được khuyến cáo liên tục qua nhiều kênh như Website, Fanpage, Zalo, ứng dụng ACB ONE và email trực tiếp, nhằm hướng dẫn những nguyên tắc an toàn khi giao dịch kênh ngân hàng số."
+    },
+    {
+        "text": "Hội thảo \"Bảo vệ tài khoản ngân hàng trước nguy cơ lừa đảo trực tuyến gia tăng\"",
+        "label": "EVENT",
+        "evidence": "Tham gia Hội thảo \"Bảo vệ tài khoản ngân hàng trước nguy cơ lừa đảo trực tuyến gia tăng\", do báo Tuổi Trẻ phối hợp với Ngân hàng Nhà nước tổ chức ngày 19/9, ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "báo Tuổi Trẻ",
+        "label": "ORG",
+        "evidence": "Tham gia Hội thảo \"Bảo vệ tài khoản ngân hàng trước nguy cơ lừa đảo trực tuyến gia tăng\", do báo Tuổi Trẻ phối hợp với Ngân hàng Nhà nước tổ chức ngày 19/9, ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tham gia Hội thảo \"Bảo vệ tài khoản ngân hàng trước nguy cơ lừa đảo trực tuyến gia tăng\", do báo Tuổi Trẻ phối hợp với Ngân hàng Nhà nước tổ chức ngày 19/9, ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "ngày 19/9",
+        "label": "DATE",
+        "evidence": "Tham gia Hội thảo \"Bảo vệ tài khoản ngân hàng trước nguy cơ lừa đảo trực tuyến gia tăng\", do báo Tuổi Trẻ phối hợp với Ngân hàng Nhà nước tổ chức ngày 19/9, ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ông Từ Tiến Phát – Tổng Giám đốc ACB nhấn mạnh nội dung \"3 không và 2 nên\" để khách hàng tránh bị mất tiền oan."
+    },
+    {
+        "text": "Google Play",
+        "label": "ORG",
+        "evidence": "Thứ hai là không tải ứng dụng lạ nếu không phải từ nguồn kho ứng dụng chính thống như Google Play hay App Store."
+    },
+    {
+        "text": "App Store",
+        "label": "ORG",
+        "evidence": "Thứ hai là không tải ứng dụng lạ nếu không phải từ nguồn kho ứng dụng chính thống như Google Play hay App Store."
+    },
+    {
+        "text": "Phát",
+        "label": "PERSON",
+        "evidence": "Bên cạnh đó, ông Phát cũng đưa ra hai khuyến nghị để người dân phòng tránh lừa đảo."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB khẳng định \"Ngân hàng số vẫn là kênh giao dịch ngân hàng an toàn, tiện lợi, miễn là nắm chắc các nguyên tắc giao dịch an toàn cơ bản để phòng tránh các trường hợp lừa đảo."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật ứng dụng ACB ONE phiên bản từ 3.17.0 trở lên trên App Store và Google Play, đồng thời cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    },
+    {
+        "text": "App Store",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật ứng dụng ACB ONE phiên bản từ 3.17.0 trở lên trên App Store và Google Play, đồng thời cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    },
+    {
+        "text": "Google Play",
+        "label": "ORG",
+        "evidence": "ACB khuyến cáo khách hàng nhanh chóng cập nhật ứng dụng ACB ONE phiên bản từ 3.17.0 trở lên trên App Store và Google Play, đồng thời cảnh giác trước các hành vi lừa đảo trực tuyến sẽ tiếp tục biến hóa và tinh vi hơn."
+    }
+]

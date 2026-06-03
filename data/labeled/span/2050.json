@@ -1,0 +1,262 @@
+[
+    {
+        "text": "ông Bảo",
+        "label": "PERSON",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "NVIDIA thành lập năm 1993",
+        "label": "EVENT",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "năm 1993",
+        "label": "DATE",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "2,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "20 năm",
+        "label": "DATE",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "9,1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "26 năm",
+        "label": "DATE",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "114 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Mở đầu bài viết, ông Bảo chỉa sẻ, NVIDIA thành lập năm 1993, về vốn hoá, phải mất 10 năm mới đạt 2,5 tỷ USD, 20 năm mới đạt 9,1 tỷ USD, 26 năm mới đạt 114 tỷ USD."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "323 tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "735 tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "2.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "3.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "3.552 tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "“Thế rồi đến năm 2020, bỗng vươn mình như Phù Đổng, vốn hoá lần lượt cán mốc 323 tỷ USD, 735 tỷ USD, 1.000 tỷ, 2.000 tỷ USD 3.000 tỷ USD và 3.552 tỷ USD, vượt qua tất cả những gã khổng lồ, cùng Apple đứng trên đỉnh thế giới”, lãnh đạo FPT viết."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "tăng 236%",
+        "label": "RATE",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "tăng 186,68%",
+        "label": "RATE",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "11 tháng của năm 2024",
+        "label": "DATE",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "127 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Từ một người đứng ở nhóm cuối của top 500 tỷ phú giàu nhất thế giới, tài sản của ông Jensen Huang tăng 236% trong năm 2023 và tăng 186,68% trong 11 tháng của năm 2024 đạt 127 tỷ USD, trở thành tỷ phú giàu thứ 11 thế giới."
+    },
+    {
+        "text": "ông Bảo",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "một năm nữa",
+        "label": "DATE",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Warren Buffett",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Sergey Brin",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Larry Page",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Steve Ballmer",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "Bill Gates",
+        "label": "PERSON",
+        "evidence": "Theo ông Bảo ước tính, nếu vẫn giữ được tốc độ gia tăng như vậy, chỉ một năm nữa, ông Jensen Huang sẽ vượt các huyền thoại Warren Buffett, Sergey Brin và Larry Page (hai nhà sáng lập Google), Steve Ballmer, thậm chí cả Bill Gates."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Vị lãnh đạo của FPT so sánh, trong lịch sử, chưa có công ty nào có sự phát triển kỳ lạ với sự gia tăng thần kỳ như NVIDIA và cũng không có tỷ phú nào có tốc độ gia tăng tài sản lớn như Jensen Huang, trừ Phù Đổng Thiên Vương của Việt Nam."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Vị lãnh đạo của FPT so sánh, trong lịch sử, chưa có công ty nào có sự phát triển kỳ lạ với sự gia tăng thần kỳ như NVIDIA và cũng không có tỷ phú nào có tốc độ gia tăng tài sản lớn như Jensen Huang, trừ Phù Đổng Thiên Vương của Việt Nam."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Vị lãnh đạo của FPT so sánh, trong lịch sử, chưa có công ty nào có sự phát triển kỳ lạ với sự gia tăng thần kỳ như NVIDIA và cũng không có tỷ phú nào có tốc độ gia tăng tài sản lớn như Jensen Huang, trừ Phù Đổng Thiên Vương của Việt Nam."
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "tối hôm qua",
+        "label": "DATE",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "Thủ tướng Phạm Minh Chính",
+        "label": "PERSON",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Ông Bảo phân tích thêm: “Và tối hôm qua, Jensen Huang đã khoác vai Thủ tướng Phạm Minh Chính dạo chơi phố cổ Hà Nội, uống bia hơi với các món ăn dân giã của Việt Nam, ngay sau buổi lễ ký kết thoả thuận thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam, nơi tập trung vào trí tuệ nhân tạo AI, phần mềm và công nghệ hệ thống dẫn đầu thế giới của NVIDIA."
+    },
+    {
+        "text": "Cách đây một năm",
+        "label": "DATE",
+        "evidence": "Cách đây một năm, khi Jensen Huang cam kết biến Việt Nam trở thành “quê hương thứ hai” rất nhiều người đã không tin cho rằng ông chỉ nói xã giao mà thôi."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Cách đây một năm, khi Jensen Huang cam kết biến Việt Nam trở thành “quê hương thứ hai” rất nhiều người đã không tin cho rằng ông chỉ nói xã giao mà thôi."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Thế rồi NVIDIA đã cùng FPT thành lập và khai trương hai FPT AI Factory ở Hà Nội và Tokyo và giờ đây là thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Thế rồi NVIDIA đã cùng FPT thành lập và khai trương hai FPT AI Factory ở Hà Nội và Tokyo và giờ đây là thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam."
+    },
+    {
+        "text": "NVIDIA đã cùng FPT thành lập và khai trương hai FPT AI Factory ở Hà Nội và Tokyo",
+        "label": "EVENT",
+        "evidence": "Thế rồi NVIDIA đã cùng FPT thành lập và khai trương hai FPT AI Factory ở Hà Nội và Tokyo và giờ đây là thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam."
+    },
+    {
+        "text": "thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "Thế rồi NVIDIA đã cùng FPT thành lập và khai trương hai FPT AI Factory ở Hà Nội và Tokyo và giờ đây là thành lập hai trung tâm R&D AI của NVIDIA tại Việt Nam."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Nên nhớ rằng NVIDIA chỉ đặt trung tâm R&D AI ở Thung lũng Silicon (Mỹ), Đài Loan, quê hương ông và giờ đây là Việt Nam, “quê hương thứ hai” của ông. Việt Nam là quê hương của Phù Đổng Thiên Vương”."
+    },
+    {
+        "text": "ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Cuối bài đăngông Đỗ Cao Bảokết luận: “Jensen Huang người đã tạo ra sự vươn mình như Phù Đổng của NVIDIA, đã coi Việt Nam là quê hương thứ hai và đang đặt những viên gạch đầu tiên cho cam kết ấy, phải chăng là tiếng chuông báo hiệu cho kỷ nguyên vươn mình của dân tộc Việt Nam đã bắt đầu”."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Cuối bài đăngông Đỗ Cao Bảokết luận: “Jensen Huang người đã tạo ra sự vươn mình như Phù Đổng của NVIDIA, đã coi Việt Nam là quê hương thứ hai và đang đặt những viên gạch đầu tiên cho cam kết ấy, phải chăng là tiếng chuông báo hiệu cho kỷ nguyên vươn mình của dân tộc Việt Nam đã bắt đầu”."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Cuối bài đăngông Đỗ Cao Bảokết luận: “Jensen Huang người đã tạo ra sự vươn mình như Phù Đổng của NVIDIA, đã coi Việt Nam là quê hương thứ hai và đang đặt những viên gạch đầu tiên cho cam kết ấy, phải chăng là tiếng chuông báo hiệu cho kỷ nguyên vươn mình của dân tộc Việt Nam đã bắt đầu”."
+    }
+]

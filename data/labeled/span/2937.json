@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "giá gas bình Petrolimex bán lẻ (đã bao gồm VAT) tháng 3/2025 tại thị trường Hà Nội là 457.400 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "giá gas bình Petrolimex bán lẻ (đã bao gồm VAT) tháng 3/2025 tại thị trường Hà Nội là 457.400 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "457.400 đồng/bình dân dụng 12 kg",
+        "label": "PRICE",
+        "evidence": "tháng 3/2025 tại thị trường Hà Nội là 457.400 đồng/bình dân dụng 12 kg"
+    },
+    {
+        "text": "1.829.600 đồng/bình công nghiệp 48kg",
+        "label": "PRICE",
+        "evidence": "1.829.600 đồng/bình công nghiệp 48kg"
+    },
+    {
+        "text": "giảm 2.700 đồng/bình 12kg và 10.500 đồng/bình 48kg",
+        "label": "EVENT",
+        "evidence": "lần lượt giảm 2.700 đồng/bình 12kg và 10.500 đồng/bình 48kg (đã bao gồm VAT)"
+    },
+    {
+        "text": "2.700 đồng/bình 12kg",
+        "label": "MONEY",
+        "evidence": "giảm 2.700 đồng/bình 12kg và 10.500 đồng/bình 48kg (đã bao gồm VAT)"
+    },
+    {
+        "text": "10.500 đồng/bình 48kg",
+        "label": "MONEY",
+        "evidence": "giảm 2.700 đồng/bình 12kg và 10.500 đồng/bình 48kg (đã bao gồm VAT)"
+    },
+    {
+        "text": "City Petro",
+        "label": "ORG",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "Vimexco",
+        "label": "ORG",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "Vina Pacific Petro",
+        "label": "ORG",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "Công ty cổ phần Thương mại dầu khí Thái Bình Dương",
+        "label": "ORG",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "Gas Pacific Petro",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "giảm 167 đồng/kg",
+        "label": "EVENT",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "167 đồng/kg",
+        "label": "MONEY",
+        "evidence": "giá gas City Petro, Vimexco, Vina Pacific Petro tại Công ty cổ phần Thương mại dầu khí Thái Bình Dương (Gas Pacific Petro) giảm 167 đồng/kg"
+    },
+    {
+        "text": "giảm 1.000 đồng/bình",
+        "label": "EVENT",
+        "evidence": "bình 6kg sẽ giảm 1.000 đồng/bình và giá bán mới là 275.500 đồng/bình 6 kg"
+    },
+    {
+        "text": "1.000 đồng/bình",
+        "label": "MONEY",
+        "evidence": "bình 6kg sẽ giảm 1.000 đồng/bình và giá bán mới là 275.500 đồng/bình 6 kg"
+    },
+    {
+        "text": "275.500 đồng/bình 6 kg",
+        "label": "PRICE",
+        "evidence": "giá bán mới là 275.500 đồng/bình 6 kg"
+    },
+    {
+        "text": "giảm 2.000 đồng/bình",
+        "label": "EVENT",
+        "evidence": "bình 12kg giảm 2.000 đồng/bình, còn 491.500 đồng/bình 12 kg"
+    },
+    {
+        "text": "2.000 đồng/bình",
+        "label": "MONEY",
+        "evidence": "bình 12kg giảm 2.000 đồng/bình, còn 491.500 đồng/bình 12 kg"
+    },
+    {
+        "text": "491.500 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "còn 491.500 đồng/bình 12 kg"
+    },
+    {
+        "text": "giảm 7.500 đồng",
+        "label": "EVENT",
+        "evidence": "bình 45kg giảm 7.500 đồng, còn 1.842.000 đồng/bình 45kg"
+    },
+    {
+        "text": "7.500 đồng",
+        "label": "MONEY",
+        "evidence": "bình 45kg giảm 7.500 đồng, còn 1.842.000 đồng/bình 45kg"
+    },
+    {
+        "text": "1.842.000 đồng/bình 45kg",
+        "label": "PRICE",
+        "evidence": "còn 1.842.000 đồng/bình 45kg"
+    },
+    {
+        "text": "giảm 8.000 đồng/bình",
+        "label": "EVENT",
+        "evidence": "bình 50kg giảm 8.000 đồng/bình, còn 2.046.500 đồng/bình 50 kg"
+    },
+    {
+        "text": "8.000 đồng/bình",
+        "label": "MONEY",
+        "evidence": "bình 50kg giảm 8.000 đồng/bình, còn 2.046.500 đồng/bình 50 kg"
+    },
+    {
+        "text": "2.046.500 đồng/bình 50 kg",
+        "label": "PRICE",
+        "evidence": "còn 2.046.500 đồng/bình 50 kg"
+    },
+    {
+        "text": "Giá gas bán lẻ trong nước giảm",
+        "label": "EVENT",
+        "evidence": "Giá gas bán lẻ trong nước giảm, mang lại tín hiệu tích cực cho cả người tiêu dùng và các doanh nghiệp"
+    },
+    {
+        "text": "giá gas trong nước giảm theo đà giảm giá gas thế giới giảm",
+        "label": "EVENT",
+        "evidence": "giá gas trong nước giảm theo đà giảm giá gas thế giới giảm"
+    },
+    {
+        "text": "giá gas thế giới tháng 3/2025 chốt theo hợp đồng (giá CP) là 610 USD/tấn, giảm 20 USD/tấn so với tháng 2/2025",
+        "label": "EVENT",
+        "evidence": "Cụ thể, giá gas thế giới tháng 3/2025 chốt theo hợp đồng (giá CP) là 610 USD/tấn, giảm 20 USD/tấn so với tháng 2/2025"
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "giá gas thế giới tháng 3/2025 chốt theo hợp đồng (giá CP) là 610 USD/tấn, giảm 20 USD/tấn so với tháng 2/2025"
+    },
+    {
+        "text": "610 USD/tấn",
+        "label": "PRICE",
+        "evidence": "chốt theo hợp đồng (giá CP) là 610 USD/tấn, giảm 20 USD/tấn so với tháng 2/2025"
+    },
+    {
+        "text": "20 USD/tấn",
+        "label": "MONEY",
+        "evidence": "là 610 USD/tấn, giảm 20 USD/tấn so với tháng 2/2025"
+    },
+    {
+        "text": "tháng 2/2025",
+        "label": "DATE",
+        "evidence": "giảm 20 USD/tấn so với tháng 2/2025"
+    },
+    {
+        "text": "tháng thứ hai trong năm 2025, giá gas giảm",
+        "label": "EVENT",
+        "evidence": "Như vậy, đây là tháng thứ hai trong năm 2025, giá gas giảm"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "tháng thứ hai trong năm 2025"
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "Trong tháng 1/2025, giá gas đã giảm 3.500 đồng/bình 12kg"
+    },
+    {
+        "text": "giá gas đã giảm 3.500 đồng/bình 12kg",
+        "label": "EVENT",
+        "evidence": "Trong tháng 1/2025, giá gas đã giảm 3.500 đồng/bình 12kg"
+    },
+    {
+        "text": "3.500 đồng/bình 12kg",
+        "label": "MONEY",
+        "evidence": "giá gas đã giảm 3.500 đồng/bình 12kg"
+    },
+    {
+        "text": "giá gas thế giới đã giảm 12,5 USD/tấn",
+        "label": "EVENT",
+        "evidence": "nguyên nhân là do giá gas thế giới đã giảm 12,5 USD/tấn so với tháng 12/2024"
+    },
+    {
+        "text": "12,5 USD/tấn",
+        "label": "MONEY",
+        "evidence": "giá gas thế giới đã giảm 12,5 USD/tấn so với tháng 12/2024"
+    },
+    {
+        "text": "tháng 12/2024",
+        "label": "DATE",
+        "evidence": "giảm 12,5 USD/tấn so với tháng 12/2024"
+    },
+    {
+        "text": "5.500 đồng/bình 12kg",
+        "label": "MONEY",
+        "evidence": "Tổng mức giảm sau 2 lần là 5.500 đồng/bình 12kg"
+    }
+]

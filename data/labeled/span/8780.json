@@ -1,0 +1,657 @@
+[
+    {
+        "text": "ưu đãi hoàn tiền đến 10%",
+        "label": "EVENT",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "1.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "thẻ thanh toán quốc tế VIB",
+        "label": "ASSET",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "Lotte Mart",
+        "label": "ORG",
+        "evidence": "Các mặt hàng này luôn có giá cả tốt hơn khi mua sớm, đồng thời được ưu đãi hoàn tiền đến 10% khi chi tiêu từ 1.000.000 VNĐ bằng thẻ thanh toán quốc tế VIB tại các siêu thị Lotte Mart trên toàn quốc."
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "Ghé Lazada và Shopee sắm Tết online, người tiêu dùng tiết kiệm đáng kể khi tận dụng các ưu đãi từ các thương hiệu."
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "Ghé Lazada và Shopee sắm Tết online, người tiêu dùng tiết kiệm đáng kể khi tận dụng các ưu đãi từ các thương hiệu."
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, thanh toán bằng thẻ tín dụng VIB còn giúp nhận thêm ưu đãi lên đến 1.000.000 VNĐ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngoài ra, thanh toán bằng thẻ tín dụng VIB còn giúp nhận thêm ưu đãi lên đến 1.000.000 VNĐ."
+    },
+    {
+        "text": "nhận thêm ưu đãi lên đến 1.000.000 VNĐ",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, thanh toán bằng thẻ tín dụng VIB còn giúp nhận thêm ưu đãi lên đến 1.000.000 VNĐ."
+    },
+    {
+        "text": "1.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, thanh toán bằng thẻ tín dụng VIB còn giúp nhận thêm ưu đãi lên đến 1.000.000 VNĐ."
+    },
+    {
+        "text": "100.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada",
+        "label": "EVENT",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "thứ 5 hàng tuần",
+        "label": "DATE",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "thứ 6",
+        "label": "DATE",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "500.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "ngày đôi 2/2",
+        "label": "DATE",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "ngày hội thẻ VIB",
+        "label": "EVENT",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "ngày 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "Các voucher trị giá 100.000 VNĐ sẽ được tung ra vào thứ 5 hàng tuần trên Shopee và thứ 6 trên Lazada, riêng voucher 500.000 VNĐ sẽ áp dụng cho các ngày đặc biệt (ngày đôi 2/2, ngày hội thẻ VIB vào ngày 20 hàng tháng)."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "Nắm bắt nhu cầu trang trí nhà cửa, mua sắm vật dụng gia đình mỗi dịp cuối năm, VIB hợp tác với nhiều thương hiệu điện tử uy tín mang đến ưu đãi cực lớn."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Nắm bắt nhu cầu trang trí nhà cửa, mua sắm vật dụng gia đình mỗi dịp cuối năm, VIB hợp tác với nhiều thương hiệu điện tử uy tín mang đến ưu đãi cực lớn."
+    },
+    {
+        "text": "VIB hợp tác với nhiều thương hiệu điện tử uy tín mang đến ưu đãi cực lớn",
+        "label": "EVENT",
+        "evidence": "Nắm bắt nhu cầu trang trí nhà cửa, mua sắm vật dụng gia đình mỗi dịp cuối năm, VIB hợp tác với nhiều thương hiệu điện tử uy tín mang đến ưu đãi cực lớn."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "40-50%",
+        "label": "RATE",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "Coway",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "giảm 15%",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "Electrolux",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "trả góp 0% lãi suất",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "0% lãi suất",
+        "label": "RATE",
+        "evidence": "Chủ thẻ VIB được giảm 40-50% cùng quà tặng khi mua sắm trực tuyến máy lọc không khí và máy lọc nước Coway, giảm 15% và miễn phí vận chuyển - lắp đặt cho mọi sản phẩm Electrolux mà vẫn được trả góp 0% lãi suất,..."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ",
+        "label": "EVENT",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "1.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "Dyson",
+        "label": "ORG",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "15.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ",
+        "label": "EVENT",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "1.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "25.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Tết này, hội chị em có thể chi tiêu nhưng vẫn tiết kiệm với các ưu đãi sản phẩm làm đẹp dành riêng chochủ thẻ VIB, như giảm 1.000.000 VNĐ khi mua máy tạo kiểu tóc và máy sấy tóc Dyson từ 15.000.000 VNĐ; giảm thêm 1.000.000 VNĐ cho trang sức PNJ từ 25.000.000 VNĐ (áp dụng sau các khuyến mãi hiện hữu tại PNJ)…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "giảm đến 50%",
+        "label": "EVENT",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Nha Khoa Otis",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Celeb Dental Clinic",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Dr. Wondersmile",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Peace Dentistry",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "giảm đến 40%",
+        "label": "EVENT",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Menard Spa",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Yakson Beauty",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Hum Spa",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Oracle Clinic",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "Bông Spa",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "CitiGym",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "FIT24",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "La Bella Pilates",
+        "label": "ORG",
+        "evidence": "Đối với các dịch vụ làm đẹp, khách hàng VIB sẽ được giảm đến 50% khi làm răng ở Nha Khoa Otis, Celeb Dental Clinic, Dr. Wondersmile, Peace Dentistry…; giảm đến 40% khi chăm sóc da và massage thư giãn tại Menard Spa, Yakson Beauty, Hum Spa, Oracle Clinic, Bông Spa… hoặc lấy lại vóc dáng thon gọn đón Tết tại CitiGym, FIT24, La Bella Pilates."
+    },
+    {
+        "text": "hợp tác với đơn vị xét nghiệm gen hàng đầu Gene Solutions",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, Ngân hàng còn hợp tác với đơn vị xét nghiệm gen hàng đầu Gene Solutions mang đến món quà sức khỏe mùa Tết này."
+    },
+    {
+        "text": "Gene Solutions",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Ngân hàng còn hợp tác với đơn vị xét nghiệm gen hàng đầu Gene Solutions mang đến món quà sức khỏe mùa Tết này."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Ngoài chương trình trả góp, chủ thẻ tín dụng và thẻ thanh toán quốc tế VIB sẽ được giảm đến 40% các gói dịch vụ tầm soát đa ung thư cho bản thân và cha mẹ, gói tầm soát gen lặn gây bệnh cho cặp đôi sắp cưới, gói giải mã gen tính cách cho trẻ nhỏ…"
+    },
+    {
+        "text": "thẻ thanh toán quốc tế VIB",
+        "label": "ASSET",
+        "evidence": "Ngoài chương trình trả góp, chủ thẻ tín dụng và thẻ thanh toán quốc tế VIB sẽ được giảm đến 40% các gói dịch vụ tầm soát đa ung thư cho bản thân và cha mẹ, gói tầm soát gen lặn gây bệnh cho cặp đôi sắp cưới, gói giải mã gen tính cách cho trẻ nhỏ…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngoài chương trình trả góp, chủ thẻ tín dụng và thẻ thanh toán quốc tế VIB sẽ được giảm đến 40% các gói dịch vụ tầm soát đa ung thư cho bản thân và cha mẹ, gói tầm soát gen lặn gây bệnh cho cặp đôi sắp cưới, gói giải mã gen tính cách cho trẻ nhỏ…"
+    },
+    {
+        "text": "giảm đến 40% các gói dịch vụ",
+        "label": "EVENT",
+        "evidence": "Ngoài chương trình trả góp, chủ thẻ tín dụng và thẻ thanh toán quốc tế VIB sẽ được giảm đến 40% các gói dịch vụ tầm soát đa ung thư cho bản thân và cha mẹ, gói tầm soát gen lặn gây bệnh cho cặp đôi sắp cưới, gói giải mã gen tính cách cho trẻ nhỏ…"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Ngoài chương trình trả góp, chủ thẻ tín dụng và thẻ thanh toán quốc tế VIB sẽ được giảm đến 40% các gói dịch vụ tầm soát đa ung thư cho bản thân và cha mẹ, gói tầm soát gen lặn gây bệnh cho cặp đôi sắp cưới, gói giải mã gen tính cách cho trẻ nhỏ…"
+    },
+    {
+        "text": "Calibee",
+        "label": "ORG",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng",
+        "label": "EVENT",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "30.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "900.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Lịch trình chăm sóc sức khỏe và làm đẹp tốn nhiều thời gian, song chị em phụ nữ vẫn có thể an tâm chăm sóc nhà cửa chu toàn với dịch vụ giúp việc theo giờ của Calibee, thêm ưu đãi 30.000 VNĐ mỗi ngày và 900.000 VNĐ mỗi tháng khi thanh toán bằng thẻ VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB hiện có nhiều dòng thẻ tín dụng với tính nănghoàn tiềnhấp dẫn."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "VIB hiện có nhiều dòng thẻ tín dụng với tính nănghoàn tiềnhấp dẫn."
+    },
+    {
+        "text": "VIB Online Plus 2in1",
+        "label": "ASSET",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "VIB Cash Back",
+        "label": "ASSET",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "VIB Super Card",
+        "label": "ASSET",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "VIB LazCard",
+        "label": "ASSET",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Tùy lĩnh vực chi tiêu, mỗi dòng thẻ sẽ được hoàn tiền khác nhau như VIB Online Plus 2in1 (hoàn đến 6%), VIB Cash Back (hoàn đến 10%), VIB Super Card (hoàn đến 15%), VIB LazCard (hoàn đến 50%)…"
+    },
+    {
+        "text": "nay đến 31/3",
+        "label": "DATE",
+        "evidence": "Từ nay đến 31/3, khách hàng mở thẻ tín dụngVIBcòn được hưởng thêm đồng thời 3 ưu đãi hoàn tiền."
+    },
+    {
+        "text": "mở thẻ tín dụngVIBcòn được hưởng thêm đồng thời 3 ưu đãi hoàn tiền",
+        "label": "EVENT",
+        "evidence": "Từ nay đến 31/3, khách hàng mở thẻ tín dụngVIBcòn được hưởng thêm đồng thời 3 ưu đãi hoàn tiền."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Từ nay đến 31/3, khách hàng mở thẻ tín dụngVIBcòn được hưởng thêm đồng thời 3 ưu đãi hoàn tiền."
+    },
+    {
+        "text": "hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày",
+        "label": "EVENT",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "năm đầu tiên",
+        "label": "DATE",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "ngày hội thẻ VIB",
+        "label": "EVENT",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "Cụ thể, người dùng được hoàn phí thường niên năm đầu tiên nếu mở thẻ vào các ngày đặc biệt (ngày đôi, ngày hội thẻ VIB, ngày sinh nhật chủ thẻ) và chi tiêu chỉ từ 3 triệu đồng trong 30 ngày."
+    },
+    {
+        "text": "Phí thường niên năm sau tiếp tục được hoàn nếu chủ thẻ tích lũy chi tiêu trong năm 2024 đạt từ 10 triệu đồng/tháng",
+        "label": "EVENT",
+        "evidence": "Phí thường niên năm sau tiếp tục được hoàn nếu chủ thẻ tích lũy chi tiêu trong năm 2024 đạt từ 10 triệu đồng/tháng."
+    },
+    {
+        "text": "năm sau",
+        "label": "DATE",
+        "evidence": "Phí thường niên năm sau tiếp tục được hoàn nếu chủ thẻ tích lũy chi tiêu trong năm 2024 đạt từ 10 triệu đồng/tháng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Phí thường niên năm sau tiếp tục được hoàn nếu chủ thẻ tích lũy chi tiêu trong năm 2024 đạt từ 10 triệu đồng/tháng."
+    },
+    {
+        "text": "10 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "Phí thường niên năm sau tiếp tục được hoàn nếu chủ thẻ tích lũy chi tiêu trong năm 2024 đạt từ 10 triệu đồng/tháng."
+    },
+    {
+        "text": "hoàn tiền 10% theo chi tiêu, tối đa 1.500.000 VNĐ trong 3 tháng phát hành thẻ chính đầu tiên và hoàn thêm phí thường niên thẻ phụ",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khách hàng được hoàn tiền 10% theo chi tiêu, tối đa 1.500.000 VNĐ trong 3 tháng phát hành thẻ chính đầu tiên và hoàn thêm phí thường niên thẻ phụ."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, khách hàng được hoàn tiền 10% theo chi tiêu, tối đa 1.500.000 VNĐ trong 3 tháng phát hành thẻ chính đầu tiên và hoàn thêm phí thường niên thẻ phụ."
+    },
+    {
+        "text": "1.500.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khách hàng được hoàn tiền 10% theo chi tiêu, tối đa 1.500.000 VNĐ trong 3 tháng phát hành thẻ chính đầu tiên và hoàn thêm phí thường niên thẻ phụ."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Ngoài ra, khách hàng được hoàn tiền 10% theo chi tiêu, tối đa 1.500.000 VNĐ trong 3 tháng phát hành thẻ chính đầu tiên và hoàn thêm phí thường niên thẻ phụ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Mùa Tết này, chủ thẻ VIB thỏa điều kiện sẽ được hưởng nhiều dịch vụ đẳng cấp từ chương trình \"Mở khóa Đặc quyền 3.0\" kéo dài đến 29/2."
+    },
+    {
+        "text": "hưởng nhiều dịch vụ đẳng cấp từ chương trình \"Mở khóa Đặc quyền 3.0\" kéo dài đến 29/2",
+        "label": "EVENT",
+        "evidence": "Mùa Tết này, chủ thẻ VIB thỏa điều kiện sẽ được hưởng nhiều dịch vụ đẳng cấp từ chương trình \"Mở khóa Đặc quyền 3.0\" kéo dài đến 29/2."
+    },
+    {
+        "text": "29/2",
+        "label": "DATE",
+        "evidence": "Mùa Tết này, chủ thẻ VIB thỏa điều kiện sẽ được hưởng nhiều dịch vụ đẳng cấp từ chương trình \"Mở khóa Đặc quyền 3.0\" kéo dài đến 29/2."
+    },
+    {
+        "text": "đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide",
+        "label": "EVENT",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Michelin Guide",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Madame Lam",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Stoker",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Sei Lounge",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Senté",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Nén Light",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "ưu đãi giảm đến 25%",
+        "label": "EVENT",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Park Hyatt Saigon",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "InterContinental Saigon",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "New World Saigon",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "Shang Palace",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "El Gaucho Steakhouse",
+        "label": "ORG",
+        "evidence": "Trong đó, phải kể đến đặc quyền tận hưởng ẩm thực thượng hạng và tặng một món chính tại 12 nhà hàng Michelin Guide (Madame Lam, Stoker, Sei Lounge, Senté, Nén Light…) cùng ưu đãi giảm đến 25% hoặc áp dụng menu đặc biệt tại các nhà hàng sang trọng bậc nhất (Park Hyatt Saigon, InterContinental Saigon, New World Saigon, Shang Palace, El Gaucho Steakhouse…)."
+    },
+    {
+        "text": "tặng thẻ Bông sen vàng hạng Vàng hoặc Bạch kim của Vietnam Airlines",
+        "label": "EVENT",
+        "evidence": "Hội viên \"Mở khóa đặc quyền 3.0\" cũng được tặng thẻ Bông sen vàng hạng Vàng hoặc Bạch kim của Vietnam Airlines nếu đạt tổng chi tiêu tại nước ngoài cao nhất mỗi tháng hoặc toàn chương trình."
+    },
+    {
+        "text": "thẻ Bông sen vàng hạng Vàng hoặc Bạch kim",
+        "label": "ASSET",
+        "evidence": "Hội viên \"Mở khóa đặc quyền 3.0\" cũng được tặng thẻ Bông sen vàng hạng Vàng hoặc Bạch kim của Vietnam Airlines nếu đạt tổng chi tiêu tại nước ngoài cao nhất mỗi tháng hoặc toàn chương trình."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Hội viên \"Mở khóa đặc quyền 3.0\" cũng được tặng thẻ Bông sen vàng hạng Vàng hoặc Bạch kim của Vietnam Airlines nếu đạt tổng chi tiêu tại nước ngoài cao nhất mỗi tháng hoặc toàn chương trình."
+    },
+    {
+        "text": "mỗi tháng",
+        "label": "DATE",
+        "evidence": "Hội viên \"Mở khóa đặc quyền 3.0\" cũng được tặng thẻ Bông sen vàng hạng Vàng hoặc Bạch kim của Vietnam Airlines nếu đạt tổng chi tiêu tại nước ngoài cao nhất mỗi tháng hoặc toàn chương trình."
+    },
+    {
+        "text": "suốt năm",
+        "label": "DATE",
+        "evidence": "Cùng với đó là 11 dịch vụ tài chính (ngân hàng điện tử, sao kê tài khoản, chuyển tiền quốc tế...) phục vụ miễn phí suốt năm."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Mở thẻ thuận tiện, an toàn ngaytại đâyđể sắm Tết và tận hưởng các ưu đãi từ VIB!"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    },
+    {
+        "text": "giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024",
+        "label": "EVENT",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    },
+    {
+        "text": "20% lãi suất",
+        "label": "RATE",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    },
+    {
+        "text": "tháng 2/2024",
+        "label": "DATE",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    },
+    {
+        "text": "tháng 3/2024",
+        "label": "DATE",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Đồng hành cùng các khách hàng hiện hữu, VIB gửi đến toàn bộ chủ thẻ ưu đãi giảm ngay 20% lãi suất của các giao dịch trong tháng 2/2024 thể hiện trong bảng sao kê tháng 3/2024, áp dụng cho tất cả dòng thẻ tín dụng hiện có."
+    }
+]

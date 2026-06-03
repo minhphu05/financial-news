@@ -1,0 +1,117 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Thời gian vừa qua tiếp tục xuất hiện và gia tăng hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank liên hệ mời phát hành thẻ tín dụng với thủ đoạn cụ thể như sau."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Thời gian vừa qua tiếp tục xuất hiện và gia tăng hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank liên hệ mời phát hành thẻ tín dụng với thủ đoạn cụ thể như sau."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thời gian vừa qua tiếp tục xuất hiện và gia tăng hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank liên hệ mời phát hành thẻ tín dụng với thủ đoạn cụ thể như sau."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Kẻ gian sẽ tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "mở thẻ ghi nợ phi vật lý",
+        "label": "EVENT",
+        "evidence": "Kẻ gian sẽ tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "làm hồ sơ phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Kẻ gian sẽ tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Kẻ gian sẽ tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, chúng còn sử dụng kịch bản tổng đài tự động giả với thông điệp: “Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng... Nếu có nhu cầu, nhấn phím 1...”."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Đáng chú ý, chúng còn sử dụng kịch bản tổng đài tự động giả với thông điệp: “Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng... Nếu có nhu cầu, nhấn phím 1...”."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "Ví điện tử",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "- Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…);"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "- Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…);"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "- Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…);"
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "- Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…);"
+    },
+    {
+        "text": "nâng điểm tín dụng",
+        "label": "EVENT",
+        "evidence": "Các đối tượng này yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Các đối tượng này yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các đối tượng này yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "thanh toán phí hồ sơ",
+        "label": "EVENT",
+        "evidence": "Trong quá trình lừa đảo, kẻ gian có thể yêu cầu khách hàng chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ…"
+    },
+    {
+        "text": "thanh toán phí phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Trong quá trình lừa đảo, kẻ gian có thể yêu cầu khách hàng chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ…"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Trong quá trình lừa đảo, kẻ gian có thể yêu cầu khách hàng chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khi nhận được cuộc gọi nghi ngờ, hãy cúp máy ngay lập tức và liên hệ với Vietcombank qua các kênh chính thức để xác minh thông tin và được hỗ trợ kịp thời."
+    }
+]

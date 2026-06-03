@@ -1,0 +1,407 @@
+[
+    {
+        "text": "Chứng khoán Sài Gòn Hà Nội",
+        "label": "ORG",
+        "evidence": "Trong báo cáo cập nhật về ngành ngân hàng mới công bố, Chứng khoán Sài Gòn Hà Nội (SHS) cho biết trong đợt cấp bổ sung hạn mức tín dụng ngày 28/11 vừa qua, có 5 ngân hàng đủ điều kiện được cấp hạn mức bổ sung gồm: VietinBank (từ 14% lên 16%),ACB(từ 18,4% lên 20,69%), VIB (từ 18,4% lên 21,6%), Techcombank (từ 18,5% lên 20%) vàMSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "Trong báo cáo cập nhật về ngành ngân hàng mới công bố, Chứng khoán Sài Gòn Hà Nội (SHS) cho biết trong đợt cấp bổ sung hạn mức tín dụng ngày 28/11 vừa qua, có 5 ngân hàng đủ điều kiện được cấp hạn mức bổ sung gồm: VietinBank (từ 14% lên 16%),ACB(từ 18,4% lên 20,69%), VIB (từ 18,4% lên 21,6%), Techcombank (từ 18,5% lên 20%) vàMSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "cấp bổ sung hạn mức tín dụng ngày 28/11 vừa qua",
+        "label": "EVENT",
+        "evidence": "Chứng khoán Sài Gòn Hà Nội (SHS) cho biết trong đợt cấp bổ sung hạn mức tín dụng ngày 28/11 vừa qua, có 5 ngân hàng đủ điều kiện được cấp hạn mức bổ sung gồm: VietinBank (từ 14% lên 16%),ACB(từ 18,4% lên 20,69%), VIB (từ 18,4% lên 21,6%), Techcombank (từ 18,5% lên 20%) vàMSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "28/11",
+        "label": "DATE",
+        "evidence": "cấp bổ sung hạn mức tín dụng ngày 28/11 vừa qua"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "có 5 ngân hàng đủ điều kiện được cấp hạn mức bổ sung gồm: VietinBank (từ 14% lên 16%),ACB(từ 18,4% lên 20,69%), VIB (từ 18,4% lên 21,6%), Techcombank (từ 18,5% lên 20%) vàMSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "VietinBank (từ 14% lên 16%)"
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "VietinBank (từ 14% lên 16%)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB(từ 18,4% lên 20,69%)"
+    },
+    {
+        "text": "18,4%",
+        "label": "RATE",
+        "evidence": "ACB(từ 18,4% lên 20,69%)"
+    },
+    {
+        "text": "20,69%",
+        "label": "RATE",
+        "evidence": "ACB(từ 18,4% lên 20,69%)"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB (từ 18,4% lên 21,6%)"
+    },
+    {
+        "text": "18,4%",
+        "label": "RATE",
+        "evidence": "VIB (từ 18,4% lên 21,6%)"
+    },
+    {
+        "text": "21,6%",
+        "label": "RATE",
+        "evidence": "VIB (từ 18,4% lên 21,6%)"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank (từ 18,5% lên 20%)"
+    },
+    {
+        "text": "18,5%",
+        "label": "RATE",
+        "evidence": "Techcombank (từ 18,5% lên 20%)"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Techcombank (từ 18,5% lên 20%)"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "vàMSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "16,3%",
+        "label": "RATE",
+        "evidence": "MSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "18,27%",
+        "label": "RATE",
+        "evidence": "MSB(từ 16,3% lên 18,27%)."
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "SHS cho hay."
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "Nguồn: SHS"
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "Theo SHS, nhóm ngân hàng tư nhân đặc biệt là nhóm cho vay doanh nghiệp có tốc độ tăng trưởng tín dụng cao hơn như Techcombank, HDBank hay LPBank đều đã vượt hạn mức năm và đã được nới room tín dụng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "như Techcombank, HDBank hay LPBank đều đã vượt hạn mức năm và đã được nới room tín dụng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "như Techcombank, HDBank hay LPBank đều đã vượt hạn mức năm và đã được nới room tín dụng."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "như Techcombank, HDBank hay LPBank đều đã vượt hạn mức năm và đã được nới room tín dụng."
+    },
+    {
+        "text": "nới room tín dụng",
+        "label": "EVENT",
+        "evidence": "HDBank hay LPBank đều đã vượt hạn mức năm và đã được nới room tín dụng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong nhóm ngân hàng tư nhân cho vay bán lẻ, VPBank tăng trưởng tín dụng 9% (55% hạn mức), khá thấp so với các NHTM khác trong nhóm."
+    },
+    {
+        "text": "tăng trưởng tín dụng 9%",
+        "label": "RATE",
+        "evidence": "VPBank tăng trưởng tín dụng 9% (55% hạn mức)"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "VPBank tăng trưởng tín dụng 9% (55% hạn mức)"
+    },
+    {
+        "text": "55% hạn mức",
+        "label": "RATE",
+        "evidence": "9% (55% hạn mức)"
+    },
+    {
+        "text": "VPBank tiếp tục chủ động giảm dư nợ trái phiếu doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Lý do một phần đến từ việc VPBank tiếp tục chủ động giảm dư nợ trái phiếu doanh nghiệp, 9 tháng năm 2024 ghi nhận giảm 47% xuống 18.442 tỷ đồng sau khi đã giảm 20% trong năm 2023."
+    },
+    {
+        "text": "9 tháng năm 2024",
+        "label": "DATE",
+        "evidence": "9 tháng năm 2024 ghi nhận giảm 47% xuống 18.442 tỷ đồng sau khi đã giảm 20% trong năm 2023."
+    },
+    {
+        "text": "giảm 47%",
+        "label": "RATE",
+        "evidence": "ghi nhận giảm 47% xuống 18.442 tỷ đồng"
+    },
+    {
+        "text": "47%",
+        "label": "RATE",
+        "evidence": "ghi nhận giảm 47% xuống 18.442 tỷ đồng"
+    },
+    {
+        "text": "18.442 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm 47% xuống 18.442 tỷ đồng"
+    },
+    {
+        "text": "giảm 20% trong năm 2023",
+        "label": "RATE",
+        "evidence": "sau khi đã giảm 20% trong năm 2023."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "sau khi đã giảm 20% trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "giảm 20% trong năm 2023."
+    },
+    {
+        "text": "tăng 12,2%",
+        "label": "RATE",
+        "evidence": "Cho vay khách hàng hợp nhất tăng 12,2% (cùng kỳ 2023 tăng 19%)."
+    },
+    {
+        "text": "12,2%",
+        "label": "RATE",
+        "evidence": "Cho vay khách hàng hợp nhất tăng 12,2% (cùng kỳ 2023 tăng 19%)."
+    },
+    {
+        "text": "cùng kỳ 2023",
+        "label": "DATE",
+        "evidence": "cùng kỳ 2023 tăng 19%"
+    },
+    {
+        "text": "tăng 19%",
+        "label": "RATE",
+        "evidence": "cùng kỳ 2023 tăng 19%"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "cùng kỳ 2023 tăng 19%"
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "SHS cũng cho biết, dư nợ tín dụng bất động sản đến cuối tháng 9/2024 đạt 3,15 triệu tỷ đồng tăng 15% so với cùng kỳ và tăng 9% từ đầu năm, chiếm khoảng 21% tổng tín dụng, có sự phân hóa rõ rệt giữa tín dụng đầu tư và tín dụng tiêu dùng."
+    },
+    {
+        "text": "cuối tháng 9/2024",
+        "label": "DATE",
+        "evidence": "dư nợ tín dụng bất động sản đến cuối tháng 9/2024 đạt 3,15 triệu tỷ đồng tăng 15% so với cùng kỳ và tăng 9% từ đầu năm, chiếm khoảng 21% tổng tín dụng, có sự phân hóa rõ rệt giữa tín dụng đầu tư và tín dụng tiêu dùng."
+    },
+    {
+        "text": "3,15 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 3,15 triệu tỷ đồng tăng 15% so với cùng kỳ và tăng 9% từ đầu năm"
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "3,15 triệu tỷ đồng tăng 15% so với cùng kỳ"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "3,15 triệu tỷ đồng tăng 15% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 9%",
+        "label": "RATE",
+        "evidence": "và tăng 9% từ đầu năm"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "và tăng 9% từ đầu năm"
+    },
+    {
+        "text": "21% tổng tín dụng",
+        "label": "RATE",
+        "evidence": "chiếm khoảng 21% tổng tín dụng"
+    },
+    {
+        "text": "9 tháng năm 2024",
+        "label": "DATE",
+        "evidence": "Mảng bất động sản tiêu dùng cá nhân vay mua nhà, sửa nhà 9 tháng năm 2024 ghi nhận 1,8 triệu tỷ đồng tăng 7,2% so với năm ngoái và tăng 4,6% từ đầu năm."
+    },
+    {
+        "text": "1,8 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận 1,8 triệu tỷ đồng tăng 7,2% so với năm ngoái và tăng 4,6% từ đầu năm."
+    },
+    {
+        "text": "tăng 7,2%",
+        "label": "RATE",
+        "evidence": "1,8 triệu tỷ đồng tăng 7,2% so với năm ngoái"
+    },
+    {
+        "text": "7,2%",
+        "label": "RATE",
+        "evidence": "1,8 triệu tỷ đồng tăng 7,2% so với năm ngoái"
+    },
+    {
+        "text": "tăng 4,6%",
+        "label": "RATE",
+        "evidence": "và tăng 4,6% từ đầu năm."
+    },
+    {
+        "text": "4,6%",
+        "label": "RATE",
+        "evidence": "và tăng 4,6% từ đầu năm."
+    },
+    {
+        "text": "1,3 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 1,3 triệu tỷ đồng tăng 28,2% so cùng kỳ năm ngoái và 16,0% từ đầu năm."
+    },
+    {
+        "text": "tăng 28,2%",
+        "label": "RATE",
+        "evidence": "1,3 triệu tỷ đồng tăng 28,2% so cùng kỳ năm ngoái"
+    },
+    {
+        "text": "28,2%",
+        "label": "RATE",
+        "evidence": "1,3 triệu tỷ đồng tăng 28,2% so cùng kỳ năm ngoái"
+    },
+    {
+        "text": "16,0%",
+        "label": "RATE",
+        "evidence": "và 16,0% từ đầu năm."
+    },
+    {
+        "text": "Thông tư 02 về tái cơ cấu nợ sẽ hết hiệu lực từ ngày 31/12/2024",
+        "label": "EVENT",
+        "evidence": "Đối với ảnh hưởng của việc Thông tư 02 về tái cơ cấu nợ sẽ hết hiệu lực từ ngày 31/12/2024, SHS cho biết hiện chưa có thông tin từ phía Ngân hàng Nhà nước liên quan tới việc gia hạn hoặc dừng áp dụng Thông tư 02 theo đúng lộ trình dự kiến."
+    },
+    {
+        "text": "31/12/2024",
+        "label": "DATE",
+        "evidence": "Thông tư 02 về tái cơ cấu nợ sẽ hết hiệu lực từ ngày 31/12/2024"
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "SHS cho biết hiện chưa có thông tin từ phía Ngân hàng Nhà nước liên quan tới việc gia hạn hoặc dừng áp dụng Thông tư 02 theo đúng lộ trình dự kiến."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "từ phía Ngân hàng Nhà nước liên quan tới việc gia hạn hoặc dừng áp dụng Thông tư 02 theo đúng lộ trình dự kiến."
+    },
+    {
+        "text": "gia hạn hoặc dừng áp dụng Thông tư 02",
+        "label": "EVENT",
+        "evidence": "chưa có thông tin từ phía Ngân hàng Nhà nước liên quan tới việc gia hạn hoặc dừng áp dụng Thông tư 02 theo đúng lộ trình dự kiến."
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tại thời điểm cuối quý 2/2024, dư nợ tái cơ cấu theo Thông tư 02 có giá trị 230 nghìn tỷ đồng, tăng 25,6% từ đầu năm."
+    },
+    {
+        "text": "230 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có giá trị 230 nghìn tỷ đồng, tăng 25,6% từ đầu năm."
+    },
+    {
+        "text": "tăng 25,6%",
+        "label": "RATE",
+        "evidence": "có giá trị 230 nghìn tỷ đồng, tăng 25,6% từ đầu năm."
+    },
+    {
+        "text": "25,6%",
+        "label": "RATE",
+        "evidence": "có giá trị 230 nghìn tỷ đồng, tăng 25,6% từ đầu năm."
+    },
+    {
+        "text": "50% mỗi năm",
+        "label": "RATE",
+        "evidence": "khoản chênh lệch so với nhóm nợ hiện tại được trích lập 50% mỗi năm, đạt 100% vào cuối năm 2024."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "đạt 100% vào cuối năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "đạt 100% vào cuối năm 2024."
+    },
+    {
+        "text": "không gia hạn Thông tư 02",
+        "label": "EVENT",
+        "evidence": "“Việc không gia hạn Thông tư 02 có thể làm tăng quy mô nợ xấu và giảm tỷ lệ bao phủ nợ xấu, không ảnh hưởng đến trích lập dự phòng của ngân hàng”, Chứng khoán SHS nhân định."
+    },
+    {
+        "text": "Chứng khoán SHS",
+        "label": "ORG",
+        "evidence": "“Việc không gia hạn Thông tư 02 có thể làm tăng quy mô nợ xấu và giảm tỷ lệ bao phủ nợ xấu, không ảnh hưởng đến trích lập dự phòng của ngân hàng”, Chứng khoán SHS nhân định."
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "Theo SHS, Thông tư 02 hết hiệu lực sẽ có tác động khác nhau đối với từng ngân hàng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng như BIDV, Vietcombank,VietinBank,Techcombank, ACB,… sẽ ít chịu ảnh hưởng nhờ sở hữu bộ đệm dự phòng vững chắc và sức khỏe tài chính tốt."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng như BIDV, Vietcombank,VietinBank,Techcombank, ACB,… sẽ ít chịu ảnh hưởng nhờ sở hữu bộ đệm dự phòng vững chắc và sức khỏe tài chính tốt."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng như BIDV, Vietcombank,VietinBank,Techcombank, ACB,… sẽ ít chịu ảnh hưởng nhờ sở hữu bộ đệm dự phòng vững chắc và sức khỏe tài chính tốt."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng như BIDV, Vietcombank,VietinBank,Techcombank, ACB,… sẽ ít chịu ảnh hưởng nhờ sở hữu bộ đệm dự phòng vững chắc và sức khỏe tài chính tốt."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng như BIDV, Vietcombank,VietinBank,Techcombank, ACB,… sẽ ít chịu ảnh hưởng nhờ sở hữu bộ đệm dự phòng vững chắc và sức khỏe tài chính tốt."
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "text": "Hoàng Quang Việt",
+        "label": "PERSON",
+        "evidence": "ông Hoàng Quang Việt, Thành viên HĐQTCTCP Tập đoàn Hòa Phát"
+    },
+    {
+        "text": "HĐQTCTCP Tập đoàn Hòa Phát",
+        "label": "ORG",
+        "evidence": "Thành viên HĐQTCTCP Tập đoàn Hòa Phát (mã chứng khoán: HPG)"
+    },
+    {
+        "text": "Tập đoàn Hòa Phát",
+        "label": "ORG",
+        "evidence": "HĐQTCTCP Tập đoàn Hòa Phát (mã chứng khoán: HPG)"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "(mã chứng khoán: HPG)đã báo cáo hoàn tất giao dịch bán thoả thuận 2 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "báo cáo hoàn tất giao dịch bán thoả thuận 2 triệu cổ phiếu HPG",
+        "label": "EVENT",
+        "evidence": "đã báo cáo hoàn tất giao dịch bán thoả thuận 2 triệu cổ phiếu HPG trong khoảng từ 20 đến 22/2."
+    },
+    {
+        "text": "2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "giao dịch bán thoả thuận 2 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "cổ phiếu HPG",
+        "label": "ASSET",
+        "evidence": "2 triệu cổ phiếu HPG trong khoảng từ 20 đến 22/2."
+    },
+    {
+        "text": "20 đến 22/2",
+        "label": "DATE",
+        "evidence": "trong khoảng từ 20 đến 22/2."
+    },
+    {
+        "text": "ông Việt",
+        "label": "PERSON",
+        "evidence": "trên, ông Việt hạ sở hữu tại Hòa Phát xuống còn 26,3 triệu cổ phần"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "ông Việt hạ sở hữu tại Hòa Phát xuống còn 26,3 triệu cổ phần"
+    },
+    {
+        "text": "26,3 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "xuống còn 26,3 triệu cổ phần, tương đương 0,45% vốn điều lệ công ty."
+    },
+    {
+        "text": "0,45%",
+        "label": "RATE",
+        "evidence": "tương đương 0,45% vốn điều lệ công ty."
+    },
+    {
+        "text": "Hoàng Nhật Minh",
+        "label": "PERSON",
+        "evidence": "là con trai Hoàng Nhật Minh và con gái Hoàng Nhật Anh"
+    },
+    {
+        "text": "Hoàng Nhật Anh",
+        "label": "PERSON",
+        "evidence": "Hoàng Nhật Minh và con gái Hoàng Nhật Anh, mỗi người nhận về 1 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mỗi người nhận về 1 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "cổ phiếu HPG",
+        "label": "ASSET",
+        "evidence": "1 triệu cổ phiếu HPG và hiện cùng sở hữu tỷ lệ 0,02% vốn tại Hoà Phát."
+    },
+    {
+        "text": "0,02%",
+        "label": "RATE",
+        "evidence": "sở hữu tỷ lệ 0,02% vốn tại Hoà Phát."
+    },
+    {
+        "text": "Hoà Phát",
+        "label": "ORG",
+        "evidence": "tỷ lệ 0,02% vốn tại Hoà Phát."
+    },
+    {
+        "text": "ông Việt",
+        "label": "PERSON",
+        "evidence": "trước ông Việt, vào tháng 7/2022"
+    },
+    {
+        "text": "tháng 7/2022",
+        "label": "DATE",
+        "evidence": "vào tháng 7/2022, Thành viên HĐQT Nguyễn Ngọc Quang đã chuyển nhượng thành công"
+    },
+    {
+        "text": "Nguyễn Ngọc Quang",
+        "label": "PERSON",
+        "evidence": "Thành viên HĐQT Nguyễn Ngọc Quang đã chuyển nhượng thành công 5 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "chuyển nhượng thành công 5 triệu cổ phiếu HPG",
+        "label": "EVENT",
+        "evidence": "Nguyễn Ngọc Quang đã chuyển nhượng thành công 5 triệu cổ phiếu HPG cho con gái Nguyễn Hà My"
+    },
+    {
+        "text": "5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "chuyển nhượng thành công 5 triệu cổ phiếu HPG"
+    },
+    {
+        "text": "cổ phiếu HPG",
+        "label": "ASSET",
+        "evidence": "5 triệu cổ phiếu HPG cho con gái Nguyễn Hà My"
+    },
+    {
+        "text": "Nguyễn Hà My",
+        "label": "PERSON",
+        "evidence": "cho con gái Nguyễn Hà My, hạ tỷ lệ sở hữu xuống 108,8 triệu cổ phần"
+    },
+    {
+        "text": "108,8 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "hạ tỷ lệ sở hữu xuống 108,8 triệu cổ phần, tương đương 1,87% vốn điều lệ của công ty."
+    },
+    {
+        "text": "1,87%",
+        "label": "RATE",
+        "evidence": "tương đương 1,87% vốn điều lệ của công ty."
+    },
+    {
+        "text": "cổ phiếu HPG",
+        "label": "ASSET",
+        "evidence": "chứng khoán, cổ phiếu HPG hồi phục mạnh kể từ khi chạm đáy"
+    },
+    {
+        "text": "giữa tháng 11/2022",
+        "label": "DATE",
+        "evidence": "chạm đáy 26 tháng hồi giữa tháng 11/2022 (12.100 đồng/cp)"
+    },
+    {
+        "text": "12.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "giữa tháng 11/2022 (12.100 đồng/cp), hiện đã tăng khoảng 78%."
+    },
+    {
+        "text": "78%",
+        "label": "RATE",
+        "evidence": "hiện đã tăng khoảng 78%."
+    },
+    {
+        "text": "23/2",
+        "label": "DATE",
+        "evidence": "Chốt phiên 23/2,thị giá HPGđạt 21.500 đồng/cp."
+    },
+    {
+        "text": "thị giá HPG",
+        "label": "ASSET",
+        "evidence": "23/2,thị giá HPGđạt 21.500 đồng/cp."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "thị giá HPGđạt 21.500 đồng/cp."
+    },
+    {
+        "text": "21.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "HPGđạt 21.500 đồng/cp."
+    },
+    {
+        "text": "Hoà Phát",
+        "label": "ORG",
+        "evidence": "Về tình hình kinh doanh, Hoà Phát ghi nhận doanh thu năm 2022"
+    },
+    {
+        "text": "ghi nhận doanh thu năm 2022 142.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Hoà Phát ghi nhận doanh thu năm 2022 142.000 tỷ đồng, giảm 5% so 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "doanh thu năm 2022 142.000 tỷ đồng"
+    },
+    {
+        "text": "142.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2022 142.000 tỷ đồng, giảm 5% so 2021."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "giảm 5% so 2021."
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "giảm 5% so 2021."
+    },
+    {
+        "text": "Lợi nhuận sau thuế cả năm đạt hơn 8.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế cả năm đạt hơn 8.400 tỷ đồng, chỉ bằng 24% so với năm 2021."
+    },
+    {
+        "text": "hơn 8.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau thuế cả năm đạt hơn 8.400 tỷ đồng, chỉ bằng 24% so với năm 2021."
+    },
+    {
+        "text": "24%",
+        "label": "RATE",
+        "evidence": "chỉ bằng 24% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "bằng 24% so với năm 2021."
+    },
+    {
+        "text": "HĐQT Hoà Phát",
+        "label": "ORG",
+        "evidence": "HĐQT Hoà Phát đã thông qua kế hoạch sản xuất kinh doanh năm 2023"
+    },
+    {
+        "text": "Hoà Phát",
+        "label": "ORG",
+        "evidence": "HĐQT Hoà Phát đã thông qua kế hoạch sản xuất kinh doanh năm 2023"
+    },
+    {
+        "text": "thông qua kế hoạch sản xuất kinh doanh năm 2023",
+        "label": "EVENT",
+        "evidence": "HĐQT Hoà Phát đã thông qua kế hoạch sản xuất kinh doanh năm 2023 với kế hoạch doanh thu dự kiến đạt 150.000 tỷ đồng"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "kinh doanh năm 2023 với kế hoạch doanh thu dự kiến đạt 150.000 tỷ đồng"
+    },
+    {
+        "text": "150.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu dự kiến đạt 150.000 tỷ đồng, tăng 6% so với thực hiện năm 2022"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "tăng 6% so với thực hiện năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "thực hiện năm 2022 và kế hoạch lợi nhuận sau thuế đạt 8.000 tỷ đồng"
+    },
+    {
+        "text": "8.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau thuế đạt 8.000 tỷ đồng, giảm 5% so với thực hiện năm 2022"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "giảm 5% so với thực hiện năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "thực hiện năm 2022 là hơn 8.400 tỷ đồng."
+    },
+    {
+        "text": "hơn 8.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là hơn 8.400 tỷ đồng."
+    }
+]

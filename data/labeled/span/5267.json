@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "Trong báo cáo cập nhậtThế giới di động (mã: MWG)sau cuộc họp với các chuyên viên phân tích mới đây,SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Trong báo cáo cập nhậtThế giới di động (mã: MWG)sau cuộc họp với các chuyên viên phân tích mới đây,SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Trong báo cáo cập nhậtThế giới di động (mã: MWG)sau cuộc họp với các chuyên viên phân tích mới đây,SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)",
+        "label": "EVENT",
+        "evidence": "SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "SSIcho biết MWG đang có kết hoạch đẩy nhanh mở rộng mạng lưới Bách Hóa Xanh (BHX)."
+    },
+    {
+        "text": "tăng 11%-23%",
+        "label": "RATE",
+        "evidence": "tốc độ mở rộng mạng lưới cửa hàng được đẩy nhanh với 200-400 cửa hàng mới (tăng 11%-23% tổng số cửa hàng) được mở trong năm 2025 so với 72 cửa hàng mới mở trong năm 2024 để đảm bảo tăng trưởng dài hạn."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "được mở trong năm 2025 so với 72 cửa hàng mới mở trong năm 2024 để đảm bảo tăng trưởng dài hạn."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "được mở trong năm 2025 so với 72 cửa hàng mới mở trong năm 2024 để đảm bảo tăng trưởng dài hạn."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "Theo ban lãnh đạo, 70% cửa hàng mới sẽ được mở tại khu vực miền Trung."
+    },
+    {
+        "text": "1,2-1,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu/tháng/cửa hàng chỉ đạt 1,2-1,5 tỷ đồng sau 3 tháng vận hành"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "sau 3 tháng vận hành"
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giúp doanh thu trung bình trên cửa hàng duy trì ở mức cao (~2 tỷ đồng)."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Công ty sẽ tập trung đẩy mạnh kênh online trong năm 2025, với kế hoạch tăng trưởng doanh thu 300%."
+    },
+    {
+        "text": "kế hoạch tăng trưởng doanh thu 300%",
+        "label": "EVENT",
+        "evidence": "Công ty sẽ tập trung đẩy mạnh kênh online trong năm 2025, với kế hoạch tăng trưởng doanh thu 300%."
+    },
+    {
+        "text": "300%",
+        "label": "RATE",
+        "evidence": "kế hoạch tăng trưởng doanh thu 300%."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG dự kiến tăng thêm danh mục sản phẩm hàng tiêu dùng nhanh (FMCG) cho kênh online"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, MWG đặt kế hoạch dài hạn doanh thu chuỗi Bách Hóa Xanh sẽ đạt 10 tỷ USD vào năm 2030"
+    },
+    {
+        "text": "đặt kế hoạch dài hạn doanh thu chuỗi Bách Hóa Xanh sẽ đạt 10 tỷ USD vào năm 2030",
+        "label": "EVENT",
+        "evidence": "MWG đặt kế hoạch dài hạn doanh thu chuỗi Bách Hóa Xanh sẽ đạt 10 tỷ USD vào năm 2030 (tương ứng tỷ lệ tăng trưởng kép hàng năm CAGR đạt 35% trong 6 năm tới)."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "doanh thu chuỗi Bách Hóa Xanh sẽ đạt 10 tỷ USD vào năm 2030"
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "sẽ đạt 10 tỷ USD vào năm 2030"
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "sẽ đạt 10 tỷ USD vào năm 2030"
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "tăng trưởng kép hàng năm CAGR đạt 35% trong 6 năm tới"
+    },
+    {
+        "text": "6 năm tới",
+        "label": "DATE",
+        "evidence": "35% trong 6 năm tới"
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Tuy nhiên,SSI Research đánh giá kế hoạch này khá tham vọng"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "chuỗi ﻿Erablue hiện đạt kết quả kinh doanh ấn tượng, với doanh thu tăng 50% so với cùng kỳ trong 2024 và lợi nhuận dương trong nửa cuối năm 2024"
+    },
+    {
+        "text": "đạt kết quả kinh doanh ấn tượng, với doanh thu tăng 50% so với cùng kỳ trong 2024 và lợi nhuận dương trong nửa cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "chuỗi ﻿Erablue hiện đạt kết quả kinh doanh ấn tượng, với doanh thu tăng 50% so với cùng kỳ trong 2024 và lợi nhuận dương trong nửa cuối năm 2024, nhờ tốc độ mở rộng mạng lưới nhanh chóng cùng với mô hình kinh doanh hiệu quả."
+    },
+    {
+        "text": "tăng 50%",
+        "label": "RATE",
+        "evidence": "doanh thu tăng 50% so với cùng kỳ trong 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "doanh thu tăng 50% so với cùng kỳ trong 2024"
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "lợi nhuận dương trong nửa cuối năm 2024"
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Tính đến cuối năm 2024, công ty có 87 cửa hàng Erablue"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "công ty có 87 cửa hàng Erablue (có 49 cửa hàng mở mới trong năm)."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Theo chia sẻ của Ban lãnh đạo MWG, Erablue đang có nhiều lợi thế"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo MWG, Erablue đang có nhiều lợi thế"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "các cửa hàng nhỏ lẻ hiện chiếm 80% thị trường"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Do đó, MWG sẽ tích cực nhân rộng chuỗi Erablue trong thời gian tới để giành thị phần."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "MWG sẽ tích cực nhân rộng chuỗi Erablue trong thời gian tới"
+    },
+    {
+        "text": "đặt kế hoạch mở rộng mạng lưới từ 87 cửa hàng hiện có lên 150 cửa hàng trước T12/2025 và 500 cửa hàng trước T12/2027",
+        "label": "EVENT",
+        "evidence": "Công ty đặt kế hoạch mở rộng mạng lưới từ 87 cửa hàng hiện có lên 150 cửa hàng trước T12/2025 và 500 cửa hàng trước T12/2027."
+    },
+    {
+        "text": "T12/2025",
+        "label": "DATE",
+        "evidence": "150 cửa hàng trước T12/2025 và 500 cửa hàng trước T12/2027"
+    },
+    {
+        "text": "T12/2027",
+        "label": "DATE",
+        "evidence": "500 cửa hàng trước T12/2027."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "Duy trì số lượng cửa hàng Thế giới di động và An Khang"
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Duy trì số lượng cửa hàng Thế giới di động và An Khang"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG ghi nhận tổng doanh thu quý 4/2024 đạt 22,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "ghi nhận tổng doanh thu quý 4/2024 đạt 22,9 nghìn tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MWG ghi nhận tổng doanh thu quý 4/2024 đạt 22,9 nghìn tỷ đồng (tăng 8% so với cùng kỳ và tăng 2% so với quý trước)."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "tổng doanh thu quý 4/2024 đạt 22,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "22,9 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 22,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "tăng 8%",
+        "label": "RATE",
+        "evidence": "tăng 8% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 2%",
+        "label": "RATE",
+        "evidence": "tăng 2% so với quý trước"
+    },
+    {
+        "text": "lợi nhuận trước thuế (LNTT) tăng đáng kể từ mức thấp, đạt 950 tỷ đồng trong Q4/2024 so với 635 tỷ đồng trong Q4/2023",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế (LNTT) tăng đáng kể từ mức thấp, đạt 950 tỷ đồng trong Q4/2024 so với 635 tỷ đồng trong Q4/2023."
+    },
+    {
+        "text": "950 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 950 tỷ đồng trong Q4/2024"
+    },
+    {
+        "text": "Q4/2024",
+        "label": "DATE",
+        "evidence": "950 tỷ đồng trong Q4/2024"
+    },
+    {
+        "text": "635 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "635 tỷ đồng trong Q4/2023"
+    },
+    {
+        "text": "Q4/2023",
+        "label": "DATE",
+        "evidence": "635 tỷ đồng trong Q4/2023"
+    },
+    {
+        "text": "giảm 16%",
+        "label": "RATE",
+        "evidence": "LNTT giảm 16% so với quý trước"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG cũng lưu ý rằng tác động tiêu cực kéo dài của bão Yagi đã ảnh hưởng đến tiêu dùng Q4/2024"
+    },
+    {
+        "text": "Q4/2024",
+        "label": "DATE",
+        "evidence": "ảnh hưởng đến tiêu dùng Q4/2024 tại khu vực miền Bắc"
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "9 tháng đầu năm 2024."
+    },
+    {
+        "text": "Q2/2024",
+        "label": "DATE",
+        "evidence": "Việc đóng cửa hàng chủ yếu diễn ra trong Q2/2024 và Q3/2024."
+    },
+    {
+        "text": "Q3/2024",
+        "label": "DATE",
+        "evidence": "Q2/2024 và Q3/2024."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "Thế giới di động đặt kế hoạch duy trì số lượng cửa hàng hiện tại trong thời gian tới."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG vẫn đạt tăng trưởng doanh thu khả quan"
+    },
+    {
+        "text": "tháng 1-2/2025",
+        "label": "DATE",
+        "evidence": "doanh thu tháng 1-2/2025 tăng 10% svck"
+    },
+    {
+        "text": "tăng 10%",
+        "label": "RATE",
+        "evidence": "tháng 1-2/2025 tăng 10% svck"
+    },
+    {
+        "text": "50-60%",
+        "label": "RATE",
+        "evidence": "thị phần đáng kể đối với mảng sản phẩm công nghệ & điện máy (khoảng 50-60%)."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "từ mức 25% hiện tại"
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Tại chuỗi cửa hàng An Khang, MWG đã đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "An Khang, MWG đã đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024."
+    },
+    {
+        "text": "đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024",
+        "label": "EVENT",
+        "evidence": "MWG đã đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "đóng khoảng 200 cửa hàng có kết quả kinh doanh kém trong quý 2/2024 và quý 3/2024."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Mặc dù giảm mạng lưới cửa hàng xuống 40%, doanh thu nhà thuốc An Khang vẫn tăng 5% svck vào năm 2024"
+    },
+    {
+        "text": "doanh thu nhà thuốc An Khang vẫn tăng 5% svck vào năm 2024",
+        "label": "EVENT",
+        "evidence": "doanh thu nhà thuốc An Khang vẫn tăng 5% svck vào năm 2024, khi các cửa hàng còn lại thu hút được thêm khách hàng mới nhờ danh mục sản phẩm phù hợp hơn."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "doanh thu nhà thuốc An Khang vẫn tăng 5% svck vào năm 2024"
+    },
+    {
+        "text": "tăng 5%",
+        "label": "RATE",
+        "evidence": "An Khang vẫn tăng 5% svck vào năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "tăng 5% svck vào năm 2024"
+    },
+    {
+        "text": "giảm mức lỗ xuống 26 tỷ đồng trong quý 4/2024",
+        "label": "EVENT",
+        "evidence": "chuỗi nhà thuốc này đã giảm mức lỗ xuống 26 tỷ đồng trong quý 4/2024 (so với khoản lỗ 109 tỷ đồng trong quý 4/2023 và 148 tỷ đồng trong quý 3/2024) và gần đạt điểm hòa vốn."
+    },
+    {
+        "text": "26 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm mức lỗ xuống 26 tỷ đồng trong quý 4/2024"
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "26 tỷ đồng trong quý 4/2024"
+    },
+    {
+        "text": "109 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoản lỗ 109 tỷ đồng trong quý 4/2023"
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "109 tỷ đồng trong quý 4/2023"
+    },
+    {
+        "text": "148 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "148 tỷ đồng trong quý 3/2024"
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "148 tỷ đồng trong quý 3/2024"
+    },
+    {
+        "text": "đặt kế hoạch đưa An Khang đạt điểm hòa vốn vào quý 2/2025",
+        "label": "EVENT",
+        "evidence": "ban lãnh đạo đặt kế hoạch đưa An Khang đạt điểm hòa vốn vào quý 2/2025."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "kế hoạch đưa An Khang đạt điểm hòa vốn vào quý 2/2025."
+    },
+    {
+        "text": "quý 2/2025",
+        "label": "DATE",
+        "evidence": "đạt điểm hòa vốn vào quý 2/2025."
+    },
+    {
+        "text": "quý 2/2025",
+        "label": "DATE",
+        "evidence": "lợi nhuận trong quý 2/2025."
+    },
+    {
+        "text": "dự kiến mua lại cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "công ty dự kiến mua lại cổ phiếu quỹ sau Đại hội cổ đông"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG dự kiến duy trì chính sách cổ tức tiền mặt hiện tại là 5% trên mệnh giá"
+    },
+    {
+        "text": "duy trì chính sách cổ tức tiền mặt hiện tại là 5% trên mệnh giá",
+        "label": "EVENT",
+        "evidence": "MWG dự kiến duy trì chính sách cổ tức tiền mặt hiện tại là 5% trên mệnh giá và không có kế hoạch trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "duy trì chính sách cổ tức tiền mặt hiện tại là 5% trên mệnh giá"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "cổ tức tiền mặt hiện tại là 5% trên mệnh giá"
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "không có kế hoạch trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "Cập nhật mới nhất từ ông Đoàn Văn Hiểu Em, Thành viên HĐQT"
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "riêng trong tháng 1/2025, ba chuỗi Thegioididong.com (bao gồm Topzone) và Điện Máy Xanh đã đạt doanh thu thuần hơn 10.000 tỷ đồng"
+    },
+    {
+        "text": "Thegioididong.com",
+        "label": "ORG",
+        "evidence": "ba chuỗi Thegioididong.com (bao gồm Topzone) và Điện Máy Xanh đã đạt doanh thu thuần hơn 10.000 tỷ đồng"
+    },
+    {
+        "text": "Topzone",
+        "label": "ORG",
+        "evidence": "Thegioididong.com (bao gồm Topzone) và Điện Máy Xanh đã đạt doanh thu thuần hơn 10.000 tỷ đồng"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Thegioididong.com (bao gồm Topzone) và Điện Máy Xanh đã đạt doanh thu thuần hơn 10.000 tỷ đồng"
+    },
+    {
+        "text": "đạt doanh thu thuần hơn 10.000 tỷ đồng, tăng 32% so cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "ba chuỗi Thegioididong.com (bao gồm Topzone) và Điện Máy Xanh đã đạt doanh thu thuần hơn 10.000 tỷ đồng, tăng 32% so cùng kỳ năm trước."
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt doanh thu thuần hơn 10.000 tỷ đồng"
+    },
+    {
+        "text": "tăng 32%",
+        "label": "RATE",
+        "evidence": "tăng 32% so cùng kỳ năm trước"
+    }
+]

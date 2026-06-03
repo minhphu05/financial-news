@@ -1,0 +1,797 @@
+[
+    {
+        "text": "15/3",
+        "label": "DATE",
+        "evidence": "từ 15/3, VIB chính thức áp dụng tính năng và diện mạo mới cho bộ thẻ tín dụng Mastercard"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "từ 15/3, VIB chính thức áp dụng tính năng và diện mạo mới cho bộ thẻ tín dụng Mastercard"
+    },
+    {
+        "text": "VIB chính thức áp dụng tính năng và diện mạo mới cho bộ thẻ tín dụng Mastercard",
+        "label": "EVENT",
+        "evidence": "từ 15/3, VIB chính thức áp dụng tính năng và diện mạo mới cho bộ thẻ tín dụng Mastercard"
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "từ 15/3, VIB chính thức áp dụng tính năng và diện mạo mới cho bộ thẻ tín dụng Mastercard"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đồng thời, VIB thực hiện quy hoạch lại bộ sản phẩm thẻ và thay đổi tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "bộ sản phẩm thẻ",
+        "label": "ASSET",
+        "evidence": "VIB thực hiện quy hoạch lại bộ sản phẩm thẻ và thay đổi tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "thay đổi tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless",
+        "label": "EVENT",
+        "evidence": "thay đổi tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless để phục vụ đa dạng các nhu cầu thiết thực của khách hàng."
+    },
+    {
+        "text": "Cash Back",
+        "label": "ASSET",
+        "evidence": "tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "Rewards Unlimited",
+        "label": "ASSET",
+        "evidence": "tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "Travel Élite",
+        "label": "ASSET",
+        "evidence": "tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "Premier Boundless",
+        "label": "ASSET",
+        "evidence": "tính năng trọng yếu của các dòng thẻ Cash Back, Rewards Unlimited, Travel Élite và Premier Boundless"
+    },
+    {
+        "text": "bà Tường Nguyễn",
+        "label": "PERSON",
+        "evidence": "Chia sẻ về hoạt động lần này, bà Tường Nguyễn – Giám đốc Trung tâm Chiến lược và Vận hành thẻ VIB cho biết"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Giám đốc Trung tâm Chiến lược và Vận hành thẻ VIB cho biết"
+    },
+    {
+        "text": "thị trường thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Tham gia thị trường thẻ tín dụng từ năm 2019"
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "thẻ tín dụng từ năm 2019"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chỉ sau 3 năm, VIB đã chiếm hơn 33% tổng chi tiêu thẻ Mastercard tại Việt Nam"
+    },
+    {
+        "text": "3 năm",
+        "label": "DATE",
+        "evidence": "chỉ sau 3 năm, VIB đã chiếm hơn 33% tổng chi tiêu thẻ Mastercard tại Việt Nam"
+    },
+    {
+        "text": "hơn 33%",
+        "label": "RATE",
+        "evidence": "VIB đã chiếm hơn 33% tổng chi tiêu thẻ Mastercard tại Việt Nam"
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "tổng chi tiêu thẻ Mastercard tại Việt Nam"
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "trung bình của thẻ Mastercard trên tất cả tiêu chí số lượng và chất lượng."
+    },
+    {
+        "text": "bộ thẻ tín dụng Mastercard",
+        "label": "ASSET",
+        "evidence": "Ở lần làm mới bộ thẻ tín dụng Mastercard này"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB lựa chọn thiết kế mới cho thẻ theo hướng tối giản, hiện đại với bề mặt không hoa văn."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "vốn được VIB lựa chọn nhằm mang lại những tấm thẻ sang trọng và bền bỉ hơn cho người dùng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "thẻ được VIB nhúng công nghệ thực tế ảo (VR) và thực tế ảo tăng cường (AR) vào mã QR ở mặt sau."
+    },
+    {
+        "text": "VIB nhúng công nghệ thực tế ảo (VR) và thực tế ảo tăng cường (AR) vào mã QR ở mặt sau",
+        "label": "EVENT",
+        "evidence": "thẻ được VIB nhúng công nghệ thực tế ảo (VR) và thực tế ảo tăng cường (AR) vào mã QR ở mặt sau."
+    },
+    {
+        "text": "công nghệ \"thẻ biết nói\"",
+        "label": "EVENT",
+        "evidence": "VIB đã tiên phong trong việc giới thiệu công nghệ \"thẻ biết nói\" đến người dùng Việt"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB đã tiên phong trong việc giới thiệu công nghệ \"thẻ biết nói\" đến người dùng Việt"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB có nhu cầu đổi sang thẻ với thiết kế mới sẽ được miễn phí thay đổi thẻ từ 15/3 đến hết 30/4/2023."
+    },
+    {
+        "text": "miễn phí thay đổi thẻ",
+        "label": "EVENT",
+        "evidence": "sẽ được miễn phí thay đổi thẻ từ 15/3 đến hết 30/4/2023."
+    },
+    {
+        "text": "15/3 đến hết 30/4/2023",
+        "label": "DATE",
+        "evidence": "từ 15/3 đến hết 30/4/2023."
+    },
+    {
+        "text": "Từ ngày 15/3",
+        "label": "DATE",
+        "evidence": "Từ ngày 15/3, chủ thẻVIB Rewards Unlimitedđược nhận 10 điểm thưởng cho mỗi 1.000 đồng chi tiêu tại POS các trung tâm mua sắm, cửa hàng miễn thuế và 5 điểm thưởng cho chi tiêu tại POS các siêu thị."
+    },
+    {
+        "text": "VIB Rewards Unlimited",
+        "label": "ASSET",
+        "evidence": "chủ thẻVIB Rewards Unlimitedđược nhận 10 điểm thưởng cho mỗi 1.000 đồng chi tiêu tại POS các trung tâm mua sắm, cửa hàng miễn thuế và 5 điểm thưởng cho chi tiêu tại POS các siêu thị."
+    },
+    {
+        "text": "10 điểm thưởng",
+        "label": "RATE",
+        "evidence": "nhận 10 điểm thưởng cho mỗi 1.000 đồng chi tiêu tại POS các trung tâm mua sắm"
+    },
+    {
+        "text": "1.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 1.000 đồng chi tiêu tại POS các trung tâm mua sắm"
+    },
+    {
+        "text": "5 điểm thưởng",
+        "label": "RATE",
+        "evidence": "và 5 điểm thưởng cho chi tiêu tại POS các siêu thị."
+    },
+    {
+        "text": "gấp đôi",
+        "label": "RATE",
+        "evidence": "Điểm thưởng này gấp đôi so với mức tích lũy chi tiêu tại trung tâm mua sắm và siêu thị trước đây."
+    },
+    {
+        "text": "5.000 điểm",
+        "label": "RATE",
+        "evidence": "nếu trước đây chủ thẻ được nhận thêm 5.000 điểm cho mỗi 10 triệu đồng chi tiêu trong kỳ sao kê"
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 10 triệu đồng chi tiêu trong kỳ sao kê"
+    },
+    {
+        "text": "từ 15/3",
+        "label": "DATE",
+        "evidence": "thì từ 15/3, chỉ cần chi tiêu từ 10 triệu đồng, toàn bộ điểm thưởng sẽ được nhân đôi."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chỉ cần chi tiêu từ 10 triệu đồng, toàn bộ điểm thưởng sẽ được nhân đôi."
+    },
+    {
+        "text": "nhân đôi",
+        "label": "RATE",
+        "evidence": "toàn bộ điểm thưởng sẽ được nhân đôi."
+    },
+    {
+        "text": "VIB Rewards Unlimited",
+        "label": "ASSET",
+        "evidence": "mua sắm thực tế của chủ thẻ VIB Rewards Unlimited."
+    },
+    {
+        "text": "Tăng mức hoàn tiền của thẻ VIB Cash Back lên đến 24 triệu đồng /năm",
+        "label": "EVENT",
+        "evidence": "Tăng mức hoàn tiền của thẻ VIB Cash Back lên đến 24 triệu đồng /năm"
+    },
+    {
+        "text": "VIB Cash Back",
+        "label": "ASSET",
+        "evidence": "Chủ thẻVIB Cash Backcó 2 lựa chọn hoàn tiền"
+    },
+    {
+        "text": "0,1%",
+        "label": "RATE",
+        "evidence": "hoàn 0,1% không giới hạn trên toàn bộ chi tiêu hợp lệ"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "hoặc hoàn đến 10% theo nhóm danh mục chi tiêu."
+    },
+    {
+        "text": "800.000 đồng /tháng",
+        "label": "MONEY",
+        "evidence": "mức hoàn tiền theo nhóm danh mục chi tiêu tối đa là 800.000 đồng /tháng"
+    },
+    {
+        "text": "15/3/2023",
+        "label": "DATE",
+        "evidence": "từ 15/3/2023, mức này là 2 triệu đồng/tháng"
+    },
+    {
+        "text": "2 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "mức này là 2 triệu đồng/tháng, tương đương 24 triệu đồng/năm."
+    },
+    {
+        "text": "24 triệu đồng/năm",
+        "label": "MONEY",
+        "evidence": "tương đương 24 triệu đồng/năm."
+    },
+    {
+        "text": "từ 15/3",
+        "label": "DATE",
+        "evidence": "Ngoài ra, từ 15/3, khi lưu thông tin thẻ trên các website/ứng dụng mua sắm trực tuyến"
+    },
+    {
+        "text": "VIB Cash Back",
+        "label": "ASSET",
+        "evidence": "chủ thẻ VIB Cash Back được hoàn ngay 300.000 đồng"
+    },
+    {
+        "text": "hoàn ngay 300.000 đồng",
+        "label": "EVENT",
+        "evidence": "chủ thẻ VIB Cash Back được hoàn ngay 300.000 đồng, tối đa 100.000 đồng/kỳ sao kê cho 3 kỳ sao kê đầu tiên."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn ngay 300.000 đồng"
+    },
+    {
+        "text": "100.000 đồng/kỳ sao kê",
+        "label": "MONEY",
+        "evidence": "tối đa 100.000 đồng/kỳ sao kê cho 3 kỳ sao kê đầu tiên."
+    },
+    {
+        "text": "0% phí giao dịch ngoại tệ với thẻVIBTravelÉlite",
+        "label": "EVENT",
+        "evidence": "0% phí giao dịch ngoại tệ với thẻVIBTravelÉlite"
+    },
+    {
+        "text": "VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "với thẻVIBTravelÉlite"
+    },
+    {
+        "text": "VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "VIB Travel Élitevượt trội trên thị trường về phí giao dịch ngoại tệ"
+    },
+    {
+        "text": "1,75%",
+        "label": "RATE",
+        "evidence": "chỉ 1,75% so với mức 3-4% thường thấy."
+    },
+    {
+        "text": "3-4%",
+        "label": "RATE",
+        "evidence": "so với mức 3-4% thường thấy."
+    },
+    {
+        "text": "Từ ngày 15/3",
+        "label": "DATE",
+        "evidence": "Từ ngày 15/3, mức phí này còn tốt hơn nữa."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB áp dụng mức phí 0% cho 3 kỳ sao kê đầu từ ngày phát hành thẻ lần đầu và chỉ 1% cho các kỳ tiếp theo."
+    },
+    {
+        "text": "VIB áp dụng mức phí 0% cho 3 kỳ sao kê đầu từ ngày phát hành thẻ lần đầu và chỉ 1% cho các kỳ tiếp theo",
+        "label": "EVENT",
+        "evidence": "VIB áp dụng mức phí 0% cho 3 kỳ sao kê đầu từ ngày phát hành thẻ lần đầu và chỉ 1% cho các kỳ tiếp theo."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "mức phí 0% cho 3 kỳ sao kê đầu từ ngày phát hành thẻ lần đầu"
+    },
+    {
+        "text": "3 kỳ sao kê đầu",
+        "label": "DATE",
+        "evidence": "cho 3 kỳ sao kê đầu từ ngày phát hành thẻ lần đầu"
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "và chỉ 1% cho các kỳ tiếp theo."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB còn nâng mức tích dặm thưởng của thẻ Travel Élite từ 1 dặm cho mỗi 20.000 đồng lên 3 dặm cho mỗi 25.000 đồng chi tiêu tại POS ở nước ngoài."
+    },
+    {
+        "text": "VIB còn nâng mức tích dặm thưởng của thẻ Travel Élite từ 1 dặm cho mỗi 20.000 đồng lên 3 dặm cho mỗi 25.000 đồng chi tiêu tại POS ở nước ngoài",
+        "label": "EVENT",
+        "evidence": "VIB còn nâng mức tích dặm thưởng của thẻ Travel Élite từ 1 dặm cho mỗi 20.000 đồng lên 3 dặm cho mỗi 25.000 đồng chi tiêu tại POS ở nước ngoài."
+    },
+    {
+        "text": "Travel Élite",
+        "label": "ASSET",
+        "evidence": "nâng mức tích dặm thưởng của thẻ Travel Élite từ 1 dặm cho mỗi 20.000 đồng lên 3 dặm cho mỗi 25.000 đồng chi tiêu tại POS ở nước ngoài."
+    },
+    {
+        "text": "1 dặm cho mỗi 20.000 đồng",
+        "label": "RATE",
+        "evidence": "từ 1 dặm cho mỗi 20.000 đồng"
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 20.000 đồng"
+    },
+    {
+        "text": "3 dặm cho mỗi 25.000 đồng",
+        "label": "RATE",
+        "evidence": "lên 3 dặm cho mỗi 25.000 đồng chi tiêu tại POS ở nước ngoài."
+    },
+    {
+        "text": "25.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 25.000 đồng"
+    },
+    {
+        "text": "1 dặm thưởng",
+        "label": "RATE",
+        "evidence": "mức tích là 1 dặm thưởng."
+    },
+    {
+        "text": "VIB không tiếp tục áp dụng mức tích 5 dặm thưởng cho chi tiêu thanh toán phí bảo hiểm Prudential qua Ngân hàng điện tử hoặc ứng dụng MyVIB; và 1.000 dặm thưởng tặng thêm cho mỗi 100 triệu đồng chi tiêu",
+        "label": "EVENT",
+        "evidence": "VIB không tiếp tục áp dụng mức tích 5 dặm thưởng cho chi tiêu thanh toán phí bảo hiểm Prudential qua Ngân hàng điện tử hoặc ứng dụng MyVIB; và 1.000 dặm thưởng tặng thêm cho mỗi 100 triệu đồng chi tiêu."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB không tiếp tục áp dụng mức tích 5 dặm thưởng cho chi tiêu thanh toán phí bảo hiểm Prudential qua Ngân hàng điện tử hoặc ứng dụng MyVIB"
+    },
+    {
+        "text": "5 dặm thưởng",
+        "label": "RATE",
+        "evidence": "mức tích 5 dặm thưởng cho chi tiêu thanh toán phí bảo hiểm Prudential"
+    },
+    {
+        "text": "Prudential",
+        "label": "ORG",
+        "evidence": "phí bảo hiểm Prudential qua Ngân hàng điện tử hoặc ứng dụng MyVIB"
+    },
+    {
+        "text": "1.000 dặm thưởng",
+        "label": "RATE",
+        "evidence": "và 1.000 dặm thưởng tặng thêm cho mỗi 100 triệu đồng chi tiêu."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 100 triệu đồng chi tiêu."
+    },
+    {
+        "text": "Travel Elite",
+        "label": "ASSET",
+        "evidence": "chủ thẻ Travel Elite được miễn phí 2 lần/năm không điều kiện hoặc tiếp tục ở mức 4 lần/năm khi có chi tiêu tại nước ngoài từ 60 triệu đồng/năm."
+    },
+    {
+        "text": "chủ thẻ Travel Elite được miễn phí 2 lần/năm không điều kiện hoặc tiếp tục ở mức 4 lần/năm khi có chi tiêu tại nước ngoài từ 60 triệu đồng/năm",
+        "label": "EVENT",
+        "evidence": "chủ thẻ Travel Elite được miễn phí 2 lần/năm không điều kiện hoặc tiếp tục ở mức 4 lần/năm khi có chi tiêu tại nước ngoài từ 60 triệu đồng/năm."
+    },
+    {
+        "text": "2 lần/năm",
+        "label": "RATE",
+        "evidence": "được miễn phí 2 lần/năm không điều kiện"
+    },
+    {
+        "text": "4 lần/năm",
+        "label": "RATE",
+        "evidence": "hoặc tiếp tục ở mức 4 lần/năm"
+    },
+    {
+        "text": "60 triệu đồng/năm",
+        "label": "MONEY",
+        "evidence": "chi tiêu tại nước ngoài từ 60 triệu đồng/năm."
+    },
+    {
+        "text": "Tặngđến 7.000 dặmBông Sen Vàngkhichi tiêu từ 5 triệu đồng với thẻVIBPremier Boundlessmởmới",
+        "label": "EVENT",
+        "evidence": "Tặngđến 7.000 dặmBông Sen Vàngkhichi tiêu từ 5 triệu đồng với thẻVIBPremier Boundlessmởmới"
+    },
+    {
+        "text": "7.000 dặm Bông Sen Vàng",
+        "label": "RATE",
+        "evidence": "Tặngđến 7.000 dặmBông Sen Vàngkhichi tiêu từ 5 triệu đồng với thẻVIBPremier Boundlessmởmới"
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chi tiêu từ 5 triệu đồng với thẻVIBPremier Boundlessmởmới"
+    },
+    {
+        "text": "VIB Premier Boundless",
+        "label": "ASSET",
+        "evidence": "với thẻVIBPremier Boundlessmởmới"
+    },
+    {
+        "text": "15/3",
+        "label": "DATE",
+        "evidence": "Từ 15/3, VIB áp dụng chương trình tặng 4.000 dặm Bông Sen Vàng cho chủ thẻ VIB Premier Boundless mới khi chi tiêu từ 5 triệu đồng tại Vietnam Airlines trong vòng 30 ngày từ ngày phát hành thẻ và tặng thêm 3.000 dặm Bông Sen Vàng nếu thẻ được mở thành công từ nay đến hết 30/04/2023."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Từ 15/3, VIB áp dụng chương trình tặng 4.000 dặm Bông Sen Vàng cho chủ thẻ VIB Premier Boundless mới khi chi tiêu từ 5 triệu đồng tại Vietnam Airlines trong vòng 30 ngày từ ngày phát hành thẻ và tặng thêm 3.000 dặm Bông Sen Vàng nếu thẻ được mở thành công từ nay đến hết 30/04/2023."
+    },
+    {
+        "text": "VIB áp dụng chương trình tặng 4.000 dặm Bông Sen Vàng cho chủ thẻ VIB Premier Boundless mới khi chi tiêu từ 5 triệu đồng tại Vietnam Airlines trong vòng 30 ngày từ ngày phát hành thẻ và tặng thêm 3.000 dặm Bông Sen Vàng nếu thẻ được mở thành công từ nay đến hết 30/04/2023",
+        "label": "EVENT",
+        "evidence": "Từ 15/3, VIB áp dụng chương trình tặng 4.000 dặm Bông Sen Vàng cho chủ thẻ VIB Premier Boundless mới khi chi tiêu từ 5 triệu đồng tại Vietnam Airlines trong vòng 30 ngày từ ngày phát hành thẻ và tặng thêm 3.000 dặm Bông Sen Vàng nếu thẻ được mở thành công từ nay đến hết 30/04/2023."
+    },
+    {
+        "text": "4.000 dặm Bông Sen Vàng",
+        "label": "RATE",
+        "evidence": "chương trình tặng 4.000 dặm Bông Sen Vàng cho chủ thẻ VIB Premier Boundless mới"
+    },
+    {
+        "text": "VIB Premier Boundless",
+        "label": "ASSET",
+        "evidence": "chủ thẻ VIB Premier Boundless mới khi chi tiêu từ 5 triệu đồng tại Vietnam Airlines"
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chi tiêu từ 5 triệu đồng tại Vietnam Airlines"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "chi tiêu từ 5 triệu đồng tại Vietnam Airlines trong vòng 30 ngày từ ngày phát hành thẻ"
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "trong vòng 30 ngày từ ngày phát hành thẻ"
+    },
+    {
+        "text": "3.000 dặm Bông Sen Vàng",
+        "label": "RATE",
+        "evidence": "tặng thêm 3.000 dặm Bông Sen Vàng nếu thẻ được mở thành công từ nay đến hết 30/04/2023."
+    },
+    {
+        "text": "30/04/2023",
+        "label": "DATE",
+        "evidence": "từ nay đến hết 30/04/2023."
+    },
+    {
+        "text": "7.000 dặm thưởng",
+        "label": "RATE",
+        "evidence": "Ưu đãi tặng đến 7.000 dặm thưởng này giúp chủ thẻ đổi ngay được 1 vé máy bay hành trình 1 chiều nội địa tại Vietnam Airlines."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "1 vé máy bay hành trình 1 chiều nội địa tại Vietnam Airlines."
+    },
+    {
+        "text": "60 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chi tiêu tại nước ngoài năm trước đó đạt từ 60 triệu đồng"
+    },
+    {
+        "text": "4 lần/năm",
+        "label": "RATE",
+        "evidence": "được miễn phí sử dụng 4 lần/năm không điều kiện."
+    },
+    {
+        "text": "Ưu đãi tự động nâng hạng thẻ Titan của Chương trình Bông Sen Vàng - Vietnam Airlines tiếp tục được áp dụng cho năm đầu tiên kể từ ngày phát hành thẻ chỉ với 1 giao dịch chi tiêu hợp lệ",
+        "label": "EVENT",
+        "evidence": "Ưu đãi tự động nâng hạng thẻ Titan của Chương trình Bông Sen Vàng - Vietnam Airlines tiếp tục được áp dụng cho năm đầu tiên kể từ ngày phát hành thẻ chỉ với 1 giao dịch chi tiêu hợp lệ."
+    },
+    {
+        "text": "Chương trình Bông Sen Vàng - Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "của Chương trình Bông Sen Vàng - Vietnam Airlines tiếp tục được áp dụng cho năm đầu tiên"
+    },
+    {
+        "text": "năm đầu tiên",
+        "label": "DATE",
+        "evidence": "áp dụng cho năm đầu tiên kể từ ngày phát hành thẻ"
+    },
+    {
+        "text": "Các năm tiếp theo, chủ thẻ được tự động nâng không chỉ hạng thẻ Titan mà cả Gold và Platinum với mức chi tiêu năm trước đó đạt lần lượt từ 360 triệu, 1,5 tỷ và 3 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Các năm tiếp theo, chủ thẻ được tự động nâng không chỉ hạng thẻ Titan mà cả Gold và Platinum với mức chi tiêu năm trước đó đạt lần lượt từ 360 triệu, 1,5 tỷ và 3 tỷ đồng."
+    },
+    {
+        "text": "360 triệu",
+        "label": "MONEY",
+        "evidence": "lần lượt từ 360 triệu, 1,5 tỷ và 3 tỷ đồng."
+    },
+    {
+        "text": "1,5 tỷ",
+        "label": "MONEY",
+        "evidence": "lần lượt từ 360 triệu, 1,5 tỷ và 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt từ 360 triệu, 1,5 tỷ và 3 tỷ đồng."
+    },
+    {
+        "text": "2 dặm Bông Sen Vàng cho mỗi 20.000 đồng",
+        "label": "RATE",
+        "evidence": "thẻ vẫn tự động tích 2 dặm Bông Sen Vàng cho mỗi 20.000 đồng chi tiêu tại Vietnam Airlines"
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 20.000 đồng chi tiêu tại Vietnam Airlines"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "chi tiêu tại Vietnam Airlines"
+    },
+    {
+        "text": "1,5 dặm Bông Sen Vàng cho mỗi 25.000 đồng",
+        "label": "RATE",
+        "evidence": "hoặc 1,5 dặm Bông Sen Vàng cho mỗi 25.000 đồng chi tiêu tại nước ngoài"
+    },
+    {
+        "text": "25.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 25.000 đồng chi tiêu tại nước ngoài"
+    },
+    {
+        "text": "1 dặm cho mỗi 30.000 đồng",
+        "label": "RATE",
+        "evidence": "và tích 1 dặm cho mỗi 30.000 đồng chi tiêu trong nước."
+    },
+    {
+        "text": "30.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho mỗi 30.000 đồng chi tiêu trong nước."
+    },
+    {
+        "text": "Các ưu đãi miễn phí giao dịch ngoại tệ 3 kỳ sao kê đầu tiên, miễn phí thường niên năm tiếp theo với chi tiêu bình quân từ 30 triệu đồng/tháng trong năm liền trước, và tỷ giá ngoại tệ theo tỷ giá sàn được công bố bởi Ngân hàng nhà nước không tiếp tục áp dụng",
+        "label": "EVENT",
+        "evidence": "Các ưu đãi miễn phí giao dịch ngoại tệ 3 kỳ sao kê đầu tiên, miễn phí thường niên năm tiếp theo với chi tiêu bình quân từ 30 triệu đồng/tháng trong năm liền trước, và tỷ giá ngoại tệ theo tỷ giá sàn được công bố bởi Ngân hàng nhà nước không tiếp tục áp dụng."
+    },
+    {
+        "text": "3 kỳ sao kê đầu tiên",
+        "label": "DATE",
+        "evidence": "miễn phí giao dịch ngoại tệ 3 kỳ sao kê đầu tiên"
+    },
+    {
+        "text": "30 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "chi tiêu bình quân từ 30 triệu đồng/tháng trong năm liền trước"
+    },
+    {
+        "text": "năm liền trước",
+        "label": "DATE",
+        "evidence": "30 triệu đồng/tháng trong năm liền trước"
+    },
+    {
+        "text": "Ngân hàng nhà nước",
+        "label": "ORG",
+        "evidence": "tỷ giá sàn được công bố bởi Ngân hàng nhà nước không tiếp tục áp dụng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Thay vào đó, VIB triển khai ưu đãi theo các chương trình khuyến mãi từng thời kỳ."
+    },
+    {
+        "text": "từng thời kỳ",
+        "label": "DATE",
+        "evidence": "ưu đãi theo các chương trình khuyến mãi từng thời kỳ."
+    },
+    {
+        "text": "chương trình miễn phí thường niên năm tiếp theo nếu chi tiêu năm trước đó đạt trung bình 40 triệu đồng/tháng",
+        "label": "EVENT",
+        "evidence": "Ví dụ như chương trình miễn phí thường niên năm tiếp theo nếu chi tiêu năm trước đó đạt trung bình 40 triệu đồng/tháng hoặc các ưu đãi khác tham khảo tại website VIB."
+    },
+    {
+        "text": "năm trước đó",
+        "label": "DATE",
+        "evidence": "chi tiêu năm trước đó đạt trung bình 40 triệu đồng/tháng"
+    },
+    {
+        "text": "40 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "đạt trung bình 40 triệu đồng/tháng"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "tham khảo tại website VIB."
+    },
+    {
+        "text": "Miễn phí nâng cấp thẻ",
+        "label": "EVENT",
+        "evidence": "Miễn phí nâng cấp thẻ, phí thường niên không đổi với các dòng thẻ VIB Zero Interest Rate và VIB Happy Drive"
+    },
+    {
+        "text": "phí thường niên không đổi với các dòng thẻ VIB Zero Interest Rate và VIB Happy Drive",
+        "label": "EVENT",
+        "evidence": "phí thường niên không đổi với các dòng thẻ VIB Zero Interest Rate và VIB Happy Drive"
+    },
+    {
+        "text": "VIB Zero Interest Rate",
+        "label": "ASSET",
+        "evidence": "các dòng thẻ VIB Zero Interest Rate và VIB Happy Drive"
+    },
+    {
+        "text": "VIB Happy Drive",
+        "label": "ASSET",
+        "evidence": "VIB Zero Interest Rate và VIB Happy Drive"
+    },
+    {
+        "text": "15/3",
+        "label": "DATE",
+        "evidence": "Từ 15/3, VIB ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Từ 15/3, VIB ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive."
+    },
+    {
+        "text": "VIB ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive",
+        "label": "EVENT",
+        "evidence": "Từ 15/3, VIB ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive."
+    },
+    {
+        "text": "Zero Interest Rate",
+        "label": "ASSET",
+        "evidence": "ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive."
+    },
+    {
+        "text": "Happy Drive",
+        "label": "ASSET",
+        "evidence": "ngưng phát hành mới thẻ Zero Interest Rate và Happy Drive."
+    },
+    {
+        "text": "Các thẻ Zero Interest Rate và Happy Drive đang hoạt động sẽ tự động chuyển đổi tính năng và biểu phí đồng nhất với thẻ Cash Back từ ngày này cho đến khi hết thời hạn sử dụng thẻ",
+        "label": "EVENT",
+        "evidence": "Các thẻ Zero Interest Rate và Happy Drive đang hoạt động sẽ tự động chuyển đổi tính năng và biểu phí đồng nhất với thẻ Cash Back từ ngày này cho đến khi hết thời hạn sử dụng thẻ."
+    },
+    {
+        "text": "Zero Interest Rate",
+        "label": "ASSET",
+        "evidence": "Các thẻ Zero Interest Rate và Happy Drive đang hoạt động"
+    },
+    {
+        "text": "Happy Drive",
+        "label": "ASSET",
+        "evidence": "Các thẻ Zero Interest Rate và Happy Drive đang hoạt động"
+    },
+    {
+        "text": "Cash Back",
+        "label": "ASSET",
+        "evidence": "đồng nhất với thẻ Cash Back từ ngày này cho đến khi hết thời hạn sử dụng thẻ."
+    },
+    {
+        "text": "Travel Élite",
+        "label": "ASSET",
+        "evidence": "sử dụng dòng thẻ khác như Travel Élite và Premier Boundless được hỗ trợ miễn phí từ nay đến 30/4/2023."
+    },
+    {
+        "text": "Premier Boundless",
+        "label": "ASSET",
+        "evidence": "như Travel Élite và Premier Boundless được hỗ trợ miễn phí từ nay đến 30/4/2023."
+    },
+    {
+        "text": "hỗ trợ miễn phí từ nay đến 30/4/2023",
+        "label": "EVENT",
+        "evidence": "được hỗ trợ miễn phí từ nay đến 30/4/2023."
+    },
+    {
+        "text": "từ nay đến 30/4/2023",
+        "label": "DATE",
+        "evidence": "hỗ trợ miễn phí từ nay đến 30/4/2023."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB liên tục triển khai các ưu đãi hấp dẫn như miễn phí thường niên năm đầu"
+    },
+    {
+        "text": "dòng thẻ tín dụng Mastercard",
+        "label": "ASSET",
+        "evidence": "cập nhật tính năng dành cho các dòng thẻ tín dụng Mastercard hiện hữu"
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "dành cho các dòng thẻ tín dụng Mastercard hiện hữu"
+    },
+    {
+        "text": "miễn phí thường niên năm đầu",
+        "label": "EVENT",
+        "evidence": "ưu đãi hấp dẫn như miễn phí thường niên năm đầu"
+    },
+    {
+        "text": "miễn phí thường niên trọn đời",
+        "label": "EVENT",
+        "evidence": "miễn phí thường niên trọn đời dành cho khách hàng mở mới"
+    },
+    {
+        "text": "miễn phí thường niên năm tiếp theo",
+        "label": "EVENT",
+        "evidence": "hoặc các ưu đãi miễn phí thường niên năm tiếp theo"
+    },
+    {
+        "text": "Ngày Hội chi tiêu vào ngày 20 hàng tháng",
+        "label": "EVENT",
+        "evidence": "Ngày Hội chi tiêu vào ngày 20 hàng tháng"
+    },
+    {
+        "text": "Ngày 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "Ngày Hội chi tiêu vào ngày 20 hàng tháng"
+    },
+    {
+        "text": "Miễn 100% phí giao dịch ngoại tệ",
+        "label": "EVENT",
+        "evidence": "Miễn 100% phí giao dịch ngoại tệ"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Miễn 100% phí giao dịch ngoại tệ"
+    },
+    {
+        "text": "Mở khóa đặc quyền 3.0",
+        "label": "EVENT",
+        "evidence": "Mở khóa đặc quyền 3.0"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB cam kết sẽ ngày càng hoàn thiện, nâng cấp hơn nữa sản phẩm và chất lượng dịch vụ"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "vị thế \"Ngân hàng dẫn đầu xu thế thẻ\" đã được VIB kiên định xây dựng trong suốt hành trình 5 năm qua."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "trong suốt hành trình 5 năm qua."
+    }
+]

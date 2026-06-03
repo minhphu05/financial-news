@@ -1,0 +1,287 @@
+[
+    {
+        "text": "21/3",
+        "label": "DATE",
+        "evidence": "Cụ thể, ngày đăng ký cuối cùng là 21/3, ngày giao dịch không hưởng quyền 20/3."
+    },
+    {
+        "text": "20/3",
+        "label": "DATE",
+        "evidence": "Cụ thể, ngày đăng ký cuối cùng là 21/3, ngày giao dịch không hưởng quyền 20/3."
+    },
+    {
+        "text": "3/4",
+        "label": "DATE",
+        "evidence": "Ngân hàng sẽ thanh toán cổ tức cho cổ đông vào ngày 3/4."
+    },
+    {
+        "text": "thanh toán cổ tức cho cổ đông",
+        "label": "EVENT",
+        "evidence": "Ngân hàng sẽ thanh toán cổ tức cho cổ đông vào ngày 3/4."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Trước đó, TPBank đã lấy ý kiến cổ đông bằng văn bản về việc chia cổ tức trong năm 2023."
+    },
+    {
+        "text": "lấy ý kiến cổ đông bằng văn bản về việc chia cổ tức trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Trước đó, TPBank đã lấy ý kiến cổ đông bằng văn bản về việc chia cổ tức trong năm 2023."
+    },
+    {
+        "text": "Đại hội đồng cổ đông TPBank",
+        "label": "ORG",
+        "evidence": "Đại hội đồng cổ đông TPBank đã thông qua phương án trả cổ tức 25% bằng tiền mặt, với tỷ lệ tán thành đạt 77,69%."
+    },
+    {
+        "text": "thông qua phương án trả cổ tức 25% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Đại hội đồng cổ đông TPBank đã thông qua phương án trả cổ tức 25% bằng tiền mặt, với tỷ lệ tán thành đạt 77,69%."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Đại hội đồng cổ đông TPBank đã thông qua phương án trả cổ tức 25% bằng tiền mặt, với tỷ lệ tán thành đạt 77,69%."
+    },
+    {
+        "text": "77,69%",
+        "label": "RATE",
+        "evidence": "Đại hội đồng cổ đông TPBank đã thông qua phương án trả cổ tức 25% bằng tiền mặt, với tỷ lệ tán thành đạt 77,69%."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Theo kế hoạch, TPBank sẽ thực hiện trả cổ tức 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "thực hiện trả cổ tức 2.500 đồng/cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Theo kế hoạch, TPBank sẽ thực hiện trả cổ tức 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "2.500 đồng/cổ phiếu",
+        "label": "MONEY",
+        "evidence": "Theo kế hoạch, TPBank sẽ thực hiện trả cổ tức 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "1,582 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với gần 1,582 tỷ cổ phiếu đang lưu hành và không có cổ phiếu quỹ, ước tính TPBank sẽ chi khoảng 3.955 tỷ đồng để trả cổ tức cho cổ đông."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Với gần 1,582 tỷ cổ phiếu đang lưu hành và không có cổ phiếu quỹ, ước tính TPBank sẽ chi khoảng 3.955 tỷ đồng để trả cổ tức cho cổ đông."
+    },
+    {
+        "text": "3.955 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ước tính TPBank sẽ chi khoảng 3.955 tỷ đồng để trả cổ tức cho cổ đông."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Nguồn chi trả sẽ lấy từ lợi nhuận chưa phân phối còn đến năm 2021, sau khi trích lập các quỹ theo Báo cáo tài chính đã kiểm toán."
+    },
+    {
+        "text": "Cổ phiếu TPB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu TPB của TPBank là một trong 2 mã ngân hàng diễn biến tích cực nhất trong phiên 17/3 khi tăng 2,6%, kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu TPB của TPBank là một trong 2 mã ngân hàng diễn biến tích cực nhất trong phiên 17/3 khi tăng 2,6%, kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu TPB của TPBank là một trong 2 mã ngân hàng diễn biến tích cực nhất trong phiên 17/3 khi tăng 2,6%, kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "17/3",
+        "label": "DATE",
+        "evidence": "Cổ phiếu TPB của TPBank là một trong 2 mã ngân hàng diễn biến tích cực nhất trong phiên 17/3 khi tăng 2,6%, kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "tăng 2,6%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu TPB của TPBank là một trong 2 mã ngân hàng diễn biến tích cực nhất trong phiên 17/3 khi tăng 2,6%, kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "25.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "kết phiên ở giá 25.300 đồng/cp."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Trong phiên, TPB có thời điểm tăng 3,4%."
+    },
+    {
+        "text": "tăng 3,4%",
+        "label": "RATE",
+        "evidence": "Trong phiên, TPB có thời điểm tăng 3,4%."
+    },
+    {
+        "text": "tăng 25%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm đến nay, thị giá cổ phiếu này đã tăng 25%."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Thanh khoản TPB phiên 17/3 cũng tăng mạnh với khối lượng khớp lệnh hơn 10 triệu đơn vị, giá trị 260 tỷ đồng, gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "17/3",
+        "label": "DATE",
+        "evidence": "Thanh khoản TPB phiên 17/3 cũng tăng mạnh với khối lượng khớp lệnh hơn 10 triệu đơn vị, giá trị 260 tỷ đồng, gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "hơn 10 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "khối lượng khớp lệnh hơn 10 triệu đơn vị, giá trị 260 tỷ đồng, gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "260 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 260 tỷ đồng, gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "gấp 3,5 lần",
+        "label": "RATE",
+        "evidence": "giá trị 260 tỷ đồng, gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "16/3",
+        "label": "DATE",
+        "evidence": "gấp 3,5 lần phiên 16/3."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Giá trị giao dịch của TPB theo đó đứng thứ 2 trong nhóm ngân hàng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Năm nay, TPBank sẽ họp Đại hội đồng cổ đông thường niên vào ngày 26/4 để thông qua nhiều nôi dung quan trọng."
+    },
+    {
+        "text": "họp Đại hội đồng cổ đông thường niên vào ngày 26/4",
+        "label": "EVENT",
+        "evidence": "Năm nay, TPBank sẽ họp Đại hội đồng cổ đông thường niên vào ngày 26/4 để thông qua nhiều nôi dung quan trọng."
+    },
+    {
+        "text": "26/4",
+        "label": "DATE",
+        "evidence": "Năm nay, TPBank sẽ họp Đại hội đồng cổ đông thường niên vào ngày 26/4 để thông qua nhiều nôi dung quan trọng."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "Trong đó, ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)",
+        "label": "EVENT",
+        "evidence": "Trong đó, ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "Hội đồng quản trị",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "Ban Kiểm soát",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "BKS",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ sẽ bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "2023-2028",
+        "label": "DATE",
+        "evidence": "bầu Hội đồng quản trị (HĐQT) và Ban Kiểm soát (BKS) nhiệm kỳ mới (2023-2028)."
+    },
+    {
+        "text": "thông qua kế hoạch kinh doanh năm 2023",
+        "label": "EVENT",
+        "evidence": "ngân hàng cũng sẽ thông qua kế hoạch kinh doanh năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ngân hàng cũng sẽ thông qua kế hoạch kinh doanh năm 2023."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Năm ngoái (2022), ngân hàng ghi nhận kết quả kinh doanh tích cực với lợi nhuận trước thuế đạt 7.828 tỷ đồng, tăng 30% so với năm 2021."
+    },
+    {
+        "text": "7.828 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế đạt 7.828 tỷ đồng, tăng 30% so với năm 2021."
+    },
+    {
+        "text": "tăng 30%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế đạt 7.828 tỷ đồng, tăng 30% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế đạt 7.828 tỷ đồng, tăng 30% so với năm 2021."
+    },
+    {
+        "text": "tăng hơn 12%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản của ngân hàng ghi nhận tăng hơn 12% so với cùng kỳ năm trước, cán mốc gần 329 nghìn tỷ đồng."
+    },
+    {
+        "text": "329 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cán mốc gần 329 nghìn tỷ đồng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Tổng thu nhập hoạt động của TPBank trong năm nay đạt trên 15.600 tỷ đồng, tăng hơn 15,5% so với năm 2021."
+    },
+    {
+        "text": "15.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng thu nhập hoạt động của TPBank trong năm nay đạt trên 15.600 tỷ đồng, tăng hơn 15,5% so với năm 2021."
+    },
+    {
+        "text": "tăng hơn 15,5%",
+        "label": "RATE",
+        "evidence": "Tổng thu nhập hoạt động của TPBank trong năm nay đạt trên 15.600 tỷ đồng, tăng hơn 15,5% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng hơn 15,5% so với năm 2021."
+    },
+    {
+        "text": "2.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi thuần từ dịch vụ đạt khoảng 2.700 tỷ đồng, tăng gần 75% so với cùng kỳ."
+    },
+    {
+        "text": "tăng gần 75%",
+        "label": "RATE",
+        "evidence": "Lãi thuần từ dịch vụ đạt khoảng 2.700 tỷ đồng, tăng gần 75% so với cùng kỳ."
+    }
+]

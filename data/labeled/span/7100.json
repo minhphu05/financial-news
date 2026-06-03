@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Hiệp hội Ngân hàng",
+        "label": "ORG",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "6 tuần",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "6/1/2025",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "14/2/2025",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "7/36 ngân hàng tăng lãi suất",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "3 ngân hàng điều chỉnh giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Theo thống kê của Hiệp hội Ngân hàng, trong 6 tuần (từ 6/1/2025 đến 14/2/2025), bảng lãi suất của 36 ngân hàng ghi nhận 7/36 ngân hàng tăng lãi suất, 3 ngân hàng điều chỉnh giảm lãi suất, 2 ngân hàng đồng thời tăng và giảm lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbank tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm (lãi suất online vào 2 ngày cuối tuần)."
+    },
+    {
+        "text": "tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm",
+        "label": "EVENT",
+        "evidence": "Eximbank tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm (lãi suất online vào 2 ngày cuối tuần)."
+    },
+    {
+        "text": "0,9%",
+        "label": "RATE",
+        "evidence": "Eximbank tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm (lãi suất online vào 2 ngày cuối tuần)."
+    },
+    {
+        "text": "5,2%",
+        "label": "RATE",
+        "evidence": "Eximbank tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm (lãi suất online vào 2 ngày cuối tuần)."
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "Eximbank tăng 0,9% kỳ hạn 9 tháng gửi tại quầy và online lên mức 5,2% và 5,4%/năm (lãi suất online vào 2 ngày cuối tuần)."
+    },
+    {
+        "text": "tăng mạnh từ 0,4-1,0%/năm lên mức 5,6-6,6%/năm",
+        "label": "EVENT",
+        "evidence": "Các kỳ hạn từ 12-36 tháng online cũng tăng mạnh từ 0,4-1,0%/năm lên mức 5,6-6,6%/năm."
+    },
+    {
+        "text": "0,4-1,0%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn từ 12-36 tháng online cũng tăng mạnh từ 0,4-1,0%/năm lên mức 5,6-6,6%/năm."
+    },
+    {
+        "text": "5,6-6,6%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn từ 12-36 tháng online cũng tăng mạnh từ 0,4-1,0%/năm lên mức 5,6-6,6%/năm."
+    },
+    {
+        "text": "6,6%/năm",
+        "label": "RATE",
+        "evidence": "Hiện mức cao nhất ở ngân hàng này là 6,6%/năm kỳ hạn 24-36 tháng online."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "BVBank tăng 0,32% kỳ hạn 36 tháng tại quầy lên mức 6,32%/năm."
+    },
+    {
+        "text": "tăng 0,32% kỳ hạn 36 tháng tại quầy lên mức 6,32%/năm",
+        "label": "EVENT",
+        "evidence": "BVBank tăng 0,32% kỳ hạn 36 tháng tại quầy lên mức 6,32%/năm."
+    },
+    {
+        "text": "0,32%",
+        "label": "RATE",
+        "evidence": "BVBank tăng 0,32% kỳ hạn 36 tháng tại quầy lên mức 6,32%/năm."
+    },
+    {
+        "text": "6,32%/năm",
+        "label": "RATE",
+        "evidence": "BVBank tăng 0,32% kỳ hạn 36 tháng tại quầy lên mức 6,32%/năm."
+    },
+    {
+        "text": "6,25-6,45%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn từ 15-24 tháng online tại ngân hàng này hiện được niêm yết mức lãi suất cao trong hệ thống là 6,25-6,45%/năm, cũng là mức cao nhất ở ngân hàng này."
+    },
+    {
+        "text": "tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm",
+        "label": "EVENT",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "0,1-0,3%/năm",
+        "label": "RATE",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "BaoVietBank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "Vietbank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Các ngân hàng tăng lãi suất còn lại với chỉ từ 0,1-0,3%/năm, gửi tại quầy và online bao gồm: BaoVietBank, Vietbank, Kienlongbank, VietABank, BIDV."
+    },
+    {
+        "text": "giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank",
+        "label": "EVENT",
+        "evidence": "03 ngân hàng giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank."
+    },
+    {
+        "text": "0,1-0,3%/năm",
+        "label": "RATE",
+        "evidence": "03 ngân hàng giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank."
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "03 ngân hàng giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "03 ngân hàng giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "03 ngân hàng giảm lãi suất từ 0,1-0,3%/năm các kỳ hạn từ 1-36 tháng, tại quầy và online, gồm: BacABank, NCB và TPBank."
+    },
+    {
+        "text": "đồng thời tăng và giảm lãi suất với chỉ 0,1-0,2% các kỳ hạn 1-12 tháng, cả tại quầy và online, gồm: ABBank và Techcombank",
+        "label": "EVENT",
+        "evidence": "02 ngân hàng đồng thời tăng và giảm lãi suất với chỉ 0,1-0,2% các kỳ hạn 1-12 tháng, cả tại quầy và online, gồm: ABBank và Techcombank."
+    },
+    {
+        "text": "0,1-0,2%",
+        "label": "RATE",
+        "evidence": "02 ngân hàng đồng thời tăng và giảm lãi suất với chỉ 0,1-0,2% các kỳ hạn 1-12 tháng, cả tại quầy và online, gồm: ABBank và Techcombank."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "02 ngân hàng đồng thời tăng và giảm lãi suất với chỉ 0,1-0,2% các kỳ hạn 1-12 tháng, cả tại quầy và online, gồm: ABBank và Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "02 ngân hàng đồng thời tăng và giảm lãi suất với chỉ 0,1-0,2% các kỳ hạn 1-12 tháng, cả tại quầy và online, gồm: ABBank và Techcombank."
+    },
+    {
+        "text": "Công ty chứng khoán MBS",
+        "label": "ORG",
+        "evidence": "Còn theo ghi nhận của Công ty chứng khoán MBS, Tính đến cuối năm 2024, lãi suất 12 tháng trung bình của nhóm NHTM đạt mức 5,1%/năm (cao hơn 20 điểm cơ bản so với đầu năm)."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Còn theo ghi nhận của Công ty chứng khoán MBS, Tính đến cuối năm 2024, lãi suất 12 tháng trung bình của nhóm NHTM đạt mức 5,1%/năm (cao hơn 20 điểm cơ bản so với đầu năm)."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Còn theo ghi nhận của Công ty chứng khoán MBS, Tính đến cuối năm 2024, lãi suất 12 tháng trung bình của nhóm NHTM đạt mức 5,1%/năm (cao hơn 20 điểm cơ bản so với đầu năm)."
+    },
+    {
+        "text": "5,1%/năm",
+        "label": "RATE",
+        "evidence": "Còn theo ghi nhận của Công ty chứng khoán MBS, Tính đến cuối năm 2024, lãi suất 12 tháng trung bình của nhóm NHTM đạt mức 5,1%/năm (cao hơn 20 điểm cơ bản so với đầu năm)."
+    },
+    {
+        "text": "20 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "Còn theo ghi nhận của Công ty chứng khoán MBS, Tính đến cuối năm 2024, lãi suất 12 tháng trung bình của nhóm NHTM đạt mức 5,1%/năm (cao hơn 20 điểm cơ bản so với đầu năm)."
+    },
+    {
+        "text": "4,7%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của các ngân hàng thương mại nhà nước giữ ở mức 4,7%."
+    },
+    {
+        "text": "5% - 5,2%",
+        "label": "RATE",
+        "evidence": "Nhóm phân tích dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM sẽ tiếp tục đi ngang hoặc tăng nhẹ, dao động quanh mức 5% - 5,2% trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Nhóm phân tích dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM sẽ tiếp tục đi ngang hoặc tăng nhẹ, dao động quanh mức 5% - 5,2% trong năm 2025."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Mặc dù lãi suất đầu vào tăng, theo số liệu của NHNN, lãi suất cho vay giảm 0,59% so với đầu năm."
+    },
+    {
+        "text": "0,59%",
+        "label": "RATE",
+        "evidence": "Mặc dù lãi suất đầu vào tăng, theo số liệu của NHNN, lãi suất cho vay giảm 0,59% so với đầu năm."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, MBS cho biết, nhóm NHTM có mức lãi suất cho vay trên báo cáo tài chính giảm mạnh hơn so với nhóm quốc doanh, do các ngân hàng quy mô nhỏ chịu áp lực hạ lãi suất đầu ra để thu hút khách hàng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Vừa qua, Agribank thông báo, từ nay đến hết 31/12/2025, doanh nghiệp vay vốn Agribank trả nợ trước hạn tổ chức tín dụng (TCTD) khác khi đáp ứng điều kiện được hưởng chính sách lãi suất hấp dẫn: Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "thông báo, từ nay đến hết 31/12/2025, doanh nghiệp vay vốn Agribank trả nợ trước hạn tổ chức tín dụng (TCTD) khác khi đáp ứng điều kiện được hưởng chính sách lãi suất hấp dẫn: Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng",
+        "label": "EVENT",
+        "evidence": "Vừa qua, Agribank thông báo, từ nay đến hết 31/12/2025, doanh nghiệp vay vốn Agribank trả nợ trước hạn tổ chức tín dụng (TCTD) khác khi đáp ứng điều kiện được hưởng chính sách lãi suất hấp dẫn: Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "31/12/2025",
+        "label": "DATE",
+        "evidence": "Vừa qua, Agribank thông báo, từ nay đến hết 31/12/2025, doanh nghiệp vay vốn Agribank trả nợ trước hạn tổ chức tín dụng (TCTD) khác khi đáp ứng điều kiện được hưởng chính sách lãi suất hấp dẫn: Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "Vừa qua, Agribank thông báo, từ nay đến hết 31/12/2025, doanh nghiệp vay vốn Agribank trả nợ trước hạn tổ chức tín dụng (TCTD) khác khi đáp ứng điều kiện được hưởng chính sách lãi suất hấp dẫn: Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "2,4%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "6,0%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất đối với khoản vay ngắn hạn chỉ từ 2,4%/năm; lãi suất đối với khoản vay trung dài hạn chỉ từ 6,0%/năm, thời gian hưởng lãi suất ưu đãi cố định đến 24 tháng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank gần đây cũng kích hoạt cho vay với lãi suất thấp từ 4,7%/năm cho các mục đích vay vốn từ bổ sung vốn kinh doanh lưu động, xây/sửa cơ sở kinh doanh, đầu tư tài sản cố định… đến mua nhà, xây dựng/sửa chữa nhà, mua xe ô tô phục vụ đi lại hay kinh doanh."
+    },
+    {
+        "text": "kích hoạt cho vay với lãi suất thấp từ 4,7%/năm cho các mục đích vay vốn từ bổ sung vốn kinh doanh lưu động, xây/sửa cơ sở kinh doanh, đầu tư tài sản cố định… đến mua nhà, xây dựng/sửa chữa nhà, mua xe ô tô phục vụ đi lại hay kinh doanh",
+        "label": "EVENT",
+        "evidence": "TPBank gần đây cũng kích hoạt cho vay với lãi suất thấp từ 4,7%/năm cho các mục đích vay vốn từ bổ sung vốn kinh doanh lưu động, xây/sửa cơ sở kinh doanh, đầu tư tài sản cố định… đến mua nhà, xây dựng/sửa chữa nhà, mua xe ô tô phục vụ đi lại hay kinh doanh."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "TPBank gần đây cũng kích hoạt cho vay với lãi suất thấp từ 4,7%/năm cho các mục đích vay vốn từ bổ sung vốn kinh doanh lưu động, xây/sửa cơ sở kinh doanh, đầu tư tài sản cố định… đến mua nhà, xây dựng/sửa chữa nhà, mua xe ô tô phục vụ đi lại hay kinh doanh."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Gói tín dụng có hạn mức 1.000 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tệp khách hàng được mở rộng khi hướng tới toàn bộ khách hàng lần đầu tiên vay kinh doanh tại TPBank và cả những khách hàng hiện hữu giải ngân từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Phí trả nợ trước hạn chỉ 1%."
+    },
+    {
+        "text": "0 đồng",
+        "label": "MONEY",
+        "evidence": "Người đi vay còn có thể chọn gói vay với ưu đãi trả nợ trước hạn bất cứ lúc nào với phí 0 đồng, cùng lãi suất cho vay chỉ từ 5,7%."
+    },
+    {
+        "text": "5,7%",
+        "label": "RATE",
+        "evidence": "Người đi vay còn có thể chọn gói vay với ưu đãi trả nợ trước hạn bất cứ lúc nào với phí 0 đồng, cùng lãi suất cho vay chỉ từ 5,7%."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Đặc biệt, sau cuộc họp giữa Thủ tướng Chính phủ và các ngân hàng thương mại, trong tuần qua, 2 ngân hàng tư nhân lớn đã lập tức ra mắt gói cho vay ưu đãi với người mua nhà."
+    },
+    {
+        "text": "ra mắt gói cho vay ưu đãi với người mua nhà",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, sau cuộc họp giữa Thủ tướng Chính phủ và các ngân hàng thương mại, trong tuần qua, 2 ngân hàng tư nhân lớn đã lập tức ra mắt gói cho vay ưu đãi với người mua nhà."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Cụ thể, theo định hướng của Thủ tướng Chính phủ về các giải pháp tín dụng hỗ trợ người trẻ có thể mua được nhà, Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "Cụ thể, theo định hướng của Thủ tướng Chính phủ về các giải pháp tín dụng hỗ trợ người trẻ có thể mua được nhà, Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Cụ thể, theo định hướng của Thủ tướng Chính phủ về các giải pháp tín dụng hỗ trợ người trẻ có thể mua được nhà, Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025",
+        "label": "EVENT",
+        "evidence": "Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "31/12/2025",
+        "label": "DATE",
+        "evidence": "Ngân hàng SHB đưa ra thị trường gói cho vay với lãi suất chỉ từ 3,99%/năm, áp dụng từ ngay đến 31/12/2025."
+    },
+    {
+        "text": "16.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quy mô gói cho vay tới 16.000 tỷ đồng."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Khách hàng sẽ được vay tối đa 90% giá trị tài sản dự định mua, không giới hạn số tiền vay với lãi suất chỉ từ 3,99%/năm."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Khách hàng sẽ được vay tối đa 90% giá trị tài sản dự định mua, không giới hạn số tiền vay với lãi suất chỉ từ 3,99%/năm."
+    },
+    {
+        "text": "60 tháng",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "hạn mức thấu chi",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm",
+        "label": "EVENT",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "Ngôi nhà đầu tiên",
+        "label": "ASSET",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "ACB cũng gây chú ý không kém khi triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với lãi suất vay ưu đãi chỉ từ 5,5%/năm, thời gian vay dài đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt."
+    },
+    {
+        "text": "tiếp tục ưu đãi giảm trả gốc từ 2% xuống chỉ còn 1% vốn vay/năm",
+        "label": "EVENT",
+        "evidence": "Đồng thời, ngân hàng này cũng vừa tiếp tục ưu đãi giảm trả gốc từ 2% xuống chỉ còn 1% vốn vay/năm."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "Đồng thời, ngân hàng này cũng vừa tiếp tục ưu đãi giảm trả gốc từ 2% xuống chỉ còn 1% vốn vay/năm."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Đồng thời, ngân hàng này cũng vừa tiếp tục ưu đãi giảm trả gốc từ 2% xuống chỉ còn 1% vốn vay/năm."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Công điện của Thủ tướng Chính phủ về việc tăng cường thực hiện các giải pháp giảm lãi suất"
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Liên quan đến lãi suất ngành ngân hàng, Thủ tướng Chính phủ vừa ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất."
+    },
+    {
+        "text": "ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "Liên quan đến lãi suất ngành ngân hàng, Thủ tướng Chính phủ vừa ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất."
+    },
+    {
+        "text": "24/2/2025",
+        "label": "DATE",
+        "evidence": "Liên quan đến lãi suất ngành ngân hàng, Thủ tướng Chính phủ vừa ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất."
+    },
+    {
+        "text": "Thống đốc Ngân hàng Nhà nước",
+        "label": "PERSON",
+        "evidence": "Liên quan đến lãi suất ngành ngân hàng, Thủ tướng Chính phủ vừa ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Liên quan đến lãi suất ngành ngân hàng, Thủ tướng Chính phủ vừa ký Công điện số 19/CĐ-TTg ngày 24/2/2025 gửi Thống đốc Ngân hàng Nhà nước về việc tăng cường thực hiện các giải pháp giảm lãi suất."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025",
+        "label": "EVENT",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "PERSON",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "Thống đốc Ngân hàng Nhà nước Việt Nam",
+        "label": "PERSON",
+        "evidence": "Trong đó, Thủ tướng Chính phủ yêu cầu NHNN thực hiện ngay việc thanh tra, kiểm tra các ngân hàng thương mại điều chỉnh tăng lãi suất huy động trong thời gian qua và việc công bố, thực hiện lãi suất huy động, cho vay của các tổ chức tín dụng, bảo đảm tuân thủ đúng quy định pháp luật và chỉ đạo của Chính phủ, Thủ tướng Chính phủ, Ngân hàng Nhà nước Việt Nam; kịp thời xử lý nghiêm các trường hợp vi phạm, không thực hiện đúng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước Việt Nam theo quy định, trong đó Thống đốc Ngân hàng Nhà nước Việt Nam xem xét, quyết định sử dụng các công cụ quản lý của Ngân hàng Nhà nước Việt Nam về hạn mức tăng trưởng tín dụng và thu hồi giấy phép theo quy định, báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    },
+    {
+        "text": "28 tháng 02 năm 2025",
+        "label": "DATE",
+        "evidence": "báo cáo kết quả thực hiện với Thủ tướng Chính phủ trước ngày 28 tháng 02 năm 2025."
+    }
+]

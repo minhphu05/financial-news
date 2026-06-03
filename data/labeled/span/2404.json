@@ -1,0 +1,777 @@
+[
+    {
+        "text": "cổ phiếu \"họ\" Viettel",
+        "label": "ASSET",
+        "evidence": "cổ phiếu \"họ\" Viettel, FPT lại có phần ít ồn ào và bền bỉ hơn."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "cổ phiếu \"họ\" Viettel, FPT lại có phần ít ồn ào và bền bỉ hơn."
+    },
+    {
+        "text": "cổ phiếu \"họ\" FPT",
+        "label": "ASSET",
+        "evidence": "cổ phiếu \"họ\" Viettel, FPT lại có phần ít ồn ào và bền bỉ hơn."
+    },
+    {
+        "text": "4 cổ phiếu họ Viettel",
+        "label": "ASSET",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "5 cổ phiếu họ FPT",
+        "label": "ASSET",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "328.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "13,2 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "tăng 60.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Hiện tổng giá trị thị trường của 4 cổ phiếu họ Viettel và 5 cổ phiếu họ FPT trên sàn đạt hơn 328.500 tỷ đồng (13,2 tỷ USD) - tăng 60.000 tỷ so với cuối năm 2023."
+    },
+    {
+        "text": "cổ phiếu CTR",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu có thị giá cao nhất trong nhóm Viettel là cổ phiếu CTR của Viettel Contructions với mức giá hiện tại đang ở mức đỉnh lịch sử là 105.000 đồng/cp."
+    },
+    {
+        "text": "CTR",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu có thị giá cao nhất trong nhóm Viettel là cổ phiếu CTR của Viettel Contructions với mức giá hiện tại đang ở mức đỉnh lịch sử là 105.000 đồng/cp."
+    },
+    {
+        "text": "Viettel Contructions",
+        "label": "ORG",
+        "evidence": "Cổ phiếu có thị giá cao nhất trong nhóm Viettel là cổ phiếu CTR của Viettel Contructions với mức giá hiện tại đang ở mức đỉnh lịch sử là 105.000 đồng/cp."
+    },
+    {
+        "text": "105.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu có thị giá cao nhất trong nhóm Viettel là cổ phiếu CTR của Viettel Contructions với mức giá hiện tại đang ở mức đỉnh lịch sử là 105.000 đồng/cp."
+    },
+    {
+        "text": "CTR",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu CTR đã tăng 52% kể từ tháng 11/2023 tới nay."
+    },
+    {
+        "text": "Cổ phiếu CTR",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu CTR đã tăng 52% kể từ tháng 11/2023 tới nay."
+    },
+    {
+        "text": "52%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu CTR đã tăng 52% kể từ tháng 11/2023 tới nay."
+    },
+    {
+        "text": "tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Cổ phiếu CTR đã tăng 52% kể từ tháng 11/2023 tới nay."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "Viettel Contructions",
+        "label": "ORG",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "11.299 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "517 tỷ",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2023, Viettel Contructions ghi nhận doanh thu thuần đạt 11.299 tỷ đồng và lợi nhuận sau thuế 517 tỷ, lần lượt tăng 19% và 13% so với năm 2022."
+    },
+    {
+        "text": "Chuẩn bị niêm yết trên sàn HoSE",
+        "label": "EVENT",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "cổ phiếu VTP",
+        "label": "ASSET",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "Viettel Post",
+        "label": "ORG",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "đầu tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Chuẩn bị niêm yết trên sàn HoSE, cổ phiếu VTP của Viettel Post đã có đà tăng tích cực từ đầu tháng 11/2023 tới nay và kịp vượt qua đỉnh lịch sử."
+    },
+    {
+        "text": "đầu tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "29/2",
+        "label": "DATE",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "Upcom",
+        "label": "ORG",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu VTP",
+        "label": "ASSET",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "92%",
+        "label": "RATE",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "78.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Theo đó, tính từ đầu tháng 11/2023 đến ngày 29/2, ngày giao dịch cuối cùng trên Upcom, cổ phiếu VTP đã tăng 92% lên mức giá 78.400 đồng/cp."
+    },
+    {
+        "text": "VTP",
+        "label": "ORG",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "Viettel Post",
+        "label": "ORG",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "19.590 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Kết quả kinh doanh của VTP cũng khởi sắc sau 2 năm lợi nhuận giảm, năm 2023, Viettel Post ghi nhận doanh thu đạt 19.590 tỷ đồng, giảm 9% so với năm 2022."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, giá vốn giảm mạnh hơn giúp lợi nhuận gộp tăng mạnh 35%, lên gần 876 tỷ đồng."
+    },
+    {
+        "text": "gần 876 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên, giá vốn giảm mạnh hơn giúp lợi nhuận gộp tăng mạnh 35%, lên gần 876 tỷ đồng."
+    },
+    {
+        "text": "Viettel Post",
+        "label": "ORG",
+        "evidence": "Sau khi trừ đi các khoản chi phí, Viettel Post lãi ròng hơn 380 tỷ đồng, tăng 49% so với năm 2022."
+    },
+    {
+        "text": "hơn 380 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trừ đi các khoản chi phí, Viettel Post lãi ròng hơn 380 tỷ đồng, tăng 49% so với năm 2022."
+    },
+    {
+        "text": "49%",
+        "label": "RATE",
+        "evidence": "Sau khi trừ đi các khoản chi phí, Viettel Post lãi ròng hơn 380 tỷ đồng, tăng 49% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Sau khi trừ đi các khoản chi phí, Viettel Post lãi ròng hơn 380 tỷ đồng, tăng 49% so với năm 2022."
+    },
+    {
+        "text": "tăng gấp đôi",
+        "label": "RATE",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "cuối tháng 1",
+        "label": "DATE",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu VTK",
+        "label": "ASSET",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "VTK",
+        "label": "TICKER",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "kết phiên 1/3",
+        "label": "DATE",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu VTK",
+        "label": "ASSET",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "VTK",
+        "label": "TICKER",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "41.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Sau khi tăng gấp đôi, từ khoảng cuối tháng 1 đến nay, cổ phiếu VTK đang trong giai đoạn đi ngang, kết phiên 1/3, cổ phiếu VTK đang có giá 41.500 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu VGI",
+        "label": "ASSET",
+        "evidence": "Là doanh nghiệp tỷ USD duy nhất trong họ Viettel, diễn biến của cổ phiếu VGI của Viettel Global có phần chậm hơn so với các doanh nghiệp khác."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "Là doanh nghiệp tỷ USD duy nhất trong họ Viettel, diễn biến của cổ phiếu VGI của Viettel Global có phần chậm hơn so với các doanh nghiệp khác."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "Là doanh nghiệp tỷ USD duy nhất trong họ Viettel, diễn biến của cổ phiếu VGI của Viettel Global có phần chậm hơn so với các doanh nghiệp khác."
+    },
+    {
+        "text": "đầu tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 11/2023 đến nay, cổ phiếu VGI đã tăng khoảng 40%."
+    },
+    {
+        "text": "cổ phiếu VGI",
+        "label": "ASSET",
+        "evidence": "Từ đầu tháng 11/2023 đến nay, cổ phiếu VGI đã tăng khoảng 40%."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "Từ đầu tháng 11/2023 đến nay, cổ phiếu VGI đã tăng khoảng 40%."
+    },
+    {
+        "text": "khoảng 40%",
+        "label": "RATE",
+        "evidence": "Từ đầu tháng 11/2023 đến nay, cổ phiếu VGI đã tăng khoảng 40%."
+    },
+    {
+        "text": "gần 103.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường hiện tại của VGI đạt gần 103.800 tỷ đồng."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "Lợi nhuận sau thuế năm 2023 của VGI giảm gần 4% đạt 1.485 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế năm 2023 của VGI giảm gần 4% đạt 1.485 tỷ đồng."
+    },
+    {
+        "text": "gần 4%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế năm 2023 của VGI giảm gần 4% đạt 1.485 tỷ đồng."
+    },
+    {
+        "text": "1.485 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế năm 2023 của VGI giảm gần 4% đạt 1.485 tỷ đồng."
+    },
+    {
+        "text": "họ FPT",
+        "label": "ORG",
+        "evidence": "Đối với họ FPT, 2 doanh nghiệp tỷ USD là FPT và FPT Telecom (FOX) ghi nhận mức tăng trưởng lợi nhuận \"đều như vắt tranh\" từ năm 2019 tới nay."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đối với họ FPT, 2 doanh nghiệp tỷ USD là FPT và FPT Telecom (FOX) ghi nhận mức tăng trưởng lợi nhuận \"đều như vắt tranh\" từ năm 2019 tới nay."
+    },
+    {
+        "text": "FPT Telecom",
+        "label": "ORG",
+        "evidence": "Đối với họ FPT, 2 doanh nghiệp tỷ USD là FPT và FPT Telecom (FOX) ghi nhận mức tăng trưởng lợi nhuận \"đều như vắt tranh\" từ năm 2019 tới nay."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Đối với họ FPT, 2 doanh nghiệp tỷ USD là FPT và FPT Telecom (FOX) ghi nhận mức tăng trưởng lợi nhuận \"đều như vắt tranh\" từ năm 2019 tới nay."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Đối với họ FPT, 2 doanh nghiệp tỷ USD là FPT và FPT Telecom (FOX) ghi nhận mức tăng trưởng lợi nhuận \"đều như vắt tranh\" từ năm 2019 tới nay."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "52.618 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "9.203 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "19,6%",
+        "label": "RATE",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "20,1%",
+        "label": "RATE",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "cùng kỳ năm ngoái",
+        "label": "DATE",
+        "evidence": "Năm 2023, FPT ghi nhận doanh thu 52.618 tỷ đồng, lợi nhuận trước thuế 9.203 tỷ đồng, lần lượt tăng 19,6% và 20,1% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "FOX",
+        "label": "ORG",
+        "evidence": "Còn FOX ghi nhận doanh thu thuần đạt 15.806 tỷ đồng và lợi nhuận sau thuế 2.428 tỷ đồng, lần lượt tăng 7% và 8%."
+    },
+    {
+        "text": "15.806 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Còn FOX ghi nhận doanh thu thuần đạt 15.806 tỷ đồng và lợi nhuận sau thuế 2.428 tỷ đồng, lần lượt tăng 7% và 8%."
+    },
+    {
+        "text": "2.428 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Còn FOX ghi nhận doanh thu thuần đạt 15.806 tỷ đồng và lợi nhuận sau thuế 2.428 tỷ đồng, lần lượt tăng 7% và 8%."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "Còn FOX ghi nhận doanh thu thuần đạt 15.806 tỷ đồng và lợi nhuận sau thuế 2.428 tỷ đồng, lần lượt tăng 7% và 8%."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Còn FOX ghi nhận doanh thu thuần đạt 15.806 tỷ đồng và lợi nhuận sau thuế 2.428 tỷ đồng, lần lượt tăng 7% và 8%."
+    },
+    {
+        "text": "Cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu FPT đang thiết lập mức đỉnh mới với mức giá kết phiên 1/3 ở mức 110.800 đồng/cp."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FPT đang thiết lập mức đỉnh mới với mức giá kết phiên 1/3 ở mức 110.800 đồng/cp."
+    },
+    {
+        "text": "kết phiên 1/3",
+        "label": "DATE",
+        "evidence": "Cổ phiếu FPT đang thiết lập mức đỉnh mới với mức giá kết phiên 1/3 ở mức 110.800 đồng/cp."
+    },
+    {
+        "text": "110.800 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu FPT đang thiết lập mức đỉnh mới với mức giá kết phiên 1/3 ở mức 110.800 đồng/cp."
+    },
+    {
+        "text": "hơn 140.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa doanh nghiệp đạt hơn 140.700 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu FOX",
+        "label": "ASSET",
+        "evidence": "Còn cổ phiếu FOX sau giai đoạn tăng từ đầu tháng 11/2023, đã đi ngang từ đầu tháng 2 tới nay và đang có mức giá 58.600 đồng/cp."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Còn cổ phiếu FOX sau giai đoạn tăng từ đầu tháng 11/2023, đã đi ngang từ đầu tháng 2 tới nay và đang có mức giá 58.600 đồng/cp."
+    },
+    {
+        "text": "đầu tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Còn cổ phiếu FOX sau giai đoạn tăng từ đầu tháng 11/2023, đã đi ngang từ đầu tháng 2 tới nay và đang có mức giá 58.600 đồng/cp."
+    },
+    {
+        "text": "đầu tháng 2",
+        "label": "DATE",
+        "evidence": "Còn cổ phiếu FOX sau giai đoạn tăng từ đầu tháng 11/2023, đã đi ngang từ đầu tháng 2 tới nay và đang có mức giá 58.600 đồng/cp."
+    },
+    {
+        "text": "58.600 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Còn cổ phiếu FOX sau giai đoạn tăng từ đầu tháng 11/2023, đã đi ngang từ đầu tháng 2 tới nay và đang có mức giá 58.600 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu FRT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu có thị giá cao nhất họ FPT hiện nay là cổ phiếu FRT của FPT Retail."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu có thị giá cao nhất họ FPT hiện nay là cổ phiếu FRT của FPT Retail."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Cổ phiếu có thị giá cao nhất họ FPT hiện nay là cổ phiếu FRT của FPT Retail."
+    },
+    {
+        "text": "Kết phiên 1/3",
+        "label": "DATE",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "cổ phiếu FRT",
+        "label": "ASSET",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "141.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "khoảng 47%",
+        "label": "RATE",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "giữa tháng 11",
+        "label": "DATE",
+        "evidence": "Kết phiên 1/3, cổ phiếu FRT dừng lại ở mức giá 141.000 đồng/cp, tăng khoảng 47% tính từ giữa tháng 11."
+    },
+    {
+        "text": "FRT",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh ngành ICT còn nhiều khó khăn, động lực tăng trưởng chính của FRT được giới phân tích nhận định đến từ “át chủ bài” Long Châu."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh ngành ICT còn nhiều khó khăn, động lực tăng trưởng chính của FRT được giới phân tích nhận định đến từ “át chủ bài” Long Châu."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 cũng chính là năm đầu tiên doanh thu của Long Châu \"vượt mặt\" FPT Shop và trở thành một nhân tố \"gánh team\" cho Công ty."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Năm 2023 cũng chính là năm đầu tiên doanh thu của Long Châu \"vượt mặt\" FPT Shop và trở thành một nhân tố \"gánh team\" cho Công ty."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Năm 2023 cũng chính là năm đầu tiên doanh thu của Long Châu \"vượt mặt\" FPT Shop và trở thành một nhân tố \"gánh team\" cho Công ty."
+    },
+    {
+        "text": "Công ty",
+        "label": "ORG",
+        "evidence": "Năm 2023 cũng chính là năm đầu tiên doanh thu của Long Châu \"vượt mặt\" FPT Shop và trở thành một nhân tố \"gánh team\" cho Công ty."
+    },
+    {
+        "text": "cổ phiếu FRT",
+        "label": "ASSET",
+        "evidence": "Đi cùng với sự lớn mạnh của Long Châu, cổ phiếu FRT tính đến hiện tại cũng tăng gấp 15 lần thị giá sau 4 năm (kể từ mức đáy thiết lập vào đầu tháng 3/2020)."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Đi cùng với sự lớn mạnh của Long Châu, cổ phiếu FRT tính đến hiện tại cũng tăng gấp 15 lần thị giá sau 4 năm (kể từ mức đáy thiết lập vào đầu tháng 3/2020)."
+    },
+    {
+        "text": "tăng gấp 15 lần",
+        "label": "RATE",
+        "evidence": "Đi cùng với sự lớn mạnh của Long Châu, cổ phiếu FRT tính đến hiện tại cũng tăng gấp 15 lần thị giá sau 4 năm (kể từ mức đáy thiết lập vào đầu tháng 3/2020)."
+    },
+    {
+        "text": "đầu tháng 3/2020",
+        "label": "DATE",
+        "evidence": "Đi cùng với sự lớn mạnh của Long Châu, cổ phiếu FRT tính đến hiện tại cũng tăng gấp 15 lần thị giá sau 4 năm (kể từ mức đáy thiết lập vào đầu tháng 3/2020)."
+    },
+    {
+        "text": "Cổ phiếu của Chứng khoán FPT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "Chứng khoán FPT",
+        "label": "ORG",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "FPTS",
+        "label": "ORG",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "FTS",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "81%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "đầu tháng 11",
+        "label": "DATE",
+        "evidence": "Cổ phiếu của Chứng khoán FPT (FPTS, mã FTS) cũng đã gây ấn tượng khi tăng đến 81% từ đầu tháng 11 đến nay."
+    },
+    {
+        "text": "58.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này hiện đang dừng ở mức 58.000 đồng/cp, tương ứng vốn hóa thị trường hơn 12.400 tỷ đồng."
+    },
+    {
+        "text": "hơn 12.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu này hiện đang dừng ở mức 58.000 đồng/cp, tương ứng vốn hóa thị trường hơn 12.400 tỷ đồng."
+    },
+    {
+        "text": "Cổ phiếu FTS",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu FTS tăng mạnh trong bối cảnh tình hình kinh doanh không thật sự khởi sắc."
+    },
+    {
+        "text": "FTS",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FTS tăng mạnh trong bối cảnh tình hình kinh doanh không thật sự khởi sắc."
+    },
+    {
+        "text": "Quý 4/2023",
+        "label": "DATE",
+        "evidence": "Quý 4/2023, FPTS ghi nhận doanh thu hoạt động đạt hơn 181 tỷ đồng, giảm 17% so với cùng kỳ 2022, chủ yếu do từ doanh và môi giới kém hiệu quả."
+    },
+    {
+        "text": "FPTS",
+        "label": "ORG",
+        "evidence": "Quý 4/2023, FPTS ghi nhận doanh thu hoạt động đạt hơn 181 tỷ đồng, giảm 17% so với cùng kỳ 2022, chủ yếu do từ doanh và môi giới kém hiệu quả."
+    },
+    {
+        "text": "hơn 181 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quý 4/2023, FPTS ghi nhận doanh thu hoạt động đạt hơn 181 tỷ đồng, giảm 17% so với cùng kỳ 2022, chủ yếu do từ doanh và môi giới kém hiệu quả."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Quý 4/2023, FPTS ghi nhận doanh thu hoạt động đạt hơn 181 tỷ đồng, giảm 17% so với cùng kỳ 2022, chủ yếu do từ doanh và môi giới kém hiệu quả."
+    },
+    {
+        "text": "cùng kỳ 2022",
+        "label": "DATE",
+        "evidence": "Quý 4/2023, FPTS ghi nhận doanh thu hoạt động đạt hơn 181 tỷ đồng, giảm 17% so với cùng kỳ 2022, chủ yếu do từ doanh và môi giới kém hiệu quả."
+    },
+    {
+        "text": "FPTS",
+        "label": "ORG",
+        "evidence": "Sau khi trừ chi phí, FPTS lãi trước thuế 63,6 tỷ đồng, giảm 42% so với cùng kỳ 2022."
+    },
+    {
+        "text": "63,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trừ chi phí, FPTS lãi trước thuế 63,6 tỷ đồng, giảm 42% so với cùng kỳ 2022."
+    },
+    {
+        "text": "42%",
+        "label": "RATE",
+        "evidence": "Sau khi trừ chi phí, FPTS lãi trước thuế 63,6 tỷ đồng, giảm 42% so với cùng kỳ 2022."
+    },
+    {
+        "text": "cùng kỳ 2022",
+        "label": "DATE",
+        "evidence": "Sau khi trừ chi phí, FPTS lãi trước thuế 63,6 tỷ đồng, giảm 42% so với cùng kỳ 2022."
+    },
+    {
+        "text": "gần 23%",
+        "label": "RATE",
+        "evidence": "Dù vậy, lợi nhuận trước thuế luỹ kế cả năm vẫn tăng gần 23% so với năm 2022, đạt gần 542 tỷ đồng, tăng 23% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Dù vậy, lợi nhuận trước thuế luỹ kế cả năm vẫn tăng gần 23% so với năm 2022, đạt gần 542 tỷ đồng, tăng 23% so với năm 2022."
+    },
+    {
+        "text": "gần 542 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dù vậy, lợi nhuận trước thuế luỹ kế cả năm vẫn tăng gần 23% so với năm 2022, đạt gần 542 tỷ đồng, tăng 23% so với năm 2022."
+    },
+    {
+        "text": "23%",
+        "label": "RATE",
+        "evidence": "Dù vậy, lợi nhuận trước thuế luỹ kế cả năm vẫn tăng gần 23% so với năm 2022, đạt gần 542 tỷ đồng, tăng 23% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Dù vậy, lợi nhuận trước thuế luỹ kế cả năm vẫn tăng gần 23% so với năm 2022, đạt gần 542 tỷ đồng, tăng 23% so với năm 2022."
+    },
+    {
+        "text": "FPT Online",
+        "label": "ORG",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "FOC",
+        "label": "TICKER",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "cuối tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "cổ phiếu FOC",
+        "label": "ASSET",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "FOC",
+        "label": "TICKER",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "khoảng 26%",
+        "label": "RATE",
+        "evidence": "Khác biệt nhất trong \"họ\" FPT, cổ phiếu của FPT Online (FOC) bắt đầu khởi sắc từ cuối tháng 11/2023, kể từ đó tới nay, cổ phiếu FOC đã tăng khoảng 26%, mức giá này vẫn cách xa so với vùng đỉnh lịch sử."
+    },
+    {
+        "text": "gần 1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường gần 1.500 tỷ đồng, nhỏ nhất trong số các doanh nghiệp \"họ\"FPTtrên sàn chứng khoán."
+    },
+    {
+        "text": "Lũy kế cả năm 2023",
+        "label": "DATE",
+        "evidence": "Lũy kế cả năm 2023, FPT Online ghi nhận doanh thu đạt 620 tỷ đồng, giảm 20% so với năm trước."
+    },
+    {
+        "text": "FPT Online",
+        "label": "ORG",
+        "evidence": "Lũy kế cả năm 2023, FPT Online ghi nhận doanh thu đạt 620 tỷ đồng, giảm 20% so với năm trước."
+    },
+    {
+        "text": "620 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế cả năm 2023, FPT Online ghi nhận doanh thu đạt 620 tỷ đồng, giảm 20% so với năm trước."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Lũy kế cả năm 2023, FPT Online ghi nhận doanh thu đạt 620 tỷ đồng, giảm 20% so với năm trước."
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "Lũy kế cả năm 2023, FPT Online ghi nhận doanh thu đạt 620 tỷ đồng, giảm 20% so với năm trước."
+    },
+    {
+        "text": "113 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế đạt 113 tỷ đồng, giảm 54% so với thực hiện năm 2022."
+    },
+    {
+        "text": "54%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế đạt 113 tỷ đồng, giảm 54% so với thực hiện năm 2022."
+    },
+    {
+        "text": "thực hiện năm 2022",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế đạt 113 tỷ đồng, giảm 54% so với thực hiện năm 2022."
+    },
+    {
+        "text": "năm 2015",
+        "label": "DATE",
+        "evidence": "Đây là mức lợi nhuận mức thấp nhất của doanh nghiệp này đạt được kể từ năm 2015."
+    }
+]

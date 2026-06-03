@@ -1,0 +1,192 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm tại VPBankvừa thay đổi, chính thức áp dụng từ ngày 19/4."
+    },
+    {
+        "text": "Lãi suất tiết kiệm tại VPBankvừa thay đổi",
+        "label": "EVENT",
+        "evidence": "Lãi suất tiết kiệm tại VPBankvừa thay đổi, chính thức áp dụng từ ngày 19/4."
+    },
+    {
+        "text": "ngày 19/4",
+        "label": "DATE",
+        "evidence": "Lãi suất tiết kiệm tại VPBankvừa thay đổi, chính thức áp dụng từ ngày 19/4."
+    },
+    {
+        "text": "điều chỉnh tăng lãi suất tiết kiệm tại kỳ hạn 1-5 tháng đối với khoản tiền gửi dưới 10 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo đó, ngân hàng này điều chỉnh tăng lãi suất tiết kiệm tại kỳ hạn 1-5 tháng đối với khoản tiền gửi dưới 10 tỷ đồng, mức tăng 0,2-0,3 điểm phần trăm."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, ngân hàng này điều chỉnh tăng lãi suất tiết kiệm tại kỳ hạn 1-5 tháng đối với khoản tiền gửi dưới 10 tỷ đồng, mức tăng 0,2-0,3 điểm phần trăm."
+    },
+    {
+        "text": "0,2-0,3 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Theo đó, ngân hàng này điều chỉnh tăng lãi suất tiết kiệm tại kỳ hạn 1-5 tháng đối với khoản tiền gửi dưới 10 tỷ đồng, mức tăng 0,2-0,3 điểm phần trăm."
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất tiết kiệm ở kỳ hạn 1 tháng hiện niêm yết ở 2,7%/năm."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm ở kỳ hạn 2-5 tháng là 3%/năm."
+    },
+    {
+        "text": "2,4%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất cũ là 2,4%/năm."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank giữ nguyên lãi suất tiết kiệm ở các kỳ hạn còn lại."
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 6-11 tháng là 4,2%/năm, kỳ hạn 12-18 tháng là 4,8%/năm và kỳ hạn 24-36 tháng là 5,2%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 6-11 tháng là 4,2%/năm, kỳ hạn 12-18 tháng là 4,8%/năm và kỳ hạn 24-36 tháng là 5,2%/năm."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 6-11 tháng là 4,2%/năm, kỳ hạn 12-18 tháng là 4,8%/năm và kỳ hạn 24-36 tháng là 5,2%/năm."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với khoản tiền gửi từ 10 tỷ đồng đến dưới 50 tỷ đồng, VPBank cộng thêm 0,1%/năm lãi suất."
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với khoản tiền gửi từ 10 tỷ đồng đến dưới 50 tỷ đồng, VPBank cộng thêm 0,1%/năm lãi suất."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Với khoản tiền gửi từ 10 tỷ đồng đến dưới 50 tỷ đồng, VPBank cộng thêm 0,1%/năm lãi suất."
+    },
+    {
+        "text": "VPBank cộng thêm 0,1%/năm lãi suất",
+        "label": "EVENT",
+        "evidence": "Với khoản tiền gửi từ 10 tỷ đồng đến dưới 50 tỷ đồng, VPBank cộng thêm 0,1%/năm lãi suất."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Với khoản tiền gửi từ 10 tỷ đồng đến dưới 50 tỷ đồng, VPBank cộng thêm 0,1%/năm lãi suất."
+    },
+    {
+        "text": "cộng thêm 0,2%/năm lãi suất đối với tiền gửi từ 50 tỷ đồng trở lên",
+        "label": "EVENT",
+        "evidence": "Nhà băng này cộng thêm 0,2%/năm lãi suất đối với tiền gửi từ 50 tỷ đồng trở lên."
+    },
+    {
+        "text": "0,2%/năm",
+        "label": "RATE",
+        "evidence": "Nhà băng này cộng thêm 0,2%/năm lãi suất đối với tiền gửi từ 50 tỷ đồng trở lên."
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhà băng này cộng thêm 0,2%/năm lãi suất đối với tiền gửi từ 50 tỷ đồng trở lên."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm online tại VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank áp dụng biểu lãi suất tiết kiệm tại quầy với lãi suất thấp hơn tương ứng với biểu lãi suất tiết kiệm online 0,1%/năm."
+    },
+    {
+        "text": "VPBank áp dụng biểu lãi suất tiết kiệm tại quầy với lãi suất thấp hơn tương ứng với biểu lãi suất tiết kiệm online 0,1%/năm",
+        "label": "EVENT",
+        "evidence": "VPBank áp dụng biểu lãi suất tiết kiệm tại quầy với lãi suất thấp hơn tương ứng với biểu lãi suất tiết kiệm online 0,1%/năm."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "VPBank áp dụng biểu lãi suất tiết kiệm tại quầy với lãi suất thấp hơn tương ứng với biểu lãi suất tiết kiệm online 0,1%/năm."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm tại quầy của VPBank."
+    },
+    {
+        "text": "ngày 10/4",
+        "label": "DATE",
+        "evidence": "Trước đó, ngày 10/4, VPBank cũng đồng loạt tăng lãi suất tiết kiệm tại tất cả các kỳ hạn vào ngày 10/4."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước đó, ngày 10/4, VPBank cũng đồng loạt tăng lãi suất tiết kiệm tại tất cả các kỳ hạn vào ngày 10/4."
+    },
+    {
+        "text": "VPBank cũng đồng loạt tăng lãi suất tiết kiệm tại tất cả các kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Trước đó, ngày 10/4, VPBank cũng đồng loạt tăng lãi suất tiết kiệm tại tất cả các kỳ hạn vào ngày 10/4."
+    },
+    {
+        "text": "tăng thêm 0,3 điểm % lãi suất huy động các kỳ hạn từ 12-36 tháng",
+        "label": "EVENT",
+        "evidence": "Nhà băng này tăng thêm 0,3 điểm % lãi suất huy động các kỳ hạn từ 12-36 tháng ."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Nhà băng này tăng thêm 0,3 điểm % lãi suất huy động các kỳ hạn từ 12-36 tháng ."
+    },
+    {
+        "text": "Ngày 27/3",
+        "label": "DATE",
+        "evidence": "Ngày 27/3, VPBank cũng tăng lãi suất tiết kiệm ở một số kỳ hạn."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngày 27/3, VPBank cũng tăng lãi suất tiết kiệm ở một số kỳ hạn."
+    },
+    {
+        "text": "VPBank cũng tăng lãi suất tiết kiệm ở một số kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Ngày 27/3, VPBank cũng tăng lãi suất tiết kiệm ở một số kỳ hạn."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 điểm %",
+        "label": "EVENT",
+        "evidence": "Trong đó, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 điểm %, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2 điểm %."
+    },
+    {
+        "text": "0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 điểm %, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2 điểm %."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "Trong đó, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 điểm %, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2 điểm %."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 điểm %, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2 điểm %."
+    }
+]

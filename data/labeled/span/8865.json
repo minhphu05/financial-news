@@ -1,0 +1,432 @@
+[
+    {
+        "text": "Thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng, đặc biệt là các dòng thẻ cao cấp từ hạng Platinum trở lên,"
+    },
+    {
+        "text": "Platinum",
+        "label": "ASSET",
+        "evidence": "từ hạng Platinum trở lên,"
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "dòngthẻ tín dụngVIB hạng Platinum trở lên"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "dòngthẻ tín dụngVIB hạng Platinum trở lên"
+    },
+    {
+        "text": "Platinum",
+        "label": "ASSET",
+        "evidence": "hạng Platinum trở lên"
+    },
+    {
+        "text": "Online Plus 2in 1",
+        "label": "ASSET",
+        "evidence": "như Online Plus 2in 1, Cash Back, Family Link, Travel Élite và Premier Boundless,"
+    },
+    {
+        "text": "Cash Back",
+        "label": "ASSET",
+        "evidence": "Cash Back, Family Link, Travel Élite và Premier Boundless,"
+    },
+    {
+        "text": "Family Link",
+        "label": "ASSET",
+        "evidence": "Family Link, Travel Élite và Premier Boundless,"
+    },
+    {
+        "text": "Travel Élite",
+        "label": "ASSET",
+        "evidence": "Travel Élite và Premier Boundless,"
+    },
+    {
+        "text": "Premier Boundless",
+        "label": "ASSET",
+        "evidence": "Premier Boundless,"
+    },
+    {
+        "text": "15 triệu/tháng",
+        "label": "MONEY",
+        "evidence": "chi tiêu thẻ bình quân từ 15 triệu/tháng trong năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "trong năm 2022"
+    },
+    {
+        "text": "20 triệu/tháng",
+        "label": "MONEY",
+        "evidence": "hoặc 20 triệu/tháng trong 6 tháng đầu năm 2023,"
+    },
+    {
+        "text": "6 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "trong 6 tháng đầu năm 2023,"
+    },
+    {
+        "text": "chương trình \"Mở Khóa Đặc Quyền 3.0\"",
+        "label": "EVENT",
+        "evidence": "chủ thẻ sẽ là hội viên của chương trình \"Mở Khóa Đặc Quyền 3.0\"."
+    },
+    {
+        "text": "Mở khóa Đặc quyền",
+        "label": "EVENT",
+        "evidence": "Bước sang năm thứ 3 triển khai \"Mở khóa Đặc quyền”,"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB dành riêng cho chủ thẻ quyền lợi vượt trội"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "thẻ Bông Sen Vàng hạng Vàng của Vietnam Airlines"
+    },
+    {
+        "text": "thẻ Bông Sen Vàng hạng Vàng",
+        "label": "ASSET",
+        "evidence": "ngân hàng tặng thẻ Bông Sen Vàng hạng Vàng của Vietnam Airlines"
+    },
+    {
+        "text": "tháng 3 đến tháng 8/2023",
+        "label": "DATE",
+        "evidence": "từ tháng 3 đến tháng 8/2023;"
+    },
+    {
+        "text": "thẻ hạng Bạch kim",
+        "label": "ASSET",
+        "evidence": "và 01 thẻ hạng Bạch kim cho khách hàng"
+    },
+    {
+        "text": "600 e-voucher Fast-Track",
+        "label": "ASSET",
+        "evidence": "Cùng với đó là 600 e-voucher Fast-Track để chủ thẻ VIB sử dụng dịch vụ"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ thẻ VIB sử dụng dịch vụ đón hoặc tiễn tại sân bay"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB là hội viên “Mở khóa đặc quyền 3.0”"
+    },
+    {
+        "text": "“Mở khóa đặc quyền 3.0”",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ VIB là hội viên “Mở khóa đặc quyền 3.0”"
+    },
+    {
+        "text": "2 e-voucher Fast-Track",
+        "label": "ASSET",
+        "evidence": "đổi miễn phí đến 2 e-voucher Fast-Track mỗi tháng."
+    },
+    {
+        "text": "29/4 đến 3/5",
+        "label": "DATE",
+        "evidence": "dịp nghỉ lễ kéo dài 5 ngày (29/4 đến 3/5),"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ thẻ VIB có thể kết hợp chi tiêu trong kế hoạch du lịch"
+    },
+    {
+        "text": "thẻ Vàng / Bạch Kim hội viên Bông Sen Vàng",
+        "label": "ASSET",
+        "evidence": "nhận thẻ Vàng / Bạch Kim hội viên Bông Sen Vàng."
+    },
+    {
+        "text": "thẻ Bông Sen Vàng hạng Vàng/Bạch Kim",
+        "label": "ASSET",
+        "evidence": "Nắm trong tay thẻ Bông Sen Vàng hạng Vàng/Bạch Kim,"
+    },
+    {
+        "text": "50-100%",
+        "label": "RATE",
+        "evidence": "nhận 50-100% dặm thưởng trên mỗi chuyến bay,"
+    },
+    {
+        "text": "12 tháng liền",
+        "label": "DATE",
+        "evidence": "trong 12 tháng liền,"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "song chủ thẻ VIB có thể đạt được ngay sau dịp du lịch."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "ưu đãi đến 30% dịch vụ ẩm thực cao cấp"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ thẻ VIB được giảm ngay đến 30% trên hóa đơn"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm ngay đến 30% trên hóa đơn"
+    },
+    {
+        "text": "El Gaucho Steakhouse",
+        "label": "ORG",
+        "evidence": "ở El Gaucho Steakhouse, Korean Grill, Shang Palace, Le Petit, Miyen, Matsuri…"
+    },
+    {
+        "text": "Korean Grill",
+        "label": "ORG",
+        "evidence": "Korean Grill, Shang Palace, Le Petit, Miyen, Matsuri…"
+    },
+    {
+        "text": "Shang Palace",
+        "label": "ORG",
+        "evidence": "Shang Palace, Le Petit, Miyen, Matsuri…"
+    },
+    {
+        "text": "Le Petit",
+        "label": "ORG",
+        "evidence": "Le Petit, Miyen, Matsuri…"
+    },
+    {
+        "text": "Miyen",
+        "label": "ORG",
+        "evidence": "Miyen, Matsuri…"
+    },
+    {
+        "text": "Matsuri",
+        "label": "ORG",
+        "evidence": "Matsuri…"
+    },
+    {
+        "text": "Trống Cơm",
+        "label": "ORG",
+        "evidence": "ở Trống Cơm, Buzza Pizza, The Pizza Company, Sushi in Sushi, Hoàng Yến Buffet…"
+    },
+    {
+        "text": "Buzza Pizza",
+        "label": "ORG",
+        "evidence": "Buzza Pizza, The Pizza Company, Sushi in Sushi, Hoàng Yến Buffet…"
+    },
+    {
+        "text": "The Pizza Company",
+        "label": "ORG",
+        "evidence": "The Pizza Company, Sushi in Sushi, Hoàng Yến Buffet…"
+    },
+    {
+        "text": "Sushi in Sushi",
+        "label": "ORG",
+        "evidence": "Sushi in Sushi, Hoàng Yến Buffet…"
+    },
+    {
+        "text": "Hoàng Yến Buffet",
+        "label": "ORG",
+        "evidence": "Hoàng Yến Buffet…"
+    },
+    {
+        "text": "New World Saigon",
+        "label": "ORG",
+        "evidence": "khách sạn cao cấp như New World Saigon hay Intercontinental Saigon."
+    },
+    {
+        "text": "Intercontinental Saigon",
+        "label": "ORG",
+        "evidence": "hay Intercontinental Saigon."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "ưu đãi đến 30% cho chủ thẻ VIB,"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "cho chủ thẻ VIB,"
+    },
+    {
+        "text": "Park Hyatt Saigon",
+        "label": "ORG",
+        "evidence": "tại khách sạn Park Hyatt Saigon, nhà hàng Square One & nhà hàng Opera"
+    },
+    {
+        "text": "Square One",
+        "label": "ORG",
+        "evidence": "nhà hàng Square One & nhà hàng Opera còn thiết kế thực đơn đặc biệt,"
+    },
+    {
+        "text": "Opera",
+        "label": "ORG",
+        "evidence": "nhà hàng Opera còn thiết kế thực đơn đặc biệt,"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "khách hàng cao cấp của VIB, những Hội viên của “Mở khóa Đặc quyền 3.0”."
+    },
+    {
+        "text": "“Mở khóa Đặc quyền 3.0”",
+        "label": "EVENT",
+        "evidence": "những Hội viên của “Mở khóa Đặc quyền 3.0”."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Mẹo nhỏ của các chủ thẻ VIB là chỉ cần mở app ngân hàng sốMyVIB 2.0"
+    },
+    {
+        "text": "MyVIB 2.0",
+        "label": "ASSET",
+        "evidence": "mở app ngân hàng sốMyVIB 2.0với công nghệ thực tế tăng cường AR."
+    },
+    {
+        "text": "“Mở khóa Đặc quyền 3.0”",
+        "label": "EVENT",
+        "evidence": "Là hội viên của “Mở khóa Đặc quyền 3.0”, chủ thẻ VIB còn sở hữu ngay đặc quyền tài chính"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ thẻ VIB còn sở hữu ngay đặc quyền tài chính"
+    },
+    {
+        "text": "11 dịch vụ",
+        "label": "ASSET",
+        "evidence": "miễn phí 11 dịch vụ cần thiết cho mọi chủ thẻ"
+    },
+    {
+        "text": "gói dịch vụ cao cấp \"Mở Khóa Đặc Quyền 3.0\"",
+        "label": "EVENT",
+        "evidence": "Ngoài gói dịch vụ cao cấp \"Mở Khóa Đặc Quyền 3.0\", chủ thẻ VIB còn nhận được các ưu đãi"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ thẻ VIB còn nhận được các ưu đãi đồng thời khác"
+    },
+    {
+        "text": "VIB Daily Deals",
+        "label": "EVENT",
+        "evidence": "từ thế giớiVIB Daily Deals."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ thẻ tín dụng VIB đang được giảm 10% vé máy bay Vietnam Airlines"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm 10% vé máy bay Vietnam Airlines chặng nội địa;"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "vé máy bay Vietnam Airlines chặng nội địa;"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "giảm 5% chặng quốc tế;"
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "giảm 12% giá phòng khách sạn tại Agoda,"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "giá phòng khách sạn tại Agoda,"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giảm 1 triệu đồng tại IVIVU,"
+    },
+    {
+        "text": "IVIVU",
+        "label": "ORG",
+        "evidence": "tại IVIVU,"
+    },
+    {
+        "text": "250.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm 250.000 đồng tại Klook;"
+    },
+    {
+        "text": "Klook",
+        "label": "ORG",
+        "evidence": "tại Klook;"
+    },
+    {
+        "text": "60.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 60.000 đồng trên Shopee Food,"
+    },
+    {
+        "text": "Shopee Food",
+        "label": "ORG",
+        "evidence": "trên Shopee Food,"
+    },
+    {
+        "text": "30.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm 30.000 đồng trên Grab Food,"
+    },
+    {
+        "text": "Grab Food",
+        "label": "ORG",
+        "evidence": "trên Grab Food,"
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm 20.000 đồng trên Beamin, Be Food;"
+    },
+    {
+        "text": "Beamin",
+        "label": "ORG",
+        "evidence": "trên Beamin, Be Food;"
+    },
+    {
+        "text": "Be Food",
+        "label": "ORG",
+        "evidence": "trên Beamin, Be Food;"
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm đến 500.000 đồng tại Shopee, Lazada"
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "tại Shopee, Lazada"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "Shopee, Lazada"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tại VIB, mỗi chủ thẻ đều là khách hàng VIP,"
+    },
+    {
+        "text": "MyVIB 2.0",
+        "label": "ASSET",
+        "evidence": "trên ứng dụng MyVIB 2.0."
+    }
+]

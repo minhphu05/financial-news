@@ -1,0 +1,492 @@
+[
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "Alphabet",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "Meta Platforms",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "Facebook",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu công nghệ hàng đầu thế giới như Microsoft, NVIDIA, Alphabet (công ty mẹ Google), Meta Platforms (công ty mẹ Facebook),… đều đang được hưởng lợi lớn từ xu hướng này."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Bù lại, 2 cái tên sáng giá nhất làTập đoàn FPT (mã FPT)vàHóa chất Đức Giang (mã DGC)đều đang \"bắt trend\" khá tốt."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Bù lại, 2 cái tên sáng giá nhất làTập đoàn FPT (mã FPT)vàHóa chất Đức Giang (mã DGC)đều đang \"bắt trend\" khá tốt."
+    },
+    {
+        "text": "Hóa chất Đức Giang",
+        "label": "ORG",
+        "evidence": "Bù lại, 2 cái tên sáng giá nhất làTập đoàn FPT (mã FPT)vàHóa chất Đức Giang (mã DGC)đều đang \"bắt trend\" khá tốt."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Bù lại, 2 cái tên sáng giá nhất làTập đoàn FPT (mã FPT)vàHóa chất Đức Giang (mã DGC)đều đang \"bắt trend\" khá tốt."
+    },
+    {
+        "text": "Cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu FPT vừa lập đỉnh mới tại mức giá 110.800 đồng/cp, vốn hóa thị trường cũng theo đó lập kỷ lục hơn 140.000 tỷ đồng (5,7 tỷ USD)."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FPT vừa lập đỉnh mới tại mức giá 110.800 đồng/cp, vốn hóa thị trường cũng theo đó lập kỷ lục hơn 140.000 tỷ đồng (5,7 tỷ USD)."
+    },
+    {
+        "text": "110.800 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu FPT vừa lập đỉnh mới tại mức giá 110.800 đồng/cp, vốn hóa thị trường cũng theo đó lập kỷ lục hơn 140.000 tỷ đồng (5,7 tỷ USD)."
+    },
+    {
+        "text": "hơn 140.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu FPT vừa lập đỉnh mới tại mức giá 110.800 đồng/cp, vốn hóa thị trường cũng theo đó lập kỷ lục hơn 140.000 tỷ đồng (5,7 tỷ USD)."
+    },
+    {
+        "text": "5,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu FPT vừa lập đỉnh mới tại mức giá 110.800 đồng/cp, vốn hóa thị trường cũng theo đó lập kỷ lục hơn 140.000 tỷ đồng (5,7 tỷ USD)."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2024, giá trị của tập đoàn công nghệ số 1 Việt Nam đã tăng thêm 18.700 tỷ (tương đương hơn 15%)."
+    },
+    {
+        "text": "18.700 tỷ",
+        "label": "MONEY",
+        "evidence": "Từ đầu năm 2024, giá trị của tập đoàn công nghệ số 1 Việt Nam đã tăng thêm 18.700 tỷ (tương đương hơn 15%)."
+    },
+    {
+        "text": "hơn 15%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm 2024, giá trị của tập đoàn công nghệ số 1 Việt Nam đã tăng thêm 18.700 tỷ (tương đương hơn 15%)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Kết quả này giúp FPT tiến gần đến top 10 doanh nghiệp niêm yết giá trị nhất sàn chứng khoán Việt Nam."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "2023 là năm đầu tiên tập đoàn ghi nhận doanh thu mảng dịch vụ CNTT nước ngoài vượt 1 tỷ USD, tăng 28% so với năm trước."
+    },
+    {
+        "text": "doanh thu mảng dịch vụ CNTT nước ngoài vượt 1 tỷ USD",
+        "label": "EVENT",
+        "evidence": "2023 là năm đầu tiên tập đoàn ghi nhận doanh thu mảng dịch vụ CNTT nước ngoài vượt 1 tỷ USD, tăng 28% so với năm trước."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "2023 là năm đầu tiên tập đoàn ghi nhận doanh thu mảng dịch vụ CNTT nước ngoài vượt 1 tỷ USD, tăng 28% so với năm trước."
+    },
+    {
+        "text": "28%",
+        "label": "RATE",
+        "evidence": "2023 là năm đầu tiên tập đoàn ghi nhận doanh thu mảng dịch vụ CNTT nước ngoài vượt 1 tỷ USD, tăng 28% so với năm trước."
+    },
+    {
+        "text": "BSC",
+        "label": "ORG",
+        "evidence": "BSC cho rằng AI tạo sinh và nền tảng đám mây sẽ là động lực tăng trưởng mạnh mẽ cho FPT không chỉ trong 2024, mà trong chu kỳ 5-6 năm tiếp theo."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "BSC cho rằng AI tạo sinh và nền tảng đám mây sẽ là động lực tăng trưởng mạnh mẽ cho FPT không chỉ trong 2024, mà trong chu kỳ 5-6 năm tiếp theo."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "BSC cho rằng AI tạo sinh và nền tảng đám mây sẽ là động lực tăng trưởng mạnh mẽ cho FPT không chỉ trong 2024, mà trong chu kỳ 5-6 năm tiếp theo."
+    },
+    {
+        "text": "chu kỳ 5-6 năm tiếp theo",
+        "label": "DATE",
+        "evidence": "BSC cho rằng AI tạo sinh và nền tảng đám mây sẽ là động lực tăng trưởng mạnh mẽ cho FPT không chỉ trong 2024, mà trong chu kỳ 5-6 năm tiếp theo."
+    },
+    {
+        "text": "137 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo dự báo, doanh thu AI tạo sinh thế giới kỳ vọng đạt 137 tỷ USD (+104% yoy) trong 2024 và tăng trưởng với tốc độ 37% CAGR/năm trong giai đoạn từ 2024 - 2030 nhờ (i) những tác động rõ rệt của công nghệ này lên hiệu quả hoạt động ở hầu hết các ngành nghề kinh tế hiện tại; (ii) AI tạo sinh tận dụng tối đa các nguồn dữ liệu lớn (BigData)."
+    },
+    {
+        "text": "+104% yoy",
+        "label": "RATE",
+        "evidence": "Theo dự báo, doanh thu AI tạo sinh thế giới kỳ vọng đạt 137 tỷ USD (+104% yoy) trong 2024 và tăng trưởng với tốc độ 37% CAGR/năm trong giai đoạn từ 2024 - 2030 nhờ (i) những tác động rõ rệt của công nghệ này lên hiệu quả hoạt động ở hầu hết các ngành nghề kinh tế hiện tại; (ii) AI tạo sinh tận dụng tối đa các nguồn dữ liệu lớn (BigData)."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Theo dự báo, doanh thu AI tạo sinh thế giới kỳ vọng đạt 137 tỷ USD (+104% yoy) trong 2024 và tăng trưởng với tốc độ 37% CAGR/năm trong giai đoạn từ 2024 - 2030 nhờ (i) những tác động rõ rệt của công nghệ này lên hiệu quả hoạt động ở hầu hết các ngành nghề kinh tế hiện tại; (ii) AI tạo sinh tận dụng tối đa các nguồn dữ liệu lớn (BigData)."
+    },
+    {
+        "text": "37% CAGR/năm",
+        "label": "RATE",
+        "evidence": "Theo dự báo, doanh thu AI tạo sinh thế giới kỳ vọng đạt 137 tỷ USD (+104% yoy) trong 2024 và tăng trưởng với tốc độ 37% CAGR/năm trong giai đoạn từ 2024 - 2030 nhờ (i) những tác động rõ rệt của công nghệ này lên hiệu quả hoạt động ở hầu hết các ngành nghề kinh tế hiện tại; (ii) AI tạo sinh tận dụng tối đa các nguồn dữ liệu lớn (BigData)."
+    },
+    {
+        "text": "2024 - 2030",
+        "label": "DATE",
+        "evidence": "Theo dự báo, doanh thu AI tạo sinh thế giới kỳ vọng đạt 137 tỷ USD (+104% yoy) trong 2024 và tăng trưởng với tốc độ 37% CAGR/năm trong giai đoạn từ 2024 - 2030 nhờ (i) những tác động rõ rệt của công nghệ này lên hiệu quả hoạt động ở hầu hết các ngành nghề kinh tế hiện tại; (ii) AI tạo sinh tận dụng tối đa các nguồn dữ liệu lớn (BigData)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài",
+        "label": "EVENT",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "25% CAGR/năm",
+        "label": "RATE",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "M&A",
+        "label": "EVENT",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "2024 - 2030",
+        "label": "DATE",
+        "evidence": "Ban lãnh đạo FPT cũng đặt ra kế hoạch đạt 5 tỷ USD tại các thị trường nước ngoài (tương đương 25% CAGR/năm) vào năm 2030 nhờ (1) dư địa cải thiện thị phần lớn, giá thành cạnh tranh, dịch vụ chất lượng (2) tích cực trong các hoạt động M&A tại các thị trường nước ngoài (3) nhu cầu chuyển đổi số lớn trong giai đoạn 2024 - 2030."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Đồng quan điểm, SSI Research kỳ vọng FPT sẽ tăng doanh thu từ AI trong năm 2024 (hiện ở mức tương đối nhỏ trong tổng doanh thu) để cải thiện kết quả kinh doanh chung."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đồng quan điểm, SSI Research kỳ vọng FPT sẽ tăng doanh thu từ AI trong năm 2024 (hiện ở mức tương đối nhỏ trong tổng doanh thu) để cải thiện kết quả kinh doanh chung."
+    },
+    {
+        "text": "tăng doanh thu từ AI trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Đồng quan điểm, SSI Research kỳ vọng FPT sẽ tăng doanh thu từ AI trong năm 2024 (hiện ở mức tương đối nhỏ trong tổng doanh thu) để cải thiện kết quả kinh doanh chung."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đồng quan điểm, SSI Research kỳ vọng FPT sẽ tăng doanh thu từ AI trong năm 2024 (hiện ở mức tương đối nhỏ trong tổng doanh thu) để cải thiện kết quả kinh doanh chung."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo FPT, công ty có kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng và công ty cũng đang thúc đẩy hợp tác với NVIDIA liên quan đến AI."
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Theo FPT, công ty có kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng và công ty cũng đang thúc đẩy hợp tác với NVIDIA liên quan đến AI."
+    },
+    {
+        "text": "kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng",
+        "label": "EVENT",
+        "evidence": "Theo FPT, công ty có kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng và công ty cũng đang thúc đẩy hợp tác với NVIDIA liên quan đến AI."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Theo FPT, công ty có kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng và công ty cũng đang thúc đẩy hợp tác với NVIDIA liên quan đến AI."
+    },
+    {
+        "text": "thúc đẩy hợp tác với NVIDIA liên quan đến AI",
+        "label": "EVENT",
+        "evidence": "Theo FPT, công ty có kế hoạch hợp tác với Microsoft để phát triển thêm \"use case\" về generative AI cho khách hàng và công ty cũng đang thúc đẩy hợp tác với NVIDIA liên quan đến AI."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Đối với ngành bán dẫn trong nước, Chính phủ đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030, trong đó FPT sẽ đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này."
+    },
+    {
+        "text": "đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030",
+        "label": "EVENT",
+        "evidence": "Đối với ngành bán dẫn trong nước, Chính phủ đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030, trong đó FPT sẽ đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này."
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "Đối với ngành bán dẫn trong nước, Chính phủ đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030, trong đó FPT sẽ đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đối với ngành bán dẫn trong nước, Chính phủ đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030, trong đó FPT sẽ đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này."
+    },
+    {
+        "text": "đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này",
+        "label": "EVENT",
+        "evidence": "Đối với ngành bán dẫn trong nước, Chính phủ đặt mục tiêu đào tạo khoảng 30.000-50.000 kỹ sư và chuyên bán dẫn đến năm 2030, trong đó FPT sẽ đào tạo khoảng 10.000-15.000 chuyên gia cho ngành này."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Để theo đuổi mục tiêu này, trong quý 3/2023, Khoa Vi mạch bán dẫn đã được Đại học FPT thành lập và đặt mục tiêu đào tạo lứa sinh viên đầu tiên vào năm 2024."
+    },
+    {
+        "text": "Khoa Vi mạch bán dẫn đã được Đại học FPT thành lập",
+        "label": "EVENT",
+        "evidence": "Để theo đuổi mục tiêu này, trong quý 3/2023, Khoa Vi mạch bán dẫn đã được Đại học FPT thành lập và đặt mục tiêu đào tạo lứa sinh viên đầu tiên vào năm 2024."
+    },
+    {
+        "text": "Đại học FPT",
+        "label": "ORG",
+        "evidence": "Để theo đuổi mục tiêu này, trong quý 3/2023, Khoa Vi mạch bán dẫn đã được Đại học FPT thành lập và đặt mục tiêu đào tạo lứa sinh viên đầu tiên vào năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Để theo đuổi mục tiêu này, trong quý 3/2023, Khoa Vi mạch bán dẫn đã được Đại học FPT thành lập và đặt mục tiêu đào tạo lứa sinh viên đầu tiên vào năm 2024."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Nhắc đến ngành công nghiệp bán dẫn không thể bỏ qua DGC, chiếm tới gần 1/3 tổng xuất khẩu photpho vàng (nguyên liệu sản suất chip) trên toàn cầu."
+    },
+    {
+        "text": "cổ phiếu DGC",
+        "label": "ASSET",
+        "evidence": "Con sóng bán dẫn cũng đẩycổ phiếu DGCbứt phá mạnh thời gian qua."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Con sóng bán dẫn cũng đẩycổ phiếu DGCbứt phá mạnh thời gian qua."
+    },
+    {
+        "text": "hơn 20%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm 2024, cổ phiếu này đã tăng hơn 20% qua đó tiến gần về đỉnh lịch sử đạt được hồi giữa tháng 6/2022."
+    },
+    {
+        "text": "Từ đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2024, cổ phiếu này đã tăng hơn 20% qua đó tiến gần về đỉnh lịch sử đạt được hồi giữa tháng 6/2022."
+    },
+    {
+        "text": "giữa tháng 6/2022",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2024, cổ phiếu này đã tăng hơn 20% qua đó tiến gần về đỉnh lịch sử đạt được hồi giữa tháng 6/2022."
+    },
+    {
+        "text": "43.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị vốn hóa tương ứng đạt xấp xỉ 43.200 tỷ đồng (1,8 tỷ USD), gấp 2,4 lần thời điểm một năm trước."
+    },
+    {
+        "text": "1,8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Giá trị vốn hóa tương ứng đạt xấp xỉ 43.200 tỷ đồng (1,8 tỷ USD), gấp 2,4 lần thời điểm một năm trước."
+    },
+    {
+        "text": "2,4 lần",
+        "label": "RATE",
+        "evidence": "Giá trị vốn hóa tương ứng đạt xấp xỉ 43.200 tỷ đồng (1,8 tỷ USD), gấp 2,4 lần thời điểm một năm trước."
+    },
+    {
+        "text": "một năm trước",
+        "label": "DATE",
+        "evidence": "Giá trị vốn hóa tương ứng đạt xấp xỉ 43.200 tỷ đồng (1,8 tỷ USD), gấp 2,4 lần thời điểm một năm trước."
+    },
+    {
+        "text": "Chứng khoán Vietcap",
+        "label": "ORG",
+        "evidence": "Chứng khoán Vietcap (VCSC) dự báo nhu cầu photpho vàng toàn cầu sẽ tăng trưởng ở mức một chữ số trong trung hạn, được dẫn dắt bởi nhu cầu pin EV và nhu cầu chip từ trí tuệ nhân tạo."
+    },
+    {
+        "text": "VCSC",
+        "label": "ORG",
+        "evidence": "Chứng khoán Vietcap (VCSC) dự báo nhu cầu photpho vàng toàn cầu sẽ tăng trưởng ở mức một chữ số trong trung hạn, được dẫn dắt bởi nhu cầu pin EV và nhu cầu chip từ trí tuệ nhân tạo."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Trong đó, DGC sẽ hưởng lợi và tiếp tục giành thị phần trên thị trường hóa chất photpho công nghiệp (IPC) trong trung hạn khi Trung Quốc không còn xuất khẩu photpho vàng."
+    },
+    {
+        "text": "Trung Quốc",
+        "label": "ORG",
+        "evidence": "Trong đó, DGC sẽ hưởng lợi và tiếp tục giành thị phần trên thị trường hóa chất photpho công nghiệp (IPC) trong trung hạn khi Trung Quốc không còn xuất khẩu photpho vàng."
+    },
+    {
+        "text": "Hiệp hội ngành Quốc tế về Thiết bị và Vật liệu Bán dẫn",
+        "label": "ORG",
+        "evidence": "Hiệp hội ngành Quốc tế về Thiết bị và Vật liệu Bán dẫn (SEMI) dự báo doanh số bán dẫn toàn cầu sẽ tăng 12% so với cùng kỳ vào năm 2024."
+    },
+    {
+        "text": "SEMI",
+        "label": "ORG",
+        "evidence": "Hiệp hội ngành Quốc tế về Thiết bị và Vật liệu Bán dẫn (SEMI) dự báo doanh số bán dẫn toàn cầu sẽ tăng 12% so với cùng kỳ vào năm 2024."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "Hiệp hội ngành Quốc tế về Thiết bị và Vật liệu Bán dẫn (SEMI) dự báo doanh số bán dẫn toàn cầu sẽ tăng 12% so với cùng kỳ vào năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Hiệp hội ngành Quốc tế về Thiết bị và Vật liệu Bán dẫn (SEMI) dự báo doanh số bán dẫn toàn cầu sẽ tăng 12% so với cùng kỳ vào năm 2024."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực bán dẫn, DGC đã thiết lập sự hiện diện thống trị ở Đông Á (trừ Trung Quốc) trên thị trường photpho vàng và đang nhanh chóng xâm nhập vào thị trường Mỹ."
+    },
+    {
+        "text": "Trung Quốc",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực bán dẫn, DGC đã thiết lập sự hiện diện thống trị ở Đông Á (trừ Trung Quốc) trên thị trường photpho vàng và đang nhanh chóng xâm nhập vào thị trường Mỹ."
+    },
+    {
+        "text": "Mỹ",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực bán dẫn, DGC đã thiết lập sự hiện diện thống trị ở Đông Á (trừ Trung Quốc) trên thị trường photpho vàng và đang nhanh chóng xâm nhập vào thị trường Mỹ."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Theo Vietcap, DGC dự kiến hưởng lợi từ việc tăng cường sản xuất chip của Hoa Kỳ và các đồng minh, không phụ thuộc vào vị trí của các nhà máy."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Theo Vietcap, DGC dự kiến hưởng lợi từ việc tăng cường sản xuất chip của Hoa Kỳ và các đồng minh, không phụ thuộc vào vị trí của các nhà máy."
+    },
+    {
+        "text": "tăng cường sản xuất chip của Hoa Kỳ và các đồng minh",
+        "label": "EVENT",
+        "evidence": "Theo Vietcap, DGC dự kiến hưởng lợi từ việc tăng cường sản xuất chip của Hoa Kỳ và các đồng minh, không phụ thuộc vào vị trí của các nhà máy."
+    },
+    {
+        "text": "Hoa Kỳ",
+        "label": "ORG",
+        "evidence": "Theo Vietcap, DGC dự kiến hưởng lợi từ việc tăng cường sản xuất chip của Hoa Kỳ và các đồng minh, không phụ thuộc vào vị trí của các nhà máy."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Tiềm năng lớn nhưng ban lãnh đạo DGC vẫn khá thận trọng trong kế hoạch kinh doanh năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tiềm năng lớn nhưng ban lãnh đạo DGC vẫn khá thận trọng trong kế hoạch kinh doanh năm 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "10.202 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "4,6%",
+        "label": "RATE",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "3.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "4,4%",
+        "label": "RATE",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Theo tài liệu họp ĐHĐCĐ thường niên 2024, DGC đặt mục tiêu tổng doanh thu hợp nhất 10.202 tỷ đồng, tăng 4,6% nhưng lợi nhuận sau thuế dự kiến chỉ ở mức 3.100 tỷ đồng, giảm 4,4% so với thực hiện 2023."
+    },
+    {
+        "text": "Cổ tức năm 2024 dự kiến duy trì mức 30%",
+        "label": "EVENT",
+        "evidence": "Cổ tức năm 2024 dự kiến duy trì mức 30%."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cổ tức năm 2024 dự kiến duy trì mức 30%."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Cổ tức năm 2024 dự kiến duy trì mức 30%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Việt Nam dù chưa có nhiều đại diện nhưng ít nhất 2 cái tên FPT và DGC cũng đang tận dụng tốt thế mạnh để \"bắt trend\"."
+    },
+    {
+        "text": "DGC",
+        "label": "ORG",
+        "evidence": "Việt Nam dù chưa có nhiều đại diện nhưng ít nhất 2 cái tên FPT và DGC cũng đang tận dụng tốt thế mạnh để \"bắt trend\"."
+    }
+]

@@ -1,0 +1,787 @@
+[
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Kết thúc quý I, VIB ghi nhận lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng, tăng 18% so với cùng kỳ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Kết thúc quý I, VIB ghi nhận lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng, tăng 18% so với cùng kỳ."
+    },
+    {
+        "text": "lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Kết thúc quý I, VIB ghi nhận lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng, tăng 18% so với cùng kỳ."
+    },
+    {
+        "text": "2.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết thúc quý I, VIB ghi nhận lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng, tăng 18% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 18%",
+        "label": "RATE",
+        "evidence": "Kết thúc quý I, VIB ghi nhận lợi nhuận trước thuế đạt xấp xỉ 2.700 tỷ đồng, tăng 18% so với cùng kỳ."
+    },
+    {
+        "text": "tổng thu nhập hoạt động đạt hơn 4.900 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, tổng thu nhập hoạt động đạt hơn 4.900 tỷ đồng, tăng trưởng hơn 19%."
+    },
+    {
+        "text": "4.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tổng thu nhập hoạt động đạt hơn 4.900 tỷ đồng, tăng trưởng hơn 19%."
+    },
+    {
+        "text": "tăng trưởng hơn 19%",
+        "label": "RATE",
+        "evidence": "Trong đó, tổng thu nhập hoạt động đạt hơn 4.900 tỷ đồng, tăng trưởng hơn 19%."
+    },
+    {
+        "text": "biên lãi ròng (NIM)",
+        "label": "ASSET",
+        "evidence": "Ngân hàng duy trì biên lãi ròng (NIM) hiệu quả cao ở mức 4,6% trong bối cảnh cả lãi suất huy động và lãi suất cho vay có nhiều biến động."
+    },
+    {
+        "text": "NIM",
+        "label": "ASSET",
+        "evidence": "Ngân hàng duy trì biên lãi ròng (NIM) hiệu quả cao ở mức 4,6% trong bối cảnh cả lãi suất huy động và lãi suất cho vay có nhiều biến động."
+    },
+    {
+        "text": "4,6%",
+        "label": "RATE",
+        "evidence": "Ngân hàng duy trì biên lãi ròng (NIM) hiệu quả cao ở mức 4,6% trong bối cảnh cả lãi suất huy động và lãi suất cho vay có nhiều biến động."
+    },
+    {
+        "text": "hệ số chi phí hoạt động trên doanh thu (CIR)",
+        "label": "ASSET",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "CIR",
+        "label": "ASSET",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "giảm xuống đáng kể, chỉ còn 32%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "quý 1.2023",
+        "label": "DATE",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động được kiểm soát tốt giúp hệ số chi phí hoạt động trên doanh thu (CIR) giảm xuống đáng kể, chỉ còn 32% trong quý 1.2023 so với 35% cùng kỳ năm trước."
+    },
+    {
+        "text": "lợi nhuận trước dự phòng của ngân hàng đạt hơn 3.360 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Nhờ đó, lợi nhuận trước dự phòng của ngân hàng đạt hơn 3.360 tỷ đồng, tăng 26% so với quý 1.2022."
+    },
+    {
+        "text": "3.360 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhờ đó, lợi nhuận trước dự phòng của ngân hàng đạt hơn 3.360 tỷ đồng, tăng 26% so với quý 1.2022."
+    },
+    {
+        "text": "tăng 26%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, lợi nhuận trước dự phòng của ngân hàng đạt hơn 3.360 tỷ đồng, tăng 26% so với quý 1.2022."
+    },
+    {
+        "text": "quý 1.2022",
+        "label": "DATE",
+        "evidence": "Nhờ đó, lợi nhuận trước dự phòng của ngân hàng đạt hơn 3.360 tỷ đồng, tăng 26% so với quý 1.2022."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Với bối cảnh thị trường chung, phân khúc khách hàng bán lẻ của nền kinh tế nói chung và VIB nói riêng gặp khó khăn nên tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6% vào cuối 3.2023."
+    },
+    {
+        "text": "tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6%",
+        "label": "EVENT",
+        "evidence": "Với bối cảnh thị trường chung, phân khúc khách hàng bán lẻ của nền kinh tế nói chung và VIB nói riêng gặp khó khăn nên tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6% vào cuối 3.2023."
+    },
+    {
+        "text": "1,8%",
+        "label": "RATE",
+        "evidence": "Với bối cảnh thị trường chung, phân khúc khách hàng bán lẻ của nền kinh tế nói chung và VIB nói riêng gặp khó khăn nên tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6% vào cuối 3.2023."
+    },
+    {
+        "text": "2,6%",
+        "label": "RATE",
+        "evidence": "Với bối cảnh thị trường chung, phân khúc khách hàng bán lẻ của nền kinh tế nói chung và VIB nói riêng gặp khó khăn nên tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6% vào cuối 3.2023."
+    },
+    {
+        "text": "cuối 3.2023",
+        "label": "DATE",
+        "evidence": "Với bối cảnh thị trường chung, phân khúc khách hàng bán lẻ của nền kinh tế nói chung và VIB nói riêng gặp khó khăn nên tỷ lệ nợ xấu của VIB tạm thời tăng từ 1,8% lên 2,6% vào cuối 3.2023."
+    },
+    {
+        "text": "mức trích lập dự phòng rủi ro là 668 tỷ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đã gia tăng bộ đệm phòng ngừa rủi ro với mức trích lập dự phòng rủi ro là 668 tỷ trong quý 1, tăng gần 70% so với cùng kỳ."
+    },
+    {
+        "text": "668 tỷ",
+        "label": "MONEY",
+        "evidence": "Ngân hàng đã gia tăng bộ đệm phòng ngừa rủi ro với mức trích lập dự phòng rủi ro là 668 tỷ trong quý 1, tăng gần 70% so với cùng kỳ."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Ngân hàng đã gia tăng bộ đệm phòng ngừa rủi ro với mức trích lập dự phòng rủi ro là 668 tỷ trong quý 1, tăng gần 70% so với cùng kỳ."
+    },
+    {
+        "text": "tăng gần 70%",
+        "label": "RATE",
+        "evidence": "Ngân hàng đã gia tăng bộ đệm phòng ngừa rủi ro với mức trích lập dự phòng rủi ro là 668 tỷ trong quý 1, tăng gần 70% so với cùng kỳ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tổng kết quý 1, VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế, với mức lãi này ngân hàng tiếp tục duy trì ROE ở mức 30%, cao nhất ngành năm thứ 4 liên tiếp."
+    },
+    {
+        "text": "VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế",
+        "label": "EVENT",
+        "evidence": "Tổng kết quý 1, VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế, với mức lãi này ngân hàng tiếp tục duy trì ROE ở mức 30%, cao nhất ngành năm thứ 4 liên tiếp."
+    },
+    {
+        "text": "2.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng kết quý 1, VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế, với mức lãi này ngân hàng tiếp tục duy trì ROE ở mức 30%, cao nhất ngành năm thứ 4 liên tiếp."
+    },
+    {
+        "text": "ROE",
+        "label": "ASSET",
+        "evidence": "Tổng kết quý 1, VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế, với mức lãi này ngân hàng tiếp tục duy trì ROE ở mức 30%, cao nhất ngành năm thứ 4 liên tiếp."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Tổng kết quý 1, VIB báo lãi gần 2.700 tỷ đồng lợi nhuận trước thuế, với mức lãi này ngân hàng tiếp tục duy trì ROE ở mức 30%, cao nhất ngành năm thứ 4 liên tiếp."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng vào cuối tháng 3.2023, tăng trưởng 4,2% so với đầu năm."
+    },
+    {
+        "text": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng vào cuối tháng 3.2023, tăng trưởng 4,2% so với đầu năm."
+    },
+    {
+        "text": "357.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng vào cuối tháng 3.2023, tăng trưởng 4,2% so với đầu năm."
+    },
+    {
+        "text": "cuối tháng 3.2023",
+        "label": "DATE",
+        "evidence": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng vào cuối tháng 3.2023, tăng trưởng 4,2% so với đầu năm."
+    },
+    {
+        "text": "tăng trưởng 4,2%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản của VIB đạt hơn 357.000 tỷ đồng vào cuối tháng 3.2023, tăng trưởng 4,2% so với đầu năm."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Về tăng trưởng tín dụng, trong bối cảnh lãi suất còn ở mức cao, tình hình thị trường nhà đất, thị trường tiêu dùng và đầu tư đang chững lại nên tín dụng của VIB giảm nhẹ 1,2%, tuy nhiên nhịp điệu kinh doanh đã dần được đẩy mạnh trong tháng 3, tạo tiền đề cho Quý 2 với kỳ vọng tăng trưởng tích cực."
+    },
+    {
+        "text": "tín dụng của VIB giảm nhẹ 1,2%",
+        "label": "EVENT",
+        "evidence": "Về tăng trưởng tín dụng, trong bối cảnh lãi suất còn ở mức cao, tình hình thị trường nhà đất, thị trường tiêu dùng và đầu tư đang chững lại nên tín dụng của VIB giảm nhẹ 1,2%, tuy nhiên nhịp điệu kinh doanh đã dần được đẩy mạnh trong tháng 3, tạo tiền đề cho Quý 2 với kỳ vọng tăng trưởng tích cực."
+    },
+    {
+        "text": "1,2%",
+        "label": "RATE",
+        "evidence": "Về tăng trưởng tín dụng, trong bối cảnh lãi suất còn ở mức cao, tình hình thị trường nhà đất, thị trường tiêu dùng và đầu tư đang chững lại nên tín dụng của VIB giảm nhẹ 1,2%, tuy nhiên nhịp điệu kinh doanh đã dần được đẩy mạnh trong tháng 3, tạo tiền đề cho Quý 2 với kỳ vọng tăng trưởng tích cực."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Về tăng trưởng tín dụng, trong bối cảnh lãi suất còn ở mức cao, tình hình thị trường nhà đất, thị trường tiêu dùng và đầu tư đang chững lại nên tín dụng của VIB giảm nhẹ 1,2%, tuy nhiên nhịp điệu kinh doanh đã dần được đẩy mạnh trong tháng 3, tạo tiền đề cho Quý 2 với kỳ vọng tăng trưởng tích cực."
+    },
+    {
+        "text": "Quý 2",
+        "label": "DATE",
+        "evidence": "Về tăng trưởng tín dụng, trong bối cảnh lãi suất còn ở mức cao, tình hình thị trường nhà đất, thị trường tiêu dùng và đầu tư đang chững lại nên tín dụng của VIB giảm nhẹ 1,2%, tuy nhiên nhịp điệu kinh doanh đã dần được đẩy mạnh trong tháng 3, tạo tiền đề cho Quý 2 với kỳ vọng tăng trưởng tích cực."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Hiện nay, VIB là một trong những ngân hàng có rủi ro tín dụng tập trung thấp nhất thị trường với tỷ trọng dư nợ bán lẻ chiếm tới gần 90% tổng danh mục cho vay."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Hiện nay, VIB là một trong những ngân hàng có rủi ro tín dụng tập trung thấp nhất thị trường với tỷ trọng dư nợ bán lẻ chiếm tới gần 90% tổng danh mục cho vay."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, VIB có số dư đầu tư trái phiếu doanh nghiệp ở nhóm thấp nhất ngành, khoảng 1.500 tỷ đồng tương đương 0,6% tổng dư nợ tín dụng, trong đó phần lớn là trái phiếu thuộc lĩnh vực sản xuất, thương mại và tiêu dùng."
+    },
+    {
+        "text": "1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, VIB có số dư đầu tư trái phiếu doanh nghiệp ở nhóm thấp nhất ngành, khoảng 1.500 tỷ đồng tương đương 0,6% tổng dư nợ tín dụng, trong đó phần lớn là trái phiếu thuộc lĩnh vực sản xuất, thương mại và tiêu dùng."
+    },
+    {
+        "text": "0,6%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, VIB có số dư đầu tư trái phiếu doanh nghiệp ở nhóm thấp nhất ngành, khoảng 1.500 tỷ đồng tương đương 0,6% tổng dư nợ tín dụng, trong đó phần lớn là trái phiếu thuộc lĩnh vực sản xuất, thương mại và tiêu dùng."
+    },
+    {
+        "text": "ROE",
+        "label": "ASSET",
+        "evidence": "Biểu đồ: Tỷ trọng bán lẻ trên tổng dư nợ và ROE của các ngân hàng năm 2022. Nguồn: Fiinpro, Báo cáo tài chính các ngân hàng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Biểu đồ: Tỷ trọng bán lẻ trên tổng dư nợ và ROE của các ngân hàng năm 2022. Nguồn: Fiinpro, Báo cáo tài chính các ngân hàng."
+    },
+    {
+        "text": "Fiinpro",
+        "label": "ORG",
+        "evidence": "Nguồn: Fiinpro, Báo cáo tài chính các ngân hàng."
+    },
+    {
+        "text": "hết tháng 3.2023",
+        "label": "DATE",
+        "evidence": "Tính đến hết tháng 3.2023, nguồn vốn huy động của VIB đạt hơn 248.000 tỷ đồng, bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tính đến hết tháng 3.2023, nguồn vốn huy động của VIB đạt hơn 248.000 tỷ đồng, bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "nguồn vốn huy động của VIB đạt hơn 248.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tính đến hết tháng 3.2023, nguồn vốn huy động của VIB đạt hơn 248.000 tỷ đồng, bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "248.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến hết tháng 3.2023, nguồn vốn huy động của VIB đạt hơn 248.000 tỷ đồng, bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "ADB",
+        "label": "ORG",
+        "evidence": "bao gồm tiền gửi khách hàng, giấy tờ có giá, huy động từ các định chế quốc tế như IFC, ADB."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "Ngân hàng thế giới",
+        "label": "ORG",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB",
+        "label": "EVENT",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "100 triệu đô",
+        "label": "MONEY",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong tháng 3, IFC, thành viên của Ngân hàng thế giới đã phê duyệt khoản vay trị giá 100 triệu đô trong 5 năm choVIB."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "Thỏa thuận dự kiến được ký kết trong tháng 5 sẽ giúp VIB tăng cường giải ngân cho lĩnh vực nhà ở trong thời gian tới."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Thỏa thuận dự kiến được ký kết trong tháng 5 sẽ giúp VIB tăng cường giải ngân cho lĩnh vực nhà ở trong thời gian tới."
+    },
+    {
+        "text": "tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ",
+        "label": "EVENT",
+        "evidence": "Khoản vay này góp phần đưa tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "Khoản vay này góp phần đưa tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ."
+    },
+    {
+        "text": "ADB",
+        "label": "ORG",
+        "evidence": "Khoản vay này góp phần đưa tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Khoản vay này góp phần đưa tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ."
+    },
+    {
+        "text": "1,5 tỷ đô la Mỹ",
+        "label": "MONEY",
+        "evidence": "Khoản vay này góp phần đưa tổng hạn mức tín dụng mà các định chế quốc tế như IFC, ADB… cấp cho VIB lên đến 1,5 tỷ đô la Mỹ."
+    },
+    {
+        "text": "hệ số cho vay trên tổng tiền gửi (LDR)",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "LDR",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "71,5%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "85%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "hệ số nguồn vốn ngắn hạn cho vay trung dài hạn",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "28,3%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "37%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "hệ số an toàn vốn (CAR Basel II)",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "CAR Basel II",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "12,3%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "hệ số nguồn vốn ổn định ròng theo Basel III (NSFR)",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "Basel III",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "NSFR",
+        "label": "ASSET",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "112%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Các chỉ số an toàn ở mức tối ưu, trong đó hệ số cho vay trên tổng tiền gửi (LDR) ở mức 71,5% (quy định dưới 85%), hệ số nguồn vốn ngắn hạn cho vay trung dài hạn 28,3% (quy định dưới 37%), hệ số an toàn vốn (CAR Basel II) ở mức 12,3% (quy định trên 8%) và hệ số nguồn vốn ổn định ròng theo Basel III (NSFR) khoảng 112% (quy định của Basel III tối thiểu là 100%)."
+    },
+    {
+        "text": "Ngân hàng nhà nước",
+        "label": "ORG",
+        "evidence": "Về xếp hạng bởi Ngân hàng nhà nước (NHNN): Trong năm 2022, VIB nhận được kết quả do Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Về xếp hạng bởi Ngân hàng nhà nước (NHNN): Trong năm 2022, VIB nhận được kết quả do Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, VIB nhận được kết quả do Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong năm 2022, VIB nhận được kết quả do Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành."
+    },
+    {
+        "text": "Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành",
+        "label": "EVENT",
+        "evidence": "Trong năm 2022, VIB nhận được kết quả do Ngân hàng Nhà nước xếp hạng ở nhóm cao nhất ngành."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Với hiệu quả kinh doanh cao, an toàn về cả mặt định lượng và định tính, VIB đã sử dụng phương pháp luận do NHNN ban hành để tự đánh giá, kết quả tiếp tục duy trì ở thứ hạng cao nhất (kết quả chính thức sẽ do NHNN công bố trong năm 2023)."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Với hiệu quả kinh doanh cao, an toàn về cả mặt định lượng và định tính, VIB đã sử dụng phương pháp luận do NHNN ban hành để tự đánh giá, kết quả tiếp tục duy trì ở thứ hạng cao nhất (kết quả chính thức sẽ do NHNN công bố trong năm 2023)."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "ĐHĐCĐ VIB",
+        "label": "ORG",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Trong quý 1, ĐHĐCĐ VIB đã thông qua kế hoạch chi trả cổ tức ở mức 35% bao gồm 15% cổ tức tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "Đầu tháng 3 năm 2023",
+        "label": "DATE",
+        "evidence": "Đầu tháng 3 năm 2023, ngân hàng đã hoàn tất phân phối 10% cổ tức tiền mặt."
+    },
+    {
+        "text": "hoàn tất phân phối 10% cổ tức tiền mặt",
+        "label": "EVENT",
+        "evidence": "Đầu tháng 3 năm 2023, ngân hàng đã hoàn tất phân phối 10% cổ tức tiền mặt."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Đầu tháng 3 năm 2023, ngân hàng đã hoàn tất phân phối 10% cổ tức tiền mặt."
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "Đầu tháng 3 năm 2023, ngân hàng đã hoàn tất phân phối 10% cổ tức tiền mặt."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)",
+        "label": "EVENT",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "cổ phiếu thưởng",
+        "label": "ASSET",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "7,6 triệu cổ phiếu thưởng",
+        "label": "VOLUME",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "ESOP",
+        "label": "ASSET",
+        "evidence": "Hiện VIB đang trong giai đoạn triển khai chi trả 5% cổ tức tiền mặt còn lại và 20% cổ phiếu thưởng cho cổ đông cùng 7,6 triệu cổ phiếu thưởng cho cán bộ nhân viên (ESOP)."
+    },
+    {
+        "text": "ROE",
+        "label": "ASSET",
+        "evidence": "Hiệu quả sinh lời trên vốn chủ sở hữu (ROE) được duy trì trung bình 30% trong nhiều năm liên tục đã tạo ra mức cổ tức hấp dẫn, đồng thời tạo nguồn vốn chủ sở hữu dồi dào bổ sung vào hoạt động của ngân hàng."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Hiệu quả sinh lời trên vốn chủ sở hữu (ROE) được duy trì trung bình 30% trong nhiều năm liên tục đã tạo ra mức cổ tức hấp dẫn, đồng thời tạo nguồn vốn chủ sở hữu dồi dào bổ sung vào hoạt động của ngân hàng."
+    },
+    {
+        "text": "cổ tức tiền mặt 10%",
+        "label": "ASSET",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "hệ số an toàn vốn của ngân hàng (CAR Basel II)",
+        "label": "ASSET",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "CAR Basel II",
+        "label": "ASSET",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "12,3%",
+        "label": "RATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "ngày 31.03.2023",
+        "label": "DATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "12%-13%",
+        "label": "RATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Sau khi chi trả cổ tức tiền mặt 10%, hệ số an toàn vốn của ngân hàng (CAR Basel II) vẫn ở mức cao, đạt 12,3% tại ngày 31.03.2023 và dự kiến sẽ được duy trì mức 12%-13% trong năm 2023 so với quy định của NHNN là tối thiểu 8%."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Nhờ đó, trong năm 2022 VIB ghi nhận sự tăng trưởng vượt bậc với số lượng giao dịch ngân hàng số tăng hơn 100% so với cùng kỳ và đạt tỷ lệ 93% giao dịch qua kênh số."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Nhờ đó, trong năm 2022 VIB ghi nhận sự tăng trưởng vượt bậc với số lượng giao dịch ngân hàng số tăng hơn 100% so với cùng kỳ và đạt tỷ lệ 93% giao dịch qua kênh số."
+    },
+    {
+        "text": "số lượng giao dịch ngân hàng số tăng hơn 100%",
+        "label": "EVENT",
+        "evidence": "Nhờ đó, trong năm 2022 VIB ghi nhận sự tăng trưởng vượt bậc với số lượng giao dịch ngân hàng số tăng hơn 100% so với cùng kỳ và đạt tỷ lệ 93% giao dịch qua kênh số."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, trong năm 2022 VIB ghi nhận sự tăng trưởng vượt bậc với số lượng giao dịch ngân hàng số tăng hơn 100% so với cùng kỳ và đạt tỷ lệ 93% giao dịch qua kênh số."
+    },
+    {
+        "text": "93%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, trong năm 2022 VIB ghi nhận sự tăng trưởng vượt bậc với số lượng giao dịch ngân hàng số tăng hơn 100% so với cùng kỳ và đạt tỷ lệ 93% giao dịch qua kênh số."
+    },
+    {
+        "text": "MyVIB",
+        "label": "ASSET",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "The Asset",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "The Banker",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "Global Finance Review",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "Visa card",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "AWS",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Tính đến nay, ứng dụng Ngân hàng số MyVIB và các giải pháp công nghệ đã nhận được nhiều giải thưởng và ghi nhận từ các tổ chức uy tín như The Asset, The Banker, Global Finance Review, Mastercard, Visa card, AWS và Microsoft."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Trong tháng 3 vừa qua, trên trang web toàn cầu của Microsoft, VIB được xem là \"một trong những ngân hàng đầu tiên trong khu vực chuyển đổi sang ngân hàng số và đã đạt được nhiều thành công trong việc triển khai hệ sinh thái đa đám mây\"."
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Trong tháng 3 vừa qua, trên trang web toàn cầu của Microsoft, VIB được xem là \"một trong những ngân hàng đầu tiên trong khu vực chuyển đổi sang ngân hàng số và đã đạt được nhiều thành công trong việc triển khai hệ sinh thái đa đám mây\"."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong tháng 3 vừa qua, trên trang web toàn cầu của Microsoft, VIB được xem là \"một trong những ngân hàng đầu tiên trong khu vực chuyển đổi sang ngân hàng số và đã đạt được nhiều thành công trong việc triển khai hệ sinh thái đa đám mây\"."
+    },
+    {
+        "text": "Đầu tháng 4",
+        "label": "DATE",
+        "evidence": "Đầu tháng 4, AWS (Amazon Web Services) đã mời VIB tham gia phát biểu về tính quan trọng của điện toán đám mây và sự tiên phong của VIB trong lĩnh vực này."
+    },
+    {
+        "text": "AWS",
+        "label": "ORG",
+        "evidence": "Đầu tháng 4, AWS (Amazon Web Services) đã mời VIB tham gia phát biểu về tính quan trọng của điện toán đám mây và sự tiên phong của VIB trong lĩnh vực này."
+    },
+    {
+        "text": "Amazon Web Services",
+        "label": "ORG",
+        "evidence": "Đầu tháng 4, AWS (Amazon Web Services) đã mời VIB tham gia phát biểu về tính quan trọng của điện toán đám mây và sự tiên phong của VIB trong lĩnh vực này."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đầu tháng 4, AWS (Amazon Web Services) đã mời VIB tham gia phát biểu về tính quan trọng của điện toán đám mây và sự tiên phong của VIB trong lĩnh vực này."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong ngành ngân hàng, VIB là khách hàng đầu tiên của AWS tại Việt Nam từ năm 2020 và đã đóng góp quan trọng trong việc đưa ra nền tảng cho ứng dụng thực tiễn của điện toán đám mây."
+    },
+    {
+        "text": "AWS",
+        "label": "ORG",
+        "evidence": "Trong ngành ngân hàng, VIB là khách hàng đầu tiên của AWS tại Việt Nam từ năm 2020 và đã đóng góp quan trọng trong việc đưa ra nền tảng cho ứng dụng thực tiễn của điện toán đám mây."
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong ngành ngân hàng, VIB là khách hàng đầu tiên của AWS tại Việt Nam từ năm 2020 và đã đóng góp quan trọng trong việc đưa ra nền tảng cho ứng dụng thực tiễn của điện toán đám mây."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Trong ngành ngân hàng, VIB là khách hàng đầu tiên của AWS tại Việt Nam từ năm 2020 và đã đóng góp quan trọng trong việc đưa ra nền tảng cho ứng dụng thực tiễn của điện toán đám mây."
+    },
+    {
+        "text": "Chiến lược tăng trưởng công nghệ thông tin ngành ngân hàng Việt Nam đến năm 2025",
+        "label": "EVENT",
+        "evidence": "Hiện nay, điện toán đám mây đang trở thành xu hướng công nghệ trong các ngân hàng Việt Nam, điều này phù hợp với Chiến lược tăng trưởng công nghệ thông tin ngành ngân hàng Việt Nam đến năm 2025, với mục tiêu 60% các ngân hàng sử dụng dịch vụ điện toán đám mây."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Hiện nay, điện toán đám mây đang trở thành xu hướng công nghệ trong các ngân hàng Việt Nam, điều này phù hợp với Chiến lược tăng trưởng công nghệ thông tin ngành ngân hàng Việt Nam đến năm 2025, với mục tiêu 60% các ngân hàng sử dụng dịch vụ điện toán đám mây."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Hiện nay, điện toán đám mây đang trở thành xu hướng công nghệ trong các ngân hàng Việt Nam, điều này phù hợp với Chiến lược tăng trưởng công nghệ thông tin ngành ngân hàng Việt Nam đến năm 2025, với mục tiêu 60% các ngân hàng sử dụng dịch vụ điện toán đám mây."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Là ngân hàng có mô hình vận hành ưu việt, có độ tập trung bán lẻ cao bậc nhất thị trường với tỷ lệ lên tới 90%, VIB tiếp tục triển khai kinh doanh và duy trì vị trí hàng đầu ở nhiều mảng kinh doanh bán lẻ trọng yếu, đầu tư bài bản vào chuyển đổi số tất cả các sản phẩm dịch vụ của ngân hàng, đồng thời chú trọng quản trị rủi ro đảm bảo các hệ số an toàn, lành mạnh và minh bạch."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Là ngân hàng có mô hình vận hành ưu việt, có độ tập trung bán lẻ cao bậc nhất thị trường với tỷ lệ lên tới 90%, VIB tiếp tục triển khai kinh doanh và duy trì vị trí hàng đầu ở nhiều mảng kinh doanh bán lẻ trọng yếu, đầu tư bài bản vào chuyển đổi số tất cả các sản phẩm dịch vụ của ngân hàng, đồng thời chú trọng quản trị rủi ro đảm bảo các hệ số an toàn, lành mạnh và minh bạch."
+    }
+]

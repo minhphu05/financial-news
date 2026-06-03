@@ -1,0 +1,417 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tại VietinBank, trong khi các mảng kinh doanh khác đều có lãi khả quan thì hoạt động mua bán chứng khoán lỗ tới 126 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "hoạt động mua bán chứng khoán lỗ tới 126 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại VietinBank, trong khi các mảng kinh doanh khác đều có lãi khả quan thì hoạt động mua bán chứng khoán lỗ tới 126 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "126 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hoạt động mua bán chứng khoán lỗ tới 126 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "hoạt động mua bán chứng khoán lỗ tới 126 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "lãi 720 tỷ",
+        "label": "EVENT",
+        "evidence": "Kết quả này kém hơn nhiều so với năm trước đó khi ngân hàng có lãi 720 tỷ ở mảng kinh doanh này trong năm 2021."
+    },
+    {
+        "text": "720 tỷ",
+        "label": "MONEY",
+        "evidence": "ngân hàng có lãi 720 tỷ ở mảng kinh doanh này trong năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "ngân hàng có lãi 720 tỷ ở mảng kinh doanh này trong năm 2021."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tại Techcombank, hoạt động mua bán chứng khoán kinh doanh năm 2022 cũng lỗ tới 241 tỷ đồng, trong khi cùng kỳ có lãi 152 tỷ."
+    },
+    {
+        "text": "hoạt động mua bán chứng khoán kinh doanh năm 2022 cũng lỗ tới 241 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại Techcombank, hoạt động mua bán chứng khoán kinh doanh năm 2022 cũng lỗ tới 241 tỷ đồng, trong khi cùng kỳ có lãi 152 tỷ."
+    },
+    {
+        "text": "241 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hoạt động mua bán chứng khoán kinh doanh năm 2022 cũng lỗ tới 241 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "hoạt động mua bán chứng khoán kinh doanh năm 2022 cũng lỗ tới 241 tỷ đồng"
+    },
+    {
+        "text": "lãi 152 tỷ",
+        "label": "EVENT",
+        "evidence": "trong khi cùng kỳ có lãi 152 tỷ."
+    },
+    {
+        "text": "152 tỷ",
+        "label": "MONEY",
+        "evidence": "trong khi cùng kỳ có lãi 152 tỷ."
+    },
+    {
+        "text": "Hoạt động mua bán chứng khoán đầu tư có lãi 425 tỷ",
+        "label": "EVENT",
+        "evidence": "Hoạt động mua bán chứng khoán đầu tư có lãi 425 tỷ, giảm mạnh so với mức 1.804 tỷ của năm 2021."
+    },
+    {
+        "text": "425 tỷ",
+        "label": "MONEY",
+        "evidence": "Hoạt động mua bán chứng khoán đầu tư có lãi 425 tỷ, giảm mạnh so với mức 1.804 tỷ của năm 2021."
+    },
+    {
+        "text": "1.804 tỷ",
+        "label": "MONEY",
+        "evidence": "giảm mạnh so với mức 1.804 tỷ của năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "giảm mạnh so với mức 1.804 tỷ của năm 2021."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank cũng ghi nhận kết quả từ hoạt động mua bán chứng khoán."
+    },
+    {
+        "text": "lỗ 20 tỷ đồng từ mua bán chứng khoán đầu tư",
+        "label": "EVENT",
+        "evidence": "ngân hàng ghi nhận lỗ 20 tỷ đồng từ mua bán chứng khoán đầu tư trong năm 2022, trong khi cùng kỳ có lãi 163 tỷ đồng."
+    },
+    {
+        "text": "20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng ghi nhận lỗ 20 tỷ đồng từ mua bán chứng khoán đầu tư trong năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "ngân hàng ghi nhận lỗ 20 tỷ đồng từ mua bán chứng khoán đầu tư trong năm 2022"
+    },
+    {
+        "text": "lãi 163 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "trong khi cùng kỳ có lãi 163 tỷ đồng."
+    },
+    {
+        "text": "163 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong khi cùng kỳ có lãi 163 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngay cả “ông lớn” Vietcombank cũng có trong xu hướng này."
+    },
+    {
+        "text": "Hoạt động mua bán chứng khoán kinh doanh năm 2022 của nhà băng này lỗ 115 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Hoạt động mua bán chứng khoán kinh doanh năm 2022 của nhà băng này lỗ 115 tỷ đồng, trong khi năm 2021 lãi 137 tỷ."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Hoạt động mua bán chứng khoán kinh doanh năm 2022 của nhà băng này lỗ 115 tỷ đồng"
+    },
+    {
+        "text": "115 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hoạt động mua bán chứng khoán kinh doanh năm 2022 của nhà băng này lỗ 115 tỷ đồng"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "trong khi năm 2021 lãi 137 tỷ."
+    },
+    {
+        "text": "lãi 137 tỷ",
+        "label": "EVENT",
+        "evidence": "trong khi năm 2021 lãi 137 tỷ."
+    },
+    {
+        "text": "137 tỷ",
+        "label": "MONEY",
+        "evidence": "trong khi năm 2021 lãi 137 tỷ."
+    },
+    {
+        "text": "lãi 81 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Hoạt động mua bán chứng khoán đầu tư tích cực hơn, với mức lãi 81 tỷ đồng (cùng kỳ lỗ 85 tỷ)."
+    },
+    {
+        "text": "81 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với mức lãi 81 tỷ đồng"
+    },
+    {
+        "text": "lỗ 85 tỷ",
+        "label": "EVENT",
+        "evidence": "(cùng kỳ lỗ 85 tỷ)."
+    },
+    {
+        "text": "85 tỷ",
+        "label": "MONEY",
+        "evidence": "(cùng kỳ lỗ 85 tỷ)."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Hàng loạt nhà băng khác như VPBank, ACB, SHB, ABBank,…đều ghi nhận kết quả hoạt động kinh doanh chứng khoán thấp hơn so với năm 2021."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Hàng loạt nhà băng khác như VPBank, ACB, SHB, ABBank,…đều ghi nhận kết quả hoạt động kinh doanh chứng khoán thấp hơn so với năm 2021."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Hàng loạt nhà băng khác như VPBank, ACB, SHB, ABBank,…đều ghi nhận kết quả hoạt động kinh doanh chứng khoán thấp hơn so với năm 2021."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Hàng loạt nhà băng khác như VPBank, ACB, SHB, ABBank,…đều ghi nhận kết quả hoạt động kinh doanh chứng khoán thấp hơn so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "đều ghi nhận kết quả hoạt động kinh doanh chứng khoán thấp hơn so với năm 2021."
+    },
+    {
+        "text": "giấy tờ có giá",
+        "label": "ASSET",
+        "evidence": "qua chênh lệch giá và qua lãi nắm giữ giấy tờ có giá."
+    },
+    {
+        "text": "chứng khoán",
+        "label": "ASSET",
+        "evidence": "Hoạt động mua, bán chứng khoán của các ngân hàng thường được phân thànhmua, bán chứng khoán đầu tưvàmua, bán chứng khoán kinh doanh."
+    },
+    {
+        "text": "mua, bán chứng khoán đầu tư",
+        "label": "ASSET",
+        "evidence": "Hoạt động mua, bán chứng khoán của các ngân hàng thường được phân thànhmua, bán chứng khoán đầu tưvàmua, bán chứng khoán kinh doanh."
+    },
+    {
+        "text": "mua, bán chứng khoán kinh doanh",
+        "label": "ASSET",
+        "evidence": "Hoạt động mua, bán chứng khoán của các ngân hàng thường được phân thànhmua, bán chứng khoán đầu tưvàmua, bán chứng khoán kinh doanh."
+    },
+    {
+        "text": "chứng khoán nợ",
+        "label": "ASSET",
+        "evidence": "Chứng khoán ngân hàng mua vào có thể bao gồm chứng khoán nợ và chứng khoán vốn."
+    },
+    {
+        "text": "chứng khoán vốn",
+        "label": "ASSET",
+        "evidence": "Chứng khoán ngân hàng mua vào có thể bao gồm chứng khoán nợ và chứng khoán vốn."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "Trong đó, chứng khoán nợ thường là trái phiếu, kỳ phiếu, chứng chỉ tiền gửi, chứng chỉ quỹ,…"
+    },
+    {
+        "text": "kỳ phiếu",
+        "label": "ASSET",
+        "evidence": "Trong đó, chứng khoán nợ thường là trái phiếu, kỳ phiếu, chứng chỉ tiền gửi, chứng chỉ quỹ,…"
+    },
+    {
+        "text": "chứng chỉ tiền gửi",
+        "label": "ASSET",
+        "evidence": "Trong đó, chứng khoán nợ thường là trái phiếu, kỳ phiếu, chứng chỉ tiền gửi, chứng chỉ quỹ,…"
+    },
+    {
+        "text": "chứng chỉ quỹ",
+        "label": "ASSET",
+        "evidence": "Trong đó, chứng khoán nợ thường là trái phiếu, kỳ phiếu, chứng chỉ tiền gửi, chứng chỉ quỹ,…"
+    },
+    {
+        "text": "Fiin Ratings",
+        "label": "ORG",
+        "evidence": "Theo Fiin Ratings, việc lãi suất tăng, biến động tỷ giá, sự sụt giảm mạnh của các chỉ số chứng khoán và tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp đã ảnh hưởng tiêu cực đến hoạt động kinh doanh, đầu tư chứng khoán của các ngân hàng."
+    },
+    {
+        "text": "lãi suất tăng",
+        "label": "EVENT",
+        "evidence": "việc lãi suất tăng, biến động tỷ giá, sự sụt giảm mạnh của các chỉ số chứng khoán và tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp đã ảnh hưởng tiêu cực đến hoạt động kinh doanh, đầu tư chứng khoán của các ngân hàng."
+    },
+    {
+        "text": "biến động tỷ giá",
+        "label": "EVENT",
+        "evidence": "việc lãi suất tăng, biến động tỷ giá, sự sụt giảm mạnh của các chỉ số chứng khoán và tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp đã ảnh hưở tiêu cực đến hoạt động kinh doanh, đầu tư chứng khoán của các ngân hàng."
+    },
+    {
+        "text": "sự sụt giảm mạnh của các chỉ số chứng khoán",
+        "label": "EVENT",
+        "evidence": "việc lãi suất tăng, biến động tỷ giá, sự sụt giảm mạnh của các chỉ số chứng khoán và tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp đã ảnh hưở tiêu cực đến hoạt động kinh doanh, đầu tư chứng khoán của các ngân hàng."
+    },
+    {
+        "text": "chỉ số chứng khoán",
+        "label": "ASSET",
+        "evidence": "sự sụt giảm mạnh của các chỉ số chứng khoán"
+    },
+    {
+        "text": "tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp đã ảnh hưở tiêu cực đến hoạt động kinh doanh, đầu tư chứng khoán của các ngân hàng."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "tình trạng “đóng băng” của thị trường trái phiếu doanh nghiệp"
+    },
+    {
+        "text": "lỗ từ hoạt động mua bán chứng khoán kinh doanh, chứng khoán đầu tư",
+        "label": "EVENT",
+        "evidence": "Nhiều ngân hàng ghi nhận lỗ từ hoạt động mua bán chứng khoán kinh doanh, chứng khoán đầu tư, đồng thời giảm tỷ trọng các loại chứng khoán trong tổng tài sản."
+    },
+    {
+        "text": "chứng khoán kinh doanh",
+        "label": "ASSET",
+        "evidence": "lỗ từ hoạt động mua bán chứng khoán kinh doanh, chứng khoán đầu tư"
+    },
+    {
+        "text": "chứng khoán đầu tư",
+        "label": "ASSET",
+        "evidence": "lỗ từ hoạt động mua bán chứng khoán kinh doanh, chứng khoán đầu tư"
+    },
+    {
+        "text": "lãi suất tăng",
+        "label": "EVENT",
+        "evidence": "nền lãi suất tăng đã đẩy lợi suất trái phiếu chính phủ trong những tháng cuối năm tăng mạnh lên tới 5,2% so với mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "lợi suất trái phiếu chính phủ trong những tháng cuối năm tăng mạnh lên tới 5,2%",
+        "label": "EVENT",
+        "evidence": "nền lãi suất tăng đã đẩy lợi suất trái phiếu chính phủ trong những tháng cuối năm tăng mạnh lên tới 5,2% so với mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "trái phiếu chính phủ",
+        "label": "ASSET",
+        "evidence": "lợi suất trái phiếu chính phủ trong những tháng cuối năm tăng mạnh lên tới 5,2% so với mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "5,2%",
+        "label": "RATE",
+        "evidence": "tăng mạnh lên tới 5,2% so với mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "2,2%",
+        "label": "RATE",
+        "evidence": "mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "tháng 1/2022",
+        "label": "DATE",
+        "evidence": "mức lợi suất khoảng 2,2% vào tháng 1/2022."
+    },
+    {
+        "text": "Tỷ trọng trái phiếu chính phủ trên tổng tài sản sinh lời của các ngân hàng giảm từ mức 7,2% cuối năm 2021 xuống mức 6,3% cuối quý 3 năm 2022",
+        "label": "EVENT",
+        "evidence": "Tỷ trọng trái phiếu chính phủ trên tổng tài sản sinh lời của các ngân hàng giảm từ mức 7,2% cuối năm 2021 xuống mức 6,3% cuối quý 3 năm 2022."
+    },
+    {
+        "text": "7,2%",
+        "label": "RATE",
+        "evidence": "giảm từ mức 7,2% cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "giảm từ mức 7,2% cuối năm 2021"
+    },
+    {
+        "text": "6,3%",
+        "label": "RATE",
+        "evidence": "xuống mức 6,3% cuối quý 3 năm 2022."
+    },
+    {
+        "text": "cuối quý 3 năm 2022",
+        "label": "DATE",
+        "evidence": "xuống mức 6,3% cuối quý 3 năm 2022."
+    },
+    {
+        "text": "Đóng cửa phiên giao dịch cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đóng cửa phiên giao dịch cuối năm 2022, VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm, khiến danh mục cổ phiếu nắm giữ của các ngân hàng và các công ty con được hợp nhất trên BCTC của các ngân hàng sụt giảm mạnh."
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm"
+    },
+    {
+        "text": "HNXIndex",
+        "label": "ASSET",
+        "evidence": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm"
+    },
+    {
+        "text": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7%",
+        "label": "EVENT",
+        "evidence": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm, khiến danh mục cổ phiếu nắm giữ của các ngân hàng và các công ty con được hợp nhất trên BCTC của các ngân hàng sụt giảm mạnh."
+    },
+    {
+        "text": "32,7%",
+        "label": "RATE",
+        "evidence": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm"
+    },
+    {
+        "text": "56,7%",
+        "label": "RATE",
+        "evidence": "VNIndex và HNXIndex giảm lần lượt 32,7% và 56,7% so với đầu năm"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "khiến danh mục cổ phiếu nắm giữ của các ngân hàng và các công ty con được hợp nhất trên BCTC của các ngân hàng sụt giảm mạnh."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Đặc biệt, danh mục trái phiếu doanh nghiệp của một số ngân hàng đang tiềm ẩn rủi ro tín dụng khi thị trường đã xuất hiện một số trường hợp chậm trả lãi và gốc trái phiếu."
+    },
+    {
+        "text": "rủi ro tín dụng",
+        "label": "EVENT",
+        "evidence": "danh mục trái phiếu doanh nghiệp của một số ngân hàng đang tiềm ẩn rủi ro tín dụng khi thị trường đã xuất hiện một số trường hợp chậm trả lãi và gốc trái phiếu."
+    },
+    {
+        "text": "chậm trả lãi và gốc trái phiếu",
+        "label": "EVENT",
+        "evidence": "thị trường đã xuất hiện một số trường hợp chậm trả lãi và gốc trái phiếu."
+    },
+    {
+        "text": "2,2%",
+        "label": "RATE",
+        "evidence": "Mặc dù chỉ chiếm khoảng 2,2% tổng tài sản sinh lời của các ngân hàng"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp bị “nhảy” nhóm nợ",
+        "label": "EVENT",
+        "evidence": "khi trái phiếu doanh nghiệp bị “nhảy” nhóm nợ cũng sẽ làm các khoản vay khác của doanh nghiệp đó tại các ngân hàng khác bị phân loại vào nhóm có chất lượng nợ thấp hơn, gia tăng tỷ lệ nợ xấu của toàn hệ thống."
+    },
+    {
+        "text": "gia tăng tỷ lệ nợ xấu",
+        "label": "EVENT",
+        "evidence": "gia tăng tỷ lệ nợ xấu của toàn hệ thống."
+    }
+]

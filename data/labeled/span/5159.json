@@ -1,0 +1,692 @@
+[
+    {
+        "text": "4,5 - 5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu trung bình mỗi cửa hàng vào khoảng 4,5 - 5 tỷ đồng/tháng"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "cuối năm 2022 chúng tôi mở 5 cửa hàng đầu tiên tại khu vực Tangerang, Jakarta: Ciledug, Ciputat, BSD & Pamulang."
+    },
+    {
+        "text": "mở 5 cửa hàng đầu tiên tại khu vực Tangerang, Jakarta: Ciledug, Ciputat, BSD & Pamulang",
+        "label": "EVENT",
+        "evidence": "cuối năm 2022 chúng tôi mở 5 cửa hàng đầu tiên tại khu vực Tangerang, Jakarta: Ciledug, Ciputat, BSD & Pamulang."
+    },
+    {
+        "text": "4,5 - 5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu trung bình mỗi cửa hàng vào khoảng 4,5 - 5 tỷ đồng/tháng"
+    },
+    {
+        "text": "giữa quý II/2023",
+        "label": "DATE",
+        "evidence": "Dự kiến khoảng giữa quý II/2023 chúng tôi sẽ bắt đầu tăng tốc."
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "ông Đoàn Văn Hiểu Em - CEO công ty CP Thế Giới Di Động chia sẻ trong ĐHCĐ 2023."
+    },
+    {
+        "text": "công ty CP Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "ông Đoàn Văn Hiểu Em - CEO công ty CP Thế Giới Di Động chia sẻ trong ĐHCĐ 2023."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "ông Đoàn Văn Hiểu Em - CEO công ty CP Thế Giới Di Động chia sẻ trong ĐHCĐ 2023."
+    },
+    {
+        "text": "ĐHCĐ 2023",
+        "label": "EVENT",
+        "evidence": "ông Đoàn Văn Hiểu Em - CEO công ty CP Thế Giới Di Động chia sẻ trong ĐHCĐ 2023."
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "Cũng theo ông Đoàn Văn Hiểu Em có 6 nguyên do khiến thị trường điện tử - điện máy của Indonesia còn hấp dẫn hơn cả Việt Nam."
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ví dụ, tại Việt Nam nếu thị trường nói chung có quy mô 10 tỷ USD, thì điện máy chiếm 5 tỷ USD và điện thoại tương tự đạt khoảng 5 tỷ USD."
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ví dụ, tại Việt Nam nếu thị trường nói chung có quy mô 10 tỷ USD, thì điện máy chiếm 5 tỷ USD và điện thoại tương tự đạt khoảng 5 tỷ USD."
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ví dụ, tại Việt Nam nếu thị trường nói chung có quy mô 10 tỷ USD, thì điện máy chiếm 5 tỷ USD và điện thoại tương tự đạt khoảng 5 tỷ USD."
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "Trong khi con số hiện tại ở Indonesia là 80% điện thoại và chỉ 20% là điện máy."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Trong khi con số hiện tại ở Indonesia là 80% điện thoại và chỉ 20% là điện máy."
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "Ôn Đoàn Văn Hiểu Em trong Hội nghị Đối tác Erablue vào ngày 12/4/2023 tổ chức ở Indonesia."
+    },
+    {
+        "text": "Hội nghị Đối tác Erablue",
+        "label": "EVENT",
+        "evidence": "Ôn Đoàn Văn Hiểu Em trong Hội nghị Đối tác Erablue vào ngày 12/4/2023 tổ chức ở Indonesia."
+    },
+    {
+        "text": "ngày 12/4/2023",
+        "label": "DATE",
+        "evidence": "Ôn Đoàn Văn Hiểu Em trong Hội nghị Đối tác Erablue vào ngày 12/4/2023 tổ chức ở Indonesia."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Đây là cung cách mà thị trường điện máy Việt Nam khi chưa có Điện Máy Xanh."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Khi MWG sang thị trường Indonesia, họ sẽ mang theo cả những dịch vụ đã làm rất thành công ở Việt Nam."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Đó là lợi thế - sự khác biệt rất lớn của tân binh Erablue tại Indonesia và nó khác biệt hẳn so với các đối thủ khác trên thị trường."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Yếu tố tiếp theo, lần này MWG không chỉ đi sang Indonesia một mình mà họ hợp tác nhà bán lẻ rất lớn là Erajaya – có 1.200 cửa hàng bán lẻ và là thương hiệu số 1 trong lĩnh vực điện thoại."
+    },
+    {
+        "text": "Erajaya",
+        "label": "ORG",
+        "evidence": "Yếu tố tiếp theo, lần này MWG không chỉ đi sang Indonesia một mình mà họ hợp tác nhà bán lẻ rất lớn là Erajaya – có 1.200 cửa hàng bán lẻ và là thương hiệu số 1 trong lĩnh vực điện thoại."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Sau khi hợp tác, hai bên có thể bổ trợ lẫn nhau để có thể giúp Erablue sớm hoàn thiện được mô hình kinh doanh của mình và tăng tốc trong tương lai."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "ở thị trường Indonesia, các nhà bán lẻ giống có quy mô giống Điện Máy Xanh ở Việt Nam không có nhiều."
+    },
+    {
+        "text": "Electricity",
+        "label": "ORG",
+        "evidence": "Cộng số cửa hàng của dai nhà bán lẻ lớn là Electricity và Hartono cũng chỉ tầm từ 100 - chưa tới 200 cửa hàng và phần lớn là nằm trong trung tâm thương mại."
+    },
+    {
+        "text": "Hartono",
+        "label": "ORG",
+        "evidence": "Cộng số cửa hàng của dai nhà bán lẻ lớn là Electricity và Hartono cũng chỉ tầm từ 100 - chưa tới 200 cửa hàng và phần lớn là nằm trong trung tâm thương mại."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Trong khi các cửa hàng Erablue của MWG là mô hình nằm ở ngoài đường rất tiện lợi cho sự mua sắm của người dân Indonesia."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Trong khi các cửa hàng Erablue của MWG là mô hình nằm ở ngoài đường rất tiện lợi cho sự mua sắm của người dân Indonesia."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Do đó, Erablue đón nhận khá nhiều sự ủng hộ từ khách hàng."
+    },
+    {
+        "text": "5 năm tới",
+        "label": "DATE",
+        "evidence": "Theo đó, lộ trình là trong 5 năm tớI, MWG sẽ mở khoảng 500 cửa hàng và thậm chí có thể là IPO cho Erablue ở Indonesia cùng với đối tác của mình."
+    },
+    {
+        "text": "MWG sẽ mở khoảng 500 cửa hàng",
+        "label": "EVENT",
+        "evidence": "Theo đó, lộ trình là trong 5 năm tớI, MWG sẽ mở khoảng 500 cửa hàng và thậm chí có thể là IPO cho Erablue ở Indonesia cùng với đối tác của mình."
+    },
+    {
+        "text": "IPO cho Erablue ở Indonesia",
+        "label": "EVENT",
+        "evidence": "Theo đó, lộ trình là trong 5 năm tớI, MWG sẽ mở khoảng 500 cửa hàng và thậm chí có thể là IPO cho Erablue ở Indonesia cùng với đối tác của mình."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Chủ tịch MWG Nguyễn Đức Tài"
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Chủ tịch MWG Nguyễn Đức Tài"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Ở thị trường Indonesia, doanh thu của Erablue vẫn đang nằm ở đó, chỉ có điều để ‘bài binh bố binh bố trận’ một hệ thống vận hành có thể hỗ trợ một chuỗi lớn, thì rõ ràng 5 shop Erablue này không thể gánh nổi."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "thì rõ ràng 5 shop Erablue này không thể gánh nổi."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Còn cái MWG – Erablue đang làm là full-service, tức chúng tôi là người mua hàng và làm tất cả mọi thứ từ dịch vụ lắp đặt cho đến hậu mãi; đây là điều chưa từng có ở Indonesia trước khi chúng tôi sang”"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Còn cái MWG – Erablue đang làm là full-service, tức chúng tôi là người mua hàng và làm tất cả mọi thứ từ dịch vụ lắp đặt cho đến hậu mãi; đây là điều chưa từng có ở Indonesia trước khi chúng tôi sang”"
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Nguyễn Đức Tài nhấn mạnh."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Sự thận trọng cần thiết của MWG – Erablue"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Sự thận trọng cần thiết của MWG – Erablue"
+    },
+    {
+        "text": "MWG mới mở có 5 cửa hàng Erablue trong gần 5 tháng",
+        "label": "EVENT",
+        "evidence": "Việc MWG mới mở có 5 cửa hàng Erablue trong gần 5 tháng chào sân đã khiến mọi người khá ngạc nhiên, bởi nó khác với phong cách mở chuỗi kiểu vũ bảo của họ."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Việc MWG mới mở có 5 cửa hàng Erablue trong gần 5 tháng chào sân đã khiến mọi người khá ngạc nhiên, bởi nó khác với phong cách mở chuỗi kiểu vũ bảo của họ."
+    },
+    {
+        "text": "gần 5 tháng",
+        "label": "DATE",
+        "evidence": "Việc MWG mới mở có 5 cửa hàng Erablue trong gần 5 tháng chào sân đã khiến mọi người khá ngạc nhiên, bởi nó khác với phong cách mở chuỗi kiểu vũ bảo của họ."
+    },
+    {
+        "text": "tháng 2/2022",
+        "label": "DATE",
+        "evidence": "Vào tháng 2/2022, MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc, đến cuối tháng 5/2022, mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Vào tháng 2/2022, MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc, đến cuối tháng 5/2022, mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc",
+        "label": "EVENT",
+        "evidence": "Vào tháng 2/2022, MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc, đến cuối tháng 5/2022, mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Vào tháng 2/2022, MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc, đến cuối tháng 5/2022, mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "cuối tháng 5/2022",
+        "label": "DATE",
+        "evidence": "Vào tháng 2/2022, MWG tuyên bố là sẽ tập trung thật sự vào An Khang và nhanh chóng mở khoảng 200 nhà thuốc khắp toàn quốc, đến cuối tháng 5/2022, mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "mỗi tháng họ còn mở trên dưới 100 nhà thuốc",
+        "label": "EVENT",
+        "evidence": "mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "cán mốc 500 vào cuối tháng 7/2022",
+        "label": "EVENT",
+        "evidence": "mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "cuối tháng 7/2022",
+        "label": "DATE",
+        "evidence": "mỗi tháng họ còn mở trên dưới 100 nhà thuốc, để cán mốc 500 vào cuối tháng 7/2022."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Sở dĩ MWG lần này thận trọng như thế đến từ rất nhiều nguyên nhân."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "Thứ nhấtlà ‘bài học’ Bluetronics ở thị trường Campuchia."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "MWG đã tiến quân sang Campuchia cách đây 6 năm, đầu tiên họ lấy tên chuỗi là BigPhone và cách đây 3 năm đổi thành Bluetronics."
+    },
+    {
+        "text": "6 năm",
+        "label": "DATE",
+        "evidence": "MWG đã tiến quân sang Campuchia cách đây 6 năm, đầu tiên họ lấy tên chuỗi là BigPhone và cách đây 3 năm đổi thành Bluetronics."
+    },
+    {
+        "text": "BigPhone",
+        "label": "ORG",
+        "evidence": "đầu tiên họ lấy tên chuỗi là BigPhone và cách đây 3 năm đổi thành Bluetronics."
+    },
+    {
+        "text": "3 năm",
+        "label": "DATE",
+        "evidence": "đầu tiên họ lấy tên chuỗi là BigPhone và cách đây 3 năm đổi thành Bluetronics."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "đầu tiên họ lấy tên chuỗi là BigPhone và cách đây 3 năm đổi thành Bluetronics."
+    },
+    {
+        "text": "Giữa năm 2021",
+        "label": "DATE",
+        "evidence": "Giữa năm 2021, Bluetronics có tổng cộng 55 cửa hàng và là chuỗi bán lẻ điện tử - điện máy lớn nhất Campuchia."
+    },
+    {
+        "text": "Bluetronics có tổng cộng 55 cửa hàng",
+        "label": "EVENT",
+        "evidence": "Giữa năm 2021, Bluetronics có tổng cộng 55 cửa hàng và là chuỗi bán lẻ điện tử - điện máy lớn nhất Campuchia."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "Giữa năm 2021, Bluetronics có tổng cộng 55 cửa hàng và là chuỗi bán lẻ điện tử - điện máy lớn nhất Campuchia."
+    },
+    {
+        "text": "MWG đã có quyết định đóng chuỗi Bluetronics ở thị trường Campuchia",
+        "label": "EVENT",
+        "evidence": "MWG đã có quyết định đóng chuỗi Bluetronics ở thị trường Campuchia."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "MWG đã có quyết định đóng chuỗi Bluetronics ở thị trường Campuchia."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "Nhưng tình hình kinh doanh tại Bluetronics ngày càng đi xuống không như kỳ vọng của Tập đoàn, từ số lượng vài chục điểm bán, cuối 2022 số lượng cửa hàng Bluetronics chỉ còn vài cái."
+    },
+    {
+        "text": "cuối 2022",
+        "label": "DATE",
+        "evidence": "Nhưng tình hình kinh doanh tại Bluetronics ngày càng đi xuống không như kỳ vọng của Tập đoàn, từ số lượng vài chục điểm bán, cuối 2022 số lượng cửa hàng Bluetronics chỉ còn vài cái."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "cuối 2022 số lượng cửa hàng Bluetronics chỉ còn vài cái."
+    },
+    {
+        "text": "Báo cáo tài chính hợp nhất quý IV/2022 của TGDĐ",
+        "label": "EVENT",
+        "evidence": "Báo cáo tài chính hợp nhất quý IV/2022 của TGDĐ tiết lộ: mảng kinh doanh tại Campuchia đến cuối năm 2022 lỗ lũy kế 274 tỷ đồng."
+    },
+    {
+        "text": "quý IV/2022",
+        "label": "DATE",
+        "evidence": "Báo cáo tài chính hợp nhất quý IV/2022 của TGDĐ tiết lộ: mảng kinh doanh tại Campuchia đến cuối năm 2022 lỗ lũy kế 274 tỷ đồng."
+    },
+    {
+        "text": "TGDĐ",
+        "label": "ORG",
+        "evidence": "Báo cáo tài chính hợp nhất quý IV/2022 của TGDĐ tiết lộ: mảng kinh doanh tại Campuchia đến cuối năm 2022 lỗ lũy kế 274 tỷ đồng."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "mảng kinh doanh tại Campuchia đến cuối năm 2022 lỗ lũy kế 274 tỷ đồng."
+    },
+    {
+        "text": "274 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lỗ lũy kế 274 tỷ đồng."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022 là năm chuỗi này lỗ nặng nhất, với khoản lỗ lên đến 187 tỷ đồng."
+    },
+    {
+        "text": "187 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với khoản lỗ lên đến 187 tỷ đồng."
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "Vậy nên, đến quý I/2023, MWG đã quyết định rời bỏ thị trường Campuchia để cắt lỗ đồng thời tập trung toàn lực cho thị trường Indonesia."
+    },
+    {
+        "text": "MWG đã quyết định rời bỏ thị trường Campuchia để cắt lỗ",
+        "label": "EVENT",
+        "evidence": "Vậy nên, đến quý I/2023, MWG đã quyết định rời bỏ thị trường Campuchia để cắt lỗ đồng thời tập trung toàn lực cho thị trường Indonesia."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Vậy nên, đến quý I/2023, MWG đã quyết định rời bỏ thị trường Campuchia để cắt lỗ đồng thời tập trung toàn lực cho thị trường Indonesia."
+    },
+    {
+        "text": "Bluetronics",
+        "label": "ORG",
+        "evidence": "Việc Bluetronics không thành công đến từ cả yếu tố khách quan lẫn chủ quan, song nó cũng nói rõ vớiMWGmột điều: xuất ngoại – dù đó là thị trường chưa trưởng thành và trông có vẻ tiềm năng, văn hóa giống Việt Nam, thì vẫn gặp rất nhiều thách thức khó lường."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "song nó cũng nói rõ vớiMWGmột điều: xuất ngoại – dù đó là thị trường chưa trưởng thành và trông có vẻ tiềm năng, văn hóa giống Việt Nam, thì vẫn gặp rất nhiều thách thức khó lường."
+    },
+    {
+        "text": "Trong 2 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Trong 2 tháng đầu năm 2023, tổng doanh thu lũy kế của chuỗi Thế Giới Di Động và Địện Máy Xanh giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "tổng doanh thu lũy kế của chuỗi Thế Giới Di Động và Địện Máy Xanh giảm 32% so với 2022",
+        "label": "EVENT",
+        "evidence": "tổng doanh thu lũy kế của chuỗi Thế Giới Di Động và Địện Máy Xanh giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "tổng doanh thu lũy kế của chuỗi Thế Giới Di Động và Địện Máy Xanh giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "Địện Máy Xanh",
+        "label": "ORG",
+        "evidence": "tổng doanh thu lũy kế của chuỗi Thế Giới Di Động và Địện Máy Xanh giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "giảm 32%",
+        "label": "RATE",
+        "evidence": "giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "giảm 32% so với 2022 (giai đoạn thị trường bị dồn nén sau Covid-19)."
+    },
+    {
+        "text": "thị trường điện thoại thông minh của Indonesia lần đầu tiên sụt giảm sau 13 năm tăng trưởng - giảm 14,3% so với cùng kỳ năm ngoái (YoY) xuống còn 35 triệu thiết bị vào năm 2022",
+        "label": "EVENT",
+        "evidence": "khi thị trường điện thoại thông minh của Indonesia lần đầu tiên sụt giảm sau 13 năm tăng trưởng - giảm 14,3% so với cùng kỳ năm ngoái (YoY) xuống còn 35 triệu thiết bị vào năm 2022, theo IDC."
+    },
+    {
+        "text": "giảm 14,3%",
+        "label": "RATE",
+        "evidence": "giảm 14,3% so với cùng kỳ năm ngoái (YoY) xuống còn 35 triệu thiết bị vào năm 2022"
+    },
+    {
+        "text": "YoY",
+        "label": "RATE",
+        "evidence": "giảm 14,3% so với cùng kỳ năm ngoái (YoY) xuống còn 35 triệu thiết bị vào năm 2022"
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "35 triệu thiết bị vào năm 2022, theo IDC."
+    },
+    {
+        "text": "IDC",
+        "label": "ORG",
+        "evidence": "theo IDC."
+    },
+    {
+        "text": "ba năm trước",
+        "label": "DATE",
+        "evidence": "Sự suy giảm đã xóa sạch hoàn toàn sự tăng trưởng trong ba năm trước, quy mô thị trường cũng giảm xuống mức 2018 – 2019."
+    },
+    {
+        "text": "2018 – 2019",
+        "label": "DATE",
+        "evidence": "quy mô thị trường cũng giảm xuống mức 2018 – 2019."
+    },
+    {
+        "text": "quý IV/2022",
+        "label": "DATE",
+        "evidence": "Trong quý IV/2022, thị trường suy giảm 17,6% so với cùng kỳ năm trước, đi kèm với mức tăng trưởng 3,9% so với quý trước (QoQ), đạt 8,5 triệu thiết bị."
+    },
+    {
+        "text": "thị trường suy giảm 17,6% so với cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "Trong quý IV/2022, thị trường suy giảm 17,6% so với cùng kỳ năm trước, đi kèm với mức tăng trưởng 3,9% so với quý trước (QoQ), đạt 8,5 triệu thiết bị."
+    },
+    {
+        "text": "suy giảm 17,6%",
+        "label": "RATE",
+        "evidence": "thị trường suy giảm 17,6% so với cùng kỳ năm trước"
+    },
+    {
+        "text": "tăng trưởng 3,9% so với quý trước (QoQ)",
+        "label": "EVENT",
+        "evidence": "đi kèm với mức tăng trưởng 3,9% so với quý trước (QoQ), đạt 8,5 triệu thiết bị."
+    },
+    {
+        "text": "3,9%",
+        "label": "RATE",
+        "evidence": "mức tăng trưởng 3,9% so với quý trước (QoQ)"
+    },
+    {
+        "text": "QoQ",
+        "label": "RATE",
+        "evidence": "mức tăng trưởng 3,9% so với quý trước (QoQ)"
+    },
+    {
+        "text": "AVA World",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, sau những thử nghiệm liên tiếp chưa thành công với AVA World, 2 chuỗi An Khang và Bách Hóa Xanh vẫn đang vật vã để có thể nhanh đạt đến điểm hòa vốn hướng đến có lời cộng với đang thời ‘thóc cao gạo kém’; Chủ tịch nguyễn Đức Tài sẽ không còn dám mạnh miệng kiểu \"xem như chúng tôi đã đốt 50 tỷ để tìm kiếm một ‘Điện Máy Xanh’ khác\" như trong buổi ra mắt AVA World đầu năm 2022."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "2 chuỗi An Khang và Bách Hóa Xanh vẫn đang vật vã để có thể nhanh đạt đến điểm hòa vốn hướng đến có lời cộng với đang thời ‘thóc cao gạo kém’"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "2 chuỗi An Khang và Bách Hóa Xanh vẫn đang vật vã để có thể nhanh đạt đến điểm hòa vốn hướng đến có lời cộng với đang thời ‘thóc cao gạo kém’"
+    },
+    {
+        "text": "nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Chủ tịch nguyễn Đức Tài sẽ không còn dám mạnh miệng kiểu \"xem như chúng tôi đã đốt 50 tỷ để tìm kiếm một ‘Điện Máy Xanh’ khác\" như trong buổi ra mắt AVA World đầu năm 2022."
+    },
+    {
+        "text": "50 tỷ",
+        "label": "MONEY",
+        "evidence": "chúng tôi đã đốt 50 tỷ để tìm kiếm một ‘Điện Máy Xanh’ khác"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "một ‘Điện Máy Xanh’ khác"
+    },
+    {
+        "text": "AVA World",
+        "label": "ORG",
+        "evidence": "trong buổi ra mắt AVA World đầu năm 2022."
+    },
+    {
+        "text": "đầu năm 2022",
+        "label": "DATE",
+        "evidence": "trong buổi ra mắt AVA World đầu năm 2022."
+    },
+    {
+        "text": "Erajaya",
+        "label": "ORG",
+        "evidence": "Họ còn ‘vướng’ thêm đối tác Erajaya, muốn làm gì phải có sự đồng thuận của cả hai."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo của MWG, Erajaya và Erablue"
+    },
+    {
+        "text": "Erajaya",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo của MWG, Erajaya và Erablue"
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo của MWG, Erajaya và Erablue"
+    },
+    {
+        "text": "Hội nghị Đối tác Erablue",
+        "label": "EVENT",
+        "evidence": "Hội nghị Đối tác Erablue vào ngày 12/4/2023"
+    },
+    {
+        "text": "ngày 12/4/2023",
+        "label": "DATE",
+        "evidence": "Hội nghị Đối tác Erablue vào ngày 12/4/2023"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với động thái mới đây của MWG, có vẻ họ đã gần xong giai đoạn thăm dò thị trường Indonesia."
+    },
+    {
+        "text": "Tập đoàn Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Mới đây, Tập đoàn Thế Giới Di Động và Erajaya đã tổ chức Hội nghị Đối tác Erablue vào ngày 12/4/2023 với sự tham gia của 62 nhà cung cấp hàng đầu đất nước vạn đảo."
+    },
+    {
+        "text": "Erajaya",
+        "label": "ORG",
+        "evidence": "Mới đây, Tập đoàn Thế Giới Di Động và Erajaya đã tổ chức Hội nghị Đối tác Erablue vào ngày 12/4/2023 với sự tham gia của 62 nhà cung cấp hàng đầu đất nước vạn đảo."
+    },
+    {
+        "text": "Hội nghị Đối tác Erablue",
+        "label": "EVENT",
+        "evidence": "Mới đây, Tập đoàn Thế Giới Di Động và Erajaya đã tổ chức Hội nghị Đối tác Erablue vào ngày 12/4/2023 với sự tham gia của 62 nhà cung cấp hàng đầu đất nước vạn đảo."
+    },
+    {
+        "text": "ngày 12/4/2023",
+        "label": "DATE",
+        "evidence": "Mới đây, Tập đoàn Thế Giới Di Động và Erajaya đã tổ chức Hội nghị Đối tác Erablue vào ngày 12/4/2023 với sự tham gia của 62 nhà cung cấp hàng đầu đất nước vạn đảo."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Theo chia sẻ từ MWG, đây sẽ là cơ hội để Erablue giới thiệu tầm nhìn, sứ mệnh và giá trị của mình cho các đối tác sản xuất trong lĩnh vực điện tử và viễn thông."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Theo chia sẻ từ MWG, đây sẽ là cơ hội để Erablue giới thiệu tầm nhìn, sứ mệnh và giá trị của mình cho các đối tác sản xuất trong lĩnh vực điện tử và viễn thông."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Một trong những giá trị cốt lõi chính của Erablue, cũng giống Thegioididong.com và Điện Máy Xanh, đó là lấy khách hàng làm trung tâm."
+    },
+    {
+        "text": "Thegioididong.com",
+        "label": "ORG",
+        "evidence": "Một trong những giá trị cốt lõi chính của Erablue, cũng giống Thegioididong.com và Điện Máy Xanh, đó là lấy khách hàng làm trung tâm."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Một trong những giá trị cốt lõi chính của Erablue, cũng giống Thegioididong.com và Điện Máy Xanh, đó là lấy khách hàng làm trung tâm."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "62 nhà cung cấp nói trên đến từ các doanh nghiệp tiêu dùng bán lẻ ngành điện tử viễn thông cùng toàn thể Ban lãnh đạo MWG; bao gồm ông Nguyễn Đức Tài (Chủ tịch tập đoàn Thế Giới Di Động), ông Trần Huy Thanh Tùng (Tổng Giám Đốc kiêm Nhà sáng lập Thế Giới Di Động), ông Đoàn Văn Hiểu Em (CEO công ty CP Thế Giới Di Động) và các ông Charlie Bae (CEO - PT Era Blu Elektronik), ông Joy Wahjudi (CEO của Erajaya Digital) cùng ban lãnh đạo cấp cao của tập đoàn Erajaya."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "bao gồm ông Nguyễn Đức Tài (Chủ tịch tập đoàn Thế Giới Di Động)"
+    },
+    {
+        "text": "Tập đoàn Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Chủ tịch tập đoàn Thế Giới Di Động"
+    },
+    {
+        "text": "Trần Huy Thanh Tùng",
+        "label": "PERSON",
+        "evidence": "ông Trần Huy Thanh Tùng (Tổng Giám Đốc kiêm Nhà sáng lập Thế Giới Di Động)"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Tổng Giám Đốc kiêm Nhà sáng lập Thế Giới Di Động"
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "ông Đoàn Văn Hiểu Em (CEO công ty CP Thế Giới Di Động)"
+    },
+    {
+        "text": "công ty CP Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "CEO công ty CP Thế Giới Di Động"
+    },
+    {
+        "text": "Charlie Bae",
+        "label": "PERSON",
+        "evidence": "và các ông Charlie Bae (CEO - PT Era Blu Elektronik)"
+    },
+    {
+        "text": "PT Era Blu Elektronik",
+        "label": "ORG",
+        "evidence": "CEO - PT Era Blu Elektronik"
+    },
+    {
+        "text": "Joy Wahjudi",
+        "label": "PERSON",
+        "evidence": "ông Joy Wahjudi (CEO của Erajaya Digital)"
+    },
+    {
+        "text": "Erajaya Digital",
+        "label": "ORG",
+        "evidence": "CEO của Erajaya Digital"
+    },
+    {
+        "text": "tập đoàn Erajaya",
+        "label": "ORG",
+        "evidence": "cùng ban lãnh đạo cấp cao của tập đoàn Erajaya."
+    },
+    {
+        "text": "Erablue đã sẵn sàng để cùng với các đối tác kinh doanh của mình xây dựng thêm và mở rộng mô hình kinh doanh trong năm 2023 này",
+        "label": "EVENT",
+        "evidence": "Erablue đã sẵn sàng để cùng với các đối tác kinh doanh của mình xây dựng thêm và mở rộng mô hình kinh doanh trong năm 2023 này, cùng dẫn dắt thị trường trong lĩnh vực bán lẻ điện tử tiêu dùng Indonesia."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Erablue đã sẵn sàng để cùng với các đối tác kinh doanh của mình xây dựng thêm và mở rộng mô hình kinh doanh trong năm 2023 này, cùng dẫn dắt thị trường trong lĩnh vực bán lẻ điện tử tiêu dùng Indonesia."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "xây dựng thêm và mở rộng mô hình kinh doanh trong năm 2023 này"
+    }
+]

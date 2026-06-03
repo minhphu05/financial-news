@@ -1,0 +1,327 @@
+[
+    {
+        "text": "10/1",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán phiên 10/1 chứng kiến giao dịch bùng nổ của nhóm cổ phiếu ngân hàng."
+    },
+    {
+        "text": "cổ phiếu ngân hàng",
+        "label": "ASSET",
+        "evidence": "Thị trường chứng khoán phiên 10/1 chứng kiến giao dịch bùng nổ của nhóm cổ phiếu ngân hàng."
+    },
+    {
+        "text": "10h50",
+        "label": "DATE",
+        "evidence": "Ghi nhận tại thời điểm 10h50, toàn bộ 17 mã ngân hàng niêm yết trên HoSE và HNX đều giao dịch ở mức giá xanh."
+    },
+    {
+        "text": "17 mã ngân hàng",
+        "label": "ASSET",
+        "evidence": "Ghi nhận tại thời điểm 10h50, toàn bộ 17 mã ngân hàng niêm yết trên HoSE và HNX đều giao dịch ở mức giá xanh."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Ghi nhận tại thời điểm 10h50, toàn bộ 17 mã ngân hàng niêm yết trên HoSE và HNX đều giao dịch ở mức giá xanh."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Ghi nhận tại thời điểm 10h50, toàn bộ 17 mã ngân hàng niêm yết trên HoSE và HNX đều giao dịch ở mức giá xanh."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Trong đó, BID vàSHBlà hai mã có diễn biến ấn tượng nhất khi đều tăng trên 3% với khối lượng giao dịch ở mức cao."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Trong đó, BID vàSHBlà hai mã có diễn biến ấn tượng nhất khi đều tăng trên 3% với khối lượng giao dịch ở mức cao."
+    },
+    {
+        "text": "tăng trên 3%",
+        "label": "RATE",
+        "evidence": "Trong đó, BID vàSHBlà hai mã có diễn biến ấn tượng nhất khi đều tăng trên 3% với khối lượng giao dịch ở mức cao."
+    },
+    {
+        "text": "cổ phiếu BID",
+        "label": "ASSET",
+        "evidence": "Cụ thể, sau khi vượt đỉnh lịch sử vào tuần trước, cổ phiếu BID tiếp tục bứt phá và tiến sát mốc 48.000 đồng/cp."
+    },
+    {
+        "text": "48.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cụ thể, sau khi vượt đỉnh lịch sử vào tuần trước, cổ phiếu BID tiếp tục bứt phá và tiến sát mốc 48.000 đồng/cp."
+    },
+    {
+        "text": "đầu tháng 11 năm ngoái",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này đã nổi sóng từ đầu tháng 11 năm ngoái."
+    },
+    {
+        "text": "tăng gần 33%",
+        "label": "RATE",
+        "evidence": "Sau khoảng hơn 2 tháng leo dốc,thị giá BIDđã tăng gần 33%."
+    },
+    {
+        "text": "69.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó tăng thêm 69.000 tỷ lên mức 271.000 tỷ đồng (11 tỷ USD)."
+    },
+    {
+        "text": "271.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó tăng thêm 69.000 tỷ lên mức 271.000 tỷ đồng (11 tỷ USD)."
+    },
+    {
+        "text": "11 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó tăng thêm 69.000 tỷ lên mức 271.000 tỷ đồng (11 tỷ USD)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "PV Gas",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Con số này giúp BIDV củng cố vững chắc vị trí số 2 về vốn hóa trên sàn chứng khoán, chỉ kém Vietcombank và bỏ xa các tên tuổi phía sau như Vinhomes, PV Gas, Vingroup, Hòa Phát,…"
+    },
+    {
+        "text": "12.000 đồng",
+        "label": "PRICE",
+        "evidence": "Lực cầu áp đảo đã giúp cổ phiếu này vượt mốc 12.000 đồng với khối lượng giao dịch đến 11h đã đạt gần 56 triệu đơn vị - mức thanh khoản phiên sáng cao kỷ lục kể từ khi niêm yết."
+    },
+    {
+        "text": "11h",
+        "label": "DATE",
+        "evidence": "Lực cầu áp đảo đã giúp cổ phiếu này vượt mốc 12.000 đồng với khối lượng giao dịch đến 11h đã đạt gần 56 triệu đơn vị - mức thanh khoản phiên sáng cao kỷ lục kể từ khi niêm yết."
+    },
+    {
+        "text": "gần 56 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Lực cầu áp đảo đã giúp cổ phiếu này vượt mốc 12.000 đồng với khối lượng giao dịch đến 11h đã đạt gần 56 triệu đơn vị - mức thanh khoản phiên sáng cao kỷ lục kể từ khi niêm yết."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+2,4%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+2%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+1,8%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+1,7%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+1,4%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "+1%",
+        "label": "RATE",
+        "evidence": "Ngoài BID và SHB, nhiều mã ngân hàng vốn hóa lớn khác cũng bật tăng mạnh mẽ với khối lượng giao dịch ở mức cao như EIB (+2,4%), VPB (+2%), CTG (+1,8%), TPB (+1,7%), ACB (+1,4%), VCB (+1%)."
+    },
+    {
+        "text": "đầu tháng 1",
+        "label": "DATE",
+        "evidence": "Tính chung từ đầu tháng 1, nhiều cổ phiếu ngân hàng đã tăng trên dưới 10%."
+    },
+    {
+        "text": "mã ngân hàng",
+        "label": "ASSET",
+        "evidence": "Tính chung từ đầu tháng 1, nhiều cổ phiếu ngân hàng đã tăng trên dưới 10%."
+    },
+    {
+        "text": "tăng trên dưới 10%",
+        "label": "RATE",
+        "evidence": "Tính chung từ đầu tháng 1, nhiều cổ phiếu ngân hàng đã tăng trên dưới 10%."
+    },
+    {
+        "text": "giữa tháng 12",
+        "label": "DATE",
+        "evidence": "Cổ phiếu ngân hàng diễn biến sôi động kể từ giữa tháng 12 sau một loạt thông tin tích cực về tăng trưởng tín dụng cũng như các chính sách hỗ trợ."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022",
+        "label": "EVENT",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "13,71%",
+        "label": "RATE",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Theo số liệu mới được Ngân hàng Nhà nước (NHNN) công bố, tăng trưởng tín dụng đến hết tháng 12/2023 đạt 13,71% so với cuối năm 2022."
+    },
+    {
+        "text": "30/11",
+        "label": "DATE",
+        "evidence": "Trước đó, tính đến ngày 30/11 tăng trưởng tín dụng mới đạt 9,15%."
+    },
+    {
+        "text": "tăng trưởng tín dụng mới đạt 9,15%",
+        "label": "EVENT",
+        "evidence": "Trước đó, tính đến ngày 30/11 tăng trưởng tín dụng mới đạt 9,15%."
+    },
+    {
+        "text": "9,15%",
+        "label": "RATE",
+        "evidence": "Trước đó, tính đến ngày 30/11 tăng trưởng tín dụng mới đạt 9,15%."
+    },
+    {
+        "text": "tháng 12",
+        "label": "DATE",
+        "evidence": "Như vậy, chỉ trong tháng 12, dư nợ tín dụng toàn nền kinh tế đã tăng thêm 4,56% (tương đương 544.000 tỷ đồng), chiếm 1/3 tổng mức tăng thêm của cả năm 2023."
+    },
+    {
+        "text": "tăng thêm 4,56%",
+        "label": "RATE",
+        "evidence": "Như vậy, chỉ trong tháng 12, dư nợ tín dụng toàn nền kinh tế đã tăng thêm 4,56% (tương đương 544.000 tỷ đồng), chiếm 1/3 tổng mức tăng thêm của cả năm 2023."
+    },
+    {
+        "text": "544.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, chỉ trong tháng 12, dư nợ tín dụng toàn nền kinh tế đã tăng thêm 4,56% (tương đương 544.000 tỷ đồng), chiếm 1/3 tổng mức tăng thêm của cả năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Như vậy, chỉ trong tháng 12, dư nợ tín dụng toàn nền kinh tế đã tăng thêm 4,56% (tương đương 544.000 tỷ đồng), chiếm 1/3 tổng mức tăng thêm của cả năm 2023."
+    },
+    {
+        "text": "Đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Đầu năm 2024, NHNN cũng đã có văn bản gửi các tổ chức tín dụng về kế hoạch tăng trưởng tín dụng năm 2024."
+    },
+    {
+        "text": "kế hoạch tăng trưởng tín dụng năm 2024",
+        "label": "EVENT",
+        "evidence": "Đầu năm 2024, NHNN cũng đã có văn bản gửi các tổ chức tín dụng về kế hoạch tăng trưởng tín dụng năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đầu năm 2024, NHNN cũng đã có văn bản gửi các tổ chức tín dụng về kế hoạch tăng trưởng tín dụng năm 2024."
+    },
+    {
+        "text": "NHNN giao hết toàn bộ chỉ tiêu tăng trưởng tín dụng định hướng 15%",
+        "label": "EVENT",
+        "evidence": "Theo đó, để tạo điều kiện thuận lợi cho các tổ chức tín dụng cung ứng nguồn vốn tín dụng đáp ứng nhu cầu tăng trưởng kinh tế, NHNN giao hết toàn bộ chỉ tiêu tăng trưởng tín dụng định hướng 15% và yêu cầu tổ chức tín dụng kiểm soát tăng trưởng tín dụng năm 2024."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Theo đó, để tạo điều kiện thuận lợi cho các tổ chức tín dụng cung ứng nguồn vốn tín dụng đáp ứng nhu cầu tăng trưởng kinh tế, NHNN giao hết toàn bộ chỉ tiêu tăng trưởng tín dụng định hướng 15% và yêu cầu tổ chức tín dụng kiểm soát tăng trưởng tín dụng năm 2024."
+    },
+    {
+        "text": "giao toàn bộ hạn mức tăng trưởng tín dụng ngay từ đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Cơ chế giao toàn bộ hạn mức tăng trưởng tín dụng ngay từ đầu năm 2024 có sự khác biệt với các năm trước - vốn được NHNN chia thành nhiều đợt và yêu cầu các nhà băng gửi đề nghị rồi xem xét nới room."
+    },
+    {
+        "text": "Đào Minh Tú",
+        "label": "PERSON",
+        "evidence": "Nói về sự thay đổi này, Phó Thống đốc Đào Minh Tú cho biết, cách cấp hạn mức tín dụng mới là một bước thay đổi cơ chế tổ chức điều hành."
+    },
+    {
+        "text": "ban hành Thông tư 22/2023/TT-NHNN sửa đổi, bổ sung một số điều của Thông tư 41/2016/TT-NHNN quy định tỷ lệ an toàn vốn đối với ngân hàng, chi nhánh ngân hàng nước ngoài",
+        "label": "EVENT",
+        "evidence": "Về chính sách, NHNN cũng vừa ban hành Thông tư 22/2023/TT-NHNN sửa đổi, bổ sung một số điều của Thông tư 41/2016/TT-NHNN quy định tỷ lệ an toàn vốn đối với ngân hàng, chi nhánh ngân hàng nước ngoài."
+    },
+    {
+        "text": "gia hạn thời gian triển khai TT02",
+        "label": "EVENT",
+        "evidence": "NHNN cũng đang xem xét việc gia hạn thời gian triển khai TT02 trong bối cảnh nền kinh tế chưa phục hồi, doanh nghiệp vẫn cần sự hỗ trợ từ chính phủ."
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Từ đó, áp lực suy giảm chất lượng tài sản được giảm bớt trong nửa cuối năm 2024 và 2025."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Từ đó, áp lực suy giảm chất lượng tài sản được giảm bớt trong nửa cuối năm 2024 và 2025."
+    }
+]

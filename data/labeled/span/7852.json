@@ -1,0 +1,532 @@
+[
+    {
+        "text": "mua 370 triệu cổ phiếu quỹ của Vinhomes",
+        "label": "EVENT",
+        "evidence": "Hé lộ tiến trình mua 370 triệu cổ phiếu quỹ của Vinhomes"
+    },
+    {
+        "text": "370 triệu cổ phiếu quỹ",
+        "label": "ASSET",
+        "evidence": "Hé lộ tiến trình mua 370 triệu cổ phiếu quỹ của Vinhomes"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Hé lộ tiến trình mua 370 triệu cổ phiếu quỹ của Vinhomes"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Thương vụ Vinhomes mua lại tối đa 370 triệu cổ phiếu quỹ đang là tâm điểm của giới đầu tư chứng khoán Việt Nam."
+    },
+    {
+        "text": "mua lại tối đa 370 triệu cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "Thương vụ Vinhomes mua lại tối đa 370 triệu cổ phiếu quỹ đang là tâm điểm của giới đầu tư chứng khoán Việt Nam."
+    },
+    {
+        "text": "370 triệu cổ phiếu quỹ",
+        "label": "ASSET",
+        "evidence": "Thương vụ Vinhomes mua lại tối đa 370 triệu cổ phiếu quỹ đang là tâm điểm của giới đầu tư chứng khoán Việt Nam."
+    },
+    {
+        "text": "ngày 23/10",
+        "label": "DATE",
+        "evidence": "Theo kế hoạch, thời gian giao dịch sẽ diễn ra từ ngày 23/10 đến 21/11/2024."
+    },
+    {
+        "text": "21/11/2024",
+        "label": "DATE",
+        "evidence": "Theo kế hoạch, thời gian giao dịch sẽ diễn ra từ ngày 23/10 đến 21/11/2024."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Mục đích mua lại do thị giá cổ phiếu VHM đang ở mức thấp hơn so với giá trị thực của công ty nên việc mua lại cổ phiếu để đảm bảo quyền lợi của công ty và cổ đông."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Theo đó, mỗi ngày Vinhomes sẽ đặt mua tối thiểu 11,1 triệu cổ phiếu và tối đa 37 triệu cổ phiếu trong khoảng thời gian diễn ra giao dịch."
+    },
+    {
+        "text": "11,1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, mỗi ngày Vinhomes sẽ đặt mua tối thiểu 11,1 triệu cổ phiếu và tối đa 37 triệu cổ phiếu trong khoảng thời gian diễn ra giao dịch."
+    },
+    {
+        "text": "37 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, mỗi ngày Vinhomes sẽ đặt mua tối thiểu 11,1 triệu cổ phiếu và tối đa 37 triệu cổ phiếu trong khoảng thời gian diễn ra giao dịch."
+    },
+    {
+        "text": "báo cáo tài chính soát xét bán niên 2024",
+        "label": "DATE",
+        "evidence": "Nguồn vốn thực hiện mua lại từ lợi nhuận sau thuế chưa phân phối theo báo cáo tài chính soát xét bán niên 2024."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Ước tính theo thị giá hiện tại, Vinhomes cần chi khoảng 17.000 tỷ đồng để thực hiện."
+    },
+    {
+        "text": "17.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ước tính theo thị giá hiện tại, Vinhomes cần chi khoảng 17.000 tỷ đồng để thực hiện."
+    },
+    {
+        "text": "mua cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "Nếu thực hiện thành công, đây sẽ là thương vụ mua cổ phiếu quỹ lớn nhất lịch sử chứng khoán Việt Nam."
+    },
+    {
+        "text": "Quốc Cường Giai Lai",
+        "label": "ORG",
+        "evidence": "Cổ phiếu Quốc Cường Giai Lai (QCG) tiếp đà “thăng hoa”"
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu Quốc Cường Giai Lai (QCG) tiếp đà “thăng hoa”"
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu QCG của CTCP Quốc Cường Gia Lai tăng mạnh 5/5 phiên (gồm 3 phiên tăng trần) trong tuần qua, kéo dài chuỗi tăng điểm lên phiên thứ 8 liên tiếp."
+    },
+    {
+        "text": "CTCP Quốc Cường Gia Lai",
+        "label": "ORG",
+        "evidence": "Cổ phiếu QCG của CTCP Quốc Cường Gia Lai tăng mạnh 5/5 phiên (gồm 3 phiên tăng trần) trong tuần qua, kéo dài chuỗi tăng điểm lên phiên thứ 8 liên tiếp."
+    },
+    {
+        "text": "Quốc Cường Gia Lai",
+        "label": "ORG",
+        "evidence": "Cổ phiếu QCG của CTCP Quốc Cường Gia Lai tăng mạnh 5/5 phiên (gồm 3 phiên tăng trần) trong tuần qua, kéo dài chuỗi tăng điểm lên phiên thứ 8 liên tiếp."
+    },
+    {
+        "text": "18/10",
+        "label": "DATE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu QCG ở mức 9.850 đồng/cổ phiếu, tăng 2,6% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt hơn 1 triệu đơn vị."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu QCG ở mức 9.850 đồng/cổ phiếu, tăng 2,6% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt hơn 1 triệu đơn vị."
+    },
+    {
+        "text": "9.850 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu QCG ở mức 9.850 đồng/cổ phiếu, tăng 2,6% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt hơn 1 triệu đơn vị."
+    },
+    {
+        "text": "tăng 2,6%",
+        "label": "RATE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu QCG ở mức 9.850 đồng/cổ phiếu, tăng 2,6% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt hơn 1 triệu đơn vị."
+    },
+    {
+        "text": "hơn 1 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu QCG ở mức 9.850 đồng/cổ phiếu, tăng 2,6% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt hơn 1 triệu đơn vị."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Trong 10 phiên giao dịch gần nhất, cổ phiếu QCG đã có 8/10 phiên tăng điểm, gồm 8 phiên tăng điểm liên tiếp, thị giá tăng 44,6%, tương ứng tăng 3.040 đồng/cổ phiếu."
+    },
+    {
+        "text": "tăng 44,6%",
+        "label": "RATE",
+        "evidence": "Trong 10 phiên giao dịch gần nhất, cổ phiếu QCG đã có 8/10 phiên tăng điểm, gồm 8 phiên tăng điểm liên tiếp, thị giá tăng 44,6%, tương ứng tăng 3.040 đồng/cổ phiếu."
+    },
+    {
+        "text": "tăng 3.040 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Trong 10 phiên giao dịch gần nhất, cổ phiếu QCG đã có 8/10 phiên tăng điểm, gồm 8 phiên tăng điểm liên tiếp, thị giá tăng 44,6%, tương ứng tăng 3.040 đồng/cổ phiếu."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu QCG tiếp đà \"thăng hoa\", kéo dài chuỗi tăng điểm lên phiên thứ 8 liên tiếp. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Cafef",
+        "label": "ORG",
+        "evidence": "Cổ phiếu QCG tiếp đà \"thăng hoa\", kéo dài chuỗi tăng điểm lên phiên thứ 8 liên tiếp. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Nguyễn Thị Như Loan",
+        "label": "PERSON",
+        "evidence": "Đây là đỉnh giá cao nhất của mã cổ phiếu địa ốc này, kể từ khi bà Nguyễn Thị Như Loan, cựu Tổng Giám đốc Quốc Cường Gia Lai bị bắt liên quan tới cáo buộc vi phạm pháp luật trong việc chuyển nhượng dự án 39-39B Bến Vân Đồn (Q.4, TP.HCM)."
+    },
+    {
+        "text": "Quốc Cường Gia Lai",
+        "label": "ORG",
+        "evidence": "Đây là đỉnh giá cao nhất của mã cổ phiếu địa ốc này, kể từ khi bà Nguyễn Thị Như Loan, cựu Tổng Giám đốc Quốc Cường Gia Lai bị bắt liên quan tới cáo buộc vi phạm pháp luật trong việc chuyển nhượng dự án 39-39B Bến Vân Đồn (Q.4, TP.HCM)."
+    },
+    {
+        "text": "Nguyễn Thị Như Loan",
+        "label": "PERSON",
+        "evidence": "Cùng thời điểm bà Nguyễn Thị Như Loan bị bắt, cổ phiếu QCG đã trải qua giai đoạn giảm mạnh vào cuối tháng 7/2024, với 11 phiên giảm liên tiếp, trong đó có 6 phiên giảm sàn."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Cùng thời điểm bà Nguyễn Thị Như Loan bị bắt, cổ phiếu QCG đã trải qua giai đoạn giảm mạnh vào cuối tháng 7/2024, với 11 phiên giảm liên tiếp, trong đó có 6 phiên giảm sàn."
+    },
+    {
+        "text": "cuối tháng 7/2024",
+        "label": "DATE",
+        "evidence": "Cùng thời điểm bà Nguyễn Thị Như Loan bị bắt, cổ phiếu QCG đã trải qua giai đoạn giảm mạnh vào cuối tháng 7/2024, với 11 phiên giảm liên tiếp, trong đó có 6 phiên giảm sàn."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Nhịp giảm này khiến cổ phiếu QCG rớt mạnh từ 13.000 đồng xuống còn hơn 6.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "13.000 đồng",
+        "label": "PRICE",
+        "evidence": "Nhịp giảm này khiến cổ phiếu QCG rớt mạnh từ 13.000 đồng xuống còn hơn 6.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "hơn 6.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Nhịp giảm này khiến cổ phiếu QCG rớt mạnh từ 13.000 đồng xuống còn hơn 6.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "QCG",
+        "label": "TICKER",
+        "evidence": "Trong suốt 2 tháng vừa qua, thị giá cổ phiếu QCG luôn dao động quanh mức 6.000 - 7.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "6.000 - 7.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Trong suốt 2 tháng vừa qua, thị giá cổ phiếu QCG luôn dao động quanh mức 6.000 - 7.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "phiên 09/10",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, kể từ phiên 09/10 tới nay, cổ phiếu địa ốc này bắt đầu xu hướng hồi phục, khi “thăng hoa” có 8 phiên tăng điểm liên tiếp (gồm 3 phiên tăng trần) kể trên."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu Eximbank (EIB) thanh khoản “bùng nổ”, tăng mạnh trong ngày VN-Index lỡ mốc 1.290 điểm"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu Eximbank (EIB) thanh khoản “bùng nổ”, tăng mạnh trong ngày VN-Index lỡ mốc 1.290 điểm"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu Eximbank (EIB) thanh khoản “bùng nổ”, tăng mạnh trong ngày VN-Index lỡ mốc 1.290 điểm"
+    },
+    {
+        "text": "1.290 điểm",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu Eximbank (EIB) thanh khoản “bùng nổ”, tăng mạnh trong ngày VN-Index lỡ mốc 1.290 điểm"
+    },
+    {
+        "text": "18/10",
+        "label": "DATE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu EIB ở mức 19.450 đồng/cổ phiếu, tăng 3,46% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt gần 27,2 triệu đơn vị."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu EIB ở mức 19.450 đồng/cổ phiếu, tăng 3,46% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt gần 27,2 triệu đơn vị."
+    },
+    {
+        "text": "19.450 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu EIB ở mức 19.450 đồng/cổ phiếu, tăng 3,46% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt gần 27,2 triệu đơn vị."
+    },
+    {
+        "text": "tăng 3,46%",
+        "label": "RATE",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu EIB ở mức 19.450 đồng/cổ phiếu, tăng 3,46% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt gần 27,2 triệu đơn vị."
+    },
+    {
+        "text": "gần 27,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Kết phiên 18/10, giá cổ phiếu EIB ở mức 19.450 đồng/cổ phiếu, tăng 3,46% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh đạt gần 27,2 triệu đơn vị."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Đây là phiên tăng điểm thứ 3 liên tiếp của cổ phiếu EIB sau phiên 14/10 khi mã cổ phiếu ngân hàng này bất ngờ điều chỉnh mạnh về giá và “bùng nổ” thanh khoản."
+    },
+    {
+        "text": "phiên 14/10",
+        "label": "DATE",
+        "evidence": "Đây là phiên tăng điểm thứ 3 liên tiếp của cổ phiếu EIB sau phiên 14/10 khi mã cổ phiếu ngân hàng này bất ngờ điều chỉnh mạnh về giá và “bùng nổ” thanh khoản."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu EIB có phiên thứ 3 tăng điểm liên tiếp sau 2 phiên đầu tuần bị bán tháo. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Cafef",
+        "label": "ORG",
+        "evidence": "Cổ phiếu EIB có phiên thứ 3 tăng điểm liên tiếp sau 2 phiên đầu tuần bị bán tháo. (Nguồn: Cafef)"
+    },
+    {
+        "text": "phiên 14/10",
+        "label": "DATE",
+        "evidence": "Trước đó, ở phiên 14/10, cổ phiếu EIB bị nhà đầu tư bán tháo, giá cổ phiếu giảm 4,45% xuống 18.250 đồng/cổ phiếu, cùng khối lượng cổ phiếu giao dịch khớp lệnh đột biến gần 42,7 triệu đơn vị."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Trước đó, ở phiên 14/10, cổ phiếu EIB bị nhà đầu tư bán tháo, giá cổ phiếu giảm 4,45% xuống 18.250 đồng/cổ phiếu, cùng khối lượng cổ phiếu giao dịch khớp lệnh đột biến gần 42,7 triệu đơn vị."
+    },
+    {
+        "text": "giảm 4,45%",
+        "label": "RATE",
+        "evidence": "Trước đó, ở phiên 14/10, cổ phiếu EIB bị nhà đầu tư bán tháo, giá cổ phiếu giảm 4,45% xuống 18.250 đồng/cổ phiếu, cùng khối lượng cổ phiếu giao dịch khớp lệnh đột biến gần 42,7 triệu đơn vị."
+    },
+    {
+        "text": "18.250 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Trước đó, ở phiên 14/10, cổ phiếu EIB bị nhà đầu tư bán tháo, giá cổ phiếu giảm 4,45% xuống 18.250 đồng/cổ phiếu, cùng khối lượng cổ phiếu giao dịch khớp lệnh đột biến gần 42,7 triệu đơn vị."
+    },
+    {
+        "text": "gần 42,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Trước đó, ở phiên 14/10, cổ phiếu EIB bị nhà đầu tư bán tháo, giá cổ phiếu giảm 4,45% xuống 18.250 đồng/cổ phiếu, cùng khối lượng cổ phiếu giao dịch khớp lệnh đột biến gần 42,7 triệu đơn vị."
+    },
+    {
+        "text": "ngày 15/10",
+        "label": "DATE",
+        "evidence": "Chưa dừng lại ở đó, sang phiên giao dịch ngày 15/10, giá cổ phiếu EIB tiếp tục “lao dốc”."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Chưa dừng lại ở đó, sang phiên giao dịch ngày 15/10, giá cổ phiếu EIB tiếp tục “lao dốc”."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Động thái này xảy ra, sau khi xuất hiện thông tin lan truyền trên mạng xã hội có nội dung “Đơn kiến nghị và phản ánh khẩn cấp về rủi ro nghiêm trọng dẫn đến mất an toàn hoạt động và nguy cơ sụp đổ hệ thống Eximbank”."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu họ “Hoàng Huy” TCH và HHS bị bán tháo sau đề nghị điều tra dự án 275 Nguyễn Trãi"
+    },
+    {
+        "text": "HHS",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu họ “Hoàng Huy” TCH và HHS bị bán tháo sau đề nghị điều tra dự án 275 Nguyễn Trãi"
+    },
+    {
+        "text": "đề nghị điều tra dự án 275 Nguyễn Trãi",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu họ “Hoàng Huy” TCH và HHS bị bán tháo sau đề nghị điều tra dự án 275 Nguyễn Trãi"
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy",
+        "label": "ORG",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "HHS",
+        "label": "TICKER",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "CTCP Đầu tư Dịch vụ Hoàng Huy",
+        "label": "ORG",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "phiên 14/10",
+        "label": "DATE",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "đề nghị điều tra dự án 275 Nguyễn Trãi",
+        "label": "EVENT",
+        "evidence": "Bộ đôi cổ phiếu họ “Hoàng Huy” TCH của CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy và HHS của CTCP Đầu tư Dịch vụ Hoàng Huy giảm kịch sàn trong phiên 14/10, sau đề nghị điều tra dự án 275 Nguyễn Trãi."
+    },
+    {
+        "text": "Thanh tra Chính phủ",
+        "label": "ORG",
+        "evidence": "Trước đó, thanh tra Chính phủ đề nghị công an tiếp nhận hồ sơ, điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần cho CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy (TCH)."
+    },
+    {
+        "text": "điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần",
+        "label": "EVENT",
+        "evidence": "Trước đó, thanh tra Chính phủ đề nghị công an tiếp nhận hồ sơ, điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần cho CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy (TCH)."
+    },
+    {
+        "text": "Công ty Hưng Việt",
+        "label": "ORG",
+        "evidence": "Trước đó, thanh tra Chính phủ đề nghị công an tiếp nhận hồ sơ, điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần cho CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy (TCH)."
+    },
+    {
+        "text": "CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy",
+        "label": "ORG",
+        "evidence": "Trước đó, thanh tra Chính phủ đề nghị công an tiếp nhận hồ sơ, điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần cho CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy (TCH)."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Trước đó, thanh tra Chính phủ đề nghị công an tiếp nhận hồ sơ, điều tra sai phạm liên quan việc thu hồi đất, giao Công ty Hưng Việt xây dựng dự án 275 Nguyễn Trãi và chuyển nhượng cổ phần cho CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy (TCH)."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Thị giá cổ phiếu TCH biến động mạnh trong tuần qua. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Cafef",
+        "label": "ORG",
+        "evidence": "Thị giá cổ phiếu TCH biến động mạnh trong tuần qua. (Nguồn: Cafef)"
+    },
+    {
+        "text": "phiên 14",
+        "label": "DATE",
+        "evidence": "Thị trường phản ứng ngay sau khi xuất hiện thông tin trên, ở phiên 14 và 15/10 giá cổ phiếu họ “Hoàng Huy” TCH và HHS giảm sâu."
+    },
+    {
+        "text": "15/10",
+        "label": "DATE",
+        "evidence": "Thị trường phản ứng ngay sau khi xuất hiện thông tin trên, ở phiên 14 và 15/10 giá cổ phiếu họ “Hoàng Huy” TCH và HHS giảm sâu."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Thị trường phản ứng ngay sau khi xuất hiện thông tin trên, ở phiên 14 và 15/10 giá cổ phiếu họ “Hoàng Huy” TCH và HHS giảm sâu."
+    },
+    {
+        "text": "HHS",
+        "label": "TICKER",
+        "evidence": "Thị trường phản ứng ngay sau khi xuất hiện thông tin trên, ở phiên 14 và 15/10 giá cổ phiếu họ “Hoàng Huy” TCH và HHS giảm sâu."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "TCH sau đó công bố thông tin liên quan đến kết luận thanh tra từ Thanh tra Chính phủ."
+    },
+    {
+        "text": "công bố thông tin liên quan đến kết luận thanh tra từ Thanh tra Chính phủ",
+        "label": "EVENT",
+        "evidence": "TCH sau đó công bố thông tin liên quan đến kết luận thanh tra từ Thanh tra Chính phủ."
+    },
+    {
+        "text": "Thanh tra Chính phủ",
+        "label": "ORG",
+        "evidence": "TCH sau đó công bố thông tin liên quan đến kết luận thanh tra từ Thanh tra Chính phủ."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Thị giá cổ phiếu TCH biến động mạnh trong tuần qua. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Cafef",
+        "label": "ORG",
+        "evidence": "Thị giá cổ phiếu TCH biến động mạnh trong tuần qua. (Nguồn: Cafef)"
+    },
+    {
+        "text": "2 phiên 16",
+        "label": "DATE",
+        "evidence": "Thị trường đã phản ứng ngay sau đó bằng 2 phiên 16 và 17/10 tăng điểm liên tiếp, trước khi có phiên giảm điểm theo đà của thị trường ở phiên cuối tuần (18/10)."
+    },
+    {
+        "text": "17/10",
+        "label": "DATE",
+        "evidence": "Thị trường đã phản ứng ngay sau đó bằng 2 phiên 16 và 17/10 tăng điểm liên tiếp, trước khi có phiên giảm điểm theo đà của thị trường ở phiên cuối tuần (18/10)."
+    },
+    {
+        "text": "18/10",
+        "label": "DATE",
+        "evidence": "Thị trường đã phản ứng ngay sau đó bằng 2 phiên 16 và 17/10 tăng điểm liên tiếp, trước khi có phiên giảm điểm theo đà của thị trường ở phiên cuối tuần (18/10)."
+    },
+    {
+        "text": "phiên 17/10",
+        "label": "DATE",
+        "evidence": "Đóng cửa phiên 17/10, cổ phiếu WCS của CTCP Bến xe Miền Tây gây bất ngờ khi tăng kịch trần."
+    },
+    {
+        "text": "WCS",
+        "label": "TICKER",
+        "evidence": "Đóng cửa phiên 17/10, cổ phiếu WCS của CTCP Bến xe Miền Tây gây bất ngờ khi tăng kịch trần."
+    },
+    {
+        "text": "CTCP Bến xe Miền Tây",
+        "label": "ORG",
+        "evidence": "Đóng cửa phiên 17/10, cổ phiếu WCS của CTCP Bến xe Miền Tây gây bất ngờ khi tăng kịch trần."
+    },
+    {
+        "text": "tăng kịch trần",
+        "label": "RATE",
+        "evidence": "Đóng cửa phiên 17/10, cổ phiếu WCS của CTCP Bến xe Miền Tây gây bất ngờ khi tăng kịch trần."
+    },
+    {
+        "text": "tăng thêm 26.400 đồng",
+        "label": "PRICE",
+        "evidence": "Thị giá nhanh chóng tăng thêm 26.400 đồng, tương ứng mức tăng 10% so với phiên trước, qua đó tiến lên mức 290.400 đồng/cp."
+    },
+    {
+        "text": "tăng 10%",
+        "label": "RATE",
+        "evidence": "Thị giá nhanh chóng tăng thêm 26.400 đồng, tương ứng mức tăng 10% so với phiên trước, qua đó tiến lên mức 290.400 đồng/cp."
+    },
+    {
+        "text": "290.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Thị giá nhanh chóng tăng thêm 26.400 đồng, tương ứng mức tăng 10% so với phiên trước, qua đó tiến lên mức 290.400 đồng/cp."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Đây là mức đỉnh lịch sử mà doanh nghiệp “chạm” tới kể từ khi niêm yết, đồng thời củng cố thêm vị trí cổ phiếu đắt nhất sàn HNX."
+    },
+    {
+        "text": "WCS",
+        "label": "TICKER",
+        "evidence": "Nếu tính trên toàn thị trường, WCS là cổ phiếu có thị giá cao top đầu, chỉ sau VNZ (CTCP VNG)."
+    },
+    {
+        "text": "VNZ",
+        "label": "TICKER",
+        "evidence": "Nếu tính trên toàn thị trường, WCS là cổ phiếu có thị giá cao top đầu, chỉ sau VNZ (CTCP VNG)."
+    },
+    {
+        "text": "CTCP VNG",
+        "label": "ORG",
+        "evidence": "Nếu tính trên toàn thị trường, WCS là cổ phiếu có thị giá cao top đầu, chỉ sau VNZ (CTCP VNG)."
+    },
+    {
+        "text": "WCS",
+        "label": "TICKER",
+        "evidence": "Do cổ phiếu có thị giá cao, nhà đầu tư muốn sở hữu WCS phải có khoảng 29 triệu đồng (~1.150 USD) để khớp lệnh 1 lô tối thiểu 100 cổ phiếu ở thời điểm này."
+    },
+    {
+        "text": "29 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Do cổ phiếu có thị giá cao, nhà đầu tư muốn sở hữu WCS phải có khoảng 29 triệu đồng (~1.150 USD) để khớp lệnh 1 lô tối thiểu 100 cổ phiếu ở thời điểm này."
+    },
+    {
+        "text": "1.150 USD",
+        "label": "MONEY",
+        "evidence": "Do cổ phiếu có thị giá cao, nhà đầu tư muốn sở hữu WCS phải có khoảng 29 triệu đồng (~1.150 USD) để khớp lệnh 1 lô tối thiểu 100 cổ phiếu ở thời điểm này."
+    },
+    {
+        "text": "100 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Do cổ phiếu có thị giá cao, nhà đầu tư muốn sở hữu WCS phải có khoảng 29 triệu đồng (~1.150 USD) để khớp lệnh 1 lô tối thiểu 100 cổ phiếu ở thời điểm này."
+    }
+]

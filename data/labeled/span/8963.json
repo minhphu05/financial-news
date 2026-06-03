@@ -1,0 +1,352 @@
+[
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Theo thống kê từ HOSE, đến hết tháng 8/2023, sàn có 43 doanh nghiệp có vốn hóa hơn 1 tỷ USD, trong đó VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "tháng 8/2023",
+        "label": "DATE",
+        "evidence": "Theo thống kê từ HOSE, đến hết tháng 8/2023, sàn có 43 doanh nghiệp có vốn hóa hơn 1 tỷ USD, trong đó VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo thống kê từ HOSE, đến hết tháng 8/2023, sàn có 43 doanh nghiệp có vốn hóa hơn 1 tỷ USD, trong đó VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Theo thống kê từ HOSE, đến hết tháng 8/2023, sàn có 43 doanh nghiệp có vốn hóa hơn 1 tỷ USD, trong đó VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "NHTMCP Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo thống kê từ HOSE, đến hết tháng 8/2023, sàn có 43 doanh nghiệp có vốn hóa hơn 1 tỷ USD, trong đó VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "VCB của NHTMCP Ngoại thương Việt Nam là doanh nghiệp duy nhất có vốn hóa trên 10 tỷ USD."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Như vậy, so với tháng 7, số lượng mã trên 1 tỷ USD vẫn chưa có thêm sự tiến bộ nào."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "các cổ phiếu trong nhóm vốn hóa 1 tỷ USD, lại tạo ra rất nhiều biến động."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "Nổi bật nhất là trường hợp của cổ phiếu VIC đã có thời điểm tăng tới 39% so với cuối tháng 5, nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Nổi bật nhất là trường hợp của cổ phiếu VIC đã có thời điểm tăng tới 39% so với cuối tháng 5, nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "39%",
+        "label": "RATE",
+        "evidence": "cổ phiếu VIC đã có thời điểm tăng tới 39% so với cuối tháng 5, nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "cuối tháng 5",
+        "label": "DATE",
+        "evidence": "cổ phiếu VIC đã có thời điểm tăng tới 39% so với cuối tháng 5, nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "VinFast niêm yết trên NASDAQ",
+        "label": "EVENT",
+        "evidence": "nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "NASDAQ",
+        "label": "ORG",
+        "evidence": "nhờ hiệu ứng từ sự kiện VinFast niêm yết trên NASDAQ."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Điều này đã giúp cho VIC có thời điểm vượt mặt cả Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV- BID) và VINHOMES (VHM) để vươn lên vị trí vốn hóa số 2 thị trường."
+    },
+    {
+        "text": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Điều này đã giúp cho VIC có thời điểm vượt mặt cả Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV- BID) và VINHOMES (VHM) để vươn lên vị trí vốn hóa số 2 thị trường."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV- BID)"
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV- BID)"
+    },
+    {
+        "text": "VINHOMES",
+        "label": "ORG",
+        "evidence": "và VINHOMES (VHM) để vươn lên vị trí vốn hóa số 2 thị trường."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "và VINHOMES (VHM) để vươn lên vị trí vốn hóa số 2 thị trường."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "Dù vậy, sau khi hiệu ứng thông tin qua đi, cổ phiếu VIC cũng đã hạ nhiệt và thu hẹp thành tích tăng xuống 12,7%."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Dù vậy, sau khi hiệu ứng thông tin qua đi, cổ phiếu VIC cũng đã hạ nhiệt và thu hẹp thành tích tăng xuống 12,7%."
+    },
+    {
+        "text": "12,7%",
+        "label": "RATE",
+        "evidence": "cổ phiếu VIC cũng đã hạ nhiệt và thu hẹp thành tích tăng xuống 12,7%."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Đồng thời, VIC cũng trả lại vị trí cho các mã VHM và BID để trở về vị trí thứ 4."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VIC cũng trả lại vị trí cho các mã VHM và BID để trở về vị trí thứ 4."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "VIC cũng trả lại vị trí cho các mã VHM và BID để trở về vị trí thứ 4."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Nếu bị cuốn theo câu chuyện của VinFast, nhà đầu tư có thể còn bỏ lỡ những cơ hội tăng ấn tượng hơn trong nhóm các cổ phiếu vốn hóa hơn tỷ USD."
+    },
+    {
+        "text": "Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam",
+        "label": "ORG",
+        "evidence": "Các trường hợp như Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam, Eximbank - EIB (+23,51%), Tập đoàn Hóa chất Đức Giang - DGC (+21,53%), Ngân hàng TMCP Bưu điện Liên Việt -LPB (+26,37%) mới là những cổ phiếu đem lại thành quả tốt nhất."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam, Eximbank - EIB (+23,51%)"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Eximbank - EIB (+23,51%)"
+    },
+    {
+        "text": "+23,51%",
+        "label": "RATE",
+        "evidence": "Eximbank - EIB (+23,51%)"
+    },
+    {
+        "text": "Tập đoàn Hóa chất Đức Giang",
+        "label": "ORG",
+        "evidence": "Tập đoàn Hóa chất Đức Giang - DGC (+21,53%)"
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Tập đoàn Hóa chất Đức Giang - DGC (+21,53%)"
+    },
+    {
+        "text": "+21,53%",
+        "label": "RATE",
+        "evidence": "Tập đoàn Hóa chất Đức Giang - DGC (+21,53%)"
+    },
+    {
+        "text": "Ngân hàng TMCP Bưu điện Liên Việt",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt -LPB (+26,37%)"
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt -LPB (+26,37%)"
+    },
+    {
+        "text": "+26,37%",
+        "label": "RATE",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt -LPB (+26,37%)"
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "Được biết trong tháng 8, Ngân hàng Nhà nước đã chấp thuận cho EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước đã chấp thuận cho EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng Nhà nước đã chấp thuận cho EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%."
+    },
+    {
+        "text": "EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước đã chấp thuận cho EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "EIB trả cổ tức bằng cổ phiếu tỷ lệ 18%."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Vốn điều lệ của EIB sẽ tăng từ 14.814 tỷ đồng lên 17.470 tỷ đồng."
+    },
+    {
+        "text": "14.814 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ của EIB sẽ tăng từ 14.814 tỷ đồng lên 17.470 tỷ đồng."
+    },
+    {
+        "text": "17.470 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ của EIB sẽ tăng từ 14.814 tỷ đồng lên 17.470 tỷ đồng."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Với LPB, Ngân hàng đã kết thúc đợt phát hành trả cổ tức bằng cổ phiếu với tỷ lệ 19% vào ngày 23/8."
+    },
+    {
+        "text": "kết thúc đợt phát hành trả cổ tức bằng cổ phiếu với tỷ lệ 19%",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đã kết thúc đợt phát hành trả cổ tức bằng cổ phiếu với tỷ lệ 19% vào ngày 23/8."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "kết thúc đợt phát hành trả cổ tức bằng cổ phiếu với tỷ lệ 19% vào ngày 23/8."
+    },
+    {
+        "text": "ngày 23/8",
+        "label": "DATE",
+        "evidence": "kết thúc đợt phát hành trả cổ tức bằng cổ phiếu với tỷ lệ 19% vào ngày 23/8."
+    },
+    {
+        "text": "tháng 9-10/2023",
+        "label": "DATE",
+        "evidence": "Dự kiến tháng 9-10/2023, 328,51 triệu cổ phiếu LPB sẽ về tài khoản nhà đầu tư."
+    },
+    {
+        "text": "328,51 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "328,51 triệu cổ phiếu LPB sẽ về tài khoản nhà đầu tư."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "328,51 triệu cổ phiếu LPB sẽ về tài khoản nhà đầu tư."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Còn với trường hợp DGC, đà tăng mạnh mẽ đến nhờ việc khối ngoại đảo chiều mua ròng hơn 320 tỷ đồng sau 4 tháng liên tiếp bán ra."
+    },
+    {
+        "text": "320 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại đảo chiều mua ròng hơn 320 tỷ đồng sau 4 tháng liên tiếp bán ra."
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "sau 4 tháng liên tiếp bán ra."
+    },
+    {
+        "text": "tháng 3/2023",
+        "label": "DATE",
+        "evidence": "Thực tế, từ tháng 3/2023, DGC vẫn liên tục tăng giá mà chưa xuất hiện bất kỳ một tháng điều chỉnh nào."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "từ tháng 3/2023, DGC vẫn liên tục tăng giá mà chưa xuất hiện bất kỳ một tháng điều chỉnh nào."
+    },
+    {
+        "text": "tỷ USD",
+        "label": "MONEY",
+        "evidence": "Thống kê độ rộng của 43 mã vốn hóa tỷ USD cho thấy có 44% mã tăng so với 56% mã giảm giá."
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "Thống kê độ rộng của 43 mã vốn hóa tỷ USD cho thấy có 44% mã tăng so với 56% mã giảm giá."
+    },
+    {
+        "text": "56%",
+        "label": "RATE",
+        "evidence": "44% mã tăng so với 56% mã giảm giá."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "biên độ tăng của VN-Index (+0,09%) đã trở nên hẹp nhất trong chuỗi 4 tháng tăng."
+    },
+    {
+        "text": "+0,09%",
+        "label": "RATE",
+        "evidence": "biên độ tăng của VN-Index (+0,09%) đã trở nên hẹp nhất trong chuỗi 4 tháng tăng."
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "hẹp nhất trong chuỗi 4 tháng tăng."
+    },
+    {
+        "text": "Công ty Chứng khoán BIDV",
+        "label": "ORG",
+        "evidence": "Theo dự báo của Công ty Chứng khoán BIDV (BSC), VN-Index có thể sẽ quay trở lại kiểm định vùng 1.280 - 1.300 điểm bên cạnh diễn biến khối ngoại bớt phần tiêu cực hơn."
+    },
+    {
+        "text": "BSC",
+        "label": "ORG",
+        "evidence": "Theo dự báo của Công ty Chứng khoán BIDV (BSC), VN-Index có thể sẽ quay trở lại kiểm định vùng 1.280 - 1.300 điểm bên cạnh diễn biến khối ngoại bớt phần tiêu cực hơn."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index có thể sẽ quay trở lại kiểm định vùng 1.280 - 1.300 điểm bên cạnh diễn biến khối ngoại bớt phần tiêu cực hơn."
+    },
+    {
+        "text": "1.280 - 1.300 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index có thể sẽ quay trở lại kiểm định vùng 1.280 - 1.300 điểm bên cạnh diễn biến khối ngoại bớt phần tiêu cực hơn."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index có thể chứng kiến những phiên rung lắc và quay trở lại kiểm nghiệm ngưỡng 1.200 điểm và các mốc thấp hơn đã thiết lập trước đó."
+    },
+    {
+        "text": "1.200 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index có thể chứng kiến những phiên rung lắc và quay trở lại kiểm nghiệm ngưỡng 1.200 điểm và các mốc thấp hơn đã thiết lập trước đó."
+    }
+]

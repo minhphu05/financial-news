@@ -1,0 +1,532 @@
+[
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Khối ngoại mua ròng HPG 15 phiên liên tiếp."
+    },
+    {
+        "text": "mua ròng HPG 15 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "Khối ngoại mua ròng HPG 15 phiên liên tiếp."
+    },
+    {
+        "text": "NIKKEI 225",
+        "label": "ASSET",
+        "evidence": "Chỉ số chứng khoán mạnh nhất châu Á là NIKKEI 225 đã phản ứng quyết liệt với đường xu hướng ngắn hạn với việc tăng hơn 2% trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "hơn 2%",
+        "label": "RATE",
+        "evidence": "Chỉ số chứng khoán mạnh nhất châu Á là NIKKEI 225 đã phản ứng quyết liệt với đường xu hướng ngắn hạn với việc tăng hơn 2% trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "NASDAQ",
+        "label": "ASSET",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "+1,65%",
+        "label": "RATE",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "S&P 500",
+        "label": "ASSET",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "+1,15%",
+        "label": "RATE",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "Dow Jones",
+        "label": "ASSET",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "+0,63%",
+        "label": "RATE",
+        "evidence": "Diễn biến tương đồng cũng xảy ra với các chỉ số chứng khoán Mỹ khi cả NASDAQ (+1,65%), S&P 500 (+1,15%), Dow Jones (+0,63%) đều tăng điểm khá tốt."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index tiếp tục nối dài mạch tăng điểm lên con số 7."
+    },
+    {
+        "text": "nối dài mạch tăng điểm lên con số 7",
+        "label": "EVENT",
+        "evidence": "VN-Index tiếp tục nối dài mạch tăng điểm lên con số 7."
+    },
+    {
+        "text": "mua ròng trở lại hơn 100 tỷ đồng trên 3 sàn",
+        "label": "EVENT",
+        "evidence": "Thống kê về giao dịch của khối ngoại ghi nhận phiên mua ròng trở lại hơn 100 tỷ đồng trên 3 sàn."
+    },
+    {
+        "text": "hơn 100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thống kê về giao dịch của khối ngoại ghi nhận phiên mua ròng trở lại hơn 100 tỷ đồng trên 3 sàn."
+    },
+    {
+        "text": "ngày 28/6",
+        "label": "DATE",
+        "evidence": "2 cổ phiếu được khối ngoại mua ròng mạnh nhất phiên hôm nay (ngày 28/6) làHPG(+241,5 tỷ đồng) và SHS (+41,2 tỷ đồng)."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "2 cổ phiếu được khối ngoại mua ròng mạnh nhất phiên hôm nay (ngày 28/6) làHPG(+241,5 tỷ đồng) và SHS (+41,2 tỷ đồng)."
+    },
+    {
+        "text": "+241,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "2 cổ phiếu được khối ngoại mua ròng mạnh nhất phiên hôm nay (ngày 28/6) làHPG(+241,5 tỷ đồng) và SHS (+41,2 tỷ đồng)."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "2 cổ phiếu được khối ngoại mua ròng mạnh nhất phiên hôm nay (ngày 28/6) làHPG(+241,5 tỷ đồng) và SHS (+41,2 tỷ đồng)."
+    },
+    {
+        "text": "+41,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "2 cổ phiếu được khối ngoại mua ròng mạnh nhất phiên hôm nay (ngày 28/6) làHPG(+241,5 tỷ đồng) và SHS (+41,2 tỷ đồng)."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "phiên mua ròng thứ 15 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "1.630 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "phiên mua ròng thứ 7 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "170 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, HPG đang có phiên mua ròng thứ 15 liên tiếp với tổng giá trị ròng đạt 1.630 tỷ đồng còn SHS là phiên mua ròng thứ 7 liên tiếp với giá trị ròng khoảng 170 tỷ đồng."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Đây là những tín hiệu tích cực với riêng những cổ phiếu trên trong bối cảnh khối ngoại vẫn chủ yếu rút tiền HOSE."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, HPG cũng ghi nhận sự tham gia sôi động của tiền nội, giúp khối lượng vượt bình quân 20 phiên."
+    },
+    {
+        "text": "khối lượng vượt bình quân 20 phiên",
+        "label": "VOLUME",
+        "evidence": "Ngoài ra, HPG cũng ghi nhận sự tham gia sôi động của tiền nội, giúp khối lượng vượt bình quân 20 phiên."
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "hơn 1.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "kéo thanh khoản HOSE tăng trở lại",
+        "label": "EVENT",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "14.993 tỷ đồng khớp lệnh",
+        "label": "VOLUME",
+        "evidence": "Cùng với NVL đạt giá trị khớp lệnh hơn 1.100 tỷ đồng, HPG đã kéo thanh khoản HOSE tăng trở lại, đạt 14.993 tỷ đồng khớp lệnh."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Nhờ có sự hậu thuẫn tích cực, HPG tiếp tục có phiên chiều tăng giá, biên độ đạt 3,1% và đóng cửa tại 26.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "tăng giá",
+        "label": "EVENT",
+        "evidence": "Nhờ có sự hậu thuẫn tích cực, HPG tiếp tục có phiên chiều tăng giá, biên độ đạt 3,1% và đóng cửa tại 26.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "3,1%",
+        "label": "RATE",
+        "evidence": "Nhờ có sự hậu thuẫn tích cực, HPG tiếp tục có phiên chiều tăng giá, biên độ đạt 3,1% và đóng cửa tại 26.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "26.600 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Nhờ có sự hậu thuẫn tích cực, HPG tiếp tục có phiên chiều tăng giá, biên độ đạt 3,1% và đóng cửa tại 26.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "+2,4%",
+        "label": "RATE",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "+2,2%",
+        "label": "RATE",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "+1,1%",
+        "label": "RATE",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "tăng trên 1%",
+        "label": "RATE",
+        "evidence": "Ở phiên chiều nay, các cổ phiếu ngân hàng lớn nhất đã được dòng tiền lớn vào \"phá băng\" tâm lý giúp cho BID (+2,4%), CTG (+2,2%), VCB (+1,1%), đều tăng trên 1%."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "+3%",
+        "label": "RATE",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "+1,2%",
+        "label": "RATE",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "+1,2%",
+        "label": "RATE",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "+1,1%",
+        "label": "RATE",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "+1%",
+        "label": "RATE",
+        "evidence": "Hiệu ứng tăng của nhóm ngân hàng cũng đồng đều hơn khi MBB (+3%), MSB (+1,2%), SHB (+1,2%), TCB (+1,1%), STB (+1%), đều tỏ ra đồng thuận."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Vì vậy, bất chấp thị trường phân hóa, VN-Index vẫn tiếp tục tăng điểm."
+    },
+    {
+        "text": "tăng điểm",
+        "label": "EVENT",
+        "evidence": "Vì vậy, bất chấp thị trường phân hóa, VN-Index vẫn tiếp tục tăng điểm."
+    },
+    {
+        "text": "ngày 28/6",
+        "label": "DATE",
+        "evidence": "Chỉ số đảo chiều từ sau 14h, chốt phiêngiao dịch ngày 28/6 tại 1.138,35 (+0,35%)."
+    },
+    {
+        "text": "1.138,35",
+        "label": "PRICE",
+        "evidence": "Chỉ số đảo chiều từ sau 14h, chốt phiêngiao dịch ngày 28/6 tại 1.138,35 (+0,35%)."
+    },
+    {
+        "text": "+0,35%",
+        "label": "RATE",
+        "evidence": "Chỉ số đảo chiều từ sau 14h, chốt phiêngiao dịch ngày 28/6 tại 1.138,35 (+0,35%)."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "Biên độ của VN30 (+0,59%) lớn cho VN-Index đã phản ánh rõ vai trò của các cổ phiếu Bluechips."
+    },
+    {
+        "text": "+0,59%",
+        "label": "RATE",
+        "evidence": "Biên độ của VN30 (+0,59%) lớn cho VN-Index đã phản ánh rõ vai trò của các cổ phiếu Bluechips."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Nhà đầu tư có thể đánh giá trạng thái phân hóa của thị trường qua độ rộng của HOSE với 42% mã so với 47,5% mã giảm giá."
+    },
+    {
+        "text": "42%",
+        "label": "RATE",
+        "evidence": "Nhà đầu tư có thể đánh giá trạng thái phân hóa của thị trường qua độ rộng của HOSE với 42% mã so với 47,5% mã giảm giá."
+    },
+    {
+        "text": "47,5%",
+        "label": "RATE",
+        "evidence": "Nhà đầu tư có thể đánh giá trạng thái phân hóa của thị trường qua độ rộng của HOSE với 42% mã so với 47,5% mã giảm giá."
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "-2,31%",
+        "label": "RATE",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "GEX",
+        "label": "TICKER",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "-2,01%",
+        "label": "RATE",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "CII",
+        "label": "TICKER",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "-2,65%",
+        "label": "RATE",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "DIG",
+        "label": "TICKER",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "-1,97%",
+        "label": "RATE",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "VCG",
+        "label": "TICKER",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "-1,39%",
+        "label": "RATE",
+        "evidence": "Một số trường hợp giảm như KBC (-2,31%), GEX (-2,01%), CII (-2,65%), DIG (-1,97%), VCG (-1,39%), mang tính chất điều chỉnh do bị chốt lời."
+    },
+    {
+        "text": "HBC",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, vẫn có những cổ phiếu cá biệt như HBC (+7%), BFC (+7%)."
+    },
+    {
+        "text": "+7%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, vẫn có những cổ phiếu cá biệt như HBC (+7%), BFC (+7%)."
+    },
+    {
+        "text": "BFC",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, vẫn có những cổ phiếu cá biệt như HBC (+7%), BFC (+7%)."
+    },
+    {
+        "text": "+7%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, vẫn có những cổ phiếu cá biệt như HBC (+7%), BFC (+7%)."
+    },
+    {
+        "text": "hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành",
+        "label": "EVENT",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "HBC",
+        "label": "TICKER",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "Coteccons",
+        "label": "ORG",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "Central",
+        "label": "ORG",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "liên minh Hoa Lư",
+        "label": "ORG",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "35.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện đang có những động thái hợp tác của HBC với các đối thủ trong ngành xây dựng như Coteccons, Central để hình thành liên minh Hoa Lư tham gia gói thầu dự án trọng điểm quốc gia sân bay Long Thành trị giá 35.000 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "APS",
+        "label": "TICKER",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "IDJ",
+        "label": "TICKER",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "API",
+        "label": "TICKER",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "giảm sàn",
+        "label": "EVENT",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "bắt tạm giam các lãnh đạo của APEC",
+        "label": "EVENT",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "APEC",
+        "label": "ORG",
+        "evidence": "Với sàn HNX, APS, IDJ, API vẫn có một phiên giảm sàn và hiện đã có thêm thông tin bắt tạm giam các lãnh đạo của APEC."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "Chỉ số HNX-Index kết phiên giảm 0,25% với giá trị giao dịch đạt 1.714 tỷ đồng."
+    },
+    {
+        "text": "giảm 0,25%",
+        "label": "RATE",
+        "evidence": "Chỉ số HNX-Index kết phiên giảm 0,25% với giá trị giao dịch đạt 1.714 tỷ đồng."
+    },
+    {
+        "text": "1.714 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Chỉ số HNX-Index kết phiên giảm 0,25% với giá trị giao dịch đạt 1.714 tỷ đồng."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "+2,3%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "MSR",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "+4,2%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "QTP",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "+1,8%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, UPCoM-Index nhờ VTP (+2,3%), MSR (+4,2%), QTP (+1,8%), giữ được sắc xanh một cách trọn vẹn."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index tăng 0,4% lên 85,99 điểm."
+    },
+    {
+        "text": "tăng 0,4%",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,4% lên 85,99 điểm."
+    },
+    {
+        "text": "85,99 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM-Index tăng 0,4% lên 85,99 điểm."
+    },
+    {
+        "text": "971 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tổng giá trị giao dịch đạt 971 tỷ đồng."
+    }
+]

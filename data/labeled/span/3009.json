@@ -1,0 +1,987 @@
+[
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "Tính đến hiện tại, nhiều doanh nghiệp niêm yết đã công bố ước kết quả kinh doanh quý 2/2023 và 6 tháng đầu năm."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Tính đến hiện tại, nhiều doanh nghiệp niêm yết đã công bố ước kết quả kinh doanh quý 2/2023 và 6 tháng đầu năm."
+    },
+    {
+        "text": "Lợi nhuận của PV GAS và PVOIL giảm một nửa",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận của PV GAS và PVOIL giảm một nửa"
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Lợi nhuận của PV GAS và PVOIL giảm một nửa"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Lợi nhuận của PV GAS và PVOIL giảm một nửa"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "PVOIL (OIL)vừa có tổng kết 6 tháng đầu năm."
+    },
+    {
+        "text": "OIL",
+        "label": "TICKER",
+        "evidence": "PVOIL (OIL)vừa có tổng kết 6 tháng đầu năm."
+    },
+    {
+        "text": "tổng kết 6 tháng đầu năm",
+        "label": "EVENT",
+        "evidence": "PVOIL (OIL)vừa có tổng kết 6 tháng đầu năm."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "PVOIL (OIL)vừa có tổng kết 6 tháng đầu năm."
+    },
+    {
+        "text": "doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "43.478 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "470 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "giảm 52%",
+        "label": "RATE",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "cùng kỳ năm trước",
+        "label": "DATE",
+        "evidence": "Theo đó, doanh thu hợp nhất của PVOIL đạt 43.478 tỷ đồng;lợi nhuận trước thuế hợp nhất đạt 470 tỷ đồng, giảm 52% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên năm 2023",
+        "label": "DATE",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "50.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ĐHĐCĐ thường niên năm 2023, cổ đông PVOIL đã thông qua kế hoạch năm 2023 với tổng doanh thu hợp nhất 50.000 tỷ đồng; lợi nhuận hợp nhất trước thuế 600 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Như vậy, sau 6 tháng đầu năm, Công ty đã đạt xấp xỉ 87% kế hoạch doanh thu và 78,3% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "87%",
+        "label": "RATE",
+        "evidence": "Như vậy, sau 6 tháng đầu năm, Công ty đã đạt xấp xỉ 87% kế hoạch doanh thu và 78,3% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "78,3%",
+        "label": "RATE",
+        "evidence": "Như vậy, sau 6 tháng đầu năm, Công ty đã đạt xấp xỉ 87% kế hoạch doanh thu và 78,3% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "PVOIL là một trong những đơn vị thuộc hệ sinh thái PVN, chuyên nhập và phân phối dầu."
+    },
+    {
+        "text": "PVN",
+        "label": "ORG",
+        "evidence": "PVOIL là một trong những đơn vị thuộc hệ sinh thái PVN, chuyên nhập và phân phối dầu."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Bên cạnh bán buôn, PVOIL cũng phát triển các cửa hàng xăng dầu đại lý bán lẻ cho người dùng."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Một đơn vị khác trong họ dầu khí,PV GASước thực hiện 45.117 tỷ đồng doanh thu trong 6 tháng đầu năm."
+    },
+    {
+        "text": "ước thực hiện 45.117 tỷ đồng doanh thu trong 6 tháng đầu năm",
+        "label": "EVENT",
+        "evidence": "Một đơn vị khác trong họ dầu khí,PV GASước thực hiện 45.117 tỷ đồng doanh thu trong 6 tháng đầu năm."
+    },
+    {
+        "text": "45.117 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Một đơn vị khác trong họ dầu khí,PV GASước thực hiện 45.117 tỷ đồng doanh thu trong 6 tháng đầu năm."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Một đơn vị khác trong họ dầu khí,PV GASước thực hiện 45.117 tỷ đồng doanh thu trong 6 tháng đầu năm."
+    },
+    {
+        "text": "Lợi nhuận trước thuế ước thực hiện 7.542 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế ước thực hiện 7.542 tỷ đồng, lợi nhuận sau thuế ước thực hiện 6.035 tỷ đồng."
+    },
+    {
+        "text": "7.542 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế ước thực hiện 7.542 tỷ đồng, lợi nhuận sau thuế ước thực hiện 6.035 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận sau thuế ước thực hiện 6.035 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế ước thực hiện 7.542 tỷ đồng, lợi nhuận sau thuế ước thực hiện 6.035 tỷ đồng."
+    },
+    {
+        "text": "6.035 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế ước thực hiện 7.542 tỷ đồng, lợi nhuận sau thuế ước thực hiện 6.035 tỷ đồng."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "ước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái",
+        "label": "EVENT",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "2.618 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "giảm 49%",
+        "label": "RATE",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "cùng kỳ năm ngoái",
+        "label": "DATE",
+        "evidence": "Tính riêng trong quý 2,PV GASước đạt 2.618 tỷ đồng lợi nhuận ròng,giảm 49% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "6 quý",
+        "label": "DATE",
+        "evidence": "Đây là mức lợi nhuận thấp nhất của doanh nghiệp đầu ngành khí trong vòng 6 quý.﻿"
+    },
+    {
+        "text": "ĐHCĐ thường niên 2023",
+        "label": "DATE",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "76.441 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "giảm 24%",
+        "label": "RATE",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "giảm hơn 56%",
+        "label": "RATE",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "6.539 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ĐHCĐ thường niên 2023 mới đây, cổ đông của PV GAS đã thông qua kế hoạch năm 2023 với mục tiêu doanh thu đạt 76.441 tỷ đồng, giảm 24% so với năm 2022; lợi nhuận sau thuế giảm hơn 56%, xuống còn 6.539 tỷ đồng."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Như vậy, sau nửa đầu năm, PV GAS đã hoàn thành 59% kế hoạch doanh thu và hơn 92% kế hoạch lợi nhuận sau thuế cả năm."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Như vậy, sau nửa đầu năm, PV GAS đã hoàn thành 59% kế hoạch doanh thu và hơn 92% kế hoạch lợi nhuận sau thuế cả năm."
+    },
+    {
+        "text": "59%",
+        "label": "RATE",
+        "evidence": "Như vậy, sau nửa đầu năm, PV GAS đã hoàn thành 59% kế hoạch doanh thu và hơn 92% kế hoạch lợi nhuận sau thuế cả năm."
+    },
+    {
+        "text": "hơn 92%",
+        "label": "RATE",
+        "evidence": "Như vậy, sau nửa đầu năm, PV GAS đã hoàn thành 59% kế hoạch doanh thu và hơn 92% kế hoạch lợi nhuận sau thuế cả năm."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "Viglacera",
+        "label": "ORG",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "VGC",
+        "label": "TICKER",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "gần 7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023",
+        "label": "EVENT",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "gần 3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "52%",
+        "label": "RATE",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023",
+        "label": "EVENT",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "913 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "cả năm 2023",
+        "label": "DATE",
+        "evidence": "Mới nhất,Viglacera (VGC)cho biết doanh thu thuần hợp nhất toàn Tổng Công ty ước đạt gần 7.000 tỷ đồng, riêng Công ty mẹ đạt gần 3.000 tỷ đồng, đạt 52% kế hoạch năm 2023; lợi nhuận trước thuế ước đạt 913 tỷ đồng, tương đương 75% lợi nhuận cả năm 2023."
+    },
+    {
+        "text": "doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, đóng góp chính vẫn đến từ lĩnh vực bất động sản (đặc biệt là bất động sản khu công nghiệp) khi ghi nhận nhiều khởi sắc, với kết quả doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng; lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm."
+    },
+    {
+        "text": "hơn 2.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, đóng góp chính vẫn đến từ lĩnh vực bất động sản (đặc biệt là bất động sản khu công nghiệp) khi ghi nhận nhiều khởi sắc, với kết quả doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng; lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm."
+    },
+    {
+        "text": "lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm",
+        "label": "EVENT",
+        "evidence": "Trong đó, đóng góp chính vẫn đến từ lĩnh vực bất động sản (đặc biệt là bất động sản khu công nghiệp) khi ghi nhận nhiều khởi sắc, với kết quả doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng; lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm."
+    },
+    {
+        "text": "950 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, đóng góp chính vẫn đến từ lĩnh vực bất động sản (đặc biệt là bất động sản khu công nghiệp) khi ghi nhận nhiều khởi sắc, với kết quả doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng; lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Trong đó, đóng góp chính vẫn đến từ lĩnh vực bất động sản (đặc biệt là bất động sản khu công nghiệp) khi ghi nhận nhiều khởi sắc, với kết quả doanh thu khối bất động sản dự kiến ước đạt hơn 2.600 tỷ đồng; lợi nhuận ước đạt 950 tỷ đồng, đạt 90% kế hoạch lợi nhuận cả năm."
+    },
+    {
+        "text": "Viglacera",
+        "label": "ORG",
+        "evidence": "Cần nhấn mạnh, lợi nhuận của Viglacera gồm 310 tỷ đồng cổ tức thu từ công ty liên kết."
+    },
+    {
+        "text": "310 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cần nhấn mạnh, lợi nhuận của Viglacera gồm 310 tỷ đồng cổ tức thu từ công ty liên kết."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2023",
+        "label": "DATE",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "Chủ tịchPhát Đạt",
+        "label": "PERSON",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "Phát Đạt",
+        "label": "ORG",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "PDR",
+        "label": "TICKER",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "doanh nghiệp lãi khoảng 384 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "khoảng 384 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "56,5%",
+        "label": "RATE",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, Chủ tịchPhát Đạt (PDR)cho biết thống kê nửa đầu năm, doanh nghiệp lãi khoảng 384 tỷ đồng, tương đương 56,5% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "Phát Đạt",
+        "label": "ORG",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022",
+        "label": "EVENT",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "2.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "giảm 48%",
+        "label": "RATE",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "850 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "680 tỷ",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "giảm 41%",
+        "label": "RATE",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2023, Phát Đạt đặt mục tiêu tổng doanh thu 2.800 tỷ đồng – giảm 48% và lợi nhuận trước thuế 850 tỷ đồng và lợi nhuận sau thuế 680 tỷ, giảm 41% về lợi nhuận so với kết quả đạt được trong năm 2022."
+    },
+    {
+        "text": "Chủ tịch Phát Đạt",
+        "label": "PERSON",
+        "evidence": "Theo Chủ tịch Phát Đạt, thời gian vừa rồi ngành bất động sản Việt Nam đã rơi vào bối cảnh thách thức nhất trong hơn một thập kỷ."
+    },
+    {
+        "text": "tiến hành tái cơ cấu một số khoản đầu tư trong năm",
+        "label": "EVENT",
+        "evidence": "Do đó, Công ty đã tiến hành tái cơ cấu một số khoản đầu tư trong năm và mua lại nhiều lô trái phiếu trước thời hạn và tất toán các khoản vay đến hạn."
+    },
+    {
+        "text": "mua lại nhiều lô trái phiếu trước thời hạn",
+        "label": "EVENT",
+        "evidence": "Do đó, Công ty đã tiến hành tái cơ cấu một số khoản đầu tư trong năm và mua lại nhiều lô trái phiếu trước thời hạn và tất toán các khoản vay đến hạn."
+    },
+    {
+        "text": "tất toán các khoản vay đến hạn",
+        "label": "EVENT",
+        "evidence": "Do đó, Công ty đã tiến hành tái cơ cấu một số khoản đầu tư trong năm và mua lại nhiều lô trái phiếu trước thời hạn và tất toán các khoản vay đến hạn."
+    },
+    {
+        "text": "Phát Đạt",
+        "label": "ORG",
+        "evidence": "\"Tôi tự tin rằng giai đoạn khó khăn nhất của Phát Đạt đã đi qua."
+    },
+    {
+        "text": "Quý 2/2023",
+        "label": "DATE",
+        "evidence": "Quý 2/2023 Công ty lãi hơn 360 tỷ."
+    },
+    {
+        "text": "Công ty lãi hơn 360 tỷ",
+        "label": "EVENT",
+        "evidence": "Quý 2/2023 Công ty lãi hơn 360 tỷ."
+    },
+    {
+        "text": "hơn 360 tỷ",
+        "label": "MONEY",
+        "evidence": "Quý 2/2023 Công ty lãi hơn 360 tỷ."
+    },
+    {
+        "text": "Danh Khôi",
+        "label": "ORG",
+        "evidence": "Từ nay đến cuối năm, Danh Khôi sẽ trả tiếp 1.500 tỷ\",Chủ tịch Phát Đạt nói."
+    },
+    {
+        "text": "sẽ trả tiếp 1.500 tỷ",
+        "label": "EVENT",
+        "evidence": "Từ nay đến cuối năm, Danh Khôi sẽ trả tiếp 1.500 tỷ\",Chủ tịch Phát Đạt nói."
+    },
+    {
+        "text": "1.500 tỷ",
+        "label": "MONEY",
+        "evidence": "Từ nay đến cuối năm, Danh Khôi sẽ trả tiếp 1.500 tỷ\",Chủ tịch Phát Đạt nói."
+    },
+    {
+        "text": "Chủ tịch Phát Đạt",
+        "label": "PERSON",
+        "evidence": "Từ nay đến cuối năm, Danh Khôi sẽ trả tiếp 1.500 tỷ\",Chủ tịch Phát Đạt nói."
+    },
+    {
+        "text": "Tôn Đông Á",
+        "label": "ORG",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "TDA",
+        "label": "TICKER",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022",
+        "label": "EVENT",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "tăng 172%",
+        "label": "RATE",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cũng dần hồi phục sau cơn bĩ cực,Tôn Đông Á (TDA)lên kế hoạch lợi nhuận sau thuế dự kiến 200 tỷ đồng, tăng 172% so với kết quả trong năm 2022."
+    },
+    {
+        "text": "Đại hội",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "cuối tháng 6/2023",
+        "label": "DATE",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "Phạm Quốc Thắng",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "TDA",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "hơn 50%",
+        "label": "RATE",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "150 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chia sẻ tại Đại hội hồi cuối tháng 6/2023, ông Phạm Quốc Thắng - Phó Tổng Giám đốc TDA – cho biết tính tới thời điểm hiện tại, sản lượng sản xuất của Công ty đạt hơn 50% so với kế hoạch 760.000 tấn, lợi nhuận ước tính trong 6 tháng đầu năm là 150 tỷ đồng."
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "Trong đó, trung bình cơ cấu thị trường nội địa chiếm 45% và còn lại 55% đến từ thị trường xuất khẩu."
+    },
+    {
+        "text": "55%",
+        "label": "RATE",
+        "evidence": "Trong đó, trung bình cơ cấu thị trường nội địa chiếm 45% và còn lại 55% đến từ thị trường xuất khẩu."
+    },
+    {
+        "text": "thị phần TDA tăng lên 17,11%",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, thị phần TDA tăng lên 17,11% (cùng kỳ 13,84%), giữ thị phần Top 2 tại thị trường Việt Nam, đồng thời là Top ba đơn vị có quy mô sản lượng trong ngành thép lá mạ."
+    },
+    {
+        "text": "TDA",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, thị phần TDA tăng lên 17,11% (cùng kỳ 13,84%), giữ thị phần Top 2 tại thị trường Việt Nam, đồng thời là Top ba đơn vị có quy mô sản lượng trong ngành thép lá mạ."
+    },
+    {
+        "text": "17,11%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, thị phần TDA tăng lên 17,11% (cùng kỳ 13,84%), giữ thị phần Top 2 tại thị trường Việt Nam, đồng thời là Top ba đơn vị có quy mô sản lượng trong ngành thép lá mạ."
+    },
+    {
+        "text": "cùng kỳ",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, thị phần TDA tăng lên 17,11% (cùng kỳ 13,84%), giữ thị phần Top 2 tại thị trường Việt Nam, đồng thời là Top ba đơn vị có quy mô sản lượng trong ngành thép lá mạ."
+    },
+    {
+        "text": "13,84%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, thị phần TDA tăng lên 17,11% (cùng kỳ 13,84%), giữ thị phần Top 2 tại thị trường Việt Nam, đồng thời là Top ba đơn vị có quy mô sản lượng trong ngành thép lá mạ."
+    },
+    {
+        "text": "13,83%",
+        "label": "RATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "cùng kỳ",
+        "label": "DATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "13,31%",
+        "label": "RATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "20,43%",
+        "label": "RATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "cùng kỳ",
+        "label": "DATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "14,15%",
+        "label": "RATE",
+        "evidence": "Thị phần nội địa Công ty hiện đạt 13,83% (cùng kỳ 13,31%) và xuất khẩu chiếm 20,43% (cùng kỳ 14,15%)."
+    },
+    {
+        "text": "CTCP Damsan",
+        "label": "ORG",
+        "evidence": "Ngoài ra,CTCP Damsan (ADS)cũng đã có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng."
+    },
+    {
+        "text": "ADS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra,CTCP Damsan (ADS)cũng đã có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng."
+    },
+    {
+        "text": "có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra,CTCP Damsan (ADS)cũng đã có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Ngoài ra,CTCP Damsan (ADS)cũng đã có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng."
+    },
+    {
+        "text": "461 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra,CTCP Damsan (ADS)cũng đã có số ước 6 tháng đầu năm 2023, với doanh số xuất khẩu 461 tỷ đồng."
+    },
+    {
+        "text": "6 tháng cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Trong đó, sản lượng sợi và khăn xuất khẩu đi Trung Quốc và Nhật Bản đạt gần 5.600 tấn, tăng 1,4 lần so với cùng kỳ; tăng gấp 2,6 lần so với 6 tháng cuối năm 2022 và bằng 90% tổng sản lượng xuất khẩu cả năm 2022."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Trong đó, sản lượng sợi và khăn xuất khẩu đi Trung Quốc và Nhật Bản đạt gần 5.600 tấn, tăng 1,4 lần so với cùng kỳ; tăng gấp 2,6 lần so với 6 tháng cuối năm 2022 và bằng 90% tổng sản lượng xuất khẩu cả năm 2022."
+    },
+    {
+        "text": "cả năm 2022",
+        "label": "DATE",
+        "evidence": "Trong đó, sản lượng sợi và khăn xuất khẩu đi Trung Quốc và Nhật Bản đạt gần 5.600 tấn, tăng 1,4 lần so với cùng kỳ; tăng gấp 2,6 lần so với 6 tháng cuối năm 2022 và bằng 90% tổng sản lượng xuất khẩu cả năm 2022."
+    },
+    {
+        "text": "Phân bón Bình Điền",
+        "label": "ORG",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "BFC",
+        "label": "TICKER",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "giảm 14,3%",
+        "label": "RATE",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "cùng kỳ năm trước",
+        "label": "DATE",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%",
+        "label": "EVENT",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "giảm 12%",
+        "label": "RATE",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "40,2%",
+        "label": "RATE",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "40,9%",
+        "label": "RATE",
+        "evidence": "HayPhân bón Bình Điền (BFC),nửa đầu năm ước sản lượng sản xuất đạt 235.604 tấn, giảm 14,3% cùng kỳ năm trước; sản lượng tiêu thụ đạt 239.632 tấn, giảm 12%, lần lượt hoàn thành 40,2% và 40,9% kế hoạch năm."
+    },
+    {
+        "text": "BFC",
+        "label": "ORG",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022",
+        "label": "EVENT",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "3.739,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "giảm 16,6%",
+        "label": "RATE",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "cùng kỳ năm 2022",
+        "label": "DATE",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%",
+        "label": "EVENT",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "48,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "giảm tới hơn 76%",
+        "label": "RATE",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%",
+        "label": "EVENT",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "giảm 46,3%",
+        "label": "RATE",
+        "evidence": "Tương đương, tổng doanh thu BFC trong kỳ đạt 3.739,5 tỷ đồng, giảm 16,6% thực hiện cùng kỳ năm 2022;lợi nhuận trước thuế hợp nhất đạt 48,9 tỷ đồng, giảm tới hơn 76%, riêng Công ty mẹ đạt 60 tỷ đồng, giảm 46,3%."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, BFC đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng."
+    },
+    {
+        "text": "BFC",
+        "label": "ORG",
+        "evidence": "Năm 2023, BFC đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng."
+    },
+    {
+        "text": "đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2023, BFC đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng."
+    },
+    {
+        "text": "7.476,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, BFC đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng."
+    },
+    {
+        "text": "220 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, BFC đặt kế hoạch doanh thu đạt 7.476,5 tỷ đồng và lợi nhuận hợp nhất 220 tỷ đồng."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Như vậy, kết thúc nửa đầu năm, Công ty thực hiện lần lượt 50% và 22% kế hoạch năm."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Như vậy, kết thúc nửa đầu năm, Công ty thực hiện lần lượt 50% và 22% kế hoạch năm."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Như vậy, kết thúc nửa đầu năm, Công ty thực hiện lần lượt 50% và 22% kế hoạch năm."
+    },
+    {
+        "text": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp, công bố logo mới sau 1 năm ấp ủ"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp, công bố logo mới sau 1 năm ấp ủ"
+    },
+    {
+        "text": "quý thứ 3 liên tiếp",
+        "label": "DATE",
+        "evidence": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp, công bố logo mới sau 1 năm ấp ủ"
+    },
+    {
+        "text": "công bố logo mới",
+        "label": "EVENT",
+        "evidence": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp, công bố logo mới sau 1 năm ấp ủ"
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Vinamilk tăng trưởng dương quý thứ 3 liên tiếp, công bố logo mới sau 1 năm ấp ủ"
+    },
+    {
+        "text": "công bố thay đổi logo và tái định vị thương hiệu",
+        "label": "EVENT",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "Sữa Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước",
+        "label": "EVENT",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "15.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "2.220 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "tăng 1,6%",
+        "label": "RATE",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "5,6%",
+        "label": "RATE",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "Trong hôm công bố thay đổi logo và tái định vị thương hiệu, Sữa Việt Nam (Vinamilk, VNM) cũng hé lộ kết quả kinh doanh quý 2/2023 với doanh thu 15.200 tỷ đồng và lợi nhuận sau thuế 2.220 tỷ đồng, lần lượt tăng 1,6% và 5,6% so với thực hiện năm trước."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Như vậy, Vinamilk đã ngắt chuỗi giảm lợi nhuận (so với cùng kỳ) 5 quý liên tục."
+    },
+    {
+        "text": "ngắt chuỗi giảm lợi nhuận (so với cùng kỳ) 5 quý liên tục",
+        "label": "EVENT",
+        "evidence": "Như vậy, Vinamilk đã ngắt chuỗi giảm lợi nhuận (so với cùng kỳ) 5 quý liên tục."
+    },
+    {
+        "text": "cùng kỳ",
+        "label": "DATE",
+        "evidence": "Như vậy, Vinamilk đã ngắt chuỗi giảm lợi nhuận (so với cùng kỳ) 5 quý liên tục."
+    },
+    {
+        "text": "5 quý liên tục",
+        "label": "DATE",
+        "evidence": "Như vậy, Vinamilk đã ngắt chuỗi giảm lợi nhuận (so với cùng kỳ) 5 quý liên tục."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "29.154 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng nhẹ 0,8%",
+        "label": "RATE",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "cùng kỳ năm trước",
+        "label": "DATE",
+        "evidence": "Lũy kế 6 tháng, Vinamilk đã mang về ﻿29.154 tỷ đồng doanh thu, tăng nhẹ 0,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "lợi nhuận sau thuế giảm 6% còn 4.126 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên lợi nhuận sau thuế giảm 6% còn 4.126 tỷ đồng."
+    },
+    {
+        "text": "giảm 6%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên lợi nhuận sau thuế giảm 6% còn 4.126 tỷ đồng."
+    },
+    {
+        "text": "4.126 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên lợi nhuận sau thuế giảm 6% còn 4.126 tỷ đồng."
+    }
+]

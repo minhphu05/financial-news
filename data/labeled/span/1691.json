@@ -1,0 +1,87 @@
+[
+    {
+        "text": "Donald Trump",
+        "label": "PERSON",
+        "evidence": "Tổng thống Mỹ Donald Trump tuyên bố áp dụng mức phí một lần là 100.000 USD cho những người xin thị thực H-1B mới."
+    },
+    {
+        "text": "tuyên bố áp dụng mức phí một lần là 100.000 USD cho những người xin thị thực H-1B mới",
+        "label": "EVENT",
+        "evidence": "Tổng thống Mỹ Donald Trump tuyên bố áp dụng mức phí một lần là 100.000 USD cho những người xin thị thực H-1B mới."
+    },
+    {
+        "text": "100.000 USD",
+        "label": "MONEY",
+        "evidence": "Tổng thống Mỹ Donald Trump tuyên bố áp dụng mức phí một lần là 100.000 USD cho những người xin thị thực H-1B mới."
+    },
+    {
+        "text": "chu kỳ 2025",
+        "label": "DATE",
+        "evidence": "Biện pháp này không áp dụng cho những người gia hạn visa hoặc đang sở hữu thị thực, và sẽ có hiệu lực bắt đầu từ chu kỳ tiếp theo, ngoại trừ những người được cấp visa trong chu kỳ 2025."
+    },
+    {
+        "text": "2.000 đến 5.000 USD",
+        "label": "MONEY",
+        "evidence": "Trước khi có thông báo mới này, mức phí thị thực H-1B dao động từ khoảng 2.000 đến 5.000 USD tùy thuộc vào quy mô của nhà tuyển dụng và các chi phí liên quan."
+    },
+    {
+        "text": "CTCK Vietcap",
+        "label": "ORG",
+        "evidence": "Theo CTCK Vietcap, việc tăng phí mạnh như vậy có thể gây ra những thách thức cho việc sắp xếp nguồn nhân lực và làm tăng nhẹ chi phí lao động cho các công ty dịch vụ CNTT hoạt động tại Mỹ, bao gồm FPT và các công ty Ấn Độ."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Theo CTCK Vietcap, việc tăng phí mạnh như vậy có thể gây ra những thách thức cho việc sắp xếp nguồn nhân lực và làm tăng nhẹ chi phí lao động cho các công ty dịch vụ CNTT hoạt động tại Mỹ, bao gồm FPT và các công ty Ấn Độ."
+    },
+    {
+        "text": "tăng phí",
+        "label": "EVENT",
+        "evidence": "Theo CTCK Vietcap, việc tăng phí mạnh như vậy có thể gây ra những thách thức cho việc sắp xếp nguồn nhân lực và làm tăng nhẹ chi phí lao động cho các công ty dịch vụ CNTT hoạt động tại Mỹ, bao gồm FPT và các công ty Ấn Độ."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo CTCK Vietcap, việc tăng phí mạnh như vậy có thể gây ra những thách thức cho việc sắp xếp nguồn nhân lực và làm tăng nhẹ chi phí lao động cho các công ty dịch vụ CNTT hoạt động tại Mỹ, bao gồm FPT và các công ty Ấn Độ."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "TheoFPT, hiện tại công ty có vài chục nhân viên tại chỗ ở Mỹ theo thị thực H-1B (chiếm ~6% tổng số nhân viên tại chỗ ở Mỹ của FPT và chiếm chưa đến 0,2% tổng số nhân viên của Công ty TNHH Phần mềm FPT - FPT Software)."
+    },
+    {
+        "text": "~6%",
+        "label": "RATE",
+        "evidence": "TheoFPT, hiện tại công ty có vài chục nhân viên tại chỗ ở Mỹ theo thị thực H-1B (chiếm ~6% tổng số nhân viên tại chỗ ở Mỹ của FPT và chiếm chưa đến 0,2% tổng số nhân viên của Công ty TNHH Phần mềm FPT - FPT Software)."
+    },
+    {
+        "text": "0,2%",
+        "label": "RATE",
+        "evidence": "TheoFPT, hiện tại công ty có vài chục nhân viên tại chỗ ở Mỹ theo thị thực H-1B (chiếm ~6% tổng số nhân viên tại chỗ ở Mỹ của FPT và chiếm chưa đến 0,2% tổng số nhân viên của Công ty TNHH Phần mềm FPT - FPT Software)."
+    },
+    {
+        "text": "Công ty TNHH Phần mềm FPT",
+        "label": "ORG",
+        "evidence": "TheoFPT, hiện tại công ty có vài chục nhân viên tại chỗ ở Mỹ theo thị thực H-1B (chiếm ~6% tổng số nhân viên tại chỗ ở Mỹ của FPT và chiếm chưa đến 0,2% tổng số nhân viên của Công ty TNHH Phần mềm FPT - FPT Software)."
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "TheoFPT, hiện tại công ty có vài chục nhân viên tại chỗ ở Mỹ theo thị thực H-1B (chiếm ~6% tổng số nhân viên tại chỗ ở Mỹ của FPT và chiếm chưa đến 0,2% tổng số nhân viên của Công ty TNHH Phần mềm FPT - FPT Software)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài ra, vì quy định mới chỉ áp dụng cho các ứng viên H-1B mới, FPT dự kiến tác động sẽ không đáng kể."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Chúng tôi cho rằng tác động tiêu cực lớn hơn có thể sẽ rơi vào các nhà cung cấp dịch vụ CNTT của Ấn Độ do doanh thu của họ tập trung nhiều hơn vào thị trường Mỹ và số lượng nhân viên tại chỗ lớn hơn tại Mỹ theo diện thị thực H-1B (trung bình 1% tổng số nhân viên của các công ty dịch vụ CNTT của Ấn Độ, theo tính toán của chúng tôi)"
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Vietcap cũng lưu ý rằng các công ty dịch vụ CNTT thường sử dụng mô hình cung cấp dịch vụ “bestshore”, kết hợp các nhóm nhân sự tại chỗ (onsite), gần quốc gia sở tại (nearshore) và ngoài quốc gia sở tại (offshore)."
+    }
+]

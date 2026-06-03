@@ -1,0 +1,127 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "sử dụng dịch vụ của BIDV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "thông tin chung về BIDV, bản đồ mạng lưới ngân hàng, các sản phẩm dịch vụ dành cho đối tượng khách hàng doanh nghiệp (thẻ doanh nghiệp, tiền gửi, tiền vay…), các chương trình khuyến mại, các vấn đề khi sử dụng dịch vụ BIDV iBank và cách xử lý."
+    },
+    {
+        "text": "thẻ doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "đối tượng khách hàng doanh nghiệp (thẻ doanh nghiệp, tiền gửi, tiền vay…)"
+    },
+    {
+        "text": "tiền gửi",
+        "label": "ASSET",
+        "evidence": "đối tượng khách hàng doanh nghiệp (thẻ doanh nghiệp, tiền gửi, tiền vay…)"
+    },
+    {
+        "text": "tiền vay",
+        "label": "ASSET",
+        "evidence": "đối tượng khách hàng doanh nghiệp (thẻ doanh nghiệp, tiền gửi, tiền vay…)"
+    },
+    {
+        "text": "BIDV iBank",
+        "label": "ORG",
+        "evidence": "sử dụng dịch vụ BIDV iBank và cách xử lý."
+    },
+    {
+        "text": "BIDV iBank",
+        "label": "ORG",
+        "evidence": "Chatbot trên BIDV iBank có khả năng tự học hỏi và tự nâng cao khả năng hỗ trợ khách hàng qua từng ngày."
+    },
+    {
+        "text": "BIDV iBank",
+        "label": "ORG",
+        "evidence": "màn hình dịch vụ BIDV iBank khi chưa đăng nhập (trên cả hai nền tảng Web và Mobile App) hoặc tại các màn hình chi tiết dịch vụ (khi đã đăng nhập)."
+    },
+    {
+        "text": "BIDViBank",
+        "label": "ORG",
+        "evidence": "BIDViBank là dịch vụ ngân hàng số cung cấp các dịch vụ tài chính ngân hàng toàn diện bao gồm dịch vụ tài khoản, thanh toán, quản lý khoản phải thu, phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "dịch vụ tài khoản",
+        "label": "ASSET",
+        "evidence": "bao gồm dịch vụ tài khoản, thanh toán, quản lý khoản phải thu, phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "thanh toán",
+        "label": "ASSET",
+        "evidence": "bao gồm dịch vụ tài khoản, thanh toán, quản lý khoản phải thu, phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "quản lý khoản phải thu",
+        "label": "ASSET",
+        "evidence": "thanh toán, quản lý khoản phải thu, phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "quản lý khoản phải trả",
+        "label": "ASSET",
+        "evidence": "quản lý khoản phải thu, phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "dịch vụ tài trợ thương mại",
+        "label": "ASSET",
+        "evidence": "phải trả tới các dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "ngoại hối",
+        "label": "ASSET",
+        "evidence": "dịch vụ tài trợ thương mại và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "quản lý thanh khoản",
+        "label": "ASSET",
+        "evidence": "và ngoại hối, quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "Chữ ký số",
+        "label": "ASSET",
+        "evidence": "quản lý thanh khoản, quản lý chứng từ chứa Chữ ký số, kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "kết nối ERP doanh nghiệp với nền tảng số BIDV,…"
+    },
+    {
+        "text": "BIDV iBank",
+        "label": "ORG",
+        "evidence": "tiếp cận các dịch vụ của BIDV iBank hơn, tối ưu hóa tất cả các tính năng và nâng tầm trải nghiệm."
+    },
+    {
+        "text": "BIDV iBank",
+        "label": "ORG",
+        "evidence": "hệ sinh thái ngân hàng số (trong đó có BIDV iBank), năm 2023, BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "BIDV iBank), năm 2023, BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "năm 2023, BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"."
+    },
+    {
+        "text": "Tạp chí Asiamoney",
+        "label": "ORG",
+        "evidence": "BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"."
+    },
+    {
+        "text": "BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"",
+        "label": "EVENT",
+        "evidence": "năm 2023, BIDV đã được Tạp chí Asiamoney vinh danh là \"Ngân hàng cung cấp giải pháp số hàng đầu Việt Nam\"."
+    },
+    {
+        "text": "Best Bank Awards",
+        "label": "EVENT",
+        "evidence": "Đây là giải thưởng nằm trong nhóm các giải \"Best Bank Awards\" được Tạp chí uy tín này tổ chức hằng năm nhằm vinh danh các ngân hàng có những thành tựu nổi bật ở các lĩnh vực khác nhau trong khu vực châu Á."
+    }
+]

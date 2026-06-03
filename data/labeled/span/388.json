@@ -1,0 +1,642 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "Lãi trước thuế đạt 17.021 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "17.021 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "15.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACB: Lãi trước thuế đạt 17.021 tỷ đồng, tăng 50% so với năm 2021 và vượt kế hoạch cả năm (15.000 tỷ đồng)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về chất lượng tài sản, tỷ lệ nợ xấu ACB ở mức thấp 0,74%, giảm so với 0,78% cuối năm 2021 và là năm thứ 7 liên tiếp ở mức dưới 1%."
+    },
+    {
+        "text": "0,74%",
+        "label": "RATE",
+        "evidence": "Về chất lượng tài sản, tỷ lệ nợ xấu ACB ở mức thấp 0,74%, giảm so với 0,78% cuối năm 2021 và là năm thứ 7 liên tiếp ở mức dưới 1%."
+    },
+    {
+        "text": "0,78%",
+        "label": "RATE",
+        "evidence": "Về chất lượng tài sản, tỷ lệ nợ xấu ACB ở mức thấp 0,74%, giảm so với 0,78% cuối năm 2021 và là năm thứ 7 liên tiếp ở mức dưới 1%."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Về chất lượng tài sản, tỷ lệ nợ xấu ACB ở mức thấp 0,74%, giảm so với 0,78% cuối năm 2021 và là năm thứ 7 liên tiếp ở mức dưới 1%."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Về chất lượng tài sản, tỷ lệ nợ xấu ACB ở mức thấp 0,74%, giảm so với 0,78% cuối năm 2021 và là năm thứ 7 liên tiếp ở mức dưới 1%."
+    },
+    {
+        "text": "155%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ dự phòng bao nợ xấu đạt 155%."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "Lợi nhuận trên 1 tỷ USD",
+        "label": "EVENT",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "đạt 25.600 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "25.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Techcombank:Lợi nhuận trên 1 tỷ USD, đạt 25.600 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu cuối năm 2022 ở mức 0,9%, tăng so với năm 2021 nhưng vẫn nằm trong nhóm thấp nhất toàn ngành."
+    },
+    {
+        "text": "0,9%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu cuối năm 2022 ở mức 0,9%, tăng so với năm 2021 nhưng vẫn nằm trong nhóm thấp nhất toàn ngành."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu cuối năm 2022 ở mức 0,9%, tăng so với năm 2021 nhưng vẫn nằm trong nhóm thấp nhất toàn ngành."
+    },
+    {
+        "text": "125%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ dự phòng bao nợ xấu đạt 125%."
+    },
+    {
+        "text": "15,2%",
+        "label": "RATE",
+        "evidence": "Hệ số an toàn vốn (CAR) tăng lên mức 15,2%, gần gấp đôi so với yêu cầu của Basel II."
+    },
+    {
+        "text": "Basel II",
+        "label": "ORG",
+        "evidence": "Hệ số an toàn vốn (CAR) tăng lên mức 15,2%, gần gấp đôi so với yêu cầu của Basel II."
+    },
+    {
+        "text": "37%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA giảm xuống còn 37%."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank:Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng, tăng 44% so với năm 2021."
+    },
+    {
+        "text": "Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Sacombank:Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng, tăng 44% so với năm 2021."
+    },
+    {
+        "text": "6.339 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sacombank:Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng, tăng 44% so với năm 2021."
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "Sacombank:Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng, tăng 44% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Sacombank:Ngân hàng công bố lợi nhuận trước thuế đạt 6.339 tỷ đồng, tăng 44% so với năm 2021."
+    },
+    {
+        "text": "1,47%",
+        "label": "RATE",
+        "evidence": "Chất lượng tài sản được cải thiện mạnh mẽ, trong đó, tỷ lệ nợ xấu nội bảng giảm từ 1,47% xuống còn 0,98%."
+    },
+    {
+        "text": "0,98%",
+        "label": "RATE",
+        "evidence": "Chất lượng tài sản được cải thiện mạnh mẽ, trong đó, tỷ lệ nợ xấu nội bảng giảm từ 1,47% xuống còn 0,98%."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank:Do tăng mạnh trích lập dự phòng và chi phí hoạt động trong quý IV/2022, VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "quý IV/2022",
+        "label": "DATE",
+        "evidence": "VPBank:Do tăng mạnh trích lập dự phòng và chi phí hoạt động trong quý IV/2022, VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank:Do tăng mạnh trích lập dự phòng và chi phí hoạt động trong quý IV/2022, VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)",
+        "label": "EVENT",
+        "evidence": "VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "47%",
+        "label": "RATE",
+        "evidence": "VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "1.382 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VPBank ghi nhận lợi nhuận quý này giảm 47% so với cùng kỳ, chỉ đạt 1.382 tỷ đồng (trước thuế)."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "21.219 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "47,7%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, nhờ kết quả kinh doanh tích cực của những quý trước đó, cả năm 2022, lợi nhuận trước thuế của VPBank đạt 21.219 tỷ đồng, tăng 47,7% so với năm 2021."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "Lợi nhuận trước thuế đạt 10.268 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "10.268 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "27%",
+        "label": "RATE",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "105%",
+        "label": "RATE",
+        "evidence": "HDBank:Lợi nhuận trước thuế đạt 10.268 tỷ đồng - mức cao nhất từ trước đến nay của nhà băng này, tăng 27% so với năm 2021 và hoàn thành 105% kế hoạch cổ đông giao."
+    },
+    {
+        "text": "23,5%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu ROAE đạt 23,5%, ROAA đạt 2,1%, hệ số an toàn vốn CAR đạt hơn 13,4% - nằm trong top cao hàng đầu về an toàn vốn trong hệ thống."
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu ROAE đạt 23,5%, ROAA đạt 2,1%, hệ số an toàn vốn CAR đạt hơn 13,4% - nằm trong top cao hàng đầu về an toàn vốn trong hệ thống."
+    },
+    {
+        "text": "13,4%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu ROAE đạt 23,5%, ROAA đạt 2,1%, hệ số an toàn vốn CAR đạt hơn 13,4% - nằm trong top cao hàng đầu về an toàn vốn trong hệ thống."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB:Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng, tăng 38% so với năm 2021."
+    },
+    {
+        "text": "Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MB:Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng, tăng 38% so với năm 2021."
+    },
+    {
+        "text": "22.729 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MB:Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng, tăng 38% so với năm 2021."
+    },
+    {
+        "text": "38%",
+        "label": "RATE",
+        "evidence": "MB:Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng, tăng 38% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "MB:Lợi nhuận trước thuế năm 2022 của MB đạt 22.729 tỷ đồng, tăng 38% so với năm 2021."
+    },
+    {
+        "text": "dư nợ cho vay khách hàng tăng tới 26,7%, đạt 460.574 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng có tốc độ tăng trưởng tín dụng đáng kể trong năm qua, với dư nợ cho vay khách hàng tăng tới 26,7%, đạt 460.574 tỷ đồng."
+    },
+    {
+        "text": "26,7%",
+        "label": "RATE",
+        "evidence": "Ngân hàng có tốc độ tăng trưởng tín dụng đáng kể trong năm qua, với dư nợ cho vay khách hàng tăng tới 26,7%, đạt 460.574 tỷ đồng."
+    },
+    {
+        "text": "460.574 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngân hàng có tốc độ tăng trưởng tín dụng đáng kể trong năm qua, với dư nợ cho vay khách hàng tăng tới 26,7%, đạt 460.574 tỷ đồng."
+    },
+    {
+        "text": "31/12/2022",
+        "label": "DATE",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "tổng tài sản của MB đạt 728.532 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "728.532 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Tại ngày 31/12/2022, tổng tài sản của MB đạt 728.532 tỷ đồng, tăng 20% so với cuối năm 2021."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng – mức tăng cao hơn nhiều so với toàn ngành (khoảng 6%)."
+    },
+    {
+        "text": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng – mức tăng cao hơn nhiều so với toàn ngành (khoảng 6%)."
+    },
+    {
+        "text": "15,3%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng – mức tăng cao hơn nhiều so với toàn ngành (khoảng 6%)."
+    },
+    {
+        "text": "443.605 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng – mức tăng cao hơn nhiều so với toàn ngành (khoảng 6%)."
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng của MB tăng 15,3% lên 443.605 tỷ đồng – mức tăng cao hơn nhiều so với toàn ngành (khoảng 6%)."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, tỷ lệ CASA cuối năm 2022 của MB là 40,6%, tuy giảm so với mức 48,7% cuối năm 2021 nhưng là tỷ lệ cao nhất được ghi nhận trong hệ thống."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, tỷ lệ CASA cuối năm 2022 của MB là 40,6%, tuy giảm so với mức 48,7% cuối năm 2021 nhưng là tỷ lệ cao nhất được ghi nhận trong hệ thống."
+    },
+    {
+        "text": "40,6%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, tỷ lệ CASA cuối năm 2022 của MB là 40,6%, tuy giảm so với mức 48,7% cuối năm 2021 nhưng là tỷ lệ cao nhất được ghi nhận trong hệ thống."
+    },
+    {
+        "text": "48,7%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, tỷ lệ CASA cuối năm 2022 của MB là 40,6%, tuy giảm so với mức 48,7% cuối năm 2021 nhưng là tỷ lệ cao nhất được ghi nhận trong hệ thống."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, tỷ lệ CASA cuối năm 2022 của MB là 40,6%, tuy giảm so với mức 48,7% cuối năm 2021 nhưng là tỷ lệ cao nhất được ghi nhận trong hệ thống."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "31/12/2022",
+        "label": "DATE",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng",
+        "label": "EVENT",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "hơn 551 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "Basel II",
+        "label": "ORG",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "62.577 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "tổng huy động đạt hơn 407 nghìn tỷ đồng",
+        "label": "EVENT",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "hơn 407 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng",
+        "label": "EVENT",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "hơn 385 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SHB:Tính đến ngày 31/12/2022, tổng tài sản của SHB đạt hơn 551 nghìn tỷ đồng, vốn tự có theo chuẩn Basel II đạt 62.577 tỷ đồng, tổng huy động đạt hơn 407 nghìn tỷ đồng, dư nợ cho vay khách hàng đạt hơn 385 nghìn tỷ đồng."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Tổng thu nhập thuần từ hoạt động kinh doanh của SHB trong năm 2022 đạt hơn 19.350 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tổng thu nhập thuần từ hoạt động kinh doanh của SHB trong năm 2022 đạt hơn 19.350 tỷ đồng."
+    },
+    {
+        "text": "Tổng thu nhập thuần từ hoạt động kinh doanh của SHB trong năm 2022 đạt hơn 19.350 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng thu nhập thuần từ hoạt động kinh doanh của SHB trong năm 2022 đạt hơn 19.350 tỷ đồng."
+    },
+    {
+        "text": "hơn 19.350 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng thu nhập thuần từ hoạt động kinh doanh của SHB trong năm 2022 đạt hơn 19.350 tỷ đồng."
+    },
+    {
+        "text": "Lợi nhuận trước thuế đạt hơn 9.658 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế đạt hơn 9.658 tỷ đồng, tăng 54% so với cùng kỳ."
+    },
+    {
+        "text": "hơn 9.658 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt hơn 9.658 tỷ đồng, tăng 54% so với cùng kỳ."
+    },
+    {
+        "text": "54%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước thuế đạt hơn 9.658 tỷ đồng, tăng 54% so với cùng kỳ."
+    },
+    {
+        "text": "ghi nhận lợi nhuận tăng trưởng âm",
+        "label": "EVENT",
+        "evidence": "Có 4 ngân hàng ghi nhận lợi nhuận tăng trưởng âm gồm: OCB, ABBank, NCB, Kienlongbank."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Có 4 ngân hàng ghi nhận lợi nhuận tăng trưởng âm gồm: OCB, ABBank, NCB, Kienlongbank."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Có 4 ngân hàng ghi nhận lợi nhuận tăng trưởng âm gồm: OCB, ABBank, NCB, Kienlongbank."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "Có 4 ngân hàng ghi nhận lợi nhuận tăng trưởng âm gồm: OCB, ABBank, NCB, Kienlongbank."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Có 4 ngân hàng ghi nhận lợi nhuận tăng trưởng âm gồm: OCB, ABBank, NCB, Kienlongbank."
+    },
+    {
+        "text": "Trước TếtNguyên đán",
+        "label": "DATE",
+        "evidence": "Trước TếtNguyên đán, hàng loạt ngân hàng cũng đã công bố kết quả kinh doanh năm 2022."
+    },
+    {
+        "text": "công bố kết quả kinh doanh năm 2022",
+        "label": "EVENT",
+        "evidence": "Trước TếtNguyên đán, hàng loạt ngân hàng cũng đã công bố kết quả kinh doanh năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trước TếtNguyên đán, hàng loạt ngân hàng cũng đã công bố kết quả kinh doanh năm 2022."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "lợi nhuận trước thuế cao nhất",
+        "label": "EVENT",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "37.358 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "36%",
+        "label": "RATE",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Vietcombank được xác định là ngân hàng có lợi nhuận trước thuế cao nhất trong năm qua, giữ vững vị trí \"quán quân\" 5 năm liên tiếp. Lợi nhuận trước thuế hợp nhất của ngân hàng đạt 37.358 tỷ đồng, tăng 36% so với năm 2021."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "2 ngân hàng quốc doanh khác là VietinBank và BIDV cũng có kết quả kinh doanh khả quan, đều hoàn thành kế hoạch đã được đại hội đồng cổ đông thông qua. Trong đó, lợi nhuận trước thuế hợp nhất của VietinBank đạt 21.113 tỷ đồng. BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "2 ngân hàng quốc doanh khác là VietinBank và BIDV cũng có kết quả kinh doanh khả quan, đều hoàn thành kế hoạch đã được đại hội đồng cổ đông thông qua. Trong đó, lợi nhuận trước thuế hợp nhất của VietinBank đạt 21.113 tỷ đồng. BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận trước thuế hợp nhất của VietinBank đạt 21.113 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, lợi nhuận trước thuế hợp nhất của VietinBank đạt 21.113 tỷ đồng."
+    },
+    {
+        "text": "21.113 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, lợi nhuận trước thuế hợp nhất của VietinBank đạt 21.113 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "23.057 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV tăng trưởng ấn tượng (tới 70%), lợi nhuận hợp nhất trước thuế đạt 23.057 tỷ đồng."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Hiện Eximbank là ngân hàng có tăng trưởng lợi nhuận cao nhất, tăng gấp 3 lần năm 2021 và đạt 3.710 tỷ đồng. Các mảng kinh doanh của Eximbank đều cho kết quả lãi khả quan, đồng thời ngân hàng giảm mạnh trích lập dự phòng rủi ro (do đã trích lập cao trong những năm trước và tỷ lệ nợ xấu có chuyển biến tốt hơn)."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận cao nhất",
+        "label": "EVENT",
+        "evidence": "Hiện Eximbank là ngân hàng có tăng trưởng lợi nhuận cao nhất, tăng gấp 3 lần năm 2021 và đạt 3.710 tỷ đồng."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Hiện Eximbank là ngân hàng có tăng trưởng lợi nhuận cao nhất, tăng gấp 3 lần năm 2021 và đạt 3.710 tỷ đồng."
+    },
+    {
+        "text": "đạt 3.710 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Hiện Eximbank là ngân hàng có tăng trưởng lợi nhuận cao nhất, tăng gấp 3 lần năm 2021 và đạt 3.710 tỷ đồng."
+    },
+    {
+        "text": "3.710 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện Eximbank là ngân hàng có tăng trưởng lợi nhuận cao nhất, tăng gấp 3 lần năm 2021 và đạt 3.710 tỷ đồng."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Các mảng kinh doanh của Eximbank đều cho kết quả lãi khả quan, đồng thời ngân hàng giảm mạnh trích lập dự phòng rủi ro (do đã trích lập cao trong những năm trước và tỷ lệ nợ xấu có chuyển biến tốt hơn)."
+    },
+    {
+        "text": "góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Có thêm 2 ngân hàng góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng là VIB (10.581 tỷ đồng) và HDBank (10.268 tỷ đồng)."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Có thêm 2 ngân hàng góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng là VIB (10.581 tỷ đồng) và HDBank (10.268 tỷ đồng)."
+    },
+    {
+        "text": "10.581 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Có thêm 2 ngân hàng góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng là VIB (10.581 tỷ đồng) và HDBank (10.268 tỷ đồng)."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Có thêm 2 ngân hàng góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng là VIB (10.581 tỷ đồng) và HDBank (10.268 tỷ đồng)."
+    },
+    {
+        "text": "10.268 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Có thêm 2 ngân hàng góp mặt vào câu lạc bộ lợi nhuận 10.000 tỷ đồng là VIB (10.581 tỷ đồng) và HDBank (10.268 tỷ đồng)."
+    }
+]

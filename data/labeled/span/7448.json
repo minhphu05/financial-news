@@ -1,0 +1,407 @@
+[
+    {
+        "text": "cuối tháng 3",
+        "label": "DATE",
+        "evidence": "Cụ thể, số dư tiền gửi khách hàng tại nhà băng này cuối tháng 3 ở mức 1,5 triệu tỷ đồng, giảm hơn 5.500 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "1,5 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, số dư tiền gửi khách hàng tại nhà băng này cuối tháng 3 ở mức 1,5 triệu tỷ đồng, giảm hơn 5.500 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "hơn 5.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, số dư tiền gửi khách hàng tại nhà băng này cuối tháng 3 ở mức 1,5 triệu tỷ đồng, giảm hơn 5.500 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn giảm",
+        "label": "EVENT",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 26.038 tỷ đồng, tương đương giảm 4,9% xuống 503.700 tỷ đồng."
+    },
+    {
+        "text": "26.038 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 26.038 tỷ đồng, tương đương giảm 4,9% xuống 503.700 tỷ đồng."
+    },
+    {
+        "text": "giảm 4,9%",
+        "label": "RATE",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 26.038 tỷ đồng, tương đương giảm 4,9% xuống 503.700 tỷ đồng."
+    },
+    {
+        "text": "503.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 26.038 tỷ đồng, tương đương giảm 4,9% xuống 503.700 tỷ đồng."
+    },
+    {
+        "text": "Tiền gửi có kỳ hạn vẫn tăng",
+        "label": "EVENT",
+        "evidence": "Tiền gửi có kỳ hạn vẫn tăng hơn 16.300 tỷ đồng lên 974.809 tỷ đồng, tương đương tăng 1,7%."
+    },
+    {
+        "text": "hơn 16.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi có kỳ hạn vẫn tăng hơn 16.300 tỷ đồng lên 974.809 tỷ đồng, tương đương tăng 1,7%."
+    },
+    {
+        "text": "974.809 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi có kỳ hạn vẫn tăng hơn 16.300 tỷ đồng lên 974.809 tỷ đồng, tương đương tăng 1,7%."
+    },
+    {
+        "text": "tăng 1,7%",
+        "label": "RATE",
+        "evidence": "Tiền gửi có kỳ hạn vẫn tăng hơn 16.300 tỷ đồng lên 974.809 tỷ đồng, tương đương tăng 1,7%."
+    },
+    {
+        "text": "Tiền gửi vốn chuyên dùng",
+        "label": "ASSET",
+        "evidence": "Tiền gửi vốn chuyên dùng đạt 17.268 tỷ đồng, tiền gửi ký quỹ là 13.335 tỷ đồng."
+    },
+    {
+        "text": "17.268 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi vốn chuyên dùng đạt 17.268 tỷ đồng, tiền gửi ký quỹ là 13.335 tỷ đồng."
+    },
+    {
+        "text": "tiền gửi ký quỹ",
+        "label": "ASSET",
+        "evidence": "Tiền gửi vốn chuyên dùng đạt 17.268 tỷ đồng, tiền gửi ký quỹ là 13.335 tỷ đồng."
+    },
+    {
+        "text": "13.335 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi vốn chuyên dùng đạt 17.268 tỷ đồng, tiền gửi ký quỹ là 13.335 tỷ đồng."
+    },
+    {
+        "text": "tăng nhẹ 1,2%",
+        "label": "RATE",
+        "evidence": "Điều này có thể do ngân hàng cơ cấu nguồn vốn huy động, trong bối cảnh dư nợ cho vay khách hàng cũng chỉ tăng nhẹ 1,2% trong 3 tháng đầu năm."
+    },
+    {
+        "text": "3 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Điều này có thể do ngân hàng cơ cấu nguồn vốn huy động, trong bối cảnh dư nợ cho vay khách hàng cũng chỉ tăng nhẹ 1,2% trong 3 tháng đầu năm."
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "Hơn nữa, bù lại sự sụt giảm tiền gửi khách hàng, tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng mạnh 56% lên 121 nghìn tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hơn nữa, bù lại sự sụt giảm tiền gửi khách hàng, tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng mạnh 56% lên 121 nghìn tỷ đồng."
+    },
+    {
+        "text": "tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng",
+        "label": "EVENT",
+        "evidence": "Hơn nữa, bù lại sự sụt giảm tiền gửi khách hàng, tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng mạnh 56% lên 121 nghìn tỷ đồng."
+    },
+    {
+        "text": "tăng mạnh 56%",
+        "label": "RATE",
+        "evidence": "Hơn nữa, bù lại sự sụt giảm tiền gửi khách hàng, tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng mạnh 56% lên 121 nghìn tỷ đồng."
+    },
+    {
+        "text": "121 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hơn nữa, bù lại sự sụt giảm tiền gửi khách hàng, tiền gửi của Kho bạc Nhà nước tại Vietcombank tăng mạnh 56% lên 121 nghìn tỷ đồng."
+    },
+    {
+        "text": "118.700 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, 118.700 tỷ là tiền gửi có kỳ hạn, và gần 2.618 tỷ đồng là tiền gửi không kỳ hạn bằng cả VND lẫn ngoại tệ."
+    },
+    {
+        "text": "tiền gửi có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Trong đó, 118.700 tỷ là tiền gửi có kỳ hạn, và gần 2.618 tỷ đồng là tiền gửi không kỳ hạn bằng cả VND lẫn ngoại tệ."
+    },
+    {
+        "text": "2.618 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, 118.700 tỷ là tiền gửi có kỳ hạn, và gần 2.618 tỷ đồng là tiền gửi không kỳ hạn bằng cả VND lẫn ngoại tệ."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Trong đó, 118.700 tỷ là tiền gửi có kỳ hạn, và gần 2.618 tỷ đồng là tiền gửi không kỳ hạn bằng cả VND lẫn ngoại tệ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong nhiều năm qua, Vietcombank cùng với các ngân hàng quốc doanh khác luôn là địa chỉ gửi tiền quen thuộc được Kho bạc Nhà nước lựa chọn."
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "Trong nhiều năm qua, Vietcombank cùng với các ngân hàng quốc doanh khác luôn là địa chỉ gửi tiền quen thuộc được Kho bạc Nhà nước lựa chọn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đây cũng không phải lần đầu tiên Vietcombank ghi nhận tiền gửi khách hàng sụt giảm trong những tháng đầu năm."
+    },
+    {
+        "text": "tiền gửi khách hàng sụt giảm",
+        "label": "EVENT",
+        "evidence": "Đây cũng không phải lần đầu tiên Vietcombank ghi nhận tiền gửi khách hàng sụt giảm trong những tháng đầu năm."
+    },
+    {
+        "text": "những tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Đây cũng không phải lần đầu tiên Vietcombank ghi nhận tiền gửi khách hàng sụt giảm trong những tháng đầu năm."
+    },
+    {
+        "text": "Quý 1/2024",
+        "label": "DATE",
+        "evidence": "Quý 1/2024, tiền gửi khách hàng tại nhà băng này cũng giảm hơn 48.300 tỷ đồng, tương đương giảm 3,4%."
+    },
+    {
+        "text": "tiền gửi khách hàng tại nhà băng này cũng giảm",
+        "label": "EVENT",
+        "evidence": "Quý 1/2024, tiền gửi khách hàng tại nhà băng này cũng giảm hơn 48.300 tỷ đồng, tương đương giảm 3,4%."
+    },
+    {
+        "text": "hơn 48.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quý 1/2024, tiền gửi khách hàng tại nhà băng này cũng giảm hơn 48.300 tỷ đồng, tương đương giảm 3,4%."
+    },
+    {
+        "text": "giảm 3,4%",
+        "label": "RATE",
+        "evidence": "Quý 1/2024, tiền gửi khách hàng tại nhà băng này cũng giảm hơn 48.300 tỷ đồng, tương đương giảm 3,4%."
+    },
+    {
+        "text": "cho vay khách hàng của Vietcombank cũng tăng trưởng âm",
+        "label": "EVENT",
+        "evidence": "Khi đó, cho vay khách hàng của Vietcombank cũng tăng trưởng âm trong quý đầu năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khi đó, cho vay khách hàng của Vietcombank cũng tăng trưởng âm trong quý đầu năm."
+    },
+    {
+        "text": "quý đầu năm",
+        "label": "DATE",
+        "evidence": "Khi đó, cho vay khách hàng của Vietcombank cũng tăng trưởng âm trong quý đầu năm."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Về tiền gửi không kỳ hạn, Vietcombank vẫn là ngân hàng có số dư cao nhất trong hệ thống."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Về tiền gửi không kỳ hạn, Vietcombank vẫn là ngân hàng có số dư cao nhất trong hệ thống."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "Tỷ lệ CASA tại Vietcombank cũng nằm trong Top đầu, đạt 35%."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tỷ lệ CASA tại Vietcombank cũng nằm trong Top đầu, đạt 35%."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA tại Vietcombank cũng nằm trong Top đầu, đạt 35%."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Về kết quả kinh doanh, Vietcombank giữ vững ngôi vương ngân hàng lãi cao nhất."
+    },
+    {
+        "text": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "quý đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "17.264 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "17.280 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tổng thu nhập hoạt động của Vietcombank trong quý đầu năm 2025 đạt 17.264 tỷ đồng, gần tương đương với mức 17.280 tỷ đồng cùng kỳ năm 2024."
+    },
+    {
+        "text": "hoạt động kinh doanh ngoại hối và vàng",
+        "label": "ASSET",
+        "evidence": "Trong các mảng kinh doanh, hoạt động kinh doanh ngoại hối và vàng có kết quả tích cực nhất, lãi thuần đạt 2.024 tỷ đồng, tăng 69% so với cùng kỳ."
+    },
+    {
+        "text": "lãi thuần đạt 2.024 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong các mảng kinh doanh, hoạt động kinh doanh ngoại hối và vàng có kết quả tích cực nhất, lãi thuần đạt 2.024 tỷ đồng, tăng 69% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 69%",
+        "label": "RATE",
+        "evidence": "Trong các mảng kinh doanh, hoạt động kinh doanh ngoại hối và vàng có kết quả tích cực nhất, lãi thuần đạt 2.024 tỷ đồng, tăng 69% so với cùng kỳ."
+    },
+    {
+        "text": "lãi thuần từ hoạt động dịch vụ của Vietcombank đang ngày một giảm",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, lãi thuần từ hoạt động dịch vụ của Vietcombank đang ngày một giảm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, lãi thuần từ hoạt động dịch vụ của Vietcombank đang ngày một giảm."
+    },
+    {
+        "text": "quý 1/2025",
+        "label": "DATE",
+        "evidence": "Trong quý 1/2025, mảng kinh doanh này chỉ có lãi 806 tỷ đồng, giảm 44% so với cùng kỳ và giảm 12,8% so với quý 4/2024."
+    },
+    {
+        "text": "lãi 806 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong quý 1/2025, mảng kinh doanh này chỉ có lãi 806 tỷ đồng, giảm 44% so với cùng kỳ và giảm 12,8% so với quý 4/2024."
+    },
+    {
+        "text": "giảm 44%",
+        "label": "RATE",
+        "evidence": "Trong quý 1/2025, mảng kinh doanh này chỉ có lãi 806 tỷ đồng, giảm 44% so với cùng kỳ và giảm 12,8% so với quý 4/2024."
+    },
+    {
+        "text": "giảm 12,8%",
+        "label": "RATE",
+        "evidence": "Trong quý 1/2025, mảng kinh doanh này chỉ có lãi 806 tỷ đồng, giảm 44% so với cùng kỳ và giảm 12,8% so với quý 4/2024."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "Trong quý 1/2025, mảng kinh doanh này chỉ có lãi 806 tỷ đồng, giảm 44% so với cùng kỳ và giảm 12,8% so với quý 4/2024."
+    },
+    {
+        "text": "quý 4/2022",
+        "label": "DATE",
+        "evidence": "Đây là mức thấp nhất trong gần 3 năm, kể từ quý 4/2022 đến nay."
+    },
+    {
+        "text": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm",
+        "label": "EVENT",
+        "evidence": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm 2,8% so với cùng kỳ xuống 13.687 tỷ đồng."
+    },
+    {
+        "text": "quý 1/2025",
+        "label": "DATE",
+        "evidence": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm 2,8% so với cùng kỳ xuống 13.687 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm 2,8% so với cùng kỳ xuống 13.687 tỷ đồng."
+    },
+    {
+        "text": "sụt giảm 2,8%",
+        "label": "RATE",
+        "evidence": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm 2,8% so với cùng kỳ xuống 13.687 tỷ đồng."
+    },
+    {
+        "text": "13.687 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thu nhập lãi thuần quý 1/2025 của Vietcombank cũng sụt giảm 2,8% so với cùng kỳ xuống 13.687 tỷ đồng."
+    },
+    {
+        "text": "tổng thu nhập hoạt động gần như đi ngang",
+        "label": "EVENT",
+        "evidence": "Trong khi tổng thu nhập hoạt động gần như đi ngang, chi phí hoạt động củaVietcombanktăng 11,8% so với cùng kỳ lên 5.652 tỷ đồng."
+    },
+    {
+        "text": "chi phí hoạt động củaVietcombanktăng",
+        "label": "EVENT",
+        "evidence": "Trong khi tổng thu nhập hoạt động gần như đi ngang, chi phí hoạt động củaVietcombanktăng 11,8% so với cùng kỳ lên 5.652 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong khi tổng thu nhập hoạt động gần như đi ngang, chi phí hoạt động củaVietcombanktăng 11,8% so với cùng kỳ lên 5.652 tỷ đồng."
+    },
+    {
+        "text": "tăng 11,8%",
+        "label": "RATE",
+        "evidence": "Trong khi tổng thu nhập hoạt động gần như đi ngang, chi phí hoạt động củaVietcombanktăng 11,8% so với cùng kỳ lên 5.652 tỷ đồng."
+    },
+    {
+        "text": "5.652 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi tổng thu nhập hoạt động gần như đi ngang, chi phí hoạt động củaVietcombanktăng 11,8% so với cùng kỳ lên 5.652 tỷ đồng."
+    },
+    {
+        "text": "CIR",
+        "label": "ASSET",
+        "evidence": "Theo đó, tỷ lệ CIR (chi phí hoạt động/tổng thu nhập hoạt đông) tăng từ 29,2% lên 32,7%."
+    },
+    {
+        "text": "29,2%",
+        "label": "RATE",
+        "evidence": "Theo đó, tỷ lệ CIR (chi phí hoạt động/tổng thu nhập hoạt đông) tăng từ 29,2% lên 32,7%."
+    },
+    {
+        "text": "32,7%",
+        "label": "RATE",
+        "evidence": "Theo đó, tỷ lệ CIR (chi phí hoạt động/tổng thu nhập hoạt đông) tăng từ 29,2% lên 32,7%."
+    },
+    {
+        "text": "Chi phí dự phòng rủi ro quý 1/2025 ở mức 752 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chi phí dự phòng rủi ro quý 1/2025 ở mức 752 tỷ đồng, giảm 50,1% so với cùng kỳ."
+    },
+    {
+        "text": "quý 1/2025",
+        "label": "DATE",
+        "evidence": "Chi phí dự phòng rủi ro quý 1/2025 ở mức 752 tỷ đồng, giảm 50,1% so với cùng kỳ."
+    },
+    {
+        "text": "752 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí dự phòng rủi ro quý 1/2025 ở mức 752 tỷ đồng, giảm 50,1% so với cùng kỳ."
+    },
+    {
+        "text": "giảm 50,1%",
+        "label": "RATE",
+        "evidence": "Chi phí dự phòng rủi ro quý 1/2025 ở mức 752 tỷ đồng, giảm 50,1% so với cùng kỳ."
+    },
+    {
+        "text": "lợi nhuận trước thuế đạt",
+        "label": "EVENT",
+        "evidence": "Theo đó, lợi nhuận trước thuế đạt 10.860 tỷ đồng, tăng 1,3%."
+    },
+    {
+        "text": "10.860 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, lợi nhuận trước thuế đạt 10.860 tỷ đồng, tăng 1,3%."
+    },
+    {
+        "text": "tăng 1,3%",
+        "label": "RATE",
+        "evidence": "Theo đó, lợi nhuận trước thuế đạt 10.860 tỷ đồng, tăng 1,3%."
+    }
+]

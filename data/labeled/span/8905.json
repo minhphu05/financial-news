@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán TP.HCM",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở Giao dịch Chứng khoán TP.HCM (HoSE)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở Giao dịch Chứng khoán TP.HCM (HoSE)"
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Phạm Nhật Vượng đã có báo cáo gửi UBCKNN, HoSE và Tập đoàn Vingroup-CTCP (MCK: VIC)"
+    },
+    {
+        "text": "UBCKNN",
+        "label": "ORG",
+        "evidence": "Chủ tịch Phạm Nhật Vượng đã có báo cáo gửi UBCKNN, HoSE và Tập đoàn Vingroup-CTCP (MCK: VIC)"
+    },
+    {
+        "text": "Tập đoàn Vingroup-CTCP",
+        "label": "ORG",
+        "evidence": "Chủ tịch Phạm Nhật Vượng đã có báo cáo gửi UBCKNN, HoSE và Tập đoàn Vingroup-CTCP (MCK: VIC)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Tập đoàn Vingroup-CTCP (MCK: VIC)"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Tập đoàn Vingroup-CTCP (MCK: VIC)"
+    },
+    {
+        "text": "kết quả giao dịch cổ phiếu của người nội bộ",
+        "label": "EVENT",
+        "evidence": "về kết quả giao dịch cổ phiếu của người nội bộ."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT Vingroup đã dùng hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "hơn 60 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "Chủ tịch HĐQT Vingroup đã dùng hơn 60 triệu cổ phiếu VIC, tương ứng 1,55% vốn điều lệ Vingroup, để góp vốn vào Công ty CP Năng lượng VinEnergo (VinEnergo)."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "1,55%",
+        "label": "RATE",
+        "evidence": "tương ứng 1,55% vốn điều lệ Vingroup"
+    },
+    {
+        "text": "góp vốn vào Công ty CP Năng lượng VinEnergo",
+        "label": "EVENT",
+        "evidence": "để góp vốn vào Công ty CP Năng lượng VinEnergo (VinEnergo)."
+    },
+    {
+        "text": "Công ty CP Năng lượng VinEnergo",
+        "label": "ORG",
+        "evidence": "để góp vốn vào Công ty CP Năng lượng VinEnergo (VinEnergo)."
+    },
+    {
+        "text": "VinEnergo",
+        "label": "ORG",
+        "evidence": "Công ty CP Năng lượng VinEnergo (VinEnergo)."
+    },
+    {
+        "text": "hơn 600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị đã giao dịch tính theo mệnh giá là hơn 600 tỷ đồng."
+    },
+    {
+        "text": "giảm sở hữu từ hơn 449,9 triệu cổ phiếu VIC (11,59%) vốn điều lệ Vingroup xuống còn hơn 389,9 triệu cổ phiếu VIC (10,04%)",
+        "label": "EVENT",
+        "evidence": "Sau giao dịch, Chủ tịch Phạm Nhật Vượng đã giảm sở hữu từ hơn 449,9 triệu cổ phiếu VIC (11,59%) vốn điều lệ Vingroup xuống còn hơn 389,9 triệu cổ phiếu VIC (10,04%)."
+    },
+    {
+        "text": "hơn 449,9 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "hơn 449,9 triệu cổ phiếu VIC (11,59%)"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "hơn 449,9 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "hơn 449,9 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "11,59%",
+        "label": "RATE",
+        "evidence": "11,59%"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "vốn điều lệ Vingroup"
+    },
+    {
+        "text": "hơn 389,9 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "còn hơn 389,9 triệu cổ phiếu VIC (10,04%)."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "hơn 389,9 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "hơn 389,9 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "10,04%",
+        "label": "RATE",
+        "evidence": "10,04%"
+    },
+    {
+        "text": "ngày 9/10/2025",
+        "label": "DATE",
+        "evidence": "Thời gian thực hiện giao dịch là ngày 9/10/2025 với phương thức chuyển quyền sở hữu thông qua VSDC."
+    },
+    {
+        "text": "VSDC",
+        "label": "ORG",
+        "evidence": "thông qua VSDC."
+    },
+    {
+        "text": "ngày 9/10",
+        "label": "DATE",
+        "evidence": "Đóng cửa phiên giao dịch ngày 9/10, cổ phiếu VIC ở mức 179.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "cổ phiếu VIC ở mức 179.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VIC ở mức 179.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "179.500 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "cổ phiếu VIC ở mức 179.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "khoảng 10.770 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lượng cổ phần ông Vượng dự kiến chuyển cho VinEnergo có giá trị khoảng 10.770 tỷ đồng."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Phạm Nhật Vượng."
+    },
+    {
+        "text": "chuyển quyền sở hữu 70,65 triệu cổ phiếu VIC sang cho VinEnergo",
+        "label": "EVENT",
+        "evidence": "Trước đó, Chủ tịch Phạm Nhật Vượng đã chuyển quyền sở hữu 70,65 triệu cổ phiếu VIC sang cho VinEnergo với giá trị hơn 6.200 tỷ đồng (tính theo giá cổ phiếu VIC ngày 17/6)."
+    },
+    {
+        "text": "70,65 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "70,65 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "70,65 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "70,65 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VinEnergo",
+        "label": "ORG",
+        "evidence": "sang cho VinEnergo"
+    },
+    {
+        "text": "hơn 6.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị hơn 6.200 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "giá cổ phiếu VIC ngày 17/6"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "giá cổ phiếu VIC ngày 17/6"
+    },
+    {
+        "text": "ngày 17/6",
+        "label": "DATE",
+        "evidence": "ngày 17/6"
+    },
+    {
+        "text": "nhận thêm hơn 60 triệu cổ phiếu VIC từ ông Vượng",
+        "label": "EVENT",
+        "evidence": "sau khi nhận thêm hơn 60 triệu cổ phiếu VIC từ ông Vượng trong ngày 9/10, VinEnergo nâng sở hữu lên hơn 165,7 triệu cổ phiếu VIC, tương ứng 4,27% vốn Vingroup."
+    },
+    {
+        "text": "hơn 60 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "hơn 60 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "ngày 9/10",
+        "label": "DATE",
+        "evidence": "trong ngày 9/10"
+    },
+    {
+        "text": "VinEnergo",
+        "label": "ORG",
+        "evidence": "VinEnergo nâng sở hữu lên hơn 165,7 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "nâng sở hữu lên hơn 165,7 triệu cổ phiếu VIC",
+        "label": "EVENT",
+        "evidence": "VinEnergo nâng sở hữu lên hơn 165,7 triệu cổ phiếu VIC, tương ứng 4,27% vốn Vingroup."
+    },
+    {
+        "text": "hơn 165,7 triệu cổ phiếu VIC",
+        "label": "VOLUME",
+        "evidence": "hơn 165,7 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "hơn 165,7 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "hơn 165,7 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "4,27%",
+        "label": "RATE",
+        "evidence": "tương ứng 4,27% vốn Vingroup."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "vốn Vingroup."
+    },
+    {
+        "text": "VinEnergo được thành lập",
+        "label": "EVENT",
+        "evidence": "VinEnergo được thành lập tháng 3/2025, hoạt động chính trong lĩnh vực sản xuất điện."
+    },
+    {
+        "text": "VinEnergo",
+        "label": "ORG",
+        "evidence": "VinEnergo được thành lập tháng 3/2025"
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "tháng 3/2025"
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh nghiệp có vốn điều lệ 2.000 tỷ đồng"
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Ông Phạm Nhật Vượng (71%)"
+    },
+    {
+        "text": "71%",
+        "label": "RATE",
+        "evidence": "Ông Phạm Nhật Vượng (71%)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup (19%)"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Vingroup (19%)"
+    },
+    {
+        "text": "Phạm Nhật Quân Anh",
+        "label": "PERSON",
+        "evidence": "ông Phạm Nhật Quân Anh (5%)"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "ông Phạm Nhật Quân Anh (5%)"
+    },
+    {
+        "text": "Phạm Nhật Minh Hoàng",
+        "label": "PERSON",
+        "evidence": "Phạm Nhật Minh Hoàng (5%)"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Phạm Nhật Minh Hoàng (5%)."
+    },
+    {
+        "text": "Tháng 6/2025",
+        "label": "DATE",
+        "evidence": "Tháng 6/2025, VinEnergo tăng vốn điều lệ lên 10.000 tỷ đồng."
+    },
+    {
+        "text": "VinEnergo tăng vốn điều lệ lên 10.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tháng 6/2025, VinEnergo tăng vốn điều lệ lên 10.000 tỷ đồng."
+    },
+    {
+        "text": "VinEnergo",
+        "label": "ORG",
+        "evidence": "Tháng 6/2025, VinEnergo tăng vốn điều lệ lên 10.000 tỷ đồng."
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tháng 6/2025, VinEnergo tăng vốn điều lệ lên 10.000 tỷ đồng."
+    },
+    {
+        "text": "Vingroup đã công bố thông tin liên quan đến việc thành lập công ty con",
+        "label": "EVENT",
+        "evidence": "Vingroup đã công bố thông tin liên quan đến việc thành lập công ty con vốn nghìn tỷ đồng."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup đã công bố thông tin liên quan đến việc thành lập công ty con vốn nghìn tỷ đồng."
+    },
+    {
+        "text": "ngày 6/10",
+        "label": "DATE",
+        "evidence": "Gần đây nhất, ngày 6/10, HĐQT Vingroup đã thông qua góp vốn thành lập Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "HĐQT Vingroup",
+        "label": "ORG",
+        "evidence": "HĐQT Vingroup đã thông qua góp vốn thành lập Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "HĐQT Vingroup đã thông qua góp vốn thành lập Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "thông qua góp vốn thành lập Công ty Cổ phần Sản xuất và kinh doanh VinMetal",
+        "label": "EVENT",
+        "evidence": "HĐQT Vingroup đã thông qua góp vốn thành lập Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "Công ty Cổ phần Sản xuất và kinh doanh VinMetal",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "VinMetal",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Sản xuất và kinh doanh VinMetal (VinMetal)"
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ 10.000 tỷ đồng; trong đó, tỷ lệ góp vốn của Vingroup là 98%."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "tỷ lệ góp vốn của Vingroup là 98%"
+    },
+    {
+        "text": "98%",
+        "label": "RATE",
+        "evidence": "tỷ lệ góp vốn của Vingroup là 98%."
+    },
+    {
+        "text": "trung tuần tháng 9/2025",
+        "label": "DATE",
+        "evidence": "Xa hơn, trung tuần tháng 9/2025, HĐQT Vingroup đã ban hành nghị quyết thông qua việc tập đoàn tham gia góp vón thành lập công ty con có tên dự kiến là Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "HĐQT Vingroup",
+        "label": "ORG",
+        "evidence": "HĐQT Vingroup đã ban hành nghị quyết thông qua việc tập đoàn tham gia góp vón thành lập công ty con có tên dự kiến là Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "HĐQT Vingroup đã ban hành nghị quyết thông qua việc tập đoàn tham gia góp vón thành lập công ty con có tên dự kiến là Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "ban hành nghị quyết thông qua việc tập đoàn tham gia góp vón thành lập công ty con có tên dự kiến là Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics",
+        "label": "EVENT",
+        "evidence": "HĐQT Vingroup đã ban hành nghị quyết thông qua việc tập đoàn tham gia góp vón thành lập công ty con có tên dự kiến là Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics",
+        "label": "ORG",
+        "evidence": "Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "VinDynamics",
+        "label": "ORG",
+        "evidence": "Công ty CP Nghiên cứu, phát triển và Ứng dụng Robot hình người VinDynamics (VinDynamics)."
+    },
+    {
+        "text": "500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ dự kiến của VinDynamics là 500 tỷ đồng"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup góp 51% vốn."
+    },
+    {
+        "text": "51%",
+        "label": "RATE",
+        "evidence": "51% vốn."
+    }
+]

@@ -1,0 +1,442 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Một trong bốn ông lớn ngành ngân hàng là BIDV đã áp dụng biểu lãi suất mới từ ngày 5/2/2025, điều chỉnh tăng ở một số kỳ hạn."
+    },
+    {
+        "text": "áp dụng biểu lãi suất mới",
+        "label": "EVENT",
+        "evidence": "Một trong bốn ông lớn ngành ngân hàng là BIDV đã áp dụng biểu lãi suất mới từ ngày 5/2/2025, điều chỉnh tăng ở một số kỳ hạn."
+    },
+    {
+        "text": "điều chỉnh tăng",
+        "label": "EVENT",
+        "evidence": "Một trong bốn ông lớn ngành ngân hàng là BIDV đã áp dụng biểu lãi suất mới từ ngày 5/2/2025, điều chỉnh tăng ở một số kỳ hạn."
+    },
+    {
+        "text": "ngày 5/2/2025",
+        "label": "DATE",
+        "evidence": "Một trong bốn ông lớn ngành ngân hàng là BIDV đã áp dụng biểu lãi suất mới từ ngày 5/2/2025, điều chỉnh tăng ở một số kỳ hạn."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đây là lần đầu tiên BIDV điều chỉnh lãi suất trong gần 1 năm trở lại đây."
+    },
+    {
+        "text": "điều chỉnh lãi suất",
+        "label": "EVENT",
+        "evidence": "Đây là lần đầu tiên BIDV điều chỉnh lãi suất trong gần 1 năm trở lại đây."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Suốt giai đoạn đầu năm 2023 đến nay, ngân hàng này chỉ giảm hoặc giữ nguyên lãi suất huy động."
+    },
+    {
+        "text": "giảm hoặc giữ nguyên lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Suốt giai đoạn đầu năm 2023 đến nay, ngân hàng này chỉ giảm hoặc giữ nguyên lãi suất huy động."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đối với hình thức gửi tại quầy, mức lãi suất thấp nhất hiện nay của BIDV là 1,7%/năm, áp dụng cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "1,7%/năm",
+        "label": "RATE",
+        "evidence": "Đối với hình thức gửi tại quầy, mức lãi suất thấp nhất hiện nay của BIDV là 1,7%/năm, áp dụng cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Mức cao nhất là 4,8%/năm được áp dụng tại kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Riêng kỳ hạn 3 tháng, lãi suất BIDV ở mức 2%/năm, còn kỳ hạn 6 tháng và 9 tháng, mức lãi suất là 3%/năm."
+    },
+    {
+        "text": "2%/năm",
+        "label": "RATE",
+        "evidence": "Riêng kỳ hạn 3 tháng, lãi suất BIDV ở mức 2%/năm, còn kỳ hạn 6 tháng và 9 tháng, mức lãi suất là 3%/năm."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Riêng kỳ hạn 3 tháng, lãi suất BIDV ở mức 2%/năm, còn kỳ hạn 6 tháng và 9 tháng, mức lãi suất là 3%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank hiện cũng đang áp dụng mức lãi suất tương tự BIDV đối với hình thức gửi tiền tại quầy ở tất cả các kỳ hạn."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "VietinBank hiện cũng đang áp dụng mức lãi suất tương tự BIDV đối với hình thức gửi tiền tại quầy ở tất cả các kỳ hạn."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "2,5%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi suất của Agribank đang dẫn đầu nhóm ngân hàng Big 4, ở mức mức 2,2%/năm với kỳ hạn 1 tháng; 2,5%/năm với kỳ hạn 3 tháng; 3,5%/năm với kỳ hạn 6-9 tháng; 4,7%/năm với kỳ hạn 12 tháng và 4,8%/năm với kỳ hạn 24 tháng trở lên."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank niêm yết lãi suất cao nhất ở mức 4,7%/năm với kỳ hạn từ 24 tháng trở lên và thấp nhất là 1,6%/năm cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "niêm yết lãi suất",
+        "label": "EVENT",
+        "evidence": "Vietcombank niêm yết lãi suất cao nhất ở mức 4,7%/năm với kỳ hạn từ 24 tháng trở lên và thấp nhất là 1,6%/năm cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank niêm yết lãi suất cao nhất ở mức 4,7%/năm với kỳ hạn từ 24 tháng trở lên và thấp nhất là 1,6%/năm cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "1,6%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank niêm yết lãi suất cao nhất ở mức 4,7%/năm với kỳ hạn từ 24 tháng trở lên và thấp nhất là 1,6%/năm cho kỳ hạn 1 tháng."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Lãi suất Big 4 với hình thức gửi tại quầy."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "266.667 đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "950 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "2,9 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "4,35 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "9,2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "18,8 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngân hàng Vietcombank,nếu gửi 200 triệu đồng, với kỳ hạn 1 tháng, số tiền lãi dự kiến sẽ là 266.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 950 nghìn đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 2,9 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,35 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,2 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 18,8 triệu đồng."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "283.333 đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "4,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "9,4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "19,2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn nếu gửi 200 triệu đồng vào ngân hàngVietinBank hoặc BIDVvới kỳ hạn 1 tháng thì số tiền lãi dự kiến khách hàng nhận được là 283.333 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 4,5 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "366.667 đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "1,25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "3,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "5,25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "9,4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "19,2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, tại ngân hàngAgribankvới lãi suất như trên, số tiền gửi 200 triệu đồng với kỳ hạn 1 tháng thì số tiền lãi dự kiến là 366.667 đồng; nếu gửi kỳ hạn 3 tháng, số tiền lãi dự kiến là 1,25 triệu đồng; nếu gửi kỳ hạn 6 tháng, số tiền lãi dự kiến là 3,5 triệu đồng; nếu gửi kỳ hạn 9 tháng, số tiền lãi dự kiến là 5,25 triệu đồng; nếu gửi kỳ hạn 12 tháng, số tiền lãi dự kiến là 9,4 triệu đồng, nếu gửi 24 tháng, lãi dự kiến là 19,2 triệu đồng."
+    },
+    {
+        "text": "0,1-0,2%",
+        "label": "RATE",
+        "evidence": "Nếu khách hàng lựa chọn gửi tiết kiệm online thì sẽ được cộng thêm lãi suất từ 0,1-0,2% tùy vào từng kỳ hạn và từng ngân hàng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "áp dụng lãi suất",
+        "label": "EVENT",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "2,3%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "giữ mức lãi suất",
+        "label": "EVENT",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "1,9%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ở kỳ hạn 3 tháng, lãi suất tiết kiệm online của Agribank là 2,7%/năm. BIDV, VietinBank áp dụng lãi suất 2,3%/năm. Vietcombank vẫn giữ mức lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "giữ lãi suất",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "niêm yết lãi suất",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "3,3%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm. Lãi suất tiết kiệm của Vietcombank là 2,9%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "niêm yết lãi suất",
+        "label": "EVENT",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "niêm yết lãi suất",
+        "label": "EVENT",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi, tại kỳ hạn 12 tháng, Agribank niêm yết lãi suất 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "trả lãi",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "trả lãi suất",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm. VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Lãi suất Big 4 với hình thức gửi online."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Khoản lãi dự kiến khi gửi tiền online tại Big 4. Đơn vị: Đồng"
+    }
+]

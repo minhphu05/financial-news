@@ -1,0 +1,66 @@
+# =============================================================================
+# ViFinNER — full project dependency set
+# =============================================================================
+
+# --- Scraping & data wrangling -----------------------------------------------
+requests==2.32.5
+beautifulsoup4>=4.12.3
+pandas==2.3.3
+openpyxl==3.1.5
+tqdm==4.66.2
+
+# --- Configuration & runtime -------------------------------------------------
+python-dotenv==1.2.1
+pydantic>=2.7
+pydantic-settings>=2.4
+PyYAML==6.0.1
+
+# --- LLMs (OpenRouter via OpenAI SDK + Voyage AI embeddings) ----------------
+openai>=1.30
+voyageai>=0.3
+
+# --- MongoDB -----------------------------------------------------------------
+pymongo==4.15
+
+# --- Qdrant (vector store) ---------------------------------------------------
+qdrant-client>=1.9
+
+# --- PostgreSQL (kept for Prefect metadata DB; pgvector removed) -------------
+# psycopg[binary]>=3.2   # only needed if re-enabling pgvector
+# pgvector>=0.3.6
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+
+# --- Orchestration -----------------------------------------------------------
+prefect>=3.0
+
+# --- API ---------------------------------------------------------------------
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# --- Data engineering (medallion silver layer) ------------------------------
+polars>=1.0
+pyarrow>=16.1
+
+# --- Caching & async inference ----------------------------------------------
+redis[hiredis]>=5.0
+httpx>=0.27
+
+# --- MLOps / LLMOps ---------------------------------------------------------
+mlflow>=2.14
+
+# --- LangChain (alternative high-level RAG module) --------------------------
+# langchain>=0.3
+# langchain-core>=0.3
+# langchain-google-genai>=2.0
+# langchain-postgres>=0.0.13
+# langchain-text-splitters>=0.3
+
+# --- Deep learning / NER (existing) -----------------------------------------
+# torch==2.9.0
+# scikit-learn==1.7.0
+# transformers
+# tokenizers
+# pytorch-crf
+# fasttext
+# ipykernel==7.1.0

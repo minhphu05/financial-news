@@ -1,0 +1,137 @@
+[
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT vừa ký thỏa thuận hợp tác với hai công ty công nghệ Mỹ là CR Labs.ai và Carlton Richards."
+    },
+    {
+        "text": "CR Labs.ai",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT vừa ký thỏa thuận hợp tác với hai công ty công nghệ Mỹ là CR Labs.ai và Carlton Richards."
+    },
+    {
+        "text": "Carlton Richards",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT vừa ký thỏa thuận hợp tác với hai công ty công nghệ Mỹ là CR Labs.ai và Carlton Richards."
+    },
+    {
+        "text": "ký thỏa thuận hợp tác với hai công ty công nghệ Mỹ là CR Labs.ai và Carlton Richards",
+        "label": "EVENT",
+        "evidence": "Tập đoàn FPT vừa ký thỏa thuận hợp tác với hai công ty công nghệ Mỹ là CR Labs.ai và Carlton Richards."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Để giải quyết những thách thức đó, liên minh giữa FPT, CR Labs.ai và Carlton Richards mang đến các giải pháp AI kết hợp giữa quy mô công nghệ toàn cầu của FPT, kinh nghiệm chuyên sâu trong lĩnh vực bảo hiểm và đầu tư cổ phần tư nhân của CR Labs.ai cùng năng lực tư vấn chiến lược của Carlton Richards."
+    },
+    {
+        "text": "thời gian thẩm định rút ngắn từ 20 phút xuống chỉ 2 giây mỗi hồ sơ",
+        "label": "EVENT",
+        "evidence": "Nhờ đó, thời gian thẩm định rút ngắn từ 20 phút xuống chỉ 2 giây mỗi hồ sơ và xử lý trực tuyến đến 87% yêu cầu bồi thường."
+    },
+    {
+        "text": "xử lý trực tuyến đến 87% yêu cầu bồi thường",
+        "label": "EVENT",
+        "evidence": "Nhờ đó, thời gian thẩm định rút ngắn từ 20 phút xuống chỉ 2 giây mỗi hồ sơ và xử lý trực tuyến đến 87% yêu cầu bồi thường."
+    },
+    {
+        "text": "nâng hiệu suất đại lý lên 25%",
+        "label": "EVENT",
+        "evidence": "Nền tảng AI agent toàn diện: hỗ trợ tuyển dụng, đào tạo, tạo khách hàng tiềm năng và hỗ trợ bán hàng, nâng hiệu suất đại lý lên 25%."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Nền tảng AI agent toàn diện: hỗ trợ tuyển dụng, đào tạo, tạo khách hàng tiềm năng và hỗ trợ bán hàng, nâng hiệu suất đại lý lên 25%."
+    },
+    {
+        "text": "tăng thêm 280 triệu USD doanh thu phí bảo hiểm hàng năm",
+        "label": "EVENT",
+        "evidence": "Khi được triển khai cho một công ty bảo hiểm toàn cầu, giải pháp đã giúp khách hàng tăng thêm 280 triệu USD doanh thu phí bảo hiểm hàng năm."
+    },
+    {
+        "text": "280 triệu USD",
+        "label": "MONEY",
+        "evidence": "Khi được triển khai cho một công ty bảo hiểm toàn cầu, giải pháp đã giúp khách hàng tăng thêm 280 triệu USD doanh thu phí bảo hiểm hàng năm."
+    },
+    {
+        "text": "IvyChat",
+        "label": "ASSET",
+        "evidence": "Ứng dụng IvyChat của FPT, một giải pháp ứng dụng mô hình ngôn ngữ lớn đa tác nhân, hỗ trợ dịch vụ khách hàng, gia hạn hợp đồng và tư vấn qua thoại/chat theo thời gian thực."
+    },
+    {
+        "text": "rút ngắn thời gian xử lý yêu cầu bồi thường",
+        "label": "EVENT",
+        "evidence": "IvyChat giúp rút ngắn thời gian xử lý yêu cầu bồi thường, giảm 80% lỗi và tiết kiệm 33% chi phí nhân sự hàng năm."
+    },
+    {
+        "text": "giảm 80% lỗi",
+        "label": "EVENT",
+        "evidence": "IvyChat giúp rút ngắn thời gian xử lý yêu cầu bồi thường, giảm 80% lỗi và tiết kiệm 33% chi phí nhân sự hàng năm."
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "IvyChat giúp rút ngắn thời gian xử lý yêu cầu bồi thường, giảm 80% lỗi và tiết kiệm 33% chi phí nhân sự hàng năm."
+    },
+    {
+        "text": "tiết kiệm 33% chi phí nhân sự hàng năm",
+        "label": "EVENT",
+        "evidence": "IvyChat giúp rút ngắn thời gian xử lý yêu cầu bồi thường, giảm 80% lỗi và tiết kiệm 33% chi phí nhân sự hàng năm."
+    },
+    {
+        "text": "33%",
+        "label": "RATE",
+        "evidence": "IvyChat giúp rút ngắn thời gian xử lý yêu cầu bồi thường, giảm 80% lỗi và tiết kiệm 33% chi phí nhân sự hàng năm."
+    },
+    {
+        "text": "Ông Đặng Trần Phương",
+        "label": "PERSON",
+        "evidence": "Ông Đặng Trần Phương, Phó Tổng Giám đốc FPT Software kiêm Tổng Giám đốc khu vực châu Mỹ, Tập đoàn FPT, cho biết: “Với định hướng AI-first và AI được tích hợp trong mọi giải pháp tại FPT, chúng tôi luôn tiên phong đồng hành cùng các doanh nghiệp toàn cầu."
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "Ông Đặng Trần Phương, Phó Tổng Giám đốc FPT Software kiêm Tổng Giám đốc khu vực châu Mỹ, Tập đoàn FPT, cho biết: “Với định hướng AI-first và AI được tích hợp trong mọi giải pháp tại FPT, chúng tôi luôn tiên phong đồng hành cùng các doanh nghiệp toàn cầu."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Ông Đặng Trần Phương, Phó Tổng Giám đốc FPT Software kiêm Tổng Giám đốc khu vực châu Mỹ, Tập đoàn FPT, cho biết: “Với định hướng AI-first và AI được tích hợp trong mọi giải pháp tại FPT, chúng tôi luôn tiên phong đồng hành cùng các doanh nghiệp toàn cầu."
+    },
+    {
+        "text": "Ông Richard Brasser",
+        "label": "PERSON",
+        "evidence": "Ông Richard Brasser, Giám đốc điều hành Carlton Richards, chia sẻ: “AI không nhất thiết phải mạo hiểm hay mang nặng tính thử nghiệm."
+    },
+    {
+        "text": "Carlton Richards",
+        "label": "ORG",
+        "evidence": "Ông Richard Brasser, Giám đốc điều hành Carlton Richards, chia sẻ: “AI không nhất thiết phải mạo hiểm hay mang nặng tính thử nghiệm."
+    },
+    {
+        "text": "Ông Chris Hart",
+        "label": "PERSON",
+        "evidence": "Ông Chris Hart, Giám đốc CR Labs.ai, nhấn mạnh: “Trong lĩnh vực bảo hiểm và đầu tư cổ phần tư nhân không có chỗ cho sai sót khi liên quan đến tuân thủ, quyền riêng tư hay quản trị rủi ro."
+    },
+    {
+        "text": "CR Labs.ai",
+        "label": "ORG",
+        "evidence": "Ông Chris Hart, Giám đốc CR Labs.ai, nhấn mạnh: “Trong lĩnh vực bảo hiểm và đầu tư cổ phần tư nhân không có chỗ cho sai sót khi liên quan đến tuân thủ, quyền riêng tư hay quản trị rủi ro."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trong năm 2024, FPT ghi nhận tổng doanh thu 2,47 tỷ USD và sở hữu hơn 54.000 nhân viên trong các lĩnh vực cốt lõi."
+    },
+    {
+        "text": "ghi nhận tổng doanh thu 2,47 tỷ USD",
+        "label": "EVENT",
+        "evidence": "Trong năm 2024, FPT ghi nhận tổng doanh thu 2,47 tỷ USD và sở hữu hơn 54.000 nhân viên trong các lĩnh vực cốt lõi."
+    },
+    {
+        "text": "2,47 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Trong năm 2024, FPT ghi nhận tổng doanh thu 2,47 tỷ USD và sở hữu hơn 54.000 nhân viên trong các lĩnh vực cốt lõi."
+    }
+]

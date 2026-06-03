@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank dànhtặng gần 6.000 vé máy bayhạng Thương gia của Bamboo Airways cùng hàng ngàn voucher mua sắm giá trị cho các khách hàng VIP cá nhân và doanh nghiệp thỏa điều kiện."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank dànhtặng gần 6.000 vé máy bayhạng Thương gia của Bamboo Airways cùng hàng ngàn voucher mua sắm giá trị cho các khách hàng VIP cá nhân và doanh nghiệp thỏa điều kiện."
+    },
+    {
+        "text": "tài khoản thanh toán",
+        "label": "ASSET",
+        "evidence": "gồm tài khoản thanh toán, thẻ thanh toán và Sacombank Pay"
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "gồm tài khoản thanh toán, thẻ thanh toán và Sacombank Pay"
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ASSET",
+        "evidence": "gồm tài khoản thanh toán, thẻ thanh toán và Sacombank Pay"
+    },
+    {
+        "text": "Combo Đa Lợi",
+        "label": "ASSET",
+        "evidence": "đồng thời được miễn phí 3 tháng khi đăng ký Combo Đa Lợi (gồm tài khoản thanh toán, thẻ thanh toán và Sacombank Pay)."
+    },
+    {
+        "text": "miễn phí 3 tháng khi đăng ký Combo Đa Lợi",
+        "label": "EVENT",
+        "evidence": "đồng thời được miễn phí 3 tháng khi đăng ký Combo Đa Lợi (gồm tài khoản thanh toán, thẻ thanh toán và Sacombank Pay)."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "Khichi tiêu bằng thẻ tín dụng Sacombank, khách hàng được giảm 150.000 đồng cho đơn hàng từ 1 triệu đồng trên sàn thương mại điện tử Shopee vào thứ bảy và chủ nhật (1 lần/thẻ/ngày);"
+    },
+    {
+        "text": "150.000 đồng",
+        "label": "MONEY",
+        "evidence": "được giảm 150.000 đồng cho đơn hàng từ 1 triệu đồng trên sàn thương mại điện tử Shopee"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giảm 150.000 đồng cho đơn hàng từ 1 triệu đồng trên sàn thương mại điện tử Shopee"
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "từ 1 triệu đồng trên sàn thương mại điện tử Shopee vào thứ bảy và chủ nhật"
+    },
+    {
+        "text": "thứ bảy và chủ nhật",
+        "label": "DATE",
+        "evidence": "điện tử Shopee vào thứ bảy và chủ nhật (1 lần/thẻ/ngày);"
+    },
+    {
+        "text": "giảm 30%",
+        "label": "RATE",
+        "evidence": "được giảm 30%, tối đa 33.000 đồng khi đặt xe máy/ô tô trên ứng dụng Xanh SM"
+    },
+    {
+        "text": "33.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 30%, tối đa 33.000 đồng khi đặt xe máy/ô tô trên ứng dụng Xanh SM"
+    },
+    {
+        "text": "Xanh SM",
+        "label": "ORG",
+        "evidence": "đặt xe máy/ô tô trên ứng dụng Xanh SM (1 lần/ngày/thẻ);"
+    },
+    {
+        "text": "150.000 đồng",
+        "label": "MONEY",
+        "evidence": "được giảm đến 150.000 đồng cho hóa đơn từ 400.000 đồng khi mua voucher nhà hàng trên ứng dụng Grab"
+    },
+    {
+        "text": "400.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm đến 150.000 đồng cho hóa đơn từ 400.000 đồng khi mua voucher nhà hàng trên ứng dụng Grab"
+    },
+    {
+        "text": "Grab",
+        "label": "ORG",
+        "evidence": "từ 400.000 đồng khi mua voucher nhà hàng trên ứng dụng Grab (1 lần/tuần/khách hàng);"
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "được giảm 500.000 đồng cho hóa đơn đặt tour du lịch từ 15 triệu đồng tại Vietravel"
+    },
+    {
+        "text": "15 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giảm 500.000 đồng cho hóa đơn đặt tour du lịch từ 15 triệu đồng tại Vietravel"
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "từ 15 triệu đồng tại Vietravel (1 lần/khách hàng)."
+    },
+    {
+        "text": "hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam",
+        "label": "ASSET",
+        "evidence": "hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam phát hành qua Sacombank khi tham gia thêm hợp đồng bảo hiểm mới"
+    },
+    {
+        "text": "Dai-ichi Life Việt Nam",
+        "label": "ORG",
+        "evidence": "hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam phát hành qua Sacombank khi tham gia thêm hợp đồng bảo hiểm mới"
+    },
+    {
+        "text": "hợp đồng bảo hiểm mới",
+        "label": "ASSET",
+        "evidence": "tham gia thêm hợp đồng bảo hiểm mới có phí kỳ đầu (IP) từ 30 triệu đồng trở lên"
+    },
+    {
+        "text": "phí kỳ đầu (IP)",
+        "label": "ASSET",
+        "evidence": "có phí kỳ đầu (IP) từ 30 triệu đồng trở lên sẽ được hoàn 5% phí"
+    },
+    {
+        "text": "30 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phí kỳ đầu (IP) từ 30 triệu đồng trở lên sẽ được hoàn 5% phí"
+    },
+    {
+        "text": "hoàn 5% phí",
+        "label": "RATE",
+        "evidence": "hoàn 5% phí (tối đa 3 triệu đồng/hợp đồng)"
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 3 triệu đồng/hợp đồng"
+    },
+    {
+        "text": "IP",
+        "label": "ASSET",
+        "evidence": "hạng Thương gia đối với IP từ 70 triệu đồng trở lên."
+    },
+    {
+        "text": "70 triệu đồng",
+        "label": "MONEY",
+        "evidence": "đối với IP từ 70 triệu đồng trở lên."
+    },
+    {
+        "text": "khôi phục hiệu lực hợp đồng bảo hiểm nhân thọ",
+        "label": "EVENT",
+        "evidence": "Còn khách hàng khôi phục hiệu lực hợp đồng bảo hiểm nhân thọ với phí cơ bản từ 5 triệu đồng sẽ được hoàn 33% phí"
+    },
+    {
+        "text": "phí cơ bản từ 5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "hợp đồng bảo hiểm nhân thọ với phí cơ bản từ 5 triệu đồng sẽ được hoàn 33% phí"
+    },
+    {
+        "text": "hoàn 33% phí",
+        "label": "RATE",
+        "evidence": "sẽ được hoàn 33% phí, tối đa 3 triệu đồng/hợp đồng."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 3 triệu đồng/hợp đồng."
+    },
+    {
+        "text": "mở mới thẻ tín dụng Sacombank",
+        "label": "EVENT",
+        "evidence": "Bất cứ khách hàng nào mở mới thẻ tín dụng Sacombank và thanh toán phí hợp đồng bảo hiểm nhân thọ mới bằng thẻ sẽ được tặng 5% IP"
+    },
+    {
+        "text": "thanh toán phí hợp đồng bảo hiểm nhân thọ mới bằng thẻ",
+        "label": "EVENT",
+        "evidence": "thanh toán phí hợp đồng bảo hiểm nhân thọ mới bằng thẻ sẽ được tặng 5% IP, tối đa 600.000 đồng."
+    },
+    {
+        "text": "tặng 5% IP",
+        "label": "RATE",
+        "evidence": "sẽ được tặng 5% IP, tối đa 600.000 đồng."
+    },
+    {
+        "text": "600.000 đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 600.000 đồng."
+    },
+    {
+        "text": "tuần sinh nhật Sacombank",
+        "label": "EVENT",
+        "evidence": "trong tuần sinh nhật Sacombank(từ 16 – 22/12/2024), 264 khách hàng cá nhân mở mới tài khoản tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "từ 16 – 22/12/2024",
+        "label": "DATE",
+        "evidence": "trong tuần sinh nhật Sacombank(từ 16 – 22/12/2024), 264 khách hàng cá nhân mở mới tài khoản tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "mở mới tài khoản tiền gửi có kỳ hạn từ 6 tháng trở lên tại quầy",
+        "label": "EVENT",
+        "evidence": "264 khách hàng cá nhân mở mới tài khoản tiền gửi có kỳ hạn từ 6 tháng trở lên tại quầy với số dư tiền gửi lũy kế cao nhất sẽ nhận được Đồng tiền vàng SBJ 0,1 chỉ."
+    },
+    {
+        "text": "tài khoản tiền gửi có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "mở mới tài khoản tiền gửi có kỳ hạn từ 6 tháng trở lên tại quầy với số dư tiền gửi lũy kế cao nhất"
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "có kỳ hạn từ 6 tháng trở lên tại quầy với số dư tiền gửi lũy kế cao nhất"
+    },
+    {
+        "text": "Đồng tiền vàng SBJ 0,1 chỉ",
+        "label": "ASSET",
+        "evidence": "sẽ nhận được Đồng tiền vàng SBJ 0,1 chỉ."
+    },
+    {
+        "text": "SBJ",
+        "label": "ORG",
+        "evidence": "sẽ nhận được Đồng tiền vàng SBJ 0,1 chỉ."
+    },
+    {
+        "text": "gửi mới tiết kiệm trực tuyến trên Sacombank Pay",
+        "label": "EVENT",
+        "evidence": "330 khách hàng gửi mới tiết kiệm trực tuyến trên Sacombank Pay với số dư cao nhất (từ 1 tỷ đồng) sẽ được hoàn 330.000 đồng"
+    },
+    {
+        "text": "tiết kiệm trực tuyến",
+        "label": "ASSET",
+        "evidence": "330 khách hàng gửi mới tiết kiệm trực tuyến trên Sacombank Pay với số dư cao nhất"
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ASSET",
+        "evidence": "gửi mới tiết kiệm trực tuyến trên Sacombank Pay với số dư cao nhất"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với số dư cao nhất (từ 1 tỷ đồng) sẽ được hoàn 330.000 đồng"
+    },
+    {
+        "text": "330.000 đồng",
+        "label": "MONEY",
+        "evidence": "sẽ được hoàn 330.000 đồng; 3.300 chủ thẻ tín dụng đầu tiên có giá trị giao dịch thanh toán từ 1 triệu đồng trở lên"
+    },
+    {
+        "text": "giá trị giao dịch thanh toán từ 1 triệu đồng trở lên",
+        "label": "EVENT",
+        "evidence": "3.300 chủ thẻ tín dụng đầu tiên có giá trị giao dịch thanh toán từ 1 triệu đồng trở lên sẽ được hoàn 50%, tối đa 330.000 đồng."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "có giá trị giao dịch thanh toán từ 1 triệu đồng trở lên sẽ được hoàn 50%"
+    },
+    {
+        "text": "hoàn 50%",
+        "label": "RATE",
+        "evidence": "sẽ được hoàn 50%, tối đa 330.000 đồng."
+    },
+    {
+        "text": "330.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn 50%, tối đa 330.000 đồng."
+    },
+    {
+        "text": "mở mới thẻ doanh nghiệp Sacombank",
+        "label": "EVENT",
+        "evidence": "330 khách hàng doanh nghiệp sẽ nhận được túi da doanh nhân cao cấp khi mở mới thẻ doanh nghiệp Sacombank (gồm thẻ thanh toán, thẻ tín dụng) và phát sinh tổng doanh số giao dịch hợp lệ đạt mức tổi thiểu sớm nhất."
+    },
+    {
+        "text": "thẻ doanh nghiệp Sacombank",
+        "label": "ASSET",
+        "evidence": "khi mở mới thẻ doanh nghiệp Sacombank (gồm thẻ thanh toán, thẻ tín dụng) và phát sinh tổng doanh số giao dịch hợp lệ đạt mức tổi thiểu sớm nhất."
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "gồm thẻ thanh toán, thẻ tín dụng"
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "gồm thẻ thanh toán, thẻ tín dụng"
+    },
+    {
+        "text": "tổng doanh số giao dịch hợp lệ đạt mức tổi thiểu sớm nhất",
+        "label": "VOLUME",
+        "evidence": "phát sinh tổng doanh số giao dịch hợp lệ đạt mức tổi thiểu sớm nhất."
+    },
+    {
+        "text": "tổng doanh số giao dịch thanh toán qua thẻ doanh nghiệp cao nhất",
+        "label": "VOLUME",
+        "evidence": "33 khách hàng có tổng doanh số giao dịch thanh toán qua thẻ doanh nghiệp cao nhất (tối thiểu 33 triệu đồng) trong chương trình sẽ được quà tặng làĐồng tiền vàng SBJ 1 chỉ."
+    },
+    {
+        "text": "33 triệu đồng",
+        "label": "MONEY",
+        "evidence": "cao nhất (tối thiểu 33 triệu đồng) trong chương trình sẽ được quà tặng làĐồng tiền vàng SBJ 1 chỉ."
+    },
+    {
+        "text": "Đồng tiền vàng SBJ 1 chỉ",
+        "label": "ASSET",
+        "evidence": "sẽ được quà tặng làĐồng tiền vàng SBJ 1 chỉ."
+    },
+    {
+        "text": "SBJ",
+        "label": "ORG",
+        "evidence": "sẽ được quà tặng làĐồng tiền vàng SBJ 1 chỉ."
+    },
+    {
+        "text": "miễn phí như phí thường niên thẻ doanh nghiệp, gói dịch vụ tài khoản Business-Plus, chọn số tài khoản theo yêu cầu, dịch vụ chi lương",
+        "label": "EVENT",
+        "evidence": "hàng loạt ưu đãi miễn phí như phí thường niên thẻ doanh nghiệp, gói dịch vụ tài khoản Business-Plus, chọn số tài khoản theo yêu cầu, dịch vụ chi lương... từ chương trình “Vươn tầm ưu đãi - Sải bước thành công”"
+    },
+    {
+        "text": "phí thường niên thẻ doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "như phí thường niên thẻ doanh nghiệp, gói dịch vụ tài khoản Business-Plus, chọn số tài khoản theo yêu cầu, dịch vụ chi lương"
+    },
+    {
+        "text": "gói dịch vụ tài khoản Business-Plus",
+        "label": "ASSET",
+        "evidence": "phí thường niên thẻ doanh nghiệp, gói dịch vụ tài khoản Business-Plus, chọn số tài khoản theo yêu cầu, dịch vụ chi lương"
+    },
+    {
+        "text": "chọn số tài khoản theo yêu cầu",
+        "label": "ASSET",
+        "evidence": "Business-Plus, chọn số tài khoản theo yêu cầu, dịch vụ chi lương"
+    },
+    {
+        "text": "dịch vụ chi lương",
+        "label": "ASSET",
+        "evidence": "chọn số tài khoản theo yêu cầu, dịch vụ chi lương... từ chương trình “Vươn tầm ưu đãi - Sải bước thành công”"
+    },
+    {
+        "text": "chương trình “Vươn tầm ưu đãi - Sải bước thành công”",
+        "label": "EVENT",
+        "evidence": "từ chương trình “Vươn tầm ưu đãi - Sải bước thành công” vẫn đang tiếp tục được áp dụng cho khách hàng doanh nghiệp đến hết ngày 31/12/2024."
+    },
+    {
+        "text": "hết ngày 31/12/2024",
+        "label": "DATE",
+        "evidence": "áp dụng cho khách hàng doanh nghiệp đến hết ngày 31/12/2024."
+    },
+    {
+        "text": "khuyến mãi “Đón sinh nhật vàng – Trọn tháng tri ân”",
+        "label": "EVENT",
+        "evidence": "thông qua khuyến mãi “Đón sinh nhật vàng – Trọn tháng tri ân”, Sacombank mong muốn mang lại nhiều hơn nữa những giá trị cộng thêm cho khách hàng"
+    },
+    {
+        "text": "33 năm",
+        "label": "DATE",
+        "evidence": "Trong suốt hành trình 33 năm hình thành và phát triển, Sacombank không ngừng nghiên cứu, cập nhật xu hướng thị trường để tối ưu các giải pháp tài chính trọn gói, hiện đại và đa tiện ích"
+    }
+]

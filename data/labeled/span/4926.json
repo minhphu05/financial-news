@@ -1,0 +1,377 @@
+[
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "nhóm quỹ Dragon Capital đã báo cáo bán ra gần 2 triệu cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "báo cáo bán ra gần 2 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "nhóm quỹ Dragon Capital đã báo cáo bán ra gần 2 triệu cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "gần 2 triệu",
+        "label": "VOLUME",
+        "evidence": "báo cáo bán ra gần 2 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "báo cáo bán ra gần 2 triệu cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "báo cáo bán ra gần 2 triệu cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "Công ty Cổ phần Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "Wareham Group Limited",
+        "label": "ORG",
+        "evidence": "quỹ thành viên Wareham Group Limited bán 1,1 triệu cổ phiếu"
+    },
+    {
+        "text": "bán 1,1 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Wareham Group Limited bán 1,1 triệu cổ phiếu"
+    },
+    {
+        "text": "1,1 triệu",
+        "label": "VOLUME",
+        "evidence": "bán 1,1 triệu cổ phiếu"
+    },
+    {
+        "text": "Norges Bank",
+        "label": "ORG",
+        "evidence": "quỹ Norges Bank bán 800 nghìn cổ phiếu"
+    },
+    {
+        "text": "bán 800 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "quỹ Norges Bank bán 800 nghìn cổ phiếu"
+    },
+    {
+        "text": "800 nghìn",
+        "label": "VOLUME",
+        "evidence": "bán 800 nghìn cổ phiếu"
+    },
+    {
+        "text": "KB Vietnam Focus Balanced Fund",
+        "label": "ORG",
+        "evidence": "KB Vietnam Focus Balanced Fund bán 60 nghìn cổ phiếu."
+    },
+    {
+        "text": "bán 60 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "KB Vietnam Focus Balanced Fund bán 60 nghìn cổ phiếu."
+    },
+    {
+        "text": "60 nghìn",
+        "label": "VOLUME",
+        "evidence": "bán 60 nghìn cổ phiếu."
+    },
+    {
+        "text": "30/7",
+        "label": "DATE",
+        "evidence": "Giao dịch thực hiện trong phiên 30/7"
+    },
+    {
+        "text": "123 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhóm quỹ đã thu về khoảng 123 tỷ đồng."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "nhóm Dragon Capital còn nắm hơn 116 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "hơn 116 triệu",
+        "label": "VOLUME",
+        "evidence": "nắm hơn 116 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "nắm hơn 116 triệu cổ phiếu MWG tương ứng tỷ lệ 7,94%."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "nắm hơn 116 triệu cổ phiếu MWG tương ứng tỷ lệ 7,94%."
+    },
+    {
+        "text": "7,94%",
+        "label": "RATE",
+        "evidence": "tương ứng tỷ lệ 7,94%."
+    },
+    {
+        "text": "Vietnam Enterprise Investments Limited",
+        "label": "ORG",
+        "evidence": "quỹ thành viên Vietnam Enterprise Investments Limited (VEIL)"
+    },
+    {
+        "text": "VEIL",
+        "label": "ORG",
+        "evidence": "Vietnam Enterprise Investments Limited (VEIL)"
+    },
+    {
+        "text": "hơn 29,7 triệu",
+        "label": "VOLUME",
+        "evidence": "với hơn 29,7 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "với hơn 29,7 triệu cổ phiếu MWG (tỷ lệ 2,03%)"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "với hơn 29,7 triệu cổ phiếu MWG (tỷ lệ 2,03%)"
+    },
+    {
+        "text": "2,03%",
+        "label": "RATE",
+        "evidence": "(tỷ lệ 2,03%)"
+    },
+    {
+        "text": "Norges Bank",
+        "label": "ORG",
+        "evidence": "theo sau là Norges Bank (25,9 triệu cổ phiếu, tỷ lệ 1,77%)"
+    },
+    {
+        "text": "25,9 triệu",
+        "label": "VOLUME",
+        "evidence": "Norges Bank (25,9 triệu cổ phiếu, tỷ lệ 1,77%)"
+    },
+    {
+        "text": "1,77%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 1,77%"
+    },
+    {
+        "text": "Wareham Group Limited",
+        "label": "ORG",
+        "evidence": "Wareham Group Limited (19,8 triệu cổ phiếu, tỷ lệ 1,35%)."
+    },
+    {
+        "text": "19,8 triệu",
+        "label": "VOLUME",
+        "evidence": "Wareham Group Limited (19,8 triệu cổ phiếu, tỷ lệ 1,35%)."
+    },
+    {
+        "text": "1,35%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 1,35%"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Về MWG, doanh nghiệp vừa công bố kết quả kinh doanh quý 2/2024 đầy khởi sắc."
+    },
+    {
+        "text": "công bố kết quả kinh doanh quý 2/2024",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp vừa công bố kết quả kinh doanh quý 2/2024 đầy khởi sắc."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "kết quả kinh doanh quý 2/2024 đầy khởi sắc."
+    },
+    {
+        "text": "34.234 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu thuần đạt 34.234 tỷ đồng"
+    },
+    {
+        "text": "tăng gần 16%",
+        "label": "RATE",
+        "evidence": "tăng gần 16% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "18,5%",
+        "label": "RATE",
+        "evidence": "từ mức 18,5% cùng kỳ 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "cùng kỳ 2023"
+    },
+    {
+        "text": "21,4%",
+        "label": "RATE",
+        "evidence": "lên mức 21,4%."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG lãi sau thuế 1.172 tỷ đồng trong quý 2"
+    },
+    {
+        "text": "lãi sau thuế 1.172 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MWG lãi sau thuế 1.172 tỷ đồng trong quý 2"
+    },
+    {
+        "text": "1.172 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi sau thuế 1.172 tỷ đồng"
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "trong quý 2"
+    },
+    {
+        "text": "gấp 69 lần",
+        "label": "RATE",
+        "evidence": "gấp 69 lần (tương đương tăng 6.800%)"
+    },
+    {
+        "text": "tăng 6.800%",
+        "label": "RATE",
+        "evidence": "tương đương tăng 6.800%"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "so với cùng kỳ 2023."
+    },
+    {
+        "text": "quý thứ 4",
+        "label": "DATE",
+        "evidence": "Đây là quý thứ 4 liên tiếp doanh nghiệp bán lẻ này tăng trưởng dương"
+    },
+    {
+        "text": "9 quý",
+        "label": "DATE",
+        "evidence": "mức lãi ròng cao nhất trong vòng 9 quý trở lại đây."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Luỹ kế 6 tháng đầu năm"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG ghi nhận doanh thu thuần đạt 65.621 tỷ đồng"
+    },
+    {
+        "text": "doanh thu thuần đạt 65.621 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MWG ghi nhận doanh thu thuần đạt 65.621 tỷ đồng"
+    },
+    {
+        "text": "65.621 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu thuần đạt 65.621 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận sau thuế đạt 2.075 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế đạt 2.075 tỷ đồng"
+    },
+    {
+        "text": "2.075 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận sau thuế đạt 2.075 tỷ đồng"
+    },
+    {
+        "text": "86,5%",
+        "label": "RATE",
+        "evidence": "hoàn thành 86,5% mục tiêu lợi nhuận cả năm đề ra."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "hai chuỗi Thế giới Di động (TGDĐ)"
+    },
+    {
+        "text": "TGDĐ",
+        "label": "ORG",
+        "evidence": "Thế giới Di động (TGDĐ)"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "và Điện Máy Xanh (ĐMX)"
+    },
+    {
+        "text": "ĐMX",
+        "label": "ORG",
+        "evidence": "Điện Máy Xanh (ĐMX)"
+    },
+    {
+        "text": "ghi nhận tổng doanh thu đạt 44.200 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ghi nhận tổng doanh thu đạt 44.200 tỷ đồng"
+    },
+    {
+        "text": "44.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng doanh thu đạt 44.200 tỷ đồng"
+    },
+    {
+        "text": "tăng hơn 6%",
+        "label": "RATE",
+        "evidence": "tăng hơn 6% so với cùng kỳ."
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Về chuỗi Bách Hóa Xanh (BHX)"
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "Bách Hóa Xanh (BHX)"
+    },
+    {
+        "text": "doanh thu 6 tháng đạt 19.400 tỷ",
+        "label": "EVENT",
+        "evidence": "doanh thu 6 tháng đạt 19.400 tỷ"
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "doanh thu 6 tháng đạt 19.400 tỷ"
+    },
+    {
+        "text": "19.400 tỷ",
+        "label": "MONEY",
+        "evidence": "doanh thu 6 tháng đạt 19.400 tỷ"
+    },
+    {
+        "text": "tăng trưởng 42%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 42%."
+    },
+    {
+        "text": "có lãi xấp xỉ 7 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "chuỗi siêu thị đã có lãi xấp xỉ 7 tỷ đồng trong quý 2 vừa qua"
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có lãi xấp xỉ 7 tỷ đồng"
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "trong quý 2 vừa qua"
+    },
+    {
+        "text": "báo lãi",
+        "label": "EVENT",
+        "evidence": "lần đầu tiên chuỗi bách hóa này báo lãi."
+    }
+]

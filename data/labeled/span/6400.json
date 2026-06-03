@@ -1,0 +1,397 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Vừa qua, Sacombank đã tổ chức quay số giai đoạn 1, tìm ra 41 khách hàng trúng thưởng chương trình \"Chinh phục Olympic Games Paris 2024\", gồm 1 giải đặc biệt là chuyến du lịch Pháp 5 ngày 4 đêm dành cho 2 người trị giá 30,000 USD và 40 giải nhất là 40 sổ tiết kiệm Tích góp siêu linh hoạt, trị giá 20 triệu đồng/sổ."
+    },
+    {
+        "text": "Sacombank đã tổ chức quay số giai đoạn 1, tìm ra 41 khách hàng trúng thưởng chương trình \"Chinh phục Olympic Games Paris 2024\"",
+        "label": "EVENT",
+        "evidence": "Vừa qua, Sacombank đã tổ chức quay số giai đoạn 1, tìm ra 41 khách hàng trúng thưởng chương trình \"Chinh phục Olympic Games Paris 2024\", gồm 1 giải đặc biệt là chuyến du lịch Pháp 5 ngày 4 đêm dành cho 2 người trị giá 30,000 USD và 40 giải nhất là 40 sổ tiết kiệm Tích góp siêu linh hoạt, trị giá 20 triệu đồng/sổ."
+    },
+    {
+        "text": "30,000 USD",
+        "label": "MONEY",
+        "evidence": "gồm 1 giải đặc biệt là chuyến du lịch Pháp 5 ngày 4 đêm dành cho 2 người trị giá 30,000 USD và 40 giải nhất là 40 sổ tiết kiệm Tích góp siêu linh hoạt, trị giá 20 triệu đồng/sổ."
+    },
+    {
+        "text": "sổ tiết kiệm Tích góp siêu linh hoạt",
+        "label": "ASSET",
+        "evidence": "và 40 giải nhất là 40 sổ tiết kiệm Tích góp siêu linh hoạt, trị giá 20 triệu đồng/sổ."
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "trị giá 20 triệu đồng/sổ."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Chủ nhân giải đặc biệt sẽ được Sacombank và tổ chức thẻ quốc tế Visa tài trợ: Cặp vé máy bay khứ hồi và dịch vụ làm visa miễn phí đến Pháp; Phòng khách sạn nghỉ dưỡng 4 sao; Cặp vé tham dự 3 sự kiện thể thao tại Olympic Games Paris 2024; Thẻ tàu điện ngầm và thẻ tham quan trong thời gian du lịch tại Paris; Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "tổ chức thẻ quốc tế Visa",
+        "label": "ORG",
+        "evidence": "Chủ nhân giải đặc biệt sẽ được Sacombank và tổ chức thẻ quốc tế Visa tài trợ: Cặp vé máy bay khứ hồi và dịch vụ làm visa miễn phí đến Pháp; Phòng khách sạn nghỉ dưỡng 4 sao; Cặp vé tham dự 3 sự kiện thể thao tại Olympic Games Paris 2024; Thẻ tàu điện ngầm và thẻ tham quan trong thời gian du lịch tại Paris; Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "Chủ nhân giải đặc biệt sẽ được Sacombank và tổ chức thẻ quốc tế Visa tài trợ: Cặp vé máy bay khứ hồi và dịch vụ làm visa miễn phí đến Pháp; Phòng khách sạn nghỉ dưỡng 4 sao; Cặp vé tham dự 3 sự kiện thể thao tại Olympic Games Paris 2024; Thẻ tàu điện ngầm và thẻ tham quan trong thời gian du lịch tại Paris; Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "thẻ Visa trả trước",
+        "label": "ASSET",
+        "evidence": "Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "400 USD",
+        "label": "MONEY",
+        "evidence": "Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "400 USD",
+        "label": "MONEY",
+        "evidence": "Tặng thẻ Visa trả trước với 400 USD có sẵn và bộ quà tặng cao cấp 400 USD."
+    },
+    {
+        "text": "cuối tháng 7",
+        "label": "DATE",
+        "evidence": "Dự kiến cuối tháng 7, Olympic sẽ chính thức khai mạc và chủ nhân giải thưởng đặc biệt và người thân sẽ có chuyến du lịch tại Pháp."
+    },
+    {
+        "text": "Hoàn đến 2 triệu VND khi chi tiêu qua thẻ Sacombank Visa",
+        "label": "EVENT",
+        "evidence": "Hoàn đến 2 triệu VND khi chi tiêu qua thẻ Sacombank Visa"
+    },
+    {
+        "text": "2 triệu VND",
+        "label": "MONEY",
+        "evidence": "Hoàn đến 2 triệu VND khi chi tiêu qua thẻ Sacombank Visa"
+    },
+    {
+        "text": "thẻ Sacombank Visa",
+        "label": "ASSET",
+        "evidence": "Hoàn đến 2 triệu VND khi chi tiêu qua thẻ Sacombank Visa"
+    },
+    {
+        "text": "hết ngày 11/8/2024",
+        "label": "DATE",
+        "evidence": "Ở giai đoạn 2 đến hết ngày 11/8/2024, với hai kỳ xét giải, chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum",
+        "label": "ASSET",
+        "evidence": "chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "Sacombank Visa",
+        "label": "ORG",
+        "evidence": "chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "hoàn tiền đến 2 triệu VND",
+        "label": "EVENT",
+        "evidence": "chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "2 triệu VND",
+        "label": "MONEY",
+        "evidence": "chủ thẻ tín dụng Sacombank Visa hạng Infinite/Signature/Platinum có cơ hội được hoàn tiền đến 2 triệu VND."
+    },
+    {
+        "text": "4 triệu VND",
+        "label": "MONEY",
+        "evidence": "Theo đó, 1.000 khách hàng có doanh số giao dịch thẻ tại nước ngoài cao nhất (tối thiểu từ 4 triệu VND) sẽ được hoàn 1 triệu VND/kỳ."
+    },
+    {
+        "text": "1 triệu VND",
+        "label": "MONEY",
+        "evidence": "Theo đó, 1.000 khách hàng có doanh số giao dịch thẻ tại nước ngoài cao nhất (tối thiểu từ 4 triệu VND) sẽ được hoàn 1 triệu VND/kỳ."
+    },
+    {
+        "text": "Sacombank Visa",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Sacombank Visa hè này nhận ngàn ưu đãi"
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Sacombank Visa hè này nhận ngàn ưu đãi"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, hè này Sacombank còn dành hàng ngàn ưu đãi hoàn tiền, giảm giá khác dành cho chủ thẻ quốc tế Sacombank chi tiêu mua sắm, ăn uống, giải trí, du lịch trải nghiệm trong và ngoài nước."
+    },
+    {
+        "text": "thẻ quốc tế Sacombank",
+        "label": "ASSET",
+        "evidence": "dành cho chủ thẻ quốc tế Sacombank chi tiêu mua sắm, ăn uống, giải trí, du lịch trải nghiệm trong và ngoài nước."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "dành cho chủ thẻ quốc tế Sacombank chi tiêu mua sắm, ăn uống, giải trí, du lịch trải nghiệm trong và ngoài nước."
+    },
+    {
+        "text": "khách hàng được giảm 5% khi đặt vé máy bay của hãng EVA Air",
+        "label": "EVENT",
+        "evidence": "Cụ thể, khách hàng được giảm 5% khi đặt vé máy bay của hãng EVA Air."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Cụ thể, khách hàng được giảm 5% khi đặt vé máy bay của hãng EVA Air."
+    },
+    {
+        "text": "EVA Air",
+        "label": "ORG",
+        "evidence": "Cụ thể, khách hàng được giảm 5% khi đặt vé máy bay của hãng EVA Air."
+    },
+    {
+        "text": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn",
+        "label": "EVENT",
+        "evidence": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn."
+    },
+    {
+        "text": "10% - 25%",
+        "label": "RATE",
+        "evidence": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn."
+    },
+    {
+        "text": "Agoda.com",
+        "label": "ORG",
+        "evidence": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn."
+    },
+    {
+        "text": "Booking.com",
+        "label": "ORG",
+        "evidence": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn."
+    },
+    {
+        "text": "Mytour.vn",
+        "label": "ORG",
+        "evidence": "Giảm từ 10% - 25% khi đặt phòng khách sạn trên Agoda.com, Booking.com và Mytour.vn."
+    },
+    {
+        "text": "giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour",
+        "label": "EVENT",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "500.000 VND",
+        "label": "MONEY",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "1 triệu VND",
+        "label": "MONEY",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "iVIVU.com",
+        "label": "ORG",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "Lửa Việt Tour",
+        "label": "ORG",
+        "evidence": "Hay được giảm từ 500.000 VND - 1 triệu VND khi đặt tour trên iVIVU.com, Vietravel, Lửa Việt Tour."
+    },
+    {
+        "text": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp",
+        "label": "EVENT",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Azerai Cần Thơ",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Azerai La Residence Huế",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Ana Mandara Villas Đà Lạt",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Angsana Lăng Cô",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "BanYan Tree Lăng Cô",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Best Western Premier Sonasea Phú Quốc",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Furama Resort Đà Nẵng",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Fusion Hotel Group",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Maia Resort Quy Nhơn",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Premier Residences Phú Quốc Emerald Bay",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "Wyndham Grand KN Paradise Cam Ranh",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "TTC Hospitality",
+        "label": "ORG",
+        "evidence": "Giảm đến 30% khi sử dụng các dịch vụ đặt phòng, ăn uống hoặc spa tại loạt resort, khách sạn cao cấp như Azerai Cần Thơ, Azerai La Residence Huế, Ana Mandara Villas Đà Lạt, Angsana Lăng Cô, BanYan Tree Lăng Cô, Best Western Premier Sonasea Phú Quốc, Furama Resort Đà Nẵng, Fusion Hotel Group, Maia Resort Quy Nhơn, Premier Residences Phú Quốc Emerald Bay, Wyndham Grand KN Paradise Cam Ranh, TTC Hospitality."
+    },
+    {
+        "text": "1 triệu VND",
+        "label": "MONEY",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "Gogi House",
+        "label": "ORG",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "Kichi Kichi",
+        "label": "ORG",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "Cloud Pot",
+        "label": "ORG",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "chủ thẻ sẽ được giảm ngay 100.000 VND",
+        "label": "EVENT",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "100.000 VND",
+        "label": "MONEY",
+        "evidence": "Với các hóa đơn ăn uống từ 1 triệu VND tại các hệ thống nhà hàng như Gogi House, Kichi Kichi hay Cloud Pot, chủ thẻ sẽ được giảm ngay 100.000 VND."
+    },
+    {
+        "text": "giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn",
+        "label": "EVENT",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "IBUKI Teppanyaki Restaurant",
+        "label": "ORG",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "KOBE Teppanyaki",
+        "label": "ORG",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "Sushi Hokkaido Sachi",
+        "label": "ORG",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "Gyu Shige Ngưu Phồn",
+        "label": "ORG",
+        "evidence": "Được giảm đến 30% khi chủ thẻ ăn uống tại IBUKI Teppanyaki Restaurant, KOBE Teppanyaki, Sushi Hokkaido Sachi, Gyu Shige Ngưu Phồn."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Chủ thẻ Sacombank cũng được ưu đãi mua cặp vé xem phim 2D CGV với giá chỉ 120.000 VND; Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "ưu đãi mua cặp vé xem phim 2D CGV với giá chỉ 120.000 VND",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ Sacombank cũng được ưu đãi mua cặp vé xem phim 2D CGV với giá chỉ 120.000 VND; Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "CGV",
+        "label": "ORG",
+        "evidence": "Chủ thẻ Sacombank cũng được ưu đãi mua cặp vé xem phim 2D CGV với giá chỉ 120.000 VND; Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "120.000 VND",
+        "label": "MONEY",
+        "evidence": "Chủ thẻ Sacombank cũng được ưu đãi mua cặp vé xem phim 2D CGV với giá chỉ 120.000 VND; Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice",
+        "label": "EVENT",
+        "evidence": "Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "Nnice",
+        "label": "ORG",
+        "evidence": "Giảm 10% hóa đơn ca hát tại hệ thống karaoke Nnice; Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND",
+        "label": "EVENT",
+        "evidence": "Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "50.000 VND",
+        "label": "MONEY",
+        "evidence": "Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "Fahasa",
+        "label": "ORG",
+        "evidence": "Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    },
+    {
+        "text": "300.000 VND",
+        "label": "MONEY",
+        "evidence": "Hay được hoàn 50.000 VND với các hóa đơn mua sách tại Fahasa từ 300.000 VND."
+    }
+]

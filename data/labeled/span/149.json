@@ -1,0 +1,302 @@
+[
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank cảnh báo các hình thức lừa đảo dịp Tết Nguyên Đán"
+    },
+    {
+        "text": "Tết Nguyên Đán",
+        "label": "DATE",
+        "evidence": "Agribank cảnh báo các hình thức lừa đảo dịp Tết Nguyên Đán"
+    },
+    {
+        "text": "Ngân hàng Nông nghiệp và Phát triển Nông thôn",
+        "label": "ORG",
+        "evidence": "Theo Ngân hàng Nông nghiệp và Phát triển Nông thôn (Agribank), thời gian gần đây, đặc biệt là thời điểm Tết Nguyên Đán đang đến gần, các đối tượng lừa đảo ngày càng gia tăng các chiêu trò tinh vi nhằm chiếm đoạt thông tin, tài sản của khách hàng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Theo Ngân hàng Nông nghiệp và Phát triển Nông thôn (Agribank), thời gian gần đây, đặc biệt là thời điểm Tết Nguyên Đán đang đến gần, các đối tượng lừa đảo ngày càng gia tăng các chiêu trò tinh vi nhằm chiếm đoạt thông tin, tài sản của khách hàng."
+    },
+    {
+        "text": "Tết Nguyên Đán",
+        "label": "DATE",
+        "evidence": "Theo Ngân hàng Nông nghiệp và Phát triển Nông thôn (Agribank), thời gian gần đây, đặc biệt là thời điểm Tết Nguyên Đán đang đến gần, các đối tượng lừa đảo ngày càng gia tăng các chiêu trò tinh vi nhằm chiếm đoạt thông tin, tài sản của khách hàng."
+    },
+    {
+        "text": "Agribank cảnh báo các hình thức lừa đảo dịp Tết Nguyên Đán",
+        "label": "EVENT",
+        "evidence": "Agribank cảnh báo các hình thức lừa đảo dịp Tết Nguyên Đán"
+    },
+    {
+        "text": "Lừa đảo giả mạo là công an địa phương, nhân viên ngân hàng, nhân viên công ty điện, nước",
+        "label": "EVENT",
+        "evidence": "Lừa đảo giả mạo là công an địa phương, nhân viên ngân hàng, nhân viên công ty điện, nước; lừa đảo tri ân dịp Tết, lì xì online"
+    },
+    {
+        "text": "lừa đảo tri ân dịp Tết, lì xì online",
+        "label": "EVENT",
+        "evidence": "Lừa đảo giả mạo là công an địa phương, nhân viên ngân hàng, nhân viên công ty điện, nước; lừa đảo tri ân dịp Tết, lì xì online"
+    },
+    {
+        "text": "Tết",
+        "label": "DATE",
+        "evidence": "Lừa đảo giả mạo là công an địa phương, nhân viên ngân hàng, nhân viên công ty điện, nước; lừa đảo tri ân dịp Tết, lì xì online"
+    },
+    {
+        "text": "mở thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "đối tượng lừa đảo cũng có thể giả mạo nhân viên ngân hàng mời mở thẻ tín dụng, hỗ trợ chuyển tiền, giả danh nhân viên công ty điện nước đe dọa sẽ cắt điện nước."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "đối tượng lừa đảo cũng có thể giả mạo nhân viên ngân hàng mời mở thẻ tín dụng, hỗ trợ chuyển tiền, giả danh nhân viên công ty điện nước đe dọa sẽ cắt điện nước."
+    },
+    {
+        "text": "hỗ trợ chuyển tiền",
+        "label": "EVENT",
+        "evidence": "đối tượng lừa đảo cũng có thể giả mạo nhân viên ngân hàng mời mở thẻ tín dụng, hỗ trợ chuyển tiền, giả danh nhân viên công ty điện nước đe dọa sẽ cắt điện nước."
+    },
+    {
+        "text": "nhận lì xì qua tài khoản ngân hàng, ví điện tử",
+        "label": "EVENT",
+        "evidence": "Đối tượng lừa đảo mạo danh là thương hiệu uy tín hoặc người thân, bạn bè gửi tin nhắn, email thông báo khách hàng được nhận lì xì qua tài khoản ngân hàng, ví điện tử hoặc quà tặng gửi đến tận nhà."
+    },
+    {
+        "text": "thông tin tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Khi truy cập vào website, ứng dụng giả mạo, khách hàng sẽ phải nhập các thông tin cá nhân, thông tin thanh toán là thông tin tài khoản ngân hàng, số thẻ, mật khẩu, mã OTP."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "Khi truy cập vào website, ứng dụng giả mạo, khách hàng sẽ phải nhập các thông tin cá nhân, thông tin thanh toán là thông tin tài khoản ngân hàng, số thẻ, mật khẩu, mã OTP."
+    },
+    {
+        "text": "mật khẩu",
+        "label": "ASSET",
+        "evidence": "Khi truy cập vào website, ứng dụng giả mạo, khách hàng sẽ phải nhập các thông tin cá nhân, thông tin thanh toán là thông tin tài khoản ngân hàng, số thẻ, mật khẩu, mã OTP."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Khi truy cập vào website, ứng dụng giả mạo, khách hàng sẽ phải nhập các thông tin cá nhân, thông tin thanh toán là thông tin tài khoản ngân hàng, số thẻ, mật khẩu, mã OTP."
+    },
+    {
+        "text": "Đổi tiền mới",
+        "label": "EVENT",
+        "evidence": "Lừa đảo đổi tiền mới trên mạng xã hội, trang thương mại điện tử"
+    },
+    {
+        "text": "Tết Nguyên đán",
+        "label": "DATE",
+        "evidence": "Thời điểm gần Tết Nguyên đán, người dân thường có nhu cầu đổi tiền lẻ, tiền mới."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cảnh báo thủ đoạn lừa đảo dịp Tết Nguyên đán"
+    },
+    {
+        "text": "Tết Nguyên đán",
+        "label": "DATE",
+        "evidence": "ACB cảnh báo thủ đoạn lừa đảo dịp Tết Nguyên đán"
+    },
+    {
+        "text": "ACB cảnh báo thủ đoạn lừa đảo dịp Tết Nguyên đán",
+        "label": "EVENT",
+        "evidence": "ACB cảnh báo thủ đoạn lừa đảo dịp Tết Nguyên đán"
+    },
+    {
+        "text": "Ngân hàng Á Châu",
+        "label": "ORG",
+        "evidence": "Ngân hàng Á Châu(ACB) mới đây đã phát đi cảnh báo, đồng thời cung cấp thông tin về các tình huống lừa đảo phổ biến và hướng dẫn bảo vệ an toàn khi giao dịch trực tuyến."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngân hàng Á Châu(ACB) mới đây đã phát đi cảnh báo, đồng thời cung cấp thông tin về các tình huống lừa đảo phổ biến và hướng dẫn bảo vệ an toàn khi giao dịch trực tuyến."
+    },
+    {
+        "text": "lừa đảo tặng quà",
+        "label": "EVENT",
+        "evidence": "Kịch bản lừa đảo tặng quà"
+    },
+    {
+        "text": "chuyển tiền phí vận chuyển",
+        "label": "EVENT",
+        "evidence": "Đối tượng sẽ yêu cầu khách hàng chuyển tiền phí vận chuyển để được nhận quà, hoặc đối tượng sẽ gửi đường link yêu cầu khách hàng nhập vào để nhận quà."
+    },
+    {
+        "text": "chuyển tiền phí vận chuyển",
+        "label": "EVENT",
+        "evidence": "Khi khách hàng chuyển tiền phí vận chuyển xong sẽ bị chặn liên hệ, hoặc khi khách hàng nhấn vào link sẽ bị chiếm quyền điều khiển thiết bị điện thoại."
+    },
+    {
+        "text": "lừa đảo khi mua vé hoặc đặt phòng khách sạn",
+        "label": "EVENT",
+        "evidence": "Kịch bản lừa đảo khi mua vé hoặc đặt phòng khách sạn"
+    },
+    {
+        "text": "chuyển tiền cọc",
+        "label": "EVENT",
+        "evidence": "Khi có khách hàng liên hệ, đối tượng sẽ gửi mã đặt chỗ để làm tin, và hướng dẫn khách hàng chuyển tiền cọc, hoặc vào link để nhập thông tin giữ vé (máy bay, tàu, xe…) hoặc giữ phòng khách sạn."
+    },
+    {
+        "text": "chuyển tiền giữ chỗ",
+        "label": "EVENT",
+        "evidence": "Sau khi khách hàng chuyển tiền giữ chỗ, đối tượng sẽ chặn liên hệ khách hàng, hoặc khách hàng sẽ bị chiếm quyền điều khiển thiết bị điện thoại."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cảnh báo rằng các tình huống lừa đảo này tiềm ẩn nguy cơ nghiêm trọng, bao gồm việc lộ thông tin bảo mật như tên đăng nhập, mật khẩu, mã OTP, thông tin thẻ, hoặc dữ liệu sinh trắc học."
+    },
+    {
+        "text": "tên đăng nhập",
+        "label": "ASSET",
+        "evidence": "ACB cảnh báo rằng các tình huống lừa đảo này tiềm ẩn nguy cơ nghiêm trọng, bao gồm việc lộ thông tin bảo mật như tên đăng nhập, mật khẩu, mã OTP, thông tin thẻ, hoặc dữ liệu sinh trắc học."
+    },
+    {
+        "text": "mật khẩu",
+        "label": "ASSET",
+        "evidence": "ACB cảnh báo rằng các tình huống lừa đảo này tiềm ẩn nguy cơ nghiêm trọng, bao gồm việc lộ thông tin bảo mật như tên đăng nhập, mật khẩu, mã OTP, thông tin thẻ, hoặc dữ liệu sinh trắc học."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "ACB cảnh báo rằng các tình huống lừa đảo này tiềm ẩn nguy cơ nghiêm trọng, bao gồm việc lộ thông tin bảo mật như tên đăng nhập, mật khẩu, mã OTP, thông tin thẻ, hoặc dữ liệu sinh trắc học."
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "ACB cảnh báo rằng các tình huống lừa đảo này tiềm ẩn nguy cơ nghiêm trọng, bao gồm việc lộ thông tin bảo mật như tên đăng nhập, mật khẩu, mã OTP, thông tin thẻ, hoặc dữ liệu sinh trắc học."
+    },
+    {
+        "text": "tiền trong tài khoản hoặc thẻ",
+        "label": "ASSET",
+        "evidence": "Đặc biệt, khách hàng còn có nguy cơ bị chiếm đoạt tiền trong tài khoản hoặc thẻ."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Kienlongbank ﻿cảnh báo khách hàng về chiêu thức lừa đảo mới dịp cận Tết"
+    },
+    {
+        "text": "Tết",
+        "label": "DATE",
+        "evidence": "Kienlongbank ﻿cảnh báo khách hàng về chiêu thức lừa đảo mới dịp cận Tết"
+    },
+    {
+        "text": "Kienlongbank ﻿cảnh báo khách hàng về chiêu thức lừa đảo mới dịp cận Tết",
+        "label": "EVENT",
+        "evidence": "Kienlongbank ﻿cảnh báo khách hàng về chiêu thức lừa đảo mới dịp cận Tết"
+    },
+    {
+        "text": "Ngân hàng TMCP Kiên Long",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Kiên Long (Kienlongbank) mới đây đã đưa ra cảnh báo về chiêu thức lừa đảo mới mà các đối tượng xấu thường lợi dụng trong dịp cận Tết."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Kiên Long (Kienlongbank) mới đây đã đưa ra cảnh báo về chiêu thức lừa đảo mới mà các đối tượng xấu thường lợi dụng trong dịp cận Tết."
+    },
+    {
+        "text": "dịp cận Tết",
+        "label": "DATE",
+        "evidence": "Ngân hàng TMCP Kiên Long (Kienlongbank) mới đây đã đưa ra cảnh báo về chiêu thức lừa đảo mới mà các đối tượng xấu thường lợi dụng trong dịp cận Tết."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, hacker thu thập thông tin cá nhân và tài khoản ngân hàng của người dùng thông qua các “chợ đen” giao dịch dữ liệu, hoặc tìm kiếm từ những thông tin bị lộ trên nguồn công khai như Google, Facebook, Telegram."
+    },
+    {
+        "text": "tên đăng nhập",
+        "label": "ASSET",
+        "evidence": "Sau khi có đủ thông tin, chúng sẽ dùng tên đăng nhập và mật khẩu để thử truy cập tài khoản ngân hàng."
+    },
+    {
+        "text": "mật khẩu",
+        "label": "ASSET",
+        "evidence": "Sau khi có đủ thông tin, chúng sẽ dùng tên đăng nhập và mật khẩu để thử truy cập tài khoản ngân hàng."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Sau khi có đủ thông tin, chúng sẽ dùng tên đăng nhập và mật khẩu để thử truy cập tài khoản ngân hàng."
+    },
+    {
+        "text": "khóa tạm thời hoặc vô hiệu hóa tài khoản",
+        "label": "EVENT",
+        "evidence": "Hành động này khiến ngân hàng phải khóa tạm thời hoặc vô hiệu hóa tài khoản, buộc khách hàng phải tự khôi phục qua nhiều bước phức tạp."
+    },
+    {
+        "text": "tài khoản người dùng",
+        "label": "ASSET",
+        "evidence": "Tại đây, chúng khai thác tối đa thông tin nhạy cảm từ tài khoản người dùng."
+    },
+    {
+        "text": "giao dịch nhỏ",
+        "label": "EVENT",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "mật khẩu",
+        "label": "ASSET",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "PIN",
+        "label": "ASSET",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "giao dịch lớn",
+        "label": "EVENT",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "chiếm đoạt tài sản",
+        "label": "EVENT",
+        "evidence": "Kẻ xấu có thể thực hiện hai chiêu trò: giao dịch nhỏ không vượt mức xác minh bảo mật, hoặc cài ứng dụng giả mạo để đánh cắp toàn bộ thông tin cá nhân như mã OTP, mật khẩu, PIN sau đó có thể dễ dàng thực hiện các giao dịch lớn hoặc chiếm đoạt tài sản."
+    },
+    {
+        "text": "ngân hàng điện tử",
+        "label": "ASSET",
+        "evidence": "Nhằm đảm bảo an toàn khi sử dụng dịch vụ ngân hàng điện tử và bảo vệ tài sản của khách hàng, các ngân hàng khuyến cáo người dùng:"
+    },
+    {
+        "text": "ứng dụng ngân hàng",
+        "label": "ASSET",
+        "evidence": "Đối với các phần mềm như VNEID, Dịch vụ công, ứng dụng ngân hàng,…Khách hàng chỉ nên tải các phần mềm trên chợ ứng dụng của điện thoại (App Store đối với iOS, CH Play / Cửa hàng Play đối với Android,…), khách hàng nên kiểm tra lượt tải, đánh giá của ứng dụng trên chợ ứng dụng trước khi quyết định tải phần mềm."
+    },
+    {
+        "text": "thông tin tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Thứ hai,tuyệt đốiKHÔNGcung cấp thông tin tài khoản ngân hàng như mật khẩu, mã OTP,… cho bất kỳ ai, kể cả nhân viên ngân hàng."
+    },
+    {
+        "text": "mật khẩu",
+        "label": "ASSET",
+        "evidence": "Thứ hai,tuyệt đốiKHÔNGcung cấp thông tin tài khoản ngân hàng như mật khẩu, mã OTP,… cho bất kỳ ai, kể cả nhân viên ngân hàng."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Thứ hai,tuyệt đốiKHÔNGcung cấp thông tin tài khoản ngân hàng như mật khẩu, mã OTP,… cho bất kỳ ai, kể cả nhân viên ngân hàng."
+    },
+    {
+        "text": "số tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Thứ tư,HẠN CHẾđưa thông tin cá nhân, số điện thoại, số tài khoản ngân hàng, các hóa đơn điện tử có chứa các thông tin cá nhân lên trang mạng xã hội."
+    }
+]

@@ -1,0 +1,467 @@
+[
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "nhóm quỹ thuộc quản lý của Dragon Capital đã báo cáo hoàn tất mua vào 940 nghìn cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "hoàn tất mua vào 940 nghìn cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "nhóm quỹ thuộc quản lý của Dragon Capital đã báo cáo hoàn tất mua vào 940 nghìn cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "940 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hoàn tất mua vào 940 nghìn cổ phiếu MWG"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "940 nghìn cổ phiếu MWG"
+    },
+    {
+        "text": "Công ty Cổ phần Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "cổ phiếu MWG của Công ty Cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "Saigon Investments Limited",
+        "label": "ORG",
+        "evidence": "quỹ thành viên Saigon Investments Limited mua 300 nghìn cổ phiếu"
+    },
+    {
+        "text": "mua 300 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Saigon Investments Limited mua 300 nghìn cổ phiếu"
+    },
+    {
+        "text": "300 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua 300 nghìn cổ phiếu"
+    },
+    {
+        "text": "Norges Bank",
+        "label": "ORG",
+        "evidence": "Norges Bank mua 200 nghìn cổ phiếu"
+    },
+    {
+        "text": "mua 200 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Norges Bank mua 200 nghìn cổ phiếu"
+    },
+    {
+        "text": "200 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua 200 nghìn cổ phiếu"
+    },
+    {
+        "text": "Vietnam Enterprise Investments Limited",
+        "label": "ORG",
+        "evidence": "Vietnam Enterprise Investments Limited mua 250 nghìn cổ phiếu"
+    },
+    {
+        "text": "mua 250 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Vietnam Enterprise Investments Limited mua 250 nghìn cổ phiếu"
+    },
+    {
+        "text": "250 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua 250 nghìn cổ phiếu"
+    },
+    {
+        "text": "DC Developing Markets Strategies Public Limited Company",
+        "label": "ORG",
+        "evidence": "DC Developing Markets Strategies Public Limited Company mua 200 nghìn cổ phiếu."
+    },
+    {
+        "text": "mua 200 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "DC Developing Markets Strategies Public Limited Company mua 200 nghìn cổ phiếu."
+    },
+    {
+        "text": "200 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua 200 nghìn cổ phiếu"
+    },
+    {
+        "text": "KB Vietnam Focus Balanced Fund",
+        "label": "ORG",
+        "evidence": "Ngược chiều KB Vietnam Focus Balanced Fund bán ra 10.000 đơn vị."
+    },
+    {
+        "text": "bán ra 10.000 đơn vị",
+        "label": "EVENT",
+        "evidence": "KB Vietnam Focus Balanced Fund bán ra 10.000 đơn vị."
+    },
+    {
+        "text": "10.000 đơn vị",
+        "label": "VOLUME",
+        "evidence": "bán ra 10.000 đơn vị"
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "sở hữu của cả nhóm quỹ Dragon Capital tăng từ 116,2 triệu cổ phiếu (tỷ lệ 7,948%) lên 117,1 triệu cổ phiếu (tỷ lệ 8,014%)."
+    },
+    {
+        "text": "116,2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "tăng từ 116,2 triệu cổ phiếu (tỷ lệ 7,948%)"
+    },
+    {
+        "text": "7,948%",
+        "label": "RATE",
+        "evidence": "(tỷ lệ 7,948%)"
+    },
+    {
+        "text": "117,1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "lên 117,1 triệu cổ phiếu (tỷ lệ 8,014%)."
+    },
+    {
+        "text": "8,014%",
+        "label": "RATE",
+        "evidence": "(tỷ lệ 8,014%)"
+    },
+    {
+        "text": "4/6",
+        "label": "DATE",
+        "evidence": "Giao dịch thực hiện trong phiên 4/6."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "giá đóng cửa cùng phiên của cổ phiếu MWG"
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "ước tính nhóm Dragon Capital đã bỏ ra khoảng 60 tỷ để mua ròng lượng cổ phiếu trên."
+    },
+    {
+        "text": "60 tỷ",
+        "label": "MONEY",
+        "evidence": "đã bỏ ra khoảng 60 tỷ để mua ròng lượng cổ phiếu trên."
+    },
+    {
+        "text": "mua ròng lượng cổ phiếu trên",
+        "label": "EVENT",
+        "evidence": "nhóm Dragon Capital đã bỏ ra khoảng 60 tỷ để mua ròng lượng cổ phiếu trên."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "nhóm quỹ Dragon Capital báo cáo mua vào cổ phiếu MWG"
+    },
+    {
+        "text": "mua vào cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "nhóm quỹ Dragon Capital báo cáo mua vào cổ phiếu MWG"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu MWG"
+    },
+    {
+        "text": "3/5",
+        "label": "DATE",
+        "evidence": "là vào phiên 3/5"
+    },
+    {
+        "text": "mua gần 8 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "khi mua gần 8 triệu cổ phiếu"
+    },
+    {
+        "text": "8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua gần 8 triệu cổ phiếu"
+    },
+    {
+        "text": "nâng lượng cổ hần sở hữu lên 109,04 triệu đơn vị",
+        "label": "EVENT",
+        "evidence": "nâng lượng cổ hần sở hữu lên 109,04 triệu đơn vị (tỷ lệ 7,45%)."
+    },
+    {
+        "text": "109,04 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "lên 109,04 triệu đơn vị"
+    },
+    {
+        "text": "7,45%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 7,45%"
+    },
+    {
+        "text": "mua ròng thêm gần 8 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "nhóm quỹ đã tiếp tục mua ròng thêm gần 8 triệu cổ phiếu MWG, ước chi khoảng 500 tỷ đồng."
+    },
+    {
+        "text": "8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua ròng thêm gần 8 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "8 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ước chi khoảng 500 tỷ đồng."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Động thái của Dragon Capital trái ngược với hành động của Chủ tịch HĐQT MWG Nguyễn Đức Tài."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT MWG Nguyễn Đức Tài"
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Chủ tịch HĐQT MWG Nguyễn Đức Tài"
+    },
+    {
+        "text": "đăng ký bán 2 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "Vị này vừa thông báo đăng ký bán 2 triệu cổ phiếu MWG nhằm mục đích nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "đăng ký bán 2 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "2 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "7/6",
+        "label": "DATE",
+        "evidence": "Thời gian giao dịch dự kiến từ 7/6 đến 5/7/2024"
+    },
+    {
+        "text": "5/7/2024",
+        "label": "DATE",
+        "evidence": "từ 7/6 đến 5/7/2024"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "vị Chủ tịch MWG sẽ thu về khoảng 130 tỷ đồng"
+    },
+    {
+        "text": "130 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ước tính vị Chủ tịch MWG sẽ thu về khoảng 130 tỷ đồng nếu hoàn tất 100% lượng giao dịch."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu MWG hiện đang giao dịch"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "cổ phiếu Thế giới Di động từ cuối tháng 9/2022."
+    },
+    {
+        "text": "cuối tháng 9/2022",
+        "label": "DATE",
+        "evidence": "từ cuối tháng 9/2022."
+    },
+    {
+        "text": "6/6",
+        "label": "DATE",
+        "evidence": "Kết phiên 6/6"
+    },
+    {
+        "text": "61.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "thị giá đạt 61.900 đồng/cp"
+    },
+    {
+        "text": "tăng khoảng 45%",
+        "label": "EVENT",
+        "evidence": "tăng khoảng 45% kể từ đầu năm 2024."
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "tăng khoảng 45%"
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "kể từ đầu năm 2024."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Về tình hình kinh doanh, Thế giới Di động tiếp tục hé lộ những thông tin khả quan."
+    },
+    {
+        "text": "4 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "4 tháng đầu năm 2024"
+    },
+    {
+        "text": "doanh thu đạt hơn 43.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "doanh thu đạt hơn 43.000 tỷ đồng"
+    },
+    {
+        "text": "43.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu đạt hơn 43.000 tỷ đồng"
+    },
+    {
+        "text": "tăng 16,8%",
+        "label": "EVENT",
+        "evidence": "tăng 16,8% so với cùng kỳ 2023"
+    },
+    {
+        "text": "16,8%",
+        "label": "RATE",
+        "evidence": "tăng 16,8%"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "cùng kỳ 2023"
+    },
+    {
+        "text": "hoàn thành 34% kế hoạch cả năm 2024 đề ra",
+        "label": "EVENT",
+        "evidence": "hoàn thành 34% kế hoạch cả năm 2024 đề ra."
+    },
+    {
+        "text": "34%",
+        "label": "RATE",
+        "evidence": "hoàn thành 34%"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "kế hoạch cả năm 2024"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "tổng doanh thu 2 chuỗi Thế Giới Di Động/Điện Máy Xanh (TGDĐ/ĐMX) đạt 29.400 tỷ đồng"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Thế Giới Di Động/Điện Máy Xanh"
+    },
+    {
+        "text": "TGDĐ",
+        "label": "ORG",
+        "evidence": "(TGDĐ/ĐMX)"
+    },
+    {
+        "text": "ĐMX",
+        "label": "ORG",
+        "evidence": "(TGDĐ/ĐMX)"
+    },
+    {
+        "text": "đạt 29.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Thế Giới Di Động/Điện Máy Xanh (TGDĐ/ĐMX) đạt 29.400 tỷ đồng"
+    },
+    {
+        "text": "29.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 29.400 tỷ đồng"
+    },
+    {
+        "text": "tăng gần 8%",
+        "label": "EVENT",
+        "evidence": "tăng gần 8% so với cùng kỳ."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "tăng gần 8%"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "chuỗi Bách Hóa Xanh (BHX) đem về 12.400 tỷ đồng doanh thu sau 4 tháng."
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "(BHX)"
+    },
+    {
+        "text": "đem về 12.400 tỷ đồng doanh thu",
+        "label": "EVENT",
+        "evidence": "đem về 12.400 tỷ đồng doanh thu sau 4 tháng."
+    },
+    {
+        "text": "12.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đem về 12.400 tỷ đồng"
+    },
+    {
+        "text": "1,9 tỷ",
+        "label": "MONEY",
+        "evidence": "1,9 tỷ/cửa hàng/tháng"
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "mà BHX từng đạt được kể từ khi hoạt động."
+    },
+    {
+        "text": "quý đầu năm",
+        "label": "DATE",
+        "evidence": "Trước đó trong quý đầu năm"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "MWG lãi ròng 902 tỷ đồng"
+    },
+    {
+        "text": "lãi ròng 902 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MWG lãi ròng 902 tỷ đồng"
+    },
+    {
+        "text": "902 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi ròng 902 tỷ đồng"
+    },
+    {
+        "text": "gấp 43 lần",
+        "label": "RATE",
+        "evidence": "gấp 43 lần cùng kỳ năm trước"
+    },
+    {
+        "text": "thực hiện gần 38% mục tiêu lợi nhuận",
+        "label": "EVENT",
+        "evidence": "thực hiện gần 38% mục tiêu lợi nhuận đề ra chỉ sau 3 tháng."
+    },
+    {
+        "text": "38%",
+        "label": "RATE",
+        "evidence": "gần 38%"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "chỉ sau 3 tháng."
+    }
+]

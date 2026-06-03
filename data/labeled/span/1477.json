@@ -1,0 +1,367 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank tăng vốn điều lệ lên 53.700 tỷ đồng"
+    },
+    {
+        "text": "tăng vốn điều lệ lên 53.700 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VietinBank tăng vốn điều lệ lên 53.700 tỷ đồng"
+    },
+    {
+        "text": "53.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VietinBank tăng vốn điều lệ lên 53.700 tỷ đồng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, VietinBank đã thực hiện phát hành cổ phiếu để trả cổ tức với tỷ lệ11,7415%(cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "phát hành cổ phiếu để trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Cụ thể, VietinBank đã thực hiện phát hành cổ phiếu để trả cổ tức với tỷ lệ11,7415%(cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Cụ thể, VietinBank đã thực hiện phát hành cổ phiếu để trả cổ tức với tỷ lệ11,7415%(cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "11,7415%",
+        "label": "RATE",
+        "evidence": "Cụ thể, VietinBank đã thực hiện phát hành cổ phiếu để trả cổ tức với tỷ lệ11,7415%(cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "1.000.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "117.415 cổ phiếu mới",
+        "label": "VOLUME",
+        "evidence": "cổ đông sở hữu 1.000.000 cổ phiếu được nhận 117.415 cổ phiếu mới)."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Số lượng cổ phiếu đã phát hành là564.241.139cổ phiếu."
+    },
+    {
+        "text": "564.241.139cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Số lượng cổ phiếu đã phát hành là564.241.139cổ phiếu."
+    },
+    {
+        "text": "chia cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Nguồn vốn để phát hành từ lợi nhuận sau thuế, sau trích quỹ và chia cổ tức bằng tiền mặt năm 2020."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Nguồn vốn để phát hành từ lợi nhuận sau thuế, sau trích quỹ và chia cổ tức bằng tiền mặt năm 2020."
+    },
+    {
+        "text": "chia cổ tức được ĐHĐCĐ thường niên 2022 phê duyệt chủ trương",
+        "label": "EVENT",
+        "evidence": "Đây là kế hoạch chia cổ tức được ĐHĐCĐ thường niên 2022 phê duyệt chủ trương và VietinBank chính thức triển khai trong Quý III/2023 sau khi các Cơ quan Nhà nước có thẩm quyền phê duyệt."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Đây là kế hoạch chia cổ tức được ĐHĐCĐ thường niên 2022 phê duyệt chủ trương và VietinBank chính thức triển khai trong Quý III/2023 sau khi các Cơ quan Nhà nước có thẩm quyền phê duyệt."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đây là kế hoạch chia cổ tức được ĐHĐCĐ thường niên 2022 phê duyệt chủ trương và VietinBank chính thức triển khai trong Quý III/2023 sau khi các Cơ quan Nhà nước có thẩm quyền phê duyệt."
+    },
+    {
+        "text": "Quý III/2023",
+        "label": "DATE",
+        "evidence": "Đây là kế hoạch chia cổ tức được ĐHĐCĐ thường niên 2022 phê duyệt chủ trương và VietinBank chính thức triển khai trong Quý III/2023 sau khi các Cơ quan Nhà nước có thẩm quyền phê duyệt."
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Sau khi hoàn tất phương án trả cổ tức bằng cổ phiếu này, Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng."
+    },
+    {
+        "text": "Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Sau khi hoàn tất phương án trả cổ tức bằng cổ phiếu này, Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Sau khi hoàn tất phương án trả cổ tức bằng cổ phiếu này, Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng."
+    },
+    {
+        "text": "48.057tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất phương án trả cổ tức bằng cổ phiếu này, Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng."
+    },
+    {
+        "text": "53.700tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất phương án trả cổ tức bằng cổ phiếu này, Vốn điều lệ của VietinBank đã tăng từ48.057tỷ đồnglên gần53.700tỷ đồng."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank sẽ sử dụng toàn bộ nguồn vốn tăng thêm để phục vụ hoạt động kinh doanh, đảm bảo an toàn, hiệu quả và mang lại lợi ích cao nhất cho các cổ đông và góp phần quan trọng thúc đẩy kinh tế - xã hội đất nước."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+        "label": "EVENT",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh",
+        "label": "EVENT",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán TP. Hồ Chí Minh",
+        "label": "ORG",
+        "evidence": "Đối với số lượng cổ phiếu mới phát hành, VietinBank sẽ thực hiện đăng ký lưu ký tại Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam; niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "chứng khoán",
+        "label": "ASSET",
+        "evidence": "niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "tháng 01/2024",
+        "label": "DATE",
+        "evidence": "niêm yết bổ sung tại Sở Giao dịch Chứng khoán TP. Hồ Chí Minh để đưa chứng khoán mới vào giao dịch trongtháng 01/2024."
+    },
+    {
+        "text": "Quý III/2023",
+        "label": "DATE",
+        "evidence": "Kết thúc Quý III/2023, VietinBank tiếp tục ghi nhận kết quả kinh doanh tích cực, khẳng định sự chủ động, linh hoạt của VietinBank trong việc ứng phó các thách thức, khó khăn của nền kinh tế."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Kết thúc Quý III/2023, VietinBank tiếp tục ghi nhận kết quả kinh doanh tích cực, khẳng định sự chủ động, linh hoạt của VietinBank trong việc ứng phó các thách thức, khó khăn của nền kinh tế."
+    },
+    {
+        "text": "1,89triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản đạt1,89triệu tỷ đồng, tăng4,4%so với cuối năm 2022."
+    },
+    {
+        "text": "tăng4,4%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản đạt1,89triệu tỷ đồng, tăng4,4%so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Tổng tài sản đạt1,89triệu tỷ đồng, tăng4,4%so với cuối năm 2022."
+    },
+    {
+        "text": "1,39triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ tín dụng và tiền gửi khách hàng lần lượt đạt1,39triệu tỷ đồngvà1,31triệu tỷ đồng, tăng8,7%và4,9%so với cuối năm 2022."
+    },
+    {
+        "text": "1,31triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ tín dụng và tiền gửi khách hàng lần lượt đạt1,39triệu tỷ đồngvà1,31triệu tỷ đồng, tăng8,7%và4,9%so với cuối năm 2022."
+    },
+    {
+        "text": "tăng8,7%",
+        "label": "RATE",
+        "evidence": "Dư nợ tín dụng và tiền gửi khách hàng lần lượt đạt1,39triệu tỷ đồngvà1,31triệu tỷ đồng, tăng8,7%và4,9%so với cuối năm 2022."
+    },
+    {
+        "text": "4,9%",
+        "label": "RATE",
+        "evidence": "Dư nợ tín dụng và tiền gửi khách hàng lần lượt đạt1,39triệu tỷ đồngvà1,31triệu tỷ đồng, tăng8,7%và4,9%so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Dư nợ tín dụng và tiền gửi khách hàng lần lượt đạt1,39triệu tỷ đồngvà1,31triệu tỷ đồng, tăng8,7%và4,9%so với cuối năm 2022."
+    },
+    {
+        "text": "6,92%",
+        "label": "RATE",
+        "evidence": "Huy động vốn tăng trưởng ổn định, đảm bảo an toàn thanh khoản, kết hợp với cho vay tăng trưởng cao hơn tốc độ toàn ngành (6,92%) song song với kiểm soát tốt rủi ro giúp củng cố bảng tổng kết tài sản lành mạnh."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, trong bối cảnh nhiều ngân hàng ghi nhận tỷ lệ CASA giảm so với đầu năm, VietinBank là điểm sáng khi tiếp tục duy trì và cải thiện tỷ lệ CASA trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, trong bối cảnh nhiều ngân hàng ghi nhận tỷ lệ CASA giảm so với đầu năm, VietinBank là điểm sáng khi tiếp tục duy trì và cải thiện tỷ lệ CASA trong năm 2023."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "18,7%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "cuối Quý II/2023",
+        "label": "DATE",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "cuối Quý III/2023",
+        "label": "DATE",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Tỷ lệ CASA của VietinBank tăng từ mức18,7%cuối Quý II/2023 lên mức20%cuối Quý III/2023 - tương đương mức cuối năm 2022."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Chất lượng tài sản tiếp tục được kiểm soát chặt chẽ, VietinBank chủ động dành nguồn lực tài chính trích lập dự phòng rủi ro theo đúng quy định nhằm gia tăng bộ đệm dự phòng trong bối cảnh kinh tế trong và ngoài nước còn nhiều biến động."
+    },
+    {
+        "text": "172,4%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ bao phủ nợ xấu đạt172,4%, cải thiện so với Quý II/2023 (169%)."
+    },
+    {
+        "text": "Quý II/2023",
+        "label": "DATE",
+        "evidence": "Tỷ lệ bao phủ nợ xấu đạt172,4%, cải thiện so với Quý II/2023 (169%)."
+    },
+    {
+        "text": "169%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ bao phủ nợ xấu đạt172,4%, cải thiện so với Quý II/2023 (169%)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank tiếp tục duy trì chất lượng tài sản ở mức tốt so với trung bình ngành, tỷ lệ nợ xấu cuối quý III/2023 là1,37%."
+    },
+    {
+        "text": "cuối quý III/2023",
+        "label": "DATE",
+        "evidence": "VietinBank tiếp tục duy trì chất lượng tài sản ở mức tốt so với trung bình ngành, tỷ lệ nợ xấu cuối quý III/2023 là1,37%."
+    },
+    {
+        "text": "1,37%",
+        "label": "RATE",
+        "evidence": "VietinBank tiếp tục duy trì chất lượng tài sản ở mức tốt so với trung bình ngành, tỷ lệ nợ xấu cuối quý III/2023 là1,37%."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Theo đó, lợi nhuận trước thuế của VietinBank đạt17,4nghìn tỷ đồng, tăng10,4%so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "17,4nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, lợi nhuận trước thuế của VietinBank đạt17,4nghìn tỷ đồng, tăng10,4%so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "tăng10,4%",
+        "label": "RATE",
+        "evidence": "Theo đó, lợi nhuận trước thuế của VietinBank đạt17,4nghìn tỷ đồng, tăng10,4%so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "cùng kỳ năm 2022",
+        "label": "DATE",
+        "evidence": "Theo đó, lợi nhuận trước thuế của VietinBank đạt17,4nghìn tỷ đồng, tăng10,4%so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Các chỉ tiêu hiệu quả tiếp tục ghi nhận mức tương đương hoặc cải thiện so với cuối năm 2022:NIM đạt 2,88%, ROA và ROE lần lượt đạt 1,3% và 16,3%."
+    },
+    {
+        "text": "2,88%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu hiệu quả tiếp tục ghi nhận mức tương đương hoặc cải thiện so với cuối năm 2022:NIM đạt 2,88%, ROA và ROE lần lượt đạt 1,3% và 16,3%."
+    },
+    {
+        "text": "1,3%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu hiệu quả tiếp tục ghi nhận mức tương đương hoặc cải thiện so với cuối năm 2022:NIM đạt 2,88%, ROA và ROE lần lượt đạt 1,3% và 16,3%."
+    },
+    {
+        "text": "16,3%",
+        "label": "RATE",
+        "evidence": "Các chỉ tiêu hiệu quả tiếp tục ghi nhận mức tương đương hoặc cải thiện so với cuối năm 2022:NIM đạt 2,88%, ROA và ROE lần lượt đạt 1,3% và 16,3%."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 đánh dấu chặng đường35 nămxây dựng và phát triển của VietinBank (1988 – 2023)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Năm 2023 đánh dấu chặng đường35 nămxây dựng và phát triển của VietinBank (1988 – 2023)."
+    },
+    {
+        "text": "1988 – 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 đánh dấu chặng đường35 nămxây dựng và phát triển của VietinBank (1988 – 2023)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trong suốt hành trình đó, VietinBank vinh dự và tự hào khi mỗi bước đi của Ngân hàng đều nhận được sự tin tưởng, đồng hành và hợp tác từ các cổ đông, nhà đầu tư; sự gắn bó, tin cậy của khách hàng và sự nỗ lực, đồng lòng của tập thể Ban Lãnh đạo và toàn thể CBNV."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Chính những điều đó đã tạo nên sức mạnh và nền tảng vững chắc để VietinBank vượt qua mọi thử thách, ghi dấu ấn một giai đoạn phát triển đầy bản lĩnh, khẳng định vị thế chủ lực trong hệ thống ngân hàng và thực hiện tốt trách nhiệm với cộng đồng – xã hội."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Với nền tảng tài chính ngày càng vững chắc, VietinBank sẽ tiếp tục phát triển mạnh mẽ, khẳng định vai trò là một trong các NHTM trụ cột của nền kinh tế"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Bước sang chặng đường mới, với sức mạnh cộng hưởng từ nền tảng tài chính vững chắc cùng chiến lược kinh doanh, thương hiệu, sản phẩm, mạng lưới, con người, công nghệ, đặc biệt là chiến lược chuyển đổi số mạnh mẽ, toàn diện,VietinBankđã sẵn sàng cho việc hiện thực hóa mục tiêu nâng tầm cao mới."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank sẽ tiếp tục nỗ lực không ngừng nghỉ, để đạt những mục tiêu lớn hơn và tham vọng hơn; mang lại giá trị vượt trội cho khách hàng, cổ đông và cộng đồng; đóng góp nhiều hơn cho sự nghiệp đổi mới, phát triển, hội nhập của đất nước; đồng thời khẳng định vị thế và giá trị thương hiệu trên thị trường quốc tế."
+    }
+]

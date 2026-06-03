@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Báo Lâm Đồng",
+        "label": "ORG",
+        "evidence": "Theo Báo Lâm Đồng, ngày 9/7, tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng mà không biết người chuyển là ai."
+    },
+    {
+        "text": "ngày 9/7",
+        "label": "DATE",
+        "evidence": "Theo Báo Lâm Đồng, ngày 9/7, tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng mà không biết người chuyển là ai."
+    },
+    {
+        "text": "Huỳnh Tấn Trí",
+        "label": "PERSON",
+        "evidence": "Theo Báo Lâm Đồng, ngày 9/7, tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng mà không biết người chuyển là ai."
+    },
+    {
+        "text": "tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Theo Báo Lâm Đồng, ngày 9/7, tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng mà không biết người chuyển là ai."
+    },
+    {
+        "text": "170 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo Báo Lâm Đồng, ngày 9/7, tài khoản ngân hàng của anh Huỳnh Tấn Trí (SN 1980, trú tại thôn Lập Bình, xã Hàm Thuận Nam, tỉnh Lâm Đồng) bất ngờ nhận được số tiền 170 triệu đồng mà không biết người chuyển là ai."
+    },
+    {
+        "text": "ngày 16/7",
+        "label": "DATE",
+        "evidence": "Đến ngày 16/7, được nghỉ làm nên anh Trí đã đến Công an xã Hàm Thuận Nam để nhờ hướng dẫn."
+    },
+    {
+        "text": "Công an xã Hàm Thuận Nam",
+        "label": "ORG",
+        "evidence": "Đến ngày 16/7, được nghỉ làm nên anh Trí đã đến Công an xã Hàm Thuận Nam để nhờ hướng dẫn."
+    },
+    {
+        "text": "P.V.H",
+        "label": "PERSON",
+        "evidence": "Qua kiểm tra, lực lượng chức năng xác định được người chuyển khoản nhầm là P.V.H (ở TP. Đà Nẵng)."
+    },
+    {
+        "text": "Chiều ngày 16/7",
+        "label": "DATE",
+        "evidence": "Chiều ngày 16/7, bất chấp trời mưa gió, anh Trí đã đến trụ sở chính của ngân hàng Vietcombank tại phường Phan Thiết cách nhà khoảng 20km để xác nhận thông tin và lập ủy nhiệm chi chuyển đúng số tiền cho người chuyển nhầm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Chiều ngày 16/7, bất chấp trời mưa gió, anh Trí đã đến trụ sở chính của ngân hàng Vietcombank tại phường Phan Thiết cách nhà khoảng 20km để xác nhận thông tin và lập ủy nhiệm chi chuyển đúng số tiền cho người chuyển nhầm."
+    },
+    {
+        "text": "lập ủy nhiệm chi chuyển đúng số tiền cho người chuyển nhầm",
+        "label": "EVENT",
+        "evidence": "Chiều ngày 16/7, bất chấp trời mưa gió, anh Trí đã đến trụ sở chính của ngân hàng Vietcombank tại phường Phan Thiết cách nhà khoảng 20km để xác nhận thông tin và lập ủy nhiệm chi chuyển đúng số tiền cho người chuyển nhầm."
+    },
+    {
+        "text": "Cơ quan Công an",
+        "label": "ORG",
+        "evidence": "Cơ quan Công an khuyến nghị, khi nhận được tiền chuyển khoản nhầm, người nhận cần lưu ý không sử dụng số tiền đó vào việc chi tiêu cá nhân và chỉ làm việc với ngân hàng để trả lại tiền cho người chuyển nhầm, tuyệt đối không chuyển lại tiền cho người lạ khi không có bên thứ ba làm chứng."
+    },
+    {
+        "text": "Cơ quan Công an khuyến nghị, khi nhận được tiền chuyển khoản nhầm, người nhận cần lưu ý không sử dụng số tiền đó vào việc chi tiêu cá nhân và chỉ làm việc với ngân hàng để trả lại tiền cho người chuyển nhầm, tuyệt đối không chuyển lại tiền cho người lạ khi không có bên thứ ba làm chứng.",
+        "label": "EVENT",
+        "evidence": "Cơ quan Công an khuyến nghị, khi nhận được tiền chuyển khoản nhầm, người nhận cần lưu ý không sử dụng số tiền đó vào việc chi tiêu cá nhân và chỉ làm việc với ngân hàng để trả lại tiền cho người chuyển nhầm, tuyệt đối không chuyển lại tiền cho người lạ khi không có bên thứ ba làm chứng."
+    },
+    {
+        "text": "Người dân có thể chủ động liên hệ với ngân hàng hoặc cơ quan công an để thông báo về việc nhận tiền chuyển nhầm hoặc đợi đại diện ngân hàng liên hệ làm việc.",
+        "label": "EVENT",
+        "evidence": "Người dân có thể chủ động liên hệ với ngân hàng hoặc cơ quan công an để thông báo về việc nhận tiền chuyển nhầm hoặc đợi đại diện ngân hàng liên hệ làm việc."
+    },
+    {
+        "text": "Trường hợp khoản tiền chuyển nhầm có giá trị nhỏ thì chủ tài khoản có thể yêu cầu ngân hàng cung cấp sao kê rồi đối chiếu với những thông tin nhận được và tiến hành chuyển lại. Đối với số tiền lớn, chủ tài khoản nên sắp xếp thời gian đến trực tiếp chi nhánh ngân hàng để thực hiện việc xác minh hoặc liên hệ với cơ quan công an để giải quyết.",
+        "label": "EVENT",
+        "evidence": "Trường hợp khoản tiền chuyển nhầm có giá trị nhỏ thì chủ tài khoản có thể yêu cầu ngân hàng cung cấp sao kê rồi đối chiếu với những thông tin nhận được và tiến hành chuyển lại. Đối với số tiền lớn, chủ tài khoản nên sắp xếp thời gian đến trực tiếp chi nhánh ngân hàng để thực hiện việc xác minh hoặc liên hệ với cơ quan công an để giải quyết."
+    },
+    {
+        "text": "Tuyệt đối không cung cấp thông tin bảo mật như: Mật khẩu truy cập tài khoản, Mật khẩu giao dịch một lần (OTP) cho bất cứ ai (kể cả người tự xưng là nhân viên ngân hàng) và dưới bất cứ hình thức nào và cảnh giác với các yêu cầu truy cập đường link website, đăng nhập, cung cấp thông tin tài khoản, thông tin cá nhân.",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không cung cấp thông tin bảo mật như: Mật khẩu truy cập tài khoản, Mật khẩu giao dịch một lần (OTP) cho bất cứ ai (kể cả người tự xưng là nhân viên ngân hàng) và dưới bất cứ hình thức nào và cảnh giác với các yêu cầu truy cập đường link website, đăng nhập, cung cấp thông tin tài khoản, thông tin cá nhân."
+    }
+]

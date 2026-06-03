@@ -1,0 +1,377 @@
+[
+    {
+        "text": "cổ phiếu liên quan đến AI",
+        "label": "ASSET",
+        "evidence": "Các cổ phiếu liên quan đến AI ở Đông Nam Á, đặc biệt là cổ phiếu của các công ty hợp tác với Nvidia, đã tăng vọt nhờ nhu cầu ngày càng tăng đối với AI tạo sinh."
+    },
+    {
+        "text": "cổ phiếu của các công ty hợp tác với Nvidia",
+        "label": "ASSET",
+        "evidence": "Các cổ phiếu liên quan đến AI ở Đông Nam Á, đặc biệt là cổ phiếu của các công ty hợp tác với Nvidia, đã tăng vọt nhờ nhu cầu ngày càng tăng đối với AI tạo sinh."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu liên quan đến AI ở Đông Nam Á, đặc biệt là cổ phiếu của các công ty hợp tác với Nvidia, đã tăng vọt nhờ nhu cầu ngày càng tăng đối với AI tạo sinh."
+    },
+    {
+        "text": "cổ phiếu của FPT",
+        "label": "ASSET",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "118.000 VND",
+        "label": "PRICE",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "giữa tháng 3",
+        "label": "DATE",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "năm 2006",
+        "label": "DATE",
+        "evidence": "Giá cổ phiếu của FPT đạt 118.000 VND vào giữa tháng 3, mức cao nhất kể từ khi niêm yết năm 2006."
+    },
+    {
+        "text": "thứ Năm",
+        "label": "DATE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "114.900 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "tăng khoảng 60%",
+        "label": "RATE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "một năm trước",
+        "label": "DATE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Giá đóng cửa hôm thứ Năm là 114.900 đồng/cổ phiếu, tăng khoảng 60% so với một năm trước và 20% so với cuối năm 2023."
+    },
+    {
+        "text": "hợp tác giữa FPT và gã khổng lồ ngành chip Nvidia",
+        "label": "EVENT",
+        "evidence": "Đà tăng được thúc đẩy bởi hợp tác giữa FPT và gã khổng lồ ngành chip Nvidia."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đà tăng được thúc đẩy bởi hợp tác giữa FPT và gã khổng lồ ngành chip Nvidia."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Đà tăng được thúc đẩy bởi hợp tác giữa FPT và gã khổng lồ ngành chip Nvidia."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Đà tăng được thúc đẩy bởi hợp tác giữa FPT và gã khổng lồ ngành chip Nvidia."
+    },
+    {
+        "text": "Tháng 12 năm ngoái",
+        "label": "DATE",
+        "evidence": "Tháng 12 năm ngoái, nhà sáng lập Nvidia Jensen Huang đã đến thăm Malaysia, Singapore và Việt Nam và công bố hợp tác với các công ty."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Tháng 12 năm ngoái, nhà sáng lập Nvidia Jensen Huang đã đến thăm Malaysia, Singapore và Việt Nam và công bố hợp tác với các công ty."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Tháng 12 năm ngoái, nhà sáng lập Nvidia Jensen Huang đã đến thăm Malaysia, Singapore và Việt Nam và công bố hợp tác với các công ty."
+    },
+    {
+        "text": "nhà sáng lập Nvidia Jensen Huang đã đến thăm Malaysia, Singapore và Việt Nam và công bố hợp tác với các công ty",
+        "label": "EVENT",
+        "evidence": "Tháng 12 năm ngoái, nhà sáng lập Nvidia Jensen Huang đã đến thăm Malaysia, Singapore và Việt Nam và công bố hợp tác với các công ty."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã công bố hợp tác với Nvidia tại một hội nghị về chất bán dẫn và trí tuệ nhân tạo tại Hà Nội hồi tháng 12."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "FPT đã công bố hợp tác với Nvidia tại một hội nghị về chất bán dẫn và trí tuệ nhân tạo tại Hà Nội hồi tháng 12."
+    },
+    {
+        "text": "công bố hợp tác với Nvidia",
+        "label": "EVENT",
+        "evidence": "FPT đã công bố hợp tác với Nvidia tại một hội nghị về chất bán dẫn và trí tuệ nhân tạo tại Hà Nội hồi tháng 12."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "FPT đã công bố hợp tác với Nvidia tại một hội nghị về chất bán dẫn và trí tuệ nhân tạo tại Hà Nội hồi tháng 12."
+    },
+    {
+        "text": "tháng 12",
+        "label": "DATE",
+        "evidence": "FPT đã công bố hợp tác với Nvidia tại một hội nghị về chất bán dẫn và trí tuệ nhân tạo tại Hà Nội hồi tháng 12."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Phát biểu tại sự kiện, Chủ tịch FPT Trương Gia Bình cho biết: “AI và sản xuất chip là yếu tố then chốt để bắt kịp các nước phát triển khác và tham gia sâu hơn vào chuỗi cung ứng toàn cầu”."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Phát biểu tại sự kiện, Chủ tịch FPT Trương Gia Bình cho biết: “AI và sản xuất chip là yếu tố then chốt để bắt kịp các nước phát triển khác và tham gia sâu hơn vào chuỗi cung ứng toàn cầu”."
+    },
+    {
+        "text": "Trương Gia Bình",
+        "label": "PERSON",
+        "evidence": "Phát biểu tại sự kiện, Chủ tịch FPT Trương Gia Bình cho biết: “AI và sản xuất chip là yếu tố then chốt để bắt kịp các nước phát triển khác và tham gia sâu hơn vào chuỗi cung ứng toàn cầu”."
+    },
+    {
+        "text": "YTL Power International",
+        "label": "ORG",
+        "evidence": "Trong khi đó, YTL Power International của Malaysia cũng được hưởng lợi từ hợp tác với Nvidia."
+    },
+    {
+        "text": "hợp tác với Nvidia",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, YTL Power International của Malaysia cũng được hưởng lợi từ hợp tác với Nvidia."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Trong khi đó, YTL Power International của Malaysia cũng được hưởng lợi từ hợp tác với Nvidia."
+    },
+    {
+        "text": "YTL Corp.",
+        "label": "ORG",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "3,99 ringgit",
+        "label": "PRICE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "21.000 VND",
+        "label": "PRICE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "thứ Ba",
+        "label": "DATE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "tăng hơn 4 lần",
+        "label": "RATE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "một năm trước",
+        "label": "DATE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "cuối năm ngoái",
+        "label": "DATE",
+        "evidence": "Công ty con YTL Corp. chuyên về cơ sở hạ tầng chứng kiến giá cổ phiếu đóng cửa ở mức 3,99 ringgit (21.000 VND) vào thứ Ba, tăng hơn 4 lần so với một năm trước và 60% so với cuối năm ngoái."
+    },
+    {
+        "text": "Jen Huang",
+        "label": "PERSON",
+        "evidence": "CEO Jen Huang tuyên bố hợp tác với YTL Power sau cuộc gặp với Thủ tướng Malaysia Anwar Ibrahim."
+    },
+    {
+        "text": "tuyên bố hợp tác với YTL Power",
+        "label": "EVENT",
+        "evidence": "CEO Jen Huang tuyên bố hợp tác với YTL Power sau cuộc gặp với Thủ tướng Malaysia Anwar Ibrahim."
+    },
+    {
+        "text": "YTL Power",
+        "label": "ORG",
+        "evidence": "CEO Jen Huang tuyên bố hợp tác với YTL Power sau cuộc gặp với Thủ tướng Malaysia Anwar Ibrahim."
+    },
+    {
+        "text": "Anwar Ibrahim",
+        "label": "PERSON",
+        "evidence": "CEO Jen Huang tuyên bố hợp tác với YTL Power sau cuộc gặp với Thủ tướng Malaysia Anwar Ibrahim."
+    },
+    {
+        "text": "Hai công ty sẽ hợp tác xây dựng cơ sở hạ tầng AI tại một trung tâm dữ liệu ở phía nam đất nước",
+        "label": "EVENT",
+        "evidence": "Hai công ty sẽ hợp tác xây dựng cơ sở hạ tầng AI tại một trung tâm dữ liệu ở phía nam đất nước."
+    },
+    {
+        "text": "YTL",
+        "label": "ORG",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023",
+        "label": "EVENT",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "360 triệu USD",
+        "label": "MONEY",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "nửa cuối năm 2023",
+        "label": "DATE",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "tăng 4,8 lần",
+        "label": "RATE",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "cùng kỳ năm ngoái",
+        "label": "DATE",
+        "evidence": "YTL thu về 360 triệu USD lợi nhuận ròng trong nửa cuối năm 2023, tăng 4,8 lần so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Doanh số bán hàng cũng tăng 15%",
+        "label": "EVENT",
+        "evidence": "Doanh số bán hàng cũng tăng 15%."
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "Doanh số bán hàng cũng tăng 15%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái",
+        "label": "EVENT",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "tăng 20%",
+        "label": "RATE",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "7,78 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "310 triệu USD",
+        "label": "MONEY",
+        "evidence": "FPT cũng chứng kiến lợi nhuận ròng tăng 20% trong năm ngoái lên 7,78 nghìn tỷ đồng (310 triệu USD)."
+    },
+    {
+        "text": "Inari Amertron",
+        "label": "ORG",
+        "evidence": "Công ty lắp ráp bán dẫn Inari Amertron của Malaysia cũng đang hoạt động mạnh mẽ trên thị trường chứng khoán."
+    },
+    {
+        "text": "Statista",
+        "label": "ORG",
+        "evidence": "Theo Statista, ngành công nghiệp bán dẫn của Việt Nam dự kiến sẽ tăng trưởng 30% từ nay đến năm 2027."
+    },
+    {
+        "text": "ngành công nghiệp bán dẫn của Việt Nam dự kiến sẽ tăng trưởng 30% từ nay đến năm 2027",
+        "label": "EVENT",
+        "evidence": "Theo Statista, ngành công nghiệp bán dẫn của Việt Nam dự kiến sẽ tăng trưởng 30% từ nay đến năm 2027."
+    },
+    {
+        "text": "tăng trưởng 30%",
+        "label": "RATE",
+        "evidence": "Theo Statista, ngành công nghiệp bán dẫn của Việt Nam dự kiến sẽ tăng trưởng 30% từ nay đến năm 2027."
+    },
+    {
+        "text": "từ nay đến năm 2027",
+        "label": "DATE",
+        "evidence": "Theo Statista, ngành công nghiệp bán dẫn của Việt Nam dự kiến sẽ tăng trưởng 30% từ nay đến năm 2027."
+    },
+    {
+        "text": "Semi",
+        "label": "ORG",
+        "evidence": "Theo tập đoàn công nghiệp quốc tế Semi, công suất sản xuất chất bán dẫn toàn cầu dự kiến sẽ tăng 6% trong năm nay và chạm gần mức cao nhất mọi thời đại."
+    },
+    {
+        "text": "công suất sản xuất chất bán dẫn toàn cầu dự kiến sẽ tăng 6% trong năm nay",
+        "label": "EVENT",
+        "evidence": "Theo tập đoàn công nghiệp quốc tế Semi, công suất sản xuất chất bán dẫn toàn cầu dự kiến sẽ tăng 6% trong năm nay và chạm gần mức cao nhất mọi thời đại."
+    },
+    {
+        "text": "tăng 6%",
+        "label": "RATE",
+        "evidence": "Theo tập đoàn công nghiệp quốc tế Semi, công suất sản xuất chất bán dẫn toàn cầu dự kiến sẽ tăng 6% trong năm nay và chạm gần mức cao nhất mọi thời đại."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "Theo tập đoàn công nghiệp quốc tế Semi, công suất sản xuất chất bán dẫn toàn cầu dự kiến sẽ tăng 6% trong năm nay và chạm gần mức cao nhất mọi thời đại."
+    },
+    {
+        "text": "cổ phiếu khởi nghiệp hàng đầu Đông Nam Á",
+        "label": "ASSET",
+        "evidence": "Các cổ phiếu khởi nghiệp hàng đầu Đông Nam Á như Grab và GoTo lại mờ nhạt do gặp khó khăn trong việc đạt được lợi nhuận bền vững."
+    },
+    {
+        "text": "Grab",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu khởi nghiệp hàng đầu Đông Nam Á như Grab và GoTo lại mờ nhạt do gặp khó khăn trong việc đạt được lợi nhuận bền vững."
+    },
+    {
+        "text": "GoTo",
+        "label": "ORG",
+        "evidence": "Các cổ phiếu khởi nghiệp hàng đầu Đông Nam Á như Grab và GoTo lại mờ nhạt do gặp khó khăn trong việc đạt được lợi nhuận bền vững."
+    },
+    {
+        "text": "Nikkei Asia",
+        "label": "ORG",
+        "evidence": "Theo Nikkei Asia"
+    }
+]

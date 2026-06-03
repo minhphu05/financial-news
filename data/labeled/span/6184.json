@@ -1,0 +1,557 @@
+[
+    {
+        "text": "14/27 cổ phiếu ngân hàng giảm giá",
+        "label": "EVENT",
+        "evidence": "Kết phiên, 14/27 cổ phiếu ngân hàng giảm giá, trong khi 6 mã tăng giá."
+    },
+    {
+        "text": "6 mã tăng giá",
+        "label": "EVENT",
+        "evidence": "Kết phiên, 14/27 cổ phiếu ngân hàng giảm giá, trong khi 6 mã tăng giá."
+    },
+    {
+        "text": "bán tháo cổ phiếuSTBgiảm bớt",
+        "label": "EVENT",
+        "evidence": "Đà bán tháo cổ phiếuSTBgiảm bớt trong phiên chiều, tuy nhiên đây vẫn là phiên thanh khoản kỷ lục của cổ phiếu này."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đà bán tháo cổ phiếuSTBgiảm bớt trong phiên chiều, tuy nhiên đây vẫn là phiên thanh khoản kỷ lục của cổ phiếu này."
+    },
+    {
+        "text": "phiên chiều",
+        "label": "DATE",
+        "evidence": "Đà bán tháo cổ phiếuSTBgiảm bớt trong phiên chiều, tuy nhiên đây vẫn là phiên thanh khoản kỷ lục của cổ phiếu này."
+    },
+    {
+        "text": "ngày 2/4",
+        "label": "DATE",
+        "evidence": "Đóng cửa ngày 2/4, giá STB ở mức 30.200 đồng/cp (-3,82%)."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đóng cửa ngày 2/4, giá STB ở mức 30.200 đồng/cp (-3,82%)."
+    },
+    {
+        "text": "30.200 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Đóng cửa ngày 2/4, giá STB ở mức 30.200 đồng/cp (-3,82%)."
+    },
+    {
+        "text": "-3,82%",
+        "label": "RATE",
+        "evidence": "Đóng cửa ngày 2/4, giá STB ở mức 30.200 đồng/cp (-3,82%)."
+    },
+    {
+        "text": "hơn 105 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Khối lượng khớp lệnh trong ngày đạt hơn 105 triệu đơn vị, giá trị hơn 3.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối lượng khớp lệnh trong ngày đạt hơn 105 triệu đơn vị, giá trị hơn 3.000 tỷ đồng."
+    },
+    {
+        "text": "Nhà đầu tư nước ngoài bán ròng hơn 9,4 triệu cổ phiếu STB",
+        "label": "EVENT",
+        "evidence": "Nhà đầu tư nước ngoài bán ròng hơn 9,4 triệu cổ phiếu STB trong phiên, giá trị hơn 304 tỷ đồng."
+    },
+    {
+        "text": "hơn 9,4 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Nhà đầu tư nước ngoài bán ròng hơn 9,4 triệu cổ phiếu STB trong phiên, giá trị hơn 304 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Nhà đầu tư nước ngoài bán ròng hơn 9,4 triệu cổ phiếu STB trong phiên, giá trị hơn 304 tỷ đồng."
+    },
+    {
+        "text": "hơn 304 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhà đầu tư nước ngoài bán ròng hơn 9,4 triệu cổ phiếu STB trong phiên, giá trị hơn 304 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu STB biến động mạnh khi trên mạng xã hội xuất hiện thông tin tiêu cực về lãnh đạo Sacombank."
+    },
+    {
+        "text": "xuất hiện thông tin tiêu cực về lãnh đạo Sacombank",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu STB biến động mạnh khi trên mạng xã hội xuất hiện thông tin tiêu cực về lãnh đạo Sacombank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu STB biến động mạnh khi trên mạng xã hội xuất hiện thông tin tiêu cực về lãnh đạo Sacombank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng."
+    },
+    {
+        "text": "Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng",
+        "label": "EVENT",
+        "evidence": "Theo đó, Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng."
+    },
+    {
+        "text": "Ban Tuyên giáo Trung ương",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng."
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng."
+    },
+    {
+        "text": "Bộ thông tin và Truyền thông",
+        "label": "ORG",
+        "evidence": "Theo đó, Sacombank đã chính thức lên tiếng và có văn bản gửi Ban Tuyên giáo Trung ương, Bộ Công an, Bộ thông tin và Truyền thông, các cơ quan báo chí về việc trang Facebook có tên \"THANG DANG\" đã nhiều lần đăng thông tin bịa đặt và vu khống Lãnh đạo ngân hàng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank khẳng định những thông tin này là hoàn toàn bịa đặt, vu khống để bôi xấu Lãnh đạo Sacombank và đề nghị các cơ quan chức năng xử lý theo quy định của pháp luật."
+    },
+    {
+        "text": "Sacombank khẳng định những thông tin này là hoàn toàn bịa đặt, vu khống",
+        "label": "EVENT",
+        "evidence": "Sacombank khẳng định những thông tin này là hoàn toàn bịa đặt, vu khống để bôi xấu Lãnh đạo Sacombank và đề nghị các cơ quan chức năng xử lý theo quy định của pháp luật."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank khẳng định những thông tin này là hoàn toàn bịa đặt, vu khống để bôi xấu Lãnh đạo Sacombank và đề nghị các cơ quan chức năng xử lý theo quy định của pháp luật."
+    },
+    {
+        "text": "Sacombank lên tiếng",
+        "label": "EVENT",
+        "evidence": "Ngay sau khi Sacombank lên tiếng vào trưa nay, đà bán tháo cổ phiếu STB chững lại kể từ đầu giờ chiều."
+    },
+    {
+        "text": "trưa nay",
+        "label": "DATE",
+        "evidence": "Ngay sau khi Sacombank lên tiếng vào trưa nay, đà bán tháo cổ phiếu STB chững lại kể từ đầu giờ chiều."
+    },
+    {
+        "text": "đà bán tháo cổ phiếu STB chững lại",
+        "label": "EVENT",
+        "evidence": "Ngay sau khi Sacombank lên tiếng vào trưa nay, đà bán tháo cổ phiếu STB chững lại kể từ đầu giờ chiều."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ngay sau khi Sacombank lên tiếng vào trưa nay, đà bán tháo cổ phiếu STB chững lại kể từ đầu giờ chiều."
+    },
+    {
+        "text": "đầu giờ chiều",
+        "label": "DATE",
+        "evidence": "Ngay sau khi Sacombank lên tiếng vào trưa nay, đà bán tháo cổ phiếu STB chững lại kể từ đầu giờ chiều."
+    },
+    {
+        "text": "cuối phiên",
+        "label": "DATE",
+        "evidence": "Đà giảm giá cũng thu hẹp khi về dần cuối phiên."
+    },
+    {
+        "text": "giảm giá không quá 1%",
+        "label": "EVENT",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "-0,74%",
+        "label": "RATE",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "-0,51%",
+        "label": "RATE",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "-0,44%",
+        "label": "RATE",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "-0,42%",
+        "label": "RATE",
+        "evidence": "Phần lớn các cổ phiếu khác giảm giá không quá 1% như VCB (-0,74%), VPB (-0,51%), SHB (-0,44%), HDB (-0,42%),…"
+    },
+    {
+        "text": "6 cổ phiếu đóng cửa trong sắc xanh",
+        "label": "EVENT",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "BAB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Có 6 cổ phiếu đóng cửa trong sắc xanh là MSB, BAB, SGB, TPB, TCB, LPB."
+    },
+    {
+        "text": "TCB là mã được khối ngoại mua ròng nhiều nhất hôm nay",
+        "label": "EVENT",
+        "evidence": "Trong đó, TCB là mã được khối ngoại mua ròng nhiều nhất hôm nay với giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "Trong đó, TCB là mã được khối ngoại mua ròng nhiều nhất hôm nay với giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "gần 1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, TCB là mã được khối ngoại mua ròng nhiều nhất hôm nay với giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "sáng 2/4",
+        "label": "DATE",
+        "evidence": "Mở cửa phiên giao dịch sáng 2/4, cổ phiếu ngân hàng đồng loạt ngập trong sắc đỏ."
+    },
+    {
+        "text": "cổ phiếu ngân hàng đồng loạt ngập trong sắc đỏ",
+        "label": "EVENT",
+        "evidence": "Mở cửa phiên giao dịch sáng 2/4, cổ phiếu ngân hàng đồng loạt ngập trong sắc đỏ."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong đó, STB của Sacombank là mã giảm mạnh nhất."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong đó, STB của Sacombank là mã giảm mạnh nhất."
+    },
+    {
+        "text": "STB của Sacombank là mã giảm mạnh nhất",
+        "label": "EVENT",
+        "evidence": "Trong đó, STB của Sacombank là mã giảm mạnh nhất."
+    },
+    {
+        "text": "giảm 4-5%",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này giảm 4-5% trong 30 phút giao địch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "4-5%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này giảm 4-5% trong 30 phút giao địch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "30 phút giao địch đầu tiên",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này giảm 4-5% trong 30 phút giao địch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "phiên hôm nay",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này giảm 4-5% trong 30 phút giao địch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "lượng giao dịch STB tăng vọt",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, lượng giao dịch STB tăng vọt, tính đến 9h45 đã có hơn 35 triệu cổ phiếu được khớp lệnh, giá trị gần 800 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đặc biệt, lượng giao dịch STB tăng vọt, tính đến 9h45 đã có hơn 35 triệu cổ phiếu được khớp lệnh, giá trị gần 800 tỷ đồng."
+    },
+    {
+        "text": "9h45",
+        "label": "DATE",
+        "evidence": "Đặc biệt, lượng giao dịch STB tăng vọt, tính đến 9h45 đã có hơn 35 triệu cổ phiếu được khớp lệnh, giá trị gần 800 tỷ đồng."
+    },
+    {
+        "text": "hơn 35 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Đặc biệt, lượng giao dịch STB tăng vọt, tính đến 9h45 đã có hơn 35 triệu cổ phiếu được khớp lệnh, giá trị gần 800 tỷ đồng."
+    },
+    {
+        "text": "gần 800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, lượng giao dịch STB tăng vọt, tính đến 9h45 đã có hơn 35 triệu cổ phiếu được khớp lệnh, giá trị gần 800 tỷ đồng."
+    },
+    {
+        "text": "chưa đến 1 tiếng đồng hồ",
+        "label": "DATE",
+        "evidence": "Mới chỉ chưa đến 1 tiếng đồng hồ giao dịch nhưng thanh khoản STB đã ở mức cao nhất trong hơn nửa năm trở lại đây."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Mới chỉ chưa đến 1 tiếng đồng hồ giao dịch nhưng thanh khoản STB đã ở mức cao nhất trong hơn nửa năm trở lại đây."
+    },
+    {
+        "text": "hơn nửa năm trở lại đây",
+        "label": "DATE",
+        "evidence": "Mới chỉ chưa đến 1 tiếng đồng hồ giao dịch nhưng thanh khoản STB đã ở mức cao nhất trong hơn nửa năm trở lại đây."
+    },
+    {
+        "text": "Nhà đầu tư nước ngoài cũng có động thái bán ròng STB",
+        "label": "EVENT",
+        "evidence": "Nhà đầu tư nước ngoài cũng có động thái bán ròng STB trong những phút giao dịch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Nhà đầu tư nước ngoài cũng có động thái bán ròng STB trong những phút giao dịch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "những phút giao dịch đầu tiên",
+        "label": "DATE",
+        "evidence": "Nhà đầu tư nước ngoài cũng có động thái bán ròng STB trong những phút giao dịch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "phiên hôm nay",
+        "label": "DATE",
+        "evidence": "Nhà đầu tư nước ngoài cũng có động thái bán ròng STB trong những phút giao dịch đầu tiên của phiên hôm nay."
+    },
+    {
+        "text": "Khối ngoại đã bán ròng hơn 2 triệu cổ phiếu STB",
+        "label": "EVENT",
+        "evidence": "Khối ngoại đã bán ròng hơn 2 triệu cổ phiếu STB trong chưa đầy 1 tiếng kể từ khi mở cửa."
+    },
+    {
+        "text": "hơn 2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Khối ngoại đã bán ròng hơn 2 triệu cổ phiếu STB trong chưa đầy 1 tiếng kể từ khi mở cửa."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Khối ngoại đã bán ròng hơn 2 triệu cổ phiếu STB trong chưa đầy 1 tiếng kể từ khi mở cửa."
+    },
+    {
+        "text": "chưa đầy 1 tiếng",
+        "label": "DATE",
+        "evidence": "Khối ngoại đã bán ròng hơn 2 triệu cổ phiếu STB trong chưa đầy 1 tiếng kể từ khi mở cửa."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Giá tham chiếu STB hôm nay là 31.400 đồng/cp."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "Giá tham chiếu STB hôm nay là 31.400 đồng/cp."
+    },
+    {
+        "text": "31.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Giá tham chiếu STB hôm nay là 31.400 đồng/cp."
+    },
+    {
+        "text": "1 tiếng giao dịch đầu giờ sáng",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này trong 1 tiếng giao dịch đầu giờ sáng có thời điểm rớt xuống 29.600 đồng/cp (-5,73%), gần với giá sàn 29.250 đồng/cp."
+    },
+    {
+        "text": "rớt xuống 29.600 đồng/cp",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này trong 1 tiếng giao dịch đầu giờ sáng có thời điểm rớt xuống 29.600 đồng/cp (-5,73%), gần với giá sàn 29.250 đồng/cp."
+    },
+    {
+        "text": "29.600 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này trong 1 tiếng giao dịch đầu giờ sáng có thời điểm rớt xuống 29.600 đồng/cp (-5,73%), gần với giá sàn 29.250 đồng/cp."
+    },
+    {
+        "text": "-5,73%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này trong 1 tiếng giao dịch đầu giờ sáng có thời điểm rớt xuống 29.600 đồng/cp (-5,73%), gần với giá sàn 29.250 đồng/cp."
+    },
+    {
+        "text": "29.250 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này trong 1 tiếng giao dịch đầu giờ sáng có thời điểm rớt xuống 29.600 đồng/cp (-5,73%), gần với giá sàn 29.250 đồng/cp."
+    },
+    {
+        "text": "hàng loạt cổ phiếu ngân hàng khác cũng giảm giá",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "SSB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, hàng loạt cổ phiếu ngân hàng khác cũng giảm giá như SSB của SeABank, VPB của VPBank, HDB của HDBank."
+    },
+    {
+        "text": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm",
+        "label": "EVENT",
+        "evidence": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm ngay từ khi mở cửa."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm ngay từ khi mở cửa."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm ngay từ khi mở cửa."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm ngay từ khi mở cửa."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm cổ phiếu vốn hóa lớn như CTG của VietinBank, VCB của Vietcombank,...cũng đồng loạt giảm ngay từ khi mở cửa."
+    },
+    {
+        "text": "một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ",
+        "label": "EVENT",
+        "evidence": "Chỉ một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ như TCB của Techcombank, BID của BIDV ."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Chỉ một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ như TCB của Techcombank, BID của BIDV ."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Chỉ một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ như TCB của Techcombank, BID của BIDV ."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Chỉ một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ như TCB của Techcombank, BID của BIDV ."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Chỉ một số cổ phiếu ngân hàng xuất hiện sắc xanh nhẹ như TCB của Techcombank, BID của BIDV ."
+    },
+    {
+        "text": "TCB đang được khối ngoại gom khá mạnh",
+        "label": "EVENT",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB",
+        "label": "EVENT",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 4 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "10h00",
+        "label": "DATE",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "gần 1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, TCB đang được khối ngoại gom khá mạnh, nhà đầu tư nước ngoài đã mua ròng hơn 4 triệu cổ phiếu TCB tính đến 10h00, giá trị gần 1.000 tỷ đồng."
+    },
+    {
+        "text": "ngày 1/4",
+        "label": "DATE",
+        "evidence": "Trước đó, trong ngày 1/4, cổ phiếu ngân hàng cũng đã giao dịch không mấy tích cực khi sắc đỏ chiếm chủ đạo trên toàn ngành."
+    },
+    {
+        "text": "cổ phiếu ngân hàng cũng đã giao dịch không mấy tích cực",
+        "label": "EVENT",
+        "evidence": "Trước đó, trong ngày 1/4, cổ phiếu ngân hàng cũng đã giao dịch không mấy tích cực khi sắc đỏ chiếm chủ đạo trên toàn ngành."
+    }
+]

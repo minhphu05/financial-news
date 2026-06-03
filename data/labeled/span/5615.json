@@ -1,0 +1,487 @@
+[
+    {
+        "text": "Ngân hàng TMCP Sài Gòn - Hà Nội",
+        "label": "ORG",
+        "evidence": "Sau gần 8 tháng không thay đổi, Ngân hàng TMCP Sài Gòn - Hà Nội (SHB) vừa tăng mạnh lãi suất huy động tiền gửi online, tập trung vào các kỳ hạn ngắn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Sau gần 8 tháng không thay đổi, Ngân hàng TMCP Sài Gòn - Hà Nội (SHB) vừa tăng mạnh lãi suất huy động tiền gửi online, tập trung vào các kỳ hạn ngắn."
+    },
+    {
+        "text": "Ngân hàng TMCP Sài Gòn - Hà Nội (SHB) vừa tăng mạnh lãi suất huy động tiền gửi online",
+        "label": "EVENT",
+        "evidence": "Sau gần 8 tháng không thay đổi, Ngân hàng TMCP Sài Gòn - Hà Nội (SHB) vừa tăng mạnh lãi suất huy động tiền gửi online, tập trung vào các kỳ hạn ngắn."
+    },
+    {
+        "text": "tiền gửi online",
+        "label": "ASSET",
+        "evidence": "Sau gần 8 tháng không thay đổi, Ngân hàng TMCP Sài Gòn - Hà Nội (SHB) vừa tăng mạnh lãi suất huy động tiền gửi online, tập trung vào các kỳ hạn ngắn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi tại quầy SHB tháng 11/2025"
+    },
+    {
+        "text": "tháng 11/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi tại quầy SHB tháng 11/2025"
+    },
+    {
+        "text": "sản phẩm tiết kiệm bậc thang",
+        "label": "ASSET",
+        "evidence": "Đối với khách hàng gửi tiền tại quầy theo sản phẩm tiết kiệm bậc thang và nhận lãi cuối kỳ, SHB không thay đổi lãi suất, tiếp tục dụng biểu lãi suất theo 2 mức tiền gửi là: Dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đối với khách hàng gửi tiền tại quầy theo sản phẩm tiết kiệm bậc thang và nhận lãi cuối kỳ, SHB không thay đổi lãi suất, tiếp tục dụng biểu lãi suất theo 2 mức tiền gửi là: Dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "SHB không thay đổi lãi suất",
+        "label": "EVENT",
+        "evidence": "Đối với khách hàng gửi tiền tại quầy theo sản phẩm tiết kiệm bậc thang và nhận lãi cuối kỳ, SHB không thay đổi lãi suất, tiếp tục dụng biểu lãi suất theo 2 mức tiền gửi là: Dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với hạn mức gửi dưới 2 tỷ đồng,lãi suất dao động nằm trong khoảng 0,5 – 5,5%/năm."
+    },
+    {
+        "text": "0,5 – 5,5%/năm",
+        "label": "RATE",
+        "evidence": "Với hạn mức gửi dưới 2 tỷ đồng,lãi suất dao động nằm trong khoảng 0,5 – 5,5%/năm."
+    },
+    {
+        "text": "kỳ hạn dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "Cụ thể, kỳ hạn dưới 1 tháng được hưởng lãi suất0,5%/năm;"
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, kỳ hạn dưới 1 tháng được hưởng lãi suất0,5%/năm;"
+    },
+    {
+        "text": "kỳ hạn 1 - 2 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 1 - 2 tháng là3,3%/năm;"
+    },
+    {
+        "text": "3,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 1 - 2 tháng là3,3%/năm;"
+    },
+    {
+        "text": "kỳ hạn 3 - 5 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 3 - 5 tháng là3,6%/năm;"
+    },
+    {
+        "text": "3,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 - 5 tháng là3,6%/năm;"
+    },
+    {
+        "text": "kỳ hạn 6 - 11 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 6 - 11 tháng là4,6%/năm;"
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 - 11 tháng là4,6%/năm;"
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 12 tháng là5,0%/năm;"
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 tháng là5,0%/năm;"
+    },
+    {
+        "text": "kỳ hạn 13 - 18 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 13 - 18 tháng là5,1%/năm;"
+    },
+    {
+        "text": "5,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 13 - 18 tháng là5,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 24 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 24 tháng là5,2%/năm;"
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 24 tháng là5,2%/năm;"
+    },
+    {
+        "text": "kỳ hạn từ 36 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn từ 36 tháng có mức lãi suất cao nhất là5,5%/năm."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn từ 36 tháng có mức lãi suất cao nhất là5,5%/năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy SHB tháng 11/2025"
+    },
+    {
+        "text": "tháng 11/2025",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy SHB tháng 11/2025"
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với hạn mức gửi dưới 2 tỷ đồng, lãi suất dao động nằm trong khoảng 0,5 – 5,6%/năm."
+    },
+    {
+        "text": "0,5 – 5,6%/năm",
+        "label": "RATE",
+        "evidence": "Với hạn mức gửi dưới 2 tỷ đồng, lãi suất dao động nằm trong khoảng 0,5 – 5,6%/năm."
+    },
+    {
+        "text": "kỳ hạn dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "Cụ thể, kỳ hạn dưới 1 tháng được hưởng lãi suất0,5%/năm;"
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, kỳ hạn dưới 1 tháng được hưởng lãi suất0,5%/năm;"
+    },
+    {
+        "text": "kỳ hạn 1 - 2 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 1 - 2 tháng là3,4%/năm;"
+    },
+    {
+        "text": "3,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 1 - 2 tháng là3,4%/năm;"
+    },
+    {
+        "text": "kỳ hạn 3 - 5 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 3 - 5 tháng là3,7%/năm;"
+    },
+    {
+        "text": "3,7%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 - 5 tháng là3,7%/năm;"
+    },
+    {
+        "text": "kỳ hạn 6 - 11 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 6 - 11 tháng là4,7%/năm;"
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 - 11 tháng là4,7%/năm;"
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 12 tháng là5,1%/năm;"
+    },
+    {
+        "text": "5,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 tháng là5,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 13 - 18 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 13 - 18 tháng là5,2%/năm;"
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 13 - 18 tháng là5,2%/năm;"
+    },
+    {
+        "text": "kỳ hạn 24 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 24 tháng là5,3%/năm;"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 24 tháng là5,3%/năm;"
+    },
+    {
+        "text": "kỳ hạn từ 36 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn từ 36 tháng có mức lãi suất cao nhất là5,6%/năm."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn từ 36 tháng có mức lãi suất cao nhất là5,6%/năm."
+    },
+    {
+        "text": "tiền gửi online",
+        "label": "ASSET",
+        "evidence": "Lãi suất huy động tiền gửi online SHB tháng 11/2025"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động tiền gửi online SHB tháng 11/2025"
+    },
+    {
+        "text": "tháng 11/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất huy động tiền gửi online SHB tháng 11/2025"
+    },
+    {
+        "text": "gửi tiền trực tuyến",
+        "label": "ASSET",
+        "evidence": "Đối với hình thức gửi tiền trực tuyến, SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm, dao động trong khoảng 3,5 – 5,8%/năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đối với hình thức gửi tiền trực tuyến, SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm, dao động trong khoảng 3,5 – 5,8%/năm."
+    },
+    {
+        "text": "SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với hình thức gửi tiền trực tuyến, SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm, dao động trong khoảng 3,5 – 5,8%/năm."
+    },
+    {
+        "text": "0,6%/năm",
+        "label": "RATE",
+        "evidence": "Đối với hình thức gửi tiền trực tuyến, SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm, dao động trong khoảng 3,5 – 5,8%/năm."
+    },
+    {
+        "text": "3,5 – 5,8%/năm",
+        "label": "RATE",
+        "evidence": "Đối với hình thức gửi tiền trực tuyến, SHB đồng loạt tăng ở nhiều kỳ hạn với mức tăng cao nhất lên đến 0,6%/năm, dao động trong khoảng 3,5 – 5,8%/năm."
+    },
+    {
+        "text": "lãi suất huy động trực tuyến kỳ hạn 1-2 tháng tăng mạnh 0,6%/năm lên 4,1%/năm",
+        "label": "EVENT",
+        "evidence": "Theo đó, lãi suất huy động trực tuyến kỳ hạn 1-2 tháng tăng mạnh 0,6%/năm lên4,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 1-2 tháng",
+        "label": "DATE",
+        "evidence": "Theo đó, lãi suất huy động trực tuyến kỳ hạn 1-2 tháng tăng mạnh 0,6%/năm lên4,1%/năm;"
+    },
+    {
+        "text": "0,6%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất huy động trực tuyến kỳ hạn 1-2 tháng tăng mạnh 0,6%/năm lên4,1%/năm;"
+    },
+    {
+        "text": "4,1%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất huy động trực tuyến kỳ hạn 1-2 tháng tăng mạnh 0,6%/năm lên4,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 3 tháng tăng 0,35%/năm lên 4,15%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 3 tháng tăng 0,35%/năm lên4,15%/năm;"
+    },
+    {
+        "text": "kỳ hạn 3 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 3 tháng tăng 0,35%/năm lên4,15%/năm;"
+    },
+    {
+        "text": "0,35%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 tháng tăng 0,35%/năm lên4,15%/năm;"
+    },
+    {
+        "text": "4,15%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 tháng tăng 0,35%/năm lên4,15%/năm;"
+    },
+    {
+        "text": "kỳ hạn 4-5 tháng tăng 0,45%/năm lên 4,25%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 4-5 tháng tăng 0,45%/năm lên4,25%/năm;"
+    },
+    {
+        "text": "kỳ hạn 4-5 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 4-5 tháng tăng 0,45%/năm lên4,25%/năm;"
+    },
+    {
+        "text": "0,45%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 4-5 tháng tăng 0,45%/năm lên4,25%/năm;"
+    },
+    {
+        "text": "4,25%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 4-5 tháng tăng 0,45%/năm lên4,25%/năm;"
+    },
+    {
+        "text": "kỳ hạn 6 tháng tăng 0,3%/năm, lên 5,2%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 6 tháng tăng 0,3%/năm, lên5,2%/năm;"
+    },
+    {
+        "text": "kỳ hạn 6 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 6 tháng tăng 0,3%/năm, lên5,2%/năm;"
+    },
+    {
+        "text": "0,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 tháng tăng 0,3%/năm, lên5,2%/năm;"
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 tháng tăng 0,3%/năm, lên5,2%/năm;"
+    },
+    {
+        "text": "kỳ hạn 7 - 8 tháng tăng 0,4%/năm lên 5,3%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 7 - 8 tháng tăng 0,4%/năm lên5,3%/năm;"
+    },
+    {
+        "text": "kỳ hạn 7 - 8 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 7 - 8 tháng tăng 0,4%/năm lên5,3%/năm;"
+    },
+    {
+        "text": "0,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 7 - 8 tháng tăng 0,4%/năm lên5,3%/năm;"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 7 - 8 tháng tăng 0,4%/năm lên5,3%/năm;"
+    },
+    {
+        "text": "kỳ hạn 9 - 11 tháng cũng ở mức 5,3%/năm, tăng 0,3%/năm so với trước đó",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 9 - 11 tháng cũng ở mức5,3%/năm, tăng 0,3%/năm so với trước đó;"
+    },
+    {
+        "text": "kỳ hạn 9 - 11 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 9 - 11 tháng cũng ở mức5,3%/năm, tăng 0,3%/năm so với trước đó;"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 9 - 11 tháng cũng ở mức5,3%/năm, tăng 0,3%/năm so với trước đó;"
+    },
+    {
+        "text": "0,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 9 - 11 tháng cũng ở mức5,3%/năm, tăng 0,3%/năm so với trước đó;"
+    },
+    {
+        "text": "kỳ hạn 12 tháng là 5,4%/năm, tăng 0,1%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 12 tháng là5,4%/năm, tăng 0,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 12 tháng là5,4%/năm, tăng 0,1%/năm;"
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 tháng là5,4%/năm, tăng 0,1%/năm;"
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 tháng là5,4%/năm, tăng 0,1%/năm;"
+    },
+    {
+        "text": "kỳ hạn 13 tháng giữ nguyên ở mức 5,5%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 13 tháng giữ nguyên ở mức5,5%/năm;"
+    },
+    {
+        "text": "kỳ hạn 13 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 13 tháng giữ nguyên ở mức5,5%/năm;"
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 13 tháng giữ nguyên ở mức5,5%/năm;"
+    },
+    {
+        "text": "kỳ hạn 15 - 24 tháng tăng thêm 0,1%/năm lên 5,6%/năm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 15 - 24 tháng tăng thêm 0,1%/năm lên5,6%/năm;"
+    },
+    {
+        "text": "kỳ hạn 15 - 24 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 15 - 24 tháng tăng thêm 0,1%/năm lên5,6%/năm;"
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 15 - 24 tháng tăng thêm 0,1%/năm lên5,6%/năm;"
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 15 - 24 tháng tăng thêm 0,1%/năm lên5,6%/năm;"
+    },
+    {
+        "text": "kỳ hạn từ 36 tháng trở lên không thay đổi",
+        "label": "EVENT",
+        "evidence": "kỳ hạn từ 36 tháng trở lên không thay đổi, tiếp tục được SHB áp dụng lãi suất cao nhất là5,8%/năm."
+    },
+    {
+        "text": "kỳ hạn từ 36 tháng trở lên",
+        "label": "DATE",
+        "evidence": "kỳ hạn từ 36 tháng trở lên không thay đổi, tiếp tục được SHB áp dụng lãi suất cao nhất là5,8%/năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "kỳ hạn từ 36 tháng trở lên không thay đổi, tiếp tục được SHB áp dụng lãi suất cao nhất là5,8%/năm."
+    },
+    {
+        "text": "5,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn từ 36 tháng trở lên không thay đổi, tiếp tục được SHB áp dụng lãi suất cao nhất là5,8%/năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiết kiệm trực tuyến SHB tháng 11/2025"
+    },
+    {
+        "text": "tháng 11/2025",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiết kiệm trực tuyến SHB tháng 11/2025"
+    }
+]

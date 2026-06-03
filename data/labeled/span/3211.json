@@ -1,0 +1,337 @@
+[
+    {
+        "text": "Ngân hàng TMCP Phát triển TP.HCM",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TP.HCM (HDBank - mã:HDB) vừa có thông báo chào bán trái phiếu đợt 2 ra công chúng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TP.HCM (HDBank - mã:HDB) vừa có thông báo chào bán trái phiếu đợt 2 ra công chúng."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Phát triển TP.HCM (HDBank - mã:HDB) vừa có thông báo chào bán trái phiếu đợt 2 ra công chúng."
+    },
+    {
+        "text": "chào bán trái phiếu đợt 2 ra công chúng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Phát triển TP.HCM (HDBank - mã:HDB) vừa có thông báo chào bán trái phiếu đợt 2 ra công chúng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo đó, HDBank dự kiến phát hành ra công chúng mã trái phiếu HDBC7Y202302 mệnh giá 100.000 đồng/trái phiếu, tổng giá trị phát hành 1.000 tỷ đồng."
+    },
+    {
+        "text": "phát hành ra công chúng mã trái phiếu HDBC7Y202302",
+        "label": "EVENT",
+        "evidence": "Theo đó, HDBank dự kiến phát hành ra công chúng mã trái phiếu HDBC7Y202302 mệnh giá 100.000 đồng/trái phiếu, tổng giá trị phát hành 1.000 tỷ đồng."
+    },
+    {
+        "text": "trái phiếu HDBC7Y202302",
+        "label": "ASSET",
+        "evidence": "Theo đó, HDBank dự kiến phát hành ra công chúng mã trái phiếu HDBC7Y202302 mệnh giá 100.000 đồng/trái phiếu, tổng giá trị phát hành 1.000 tỷ đồng."
+    },
+    {
+        "text": "100.000 đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "Theo đó, HDBank dự kiến phát hành ra công chúng mã trái phiếu HDBC7Y202302 mệnh giá 100.000 đồng/trái phiếu, tổng giá trị phát hành 1.000 tỷ đồng."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, HDBank dự kiến phát hành ra công chúng mã trái phiếu HDBC7Y202302 mệnh giá 100.000 đồng/trái phiếu, tổng giá trị phát hành 1.000 tỷ đồng."
+    },
+    {
+        "text": "trái phiếu không chuyển đổi, không kèm chứng quyền, không có bảo đảm, là nợ thứ cấp",
+        "label": "ASSET",
+        "evidence": "Đây là loại trái phiếu không chuyển đổi, không kèm chứng quyền, không có bảo đảm, là nợ thứ cấp và thỏa mãn các điều kiện để được tính vào vốn cấp 2 của HDBank"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Đây là loại trái phiếu không chuyển đổi, không kèm chứng quyền, không có bảo đảm, là nợ thứ cấp và thỏa mãn các điều kiện để được tính vào vốn cấp 2 của HDBank"
+    },
+    {
+        "text": "Trái Phiếu do HDBank phát hành",
+        "label": "ASSET",
+        "evidence": "Trái Phiếu do HDBank phát hành có lãi suất thả nổi, áp dụng cho toàn bộ kỳ hạn của trái phiếu theo công thức: Lãi suất = Lãi Suất Tham Chiếu + biên độ 2,8%/năm."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trái Phiếu do HDBank phát hành có lãi suất thả nổi, áp dụng cho toàn bộ kỳ hạn của trái phiếu theo công thức: Lãi suất = Lãi Suất Tham Chiếu + biên độ 2,8%/năm."
+    },
+    {
+        "text": "lãi suất thả nổi",
+        "label": "RATE",
+        "evidence": "Trái Phiếu do HDBank phát hành có lãi suất thả nổi, áp dụng cho toàn bộ kỳ hạn của trái phiếu theo công thức: Lãi suất = Lãi Suất Tham Chiếu + biên độ 2,8%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "Trái Phiếu do HDBank phát hành có lãi suất thả nổi, áp dụng cho toàn bộ kỳ hạn của trái phiếu theo công thức: Lãi suất = Lãi Suất Tham Chiếu + biên độ 2,8%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi tiết kiệm cá nhân bằng Đồng Việt Nam, kỳ hạn 12 tháng, trả lãi cuối kỳ",
+        "label": "ASSET",
+        "evidence": "Trong đó, lãi suất tham chiếu đối với mỗi kỳ tính lãi là bình quân lãi suất tiền gửi tiết kiệm cá nhân bằng Đồng Việt Nam, kỳ hạn 12 tháng, trả lãi cuối kỳ được công bố trên trang thông tin điện tử chính thức (website) của các ngân hàng tham chiếu tại ngày xác định lãi suất."
+    },
+    {
+        "text": "Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng Thương mại Cổ phần Công thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ngân Hàng Tham Chiếu bao gồm Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank), Ngân hàng Thương mại Cổ phần Công thương Việt Nam (VietinBank) và Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trái phiếu được HDBank chào bán bằng mệnh giá là 100.000 đồng/trái phiếu."
+    },
+    {
+        "text": "100.000 đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "Trái phiếu được HDBank chào bán bằng mệnh giá là 100.000 đồng/trái phiếu."
+    },
+    {
+        "text": "17/07/2024",
+        "label": "DATE",
+        "evidence": "Thời gian nhận đăng ký mua là từ ngày 17/07/2024 đến ngày 07/08/2024."
+    },
+    {
+        "text": "07/08/2024",
+        "label": "DATE",
+        "evidence": "Thời gian nhận đăng ký mua là từ ngày 17/07/2024 đến ngày 07/08/2024."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trái phiếu sẽ được bán trực tiếp cho nhà đầu tư tại Trụ sở chính/Chi nhánh/Phòng Giao dịch của HDBank và phân phối thông qua đại lý phát hành là Công ty Cổ phần Chứng khoán Sài Gòn - Hà Nội."
+    },
+    {
+        "text": "Công ty Cổ phần Chứng khoán Sài Gòn - Hà Nội",
+        "label": "ORG",
+        "evidence": "Trái phiếu sẽ được bán trực tiếp cho nhà đầu tư tại Trụ sở chính/Chi nhánh/Phòng Giao dịch của HDBank và phân phối thông qua đại lý phát hành là Công ty Cổ phần Chứng khoán Sài Gòn - Hà Nội."
+    },
+    {
+        "text": "500 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "Để tránh nhầm lẫn, nhà đầu tư chỉ được đăng ký mua số lượng trái Phiếu chẵn đến hàng đơn vị và tối thiểu là 500 trái phiếu đối với nhà đầu tư cá nhân và tối thiểu là 1.000  trái phiếu đối với nhà đầu tư tổ chức."
+    },
+    {
+        "text": "1.000 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "Để tránh nhầm lẫn, nhà đầu tư chỉ được đăng ký mua số lượng trái Phiếu chẵn đến hàng đơn vị và tối thiểu là 500 trái phiếu đối với nhà đầu tư cá nhân và tối thiểu là 1.000  trái phiếu đối với nhà đầu tư tổ chức."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo kế hoạch, HDBank dự kiến chào bán 3 đợt trái phiếu ra công chúng với tổng cộng 50 triệu trái phiếu."
+    },
+    {
+        "text": "chào bán 3 đợt trái phiếu ra công chúng",
+        "label": "EVENT",
+        "evidence": "Theo kế hoạch, HDBank dự kiến chào bán 3 đợt trái phiếu ra công chúng với tổng cộng 50 triệu trái phiếu."
+    },
+    {
+        "text": "50 triệu trái phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo kế hoạch, HDBank dự kiến chào bán 3 đợt trái phiếu ra công chúng với tổng cộng 50 triệu trái phiếu."
+    },
+    {
+        "text": "chào bán ra công chúng 30 triệu trái phiếu",
+        "label": "EVENT",
+        "evidence": "Trong đó, đợt 1, ngân hàng đã chào bán ra công chúng 30 triệu trái phiếu, đợt 2 và đợt 3 mỗi đợt 10 triệu trái phiếu."
+    },
+    {
+        "text": "30 triệu trái phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong đó, đợt 1, ngân hàng đã chào bán ra công chúng 30 triệu trái phiếu, đợt 2 và đợt 3 mỗi đợt 10 triệu trái phiếu."
+    },
+    {
+        "text": "10 triệu trái phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong đó, đợt 1, ngân hàng đã chào bán ra công chúng 30 triệu trái phiếu, đợt 2 và đợt 3 mỗi đợt 10 triệu trái phiếu."
+    },
+    {
+        "text": "chào bán trái phiếu đợt 3 của HDBank",
+        "label": "EVENT",
+        "evidence": "Thời gian chào bán trái phiếu đợt 3 của HDBank dự kiến trong quý II - quý IV/2024."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Thời gian chào bán trái phiếu đợt 3 của HDBank dự kiến trong quý II - quý IV/2024."
+    },
+    {
+        "text": "quý II - quý IV/2024",
+        "label": "DATE",
+        "evidence": "Thời gian chào bán trái phiếu đợt 3 của HDBank dự kiến trong quý II - quý IV/2024."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Mục đích huy động trái phiếu là nhằm bổ sung nguồn vốn cấp 2, cải thiện hệ số an toàn vốn, phục vụ nhu cầu cho vay khách hàng của HDBank."
+    },
+    {
+        "text": "quý I/2024",
+        "label": "DATE",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "7.752 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tăng 37%",
+        "label": "RATE",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Về tình hình kinh doanh, quý I/2024, HDBank ghi nhận tổng thu nhập hoạt động hợp nhất đạt 7.752 tỷ đồng, tăng 37% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "Lợi nhuận trước thuế đạt 4.028 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế đạt 4.028 tỷ đồng, tăng 46,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "4.028 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt 4.028 tỷ đồng, tăng 46,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 46,8%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước thuế đạt 4.028 tỷ đồng, tăng 46,8% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "26,7%",
+        "label": "RATE",
+        "evidence": "Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE) đạt 26,7%."
+    },
+    {
+        "text": "31/3/2024",
+        "label": "DATE",
+        "evidence": "Tại ngày 31/3/2024, tổng tài sản của HDBank đạt 602.552 tỷ đồng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Tại ngày 31/3/2024, tổng tài sản của HDBank đạt 602.552 tỷ đồng."
+    },
+    {
+        "text": "602.552 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngày 31/3/2024, tổng tài sản của HDBank đạt 602.552 tỷ đồng."
+    },
+    {
+        "text": "534.936 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng huy động vốn đạt 534.936 tỷ đồng, trong đó huy động từ khách hàng đạt 378.829 tỷ đồng, tăng 2,2% so với cuối năm 2023."
+    },
+    {
+        "text": "378.829 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng huy động vốn đạt 534.936 tỷ đồng, trong đó huy động từ khách hàng đạt 378.829 tỷ đồng, tăng 2,2% so với cuối năm 2023."
+    },
+    {
+        "text": "tăng 2,2%",
+        "label": "RATE",
+        "evidence": "Tổng huy động vốn đạt 534.936 tỷ đồng, trong đó huy động từ khách hàng đạt 378.829 tỷ đồng, tăng 2,2% so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Tổng huy động vốn đạt 534.936 tỷ đồng, trong đó huy động từ khách hàng đạt 378.829 tỷ đồng, tăng 2,2% so với cuối năm 2023."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "16.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "tăng 21,8%",
+        "label": "RATE",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2024, HDBank đặt mục tiêu lợi nhuận trước thuế lên đến 16.000 tỷ đồng, tăng 21,8% so với năm 2023."
+    },
+    {
+        "text": "24,6%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ ROE đạt 24,6% đồng thời duy trì tỷ lệ nợ xấu thấp dưới 1,5%."
+    },
+    {
+        "text": "1,5%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ ROE đạt 24,6% đồng thời duy trì tỷ lệ nợ xấu thấp dưới 1,5%."
+    }
+]

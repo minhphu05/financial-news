@@ -1,0 +1,507 @@
+[
+    {
+        "text": "VietcombankPriority",
+        "label": "EVENT",
+        "evidence": "VietcombankPriority"
+    },
+    {
+        "text": "Vietcombank Priority",
+        "label": "EVENT",
+        "evidence": "Vietcombank Priority là dịch vụ dành riêng cho khách hàng VIP của ngân hàng Vietcombank, mang đến các đặc quyền vượt trội và hệ sinh thái tiện ích phong phú."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank Priority là dịch vụ dành riêng cho khách hàng VIP của ngân hàng Vietcombank, mang đến các đặc quyền vượt trội và hệ sinh thái tiện ích phong phú."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Để trở thành khách hàng VIP tại Vietcombank, khách hàng cần đáp ứng một trong các điều kiện sau:"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Thu nhập bình quân hàng tháng trong 12 tháng đạt từ 50 triệu đồng trở lên."
+    },
+    {
+        "text": "50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Thu nhập bình quân hàng tháng trong 12 tháng đạt từ 50 triệu đồng trở lên."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Số dư tiền gửi bình quân trong 12 tháng trước đó từ 2 tỷ đồng trở lên, hoặc tại thời điểm định danh từ 2 tỷ đồng và cam kết duy trì trong 6 tháng tiếp theo."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Số dư tiền gửi bình quân trong 12 tháng trước đó từ 2 tỷ đồng trở lên, hoặc tại thời điểm định danh từ 2 tỷ đồng và cam kết duy trì trong 6 tháng tiếp theo."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Số dư tiền gửi bình quân trong 12 tháng trước đó từ 2 tỷ đồng trở lên, hoặc tại thời điểm định danh từ 2 tỷ đồng và cam kết duy trì trong 6 tháng tiếp theo."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Số dư tiền gửi bình quân trong 12 tháng trước đó từ 2 tỷ đồng trở lên, hoặc tại thời điểm định danh từ 2 tỷ đồng và cam kết duy trì trong 6 tháng tiếp theo."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Dư nợ vay bình quân trong 12 tháng trước đó từ 3 tỷ đồng trở lên, hoặc dư nợ cam kết duy trì trong vòng 6 tháng tiếp theo từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ vay bình quân trong 12 tháng trước đó từ 3 tỷ đồng trở lên, hoặc dư nợ cam kết duy trì trong vòng 6 tháng tiếp theo từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Dư nợ vay bình quân trong 12 tháng trước đó từ 3 tỷ đồng trở lên, hoặc dư nợ cam kết duy trì trong vòng 6 tháng tiếp theo từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ vay bình quân trong 12 tháng trước đó từ 3 tỷ đồng trở lên, hoặc dư nợ cam kết duy trì trong vòng 6 tháng tiếp theo từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "VietinBank Premium",
+        "label": "EVENT",
+        "evidence": "VietinBank Premium"
+    },
+    {
+        "text": "VietinBank Premium",
+        "label": "EVENT",
+        "evidence": "VietinBank Premium là dịch vụ ngân hàng cao cấp của VietinBank, dành cho những khách hàng có tài sản lớn và nhu cầu sử dụng các sản phẩm tài chính cao cấp."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank Premium là dịch vụ ngân hàng cao cấp của VietinBank, dành cho những khách hàng có tài sản lớn và nhu cầu sử dụng các sản phẩm tài chính cao cấp."
+    },
+    {
+        "text": "VietinBankPremium",
+        "label": "EVENT",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Elite",
+        "label": "ASSET",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Diamond Plus",
+        "label": "ASSET",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Diamond",
+        "label": "ASSET",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Platinum",
+        "label": "ASSET",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Gold",
+        "label": "ASSET",
+        "evidence": "Các hạng hội viênVietinBankPremium bao gồm Elite, Diamond Plus, Diamond, Platinum và Gold, với các điều kiện tham gia khác nhau:"
+    },
+    {
+        "text": "Elite",
+        "label": "ASSET",
+        "evidence": "Hạng Elite:Khách hàng cần có tổng tài sản huy động vốn từ 30 tỷ đồng trở lên, với doanh số thanh toán thẻ từ 5 tỷ đồng trở lên (tính theo bình quân 3 tháng liền kề tại VietinBank),..."
+    },
+    {
+        "text": "30 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Elite:Khách hàng cần có tổng tài sản huy động vốn từ 30 tỷ đồng trở lên, với doanh số thanh toán thẻ từ 5 tỷ đồng trở lên (tính theo bình quân 3 tháng liền kề tại VietinBank),..."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Elite:Khách hàng cần có tổng tài sản huy động vốn từ 30 tỷ đồng trở lên, với doanh số thanh toán thẻ từ 5 tỷ đồng trở lên (tính theo bình quân 3 tháng liền kề tại VietinBank),..."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Hạng Elite:Khách hàng cần có tổng tài sản huy động vốn từ 30 tỷ đồng trở lên, với doanh số thanh toán thẻ từ 5 tỷ đồng trở lên (tính theo bình quân 3 tháng liền kề tại VietinBank),..."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hạng Elite:Khách hàng cần có tổng tài sản huy động vốn từ 30 tỷ đồng trở lên, với doanh số thanh toán thẻ từ 5 tỷ đồng trở lên (tính theo bình quân 3 tháng liền kề tại VietinBank),..."
+    },
+    {
+        "text": "Diamond Plus",
+        "label": "ASSET",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "10 tỷ",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "30 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hạng Diamond Plus:Tổng tài sản huy động vốn từ 10 tỷ đến dưới 30 tỷ đồng, với doanh số thanh toán thẻ từ 3 tỷ đồng đến dưới 5 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "Diamond",
+        "label": "ASSET",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "5 tỷ",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hạng Diamond:Tổng tài sản huy động vốn từ 5 tỷ đến dưới 10 tỷ đồng, với doanh số thanh toán thẻ từ 2 tỷ đồng đến dưới 3 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "Platinum",
+        "label": "ASSET",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "2 tỷ",
+        "label": "MONEY",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "300 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hạng Platinum:Tổng tài sản từ 2 tỷ đến dưới 5 tỷ đồng, với doanh số thanh toán thẻ từ 300 triệu đồng đến dưới 2 tỷ đồng (tính theo bình quân 3 tháng liền kề tại VietinBank)."
+    },
+    {
+        "text": "Gold",
+        "label": "ASSET",
+        "evidence": "Hạng Gold:Tổng tài sản từ 1 tỷ đồng đến dưới 2 tỷ đồng, với doanh số thanh toán thẻ từ 150 triệu đồng đến dưới 300 triệu đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Gold:Tổng tài sản từ 1 tỷ đồng đến dưới 2 tỷ đồng, với doanh số thanh toán thẻ từ 150 triệu đồng đến dưới 300 triệu đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Gold:Tổng tài sản từ 1 tỷ đồng đến dưới 2 tỷ đồng, với doanh số thanh toán thẻ từ 150 triệu đồng đến dưới 300 triệu đồng."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Gold:Tổng tài sản từ 1 tỷ đồng đến dưới 2 tỷ đồng, với doanh số thanh toán thẻ từ 150 triệu đồng đến dưới 300 triệu đồng."
+    },
+    {
+        "text": "300 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Gold:Tổng tài sản từ 1 tỷ đồng đến dưới 2 tỷ đồng, với doanh số thanh toán thẻ từ 150 triệu đồng đến dưới 300 triệu đồng."
+    },
+    {
+        "text": "BIDVPremier",
+        "label": "EVENT",
+        "evidence": "BIDVPremier"
+    },
+    {
+        "text": "BIDV Premier",
+        "label": "EVENT",
+        "evidence": "BIDV Premier là dịch vụ ngân hàng cao cấp với các giải pháp tài chính đặc biệt và không gian giao dịch riêng biệt."
+    },
+    {
+        "text": "BIDV Premier",
+        "label": "EVENT",
+        "evidence": "Để trở thành hội viên BIDV Premier, khách hàng cần đáp ứng các điều kiện sau:"
+    },
+    {
+        "text": "quý (3 tháng)",
+        "label": "DATE",
+        "evidence": "Số dư tiền gửi: Duy trì số dư bình quân trong quý (3 tháng) từ 1 tỷ đồng trở lên."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Số dư tiền gửi: Duy trì số dư bình quân trong quý (3 tháng) từ 1 tỷ đồng trở lên."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Số dư tiền gửi: Duy trì số dư bình quân trong quý (3 tháng) từ 1 tỷ đồng trở lên."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV chia hội viên thành các hạng:"
+    },
+    {
+        "text": "Vàng",
+        "label": "ASSET",
+        "evidence": "Hạng Vàng: Từ 1 tỷ đồng đến dưới 3 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Vàng: Từ 1 tỷ đồng đến dưới 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Vàng: Từ 1 tỷ đồng đến dưới 3 tỷ đồng."
+    },
+    {
+        "text": "Bạch Kim",
+        "label": "ASSET",
+        "evidence": "Hạng Bạch Kim: Từ 3 tỷ đồng đến dưới 10 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Bạch Kim: Từ 3 tỷ đồng đến dưới 10 tỷ đồng."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Bạch Kim: Từ 3 tỷ đồng đến dưới 10 tỷ đồng."
+    },
+    {
+        "text": "Kim Cương",
+        "label": "ASSET",
+        "evidence": "Hạng Kim Cương: Từ 10 tỷ đồng trở lên."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạng Kim Cương: Từ 10 tỷ đồng trở lên."
+    },
+    {
+        "text": "Techcombank Private",
+        "label": "EVENT",
+        "evidence": "Techcombank Private"
+    },
+    {
+        "text": "Techcombank Private",
+        "label": "EVENT",
+        "evidence": "Techcombank Private là dịch vụ ngân hàng cao cấp dành cho khách hàng có tài sản lớn."
+    },
+    {
+        "text": "Techcombank Private",
+        "label": "EVENT",
+        "evidence": "Để trở thành hội viên Techcombank Private, khách hàng cần thỏa mãn một trong các điều kiện sau:"
+    },
+    {
+        "text": "AUM",
+        "label": "ASSET",
+        "evidence": "Tổng giá trị tài sản (AUM) đạt tối thiểu 23 tỷ đồng hoặc tổng giá trị quan hệ tài chính (TRV) từ 25 tỷ đồng. Điều này tính trung bình trong 03 tháng gần nhất."
+    },
+    {
+        "text": "23 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá trị tài sản (AUM) đạt tối thiểu 23 tỷ đồng hoặc tổng giá trị quan hệ tài chính (TRV) từ 25 tỷ đồng. Điều này tính trung bình trong 03 tháng gần nhất."
+    },
+    {
+        "text": "TRV",
+        "label": "ASSET",
+        "evidence": "Tổng giá trị tài sản (AUM) đạt tối thiểu 23 tỷ đồng hoặc tổng giá trị quan hệ tài chính (TRV) từ 25 tỷ đồng. Điều này tính trung bình trong 03 tháng gần nhất."
+    },
+    {
+        "text": "25 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá trị tài sản (AUM) đạt tối thiểu 23 tỷ đồng hoặc tổng giá trị quan hệ tài chính (TRV) từ 25 tỷ đồng. Điều này tính trung bình trong 03 tháng gần nhất."
+    },
+    {
+        "text": "03 tháng",
+        "label": "DATE",
+        "evidence": "Tổng giá trị tài sản (AUM) đạt tối thiểu 23 tỷ đồng hoặc tổng giá trị quan hệ tài chính (TRV) từ 25 tỷ đồng. Điều này tính trung bình trong 03 tháng gần nhất."
+    },
+    {
+        "text": "VPBank Diamond",
+        "label": "EVENT",
+        "evidence": "VPBank Diamond"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank chia khách hàng ưu tiên thành các nhóm VPBank Diamond và VPBank Diamond Elite. Để tham gia dịch vụ này, khách hàng cần đáp ứng một trong các tiêu chí tài chính sau:"
+    },
+    {
+        "text": "VPBank Diamond",
+        "label": "EVENT",
+        "evidence": "VPBank chia khách hàng ưu tiên thành các nhóm VPBank Diamond và VPBank Diamond Elite. Để tham gia dịch vụ này, khách hàng cần đáp ứng một trong các tiêu chí tài chính sau:"
+    },
+    {
+        "text": "VPBank Diamond Elite",
+        "label": "EVENT",
+        "evidence": "VPBank chia khách hàng ưu tiên thành các nhóm VPBank Diamond và VPBank Diamond Elite. Để tham gia dịch vụ này, khách hàng cần đáp ứng một trong các tiêu chí tài chính sau:"
+    },
+    {
+        "text": "Pre-Diamond",
+        "label": "ASSET",
+        "evidence": "Pre-Diamond:Tổng tài sản từ 500 triệu đến 1 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 80-150 triệu đồng."
+    },
+    {
+        "text": "500 triệu",
+        "label": "MONEY",
+        "evidence": "Pre-Diamond:Tổng tài sản từ 500 triệu đến 1 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 80-150 triệu đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Pre-Diamond:Tổng tài sản từ 500 triệu đến 1 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 80-150 triệu đồng."
+    },
+    {
+        "text": "80-150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Pre-Diamond:Tổng tài sản từ 500 triệu đến 1 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 80-150 triệu đồng."
+    },
+    {
+        "text": "VPBank Diamond",
+        "label": "ASSET",
+        "evidence": "VPBank Diamond:Tổng tài sản từ 1 tỷ đến 5 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 150-500 triệu đồng."
+    },
+    {
+        "text": "1 tỷ",
+        "label": "MONEY",
+        "evidence": "VPBank Diamond:Tổng tài sản từ 1 tỷ đến 5 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 150-500 triệu đồng."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VPBank Diamond:Tổng tài sản từ 1 tỷ đến 5 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 150-500 triệu đồng."
+    },
+    {
+        "text": "150-500 triệu đồng",
+        "label": "MONEY",
+        "evidence": "VPBank Diamond:Tổng tài sản từ 1 tỷ đến 5 tỷ đồng, hoặc số dư tài khoản thanh toán bình quân tháng từ 150-500 triệu đồng."
+    },
+    {
+        "text": "VPBank Diamond Elite",
+        "label": "ASSET",
+        "evidence": "VPBank Diamond Elite:Tổng tài sản từ 5 tỷ đồng trở lên, hoặc số dư tài khoản thanh toán từ 500 triệu đồng trở lên."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VPBank Diamond Elite:Tổng tài sản từ 5 tỷ đồng trở lên, hoặc số dư tài khoản thanh toán từ 500 triệu đồng trở lên."
+    },
+    {
+        "text": "500 triệu đồng",
+        "label": "MONEY",
+        "evidence": "VPBank Diamond Elite:Tổng tài sản từ 5 tỷ đồng trở lên, hoặc số dư tài khoản thanh toán từ 500 triệu đồng trở lên."
+    },
+    {
+        "text": "ACB Privilege",
+        "label": "EVENT",
+        "evidence": "ACB Privilege"
+    },
+    {
+        "text": "ACB Privilege",
+        "label": "EVENT",
+        "evidence": "ACB Privilege là dịch vụ ngân hàng dành cho những khách hàng có nhu cầu tài chính cao, với các tiêu chí tham gia cụ thể:"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Khách hàng có số dư tiền gửi tiết kiệm mở mới kỳ hạn 3 tháng trở lên từ 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khách hàng có số dư tiền gửi tiết kiệm mở mới kỳ hạn 3 tháng trở lên từ 1 tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tổng tài sản tại ACB bình quân 3 tháng gần nhất từ 1 tỷ đồng."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Tổng tài sản tại ACB bình quân 3 tháng gần nhất từ 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản tại ACB bình quân 3 tháng gần nhất từ 1 tỷ đồng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Tài khoản thanh toán bình quân 6 tháng gần nhất từ 100 triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tài khoản thanh toán bình quân 6 tháng gần nhất từ 100 triệu đồng."
+    }
+]

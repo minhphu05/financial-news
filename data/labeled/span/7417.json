@@ -1,0 +1,87 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Vietcombank"
+    },
+    {
+        "text": "19/5/2025",
+        "label": "DATE",
+        "evidence": "ngày 19/5/2025 vừa qua"
+    },
+    {
+        "text": "Vietcombank Hà Nam",
+        "label": "ORG",
+        "evidence": "tại Vietcombank Hà Nam"
+    },
+    {
+        "text": "chuyển gấp 285 triệu đồng",
+        "label": "EVENT",
+        "evidence": "yêu cầu chuyển gấp 285 triệu đồng vào một tài khoản lạ"
+    },
+    {
+        "text": "285 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chuyển gấp 285 triệu đồng"
+    },
+    {
+        "text": "Nguyễn Thị Liên",
+        "label": "PERSON",
+        "evidence": "Giao dịch viên Nguyễn Thị Liên"
+    },
+    {
+        "text": "Lại Thị Lan",
+        "label": "PERSON",
+        "evidence": "Phó Trưởng phòng Dịch vụ khách hàng Lại Thị Lan"
+    },
+    {
+        "text": "báo cáo Phó Trưởng phòng Dịch vụ khách hàng Lại Thị Lan để cùng phối hợp xử lý",
+        "label": "EVENT",
+        "evidence": "đồng thời báo cáo Phó Trưởng phòng Dịch vụ khách hàng Lại Thị Lan để cùng phối hợp xử lý"
+    },
+    {
+        "text": "xin ý kiến Ban Giám đốc",
+        "label": "EVENT",
+        "evidence": "Lại Thị Lan đã kịp thời xin ý kiến Ban Giám đốc"
+    },
+    {
+        "text": "Ban Giám đốc",
+        "label": "ORG",
+        "evidence": "xin ý kiến Ban Giám đốc"
+    },
+    {
+        "text": "Công an tỉnh Hà Nam",
+        "label": "ORG",
+        "evidence": "phối hợp với Công an tỉnh Hà Nam"
+    },
+    {
+        "text": "phối hợp với Công an tỉnh Hà Nam vào cuộc xác minh",
+        "label": "EVENT",
+        "evidence": "phối hợp với Công an tỉnh Hà Nam vào cuộc xác minh"
+    },
+    {
+        "text": "lừa chuyển tiền",
+        "label": "EVENT",
+        "evidence": "lừa chuyển tiền với lý do \"phục vụ điều tra\""
+    },
+    {
+        "text": "chuyển nhanh số tiền 285 triệu đồng",
+        "label": "EVENT",
+        "evidence": "yêu cầu khách hàng phải chuyển nhanh số tiền 285 triệu đồng vào số tài khoản do đối tượng cung cấp để phục vụ điều tra"
+    },
+    {
+        "text": "285 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chuyển nhanh số tiền 285 triệu đồng"
+    },
+    {
+        "text": "giữ lại toàn bộ số tiền",
+        "label": "EVENT",
+        "evidence": "khách hàng đã nắm rõ được chiêu trò của đối tượng lừa đảo, giữ lại toàn bộ số tiền và gửi lời cảm ơn sâu sắc tới cán bộ Vietcombank Hà Nam"
+    },
+    {
+        "text": "Vietcombank khuyến cáo khách hàng",
+        "label": "EVENT",
+        "evidence": "Vietcombank khuyến cáo khách hàng hãy luôn giữ bình tĩnh, kiểm tra kỹ thông tin và nâng cao cảnh giác trước mọi yêu cầu chuyển tiền bất thường để hạn chế rủi ro cho chính bản thân và gia đình"
+    }
+]

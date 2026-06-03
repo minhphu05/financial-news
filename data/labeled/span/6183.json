@@ -1,0 +1,332 @@
+[
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu ngân hàng gây áp lực khiến VN-Index giảm mạnh trong phiên sáng, có thời điểm mất hơn 14 điểm."
+    },
+    {
+        "text": "VN-Index giảm mạnh trong phiên sáng",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu ngân hàng gây áp lực khiến VN-Index giảm mạnh trong phiên sáng, có thời điểm mất hơn 14 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index đóng cửa phiên 2/4 với mức tăng hơn 5,5 điểm lên 1.287 điểm."
+    },
+    {
+        "text": "VN-Index đóng cửa phiên 2/4 với mức tăng hơn 5,5 điểm lên 1.287 điểm",
+        "label": "EVENT",
+        "evidence": "VN-Index đóng cửa phiên 2/4 với mức tăng hơn 5,5 điểm lên 1.287 điểm."
+    },
+    {
+        "text": "2/4",
+        "label": "DATE",
+        "evidence": "VN-Index đóng cửa phiên 2/4 với mức tăng hơn 5,5 điểm lên 1.287 điểm."
+    },
+    {
+        "text": "1.287 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index đóng cửa phiên 2/4 với mức tăng hơn 5,5 điểm lên 1.287 điểm."
+    },
+    {
+        "text": "bán ròng 575 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giao dịch khối ngoại  tiếp tục gây áp lực lớn khi họ bán ròng 575 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "575 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch khối ngoại  tiếp tục gây áp lực lớn khi họ bán ròng 575 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "phiên thứ 15 liên tiếp khối ngoại mạnh tay bán ròng",
+        "label": "EVENT",
+        "evidence": "Đây cũng là phiên thứ 15 liên tiếp khối ngoại mạnh tay bán ròng trên thị trường chứng khoán Việt Nam."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị 737 tỷ đồng."
+    },
+    {
+        "text": "bán ròng với giá trị 737 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị 737 tỷ đồng."
+    },
+    {
+        "text": "737 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị 737 tỷ đồng."
+    },
+    {
+        "text": "mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng."
+    },
+    {
+        "text": "188 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng."
+    },
+    {
+        "text": "70 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng là cổ phiếu chứng khoán TCB và MWG với giá trị 188 tỷ đồng và 70 tỷ đồng."
+    },
+    {
+        "text": "GVR",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "được mua ròng lần lượt 67 và 63 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "67",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "63 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, GVR và KBC là hai cổ phiếu được mua ròng lần lượt 67 và 63 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ngược lại, STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng, VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng, VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "284 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng, VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VCI",
+        "label": "TICKER",
+        "evidence": "Ngược lại, STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng, VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "Ngược lại, STB chịu áp lực bán mạnh nhất của khối ngoại với giá trị 284 tỷ đồng, VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bị bán 224 và 156 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "224",
+        "label": "MONEY",
+        "evidence": "VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "156 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VCI, SSI là hai cổ phiếu tiếp theo bị bán 224 và 156 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại bất ngờ mua ròng mạnh  178 tỷ đồng"
+    },
+    {
+        "text": "mua ròng mạnh 178 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại bất ngờ mua ròng mạnh  178 tỷ đồng"
+    },
+    {
+        "text": "178 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại bất ngờ mua ròng mạnh  178 tỷ đồng"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 163 tỷ đồng."
+    },
+    {
+        "text": "PVS được mua ròng mạnh nhất với giá trị 163 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 163 tỷ đồng."
+    },
+    {
+        "text": "163 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 163 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo trong sách mua ròng mạnh trên HNX với 22 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh trên HNX với 22 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo trong sách mua ròng mạnh trên HNX với 22 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo trong sách mua ròng mạnh trên HNX với 22 tỷ đồng."
+    },
+    {
+        "text": "22 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo trong sách mua ròng mạnh trên HNX với 22 tỷ đồng."
+    },
+    {
+        "text": "mua ròng CEO, VGS, SHS",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng CEO, VGS, SHS với giá trị không quá lớn."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng CEO, VGS, SHS với giá trị không quá lớn."
+    },
+    {
+        "text": "VGS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng CEO, VGS, SHS với giá trị không quá lớn."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng CEO, VGS, SHS với giá trị không quá lớn."
+    },
+    {
+        "text": "MBS",
+        "label": "TICKER",
+        "evidence": "Ngược lại, MBS là mã chịu áp lực bán ròng của khối ngoại với giá trị 14 tỷ đồng; theo sau HUT bị bán khoảng  tỷ đồng."
+    },
+    {
+        "text": "MBS là mã chịu áp lực bán ròng của khối ngoại với giá trị 14 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, MBS là mã chịu áp lực bán ròng của khối ngoại với giá trị 14 tỷ đồng; theo sau HUT bị bán khoảng  tỷ đồng."
+    },
+    {
+        "text": "14 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, MBS là mã chịu áp lực bán ròng của khối ngoại với giá trị 14 tỷ đồng; theo sau HUT bị bán khoảng  tỷ đồng."
+    },
+    {
+        "text": "HUT",
+        "label": "TICKER",
+        "evidence": "theo sau HUT bị bán khoảng  tỷ đồng."
+    },
+    {
+        "text": "HUT bị bán",
+        "label": "EVENT",
+        "evidence": "theo sau HUT bị bán khoảng  tỷ đồng."
+    },
+    {
+        "text": "UPCOM",
+        "label": "ORG",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng 16 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 16 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng 16 tỷ đồng"
+    },
+    {
+        "text": "16 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng 16 tỷ đồng"
+    },
+    {
+        "text": "VGT",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu VGT được khối ngoại mua 3 tỷ đồng."
+    },
+    {
+        "text": "VGT được khối ngoại mua 3 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chiều mua, cổ phiếu VGT được khối ngoại mua 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều mua, cổ phiếu VGT được khối ngoại mua 3 tỷ đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Theo sau, ACV và MCH cũng được mua ròng mỗi mã vài tỷ đồng."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "Theo sau, ACV và MCH cũng được mua ròng mỗi mã vài tỷ đồng."
+    },
+    {
+        "text": "ACV và MCH cũng được mua ròng",
+        "label": "EVENT",
+        "evidence": "Theo sau, ACV và MCH cũng được mua ròng mỗi mã vài tỷ đồng."
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, BSR hôm nay bị khối ngoại bán ròng khoảng 14 tỷ đồng; ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "BSR hôm nay bị khối ngoại bán ròng khoảng 14 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược chiều, BSR hôm nay bị khối ngoại bán ròng khoảng 14 tỷ đồng; ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "khoảng 14 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược chiều, BSR hôm nay bị khối ngoại bán ròng khoảng 14 tỷ đồng; ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "bán ròng tại VEA, MPC, VGI",
+        "label": "EVENT",
+        "evidence": "ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "MPC",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại VEA, MPC, VGI,..."
+    }
+]

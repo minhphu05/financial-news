@@ -1,0 +1,382 @@
+[
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "CafeF mới đây đã công bố danh sách các ngân hàng nộp ngân sách lớn nhất Việt Nam."
+    },
+    {
+        "text": "công bố danh sách các ngân hàng nộp ngân sách lớn nhất Việt Nam",
+        "label": "EVENT",
+        "evidence": "CafeF mới đây đã công bố danh sách các ngân hàng nộp ngân sách lớn nhất Việt Nam."
+    },
+    {
+        "text": "Ngân hàng TMCP Á Châu",
+        "label": "ORG",
+        "evidence": "Trong đó, Ngân hàng TMCP Á Châu (ACB) tiếp tục nằm trong nhóm ngân hàng tư nhân đóng  ngân sách nhiều nhất năm 2024."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong đó, Ngân hàng TMCP Á Châu (ACB) tiếp tục nằm trong nhóm ngân hàng tư nhân đóng  ngân sách nhiều nhất năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trong đó, Ngân hàng TMCP Á Châu (ACB) tiếp tục nằm trong nhóm ngân hàng tư nhân đóng  ngân sách nhiều nhất năm 2024."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Điều này không chỉ phản ánh hiệu quả kinh doanh vượt trội mà còn thể hiện cam kết mạnh mẽ của ACB đối với trách nhiệm xã hội và sự phát triển bền vững của đất nước."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "5.507 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "tăng 5,6%",
+        "label": "RATE",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "5.214 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "2.569 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, năm 2024, ACB đã nộp ngân sách nhà nước 5.507 tỷ đồng, tăng 5,6% so với năm 2023 (5.214 tỷ đồng) và cao gấp đôi mức ghi nhận năm 2022 (2.569 tỷ đồng), cho thấy đà tăng trưởng ổn định và liên tục."
+    },
+    {
+        "text": "từ năm 2022 đến 2024",
+        "label": "DATE",
+        "evidence": "Lũy kế từ năm 2022 đến 2024, ACB đã đóng góp hơn 13.290 tỷ đồng vào ngân sách quốc gia – một minh chứng rõ nét cho hiệu suất kinh doanh bền vững và khả năng thích ứng với các biến động kinh tế."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Lũy kế từ năm 2022 đến 2024, ACB đã đóng góp hơn 13.290 tỷ đồng vào ngân sách quốc gia – một minh chứng rõ nét cho hiệu suất kinh doanh bền vững và khả năng thích ứng với các biến động kinh tế."
+    },
+    {
+        "text": "13.290 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế từ năm 2022 đến 2024, ACB đã đóng góp hơn 13.290 tỷ đồng vào ngân sách quốc gia – một minh chứng rõ nét cho hiệu suất kinh doanh bền vững và khả năng thích ứng với các biến động kinh tế."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong bảng xếp hạng Top 20 ngân hàng nộp ngân sách lớn nhất Việt Nam, ACB liên tục giữ vị trí cao trong nhóm ngân hàng tư nhân, cùng với Techcombank, VPBank và HDBank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong bảng xếp hạng Top 20 ngân hàng nộp ngân sách lớn nhất Việt Nam, ACB liên tục giữ vị trí cao trong nhóm ngân hàng tư nhân, cùng với Techcombank, VPBank và HDBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong bảng xếp hạng Top 20 ngân hàng nộp ngân sách lớn nhất Việt Nam, ACB liên tục giữ vị trí cao trong nhóm ngân hàng tư nhân, cùng với Techcombank, VPBank và HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong bảng xếp hạng Top 20 ngân hàng nộp ngân sách lớn nhất Việt Nam, ACB liên tục giữ vị trí cao trong nhóm ngân hàng tư nhân, cùng với Techcombank, VPBank và HDBank."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Dự kiến năm 2025, với chiến lược mở rộng tín dụng và tối ưu hóa nguồn thu, ACB sẽ tiếp tục duy trì đà tăng trưởng, củng cố vị thế hàng đầu trong nhóm ngân hàng tư nhân."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Dự kiến năm 2025, với chiến lược mở rộng tín dụng và tối ưu hóa nguồn thu, ACB sẽ tiếp tục duy trì đà tăng trưởng, củng cố vị thế hàng đầu trong nhóm ngân hàng tư nhân."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đóng góp tài chính trực tiếp vào ngân sách, ACB đã khẳng định vai trò là \"ngân hàng của cộng đồng\" thông qua các hoạt động an sinh xã hội đa dạng, tập trung vào hỗ trợ người dân và doanh nghiệp gặp khó khăn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Thời gian qua, ACB triển khai hàng loạt chương trình cụ thể, với tổng giá trị hỗ trợ lên đến hàng nghìn tỷ đồng, không chỉ dừng ở việc quyên góp mà còn thông qua các giải pháp tài chính linh hoạt, giúp cộng đồng tự lực vươn lên."
+    },
+    {
+        "text": "hàng nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thời gian qua, ACB triển khai hàng loạt chương trình cụ thể, với tổng giá trị hỗ trợ lên đến hàng nghìn tỷ đồng, không chỉ dừng ở việc quyên góp mà còn thông qua các giải pháp tài chính linh hoạt, giúp cộng đồng tự lực vươn lên."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trong năm 2024, ACB đã chủ động triển khai gói hỗ trợ tài chính đặc biệt cho khách hàng bị ảnh hưởng trực tiếp bởi bão lũ và thiên tai, bao gồm giảm lãi suất vay từ 1-2% và gói cho vay mới quy mô 1.000 tỷ đồng với lãi suất ưu đãi."
+    },
+    {
+        "text": "ACB đã chủ động triển khai gói hỗ trợ tài chính đặc biệt cho khách hàng bị ảnh hưởng trực tiếp bởi bão lũ và thiên tai, bao gồm giảm lãi suất vay từ 1-2% và gói cho vay mới quy mô 1.000 tỷ đồng với lãi suất ưu đãi",
+        "label": "EVENT",
+        "evidence": "Trong năm 2024, ACB đã chủ động triển khai gói hỗ trợ tài chính đặc biệt cho khách hàng bị ảnh hưởng trực tiếp bởi bão lũ và thiên tai, bao gồm giảm lãi suất vay từ 1-2% và gói cho vay mới quy mô 1.000 tỷ đồng với lãi suất ưu đãi."
+    },
+    {
+        "text": "1-2%",
+        "label": "RATE",
+        "evidence": "Trong năm 2024, ACB đã chủ động triển khai gói hỗ trợ tài chính đặc biệt cho khách hàng bị ảnh hưởng trực tiếp bởi bão lũ và thiên tai, bao gồm giảm lãi suất vay từ 1-2% và gói cho vay mới quy mô 1.000 tỷ đồng với lãi suất ưu đãi."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2024, ACB đã chủ động triển khai gói hỗ trợ tài chính đặc biệt cho khách hàng bị ảnh hưởng trực tiếp bởi bão lũ và thiên tai, bao gồm giảm lãi suất vay từ 1-2% và gói cho vay mới quy mô 1.000 tỷ đồng với lãi suất ưu đãi."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cũng tích cực tham gia các chương trình chăm sóc người yếu thế và cải thiện chất lượng cuộc sống."
+    },
+    {
+        "text": "Tháng 10/2024",
+        "label": "DATE",
+        "evidence": "Tháng 10/2024, ACB đã trao tặng 10 tỷ đồng cho UBND TP. Hồ Chí Minh, dành riêng cho các hoạt động thể thao cộng đồng, bảo vệ môi trường và chăm sóc nhóm người dễ bị tổn thương như người cao tuổi, trẻ em mồ côi và hộ nghèo đô thị."
+    },
+    {
+        "text": "ACB đã trao tặng 10 tỷ đồng cho UBND TP. Hồ Chí Minh",
+        "label": "EVENT",
+        "evidence": "Tháng 10/2024, ACB đã trao tặng 10 tỷ đồng cho UBND TP. Hồ Chí Minh, dành riêng cho các hoạt động thể thao cộng đồng, bảo vệ môi trường và chăm sóc nhóm người dễ bị tổn thương như người cao tuổi, trẻ em mồ côi và hộ nghèo đô thị."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tháng 10/2024, ACB đã trao tặng 10 tỷ đồng cho UBND TP. Hồ Chí Minh, dành riêng cho các hoạt động thể thao cộng đồng, bảo vệ môi trường và chăm sóc nhóm người dễ bị tổn thương như người cao tuổi, trẻ em mồ côi và hộ nghèo đô thị."
+    },
+    {
+        "text": "UBND TP. Hồ Chí Minh",
+        "label": "ORG",
+        "evidence": "Tháng 10/2024, ACB đã trao tặng 10 tỷ đồng cho UBND TP. Hồ Chí Minh, dành riêng cho các hoạt động thể thao cộng đồng, bảo vệ môi trường và chăm sóc nhóm người dễ bị tổn thương như người cao tuổi, trẻ em mồ côi và hộ nghèo đô thị."
+    },
+    {
+        "text": "Xóa nhà tạm, nhà dột nát",
+        "label": "EVENT",
+        "evidence": "Một chương trình khác đáng chú ý là \"Xóa nhà tạm, nhà dột nát\", nơi ACB cam kết hỗ trợ 80 tỷ đồng trong năm 2024, giúp xây mới và sửa chữa hơn 2.000 căn nhà cho các hộ nghèo ở khu vực nông thôn và đô thị."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Một chương trình khác đáng chú ý là \"Xóa nhà tạm, nhà dột nát\", nơi ACB cam kết hỗ trợ 80 tỷ đồng trong năm 2024, giúp xây mới và sửa chữa hơn 2.000 căn nhà cho các hộ nghèo ở khu vực nông thôn và đô thị."
+    },
+    {
+        "text": "cam kết hỗ trợ 80 tỷ đồng trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Một chương trình khác đáng chú ý là \"Xóa nhà tạm, nhà dột nát\", nơi ACB cam kết hỗ trợ 80 tỷ đồng trong năm 2024, giúp xây mới và sửa chữa hơn 2.000 căn nhà cho các hộ nghèo ở khu vực nông thôn và đô thị."
+    },
+    {
+        "text": "80 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Một chương trình khác đáng chú ý là \"Xóa nhà tạm, nhà dột nát\", nơi ACB cam kết hỗ trợ 80 tỷ đồng trong năm 2024, giúp xây mới và sửa chữa hơn 2.000 căn nhà cho các hộ nghèo ở khu vực nông thôn và đô thị."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Một chương trình khác đáng chú ý là \"Xóa nhà tạm, nhà dột nát\", nơi ACB cam kết hỗ trợ 80 tỷ đồng trong năm 2024, giúp xây mới và sửa chữa hơn 2.000 căn nhà cho các hộ nghèo ở khu vực nông thôn và đô thị."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cũng dẫn đầu trong việc hỗ trợ doanh nghiệp nhỏ và vừa (SMEs) – động lực chính của nền kinh tế Việt Nam – thông qua các gói tín dụng ưu đãi."
+    },
+    {
+        "text": "SMEs",
+        "label": "ORG",
+        "evidence": "ACB cũng dẫn đầu trong việc hỗ trợ doanh nghiệp nhỏ và vừa (SMEs) – động lực chính của nền kinh tế Việt Nam – thông qua các gói tín dụng ưu đãi."
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "ACB cũng dẫn đầu trong việc hỗ trợ doanh nghiệp nhỏ và vừa (SMEs) – động lực chính của nền kinh tế Việt Nam – thông qua các gói tín dụng ưu đãi."
+    },
+    {
+        "text": "gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Trong đó, gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024, tập trung vào các doanh nghiệp bị ảnh hưởng bởi lạm phát và suy thoái toàn cầu."
+    },
+    {
+        "text": "40.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024, tập trung vào các doanh nghiệp bị ảnh hưởng bởi lạm phát và suy thoái toàn cầu."
+    },
+    {
+        "text": "20.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024, tập trung vào các doanh nghiệp bị ảnh hưởng bởi lạm phát và suy thoái toàn cầu."
+    },
+    {
+        "text": "SMEs",
+        "label": "ORG",
+        "evidence": "Trong đó, gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024, tập trung vào các doanh nghiệp bị ảnh hưởng bởi lạm phát và suy thoái toàn cầu."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Trong đó, gói hỗ trợ tổng quy mô 40.000 tỷ đồng (trong đó 20.000 tỷ đồng cho SMEs) được triển khai từ đầu năm 2024, tập trung vào các doanh nghiệp bị ảnh hưởng bởi lạm phát và suy thoái toàn cầu."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Những chính sách này đã giúp hàng nghìn doanh nghiệp duy trì hoạt động, bảo vệ việc làm cho lao động và thúc đẩy tăng trưởng địa phương, đặc biệt ở khu vực nông thôn nơi ACB có mạng lưới chi nhánh rộng khắp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Để nâng cao hiệu quả phân phối an sinh, ACB còn tiên phong trong chuyển đổi số hỗ trợ xã hội."
+    },
+    {
+        "text": "triển khai dịch vụ liên kết tài khoản ACB với ứng dụng VNeID",
+        "label": "EVENT",
+        "evidence": "Theo đó, ngân hàng triển khai dịch vụ liên kết tài khoản ACB với ứng dụng VNeID, giúp người dân dễ dàng nhận tiền an sinh xã hội nhân dịp các sự kiện quốc gia như Quốc khánh 2/9."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo đó, ngân hàng triển khai dịch vụ liên kết tài khoản ACB với ứng dụng VNeID, giúp người dân dễ dàng nhận tiền an sinh xã hội nhân dịp các sự kiện quốc gia như Quốc khánh 2/9."
+    },
+    {
+        "text": "VNeID",
+        "label": "ORG",
+        "evidence": "Theo đó, ngân hàng triển khai dịch vụ liên kết tài khoản ACB với ứng dụng VNeID, giúp người dân dễ dàng nhận tiền an sinh xã hội nhân dịp các sự kiện quốc gia như Quốc khánh 2/9."
+    },
+    {
+        "text": "Quốc khánh 2/9",
+        "label": "DATE",
+        "evidence": "Theo đó, ngân hàng triển khai dịch vụ liên kết tài khoản ACB với ứng dụng VNeID, giúp người dân dễ dàng nhận tiền an sinh xã hội nhân dịp các sự kiện quốc gia như Quốc khánh 2/9."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song song với an sinh xã hội, ACB đang dẫn dắt xu hướng phát triển bền vững qua việc tích hợp tiêu chuẩn ESG (Môi trường – Xã hội – Quản trị) vào mọi hoạt động kinh doanh."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Đầu năm 2025 đánh dấu mốc son khi ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép (Báo cáo thường niên và Báo cáo phát triển bền vững), tham chiếu theo chuẩn mực quốc tế GRI và được đảm bảo bởi KPMG."
+    },
+    {
+        "text": "ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép",
+        "label": "EVENT",
+        "evidence": "Đầu năm 2025 đánh dấu mốc son khi ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép (Báo cáo thường niên và Báo cáo phát triển bền vững), tham chiếu theo chuẩn mực quốc tế GRI và được đảm bảo bởi KPMG."
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "Đầu năm 2025 đánh dấu mốc son khi ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép (Báo cáo thường niên và Báo cáo phát triển bền vững), tham chiếu theo chuẩn mực quốc tế GRI và được đảm bảo bởi KPMG."
+    },
+    {
+        "text": "GRI",
+        "label": "ORG",
+        "evidence": "Đầu năm 2025 đánh dấu mốc son khi ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép (Báo cáo thường niên và Báo cáo phát triển bền vững), tham chiếu theo chuẩn mực quốc tế GRI và được đảm bảo bởi KPMG."
+    },
+    {
+        "text": "KPMG",
+        "label": "ORG",
+        "evidence": "Đầu năm 2025 đánh dấu mốc son khi ACB trở thành ngân hàng đầu tiên tại Việt Nam phát hành báo cáo kép (Báo cáo thường niên và Báo cáo phát triển bền vững), tham chiếu theo chuẩn mực quốc tế GRI và được đảm bảo bởi KPMG."
+    },
+    {
+        "text": "gói tín dụng hạn mức ưu đãi 4.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Báo cáo nhấn mạnh cam kết hướng đến giảm phát thải carbon, hướng tới Net Zero, và các sáng kiến hỗ trợ tín dụng xanh như gói tín dụng hạn mức ưu đãi 4.000 tỷ đồng trong năm 2024 dành cho các dự án xanh và xã hội."
+    },
+    {
+        "text": "4.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Báo cáo nhấn mạnh cam kết hướng đến giảm phát thải carbon, hướng tới Net Zero, và các sáng kiến hỗ trợ tín dụng xanh như gói tín dụng hạn mức ưu đãi 4.000 tỷ đồng trong năm 2024 dành cho các dự án xanh và xã hội."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Báo cáo nhấn mạnh cam kết hướng đến giảm phát thải carbon, hướng tới Net Zero, và các sáng kiến hỗ trợ tín dụng xanh như gói tín dụng hạn mức ưu đãi 4.000 tỷ đồng trong năm 2024 dành cho các dự án xanh và xã hội."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về môi trường,ACBđã giảm 267,62 tấn CO2eq trong năm 2023 và 304,32 tấn CO2eq trong 2024 qua các chương trình thu gom rác thải nhựa, tiết kiệm giấy, sử dụng vật liệu tái chế, sử dụng nhiên liệu bền vững..."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Về môi trường,ACBđã giảm 267,62 tấn CO2eq trong năm 2023 và 304,32 tấn CO2eq trong 2024 qua các chương trình thu gom rác thải nhựa, tiết kiệm giấy, sử dụng vật liệu tái chế, sử dụng nhiên liệu bền vững..."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Về môi trường,ACBđã giảm 267,62 tấn CO2eq trong năm 2023 và 304,32 tấn CO2eq trong 2024 qua các chương trình thu gom rác thải nhựa, tiết kiệm giấy, sử dụng vật liệu tái chế, sử dụng nhiên liệu bền vững..."
+    },
+    {
+        "text": "phát hành trái phiếu xanh",
+        "label": "EVENT",
+        "evidence": "Về quản trị, ngân hàng xây dựng khung tài chính bền vững để phát hành trái phiếu xanh, đồng thời đẩy mạnh chuyển đổi số với nền tảng ngân hàng trực tuyến, thanh toán không dùng tiền mặt và hỗ trợ thanh toán xuyên biên giới."
+    },
+    {
+        "text": "trái phiếu xanh",
+        "label": "ASSET",
+        "evidence": "Về quản trị, ngân hàng xây dựng khung tài chính bền vững để phát hành trái phiếu xanh, đồng thời đẩy mạnh chuyển đổi số với nền tảng ngân hàng trực tuyến, thanh toán không dùng tiền mặt và hỗ trợ thanh toán xuyên biên giới."
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "Đến năm 2030, ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực, với trọng tâm vào công nghệ số, ESG và hỗ trợ SMEs, đồng hành cùng Chính phủ và Ngân hàng Nhà nước để thúc đẩy tăng trưởng kinh tế xanh."
+    },
+    {
+        "text": "ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực",
+        "label": "EVENT",
+        "evidence": "Đến năm 2030, ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực, với trọng tâm vào công nghệ số, ESG và hỗ trợ SMEs, đồng hành cùng Chính phủ và Ngân hàng Nhà nước để thúc đẩy tăng trưởng kinh tế xanh."
+    },
+    {
+        "text": "SMEs",
+        "label": "ORG",
+        "evidence": "Đến năm 2030, ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực, với trọng tâm vào công nghệ số, ESG và hỗ trợ SMEs, đồng hành cùng Chính phủ và Ngân hàng Nhà nước để thúc đẩy tăng trưởng kinh tế xanh."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Đến năm 2030, ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực, với trọng tâm vào công nghệ số, ESG và hỗ trợ SMEs, đồng hành cùng Chính phủ và Ngân hàng Nhà nước để thúc đẩy tăng trưởng kinh tế xanh."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Đến năm 2030, ACB đặt mục tiêu trở thành ngân hàng hàng đầu khu vực, với trọng tâm vào công nghệ số, ESG và hỗ trợ SMEs, đồng hành cùng Chính phủ và Ngân hàng Nhà nước để thúc đẩy tăng trưởng kinh tế xanh."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Phát triển bền vững của ACB không chỉ là những con số ấn tượng về nộp ngân sách mà còn là câu chuyện về sự chia sẻ và trách nhiệm với cộng đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với các hoạt động an sinh xã hội thiết thực, từ hỗ trợ thiên tai đến chăm sóc người yếu thế, ACB đã và đang góp phần xây dựng một Việt Nam công bằng hơn, thịnh vượng hơn."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Trong năm 2025 và xa hơn, ngân hàng cam kết tiếp tục hành trình này, khẳng định rằng thành công kinh doanh thực sự phải gắn liền với lợi ích xã hội."
+    }
+]

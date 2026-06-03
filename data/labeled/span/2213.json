@@ -1,0 +1,572 @@
+[
+    {
+        "text": "Tổng công ty Cảng hàng không Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng công ty Cảng hàng không Việt Nam (mã chứng khoán: ACV) vừa công bố kết quả kinh doanh quý 2/2024 với doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Tổng công ty Cảng hàng không Việt Nam (mã chứng khoán: ACV) vừa công bố kết quả kinh doanh quý 2/2024 với doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "kết quả kinh doanh quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Tổng công ty Cảng hàng không Việt Nam (mã chứng khoán: ACV) vừa công bố kết quả kinh doanh quý 2/2024 với doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tổng công ty Cảng hàng không Việt Nam (mã chứng khoán: ACV) vừa công bố kết quả kinh doanh quý 2/2024 với doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "doanh thu tăng 12%",
+        "label": "EVENT",
+        "evidence": "doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "5.535 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu tăng 12% lên 5.535 tỷ đồng."
+    },
+    {
+        "text": "lãi gộp đạt 3.460 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lãi gộp đạt 3.460 tỷ đồng, tăng 17% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "3.460 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi gộp đạt 3.460 tỷ đồng, tăng 17% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "tăng 17% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Doanh thu hoạt động tài chính giảm 9%",
+        "label": "EVENT",
+        "evidence": "Doanh thu hoạt động tài chính giảm 9% còn 827 tỷ đồng do lãi tiền gửi giảm."
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "Doanh thu hoạt động tài chính giảm 9% còn 827 tỷ đồng do lãi tiền gửi giảm."
+    },
+    {
+        "text": "827 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu hoạt động tài chính giảm 9% còn 827 tỷ đồng do lãi tiền gửi giảm."
+    },
+    {
+        "text": "chi phí quản lý doanh nghiệp lại được tiết giảm đến 60%",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên khoản chi phí lớn nhất của ACV là chi phí quản lý doanh nghiệp lại được tiết giảm đến 60% chỉ còn 243 tỷ đồng do giảm trích lập dự phòng nợ phải thu khó đòi từ các hãng hàng không."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "chi phí quản lý doanh nghiệp lại được tiết giảm đến 60% chỉ còn 243 tỷ đồng do giảm trích lập dự phòng nợ phải thu khó đòi từ các hãng hàng không."
+    },
+    {
+        "text": "243 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi phí quản lý doanh nghiệp lại được tiết giảm đến 60% chỉ còn 243 tỷ đồng do giảm trích lập dự phòng nợ phải thu khó đòi từ các hãng hàng không."
+    },
+    {
+        "text": "lợi nhuận sau thuế 3.228 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Kết quả này giúp ACV có lợi nhuận sau thuế 3.228 tỷ đồng, tăng 24% so với cùng kỳ."
+    },
+    {
+        "text": "3.228 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả này giúp ACV có lợi nhuận sau thuế 3.228 tỷ đồng, tăng 24% so với cùng kỳ."
+    },
+    {
+        "text": "24%",
+        "label": "RATE",
+        "evidence": "lợi nhuận sau thuế 3.228 tỷ đồng, tăng 24% so với cùng kỳ."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 6 tháng đầu năm, doanh thu của ACV tăng 16% lên 11.178 tỷ đồng."
+    },
+    {
+        "text": "doanh thu của ACV tăng 16%",
+        "label": "EVENT",
+        "evidence": "doanh thu của ACV tăng 16% lên 11.178 tỷ đồng."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "doanh thu của ACV tăng 16% lên 11.178 tỷ đồng."
+    },
+    {
+        "text": "11.178 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu của ACV tăng 16% lên 11.178 tỷ đồng."
+    },
+    {
+        "text": "Lợi nhuận trước và sau thuế nhờ đó tăng hơn 45%",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước và sau thuế nhờ đó tăng hơn 45% so với cùng kỳ, lần lượt đạt 7.627 tỷ đồng và 6.148 tỷ đồng."
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước và sau thuế nhờ đó tăng hơn 45% so với cùng kỳ, lần lượt đạt 7.627 tỷ đồng và 6.148 tỷ đồng."
+    },
+    {
+        "text": "7.627 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt đạt 7.627 tỷ đồng và 6.148 tỷ đồng."
+    },
+    {
+        "text": "6.148 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt đạt 7.627 tỷ đồng và 6.148 tỷ đồng."
+    },
+    {
+        "text": "Năm nay",
+        "label": "DATE",
+        "evidence": "Năm nay, ACV đặt kế hoạch kỷ lục với doanh thu thuần hơn 20.000 tỷ đồng và lãi trước thuế 9.378 tỷ đồng."
+    },
+    {
+        "text": "kế hoạch kỷ lục với doanh thu thuần hơn 20.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ACV đặt kế hoạch kỷ lục với doanh thu thuần hơn 20.000 tỷ đồng và lãi trước thuế 9.378 tỷ đồng."
+    },
+    {
+        "text": "20.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu thuần hơn 20.000 tỷ đồng và lãi trước thuế 9.378 tỷ đồng."
+    },
+    {
+        "text": "lãi trước thuế 9.378 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lãi trước thuế 9.378 tỷ đồng."
+    },
+    {
+        "text": "9.378 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi trước thuế 9.378 tỷ đồng."
+    },
+    {
+        "text": "56%",
+        "label": "RATE",
+        "evidence": "công ty chuyên khai thác cảng hàng không đã hoàn thành 56% chỉ tiêu doanh thu và 81% mục tiêu lợi nhuận."
+    },
+    {
+        "text": "81%",
+        "label": "RATE",
+        "evidence": "hoàn thành 56% chỉ tiêu doanh thu và 81% mục tiêu lợi nhuận."
+    },
+    {
+        "text": "30/6",
+        "label": "DATE",
+        "evidence": "Tại thời điểm 30/6, ACV có quy mô tổng tài sản hơn 69.800 tỷ đồng, tăng 2.500 tỷ kể từ đầu năm."
+    },
+    {
+        "text": "69.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản hơn 69.800 tỷ đồng, tăng 2.500 tỷ kể từ đầu năm."
+    },
+    {
+        "text": "2.500 tỷ",
+        "label": "MONEY",
+        "evidence": "tăng 2.500 tỷ kể từ đầu năm."
+    },
+    {
+        "text": "26.415 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó lượng tiền và tiền gửi ngân hàng là 26.415 tỷ đồng, chiếm gần 38% tổng tài sản nhưng giảm 8% so với số đầu năm."
+    },
+    {
+        "text": "38%",
+        "label": "RATE",
+        "evidence": "chiếm gần 38% tổng tài sản nhưng giảm 8% so với số đầu năm."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "giảm 8% so với số đầu năm."
+    },
+    {
+        "text": "Chi phí xây dựng dở dang tăng vọt 50%",
+        "label": "EVENT",
+        "evidence": "Chi phí xây dựng dở dang tăng vọt 50% lên mức 11.792 tỷ đồng."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Chi phí xây dựng dở dang tăng vọt 50% lên mức 11.792 tỷ đồng."
+    },
+    {
+        "text": "11.792 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí xây dựng dở dang tăng vọt 50% lên mức 11.792 tỷ đồng."
+    },
+    {
+        "text": "13.780 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các khoản phải thu ngắn hạn của doanh nghiệp ở mức 13.780 tỷ đồng, tăng 1.100 tỷ từ đầu năm."
+    },
+    {
+        "text": "1.100 tỷ",
+        "label": "MONEY",
+        "evidence": "tăng 1.100 tỷ từ đầu năm."
+    },
+    {
+        "text": "nợ xấu của ACV tăng mạnh 45%",
+        "label": "EVENT",
+        "evidence": "Trong đó, nợ xấu của ACV tăng mạnh 45% so với đầu năm lên 8.256 tỷ đồng và tăng 9% so với quý 1/2024."
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "nợ xấu của ACV tăng mạnh 45% so với đầu năm lên 8.256 tỷ đồng và tăng 9% so với quý 1/2024."
+    },
+    {
+        "text": "8.256 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nợ xấu của ACV tăng mạnh 45% so với đầu năm lên 8.256 tỷ đồng và tăng 9% so với quý 1/2024."
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "tăng 9% so với quý 1/2024."
+    },
+    {
+        "text": "quý 1/2024",
+        "label": "DATE",
+        "evidence": "tăng 9% so với quý 1/2024."
+    },
+    {
+        "text": "trích lập dự phòng gần 3.900 tỷ tỷ",
+        "label": "EVENT",
+        "evidence": "Doanh nghiệp phải trích lập dự phòng gần 3.900 tỷ tỷ cho số nợ xấu trên."
+    },
+    {
+        "text": "3.900 tỷ tỷ",
+        "label": "MONEY",
+        "evidence": "trích lập dự phòng gần 3.900 tỷ tỷ cho số nợ xấu trên."
+    },
+    {
+        "text": "cổ phiếu của ACV",
+        "label": "ASSET",
+        "evidence": "Không chỉ kết quả kinh doanh 'thăng hoa', cổ phiếu của ACV cũng liên tục tăng phi mã nhờ hưởng lợi từ điều này, Cụ thể, kết thúc phiên giao dịch ngày 26/7, cổ phiếu của doanh nghiệp này đạt mức 115.000 đồng/cp."
+    },
+    {
+        "text": "ngày 26/7",
+        "label": "DATE",
+        "evidence": "kết thúc phiên giao dịch ngày 26/7, cổ phiếu của doanh nghiệp này đạt mức 115.000 đồng/cp."
+    },
+    {
+        "text": "cổ phiếu của doanh nghiệp này",
+        "label": "ASSET",
+        "evidence": "cổ phiếu của doanh nghiệp này đạt mức 115.000 đồng/cp."
+    },
+    {
+        "text": "115.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "cổ phiếu của doanh nghiệp này đạt mức 115.000 đồng/cp."
+    },
+    {
+        "text": "135.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Dù đã giảm từ mức đỉnh 135.300 đồng/cp thiết lập vào hồi giữa tháng nhưngthị giá ACVđã tăng 75% kể từ đầu năm."
+    },
+    {
+        "text": "thị giá ACVđã tăng 75%",
+        "label": "EVENT",
+        "evidence": "thị giá ACVđã tăng 75% kể từ đầu năm."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "thị giá ACVđã tăng 75% kể từ đầu năm."
+    },
+    {
+        "text": "250.567 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn hóa của ACV đã đạt mức 250.567 tỷ đồng (gần 10 tỷ USD) , tăng 106.000 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "vốn hóa của ACV đã đạt mức 250.567 tỷ đồng (gần 10 tỷ USD) , tăng 106.000 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "106.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 106.000 tỷ đồng so với đầu năm."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "giá trị thị trường của ACV hiện đang xếp thứ 3 trên sàn chứng khoán Việt Nam, vượt Viettel Global, FPT, Hòa Phát, PV Gas..."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "giá trị thị trường của ACV hiện đang xếp thứ 3 trên sàn chứng khoán Việt Nam, vượt Viettel Global, FPT, Hòa Phát, PV Gas..."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "giá trị thị trường của ACV hiện đang xếp thứ 3 trên sàn chứng khoán Việt Nam, vượt Viettel Global, FPT, Hòa Phát, PV Gas..."
+    },
+    {
+        "text": "PV Gas",
+        "label": "ORG",
+        "evidence": "giá trị thị trường của ACV hiện đang xếp thứ 3 trên sàn chứng khoán Việt Nam, vượt Viettel Global, FPT, Hòa Phát, PV Gas..."
+    },
+    {
+        "text": "Chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Trong một báo cáo cập nhật của Chứng khoán SSI, bộ phận phân tích cho biết ACV đã lên kế hoạch kinh doanh kỷ lục trong năm 2023."
+    },
+    {
+        "text": "báo cáo cập nhật của Chứng khoán SSI",
+        "label": "EVENT",
+        "evidence": "Trong một báo cáo cập nhật của Chứng khoán SSI, bộ phận phân tích cho biết ACV đã lên kế hoạch kinh doanh kỷ lục trong năm 2023."
+    },
+    {
+        "text": "kế hoạch kinh doanh kỷ lục trong năm 2023",
+        "label": "EVENT",
+        "evidence": "ACV đã lên kế hoạch kinh doanh kỷ lục trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ACV đã lên kế hoạch kinh doanh kỷ lục trong năm 2023."
+    },
+    {
+        "text": "không có kế hoạch cổ tức cho năm 2023",
+        "label": "EVENT",
+        "evidence": "CTCK này cũng cho biết công ty không có kế hoạch cổ tức cho năm 2023 vì đang chờ chính phủ phê duyệt và sửa đổi luật để trả cổ tức bằng cổ phiếu để có thể dùng vốn chủ sở hữu tài trợ cho khoản đầu tư lớn sắp tới."
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "sửa đổi luật để trả cổ tức bằng cổ phiếu để có thể dùng vốn chủ sở hữu tài trợ cho khoản đầu tư lớn sắp tới."
+    },
+    {
+        "text": "sửa đổi luật",
+        "label": "EVENT",
+        "evidence": "chính phủ phê duyệt và sửa đổi luật để trả cổ tức bằng cổ phiếu để có thể dùng vốn chủ sở hữu tài trợ cho khoản đầu tư lớn sắp tới."
+    },
+    {
+        "text": "tháng 6/tháng 7 năm 2024",
+        "label": "DATE",
+        "evidence": "Ban lãnh đạo dự kiến việc sửa đổi luật sẽ được phê duyệt vào tháng 6/tháng 7 năm 2024."
+    },
+    {
+        "text": "SSI Resarch",
+        "label": "ORG",
+        "evidence": "SSI Resarch cho rằng điều này có thể là yếu tố hỗ trợ mạnh cho giá cổ phiếu."
+    },
+    {
+        "text": "việc xây dựng các dự án trọng điểm sẽ được tiến hành đúng tiến độ",
+        "label": "EVENT",
+        "evidence": "Hơn nữa, công ty cũng kỳ vọng việc xây dựng các dự án trọng điểm sẽ được tiến hành đúng tiến độ, trong đó T3 Tân Sơn Nhất và T2 Nội Bài dự kiến hoàn thành vào năm 2025 và sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026."
+    },
+    {
+        "text": "T3 Tân Sơn Nhất và T2 Nội Bài dự kiến hoàn thành vào năm 2025",
+        "label": "EVENT",
+        "evidence": "T3 Tân Sơn Nhất và T2 Nội Bài dự kiến hoàn thành vào năm 2025 và sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "T3 Tân Sơn Nhất và T2 Nội Bài dự kiến hoàn thành vào năm 2025 và sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026."
+    },
+    {
+        "text": "sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026",
+        "label": "EVENT",
+        "evidence": "sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026."
+    },
+    {
+        "text": "tháng 9/2026",
+        "label": "DATE",
+        "evidence": "sân bay Long Thành dự kiến hoàn thành vào tháng 9/2026."
+    },
+    {
+        "text": "Tổng vốn đầu tư ước tính khoảng 120.000 tỷ đồng (khoảng 5 tỷ USD) cho 3 dự án này",
+        "label": "EVENT",
+        "evidence": "Tổng vốn đầu tư ước tính khoảng 120.000 tỷ đồng (khoảng 5 tỷ USD) cho 3 dự án này."
+    },
+    {
+        "text": "120.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng vốn đầu tư ước tính khoảng 120.000 tỷ đồng (khoảng 5 tỷ USD) cho 3 dự án này."
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "khoảng 5 tỷ USD) cho 3 dự án này."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "SSI Research cũng chop rằng sự phục hồi số lượng hành khách quốc tế tiếp tục là động lực tăng trưởng chính cho năm 2024 và 2025."
+    },
+    {
+        "text": "tổng lượng hành khách tăng 14% trong năm 2024",
+        "label": "EVENT",
+        "evidence": "CTCK này giả định tổng lượng hành khách tăng 14% trong năm 2024 trước khi quay trở lại mức tăng trưởng thông thường trong dài hạn là 10% trong năm 2025."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "tổng lượng hành khách tăng 14% trong năm 2024 trước khi quay trở lại mức tăng trưởng thông thường trong dài hạn là 10% trong năm 2025."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "tổng lượng hành khách tăng 14% trong năm 2024 trước khi quay trở lại mức tăng trưởng thông thường trong dài hạn là 10% trong năm 2025."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "mức tăng trưởng thông thường trong dài hạn là 10% trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "10% trong năm 2025."
+    },
+    {
+        "text": "hành khách nội địa có thể giảm 3% svck trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Trong đó, hành khách nội địa có thể giảm 3% svck trong năm 2024 do một số máy bay bị dừng bay để sửa động cơ trước khi tăng trở lại 5% trong năm 2025."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "hành khách nội địa có thể giảm 3% svck trong năm 2024 do một số máy bay bị dừng bay để sửa động cơ trước khi tăng trở lại 5% trong năm 2025."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "tăng trở lại 5% trong năm 2025."
+    },
+    {
+        "text": "hành khách quốc tế dự kiến sẽ tăng 67% trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Trong khi đó hành khách quốc tế dự kiến sẽ tăng 67% trong năm 2024 và 18% trong năm 2025."
+    },
+    {
+        "text": "67%",
+        "label": "RATE",
+        "evidence": "hành khách quốc tế dự kiến sẽ tăng 67% trong năm 2024 và 18% trong năm 2025."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "18% trong năm 2025."
+    },
+    {
+        "text": "JPY sẽ biến động không đáng kể trong năm nay so với đồng VNĐ",
+        "label": "EVENT",
+        "evidence": "CTCK này cho rằng JPY sẽ biến động không đáng kể trong năm nay so với đồng VNĐ."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "JPY sẽ biến động không đáng kể trong năm nay so với đồng VNĐ."
+    },
+    {
+        "text": "SSI Resarch",
+        "label": "ORG",
+        "evidence": "Ngược lại, trong năm tới SSI Resarch kỳ vọng JPY sẽ tăng giá 2-3% sẽ gây ra khoản lỗ tỷ giá 340 tỷ đồng trong năm 2025."
+    },
+    {
+        "text": "JPY sẽ tăng giá 2-3%",
+        "label": "EVENT",
+        "evidence": "JPY sẽ tăng giá 2-3% sẽ gây ra khoản lỗ tỷ giá 340 tỷ đồng trong năm 2025."
+    },
+    {
+        "text": "2-3%",
+        "label": "RATE",
+        "evidence": "JPY sẽ tăng giá 2-3% sẽ gây ra khoản lỗ tỷ giá 340 tỷ đồng trong năm 2025."
+    },
+    {
+        "text": "khoản lỗ tỷ giá 340 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khoản lỗ tỷ giá 340 tỷ đồng trong năm 2025."
+    },
+    {
+        "text": "340 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoản lỗ tỷ giá 340 tỷ đồng trong năm 2025."
+    },
+    {
+        "text": "ACV có thể cắt giảm dần dự phòng trong giai đoạn 2024- 2025",
+        "label": "EVENT",
+        "evidence": "Về mặt chi phí, đơn vị phân tích này cho rằng ACV có thể cắt giảm dần dự phòng trong giai đoạn 2024- 2025 do nợ khó đòi đối với các hãng hàng không từ năm nay, do các hãng hàng không đã cải thiện được dòng tiền (HVN, VJC) hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "giai đoạn 2024- 2025",
+        "label": "DATE",
+        "evidence": "ACV có thể cắt giảm dần dự phòng trong giai đoạn 2024- 2025 do nợ khó đòi đối với các hãng hàng không từ năm nay, do các hãng hàng không đã cải thiện được dòng tiền (HVN, VJC) hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "do các hãng hàng không đã cải thiện được dòng tiền (HVN, VJC) hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "VJC",
+        "label": "TICKER",
+        "evidence": "do các hãng hàng không đã cải thiện được dòng tiền (HVN, VJC) hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "Pacific Airways",
+        "label": "ORG",
+        "evidence": "hoặc cắt giảm quy mô (Bamboo Airways, Pacific Airways)."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Về dự án sân bay Long Thành, SSI Research dự báo dự án sẽ đi vào hoạt động từ năm 2027."
+    },
+    {
+        "text": "dự án sẽ đi vào hoạt động từ năm 2027",
+        "label": "EVENT",
+        "evidence": "dự án sẽ đi vào hoạt động từ năm 2027."
+    },
+    {
+        "text": "năm 2027",
+        "label": "DATE",
+        "evidence": "dự án sẽ đi vào hoạt động từ năm 2027."
+    },
+    {
+        "text": "100.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với vốn đầu tư 100.000 tỷ đồng và thời gian khấu hao 20 năm, ACV sẽ phải ghi nhận thêm 5.000 tỷ đồng/năm chi phí khấu hao vào năm 2027, điều này sẽ làm giảm tốc độ tăng trưởng của ACV trong năm đó."
+    },
+    {
+        "text": "ghi nhận thêm 5.000 tỷ đồng/năm chi phí khấu hao vào năm 2027",
+        "label": "EVENT",
+        "evidence": "ACV sẽ phải ghi nhận thêm 5.000 tỷ đồng/năm chi phí khấu hao vào năm 2027, điều này sẽ làm giảm tốc độ tăng trưởng của ACV trong năm đó."
+    },
+    {
+        "text": "5.000 tỷ đồng/năm",
+        "label": "MONEY",
+        "evidence": "ghi nhận thêm 5.000 tỷ đồng/năm chi phí khấu hao vào năm 2027, điều này sẽ làm giảm tốc độ tăng trưởng của ACV trong năm đó."
+    }
+]

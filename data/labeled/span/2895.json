@@ -1,0 +1,132 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT cho biết, Nhật Bản - thị trường xuất khẩu dịch vụ CNTT quan trọng nhất của doanh nghiệp này chính thức vượt mốc doanh thu 500 triệu USD."
+    },
+    {
+        "text": "vượt mốc doanh thu 500 triệu USD",
+        "label": "EVENT",
+        "evidence": "FPT cho biết, Nhật Bản - thị trường xuất khẩu dịch vụ CNTT quan trọng nhất của doanh nghiệp này chính thức vượt mốc doanh thu 500 triệu USD."
+    },
+    {
+        "text": "500 triệu USD",
+        "label": "MONEY",
+        "evidence": "chính thức vượt mốc doanh thu 500 triệu USD."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Cụ thể, doanh thu của FPT tại xứ xở anh đào đã tăng trưởng 32.2% so với cùng kỳ (tăng 36,3% theo Yên Nhật), bất chấp sự suy yếu của đồng yên."
+    },
+    {
+        "text": "32.2%",
+        "label": "RATE",
+        "evidence": "doanh thu của FPT tại xứ xở anh đào đã tăng trưởng 32.2% so với cùng kỳ (tăng 36,3% theo Yên Nhật), bất chấp sự suy yếu của đồng yên."
+    },
+    {
+        "text": "36,3%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 32.2% so với cùng kỳ (tăng 36,3% theo Yên Nhật), bất chấp sự suy yếu của đồng yên."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT là doanh nghiệp có quy mô nhân sự lớn hàng đầu Nhật Bản."
+    },
+    {
+        "text": "các thương vụ M&A với NAC",
+        "label": "EVENT",
+        "evidence": "Các dấu mốc của doanh nghiệp này trong năm qua là các thương vụ M&A với NAC - công ty công nghệ Nhật Bản, xúc tiến những hợp tác chiến lược với NVIDIA - Tập đoàn công nghệ đa quốc gia hàng đầu thế giới để thành lập “nhà máy” AI, thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "NAC",
+        "label": "ORG",
+        "evidence": "các thương vụ M&A với NAC - công ty công nghệ Nhật Bản, xúc tiến những hợp tác chiến lược với NVIDIA - Tập đoàn công nghệ đa quốc gia hàng đầu thế giới để thành lập “nhà máy” AI, thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "xúc tiến những hợp tác chiến lược với NVIDIA để thành lập “nhà máy” AI",
+        "label": "EVENT",
+        "evidence": "xúc tiến những hợp tác chiến lược với NVIDIA - Tập đoàn công nghệ đa quốc gia hàng đầu thế giới để thành lập “nhà máy” AI, thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "hợp tác chiến lược với NVIDIA - Tập đoàn công nghệ đa quốc gia hàng đầu thế giới để thành lập “nhà máy” AI, thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "thành lập liên doanh với tập đoàn công nghệ SCSK",
+        "label": "EVENT",
+        "evidence": "thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "SCSK",
+        "label": "ORG",
+        "evidence": "thành lập liên doanh với tập đoàn công nghệ SCSK - Doanh nghiệp lớn tại Nhật Bản chuyên về các giải pháp công nghệ toàn diện cho đa lĩnh vực, Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "Konica Minolta",
+        "label": "ORG",
+        "evidence": "Konica Minolta – Tập đoàn Nhật cung cấp các giải pháp kỹ thuật số dành cho văn phòng,..."
+    },
+    {
+        "text": "mở văn phòng thứ 17 tại Nhật Bản",
+        "label": "EVENT",
+        "evidence": "Gần đây nhất, công ty đã mở văn phòng thứ 17 tại Nhật Bản với tổng diện tích mặt sàn gần 3.000m2, tọa lạc tại quận Mita – khu vực đắt đỏ và cao cấp bậc nhất Tokyo."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã công bố đầu tư 125 tỷ đồng cho chương trình đào tạo hơn 3.000 nhân sự công nghệ thông tin và truyền thông (ICT) chất lượng cao cho thị trường Nhật Bản, đáp ứng sự thiếu hụt nguồn lực của thị trường này."
+    },
+    {
+        "text": "công bố đầu tư 125 tỷ đồng cho chương trình đào tạo hơn 3.000 nhân sự công nghệ thông tin và truyền thông (ICT) chất lượng cao cho thị trường Nhật Bản",
+        "label": "EVENT",
+        "evidence": "FPT đã công bố đầu tư 125 tỷ đồng cho chương trình đào tạo hơn 3.000 nhân sự công nghệ thông tin và truyền thông (ICT) chất lượng cao cho thị trường Nhật Bản, đáp ứng sự thiếu hụt nguồn lực của thị trường này."
+    },
+    {
+        "text": "125 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "FPT đã công bố đầu tư 125 tỷ đồng cho chương trình đào tạo hơn 3.000 nhân sự công nghệ thông tin và truyền thông (ICT) chất lượng cao cho thị trường Nhật Bản, đáp ứng sự thiếu hụt nguồn lực của thị trường này."
+    },
+    {
+        "text": "nửa tỷ USD",
+        "label": "MONEY",
+        "evidence": "“Sau cột mốc doanh thu nửa tỷ USD, FPT hướng tới mục tiêu đưa Nhật Bản trở thành thị trường đạt doanh thu tỷ USD, sánh với với top 15 công ty IT lớn tại Nhật Bản vào năm 2027."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "“Sau cột mốc doanh thu nửa tỷ USD, FPT hướng tới mục tiêu đưa Nhật Bản trở thành thị trường đạt doanh thu tỷ USD, sánh với với top 15 công ty IT lớn tại Nhật Bản vào năm 2027."
+    },
+    {
+        "text": "tỷ USD",
+        "label": "MONEY",
+        "evidence": "FPT hướng tới mục tiêu đưa Nhật Bản trở thành thị trường đạt doanh thu tỷ USD, sánh với với top 15 công ty IT lớn tại Nhật Bản vào năm 2027."
+    },
+    {
+        "text": "năm 2027",
+        "label": "DATE",
+        "evidence": "thị trường đạt doanh thu tỷ USD, sánh với với top 15 công ty IT lớn tại Nhật Bản vào năm 2027."
+    },
+    {
+        "text": "Đỗ Văn Khắc",
+        "label": "PERSON",
+        "evidence": "ông Đỗ Văn Khắc - Phó Tổng Giám đốc FPT Software, kiêm Tổng Giám đốc FPT Japan,Tập đoàn FPT, chia sẻ."
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "ông Đỗ Văn Khắc - Phó Tổng Giám đốc FPT Software, kiêm Tổng Giám đốc FPT Japan,Tập đoàn FPT, chia sẻ."
+    },
+    {
+        "text": "FPT Japan",
+        "label": "ORG",
+        "evidence": "Phó Tổng Giám đốc FPT Software, kiêm Tổng Giám đốc FPT Japan,Tập đoàn FPT, chia sẻ."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "kiêm Tổng Giám đốc FPT Japan,Tập đoàn FPT, chia sẻ."
+    }
+]

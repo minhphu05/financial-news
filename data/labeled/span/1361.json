@@ -1,0 +1,492 @@
+[
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Chính phủ đã hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank"
+    },
+    {
+        "text": "hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank",
+        "label": "EVENT",
+        "evidence": "Chính phủ đã hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Chính phủ đã hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Chính phủ đã hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Chính phủ đã hoàn thiện hồ sơ tăng vốn cho Vietcombank, BIDV,VietinBank"
+    },
+    {
+        "text": "trình cấp có thẩm quyền Phương án đầu tư bổ sung vốn nhà nước tại ngân hàngVietcombank",
+        "label": "EVENT",
+        "evidence": "Chính phủ đã trình cấp có thẩm quyền Phương án đầu tư bổ sung vốn nhà nước tại ngân hàngVietcombank."
+    },
+    {
+        "text": "hoàn thiện hồ sơ tăng vốn điều lệ đối với các ngân hàng Vietcombank, BIDV, Vietinbank và Ngân hàng Hợp tác xã",
+        "label": "EVENT",
+        "evidence": "Đồng thời, hoàn thiện hồ sơ tăng vốn điều lệ đối với các ngân hàng Vietcombank, BIDV, Vietinbank và Ngân hàng Hợp tác xã."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "hoàn thiện hồ sơ tăng vốn điều lệ đối với các ngân hàng Vietcombank, BIDV, Vietinbank và Ngân hàng Hợp tác xã."
+    },
+    {
+        "text": "Ngân hàng Hợp tác xã",
+        "label": "ORG",
+        "evidence": "hoàn thiện hồ sơ tăng vốn điều lệ đối với các ngân hàng Vietcombank, BIDV, Vietinbank và Ngân hàng Hợp tác xã."
+    },
+    {
+        "text": "hoàn thiện các thủ tục chuyển cấp bổ sung vốn điều lệ cho ngân hàng Agribank",
+        "label": "EVENT",
+        "evidence": "Chính phủ cũng đã hoàn thiện các thủ tục chuyển cấp bổ sung vốn điều lệ cho ngân hàng Agribank theo các Nghị quyết, Quyết định của Quốc hội, Thủ tướng Chính phủ."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Chính phủ cũng đã hoàn thiện các thủ tục chuyển cấp bổ sung vốn điều lệ cho ngân hàng Agribank theo các Nghị quyết, Quyết định của Quốc hội, Thủ tướng Chính phủ."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Chính phủ cũng đã hoàn thiện các thủ tục chuyển cấp bổ sung vốn điều lệ cho ngân hàng Agribank theo các Nghị quyết, Quyết định của Quốc hội, Thủ tướng Chính phủ."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Chính phủ cũng đã hoàn thiện các thủ tục chuyển cấp bổ sung vốn điều lệ cho ngân hàng Agribank theo các Nghị quyết, Quyết định của Quốc hội, Thủ tướng Chính phủ."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "hệ thống các TCTD cả về quy mô vốn, tài sản, huy động vốn và tín dụng."
+    },
+    {
+        "text": "chiều 24/9",
+        "label": "DATE",
+        "evidence": "tại phiên họp thứ 37, chiều 24/9, Ủy ban Thường vụ Quốc hội đã xem xét việc đầu tư bổ sung vốn nhà nước tại Vietcombank theo tờ trình của Chính phủ."
+    },
+    {
+        "text": "Ủy ban Thường vụ Quốc hội",
+        "label": "ORG",
+        "evidence": "chiều 24/9, Ủy ban Thường vụ Quốc hội đã xem xét việc đầu tư bổ sung vốn nhà nước tại Vietcombank theo tờ trình của Chính phủ."
+    },
+    {
+        "text": "xem xét việc đầu tư bổ sung vốn nhà nước tại Vietcombank",
+        "label": "EVENT",
+        "evidence": "Ủy ban Thường vụ Quốc hội đã xem xét việc đầu tư bổ sung vốn nhà nước tại Vietcombank theo tờ trình của Chính phủ."
+    },
+    {
+        "text": "Nguyễn Thị Hồng",
+        "label": "PERSON",
+        "evidence": "Thống đốc Ngân hàng Nhà nước Nguyễn Thị Hồng cho biết"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Thống đốc Ngân hàng Nhà nước Nguyễn Thị Hồng cho biết"
+    },
+    {
+        "text": "quyết định chủ trương đầu tư bổ sung vốn nhà nước tại Vietcombank",
+        "label": "EVENT",
+        "evidence": "trình Quốc hội quyết định chủ trương đầu tư bổ sung vốn nhà nước tại Vietcombank với số tiền hơn 20.695 tỷ đồng."
+    },
+    {
+        "text": "hơn 20.695 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank với số tiền hơn 20.695 tỷ đồng."
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Nguồn vốn đầu tư bổ sung từ cổ tức bằng cổ phiếu được chia của cổ đông nhà nước"
+    },
+    {
+        "text": "hết năm 2018",
+        "label": "DATE",
+        "evidence": "lợi nhuận còn lại lũy kế đến hết năm 2018 và lợi nhuận còn lại năm 2021 của Vietcombank"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "lợi nhuận còn lại lũy kế đến hết năm 2018 và lợi nhuận còn lại năm 2021 của Vietcombank"
+    },
+    {
+        "text": "Vũ Hồng Thanh",
+        "label": "PERSON",
+        "evidence": "Chủ nhiệm Ủy ban Kinh tế Vũ Hồng Thanh cho hay"
+    },
+    {
+        "text": "Ủy ban Kinh tế",
+        "label": "ORG",
+        "evidence": "Chủ nhiệm Ủy ban Kinh tế Vũ Hồng Thanh cho hay"
+    },
+    {
+        "text": "Trần Thanh Mẫn",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Quốc hội Trần Thanh Mẫn cũng cho biết"
+    },
+    {
+        "text": "kế hoạch tăng vốn",
+        "label": "EVENT",
+        "evidence": "Vietcombank, BIDV và VietinBank còn nhiều kế hoạch tăng vốn chưa được phê duyệt"
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "nhóm Big4 hiện rất cần tăng vốn để giữ vững vai trò dẫn dắt ngành ngân hàng Việt Nam."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "vốn điều lệ đã bị các ngân hàng tư nhân lớn như Techcombank và VPBank vượt qua."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "vốn điều lệ đã bị các ngân hàng tư nhân lớn như Techcombank và VPBank vượt qua."
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "các ngân hàng cổ phần tư nhân đã ồ ạt trả cổ tức bằng cổ phiếu để tăng vốn điều lệ"
+    },
+    {
+        "text": "kế hoạch phân phối lợi nhuận",
+        "label": "EVENT",
+        "evidence": "Đại hội đồng cổ đông đã thông qua nhiều kế hoạch phân phối lợi nhuận."
+    },
+    {
+        "text": "Đại hội đồng cổ đông",
+        "label": "ORG",
+        "evidence": "Đại hội đồng cổ đông đã thông qua nhiều kế hoạch phân phối lợi nhuận."
+    },
+    {
+        "text": "phát hành gần 857 triệu cổ phiếu trả cổ tức còn lại của năm 2019 và 2020",
+        "label": "EVENT",
+        "evidence": "Sau đợt phát hành gần 857 triệu cổ phiếu trả cổ tức còn lại của năm 2019 và 2020 vào tháng 8/2023"
+    },
+    {
+        "text": "gần 857 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành gần 857 triệu cổ phiếu trả cổ tức còn lại của năm 2019 và 2020"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "phát hành gần 857 triệu cổ phiếu trả cổ tức còn lại của năm 2019 và 2020"
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "trả cổ tức còn lại của năm 2019 và 2020"
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "evidence": "trả cổ tức còn lại của năm 2019 và 2020"
+    },
+    {
+        "text": "tháng 8/2023",
+        "label": "DATE",
+        "evidence": "vào tháng 8/2023"
+    },
+    {
+        "text": "chi trả cổ tức",
+        "label": "EVENT",
+        "evidence": "liên quan đến việc chi trả cổ tức trong năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "chi trả cổ tức trong năm 2024"
+    },
+    {
+        "text": "3 phương án tăng vốn",
+        "label": "EVENT",
+        "evidence": "dù đang thực hiện cùng lúc 3 phương án tăng vốn."
+    },
+    {
+        "text": "HĐQT Vietcombank",
+        "label": "ORG",
+        "evidence": "HĐQT Vietcombank đã phê duyệt phương án phân phối lợi nhuận năm 2022"
+    },
+    {
+        "text": "phê duyệt phương án phân phối lợi nhuận năm 2022",
+        "label": "EVENT",
+        "evidence": "HĐQT Vietcombank đã phê duyệt phương án phân phối lợi nhuận năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "phân phối lợi nhuận năm 2022"
+    },
+    {
+        "text": "21.680 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sử dụng 21.680 tỷ đồng lợi nhuận còn lại của năm 2022"
+    },
+    {
+        "text": "sử dụng 21.680 tỷ đồng lợi nhuận còn lại của năm 2022 để trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "ngân hàng này sẽ sử dụng 21.680 tỷ đồng lợi nhuận còn lại của năm 2022 để trả cổ tức bằng cổ phiếu theo phương án phân phối lợi nhuận đã được ĐHĐCĐ thường niên năm 2023 thông qua."
+    },
+    {
+        "text": "phương án phân phối lợi nhuận đã được ĐHĐCĐ thường niên năm 2023 thông qua",
+        "label": "EVENT",
+        "evidence": "theo phương án phân phối lợi nhuận đã được ĐHĐCĐ thường niên năm 2023 thông qua."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "phương án phân phối lợi nhuận đã được ĐHĐCĐ thường niên năm 2023 thông qua."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ĐHĐCĐ thường niên năm 2023 thông qua."
+    },
+    {
+        "text": "ĐHĐCĐ bất thường Vietcombank",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ bất thường Vietcombank năm 2023 cũng đã thông qua kế hoạch tăng vốn tối đa 27.685 tỷ đồng"
+    },
+    {
+        "text": "thông qua kế hoạch tăng vốn tối đa 27.685 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ĐHĐCĐ bất thường Vietcombank năm 2023 cũng đã thông qua kế hoạch tăng vốn tối đa 27.685 tỷ đồng từ lợi nhuận còn lại của 2021 và lợi nhuận còn lại lũy kế đến trước năm 2018"
+    },
+    {
+        "text": "27.685 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "kế hoạch tăng vốn tối đa 27.685 tỷ đồng"
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "lợi nhuận còn lại của 2021"
+    },
+    {
+        "text": "trước năm 2018",
+        "label": "DATE",
+        "evidence": "lợi nhuận còn lại lũy kế đến trước năm 2018"
+    },
+    {
+        "text": "thường niên 2024",
+        "label": "DATE",
+        "evidence": "Tại Đại hội đồng cổ đông (ĐHĐCĐ) thường niên 2024, Vietcombank cho biết"
+    },
+    {
+        "text": "32.438 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong năm 2023 là 32.438 tỷ đồng."
+    },
+    {
+        "text": "24.987 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận còn lại là 24.987 tỷ đồng."
+    },
+    {
+        "text": "Đại hội cổ đông",
+        "label": "ORG",
+        "evidence": "Theo tờ trình đã được Đại hội cổ đông thông qua"
+    },
+    {
+        "text": "chia cổ tức",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ dùng toàn bộ số lợi nhuận này để chia cổ tức."
+    },
+    {
+        "text": "tiền mặt",
+        "label": "ASSET",
+        "evidence": "cổ phiếu hay tiền mặt"
+    },
+    {
+        "text": "các kế hoạch tăng vốn",
+        "label": "EVENT",
+        "evidence": "Nếu thực hiện hết các kế hoạch tăng vốn trên"
+    },
+    {
+        "text": "hơn 70.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có thể tăng thêm tối đa hơn 70.000 tỷ đồng."
+    },
+    {
+        "text": "trả cổ tức",
+        "label": "EVENT",
+        "evidence": "BIDV cũng chưa công bố việc trả cổ tức trong năm 2024."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "diễn ra vào tháng 12/2023"
+    },
+    {
+        "text": "hai phương án phân phối lợi nhuận",
+        "label": "EVENT",
+        "evidence": "BIDV có hai phương án phân phối lợi nhuận đã được cổ đông thông qua"
+    },
+    {
+        "text": "thông qua phương án phát hành thêm gần 1,2 tỷ cổ phiếu để trả cổ tức năm 2022",
+        "label": "EVENT",
+        "evidence": "BIDV đã thông qua phương án phát hành thêm gần 1,2 tỷ cổ phiếu để trả cổ tức năm 2022"
+    },
+    {
+        "text": "gần 1,2 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành thêm gần 1,2 tỷ cổ phiếu"
+    },
+    {
+        "text": "cổ tức",
+        "label": "ASSET",
+        "evidence": "trả cổ tức năm 2022"
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "tương ứng tỷ lệ 21% số cổ phiếu đang lưu hành vào cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "cuối năm 2023"
+    },
+    {
+        "text": "năm 2024 - 2025",
+        "label": "DATE",
+        "evidence": "Thời gian thực hiện dự kiến trong năm 2024 - 2025."
+    },
+    {
+        "text": "phương án phân phối lợi nhuận năm 2023",
+        "label": "EVENT",
+        "evidence": "Về phương án phân phối lợi nhuận năm 2023"
+    },
+    {
+        "text": "hơn 15.491 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV là hơn 15.491 tỷ đồng."
+    },
+    {
+        "text": "chi 12.347 tỷ đồng để chia cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ngân hàng dự kiến chi 12.347 tỷ đồng để chia cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "12.347 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi 12.347 tỷ đồng để chia cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "53.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ tăng lên 53.700 tỷ đồng."
+    },
+    {
+        "text": "hơn 13.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2023 là hơn 13.900 tỷ đồng"
+    },
+    {
+        "text": "sử dụng toàn bộ lợi nhuận sau khi trích lập các quỹ của năm 2023 là hơn 13.900 tỷ đồng để chia cổ tức, tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "ban lãnh đạo VietinBank tiếp tục trình tới các cổ đông phương án sử dụng toàn bộ lợi nhuận sau khi trích lập các quỹ của năm 2023 là hơn 13.900 tỷ đồng để chia cổ tức, tăng vốn điều lệ."
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "để chia cổ tức, tăng vốn điều lệ."
+    },
+    {
+        "text": "Trần Minh Bình",
+        "label": "PERSON",
+        "evidence": "ông Trần Minh Bình chia sẻ."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "ý kiến của Ngân hàng Nhà nước (NHNN) và Bộ Tài chính"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) và Bộ Tài chính cho phép giữ lại toàn bộ lợi nhuận năm 2022"
+    },
+    {
+        "text": "11.678 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2022 (11.678 tỷ đồng) để tăng vốn"
+    },
+    {
+        "text": "giữ lại toàn bộ lợi nhuận năm 2022 (11.678 tỷ đồng) để tăng vốn thông qua chia cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "cho phép giữ lại toàn bộ lợi nhuận năm 2022 (11.678 tỷ đồng) để tăng vốn thông qua chia cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "kế hoạch tăng vốn điều lệ thêm 12.330 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ngân hàng còn kế hoạch tăng vốn điều lệ thêm 12.330 tỷ đồng từ nguồn lợi nhuận còn lại từ năm 2021 và lợi nhuận còn lại lũy kế đến hết năm 2016."
+    },
+    {
+        "text": "12.330 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng vốn điều lệ thêm 12.330 tỷ đồng"
+    },
+    {
+        "text": "hết năm 2016",
+        "label": "DATE",
+        "evidence": "lợi nhuận còn lại lũy kế đến hết năm 2016."
+    },
+    {
+        "text": "trên 91.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sẽ tăng lên trên 91.000 tỷ đồng."
+    },
+    {
+        "text": "phê duyệt chủ trương cho phép ngân hàng được giữ lại toàn bộ lợi nhuận hàng năm của giai đoạn 2024 - 2028 để tăng vốn, nâng cao năng lực tài chính, mở rộng dư địa tăng trưởng tín dụng",
+        "label": "EVENT",
+        "evidence": "VietinBank cũng đã đề xuất các cơ quan có thẩm quyền phê duyệt chủ trương cho phép ngân hàng được giữ lại toàn bộ lợi nhuận hàng năm của giai đoạn 2024 - 2028 để tăng vốn, nâng cao năng lực tài chính, mở rộng dư địa tăng trưởng tín dụng."
+    },
+    {
+        "text": "giai đoạn 2024 - 2028",
+        "label": "DATE",
+        "evidence": "lợi nhuận hàng năm của giai đoạn 2024 - 2028"
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tính đến cuối quý 2/2024, lợi nhuận chưa phân phối của Vietcombank, VietinBank và BIDV lần lượt ở mức 90.613 tỷ đồng, 49.924 tỷ đồng và 40.141 tỷ đồng"
+    },
+    {
+        "text": "90.613 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt ở mức 90.613 tỷ đồng, 49.924 tỷ đồng và 40.141 tỷ đồng"
+    },
+    {
+        "text": "49.924 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt ở mức 90.613 tỷ đồng, 49.924 tỷ đồng và 40.141 tỷ đồng"
+    },
+    {
+        "text": "40.141 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt ở mức 90.613 tỷ đồng, 49.924 tỷ đồng và 40.141 tỷ đồng"
+    },
+    {
+        "text": "Big3",
+        "label": "ORG",
+        "evidence": "nhóm Big3 còn rất nhiều dư địa để chia cổ tức, tăng vốn điều lệ."
+    },
+    {
+        "text": "chia cổ tức, tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "nhóm Big3 còn rất nhiều dư địa để chia cổ tức, tăng vốn điều lệ."
+    }
+]

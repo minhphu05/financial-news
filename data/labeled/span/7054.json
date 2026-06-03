@@ -1,0 +1,377 @@
+[
+    {
+        "text": "Tập đoàn Lộc Trời",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo Tập đoàn Lộc Trời (mã chứng khoán LTG) cho biết"
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "mã chứng khoán LTG"
+    },
+    {
+        "text": "Đại hội cổ đông",
+        "label": "EVENT",
+        "evidence": "Tại Đại hội cổ đông mới đây"
+    },
+    {
+        "text": "Ban tái cấu trúc",
+        "label": "ORG",
+        "evidence": "tập đoàn đã thành lập Ban tái cấu trúc nhằm đưa doanh nghiệp vượt qua khủng hoảng tài chính hiện nay."
+    },
+    {
+        "text": "thành lập Ban tái cấu trúc",
+        "label": "EVENT",
+        "evidence": "tập đoàn đã thành lập Ban tái cấu trúc nhằm đưa doanh nghiệp vượt qua khủng hoảng tài chính hiện nay."
+    },
+    {
+        "text": "6.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "6.000 tỷ đồng nợ xấu"
+    },
+    {
+        "text": "đàm phán gia hạn các khoản nợ",
+        "label": "EVENT",
+        "evidence": "Một trong các mục tiêu quan trọng là đàm phán gia hạn các khoản nợ có tổng giá trị hơn 6.000 tỷ đồng với 12 ngân hàng"
+    },
+    {
+        "text": "hơn 6.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có tổng giá trị hơn 6.000 tỷ đồng với 12 ngân hàng"
+    },
+    {
+        "text": "vay thêm được vốn lưu động",
+        "label": "EVENT",
+        "evidence": "vay thêm được vốn lưu động đề duy trì hoạt động kinh doanh."
+    },
+    {
+        "text": "quý I/2024",
+        "label": "DATE",
+        "evidence": "tình hình tài chính của tập đoàn là quý I/2024"
+    },
+    {
+        "text": "khoảng 6.150 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lộc Trời vay tín chấp khoảng 6.150 tỷ đồng."
+    },
+    {
+        "text": "1.063 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với 1.063 tỷ đồng"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "tiếp đến là TPBank 768 tỷ đồng"
+    },
+    {
+        "text": "768 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TPBank 768 tỷ đồng"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB là 720 tỷ đồng"
+    },
+    {
+        "text": "720 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MB là 720 tỷ đồng"
+    },
+    {
+        "text": "Malayan Banking Berhad",
+        "label": "ORG",
+        "evidence": "như Malayan Banking Berhad hơn 900 tỷ đồng"
+    },
+    {
+        "text": "hơn 900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 900 tỷ đồng"
+    },
+    {
+        "text": "UOB Việt Nam",
+        "label": "ORG",
+        "evidence": "UOB Việt Nam gần 700 tỷ đồng."
+    },
+    {
+        "text": "gần 700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "UOB Việt Nam gần 700 tỷ đồng."
+    },
+    {
+        "text": "đặt ra mục tiêu đàm phán tái cơ cấu nợ với 12 ngân hàng",
+        "label": "EVENT",
+        "evidence": "Ban tái cấu trúc của Lộc Trời đã đặt ra mục tiêu đàm phán tái cơ cấu nợ với 12 ngân hàng"
+    },
+    {
+        "text": "vay thêm khoảng 1.300 tỷ đồng vốn lưu động",
+        "label": "EVENT",
+        "evidence": "đồng thời, vay thêm khoảng 1.300 tỷ đồng vốn lưu động để duy trì hoạt động kinh doanh."
+    },
+    {
+        "text": "1.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vay thêm khoảng 1.300 tỷ đồng vốn lưu động"
+    },
+    {
+        "text": "đạt được phương án tái cấu trúc với MB",
+        "label": "EVENT",
+        "evidence": "Lộc Trời đã đạt được phương án tái cấu trúc với MB có được vốn lưu động 250 tỷ đồng."
+    },
+    {
+        "text": "có được vốn lưu động 250 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "có được vốn lưu động 250 tỷ đồng."
+    },
+    {
+        "text": "250 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn lưu động 250 tỷ đồng."
+    },
+    {
+        "text": "phê duyệt chủ trương tái cấu trúc nợ",
+        "label": "EVENT",
+        "evidence": "TPBank đã phê duyệt chủ trương tái cấu trúc nợ"
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "dự kiến trong tháng 8 sẽ mang về nguồn vốn lưu động dự kiến là 650 tỷ đồng."
+    },
+    {
+        "text": "mang về nguồn vốn lưu động dự kiến là 650 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "dự kiến trong tháng 8 sẽ mang về nguồn vốn lưu động dự kiến là 650 tỷ đồng."
+    },
+    {
+        "text": "650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dự kiến là 650 tỷ đồng."
+    },
+    {
+        "text": "Lộc Trời lên kế hoạch doanh thu 4.200 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm nay, Lộc Trời lên kế hoạch doanh thu 4.200 tỷ đồng"
+    },
+    {
+        "text": "4.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu 4.200 tỷ đồng"
+    },
+    {
+        "text": "năm 2010",
+        "label": "DATE",
+        "evidence": "mức thấp nhất kể từ năm 2010."
+    },
+    {
+        "text": "kế hoạch này không được các cổ đông thông qua",
+        "label": "EVENT",
+        "evidence": "Tuy vậy kế hoạch này không được các cổ đông thông qua khi chỉ có 13% phiếu tán thành."
+    },
+    {
+        "text": "13% phiếu tán thành",
+        "label": "RATE",
+        "evidence": "khi chỉ có 13% phiếu tán thành."
+    },
+    {
+        "text": "cung cấp đề nghị tái cấu trúc với tất cả ngân hàng",
+        "label": "EVENT",
+        "evidence": "Lộc Trời cho biết đã cung cấp đề nghị tái cấu trúc với tất cả ngân hàng"
+    },
+    {
+        "text": "được yêu cầu cung cấp thêm các thông tin về phương án",
+        "label": "EVENT",
+        "evidence": "và được yêu cầu cung cấp thêm các thông tin về phương án để chứng minh tính khả thi"
+    },
+    {
+        "text": "Lộc Trời chưa nộp báo cáo kiểm toán",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên đến này Lộc Trời chưa nộp báo cáo kiểm toán"
+    },
+    {
+        "text": "Công ty Kiểm toán EY",
+        "label": "ORG",
+        "evidence": "do Công ty Kiểm toán EY cần thời gian để hoàn thành thủ tục kiểm toán bổ sung"
+    },
+    {
+        "text": "EY",
+        "label": "ORG",
+        "evidence": "do Công ty Kiểm toán EY cần thời gian để hoàn thành thủ tục kiểm toán bổ sung"
+    },
+    {
+        "text": "hoàn thành thủ tục kiểm toán bổ sung",
+        "label": "EVENT",
+        "evidence": "cần thời gian để hoàn thành thủ tục kiểm toán bổ sung đối với hàng hóa bị thu hồi"
+    },
+    {
+        "text": "các ngân hàng chưa đồng thuận cấu trúc nợ",
+        "label": "EVENT",
+        "evidence": "việc các ngân hàng chưa đồng thuận cấu trúc nợ ảnh hưởng đến khả năng hoạt động liên tục của công ty."
+    },
+    {
+        "text": "đánh giá lại rủi ro cho vay",
+        "label": "EVENT",
+        "evidence": "có thể khiến các ngân hàng nước ngoài đánh giá lại rủi ro cho vay lĩnh vực kinh doanh nông sản nói riêng và nông nghiệp nói chung tại Việt Nam."
+    },
+    {
+        "text": "xem xét lại hạn mức tín dụng",
+        "label": "EVENT",
+        "evidence": "Điều này có thể dẫn đến xem xét lại hạn mức tín dụng cho các công ty trong ngành"
+    },
+    {
+        "text": "dừng cấp vốn vay mới",
+        "label": "EVENT",
+        "evidence": "thậm chí là dừng cấp vốn vay mới và thu hồi các khoản cho vay cũ"
+    },
+    {
+        "text": "thu hồi các khoản cho vay cũ",
+        "label": "EVENT",
+        "evidence": "và thu hồi các khoản cho vay cũ khiến các công ty trong ngành bị vạ lây."
+    },
+    {
+        "text": "tái cấu trúc nợ",
+        "label": "EVENT",
+        "evidence": "Ngoài việc tái cấu trúc nợ, Lộc Trời cần thêm nhà đầu tư rót vốn vào để góp phần phục hồi công ty."
+    },
+    {
+        "text": "UBND Tỉnh An Giang",
+        "label": "ORG",
+        "evidence": "Lộc Trời hiện do UBND Tỉnh An Giang nắm giữ 25% cổ phần"
+    },
+    {
+        "text": "25% cổ phần",
+        "label": "RATE",
+        "evidence": "UBND Tỉnh An Giang nắm giữ 25% cổ phần"
+    },
+    {
+        "text": "33,5% cổ phần",
+        "label": "RATE",
+        "evidence": "các nhà đầu tư nước ngoài đang nắm giữ 33,5% cổ phần"
+    },
+    {
+        "text": "Công ty bảo vệ thực vật An Giang",
+        "label": "ORG",
+        "evidence": "Tiền thân là Công ty bảo vệ thực vật An Giang (AGPPS)"
+    },
+    {
+        "text": "AGPPS",
+        "label": "ORG",
+        "evidence": "Tiền thân là Công ty bảo vệ thực vật An Giang (AGPPS)"
+    },
+    {
+        "text": "300 - 400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận ổn định từ 300 - 400 tỷ đồng mỗi năm"
+    },
+    {
+        "text": "một loạt sự kiện bất lợi diễn ra",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên một loạt sự kiện bất lợi diễn ra khiến Lộc Trời không thích ứng kịp thời"
+    },
+    {
+        "text": "doanh nghiệp rơi vào tình trạng kinh doanh thua lỗ",
+        "label": "EVENT",
+        "evidence": "đã khiến doanh nghiệp rơi vào tình trạng kinh doanh thua lỗ và nợ ngân hàng tăng cao."
+    },
+    {
+        "text": "nợ ngân hàng tăng cao",
+        "label": "EVENT",
+        "evidence": "và nợ ngân hàng tăng cao."
+    },
+    {
+        "text": "Syngenta",
+        "label": "ORG",
+        "evidence": "Đầu tiên là việc đối tác Syngenta, công ty thuốc bảo vệ thực vật big4 trên thế giới"
+    },
+    {
+        "text": "kết thúc hợp tác với Lộc Trời",
+        "label": "EVENT",
+        "evidence": "kết thúc hợp tác với Lộc Trời, chuyển sang làm cổ đông chiến lược của Công ty Khử trùng Việt Nam"
+    },
+    {
+        "text": "chuyển sang làm cổ đông chiến lược của Công ty Khử trùng Việt Nam",
+        "label": "EVENT",
+        "evidence": "chuyển sang làm cổ đông chiến lược của Công ty Khử trùng Việt Nam, đối thủ của chính Lộc Trời."
+    },
+    {
+        "text": "Công ty Khử trùng Việt Nam",
+        "label": "ORG",
+        "evidence": "cổ đông chiến lược của Công ty Khử trùng Việt Nam"
+    },
+    {
+        "text": "mảng kinh doanh chủ lực của Lộc Trời suy giảm nghiêm trọng",
+        "label": "EVENT",
+        "evidence": "Động thái này làm mảng kinh doanh chủ lực của Lộc Trời suy giảm nghiêm trọng từ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "suy giảm nghiêm trọng từ năm 2022."
+    },
+    {
+        "text": "giai đoạn 2023-2024",
+        "label": "DATE",
+        "evidence": "giai đoạn 2023-2024, giá lúa biến động khiến hoạt động thu mua, kinh doanh và xuất khẩu của Lộc Trời gặp nhiều khó khăn."
+    },
+    {
+        "text": "giá lúa biến động",
+        "label": "EVENT",
+        "evidence": "giá lúa biến động khiến hoạt động thu mua, kinh doanh và xuất khẩu của Lộc Trời gặp nhiều khó khăn."
+    },
+    {
+        "text": "hoạt động thu mua, kinh doanh và xuất khẩu của Lộc Trời gặp nhiều khó khăn",
+        "label": "EVENT",
+        "evidence": "hoạt động thu mua, kinh doanh và xuất khẩu của Lộc Trời gặp nhiều khó khăn."
+    },
+    {
+        "text": "ký bao tiêu lúa cho nông dân",
+        "label": "EVENT",
+        "evidence": "công ty thường ký bao tiêu lúa cho nông dân và thanh toán bằng tiền vay từ ngân hàng"
+    },
+    {
+        "text": "thanh toán bằng tiền vay từ ngân hàng",
+        "label": "EVENT",
+        "evidence": "và thanh toán bằng tiền vay từ ngân hàng, sau đó nợ vay được hoàn trả bằng các hợp đồng xuất khẩu gạo."
+    },
+    {
+        "text": "nợ vay được hoàn trả bằng các hợp đồng xuất khẩu gạo",
+        "label": "EVENT",
+        "evidence": "sau đó nợ vay được hoàn trả bằng các hợp đồng xuất khẩu gạo."
+    },
+    {
+        "text": "tăng quy mô nợ vay lên gấp đôi",
+        "label": "EVENT",
+        "evidence": "Việc tăng quy mô nợ vay lên gấp đôi trong năm 2023 để thúc đẩy mảng lúa gạo"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "trong năm 2023 để thúc đẩy mảng lúa gạo"
+    },
+    {
+        "text": "thúc đẩy mảng lúa gạo",
+        "label": "EVENT",
+        "evidence": "để thúc đẩy mảng lúa gạo, cùng với bối cảnh lãi suất tăng cao"
+    },
+    {
+        "text": "bối cảnh lãi suất tăng cao",
+        "label": "EVENT",
+        "evidence": "cùng với bối cảnh lãi suất tăng cao trở thành con dao hai lưỡi"
+    },
+    {
+        "text": "Lộc Trời thua lỗ kỷ lục",
+        "label": "EVENT",
+        "evidence": "khiến Lộc Trời thua lỗ kỷ lục trong quý 3/2023."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "trong quý 3/2023."
+    },
+    {
+        "text": "chi phí lãi vay cao tiếp tục bào mòn lợi nhuận",
+        "label": "EVENT",
+        "evidence": "Ảnh hưởng chi phí lãi vay cao tiếp tục bào mòn lợi nhuận của công ty trong các quý tiếp theo."
+    }
+]

@@ -1,0 +1,277 @@
+[
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "lãi suất tiết kiệm trực tuyến tại Agribank được điều chỉnh tăng 0,1-0,7%/năm tại một số kỳ hạn so với biểu lãi suất tại quầy."
+    },
+    {
+        "text": "lãi suất tiết kiệm trực tuyến tại Agribank được điều chỉnh tăng 0,1-0,7%/năm",
+        "label": "EVENT",
+        "evidence": "Mới đây, lãi suất tiết kiệm trực tuyến tại Agribank được điều chỉnh tăng 0,1-0,7%/năm tại một số kỳ hạn so với biểu lãi suất tại quầy."
+    },
+    {
+        "text": "0,1-0,7%/năm",
+        "label": "RATE",
+        "evidence": "điều chỉnh tăng 0,1-0,7%/năm tại một số kỳ hạn"
+    },
+    {
+        "text": "lãi suất tiết kiệm online ở kỳ hạn 1-2 tháng tăng thêm 0,5%/năm",
+        "label": "EVENT",
+        "evidence": "lãi suất tiết kiệm online ở kỳ hạn 1-2 tháng tăng thêm 0,5%/năm so với lãi suất tiết kiệm niêm yết tại quầy, lên mức 2,2%/năm."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "tăng thêm 0,5%/năm"
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "lên mức 2,2%/năm."
+    },
+    {
+        "text": "Lãi suất huy động trực tuyến kỳ hạn 3-5 tháng được Agribank tăng thêm 0,7%/năm",
+        "label": "EVENT",
+        "evidence": "Lãi suất huy động trực tuyến kỳ hạn 3-5 tháng được Agribank tăng thêm 0,7%/năm, hiện ở 2,7%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "được Agribank tăng thêm 0,7%/năm"
+    },
+    {
+        "text": "0,7%/năm",
+        "label": "RATE",
+        "evidence": "tăng thêm 0,7%/năm"
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "hiện ở 2,7%/năm."
+    },
+    {
+        "text": "Lãi suất ngân hàngkỳ hạn 6-9 tháng được điều chỉnh lên 3,5%/năm",
+        "label": "EVENT",
+        "evidence": "Lãi suất ngân hàngkỳ hạn 6-9 tháng được điều chỉnh lên 3,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "lên 3,5%/năm."
+    },
+    {
+        "text": "lãi suất ở kỳ hạn 12-18 tháng được niêm yết ở mức 4,8%/năm",
+        "label": "EVENT",
+        "evidence": "lãi suất ở kỳ hạn 12-18 tháng được niêm yết ở mức 4,8%/năm, tăng 0,1%/năm so với lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "ở mức 4,8%/năm"
+    },
+    {
+        "text": "tăng 0,1%/năm",
+        "label": "RATE",
+        "evidence": "tăng 0,1%/năm so với lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "là 4,9%/năm."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm của nhóm ngân hàng Big 4"
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "Trong nhóm ngân hàng Big4 gồm BIDV, Vietcombank, VietinBank, Agribank, hiện Agribank đang giữ mức lãi suất ưu đãi nhất so với các ngân hàng còn lại ở hầu hết các kỳ hạn, tiếp theo sau là lãi suất BIDV và VietinBank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "gồm BIDV, Vietcombank, VietinBank, Agribank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "gồm BIDV, Vietcombank, VietinBank, Agribank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "gồm BIDV, Vietcombank, VietinBank, Agribank"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "gồm BIDV, Vietcombank, VietinBank, Agribank"
+    },
+    {
+        "text": "Agribank đang giữ mức lãi suất ưu đãi nhất",
+        "label": "EVENT",
+        "evidence": "hiện Agribank đang giữ mức lãi suất ưu đãi nhất so với các ngân hàng còn lại ở hầu hết các kỳ hạn, tiếp theo sau là lãi suất BIDV và VietinBank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "tiếp theo sau là lãi suất BIDV và VietinBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "tiếp theo sau là lãi suất BIDV và VietinBank."
+    },
+    {
+        "text": "lãi suất BIDV hiện dao động trong khoảng 1,7-4,9%/năm",
+        "label": "EVENT",
+        "evidence": "lãi suất BIDV hiện dao động trong khoảng 1,7-4,9%/năm, Vietcombank lãi suất hiện dao động trong khoảng 1,6-4,7%/năm, VietinBank lãi suất trong khoảng 1,7-5%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "lãi suất BIDV hiện dao động trong khoảng 1,7-4,9%/năm"
+    },
+    {
+        "text": "1,7-4,9%/năm",
+        "label": "RATE",
+        "evidence": "trong khoảng 1,7-4,9%/năm"
+    },
+    {
+        "text": "Vietcombank lãi suất hiện dao động trong khoảng 1,6-4,7%/năm",
+        "label": "EVENT",
+        "evidence": "Vietcombank lãi suất hiện dao động trong khoảng 1,6-4,7%/năm, VietinBank lãi suất trong khoảng 1,7-5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank lãi suất hiện dao động trong khoảng 1,6-4,7%/năm"
+    },
+    {
+        "text": "1,6-4,7%/năm",
+        "label": "RATE",
+        "evidence": "trong khoảng 1,6-4,7%/năm"
+    },
+    {
+        "text": "VietinBank lãi suất trong khoảng 1,7-5%/năm",
+        "label": "EVENT",
+        "evidence": "VietinBank lãi suất trong khoảng 1,7-5%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank lãi suất trong khoảng 1,7-5%/năm."
+    },
+    {
+        "text": "1,7-5%/năm",
+        "label": "RATE",
+        "evidence": "trong khoảng 1,7-5%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "lãi suất huy động trực tuyến của Agribank đang dẫn đầu ở mức 4,8%/năm"
+    },
+    {
+        "text": "lãi suất huy động trực tuyến của Agribank đang dẫn đầu ở mức 4,8%/năm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 12 tháng, lãi suất huy động trực tuyến của Agribank đang dẫn đầu ở mức 4,8%/năm, cao hơn 0,1% so với gửi tại quầy."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "ở mức 4,8%/năm"
+    },
+    {
+        "text": "0,1%",
+        "label": "RATE",
+        "evidence": "cao hơn 0,1% so với gửi tại quầy."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank và BIDV hiện cùng niêm yết mức lãi suất 4,7%/năm"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "VietinBank và BIDV hiện cùng niêm yết mức lãi suất 4,7%/năm"
+    },
+    {
+        "text": "VietinBank và BIDV hiện cùng niêm yết mức lãi suất 4,7%/năm",
+        "label": "EVENT",
+        "evidence": "VietinBank và BIDV hiện cùng niêm yết mức lãi suất 4,7%/năm, không có chênh lệch giữa gửi online và gửi tại quầy."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "mức lãi suất 4,7%/năm"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank là nhà băng duy trì lãi suất kỳ hạn 1 năm thấp nhất, chỉ 4,6% cho cả 2 phương thức gửi tiền."
+    },
+    {
+        "text": "Vietcombank là nhà băng duy trì lãi suất kỳ hạn 1 năm thấp nhất, chỉ 4,6%",
+        "label": "EVENT",
+        "evidence": "Vietcombank là nhà băng duy trì lãi suất kỳ hạn 1 năm thấp nhất, chỉ 4,6% cho cả 2 phương thức gửi tiền."
+    },
+    {
+        "text": "4,6%",
+        "label": "RATE",
+        "evidence": "chỉ 4,6% cho cả 2 phương thức gửi tiền."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "gửi tiết kiệm ở Big 4 thời điểm này"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với 1 tỷ đồng gửi tại Agribank kỳ hạn 12 tháng"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "gửi tại Agribank kỳ hạn 12 tháng"
+    },
+    {
+        "text": "48 triệu đồng",
+        "label": "MONEY",
+        "evidence": "khoản lãi 48 triệu đồng nếu gửi online"
+    },
+    {
+        "text": "47 triệu đồng",
+        "label": "MONEY",
+        "evidence": "47 triệu đồng nếu gửi tại quầy."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "chọn mở sổ tiết kiệm tại BIDV hoặc VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "chọn mở sổ tiết kiệm tại BIDV hoặc VietinBank"
+    },
+    {
+        "text": "47 triệu",
+        "label": "MONEY",
+        "evidence": "khoản lãi 47 triệu sau 1 năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nếu gửi tại Vietcombank trong 12 tháng"
+    },
+    {
+        "text": "46 triệu đồng",
+        "label": "MONEY",
+        "evidence": "người gửi sẽ lãi 46 triệu đồng"
+    }
+]

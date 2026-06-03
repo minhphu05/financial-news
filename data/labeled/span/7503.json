@@ -1,0 +1,237 @@
+[
+    {
+        "text": "CTCP Dịch vụ - Thương mại Tp.HCM",
+        "label": "ORG",
+        "evidence": "CTCP Dịch vụ - Thương mại Tp.HCM (Setra Corp) vừa công bố tình hình thanh toán gốc và lãi trái phiếu."
+    },
+    {
+        "text": "Setra Corp",
+        "label": "ORG",
+        "evidence": "CTCP Dịch vụ - Thương mại Tp.HCM (Setra Corp) vừa công bố tình hình thanh toán gốc và lãi trái phiếu."
+    },
+    {
+        "text": "công bố tình hình thanh toán gốc và lãi trái phiếu",
+        "label": "EVENT",
+        "evidence": "CTCP Dịch vụ - Thương mại Tp.HCM (Setra Corp) vừa công bố tình hình thanh toán gốc và lãi trái phiếu."
+    },
+    {
+        "text": "28/2/2025",
+        "label": "DATE",
+        "evidence": "Tính đến ngày 28/2/2025, Công ty này vẫn chưa trả lãi cho 20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20, với tổng số tiền gần 554 tỷ đồng."
+    },
+    {
+        "text": "20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20",
+        "label": "ASSET",
+        "evidence": "Tính đến ngày 28/2/2025, Công ty này vẫn chưa trả lãi cho 20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20, với tổng số tiền gần 554 tỷ đồng."
+    },
+    {
+        "text": "SET.H2025.01",
+        "label": "TICKER",
+        "evidence": "Tính đến ngày 28/2/2025, Công ty này vẫn chưa trả lãi cho 20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20, với tổng số tiền gần 554 tỷ đồng."
+    },
+    {
+        "text": "SET.H2025.20",
+        "label": "TICKER",
+        "evidence": "Tính đến ngày 28/2/2025, Công ty này vẫn chưa trả lãi cho 20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20, với tổng số tiền gần 554 tỷ đồng."
+    },
+    {
+        "text": "554 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến ngày 28/2/2025, Công ty này vẫn chưa trả lãi cho 20 mã trái phiếu từ SET.H2025.01 đến SET.H2025.20, với tổng số tiền gần 554 tỷ đồng."
+    },
+    {
+        "text": "Setra",
+        "label": "ORG",
+        "evidence": "Nguyên nhân được Setra đưa ra là chưa thu xếp được nguồn vốn, đồng thời công ty đang xử lý tài sản để thanh toán."
+    },
+    {
+        "text": "tháng 9/2024",
+        "label": "DATE",
+        "evidence": "Trước đó, vào tháng 9/2024, Setra cũng từng thông báo chậm trả hơn 400 tỷ đồng tiền gốc và lãi của các trái phiếu này."
+    },
+    {
+        "text": "thông báo chậm trả hơn 400 tỷ đồng tiền gốc và lãi của các trái phiếu này",
+        "label": "EVENT",
+        "evidence": "Trước đó, vào tháng 9/2024, Setra cũng từng thông báo chậm trả hơn 400 tỷ đồng tiền gốc và lãi của các trái phiếu này."
+    },
+    {
+        "text": "400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, vào tháng 9/2024, Setra cũng từng thông báo chậm trả hơn 400 tỷ đồng tiền gốc và lãi của các trái phiếu này."
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các lô trái phiếu này có tổng giá trị phát hành 2.000 tỷ đồng, được phát hành ngày 31/8/2020 với kỳ hạn 5 năm, dự kiến đáo hạn vào 31/8/2025."
+    },
+    {
+        "text": "phát hành ngày 31/8/2020",
+        "label": "EVENT",
+        "evidence": "Các lô trái phiếu này có tổng giá trị phát hành 2.000 tỷ đồng, được phát hành ngày 31/8/2020 với kỳ hạn 5 năm, dự kiến đáo hạn vào 31/8/2025."
+    },
+    {
+        "text": "31/8/2020",
+        "label": "DATE",
+        "evidence": "Các lô trái phiếu này có tổng giá trị phát hành 2.000 tỷ đồng, được phát hành ngày 31/8/2020 với kỳ hạn 5 năm, dự kiến đáo hạn vào 31/8/2025."
+    },
+    {
+        "text": "31/8/2025",
+        "label": "DATE",
+        "evidence": "Các lô trái phiếu này có tổng giá trị phát hành 2.000 tỷ đồng, được phát hành ngày 31/8/2020 với kỳ hạn 5 năm, dự kiến đáo hạn vào 31/8/2025."
+    },
+    {
+        "text": "đáo hạn vào 31/8/2025",
+        "label": "EVENT",
+        "evidence": "Các lô trái phiếu này có tổng giá trị phát hành 2.000 tỷ đồng, được phát hành ngày 31/8/2020 với kỳ hạn 5 năm, dự kiến đáo hạn vào 31/8/2025."
+    },
+    {
+        "text": "11%/năm",
+        "label": "RATE",
+        "evidence": "Trái phiếu có lãi suất cố định 11%/năm, do Chứng khoán Tân Việt (TVSI) bảo lãnh phát hành nhưng không có tài sản đảm bảo."
+    },
+    {
+        "text": "Chứng khoán Tân Việt",
+        "label": "ORG",
+        "evidence": "Trái phiếu có lãi suất cố định 11%/năm, do Chứng khoán Tân Việt (TVSI) bảo lãnh phát hành nhưng không có tài sản đảm bảo."
+    },
+    {
+        "text": "TVSI",
+        "label": "ORG",
+        "evidence": "Trái phiếu có lãi suất cố định 11%/năm, do Chứng khoán Tân Việt (TVSI) bảo lãnh phát hành nhưng không có tài sản đảm bảo."
+    },
+    {
+        "text": "20 lô trái phiếu",
+        "label": "ASSET",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031",
+        "label": "EVENT",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031",
+        "label": "ASSET",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "STRCB2023001",
+        "label": "TICKER",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "STRCB2023031",
+        "label": "TICKER",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "3.750 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài 20 lô trái phiếu đang chậm thanh toán, Setra Corp còn phát hành thêm 31 lô trái phiếu khác, từ mã STRCB2023001 đến STRCB2023031, với tổng giá trị 3.750 tỷ đồng."
+    },
+    {
+        "text": "cuối tháng 7/2023",
+        "label": "DATE",
+        "evidence": "Các lô này đã đáo hạn vào cuối tháng 7/2023."
+    },
+    {
+        "text": "đáo hạn vào cuối tháng 7/2023",
+        "label": "EVENT",
+        "evidence": "Các lô này đã đáo hạn vào cuối tháng 7/2023."
+    },
+    {
+        "text": "thành lập vào tháng 10/1999",
+        "label": "EVENT",
+        "evidence": "Setra Corp được thành lập vào tháng 10/1999, có trụ sở tại số 5 Công Trường Mê Linh, phường Bến Nghé, quận 1, Tp.HCM."
+    },
+    {
+        "text": "tháng 10/1999",
+        "label": "DATE",
+        "evidence": "Setra Corp được thành lập vào tháng 10/1999, có trụ sở tại số 5 Công Trường Mê Linh, phường Bến Nghé, quận 1, Tp.HCM."
+    },
+    {
+        "text": "Trần Văn Tuấn",
+        "label": "PERSON",
+        "evidence": "Người đại diện pháp luật kiêm Tổng Giám đốc hiện tại là ông Trần Văn Tuấn."
+    },
+    {
+        "text": "Trương Mỹ Lan",
+        "label": "PERSON",
+        "evidence": "Setra Corp là một phần trong hệ sinh thái doanh nghiệp liên quan đến bà Trương Mỹ Lan và Tập đoàn Vạn Thịnh Phát."
+    },
+    {
+        "text": "Tập đoàn Vạn Thịnh Phát",
+        "label": "ORG",
+        "evidence": "Setra Corp là một phần trong hệ sinh thái doanh nghiệp liên quan đến bà Trương Mỹ Lan và Tập đoàn Vạn Thịnh Phát."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "Công ty nổi bật với vai trò nắm giữ 18% vốn góp (trị giá hơn 142 tỷ đồng) tại Công ty TNHH Vietcombank – Bonday – Bến Thành, liên doanh sở hữu tòa tháp Vietcombank Tower Saigon – một trong những tòa nhà cao nhất và đắc địa tại trung tâm quận 1, Tp.HCM."
+    },
+    {
+        "text": "142 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Công ty nổi bật với vai trò nắm giữ 18% vốn góp (trị giá hơn 142 tỷ đồng) tại Công ty TNHH Vietcombank – Bonday – Bến Thành, liên doanh sở hữu tòa tháp Vietcombank Tower Saigon – một trong những tòa nhà cao nhất và đắc địa tại trung tâm quận 1, Tp.HCM."
+    },
+    {
+        "text": "Công ty TNHH Vietcombank – Bonday – Bến Thành",
+        "label": "ORG",
+        "evidence": "Công ty nổi bật với vai trò nắm giữ 18% vốn góp (trị giá hơn 142 tỷ đồng) tại Công ty TNHH Vietcombank – Bonday – Bến Thành, liên doanh sở hữu tòa tháp Vietcombank Tower Saigon – một trong những tòa nhà cao nhất và đắc địa tại trung tâm quận 1, Tp.HCM."
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Trong nửa đầu năm 2024, Công ty lỗ sau thuế 114,5 tỷ đồng, dù đã giảm so với mức lỗ 273 tỷ đồng cùng kỳ năm trước."
+    },
+    {
+        "text": "lỗ sau thuế 114,5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong nửa đầu năm 2024, Công ty lỗ sau thuế 114,5 tỷ đồng, dù đã giảm so với mức lỗ 273 tỷ đồng cùng kỳ năm trước."
+    },
+    {
+        "text": "114,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong nửa đầu năm 2024, Công ty lỗ sau thuế 114,5 tỷ đồng, dù đã giảm so với mức lỗ 273 tỷ đồng cùng kỳ năm trước."
+    },
+    {
+        "text": "273 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong nửa đầu năm 2024, Công ty lỗ sau thuế 114,5 tỷ đồng, dù đã giảm so với mức lỗ 273 tỷ đồng cùng kỳ năm trước."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tính từ năm 2021, tổng lỗ lũy kế ước tính lên đến 1.300 tỷ đồng."
+    },
+    {
+        "text": "tổng lỗ lũy kế ước tính lên đến 1.300 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tính từ năm 2021, tổng lỗ lũy kế ước tính lên đến 1.300 tỷ đồng."
+    },
+    {
+        "text": "1.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính từ năm 2021, tổng lỗ lũy kế ước tính lên đến 1.300 tỷ đồng."
+    },
+    {
+        "text": "30/6/2024",
+        "label": "DATE",
+        "evidence": "Tại thời điểm 30/6/2024, vốn chủ sở hữu Công ty chỉ còn 295 tỷ đồng, trong khi tổng nợ phải trả ước tính gần 3.500 tỷ. Hệ số nợ trên vốn chủ sở hữu là 11,84 lần."
+    },
+    {
+        "text": "295 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại thời điểm 30/6/2024, vốn chủ sở hữu Công ty chỉ còn 295 tỷ đồng, trong khi tổng nợ phải trả ước tính gần 3.500 tỷ. Hệ số nợ trên vốn chủ sở hữu là 11,84 lần."
+    },
+    {
+        "text": "3.500 tỷ",
+        "label": "MONEY",
+        "evidence": "Tại thời điểm 30/6/2024, vốn chủ sở hữu Công ty chỉ còn 295 tỷ đồng, trong khi tổng nợ phải trả ước tính gần 3.500 tỷ. Hệ số nợ trên vốn chủ sở hữu là 11,84 lần."
+    },
+    {
+        "text": "11,84 lần",
+        "label": "RATE",
+        "evidence": "Tại thời điểm 30/6/2024, vốn chủ sở hữu Công ty chỉ còn 295 tỷ đồng, trong khi tổng nợ phải trả ước tính gần 3.500 tỷ. Hệ số nợ trên vốn chủ sở hữu là 11,84 lần."
+    }
+]

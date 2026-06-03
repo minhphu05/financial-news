@@ -1,0 +1,72 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "ngân hàng như Vietcombank, Agribank, MB đã tích hợp tính năng cảnh báo tài khoản đáng ngờ ngay trong quá trình chuyển tiền, tạo ra một lớp bảo vệ quan trọng giúp khách hàng nhận diện rủi ro trước khi giao dịch."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "ngân hàng như Vietcombank, Agribank, MB đã tích hợp tính năng cảnh báo tài khoản đáng ngờ ngay trong quá trình chuyển tiền, tạo ra một lớp bảo vệ quan trọng giúp khách hàng nhận diện rủi ro trước khi giao dịch."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "ngân hàng như Vietcombank, Agribank, MB đã tích hợp tính năng cảnh báo tài khoản đáng ngờ ngay trong quá trình chuyển tiền, tạo ra một lớp bảo vệ quan trọng giúp khách hàng nhận diện rủi ro trước khi giao dịch."
+    },
+    {
+        "text": "tích hợp tính năng cảnh báo tài khoản đáng ngờ ngay trong quá trình chuyển tiền",
+        "label": "EVENT",
+        "evidence": "ngân hàng như Vietcombank, Agribank, MB đã tích hợp tính năng cảnh báo tài khoản đáng ngờ ngay trong quá trình chuyển tiền, tạo ra một lớp bảo vệ quan trọng giúp khách hàng nhận diện rủi ro trước khi giao dịch."
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "Hệ thống kiểm tra xem tài khoản thụ hưởng có nằm trong danh sách các tài khoản đã bị báo cáo lừa đảo do Bộ Công an, Ngân hàng Nhà nước hoặc các tổ chức tài chính cung cấp hay không."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Hệ thống kiểm tra xem tài khoản thụ hưởng có nằm trong danh sách các tài khoản đã bị báo cáo lừa đảo do Bộ Công an, Ngân hàng Nhà nước hoặc các tổ chức tài chính cung cấp hay không."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đơn cử như tại BIDV, chỉ trong một tháng thử nghiệm, hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Đơn cử như tại BIDV, chỉ trong một tháng thử nghiệm, hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "dừng lại 40.000 giao dịch đáng ngờ",
+        "label": "EVENT",
+        "evidence": "hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "40.000 giao dịch",
+        "label": "VOLUME",
+        "evidence": "hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "160 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hệ thống đã giúp dừng lại 40.000 giao dịch đáng ngờ với tổng giá trị lên tới 160 tỷ đồng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tương tự, ngân hàng tiên phong triển khai là MB cũng ghi nhận 1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo chỉ trong tháng đầu tiên áp dụng."
+    },
+    {
+        "text": "1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo",
+        "label": "EVENT",
+        "evidence": "MB cũng ghi nhận 1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo chỉ trong tháng đầu tiên áp dụng."
+    },
+    {
+        "text": "tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "MB cũng ghi nhận 1.500 khách hàng đã chủ động hủy giao dịch sau khi nhận được cảnh báo chỉ trong tháng đầu tiên áp dụng."
+    }
+]

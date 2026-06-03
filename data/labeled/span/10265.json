@@ -1,0 +1,357 @@
+[
+    {
+        "text": "thị trường chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Xét trong nhóm 50 doanh nghiệp niêm yết có vốn hóa lớn nhất thị trường chứng khoán Việt Nam, có gần 20 doanh nghiệp nêu cụ thể số liệu thu nhập bình quân mỗi nhân sự/tháng trong Báo cáo thường niên 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Xét trong nhóm 50 doanh nghiệp niêm yết có vốn hóa lớn nhất thị trường chứng khoán Việt Nam, có gần 20 doanh nghiệp nêu cụ thể số liệu thu nhập bình quân mỗi nhân sự/tháng trong Báo cáo thường niên 2024."
+    },
+    {
+        "text": "30 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trong ‘câu lạc bộ’ những doanh nghiệp có khả năng chi trả bình quân trên 30 triệu đồng/người/tháng là sự thống trị gần như tuyệt đối của nhóm tài chính."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Giữa vòng vây đó, chỉ có hai DN thuộc khối phi tài chính làVinamilk(31,0 triệu) và ACV - Tổng công ty Cảng hàng không (30,5 triệu)."
+    },
+    {
+        "text": "31,0 triệu",
+        "label": "MONEY",
+        "evidence": "Giữa vòng vây đó, chỉ có hai DN thuộc khối phi tài chính làVinamilk(31,0 triệu) và ACV - Tổng công ty Cảng hàng không (30,5 triệu)."
+    },
+    {
+        "text": "ACV - Tổng công ty Cảng hàng không",
+        "label": "ORG",
+        "evidence": "Giữa vòng vây đó, chỉ có hai DN thuộc khối phi tài chính làVinamilk(31,0 triệu) và ACV - Tổng công ty Cảng hàng không (30,5 triệu)."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Giữa vòng vây đó, chỉ có hai DN thuộc khối phi tài chính làVinamilk(31,0 triệu) và ACV - Tổng công ty Cảng hàng không (30,5 triệu)."
+    },
+    {
+        "text": "30,5 triệu",
+        "label": "MONEY",
+        "evidence": "Giữa vòng vây đó, chỉ có hai DN thuộc khối phi tài chính làVinamilk(31,0 triệu) và ACV - Tổng công ty Cảng hàng không (30,5 triệu)."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, Vinamilk không cho biết mức thu nhập bình quân năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, Vinamilk không cho biết mức thu nhập bình quân năm 2023."
+    },
+    {
+        "text": "Techcombank Securities",
+        "label": "ORG",
+        "evidence": "Techcombank Securities gây ‘sốc’ với con số công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023."
+    },
+    {
+        "text": "công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023",
+        "label": "EVENT",
+        "evidence": "Techcombank Securities gây ‘sốc’ với con số công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023."
+    },
+    {
+        "text": "70,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Techcombank Securities gây ‘sốc’ với con số công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023."
+    },
+    {
+        "text": "tăng 8,5%",
+        "label": "RATE",
+        "evidence": "Techcombank Securities gây ‘sốc’ với con số công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Techcombank Securities gây ‘sốc’ với con số công bố mức thu nhập bình quân tại đây là 70,5 triệu đồng/người/tháng – tăng 8,5% so với năm 2023."
+    },
+    {
+        "text": "6 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "6 tháng đầu năm 2025, thu nhập bình quân ở đây vẫn gần 58 triệu đồng/người/tháng."
+    },
+    {
+        "text": "58 triệu đồng",
+        "label": "MONEY",
+        "evidence": "6 tháng đầu năm 2025, thu nhập bình quân ở đây vẫn gần 58 triệu đồng/người/tháng."
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "Công ty này đánh giá, mức thu nhập của TCBS ở mức cạnh tranh không chỉ tại Việt Nam mà so với cả khu vực, thỏa đáng với năng lực làm việc."
+    },
+    {
+        "text": "TCBS",
+        "label": "TICKER",
+        "evidence": "Công ty này đánh giá, mức thu nhập của TCBS ở mức cạnh tranh không chỉ tại Việt Nam mà so với cả khu vực, thỏa đáng với năng lực làm việc."
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "Công ty này đánh giá, mức thu nhập của TCBS ở mức cạnh tranh không chỉ tại Việt Nam mà so với cả khu vực, thỏa đáng với năng lực làm việc."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI không nêu mức thu nhập bình quân, nhưng cho biết các khoản chi trả liên quan đến lương, thưởng, phúc lợi và bảo hiểm cho người lao động bình quân là 672 tỷ đồng/nhân sự, tương đương 55 triệu đồng/người/tháng."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "SSI không nêu mức thu nhập bình quân, nhưng cho biết các khoản chi trả liên quan đến lương, thưởng, phúc lợi và bảo hiểm cho người lao động bình quân là 672 tỷ đồng/nhân sự, tương đương 55 triệu đồng/người/tháng."
+    },
+    {
+        "text": "672 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SSI không nêu mức thu nhập bình quân, nhưng cho biết các khoản chi trả liên quan đến lương, thưởng, phúc lợi và bảo hiểm cho người lao động bình quân là 672 tỷ đồng/nhân sự, tương đương 55 triệu đồng/người/tháng."
+    },
+    {
+        "text": "55 triệu đồng",
+        "label": "MONEY",
+        "evidence": "SSI không nêu mức thu nhập bình quân, nhưng cho biết các khoản chi trả liên quan đến lương, thưởng, phúc lợi và bảo hiểm cho người lao động bình quân là 672 tỷ đồng/nhân sự, tương đương 55 triệu đồng/người/tháng."
+    },
+    {
+        "text": "VIX",
+        "label": "ORG",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "24,4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "giảm 1,21%",
+        "label": "RATE",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "thu nhập bình quân sụt giảm năm 2024",
+        "label": "EVENT",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cùng là CTCK nhưng VIX có thu nhập bình quân ở mức 24,4 triệu đồng/người/tháng (giảm 1,21%) và là doanh nghiệp duy nhất trong toàn bộ danh sách có thu nhập bình quân sụt giảm năm 2024."
+    },
+    {
+        "text": "9 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm 2025, VIX là một trong những công ty có \"nhân viên kiếm tiền giỏi nhất\" thị trường."
+    },
+    {
+        "text": "VIX",
+        "label": "ORG",
+        "evidence": "Trong 9 tháng đầu năm 2025, VIX là một trong những công ty có \"nhân viên kiếm tiền giỏi nhất\" thị trường."
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "Trong 9 tháng đầu năm 2025, VIX là một trong những công ty có \"nhân viên kiếm tiền giỏi nhất\" thị trường."
+    },
+    {
+        "text": "VIX",
+        "label": "ORG",
+        "evidence": "Với đội ngũ chỉ hơn 80 nhân sự, VIX tạo ra bình quân hơn 60 tỷ đồng lợi nhuận/người."
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "Với đội ngũ chỉ hơn 80 nhân sự, VIX tạo ra bình quân hơn 60 tỷ đồng lợi nhuận/người."
+    },
+    {
+        "text": "hơn 60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với đội ngũ chỉ hơn 80 nhân sự, VIX tạo ra bình quân hơn 60 tỷ đồng lợi nhuận/người."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "38,1 triệu",
+        "label": "MONEY",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "38,04 triệu",
+        "label": "MONEY",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "38,0 triệu",
+        "label": "MONEY",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "MB",
+        "label": "TICKER",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "37,4 triệu",
+        "label": "MONEY",
+        "evidence": "Sự ‘thống trị’ của nhóm Tài chính trong danh sách trên thể hiện ở ACB (38,1 triệu), Vietinbank (38,04 triệu), Vietcombank (38,0 triệu) và MB (37,4 triệu)."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Trong đó, Vietinbank báo cáo thu nhập bình quân tăng tới 10% so với năm 2023."
+    },
+    {
+        "text": "báo cáo thu nhập bình quân tăng tới 10% so với năm 2023",
+        "label": "EVENT",
+        "evidence": "Trong đó, Vietinbank báo cáo thu nhập bình quân tăng tới 10% so với năm 2023."
+    },
+    {
+        "text": "tăng tới 10%",
+        "label": "RATE",
+        "evidence": "Trong đó, Vietinbank báo cáo thu nhập bình quân tăng tới 10% so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong đó, Vietinbank báo cáo thu nhập bình quân tăng tới 10% so với năm 2023."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đây là một trong những ngân hàng có tăng trưởng lợi nhuận cao hàng đầu hệ thống trong năm 2024."
+    },
+    {
+        "text": "Vincom Retail",
+        "label": "ORG",
+        "evidence": "Nhìn xuống cuối bảng, nhóm bất động sản Vincom Retail (không tăng), Becamex Group (tăng 0,2%) và Vinhomes (tăng 1%)."
+    },
+    {
+        "text": "Becamex Group",
+        "label": "ORG",
+        "evidence": "Nhìn xuống cuối bảng, nhóm bất động sản Vincom Retail (không tăng), Becamex Group (tăng 0,2%) và Vinhomes (tăng 1%)."
+    },
+    {
+        "text": "tăng 0,2%",
+        "label": "RATE",
+        "evidence": "Nhìn xuống cuối bảng, nhóm bất động sản Vincom Retail (không tăng), Becamex Group (tăng 0,2%) và Vinhomes (tăng 1%)."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Nhìn xuống cuối bảng, nhóm bất động sản Vincom Retail (không tăng), Becamex Group (tăng 0,2%) và Vinhomes (tăng 1%)."
+    },
+    {
+        "text": "tăng 1%",
+        "label": "RATE",
+        "evidence": "Nhìn xuống cuối bảng, nhóm bất động sản Vincom Retail (không tăng), Becamex Group (tăng 0,2%) và Vinhomes (tăng 1%)."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Ngược lại, Petrolimex (tăng 16,5%) và ACV (tăng 13,8%) là hai quán quân về mức tăng thu nhập."
+    },
+    {
+        "text": "tăng 16,5%",
+        "label": "RATE",
+        "evidence": "Ngược lại, Petrolimex (tăng 16,5%) và ACV (tăng 13,8%) là hai quán quân về mức tăng thu nhập."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Ngược lại, Petrolimex (tăng 16,5%) và ACV (tăng 13,8%) là hai quán quân về mức tăng thu nhập."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Ngược lại, Petrolimex (tăng 16,5%) và ACV (tăng 13,8%) là hai quán quân về mức tăng thu nhập."
+    },
+    {
+        "text": "tăng 13,8%",
+        "label": "RATE",
+        "evidence": "Ngược lại, Petrolimex (tăng 16,5%) và ACV (tăng 13,8%) là hai quán quân về mức tăng thu nhập."
+    },
+    {
+        "text": "28 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Con số thu nhập 28 triệu đồng/người/tháng tại Tập đoàn Công nghiệp Cao su Việt Nam (GVR) là mức thu nhập bình quân của các nhân sự tại Công ty Mẹ, tức khối văn phòng, ban lãnh đạo và quản lý cấp cao."
+    },
+    {
+        "text": "Tập đoàn Công nghiệp Cao su Việt Nam",
+        "label": "ORG",
+        "evidence": "Con số thu nhập 28 triệu đồng/người/tháng tại Tập đoàn Công nghiệp Cao su Việt Nam (GVR) là mức thu nhập bình quân của các nhân sự tại Công ty Mẹ, tức khối văn phòng, ban lãnh đạo và quản lý cấp cao."
+    },
+    {
+        "text": "GVR",
+        "label": "TICKER",
+        "evidence": "Con số thu nhập 28 triệu đồng/người/tháng tại Tập đoàn Công nghiệp Cao su Việt Nam (GVR) là mức thu nhập bình quân của các nhân sự tại Công ty Mẹ, tức khối văn phòng, ban lãnh đạo và quản lý cấp cao."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tập đoàn đã tạo việc làm ổn định cho hơn 81.000 lao động với mức thu nhập bình quân năm 2024 là 11,0 triệu đồng/người/tháng, trong đó lao động là người dân tộc thiểu số trên 17.300 người (chiếm tỷ lệ trên 21,3% tổng số lao động), lao động là người nước ngoài (Lào, Campuchia) trên 19.900 người (chiếm tỷ lệ trên 24,5% tổng số lao động)."
+    },
+    {
+        "text": "11,0 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn đã tạo việc làm ổn định cho hơn 81.000 lao động với mức thu nhập bình quân năm 2024 là 11,0 triệu đồng/người/tháng, trong đó lao động là người dân tộc thiểu số trên 17.300 người (chiếm tỷ lệ trên 21,3% tổng số lao động), lao động là người nước ngoài (Lào, Campuchia) trên 19.900 người (chiếm tỷ lệ trên 24,5% tổng số lao động)."
+    },
+    {
+        "text": "trên 21,3%",
+        "label": "RATE",
+        "evidence": "Tập đoàn đã tạo việc làm ổn định cho hơn 81.000 lao động với mức thu nhập bình quân năm 2024 là 11,0 triệu đồng/người/tháng, trong đó lao động là người dân tộc thiểu số trên 17.300 người (chiếm tỷ lệ trên 21,3% tổng số lao động), lao động là người nước ngoài (Lào, Campuchia) trên 19.900 người (chiếm tỷ lệ trên 24,5% tổng số lao động)."
+    },
+    {
+        "text": "trên 24,5%",
+        "label": "RATE",
+        "evidence": "Tập đoàn đã tạo việc làm ổn định cho hơn 81.000 lao động với mức thu nhập bình quân năm 2024 là 11,0 triệu đồng/người/tháng, trong đó lao động là người dân tộc thiểu số trên 17.300 người (chiếm tỷ lệ trên 21,3% tổng số lao động), lao động là người nước ngoài (Lào, Campuchia) trên 19.900 người (chiếm tỷ lệ trên 24,5% tổng số lao động)."
+    },
+    {
+        "text": "Tổng cục Thống kê",
+        "label": "ORG",
+        "evidence": "Theo Tổng cục Thống kê, thu nhập bình quân của người lao động cả nước năm 2024 chỉ là 7,7 triệu đồng/tháng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo Tổng cục Thống kê, thu nhập bình quân của người lao động cả nước năm 2024 chỉ là 7,7 triệu đồng/tháng."
+    },
+    {
+        "text": "7,7 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo Tổng cục Thống kê, thu nhập bình quân của người lao động cả nước năm 2024 chỉ là 7,7 triệu đồng/tháng."
+    }
+]

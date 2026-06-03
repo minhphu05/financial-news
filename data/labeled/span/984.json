@@ -1,0 +1,122 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo BIDV, giá trị ghi sổ khoản nợ của 2 công ty trên tạm tính đến ngày 29/10/2023 là gần752,3 tỷ đồng."
+    },
+    {
+        "text": "29/10/2023",
+        "label": "DATE",
+        "evidence": "Theo BIDV, giá trị ghi sổ khoản nợ của 2 công ty trên tạm tính đến ngày 29/10/2023 là gần752,3 tỷ đồng."
+    },
+    {
+        "text": "gần752,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo BIDV, giá trị ghi sổ khoản nợ của 2 công ty trên tạm tính đến ngày 29/10/2023 là gần752,3 tỷ đồng."
+    },
+    {
+        "text": "562,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, Dư nợ gốc là 562,6 tỷ đồng; Nợ lãi trong hạn: 186,5 tỷ đồng; Nợ lãi quá hạn: 3,2 tỷ đồng."
+    },
+    {
+        "text": "186,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, Dư nợ gốc là 562,6 tỷ đồng; Nợ lãi trong hạn: 186,5 tỷ đồng; Nợ lãi quá hạn: 3,2 tỷ đồng."
+    },
+    {
+        "text": "3,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, Dư nợ gốc là 562,6 tỷ đồng; Nợ lãi trong hạn: 186,5 tỷ đồng; Nợ lãi quá hạn: 3,2 tỷ đồng."
+    },
+    {
+        "text": "Ngân hàng đưa ra giá khởi điểm bằng giá trị khoản nợ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đưa ra giá khởi điểm bằng giá trị khoản nợ là gần 752,3 tỷ đồng)."
+    },
+    {
+        "text": "gần 752,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngân hàng đưa ra giá khởi điểm bằng giá trị khoản nợ là gần 752,3 tỷ đồng)."
+    },
+    {
+        "text": "mua, bán khoản nợ",
+        "label": "EVENT",
+        "evidence": "Việc mua, bán khoản nợ không thuộc đối tượng chịu thuế GTGT."
+    },
+    {
+        "text": "Công ty XD Nam Ninh",
+        "label": "ORG",
+        "evidence": "Trong đó, có Trụ sở của Công ty XD Nam Ninh tại đường Phạm Văn Nghị, phường Đông Thành, TP.Ninh Bình và Nhà hàng, khách sạn, nhà triển lãm được xây dựng trên 2 thửa đất có tổng diện tích 17.800m2 tại phường Ninh Khánh, TP Ninh Bình."
+    },
+    {
+        "text": "Vũ Đức Thông",
+        "label": "PERSON",
+        "evidence": "Ngoài ra, tài sản đảm bảo cho các khoản nợ còn có phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh và Công ty TNHH Đầu tư Thương mại Nam Ninh; 1 ô tô BMW M6 Gran Coupe."
+    },
+    {
+        "text": "Công ty TNHH Xây dựng Nam Ninh",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tài sản đảm bảo cho các khoản nợ còn có phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh và Công ty TNHH Đầu tư Thương mại Nam Ninh; 1 ô tô BMW M6 Gran Coupe."
+    },
+    {
+        "text": "Công ty TNHH Đầu tư Thương mại Nam Ninh",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tài sản đảm bảo cho các khoản nợ còn có phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh và Công ty TNHH Đầu tư Thương mại Nam Ninh; 1 ô tô BMW M6 Gran Coupe."
+    },
+    {
+        "text": "phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tài sản đảm bảo cho các khoản nợ còn có phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh và Công ty TNHH Đầu tư Thương mại Nam Ninh; 1 ô tô BMW M6 Gran Coupe."
+    },
+    {
+        "text": "phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Đầu tư Thương mại Nam Ninh",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tài sản đảm bảo cho các khoản nợ còn có phần vốn góp của ông Vũ Đức Thông tại Công ty TNHH Xây dựng Nam Ninh và Công ty TNHH Đầu tư Thương mại Nam Ninh; 1 ô tô BMW M6 Gran Coupe."
+    },
+    {
+        "text": "khoản nợ được đấu giá",
+        "label": "EVENT",
+        "evidence": "Toàn bộ khoản nợ được đấu giá theo nguyên trạng (bao gồm nguyên trạng khoản nợ, tình trạng pháp lý và các rủi ro tiềm ẩn) và theo phương thức có sao bán vậy."
+    },
+    {
+        "text": "29/10/2023",
+        "label": "DATE",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "Công ty TNHH XD Nam Ninh",
+        "label": "ORG",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "Công ty TNHH ĐT TM Nam Ninh",
+        "label": "ORG",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "thanh toán nợ gốc tiền vay",
+        "label": "EVENT",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "BIDV Ninh Bình",
+        "label": "ORG",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "BIDV Tam Điệp",
+        "label": "ORG",
+        "evidence": "Tiền lãi vẫn tiếp tục phát sinh từ ngày 29/10/2023 cho đến khi Công ty TNHH XD Nam Ninh và Công ty TNHH ĐT TM Nam Ninh thanh toán nợ gốc tiền vay tại BIDV Ninh Bình và BIDV Tam Điệp."
+    },
+    {
+        "text": "vốn điều lệ 330 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong thay đổi đăng ký doanh nghiệp gần nhất, ông ty TNHH Đầu tư Thương mại Nam Ninh có vốn điều lệ 330 tỷ đồng với tỷ lệ sở hữu của ông Vũ Đức Thông là 70,455%."
+    },
+    {
+        "text": "70,455%",
+        "label": "RATE",
+        "evidence": "Trong thay đổi đăng ký doanh nghiệp gần nhất, ông ty TNHH Đầu tư Thương mại Nam Ninh có vốn điều lệ 330 tỷ đồng với tỷ lệ sở hữu của ông Vũ Đức Thông là 70,455%."
+    }
+]

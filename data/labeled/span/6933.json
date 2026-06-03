@@ -1,0 +1,257 @@
+[
+    {
+        "text": "15,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "nhận hoàn phí lên đến 15,5 triệu đồng khi chuyển khoản vay về Techcombank."
+    },
+    {
+        "text": "chuyển khoản vay về Techcombank",
+        "label": "EVENT",
+        "evidence": "nhận hoàn phí lên đến 15,5 triệu đồng khi chuyển khoản vay về Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "nhận hoàn phí lên đến 15,5 triệu đồng khi chuyển khoản vay về Techcombank."
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "Người chuyển khoản vay không phải chuẩn bịtiền đốiứng"
+    },
+    {
+        "text": "Chị Kim Chi",
+        "label": "PERSON",
+        "evidence": "Chị Kim Chi đã có khoản vay 5 năm tại một ngân hàng cho hay"
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Chị Kim Chi đã có khoản vay 5 năm tại một ngân hàng cho hay"
+    },
+    {
+        "text": "lãi suất tiết kiệm 13 tháng",
+        "label": "ASSET",
+        "evidence": "lãi suất tiết kiệm 13 tháng cộng thêm biên độ từ 3,5-4%"
+    },
+    {
+        "text": "3,5-4%",
+        "label": "RATE",
+        "evidence": "lãi suất tiết kiệm 13 tháng cộng thêm biên độ từ 3,5-4%"
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "Theo các chuyên gia, việc áp dụng chuyển khoản vay là hoàn toàn bình thường ở Mỹ và các nước khác."
+    },
+    {
+        "text": "Anh Nguyễn Việt Phong",
+        "label": "PERSON",
+        "evidence": "Anh Nguyễn Việt Phong cho biết, mình đang rất quan tâm đến chương trình vì đang có một khoản vay mua nhà lãi suất lên tới 13,5%/năm, trong khi chờ thời hạn tất toán còn đến 5 năm nữa."
+    },
+    {
+        "text": "13,5%/năm",
+        "label": "RATE",
+        "evidence": "một khoản vay mua nhà lãi suất lên tới 13,5%/năm"
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "thời hạn tất toán còn đến 5 năm nữa."
+    },
+    {
+        "text": "thông tư 06",
+        "label": "EVENT",
+        "evidence": "Ngay khi thông tư 06 có hiệu lực, các ngân hàng đã tạo kiện tốt nhất cho khách hàng chuyển khoản vay một cách dễ dàng thuận tiện."
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "Ngay khi thông tư 06 có hiệu lực, các ngân hàng đã tạo kiện tốt nhất cho khách hàng chuyển khoản vay một cách dễ dàng thuận tiện."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "các chính sách ưu đãi từ Techcombank cho gói tài trợ chuyển khoản vay được nhiều khách hàng tin tưởng lựa chọn."
+    },
+    {
+        "text": "gói tài trợ chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "các chính sách ưu đãi từ Techcombank cho gói tài trợ chuyển khoản vay được nhiều khách hàng tin tưởng lựa chọn."
+    },
+    {
+        "text": "Ông Nguyễn Tuấn Anh",
+        "label": "PERSON",
+        "evidence": "Ông Nguyễn Tuấn Anh – Giám đốc cao cấp phát triển giải pháp cho vay Techcombank cho biết ngân hàng đang thực hiện nhiều chính sách vượt trội để tạo điều kiện tốt nhất cho khách hàng khi có nhu cầu chuyển khoản vay về Techcombank"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Nguyễn Tuấn Anh – Giám đốc cao cấp phát triển giải pháp cho vay Techcombank cho biết ngân hàng đang thực hiện nhiều chính sách vượt trội để tạo điều kiện tốt nhất cho khách hàng khi có nhu cầu chuyển khoản vay về Techcombank"
+    },
+    {
+        "text": "chuyển khoản vay về Techcombank",
+        "label": "EVENT",
+        "evidence": "khi có nhu cầu chuyển khoản vay về Techcombank như: khách hàng có thể được phê duyệt trước hạn mức tín dụng"
+    },
+    {
+        "text": "chuyển khoản vay về Techcombank",
+        "label": "EVENT",
+        "evidence": "khách hàng khi chuyển khoản vay về Techcombank sẽ có thể được ân hạn gốc 24 tháng và hoàn tiền thanh toán các khoản phí khi chuyển khoản vay"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "khách hàng khi chuyển khoản vay về Techcombank sẽ có thể được ân hạn gốc 24 tháng và hoàn tiền thanh toán các khoản phí khi chuyển khoản vay"
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "ân hạn gốc 24 tháng và hoàn tiền thanh toán các khoản phí khi chuyển khoản vay"
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "hoàn tiền thanh toán các khoản phí khi chuyển khoản vay (phí công chứng tài sản và đăng ký giao dịch bảo đảm) lên đến 15,5 triệu đồng"
+    },
+    {
+        "text": "15,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "đăng ký giao dịch bảo đảm) lên đến 15,5 triệu đồng và miễn phí định giá bất động sản."
+    },
+    {
+        "text": "chuyển khoản vay về Techcombank",
+        "label": "EVENT",
+        "evidence": "khi chuyển khoản vay về Techcombank, người vay không lo tiền tất toán khoản vay cũ và nhận được các hỗ trợ cũng như ưu đãi về sản phẩm, dịch vụ khác của ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "khi chuyển khoản vay về Techcombank, người vay không lo tiền tất toán khoản vay cũ và nhận được các hỗ trợ cũng như ưu đãi về sản phẩm, dịch vụ khác của ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "nên việc Techcombank tài trợ để trả nợ trước hạn khoản vay và sẽ giải ngân trực tiếp cho ngân hàng cũ là một chính sách rất tốt"
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "tránh gây mất thời gian cho người vay phải đi làm việc với nhiều bên để chuyển khoản vay."
+    },
+    {
+        "text": "Chị Nguyên Thảo",
+        "label": "PERSON",
+        "evidence": "Chị Nguyên Thảo vừa chuyển khoản vay về Techcombank Sài Gòn chia sẻ."
+    },
+    {
+        "text": "chuyển khoản vay về Techcombank Sài Gòn",
+        "label": "EVENT",
+        "evidence": "Chị Nguyên Thảo vừa chuyển khoản vay về Techcombank Sài Gòn chia sẻ."
+    },
+    {
+        "text": "Techcombank Sài Gòn",
+        "label": "ORG",
+        "evidence": "Chị Nguyên Thảo vừa chuyển khoản vay về Techcombank Sài Gòn chia sẻ."
+    },
+    {
+        "text": "thông tư 06",
+        "label": "EVENT",
+        "evidence": "đúng như chủ trương từ thông tư 06, việc chuyển khoản vay đến ngân hàng mới tạo điều kiện cho người vay tiếp cận những ưu đãi và các dịch vụ mới từ ngân hàng đến."
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "việc chuyển khoản vay đến ngân hàng mới tạo điều kiện cho người vay tiếp cận những ưu đãi và các dịch vụ mới từ ngân hàng đến."
+    },
+    {
+        "text": "6 năm",
+        "label": "DATE",
+        "evidence": "6 năm trước mình vay ở một ngân hàng gần văn phòng làm việc để tiện hồ sơ thủ tục nhưng bây giờ đã chuyển đi rất xa nên trở nên rất bất tiện."
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "nên mình muốn chuyển khoản vay đến ngân hàng có nhiều ưu đãi và tiện ích hơn."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Chọn Techcombank để chuyển khoản vay về với mình và gia đình rất hợp lý vì vừa tận hưởng ưu đãi lãi suất, và cũng có dịp sử dụng các dịch vụ ngân hàng tiện ích, đặc biệt là ngân hàng số của Techcombank."
+    },
+    {
+        "text": "chuyển khoản vay về",
+        "label": "EVENT",
+        "evidence": "Chọn Techcombank để chuyển khoản vay về với mình và gia đình rất hợp lý vì vừa tận hưởng ưu đãi lãi suất"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "ngân hàng số của Techcombank.\" Chị Minh Anh chia sẻ."
+    },
+    {
+        "text": "Chị Minh Anh",
+        "label": "PERSON",
+        "evidence": "ngân hàng số của Techcombank.\" Chị Minh Anh chia sẻ."
+    },
+    {
+        "text": "Anh Nguyễn Minh",
+        "label": "PERSON",
+        "evidence": "Cùng tâm trạng, Anh Nguyễn Minh ở TP. Hồ Chí Minh khẳng định"
+    },
+    {
+        "text": "15.5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "hoàn phí thủ tục đến 15.5 triệu đồng là một vấn đề người vay như chúng tôi quan tâm"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank cũng áp dụng nhiều ưu đãi và chương trình tích điểm cho khách hàng khi giao dịch."
+    },
+    {
+        "text": "Techcombank mobile",
+        "label": "ORG",
+        "evidence": "Các công cụ quản lý tài chính cá nhân trên ứng dụng Techcombank mobile cũng sẽ giúp ích cho người dùng theo dõi chi tiêu cụ thể và báo cáo theo nhu cầu."
+    },
+    {
+        "text": "chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "nay chuyển khoản vay nên có dịp sử dụng các dịch vụ của Techcombank, trải nghiệm rất tốt."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "nay chuyển khoản vay nên có dịp sử dụng các dịch vụ của Techcombank, trải nghiệm rất tốt."
+    },
+    {
+        "text": "Anh Nguyễn Minh",
+        "label": "PERSON",
+        "evidence": "Anh Nguyễn Minh chia sẻ thêm."
+    },
+    {
+        "text": "Lãnh đạo Techcombank",
+        "label": "PERSON",
+        "evidence": "Lãnh đạo Techcombank chia sẻ thêm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Lãnh đạo Techcombank chia sẻ thêm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank đang trở thành ngân hàng giao dịch chính của nhiều khách hàng với mức độ hài lòng và giới thiệu cho người thân thuộc nhóm đầu."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "quá trình chuyển đổi không ngừng \"vượt trội hơn mỗi ngày\" của Techcombank để trở thành ngân hàng thương mại hàng đầu tại Việt Nam."
+    },
+    {
+        "text": "chương trình ưu đãi chuyển khoản vay",
+        "label": "EVENT",
+        "evidence": "Thông tin chi tiết về chương trình ưu đãi chuyển khoản vay, tham khảo tại đây"
+    }
+]

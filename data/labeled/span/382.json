@@ -1,0 +1,107 @@
+[
+    {
+        "text": "anh Đ.",
+        "label": "PERSON",
+        "evidence": "Trường hợp của anh Đ., chủ doanh nghiệp N. chuyên tổ chức sự kiện, có thể là minh chứng khá điển hình của việc \"đau đầu\" vì phí chuyển khoản."
+    },
+    {
+        "text": "ACB Không Phí",
+        "label": "EVENT",
+        "evidence": "Chọn dịch vụ\"ACB Không Phí\" đểđược miễn phí ngay!"
+    },
+    {
+        "text": "Không Phí",
+        "label": "EVENT",
+        "evidence": "Các chủ doanh nghiệp có thể cân nhắc gói giải pháp \"Không Phí\" từ ACB dành cho doanh nghiệp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Các chủ doanh nghiệp có thể cân nhắc gói giải pháp \"Không Phí\" từ ACB dành cho doanh nghiệp."
+    },
+    {
+        "text": "ACB One Biz",
+        "label": "ASSET",
+        "evidence": "Khi tham gia sử dụng ngân hàng số ACB One Biz hoặc ACB One Pro, khách hàng doanh nghiệp sẽ được miễn phí nhiều loại phí cơ bản như phí chuyển khoản (cả trong và ngoài hệ thống), phí thường niên, phí duy trì tài khoản, phí chi lương…"
+    },
+    {
+        "text": "ACB One Pro",
+        "label": "ASSET",
+        "evidence": "Khi tham gia sử dụng ngân hàng số ACB One Biz hoặc ACB One Pro, khách hàng doanh nghiệp sẽ được miễn phí nhiều loại phí cơ bản như phí chuyển khoản (cả trong và ngoài hệ thống), phí thường niên, phí duy trì tài khoản, phí chi lương…"
+    },
+    {
+        "text": "miễn phí nhiều loại phí cơ bản như phí chuyển khoản (cả trong và ngoài hệ thống), phí thường niên, phí duy trì tài khoản, phí chi lương",
+        "label": "EVENT",
+        "evidence": "Khi tham gia sử dụng ngân hàng số ACB One Biz hoặc ACB One Pro, khách hàng doanh nghiệp sẽ được miễn phí nhiều loại phí cơ bản như phí chuyển khoản (cả trong và ngoài hệ thống), phí thường niên, phí duy trì tài khoản, phí chi lương…"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, chủ tài khoản được miễn phí thêm 3 tháng chuyển tiền và phí giao dịch tại quầy có phát sinh ít nhất 1 giao dịch tối thiểu 1 triệu đồng trên ACB One Biz/ ACB One Pro trong vòng 30 ngày kể từ ngày mở mới/mở lại/kích hoạt lại tài khoản thanh toán (theo chương trình ưu đãi nhân đôi)."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, chủ tài khoản được miễn phí thêm 3 tháng chuyển tiền và phí giao dịch tại quầy có phát sinh ít nhất 1 giao dịch tối thiểu 1 triệu đồng trên ACB One Biz/ ACB One Pro trong vòng 30 ngày kể từ ngày mở mới/mở lại/kích hoạt lại tài khoản thanh toán (theo chương trình ưu đãi nhân đôi)."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, chủ tài khoản được miễn phí thêm 3 tháng chuyển tiền và phí giao dịch tại quầy có phát sinh ít nhất 1 giao dịch tối thiểu 1 triệu đồng trên ACB One Biz/ ACB One Pro trong vòng 30 ngày kể từ ngày mở mới/mở lại/kích hoạt lại tài khoản thanh toán (theo chương trình ưu đãi nhân đôi)."
+    },
+    {
+        "text": "chương trình ưu đãi nhân đôi",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, chủ tài khoản được miễn phí thêm 3 tháng chuyển tiền và phí giao dịch tại quầy có phát sinh ít nhất 1 giao dịch tối thiểu 1 triệu đồng trên ACB One Biz/ ACB One Pro trong vòng 30 ngày kể từ ngày mở mới/mở lại/kích hoạt lại tài khoản thanh toán (theo chương trình ưu đãi nhân đôi)."
+    },
+    {
+        "text": "ACB Không Phí",
+        "label": "EVENT",
+        "evidence": "Hiểu rộng ra, \"ACB Không Phí\" còn giúp các chủ doanh nghiệp không phí thời gian cho các giao dịch ngân hàng, giảm thiểu chi phí vận hành và tiết kiệm nhân lực."
+    },
+    {
+        "text": "ACB One Pro",
+        "label": "ASSET",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "gói giải pháp không phí",
+        "label": "EVENT",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "T+0",
+        "label": "DATE",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "T+1",
+        "label": "DATE",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "T+2",
+        "label": "DATE",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "thanh toán TT 24/7",
+        "label": "EVENT",
+        "evidence": "Đơn cử như đối với các doanh nghiệp quy mô lớn, ACB One Pro kết hợp gói giải pháp không phí được xem là giải pháp chuyển đổi số tối ưu cho doanh nghiệp với nhiều tiện ích nâng cao như: chi lương bảo mật, chi lô lớn, hạch toán 1 nợ – nhiều có, giao dịch ngoại tệ giao ngày T+0, T+1, T+2 cho phép doanh nghiệp được chọn tỷ giá có lợi hơn (giữa tỷ giá soạn và tỷ giá thời điểm duyệt), thanh toán TT 24/7 hoàn toàn từ xa chỉ với một chỉ thị đính kèm bộ chứng từ trực tuyến và đặc biệt tính năng phân quyền kiểm soát tài khoản giao dịch được nâng cấp với độ chuyên sâu cao."
+    },
+    {
+        "text": "ACB One Pro",
+        "label": "ASSET",
+        "evidence": "Chẳng hạn, với tính năng chi lương, ACB One Pro cho phép chủ doanh nghiệp tùy chỉnh thêm nhân sự HR vào kiểm soát (mà không ảnh hưởng đến loại giao dịch khác), các nhân sự HR này có thể được xem thông tin chi tiết tiền lương, nhưng các cấp kiểm soát, phê duyệt khác chỉ có thể thấy tổng số tiền chi lương."
+    },
+    {
+        "text": "ACB One Pro",
+        "label": "ASSET",
+        "evidence": "Hoặc với những khách hàng doanh nghiệp có quy mô tập đoàn thường xuyên thực hiện nhiều dự án cùng lúc, ACB One Pro cho phép quản lý và sử dụng nhiều tài khoản của các công ty con cùng nhóm chủ sở hữu trên cùng một giao diện người dùng, từ đó dễ dàng phân quyền kiểm soát từng tài khoản tương ứng với những bộ phận phù hợp."
+    },
+    {
+        "text": "ACB Không Phí",
+        "label": "EVENT",
+        "evidence": "Để mỗi khoản chi tiêu của doanh nghiệp đều hợp lý, gói giải pháp \"ACB Không Phí\" chính là sự lựa chọn phù hợp phù hợp nhất, góp phần tối ưu hóa lợi ích thời gian & nhân lực, cũng như thúc đẩy phát triển lâu dài cho doanh nghiệp trong kỷ nguyên số."
+    }
+]

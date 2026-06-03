@@ -1,0 +1,107 @@
+[
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Ngay khi có mặt tại thị trường, FPT Shop trở thành một trong những đơn vị đầu tiên tại Việt Nam có hỗ trợ thanh toán bằng hình thức này qua các giao dịch mua sắm."
+    },
+    {
+        "text": "hỗ trợ thanh toán bằng hình thức này",
+        "label": "EVENT",
+        "evidence": "Ngay khi có mặt tại thị trường, FPT Shop trở thành một trong những đơn vị đầu tiên tại Việt Nam có hỗ trợ thanh toán bằng hình thức này qua các giao dịch mua sắm."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Được biết, Apple Pay là dịch vụ thanh toán di động đã được triển khai tại Mỹ từ 10/2014."
+    },
+    {
+        "text": "được triển khai tại Mỹ",
+        "label": "EVENT",
+        "evidence": "Được biết, Apple Pay là dịch vụ thanh toán di động đã được triển khai tại Mỹ từ 10/2014."
+    },
+    {
+        "text": "10/2014",
+        "label": "DATE",
+        "evidence": "Được biết, Apple Pay là dịch vụ thanh toán di động đã được triển khai tại Mỹ từ 10/2014."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thay vì sử dụng thẻ tín dụng, người dùng chỉ cần sử dụng thiết bị Apple như: iPhone, Apple Watch, iPad,... gần máy thanh toán tại siêu thị, cửa hàng, quán ăn,..."
+    },
+    {
+        "text": "kích hoạt Apple Pay",
+        "label": "EVENT",
+        "evidence": "Để kích hoạt Apple Pay, người dùng cần điện thoại từ iPhone 8 hoặc mới hơn, chạy hệ điều hành iOS 12.5.2 trở lên."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Để kích hoạt Apple Pay, người dùng cần điện thoại từ iPhone 8 hoặc mới hơn, chạy hệ điều hành iOS 12.5.2 trở lên."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Không chỉ thanh toán tại các điểm chấp nhận, người dùng Apple Pay còn có thể sử dụng dịch vụ này trên các ứng dụng của hệ điều hành iOS và các website, ví dụ như khi khách hàng chọn thanh toán qua trình duyệt Safari, Apple Pay sẽ hỗ trợ thanh toán nhanh mà không cần điền thông tin thẻ."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Apple Pay hiện được sử dụng được tại 80 quốc gia và vùng lãnh thổ."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Để sử dụng, người dùng chỉ cần thêm thẻ tín dụng hoặc thẻ ghi nợ (của ngân hàng có hỗ trợ Apple Pay) vào ứng dụng Wallet trên thiết bị Apple."
+    },
+    {
+        "text": "thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Để sử dụng, người dùng chỉ cần thêm thẻ tín dụng hoặc thẻ ghi nợ (của ngân hàng có hỗ trợ Apple Pay) vào ứng dụng Wallet trên thiết bị Apple."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Để sử dụng, người dùng chỉ cần thêm thẻ tín dụng hoặc thẻ ghi nợ (của ngân hàng có hỗ trợ Apple Pay) vào ứng dụng Wallet trên thiết bị Apple."
+    },
+    {
+        "text": "507 triệu người dùng",
+        "label": "VOLUME",
+        "evidence": "Hình thức thanh toán này hiện có khoảng 507 triệu người dùng trên toàn cầu, tiếp cận khoảng 48% người dùng iPhone, theo Statistics."
+    },
+    {
+        "text": "48%",
+        "label": "RATE",
+        "evidence": "Hình thức thanh toán này hiện có khoảng 507 triệu người dùng trên toàn cầu, tiếp cận khoảng 48% người dùng iPhone, theo Statistics."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "FPT Retail tin rằng với những ưu điểm nổi bật trên, Apple Pay sẽ đáp ứng được nhu cầu thanh toán nhanh chóng và thông minh của người dùng."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "FPT Retail tin rằng với những ưu điểm nổi bật trên, Apple Pay sẽ đáp ứng được nhu cầu thanh toán nhanh chóng và thông minh của người dùng."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Sắp tới, trên toàn bộ cửa hàng của FPT Shop, F.Studio và Nhà thuốc Long Châu sẽ phủ rộng việc chấp nhận thanh toán qua Apple Pay để giúp khách hàng thuận lợi hơn trong trải nghiệm mua sắm trên toàn hệ thống."
+    },
+    {
+        "text": "F.Studio",
+        "label": "ORG",
+        "evidence": "Sắp tới, trên toàn bộ cửa hàng của FPT Shop, F.Studio và Nhà thuốc Long Châu sẽ phủ rộng việc chấp nhận thanh toán qua Apple Pay để giúp khách hàng thuận lợi hơn trong trải nghiệm mua sắm trên toàn hệ thống."
+    },
+    {
+        "text": "Nhà thuốc Long Châu",
+        "label": "ORG",
+        "evidence": "Sắp tới, trên toàn bộ cửa hàng của FPT Shop, F.Studio và Nhà thuốc Long Châu sẽ phủ rộng việc chấp nhận thanh toán qua Apple Pay để giúp khách hàng thuận lợi hơn trong trải nghiệm mua sắm trên toàn hệ thống."
+    },
+    {
+        "text": "phủ rộng việc chấp nhận thanh toán qua Apple Pay",
+        "label": "EVENT",
+        "evidence": "Sắp tới, trên toàn bộ cửa hàng của FPT Shop, F.Studio và Nhà thuốc Long Châu sẽ phủ rộng việc chấp nhận thanh toán qua Apple Pay để giúp khách hàng thuận lợi hơn trong trải nghiệm mua sắm trên toàn hệ thống."
+    }
+]

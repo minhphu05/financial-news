@@ -1,0 +1,152 @@
+[
+    {
+        "text": "ApplePay",
+        "label": "ASSET",
+        "evidence": "Để chào đón sự ra mắt ApplePay tại Việt Nam, Vietcombank giới thiệu Chuyến xe cafe \"Chỉ cần Apple Pay!\"."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Để chào đón sự ra mắt ApplePay tại Việt Nam, Vietcombank giới thiệu Chuyến xe cafe \"Chỉ cần Apple Pay!\"."
+    },
+    {
+        "text": "Chuyến xe cafe \"Chỉ cần Apple Pay!\"",
+        "label": "EVENT",
+        "evidence": "Để chào đón sự ra mắt ApplePay tại Việt Nam, Vietcombank giới thiệu Chuyến xe cafe \"Chỉ cần Apple Pay!\"."
+    },
+    {
+        "text": "sự ra mắt ApplePay tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "Để chào đón sự ra mắt ApplePay tại Việt Nam, Vietcombank giới thiệu Chuyến xe cafe \"Chỉ cần Apple Pay!\"."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ASSET",
+        "evidence": "Chuyến xe đặc biệt này nhằm đưa trải nghiệm Apple Pay tới đông đảo người dùng Việt, với hàng loạt hoạt động thú vị xuyên xuốt hành trình chuyến xe đi qua, gồm ba thành phố lớn Hà Nội, Đà Nẵng và Thành phố Hồ Chí Minh."
+    },
+    {
+        "text": "thẻ vật lý",
+        "label": "ASSET",
+        "evidence": "Bước đột phá này cho phép người dùng iPhone và Apple Watch thêm thẻ vật lý vào Ví Apple, mang đến cách thức thanh toán tiên tiến và thuận tiện cho khách hàng."
+    },
+    {
+        "text": "Ví Apple",
+        "label": "ORG",
+        "evidence": "Bước đột phá này cho phép người dùng iPhone và Apple Watch thêm thẻ vật lý vào Ví Apple, mang đến cách thức thanh toán tiên tiến và thuận tiện cho khách hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Trên iPhone, khách hàng chỉ cần mở ứng dụng Ví, chạm biểu tượng (+) và làm theo các bước để thêm thẻ tín dụng hoặc thẻ ghi nợ của Vietcombank."
+    },
+    {
+        "text": "thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Trên iPhone, khách hàng chỉ cần mở ứng dụng Ví, chạm biểu tượng (+) và làm theo các bước để thêm thẻ tín dụng hoặc thẻ ghi nợ của Vietcombank."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Đặc biệt khách hàng có thể thêm thẻ vào Apple Pay nhanh ngay trên VCB Digibank."
+    },
+    {
+        "text": "thẻ phi vật lý VCB DigiCard",
+        "label": "ASSET",
+        "evidence": "Thêm vào đó, khách hàng có thể phát hành ngay lập tức thẻ phi vật lý VCB DigiCard trên VCB DigiBank để thêm thẻ vào Apple Pay và trải nghiệm."
+    },
+    {
+        "text": "VCB DigiBank",
+        "label": "ORG",
+        "evidence": "Thêm vào đó, khách hàng có thể phát hành ngay lập tức thẻ phi vật lý VCB DigiCard trên VCB DigiBank để thêm thẻ vào Apple Pay và trải nghiệm."
+    },
+    {
+        "text": "sự ra mắt của Apple Pay",
+        "label": "EVENT",
+        "evidence": "Để lan tỏa sự ra mắt của Apple Pay, Vietcombank khởi động Chuyến xe cafe \"Chỉ cần Apple Pay!\" để khách hàng có cơ hội tham gia và trải nghiệm giải pháp thanh toán mới."
+    },
+    {
+        "text": "Chuyến xe cafe\"Chỉ cần Apple Pay!\"",
+        "label": "EVENT",
+        "evidence": "Đón nhận trải nghiệm thú vị với Chuyến xe cafe\"Chỉ cần Apple Pay!\""
+    },
+    {
+        "text": "thẻ Vietcombank Visa",
+        "label": "ASSET",
+        "evidence": "Nếu bạn đã có thẻ Vietcombank Visa và đã đăng ký ứng dụng VCB Digibank, hãy chạm biểu tượng Apple Pay trên ứng dụng VCB Digibank để thêm thẻ và trải nghiệm phương thức thanh toán hiện đại này."
+    },
+    {
+        "text": "mở tài khoản trực tuyến",
+        "label": "EVENT",
+        "evidence": "Nếu bạn chưa là khách hàng của Vietcombank, bạn có thể mở tài khoản trực tuyến xác thực bằng EKYC, bằng cách tải ứng dụng VCB Digibank từ App store và làm theo hướng dẫn để thêm thẻ."
+    },
+    {
+        "text": "tặng ngay 200.000 VND khi thêm và thanh toán thẻ Vietcombank Visa với Apple Pay",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, Vietcombank tặng ngay 200.000 VND khi thêm và thanh toán thẻ Vietcombank Visa với Apple Pay."
+    },
+    {
+        "text": "200.000 VND",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, Vietcombank tặng ngay 200.000 VND khi thêm và thanh toán thẻ Vietcombank Visa với Apple Pay."
+    },
+    {
+        "text": "Chuyến xe Cafe \"Chỉ cần Apple Pay!\"",
+        "label": "EVENT",
+        "evidence": "Nếu bạn không sử dụng các thiết bị Apple, đừng lo, Chuyến xe Cafe \"Chỉ cần Apple Pay!\" đã chuẩn bị rất nhiều hoạt động và phần quà dành tặng riêng bạn."
+    },
+    {
+        "text": "1.000 VND",
+        "label": "MONEY",
+        "evidence": "Mua và thưởng thức một ly cafe thơm ngon bằng Apple Pay chỉ với 1.000 VND"
+    },
+    {
+        "text": "Duy Thẩm",
+        "label": "PERSON",
+        "evidence": "Giao lưu và tương tác cùng khách mời đặc biệt: Duy Thẩm, Salim, MC Nguyên Khang"
+    },
+    {
+        "text": "Salim",
+        "label": "PERSON",
+        "evidence": "Giao lưu và tương tác cùng khách mời đặc biệt: Duy Thẩm, Salim, MC Nguyên Khang"
+    },
+    {
+        "text": "MC Nguyên Khang",
+        "label": "PERSON",
+        "evidence": "Giao lưu và tương tác cùng khách mời đặc biệt: Duy Thẩm, Salim, MC Nguyên Khang"
+    },
+    {
+        "text": "ngày 28/08/2023",
+        "label": "DATE",
+        "evidence": "Chuyến xe cafe \"Chỉ cần Apple Pay!\" chính thức lăn bánh từ ngày 28/08/2023, lần lượt dừng chân ở cả 3 thành phố lớn: Hà Nội, Đà Nẵng và Hồ Chí Minh."
+    },
+    {
+        "text": "chuyến xe \"Chỉ cần Apple Pay!\"",
+        "label": "EVENT",
+        "evidence": "Lịch trình xuyên Việt của chuyến xe \"Chỉ cần Apple Pay!\""
+    },
+    {
+        "text": "Thứ 2 đến Thứ 6",
+        "label": "DATE",
+        "evidence": "Từ Thứ 2 đến Thứ 6 (7h30 - 14h30): Chuyến xe sẽ dừng chân tại các địa điểm như tòa nhà trụ sở chính Vietcombank 198 Trần Quang Khải, Hà Thành Plaza…, khao bạn ly cafe thơm ngon chỉ với 1.000 VND khi thanh toán bằng Apple Pay với thẻ Vietcombank Visa, selfie thỏa thích với những góc hình cực chất, tham gia bốc thăm vòng quay may mắn để tiếp sức cho một ngày làm việc năng động."
+    },
+    {
+        "text": "7h30 - 14h30",
+        "label": "DATE",
+        "evidence": "Từ Thứ 2 đến Thứ 6 (7h30 - 14h30): Chuyến xe sẽ dừng chân tại các địa điểm như tòa nhà trụ sở chính Vietcombank 198 Trần Quang Khải, Hà Thành Plaza…, khao bạn ly cafe thơm ngon chỉ với 1.000 VND khi thanh toán bằng Apple Pay với thẻ Vietcombank Visa, selfie thỏa thích với những góc hình cực chất, tham gia bốc thăm vòng quay may mắn để tiếp sức cho một ngày làm việc năng động."
+    },
+    {
+        "text": "Thứ 7 và Chủ nhật",
+        "label": "DATE",
+        "evidence": "Thứ 7 và Chủ nhật (16h00 - 20h00): Chuyến xe sẽ dừng chân tại các địa điểm hấp dẫn như Phố đi bộ Hồ Gươm, TTTM Aeon Long Biên,… và chào đón những vị khách mời đặc biệt, đem đến những màn giao lưu đầy bất ngờ cũng như các tiết mục trình diễn âm nhạc sôi động."
+    },
+    {
+        "text": "16h00 - 20h00",
+        "label": "DATE",
+        "evidence": "Thứ 7 và Chủ nhật (16h00 - 20h00): Chuyến xe sẽ dừng chân tại các địa điểm hấp dẫn như Phố đi bộ Hồ Gươm, TTTM Aeon Long Biên,… và chào đón những vị khách mời đặc biệt, đem đến những màn giao lưu đầy bất ngờ cũng như các tiết mục trình diễn âm nhạc sôi động."
+    },
+    {
+        "text": "chuyến xe cafe \"Chỉ cần Apple Pay!\"",
+        "label": "EVENT",
+        "evidence": "Vietcombank đã bắt đầu khởi hành chuyến xe cafe \"Chỉ cần Apple Pay!\" ghé thăm mọi khách hàng trên khắp cả nước."
+    }
+]

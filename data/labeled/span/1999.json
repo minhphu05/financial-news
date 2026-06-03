@@ -1,0 +1,72 @@
+[
+    {
+        "text": "DeepSeek",
+        "label": "ORG",
+        "evidence": "ông Bảo cho biết, DeepSeek, một khởi nghiệp AI nhỏ của Trung Quốc đã gây ra sự hoảng loạn trên khắp Thung lũng Silicon sau khi phát hành các mô hình AI có thể vượt trội hơn so với những mô hình AI tốt nhất của Mỹ."
+    },
+    {
+        "text": "phát hành các mô hình AI có thể vượt trội hơn so với những mô hình AI tốt nhất của Mỹ",
+        "label": "EVENT",
+        "evidence": "DeepSeek, một khởi nghiệp AI nhỏ của Trung Quốc đã gây ra sự hoảng loạn trên khắp Thung lũng Silicon sau khi phát hành các mô hình AI có thể vượt trội hơn so với những mô hình AI tốt nhất của Mỹ."
+    },
+    {
+        "text": "ông Bảo",
+        "label": "PERSON",
+        "evidence": "Mở đẩu bài viết, ông Bảo cho biết, DeepSeek, một khởi nghiệp AI nhỏ của Trung Quốc đã gây ra sự hoảng loạn trên khắp Thung lũng Silicon sau khi phát hành các mô hình AI có thể vượt trội hơn so với những mô hình AI tốt nhất của Mỹ."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Lãnh đạo FPT nhận định, mô hình AI được xây dựng với chi phí rẻ hơn rất nhiều và với con chip lạc hậu hơn, kém mạnh hơn (trong bối cảnh Trung Quốc bị Mỹ bao vây, cấm vận về công nghệ)."
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo viết: “Trong khi ChatGPT sử dụng những con chip Nvidia H100 tiên tiến nhất với số tiền đầu tư lên đến hàng chục tỷ Mỹ kim thì DeepSeek chỉ sử dụng những con chip H800 cũ kỹ, lạc hậu và chỉ tiêu hết có 6 triệu Mỹ kim và chỉ mất có 2 tháng để huấn luyện model AI này."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Trong khi ChatGPT sử dụng những con chip Nvidia H100 tiên tiến nhất với số tiền đầu tư lên đến hàng chục tỷ Mỹ kim thì DeepSeek chỉ sử dụng những con chip H800 cũ kỹ, lạc hậu và chỉ tiêu hết có 6 triệu Mỹ kim và chỉ mất có 2 tháng để huấn luyện model AI này."
+    },
+    {
+        "text": "6 triệu Mỹ kim",
+        "label": "MONEY",
+        "evidence": "DeepSeek chỉ sử dụng những con chip H800 cũ kỹ, lạc hậu và chỉ tiêu hết có 6 triệu Mỹ kim và chỉ mất có 2 tháng để huấn luyện model AI này."
+    },
+    {
+        "text": "2 tháng",
+        "label": "DATE",
+        "evidence": "chỉ mất có 2 tháng để huấn luyện model AI này."
+    },
+    {
+        "text": "OpenAI",
+        "label": "ORG",
+        "evidence": "mô hình của DeepSeek vượt trội so với GPT-4o của OpenAI và Claude Sonnet 3.5 của Anthropic về độ chính xác, từ giải quyết vấn đề phức tạp đến Toán học và mã hóa, trên cả ngôn ngữ tiếng Trung lẫn tiếng Anh."
+    },
+    {
+        "text": "Ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Chính CEO Microsoft Satya Nadella, tại Devos (Thuỵ Sĩ) đã phải đưa ra cảnh báo \"Chúng ta nên xem xét sự phát triển của Trung Quốc rất, rất nghiêm túc\"."
+    },
+    {
+        "text": "Satya Nadella",
+        "label": "PERSON",
+        "evidence": "Chính CEO Microsoft Satya Nadella, tại Devos (Thuỵ Sĩ) đã phải đưa ra cảnh báo \"Chúng ta nên xem xét sự phát triển của Trung Quốc rất, rất nghiêm túc\"."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "đội tuuyển thi Toán quốc tế của Mỹ năm 2024 có 4 em gốc Trung Quốc, 1 gốc Ấn, 1 gốc Ba Lan, không có em nào gốc Mỹ)."
+    }
+]

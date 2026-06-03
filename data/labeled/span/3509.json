@@ -1,0 +1,167 @@
+[
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "LienVietPostBank cung cấp giải pháp tài chính hiệu quả trong thanh toán quốc tế với sản phẩm đa dạng như chuyển tiền đi/đến, nhờ thu, L/C…"
+    },
+    {
+        "text": "chuyển tiền đi/đến",
+        "label": "ASSET",
+        "evidence": "LienVietPostBank cung cấp giải pháp tài chính hiệu quả trong thanh toán quốc tế với sản phẩm đa dạng như chuyển tiền đi/đến, nhờ thu, L/C…"
+    },
+    {
+        "text": "nhờ thu",
+        "label": "ASSET",
+        "evidence": "LienVietPostBank cung cấp giải pháp tài chính hiệu quả trong thanh toán quốc tế với sản phẩm đa dạng như chuyển tiền đi/đến, nhờ thu, L/C…"
+    },
+    {
+        "text": "L/C",
+        "label": "ASSET",
+        "evidence": "LienVietPostBank cung cấp giải pháp tài chính hiệu quả trong thanh toán quốc tế với sản phẩm đa dạng như chuyển tiền đi/đến, nhờ thu, L/C…"
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, ngân hàng triển khai gói ưu đãi lớn dành cho doanh nghiệp nhằm tối ưu chi phí, hỗ trợ doanh nghiệp xuất, nhập khẩu phục hồi và tăng trưởng trong bối cảnh kinh tế thế giới gặp nhiều khó khăn."
+    },
+    {
+        "text": "triển khai gói ưu đãi lớn dành cho doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Năm 2023, ngân hàng triển khai gói ưu đãi lớn dành cho doanh nghiệp nhằm tối ưu chi phí, hỗ trợ doanh nghiệp xuất, nhập khẩu phục hồi và tăng trưởng trong bối cảnh kinh tế thế giới gặp nhiều khó khăn."
+    },
+    {
+        "text": "ngày 19.01.2023",
+        "label": "DATE",
+        "evidence": "Chương trình được triển khai từ ngày 19.01.2023 đến hết ngày 31.12.2023 với chính sách ưu đãi như sau:"
+    },
+    {
+        "text": "ngày 31.12.2023",
+        "label": "DATE",
+        "evidence": "Chương trình được triển khai từ ngày 19.01.2023 đến hết ngày 31.12.2023 với chính sách ưu đãi như sau:"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Miễn 100% phí phát hành lệnh chuyển tiền đối với 5 giao dịch chuyển tiền đi đầu tiên."
+    },
+    {
+        "text": "5 giao dịch",
+        "label": "VOLUME",
+        "evidence": "Miễn 100% phí phát hành lệnh chuyển tiền đối với 5 giao dịch chuyển tiền đi đầu tiên."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Miễn 100% phí nhận tiền đến đối với 5 giao dịch chuyển tiền đến đầu tiên."
+    },
+    {
+        "text": "5 giao dịch",
+        "label": "VOLUME",
+        "evidence": "Miễn 100% phí nhận tiền đến đối với 5 giao dịch chuyển tiền đến đầu tiên."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Giảm 50% phí nhận tiền đến (áp dụng với cả mức phí min và max) đối với các giao dịch tiếp theo phát sinh trong vòng 6 tháng kể từ ngày phát sinh giao dịch đầu tiên."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Giảm 50% phí nhận tiền đến (áp dụng với cả mức phí min và max) đối với các giao dịch tiếp theo phát sinh trong vòng 6 tháng kể từ ngày phát sinh giao dịch đầu tiên."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Miễn phí tra soát của LienVietPostBank đối với tất cả các giao dịch thanh toán quốc tế."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, LienVietPostBank cũng mang tới cho khách hàng ưu đãi lớn về tỉ giá mua bán ngoại tệ:"
+    },
+    {
+        "text": "ưu đãi lớn về tỉ giá mua bán ngoại tệ",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, LienVietPostBank cũng mang tới cho khách hàng ưu đãi lớn về tỉ giá mua bán ngoại tệ:"
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "Đối với USD:"
+    },
+    {
+        "text": "300.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch trị giá dưới 300.000 USD ưu đãi tối thiểu 20 điểm"
+    },
+    {
+        "text": "20 điểm",
+        "label": "RATE",
+        "evidence": "Giao dịch trị giá dưới 300.000 USD ưu đãi tối thiểu 20 điểm"
+    },
+    {
+        "text": "300.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch từ 300.000 USD đến dưới 1.000.000 USD ưu đãi tối thiểu 25 điểm"
+    },
+    {
+        "text": "1.000.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch từ 300.000 USD đến dưới 1.000.000 USD ưu đãi tối thiểu 25 điểm"
+    },
+    {
+        "text": "25 điểm",
+        "label": "RATE",
+        "evidence": "Giao dịch từ 300.000 USD đến dưới 1.000.000 USD ưu đãi tối thiểu 25 điểm"
+    },
+    {
+        "text": "1.000.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch từ 1.000.000 USD đến dưới 2.000.000 USD ưu đãi tối thiểu 30 điểm"
+    },
+    {
+        "text": "2.000.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch từ 1.000.000 USD đến dưới 2.000.000 USD ưu đãi tối thiểu 30 điểm"
+    },
+    {
+        "text": "30 điểm",
+        "label": "RATE",
+        "evidence": "Giao dịch từ 1.000.000 USD đến dưới 2.000.000 USD ưu đãi tối thiểu 30 điểm"
+    },
+    {
+        "text": "2.000.000 USD",
+        "label": "MONEY",
+        "evidence": "Giao dịch từ 2.000.000 USD trở lên sẽ áp dụng tỷ giá theo thỏa thuận."
+    },
+    {
+        "text": "ngoại tệ",
+        "label": "ASSET",
+        "evidence": "Đối với ngoại tệ khác: được ưu đãi tối thiểu 60 điểm."
+    },
+    {
+        "text": "60 điểm",
+        "label": "RATE",
+        "evidence": "Đối với ngoại tệ khác: được ưu đãi tối thiểu 60 điểm."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh những ưu đãi trên, doanh nghiệp xuất, nhập khẩu khi đến với LienVietPostBank sẽ được tư vấn các gói tài trợ thương mại hiệu quả với lãi suất vô cùng hấp dẫn, phù hợp với đặc thù của từng doanh nghiệp."
+    },
+    {
+        "text": "gói tài trợ thương mại",
+        "label": "ASSET",
+        "evidence": "Bên cạnh những ưu đãi trên, doanh nghiệp xuất, nhập khẩu khi đến với LienVietPostBank sẽ được tư vấn các gói tài trợ thương mại hiệu quả với lãi suất vô cùng hấp dẫn, phù hợp với đặc thù của từng doanh nghiệp."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Với sự đầu tư bài bản về công nghệ, đội ngũ chuyên nghiệp và mạng lưới rộng lớn đến tận cấp huyện, LienVietPostBank đảm bảo giao dịch của khách hàng được xử lý nhanh chóng, an toàn, chính xác và bảo mật tuyệt đối."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Để biết thêm thông tin, doanh nghiệp vui lòng liên hệ các chi nhánh/phòng giao dịch của LienVietPostBank trên khắp cả nước hoặc Tổng đài CSKH 1800 57 77 58 (miễn phí 24/7)."
+    }
+]

@@ -1,0 +1,607 @@
+[
+    {
+        "text": "20/1",
+        "label": "DATE",
+        "evidence": "Cập nhật đến sáng 20/1 đã có 6 ngân hàng công bố báo cáo tài chính quý IV/2023 gồm"
+    },
+    {
+        "text": "công bố báo cáo tài chính quý IV/2023",
+        "label": "EVENT",
+        "evidence": "Cập nhật đến sáng 20/1 đã có 6 ngân hàng công bố báo cáo tài chính quý IV/2023 gồm"
+    },
+    {
+        "text": "quý IV/2023",
+        "label": "DATE",
+        "evidence": "Cập nhật đến sáng 20/1 đã có 6 ngân hàng công bố báo cáo tài chính quý IV/2023 gồm"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "BaoVietBank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "gồm: LPBank, TPBank, BacABank, Saigonbank, BaoVietBank, PGBank."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Kết quả kinh doanh quý 4 có nhiều điểm bất ngờ và phân hoá mạnh giữa các ngân hàng."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "LPBankghi nhận lợi nhuận trước thuế quý 4/2023 đạt 3.353 tỷ đồng"
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "LPBankghi nhận lợi nhuận trước thuế quý 4/2023 đạt 3.353 tỷ đồng"
+    },
+    {
+        "text": "3.353 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "LPBankghi nhận lợi nhuận trước thuế quý 4/2023 đạt 3.353 tỷ đồng"
+    },
+    {
+        "text": "287%",
+        "label": "RATE",
+        "evidence": "tăng tới 287% so với cùng kỳ."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế năm 2023 đạt 7.039 tỷ đồng"
+    },
+    {
+        "text": "7.039 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế năm 2023 đạt 7.039 tỷ đồng"
+    },
+    {
+        "text": "24%",
+        "label": "RATE",
+        "evidence": "tăng 24%."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Đây là một trong những ngân hàng có tăng trưởng cao nhất trong quý 4."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Saigonbankbáo lãi trước thuế quý 4 đạt 84 tỷ đồng"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Saigonbankbáo lãi trước thuế quý 4 đạt 84 tỷ đồng"
+    },
+    {
+        "text": "84 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Saigonbankbáo lãi trước thuế quý 4 đạt 84 tỷ đồng"
+    },
+    {
+        "text": "1 tỷ",
+        "label": "MONEY",
+        "evidence": "trong khi cùng kỳ năm ngoái chỉ vỏn vẹn 1 tỷ."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế cả năm 2023 của Saigonbank đạt 332 tỷ"
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận trước thuế cả năm 2023 của Saigonbank đạt 332 tỷ"
+    },
+    {
+        "text": "332 tỷ",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế cả năm 2023 của Saigonbank đạt 332 tỷ"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "tăng 40%."
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "BacABankcũng có KQKD tích cực với lợi nhuận trước thuế quý 4 đạt 485 tỷ đồng"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "BacABankcũng có KQKD tích cực với lợi nhuận trước thuế quý 4 đạt 485 tỷ đồng"
+    },
+    {
+        "text": "485 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BacABankcũng có KQKD tích cực với lợi nhuận trước thuế quý 4 đạt 485 tỷ đồng"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tăng 50%."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lãi trước thuế năm 2023 đạt 1.036 tỷ đồng"
+    },
+    {
+        "text": "1.036 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi trước thuế năm 2023 đạt 1.036 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "ngang với năm 2022."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBankghi nhận lợi nhuận trước thuế quý 4/2023 là 630 tỷ đồng"
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "TPBankghi nhận lợi nhuận trước thuế quý 4/2023 là 630 tỷ đồng"
+    },
+    {
+        "text": "630 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TPBankghi nhận lợi nhuận trước thuế quý 4/2023 là 630 tỷ đồng"
+    },
+    {
+        "text": "67%",
+        "label": "RATE",
+        "evidence": "giảm mạnh 67% so với cùng kỳ"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế năm 2023 của TPBank ở mức 5.589 tỷ đồng"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "lợi nhuận trước thuế năm 2023 của TPBank ở mức 5.589 tỷ đồng"
+    },
+    {
+        "text": "5.589 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế năm 2023 của TPBank ở mức 5.589 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "thấp hơn khá nhiều so với năm 2022 (7.828 tỷ đồng)."
+    },
+    {
+        "text": "7.828 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2022 (7.828 tỷ đồng)."
+    },
+    {
+        "text": "BaoVietBank",
+        "label": "ORG",
+        "evidence": "BaoVietBankbáo lãi trước thuế quý 4 đạt 56 tỷ đồng"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "BaoVietBankbáo lãi trước thuế quý 4 đạt 56 tỷ đồng"
+    },
+    {
+        "text": "56 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BaoVietBankbáo lãi trước thuế quý 4 đạt 56 tỷ đồng"
+    },
+    {
+        "text": "54 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhỉnh một chút so với mức 54 tỷ đồng cùng kỳ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "nhỉnh một chút so với mức 54 tỷ đồng cùng kỳ năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế năm 2023 nhà băng đạt 90 tỷ đồng"
+    },
+    {
+        "text": "90 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế năm 2023 nhà băng đạt 90 tỷ đồng"
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "PGBankbị lỗ 5 tỷ đồng trong quý 4"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "PGBankbị lỗ 5 tỷ đồng trong quý 4"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "PGBankbị lỗ 5 tỷ đồng trong quý 4"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "trong khi cùng kỳ năm 2022 có lãi tới 119 tỷ đồng."
+    },
+    {
+        "text": "119 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong khi cùng kỳ năm 2022 có lãi tới 119 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế năm 2023 là 356 tỷ"
+    },
+    {
+        "text": "356 tỷ",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế năm 2023 là 356 tỷ"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm 30% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "giảm 30% so với năm 2022."
+    },
+    {
+        "text": "ước tính kết quả kinh doanh sơ bộ năm 2023",
+        "label": "EVENT",
+        "evidence": "có 7 ngân hàng đã ước tính kết quả kinh doanh sơ bộ năm 2023 gồm"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ước tính kết quả kinh doanh sơ bộ năm 2023 gồm"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "gồm: Vietcombank, BIDV, VietinBank, MB, Agribank, VIB, Sacombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tổng Giám đốcVietcombankcho biết lợi nhuận trước thuế của ngân hàng này năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế của ngân hàng này năm 2023 tăng tăng 10,2%"
+    },
+    {
+        "text": "10,2%",
+        "label": "RATE",
+        "evidence": "năm 2023 tăng tăng 10,2% so với năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tăng tăng 10,2% so với năm 2022 và hoàn thành kế hoạch được giao."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lãnh đạo Vietcombank không công bố con số cụ thể song ngân hàng này ghi nhận mức lãi hợp nhất trước thuế 37.368 tỷ đồng"
+    },
+    {
+        "text": "37.368 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận mức lãi hợp nhất trước thuế 37.368 tỷ đồng và lãi riêng lẻ hơn 36.702 tỷ đồng trong năm 2022"
+    },
+    {
+        "text": "36.702 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi riêng lẻ hơn 36.702 tỷ đồng trong năm 2022 ."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "hơn 36.702 tỷ đồng trong năm 2022 ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "lợi nhuận hợp nhất trước thuế của Vietcombank năm 2023 có thể khoảng 41.200 tỷ đồng"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận hợp nhất trước thuế của Vietcombank năm 2023 có thể khoảng 41.200 tỷ đồng"
+    },
+    {
+        "text": "41.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2023 có thể khoảng 41.200 tỷ đồng và lợi nhuận riêng lẻ vượt 40.400 tỷ đồng."
+    },
+    {
+        "text": "40.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận riêng lẻ vượt 40.400 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDVcũng đã công bố kết quả kinh doanh sơ bộ trong năm 2023"
+    },
+    {
+        "text": "công bố kết quả kinh doanh sơ bộ trong năm 2023",
+        "label": "EVENT",
+        "evidence": "BIDVcũng đã công bố kết quả kinh doanh sơ bộ trong năm 2023 với nhiều các chỉ tiêu đều đạt và vượt kế hoạch được giao."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "công bố kết quả kinh doanh sơ bộ trong năm 2023 với nhiều các chỉ tiêu đều đạt và vượt kế hoạch được giao."
+    },
+    {
+        "text": "26.750 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế khối ngân hàng thương mại đạt 26.750 tỷ đồng."
+    },
+    {
+        "text": "1.290 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế Khối Công ty con đạt 1.290 tỷ đồng"
+    },
+    {
+        "text": "945 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối Liên doanh đạt 945 tỷ đồng."
+    },
+    {
+        "text": "27.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế hợp nhất đạt trên 27.400 tỷ đồng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Chủ tịchMBcho biết lợi nhuận riêng lẻ ngân hàng trong năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận riêng lẻ ngân hàng trong năm 2023 đạt gần 24.688 tỷ đồng"
+    },
+    {
+        "text": "24.688 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận riêng lẻ ngân hàng trong năm 2023 đạt gần 24.688 tỷ đồng"
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "tăng 22% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tăng 22% so với năm 2022."
+    },
+    {
+        "text": "26.200 tỷ",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận hợp nhất đạt 26.200 tỷ, tăng 15%."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận hợp nhất đạt 26.200 tỷ, tăng 15%."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với kết quả trên, MB nhiều khả năng sẽ tiếp tục bỏ xa Techcombank"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "MB nhiều khả năng sẽ tiếp tục bỏ xa Techcombank để trở thành ngân hàng có lợi nhuận cao nhất nhóm tư nhân."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Theo thông tin đượcAgribankcông bố, lợi nhuận trước thuế cả năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế cả năm 2023 ước đạt khoảng 25.300 - 25.400 tỷ đồng"
+    },
+    {
+        "text": "25.300 - 25.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế cả năm 2023 ước đạt khoảng 25.300 - 25.400 tỷ đồng"
+    },
+    {
+        "text": "14,5 - 15%",
+        "label": "RATE",
+        "evidence": "tăng từ 14,5 - 15% so với năm trước."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Còn tạiVietinBank, lợi nhuận của ngân hàng này năm 2023 cũng đã vượt kế hoạch đề ra, cán mốc tỷ USD."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận của ngân hàng này năm 2023 cũng đã vượt kế hoạch đề ra, cán mốc tỷ USD."
+    },
+    {
+        "text": "tỷ USD",
+        "label": "MONEY",
+        "evidence": "cán mốc tỷ USD."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank, PVCombank, VIB cũng đã công bố lợi nhuận ước tính trong năm 2023."
+    },
+    {
+        "text": "PVCombank",
+        "label": "ORG",
+        "evidence": "Sacombank, PVCombank, VIB cũng đã công bố lợi nhuận ước tính trong năm 2023."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Sacombank, PVCombank, VIB cũng đã công bố lợi nhuận ước tính trong năm 2023."
+    },
+    {
+        "text": "công bố lợi nhuận ước tính trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Sacombank, PVCombank, VIB cũng đã công bố lợi nhuận ước tính trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "công bố lợi nhuận ước tính trong năm 2023."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Cụ thể,Sacombankcho biết, lợi nhuận trước thuế hợp nhất năm 2023 ước đạt hơn 9.500 tỷ"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế hợp nhất năm 2023 ước đạt hơn 9.500 tỷ"
+    },
+    {
+        "text": "9.500 tỷ",
+        "label": "MONEY",
+        "evidence": "năm 2023 ước đạt hơn 9.500 tỷ, tăng 50% so năm trước"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tăng 50% so năm trước và đạt 100% kế hoạch Đại hội đồng cổ đông giao"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Còn tạiVIB, theo mô hình tài chính và dự báo khả thi, ban lãnh đạo ngân hàng dự kiến sẽ đạt lợi nhuận sau thuế cả năm 2023 là 8.640 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "lợi nhuận sau thuế cả năm 2023 là 8.640 tỷ đồng."
+    },
+    {
+        "text": "8.640 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận sau thuế cả năm 2023 là 8.640 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tại Hội nghị tổng kết năm 2023, PVComBank thông báo lợi nhuận trước thuế ước đạt 100% kế hoạch giao."
+    },
+    {
+        "text": "PVComBank",
+        "label": "ORG",
+        "evidence": "Tại Hội nghị tổng kết năm 2023, PVComBank thông báo lợi nhuận trước thuế ước đạt 100% kế hoạch giao."
+    },
+    {
+        "text": "thông báo lợi nhuận trước thuế ước đạt 100% kế hoạch giao",
+        "label": "EVENT",
+        "evidence": "PVComBank thông báo lợi nhuận trước thuế ước đạt 100% kế hoạch giao."
+    },
+    {
+        "text": "công bố kết quả kinh doanh sơ bộ (hoặc ước tính) cả năm 2023",
+        "label": "EVENT",
+        "evidence": "đã có 11 ngân hàng công bố kết quả kinh doanh sơ bộ (hoặc ước tính) cả năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "công bố kết quả kinh doanh sơ bộ (hoặc ước tính) cả năm 2023."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong đó, Vietcombank tiếp tục là ngân hàng lãi lớn nhất hệ thống"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "còn Sacombank tăng trưởng lợi nhuận mạnh nhất."
+    }
+]

@@ -1,0 +1,532 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo thông báo mới nhất củaVietcombank, kể từ ngày 1/7/2023, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "1/7/2023",
+        "label": "DATE",
+        "evidence": "Theo thông báo mới nhất củaVietcombank, kể từ ngày 1/7/2023, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "kể từ ngày 1/7/2023, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)",
+        "label": "EVENT",
+        "evidence": "Theo thông báo mới nhất củaVietcombank, kể từ ngày 1/7/2023, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "1/7",
+        "label": "DATE",
+        "evidence": "kể từ ngày 1/7/2023, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "20.000 đồng/thẻ",
+        "label": "MONEY",
+        "evidence": "thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đối với thẻ tín dụng quốc tế, Vietcombank tăng 2 loại phí."
+    },
+    {
+        "text": "Vietcombank tăng 2 loại phí",
+        "label": "EVENT",
+        "evidence": "Đối với thẻ tín dụng quốc tế, Vietcombank tăng 2 loại phí."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng",
+        "label": "EVENT",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hiện Vietcombank không thu phí duy trì thẻ ghi nợ công nghệ từ, phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "1/7/2023",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "10.000 đồng/tháng",
+        "label": "MONEY",
+        "evidence": "ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo đại diện Vietcombank, bà Đoàn Hồng Nhung – Phó Giám đốc Khối bán lẻ của ngân hàng, sự điều chỉnh phí dịch vụ lần này nhằm khuyến khích khách hàng giao dịch trên kênh số đồng thời giảm bớt chi phí, đảm bảo an toàn cho khách hàng và xã hội, tiết kiệm thời gian và góp phần bảo vệ môi trường."
+    },
+    {
+        "text": "Đoàn Hồng Nhung",
+        "label": "PERSON",
+        "evidence": "bà Đoàn Hồng Nhung – Phó Giám đốc Khối bán lẻ của ngân hàng, sự điều chỉnh phí dịch vụ lần này nhằm khuyến khích khách hàng giao dịch trên kênh số đồng thời giảm bớt chi phí, đảm bảo an toàn cho khách hàng và xã hội, tiết kiệm thời gian và góp phần bảo vệ môi trường."
+    },
+    {
+        "text": "sự điều chỉnh phí dịch vụ lần này",
+        "label": "EVENT",
+        "evidence": "bà Đoàn Hồng Nhung – Phó Giám đốc Khối bán lẻ của ngân hàng, sự điều chỉnh phí dịch vụ lần này nhằm khuyến khích khách hàng giao dịch trên kênh số đồng thời giảm bớt chi phí, đảm bảo an toàn cho khách hàng và xã hội, tiết kiệm thời gian và góp phần bảo vệ môi trường."
+    },
+    {
+        "text": "20.000-100.000đ",
+        "label": "MONEY",
+        "evidence": "Phí gửi thẻ trực tiếp sẽ dao động từ 20.000-100.000đ tùy loại;"
+    },
+    {
+        "text": "10.000-150.000đ/thẻ",
+        "label": "MONEY",
+        "evidence": "phí chấm dứt sử dụng thẻ dao động từ 10.000-150.000đ/thẻ."
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Như cùng trong nhóm Big4 (Agribank, VietinBank,Vietcombank, BIDV),VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "30.000 VNĐ/lần",
+        "label": "MONEY",
+        "evidence": "VietinBank﻿đang thu Phí mở khóa thẻ theo yêu cầu (tại quầy): 30.000 VNĐ/lần;"
+    },
+    {
+        "text": "3% - 6%",
+        "label": "RATE",
+        "evidence": "Phí phạt chậm thanh toán (tính trên số tiền thanh toán tối thiểu) đối với thẻ TDQT: từ 3% - 6%, tối thiểu 200.000 VNĐ tùy loại thẻ."
+    },
+    {
+        "text": "200.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "từ 3% - 6%, tối thiểu 200.000 VNĐ tùy loại thẻ."
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế Mastercard Platinum Sendo",
+        "label": "ASSET",
+        "evidence": "trừ thẻ ghi nợ quốc tế Mastercard Platinum Sendo (100.000đ);"
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ ghi nợ quốc tế Mastercard Platinum Sendo (100.000đ);"
+    },
+    {
+        "text": "thẻ tín dụng nội địa i-Zero",
+        "label": "ASSET",
+        "evidence": "thẻ tín dụng nội địa i-Zero (45.455đ);"
+    },
+    {
+        "text": "45.455đ",
+        "label": "MONEY",
+        "evidence": "thẻ tín dụng nội địa i-Zero (45.455đ);"
+    },
+    {
+        "text": "thẻ ghi nợ vật lý Mastercard Platinum ELIV3",
+        "label": "ASSET",
+        "evidence": "thẻ ghi nợ vật lý Mastercard Platinum ELIV3 (99.000đ);"
+    },
+    {
+        "text": "99.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ ghi nợ vật lý Mastercard Platinum ELIV3 (99.000đ);"
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "thẻ quà tặng nội địa và quốc tế sẽ có phí là 10.000 đồng đối với bản tiêu chuẩn và có thể các phụ phí khác nếu khách hàng yêu cầu thêm."
+    },
+    {
+        "text": "136.364đ",
+        "label": "MONEY",
+        "evidence": "khách hàng cá nhân đóng thẻ qua ipay hay tại quầy đều phải trả phí là 136.364đ"
+    },
+    {
+        "text": "thẻ Visa Signature",
+        "label": "ASSET",
+        "evidence": "riêng thẻ Visa Signature và Mastercard Platinum Sendo con số này lần lượt là 181.818đ và 100.000đ."
+    },
+    {
+        "text": "Mastercard Platinum Sendo",
+        "label": "ASSET",
+        "evidence": "riêng thẻ Visa Signature và Mastercard Platinum Sendo con số này lần lượt là 181.818đ và 100.000đ."
+    },
+    {
+        "text": "181.818đ",
+        "label": "MONEY",
+        "evidence": "con số này lần lượt là 181.818đ và 100.000đ."
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "con số này lần lượt là 181.818đ và 100.000đ."
+    },
+    {
+        "text": "136.364đ",
+        "label": "MONEY",
+        "evidence": "Với khách hàng doanh nghiệp phí đóng thẻ là 136.364đ."
+    },
+    {
+        "text": "50.000đ",
+        "label": "MONEY",
+        "evidence": "phí tất toán thẻ qua ipay là 50.000đ"
+    },
+    {
+        "text": "Mastercard Debit Platinum",
+        "label": "ASSET",
+        "evidence": "riêng đối với sản phẩm Mastercard Debit Platinum là 80.000đ"
+    },
+    {
+        "text": "80.000đ",
+        "label": "MONEY",
+        "evidence": "riêng đối với sản phẩm Mastercard Debit Platinum là 80.000đ"
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "con số này sẽ là 100.000đ nếu tất toán tại quầy."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hiện VietinBank cũng không áp dụng phí không thanh toán đủ số tiền thanh toán tối thiểu đối với thẻ tín dụng quốc tế, phí duy trì theo tháng đối với các sản phẩm thẻ."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "TạiBIDV, đối với khách hàng cá nhân, phí kích hoạt lại thẻ tại quầy: 20.000 VNĐ/lần."
+    },
+    {
+        "text": "20.000 VNĐ/lần",
+        "label": "MONEY",
+        "evidence": "phí kích hoạt lại thẻ tại quầy: 20.000 VNĐ/lần."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Phí phạt chậm thanh toán đối với thẻ TDQT: 4% số tiền chậm thanh toán, tối thiểu 100.000 VNĐ."
+    },
+    {
+        "text": "100.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "tối thiểu 100.000 VNĐ."
+    },
+    {
+        "text": "50.000đ",
+        "label": "MONEY",
+        "evidence": "Ngân hàng cũng tính phí phát hành 50.000đ đối với thẻ vật lý ghi nợ nội địa;"
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế hạng chuẩn Ready",
+        "label": "ASSET",
+        "evidence": "thẻ ghi nợ quốc tế hạng chuẩn Ready; các sản phẩm còn lại miễn phí phát hành."
+    },
+    {
+        "text": "20.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ nội địa và thẻ ghi nợ quốc tế có mức phí lần lượt là 20.000đ và 30.000đ."
+    },
+    {
+        "text": "30.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ nội địa và thẻ ghi nợ quốc tế có mức phí lần lượt là 20.000đ và 30.000đ."
+    },
+    {
+        "text": "Visa Infinite",
+        "label": "ASSET",
+        "evidence": "các thẻ Visa Infinite/Private Banking/Premier (hạng Signature) sẽ được miễn phí;"
+    },
+    {
+        "text": "Private Banking",
+        "label": "ASSET",
+        "evidence": "các thẻ Visa Infinite/Private Banking/Premier (hạng Signature) sẽ được miễn phí;"
+    },
+    {
+        "text": "Premier (hạng Signature)",
+        "label": "ASSET",
+        "evidence": "các thẻ Visa Infinite/Private Banking/Premier (hạng Signature) sẽ được miễn phí;"
+    },
+    {
+        "text": "100.000đ/lần",
+        "label": "MONEY",
+        "evidence": "còn lại sẽ là 100.000đ/lần."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "khi yêu cầu chấm dứt sử dụng thẻ trong vòng 12 tháng kể từ ngày phát hành thẻ"
+    },
+    {
+        "text": "50.000đ/lần",
+        "label": "MONEY",
+        "evidence": "Với thẻ ghi nợ quốc tế, mức phí sẽ là 50.000đ/lần."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribankthu ﻿Phí mở khóa thẻ áp dụng với toàn bộ sản phẩm thẻ GNNĐ, GNQT, TDQT cá nhân: 10.000 VNĐ/lần (chưa bao gồm VAT);"
+    },
+    {
+        "text": "10.000 VNĐ/lần",
+        "label": "MONEY",
+        "evidence": "10.000 VNĐ/lần (chưa bao gồm VAT);"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Phí chậm trả thẻ TDQT: 3% số tiền chậm trả, tối thiểu 50.000 VNĐ."
+    },
+    {
+        "text": "50.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "tối thiểu 50.000 VNĐ."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Với các thẻ nội địa do Agribank phát hành, thẻ ghi nợ hạng chuẩn sẽ có phí là 50.000đ, hạng vàng là 100.000đ;"
+    },
+    {
+        "text": "50.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ ghi nợ hạng chuẩn sẽ có phí là 50.000đ"
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "hạng vàng là 100.000đ;"
+    },
+    {
+        "text": "Thẻ liên kết sinh viên",
+        "label": "ASSET",
+        "evidence": "Thẻ liên kết sinh viên (30.000đ);"
+    },
+    {
+        "text": "30.000đ",
+        "label": "MONEY",
+        "evidence": "Thẻ liên kết sinh viên (30.000đ);"
+    },
+    {
+        "text": "thẻ lập nghiệp",
+        "label": "ASSET",
+        "evidence": "thẻ lập nghiệp (miễn phí);"
+    },
+    {
+        "text": "50.000đ",
+        "label": "MONEY",
+        "evidence": "thẻ liên kế thương hiệu là 50.000đ với hạng chuẩn"
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "100.000đ với hạng vàng."
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "phí phát hành lần đầu đối với thẻ ghi nợ hạng chuẩn là 100.000đ"
+    },
+    {
+        "text": "150.000đ",
+        "label": "MONEY",
+        "evidence": "hạng vàng là 150.000đ;"
+    },
+    {
+        "text": "100.000đ",
+        "label": "MONEY",
+        "evidence": "sẽ có mức phí phát hành lần đầu lần lượt là 100.000đ"
+    },
+    {
+        "text": "200.000đ",
+        "label": "MONEY",
+        "evidence": "200.000đ"
+    },
+    {
+        "text": "300.000d",
+        "label": "MONEY",
+        "evidence": "300.000d."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank sẽ áp dụng mức phí 10.000đ đối với thẻ trả trước, thẻ phi vật lý."
+    },
+    {
+        "text": "10.000đ",
+        "label": "MONEY",
+        "evidence": "Agribank sẽ áp dụng mức phí 10.000đ đối với thẻ trả trước, thẻ phi vật lý."
+    },
+    {
+        "text": "thẻ Lộc Việt",
+        "label": "ASSET",
+        "evidence": "Riêng thẻ Lộc Việt sẽ được miễn phí."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Ở khối tư nhân, hiệnMSBkhông thu phí kích hoạt, phát hành, duy trì đối với tất cả các loại thẻ."
+    },
+    {
+        "text": "50.000đ/lần",
+        "label": "MONEY",
+        "evidence": "khách hàng thường sẽ đóng phí 50.000đ/lần"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "đóng thẻ trong vòng 12 tháng kể từ ngày đầu tiên mở thẻ"
+    },
+    {
+        "text": "200.000đ",
+        "label": "MONEY",
+        "evidence": "là 200.000đ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "ỞVIB, toàn bộ thẻ được miễn phí kích hoạt, phát hành lần đầu (riêng thẻ ghi nợ VIB Values có phí phát hành lần đầu 110.00đ)."
+    },
+    {
+        "text": "thẻ ghi nợ VIB Values",
+        "label": "ASSET",
+        "evidence": "riêng thẻ ghi nợ VIB Values có phí phát hành lần đầu 110.00đ)."
+    },
+    {
+        "text": "110.00đ",
+        "label": "MONEY",
+        "evidence": "riêng thẻ ghi nợ VIB Values có phí phát hành lần đầu 110.00đ)."
+    },
+    {
+        "text": "10.000-20.000 đồng/tháng",
+        "label": "MONEY",
+        "evidence": "10.000-20.000 đồng/tháng hoặc 66.000đ/năm, tùy loại thẻ."
+    },
+    {
+        "text": "66.000đ/năm",
+        "label": "MONEY",
+        "evidence": "hoặc 66.000đ/năm, tùy loại thẻ."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "nếu đóng thẻ tín dụng trong vòng 12 tháng kể từ ngày phát hành lần đầu"
+    },
+    {
+        "text": "299.000-699.000đ",
+        "label": "MONEY",
+        "evidence": "khách hàng sẽ phải đóng phí trong khoảng từ 299.000-699.000đ tùy loại thẻ."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCBcũng miễn toàn bộ phí phát hành lần đầu, phí kích hoạt, phí duy trì đối với các loại thẻ."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Phí thanh lý thẻ tín dụng trong vòng 12 tháng dao động từ 100.000-499.000đ"
+    },
+    {
+        "text": "100.000-499.000đ",
+        "label": "MONEY",
+        "evidence": "Phí thanh lý thẻ tín dụng trong vòng 12 tháng dao động từ 100.000-499.000đ"
+    },
+    {
+        "text": "Mastercard chuẩn",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "Passport Platinum Mastercard",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "OCB - EVN",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "OCB - Jetstar Mastercard",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "OCB - JCB Chuẩn",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "OCB TTC Hospitality",
+        "label": "ASSET",
+        "evidence": "trừ thẻ Mastercard chuẩn,Passport Platinum Mastercard, OCB - EVN, OCB - Jetstar Mastercard, OCB - JCB Chuẩn, OCB TTC Hospitality."
+    },
+    {
+        "text": "20-30.000đ",
+        "label": "MONEY",
+        "evidence": "còn lại là từ 20-30.000đ/tùy loại thẻ."
+    }
+]

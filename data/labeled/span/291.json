@@ -1,0 +1,412 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể tại Vietcombank, ngân hàng sẽ chính thức dừng gửi tin nhắn biến động số dư với các giao dịch có giá trị dưới 50 nghìn đồng."
+    },
+    {
+        "text": "dừng gửi tin nhắn biến động số dư với các giao dịch có giá trị dưới 50 nghìn đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể tại Vietcombank, ngân hàng sẽ chính thức dừng gửi tin nhắn biến động số dư với các giao dịch có giá trị dưới 50 nghìn đồng."
+    },
+    {
+        "text": "50 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể tại Vietcombank, ngân hàng sẽ chính thức dừng gửi tin nhắn biến động số dư với các giao dịch có giá trị dưới 50 nghìn đồng."
+    },
+    {
+        "text": "SMS chủ động",
+        "label": "ASSET",
+        "evidence": "Đối với dịch vụ SMS chủ động, ngân hàng sẽ tính phí theo số lượng tin nhắn phát sinh trong tháng."
+    },
+    {
+        "text": "tính phí theo số lượng tin nhắn phát sinh trong tháng",
+        "label": "EVENT",
+        "evidence": "Đối với dịch vụ SMS chủ động, ngân hàng sẽ tính phí theo số lượng tin nhắn phát sinh trong tháng."
+    },
+    {
+        "text": "10.000 đồng/tháng/số điện thoại",
+        "label": "MONEY",
+        "evidence": "Nếu dưới 20 tin nhắn/tháng/số điện thoại, phí dịch vụ là 10.000 đồng/tháng/số điện thoại."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trên 20 tin nhắn/tháng/số điện thoại,Vietcombankthu phí theo số lượng tin nhắn thực tế phát sinh trong tháng với mức phí 700 đồng/tin nhắn."
+    },
+    {
+        "text": "thu phí theo số lượng tin nhắn thực tế phát sinh trong tháng với mức phí 700 đồng/tin nhắn",
+        "label": "EVENT",
+        "evidence": "Trên 20 tin nhắn/tháng/số điện thoại,Vietcombankthu phí theo số lượng tin nhắn thực tế phát sinh trong tháng với mức phí 700 đồng/tin nhắn."
+    },
+    {
+        "text": "700 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "Trên 20 tin nhắn/tháng/số điện thoại,Vietcombankthu phí theo số lượng tin nhắn thực tế phát sinh trong tháng với mức phí 700 đồng/tin nhắn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trước đó, Vietcombank áp dụng 10.000 đồng/tháng/số điện thoại cho phí SMS chủ động."
+    },
+    {
+        "text": "áp dụng 10.000 đồng/tháng/số điện thoại cho phí SMS chủ động",
+        "label": "EVENT",
+        "evidence": "Trước đó, Vietcombank áp dụng 10.000 đồng/tháng/số điện thoại cho phí SMS chủ động."
+    },
+    {
+        "text": "10.000 đồng/tháng/số điện thoại",
+        "label": "MONEY",
+        "evidence": "Trước đó, Vietcombank áp dụng 10.000 đồng/tháng/số điện thoại cho phí SMS chủ động."
+    },
+    {
+        "text": "SMS chủ động",
+        "label": "ASSET",
+        "evidence": "Trước đó, Vietcombank áp dụng 10.000 đồng/tháng/số điện thoại cho phí SMS chủ động."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, nếu khách hàng phát sinh trên 20 tin nhắn, số phí dịch vụ phát sinh sẽ cao hơn 10.000 đồng."
+    },
+    {
+        "text": "77.000 đồng",
+        "label": "MONEY",
+        "evidence": "Chẳng hạn, nếu khách hàng phát sinh khoảng 100 tin nhắn, tiền phí dịch vụ SMS chủ động trong tháng lên tới 77.000 đồng (đã bao gồm VAT)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cũng cho biết, nếu không có nhu cầu tiếp tục sử dụng dịch vụ SMS chủ động, khách hàng có thể soạn tin nhắn theo cú pháp VCB CD HUY gửi 6167 và tải ứng dụng (APP) VCB Digibank để chuyển sang nhận thông báo biến động số dư qua ứng dụng miễn phí."
+    },
+    {
+        "text": "SMS chủ động",
+        "label": "ASSET",
+        "evidence": "Vietcombank cũng cho biết, nếu không có nhu cầu tiếp tục sử dụng dịch vụ SMS chủ động, khách hàng có thể soạn tin nhắn theo cú pháp VCB CD HUY gửi 6167 và tải ứng dụng (APP) VCB Digibank để chuyển sang nhận thông báo biến động số dư qua ứng dụng miễn phí."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Vietcombank cũng cho biết, nếu không có nhu cầu tiếp tục sử dụng dịch vụ SMS chủ động, khách hàng có thể soạn tin nhắn theo cú pháp VCB CD HUY gửi 6167 và tải ứng dụng (APP) VCB Digibank để chuyển sang nhận thông báo biến động số dư qua ứng dụng miễn phí."
+    },
+    {
+        "text": "chuyển sang nhận thông báo biến động số dư qua ứng dụng miễn phí",
+        "label": "EVENT",
+        "evidence": "Vietcombank cũng cho biết, nếu không có nhu cầu tiếp tục sử dụng dịch vụ SMS chủ động, khách hàng có thể soạn tin nhắn theo cú pháp VCB CD HUY gửi 6167 và tải ứng dụng (APP) VCB Digibank để chuyển sang nhận thông báo biến động số dư qua ứng dụng miễn phí."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, Vietcombank cho hay, để đồng hành cùng khách hàng, trong thời gian từ ngày 01/01/2024 đến hết ngày 31/03/2024, Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ."
+    },
+    {
+        "text": "từ ngày 01/01/2024 đến hết ngày 31/03/2024",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, Vietcombank cho hay, để đồng hành cùng khách hàng, trong thời gian từ ngày 01/01/2024 đến hết ngày 31/03/2024, Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ."
+    },
+    {
+        "text": "Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, Vietcombank cho hay, để đồng hành cùng khách hàng, trong thời gian từ ngày 01/01/2024 đến hết ngày 31/03/2024, Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, Vietcombank cho hay, để đồng hành cùng khách hàng, trong thời gian từ ngày 01/01/2024 đến hết ngày 31/03/2024, Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ."
+    },
+    {
+        "text": "SMS chủ động",
+        "label": "ASSET",
+        "evidence": "Đáng chú ý, Vietcombank cho hay, để đồng hành cùng khách hàng, trong thời gian từ ngày 01/01/2024 đến hết ngày 31/03/2024, Vietcombank miễn phí 1 tháng dịch vụ nhận tin nhắn SMS chủ động đối với các khách hàng không có nhu cầu tiếp tục duy trì và thực hiện hủy dịch vụ."
+    },
+    {
+        "text": "tháng hủy dịch vụ",
+        "label": "DATE",
+        "evidence": "Mỗi khách hàng được miễn phí 1 lần duy nhất vào tháng hủy dịch vụ (trường hợp khách hàng đăng ký sử dụng lại dịch vụ SMS chủ động tại bất cứ thời điểm nào, Vietcombank sẽ thực hiện thu phí theo biểu phí có hiệu lực tại thời điểm khách hàng đăng ký lại thành công)."
+    },
+    {
+        "text": "SMS chủ động",
+        "label": "ASSET",
+        "evidence": "Mỗi khách hàng được miễn phí 1 lần duy nhất vào tháng hủy dịch vụ (trường hợp khách hàng đăng ký sử dụng lại dịch vụ SMS chủ động tại bất cứ thời điểm nào, Vietcombank sẽ thực hiện thu phí theo biểu phí có hiệu lực tại thời điểm khách hàng đăng ký lại thành công)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Mỗi khách hàng được miễn phí 1 lần duy nhất vào tháng hủy dịch vụ (trường hợp khách hàng đăng ký sử dụng lại dịch vụ SMS chủ động tại bất cứ thời điểm nào, Vietcombank sẽ thực hiện thu phí theo biểu phí có hiệu lực tại thời điểm khách hàng đăng ký lại thành công)."
+    },
+    {
+        "text": "thực hiện thu phí theo biểu phí có hiệu lực tại thời điểm khách hàng đăng ký lại thành công",
+        "label": "EVENT",
+        "evidence": "Mỗi khách hàng được miễn phí 1 lần duy nhất vào tháng hủy dịch vụ (trường hợp khách hàng đăng ký sử dụng lại dịch vụ SMS chủ động tại bất cứ thời điểm nào, Vietcombank sẽ thực hiện thu phí theo biểu phí có hiệu lực tại thời điểm khách hàng đăng ký lại thành công)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kể từ 1/1/2024, ACB cũng thay đổi cơ chế tính phí và mức thu phí SMS Banking với khách hàng cá nhân và khách hàng doanh nghiệp."
+    },
+    {
+        "text": "1/1/2024",
+        "label": "DATE",
+        "evidence": "Kể từ 1/1/2024, ACB cũng thay đổi cơ chế tính phí và mức thu phí SMS Banking với khách hàng cá nhân và khách hàng doanh nghiệp."
+    },
+    {
+        "text": "ACB cũng thay đổi cơ chế tính phí và mức thu phí SMS Banking với khách hàng cá nhân và khách hàng doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Kể từ 1/1/2024, ACB cũng thay đổi cơ chế tính phí và mức thu phí SMS Banking với khách hàng cá nhân và khách hàng doanh nghiệp."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Kể từ 1/1/2024, ACB cũng thay đổi cơ chế tính phí và mức thu phí SMS Banking với khách hàng cá nhân và khách hàng doanh nghiệp."
+    },
+    {
+        "text": "15.000 đồng/tháng",
+        "label": "MONEY",
+        "evidence": "Theo đó, mức phí thấp nhất là 15.000 đồng/tháng (đã bao gồm VAT) đối với số lượng SMS từ 20 tin trở xuống."
+    },
+    {
+        "text": "15.000 đồng",
+        "label": "MONEY",
+        "evidence": "Số lượng SMS trên 20 tin sẽ là 15.000 đồng cộng thêm 700 đồng/tin nhắn, tính từ tin nhắn thứ 21 trở đi, tính trên tháng/thuê bao/khách hàng."
+    },
+    {
+        "text": "700 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "Số lượng SMS trên 20 tin sẽ là 15.000 đồng cộng thêm 700 đồng/tin nhắn, tính từ tin nhắn thứ 21 trở đi, tính trên tháng/thuê bao/khách hàng."
+    },
+    {
+        "text": "Thông báo biến động số dư chỉ gửi SMS cho các giao dịch từ 50.000 đồng trở lên",
+        "label": "EVENT",
+        "evidence": "Thông báo biến động số dư chỉ gửi SMS cho các giao dịch từ 50.000 đồng trở lên."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Thông báo biến động số dư chỉ gửi SMS cho các giao dịch từ 50.000 đồng trở lên."
+    },
+    {
+        "text": "SMS thông báo số dư tài khoản thanh toán và thẻ ghi nợ khách hàng cá nhân",
+        "label": "ASSET",
+        "evidence": "Các loại SMS tính phí gồm có: SMS thông báo số dư tài khoản thanh toán và thẻ ghi nợ khách hàng cá nhân (thẻ Debit), SMS gửi mã OTP xác thực giao dịch (ngoại trừ SMS gửi mã OTP cho giao dịch với thẻ ghi nợ nội địa và quốc tế qua sàn thương mại (E-commerce)."
+    },
+    {
+        "text": "thẻ Debit",
+        "label": "ASSET",
+        "evidence": "Các loại SMS tính phí gồm có: SMS thông báo số dư tài khoản thanh toán và thẻ ghi nợ khách hàng cá nhân (thẻ Debit), SMS gửi mã OTP xác thực giao dịch (ngoại trừ SMS gửi mã OTP cho giao dịch với thẻ ghi nợ nội địa và quốc tế qua sàn thương mại (E-commerce)."
+    },
+    {
+        "text": "SMS gửi mã OTP xác thực giao dịch",
+        "label": "ASSET",
+        "evidence": "Các loại SMS tính phí gồm có: SMS thông báo số dư tài khoản thanh toán và thẻ ghi nợ khách hàng cá nhân (thẻ Debit), SMS gửi mã OTP xác thực giao dịch (ngoại trừ SMS gửi mã OTP cho giao dịch với thẻ ghi nợ nội địa và quốc tế qua sàn thương mại (E-commerce)."
+    },
+    {
+        "text": "thẻ ghi nợ nội địa và quốc tế",
+        "label": "ASSET",
+        "evidence": "Các loại SMS tính phí gồm có: SMS thông báo số dư tài khoản thanh toán và thẻ ghi nợ khách hàng cá nhân (thẻ Debit), SMS gửi mã OTP xác thực giao dịch (ngoại trừ SMS gửi mã OTP cho giao dịch với thẻ ghi nợ nội địa và quốc tế qua sàn thương mại (E-commerce)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Để không tốn phí và an toàn hơn, ACB khuyến khích khách hàng sử dụng tính năng nhận thông báo qua ứng dụng ngân hàng sốACBONE."
+    },
+    {
+        "text": "ACBONE",
+        "label": "ASSET",
+        "evidence": "Để không tốn phí và an toàn hơn, ACB khuyến khích khách hàng sử dụng tính năng nhận thông báo qua ứng dụng ngân hàng sốACBONE."
+    },
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking",
+        "label": "EVENT",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn",
+        "label": "ASSET",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024",
+        "label": "EVENT",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "tháng 01/ 2024",
+        "label": "DATE",
+        "evidence": "Ngân hàng này mới đây cũng thông báo áp dụng mức phí và cấu trúc tính phí mới đối với phí dịch vụ SMS Banking (Dịch vụ nhận thông báo Biến động số dư tài khoản bằng tin nhắn)và thời gian thu phí dịch vụ định kỳ mỗi tháng từ tháng 01/ 2024."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Đối tượng áp dụng là khách hàng đăng ký mới/đã đăng ký sử dụng dịch vụ SMS Banking bao gồm cả khách hàng cá Nhân, khách hàng tổ chức."
+    },
+    {
+        "text": "12.000 đồng/tháng",
+        "label": "MONEY",
+        "evidence": "Theo đó, với khách hàng phát sinh dưới 15 tin nhắn trong tháng, mức phí là 12.000 đồng/tháng (chưa bao gồm VAT)."
+    },
+    {
+        "text": "thu phí 695 đồng/SMS vượt",
+        "label": "EVENT",
+        "evidence": "Khi khách hàng phát sinh trên 15 tin nhắn/tháng, ngân hàng sẽ thu phí 695 đồng/SMS vượt."
+    },
+    {
+        "text": "695 đồng/SMS vượt",
+        "label": "MONEY",
+        "evidence": "Khi khách hàng phát sinh trên 15 tin nhắn/tháng, ngân hàng sẽ thu phí 695 đồng/SMS vượt."
+    },
+    {
+        "text": "tháng 11/2023",
+        "label": "DATE",
+        "evidence": "Ví dụ Một tài khoản A của khách hàng phát sinh sms của tháng 11/2023: 17sms/TK/SĐT/tháng thì mức thu phí là 13.390 đồng (chưa VAT) trong đó gồm: Thu phí cố định 12.000 đồng và Thu phí sms vượt là 1.390 đồng (695 đồng x 2 SMS vượt)."
+    },
+    {
+        "text": "13.390 đồng",
+        "label": "MONEY",
+        "evidence": "Ví dụ Một tài khoản A của khách hàng phát sinh sms của tháng 11/2023: 17sms/TK/SĐT/tháng thì mức thu phí là 13.390 đồng (chưa VAT) trong đó gồm: Thu phí cố định 12.000 đồng và Thu phí sms vượt là 1.390 đồng (695 đồng x 2 SMS vượt)."
+    },
+    {
+        "text": "12.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ví dụ Một tài khoản A của khách hàng phát sinh sms của tháng 11/2023: 17sms/TK/SĐT/tháng thì mức thu phí là 13.390 đồng (chưa VAT) trong đó gồm: Thu phí cố định 12.000 đồng và Thu phí sms vượt là 1.390 đồng (695 đồng x 2 SMS vượt)."
+    },
+    {
+        "text": "1.390 đồng",
+        "label": "MONEY",
+        "evidence": "Ví dụ Một tài khoản A của khách hàng phát sinh sms của tháng 11/2023: 17sms/TK/SĐT/tháng thì mức thu phí là 13.390 đồng (chưa VAT) trong đó gồm: Thu phí cố định 12.000 đồng và Thu phí sms vượt là 1.390 đồng (695 đồng x 2 SMS vượt)."
+    },
+    {
+        "text": "695 đồng",
+        "label": "MONEY",
+        "evidence": "Ví dụ Một tài khoản A của khách hàng phát sinh sms của tháng 11/2023: 17sms/TK/SĐT/tháng thì mức thu phí là 13.390 đồng (chưa VAT) trong đó gồm: Thu phí cố định 12.000 đồng và Thu phí sms vượt là 1.390 đồng (695 đồng x 2 SMS vượt)."
+    },
+    {
+        "text": "NamABank",
+        "label": "ORG",
+        "evidence": "Khách hàng NamABank có thể hủy dịch vụ SMS Banking trước ngày 31/01/2024 để hệ thống không thu phí sử dụng dịch vụ của khách hàng từ kỳ thu phí tháng 02/2024."
+    },
+    {
+        "text": "hủy dịch vụ SMS Banking trước ngày 31/01/2024",
+        "label": "EVENT",
+        "evidence": "Khách hàng NamABank có thể hủy dịch vụ SMS Banking trước ngày 31/01/2024 để hệ thống không thu phí sử dụng dịch vụ của khách hàng từ kỳ thu phí tháng 02/2024."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Khách hàng NamABank có thể hủy dịch vụ SMS Banking trước ngày 31/01/2024 để hệ thống không thu phí sử dụng dịch vụ của khách hàng từ kỳ thu phí tháng 02/2024."
+    },
+    {
+        "text": "trước ngày 31/01/2024",
+        "label": "DATE",
+        "evidence": "Khách hàng NamABank có thể hủy dịch vụ SMS Banking trước ngày 31/01/2024 để hệ thống không thu phí sử dụng dịch vụ của khách hàng từ kỳ thu phí tháng 02/2024."
+    },
+    {
+        "text": "tháng 02/2024",
+        "label": "DATE",
+        "evidence": "Khách hàng NamABank có thể hủy dịch vụ SMS Banking trước ngày 31/01/2024 để hệ thống không thu phí sử dụng dịch vụ của khách hàng từ kỳ thu phí tháng 02/2024."
+    },
+    {
+        "text": "Ngân hàng Hợp tác xã Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "Co-opBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "1/1/2014",
+        "label": "DATE",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "16.500 đồng/khách hàng/tháng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, tại Ngân hàng Hợp tác xã Việt Nam (Co-opBank) từ 1/1/2014, ngân hàng cũng sẽ điều chỉnh mức thu phí dịch vụ SMS Banking đối với khách hàng cá nhân lên mức 16.500 đồng/khách hàng/tháng (đã bao gồm thuế VAT)."
+    },
+    {
+        "text": "ngừng gửi tin nhắn thông báo biến động số dư với các giao dịch nhỏ hơn 20.000 đồng",
+        "label": "EVENT",
+        "evidence": "Đồng thời, ngừng gửi tin nhắn thông báo biến động số dư với các giao dịch nhỏ hơn 20.000 đồng."
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, ngừng gửi tin nhắn thông báo biến động số dư với các giao dịch nhỏ hơn 20.000 đồng."
+    },
+    {
+        "text": "tăng phí SMS Banking",
+        "label": "EVENT",
+        "evidence": "Như vậy, hầu hết các ngân hàng trên thị trường đều đã tăng phí SMS Banking trong năm vừa qua."
+    },
+    {
+        "text": "SMS Banking",
+        "label": "ASSET",
+        "evidence": "Như vậy, hầu hết các ngân hàng trên thị trường đều đã tăng phí SMS Banking trong năm vừa qua."
+    },
+    {
+        "text": "năm vừa qua",
+        "label": "DATE",
+        "evidence": "Như vậy, hầu hết các ngân hàng trên thị trường đều đã tăng phí SMS Banking trong năm vừa qua."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "đã tăng phí cách đây nhiều tháng",
+        "label": "EVENT",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    },
+    {
+        "text": "nhiều tháng",
+        "label": "DATE",
+        "evidence": "Những ngân hàng như VietinBank, BIDV, VIB, VPBank, Techcombank, HDBank,...đều đã tăng phí cách đây nhiều tháng."
+    }
+]

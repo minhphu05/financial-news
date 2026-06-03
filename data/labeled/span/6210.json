@@ -1,0 +1,442 @@
+[
+    {
+        "text": "hơn 23 điểm",
+        "label": "RATE",
+        "evidence": "chênh lệch giữa mức cao nhất và thấp nhất lên tới hơn 23 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "đã giúp VN-Index đóng cửa ở mốc cao nhất"
+    },
+    {
+        "text": "1.111 điểm",
+        "label": "PRICE",
+        "evidence": "trên ngưỡng 1.111 điểm"
+    },
+    {
+        "text": "1.088 điểm",
+        "label": "PRICE",
+        "evidence": "từ mức thấp 1.088 điểm vào phiên sáng."
+    },
+    {
+        "text": "20 mã",
+        "label": "VOLUME",
+        "evidence": "toàn ngành ghi nhận 20 mã tăng giá"
+    },
+    {
+        "text": "5 mã",
+        "label": "VOLUME",
+        "evidence": "5 mã giảm"
+    },
+    {
+        "text": "2 mã",
+        "label": "VOLUME",
+        "evidence": "2 mã đứng giá tham chiếu."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB của Sacombank đóng cửa tăng 4,84%"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "STB của Sacombank đóng cửa tăng 4,84%"
+    },
+    {
+        "text": "4,84%",
+        "label": "RATE",
+        "evidence": "tăng 4,84%"
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "là mã có diễn biến giá tốt nhất nhóm VN30."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "đã kéo STB từ mức thấp nhất 25.150 đồng"
+    },
+    {
+        "text": "25.150 đồng",
+        "label": "PRICE",
+        "evidence": "từ mức thấp nhất 25.150 đồng"
+    },
+    {
+        "text": "27.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "lên mức cao nhất tại 27.100 đồng/cp"
+    },
+    {
+        "text": "1.950 đồng",
+        "label": "MONEY",
+        "evidence": "mức chênh lệch gần 1.950 đồng."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB cũng đảo chiều ngoạn mục"
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "về mức tăng giá trong nhóm VN30."
+    },
+    {
+        "text": "23.450",
+        "label": "PRICE",
+        "evidence": "tăng liên tục từ mức thấp nhất 23.450"
+    },
+    {
+        "text": "25.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "lên mức cao nhất 25.000 đồng/cp."
+    },
+    {
+        "text": "Top4 mã",
+        "label": "VOLUME",
+        "evidence": "lọt Top4 mã có khối lượng giao dịch khớp lệnh lớn nhất nhóm ngân hàng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB và TPB"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB và TPB"
+    },
+    {
+        "text": "trên 2%",
+        "label": "RATE",
+        "evidence": "ghi nhận mức giá trên 2%"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "như ACB (+2,6%)"
+    },
+    {
+        "text": "+2,6%",
+        "label": "RATE",
+        "evidence": "ACB (+2,6%)"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG (+2,5%)"
+    },
+    {
+        "text": "+2,5%",
+        "label": "RATE",
+        "evidence": "CTG (+2,5%)"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB (+2,4%)"
+    },
+    {
+        "text": "+2,4%",
+        "label": "RATE",
+        "evidence": "TCB (+2,4%)"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB, VIB và VCB (+2,2%)"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "HDB, VIB và VCB (+2,2%)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "HDB, VIB và VCB (+2,2%)"
+    },
+    {
+        "text": "+2,2%",
+        "label": "RATE",
+        "evidence": "HDB, VIB và VCB (+2,2%)"
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "LPB (+2,1%)."
+    },
+    {
+        "text": "+2,1%",
+        "label": "RATE",
+        "evidence": "LPB (+2,1%)."
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "SGB và BAB là hai mã giảm sâu nhất"
+    },
+    {
+        "text": "BAB",
+        "label": "TICKER",
+        "evidence": "SGB và BAB là hai mã giảm sâu nhất"
+    },
+    {
+        "text": "2,3%",
+        "label": "RATE",
+        "evidence": "mất lần lượt 2,3%"
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "và 2,1% giá trị."
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "gồm có NVB (-1%)"
+    },
+    {
+        "text": "-1%",
+        "label": "RATE",
+        "evidence": "NVB (-1%)"
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "PGB (-0,6%)"
+    },
+    {
+        "text": "-0,6%",
+        "label": "RATE",
+        "evidence": "PGB (-0,6%)"
+    },
+    {
+        "text": "SSB",
+        "label": "TICKER",
+        "evidence": "SSB (-0,1%)."
+    },
+    {
+        "text": "-0,1%",
+        "label": "RATE",
+        "evidence": "SSB (-0,1%)."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB dẫn đầu với gần 25,4 triệu đơn vị"
+    },
+    {
+        "text": "gần 25,4 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "với gần 25,4 triệu đơn vị"
+    },
+    {
+        "text": "gần 657 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị gần 657 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đứng sau STB"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "là VPB (25,1 triệu cp)"
+    },
+    {
+        "text": "25,1 triệu cp",
+        "label": "VOLUME",
+        "evidence": "VPB (25,1 triệu cp)"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "SHB (24,9 triệu cp)"
+    },
+    {
+        "text": "24,9 triệu cp",
+        "label": "VOLUME",
+        "evidence": "SHB (24,9 triệu cp)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB (16,7 triệu cp)"
+    },
+    {
+        "text": "16,7 triệu cp",
+        "label": "VOLUME",
+        "evidence": "TPB (16,7 triệu cp)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (15 triệu cp)."
+    },
+    {
+        "text": "15 triệu cp",
+        "label": "VOLUME",
+        "evidence": "MBB (15 triệu cp)."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "như SHB (gần 21,8 triệu cp"
+    },
+    {
+        "text": "gần 21,8 triệu cp",
+        "label": "VOLUME",
+        "evidence": "SHB (gần 21,8 triệu cp"
+    },
+    {
+        "text": "239 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 239 tỷ đồng)"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "ACB (9,8 triệu cp"
+    },
+    {
+        "text": "9,8 triệu cp",
+        "label": "VOLUME",
+        "evidence": "ACB (9,8 triệu cp"
+    },
+    {
+        "text": "248 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 248 tỷ đồng)"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB (3,8 triệu cp"
+    },
+    {
+        "text": "3,8 triệu cp",
+        "label": "VOLUME",
+        "evidence": "HDB (3,8 triệu cp"
+    },
+    {
+        "text": "68,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 68,7 tỷ đồng)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "mua ròng mạnh tại HDB với khối lượng hơn 1,25 triệu đơn vị"
+    },
+    {
+        "text": "hơn 1,25 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "khối lượng hơn 1,25 triệu đơn vị"
+    },
+    {
+        "text": "gần 23,4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị gần 23,4 tỷ đồng."
+    },
+    {
+        "text": "hơn 12%",
+        "label": "RATE",
+        "evidence": "tổng tỷ suất sinh lời hơn 12%."
+    },
+    {
+        "text": "2,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua ròng 2,6 triệu cổ phiếu HDB"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "2,6 triệu cổ phiếu HDB"
+    },
+    {
+        "text": "tỷ lệ tối đa sở hữu của nước ngoài bắt đầu được điều chỉnh từ 18% lên 20%",
+        "label": "EVENT",
+        "evidence": "khi tỷ lệ tối đa sở hữu của nước ngoài bắt đầu được điều chỉnh từ 18% lên 20%."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "điều chỉnh từ 18%"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "lên 20%"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "giúp HDB ngược dòng thị trường"
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "nhất nhóm VN30 trong phiên hôm qua."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Cùng với HDB"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "như STB (14,3 tỷ đồng)"
+    },
+    {
+        "text": "14,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "STB (14,3 tỷ đồng)"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "SHB (4,3 tỷ đồng)"
+    },
+    {
+        "text": "4,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SHB (4,3 tỷ đồng)"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "MSB (3,7 tỷ đồng)"
+    },
+    {
+        "text": "3,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MSB (3,7 tỷ đồng)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "bán ròng tại VCB (21,1 tỷ đồng)"
+    },
+    {
+        "text": "21,1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VCB (21,1 tỷ đồng)"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "và CTG (7,9 tỷ đồng)."
+    },
+    {
+        "text": "7,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTG (7,9 tỷ đồng)."
+    }
+]

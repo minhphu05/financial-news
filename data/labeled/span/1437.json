@@ -1,0 +1,67 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Theo danh sách được VietinBank rao bán, các khoản nợ có tổng dư nợ hơn 8 tỷ đồng."
+    },
+    {
+        "text": "rao bán",
+        "label": "EVENT",
+        "evidence": "Theo danh sách được VietinBank rao bán, các khoản nợ có tổng dư nợ hơn 8 tỷ đồng."
+    },
+    {
+        "text": "các khoản nợ",
+        "label": "ASSET",
+        "evidence": "Theo danh sách được VietinBank rao bán, các khoản nợ có tổng dư nợ hơn 8 tỷ đồng."
+    },
+    {
+        "text": "hơn 8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "các khoản nợ có tổng dư nợ hơn 8 tỷ đồng."
+    },
+    {
+        "text": "dưới 100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phần lớn các khoản nợ có giá trị dưới 100 triệu đồng."
+    },
+    {
+        "text": "hơn 7,28 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá khởi điểm VietinBank đưa ra cho khối nợ này là hơn 7,28 tỷ đồng."
+    },
+    {
+        "text": "mua khoản nợ",
+        "label": "EVENT",
+        "evidence": "Việc mua, bán khoản nợ không thuộc đối tượng chịu thuế GTGT"
+    },
+    {
+        "text": "bán khoản nợ",
+        "label": "EVENT",
+        "evidence": "Việc mua, bán khoản nợ không thuộc đối tượng chịu thuế GTGT"
+    },
+    {
+        "text": "khoản nợ tiêu dùng cần bán",
+        "label": "ASSET",
+        "evidence": "Một phần danh sách khoản nợ tiêu dùng cần bán của VietinBank (Ảnh chụp màn hình)"
+    },
+    {
+        "text": "rao bán hàng trăm khoản nợ vay tiêu dùng quá hạn",
+        "label": "EVENT",
+        "evidence": "Trước đó, ngân hàng này cũng từng rao bán hàng trăm khoản nợ vay tiêu dùng quá hạn."
+    },
+    {
+        "text": "khoản nợ vay tiêu dùng quá hạn",
+        "label": "ASSET",
+        "evidence": "rao bán hàng trăm khoản nợ vay tiêu dùng quá hạn."
+    },
+    {
+        "text": "Vay tiêu dùng tín chấp",
+        "label": "ASSET",
+        "evidence": "Vay tiêu dùng tín chấp là hình thức vay không cần tài sản đảm bảo."
+    },
+    {
+        "text": "khoản vay",
+        "label": "ASSET",
+        "evidence": "Một khoản vay sẽ được phê duyệt dựa vào uy tín, mức thu nhập và lịch sử tín dụng của người vay."
+    }
+]

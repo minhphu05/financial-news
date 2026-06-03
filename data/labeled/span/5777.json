@@ -1,0 +1,332 @@
+[
+    {
+        "text": "19/7",
+        "label": "DATE",
+        "evidence": "phiên giao dịch cuối tuần 19/7"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index tăng điểm trong phiên sáng"
+    },
+    {
+        "text": "VN-Index giảm 9,66 điểm xuống 1.264.78 điểm",
+        "label": "EVENT",
+        "evidence": "Đóng cửa, VN-Index giảm 9,66 điểm xuống 1.264.78 điểm."
+    },
+    {
+        "text": "1.264.78 điểm",
+        "label": "PRICE",
+        "evidence": "xuống 1.264.78 điểm"
+    },
+    {
+        "text": "quay đầu bán ròng gần 303 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giao dịch khối ngoại là điểm trừ khi quay đầu bán ròng gần 303 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "303 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng gần 303 tỷ đồng"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Tự doanh CTCK giao dịch tương đối cân bằng"
+    },
+    {
+        "text": "bán ròng khoảng 10 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "bán ròng khoảng 10 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "khoảng 10 tỷ đồng"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK bán ròng 8 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 8 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK bán ròng 8 tỷ đồng"
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng 8 tỷ đồng"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "nhóm CTCK bán ròng mạnh nhất"
+    },
+    {
+        "text": "cổ phiếu SHB",
+        "label": "ASSET",
+        "evidence": "mạnh nhất tại cổ phiếu SHB"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu SHB"
+    },
+    {
+        "text": "bán ròng mạnh nhất tại cổ phiếu SHB với giá trị 88 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "bán ròng mạnh nhất tại cổ phiếu SHB với giá trị 88 tỷ đồng."
+    },
+    {
+        "text": "88 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 88 tỷ đồng"
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Hai mã MSN"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "và MBB cũng bị bán ròng"
+    },
+    {
+        "text": "MSN và MBB cũng bị bán ròng với giá trị lần lượt là 39 tỷ và 35 tỷ",
+        "label": "EVENT",
+        "evidence": "Hai mã MSN và MBB cũng bị bán ròng với giá trị lần lượt là 39 tỷ và 35 tỷ."
+    },
+    {
+        "text": "39 tỷ",
+        "label": "MONEY",
+        "evidence": "lần lượt là 39 tỷ"
+    },
+    {
+        "text": "35 tỷ",
+        "label": "MONEY",
+        "evidence": "và 35 tỷ"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Theo sau là MWG"
+    },
+    {
+        "text": "MWG cũng bị bán ròng khoảng 27 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "MWG cũng bị bán ròng khoảng 27 tỷ đồng."
+    },
+    {
+        "text": "27 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "khoảng 27 tỷ đồng"
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "loạt mã FUEVFVND"
+    },
+    {
+        "text": "FUESSVFL",
+        "label": "TICKER",
+        "evidence": "FUESSVFL"
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "VIX"
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "SSI"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "giao dịch của các CTCK mua ròng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "nhất tại HPG"
+    },
+    {
+        "text": "mua ròng mạnh nhất tại HPG với giá trị 86 tỷ",
+        "label": "EVENT",
+        "evidence": "mua ròng mạnh nhất tại HPG với giá trị 86 tỷ"
+    },
+    {
+        "text": "86 tỷ",
+        "label": "MONEY",
+        "evidence": "giá trị 86 tỷ"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "hai mã FPT"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "và VIB cũng được mua ròng"
+    },
+    {
+        "text": "FPT và VIB cũng được mua ròng lần lượt 22 tỷ và 15 tỷ",
+        "label": "EVENT",
+        "evidence": "hai mã FPT và VIB cũng được mua ròng lần lượt 22 tỷ và 15 tỷ."
+    },
+    {
+        "text": "22 tỷ",
+        "label": "VOLUME",
+        "evidence": "lượt 22 tỷ"
+    },
+    {
+        "text": "15 tỷ",
+        "label": "VOLUME",
+        "evidence": "và 15 tỷ"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "các mã như TCB"
+    },
+    {
+        "text": "BCM",
+        "label": "TICKER",
+        "evidence": "BCM"
+    },
+    {
+        "text": "E1VFVN30",
+        "label": "TICKER",
+        "evidence": "E1VFVN30"
+    },
+    {
+        "text": "TCB, BCM, E1VFVN30… cũng được mua ròng trong phiên 19/7",
+        "label": "EVENT",
+        "evidence": "các mã như TCB, BCM, E1VFVN30… cũng được mua ròng trong phiên 19/7."
+    },
+    {
+        "text": "19/7",
+        "label": "DATE",
+        "evidence": "trong phiên 19/7"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK bán ròng 7 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 7 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK bán ròng 7 tỷ đồng"
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng 7 tỷ đồng"
+    },
+    {
+        "text": "GKM",
+        "label": "TICKER",
+        "evidence": "bán ròng GKM gần 5 tỷ"
+    },
+    {
+        "text": "bán ròng GKM gần 5 tỷ",
+        "label": "EVENT",
+        "evidence": "trong đó tâm điểm bán ròng GKM gần 5 tỷ"
+    },
+    {
+        "text": "5 tỷ",
+        "label": "VOLUME",
+        "evidence": "gần 5 tỷ"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "bán ròng PVS 2 tỷ"
+    },
+    {
+        "text": "bán ròng PVS 2 tỷ",
+        "label": "EVENT",
+        "evidence": "và bán ròng PVS 2 tỷ"
+    },
+    {
+        "text": "2 tỷ",
+        "label": "VOLUME",
+        "evidence": "PVS 2 tỷ"
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "ngược lại IDC"
+    },
+    {
+        "text": "IDC được mua ròng nhẹ",
+        "label": "EVENT",
+        "evidence": "ngược lại IDC được mua ròng nhẹ."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK mua ròng gần 5 tỷ"
+    },
+    {
+        "text": "mua ròng gần 5 tỷ",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK mua ròng gần 5 tỷ"
+    },
+    {
+        "text": "5 tỷ",
+        "label": "VOLUME",
+        "evidence": "gần 5 tỷ"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "hơn 4 tỷ tại BSR"
+    },
+    {
+        "text": "giao dịch mua ròng hơn 4 tỷ tại BSR",
+        "label": "EVENT",
+        "evidence": "với giao dịch mua ròng hơn 4 tỷ tại BSR"
+    },
+    {
+        "text": "4 tỷ",
+        "label": "VOLUME",
+        "evidence": "hơn 4 tỷ"
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ACV cũng được mua ròng"
+    },
+    {
+        "text": "ACV cũng được mua ròng hơn 700 triệu đồng",
+        "label": "EVENT",
+        "evidence": "ACV cũng được mua ròng hơn 700 triệu đồng."
+    },
+    {
+        "text": "700 triệu đồng",
+        "label": "VOLUME",
+        "evidence": "hơn 700 triệu đồng"
+    }
+]

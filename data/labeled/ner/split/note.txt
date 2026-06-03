@@ -1,0 +1,20 @@
+- Đây là thư mục chứa các file train, dev, test_raw.json 
+- Các file này là dữ liệu đã được tách theo tỉ lệ 0.7 - 0.15 - 0.15
+- Ngoài ra, các file này đã được kiểm tra và chỉnh sửa tokens + tags thủ công 
+    --> Tổng số lượng tags cuối cùng bao gồm:
+        + O
+        + B-ORG
+        + B-DATE
+        + B-RATE
+        + B-MONEY
+        + B-ASSET
+        + B-PERSON
+        + B-VOLUME
+        + I-ORG
+        + I-DATE
+        + I-RATE
+        + I-MONEY
+        + I-ASSET
+        + I-PERSON
+        + I-VOLUME
+    --> 15 tags khác nhau

@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Masan Consumer và Techcombank là 2 nguồn đóng góp chính vào lợi nhuận của Masan Group."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Masan Consumer và Techcombank là 2 nguồn đóng góp chính vào lợi nhuận của Masan Group."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Masan Consumer và Techcombank là 2 nguồn đóng góp chính vào lợi nhuận của Masan Group."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Trong khi đó, quý 3/2024 nhiều khả năng WinCommerce có thể có quý đầu tiên báo lãi"
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "quý 3/2024 nhiều khả năng WinCommerce có thể có quý đầu tiên báo lãi"
+    },
+    {
+        "text": "WinCommerce có thể có quý đầu tiên báo lãi",
+        "label": "EVENT",
+        "evidence": "quý 3/2024 nhiều khả năng WinCommerce có thể có quý đầu tiên báo lãi"
+    },
+    {
+        "text": "Masan High-Tech Materials",
+        "label": "ORG",
+        "evidence": "Masan High-Tech Materials giảm lỗ cũng đóng góp tích cực vào lợi nhuận của Masan Group."
+    },
+    {
+        "text": "Masan High-Tech Materials giảm lỗ",
+        "label": "EVENT",
+        "evidence": "Masan High-Tech Materials giảm lỗ cũng đóng góp tích cực vào lợi nhuận của Masan Group."
+    },
+    {
+        "text": "chi phí lãi vay của tập đoàn này cũng giảm",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, chi phí lãi vay của tập đoàn này cũng giảm."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "MSN: Lãi quý III cao hơn quý II; Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "Lãi quý III cao hơn quý II",
+        "label": "EVENT",
+        "evidence": "MSN: Lãi quý III cao hơn quý II; Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "MSN: Lãi quý III cao hơn quý II; Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "MSN: Lãi quý III cao hơn quý II; Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "Quý IV",
+        "label": "DATE",
+        "evidence": "MSN: Lãi quý III cao hơn quý II; Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "80 triệu USD",
+        "label": "MONEY",
+        "evidence": "Quý IV kế hoạch nhận về đến 80 triệu USD"
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "Trong tháng 5 vừa qua, Masan công bố thông tin về việc ký kết Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Trong tháng 5 vừa qua, Masan công bố thông tin về việc ký kết Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "Masan công bố thông tin về việc ký kết Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)",
+        "label": "EVENT",
+        "evidence": "Trong tháng 5 vừa qua, Masan công bố thông tin về việc ký kết Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "Mitsubishi Materials Corporation Group",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "MMC",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "Masan High - Tech Materials",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "MHT",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán giữa Mitsubishi Materials Corporation Group (MMC) và Masan High - Tech Materials (MHT, công ty con của Tập đoàn Masan)."
+    },
+    {
+        "text": "ghi nhận khoản lợi nhuận một lần khoảng 40 triệu USD từ giao dịch bán HCS",
+        "label": "EVENT",
+        "evidence": "Tập đoàn Masan dự kiến sẽ ghi nhận khoản lợi nhuận một lần khoảng 40 triệu USD từ giao dịch bán HCS"
+    },
+    {
+        "text": "40 triệu USD",
+        "label": "MONEY",
+        "evidence": "khoản lợi nhuận một lần khoảng 40 triệu USD từ giao dịch bán HCS"
+    },
+    {
+        "text": "tăng lợi nhuận thuần sau thuế thêm 20 - 30 triệu USD",
+        "label": "EVENT",
+        "evidence": "hưởng lợi từ việc tăng lợi nhuận thuần sau thuế thêm 20 - 30 triệu USD trong dài hạn."
+    },
+    {
+        "text": "20 - 30 triệu USD",
+        "label": "MONEY",
+        "evidence": "tăng lợi nhuận thuần sau thuế thêm 20 - 30 triệu USD"
+    },
+    {
+        "text": "54 triệu USD",
+        "label": "MONEY",
+        "evidence": "Đã nhận phần đặt cọc từ MMC là 54 triệu USD"
+    },
+    {
+        "text": "hoàn tất thương vụ và nhận về 70-80 triệu USD tiền mặt",
+        "label": "EVENT",
+        "evidence": "Masan kỳ vọng sẽ hoàn tất thương vụ và nhận về 70-80 triệu USD tiền mặt trong quý IV/2024."
+    },
+    {
+        "text": "70-80 triệu USD",
+        "label": "MONEY",
+        "evidence": "nhận về 70-80 triệu USD tiền mặt"
+    },
+    {
+        "text": "quý IV/2024",
+        "label": "DATE",
+        "evidence": "trong quý IV/2024."
+    },
+    {
+        "text": "lợi nhuận quý III sẽ cao hơn quý II vừa qua",
+        "label": "EVENT",
+        "evidence": "Chúng tôi kỳ vọng lợi nhuận quý III sẽ cao hơn quý II vừa qua"
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý III sẽ cao hơn quý II vừa qua"
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý III sẽ cao hơn quý II vừa qua"
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "khả năng sinh lời liên được cải thiện của WinCommerce"
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "sự tăng trưởng của Masan Consumer"
+    },
+    {
+        "text": "chia sẻ về triển vọng lợi nhuận quý III/2024",
+        "label": "EVENT",
+        "evidence": "Masan chia sẻ về triển vọng lợi nhuận quý III/2024 của Masan trong cuộc họp với các nhà đầu tư."
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "triển vọng lợi nhuận quý III/2024"
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan chia sẻ về triển vọng lợi nhuận quý III/2024 của Masan trong cuộc họp với các nhà đầu tư."
+    },
+    {
+        "text": "5 tỷ đô",
+        "label": "MONEY",
+        "evidence": "Masan đã huy động vốn thành công xấp xỉ 5 tỷ đô."
+    },
+    {
+        "text": "huy động vốn thành công xấp xỉ 5 tỷ đô",
+        "label": "EVENT",
+        "evidence": "Masan đã huy động vốn thành công xấp xỉ 5 tỷ đô."
+    },
+    {
+        "text": "Michael Hung Nguyen",
+        "label": "PERSON",
+        "evidence": "Theo ông Michael Hung Nguyen, Phó tổng giám đốc Masan Group"
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Phó tổng giám đốc Masan Group"
+    },
+    {
+        "text": "KKR",
+        "label": "ORG",
+        "evidence": "nhà đầu tư như KKR, TPG, SK group đều đầu tư nhiều lần vào Masan"
+    },
+    {
+        "text": "TPG",
+        "label": "ORG",
+        "evidence": "nhà đầu tư như KKR, TPG, SK group đều đầu tư nhiều lần vào Masan"
+    },
+    {
+        "text": "SK group",
+        "label": "ORG",
+        "evidence": "nhà đầu tư như KKR, TPG, SK group đều đầu tư nhiều lần vào Masan"
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "nhà đầu tư như KKR, TPG, SK group đều đầu tư nhiều lần vào Masan"
+    },
+    {
+        "text": "thương vụ giúp Masan bước chân vào lĩnh vực bán lẻ",
+        "label": "EVENT",
+        "evidence": "Ông Michael Hung Nguyen đưa ra dẫn chứng về thương vụ giúp Masan bước chân vào lĩnh vực bán lẻ và gặt hái thành công."
+    },
+    {
+        "text": "Cuối năm 2019",
+        "label": "DATE",
+        "evidence": "Cuối năm 2019, Masan bước vào thị trường bán lẻ bằng thương vụ mua VinCommerce (sau đổi tên là WinCommerce)."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Cuối năm 2019, Masan bước vào thị trường bán lẻ bằng thương vụ mua VinCommerce (sau đổi tên là WinCommerce)."
+    },
+    {
+        "text": "thương vụ mua VinCommerce (sau đổi tên là WinCommerce)",
+        "label": "EVENT",
+        "evidence": "Masan bước vào thị trường bán lẻ bằng thương vụ mua VinCommerce (sau đổi tên là WinCommerce)."
+    },
+    {
+        "text": "VinCommerce",
+        "label": "ORG",
+        "evidence": "thương vụ mua VinCommerce (sau đổi tên là WinCommerce)."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "thương vụ mua VinCommerce (sau đổi tên là WinCommerce)."
+    },
+    {
+        "text": "âm 7%",
+        "label": "RATE",
+        "evidence": "EBITDA của WinCommerce là âm 7%"
+    },
+    {
+        "text": "dương 4%",
+        "label": "RATE",
+        "evidence": "chỉ số này đang là dương 4%"
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "thay đổi 11%"
+    },
+    {
+        "text": "4 năm",
+        "label": "DATE",
+        "evidence": "trong vòng 4 năm"
+    },
+    {
+        "text": "WinCommerce được Masan Group mua lại",
+        "label": "EVENT",
+        "evidence": "4 năm sau khi WinCommerce được Masan Group mua lại."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "WinCommerce được Masan Group mua lại."
+    },
+    {
+        "text": "Quý III",
+        "label": "DATE",
+        "evidence": "Chúng tôi cũng kỳ vọng trong Quý III này, WinCommerce sẽ đạt lợi nhuận dương."
+    },
+    {
+        "text": "WinCommerce sẽ đạt lợi nhuận dương",
+        "label": "EVENT",
+        "evidence": "WinCommerce sẽ đạt lợi nhuận dương."
+    },
+    {
+        "text": "J.P Morgan",
+        "label": "ORG",
+        "evidence": "Tập đoàn tài chính J.P Morgan vừa công bố báo cáo phân tích triển vọng thị trường chứng khoán Việt Nam"
+    },
+    {
+        "text": "Tập đoàn tài chính J.P Morgan",
+        "label": "ORG",
+        "evidence": "Tập đoàn tài chính J.P Morgan vừa công bố báo cáo phân tích triển vọng thị trường chứng khoán Việt Nam"
+    },
+    {
+        "text": "công bố báo cáo phân tích triển vọng thị trường chứng khoán Việt Nam và lựa chọn cổ phiếu MSN của Tập đoàn Masan là ưu tiên hàng đầu",
+        "label": "EVENT",
+        "evidence": "Tập đoàn tài chính J.P Morgan vừa công bố báo cáo phân tích triển vọng thị trường chứng khoán Việt Nam và lựa chọn cổ phiếu MSN của Tập đoàn Masan là ưu tiên hàng đầu."
+    },
+    {
+        "text": "cổ phiếu MSN",
+        "label": "ASSET",
+        "evidence": "lựa chọn cổ phiếu MSN của Tập đoàn Masan là ưu tiên hàng đầu."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "lựa chọn cổ phiếu MSN của Tập đoàn Masan là ưu tiên hàng đầu."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "lựa chọn cổ phiếu MSN của Tập đoàn Masan là ưu tiên hàng đầu."
+    },
+    {
+        "text": "Nâng hạng thị trường",
+        "label": "EVENT",
+        "evidence": "Nâng hạng thị trường"
+    },
+    {
+        "text": "chu kỳ kinh tế tăng tốc vào giai đoạn cuối và đầu năm (từ quý IV đến quý I năm sau)",
+        "label": "EVENT",
+        "evidence": "chu kỳ kinh tế tăng tốc vào giai đoạn cuối và đầu năm (từ quý IV đến quý I năm sau)"
+    },
+    {
+        "text": "quý IV",
+        "label": "DATE",
+        "evidence": "từ quý IV đến quý I năm sau"
+    },
+    {
+        "text": "quý I năm sau",
+        "label": "DATE",
+        "evidence": "từ quý IV đến quý I năm sau"
+    },
+    {
+        "text": "J.P Morgan",
+        "label": "ORG",
+        "evidence": "Cụ thể, J.P Morgan cho rằng Việt Nam sẽ tăng trưởng vượt dự báo so với các nước trong khối ASEAN"
+    },
+    {
+        "text": "Việt Nam sẽ tăng trưởng vượt dự báo so với các nước trong khối ASEAN",
+        "label": "EVENT",
+        "evidence": "J.P Morgan cho rằng Việt Nam sẽ tăng trưởng vượt dự báo so với các nước trong khối ASEAN"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Nền kinh tế Việt Nam có xu hướng tăng tốc trong quý 4"
+    },
+    {
+        "text": "Chính Phủ thúc đẩy giải ngân trước cuối năm",
+        "label": "EVENT",
+        "evidence": "đầu tư công (Chính Phủ thúc đẩy giải ngân trước cuối năm)"
+    },
+    {
+        "text": "Chính Phủ",
+        "label": "ORG",
+        "evidence": "Chính Phủ thúc đẩy giải ngân trước cuối năm"
+    },
+    {
+        "text": "đẩy mạnh giải ngân đầu tư công và mở rộng hạn ngạch tín dụng để hỗ trợ tăng trưởng",
+        "label": "EVENT",
+        "evidence": "Chính Phủ đang cố gắng đẩy mạnh giải ngân đầu tư công và mở rộng hạn ngạch tín dụng để hỗ trợ tăng trưởng"
+    },
+    {
+        "text": "mục tiêu tăng trưởng GDP trong khoảng 6,5-7%",
+        "label": "EVENT",
+        "evidence": "mục tiêu tăng trưởng GDP trong khoảng 6,5-7%"
+    },
+    {
+        "text": "6,5-7%",
+        "label": "RATE",
+        "evidence": "tăng trưởng GDP trong khoảng 6,5-7%"
+    },
+    {
+        "text": "tăng từ mức 6-6,5% vào đầu năm",
+        "label": "EVENT",
+        "evidence": "tăng từ mức 6-6,5% vào đầu năm"
+    },
+    {
+        "text": "6-6,5%",
+        "label": "RATE",
+        "evidence": "tăng từ mức 6-6,5% vào đầu năm"
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "vào đầu năm"
+    },
+    {
+        "text": "tăng trưởng của Việt Nam đã vượt xa các nước ASEAN còn lại",
+        "label": "EVENT",
+        "evidence": "tăng trưởng của Việt Nam đã vượt xa các nước ASEAN còn lại."
+    },
+    {
+        "text": "J.P Morgan",
+        "label": "ORG",
+        "evidence": "J.P Morgan cũng đưa ra những chiến lược đầu tư trong báo cáo lần này."
+    },
+    {
+        "text": "cổ phiếu ngành hàng tiêu dùng thiết yếu",
+        "label": "ASSET",
+        "evidence": "đang ủng hộ cổ phiếu ngành hàng tiêu dùng thiết yếu"
+    },
+    {
+        "text": "Dòng tiền tiềm năng từ nâng cấp thị trường chứng khoán",
+        "label": "EVENT",
+        "evidence": "Dòng tiền tiềm năng từ nâng cấp thị trường chứng khoán"
+    },
+    {
+        "text": "Đồng USD thấp hơn giúp giảm chi phí đầu vào",
+        "label": "EVENT",
+        "evidence": "Đồng USD thấp hơn giúp giảm chi phí đầu vào"
+    },
+    {
+        "text": "Tăng trưởng doanh thu ổn định",
+        "label": "EVENT",
+        "evidence": "Tăng trưởng doanh thu ổn định."
+    },
+    {
+        "text": "J.P Morgan",
+        "label": "ORG",
+        "evidence": "Trong ngành hàng tiêu dùng thiết yếu, J.P Morgan lựa chọn cổ phiếu MSN của Tập đoàn Masan là mục tiêu ưu tiên hàng đầu."
+    },
+    {
+        "text": "cổ phiếu MSN",
+        "label": "ASSET",
+        "evidence": "J.P Morgan lựa chọn cổ phiếu MSN của Tập đoàn Masan là mục tiêu ưu tiên hàng đầu."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "J.P Morgan lựa chọn cổ phiếu MSN của Tập đoàn Masan là mục tiêu ưu tiên hàng đầu."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "J.P Morgan lựa chọn cổ phiếu MSN của Tập đoàn Masan là mục tiêu ưu tiên hàng đầu."
+    }
+]

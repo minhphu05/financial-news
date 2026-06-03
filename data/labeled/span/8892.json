@@ -1,0 +1,262 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán TP HCM",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP HCM (HOSE)"
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP HCM (HOSE)"
+    },
+    {
+        "text": "Đặng Minh Trang",
+        "label": "PERSON",
+        "evidence": "bà Đặng Minh Trang, con gái Phó Chủ tịchNgân hàng TMCP Quốc tế Việt Nam(VIB) Đặng Văn Sơn"
+    },
+    {
+        "text": "Ngân hàng TMCP Quốc tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Phó Chủ tịchNgân hàng TMCP Quốc tế Việt Nam(VIB) Đặng Văn Sơn"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Phó Chủ tịchNgân hàng TMCP Quốc tế Việt Nam(VIB) Đặng Văn Sơn"
+    },
+    {
+        "text": "Đặng Văn Sơn",
+        "label": "PERSON",
+        "evidence": "Phó Chủ tịchNgân hàng TMCP Quốc tế Việt Nam(VIB) Đặng Văn Sơn"
+    },
+    {
+        "text": "đăng ký mua 3,5 triệu cổ phiếu VIB",
+        "label": "EVENT",
+        "evidence": "vừa đăng ký mua 3,5 triệu cổ phiếu VIB để phục vụ nhu cầu đầu tư"
+    },
+    {
+        "text": "3,5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "vừa đăng ký mua 3,5 triệu cổ phiếu VIB để phục vụ nhu cầu đầu tư"
+    },
+    {
+        "text": "cổ phiếu VIB",
+        "label": "ASSET",
+        "evidence": "vừa đăng ký mua 3,5 triệu cổ phiếu VIB để phục vụ nhu cầu đầu tư"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "vừa đăng ký mua 3,5 triệu cổ phiếu VIB để phục vụ nhu cầu đầu tư"
+    },
+    {
+        "text": "0,166%",
+        "label": "RATE",
+        "evidence": "Số cổ phần này tương đương 0,166% lượng cổ phiếu lưu hành của VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "lượng cổ phiếu lưu hành của VIB"
+    },
+    {
+        "text": "8/2 - 6/3/2023",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến thực hiện từ ngày 8/2 - 6/3/2023 theo phương thức khớp lệnh hoặc thoả thuận"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "Bà Trang hiện không sở hữu bất kỳ cổ phần VIB nào"
+    },
+    {
+        "text": "Đặng Văn Sơn",
+        "label": "PERSON",
+        "evidence": "Trong khi ông Đặng Văn Sơn nắm giữ hơn 7,9 triệu cổ phiếu"
+    },
+    {
+        "text": "7,9 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "ông Đặng Văn Sơn nắm giữ hơn 7,9 triệu cổ phiếu"
+    },
+    {
+        "text": "0,377",
+        "label": "RATE",
+        "evidence": "tương đương 0,377 cổ phần ngân hàng"
+    },
+    {
+        "text": "3/2",
+        "label": "DATE",
+        "evidence": "Đóng cửa ngày 3/2, cổ phiếu VIB dừng ở 24.300 đồng/cp"
+    },
+    {
+        "text": "cổ phiếu VIB",
+        "label": "ASSET",
+        "evidence": "cổ phiếu VIB dừng ở 24.300 đồng/cp"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VIB dừng ở 24.300 đồng/cp"
+    },
+    {
+        "text": "24.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "cổ phiếu VIB dừng ở 24.300 đồng/cp"
+    },
+    {
+        "text": "85 tỷ",
+        "label": "MONEY",
+        "evidence": "con gái ông Sơn sẽ phải chi khoảng 85 tỷ để mua vào lượng cổ phiếu đăng ký"
+    },
+    {
+        "text": "HĐQT VIB",
+        "label": "ORG",
+        "evidence": "HĐQT VIB mới đây đã thông qua phương án tạm ứng cổ tức năm 2022 bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "HĐQT VIB mới đây đã thông qua phương án tạm ứng cổ tức năm 2022 bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "thông qua phương án tạm ứng cổ tức năm 2022 bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "HĐQT VIB mới đây đã thông qua phương án tạm ứng cổ tức năm 2022 bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "thông qua phương án tạm ứng cổ tức năm 2022 bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "bằng tiền mặt với tỷ lệ 10%, tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "2.108 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương ứng số tiền tạm ứng gần 2.108 tỷ đồng"
+    },
+    {
+        "text": "3/3/2023",
+        "label": "DATE",
+        "evidence": "Thời gian thực hiện chi trả tạm ứng cổ tức dự kiến ngày 3/3/2023"
+    },
+    {
+        "text": "Ngày chốt danh sách cổ đông để nhận tạm ứng cổ tức là ngày 10/2",
+        "label": "EVENT",
+        "evidence": "Ngày chốt danh sách cổ đông để nhận tạm ứng cổ tức là ngày 10/2"
+    },
+    {
+        "text": "10/2",
+        "label": "DATE",
+        "evidence": "Ngày chốt danh sách cổ đông để nhận tạm ứng cổ tức là ngày 10/2"
+    },
+    {
+        "text": "565 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận để lại từ các năm trước chưa sử dụng là 565 tỷ đồng"
+    },
+    {
+        "text": "3 quý đầu năm 2022",
+        "label": "DATE",
+        "evidence": "lợi nhuận thuần lũy kế 3 quý đầu năm 2022 là 1.542,67 tỷ đồng"
+    },
+    {
+        "text": "1.542,67 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận thuần lũy kế 3 quý đầu năm 2022 là 1.542,67 tỷ đồng"
+    },
+    {
+        "text": "Nghị quyết ĐHCĐ",
+        "label": "EVENT",
+        "evidence": "Theo Nghị quyết ĐHCĐ, dựa trên dự phóng lợi nhuận sau thuế cả năm 2022 là 8.400 tỷ"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "dự phóng lợi nhuận sau thuế cả năm 2022 là 8.400 tỷ"
+    },
+    {
+        "text": "8.400 tỷ",
+        "label": "MONEY",
+        "evidence": "lợi nhuận sau thuế cả năm 2022 là 8.400 tỷ"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB có thể chia cổ tức tiền mặt lên đến 28%"
+    },
+    {
+        "text": "28%",
+        "label": "RATE",
+        "evidence": "VIB có thể chia cổ tức tiền mặt lên đến 28%"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "lãnh đạo VIB cho biết"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN đã yêu cầu các ngân hàng không chia cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB dự báo sang năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "VIB dự báo sang năm 2023"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN sẽ không tiếp tục thực hiện mệnh lệnh hành chính này"
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "tất cả TCTD, mà có thể chấp thuận cho những TCTD được xếp loại cao theo Thông tư 52/2018"
+    },
+    {
+        "text": "Thông tư 52/2018",
+        "label": "EVENT",
+        "evidence": "theo Thông tư 52/2018 được chia cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "theo yêu cầu của NHNN, VIB đã không chi cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB đã không chi cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "chỉ chia cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "chia cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "việc chia cổ tức bằng tiền mặt trong năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "việc chia cổ tức bằng tiền mặt trong năm 2023"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Lãnh đạo VIB cho biết."
+    }
+]

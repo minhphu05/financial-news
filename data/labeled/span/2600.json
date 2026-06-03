@@ -1,0 +1,592 @@
+[
+    {
+        "text": "Vietinbank Sercurities",
+        "label": "ORG",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "CTS",
+        "label": "TICKER",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "bán ra 4,7 triệu",
+        "label": "EVENT",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "4,7 triệu",
+        "label": "VOLUME",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "14 triệu",
+        "label": "VOLUME",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Vietinbank Sercurities (mã chứng khoán: CTS) vừa bán ra 4,7 triệu trên tổng lượng nắm giữ khoảng 14 triệu cổ phiếu."
+    },
+    {
+        "text": "chia thưởng",
+        "label": "EVENT",
+        "evidence": "Sau nhiều lần chia thưởng, giá vốn của Thaco hiện còn khoảng 5.100 đồng/cp trong khi với giá 30.000 đồng/cp, tức lãi gần gấp 6 lần khoản đầu tư ban đầu."
+    },
+    {
+        "text": "Thaco",
+        "label": "ORG",
+        "evidence": "Sau nhiều lần chia thưởng, giá vốn của Thaco hiện còn khoảng 5.100 đồng/cp trong khi với giá 30.000 đồng/cp, tức lãi gần gấp 6 lần khoản đầu tư ban đầu."
+    },
+    {
+        "text": "5.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Sau nhiều lần chia thưởng, giá vốn của Thaco hiện còn khoảng 5.100 đồng/cp trong khi với giá 30.000 đồng/cp, tức lãi gần gấp 6 lần khoản đầu tư ban đầu."
+    },
+    {
+        "text": "30.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Sau nhiều lần chia thưởng, giá vốn của Thaco hiện còn khoảng 5.100 đồng/cp trong khi với giá 30.000 đồng/cp, tức lãi gần gấp 6 lần khoản đầu tư ban đầu."
+    },
+    {
+        "text": "gần gấp 6 lần",
+        "label": "RATE",
+        "evidence": "Sau nhiều lần chia thưởng, giá vốn của Thaco hiện còn khoảng 5.100 đồng/cp trong khi với giá 30.000 đồng/cp, tức lãi gần gấp 6 lần khoản đầu tư ban đầu."
+    },
+    {
+        "text": "CTS",
+        "label": "TICKER",
+        "evidence": "Khoản đầu tư này có giá vốn thấp như vậy là do CTS đã đầu tư từ khoảng năm 2009 và giữ nguyên từ đó đến nay."
+    },
+    {
+        "text": "khoảng năm 2009",
+        "label": "DATE",
+        "evidence": "Khoản đầu tư này có giá vốn thấp như vậy là do CTS đã đầu tư từ khoảng năm 2009 và giữ nguyên từ đó đến nay."
+    },
+    {
+        "text": "FPTS",
+        "label": "ORG",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "đầu tư vào May Sông Hồng",
+        "label": "EVENT",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "May Sông Hồng",
+        "label": "ORG",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "đầu tư  vào một số mã như ACB, HPG, FPT",
+        "label": "EVENT",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Một trường hợp hiếm hoi khác là FPTS đầu tư vào May Sông Hồng hay Dragon Capital đầu tư  vào một số mã như ACB, HPG, FPT..."
+    },
+    {
+        "text": "năm 2009",
+        "label": "DATE",
+        "evidence": "Top 10 cổ phiếu năm 2009 của quỹ Dragon Capital VEIL vẫn còn VPB, FPT và ACB ở trong Top10 danh mục hiện nay"
+    },
+    {
+        "text": "Dragon Capital VEIL",
+        "label": "ORG",
+        "evidence": "Top 10 cổ phiếu năm 2009 của quỹ Dragon Capital VEIL vẫn còn VPB, FPT và ACB ở trong Top10 danh mục hiện nay"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Top 10 cổ phiếu năm 2009 của quỹ Dragon Capital VEIL vẫn còn VPB, FPT và ACB ở trong Top10 danh mục hiện nay"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Top 10 cổ phiếu năm 2009 của quỹ Dragon Capital VEIL vẫn còn VPB, FPT và ACB ở trong Top10 danh mục hiện nay"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Top 10 cổ phiếu năm 2009 của quỹ Dragon Capital VEIL vẫn còn VPB, FPT và ACB ở trong Top10 danh mục hiện nay"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Vậy nếu nhà đầu tư cũng nắm giữ cổ phiếu của của 20 doanh nghiệp có mức vốn hóa lớn nhất trên sàn chứng khoán ở thời điểm cuối năm 2009 đến nay thì tỷ suất lợi nhuận sẽ như thế nào?"
+    },
+    {
+        "text": "cuối năm 2009",
+        "label": "DATE",
+        "evidence": "Vậy nếu nhà đầu tư cũng nắm giữ cổ phiếu của của 20 doanh nghiệp có mức vốn hóa lớn nhất trên sàn chứng khoán ở thời điểm cuối năm 2009 đến nay thì tỷ suất lợi nhuận sẽ như thế nào?"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "cuối năm 2009",
+        "label": "DATE",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Dữ liệu cho thấy hầu hết các cổ phiếu trong Top20 vốn hóa lớn nhất sàn chứng khoán tại thời điểm cuối năm 2009 vẫn là những cái tên quen thuộc hiện nay, với top đầu là VCB, CTG, ACB, Vinamilk, Vingroup..."
+    },
+    {
+        "text": "DIG",
+        "label": "TICKER",
+        "evidence": "Một số cái tên quen thuộc khác dù hiện không còn trong top đầu nhưng cũng vẫn là những mã được quan tâm nhiều như DIG, SJS, HAG, Đạm Phú Mỹ hay PVD.﻿"
+    },
+    {
+        "text": "SJS",
+        "label": "TICKER",
+        "evidence": "Một số cái tên quen thuộc khác dù hiện không còn trong top đầu nhưng cũng vẫn là những mã được quan tâm nhiều như DIG, SJS, HAG, Đạm Phú Mỹ hay PVD.﻿"
+    },
+    {
+        "text": "HAG",
+        "label": "TICKER",
+        "evidence": "Một số cái tên quen thuộc khác dù hiện không còn trong top đầu nhưng cũng vẫn là những mã được quan tâm nhiều như DIG, SJS, HAG, Đạm Phú Mỹ hay PVD.﻿"
+    },
+    {
+        "text": "Đạm Phú Mỹ",
+        "label": "ORG",
+        "evidence": "Một số cái tên quen thuộc khác dù hiện không còn trong top đầu nhưng cũng vẫn là những mã được quan tâm nhiều như DIG, SJS, HAG, Đạm Phú Mỹ hay PVD.﻿"
+    },
+    {
+        "text": "PVD",
+        "label": "TICKER",
+        "evidence": "Một số cái tên quen thuộc khác dù hiện không còn trong top đầu nhưng cũng vẫn là những mã được quan tâm nhiều như DIG, SJS, HAG, Đạm Phú Mỹ hay PVD.﻿"
+    },
+    {
+        "text": "14 năm qua",
+        "label": "DATE",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "tập đoàn Hòa Phát",
+        "label": "ORG",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "tăng 1.406%",
+        "label": "RATE",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "tăng 1.134%",
+        "label": "RATE",
+        "evidence": "Trong vòng 14 năm qua, 2 cổ phiếu tăng mạnh nhất với mức tăng vượt trội trong nhóm là HPG của tập đoàn Hòa Phát, tăng 1.406% và FPT, tăng 1.134%."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Đây là tỷ suất sinh lợi dựa trên cơ sở đã điều chỉnh giá cổ phiếu sau mỗi lần chia thưởng, trả cổ tức."
+    },
+    {
+        "text": "chia thưởng",
+        "label": "EVENT",
+        "evidence": "Đây là tỷ suất sinh lợi dựa trên cơ sở đã điều chỉnh giá cổ phiếu sau mỗi lần chia thưởng, trả cổ tức."
+    },
+    {
+        "text": "trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Đây là tỷ suất sinh lợi dựa trên cơ sở đã điều chỉnh giá cổ phiếu sau mỗi lần chia thưởng, trả cổ tức."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tức 1 tỷ đồng đầu tư vào 2 cổ phiếu này cuối năm 2009 giờ đây đã ﻿là 15 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Tức 1 tỷ đồng đầu tư vào 2 cổ phiếu này cuối năm 2009 giờ đây đã ﻿là 15 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "cuối năm 2009",
+        "label": "DATE",
+        "evidence": "Tức 1 tỷ đồng đầu tư vào 2 cổ phiếu này cuối năm 2009 giờ đây đã ﻿là 15 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "15 tỷ",
+        "label": "MONEY",
+        "evidence": "Tức 1 tỷ đồng đầu tư vào 2 cổ phiếu này cuối năm 2009 giờ đây đã ﻿là 15 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "12 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tức 1 tỷ đồng đầu tư vào 2 cổ phiếu này cuối năm 2009 giờ đây đã ﻿là 15 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "5 lần trở lên",
+        "label": "RATE",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "822%",
+        "label": "RATE",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "725%",
+        "label": "RATE",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "520%",
+        "label": "RATE",
+        "evidence": "Những cổ phiếu khác có tỷ suất sinh lợi từ 5 lần trở lên còn có Vinamilk (822%), Vietcombank (725%) và Vingroup (520%)."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "BVH",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "DPM",
+        "label": "TICKER",
+        "evidence": "Khiên tốn hơn với mức tăng trưởng ba chữ số bao gồm có những cổ phiếu CTG, ACB, EIB, BVH, MSN, STB, SSI, DPM."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Trong số này có đến 5 cổ phiếu của các ngân hàng vì đây là nhóm ngành đặc thù tại Việt Nam, không có tính chu kỳ."
+    },
+    {
+        "text": "cổ phiếu bất động sản",
+        "label": "ASSET",
+        "evidence": "﻿Đầu tư vào một số cổ phiếu bất động sản vào thời điểm đó như DIG, KBC hay VCG cũng có mức lợi nhuận vài chục phần trăm cho nhà đầu tư."
+    },
+    {
+        "text": "DIG",
+        "label": "TICKER",
+        "evidence": "﻿Đầu tư vào một số cổ phiếu bất động sản vào thời điểm đó như DIG, KBC hay VCG cũng có mức lợi nhuận vài chục phần trăm cho nhà đầu tư."
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "﻿Đầu tư vào một số cổ phiếu bất động sản vào thời điểm đó như DIG, KBC hay VCG cũng có mức lợi nhuận vài chục phần trăm cho nhà đầu tư."
+    },
+    {
+        "text": "VCG",
+        "label": "TICKER",
+        "evidence": "﻿Đầu tư vào một số cổ phiếu bất động sản vào thời điểm đó như DIG, KBC hay VCG cũng có mức lợi nhuận vài chục phần trăm cho nhà đầu tư."
+    },
+    {
+        "text": "vài chục phần trăm",
+        "label": "RATE",
+        "evidence": "﻿Đầu tư vào một số cổ phiếu bất động sản vào thời điểm đó như DIG, KBC hay VCG cũng có mức lợi nhuận vài chục phần trăm cho nhà đầu tư."
+    },
+    {
+        "text": "14 năm qua",
+        "label": "DATE",
+        "evidence": "Tuy nhiên mức lãi này vẫn thấp hơn gửi tiền vào ngân hàng trong 14 năm qua."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "HAG",
+        "label": "TICKER",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "SJS",
+        "label": "TICKER",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "PVD",
+        "label": "TICKER",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "năm 2009",
+        "label": "DATE",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong đó, nếu nhà đầu tư cầm cổ phiếu HAG, SJS hay PVD vào năm 2009 thì năm 2023 sẽ lỗ."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Ví dụ như giá cổ phiếu HAG của Hoàng Anh Gia Lai đã giảm 76% trong 14 năm qua."
+    },
+    {
+        "text": "HAG",
+        "label": "TICKER",
+        "evidence": "Ví dụ như giá cổ phiếu HAG của Hoàng Anh Gia Lai đã giảm 76% trong 14 năm qua."
+    },
+    {
+        "text": "Hoàng Anh Gia Lai",
+        "label": "ORG",
+        "evidence": "Ví dụ như giá cổ phiếu HAG của Hoàng Anh Gia Lai đã giảm 76% trong 14 năm qua."
+    },
+    {
+        "text": "giảm 76%",
+        "label": "RATE",
+        "evidence": "Ví dụ như giá cổ phiếu HAG của Hoàng Anh Gia Lai đã giảm 76% trong 14 năm qua."
+    },
+    {
+        "text": "14 năm qua",
+        "label": "DATE",
+        "evidence": "Ví dụ như giá cổ phiếu HAG của Hoàng Anh Gia Lai đã giảm 76% trong 14 năm qua."
+    },
+    {
+        "text": "100 triệu",
+        "label": "MONEY",
+        "evidence": "Ví dụ, nhà đầu tư bỏ 100 triệu mua cổ phiếu HAG ﻿vào năm 2009 thì giá trị khoản đầu tư đó hiện nay chỉ còn lại gần 25 triệu đồng."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Ví dụ, nhà đầu tư bỏ 100 triệu mua cổ phiếu HAG ﻿vào năm 2009 thì giá trị khoản đầu tư đó hiện nay chỉ còn lại gần 25 triệu đồng."
+    },
+    {
+        "text": "HAG",
+        "label": "TICKER",
+        "evidence": "Ví dụ, nhà đầu tư bỏ 100 triệu mua cổ phiếu HAG ﻿vào năm 2009 thì giá trị khoản đầu tư đó hiện nay chỉ còn lại gần 25 triệu đồng."
+    },
+    {
+        "text": "năm 2009",
+        "label": "DATE",
+        "evidence": "Ví dụ, nhà đầu tư bỏ 100 triệu mua cổ phiếu HAG ﻿vào năm 2009 thì giá trị khoản đầu tư đó hiện nay chỉ còn lại gần 25 triệu đồng."
+    },
+    {
+        "text": "gần 25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Ví dụ, nhà đầu tư bỏ 100 triệu mua cổ phiếu HAG ﻿vào năm 2009 thì giá trị khoản đầu tư đó hiện nay chỉ còn lại gần 25 triệu đồng."
+    },
+    {
+        "text": "năm 2009",
+        "label": "DATE",
+        "evidence": "Trong số 20 doanh nghiệp vốn hóa lớn nhất trên sàn chứng khoán năm 2009 có một cái tên đặc biệt là cổ phiếu PVF của tổng công ty Tài chính cổ phần Dầu khí Việt Nam﻿ (PVFC)."
+    },
+    {
+        "text": "cổ phiếu PVF",
+        "label": "ASSET",
+        "evidence": "Trong số 20 doanh nghiệp vốn hóa lớn nhất trên sàn chứng khoán năm 2009 có một cái tên đặc biệt là cổ phiếu PVF của tổng công ty Tài chính cổ phần Dầu khí Việt Nam﻿ (PVFC)."
+    },
+    {
+        "text": "PVF",
+        "label": "TICKER",
+        "evidence": "Trong số 20 doanh nghiệp vốn hóa lớn nhất trên sàn chứng khoán năm 2009 có một cái tên đặc biệt là cổ phiếu PVF của tổng công ty Tài chính cổ phần Dầu khí Việt Nam﻿ (PVFC)."
+    },
+    {
+        "text": "tổng công ty Tài chính cổ phần Dầu khí Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong số 20 doanh nghiệp vốn hóa lớn nhất trên sàn chứng khoán năm 2009 có một cái tên đặc biệt là cổ phiếu PVF của tổng công ty Tài chính cổ phần Dầu khí Việt Nam﻿ (PVFC)."
+    },
+    {
+        "text": "PVFC",
+        "label": "ORG",
+        "evidence": "Trong số 20 doanh nghiệp vốn hóa lớn nhất trên sàn chứng khoán năm 2009 có một cái tên đặc biệt là cổ phiếu PVF của tổng công ty Tài chính cổ phần Dầu khí Việt Nam﻿ (PVFC)."
+    },
+    {
+        "text": "hủy niêm yết bắt buộc vào năm 2013",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "năm 2013",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "PVFC",
+        "label": "ORG",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "ngân hàng TMCP Phương Tây",
+        "label": "ORG",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "Western Bank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "Ngân hàng TMCP Đại chúng Việt Nam",
+        "label": "ORG",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "PVcomBank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu này đã bị hủy niêm yết bắt buộc vào năm 2013 nhằm thực hiện việc hợp nhất giữ PVFC với ngân hàng TMCP Phương Tây (Western Bank) với tên gọi Ngân hàng TMCP Đại chúng Việt Nam (PVcomBank)."
+    },
+    {
+        "text": "phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank",
+        "label": "EVENT",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "1:1",
+        "label": "RATE",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "cổ phiếu PVF",
+        "label": "ASSET",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "cổ phiếu của Western Bank",
+        "label": "ASSET",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "Western Bank",
+        "label": "ORG",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "cổ phiếu của PVcomBank",
+        "label": "ASSET",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "PVcomBank",
+        "label": "ORG",
+        "evidence": "Mặc dù trong giai đoạn đó đã có phương án hoán đổi 1:1 cho các cổ đông sở hữu cổ phiếu PVF và cổ phiếu của Western Bank để lấy cổ phiếu của PVcomBank, tuy nhiên cho đến này cổ phiếu của ngân hàng hợp nhất sau này vẫn chưa được niêm yết trên sàn chứng khoán."
+    },
+    {
+        "text": "Morgan Stanley",
+        "label": "ORG",
+        "evidence": "Morgan Stanley, ngân hàng đầu tư nổi tiếng tại Mỹ vẫn đang kẹp đến 50 triệu cổ phiếu PVF và chưa thể bán lại."
+    },
+    {
+        "text": "50 triệu",
+        "label": "VOLUME",
+        "evidence": "Morgan Stanley, ngân hàng đầu tư nổi tiếng tại Mỹ vẫn đang kẹp đến 50 triệu cổ phiếu PVF và chưa thể bán lại."
+    },
+    {
+        "text": "cổ phiếu PVF",
+        "label": "ASSET",
+        "evidence": "Morgan Stanley, ngân hàng đầu tư nổi tiếng tại Mỹ vẫn đang kẹp đến 50 triệu cổ phiếu PVF và chưa thể bán lại."
+    }
+]

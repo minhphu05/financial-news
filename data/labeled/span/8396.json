@@ -1,0 +1,392 @@
+[
+    {
+        "text": "khối ngoại đảo chiều mua ròng",
+        "label": "EVENT",
+        "evidence": "Khối ngoại đảo chiều mua ròng, nhưng VN-Index kết phiên không giữ được sắc xanh."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Khối ngoại đảo chiều mua ròng, nhưng VN-Index kết phiên không giữ được sắc xanh."
+    },
+    {
+        "text": "VN30-Index",
+        "label": "ASSET",
+        "evidence": "VN30-Index đóng cửa lùi về sát tham chiếu, cổ phiếu phân hóa rõ rệt, 13 mã tăng và 13 mã giảm."
+    },
+    {
+        "text": "13 mã tăng",
+        "label": "VOLUME",
+        "evidence": "VN30-Index đóng cửa lùi về sát tham chiếu, cổ phiếu phân hóa rõ rệt, 13 mã tăng và 13 mã giảm."
+    },
+    {
+        "text": "13 mã giảm",
+        "label": "VOLUME",
+        "evidence": "VN30-Index đóng cửa lùi về sát tham chiếu, cổ phiếu phân hóa rõ rệt, 13 mã tăng và 13 mã giảm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE, sắc đỏ cũng chiếm áp đảo ở 250 cổ phiếu."
+    },
+    {
+        "text": "250 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trên HoSE, sắc đỏ cũng chiếm áp đảo ở 250 cổ phiếu."
+    },
+    {
+        "text": "LGC",
+        "label": "TICKER",
+        "evidence": "Ảnh hưởng tiêu cực nhất đến chỉ số là LGC, giảm sàn xuống 51.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "giảm sàn",
+        "label": "EVENT",
+        "evidence": "Ảnh hưởng tiêu cực nhất đến chỉ số là LGC, giảm sàn xuống 51.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "51.200 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Ảnh hưởng tiêu cực nhất đến chỉ số là LGC, giảm sàn xuống 51.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "SAB",
+        "label": "TICKER",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Các đại diện rổ VN30 như VNM, SAB, VCB, FPT... lần lượt ở các vị trí tiếp theo, kéo lùi VN-Index."
+    },
+    {
+        "text": "quay đầu điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Thị trường thiếu động lực dẫn dắt, khi các nhóm diễn biến tốt gần đây quay đầu điều chỉnh."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu thép như HPG, NKG, POM... cùng giảm giá."
+    },
+    {
+        "text": "NKG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu thép như HPG, NKG, POM... cùng giảm giá."
+    },
+    {
+        "text": "POM",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu thép như HPG, NKG, POM... cùng giảm giá."
+    },
+    {
+        "text": "cùng giảm giá",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu thép như HPG, NKG, POM... cùng giảm giá."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "HPG dẫn đầu thanh khoản, giá đóng cửa giảm nhẹ dưới tham chiếu."
+    },
+    {
+        "text": "giá đóng cửa giảm nhẹ dưới tham chiếu",
+        "label": "EVENT",
+        "evidence": "HPG dẫn đầu thanh khoản, giá đóng cửa giảm nhẹ dưới tham chiếu."
+    },
+    {
+        "text": "thanh khoản thị trường suy giảm",
+        "label": "EVENT",
+        "evidence": "Thanh khoản thị trường suy giảm, các mã giao dịch sôi động nhất chỉ quanh mức 500 tỷ đồng."
+    },
+    {
+        "text": "500 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản thị trường suy giảm, các mã giao dịch sôi động nhất chỉ quanh mức 500 tỷ đồng."
+    },
+    {
+        "text": "GEX",
+        "label": "TICKER",
+        "evidence": "Đà tăng không đồng thuận ở top đầu thanh khoản, GEX, DIG, STB giảm giá."
+    },
+    {
+        "text": "DIG",
+        "label": "TICKER",
+        "evidence": "Đà tăng không đồng thuận ở top đầu thanh khoản, GEX, DIG, STB giảm giá."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đà tăng không đồng thuận ở top đầu thanh khoản, GEX, DIG, STB giảm giá."
+    },
+    {
+        "text": "giảm giá",
+        "label": "EVENT",
+        "evidence": "Đà tăng không đồng thuận ở top đầu thanh khoản, GEX, DIG, STB giảm giá."
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "“Điểm sáng” HVN ngắt mạch tăng trần, kết phiên tăng nhẹ 0,4% lên 12.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "ngắt mạch tăng trần",
+        "label": "EVENT",
+        "evidence": "“Điểm sáng” HVN ngắt mạch tăng trần, kết phiên tăng nhẹ 0,4% lên 12.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "0,4%",
+        "label": "RATE",
+        "evidence": "“Điểm sáng” HVN ngắt mạch tăng trần, kết phiên tăng nhẹ 0,4% lên 12.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "12.600 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "“Điểm sáng” HVN ngắt mạch tăng trần, kết phiên tăng nhẹ 0,4% lên 12.600 đồng/cổ phiếu."
+    },
+    {
+        "text": "tăng trần",
+        "label": "EVENT",
+        "evidence": "Sau 2 phiên tăng trần, lực bán chốt lời gia tăng tại HVN."
+    },
+    {
+        "text": "lực bán chốt lời gia tăng tại HVN",
+        "label": "EVENT",
+        "evidence": "Sau 2 phiên tăng trần, lực bán chốt lời gia tăng tại HVN."
+    },
+    {
+        "text": "thanh khoản suy giảm",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh thanh khoản suy giảm, phiên chiều nay xuất hiện hiện giao dịch thỏa thuận “khủng”."
+    },
+    {
+        "text": "xuất hiện hiện giao dịch thỏa thuận “khủng”",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh thanh khoản suy giảm, phiên chiều nay xuất hiện hiện giao dịch thỏa thuận “khủng”."
+    },
+    {
+        "text": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay",
+        "label": "EVENT",
+        "evidence": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay, trong đó hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "hơn 90 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay, trong đó hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay, trong đó hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần",
+        "label": "EVENT",
+        "evidence": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay, trong đó hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "gần 89 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Bốn lệnh giao dịch thỏa thuận với hơn 90 triệu cổ phiếu VHM được sang tay, trong đó hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "giá trần",
+        "label": "PRICE",
+        "evidence": "hai giao dịch với khối lượng gần 89 triệu cổ phiếu ngay mức giá trần."
+    },
+    {
+        "text": "hơn 6 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Lượng cổ phiếu khớp lệnh chỉ hơn 6 triệu đơn vị, giá trị tương đương 253 tỷ đồng."
+    },
+    {
+        "text": "253 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lượng cổ phiếu khớp lệnh chỉ hơn 6 triệu đơn vị, giá trị tương đương 253 tỷ đồng."
+    },
+    {
+        "text": "hơn 96 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tính tổng hai phương thức, hơn 96 triệu cổ phiếu VHM đã được giao dịch trong phiên 27/12 với tổng giá trị gần 4,292 tỷ đồng, cao nhất từ khi cổ phiếu này niêm yết."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Tính tổng hai phương thức, hơn 96 triệu cổ phiếu VHM đã được giao dịch trong phiên 27/12 với tổng giá trị gần 4,292 tỷ đồng, cao nhất từ khi cổ phiếu này niêm yết."
+    },
+    {
+        "text": "27/12",
+        "label": "DATE",
+        "evidence": "Tính tổng hai phương thức, hơn 96 triệu cổ phiếu VHM đã được giao dịch trong phiên 27/12 với tổng giá trị gần 4,292 tỷ đồng, cao nhất từ khi cổ phiếu này niêm yết."
+    },
+    {
+        "text": "gần 4,292 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính tổng hai phương thức, hơn 96 triệu cổ phiếu VHM đã được giao dịch trong phiên 27/12 với tổng giá trị gần 4,292 tỷ đồng, cao nhất từ khi cổ phiếu này niêm yết."
+    },
+    {
+        "text": "cao nhất từ khi cổ phiếu này niêm yết",
+        "label": "EVENT",
+        "evidence": "Tính tổng hai phương thức, hơn 96 triệu cổ phiếu VHM đã được giao dịch trong phiên 27/12 với tổng giá trị gần 4,292 tỷ đồng, cao nhất từ khi cổ phiếu này niêm yết."
+    },
+    {
+        "text": "2.2%",
+        "label": "RATE",
+        "evidence": "Số cổ phiếu này tương đương 2.2% tổng số cổ phiếu đang lưu hành của công ty."
+    },
+    {
+        "text": "Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ",
+        "label": "EVENT",
+        "evidence": "Giao dịch thỏa thuận này diễn ra trùng thời điểm Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Giao dịch thỏa thuận này diễn ra trùng thời điểm Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ."
+    },
+    {
+        "text": "gần 117 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ."
+    },
+    {
+        "text": "CTCP Vinpearl",
+        "label": "ORG",
+        "evidence": "Vingroup dự kiến mua thỏa thuận lại toàn bộ gần 117 triệu cổ phiếu VHM mà CTCP Vinpearl đang nắm giữ."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Thời gian giao dịch dự kiến mà Vingroup đăng ký từ 21/12/2023 - 19/1/2024."
+    },
+    {
+        "text": "21/12/2023 - 19/1/2024",
+        "label": "DATE",
+        "evidence": "Thời gian giao dịch dự kiến mà Vingroup đăng ký từ 21/12/2023 - 19/1/2024."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,26 điểm (0,02%) xuống 1.121,99 điểm."
+    },
+    {
+        "text": "giảm 0,26 điểm",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,26 điểm (0,02%) xuống 1.121,99 điểm."
+    },
+    {
+        "text": "0,02%",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,26 điểm (0,02%) xuống 1.121,99 điểm."
+    },
+    {
+        "text": "1.121,99 điểm",
+        "label": "PRICE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,26 điểm (0,02%) xuống 1.121,99 điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index giảm 0,66 điểm (0,29%) xuống 230,6 điểm."
+    },
+    {
+        "text": "giảm 0,66 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 0,66 điểm (0,29%) xuống 230,6 điểm."
+    },
+    {
+        "text": "0,29%",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 0,66 điểm (0,29%) xuống 230,6 điểm."
+    },
+    {
+        "text": "230,6 điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Index giảm 0,66 điểm (0,29%) xuống 230,6 điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index tăng 0,22 điểm (0,26%) lên 86,46 điểm."
+    },
+    {
+        "text": "tăng 0,22 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,22 điểm (0,26%) lên 86,46 điểm."
+    },
+    {
+        "text": "0,26%",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,22 điểm (0,26%) lên 86,46 điểm."
+    },
+    {
+        "text": "86,46 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM-Index tăng 0,22 điểm (0,26%) lên 86,46 điểm."
+    },
+    {
+        "text": "Thanh khoản giảm",
+        "label": "EVENT",
+        "evidence": "Thanh khoản giảm, với giá trị khớp lệnh HoSE hơn 12.200 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản giảm, với giá trị khớp lệnh HoSE hơn 12.200 tỷ đồng."
+    },
+    {
+        "text": "hơn 12.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản giảm, với giá trị khớp lệnh HoSE hơn 12.200 tỷ đồng."
+    },
+    {
+        "text": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng, tập trung vào VHM, TPB, MSN..."
+    },
+    {
+        "text": "103 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng, tập trung vào VHM, TPB, MSN..."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng, tập trung vào VHM, TPB, MSN..."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng, tập trung vào VHM, TPB, MSN..."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Khối ngoại đảo chiều mua ròng 103 tỷ đồng, tập trung vào VHM, TPB, MSN..."
+    }
+]

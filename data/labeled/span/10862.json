@@ -1,0 +1,152 @@
+[
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Nếu như từ năm 2021 trở về trước, các ngân hàng thường thu phí SMS banking ở các mức dưới 20.000 đồng/tháng/số điện thoại"
+    },
+    {
+        "text": "dưới 20.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu như từ năm 2021 trở về trước, các ngân hàng thường thu phí SMS banking ở các mức dưới 20.000 đồng/tháng/số điện thoại"
+    },
+    {
+        "text": "quý I năm 2023",
+        "label": "DATE",
+        "evidence": "đặc biệt trong quý I năm 2023, do ngày càng phải bù lỗ rất nhiều khi thanh toán các khoản phí SMS Banking cho các công ty cung cấp dịch vụ viễn thông, các ngân hàng đồng loạt thông báo tăng mức phí này"
+    },
+    {
+        "text": "các ngân hàng đồng loạt thông báo tăng mức phí này",
+        "label": "EVENT",
+        "evidence": "các ngân hàng đồng loạt thông báo tăng mức phí này, mức cao nhất phổ biến trong khoảng 70.000-80.000 đồng/tháng."
+    },
+    {
+        "text": "70.000-80.000 đồng",
+        "label": "MONEY",
+        "evidence": "mức cao nhất phổ biến trong khoảng 70.000-80.000 đồng/tháng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Vừa qua, VPBank vừa ra thông báo về việc điều chỉnh phí dịch vụ SMS Banking."
+    },
+    {
+        "text": "VPBank vừa ra thông báo về việc điều chỉnh phí dịch vụ SMS Banking",
+        "label": "EVENT",
+        "evidence": "Vừa qua, VPBank vừa ra thông báo về việc điều chỉnh phí dịch vụ SMS Banking."
+    },
+    {
+        "text": "ngày 01/9/2023",
+        "label": "DATE",
+        "evidence": "kể từ ngày 01/9/2023, VPBank sẽ điều chỉnh mức phí SMS banking từ mức gói cố định hàng tháng là 12.000 đồng/số tài khoản/ 1 thuê bao chuyển thành biểu phí tăng dần tính theo số lượng tin nhận được hàng tháng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "kể từ ngày 01/9/2023, VPBank sẽ điều chỉnh mức phí SMS banking từ mức gói cố định hàng tháng là 12.000 đồng/số tài khoản/ 1 thuê bao chuyển thành biểu phí tăng dần tính theo số lượng tin nhận được hàng tháng"
+    },
+    {
+        "text": "VPBank sẽ điều chỉnh mức phí SMS banking từ mức gói cố định hàng tháng là 12.000 đồng/số tài khoản/ 1 thuê bao chuyển thành biểu phí tăng dần tính theo số lượng tin nhận được hàng tháng",
+        "label": "EVENT",
+        "evidence": "kể từ ngày 01/9/2023, VPBank sẽ điều chỉnh mức phí SMS banking từ mức gói cố định hàng tháng là 12.000 đồng/số tài khoản/ 1 thuê bao chuyển thành biểu phí tăng dần tính theo số lượng tin nhận được hàng tháng"
+    },
+    {
+        "text": "12.000 đồng",
+        "label": "MONEY",
+        "evidence": "mức gói cố định hàng tháng là 12.000 đồng/số tài khoản/ 1 thuê bao chuyển thành biểu phí tăng dần tính theo số lượng tin nhận được hàng tháng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "đại diện VPBank cho biết."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Cũng theo VPBank, từ sau ngày 1/9/2023, ngân hàng sẽ chỉ thu phí SMS banking với những giao dịch có giá trị từ 100.000 đồng trở lên."
+    },
+    {
+        "text": "ngày 1/9/2023",
+        "label": "DATE",
+        "evidence": "Cũng theo VPBank, từ sau ngày 1/9/2023, ngân hàng sẽ chỉ thu phí SMS banking với những giao dịch có giá trị từ 100.000 đồng trở lên."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "những giao dịch có giá trị từ 100.000 đồng trở lên."
+    },
+    {
+        "text": "dưới 100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Các giao dịch có giá trị dưới 100.000 đồng (mức giao dịch tối thiểu) sẽ không nhận thông báo BĐSD về điện thoại mà nhận trên app Ngân hàng điện tử VPBank NEO."
+    },
+    {
+        "text": "VPBank NEO",
+        "label": "ORG",
+        "evidence": "mà nhận trên app Ngân hàng điện tử VPBank NEO."
+    },
+    {
+        "text": "VPBank NEO",
+        "label": "ORG",
+        "evidence": "Dịch vụ theo dõi số dư trên app VPBank NEO đã đượcVPBanktriển khai từ đầu năm 2021 và hoàn toàn miễn phí."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Dịch vụ theo dõi số dư trên app VPBank NEO đã đượcVPBanktriển khai từ đầu năm 2021 và hoàn toàn miễn phí."
+    },
+    {
+        "text": "đầu năm 2021",
+        "label": "DATE",
+        "evidence": "Dịch vụ theo dõi số dư trên app VPBank NEO đã đượcVPBanktriển khai từ đầu năm 2021 và hoàn toàn miễn phí."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Biểu phí SMS Banking mới của VPBank, biểu phí chi tiếttại đây"
+    },
+    {
+        "text": "VPBank Diamond",
+        "label": "ORG",
+        "evidence": "không áp dụng với khách hàng ưu tiên phân hạng VPBank Diamond và VPBank Diamond Elite."
+    },
+    {
+        "text": "VPBank Diamond Elite",
+        "label": "ORG",
+        "evidence": "không áp dụng với khách hàng ưu tiên phân hạng VPBank Diamond và VPBank Diamond Elite."
+    },
+    {
+        "text": "VPBank NEO",
+        "label": "ORG",
+        "evidence": "chuyển sang quản lý biến động số dư trên app VPBank NEO (miễn phí trọn đời) thay vì sử dụng SMS banking (có thu phí) như trước"
+    },
+    {
+        "text": "hàng chục tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng vẫn phải bù lỗ hàng chục tỷ đồng mỗi năm để thanh toán cho các công ty viễn thông"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "đại diện VPBank chia sẻ."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Khách hàng VPBank trên các hội nhóm đang truyền tay nhau clip ghi lại các thao tác hủy dịch vụ SMS banking và đăng ký nhận biến động số dư trên app VPBank NEO do ngân hàng hướng dẫn"
+    },
+    {
+        "text": "VPBank NEO",
+        "label": "ORG",
+        "evidence": "đăng ký nhận biến động số dư trên app VPBank NEO do ngân hàng hướng dẫn"
+    },
+    {
+        "text": "Thanh Thúy",
+        "label": "PERSON",
+        "evidence": "chị Thanh Thúy tại Hà Nội hào hứng chia sẻ"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank hướng dẫn khách hàng gọi tổng đài 1900 54 54 15 để được hỗ trợ kịp thời."
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong 3 ngân hàng trên, Vietcombank đạt mức lãi lớn nhất 7.854 tỷ đồng, tăng 21,6% so với cùng kỳ còn BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "7.854 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank đạt mức lãi lớn nhất 7.854 tỷ đồng, tăng 21,6% so với cùng kỳ còn BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "21,6%",
+        "label": "RATE",
+        "evidence": "Vietcombank đạt mức lãi lớn nhất 7.854 tỷ đồng, tăng 21,6% so với cùng kỳ còn BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Vietcombank đạt mức lãi lớn nhất 7.854 tỷ đồng, tăng 21,6% so với cùng kỳ còn BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "101,2%",
+        "label": "RATE",
+        "evidence": "BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "4.618 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV tăng trưởng mạnh nhất khi tăng 101,2% so với cùng kỳ lãi 4.618 tỷ đồng."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021",
+        "label": "EVENT",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "quý 4/2022",
+        "label": "DATE",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "quý 4/2021",
+        "label": "DATE",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "2.448 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, VietinBank lại ghi nhận lợi nhuận quý 4/2022 giảm 18% so với quý 4/2021 xuống 2.448 tỷ đồng."
+    },
+    {
+        "text": "FiinTrade",
+        "label": "ORG",
+        "evidence": "FiinTrade cho biết, hiện thu nhập từ lãi đóng góp phần lớn vào lợi nhuận các ngân hàng và do vậy, tăng trưởng tín dụng không có sự đột biến trong quý 4 được coi là chỉ báo kém tích cực về tăng trưởng lợi nhuận của các nhà băng."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng không có sự đột biến trong quý 4 được coi là chỉ báo kém tích cực về tăng trưởng lợi nhuận của các nhà băng."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Số liệu từ NHNN cho thấy tín dụng toàn hệ thống năm 2022 tăng 14,5%, thấp hơn so với room được cấp (16%) do thị trường BĐS (hấp thụ hơn 20% tổng tín dụng) gần như bị đóng băng sau những diễn biến tiêu cực trên thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Số liệu từ NHNN cho thấy tín dụng toàn hệ thống năm 2022 tăng 14,5%, thấp hơn so với room được cấp (16%) do thị trường BĐS (hấp thụ hơn 20% tổng tín dụng) gần như bị đóng băng sau những diễn biến tiêu cực trên thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "14,5%",
+        "label": "RATE",
+        "evidence": "tín dụng toàn hệ thống năm 2022 tăng 14,5%, thấp hơn so với room được cấp (16%) do thị trường BĐS (hấp thụ hơn 20% tổng tín dụng) gần như bị đóng băng sau những diễn biến tiêu cực trên thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "tăng 14,5%, thấp hơn so với room được cấp (16%) do thị trường BĐS (hấp thụ hơn 20% tổng tín dụng) gần như bị đóng băng sau những diễn biến tiêu cực trên thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "BĐS (hấp thụ hơn 20% tổng tín dụng) gần như bị đóng băng sau những diễn biến tiêu cực trên thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "thị trường trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "Tổng Công ty Hóa chất và Dịch vụ dầu khí",
+        "label": "ORG",
+        "evidence": "Bên cạnh BIDV, có 2 doanh nghiệp cũng ước tính lợi nhuận sau thuế tăng 3 chữ số là Tổng Công ty Hóa chất và Dịch vụ dầu khí (PVC) và Tổng công ty lương thực miền Nam – Vinafood 2 (VSF)."
+    },
+    {
+        "text": "PVC",
+        "label": "TICKER",
+        "evidence": "Tổng Công ty Hóa chất và Dịch vụ dầu khí (PVC) và Tổng công ty lương thực miền Nam – Vinafood 2 (VSF)."
+    },
+    {
+        "text": "Tổng công ty lương thực miền Nam – Vinafood 2",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Hóa chất và Dịch vụ dầu khí (PVC) và Tổng công ty lương thực miền Nam – Vinafood 2 (VSF)."
+    },
+    {
+        "text": "VSF",
+        "label": "TICKER",
+        "evidence": "Tổng Công ty Hóa chất và Dịch vụ dầu khí (PVC) và Tổng công ty lương thực miền Nam – Vinafood 2 (VSF)."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Phần lớn doanh nghiệp đều dự báo lợi nhuận quý 4 giảm so với cùng kỳ."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Những doanh nghiệp dự tính lỗ bao gồm: Vietnam Airlines (HVN) dự tính lỗ 3.356 tỷ, Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "Vietnam Airlines (HVN) dự tính lỗ 3.356 tỷ, Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "lỗ 3.356 tỷ",
+        "label": "EVENT",
+        "evidence": "Vietnam Airlines (HVN) dự tính lỗ 3.356 tỷ, Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "3.356 tỷ",
+        "label": "MONEY",
+        "evidence": "Vietnam Airlines (HVN) dự tính lỗ 3.356 tỷ, Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "Lọc hoá dầu Bình Sơn",
+        "label": "ORG",
+        "evidence": "Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "lỗ 723 tỷ",
+        "label": "EVENT",
+        "evidence": "Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "723 tỷ",
+        "label": "MONEY",
+        "evidence": "Lọc hoá dầu Bình Sơn dự tính lỗ 723 tỷ, Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "Vận tải biển và xếp dỡ Hải An",
+        "label": "ORG",
+        "evidence": "Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "lỗ 26,5 tỷ",
+        "label": "EVENT",
+        "evidence": "Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "26,5 tỷ",
+        "label": "MONEY",
+        "evidence": "Vận tải biển và xếp dỡ Hải An dự tính lỗ 26,5 tỷ."
+    },
+    {
+        "text": "40 – 50%",
+        "label": "RATE",
+        "evidence": "Nhiều doanh nghiệp khác tuy không lỗ nhưng mức giảm 40 – 50% so với cùng kỳ."
+    },
+    {
+        "text": "FiinTrade",
+        "label": "ORG",
+        "evidence": "Theo FiinTrade, một số ngành như dầu khí, phân bón, vận tải biển chịu ảnh hưởng tiêu cực khi giá hàng hóa giảm, tình trạng đứt gãy chuỗi cung ứng được cải thiện, nhu cầu tiêu thụ đi xuống khi rủi ro suy thoái tăng lên ở những thị trường xuất khẩu chủ lực (Mỹ, Châu Âu) sau động thái tăng nhanh và mạnh lãi suất của FED."
+    },
+    {
+        "text": "FED",
+        "label": "ORG",
+        "evidence": "sau động thái tăng nhanh và mạnh lãi suất của FED."
+    },
+    {
+        "text": "tăng nhanh và mạnh lãi suất của FED",
+        "label": "EVENT",
+        "evidence": "sau động thái tăng nhanh và mạnh lãi suất của FED."
+    }
+]

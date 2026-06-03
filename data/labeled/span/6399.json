@@ -1,0 +1,202 @@
+[
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "Ưu đãi được áp dụng cho những khách hàng chưa từng sở hữu thẻ tín dụng Sacombank và mỗi khách hàng được hoàn tiền 1 lần duy nhất trong thời gian khuyến mãi."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ưu đãi được áp dụng cho những khách hàng chưa từng sở hữu thẻ tín dụng Sacombank và mỗi khách hàng được hoàn tiền 1 lần duy nhất trong thời gian khuyến mãi."
+    },
+    {
+        "text": "mỗi khách hàng được hoàn tiền 1 lần duy nhất trong thời gian khuyến mãi",
+        "label": "EVENT",
+        "evidence": "và mỗi khách hàng được hoàn tiền 1 lần duy nhất trong thời gian khuyến mãi."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank JCB",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tất cả chủ thẻ tín dụng Sacombank JCB còn được hưởng nhiều ưu đãi hấp dẫn khác như tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024);"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tất cả chủ thẻ tín dụng Sacombank JCB còn được hưởng nhiều ưu đãi hấp dẫn khác như tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024);"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Ngoài ra, tất cả chủ thẻ tín dụng Sacombank JCB còn được hưởng nhiều ưu đãi hấp dẫn khác như tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024);"
+    },
+    {
+        "text": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON",
+        "label": "EVENT",
+        "evidence": "hưởng nhiều ưu đãi hấp dẫn khác như tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024);"
+    },
+    {
+        "text": "phiếu mua hàng trị giá 100.000 đồng",
+        "label": "ASSET",
+        "evidence": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng"
+    },
+    {
+        "text": "1.200.000 đồng",
+        "label": "MONEY",
+        "evidence": "cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON"
+    },
+    {
+        "text": "AEON",
+        "label": "ORG",
+        "evidence": "Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024);"
+    },
+    {
+        "text": "30/06/2024",
+        "label": "DATE",
+        "evidence": "đến ngày 30/06/2024"
+    },
+    {
+        "text": "hoàn đến 10% khi đặt khách sạn tại booking.com",
+        "label": "EVENT",
+        "evidence": "hoàn đến 10% khi đặt khách sạn tại booking.com (từ ngày 01/07 – 31/12/2024);"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "hoàn đến 10% khi đặt khách sạn tại booking.com"
+    },
+    {
+        "text": "booking.com",
+        "label": "ORG",
+        "evidence": "khi đặt khách sạn tại booking.com (từ ngày 01/07 – 31/12/2024);"
+    },
+    {
+        "text": "01/07 – 31/12/2024",
+        "label": "DATE",
+        "evidence": "từ ngày 01/07 – 31/12/2024"
+    },
+    {
+        "text": "giảm 5% khi đặt khách sạn qua Agoda",
+        "label": "EVENT",
+        "evidence": "giảm 5% khi đặt khách sạn qua Agoda (từ ngày 31/07 – 31/08/2024)."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "giảm 5% khi đặt khách sạn qua Agoda"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "đặt khách sạn qua Agoda (từ ngày 31/07 – 31/08/2024)."
+    },
+    {
+        "text": "31/07 – 31/08/2024",
+        "label": "DATE",
+        "evidence": "từ ngày 31/07 – 31/08/2024"
+    },
+    {
+        "text": "thẻ Ultimate",
+        "label": "ASSET",
+        "evidence": "Đặc biệt đối với hạng thẻ Ultimate, khách hàng được nhận thêm các ưu đãi đến ngày 31/12/2024"
+    },
+    {
+        "text": "31/12/2024",
+        "label": "DATE",
+        "evidence": "đến ngày 31/12/2024 như giảm 30% (tối đa 1.000.000 đồng)"
+    },
+    {
+        "text": "giảm 30% (tối đa 1.000.000 đồng) ở 21 nhà hàng Nhật Bản cao cấp tại TP.HCM, Hà Nội, Đà Nẵng",
+        "label": "EVENT",
+        "evidence": "giảm 30% (tối đa 1.000.000 đồng) ở 21 nhà hàng Nhật Bản cao cấp tại TP.HCM, Hà Nội, Đà Nẵng;"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm 30% (tối đa 1.000.000 đồng)"
+    },
+    {
+        "text": "1.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 1.000.000 đồng"
+    },
+    {
+        "text": "miễn phí 1 đêm khi đặt từ 2 đêm tại 15 khách sạn/resort 5 sao",
+        "label": "EVENT",
+        "evidence": "miễn phí 1 đêm khi đặt từ 2 đêm tại 15 khách sạn/resort 5 sao;"
+    },
+    {
+        "text": "giảm đến 1.000.000 đồng trên một lượt chơi tại 20 sân Golf",
+        "label": "EVENT",
+        "evidence": "giảm đến 1.000.000 đồng trên một lượt chơi tại 20 sân Golf;"
+    },
+    {
+        "text": "1.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm đến 1.000.000 đồng trên một lượt chơi tại 20 sân Golf"
+    },
+    {
+        "text": "miễn phí đến 5 lần sử dụng phòng chờ hạng thương gia và 2 lần dịch vụ tiễn khách ưu tiên (Fast-track) ở 5 sân bay quốc tế tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "miễn phí đến 5 lần sử dụng phòng chờ hạng thương gia và 2 lần dịch vụ tiễn khách ưu tiên (Fast-track) ở 5 sân bay quốc tế tại Việt Nam…"
+    },
+    {
+        "text": "Thẻ tín dụng quốc tế Sacombank JCB",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản - là nguồn tài chính dự phòng thiết yếu cho mọi nhu cầu chi tiêu với nhiều tiện ích"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản"
+    },
+    {
+        "text": "mua trước, trả sau được miễn lãi tối đa 55 ngày",
+        "label": "EVENT",
+        "evidence": "mua trước, trả sau được miễn lãi tối đa 55 ngày;"
+    },
+    {
+        "text": "55 ngày",
+        "label": "DATE",
+        "evidence": "miễn lãi tối đa 55 ngày;"
+    },
+    {
+        "text": "rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế",
+        "label": "EVENT",
+        "evidence": "rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế;"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "rút tiền mặt 90% hạn mức tín dụng"
+    },
+    {
+        "text": "trả góp lãi suất 0% cho mọi giao dịch thanh toán",
+        "label": "EVENT",
+        "evidence": "trả góp lãi suất 0% cho mọi giao dịch thanh toán;"
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "trả góp lãi suất 0% cho mọi giao dịch thanh toán;"
+    },
+    {
+        "text": "miễn hoặc giảm phí thường niên theo doanh số giao dịch thanh toán",
+        "label": "EVENT",
+        "evidence": "miễn hoặc giảm phí thường niên theo doanh số giao dịch thanh toán…"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "khách hàng vui lòng liên hệ các điểm giao dịch Sacombank trên toàn quốc;"
+    }
+]

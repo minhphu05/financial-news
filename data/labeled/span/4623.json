@@ -1,0 +1,372 @@
+[
+    {
+        "text": "17/1",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch 17/1 diễn ra khá giằng co."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Mặc dù VN-Index duy trì phần lớn thời gian tăng điểm, tuy nhiên sự hưng phấn không duy trì xuyên suốt và chỉ số đã đảo chiều giảm trong những phút cuối phiên."
+    },
+    {
+        "text": "0,59 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index đóng cửa phiên giảm nhẹ 0,59 điểm (tương đương 0,05%) xuống mốc 1.162 điểm."
+    },
+    {
+        "text": "0,05%",
+        "label": "RATE",
+        "evidence": "VN-Index đóng cửa phiên giảm nhẹ 0,59 điểm (tương đương 0,05%) xuống mốc 1.162 điểm."
+    },
+    {
+        "text": "1.162 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index đóng cửa phiên giảm nhẹ 0,59 điểm (tương đương 0,05%) xuống mốc 1.162 điểm."
+    },
+    {
+        "text": "VN-Index đóng cửa phiên giảm nhẹ 0,59 điểm (tương đương 0,05%) xuống mốc 1.162 điểm",
+        "label": "EVENT",
+        "evidence": "VN-Index đóng cửa phiên giảm nhẹ 0,59 điểm (tương đương 0,05%) xuống mốc 1.162 điểm."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản khớp lệnh trên HOSE cải thiện đáng kể khi đạt trên 15.000 tỷ đồng."
+    },
+    {
+        "text": "trên 15.000 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản khớp lệnh trên HOSE cải thiện đáng kể khi đạt trên 15.000 tỷ đồng."
+    },
+    {
+        "text": "15.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản khớp lệnh trên HOSE cải thiện đáng kể khi đạt trên 15.000 tỷ đồng."
+    },
+    {
+        "text": "mua ròng 138 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Giao dịch khối ngoại khởi sắc trong phiên khi họ mua ròng 138 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "138 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch khối ngoại khởi sắc trong phiên khi họ mua ròng 138 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giátrịxấp xỉ142tỷđồng."
+    },
+    {
+        "text": "mua ròng với giátrịxấp xỉ142tỷđồng",
+        "label": "VOLUME",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giátrịxấp xỉ142tỷđồng."
+    },
+    {
+        "text": "142tỷđồng",
+        "label": "MONEY",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giátrịxấp xỉ142tỷđồng."
+    },
+    {
+        "text": "phiên thứ 5 liên tiếp khối ngoại mua ròng trên HOSE",
+        "label": "EVENT",
+        "evidence": "Đây cũng là phiên thứ 5 liên tiếp khối ngoại mua ròng trên HOSE."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Đây cũng là phiên thứ 5 liên tiếp khối ngoại mua ròng trên HOSE."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng MWG với giá trị 159 tỷ đồng."
+    },
+    {
+        "text": "mua ròng MWG với giá trị 159 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng MWG với giá trị 159 tỷ đồng."
+    },
+    {
+        "text": "159 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, tâm điểm mua ròng MWG với giá trị 159 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Theo sau, HPG, VCB lần lượt được mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Theo sau, HPG, VCB lần lượt được mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng."
+    },
+    {
+        "text": "mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo sau, HPG, VCB lần lượt được mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng."
+    },
+    {
+        "text": "91 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo sau, HPG, VCB lần lượt được mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng."
+    },
+    {
+        "text": "73 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo sau, HPG, VCB lần lượt được mua ròng với giá trị lần lượt 91 tỷ đồng, 73 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "mua ròng trên HoSE với 48 và 33 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "48 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "33 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, STB và VPB cũng xếp tiếp theo danh sách mua ròng trên HoSE với 48 và 33 tỷ đồng."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VRE",
+        "label": "TICKER",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã",
+        "label": "EVENT",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "75 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "44 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, FUEVFVND chịu áp lực bán mạnh nhất của khối ngoại với giá trị 100 tỷ đồng, VRE, LPB là hai cổ phiếu tiếp theo bị bán 75 và 44 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoạimuaròng16tỷđồng"
+    },
+    {
+        "text": "muaròng16tỷđồng",
+        "label": "VOLUME",
+        "evidence": "Trên HNX, khối ngoạimuaròng16tỷđồng"
+    },
+    {
+        "text": "16tỷđồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoạimuaròng16tỷđồng"
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, SHS được mua ròng mạnh nhất với giá trị 13 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất với giá trị 13 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, SHS được mua ròng mạnh nhất với giá trị 13 tỷ đồng."
+    },
+    {
+        "text": "13 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, SHS được mua ròng mạnh nhất với giá trị 13 tỷ đồng."
+    },
+    {
+        "text": "DL1",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, DL1 xếp tiếp theo danh sách mua ròng mạnh trên HNX với 6 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh trên HNX với 6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, DL1 xếp tiếp theo danh sách mua ròng mạnh trên HNX với 6 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, DL1 xếp tiếp theo danh sách mua ròng mạnh trên HNX với 6 tỷ đồng."
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, DL1 xếp tiếp theo danh sách mua ròng mạnh trên HNX với 6 tỷ đồng."
+    },
+    {
+        "text": "MBS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng MBS, TNG, MBG với giá trị không quá lớn."
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng MBS, TNG, MBG với giá trị không quá lớn."
+    },
+    {
+        "text": "MBG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng MBS, TNG, MBG với giá trị không quá lớn."
+    },
+    {
+        "text": "mua ròng MBS, TNG, MBG",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng MBS, TNG, MBG với giá trị không quá lớn."
+    },
+    {
+        "text": "VCS",
+        "label": "TICKER",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "2,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "NBC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "bị bán khoảng 0,5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "0,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, VCS là mã chịu áp lực bán ròng của khối ngoại với giá trị 2,7 tỷ đồng; theo sau NBC bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "UPCOM",
+        "label": "ORG",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng hơn20tỷđồng"
+    },
+    {
+        "text": "bán ròng hơn20tỷđồng",
+        "label": "VOLUME",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng hơn20tỷđồng"
+    },
+    {
+        "text": "20tỷđồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng hơn20tỷđồng"
+    },
+    {
+        "text": "GDA",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu GDA được khối ngoại mua 8 tỷ đồng, tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "mua 8 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chiều mua, cổ phiếu GDA được khối ngoại mua 8 tỷ đồng, tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều mua, cổ phiếu GDA được khối ngoại mua 8 tỷ đồng, tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu GDA được khối ngoại mua 8 tỷ đồng, tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "ABI",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu GDA được khối ngoại mua 8 tỷ đồng, tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "mua ròng mỗi cổ phiếu từ vài tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tương tự, LTG, ABI cũng đồng loạt mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "bán ròng mạnh khoảng 18 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "18 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "BCR",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng 18 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    },
+    {
+        "text": "bán ròng tại VTP, BSR, BCR",
+        "label": "EVENT",
+        "evidence": "ngoài ra họ cũng bán ròng tại VTP, BSR, BCR,..."
+    }
+]

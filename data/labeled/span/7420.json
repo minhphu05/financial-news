@@ -1,0 +1,97 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "phí chuyển tiền của Vietcombank là 0,2% số tiền chuyển"
+    },
+    {
+        "text": "0,2%",
+        "label": "RATE",
+        "evidence": "phí chuyển tiền của Vietcombank là 0,2% số tiền chuyển"
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "tối thiểu 200.000 đồng"
+    },
+    {
+        "text": "4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tối đa là 4 triệu đồng"
+    },
+    {
+        "text": "200 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "là từ 200 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "giao dịch chuyển đi bằng USD là 200 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "JPY",
+        "label": "ASSET",
+        "evidence": "Giao dịch chuyển đi bằng JPY, EUR là 800 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "EUR",
+        "label": "ASSET",
+        "evidence": "Giao dịch chuyển đi bằng JPY, EUR là 800 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "800 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "EUR là 800 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "400 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "ngoại tệ khác là 400 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "600 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "là 600 nghìn đồng/giao dịch."
+    },
+    {
+        "text": "áp dụng chính sách giảm phí đối với các khách hàng ưu tiên",
+        "label": "EVENT",
+        "evidence": "ngân hàng sẽ áp dụng chính sách giảm phí đối với các khách hàng ưu tiên."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "ngân hàng giảm 25% tỷ lệ phí chuyển tiền của Vietcombank"
+    },
+    {
+        "text": "ngân hàng giảm 25% tỷ lệ phí chuyển tiền của Vietcombank",
+        "label": "EVENT",
+        "evidence": "ngân hàng giảm 25% tỷ lệ phí chuyển tiền của Vietcombank (giữ nguyên mức tối thiểu, tối đa)."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "được giảm 50% tỷ lệ phí chuyển tiền của Vietcombank"
+    },
+    {
+        "text": "được giảm 50% tỷ lệ phí chuyển tiền của Vietcombank",
+        "label": "EVENT",
+        "evidence": "Khách hàng hạng vàng được giảm 50% tỷ lệ phí chuyển tiền của Vietcombank (giữ nguyên mức tối thiểu, tối đa)."
+    },
+    {
+        "text": "miễn phí chuyển tiền của Vietcombank",
+        "label": "EVENT",
+        "evidence": "Kim cương được miễn phí chuyển tiền của Vietcombank."
+    },
+    {
+        "text": "Biểu phí dịch vụ chuyển tiền nước ngoài của Vietcombank áp dụng từ 2/6",
+        "label": "EVENT",
+        "evidence": "Biểu phí dịch vụ chuyển tiền nước ngoài của Vietcombank áp dụng từ 2/6"
+    },
+    {
+        "text": "2/6",
+        "label": "DATE",
+        "evidence": "áp dụng từ 2/6"
+    }
+]

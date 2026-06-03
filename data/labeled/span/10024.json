@@ -1,0 +1,97 @@
+[
+    {
+        "text": "26/6",
+        "label": "DATE",
+        "evidence": "Chiều 26/6, tại thành phố Thượng Hải, Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)."
+    },
+    {
+        "text": "Phạm Minh Chính",
+        "label": "PERSON",
+        "evidence": "Chiều 26/6, tại thành phố Thượng Hải, Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)."
+    },
+    {
+        "text": "Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)",
+        "label": "EVENT",
+        "evidence": "Chiều 26/6, tại thành phố Thượng Hải, Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)."
+    },
+    {
+        "text": "Tập đoàn Máy bay thương mại Trung Quốc",
+        "label": "ORG",
+        "evidence": "Chiều 26/6, tại thành phố Thượng Hải, Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)."
+    },
+    {
+        "text": "COMAC",
+        "label": "ORG",
+        "evidence": "Chiều 26/6, tại thành phố Thượng Hải, Thủ tướng Chính phủ Phạm Minh Chính đã tiếp lãnh đạo Tập đoàn Máy bay thương mại Trung Quốc (COMAC)."
+    },
+    {
+        "text": "Shen Bo",
+        "label": "PERSON",
+        "evidence": "Tại cuộc tiếp, ông Shen Bo, Tổng giám đốc Tập đoàn cho biết, COMAC được thành lập nhằm mục tiêu phát triển ngành hàng không thương mại của Trung Quốc, nổi tiếng với dòng tầu bay C919 và đang phát triển mẫu tầu bay ARJ21; triển khai dự án tầu bay thân rộng C929, với tổng mức đầu tư dự kiến lên đến 20 tỷ USD."
+    },
+    {
+        "text": "tầu bay C919",
+        "label": "ASSET",
+        "evidence": "nổi tiếng với dòng tầu bay C919 và đang phát triển mẫu tầu bay ARJ21"
+    },
+    {
+        "text": "phát triển mẫu tầu bay ARJ21",
+        "label": "EVENT",
+        "evidence": "đang phát triển mẫu tầu bay ARJ21; triển khai dự án tầu bay thân rộng C929, với tổng mức đầu tư dự kiến lên đến 20 tỷ USD."
+    },
+    {
+        "text": "tầu bay ARJ21",
+        "label": "ASSET",
+        "evidence": "và đang phát triển mẫu tầu bay ARJ21; triển khai dự án tầu bay thân rộng C929"
+    },
+    {
+        "text": "triển khai dự án tầu bay thân rộng C929, với tổng mức đầu tư dự kiến lên đến 20 tỷ USD",
+        "label": "EVENT",
+        "evidence": "triển khai dự án tầu bay thân rộng C929, với tổng mức đầu tư dự kiến lên đến 20 tỷ USD."
+    },
+    {
+        "text": "tầu bay thân rộng C929",
+        "label": "ASSET",
+        "evidence": "triển khai dự án tầu bay thân rộng C929, với tổng mức đầu tư dự kiến lên đến 20 tỷ USD."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "với tổng mức đầu tư dự kiến lên đến 20 tỷ USD."
+    },
+    {
+        "text": "khai thác tầu bay COMAC",
+        "label": "EVENT",
+        "evidence": "Chủ tịch Tập đoàn COMAC đề nghị phía Việt Nam tiếp tục tạo điều kiện cho việc khai thác tầu bay COMAC;"
+    },
+    {
+        "text": "hỗ trợ hợp tác giữa Vietjet và COMAC",
+        "label": "EVENT",
+        "evidence": "hỗ trợ hợp tác giữa Vietjet và COMAC…; mở rộng hợp tác trong các lĩnh vực khác như bảo dưỡng, sửa chữa máy bay, chế tạo, sản xuất thiết bị, phụ tùng…"
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "hỗ trợ hợp tác giữa Vietjet và COMAC…;"
+    },
+    {
+        "text": "mở rộng hợp tác trong các lĩnh vực khác như bảo dưỡng, sửa chữa máy bay, chế tạo, sản xuất thiết bị, phụ tùng",
+        "label": "EVENT",
+        "evidence": "mở rộng hợp tác trong các lĩnh vực khác như bảo dưỡng, sửa chữa máy bay, chế tạo, sản xuất thiết bị, phụ tùng…"
+    },
+    {
+        "text": "triển khai dịch vụ bảo dưỡng, sửa chữa máy bay",
+        "label": "EVENT",
+        "evidence": "Thủ tướng hoan nghênh và đề nghị COMAC hợp tác với các đối tác Việt Nam sớm triển khai dịch vụ bảo dưỡng, sửa chữa máy bay;"
+    },
+    {
+        "text": "thúc đẩy các hợp đồng mua bán, thuê máy bay với các hãng hàng không",
+        "label": "EVENT",
+        "evidence": "thúc đẩy các hợp đồng mua bán, thuê máy bay với các hãng hàng không; hợp tác đào tạo nhân lực;"
+    },
+    {
+        "text": "hợp tác đào tạo nhân lực",
+        "label": "EVENT",
+        "evidence": "hợp tác đào tạo nhân lực; cũng như hợp tác trên các lĩnh vực khác mà hãng có thế mạnh"
+    }
+]

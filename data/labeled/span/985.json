@@ -1,0 +1,147 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "ngân hàng BIDV vừa cho ra mắt tài khoản số đẹp thế hệ mới dành cho khách hàng cá nhân với đầu số 88 siêu đẹp, tài khoản chỉ 10 ký tự với nhiều phong cách: Thần Tài, Lộc Phát, Phú Quý, Thăng Tiến…"
+    },
+    {
+        "text": "BIDV vừa cho ra mắt tài khoản số đẹp thế hệ mới dành cho khách hàng cá nhân",
+        "label": "EVENT",
+        "evidence": "ngân hàng BIDV vừa cho ra mắt tài khoản số đẹp thế hệ mới dành cho khách hàng cá nhân với đầu số 88 siêu đẹp, tài khoản chỉ 10 ký tự với nhiều phong cách: Thần Tài, Lộc Phát, Phú Quý, Thăng Tiến…"
+    },
+    {
+        "text": "tài khoản số đẹp thế hệ mới",
+        "label": "ASSET",
+        "evidence": "ngân hàng BIDV vừa cho ra mắt tài khoản số đẹp thế hệ mới dành cho khách hàng cá nhân với đầu số 88 siêu đẹp, tài khoản chỉ 10 ký tự với nhiều phong cách: Thần Tài, Lộc Phát, Phú Quý, Thăng Tiến…"
+    },
+    {
+        "text": "31/12/2023",
+        "label": "DATE",
+        "evidence": "với ưu đãi đặc biệt từ nay đến hết 31/12/2023, cụ thể:"
+    },
+    {
+        "text": "ưu đãi đặc biệt từ nay đến hết 31/12/2023",
+        "label": "EVENT",
+        "evidence": "với ưu đãi đặc biệt từ nay đến hết 31/12/2023, cụ thể:"
+    },
+    {
+        "text": "BIDV SmartBanking",
+        "label": "ORG",
+        "evidence": "Với khách hàng chọn tài khoản số đẹp online trên BIDV SmartBanking, khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "miễn phí",
+        "label": "RATE",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "các tài khoản số đẹp chọn 3 chữ số cuối",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "miễn phí các tài khoản số đẹp chọn 3 chữ số cuối",
+        "label": "EVENT",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "tài khoản số điện thoại",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "tài khoản nickname",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "dãy số tùy chọn",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí các tài khoản số đẹp chọn 3 chữ số cuối(VD: 88xxxxx999; 88xxxxx888…), tài khoản số điện thoại, tài khoản nickname hoặc dãy số tùy chọn."
+    },
+    {
+        "text": "Tài khoản chọn 4 chữ số cuối",
+        "label": "ASSET",
+        "evidence": "Tài khoản chọn 4 chữ số cuối đồng giá chỉ 600.000 đồng."
+    },
+    {
+        "text": "600.000 đồng",
+        "label": "MONEY",
+        "evidence": "Tài khoản chọn 4 chữ số cuối đồng giá chỉ 600.000 đồng."
+    },
+    {
+        "text": "các tài khoản chọn 5, 6, 7, 8 chữ số",
+        "label": "ASSET",
+        "evidence": "Với các tài khoản chọn 5, 6, 7, 8 chữ số phí mở ưu đãi hơn 30% so với kênh quầy."
+    },
+    {
+        "text": "hơn 30%",
+        "label": "RATE",
+        "evidence": "Với các tài khoản chọn 5, 6, 7, 8 chữ số phí mở ưu đãi hơn 30% so với kênh quầy."
+    },
+    {
+        "text": "ưu đãi miễn phí mở tài khoản chọn 3 chữ số cuối",
+        "label": "EVENT",
+        "evidence": "Các khách hàng mở tài khoản số đẹp tại quầy, bên cạnh ưu đãi miễn phí mở tài khoản chọn 3 chữ số cuối, khách hàng được miễn phí tài khoản là các chữ số ngày tháng năm sinh, số điện thoại…"
+    },
+    {
+        "text": "miễn phí",
+        "label": "RATE",
+        "evidence": "khách hàng được miễn phí tài khoản là các chữ số ngày tháng năm sinh, số điện thoại…"
+    },
+    {
+        "text": "tài khoản là các chữ số ngày tháng năm sinh",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí tài khoản là các chữ số ngày tháng năm sinh, số điện thoại…"
+    },
+    {
+        "text": "số điện thoại",
+        "label": "ASSET",
+        "evidence": "khách hàng được miễn phí tài khoản là các chữ số ngày tháng năm sinh, số điện thoại…"
+    },
+    {
+        "text": "30/11/2023",
+        "label": "DATE",
+        "evidence": "Ngoài ra, từ nay đến hết 30/11/2023, các khách hàng là tiểu thương tham gia chương trình tặng mã QR được ưu đãi phí mở tài khoản số đẹp tối đa 50 triệu đồng, áp dụng khi mở tại kênh quầy."
+    },
+    {
+        "text": "chương trình tặng mã QR",
+        "label": "EVENT",
+        "evidence": "các khách hàng là tiểu thương tham gia chương trình tặng mã QR được ưu đãi phí mở tài khoản số đẹp tối đa 50 triệu đồng, áp dụng khi mở tại kênh quầy."
+    },
+    {
+        "text": "ưu đãi phí mở tài khoản số đẹp tối đa 50 triệu đồng",
+        "label": "EVENT",
+        "evidence": "các khách hàng là tiểu thương tham gia chương trình tặng mã QR được ưu đãi phí mở tài khoản số đẹp tối đa 50 triệu đồng, áp dụng khi mở tại kênh quầy."
+    },
+    {
+        "text": "50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "ưu đãi phí mở tài khoản số đẹp tối đa 50 triệu đồng, áp dụng khi mở tại kênh quầy."
+    },
+    {
+        "text": "BIDV SmartBanking",
+        "label": "ORG",
+        "evidence": "Hướng dẫn 3 bước mở tài khoản số đẹp Như ý online trên BIDV SmartBanking:"
+    },
+    {
+        "text": "BIDV SmartBanking",
+        "label": "ORG",
+        "evidence": "Bước 1: Đăng nhập BIDV SmartBanking, chọn tính năng “Mở tài khoản Như ý”"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Quý khách vui lòng liên hệ Chi nhánh BIDV gần nhất hoặc Tổng đài CSKH 24/7: 1900 9247."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Chi tiết tại:https://bidv.com.vn/bidv/ca-nhan/khuyen-mai/ngan-hang-so/bidv-mien-phi-hang-trieu-tai-khoan-so-dep-the-he-moi"
+    },
+    {
+        "text": "BIDV miễn phí hàng triệu tài khoản số đẹp thế hệ mới",
+        "label": "EVENT",
+        "evidence": "Chi tiết tại:https://bidv.com.vn/bidv/ca-nhan/khuyen-mai/ngan-hang-so/bidv-mien-phi-hang-trieu-tai-khoan-so-dep-the-he-moi"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo đó, VPBank sẽ chia cổ tức với tỷ lệ 10% bằng tiền."
+    },
+    {
+        "text": "chia cổ tức với tỷ lệ 10% bằng tiền",
+        "label": "EVENT",
+        "evidence": "Theo đó, VPBank sẽ chia cổ tức với tỷ lệ 10% bằng tiền."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Theo đó, VPBank sẽ chia cổ tức với tỷ lệ 10% bằng tiền."
+    },
+    {
+        "text": "Ngày đăng ký cuối cùng thực hiện chi trả cổ tức là ngày 10/11/2023",
+        "label": "EVENT",
+        "evidence": "Ngày đăng ký cuối cùng thực hiện chi trả cổ tức là ngày 10/11/2023 và thời gian dự kiến thực hiện chia cổ tức là ngày 20/11/2023."
+    },
+    {
+        "text": "10/11/2023",
+        "label": "DATE",
+        "evidence": "Ngày đăng ký cuối cùng thực hiện chi trả cổ tức là ngày 10/11/2023 và thời gian dự kiến thực hiện chia cổ tức là ngày 20/11/2023."
+    },
+    {
+        "text": "thời gian dự kiến thực hiện chia cổ tức là ngày 20/11/2023",
+        "label": "EVENT",
+        "evidence": "Ngày đăng ký cuối cùng thực hiện chi trả cổ tức là ngày 10/11/2023 và thời gian dự kiến thực hiện chia cổ tức là ngày 20/11/2023."
+    },
+    {
+        "text": "20/11/2023",
+        "label": "DATE",
+        "evidence": "Ngày đăng ký cuối cùng thực hiện chi trả cổ tức là ngày 10/11/2023 và thời gian dự kiến thực hiện chia cổ tức là ngày 20/11/2023."
+    },
+    {
+        "text": "8.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ban Lãnh đạo ngân hàng cũng nhiều lần khẳng định sẽ dành khoảng 8.000 tỷ đồng từ nguồn lợi nhuận năm 2022 để chia cổ tức trong năm nay."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Ban Lãnh đạo ngân hàng cũng nhiều lần khẳng định sẽ dành khoảng 8.000 tỷ đồng từ nguồn lợi nhuận năm 2022 để chia cổ tức trong năm nay."
+    },
+    {
+        "text": "chia cổ tức trong năm nay",
+        "label": "EVENT",
+        "evidence": "Ban Lãnh đạo ngân hàng cũng nhiều lần khẳng định sẽ dành khoảng 8.000 tỷ đồng từ nguồn lợi nhuận năm 2022 để chia cổ tức trong năm nay."
+    },
+    {
+        "text": "Kế hoạch chia cổ tức",
+        "label": "EVENT",
+        "evidence": "Kế hoạch chia cổ tức vừa được công bố cho thấy Hội đồng Quản trị VPBank đã thực hiện lời cam kết được đưa ra trong Đại hội đồng cổ đông hồi đầu năm."
+    },
+    {
+        "text": "Hội đồng Quản trị VPBank",
+        "label": "ORG",
+        "evidence": "Kế hoạch chia cổ tức vừa được công bố cho thấy Hội đồng Quản trị VPBank đã thực hiện lời cam kết được đưa ra trong Đại hội đồng cổ đông hồi đầu năm."
+    },
+    {
+        "text": "Đại hội đồng cổ đông",
+        "label": "EVENT",
+        "evidence": "Kế hoạch chia cổ tức vừa được công bố cho thấy Hội đồng Quản trị VPBank đã thực hiện lời cam kết được đưa ra trong Đại hội đồng cổ đông hồi đầu năm."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo đó, kể từ năm 2023, VPBank dự kiến sẽ chia cổ tức bằng tiền trong 5 năm liên tiếp từ nguồn lợi nhuận sau thuế của ngân hàng, trong khi vẫn bảo toàn nguồn vốn dành cho hoạt động kinh doanh và tăng trưởng trong kế hoạch."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo đó, kể từ năm 2023, VPBank dự kiến sẽ chia cổ tức bằng tiền trong 5 năm liên tiếp từ nguồn lợi nhuận sau thuế của ngân hàng, trong khi vẫn bảo toàn nguồn vốn dành cho hoạt động kinh doanh và tăng trưởng trong kế hoạch."
+    },
+    {
+        "text": "chia cổ tức bằng tiền trong 5 năm liên tiếp",
+        "label": "EVENT",
+        "evidence": "Theo đó, kể từ năm 2023, VPBank dự kiến sẽ chia cổ tức bằng tiền trong 5 năm liên tiếp từ nguồn lợi nhuận sau thuế của ngân hàng, trong khi vẫn bảo toàn nguồn vốn dành cho hoạt động kinh doanh và tăng trưởng trong kế hoạch."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "\"Với nền tảng chúng ta có được, ngân hàng sẽ duy trì tăng trưởng cao và dành đủ 30% lợi nhuận hàng năm để chia tiền cho cổ đông\" ông Ngô Chí Dũng, Chủ tịch HĐQTVPBank, khẳng định tại Đại hội đồng cổ đông tháng 4 vừa qua."
+    },
+    {
+        "text": "Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "\"Với nền tảng chúng ta có được, ngân hàng sẽ duy trì tăng trưởng cao và dành đủ 30% lợi nhuận hàng năm để chia tiền cho cổ đông\" ông Ngô Chí Dũng, Chủ tịch HĐQTVPBank, khẳng định tại Đại hội đồng cổ đông tháng 4 vừa qua."
+    },
+    {
+        "text": "HĐQTVPBank",
+        "label": "ORG",
+        "evidence": "\"Với nền tảng chúng ta có được, ngân hàng sẽ duy trì tăng trưởng cao và dành đủ 30% lợi nhuận hàng năm để chia tiền cho cổ đông\" ông Ngô Chí Dũng, Chủ tịch HĐQTVPBank, khẳng định tại Đại hội đồng cổ đông tháng 4 vừa qua."
+    },
+    {
+        "text": "Đại hội đồng cổ đông tháng 4",
+        "label": "EVENT",
+        "evidence": "\"Với nền tảng chúng ta có được, ngân hàng sẽ duy trì tăng trưởng cao và dành đủ 30% lợi nhuận hàng năm để chia tiền cho cổ đông\" ông Ngô Chí Dũng, Chủ tịch HĐQTVPBank, khẳng định tại Đại hội đồng cổ đông tháng 4 vừa qua."
+    },
+    {
+        "text": "Các đợt chia cổ tức bằng tiền trong các năm tiếp theo",
+        "label": "EVENT",
+        "evidence": "Các đợt chia cổ tức bằng tiền trong các năm tiếp theo dự định sẽ được ngân hàng thực hiện sớm hơn trong nửa đầu năm, đáp ứng sự mong mỏi của cổ đông đối với kế hoạch phân chia lợi nhuận của ngân hàng."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "Các đợt chia cổ tức bằng tiền trong các năm tiếp theo dự định sẽ được ngân hàng thực hiện sớm hơn trong nửa đầu năm, đáp ứng sự mong mỏi của cổ đông đối với kế hoạch phân chia lợi nhuận của ngân hàng."
+    }
+]

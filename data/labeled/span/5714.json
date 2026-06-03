@@ -1,0 +1,497 @@
+[
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "Ngân hàng SHB ngay lập tức đưa ra thị trường gói cho vay ưu đãi với lãi suất siêu cạnh tranh, chỉ từ 3,99%/năm nhằm giúp khách hàng sớm chạm tay vào giấc mơ \"an cư, lạc nghiệp\"."
+    },
+    {
+        "text": "gói cho vay ưu đãi với lãi suất siêu cạnh tranh, chỉ từ 3,99%/năm",
+        "label": "EVENT",
+        "evidence": "Ngân hàng SHB ngay lập tức đưa ra thị trường gói cho vay ưu đãi với lãi suất siêu cạnh tranh, chỉ từ 3,99%/năm nhằm giúp khách hàng sớm chạm tay vào giấc mơ \"an cư, lạc nghiệp\"."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "gói cho vay ưu đãi với lãi suất siêu cạnh tranh, chỉ từ 3,99%/năm nhằm giúp khách hàng sớm chạm tay vào giấc mơ \"an cư, lạc nghiệp\"."
+    },
+    {
+        "text": "từ nay đến ngày 31/12/2025",
+        "label": "DATE",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "gói vay vốn 16.000 tỷ",
+        "label": "EVENT",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "16.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "lãi suất ưu đãi chỉ từ 3,99%",
+        "label": "RATE",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "3,99%",
+        "label": "RATE",
+        "evidence": "Cụ thể, từ nay đến ngày 31/12/2025, SHB triển khai gói vay vốn 16.000 tỷ phục vụ nhu cầu mua nhà với lãi suất ưu đãi chỉ từ 3,99%."
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "Khách hàng sẽ được vay tối đa 90% giá trị tài sản dự định mua, không giới hạn số tiền vay với lãi suất chỉ từ 3,99%/năm."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Khách hàng sẽ được vay tối đa 90% giá trị tài sản dự định mua, không giới hạn số tiền vay với lãi suất chỉ từ 3,99%/năm."
+    },
+    {
+        "text": "60 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "hạn mức thấu chi",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng còn được miễn trả gốc đến 60 tháng đầu tiên – tương đương 5 năm và được tặng kèm thẻ tín dụng/hạn mức thấu chi hấp dẫn."
+    },
+    {
+        "text": "35 năm",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, với lợi thế thời hạn vay lên đến 35 năm và lịch trả nợ gốc thiết kế riêng theo khả năng tài chính (trả góp số tiền gốc bằng nhau/tăng dần theo tần suất định kỳ hàng tháng/hàng quý hoặc tối đa 6 tháng/lần), khách hàng giảm bớt nỗi lo áp lực tài chính và tận hưởng cuộc sống ngay trong chính ngôi nhà của mình."
+    },
+    {
+        "text": "6 tháng/lần",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, với lợi thế thời hạn vay lên đến 35 năm và lịch trả nợ gốc thiết kế riêng theo khả năng tài chính (trả góp số tiền gốc bằng nhau/tăng dần theo tần suất định kỳ hàng tháng/hàng quý hoặc tối đa 6 tháng/lần), khách hàng giảm bớt nỗi lo áp lực tài chính và tận hưởng cuộc sống ngay trong chính ngôi nhà của mình."
+    },
+    {
+        "text": "giấy tờ có giá",
+        "label": "ASSET",
+        "evidence": "Khách hàng vay mua nhà có thể linh hoạt trong việc lựa chọn tài sản thế chấp phù hợp như: giấy tờ có giá/số dư tiền gửi, bất động sản dự định mua qua vốn vay/bất động sản đã sở hữu khác hoặc ô tô."
+    },
+    {
+        "text": "số dư tiền gửi",
+        "label": "ASSET",
+        "evidence": "Khách hàng vay mua nhà có thể linh hoạt trong việc lựa chọn tài sản thế chấp phù hợp như: giấy tờ có giá/số dư tiền gửi, bất động sản dự định mua qua vốn vay/bất động sản đã sở hữu khác hoặc ô tô."
+    },
+    {
+        "text": "bất động sản dự định mua qua vốn vay",
+        "label": "ASSET",
+        "evidence": "Khách hàng vay mua nhà có thể linh hoạt trong việc lựa chọn tài sản thế chấp phù hợp như: giấy tờ có giá/số dư tiền gửi, bất động sản dự định mua qua vốn vay/bất động sản đã sở hữu khác hoặc ô tô."
+    },
+    {
+        "text": "bất động sản đã sở hữu khác",
+        "label": "ASSET",
+        "evidence": "Khách hàng vay mua nhà có thể linh hoạt trong việc lựa chọn tài sản thế chấp phù hợp như: giấy tờ có giá/số dư tiền gửi, bất động sản dự định mua qua vốn vay/bất động sản đã sở hữu khác hoặc ô tô."
+    },
+    {
+        "text": "ô tô",
+        "label": "ASSET",
+        "evidence": "Khách hàng vay mua nhà có thể linh hoạt trong việc lựa chọn tài sản thế chấp phù hợp như: giấy tờ có giá/số dư tiền gửi, bất động sản dự định mua qua vốn vay/bất động sản đã sở hữu khác hoặc ô tô."
+    },
+    {
+        "text": "Hội Môi giới bất động sản Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo Hội Môi giới bất động sản Việt Nam (VARS), tính chung cả năm 2024, toàn thị trường ghi nhận khoảng gần 81.000 sản phẩm bất động sản chào bán, tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "VARS",
+        "label": "ORG",
+        "evidence": "Theo Hội Môi giới bất động sản Việt Nam (VARS), tính chung cả năm 2024, toàn thị trường ghi nhận khoảng gần 81.000 sản phẩm bất động sản chào bán, tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "cả năm 2024",
+        "label": "DATE",
+        "evidence": "Theo Hội Môi giới bất động sản Việt Nam (VARS), tính chung cả năm 2024, toàn thị trường ghi nhận khoảng gần 81.000 sản phẩm bất động sản chào bán, tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "gần 81.000 sản phẩm bất động sản chào bán",
+        "label": "VOLUME",
+        "evidence": "toàn thị trường ghi nhận khoảng gần 81.000 sản phẩm bất động sản chào bán, tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "tăng hơn 40%",
+        "label": "RATE",
+        "evidence": "toàn thị trường ghi nhận khoảng gần 81.000 sản phẩm bất động sản chào bán, tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "tăng hơn 40% so với năm 2023; 65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "65.376 sản phẩm chào bán mới",
+        "label": "VOLUME",
+        "evidence": "65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "65.376 sản phẩm chào bán mới, gấp khoảng 3 lần so với năm 2023."
+    },
+    {
+        "text": "Batdongsan.com.vn",
+        "label": "ORG",
+        "evidence": "Trong khi đó, theo Dữ liệu của Batdongsan.com.vn, giá rao bán trung bình chung cư Hà Nội và TP.HCM nửa đầu tháng 2/2025 đang chuyển biến tích cực, có dấu hiệu giảm nhẹ."
+    },
+    {
+        "text": "nửa đầu tháng 2/2025",
+        "label": "DATE",
+        "evidence": "Trong khi đó, theo Dữ liệu của Batdongsan.com.vn, giá rao bán trung bình chung cư Hà Nội và TP.HCM nửa đầu tháng 2/2025 đang chuyển biến tích cực, có dấu hiệu giảm nhẹ."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đại diện SHB cho biết với gói vay mua nhà năm nay, SHB đã cải tiến về quy trình xử lý để hỗ trợ tối đa khách hàng về thủ tục, hồ sơ vay vốn; rút ngắn thời gian thẩm định, thời gian xét duyệt, giải ngân..."
+    },
+    {
+        "text": "gói vay mua nhà năm nay",
+        "label": "EVENT",
+        "evidence": "Đại diện SHB cho biết với gói vay mua nhà năm nay, SHB đã cải tiến về quy trình xử lý để hỗ trợ tối đa khách hàng về thủ tục, hồ sơ vay vốn; rút ngắn thời gian thẩm định, thời gian xét duyệt, giải ngân..."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đại diện SHB cho biết với gói vay mua nhà năm nay, SHB đã cải tiến về quy trình xử lý để hỗ trợ tối đa khách hàng về thủ tục, hồ sơ vay vốn; rút ngắn thời gian thẩm định, thời gian xét duyệt, giải ngân..."
+    },
+    {
+        "text": "Gói cho vay mua nhà của SHB",
+        "label": "EVENT",
+        "evidence": "\"Gói cho vay mua nhà của SHB có mức lãi suất cạnh tranh, bám sát thị trường và đáp ứng nhu cầu thực tế."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "\"Gói cho vay mua nhà của SHB có mức lãi suất cạnh tranh, bám sát thị trường và đáp ứng nhu cầu thực tế."
+    },
+    {
+        "text": "SHBtung gói vay với lãi suất siêu thấp dành cho người trẻ",
+        "label": "EVENT",
+        "evidence": "SHBtung gói vay với lãi suất siêu thấp dành cho người trẻ"
+    },
+    {
+        "text": "lãi suất ưu đãi chỉ từ 3,99%/năm",
+        "label": "RATE",
+        "evidence": "Song song với lãi suất ưu đãi chỉ từ 3,99%/năm, đội ngũ cán bộ SHB cũng sẽ hỗ trợ khách hàng mọi lúc, mọi nơi xử lý hồ sơ và giải ngân nhanh chóng, đáp ứng nhu cầu vốn kịp thời để sở hữu những căn hộ và ngôi nhà như ý."
+    },
+    {
+        "text": "3,99%/năm",
+        "label": "RATE",
+        "evidence": "Song song với lãi suất ưu đãi chỉ từ 3,99%/năm, đội ngũ cán bộ SHB cũng sẽ hỗ trợ khách hàng mọi lúc, mọi nơi xử lý hồ sơ và giải ngân nhanh chóng, đáp ứng nhu cầu vốn kịp thời để sở hữu những căn hộ và ngôi nhà như ý."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Song song với lãi suất ưu đãi chỉ từ 3,99%/năm, đội ngũ cán bộ SHB cũng sẽ hỗ trợ khách hàng mọi lúc, mọi nơi xử lý hồ sơ và giải ngân nhanh chóng, đáp ứng nhu cầu vốn kịp thời để sở hữu những căn hộ và ngôi nhà như ý."
+    },
+    {
+        "text": "hơn 31 năm",
+        "label": "DATE",
+        "evidence": "Qua hơn 31 năm đồng hành cùng khách hàng và đất nước, SHB luôn chủ động thực hiện, bám sát định hướng của Đảng và Nhà nước, tích cực đồng hành kiến tạo và lan tỏa những giá trị tốt đẹp đến người dân và xã hội."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Qua hơn 31 năm đồng hành cùng khách hàng và đất nước, SHB luôn chủ động thực hiện, bám sát định hướng của Đảng và Nhà nước, tích cực đồng hành kiến tạo và lan tỏa những giá trị tốt đẹp đến người dân và xã hội."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, SHB cũng đã triển khai gói vay mua nhà nói riêng và chương trình vay với mức lãi suất hấp dẫn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Năm 2024, SHB cũng đã triển khai gói vay mua nhà nói riêng và chương trình vay với mức lãi suất hấp dẫn."
+    },
+    {
+        "text": "gói vay mua nhà",
+        "label": "EVENT",
+        "evidence": "Năm 2024, SHB cũng đã triển khai gói vay mua nhà nói riêng và chương trình vay với mức lãi suất hấp dẫn."
+    },
+    {
+        "text": "Ngân hàng",
+        "label": "ORG",
+        "evidence": "Hàng triệu khách hàng đã lựa chọn Ngân hàng là đối tác tin cậy để vay vốn mua nhà và sử dụng các giải pháp, dịch vụ tài chính để phục vụ hoạt động sản xuất kinh doanh, tiêu dùng và ổn định đời sống."
+    },
+    {
+        "text": "Ngân hàng",
+        "label": "ORG",
+        "evidence": "Hiện nay, Ngân hàng đang tập trung nguồn lực để triển khai Chiến lược Chuyển đổi 2024-2028 mạnh mẽ, toàn diện và đặt mục tiêu chiến lược trở thành Ngân hàng TOP 1 về hiệu quả; Ngân hàng Số được yêu thích nhất; Ngân hàng Bán lẻ tốt nhất đồng thời là Ngân hàng TOP đầu cung ứng nguồn vốn, sản phẩm tài chính dịch vụ với khách hàng doanh nghiệp chiến lược tư nhân và Nhà nước, có chuỗi cung ứng, chuỗi giá trị, hệ sinh thái, phát triển xanh."
+    },
+    {
+        "text": "Chiến lược Chuyển đổi 2024-2028",
+        "label": "EVENT",
+        "evidence": "Hiện nay, Ngân hàng đang tập trung nguồn lực để triển khai Chiến lược Chuyển đổi 2024-2028 mạnh mẽ, toàn diện và đặt mục tiêu chiến lược trở thành Ngân hàng TOP 1 về hiệu quả; Ngân hàng Số được yêu thích nhất; Ngân hàng Bán lẻ tốt nhất đồng thời là Ngân hàng TOP đầu cung ứng nguồn vốn, sản phẩm tài chính dịch vụ với khách hàng doanh nghiệp chiến lược tư nhân và Nhà nước, có chuỗi cung ứng, chuỗi giá trị, hệ sinh thái, phát triển xanh."
+    },
+    {
+        "text": "2024-2028",
+        "label": "DATE",
+        "evidence": "Hiện nay, Ngân hàng đang tập trung nguồn lực để triển khai Chiến lược Chuyển đổi 2024-2028 mạnh mẽ, toàn diện và đặt mục tiêu chiến lược trở thành Ngân hàng TOP 1 về hiệu quả; Ngân hàng Số được yêu thích nhất; Ngân hàng Bán lẻ tốt nhất đồng thời là Ngân hàng TOP đầu cung ứng nguồn vốn, sản phẩm tài chính dịch vụ với khách hàng doanh nghiệp chiến lược tư nhân và Nhà nước, có chuỗi cung ứng, chuỗi giá trị, hệ sinh thái, phát triển xanh."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024 – năm bản lề của Chiến lược Chuyển đổi, SHB hoàn thành và vượt nhiều chỉ tiêu được ĐHĐCĐ giao từ đầu năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Năm 2024 – năm bản lề của Chiến lược Chuyển đổi, SHB hoàn thành và vượt nhiều chỉ tiêu được ĐHĐCĐ giao từ đầu năm."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "Năm 2024 – năm bản lề của Chiến lược Chuyển đổi, SHB hoàn thành và vượt nhiều chỉ tiêu được ĐHĐCĐ giao từ đầu năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "lợi nhuận trước thuế đạt 11.543 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "11.543 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "tăng 25%",
+        "label": "RATE",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "kế hoạch ĐHĐCĐ",
+        "label": "EVENT",
+        "evidence": "Trong đó, SHB ghi nhận lợi nhuận trước thuế đạt 11.543 tỷ đồng, tăng 25% so với năm 2023 và vượt kế hoạch ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "CIR",
+        "label": "TICKER",
+        "evidence": "Tỷ lệ chi phí hoạt động/tổng thu nhập hoạt động (CIR) ở mức 24,5% – nhóm thấp nhất toàn ngành."
+    },
+    {
+        "text": "24,5%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ chi phí hoạt động/tổng thu nhập hoạt động (CIR) ở mức 24,5% – nhóm thấp nhất toàn ngành."
+    },
+    {
+        "text": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng, tăng 18,5% so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng, tăng 18,5% so với cuối năm 2023."
+    },
+    {
+        "text": "hơn 747 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng, tăng 18,5% so với cuối năm 2023."
+    },
+    {
+        "text": "tăng 18,5%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng, tăng 18,5% so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Tổng tài sản đến cuối năm 2024 ở mức hơn 747 nghìn tỷ đồng, tăng 18,5% so với cuối năm 2023."
+    },
+    {
+        "text": "Dư nợ cấp tín dụng ở mức gần 534 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ cấp tín dụng ở mức gần 534 nghìn tỷ đồng, tỷ lệ tăng trưởng cấp tín dụng 18,2%."
+    },
+    {
+        "text": "gần 534 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ cấp tín dụng ở mức gần 534 nghìn tỷ đồng, tỷ lệ tăng trưởng cấp tín dụng 18,2%."
+    },
+    {
+        "text": "tỷ lệ tăng trưởng cấp tín dụng 18,2%",
+        "label": "RATE",
+        "evidence": "Dư nợ cấp tín dụng ở mức gần 534 nghìn tỷ đồng, tỷ lệ tăng trưởng cấp tín dụng 18,2%."
+    },
+    {
+        "text": "18,2%",
+        "label": "RATE",
+        "evidence": "Dư nợ cấp tín dụng ở mức gần 534 nghìn tỷ đồng, tỷ lệ tăng trưởng cấp tín dụng 18,2%."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB tiếp tục đảm bảo các chỉ số an toàn, thanh khoản, quản trị rủi ro tuân thủ và tốt hơn so với quy định của NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "SHB tiếp tục đảm bảo các chỉ số an toàn, thanh khoản, quản trị rủi ro tuân thủ và tốt hơn so với quy định của NHNN."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Vừa qua, SHB cũng thông báo 27/2/2025 là ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "27/2/2025",
+        "label": "DATE",
+        "evidence": "Vừa qua, SHB cũng thông báo 27/2/2025 là ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023",
+        "label": "EVENT",
+        "evidence": "Vừa qua, SHB cũng thông báo 27/2/2025 là ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu năm 2023",
+        "label": "ASSET",
+        "evidence": "ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ngày đăng ký cuối cùng để chốt danh sách cổ đông thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "tỷ lệ 11%",
+        "label": "RATE",
+        "evidence": "cổ tức bằng cổ phiếu năm 2023 với tỷ lệ 11%."
+    },
+    {
+        "text": "Nghị quyết ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Theo Nghị quyết ĐHĐCĐ thường niên năm 2024, SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "Theo Nghị quyết ĐHĐCĐ thường niên năm 2024, SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo Nghị quyết ĐHĐCĐ thường niên năm 2024, SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Theo Nghị quyết ĐHĐCĐ thường niên năm 2024, SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "chi trả cổ tức năm 2023 với tổng tỷ lệ 16%",
+        "label": "EVENT",
+        "evidence": "SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "cổ tức năm 2023",
+        "label": "ASSET",
+        "evidence": "SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "tổng tỷ lệ 16%",
+        "label": "RATE",
+        "evidence": "SHB chi trả cổ tức năm 2023 với tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "5% bằng tiền mặt",
+        "label": "RATE",
+        "evidence": "tổng tỷ lệ 16%, bao gồm 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "11% bằng cổ phiếu",
+        "label": "RATE",
+        "evidence": "5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "Tháng 8/2024",
+        "label": "DATE",
+        "evidence": "Tháng 8/2024, Ngân hàng đã hoàn thành chia cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "Ngân hàng",
+        "label": "ORG",
+        "evidence": "Tháng 8/2024, Ngân hàng đã hoàn thành chia cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "chia cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5%",
+        "label": "EVENT",
+        "evidence": "Tháng 8/2024, Ngân hàng đã hoàn thành chia cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "cổ tức 2023",
+        "label": "ASSET",
+        "evidence": "chia cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "tỷ lệ 5%",
+        "label": "RATE",
+        "evidence": "cổ tức 2023 đợt 1 bằng tiền mặt với tỷ lệ 5% tới cổ đông."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Nhiều năm qua, SHB đều đặn chi trả cổ tức với tỷ lệ 10 – 18%, điều đó thể hiện trách nhiệm với cổ đông, đồng thời không ngừng nâng cao nền tảng vốn, phát triển an toàn, bền vững và hiệu quả, liên tục nâng cao năng lực quản trị theo chuẩn quốc tế, mô hình hiện đại."
+    },
+    {
+        "text": "chi trả cổ tức với tỷ lệ 10 – 18%",
+        "label": "EVENT",
+        "evidence": "Nhiều năm qua, SHB đều đặn chi trả cổ tức với tỷ lệ 10 – 18%, điều đó thể hiện trách nhiệm với cổ đông, đồng thời không ngừng nâng cao nền tảng vốn, phát triển an toàn, bền vững và hiệu quả, liên tục nâng cao năng lực quản trị theo chuẩn quốc tế, mô hình hiện đại."
+    },
+    {
+        "text": "tỷ lệ 10 – 18%",
+        "label": "RATE",
+        "evidence": "SHB đều đặn chi trả cổ tức với tỷ lệ 10 – 18%, điều đó thể hiện trách nhiệm với cổ đông, đồng thời không ngừng nâng cao nền tảng vốn, phát triển an toàn, bền vững và hiệu quả, liên tục nâng cao năng lực quản trị theo chuẩn quốc tế, mô hình hiện đại."
+    },
+    {
+        "text": "Ngân hàng",
+        "label": "ORG",
+        "evidence": "Nền tảng tài chính vững mạnh là thước đo khẳng định uy tín của Ngân hàng trên thị trường, qua đó là cơ sở để mở rộng thu hút dòng vốn từ dân cư, doanh nghiệp hoặc huy động từ thị trường trái phiếu với mức lãi suất và kỳ hạn phù hợp, để luân chuyển vốn tới các lĩnh vực trọng điểm, ưu tiên phát triển của Chính phủ, tín dụng xanh…"
+    },
+    {
+        "text": "thị trường trái phiếu",
+        "label": "ASSET",
+        "evidence": "huy động từ thị trường trái phiếu với mức lãi suất và kỳ hạn phù hợp, để luân chuyển vốn tới các lĩnh vực trọng điểm, ưu tiên phát triển của Chính phủ, tín dụng xanh…"
+    }
+]

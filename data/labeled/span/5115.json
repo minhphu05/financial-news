@@ -1,0 +1,527 @@
+[
+    {
+        "text": "chốt quyền cổ tức",
+        "label": "EVENT",
+        "evidence": "có 21 doanh nghiệp thông báo chốt quyền cổ tức trong tuần 24/7 – 28/7."
+    },
+    {
+        "text": "24/7 – 28/7",
+        "label": "DATE",
+        "evidence": "có 21 doanh nghiệp thông báo chốt quyền cổ tức trong tuần 24/7 – 28/7."
+    },
+    {
+        "text": "trả cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "16 doanh nghiệp đều trả cổ tức bằng tiền mặt"
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "4 doanh nghiệp trả cổ tức bằng cổ phiếu"
+    },
+    {
+        "text": "phát hành thêm",
+        "label": "EVENT",
+        "evidence": "1 doanh nghiệp phát hành thêm trong tuần này."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "cao nhất là 40%"
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "thấp nhất là 0,5%."
+    },
+    {
+        "text": "Ngân hàng TMCP Ngoại Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank – mã VCB)thông báo 26/7 là ngày đăng ký cuối cùng hưởng quyền nhận cổ tức  từ nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank – mã VCB)thông báo 26/7 là ngày đăng ký cuối cùng hưởng quyền nhận cổ tức  từ nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank – mã VCB)thông báo 26/7 là ngày đăng ký cuối cùng hưởng quyền nhận cổ tức  từ nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "26/7",
+        "label": "DATE",
+        "evidence": "thông báo 26/7 là ngày đăng ký cuối cùng hưởng quyền nhận cổ tức  từ nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "ngày đăng ký cuối cùng hưởng quyền nhận cổ tức",
+        "label": "EVENT",
+        "evidence": "26/7 là ngày đăng ký cuối cùng hưởng quyền nhận cổ tức  từ nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "evidence": "nguồn lợi nhuận còn lại năm 2019, 2020."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ phát hành phát hành gần 856,6 triệu cổ phiếu để trả cổ tức theo tỷ lệ 18,1% (cổ đông sở hữu 1.000 cổ phiếu tại ngày chốt quyền được nhận thêm 181 cổ phiếu mới)."
+    },
+    {
+        "text": "phát hành phát hành gần 856,6 triệu cổ phiếu để trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ phát hành phát hành gần 856,6 triệu cổ phiếu để trả cổ tức theo tỷ lệ 18,1% (cổ đông sở hữu 1.000 cổ phiếu tại ngày chốt quyền được nhận thêm 181 cổ phiếu mới)."
+    },
+    {
+        "text": "856,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành phát hành gần 856,6 triệu cổ phiếu để trả cổ tức theo tỷ lệ 18,1%"
+    },
+    {
+        "text": "18,1%",
+        "label": "RATE",
+        "evidence": "cổ tức theo tỷ lệ 18,1%"
+    },
+    {
+        "text": "1.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "(cổ đông sở hữu 1.000 cổ phiếu tại ngày chốt quyền được nhận thêm 181 cổ phiếu mới)."
+    },
+    {
+        "text": "181 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "1.000 cổ phiếu tại ngày chốt quyền được nhận thêm 181 cổ phiếu mới)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "vốn điều lệ của Vietcombank ﻿sẽ tăng thêm gần 8.566 tỷ đồng."
+    },
+    {
+        "text": "8.566 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ của Vietcombank ﻿sẽ tăng thêm gần 8.566 tỷ đồng."
+    },
+    {
+        "text": "phát hành cổ phiếu trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Với mức vốn điều lệ sau khi phát hành cổ phiếu trả cổ tức dự kiến là 55.891 tỷ đồng"
+    },
+    {
+        "text": "55.891 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ sau khi phát hành cổ phiếu trả cổ tức dự kiến là 55.891 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ vượt VietinBank và BIDV trở thành ngân hàng có vốn điều lệ lớn thứ hai hệ thống, chỉ sau VPBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ vượt VietinBank và BIDV trở thành ngân hàng có vốn điều lệ lớn thứ hai hệ thống, chỉ sau VPBank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ vượt VietinBank và BIDV trở thành ngân hàng có vốn điều lệ lớn thứ hai hệ thống, chỉ sau VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "chỉ sau VPBank."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) đã có văn bản chấp thuận Vietcombank tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) đã có văn bản chấp thuận Vietcombank tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "chấp thuận Vietcombank tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "chấp thuận Vietcombank tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "47.325 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "55.891 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng vốn điều lệ từ 47.325 tỷ đồng lên 55.891 tỷ đồng"
+    },
+    {
+        "text": "phát hành cổ phiếu trả cổ tức",
+        "label": "EVENT",
+        "evidence": "phương án phát hành cổ phiếu trả cổ tức từ nguồn lợi nhuận còn lại năm 2019, 2020 đã được Đại hội đồng cổ đông thông qua."
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "nguồn lợi nhuận còn lại năm 2019, 2020 đã được Đại hội đồng cổ đông thông qua."
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "evidence": "nguồn lợi nhuận còn lại năm 2019, 2020 đã được Đại hội đồng cổ đông thông qua."
+    },
+    {
+        "text": "Đại hội đồng cổ đông",
+        "label": "ORG",
+        "evidence": "2020 đã được Đại hội đồng cổ đông thông qua."
+    },
+    {
+        "text": "CTCP Ánh Dương Việt Nam",
+        "label": "ORG",
+        "evidence": "CTCP Ánh Dương Việt Nam (Vinasun, mã VNS)thông báo chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền."
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "CTCP Ánh Dương Việt Nam (Vinasun, mã VNS)thông báo chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền."
+    },
+    {
+        "text": "VNS",
+        "label": "TICKER",
+        "evidence": "CTCP Ánh Dương Việt Nam (Vinasun, mã VNS)thông báo chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền."
+    },
+    {
+        "text": "chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền",
+        "label": "EVENT",
+        "evidence": "thông báo chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền."
+    },
+    {
+        "text": "1/2023",
+        "label": "DATE",
+        "evidence": "chốt quyền tạm ứng cổ tức đợt 1/2023 bằng tiền."
+    },
+    {
+        "text": "27/07/2023",
+        "label": "DATE",
+        "evidence": "Ngày giao dịch không hưởng quyền là 27/07/2023."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Với tỷ lệ thực hiện 40% (1 cp được nhận 4.000 đồng)"
+    },
+    {
+        "text": "4.000 đồng",
+        "label": "MONEY",
+        "evidence": "1 cp được nhận 4.000 đồng"
+    },
+    {
+        "text": "67,8 triệu cp",
+        "label": "VOLUME",
+        "evidence": "hơn 67,8 triệu cp đang lưu hành"
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "ước tính Vinasun cần chi hơn 271 tỷ đồng trả cổ tức đợt này."
+    },
+    {
+        "text": "chi hơn 271 tỷ đồng trả cổ tức",
+        "label": "EVENT",
+        "evidence": "ước tính Vinasun cần chi hơn 271 tỷ đồng trả cổ tức đợt này."
+    },
+    {
+        "text": "271 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi hơn 271 tỷ đồng trả cổ tức đợt này."
+    },
+    {
+        "text": "11/08/2023",
+        "label": "DATE",
+        "evidence": "Ngày thực hiện chi trả dự kiến 11/08/2023."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Vào giữa tháng 7, ĐHĐCĐ bất thường lần 1 của Vinasun đã thống nhất tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "ĐHĐCĐ bất thường lần 1 của Vinasun",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ bất thường lần 1 của Vinasun đã thống nhất tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ bất thường lần 1 của Vinasun đã thống nhất tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "thống nhất tỷ lệ cổ tức năm 2023 bằng tiền là 45%",
+        "label": "EVENT",
+        "evidence": "ĐHĐCĐ bất thường lần 1 của Vinasun đã thống nhất tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "tỷ lệ cổ tức năm 2023 bằng tiền là 45%"
+    },
+    {
+        "text": "4,500 đồng",
+        "label": "MONEY",
+        "evidence": "45% (4,500 đồng/cp)"
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "thay cho 12% như kế hoạch được ĐHĐCĐ thường niên thông qua cách đây hai tháng."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ thường niên thông qua cách đây hai tháng."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Thời gian thực hiện dự kiến trong năm 2023"
+    },
+    {
+        "text": "28/7",
+        "label": "DATE",
+        "evidence": "Ngày 28/7 tới đây,CTCP Đầu tư Thế Giới Di Dộng (mã MWG)sẽ chốt danh sách cổ đông thực hiện chi trả cổ tức năm 2022 bằng tiền mặt với tỷ lệ 5%"
+    },
+    {
+        "text": "CTCP Đầu tư Thế Giới Di Dộng",
+        "label": "ORG",
+        "evidence": "CTCP Đầu tư Thế Giới Di Dộng (mã MWG)sẽ chốt danh sách cổ đông thực hiện chi trả cổ tức năm 2022 bằng tiền mặt với tỷ lệ 5%"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "CTCP Đầu tư Thế Giới Di Dộng (mã MWG)sẽ chốt danh sách cổ đông thực hiện chi trả cổ tức năm 2022 bằng tiền mặt với tỷ lệ 5%"
+    },
+    {
+        "text": "chốt danh sách cổ đông thực hiện chi trả cổ tức năm 2022 bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "sẽ chốt danh sách cổ đông thực hiện chi trả cổ tức năm 2022 bằng tiền mặt với tỷ lệ 5%"
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "chi trả cổ tức năm 2022 bằng tiền mặt"
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "tiền mặt với tỷ lệ 5%"
+    },
+    {
+        "text": "500 đồng",
+        "label": "MONEY",
+        "evidence": "01 cổ phiếu sẽ nhận về 500 đồng"
+    },
+    {
+        "text": "10/8",
+        "label": "DATE",
+        "evidence": "Thời gian thanh toán dự kiến vào ngày 10/8."
+    },
+    {
+        "text": "1,5 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với gần 1,5 tỷ cổ phiếu đang lưu hành"
+    },
+    {
+        "text": "Thế Giới Di Dộng",
+        "label": "ORG",
+        "evidence": "dự kiến Thế Giới Di Động sẽ chi ra khoảng 730 tỷ đồng để hoàn tất nghĩa vụ với cổ đông."
+    },
+    {
+        "text": "chi ra khoảng 730 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "dự kiến Thế Giới Di Động sẽ chi ra khoảng 730 tỷ đồng để hoàn tất nghĩa vụ với cổ đông."
+    },
+    {
+        "text": "730 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi ra khoảng 730 tỷ đồng để hoàn tất nghĩa vụ với cổ đông."
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "Năm 2021, doanh nghiệp này chia cổ tức bằng tiền với tỷ lệ 10% còn giai đoạn trước tỷ lệ này thường xuyên duy trì ở mức 15%."
+    },
+    {
+        "text": "chia cổ tức bằng tiền",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp này chia cổ tức bằng tiền với tỷ lệ 10%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "chia cổ tức bằng tiền với tỷ lệ 10%"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "tỷ lệ này thường xuyên duy trì ở mức 15%."
+    },
+    {
+        "text": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - CONINCO",
+        "label": "ORG",
+        "evidence": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - CONINCO (mã CNN)thông báo ngày 28/7 là ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "CONINCO",
+        "label": "ORG",
+        "evidence": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - CONINCO (mã CNN)thông báo ngày 28/7 là ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "CNN",
+        "label": "TICKER",
+        "evidence": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - CONINCO (mã CNN)thông báo ngày 28/7 là ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "28/7",
+        "label": "DATE",
+        "evidence": "thông báo ngày 28/7 là ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt",
+        "label": "EVENT",
+        "evidence": "28/7 là ngày giao dịch không hưởng quyền để trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "trả cổ tức tiền mặt cho cổ đông 9%"
+    },
+    {
+        "text": "9.000 đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 9.000 đồng/cp."
+    },
+    {
+        "text": "31/8",
+        "label": "DATE",
+        "evidence": "Ngày thực hiện dự kiến là 31/8 tới đây."
+    },
+    {
+        "text": "CNN",
+        "label": "TICKER",
+        "evidence": "cổ phiếu CNN cũng tăng khá tích cực trong thời gian qua"
+    },
+    {
+        "text": "tổng công ty Cảng hàng không Việt Nam",
+        "label": "ORG",
+        "evidence": "thông tin tổng công ty Cảng hàng không Việt Nam (mã ACV) đã có quyết định phê duyệt kết quả lựa chọn nhà thầu gói thầu 5.12"
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "tổng công ty Cảng hàng không Việt Nam (mã ACV) đã có quyết định phê duyệt kết quả lựa chọn nhà thầu gói thầu 5.12"
+    },
+    {
+        "text": "phê duyệt kết quả lựa chọn nhà thầu gói thầu 5.12 - tư vấn giám sát, thẩm tra thiết kế bản vẽ thi công công trình nhà ga hành khách, dự án thành phần 3, thuộc dự án đầu tư xây dựng Sân bay Long Thành giai đoạn 1",
+        "label": "EVENT",
+        "evidence": "đã có quyết định phê duyệt kết quả lựa chọn nhà thầu gói thầu 5.12 - tư vấn giám sát, thẩm tra thiết kế bản vẽ thi công công trình nhà ga hành khách, dự án thành phần 3, thuộc dự án đầu tư xây dựng Sân bay Long Thành giai đoạn 1."
+    },
+    {
+        "text": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - Coninco",
+        "label": "ORG",
+        "evidence": "liên danh bao gồm CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - Coninco và nhà thầu ngoại quốc, công ty Japan Airport Consultants, Inc."
+    },
+    {
+        "text": "Coninco",
+        "label": "ORG",
+        "evidence": "CTCP Tư vấn công nghệ, thiết bị và kiểm định xây dựng - Coninco và nhà thầu ngoại quốc, công ty Japan Airport Consultants, Inc."
+    },
+    {
+        "text": "Japan Airport Consultants, Inc.",
+        "label": "ORG",
+        "evidence": "và nhà thầu ngoại quốc, công ty Japan Airport Consultants, Inc."
+    },
+    {
+        "text": "630 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Gói thầu này có giá trị hơn 630 tỷ đồng"
+    },
+    {
+        "text": "29/7",
+        "label": "DATE",
+        "evidence": "Ngày 29/7 sẽ là ngày đăng ký cuối cùng đểCTCP Thủy điện Quế Phong (mã QPH)chốt danh sách cổ đông trả cổ tức năm 2021 bằng tiền với tỷ lệ 20%"
+    },
+    {
+        "text": "CTCP Thủy điện Quế Phong",
+        "label": "ORG",
+        "evidence": "CTCP Thủy điện Quế Phong (mã QPH)chốt danh sách cổ đông trả cổ tức năm 2021 bằng tiền với tỷ lệ 20%"
+    },
+    {
+        "text": "QPH",
+        "label": "TICKER",
+        "evidence": "CTCP Thủy điện Quế Phong (mã QPH)chốt danh sách cổ đông trả cổ tức năm 2021 bằng tiền với tỷ lệ 20%"
+    },
+    {
+        "text": "chốt danh sách cổ đông trả cổ tức năm 2021 bằng tiền",
+        "label": "EVENT",
+        "evidence": "chốt danh sách cổ đông trả cổ tức năm 2021 bằng tiền với tỷ lệ 20%"
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "trả cổ tức năm 2021 bằng tiền"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "tiền với tỷ lệ 20%"
+    },
+    {
+        "text": "2.000 đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 2.000 đồng/cp."
+    },
+    {
+        "text": "2016",
+        "label": "DATE",
+        "evidence": "công ty giữ nguyên trong 6 năm liên tiếp từ 2016."
+    },
+    {
+        "text": "18,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với gần 18,6 triệu cổ phiếu đang lưu hành"
+    },
+    {
+        "text": "QPH",
+        "label": "ORG",
+        "evidence": "ước tính QPH cần chi hơn 37 tỷ đồng trả cổ tức đợt này."
+    },
+    {
+        "text": "chi hơn 37 tỷ đồng trả cổ tức",
+        "label": "EVENT",
+        "evidence": "ước tính QPH cần chi hơn 37 tỷ đồng trả cổ tức đợt này."
+    },
+    {
+        "text": "37 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chi hơn 37 tỷ đồng trả cổ tức đợt này."
+    }
+]

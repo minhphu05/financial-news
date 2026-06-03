@@ -1,0 +1,172 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "công bố triển khai gói vay \"Ngôi nhà đầu tiên\"",
+        "label": "EVENT",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "gói vay \"Ngôi nhà đầu tiên\"",
+        "label": "ASSET",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "ACB nhanh chóng là ngân hàng đầu tiên công bố triển khai gói vay \"Ngôi nhà đầu tiên\" cho người trẻ với thời gian vay dài lên đến 30 năm, thời gian cố định lãi suất kỳ đầu tiên lên đến 5 năm, thủ tục đơn giản và linh hoạt cùng lãi suất vay ưu đãi chỉ từ 5,5%/năm."
+    },
+    {
+        "text": "11/2/2025",
+        "label": "DATE",
+        "evidence": "Sáng 11/2/2025 vừa qua, Thủ tướng Phạm Minh Chính chủ trì hội nghị Thường trực Chính phủ làm việc với các ngân hàng thương mại."
+    },
+    {
+        "text": "Phạm Minh Chính",
+        "label": "PERSON",
+        "evidence": "Sáng 11/2/2025 vừa qua, Thủ tướng Phạm Minh Chính chủ trì hội nghị Thường trực Chính phủ làm việc với các ngân hàng thương mại."
+    },
+    {
+        "text": "hội nghị Thường trực Chính phủ làm việc với các ngân hàng thương mại",
+        "label": "EVENT",
+        "evidence": "Sáng 11/2/2025 vừa qua, Thủ tướng Phạm Minh Chính chủ trì hội nghị Thường trực Chính phủ làm việc với các ngân hàng thương mại."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Thủ tướng Chính phủ yêu cầu Ngân hàng Nhà nước, các ngân hàng thương mại nghiên cứu, tiếp tục có các gói tín dụng ưu đãi cho cả cung và cầu để phát triển nhà ở cho người trẻ từ 35 tuổi trở xuống."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Thủ tướng Chính phủ yêu cầu Ngân hàng Nhà nước, các ngân hàng thương mại nghiên cứu, tiếp tục có các gói tín dụng ưu đãi cho cả cung và cầu để phát triển nhà ở cho người trẻ từ 35 tuổi trở xuống."
+    },
+    {
+        "text": "Hiệp hội Bất động sản TPHCM",
+        "label": "ORG",
+        "evidence": "Đa số người trẻ có chí tiến thủ, còn một khoảng đời dài để phát triển sự nghiệp và thông thường sau khoảng 10-15 năm sẽ có thu nhập tăng gấp đôi hoặc hơn gấp đôi, nên hầu như không có rủi ro cho các ngân hàng thương mại cho vay\", đại diện Hiệp hội Bất động sản TPHCM (HoREA) cũng nhận định."
+    },
+    {
+        "text": "HoREA",
+        "label": "ORG",
+        "evidence": "Đa số người trẻ có chí tiến thủ, còn một khoảng đời dài để phát triển sự nghiệp và thông thường sau khoảng 10-15 năm sẽ có thu nhập tăng gấp đôi hoặc hơn gấp đôi, nên hầu như không có rủi ro cho các ngân hàng thương mại cho vay\", đại diện Hiệp hội Bất động sản TPHCM (HoREA) cũng nhận định."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Hiệp hội cũng đề xuất NHNN xem xét xây dựng cơ chế cho người trẻ (18 - 45 tuổi) mua căn nhà đầu tiên được vay tín dụng với lãi suất thương mại hợp lý (khoảng 6-7%/năm được bảo đảm khoản vay bằng chính căn nhà đó) trong thời hạn 10 -15 năm."
+    },
+    {
+        "text": "6-7%/năm",
+        "label": "RATE",
+        "evidence": "Hiệp hội cũng đề xuất NHNN xem xét xây dựng cơ chế cho người trẻ (18 - 45 tuổi) mua căn nhà đầu tiên được vay tín dụng với lãi suất thương mại hợp lý (khoảng 6-7%/năm được bảo đảm khoản vay bằng chính căn nhà đó) trong thời hạn 10 -15 năm."
+    },
+    {
+        "text": "10 -15 năm",
+        "label": "DATE",
+        "evidence": "Hiệp hội cũng đề xuất NHNN xem xét xây dựng cơ chế cho người trẻ (18 - 45 tuổi) mua căn nhà đầu tiên được vay tín dụng với lãi suất thương mại hợp lý (khoảng 6-7%/năm được bảo đảm khoản vay bằng chính căn nhà đó) trong thời hạn 10 -15 năm."
+    },
+    {
+        "text": "Ngân hàng thương mại cổ phần Á Châu",
+        "label": "ORG",
+        "evidence": "Đại diện Ngân hàng thương mại cổ phần Á Châu (ACB) cũng cho biết kỳ vọng cao về việc sở hữu \"căn nhà của riêng mình\" trong đời là hoàn toàn phù hợp tâm lý \"an cư lạc nghiệp\" và truyền thống của người Việt Nam, đặc biệt là những người trẻ có công việc và thu nhập ổn định hàng tháng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đại diện Ngân hàng thương mại cổ phần Á Châu (ACB) cũng cho biết kỳ vọng cao về việc sở hữu \"căn nhà của riêng mình\" trong đời là hoàn toàn phù hợp tâm lý \"an cư lạc nghiệp\" và truyền thống của người Việt Nam, đặc biệt là những người trẻ có công việc và thu nhập ổn định hàng tháng."
+    },
+    {
+        "text": "\"Ngôi nhà đầu tiên\"",
+        "label": "ASSET",
+        "evidence": "Theo đó, việc sở hữu \"Ngôi nhà đầu tiên\" với người trẻ dưới 35 tuổi mang nhiều ý nghĩa hơn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nhận định nhóm khách hàng trẻ từ 18-35 tuổi có công việc ổn định, thu nhập đều đặn hàng tháng hoàn toàn có thể nghĩ đến việc mua nhà."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đơn cử như với ACB, ngân hàng đã tiên phong triển khai gói vay \"Ngôi nhà đầu tiên\" dành cho người trẻ mua nhà với các tính năng linh hoạt nhằm đáp ứng nhu cầu an cư và phù hợp với nhu cầu, thu nhập của khách hàng."
+    },
+    {
+        "text": "gói vay \"Ngôi nhà đầu tiên\"",
+        "label": "ASSET",
+        "evidence": "Đơn cử như với ACB, ngân hàng đã tiên phong triển khai gói vay \"Ngôi nhà đầu tiên\" dành cho người trẻ mua nhà với các tính năng linh hoạt nhằm đáp ứng nhu cầu an cư và phù hợp với nhu cầu, thu nhập của khách hàng."
+    },
+    {
+        "text": "70% - 80%",
+        "label": "RATE",
+        "evidence": "Hiện các ngân hàng đang cho vay với tỷ lệ cho vay từ 70% - 80% giá trị căn nhà."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Gói vay từACBcũng được thiết kế không chỉ với lãi suất hấp dẫn từ 5,5%/năm mà còn chú trọng đến sự an tâm như thời gian vay dài, phương thức trả vốn gốc phù hợp với thu nhập của khách hàng và lãi suất ưu đãi kỳ đầu tiên cố định lên đến 60 tháng (5 năm) với Lãi suất thấp hơn đến 3% so với lãi suất công bố."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Gói vay từACBcũng được thiết kế không chỉ với lãi suất hấp dẫn từ 5,5%/năm mà còn chú trọng đến sự an tâm như thời gian vay dài, phương thức trả vốn gốc phù hợp với thu nhập của khách hàng và lãi suất ưu đãi kỳ đầu tiên cố định lên đến 60 tháng (5 năm) với Lãi suất thấp hơn đến 3% so với lãi suất công bố."
+    },
+    {
+        "text": "60 tháng",
+        "label": "DATE",
+        "evidence": "Gói vay từACBcũng được thiết kế không chỉ với lãi suất hấp dẫn từ 5,5%/năm mà còn chú trọng đến sự an tâm như thời gian vay dài, phương thức trả vốn gốc phù hợp với thu nhập của khách hàng và lãi suất ưu đãi kỳ đầu tiên cố định lên đến 60 tháng (5 năm) với Lãi suất thấp hơn đến 3% so với lãi suất công bố."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Gói vay từACBcũng được thiết kế không chỉ với lãi suất hấp dẫn từ 5,5%/năm mà còn chú trọng đến sự an tâm như thời gian vay dài, phương thức trả vốn gốc phù hợp với thu nhập của khách hàng và lãi suất ưu đãi kỳ đầu tiên cố định lên đến 60 tháng (5 năm) với Lãi suất thấp hơn đến 3% so với lãi suất công bố."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Gói vay từACBcũng được thiết kế không chỉ với lãi suất hấp dẫn từ 5,5%/năm mà còn chú trọng đến sự an tâm như thời gian vay dài, phương thức trả vốn gốc phù hợp với thu nhập của khách hàng và lãi suất ưu đãi kỳ đầu tiên cố định lên đến 60 tháng (5 năm) với Lãi suất thấp hơn đến 3% so với lãi suất công bố."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, khách hàng có thể vay với thời gian dài lên đến 30 năm và thời gian cố định lãi suất kỳ đầu tiên đến 5 năm, cùng phương thức trả nợ gốc linh hoạt, chỉ cần trả từ 2% số vốn gốc/năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, khách hàng có thể vay với thời gian dài lên đến 30 năm và thời gian cố định lãi suất kỳ đầu tiên đến 5 năm, cùng phương thức trả nợ gốc linh hoạt, chỉ cần trả từ 2% số vốn gốc/năm."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "Theo đó, khách hàng có thể vay với thời gian dài lên đến 30 năm và thời gian cố định lãi suất kỳ đầu tiên đến 5 năm, cùng phương thức trả nợ gốc linh hoạt, chỉ cần trả từ 2% số vốn gốc/năm."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Ngoài ra khách hàng còn được ân hạn thời gian trả nợ gốc trong tối đa 12 tháng kể từ khi khoản vay được giải ngân, miễn phí định giá tài sản bảo đảm và ưu đãi phí trả nợ trước hạn khi trả định kỳ hàng tháng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong vai trò ngân hàng, bên cạnh việc cung cấp gói giải pháp tài chính phù hợp, ACB còn hỗ trợ các thủ tục pháp lý cần thiết khác theo quy định pháp luật không chỉ để duy trì sự an tâm cho khách hàng, đưa ra những kế hoạch tài chính phù hợp khách hàng, đảm bảo quá trình cho vay và trả gốc được thông suốt, thuận lợi cho cả hai bên."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "*Để tìm hiểu thêm về gói vay mua nhà, khách hàng cá nhân có thể truy cậpwebsitehoặc đến các Chi nhánh/Phòng giao dịch ACB gần nhất hoặc Contact Center 24/7: 028 38 247 247."
+    }
+]

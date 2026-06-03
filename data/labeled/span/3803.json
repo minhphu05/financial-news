@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Ngân hàng TMCP Quân đội",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thậm chí, các đối tượng còn gửi đường link giả mạo các trang web để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng của nạn nhân."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Thậm chí, các đối tượng còn gửi đường link giả mạo các trang web để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng của nạn nhân."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Khi khách hàng liên hệ, chúng yêu cầu chuyển khoản đặt cọc một phần tiền (thường từ 50% trở lên)."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Chúng thuyết phục nạn nhân mở thẻ tín dụng, cung cấp thông tin cá nhân và giao quyền kiểm soát máy tính cho chúng qua phần mềm hoặc ứng dụng từ xa."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Sau đó, chúng sử dụng thẻ tín dụng của nạn nhân để thực hiện các giao dịch thanh toán trái phép mà khách hàng không hề hay biết."
+    },
+    {
+        "text": "giá rẻ",
+        "label": "PRICE",
+        "evidence": "Các đối tượng lừa đảo gọi điện dụ dỗ nạn nhân tham gia khảo sát trực tuyến của các nhãn hàng lớn hoặc thương hiệu nổi tiếng để nhận phần quà hoặc mua sản phẩm với giá rẻ."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, trong quá trình tham gia khảo sát, nạn nhân sẽ bị dụ dỗ nhập thông tin thẻ tín dụng để thanh toán sản phẩm."
+    },
+    {
+        "text": "giảm giá vé máy bay, tour du lịch",
+        "label": "EVENT",
+        "evidence": "Các đối tượng lừa đảo lập các Fanpage giả mạo các công ty du lịch hoặc các hãng bán vé máy bay lớn, đăng các chương trình khuyến mãi, giảm giá vé máy bay, tour du lịch hấp dẫn để thu hút khách hàng."
+    },
+    {
+        "text": "giá ưu đãi",
+        "label": "PRICE",
+        "evidence": "Khi khách hàng liên hệ, chúng yêu cầu chuyển tiền đặt cọc để giữ chỗ với mức giá ưu đãi, đồng thời hứa hẹn sẽ hoàn tiền nếu hủy tour."
+    },
+    {
+        "text": "tiền ảo",
+        "label": "ASSET",
+        "evidence": "Kêu gọi đầu tư tài chính, tiền ảo với lợi nhuận cao"
+    },
+    {
+        "text": "lợi nhuận cao",
+        "label": "RATE",
+        "evidence": "Kêu gọi đầu tư tài chính, tiền ảo với lợi nhuận cao"
+    },
+    {
+        "text": "lãi suất cao",
+        "label": "RATE",
+        "evidence": "Các đối tượng lập các website và ứng dụng đầu tư tài chính giả mạo, hứa hẹn lãi suất cao và khả năng rút vốn dễ dàng."
+    },
+    {
+        "text": "trả lãi",
+        "label": "EVENT",
+        "evidence": "Ban đầu, chúng trả lãi đầy đủ để tạo lòng tin từ nạn nhân."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "Gửi mã QR dẫn đến trang web giả mạo ngân hàng, yêu cầu khách hàng nhập họ tên, thông tin giấy tờ tùy nhân, số thẻ, ngày hết hạn thẻ, mã OTP..."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Sau đó, sử dụng thông tin thẻ để chiếm đoạt tiền trong tài khoản"
+    },
+    {
+        "text": "tiền trong tài khoản",
+        "label": "ASSET",
+        "evidence": "Sau đó, sử dụng thông tin thẻ để chiếm đoạt tiền trong tài khoản"
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Yêu cầu cung cấp thông tin thẻ, mã CVV, ngày hết hạn, mã OTP: Dẫn dắt Khách hàng phát hành thẻ trên App, tra cứu và cung cấp thông tin thẻ để thực hiện giao dịch thanh toán online nhằm chiếm đoạt hạn mức thẻ của khách hàng"
+    },
+    {
+        "text": "hạn mức thẻ",
+        "label": "ASSET",
+        "evidence": "nhằm chiếm đoạt hạn mức thẻ của khách hàng"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB khuyến nghị khách hàng"
+    },
+    {
+        "text": "tài khoản ngân hàng cá nhân",
+        "label": "ASSET",
+        "evidence": "Không kết nối app lạ vào tài khoản ngân hàng cá nhân hoặc tài khoản của doanh nghiệp khi chưa được xác minh."
+    },
+    {
+        "text": "tài khoản của doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Không kết nối app lạ vào tài khoản ngân hàng cá nhân hoặc tài khoản của doanh nghiệp khi chưa được xác minh."
+    },
+    {
+        "text": "thông tin tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Không cung cấp thông tin tài khoản ngân hàng, mã OTP, thông tin thẻ, mã CVV."
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Không cung cấp thông tin tài khoản ngân hàng, mã OTP, thông tin thẻ, mã CVV."
+    }
+]

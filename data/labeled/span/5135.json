@@ -1,0 +1,277 @@
+[
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Sau khi Thế giới Di động mở màn với \"Giá rẻ quá\", FPT Shop nhanh chóng đáp trả với chiến dịch \"Rẻ hơn cả rẻ quá\"."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Sau khi Thế giới Di động mở màn với \"Giá rẻ quá\", FPT Shop nhanh chóng đáp trả với chiến dịch \"Rẻ hơn cả rẻ quá\"."
+    },
+    {
+        "text": "Thế giới Di động mở màn với \"Giá rẻ quá\"",
+        "label": "EVENT",
+        "evidence": "Sau khi Thế giới Di động mở màn với \"Giá rẻ quá\", FPT Shop nhanh chóng đáp trả với chiến dịch \"Rẻ hơn cả rẻ quá\"."
+    },
+    {
+        "text": "FPT Shop nhanh chóng đáp trả với chiến dịch \"Rẻ hơn cả rẻ quá\"",
+        "label": "EVENT",
+        "evidence": "Sau khi Thế giới Di động mở màn với \"Giá rẻ quá\", FPT Shop nhanh chóng đáp trả với chiến dịch \"Rẻ hơn cả rẻ quá\"."
+    },
+    {
+        "text": "Di động Việt",
+        "label": "ORG",
+        "evidence": "Gia nhập cuộc chiến về giá, Di động Việt cũng khiêu chiến với chiến dịch \"Rẻ hơn các loại rẻ\"."
+    },
+    {
+        "text": "Di động Việt cũng khiêu chiến với chiến dịch \"Rẻ hơn các loại rẻ\"",
+        "label": "EVENT",
+        "evidence": "Gia nhập cuộc chiến về giá, Di động Việt cũng khiêu chiến với chiến dịch \"Rẻ hơn các loại rẻ\"."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "Và mới đây nhất, Thế giới di động lại tiếp tục đẩy cuộc chiến nóng hơn khi tung ra chương trình:Hoàn tiền nếu ở đâu rẻ hơn."
+    },
+    {
+        "text": "tung ra chương trình:Hoàn tiền nếu ở đâu rẻ hơn",
+        "label": "EVENT",
+        "evidence": "Và mới đây nhất, Thế giới di động lại tiếp tục đẩy cuộc chiến nóng hơn khi tung ra chương trình:Hoàn tiền nếu ở đâu rẻ hơn."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Đây là động thái tiếp theo đánh mạnh vào yếu tố giá rẻ của Thế Giới Di Động sau chương trình “Giá rẻ quá” thu hút sự chú ý của người tiêu dùng trong thời gian qua."
+    },
+    {
+        "text": "chương trình “Giá rẻ quá”",
+        "label": "EVENT",
+        "evidence": "Đây là động thái tiếp theo đánh mạnh vào yếu tố giá rẻ của Thế Giới Di Động sau chương trình “Giá rẻ quá” thu hút sự chú ý của người tiêu dùng trong thời gian qua."
+    },
+    {
+        "text": "Chương trình “Giá bao chấp” và hoàn tiền nếu ở đâu rẻ hơn",
+        "label": "EVENT",
+        "evidence": "Chương trình “Giá bao chấp” và hoàn tiền nếu ở đâu rẻ hơn lần này được áp dụng đối với các sản phẩm điện tử, điện lạnh cao cấp."
+    },
+    {
+        "text": "1/6",
+        "label": "DATE",
+        "evidence": "Trong đó, từ 1/6 tới 30/6, khi mua các sản phẩm cao cấp tại Điện Máy Xanh, người tiêu dùng có cơ hội trúng thưởng trị giá 1 tỷ đồng thông qua quay số."
+    },
+    {
+        "text": "30/6",
+        "label": "DATE",
+        "evidence": "Trong đó, từ 1/6 tới 30/6, khi mua các sản phẩm cao cấp tại Điện Máy Xanh, người tiêu dùng có cơ hội trúng thưởng trị giá 1 tỷ đồng thông qua quay số."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Trong đó, từ 1/6 tới 30/6, khi mua các sản phẩm cao cấp tại Điện Máy Xanh, người tiêu dùng có cơ hội trúng thưởng trị giá 1 tỷ đồng thông qua quay số."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, từ 1/6 tới 30/6, khi mua các sản phẩm cao cấp tại Điện Máy Xanh, người tiêu dùng có cơ hội trúng thưởng trị giá 1 tỷ đồng thông qua quay số."
+    },
+    {
+        "text": "Aqua",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Electrolux",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "LG",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Panasonic",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Sharp",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Toshiba",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Casper",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Comfee",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Daikin",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Funiki",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Gree",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Midea",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Nagakawa",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "TCL",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "iFFalcon",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Sony",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Beko",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Hitachi",
+        "label": "ORG",
+        "evidence": "Các sản phẩm áp dụng gồm : Tivi, máy giặt, máy lạnh, tủ lạnh các thương hiệu Aqua, Electrolux, LG, Panasonic, Samsung, Sharp, Toshiba, Casper, Comfee, Daikin, Funiki, Gree, Midea, Nagakawa, TCL, iFFalcon, Sony, Beko, Hitachi."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, Thế Giới Di Động còn tung ra \"Lễ hội gia dụng - càng mua càng giảm\", khách hàng sẽ được giảm thêm 2%-10% từ sản phẩm thứ 2."
+    },
+    {
+        "text": "tung ra \"Lễ hội gia dụng - càng mua càng giảm\"",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, Thế Giới Di Động còn tung ra \"Lễ hội gia dụng - càng mua càng giảm\", khách hàng sẽ được giảm thêm 2%-10% từ sản phẩm thứ 2."
+    },
+    {
+        "text": "2%-10%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, Thế Giới Di Động còn tung ra \"Lễ hội gia dụng - càng mua càng giảm\", khách hàng sẽ được giảm thêm 2%-10% từ sản phẩm thứ 2."
+    },
+    {
+        "text": "chương trình “Giá rẻ quá”",
+        "label": "EVENT",
+        "evidence": "Trước đó, trong chương trình “Giá rẻ quá”, Thế Giới Di Động cũng bắt tay với 20 nhà sản xuất trong lĩnh vực điện lạnh để đưa ra thị trường hơn 100.000 bộ máy lạnh giá rẻ chỉ bán riêng trong chuỗi Điện Máy Xanh."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Trước đó, trong chương trình “Giá rẻ quá”, Thế Giới Di Động cũng bắt tay với 20 nhà sản xuất trong lĩnh vực điện lạnh để đưa ra thị trường hơn 100.000 bộ máy lạnh giá rẻ chỉ bán riêng trong chuỗi Điện Máy Xanh."
+    },
+    {
+        "text": "100.000 bộ máy lạnh",
+        "label": "VOLUME",
+        "evidence": "Trước đó, trong chương trình “Giá rẻ quá”, Thế Giới Di Động cũng bắt tay với 20 nhà sản xuất trong lĩnh vực điện lạnh để đưa ra thị trường hơn 100.000 bộ máy lạnh giá rẻ chỉ bán riêng trong chuỗi Điện Máy Xanh."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Trước đó, trong chương trình “Giá rẻ quá”, Thế Giới Di Động cũng bắt tay với 20 nhà sản xuất trong lĩnh vực điện lạnh để đưa ra thị trường hơn 100.000 bộ máy lạnh giá rẻ chỉ bán riêng trong chuỗi Điện Máy Xanh."
+    },
+    {
+        "text": "Đầu tháng 4/2023",
+        "label": "DATE",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động",
+        "label": "EVENT",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Đầu tháng 4/2023, tại đại hội đồng cổ đông thường niên năm 2023 của Thế Giới Di Động (MWG), ôngNguyễn Đức Tài, Chủ tịch Hội đồng quản trị (HĐQT) MWG chia sẻ, trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "trước đây, Thế Giới Di Động không quá căn ke về chênh lệch giá bán các sản phẩm Apple của chuỗi Thế Giới Di Động so với các đối thủ và đây chính là “khe hở” để các đối thủ kiếm khách hàng."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, ông Tài cho biết sắp tới, hiện tượng này sẽ chấm dứt khi Thế Giới Di Động sẽ đặt mức giá bán sát hơn với đối thủ."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Thế Giới Di Động sẽ không để cho chênh lệch giá trở thành điểm để đối thủ “lợi dụng”."
+    },
+    {
+        "text": "cuối tháng 4",
+        "label": "DATE",
+        "evidence": "Không lâu sau tuyên bố trên, cuối tháng 4, Thế Giới Di Động đã mở màn chiến lược quảng cáo với thông điệp “Giá rẻ quá” nhằm thu hút khách hàng với các sản phẩm công nghệ, đặc biệt là các dòng sản phẩm iPhone."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Không lâu sau tuyên bố trên, cuối tháng 4, Thế Giới Di Động đã mở màn chiến lược quảng cáo với thông điệp “Giá rẻ quá” nhằm thu hút khách hàng với các sản phẩm công nghệ, đặc biệt là các dòng sản phẩm iPhone."
+    },
+    {
+        "text": "mở màn chiến lược quảng cáo với thông điệp “Giá rẻ quá”",
+        "label": "EVENT",
+        "evidence": "Không lâu sau tuyên bố trên, cuối tháng 4, Thế Giới Di Động đã mở màn chiến lược quảng cáo với thông điệp “Giá rẻ quá” nhằm thu hút khách hàng với các sản phẩm công nghệ, đặc biệt là các dòng sản phẩm iPhone."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "đặc biệt là các dòng sản phẩm iPhone."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Động thái “xoay trục” của Thế Giới Di Động trong bối cảnh sức mua sụt giảm này đã buộc các đối thủ không thể đứng ngoài cuộc."
+    }
+]

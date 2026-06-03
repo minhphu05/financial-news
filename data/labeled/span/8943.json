@@ -1,0 +1,812 @@
+[
+    {
+        "text": "Chứng khoán SHS",
+        "label": "ORG",
+        "evidence": "Chứng khoán SHS cũng đã công bố BCTC quý 2, ghi nhận doanh thu hoạt động tăng 94% lên 599 tỷ đồng."
+    },
+    {
+        "text": "công bố BCTC quý 2",
+        "label": "EVENT",
+        "evidence": "Chứng khoán SHS cũng đã công bố BCTC quý 2, ghi nhận doanh thu hoạt động tăng 94% lên 599 tỷ đồng."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Chứng khoán SHS cũng đã công bố BCTC quý 2, ghi nhận doanh thu hoạt động tăng 94% lên 599 tỷ đồng."
+    },
+    {
+        "text": "tăng 94%",
+        "label": "RATE",
+        "evidence": "Chứng khoán SHS cũng đã công bố BCTC quý 2, ghi nhận doanh thu hoạt động tăng 94% lên 599 tỷ đồng."
+    },
+    {
+        "text": "599 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chứng khoán SHS cũng đã công bố BCTC quý 2, ghi nhận doanh thu hoạt động tăng 94% lên 599 tỷ đồng."
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "Đà tăng chủ yếu nhờ mảng tự doanh thắng lớn với lãi từ tài sản FVTPL đạt 376 tỷ, gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "376 tỷ",
+        "label": "MONEY",
+        "evidence": "Đà tăng chủ yếu nhờ mảng tự doanh thắng lớn với lãi từ tài sản FVTPL đạt 376 tỷ, gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "gấp 3 lần",
+        "label": "RATE",
+        "evidence": "Đà tăng chủ yếu nhờ mảng tự doanh thắng lớn với lãi từ tài sản FVTPL đạt 376 tỷ, gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "SHS",
+        "label": "ORG",
+        "evidence": "Khấu trừ các chi phí liên quan, lợi nhuận trước thuế của SHS đạt 435 tỷ đồng, tăng tới 151% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "435 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khấu trừ các chi phí liên quan, lợi nhuận trước thuế của SHS đạt 435 tỷ đồng, tăng tới 151% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tăng tới 151%",
+        "label": "RATE",
+        "evidence": "Khấu trừ các chi phí liên quan, lợi nhuận trước thuế của SHS đạt 435 tỷ đồng, tăng tới 151% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Khấu trừ các chi phí liên quan, lợi nhuận trước thuế của SHS đạt 435 tỷ đồng, tăng tới 151% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Nhóm lãi trăm tỷ trong quý 2/2024 còn có Chứng khoán TP HCM (HSC) với LNTT tăng trưởng 99% lên 390 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán TP HCM",
+        "label": "ORG",
+        "evidence": "Nhóm lãi trăm tỷ trong quý 2/2024 còn có Chứng khoán TP HCM (HSC) với LNTT tăng trưởng 99% lên 390 tỷ đồng."
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "Nhóm lãi trăm tỷ trong quý 2/2024 còn có Chứng khoán TP HCM (HSC) với LNTT tăng trưởng 99% lên 390 tỷ đồng."
+    },
+    {
+        "text": "tăng trưởng 99%",
+        "label": "RATE",
+        "evidence": "Nhóm lãi trăm tỷ trong quý 2/2024 còn có Chứng khoán TP HCM (HSC) với LNTT tăng trưởng 99% lên 390 tỷ đồng."
+    },
+    {
+        "text": "390 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhóm lãi trăm tỷ trong quý 2/2024 còn có Chứng khoán TP HCM (HSC) với LNTT tăng trưởng 99% lên 390 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán VCBS",
+        "label": "ORG",
+        "evidence": "Chứng khoán VCBS cũng ghi nhận LNTT quý 2 tăng 7% lên 176 tỷ đồng."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Chứng khoán VCBS cũng ghi nhận LNTT quý 2 tăng 7% lên 176 tỷ đồng."
+    },
+    {
+        "text": "tăng 7%",
+        "label": "RATE",
+        "evidence": "Chứng khoán VCBS cũng ghi nhận LNTT quý 2 tăng 7% lên 176 tỷ đồng."
+    },
+    {
+        "text": "176 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chứng khoán VCBS cũng ghi nhận LNTT quý 2 tăng 7% lên 176 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán VPS",
+        "label": "ORG",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "giảm 10%",
+        "label": "RATE",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "1.707 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Công ty nắm thị phần môi giới lớn nhất sàn HoSE và HNX quý 2/2024 là Chứng khoán VPS ghi nhận doanh thu hoạt động quý 2 giảm 10% so với cùng kỳ xuống 1.707 tỷ đồng."
+    },
+    {
+        "text": "sụt giảm 28%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động sụt giảm 28% xuống còn 843 tỷ đồng."
+    },
+    {
+        "text": "843 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí hoạt động sụt giảm 28% xuống còn 843 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán VPS",
+        "label": "ORG",
+        "evidence": "Kết quả, Chứng khoán VPS lãi trước thuế hơn 653 tỷ đồng trong quý 2, tăng 486% so với cùng kỳ."
+    },
+    {
+        "text": "653 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả, Chứng khoán VPS lãi trước thuế hơn 653 tỷ đồng trong quý 2, tăng 486% so với cùng kỳ."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Kết quả, Chứng khoán VPS lãi trước thuế hơn 653 tỷ đồng trong quý 2, tăng 486% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 486%",
+        "label": "RATE",
+        "evidence": "Kết quả, Chứng khoán VPS lãi trước thuế hơn 653 tỷ đồng trong quý 2, tăng 486% so với cùng kỳ."
+    },
+    {
+        "text": "523 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi sau thuế tương ứng đạt 523 tỷ đồng."
+    },
+    {
+        "text": "CTCP Phát triển Bất động sản Phát Đạt",
+        "label": "ORG",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "PDR",
+        "label": "TICKER",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "8,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "gấp gần 4 lần",
+        "label": "RATE",
+        "evidence": "CTCP Phát triển Bất động sản Phát Đạt (mã chứng khoán: PDR) vừa công bố BCTC quý 2/2024 với doanh thu thuần chỉ 8,5 tỷ đồng nhưng cũng là con số cao gấp gần 4 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "1,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trừ giá vốn, doanh nghiệp này lãi gộp 1,7 tỷ đồng."
+    },
+    {
+        "text": "Phát Đạt",
+        "label": "ORG",
+        "evidence": "Nhờ thoái vốn công ty liên kết, Phát Đạt mang về 87 tỷ đồng lãi trước thuế, giảm 77% so với thực hiện năm trước."
+    },
+    {
+        "text": "87 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhờ thoái vốn công ty liên kết, Phát Đạt mang về 87 tỷ đồng lãi trước thuế, giảm 77% so với thực hiện năm trước."
+    },
+    {
+        "text": "giảm 77%",
+        "label": "RATE",
+        "evidence": "Nhờ thoái vốn công ty liên kết, Phát Đạt mang về 87 tỷ đồng lãi trước thuế, giảm 77% so với thực hiện năm trước."
+    },
+    {
+        "text": "công bố BCTC ngày 19/7",
+        "label": "EVENT",
+        "evidence": "Những DN vừa công bố BCTC ngày 19/7:"
+    },
+    {
+        "text": "19/7",
+        "label": "DATE",
+        "evidence": "Những DN vừa công bố BCTC ngày 19/7:"
+    },
+    {
+        "text": "Tập đoàn Vingroup",
+        "label": "ORG",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "43.309 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "giảm 8,4%",
+        "label": "RATE",
+        "evidence": "Tập đoàn Vingroup (VIC)vừa công bố BCTC quý 2/2024 với doanh thu 43.309 tỷ đồng, giảm 8,4% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "4.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khấu trừ chi phí, doanh nghiệp lãi trước thuế hơn 4.000 tỷ đồng."
+    },
+    {
+        "text": "Casumina",
+        "label": "ORG",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "SCM",
+        "label": "TICKER",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "báo lãi trước thuế quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "tăng trưởng 56%",
+        "label": "RATE",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "26 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Casumina (SCM)báo lãi trước thuế quý 2/2024 tăng trưởng 56% lên mức 26 tỷ đồng."
+    },
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "CTCP Vinhomes(VHM)vừa công bố BCTC hợp nhất 6 tháng đầu năm 2024."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "CTCP Vinhomes(VHM)vừa công bố BCTC hợp nhất 6 tháng đầu năm 2024."
+    },
+    {
+        "text": "công bố BCTC hợp nhất 6 tháng đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "CTCP Vinhomes(VHM)vừa công bố BCTC hợp nhất 6 tháng đầu năm 2024."
+    },
+    {
+        "text": "6 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "CTCP Vinhomes(VHM)vừa công bố BCTC hợp nhất 6 tháng đầu năm 2024."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Tổng doanh thu thuần hợp nhất 6 tháng đầu năm của Vinhomes đạt 36.429 tỷ đồng."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Tổng doanh thu thuần hợp nhất 6 tháng đầu năm của Vinhomes đạt 36.429 tỷ đồng."
+    },
+    {
+        "text": "36.429 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng doanh thu thuần hợp nhất 6 tháng đầu năm của Vinhomes đạt 36.429 tỷ đồng."
+    },
+    {
+        "text": "quý 1/2024",
+        "label": "DATE",
+        "evidence": "Trừ doanh thu quý 1/2024, công ty đạt hơn 28.200 tỷ đồng doanh thu trong quý 2/2024."
+    },
+    {
+        "text": "28.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trừ doanh thu quý 1/2024, công ty đạt hơn 28.200 tỷ đồng doanh thu trong quý 2/2024."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Trừ doanh thu quý 1/2024, công ty đạt hơn 28.200 tỷ đồng doanh thu trong quý 2/2024."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Lợi nhuận hợp nhất sau thuế 6 tháng của công ty đạt 11.513 tỷ đồng, với đóng góp chính từ việc ghi nhận giao dịch bán lô lớn tại dự án Vinhomes Royal Island và tiếp tục bàn giao tại các dự án hiện hữu."
+    },
+    {
+        "text": "11.513 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận hợp nhất sau thuế 6 tháng của công ty đạt 11.513 tỷ đồng, với đóng góp chính từ việc ghi nhận giao dịch bán lô lớn tại dự án Vinhomes Royal Island và tiếp tục bàn giao tại các dự án hiện hữu."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Như vậy, riêng trong quý 2/2024 công ty lãi hơn 10.600 tỷ đồng, tăng gần 10% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "10.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, riêng trong quý 2/2024 công ty lãi hơn 10.600 tỷ đồng, tăng gần 10% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng gần 10%",
+        "label": "RATE",
+        "evidence": "Như vậy, riêng trong quý 2/2024 công ty lãi hơn 10.600 tỷ đồng, tăng gần 10% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "CTCP Pin Ắc quy Miền Nam",
+        "label": "ORG",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Pinaco",
+        "label": "ORG",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "PAC",
+        "label": "TICKER",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "851 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng hơn 5%",
+        "label": "RATE",
+        "evidence": "CTCP Pin Ắc quy Miền Nam (Pinaco, PAC)vừa công bố BCTC quý 2/2024 với doanh thu thuần đạt 851 tỷ đồng, tăng hơn 5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Pinaco",
+        "label": "ORG",
+        "evidence": "Trừ đi các chi phí, Pinaco lãi trước thuế gần 43 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ."
+    },
+    {
+        "text": "43 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trừ đi các chi phí, Pinaco lãi trước thuế gần 43 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ."
+    },
+    {
+        "text": "tăng nhẹ gần 2%",
+        "label": "RATE",
+        "evidence": "Trừ đi các chi phí, Pinaco lãi trước thuế gần 43 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ."
+    },
+    {
+        "text": "CTCP Dịch vụ Hàng hóa Sài Gòn",
+        "label": "ORG",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "SCS",
+        "label": "TICKER",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "264 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 53%",
+        "label": "RATE",
+        "evidence": "CTCP Dịch vụ Hàng hóa Sài Gòn (SCS) vừa công bố BCTC quý 2/2024 với doanh thu thuần 264 tỷ đồng – tăng 53% so với cùng kỳ."
+    },
+    {
+        "text": "190 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trừ các chi phí, Công ty báo lãi ròng 190 tỷ đồng - tăng 47% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 47%",
+        "label": "RATE",
+        "evidence": "Trừ các chi phí, Công ty báo lãi ròng 190 tỷ đồng - tăng 47% so với cùng kỳ."
+    },
+    {
+        "text": "Chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "công bố báo cáo tài chính riêng quý 2",
+        "label": "EVENT",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "2.311",
+        "label": "MONEY",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "1.041 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "tăng 44,5%",
+        "label": "RATE",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "59%",
+        "label": "RATE",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Chứng khoán SSI (SSI)vừa công bố báo cáo tài chính riêng quý 2 với tổng doanh thu và lợi nhuận trước thuế (LNTT) đạt 2.311 và 1.041 tỷ đồng, lần lượt tăng 44,5% và 59% so với cùng kỳ 2023."
+    },
+    {
+        "text": "Chứng khoán Kỹ Thương",
+        "label": "ORG",
+        "evidence": "Chứng khoán Kỹ Thương (TCBS)ghi nhận doanh thu hoạt động tăng trưởng 106% so với cùng kỳ lên 2.234 tỷ đồng."
+    },
+    {
+        "text": "TCBS",
+        "label": "TICKER",
+        "evidence": "Chứng khoán Kỹ Thương (TCBS)ghi nhận doanh thu hoạt động tăng trưởng 106% so với cùng kỳ lên 2.234 tỷ đồng."
+    },
+    {
+        "text": "tăng trưởng 106%",
+        "label": "RATE",
+        "evidence": "Chứng khoán Kỹ Thương (TCBS)ghi nhận doanh thu hoạt động tăng trưởng 106% so với cùng kỳ lên 2.234 tỷ đồng."
+    },
+    {
+        "text": "2.234 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chứng khoán Kỹ Thương (TCBS)ghi nhận doanh thu hoạt động tăng trưởng 106% so với cùng kỳ lên 2.234 tỷ đồng."
+    },
+    {
+        "text": "giảm 14%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, chi phí hoạt động bất ngờ giảm 14% xuống còn 153 tỷ."
+    },
+    {
+        "text": "153 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, chi phí hoạt động bất ngờ giảm 14% xuống còn 153 tỷ."
+    },
+    {
+        "text": "Chứng khoán TCBS",
+        "label": "ORG",
+        "evidence": "Kết quả Chứng khoán TCBS báo lãi trước thuế đạt 1.612 tỷ đồng, tăng 192% so với cùng kỳ năm 2023 và là mức lợi nhuận cao nhất ngành chứng khoán cho tới thời điểm hiện tại."
+    },
+    {
+        "text": "1.612 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả Chứng khoán TCBS báo lãi trước thuế đạt 1.612 tỷ đồng, tăng 192% so với cùng kỳ năm 2023 và là mức lợi nhuận cao nhất ngành chứng khoán cho tới thời điểm hiện tại."
+    },
+    {
+        "text": "tăng 192%",
+        "label": "RATE",
+        "evidence": "Kết quả Chứng khoán TCBS báo lãi trước thuế đạt 1.612 tỷ đồng, tăng 192% so với cùng kỳ năm 2023 và là mức lợi nhuận cao nhất ngành chứng khoán cho tới thời điểm hiện tại."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Kết quả Chứng khoán TCBS báo lãi trước thuế đạt 1.612 tỷ đồng, tăng 192% so với cùng kỳ năm 2023 và là mức lợi nhuận cao nhất ngành chứng khoán cho tới thời điểm hiện tại."
+    },
+    {
+        "text": "Chứng khoán VIX",
+        "label": "ORG",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "báo cáo doanh thu hoạt động quý 2",
+        "label": "EVENT",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "sụt giảm 45%",
+        "label": "RATE",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "379 tỷ",
+        "label": "MONEY",
+        "evidence": "Chứng khoán VIX (VIX)báo cáo doanh thu hoạt động quý 2 bất ngờ sụt giảm 45% so với cùng kỳ xuống 379 tỷ."
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "Riêng lãi từ tài sản FVTPL đạt 222 tỷ, chỉ bằng một nửa so với quý 2 năm ngoái."
+    },
+    {
+        "text": "222 tỷ",
+        "label": "MONEY",
+        "evidence": "Riêng lãi từ tài sản FVTPL đạt 222 tỷ, chỉ bằng một nửa so với quý 2 năm ngoái."
+    },
+    {
+        "text": "một nửa",
+        "label": "RATE",
+        "evidence": "Riêng lãi từ tài sản FVTPL đạt 222 tỷ, chỉ bằng một nửa so với quý 2 năm ngoái."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Riêng lãi từ tài sản FVTPL đạt 222 tỷ, chỉ bằng một nửa so với quý 2 năm ngoái."
+    },
+    {
+        "text": "tăng mạnh 138%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên lãi từ cho vay và phải thu tăng mạnh 138% lên 119 tỷ."
+    },
+    {
+        "text": "119 tỷ",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên lãi từ cho vay và phải thu tăng mạnh 138% lên 119 tỷ."
+    },
+    {
+        "text": "191 tỷ",
+        "label": "MONEY",
+        "evidence": "Chi phí hoạt động đạt gần 191 tỷ, kết quả VIX báo lãi trước thuế 155 tỷ, giảm mạnh 78% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "VIX",
+        "label": "ORG",
+        "evidence": "Chi phí hoạt động đạt gần 191 tỷ, kết quả VIX báo lãi trước thuế 155 tỷ, giảm mạnh 78% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "155 tỷ",
+        "label": "MONEY",
+        "evidence": "Chi phí hoạt động đạt gần 191 tỷ, kết quả VIX báo lãi trước thuế 155 tỷ, giảm mạnh 78% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "giảm mạnh 78%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động đạt gần 191 tỷ, kết quả VIX báo lãi trước thuế 155 tỷ, giảm mạnh 78% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "CTCP CNG Việt Nam",
+        "label": "ORG",
+        "evidence": "CTCP CNG Việt Nam (CNG)ghi nhận doanh thu thuần gần như đi ngang so với cùng kỳ ở mức 840 tỷ."
+    },
+    {
+        "text": "CNG",
+        "label": "TICKER",
+        "evidence": "CTCP CNG Việt Nam (CNG)ghi nhận doanh thu thuần gần như đi ngang so với cùng kỳ ở mức 840 tỷ."
+    },
+    {
+        "text": "840 tỷ",
+        "label": "MONEY",
+        "evidence": "CTCP CNG Việt Nam (CNG)ghi nhận doanh thu thuần gần như đi ngang so với cùng kỳ ở mức 840 tỷ."
+    },
+    {
+        "text": "CNG",
+        "label": "ORG",
+        "evidence": "Khấu trừ đi các chi phí liên quan, CNG lãi trước thuế 56 tỷ, gấp 3,2 lần con số quý 2/2023."
+    },
+    {
+        "text": "56 tỷ",
+        "label": "MONEY",
+        "evidence": "Khấu trừ đi các chi phí liên quan, CNG lãi trước thuế 56 tỷ, gấp 3,2 lần con số quý 2/2023."
+    },
+    {
+        "text": "gấp 3,2 lần",
+        "label": "RATE",
+        "evidence": "Khấu trừ đi các chi phí liên quan, CNG lãi trước thuế 56 tỷ, gấp 3,2 lần con số quý 2/2023."
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "Khấu trừ đi các chi phí liên quan, CNG lãi trước thuế 56 tỷ, gấp 3,2 lần con số quý 2/2023."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "công bố kết quả kinh doanh 6 tháng đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "6 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "29.338 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "5.198 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 21,4%",
+        "label": "RATE",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "19,8%",
+        "label": "RATE",
+        "evidence": "Tập đoàn FPT (FPT)vừa công bố kết quả kinh doanh 6 tháng đầu năm 2024 với doanh thu đạt 29.338 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 5.198 tỷ đồng, lần lượt tăng 21,4% và 19,8% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 22,3%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ (lãi ròng) cũng tăng 22,3% lên 3.672 tỷ đồng, tương ứng EPS ở mức 2.514 đồng/cổ phiếu."
+    },
+    {
+        "text": "3.672 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ (lãi ròng) cũng tăng 22,3% lên 3.672 tỷ đồng, tương ứng EPS ở mức 2.514 đồng/cổ phiếu."
+    },
+    {
+        "text": "2.514 đồng/cổ phiếu",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ (lãi ròng) cũng tăng 22,3% lên 3.672 tỷ đồng, tương ứng EPS ở mức 2.514 đồng/cổ phiếu."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Như vậy tính riêng trong quý 2/2024, LNTT của FPT đạt 2.664 tỷ đồng, tăng trưởng 20,1% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Như vậy tính riêng trong quý 2/2024, LNTT của FPT đạt 2.664 tỷ đồng, tăng trưởng 20,1% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "2.664 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy tính riêng trong quý 2/2024, LNTT của FPT đạt 2.664 tỷ đồng, tăng trưởng 20,1% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng trưởng 20,1%",
+        "label": "RATE",
+        "evidence": "Như vậy tính riêng trong quý 2/2024, LNTT của FPT đạt 2.664 tỷ đồng, tăng trưởng 20,1% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng mạnh 24%",
+        "label": "RATE",
+        "evidence": "Lãi ròng tăng mạnh 24% so với cùng kỳ năm trước lên 1.874 tỷ đồng."
+    },
+    {
+        "text": "1.874 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi ròng tăng mạnh 24% so với cùng kỳ năm trước lên 1.874 tỷ đồng."
+    },
+    {
+        "text": "CTCP Điện lực Dầu khí Nhơn Trạch 2",
+        "label": "ORG",
+        "evidence": "CTCP Điện lực Dầu khí Nhơn Trạch 2 (NT2)vừa công bố BCTC quý 2/2024 với 2.186 tỷ đồng doanh thu thuần, không thay đổi nhiều so với cùng kỳ."
+    },
+    {
+        "text": "NT2",
+        "label": "TICKER",
+        "evidence": "CTCP Điện lực Dầu khí Nhơn Trạch 2 (NT2)vừa công bố BCTC quý 2/2024 với 2.186 tỷ đồng doanh thu thuần, không thay đổi nhiều so với cùng kỳ."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "CTCP Điện lực Dầu khí Nhơn Trạch 2 (NT2)vừa công bố BCTC quý 2/2024 với 2.186 tỷ đồng doanh thu thuần, không thay đổi nhiều so với cùng kỳ."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "CTCP Điện lực Dầu khí Nhơn Trạch 2 (NT2)vừa công bố BCTC quý 2/2024 với 2.186 tỷ đồng doanh thu thuần, không thay đổi nhiều so với cùng kỳ."
+    },
+    {
+        "text": "2.186 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCP Điện lực Dầu khí Nhơn Trạch 2 (NT2)vừa công bố BCTC quý 2/2024 với 2.186 tỷ đồng doanh thu thuần, không thay đổi nhiều so với cùng kỳ."
+    },
+    {
+        "text": "NT2",
+        "label": "ORG",
+        "evidence": "Kết quả, lợi nhuận sau thuế của NT2 giảm 25% xuống 122 tỷ đồng."
+    },
+    {
+        "text": "giảm 25%",
+        "label": "RATE",
+        "evidence": "Kết quả, lợi nhuận sau thuế của NT2 giảm 25% xuống 122 tỷ đồng."
+    },
+    {
+        "text": "122 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả, lợi nhuận sau thuế của NT2 giảm 25% xuống 122 tỷ đồng."
+    },
+    {
+        "text": "công bố BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Những công ty đã công bố BCTC quý 2/2024:"
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Những công ty đã công bố BCTC quý 2/2024:"
+    }
+]

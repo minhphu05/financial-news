@@ -1,0 +1,497 @@
+[
+    {
+        "text": "Thông tư 26/2022/TT-NHNN",
+        "label": "ORG",
+        "evidence": "Theo quy định của Thông tư 26/2022/TT-NHNN"
+    },
+    {
+        "text": "ngày 1/1/2024",
+        "label": "DATE",
+        "evidence": "từ ngày 1/1/2024"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "lượng tiền gửi có kỳ hạn của Kho bạc Nhà nước (KBNN)"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "Kho bạc Nhà nước (KBNN)"
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "khi tính toán tỷ lệ LDR"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "sẽ bị khấu trừ 60%"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tăng từ mức 50% áp dụng trước đó"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "chỉ còn được tính 40% tiền gửi có kỳ hạn của KBNN"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn của KBNN",
+        "label": "ASSET",
+        "evidence": "40% tiền gửi có kỳ hạn của KBNN"
+    },
+    {
+        "text": "ngày 31/12/2022",
+        "label": "DATE",
+        "evidence": "Trước đó, ngày 31/12/2022"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN đã ban hành Thông tư 26/2022/TT-NHNN"
+    },
+    {
+        "text": "ban hành Thông tư 26/2022/TT-NHNN nhằm điều chỉnh cách tính tỷ lệ LDR tại các ngân hàng thương mại",
+        "label": "EVENT",
+        "evidence": "NHNN đã ban hành Thông tư 26/2022/TT-NHNN nhằm điều chỉnh cách tính tỷ lệ LDR tại các ngân hàng thương mại."
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "cách tính tỷ lệ LDR tại các ngân hàng thương mại"
+    },
+    {
+        "text": "85%",
+        "label": "RATE",
+        "evidence": "giữ nguyên trần tỷ lệ LDR ở mức 85%"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn của KBNN",
+        "label": "ASSET",
+        "evidence": "được tính tiền gửi có kỳ hạn của KBNN vào tổng tiền gửi"
+    },
+    {
+        "text": "31/12/2023",
+        "label": "DATE",
+        "evidence": "thi hành đến 31/12/2023"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "31/12/2023: 50%"
+    },
+    {
+        "text": "01/01/2024",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2024 đến 31/12/2024"
+    },
+    {
+        "text": "31/12/2024",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2024 đến 31/12/2024"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "31/12/2024: 60%"
+    },
+    {
+        "text": "01/01/2025",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2025 đến 31/12/2025"
+    },
+    {
+        "text": "31/12/2025",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2025 đến 31/12/2025"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "31/12/2025: 80%"
+    },
+    {
+        "text": "01/01/2026",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2026"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "01/01/2026: 100%"
+    },
+    {
+        "text": "Thông tư 26",
+        "label": "ORG",
+        "evidence": "Thông tư 26 được đánh giá là có tác động tích cực"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn của KBNN",
+        "label": "ASSET",
+        "evidence": "một phần tiền gửi có kỳ hạn của KBNN tại các ngân hàng thương mại"
+    },
+    {
+        "text": "lãi suất cho vay",
+        "label": "RATE",
+        "evidence": "giảm áp lực lên lãi suất cho vay"
+    },
+    {
+        "text": "tiền gửi KBNN",
+        "label": "ASSET",
+        "evidence": "không cho phép đưa tiền gửi KBNN vào cấu phần tổng huy động"
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "khi tính toán tỷ lệ LDR"
+    },
+    {
+        "text": "việc tỷ lệ khấu trừ tăng từ 50% lên 60%",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, với việc tỷ lệ khấu trừ tăng từ 50% lên 60%, sự thay đổi này có chiều hướng làm gia tăng áp lực huy động tiền gửi có kỳ hạn đối với các ngân hàng thương mại để duy trì tỷ lệ LDR."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tăng từ 50% lên 60%"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "tăng từ 50% lên 60%"
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "để duy trì tỷ lệ LDR"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhà nước (Vietcombank, VietinBank và BIDV)"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank và BIDV"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "và BIDV"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "hầu hết tiền gửi có kỳ hạn của Kho bạc Nhà nước"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Số liệu mới nhất của NHNN"
+    },
+    {
+        "text": "cuối tháng 10",
+        "label": "DATE",
+        "evidence": "tính đến cuối tháng 10"
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "tỷ lệ LDR của toàn hệ thống"
+    },
+    {
+        "text": "76,75%",
+        "label": "RATE",
+        "evidence": "ở mức 76,75%"
+    },
+    {
+        "text": "NHTM Nhà nước",
+        "label": "ORG",
+        "evidence": "tỷ lệ này tại nhóm NHTM Nhà nước"
+    },
+    {
+        "text": "81,83%",
+        "label": "RATE",
+        "evidence": "là 81,83%"
+    },
+    {
+        "text": "NHTM cổ phần",
+        "label": "ORG",
+        "evidence": "nhóm NHTM cổ phần"
+    },
+    {
+        "text": "79,26%",
+        "label": "RATE",
+        "evidence": "ở mức 79,26%"
+    },
+    {
+        "text": "Chứng khoán Rồng Việt",
+        "label": "ORG",
+        "evidence": "Theo Chứng khoán Rồng Việt"
+    },
+    {
+        "text": "Thông tư 26",
+        "label": "ORG",
+        "evidence": "mức độ hỗ trợ của Thông tư 26"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "giảm dần từ năm 2024"
+    },
+    {
+        "text": "lãi suất huy động",
+        "label": "RATE",
+        "evidence": "lãi suất huy động có thể sẽ nhích dần lên trong năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "nhích dần lên trong năm 2024"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "bao nhiêu tiền gửi của Kho bạc Nhà nước?"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Báo cáo tài chính quý 3"
+    },
+    {
+        "text": "tiền gửi Kho bạc Nhà nước (KBNN)",
+        "label": "ASSET",
+        "evidence": "lượng tiền gửi Kho bạc Nhà nước (KBNN) tại BIDV, Vietcombank và VietinBank"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "KBNN tại BIDV, Vietcombank và VietinBank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank và VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "và VietinBank"
+    },
+    {
+        "text": "30/9/2023",
+        "label": "DATE",
+        "evidence": "ở thời điểm 30/9/2023"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "Kho bạc Nhà nước (KBNN)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cụ thể, BIDV"
+    },
+    {
+        "text": "hơn 1.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chỉ còn nhận hơn 1.400 tỷ đồng tiền gửi không kỳ hạn của KBNN"
+    },
+    {
+        "text": "tiền gửi không kỳ hạn của KBNN",
+        "label": "ASSET",
+        "evidence": "hơn 1.400 tỷ đồng tiền gửi không kỳ hạn của KBNN"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "tiền gửi không kỳ hạn của KBNN"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "So với cuối năm 2022"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "KBNN tạiBIDVđã giảm"
+    },
+    {
+        "text": "hơn 139.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đã giảm hơn 139.000 tỷ đồng"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "toàn bộ là mức giảm của tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "tiền gửi của KBNN tạiVietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "KBNN tạiVietinBankcũng giảm"
+    },
+    {
+        "text": "82.000 tỷ",
+        "label": "MONEY",
+        "evidence": "cũng giảm 82.000 tỷ so với cuối năm 2022"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "so với cuối năm 2022"
+    },
+    {
+        "text": "hơn 20.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "về còn hơn 20.700 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Với Vietcombank"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "tiền gửi KBNN tại thời điểm 30/9"
+    },
+    {
+        "text": "30/9",
+        "label": "DATE",
+        "evidence": "tại thời điểm 30/9 chỉ còn hơn 1.500 tỷ đồng"
+    },
+    {
+        "text": "hơn 1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chỉ còn hơn 1.500 tỷ đồng"
+    },
+    {
+        "text": "48.000 tỷ",
+        "label": "MONEY",
+        "evidence": "giảm 48.000 tỷ so với thời điểm 31/12/2022"
+    },
+    {
+        "text": "31/12/2022",
+        "label": "DATE",
+        "evidence": "so với thời điểm 31/12/2022"
+    },
+    {
+        "text": "cuối tháng 9",
+        "label": "DATE",
+        "evidence": "đến cuối tháng 9"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "tiền gửi KBNN tại 3 \"ông lớn\" ngân hàng"
+    },
+    {
+        "text": "gần 270.000 tỷ",
+        "label": "MONEY",
+        "evidence": "đã giảm gần 270.000 tỷ so với cuối năm 2022"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "so với cuối năm 2022"
+    },
+    {
+        "text": "Kho bạc",
+        "label": "ORG",
+        "evidence": "mức tiền gửi Kho bạc thấp nhất"
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "tiền gửi của KBNN tại các ngân hàng đã có xu hướng thu hẹp mạnh."
+    },
+    {
+        "text": "tiền gửi KBNN",
+        "label": "ASSET",
+        "evidence": "tiền gửi KBNN tại các ngân hàng này liên tục duy trì ở mức cao"
+    },
+    {
+        "text": "tháng 6/2022",
+        "label": "DATE",
+        "evidence": "kể từ tháng 6/2022 đến tháng 3/2023"
+    },
+    {
+        "text": "tháng 3/2023",
+        "label": "DATE",
+        "evidence": "đến tháng 3/2023"
+    },
+    {
+        "text": "trên dưới 300.000 tỷ",
+        "label": "MONEY",
+        "evidence": "lên tới trên dưới 300.000 tỷ trong giai đoạn cuối năm 2022"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "giai đoạn cuối năm 2022"
+    },
+    {
+        "text": "tiền gửi KBNN",
+        "label": "ASSET",
+        "evidence": "tiền gửi KBNN ở là một nguồn hỗ trợ thanh khoản"
+    },
+    {
+        "text": "lãi suất huy động",
+        "label": "RATE",
+        "evidence": "cuộc đua lãi suất huy động trong cuối năm 2022 và đầu năm 2023"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "trong cuối năm 2022 và đầu năm 2023"
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "và đầu năm 2023"
+    },
+    {
+        "text": "Thông tư 26",
+        "label": "ORG",
+        "evidence": "Thông tư 26 có hiệu lực từ cuối năm 2022"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "có hiệu lực từ cuối năm 2022"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn của Kho bạc Nhà nước",
+        "label": "ASSET",
+        "evidence": "một phần tiền gửi có kỳ hạn của Kho bạc Nhà nước"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "tiền gửi có kỳ hạn của Kho bạc Nhà nước"
+    },
+    {
+        "text": "tỷ lệ LDR",
+        "label": "ASSET",
+        "evidence": "khi tính tỷ lệ LDR"
+    },
+    {
+        "text": "KBNN rút lượng lớn tiền gửi ra khỏi nhóm Big4",
+        "label": "EVENT",
+        "evidence": "việc KBNN rút lượng lớn tiền gửi ra khỏi nhóm Big4 sẽ tác động không nhỏ tới hoạt động kinh doanh của các ngân hàng này."
+    }
+]

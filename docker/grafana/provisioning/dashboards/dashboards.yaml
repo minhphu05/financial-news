@@ -1,0 +1,17 @@
+# =============================================================================
+# Grafana Dashboard Provisioning
+# Automatically loads dashboards from the provisioned directory.
+# =============================================================================
+apiVersion: 1
+
+providers:
+  - name: "default"
+    orgId: 1
+    folder: "Financial News"
+    type: file
+    disableDeletion: false
+    editable: true
+    updateIntervalSeconds: 30
+    options:
+      path: /etc/grafana/provisioning/dashboards/json
+      foldersFromFilesStructure: false

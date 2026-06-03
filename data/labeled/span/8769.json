@@ -1,0 +1,87 @@
+[
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Mỗi giao dịch qua Apple Pay chỉ mất vài giây với 3 bước đơn giản."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Một trong những lợi ích lớn nhất khi sử dụng Apple Pay với thẻ VIB Mastercard là các giao dịch sẽ trở nên an toàn và riêng tư."
+    },
+    {
+        "text": "Mastercard",
+        "label": "ORG",
+        "evidence": "Một trong những lợi ích lớn nhất khi sử dụng Apple Pay với thẻ VIB Mastercard là các giao dịch sẽ trở nên an toàn và riêng tư."
+    },
+    {
+        "text": "thẻ VIB Mastercard",
+        "label": "ASSET",
+        "evidence": "Một trong những lợi ích lớn nhất khi sử dụng Apple Pay với thẻ VIB Mastercard là các giao dịch sẽ trở nên an toàn và riêng tư."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Khi bạn thêm một thẻ tín dụng hoặc ghi nợ vào Apple Pay, số thẻ của bạn không bị tiết lộ."
+    },
+    {
+        "text": "ghi nợ",
+        "label": "ASSET",
+        "evidence": "Khi bạn thêm một thẻ tín dụng hoặc ghi nợ vào Apple Pay, số thẻ của bạn không bị tiết lộ."
+    },
+    {
+        "text": "triển khai Apple Pay cho chủ thẻ VIB Mastercard",
+        "label": "EVENT",
+        "evidence": "Chia sẻ về việc triển khai Apple Pay cho chủ thẻ VIB Mastercard, bà Tường Nguyễn, Giám đốc Trung tâm Chiến lược và Vận hành Thẻ VIB cho biết: \"Đây là tiện ích chúng tôi mang đến dựa trên sự thấu hiểu nhu cầu của khách hàng và nắm bắt xu hướng thanh toán phù hợp với lối sống hiện đại của họ."
+    },
+    {
+        "text": "bà Tường Nguyễn",
+        "label": "PERSON",
+        "evidence": "Chia sẻ về việc triển khai Apple Pay cho chủ thẻ VIB Mastercard, bà Tường Nguyễn, Giám đốc Trung tâm Chiến lược và Vận hành Thẻ VIB cho biết: \"Đây là tiện ích chúng tôi mang đến dựa trên sự thấu hiểu nhu cầu của khách hàng và nắm bắt xu hướng thanh toán phù hợp với lối sống hiện đại của họ."
+    },
+    {
+        "text": "Tường Nguyễn",
+        "label": "PERSON",
+        "evidence": "Chia sẻ về việc triển khai Apple Pay cho chủ thẻ VIB Mastercard, bà Tường Nguyễn, Giám đốc Trung tâm Chiến lược và Vận hành Thẻ VIB cho biết: \"Đây là tiện ích chúng tôi mang đến dựa trên sự thấu hiểu nhu cầu của khách hàng và nắm bắt xu hướng thanh toán phù hợp với lối sống hiện đại của họ."
+    },
+    {
+        "text": "Giám đốc Trung tâm Chiến lược và Vận hành Thẻ VIB",
+        "label": "ORG",
+        "evidence": "Chia sẻ về việc triển khai Apple Pay cho chủ thẻ VIB Mastercard, bà Tường Nguyễn, Giám đốc Trung tâm Chiến lược và Vận hành Thẻ VIB cho biết: \"Đây là tiện ích chúng tôi mang đến dựa trên sự thấu hiểu nhu cầu của khách hàng và nắm bắt xu hướng thanh toán phù hợp với lối sống hiện đại của họ."
+    },
+    {
+        "text": "thẻVIBMastercard",
+        "label": "ASSET",
+        "evidence": "Chỉ cần thêm thẻVIBMastercard vào ứng dụng Apple Wallet trên iPhone hoặc thông qua ứng dụng MyVIB, bạn sẽ tận hưởng ngay sự tiện lợi khi dễ dàng thanh toán không tiếp xúc vào bất cứ lúc nào, ở bất cứ nơi đâu."
+    },
+    {
+        "text": "thẻ VIB Mastercard",
+        "label": "ASSET",
+        "evidence": "Bước 2: Quét hoặc nhập thông tin thẻ VIB Mastercard của bạn (bạn không cần thực hiện bước này nếu bạn thao tác trên MyVIB);"
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "Bước 4: Đặt thẻ VIB làm thẻ mặc định và bạn đã sẵn sàng sử dụng Apple Pay."
+    },
+    {
+        "text": "05/05/2024",
+        "label": "DATE",
+        "evidence": "Từ nay đến 05/05/2024, VIB ưu đãi hoàn 50.000 VND cho giao dịch Apple Pay đầu tiên có giá trị từ 100.000 VND của các chủ thẻ VIB Mastercard."
+    },
+    {
+        "text": "VIB ưu đãi hoàn 50.000 VND cho giao dịch Apple Pay đầu tiên có giá trị từ 100.000 VND của các chủ thẻ VIB Mastercard",
+        "label": "EVENT",
+        "evidence": "Từ nay đến 05/05/2024, VIB ưu đãi hoàn 50.000 VND cho giao dịch Apple Pay đầu tiên có giá trị từ 100.000 VND của các chủ thẻ VIB Mastercard."
+    },
+    {
+        "text": "50.000 VND",
+        "label": "MONEY",
+        "evidence": "Từ nay đến 05/05/2024, VIB ưu đãi hoàn 50.000 VND cho giao dịch Apple Pay đầu tiên có giá trị từ 100.000 VND của các chủ thẻ VIB Mastercard."
+    },
+    {
+        "text": "100.000 VND",
+        "label": "MONEY",
+        "evidence": "Từ nay đến 05/05/2024, VIB ưu đãi hoàn 50.000 VND cho giao dịch Apple Pay đầu tiên có giá trị từ 100.000 VND của các chủ thẻ VIB Mastercard."
+    }
+]

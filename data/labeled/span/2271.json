@@ -1,0 +1,342 @@
+[
+    {
+        "text": "ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Theo ông Đỗ Cao Bảo, với sự chuyên môn hoá rất cao trong chuỗi cung ứng và sản xuất toàn cầu, ngày nay tư duy phải có nhà máy, phải trực tiếp sản xuất ra sản phẩm đã trở nên lỗi thời."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo dẫn chứng, Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo dẫn chứng, Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "3.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ông Đỗ Cao Bảo dẫn chứng, Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Foxconn",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Luxshare",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "TSMC",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "Broadcom",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "616 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "AMD",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "258 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "Qualcomm",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "228 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "IBM",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "156 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và NVIDIA là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "TSMC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "790 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "SMIC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "25 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "UMC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "21 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "374 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Texas Instrument",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "176 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Micron",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "140 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Intel",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "127 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Nguyên văn bài đăng trên trang cá nhân của ông Đỗ Cao Bảo:"
+    },
+    {
+        "text": "Ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Đỗ Cao Bảo, Thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo, Thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "3.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Apple và NVIDIA là hai công ty có vốn hoá lên đến 3.000 tỷ USD chính là hai công ty không có bất cứ nhà máy sản nào của riêng mình, họ chỉ thiết kế, viết phần mềm và thương mại (thương hiệu, marketing, bán hàng và dịch vụ bảo hành, bảo trì)."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Foxconn",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Luxshare",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "TSMC",
+        "label": "ORG",
+        "evidence": "Phần sản xuất họ thuê ngoài (Apple thuê Foxconn, Luxshare, Nvidia thuê TSMC)."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "Broadcom",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "616 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "AMD",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "258 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "Qualcomm",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "228 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "IBM",
+        "label": "ORG",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "156 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiếp theo Apple và Nvidia là Broadcom (616 tỷ USD), AMD (258 tỷ USD), Qualcomm (228 tỷ USD), IBM (156 tỷ USD)."
+    },
+    {
+        "text": "TSMC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "790 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "SMIC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "25 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "UMC",
+        "label": "ORG",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "21 tỷ USD",
+        "label": "MONEY",
+        "evidence": "TSMC đứng đầu mô hình sản xuất thuần tuý, có vốn hoá 790 tỷ USD, tiếp theo là SMIC (25 tỷ USD), UMC (21 tỷ USD)."
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "374 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Texas Instrument",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "176 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Micron",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "140 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "Intel",
+        "label": "ORG",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    },
+    {
+        "text": "127 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Samsung đứng đầu, vốn hoá là 374 tỷ USD, tiếp theo là Texas Instrument (176 tỷ USD), Micron (140 tỷ USD), Intel 127 tỷ USD)."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau 2 lần chuyển tổng cộng 2 tỷ đồng, nạn nhân này mới biết mình bị mắc lừa đảo “Công an giả”."
+    },
+    {
+        "text": "chuyển tổng cộng 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "sau 2 lần chuyển tổng cộng 2 tỷ đồng, nạn nhân này mới biết mình bị mắc lừa đảo “Công an giả”."
+    },
+    {
+        "text": "lừa đảo “Công an giả”",
+        "label": "EVENT",
+        "evidence": "nạn nhân này mới biết mình bị mắc lừa đảo “Công an giả”."
+    },
+    {
+        "text": "4/12",
+        "label": "DATE",
+        "evidence": "khoảng 12 giờ 15 phút ngày 4/12, chị B.T.M (55 tuổi, trú quận Thanh Khê, thành phố Đà Nẵng) nhận được thông báo sim điện thoại của mình sẽ bị khóa."
+    },
+    {
+        "text": "Nguyễn Minh Hải",
+        "label": "PERSON",
+        "evidence": "đầu dây bên kia là một người đàn ông tự xưng là “Nguyễn Minh Hải, Trưởng phòng Công an thành phố Đà Nẵng”."
+    },
+    {
+        "text": "cầm cố sổ đỏ",
+        "label": "EVENT",
+        "evidence": "Tin lời, chị M. đến ngân hàng cầm cố sổ đỏ được 1,7 tỷ đồng rồi chuyển hết số tiền trên vào tài khoản ngân hàng SHB, số 08631663 mang tên “NGUYEN HONG HAI”."
+    },
+    {
+        "text": "1,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tin lời, chị M. đến ngân hàng cầm cố sổ đỏ được 1,7 tỷ đồng rồi chuyển hết số tiền trên vào tài khoản ngân hàng SHB, số 08631663 mang tên “NGUYEN HONG HAI”."
+    },
+    {
+        "text": "chuyển hết số tiền trên vào tài khoản ngân hàng SHB",
+        "label": "EVENT",
+        "evidence": "rồi chuyển hết số tiền trên vào tài khoản ngân hàng SHB, số 08631663 mang tên “NGUYEN HONG HAI”."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "chuyển hết số tiền trên vào tài khoản ngân hàng SHB, số 08631663 mang tên “NGUYEN HONG HAI”."
+    },
+    {
+        "text": "NGUYEN HONG HAI",
+        "label": "PERSON",
+        "evidence": "số 08631663 mang tên “NGUYEN HONG HAI”."
+    },
+    {
+        "text": "7/12",
+        "label": "DATE",
+        "evidence": "Đến ngày 7/12, đối tượng tên Hải yêu cầu chị M. chuyển thêm 300 triệu đồng nữa."
+    },
+    {
+        "text": "300 triệu đồng",
+        "label": "MONEY",
+        "evidence": "yêu cầu chị M. chuyển thêm 300 triệu đồng nữa."
+    },
+    {
+        "text": "chuyển số tiền trên cho đối tượng",
+        "label": "EVENT",
+        "evidence": "Chị M sau đó đã vay mượn và tiếp tục chuyển số tiền trên cho đối tượng."
+    },
+    {
+        "text": "13/12",
+        "label": "DATE",
+        "evidence": "Đến ngày 13/12, phát hiện mình bị lừa nên chị đã đến Công an phường trình báo."
+    },
+    {
+        "text": "lừa đảo",
+        "label": "EVENT",
+        "evidence": "Công an TP. Đà Nẵng cho biết, đây là hình thức lừa đảo đã xuất hiện trong vài năm trở lại đây."
+    },
+    {
+        "text": "yêu cầu chuyển tiền phục vụ công tác điều tra",
+        "label": "EVENT",
+        "evidence": "yêu cầu chuyển tiền phục vụ công tác điều tra…"
+    },
+    {
+        "text": "yêu cầu người dân chuyển tiền ngay đến tài khoản lừa đảo",
+        "label": "EVENT",
+        "evidence": "yêu cầu người dân chuyển tiền ngay đến tài khoản lừa đảo để phục vụ công tác điều tra hoặc xử lý vi phạm."
+    },
+    {
+        "text": "yêu cầu người dân chuyển tiền vào tài khoản ngân hàng",
+        "label": "EVENT",
+        "evidence": "tuyệt đối không gọi điện yêu cầu người dân chuyển tiền vào tài khoản ngân hàng hoặc cài đặt phần mềm để phục vụ điều tra."
+    },
+    {
+        "text": "lừa đảo chiếm đoạt tài sản",
+        "label": "EVENT",
+        "evidence": "sau khi bị lừa đảo chiếm đoạt tài sản."
+    }
+]

@@ -1,0 +1,9 @@
+model:
+  embedding:
+    embedding_dim: 300
+    padding_idx: 0
+
+  encoder:
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0.3

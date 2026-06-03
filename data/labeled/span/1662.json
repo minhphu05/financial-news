@@ -1,0 +1,277 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước (SCIC)"
+    },
+    {
+        "text": "SCIC",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước (SCIC)"
+    },
+    {
+        "text": "đăng ký chuyển nhượng toàn bộ gần 370,7 triệu cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)",
+        "label": "EVENT",
+        "evidence": "SCIC vừa đăng ký chuyển nhượng toàn bộ gần 370,7 triệu cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "gần 370,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "SCIC vừa đăng ký chuyển nhượng toàn bộ gần 370,7 triệu cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "SCIC vừa đăng ký chuyển nhượng toàn bộ gần 370,7 triệu cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "cổ phiếu FOX",
+        "label": "ASSET",
+        "evidence": "SCIC vừa đăng ký chuyển nhượng toàn bộ gần 370,7 triệu cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "Công ty CP Viễn thông FPT",
+        "label": "ORG",
+        "evidence": "cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "FPT Telecom",
+        "label": "ORG",
+        "evidence": "cổ phiếu FOX của Công ty CP Viễn thông FPT (FPT Telecom)"
+    },
+    {
+        "text": "50,17%",
+        "label": "RATE",
+        "evidence": "tương ứng 50,17% vốn tại FPT Telecom"
+    },
+    {
+        "text": "ngày 31-10",
+        "label": "DATE",
+        "evidence": "từ ngày 31-10 đến 28-11"
+    },
+    {
+        "text": "28-11",
+        "label": "DATE",
+        "evidence": "từ ngày 31-10 đến 28-11"
+    },
+    {
+        "text": "chuyển giao quyền đại diện chủ sở hữu vốn Nhà nước tại FPT Telecom từ SCIC về Bộ Công an",
+        "label": "EVENT",
+        "evidence": "mục đích chuyển giao quyền đại diện chủ sở hữu vốn Nhà nước tại FPT Telecom từ SCIC về Bộ Công an"
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "từ SCIC về Bộ Công an"
+    },
+    {
+        "text": "ngày 16-7-2025",
+        "label": "DATE",
+        "evidence": "biên bản chuyển giao ký ngày 16-7-2025"
+    },
+    {
+        "text": "Bộ Công an tiếp nhận quyền đại diện chủ sở hữu vốn Nhà nước tại FPT Telecom",
+        "label": "EVENT",
+        "evidence": "quá trình Bộ Công an tiếp nhận quyền đại diện chủ sở hữu vốn Nhà nước tại FPT Telecom"
+    },
+    {
+        "text": "lễ bàn giao",
+        "label": "EVENT",
+        "evidence": "phát biểu tại lễ bàn giao vào ngày 16-7"
+    },
+    {
+        "text": "ngày 16-7",
+        "label": "DATE",
+        "evidence": "phát biểu tại lễ bàn giao vào ngày 16-7"
+    },
+    {
+        "text": "Nguyễn Quốc Huy",
+        "label": "PERSON",
+        "evidence": "ông Nguyễn Quốc Huy, Tổng Giám đốc SCIC"
+    },
+    {
+        "text": "chuyển giao quyền đại diện chủ sở hữu phần vốn nhà nước tại FPT Telecom từ SCIC về Bộ Công an",
+        "label": "EVENT",
+        "evidence": "việc chuyển giao quyền đại diện chủ sở hữu phần vốn nhà nước tại FPT Telecom từ SCIC về Bộ Công an"
+    },
+    {
+        "text": "Công ty CP FPT",
+        "label": "ORG",
+        "evidence": "Cổ đông lớn thứ hai là Công ty CP FPT (mã chứng khoán: FPT)"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Công ty CP FPT (mã chứng khoán: FPT)"
+    },
+    {
+        "text": "45,66%",
+        "label": "RATE",
+        "evidence": "nắm 45,66% vốn"
+    },
+    {
+        "text": "quý III/2025",
+        "label": "DATE",
+        "evidence": "trong quý III/2025"
+    },
+    {
+        "text": "doanh thu tăng 8,2%",
+        "label": "EVENT",
+        "evidence": "FPT Telecom ghi nhận doanh thu tăng 8,2%, đạt 4.930 tỉ đồng"
+    },
+    {
+        "text": "8,2%",
+        "label": "RATE",
+        "evidence": "doanh thu tăng 8,2%"
+    },
+    {
+        "text": "4.930 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 4.930 tỉ đồng"
+    },
+    {
+        "text": "lợi nhuận sau thuế đạt gần 905 tỉ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế đạt gần 905 tỉ đồng, tăng 26,2%"
+    },
+    {
+        "text": "gần 905 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 905 tỉ đồng"
+    },
+    {
+        "text": "tăng 26,2%",
+        "label": "RATE",
+        "evidence": "tăng 26,2% so với cùng kỳ năm ngoái"
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng đầu năm"
+    },
+    {
+        "text": "doanh thu thuần đạt 14.287 tỉ đồng",
+        "label": "EVENT",
+        "evidence": "doanh thu thuần đạt 14.287 tỉ đồng, tăng 11,6%"
+    },
+    {
+        "text": "14.287 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 14.287 tỉ đồng"
+    },
+    {
+        "text": "tăng 11,6%",
+        "label": "RATE",
+        "evidence": "tăng 11,6% và lợi nhuận sau thuế đạt 2.581 tỉ đồng"
+    },
+    {
+        "text": "lợi nhuận sau thuế đạt 2.581 tỉ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế đạt 2.581 tỉ đồng, tăng 21,5% so với cùng kỳ"
+    },
+    {
+        "text": "2.581 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 2.581 tỉ đồng"
+    },
+    {
+        "text": "tăng 21,5%",
+        "label": "RATE",
+        "evidence": "tăng 21,5% so với cùng kỳ"
+    },
+    {
+        "text": "tăng cường năng lực đường truyền, nâng cao chất lượng dịch vụ, đồng thời đẩy mạnh bán hàng, cắt giảm chi phí và tối ưu hoạt động tài chính",
+        "label": "EVENT",
+        "evidence": "công ty tăng cường năng lực đường truyền, nâng cao chất lượng dịch vụ, đồng thời đẩy mạnh bán hàng, cắt giảm chi phí và tối ưu hoạt động tài chính"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "doanh thu tài chính trong 9 tháng tăng mạnh 26%"
+    },
+    {
+        "text": "doanh thu tài chính trong 9 tháng tăng mạnh 26%",
+        "label": "EVENT",
+        "evidence": "doanh thu tài chính trong 9 tháng tăng mạnh 26% so với cùng kỳ, đạt 596 tỉ đồng"
+    },
+    {
+        "text": "26%",
+        "label": "RATE",
+        "evidence": "tăng mạnh 26% so với cùng kỳ"
+    },
+    {
+        "text": "596 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 596 tỉ đồng"
+    },
+    {
+        "text": "541 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "lãi tiền gửi (541 tỉ đồng)"
+    },
+    {
+        "text": "cuối quý III/2025",
+        "label": "DATE",
+        "evidence": "Tại thời điểm cuối quý III/2025"
+    },
+    {
+        "text": "hơn 12.400 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 12.400 tỉ đồng gửi ngân hàng"
+    },
+    {
+        "text": "hơn 300 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "tăng hơn 300 tỉ đồng so với cuối năm ngoái"
+    },
+    {
+        "text": "gần 7.800 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 7.800 tỉ đồng"
+    },
+    {
+        "text": "gần 1.200 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "tăng gần 1.200 tỉ đồng so với cuối năm 2024"
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "tăng gần 1.200 tỉ đồng so với cuối năm 2024"
+    },
+    {
+        "text": "9 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm 2025"
+    },
+    {
+        "text": "nhận về 1.235 tỉ đồng cổ tức từ FPT Telecom",
+        "label": "EVENT",
+        "evidence": "SCIC nhận về 1.235 tỉ đồng cổ tức từ FPT Telecom"
+    },
+    {
+        "text": "1.235 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "SCIC nhận về 1.235 tỉ đồng cổ tức từ FPT Telecom"
+    },
+    {
+        "text": "tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "tập đoàn FPT (cổ đông lớn thứ hai, nắm 45,66% vốn FPT Telecom)"
+    },
+    {
+        "text": "1.124 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "thu về 1.124 tỉ đồng"
+    }
+]

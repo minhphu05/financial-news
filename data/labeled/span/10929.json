@@ -1,0 +1,292 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán TP HCM",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP HCM (HoSE)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP HCM (HoSE)"
+    },
+    {
+        "text": "Nguyễn Thị Thu Hằng",
+        "label": "PERSON",
+        "evidence": "bà Nguyễn Thị Thu Hằng, Kế toán trưởng Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank – Mã: VPB) đăng ký bán 170.000 cổ phiếu VPB"
+    },
+    {
+        "text": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+        "label": "ORG",
+        "evidence": "Kế toán trưởng Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank – Mã: VPB)"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Kế toán trưởng Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank – Mã: VPB)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Kế toán trưởng Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank – Mã: VPB)"
+    },
+    {
+        "text": "bà Nguyễn Thị Thu Hằng [...] đăng ký bán 170.000 cổ phiếu VPB",
+        "label": "EVENT",
+        "evidence": "bà Nguyễn Thị Thu Hằng, Kế toán trưởng Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank – Mã: VPB) đăng ký bán 170.000 cổ phiếu VPB"
+    },
+    {
+        "text": "170.000 cổ phiếu VPB",
+        "label": "VOLUME",
+        "evidence": "đăng ký bán 170.000 cổ phiếu VPB"
+    },
+    {
+        "text": "cổ phiếu VPB",
+        "label": "ASSET",
+        "evidence": "đăng ký bán 170.000 cổ phiếu VPB"
+    },
+    {
+        "text": "ngày 23/2 đến ngày 24/3",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến thực hiện trong thời gian từ ngày 23/2 đến ngày 24/3"
+    },
+    {
+        "text": "381.940 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "bà Thu Hằng sẽ giảm sở hữu tại VPBank từ 381.940 cổ phiếu xuống còn 211.940 cổ phiếu"
+    },
+    {
+        "text": "211.940 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "từ 381.940 cổ phiếu xuống còn 211.940 cổ phiếu"
+    },
+    {
+        "text": "0,003%",
+        "label": "RATE",
+        "evidence": "tương đương tỷ lệ 0,003%"
+    },
+    {
+        "text": "Công đoàn VPBank",
+        "label": "ORG",
+        "evidence": "Công đoàn VPBank đăng ký bán ra 375.000 cổ phiếu VPB"
+    },
+    {
+        "text": "Công đoàn VPBank đăng ký bán ra 375.000 cổ phiếu VPB",
+        "label": "EVENT",
+        "evidence": "Công đoàn VPBank đăng ký bán ra 375.000 cổ phiếu VPB"
+    },
+    {
+        "text": "375.000 cổ phiếu VPB",
+        "label": "VOLUME",
+        "evidence": "đăng ký bán ra 375.000 cổ phiếu VPB"
+    },
+    {
+        "text": "cổ phiếu VPB",
+        "label": "ASSET",
+        "evidence": "đăng ký bán ra 375.000 cổ phiếu VPB"
+    },
+    {
+        "text": "7,2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "số lượng cổ phiếu công đoàn nắm giữ giảm còn 7,2 triệu cổ phiếu"
+    },
+    {
+        "text": "0,107%",
+        "label": "RATE",
+        "evidence": "tương đương 0,107% vốn điều lệ ngân hàng"
+    },
+    {
+        "text": "cổ phiếu VPB đã quay đầu giảm hơn 2,7% trong phiên 21/2",
+        "label": "EVENT",
+        "evidence": "cổ phiếu VPB đã quay đầu giảm hơn 2,7% trong phiên 21/2"
+    },
+    {
+        "text": "cổ phiếu VPB",
+        "label": "ASSET",
+        "evidence": "cổ phiếu VPB đã quay đầu giảm hơn 2,7%"
+    },
+    {
+        "text": "hơn 2,7%",
+        "label": "RATE",
+        "evidence": "giảm hơn 2,7% trong phiên 21/2"
+    },
+    {
+        "text": "phiên 21/2",
+        "label": "DATE",
+        "evidence": "trong phiên 21/2"
+    },
+    {
+        "text": "17.800 đồng/CP",
+        "label": "PRICE",
+        "evidence": "đóng cửa ở mức 17.800 đồng/CP"
+    },
+    {
+        "text": "18,38 triệu đơn vị khớp lệnh",
+        "label": "VOLUME",
+        "evidence": "thanh khoản vẫn sôi động với 18,38 triệu đơn vị khớp lệnh"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thu về khoảng 3 tỷ đồng và 6,7 tỷ đồng"
+    },
+    {
+        "text": "6,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 6,7 tỷ đồng từ việc bán cổ phiếuVPB"
+    },
+    {
+        "text": "VPBank đã công bố báo cáo tài chính hợp nhất quý IV/2022",
+        "label": "EVENT",
+        "evidence": "VPBank đã công bố báo cáo tài chính hợp nhất quý IV/2022"
+    },
+    {
+        "text": "quý IV/2022",
+        "label": "DATE",
+        "evidence": "báo cáo tài chính hợp nhất quý IV/2022"
+    },
+    {
+        "text": "1.383 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế chỉ đạt 1.383 tỷ đồng"
+    },
+    {
+        "text": "47%",
+        "label": "RATE",
+        "evidence": "giảm 47% so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "VPBank vẫn ghi nhận lợi nhuận năm 2022 tăng 47,7% , đạt 21.219 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VPBank vẫn ghi nhận lợi nhuận năm 2022 tăng 47,7% , đạt 21.219 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "lợi nhuận năm 2022 tăng 47,7%"
+    },
+    {
+        "text": "47,7%",
+        "label": "RATE",
+        "evidence": "tăng 47,7% , đạt 21.219 tỷ đồng"
+    },
+    {
+        "text": "21.219 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 21.219 tỷ đồng"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "trong quý 1 ngân hàng có lợi nhuận đột biến nhờ thỏa thuận độc quyền bancassurance"
+    },
+    {
+        "text": "thỏa thuận độc quyền bancassurance",
+        "label": "EVENT",
+        "evidence": "nhờ thỏa thuận độc quyền bancassurance"
+    },
+    {
+        "text": "hơn 24.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng mẹ (đạt hơn 24.000 tỷ đồng)"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Tính đến cuối năm 2022"
+    },
+    {
+        "text": "tổng tài sản VPBank đạt 631.074 tỷ đồng, tăng 15,3% so với năm 2021",
+        "label": "EVENT",
+        "evidence": "tổng tài sản VPBank đạt 631.074 tỷ đồng, tăng 15,3% so với năm 2021"
+    },
+    {
+        "text": "631.074 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản VPBank đạt 631.074 tỷ đồng"
+    },
+    {
+        "text": "15,3%",
+        "label": "RATE",
+        "evidence": "tăng 15,3% so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "so với năm 2021"
+    },
+    {
+        "text": "Dư nợ cho vay khách hàng tăng 23,4% lên 438.338 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dư nợ cho vay khách hàng tăng 23,4% lên 438.338 tỷ đồng"
+    },
+    {
+        "text": "23,4%",
+        "label": "RATE",
+        "evidence": "tăng 23,4% lên 438.338 tỷ đồng"
+    },
+    {
+        "text": "438.338 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 438.338 tỷ đồng"
+    },
+    {
+        "text": "VPBank thuộc nhóm những ngân hàng có tăng trưởng tiền gửi khách hàng mạnh mẽ nhất trong năm qua, với mức tăng trưởng tới 25,4%, số dư đạt 303.151 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VPBank thuộc nhóm những ngân hàng có tăng trưởng tiền gửi khách hàng mạnh mẽ nhất trong năm qua, với mức tăng trưởng tới 25,4%, số dư đạt 303.151 tỷ đồng"
+    },
+    {
+        "text": "25,4%",
+        "label": "RATE",
+        "evidence": "với mức tăng trưởng tới 25,4%"
+    },
+    {
+        "text": "303.151 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số dư đạt 303.151 tỷ đồng"
+    },
+    {
+        "text": "47,3%",
+        "label": "RATE",
+        "evidence": "tăng 47,3% lên 168.798 tỷ đồng"
+    },
+    {
+        "text": "168.798 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 168.798 tỷ đồng"
+    },
+    {
+        "text": "Nợ xấu của VPBank hợp nhất (bao gồm công ty tài chính) là 4,73%",
+        "label": "EVENT",
+        "evidence": "Nợ xấu của VPBank hợp nhất (bao gồm công ty tài chính) là 4,73%"
+    },
+    {
+        "text": "4,73%",
+        "label": "RATE",
+        "evidence": "Nợ xấu của VPBank hợp nhất (bao gồm công ty tài chính) là 4,73%"
+    },
+    {
+        "text": "Tỷ lệ này tăng nhẹ từ 1,98% năm 2021 lên 2,19%",
+        "label": "EVENT",
+        "evidence": "Tỷ lệ này tăng nhẹ từ 1,98% năm 2021 lên 2,19%"
+    },
+    {
+        "text": "1,98%",
+        "label": "RATE",
+        "evidence": "tăng nhẹ từ 1,98% năm 2021 lên 2,19%"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "1,98% năm 2021"
+    },
+    {
+        "text": "2,19%",
+        "label": "RATE",
+        "evidence": "lên 2,19%"
+    }
+]

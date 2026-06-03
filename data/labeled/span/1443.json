@@ -1,0 +1,212 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm tại VietinBank đã được điều chỉnh giảm ở một số kỳ hạn"
+    },
+    {
+        "text": "Lãi suất tiết kiệm tại VietinBank đã được điều chỉnh giảm ở một số kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Lãi suất tiết kiệm tại VietinBank đã được điều chỉnh giảm ở một số kỳ hạn"
+    },
+    {
+        "text": "lãi suất 3 tháng",
+        "label": "ASSET",
+        "evidence": "Trong đó, lãi suất 3 tháng giảm từ 2,2%/năm xuống 2%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất 3 tháng giảm từ 2,2%/năm xuống 2%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "2%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất 3 tháng giảm từ 2,2%/năm xuống 2%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất 3 tháng giảm từ 2,2%/năm xuống 2%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "Lãi suất tiết kiệm 6 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất tiết kiệm 6 tháng giảm từ 3,2%/năm xuống 3%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "3,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 6 tháng giảm từ 3,2%/năm xuống 3%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 6 tháng giảm từ 3,2%/năm xuống 3%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 6 tháng giảm từ 3,2%/năm xuống 3%/năm, giảm 0,2 điểm %."
+    },
+    {
+        "text": "Lãi suất tiết kiệm 12 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất tiết kiệm 12 tháng giảm từ 4,8%/năm xuống 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 12 tháng giảm từ 4,8%/năm xuống 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 12 tháng giảm từ 4,8%/năm xuống 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm 12 tháng giảm từ 4,8%/năm xuống 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "Lãi suất tiết kiệm từ 12 tháng đến dưới 24 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất tiết kiệm từ 12 tháng đến dưới 24 tháng niêm yết ở mức 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm từ 12 tháng đến dưới 24 tháng niêm yết ở mức 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm từ 12 tháng đến dưới 24 tháng niêm yết ở mức 4,7%/năm, giảm 0,1 điểm %."
+    },
+    {
+        "text": "lãi suất tiết kiệm tại kỳ hạn 24 tháng trở lên",
+        "label": "ASSET",
+        "evidence": "Trong khi đó lãi suất tiết kiệm tại kỳ hạn 24 tháng trở lên giảm 0,2 điểm % so với lần điều chỉnh gần nhất, giữ ở mức 4.8%/năm."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Trong khi đó lãi suất tiết kiệm tại kỳ hạn 24 tháng trở lên giảm 0,2 điểm % so với lần điều chỉnh gần nhất, giữ ở mức 4.8%/năm."
+    },
+    {
+        "text": "4.8%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó lãi suất tiết kiệm tại kỳ hạn 24 tháng trở lên giảm 0,2 điểm % so với lần điều chỉnh gần nhất, giữ ở mức 4.8%/năm."
+    },
+    {
+        "text": "Lãi suất tiết kiệm ở kỳ hạn 1-3 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất tiết kiệm ở kỳ hạn 1-3 tháng cũng giảm 0,2 điểm % so với trước."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm ở kỳ hạn 1-3 tháng cũng giảm 0,2 điểm % so với trước."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Trong khi các khoản tiền gửi không kỳ hạn có lãi suất 0,1%/năm."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi các khoản tiền gửi không kỳ hạn có lãi suất 0,1%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đầu tuần này, một \"ông lớn\" Big 4 khác - ngân hàng BIDV điều chỉnh lãi suất tiết kiệm theo chiều hướng giảm."
+    },
+    {
+        "text": "ngân hàng BIDV điều chỉnh lãi suất tiết kiệm theo chiều hướng giảm",
+        "label": "EVENT",
+        "evidence": "Đầu tuần này, một \"ông lớn\" Big 4 khác - ngân hàng BIDV điều chỉnh lãi suất tiết kiệm theo chiều hướng giảm."
+    },
+    {
+        "text": "lãi suất tiết kiệm trực tuyến tại BIDV",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "0,2 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "tiền gửi các kỳ hạn từ 1-11 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "24-36 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "0,1 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "tiền gửi kỳ hạn 12-18 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất tiết kiệm trực tuyến tại BIDV đồng loạt giảm 0,2 điểm phần trăm đối với tiền gửi các kỳ hạn từ 1-11 tháng, từ 24-36 tháng và giảm 0,1 điểm phần trăm đối với tiền gửi kỳ hạn 12-18 tháng."
+    },
+    {
+        "text": "lãi suất tiết kiệm ở kỳ hạn 1-2 tháng",
+        "label": "ASSET",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "1,8%/năm",
+        "label": "RATE",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "kỳ hạn 3-5 tháng",
+        "label": "ASSET",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "2,1%/năm",
+        "label": "RATE",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "kỳ hạn 7-11 tháng",
+        "label": "ASSET",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "3,1%/năm",
+        "label": "RATE",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "kỳ hạn 12-18 tháng",
+        "label": "ASSET",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "kỳ hạn 24-36 tháng",
+        "label": "ASSET",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Theo biểu lãi suất mới hiện tại, lãi suất tiết kiệm ở kỳ hạn 1-2 tháng còn 1,8%/năm, kỳ hạn 3-5 tháng hiện là 2,1%/năm, kỳ hạn 7-11 tháng giảm còn 3,1%/năm, kỳ hạn 12-18 tháng còn 4,7%/năm và kỳ hạn 24-36 tháng còn 4,8%/năm."
+    }
+]

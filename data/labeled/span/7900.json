@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX), Công ty Cổ phần Thời Đại Mới T&T (Thời Đại Mới T&T) vừa công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX), Công ty Cổ phần Thời Đại Mới T&T (Thời Đại Mới T&T) vừa công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "Công ty Cổ phần Thời Đại Mới T&T",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX), Công ty Cổ phần Thời Đại Mới T&T (Thời Đại Mới T&T) vừa công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "Thời Đại Mới T&T",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán Hà Nội (HNX), Công ty Cổ phần Thời Đại Mới T&T (Thời Đại Mới T&T) vừa công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "công bố kết quả phát hành trái phiếu mã NTJ32502",
+        "label": "EVENT",
+        "evidence": "Công ty Cổ phần Thời Đại Mới T&T (Thời Đại Mới T&T) vừa công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "lô trái phiếu có mệnh giá 100 triệu đồng/trái phiếu, tổng giá trị phát hành 2.500 tỷ đồng, kỳ hạn 12 tháng, phát hành trong nước, đồng tiền phát hành là VND."
+    },
+    {
+        "text": "NTJ32502",
+        "label": "TICKER",
+        "evidence": "công bố kết quả phát hành trái phiếu mã NTJ32502."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "lô trái phiếu có mệnh giá 100 triệu đồng/trái phiếu, tổng giá trị phát hành 2.500 tỷ đồng, kỳ hạn 12 tháng, phát hành trong nước, đồng tiền phát hành là VND."
+    },
+    {
+        "text": "2.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng giá trị phát hành 2.500 tỷ đồng, kỳ hạn 12 tháng, phát hành trong nước, đồng tiền phát hành là VND."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "tổng giá trị phát hành 2.500 tỷ đồng, kỳ hạn 12 tháng, phát hành trong nước, đồng tiền phát hành là VND."
+    },
+    {
+        "text": "VND",
+        "label": "ASSET",
+        "evidence": "đồng tiền phát hành là VND."
+    },
+    {
+        "text": "14/10/2025",
+        "label": "DATE",
+        "evidence": "Ngày phát hành và hoàn tất là 14/10/2025, với kỳ hạn 12 tháng, lô trái phiếu trên dự kiến đáo hạn ngày 14/10/2026."
+    },
+    {
+        "text": "Ngày phát hành và hoàn tất là 14/10/2025",
+        "label": "EVENT",
+        "evidence": "Ngày phát hành và hoàn tất là 14/10/2025, với kỳ hạn 12 tháng, lô trái phiếu trên dự kiến đáo hạn ngày 14/10/2026."
+    },
+    {
+        "text": "đáo hạn ngày 14/10/2026",
+        "label": "EVENT",
+        "evidence": "lô trái phiếu trên dự kiến đáo hạn ngày 14/10/2026."
+    },
+    {
+        "text": "14/10/2026",
+        "label": "DATE",
+        "evidence": "lô trái phiếu trên dự kiến đáo hạn ngày 14/10/2026."
+    },
+    {
+        "text": "phát hành 55.500 trái phiếu mã NTJ12501",
+        "label": "EVENT",
+        "evidence": "Thời Đại Mới T&T còn phát hành 55.500 trái phiếu mã NTJ12501 với mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "55.500 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "còn phát hành 55.500 trái phiếu mã NTJ12501 với mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "NTJ12501",
+        "label": "TICKER",
+        "evidence": "phát hành 55.500 trái phiếu mã NTJ12501 với mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "huy động thành công 5.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "qua đó huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "5.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "huy động thành công 5.500 tỷ đồng."
+    },
+    {
+        "text": "Trái phiếu",
+        "label": "ASSET",
+        "evidence": "Trái phiếu có kỳ hạn 36 tháng, dự kiến đáo hạn 14/10/2028."
+    },
+    {
+        "text": "đáo hạn 14/10/2028",
+        "label": "EVENT",
+        "evidence": "Trái phiếu có kỳ hạn 36 tháng, dự kiến đáo hạn 14/10/2028."
+    },
+    {
+        "text": "14/10/2028",
+        "label": "DATE",
+        "evidence": "dự kiến đáo hạn 14/10/2028."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, theo HNX, lô NTJ32502 có lãi suất phát hành 8,95%/năm; còn lô NTJ12501 có lãi suất kết hợp 9,45%/năm."
+    },
+    {
+        "text": "lãi suất phát hành 8,95%/năm",
+        "label": "RATE",
+        "evidence": "lô NTJ32502 có lãi suất phát hành 8,95%/năm; còn lô NTJ12501 có lãi suất kết hợp 9,45%/năm."
+    },
+    {
+        "text": "lãi suất kết hợp 9,45%/năm",
+        "label": "RATE",
+        "evidence": "còn lô NTJ12501 có lãi suất kết hợp 9,45%/năm."
+    },
+    {
+        "text": "Hợp đồng hợp tác kinh doanh số 01/2025/HTĐT/CTC-T&T",
+        "label": "ASSET",
+        "evidence": "Thời Đại Mới T&T đã mang quyền phát sinh từ Hợp đồng hợp tác kinh doanh số 01/2025/HTĐT/CTC-T&T ký ngày 9/10/2025 (ngày hiệu lực 9/10/2025) và các thỏa thuận, phụ lục đi kèm (nếu có) ký kết giữa doanh nghiệp này với Công ty TNHH Capitaland Tower (Capitaland Tower) đem thế chấp tại Ngân hàng TMCP Kỹ Thương Việt Nam (TCB)."
+    },
+    {
+        "text": "9/10/2025",
+        "label": "DATE",
+        "evidence": "ký ngày 9/10/2025 (ngày hiệu lực 9/10/2025)"
+    },
+    {
+        "text": "ngày hiệu lực 9/10/2025",
+        "label": "DATE",
+        "evidence": "ký ngày 9/10/2025 (ngày hiệu lực 9/10/2025)"
+    },
+    {
+        "text": "Công ty TNHH Capitaland Tower",
+        "label": "ORG",
+        "evidence": "ký kết giữa doanh nghiệp này với Công ty TNHH Capitaland Tower (Capitaland Tower) đem thế chấp tại Ngân hàng TMCP Kỹ Thương Việt Nam (TCB)."
+    },
+    {
+        "text": "Capitaland Tower",
+        "label": "ORG",
+        "evidence": "ký kết giữa doanh nghiệp này với Công ty TNHH Capitaland Tower (Capitaland Tower) đem thế chấp tại Ngân hàng TMCP Kỹ Thương Việt Nam (TCB)."
+    },
+    {
+        "text": "Ngân hàng TMCP Kỹ Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "đem thế chấp tại Ngân hàng TMCP Kỹ Thương Việt Nam (TCB)."
+    },
+    {
+        "text": "TCB",
+        "label": "ORG",
+        "evidence": "đem thế chấp tại Ngân hàng TMCP Kỹ Thương Việt Nam (TCB)."
+    },
+    {
+        "text": "Hợp đồng chuyển nhượng Dự án thành phần số 3009/HĐCNMPDABĐS/DLCG-CTC",
+        "label": "ASSET",
+        "evidence": "còn có Hợp đồng chuyển nhượng Dự án thành phần số 3009/HĐCNMPDABĐS/DLCG-CTC ký ngày 30/9/2025 (ngày hiệu lực: 30/09/2025) giữa Công ty CP Đô thị Du lịch Cần Giờ và Capitaland Tower."
+    },
+    {
+        "text": "ký ngày 30/9/2025",
+        "label": "DATE",
+        "evidence": "ký ngày 30/9/2025 (ngày hiệu lực: 30/09/2025)"
+    },
+    {
+        "text": "ngày hiệu lực: 30/09/2025",
+        "label": "DATE",
+        "evidence": "ký ngày 30/9/2025 (ngày hiệu lực: 30/09/2025)"
+    },
+    {
+        "text": "Công ty CP Đô thị Du lịch Cần Giờ",
+        "label": "ORG",
+        "evidence": "giữa Công ty CP Đô thị Du lịch Cần Giờ và Capitaland Tower."
+    },
+    {
+        "text": "Đô thị Du lịch Cần Giờ",
+        "label": "ORG",
+        "evidence": "Theo đó, Đô thị Du lịch Cần Giờ chuyển nhượng cho Capitaland Tower một phần Dự án đầu tư mở rộng Dự án Khu đô thị du lịch lấn biển Cần Giờ có địa chỉ tại xã Long Hòa và thị trấn Cần Thạnh, huyện Cần Giờ, TP.HCM (nay là xã Cần Giờ, TP.HCM)."
+    },
+    {
+        "text": "chuyển nhượng cho Capitaland Tower một phần Dự án đầu tư mở rộng Dự án Khu đô thị du lịch lấn biển Cần Giờ",
+        "label": "EVENT",
+        "evidence": "Theo đó, Đô thị Du lịch Cần Giờ chuyển nhượng cho Capitaland Tower một phần Dự án đầu tư mở rộng Dự án Khu đô thị du lịch lấn biển Cần Giờ có địa chỉ tại xã Long Hòa và thị trấn Cần Thạnh, huyện Cần Giờ, TP.HCM (nay là xã Cần Giờ, TP.HCM)."
+    },
+    {
+        "text": "đầu tháng 10/2025",
+        "label": "DATE",
+        "evidence": "Cũng trong đầu tháng 10/2025, Thời Đại Mới T&T còn mang tất cả các quyền tài sản và tất cả khoản phải thu phát sinh từ và/hoặc liên quan tới hợp đồng hợp tác kinh doanh số 02/2025/HTĐT/CTC-T&T ký kết ngày 7/10/2025 giữa doanh nghiệp này và Capitaland Tower thế chấp tại Công ty CP Chứng khoán Kỹ Thương (TCBS)."
+    },
+    {
+        "text": "hợp đồng hợp tác kinh doanh số 02/2025/HTĐT/CTC-T&T",
+        "label": "ASSET",
+        "evidence": "hợp đồng hợp tác kinh doanh số 02/2025/HTĐT/CTC-T&T ký kết ngày 7/10/2025 giữa doanh nghiệp này và Capitaland Tower thế chấp tại Công ty CP Chứng khoán Kỹ Thương (TCBS)."
+    },
+    {
+        "text": "ký kết ngày 7/10/2025",
+        "label": "DATE",
+        "evidence": "ký kết ngày 7/10/2025 giữa doanh nghiệp này và Capitaland Tower thế chấp tại Công ty CP Chứng khoán Kỹ Thương (TCBS)."
+    },
+    {
+        "text": "Công ty CP Chứng khoán Kỹ Thương",
+        "label": "ORG",
+        "evidence": "thế chấp tại Công ty CP Chứng khoán Kỹ Thương (TCBS)."
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "thế chấp tại Công ty CP Chứng khoán Kỹ Thương (TCBS)."
+    },
+    {
+        "text": "Dự án Vinhomes Cổ Loa",
+        "label": "ASSET",
+        "evidence": "Dự án này được biết đến với cái tên dự án Vinhomes Cổ Loa, tên thương mại Vinhomes Global Gate, do Công ty CP Trung tâm Hội chợ triển lãm Việt Nam (VEFAC) làm chủ đầu tư."
+    },
+    {
+        "text": "Vinhomes Global Gate",
+        "label": "ASSET",
+        "evidence": "Dự án này được biết đến với cái tên dự án Vinhomes Cổ Loa, tên thương mại Vinhomes Global Gate, do Công ty CP Trung tâm Hội chợ triển lãm Việt Nam (VEFAC) làm chủ đầu tư."
+    },
+    {
+        "text": "Công ty CP Trung tâm Hội chợ triển lãm Việt Nam",
+        "label": "ORG",
+        "evidence": "do Công ty CP Trung tâm Hội chợ triển lãm Việt Nam (VEFAC) làm chủ đầu tư."
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "do Công ty CP Trung tâm Hội chợ triển lãm Việt Nam (VEFAC) làm chủ đầu tư."
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "Trước đó, tháng 3/2025, UBND TP.Hà Nội có Quyết định số 1408/QĐ-UBND về việc cho phép VEFAC chuyển nhượng một phần dự án Vinhomes Cổ Loa cho Thời Đại Mới T&T."
+    },
+    {
+        "text": "UBND TP.Hà Nội",
+        "label": "ORG",
+        "evidence": "Trước đó, tháng 3/2025, UBND TP.Hà Nội có Quyết định số 1408/QĐ-UBND về việc cho phép VEFAC chuyển nhượng một phần dự án Vinhomes Cổ Loa cho Thời Đại Mới T&T."
+    },
+    {
+        "text": "cho phép VEFAC chuyển nhượng một phần dự án Vinhomes Cổ Loa cho Thời Đại Mới T&T",
+        "label": "EVENT",
+        "evidence": "UBND TP.Hà Nội có Quyết định số 1408/QĐ-UBND về việc cho phép VEFAC chuyển nhượng một phần dự án Vinhomes Cổ Loa cho Thời Đại Mới T&T."
+    },
+    {
+        "text": "30.360,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng mức đầu tư phần chuyển nhượng khoảng 30.360,5 tỷ đồng."
+    },
+    {
+        "text": "Hợp đồng hợp tác giữa Thời Đại Mới T&T và Công ty Cổ phần Đầu Tư và Phát triển Sài Gòn",
+        "label": "ASSET",
+        "evidence": "Nguồn tiền để thanh toán một phần giá phần dự án chuyển nhượng nói trên đến từ Hợp đồng hợp tác giữa Thời Đại Mới T&T và Công ty Cổ phần Đầu Tư và Phát triển Sài Gòn (SDI)."
+    },
+    {
+        "text": "Công ty Cổ phần Đầu Tư và Phát triển Sài Gòn",
+        "label": "ORG",
+        "evidence": "Nguồn tiền để thanh toán một phần giá phần dự án chuyển nhượng nói trên đến từ Hợp đồng hợp tác giữa Thời Đại Mới T&T và Công ty Cổ phần Đầu Tư và Phát triển Sài Gòn (SDI)."
+    },
+    {
+        "text": "SDI",
+        "label": "ORG",
+        "evidence": "Nguồn tiền để thanh toán một phần giá phần dự án chuyển nhượng nói trên đến từ Hợp đồng hợp tác giữa Thời Đại Mới T&T và Công ty Cổ phần Đầu Tư và Phát triển Sài Gòn (SDI)."
+    },
+    {
+        "text": "Công ty Cổ phần Tư vấn và Kinh doanh Bất động sản TCO",
+        "label": "ORG",
+        "evidence": "SDI và Công ty Cổ phần Tư vấn và Kinh doanh Bất động sản TCO (TCO) có ký kết Hợp đồng hợp tác kinh doanh số 1003/2025/HTĐT/SDI-TCO hiệu lực ngày 10/3/2025 để góp vốn hợp tác với SDI cùng thực hiện hoạt động hợp tác kinh doanh."
+    },
+    {
+        "text": "TCO",
+        "label": "ORG",
+        "evidence": "SDI và Công ty Cổ phần Tư vấn và Kinh doanh Bất động sản TCO (TCO) có ký kết Hợp đồng hợp tác kinh doanh số 1003/2025/HTĐT/SDI-TCO hiệu lực ngày 10/3/2025 để góp vốn hợp tác với SDI cùng thực hiện hoạt động hợp tác kinh doanh."
+    },
+    {
+        "text": "Hợp đồng hợp tác kinh doanh số 1003/2025/HTĐT/SDI-TCO",
+        "label": "ASSET",
+        "evidence": "SDI và Công ty Cổ phần Tư vấn và Kinh doanh Bất động sản TCO (TCO) có ký kết Hợp đồng hợp tác kinh doanh số 1003/2025/HTĐT/SDI-TCO hiệu lực ngày 10/3/2025 để góp vốn hợp tác với SDI cùng thực hiện hoạt động hợp tác kinh doanh."
+    },
+    {
+        "text": "ngày 10/3/2025",
+        "label": "DATE",
+        "evidence": "hiệu lực ngày 10/3/2025 để góp vốn hợp tác với SDI cùng thực hiện hoạt động hợp tác kinh doanh."
+    },
+    {
+        "text": "thực hiện nghĩa vụ góp vốn hợp tác với Thời Đại Mới T&T",
+        "label": "EVENT",
+        "evidence": "trên cơ sở nhận được vốn góp từ TCO, SDI sẽ thực hiện nghĩa vụ góp vốn hợp tác với Thời Đại Mới T&T để T&T thanh toán một phần giá chuyển nhượng của phần Dự án chuyển nhượng cho VEFAC."
+    },
+    {
+        "text": "ngày 12/9/2025",
+        "label": "DATE",
+        "evidence": "Nói thêm về phần Dự án chuyển nhượng giữa VEFAC và Thời Đại Mới T&T, ngày 12/9/2025, Thời Đại Mới T&T đã mang phần toàn bộ số tiền thu được, quyền thụ hưởng từ việc kinh doanh, khai thác giá trị của quyền sử dụng đất,... đối với phần dự án thuộc sở hữu của doanh nghiệp này tại dự án Vinhomes Cổ Loa đem thế chấp ở TCB."
+    },
+    {
+        "text": "phát sinh giao dịch đảm bảo",
+        "label": "EVENT",
+        "evidence": "TCB cũng là đối tác tín dụng quen thuộc của Thời Đại Mới T&T khi doanh nghiệp nhiều lần phát sinh giao dịch đảm bảo tại ngân hàng này."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo tìm hiểu của PV, năm 2024, Thời Đại Mới T&T đã dùng quyền tài sản là quyền đòi nợ, quyền thụ hưởng bảo hiểm,... mà bên bảo đảm thu được theo các Thỏa thuận chuyển nhượng Hợp đồng mua bán với ông Nguyễn Thanh Tùng và Nguyễn Đức Thuận nhằm thực hiện việc nhận chuyển nhượng các Hợp đồng mua bán ký giữa ông Nguyễn Thanh Tùng và Công ty CP đầu tư bất động sản Elegance; Hợp đồng mua bán ký giữa ông Nguyễn Đức thuận và Công ty CP đầu tư bất động sản Elegance đối với căn hộ Chủ đầu tư là Công ty cổ phần đầu tư bất động sản Elegance thuộc Dự án Tòa nhà Căn hộ - Văn phòng dịch vụ - Thương mai dịch vụ HH4-1, HH4-2, HH4-3 khu phức hợp Sài Gòn – Ba Son làm tài sản bảo đảm, thế chấp tại TCB và TCB Khối KHDN quy mô vừa."
+    },
+    {
+        "text": "ông Nguyễn Thanh Tùng",
+        "label": "PERSON",
+        "evidence": "Thỏa thuận chuyển nhượng Hợp đồng mua bán với ông Nguyễn Thanh Tùng và Nguyễn Đức Thuận nhằm thực hiện việc nhận chuyển nhượng các Hợp đồng mua bán ký giữa ông Nguyễn Thanh Tùng và Công ty CP đầu tư bất động sản Elegance"
+    },
+    {
+        "text": "Nguyễn Đức Thuận",
+        "label": "PERSON",
+        "evidence": "Thỏa thuận chuyển nhượng Hợp đồng mua bán với ông Nguyễn Thanh Tùng và Nguyễn Đức Thuận nhằm thực hiện việc nhận chuyển nhượng các Hợp đồng mua bán ký giữa ông Nguyễn Thanh Tùng và Công ty CP đầu tư bất động sản Elegance"
+    },
+    {
+        "text": "Công ty CP đầu tư bất động sản Elegance",
+        "label": "ORG",
+        "evidence": "Hợp đồng mua bán ký giữa ông Nguyễn Thanh Tùng và Công ty CP đầu tư bất động sản Elegance"
+    },
+    {
+        "text": "Tòa nhà Căn hộ - Văn phòng dịch vụ - Thương mai dịch vụ HH4-1, HH4-2, HH4-3 khu phức hợp Sài Gòn – Ba Son",
+        "label": "ASSET",
+        "evidence": "đối với căn hộ Chủ đầu tư là Công ty cổ phần đầu tư bất động sản Elegance thuộc Dự án Tòa nhà Căn hộ - Văn phòng dịch vụ - Thương mai dịch vụ HH4-1, HH4-2, HH4-3 khu phức hợp Sài Gòn – Ba Son làm tài sản bảo đảm, thế chấp tại TCB và TCB Khối KHDN quy mô vừa."
+    },
+    {
+        "text": "TCB Khối KHDN quy mô vừa",
+        "label": "ORG",
+        "evidence": "thế chấp tại TCB và TCB Khối KHDN quy mô vừa."
+    },
+    {
+        "text": "cuối năm 2006",
+        "label": "DATE",
+        "evidence": "Về Thời Đại Mới T&T, doanh nghiệp này được thành lập cuối năm 2006, có trụ sở tại tòa T-Place, 30A Lý Thường Kiệt, Hà Nội."
+    },
+    {
+        "text": "thành lập",
+        "label": "EVENT",
+        "evidence": "Về Thời Đại Mới T&T, doanh nghiệp này được thành lập cuối năm 2006, có trụ sở tại tòa T-Place, 30A Lý Thường Kiệt, Hà Nội."
+    },
+    {
+        "text": "tháng 10/2016",
+        "label": "DATE",
+        "evidence": "Tại đăng ký kinh doanh thay đổi vào tháng 10/2016, Thời đại mới T&T có vốn điều lệ 1.200 tỷ đồng; duy nhất 1 cổ đông sáng lập còn nắm giữ cổ phần tại Thời Đại Mới T&T là Công ty TNHH Thương mại dịch vụ Khách sạn Tân Hoàng Minh (90,25%); còn 3 cổ đông sáng lập còn lại đã chuyển nhượng hết phần vốn góp."
+    },
+    {
+        "text": "1.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thời đại mới T&T có vốn điều lệ 1.200 tỷ đồng; duy nhất 1 cổ đông sáng lập còn nắm giữ cổ phần tại Thời Đại Mới T&T là Công ty TNHH Thương mại dịch vụ Khách sạn Tân Hoàng Minh (90,25%); còn 3 cổ đông sáng lập còn lại đã chuyển nhượng hết phần vốn góp."
+    },
+    {
+        "text": "Công ty TNHH Thương mại dịch vụ Khách sạn Tân Hoàng Minh",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Thương mại dịch vụ Khách sạn Tân Hoàng Minh (90,25%); còn 3 cổ đông sáng lập còn lại đã chuyển nhượng hết phần vốn góp."
+    },
+    {
+        "text": "90,25%",
+        "label": "RATE",
+        "evidence": "Công ty TNHH Thương mại dịch vụ Khách sạn Tân Hoàng Minh (90,25%); còn 3 cổ đông sáng lập còn lại đã chuyển nhượng hết phần vốn góp."
+    },
+    {
+        "text": "thương vụ mua lại 4.000 m2 \"đất vàng\" tại số 22 - 24 Hàng Bài",
+        "label": "EVENT",
+        "evidence": "Thời Đại Mới T&T từng được biết đến với thương vụ mua lại 4.000 m2 \"đất vàng\" tại số 22 - 24 Hàng Bài vào năm 2010."
+    },
+    {
+        "text": "năm 2010",
+        "label": "DATE",
+        "evidence": "Thời Đại Mới T&T từng được biết đến với thương vụ mua lại 4.000 m2 \"đất vàng\" tại số 22 - 24 Hàng Bài vào năm 2010."
+    },
+    {
+        "text": "The Grand Hanoi",
+        "label": "ASSET",
+        "evidence": "Sau nhiều năm \"đắp chiếu\", dự án này đã ra mắt thị trường với tên gọi The Grand Hanoi."
+    },
+    {
+        "text": "giữa tháng 11/2024",
+        "label": "DATE",
+        "evidence": "Sau nhiều lần điều chỉnh, đến giữa tháng 11/2024, doanh nghiệp có vốn điều lệ 7.999,5 tỷ đồng."
+    },
+    {
+        "text": "7.999,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đến giữa tháng 11/2024, doanh nghiệp có vốn điều lệ 7.999,5 tỷ đồng."
+    },
+    {
+        "text": "ông Nguyễn Văn Hải",
+        "label": "PERSON",
+        "evidence": "Hiện, Thời Đại Mới T&T có 2 người đại diện pháp luật là ông Nguyễn Văn Hải (SN 1970)-Chủ tịch HĐQT và ông Phùng Thị Minh (SN 1979)- Tổng Giám đốc."
+    },
+    {
+        "text": "Phùng Thị Minh",
+        "label": "PERSON",
+        "evidence": "Hiện, Thời Đại Mới T&T có 2 người đại diện pháp luật là ông Nguyễn Văn Hải (SN 1970)-Chủ tịch HĐQT và ông Phùng Thị Minh (SN 1979)- Tổng Giám đốc."
+    },
+    {
+        "text": "Công ty TNHH Đầu tư Kinh doanh và Phát triển Thành Quang",
+        "label": "ORG",
+        "evidence": "Được biết, bà Phùng Thị Minh còn là người đại diện của Công ty TNHH Đầu tư Kinh doanh và Phát triển Thành Quang."
+    },
+    {
+        "text": "Thành Quang",
+        "label": "ORG",
+        "evidence": "Thành Quang được thành lập vào cuối tháng 1/2019, có trụ sở tại tầng 1, T-Place, 30A Lý Thường Kiệt, Hà Nội."
+    },
+    {
+        "text": "thành lập",
+        "label": "EVENT",
+        "evidence": "Thành Quang được thành lập vào cuối tháng 1/2019, có trụ sở tại tầng 1, T-Place, 30A Lý Thường Kiệt, Hà Nội."
+    },
+    {
+        "text": "cuối tháng 1/2019",
+        "label": "DATE",
+        "evidence": "Thành Quang được thành lập vào cuối tháng 1/2019, có trụ sở tại tầng 1, T-Place, 30A Lý Thường Kiệt, Hà Nội."
+    },
+    {
+        "text": "tháng 11/2024",
+        "label": "DATE",
+        "evidence": "Theo đăng ký thay đổi hồi tháng 11/2024, doanh nghiệp tăng vốn từ 2.800 tỷ đồng lên 8.800 tỷ đồng."
+    },
+    {
+        "text": "tăng vốn từ 2.800 tỷ đồng lên 8.800 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo đăng ký thay đổi hồi tháng 11/2024, doanh nghiệp tăng vốn từ 2.800 tỷ đồng lên 8.800 tỷ đồng."
+    },
+    {
+        "text": "2.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh nghiệp tăng vốn từ 2.800 tỷ đồng lên 8.800 tỷ đồng."
+    },
+    {
+        "text": "8.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh nghiệp tăng vốn từ 2.800 tỷ đồng lên 8.800 tỷ đồng."
+    },
+    {
+        "text": "ông Nguyễn Văn Hải",
+        "label": "PERSON",
+        "evidence": "Đáng chú ý, ông Nguyễn Văn Hải- Chủ tịch HĐQT Thời Đại Mới T&T đã nói ở trên, là người được ủy quyền toàn bộ phần vốn góp 8.800 tỷ đồng này."
+    },
+    {
+        "text": "8.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là người được ủy quyền toàn bộ phần vốn góp 8.800 tỷ đồng này."
+    }
+]

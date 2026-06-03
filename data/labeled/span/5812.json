@@ -1,0 +1,132 @@
+[
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Ghi nhận tại đại hội của SHB năm nay, từ thời điểm 13h, cổ đông đã tới check - in."
+    },
+    {
+        "text": "13h",
+        "label": "DATE",
+        "evidence": "Ghi nhận tại đại hội của SHB năm nay, từ thời điểm 13h, cổ đông đã tới check - in."
+    },
+    {
+        "text": "13h30",
+        "label": "DATE",
+        "evidence": "Tới 13h30, hội trường gần như chật kín."
+    },
+    {
+        "text": "14h10",
+        "label": "DATE",
+        "evidence": "Tại thời điểm 14h10, theo báo cáo của Ban kiểm tra tư cách cổ đông, có 1.361 cổ đông tham dự, đại diện cho xấp xỉ 67% số cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "xấp xỉ 67%",
+        "label": "RATE",
+        "evidence": "có 1.361 cổ đông tham dự, đại diện cho xấp xỉ 67% số cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "số cổ phần có quyền biểu quyết",
+        "label": "ASSET",
+        "evidence": "đại diện cho xấp xỉ 67% số cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "200 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "khi có quà là phong bì tiền mặt cho cổ đông, mỗi người 200 nghìn đồng."
+    },
+    {
+        "text": "25/4",
+        "label": "DATE",
+        "evidence": "Một số hình ảnh cổ đông tham dự đại hộ của SHB chiều 25/4:"
+    },
+    {
+        "text": "chia cổ tức",
+        "label": "EVENT",
+        "evidence": "trong năm nay SHB sẽ chia cổ tức với tổng tỷ lệ 16% vốn điều lệ (tương ứng 5.859 tỷ đồng) trong đó gồm 5% bằng tiền mặt và 11% còn lại bằng cổ phiếu."
+    },
+    {
+        "text": "tổng tỷ lệ 16%",
+        "label": "RATE",
+        "evidence": "SHB sẽ chia cổ tức với tổng tỷ lệ 16% vốn điều lệ"
+    },
+    {
+        "text": "5.859 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "(tương ứng 5.859 tỷ đồng)"
+    },
+    {
+        "text": "5% bằng tiền mặt",
+        "label": "RATE",
+        "evidence": "gồm 5% bằng tiền mặt"
+    },
+    {
+        "text": "11% còn lại bằng cổ phiếu",
+        "label": "RATE",
+        "evidence": "và 11% còn lại bằng cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "và 11% còn lại bằng cổ phiếu."
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu với tỷ lệ 11%",
+        "label": "EVENT",
+        "evidence": "Nếu hoàn thành kế hoạch chia cổ tức bằng cổ phiếu với tỷ lệ 11%, vốn điều lệ củaNgân hàng SHBdự kiến sẽ lên gần 40.658 tỷ đồng."
+    },
+    {
+        "text": "tỷ lệ 11%",
+        "label": "RATE",
+        "evidence": "chia cổ tức bằng cổ phiếu với tỷ lệ 11%"
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "vốn điều lệ củaNgân hàng SHBdự kiến sẽ lên gần 40.658 tỷ đồng."
+    },
+    {
+        "text": "40.658 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sẽ lên gần 40.658 tỷ đồng."
+    },
+    {
+        "text": "cho vay doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "sẽ được dùng chủ yếu vào mục đích cho vay doanh nghiệp, bao gồm cho vay bổ sung vốn lưu động, tài trợ tài sản cố định và cho vay sản xuất kinh doanh, thực hiện dự án."
+    },
+    {
+        "text": "cho vay bổ sung vốn lưu động",
+        "label": "EVENT",
+        "evidence": "bao gồm cho vay bổ sung vốn lưu động, tài trợ tài sản cố định và cho vay sản xuất kinh doanh, thực hiện dự án."
+    },
+    {
+        "text": "tài trợ tài sản cố định",
+        "label": "EVENT",
+        "evidence": "tài trợ tài sản cố định và cho vay sản xuất kinh doanh, thực hiện dự án."
+    },
+    {
+        "text": "cho vay sản xuất kinh doanh",
+        "label": "EVENT",
+        "evidence": "và cho vay sản xuất kinh doanh, thực hiện dự án."
+    },
+    {
+        "text": "thực hiện dự án",
+        "label": "EVENT",
+        "evidence": "thực hiện dự án. Thời gian giải ngân là quý 3 hoặc quý 4/2024 hoặc đến khi hoàn thành kế hoạch phát hành."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Thời gian giải ngân là quý 3 hoặc quý 4/2024 hoặc đến khi hoàn thành kế hoạch phát hành."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "quý 3 hoặc quý 4/2024 hoặc đến khi hoàn thành kế hoạch phát hành."
+    },
+    {
+        "text": "hoàn thành kế hoạch phát hành",
+        "label": "EVENT",
+        "evidence": "hoặc đến khi hoàn thành kế hoạch phát hành."
+    }
+]

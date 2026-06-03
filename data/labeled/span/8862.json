@@ -1,0 +1,687 @@
+[
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "theo chỉ đạo của Ngân hàng Nhà nước, nhiều ngân hàng đã triển khai lại hoạt động trả cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "triển khai lại hoạt động trả cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "nhiều ngân hàng đã triển khai lại hoạt động trả cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông",
+        "label": "EVENT",
+        "evidence": "Tính đến hiện tại có 6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "6 ngân hàng công bố hoặc đã triển khai chia cổ tức bằng tiền mặt cho cổ đông trong năm 2023 là TPBank, VIB, MB, ACB, VPBank và HDBank."
+    },
+    {
+        "text": "Ngày 3/4",
+        "label": "DATE",
+        "evidence": "Ngày 3/4, TPBank đã chi khoảng 3.955 tỷ đồng để thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Ngày 3/4, TPBank đã chi khoảng 3.955 tỷ đồng để thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "chi khoảng 3.955 tỷ đồng để thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ngày 3/4, TPBank đã chi khoảng 3.955 tỷ đồng để thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "3.955 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TPBank đã chi khoảng 3.955 tỷ đồng để thanh toán cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "cổ tức tiền mặt cho cổ đông với tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "2.500 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "tỷ lệ 25%, tương ứng 2.500 đồng/cổ phiếu."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Tại thời điểm TPBank chi trả cổ tức, Chủ tịch Đỗ Minh Phú không sở hữu cổ phần trong khi con trai và con gái ông Phú là Đỗ Minh Đức và Đỗ Vũ Phương Anh cùng nắm giữ gần 17,6 triệu cổ phiếu."
+    },
+    {
+        "text": "Chủ tịch Đỗ Minh Phú",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Đỗ Minh Phú không sở hữu cổ phần trong khi con trai và con gái ông Phú là Đỗ Minh Đức và Đỗ Vũ Phương Anh cùng nắm giữ gần 17,6 triệu cổ phiếu."
+    },
+    {
+        "text": "Đỗ Minh Đức",
+        "label": "PERSON",
+        "evidence": "con trai và con gái ông Phú là Đỗ Minh Đức và Đỗ Vũ Phương Anh cùng nắm giữ gần 17,6 triệu cổ phiếu."
+    },
+    {
+        "text": "Đỗ Vũ Phương Anh",
+        "label": "PERSON",
+        "evidence": "con trai và con gái ông Phú là Đỗ Minh Đức và Đỗ Vũ Phương Anh cùng nắm giữ gần 17,6 triệu cổ phiếu."
+    },
+    {
+        "text": "gần 17,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Đỗ Minh Đức và Đỗ Vũ Phương Anh cùng nắm giữ gần 17,6 triệu cổ phiếu."
+    },
+    {
+        "text": "gần 88 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hai người con của ông Phú đã nhận được tổng cộng gần 88 tỷ đồng cổ tức."
+    },
+    {
+        "text": "CTCP Tập đoàn vàng bạc đá quý Doji",
+        "label": "ORG",
+        "evidence": "Trong khi CTCP Tập đoàn vàng bạc đá quý Doji thu về hơn 234 tỷ đồng do nắm giữ hơn 93,8 triệu cổ phiếu TPBank (tương đương 5,93% cổ phần)."
+    },
+    {
+        "text": "hơn 234 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "CTCP Tập đoàn vàng bạc đá quý Doji thu về hơn 234 tỷ đồng do nắm giữ hơn 93,8 triệu cổ phiếu TPBank (tương đương 5,93% cổ phần)."
+    },
+    {
+        "text": "hơn 93,8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "thu về hơn 234 tỷ đồng do nắm giữ hơn 93,8 triệu cổ phiếu TPBank (tương đương 5,93% cổ phần)."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "nắm giữ hơn 93,8 triệu cổ phiếu TPBank (tương đương 5,93% cổ phần)."
+    },
+    {
+        "text": "5,93%",
+        "label": "RATE",
+        "evidence": "cổ phiếu TPBank (tương đương 5,93% cổ phần)."
+    },
+    {
+        "text": "hơn 58,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Việc sở hữu hơn 58,6 triệu cổ phiếu TPBank cũng giúp Phó chủ tịch Đỗ Anh Tú thu về hơn 146 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "sở hữu hơn 58,6 triệu cổ phiếu TPBank cũng giúp Phó chủ tịch Đỗ Anh Tú thu về hơn 146 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "Phó chủ tịch Đỗ Anh Tú",
+        "label": "PERSON",
+        "evidence": "Phó chủ tịch Đỗ Anh Tú thu về hơn 146 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "hơn 146 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phó chủ tịch Đỗ Anh Tú thu về hơn 146 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "Đỗ Minh Quân",
+        "label": "PERSON",
+        "evidence": "con trai và con gái của ông Tú là Đỗ Minh Quân và Đỗ Quỳnh Anh nhận được lần lượt hơn 132 tỷ đồng và 121 tỷ đồng."
+    },
+    {
+        "text": "Đỗ Quỳnh Anh",
+        "label": "PERSON",
+        "evidence": "con trai và con gái của ông Tú là Đỗ Minh Quân và Đỗ Quỳnh Anh nhận được lần lượt hơn 132 tỷ đồng và 121 tỷ đồng."
+    },
+    {
+        "text": "hơn 132 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhận được lần lượt hơn 132 tỷ đồng và 121 tỷ đồng."
+    },
+    {
+        "text": "121 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhận được lần lượt hơn 132 tỷ đồng và 121 tỷ đồng."
+    },
+    {
+        "text": "Trung Thị Lâm Ngọc",
+        "label": "PERSON",
+        "evidence": "Ngoài ra, bà Trung Thị Lâm Ngọc – Vợ ông Tú nhận được 3,5 tỷ đồng tiền cổ tức do sở hữu hơn 1,4 triệu cổ phiếu TPB."
+    },
+    {
+        "text": "3,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bà Trung Thị Lâm Ngọc – Vợ ông Tú nhận được 3,5 tỷ đồng tiền cổ tức do sở hữu hơn 1,4 triệu cổ phiếu TPB."
+    },
+    {
+        "text": "hơn 1,4 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "do sở hữu hơn 1,4 triệu cổ phiếu TPB."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "hơn 1,4 triệu cổ phiếu TPB."
+    },
+    {
+        "text": "Phó Chủ tịch Lê Quang Tiến",
+        "label": "PERSON",
+        "evidence": "Phó Chủ tịch Lê Quang Tiến cũng thu về hơn 142 tỷ đồng tiền cổ tức khi nắm giữ trên 57 triệu cổ phiếu TPBank."
+    },
+    {
+        "text": "hơn 142 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phó Chủ tịch Lê Quang Tiến cũng thu về hơn 142 tỷ đồng tiền cổ tức khi nắm giữ trên 57 triệu cổ phiếu TPBank."
+    },
+    {
+        "text": "trên 57 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "khi nắm giữ trên 57 triệu cổ phiếu TPBank."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "trên 57 triệu cổ phiếu TPBank."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tại VIB, ngày 7/4, ngân hàng này đã chốt danh sách cổ đông chi trả cổ tức năm 2022 còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "ngày 7/4",
+        "label": "DATE",
+        "evidence": "ngày 7/4, ngân hàng này đã chốt danh sách cổ đông chi trả cổ tức năm 2022 còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "chốt danh sách cổ đông chi trả cổ tức năm 2022 còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng",
+        "label": "EVENT",
+        "evidence": "ngân hàng này đã chốt danh sách cổ đông chi trả cổ tức năm 2022 còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "chi trả cổ tức năm 2022 còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "còn lại với tỷ lệ 5% bằng tiền, tương ứng cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "500 đồng",
+        "label": "PRICE",
+        "evidence": "cổ đông sở hữu 1 cổ phiếu sẽ được nhận 500 đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trước đó, VIB đsc thực hiện tạm ứng cổ tức năm 2022 bằng tiền với tỷ lệ 10% vào ngày 3/3, tương ứng cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "thực hiện tạm ứng cổ tức năm 2022 bằng tiền với tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "VIB đsc thực hiện tạm ứng cổ tức năm 2022 bằng tiền với tỷ lệ 10% vào ngày 3/3, tương ứng cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tạm ứng cổ tức năm 2022 bằng tiền với tỷ lệ 10% vào ngày 3/3, tương ứng cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "tức năm 2022 bằng tiền với tỷ lệ 10% vào ngày 3/3, tương ứng cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "ngày 3/3",
+        "label": "DATE",
+        "evidence": "tỷ lệ 10% vào ngày 3/3, tương ứng cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "1.000 đồng",
+        "label": "PRICE",
+        "evidence": "cổ đông sở hữu một cổ phiếu sẽ được nhận 1.000 đồng."
+    },
+    {
+        "text": "tổng mức chi trả cổ tức bằng tiền mặt trong 2 đợt là 15%, tương đương 1.500 đồng/cp",
+        "label": "EVENT",
+        "evidence": "Như vậy, tổng mức chi trả cổ tức bằng tiền mặt trong 2 đợt là 15%, tương đương 1.500 đồng/cp."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "tổng mức chi trả cổ tức bằng tiền mặt trong 2 đợt là 15%, tương đương 1.500 đồng/cp."
+    },
+    {
+        "text": "1.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "tổng mức chi trả cổ tức bằng tiền mặt trong 2 đợt là 15%, tương đương 1.500 đồng/cp."
+    },
+    {
+        "text": "Chủ tịch VIB Đặng Khắc Vĩ",
+        "label": "PERSON",
+        "evidence": "Chủ tịch VIB Đặng Khắc Vĩ sở hữu hơn 104,6 triệu cổ phiếu, tương ứng với số tiền cổ tức nhận được là gần 157 tỷ đồng."
+    },
+    {
+        "text": "hơn 104,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Chủ tịch VIB Đặng Khắc Vĩ sở hữu hơn 104,6 triệu cổ phiếu, tương ứng với số tiền cổ tức nhận được là gần 157 tỷ đồng."
+    },
+    {
+        "text": "gần 157 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số tiền cổ tức nhận được là gần 157 tỷ đồng."
+    },
+    {
+        "text": "Đặng Quang Tuấn",
+        "label": "PERSON",
+        "evidence": "Con trai ông Vĩ là Đặng Quang Tuấn cũng được chia gần 156 tỷ đồng khi sở hữu gần 103,9 triệu cổ phiếu VIB."
+    },
+    {
+        "text": "gần 156 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đặng Quang Tuấn cũng được chia gần 156 tỷ đồng khi sở hữu gần 103,9 triệu cổ phiếu VIB."
+    },
+    {
+        "text": "gần 103,9 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "khi sở hữu gần 103,9 triệu cổ phiếu VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "khi sở hữu gần 103,9 triệu cổ phiếu VIB."
+    },
+    {
+        "text": "hơn 104,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với việc sở hữu hơn 104,6 triệu cổ phiếu, ông Đỗ Xuân Hoàng – Thành viên HĐQT VIB - nhận được gần 157 tỷ đồng cổ tức."
+    },
+    {
+        "text": "ông Đỗ Xuân Hoàng",
+        "label": "PERSON",
+        "evidence": "ông Đỗ Xuân Hoàng – Thành viên HĐQT VIB - nhận được gần 157 tỷ đồng cổ tức."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "ông Đỗ Xuân Hoàng – Thành viên HĐQT VIB - nhận được gần 157 tỷ đồng cổ tức."
+    },
+    {
+        "text": "gần 157 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ông Đỗ Xuân Hoàng – Thành viên HĐQT VIB - nhận được gần 157 tỷ đồng cổ tức."
+    },
+    {
+        "text": "ông Đỗ Xuân Thụ",
+        "label": "PERSON",
+        "evidence": "Trong khi bố đẻ ông Hoàng là ông Đỗ Xuân Thụ được chia 81,6 tỷ đồng; con trai và con gái ông Hoàng nhận về lần lượt 40,5 tỷ đồng và 8,8 tỷ đồng, tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "81,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ông Đỗ Xuân Thụ được chia 81,6 tỷ đồng; con trai và con gái ông Hoàng nhận về lần lượt 40,5 tỷ đồng và 8,8 tỷ đồng, tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "40,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "con trai và con gái ông Hoàng nhận về lần lượt 40,5 tỷ đồng và 8,8 tỷ đồng, tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "8,8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "con trai và con gái ông Hoàng nhận về lần lượt 40,5 tỷ đồng và 8,8 tỷ đồng, tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "27 triệu",
+        "label": "VOLUME",
+        "evidence": "tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "5,9 triệu",
+        "label": "VOLUME",
+        "evidence": "tương ứng với 27 triệu và 5,9 triệu cổ phần nắm giữ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "số tiền cổ tức được VIB thanh toán cho Phó Chủ tịch Đặng Văn Sơn là gần 11,9 tỷ đồng, tương ứng với số cổ phiếu nắm giữ hơn 7,9 triệu đơn vị."
+    },
+    {
+        "text": "Phó Chủ tịch Đặng Văn Sơn",
+        "label": "PERSON",
+        "evidence": "số tiền cổ tức được VIB thanh toán cho Phó Chủ tịch Đặng Văn Sơn là gần 11,9 tỷ đồng, tương ứng với số cổ phiếu nắm giữ hơn 7,9 triệu đơn vị."
+    },
+    {
+        "text": "gần 11,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phó Chủ tịch Đặng Văn Sơn là gần 11,9 tỷ đồng, tương ứng với số cổ phiếu nắm giữ hơn 7,9 triệu đơn vị."
+    },
+    {
+        "text": "hơn 7,9 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "tương ứng với số cổ phiếu nắm giữ hơn 7,9 triệu đơn vị."
+    },
+    {
+        "text": "bà Đặng Thị Thu Hà",
+        "label": "PERSON",
+        "evidence": "Trong khi đó, bà Đặng Thị Thu Hà – vợ ông Sơn – nhận được 86,5 tỷ đồng."
+    },
+    {
+        "text": "86,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bà Đặng Thị Thu Hà – vợ ông Sơn – nhận được 86,5 tỷ đồng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Ngoài TPBank và VIB đã chia, một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngoài TPBank và VIB đã chia, một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "một số ngân hàng khác như ACB, VPBank, MB và HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "kế hoạch chia cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "HDBank cũng có kế hoạch chia cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2023",
+        "label": "EVENT",
+        "evidence": "Theo phương án đã được ĐHĐCĐ thường niên 2023 thông qua, ACB sẽ chia cổ tức năm 2022 với tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ĐHĐCĐ thường niên 2023 thông qua, ACB sẽ chia cổ tức năm 2022 với tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "chia cổ tức năm 2022 với tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt",
+        "label": "EVENT",
+        "evidence": "ACB sẽ chia cổ tức năm 2022 với tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "ACB sẽ chia cổ tức năm 2022 với tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "tổng tỷ lệ 25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "25%, trong đó 15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "15% là cổ phiếu và 10% là tiền mặt."
+    },
+    {
+        "text": "3.377 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quy mô cổ tức tiền mặt là khoảng 3.377 tỷ đồng."
+    },
+    {
+        "text": "hơn 115,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với việc sở hữu hơn 115,7 triệu cổ phiếu ACB, dự kiến Chủ tịch Trần Hùng Huy sẽ được hưởng khoản cổ tức tiền mặt lên tới 115,7 tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "sở hữu hơn 115,7 triệu cổ phiếu ACB, dự kiến Chủ tịch Trần Hùng Huy sẽ được hưởng khoản cổ tức tiền mặt lên tới 115,7 tỷ đồng."
+    },
+    {
+        "text": "Chủ tịch Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "dự kiến Chủ tịch Trần Hùng Huy sẽ được hưởng khoản cổ tức tiền mặt lên tới 115,7 tỷ đồng."
+    },
+    {
+        "text": "115,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cổ tức tiền mặt lên tới 115,7 tỷ đồng."
+    },
+    {
+        "text": "bà Đặng Thu Thủy",
+        "label": "PERSON",
+        "evidence": "Trong khi đó, bà Đặng Thu Thủy (mẹ ông Huy) dự kiến nhận về 40,3 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "40,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bà Đặng Thu Thủy (mẹ ông Huy) dự kiến nhận về 40,3 tỷ đồng tiền cổ tức."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank cũng sẽ trích 7.934 tỷ đồng để chia cổ tức bằng tiền mặt theo tỷ lệ 10% trong năm nay, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "trích 7.934 tỷ đồng để chia cổ tức bằng tiền mặt theo tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "VPBank cũng sẽ trích 7.934 tỷ đồng để chia cổ tức bằng tiền mặt theo tỷ lệ 10% trong năm nay, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "7.934 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VPBank cũng sẽ trích 7.934 tỷ đồng để chia cổ tức bằng tiền mặt theo tỷ lệ 10% trong năm nay, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "chia cổ tức bằng tiền mặt theo tỷ lệ 10% trong năm nay, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "1.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "theo tỷ lệ 10% trong năm nay, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Thời gian chia cổ tức dự kiến là trong quý 2 hoặc quý 3 và do Hội đồng quản trị quyết định, đảm bảo phù hợp quy định pháp luật và các điều kiện thực tế của ngân hàng."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Thời gian chia cổ tức dự kiến là trong quý 2 hoặc quý 3 và do Hội đồng quản trị quyết định, đảm bảo phù hợp quy định pháp luật và các điều kiện thực tế của ngân hàng."
+    },
+    {
+        "text": "Chủ tịch VPBank Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "Hiện Chủ tịch VPBank Ngô Chí Dũng đang sở hữu gần 328,6 triệu cổ phiếu VPB và các thành viên khác trong gia đình ông Dũng sở hữu tổng cộng 715,6 triệu cổ phiếu VPB."
+    },
+    {
+        "text": "gần 328,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Chủ tịch VPBank Ngô Chí Dũng đang sở hữu gần 328,6 triệu cổ phiếu VPB và các thành viên khác trong gia đình ông Dũng sở hữu tổng cộng 715,6 triệu cổ phiếu VPB."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "gần 328,6 triệu cổ phiếu VPB và các thành viên khác trong gia đình ông Dũng sở hữu tổng cộng 715,6 triệu cổ phiếu VPB."
+    },
+    {
+        "text": "715,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "gia đình ông Dũng sở hữu tổng cộng 715,6 triệu cổ phiếu VPB."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "sở hữu tổng cộng 715,6 triệu cổ phiếu VPB."
+    },
+    {
+        "text": "hơn 1.044 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dự kiến gia đình ông Dũng sẽ được nhận hơn 1.044 tỷ đồng cổ tức bằng tiền mặt trong năm nay."
+    },
+    {
+        "text": "Phó Chủ tịch VPBank Bùi Hải Quân",
+        "label": "PERSON",
+        "evidence": "Ngoài gia đình ông Dũng, Phó Chủ tịch VPBank Bùi Hải Quân và vợ cũng dự kiến được hưởng khoản cổ tức lên tới gần 443 tỷ đồng."
+    },
+    {
+        "text": "gần 443 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phó Chủ tịch VPBank Bùi Hải Quân và vợ cũng dự kiến được hưởng khoản cổ tức lên tới gần 443 tỷ đồng."
+    },
+    {
+        "text": "Tổng Giám đốc Nguyễn Đức Vinh",
+        "label": "PERSON",
+        "evidence": "Tổng Giám đốc Nguyễn Đức Vinh dự kiến được chia gần 105 tỷ đồng, vợ ông Vinh được hưởng 43,7 tỷ đồng và con trai là 27,2 tỷ đồng."
+    },
+    {
+        "text": "gần 105 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng Giám đốc Nguyễn Đức Vinh dự kiến được chia gần 105 tỷ đồng, vợ ông Vinh được hưởng 43,7 tỷ đồng và con trai là 27,2 tỷ đồng."
+    },
+    {
+        "text": "43,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vợ ông Vinh được hưởng 43,7 tỷ đồng và con trai là 27,2 tỷ đồng."
+    },
+    {
+        "text": "27,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vợ ông Vinh được hưởng 43,7 tỷ đồng và con trai là 27,2 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong năm 2023, HDBank cũng dự kiến trả cổ tức bằng tiền mặt 10%, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong năm 2023, HDBank cũng dự kiến trả cổ tức bằng tiền mặt 10%, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "dự kiến trả cổ tức bằng tiền mặt 10%",
+        "label": "EVENT",
+        "evidence": "HDBank cũng dự kiến trả cổ tức bằng tiền mặt 10%, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "HDBank cũng dự kiến trả cổ tức bằng tiền mặt 10%, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "1.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "trả cổ tức bằng tiền mặt 10%, tương đương 1.000 đồng/cp."
+    },
+    {
+        "text": "Phó Chủ tịch Nguyễn Thị Phương Thảo",
+        "label": "PERSON",
+        "evidence": "Phó Chủ tịch Nguyễn Thị Phương Thảo sẽ nhận được hơn 93,6 tỷ đồng cổ tức tiền mặt, tương ứng với hơn 93,6 triệu cổ phiếu HDB đang nắm giữ."
+    },
+    {
+        "text": "hơn 93,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phó Chủ tịch Nguyễn Thị Phương Thảo sẽ nhận được hơn 93,6 tỷ đồng cổ tức tiền mặt, tương ứng với hơn 93,6 triệu cổ phiếu HDB đang nắm giữ."
+    },
+    {
+        "text": "hơn 93,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 93,6 tỷ đồng cổ tức tiền mặt, tương ứng với hơn 93,6 triệu cổ phiếu HDB đang nắm giữ."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "tương ứng với hơn 93,6 triệu cổ phiếu HDB đang nắm giữ."
+    },
+    {
+        "text": "ông Nguyễn Hữu Đặng",
+        "label": "PERSON",
+        "evidence": "Trong khi ông Nguyễn Hữu Đặng dự kiến được phân phối hơn 69,7 tỷ đồng cổ tức bằng tiền mặt, tương ứng với 69,7 triệu cổ phiếu sở hữu."
+    },
+    {
+        "text": "hơn 69,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ông Nguyễn Hữu Đặng dự kiến được phân phối hơn 69,7 tỷ đồng cổ tức bằng tiền mặt, tương ứng với 69,7 triệu cổ phiếu sở hữu."
+    },
+    {
+        "text": "69,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "tương ứng với 69,7 triệu cổ phiếu sở hữu."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với MB, nhà băng này sẽ trả cổ tức bằng tiền mặt 5% trong năm nay."
+    },
+    {
+        "text": "trả cổ tức bằng tiền mặt 5%",
+        "label": "EVENT",
+        "evidence": "nhà băng này sẽ trả cổ tức bằng tiền mặt 5% trong năm nay."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "nhà băng này sẽ trả cổ tức bằng tiền mặt 5% trong năm nay."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, do các lãnh đạo MB sở hữu cá nhân không nhiều cổ phiếu, nên lượng cổ tức được hưởng chỉ rơi vào khoảng vài tỷ đồng."
+    }
+]

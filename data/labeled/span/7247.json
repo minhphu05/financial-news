@@ -1,0 +1,307 @@
+[
+    {
+        "text": "phiên 13/3",
+        "label": "DATE",
+        "evidence": "thị trường chứng khoán Việt Nam đã \"bay cao\" trong phiên 13/3."
+    },
+    {
+        "text": "Vn-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên, Vn-Index tăng 22,5 điểm (tương đương 2,05%) lên 1.270 điểm."
+    },
+    {
+        "text": "22,5 điểm",
+        "label": "RATE",
+        "evidence": "Kết phiên, Vn-Index tăng 22,5 điểm (tương đương 2,05%) lên 1.270 điểm."
+    },
+    {
+        "text": "2,05%",
+        "label": "RATE",
+        "evidence": "Vn-Index tăng 22,5 điểm (tương đương 2,05%) lên 1.270 điểm."
+    },
+    {
+        "text": "1.270 điểm",
+        "label": "PRICE",
+        "evidence": "Vn-Index tăng 22,5 điểm (tương đương 2,05%) lên 1.270 điểm."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "giá trị giao dịch khớp lệnh trên HOSE vượt 23.500 tỷ đồng."
+    },
+    {
+        "text": "23.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị giao dịch khớp lệnh trên HOSE vượt 23.500 tỷ đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VIB, ACB và MBB là ba mã ngân hàng tăng mạnh nhất phiên hôm nay khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VIB, ACB và MBB là ba mã ngân hàng tăng mạnh nhất phiên hôm nay khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VIB, ACB và MBB là ba mã ngân hàng tăng mạnh nhất phiên hôm nay khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "3,5%",
+        "label": "RATE",
+        "evidence": "khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "3,4%",
+        "label": "RATE",
+        "evidence": "khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "3,3%",
+        "label": "RATE",
+        "evidence": "khi \"xanh\" lần lượt 3,5%, 3,4% và 3,3%."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "2,7%",
+        "label": "RATE",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "2,2%",
+        "label": "RATE",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "1,9%",
+        "label": "RATE",
+        "evidence": "bật tăng mạnh như TPB (+2,7%), VPB (+2,7%), SHB (+2,2%), STB (+2%), TCB (+1,9%)."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "1,9%",
+        "label": "RATE",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "1,7%",
+        "label": "RATE",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "1,2%",
+        "label": "RATE",
+        "evidence": "CTG (+1,9%), VCB (+1,7%) và BID (+1,2%)."
+    },
+    {
+        "text": "phiên 13/3",
+        "label": "DATE",
+        "evidence": "Diễn biến cổ phiếu ngành ngân hàng phiên 13/3."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "(Nguồn: SSI)"
+    },
+    {
+        "text": "Vn-Index",
+        "label": "ASSET",
+        "evidence": "nhóm ngân hàng đã đóng góp 6/10 mã ảnh hưởng tích cực nhất tới Vn-Index phiên 13/3."
+    },
+    {
+        "text": "phiên 13/3",
+        "label": "DATE",
+        "evidence": "nhóm ngân hàng đã đóng góp 6/10 mã ảnh hưởng tích cực nhất tới Vn-Index phiên 13/3."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Riêng VCB kéo chỉ số này tăng gần 2,2 điểm;"
+    },
+    {
+        "text": "2,2 điểm",
+        "label": "RATE",
+        "evidence": "Riêng VCB kéo chỉ số này tăng gần 2,2 điểm;"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "0,97 điểm",
+        "label": "RATE",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "0,96 điểm",
+        "label": "RATE",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "0,86 điểm",
+        "label": "RATE",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "0,85 điểm",
+        "label": "RATE",
+        "evidence": "mức đóng góp của VPB, MBB, ACB và CTG lần lượt là 0,97 điểm, 0,96 điểm, 0,86 điểm và 0,85 điểm."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong đó, STB của Sacombank dẫn đầu toàn ngành với gần 16,5 triệu cổ phiếu được giao dịch khớp lệnh trực tiếp."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong đó, STB của Sacombank dẫn đầu toàn ngành với gần 16,5 triệu cổ phiếu được giao dịch khớp lệnh trực tiếp."
+    },
+    {
+        "text": "16,5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "STB của Sacombank dẫn đầu toàn ngành với gần 16,5 triệu cổ phiếu được giao dịch khớp lệnh trực tiếp."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đứng sau STB là EIB và MBB với khối lượng giao dịch cùng đạt trên 15,3 triệu đơn vị."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Đứng sau STB là EIB và MBB với khối lượng giao dịch cùng đạt trên 15,3 triệu đơn vị."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Đứng sau STB là EIB và MBB với khối lượng giao dịch cùng đạt trên 15,3 triệu đơn vị."
+    },
+    {
+        "text": "15,3 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "khối lượng giao dịch cùng đạt trên 15,3 triệu đơn vị."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB(mua 1,5 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "mua 1,5 triệu cp",
+        "label": "VOLUME",
+        "evidence": "VCB(mua 1,5 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "bán 2 triệu cp",
+        "label": "VOLUME",
+        "evidence": "VCB(mua 1,5 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB(mua 2,7 triệu cp – bán 2,7 triệu cp)"
+    },
+    {
+        "text": "mua 2,7 triệu cp",
+        "label": "VOLUME",
+        "evidence": "MBB(mua 2,7 triệu cp – bán 2,7 triệu cp)"
+    },
+    {
+        "text": "bán 2,7 triệu cp",
+        "label": "VOLUME",
+        "evidence": "MBB(mua 2,7 triệu cp – bán 2,7 triệu cp)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (mua 2 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "mua 2 triệu cp",
+        "label": "VOLUME",
+        "evidence": "STB (mua 2 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "bán 2 triệu cp",
+        "label": "VOLUME",
+        "evidence": "STB (mua 2 triệu cp – bán 2 triệu cp)"
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "OCB (mua 1,16 triệu cp – bán 33.000 cp)"
+    },
+    {
+        "text": "mua 1,16 triệu cp",
+        "label": "VOLUME",
+        "evidence": "OCB (mua 1,16 triệu cp – bán 33.000 cp)"
+    },
+    {
+        "text": "bán 33.000 cp",
+        "label": "VOLUME",
+        "evidence": "OCB (mua 1,16 triệu cp – bán 33.000 cp)"
+    }
+]

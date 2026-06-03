@@ -1,0 +1,272 @@
+[
+    {
+        "text": "Cuối tháng 9",
+        "label": "DATE",
+        "evidence": "Cuối tháng 9 vừa qua, Công ty Chứng khoán Yuanta Việt Nam đã tổ chức một cuộc họp với CTCP Vinhomes (mã chứng khoán:VHM)."
+    },
+    {
+        "text": "Công ty Chứng khoán Yuanta Việt Nam",
+        "label": "ORG",
+        "evidence": "Cuối tháng 9 vừa qua, Công ty Chứng khoán Yuanta Việt Nam đã tổ chức một cuộc họp với CTCP Vinhomes (mã chứng khoán:VHM)."
+    },
+    {
+        "text": "tổ chức một cuộc họp với CTCP Vinhomes",
+        "label": "EVENT",
+        "evidence": "Cuối tháng 9 vừa qua, Công ty Chứng khoán Yuanta Việt Nam đã tổ chức một cuộc họp với CTCP Vinhomes (mã chứng khoán:VHM)."
+    },
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "Cuối tháng 9 vừa qua, Công ty Chứng khoán Yuanta Việt Nam đã tổ chức một cuộc họp với CTCP Vinhomes (mã chứng khoán:VHM)."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Cuối tháng 9 vừa qua, Công ty Chứng khoán Yuanta Việt Nam đã tổ chức một cuộc họp với CTCP Vinhomes (mã chứng khoán:VHM)."
+    },
+    {
+        "text": "Yuanta",
+        "label": "ORG",
+        "evidence": "Báo cáo của Yuanta dẫn lại thông tin chia sẻ từ lãnh đạo của VHM cho hay, hiện giao dịch nội bộ của doanh nghiệp có 2 dạng."
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "Báo cáo của Yuanta dẫn lại thông tin chia sẻ từ lãnh đạo của VHM cho hay, hiện giao dịch nội bộ của doanh nghiệp có 2 dạng."
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "Đầu tiên, là các giao dịch dưới dạng hợp đồng BCC trong đó VHM đóng vai trò quan trọng về vốn và phát triển dự án."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Đổi lại việc cung cấp phần lớn vốn cho dự án, Vinhomes được hưởng 90-99% lợi nhuận của dự án."
+    },
+    {
+        "text": "90-99%",
+        "label": "RATE",
+        "evidence": "Đổi lại việc cung cấp phần lớn vốn cho dự án, Vinhomes được hưởng 90-99% lợi nhuận của dự án."
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "Thứ hai là các giao dịch mà VHM cho các đơn vị thành viên khác của Vingroup vay tiền với mức lãi suất thương mại – mức thị trường."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Thứ hai là các giao dịch mà VHM cho các đơn vị thành viên khác của Vingroup vay tiền với mức lãi suất thương mại – mức thị trường."
+    },
+    {
+        "text": "VHM cho các đơn vị thành viên khác của Vingroup vay tiền",
+        "label": "EVENT",
+        "evidence": "Thứ hai là các giao dịch mà VHM cho các đơn vị thành viên khác của Vingroup vay tiền với mức lãi suất thương mại – mức thị trường."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Những khoản cho vay này được giới hạn ở mức 5% tổng tài sản."
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "Vingroup đã và đang có những đóng góp đáng kể vào việc triển khai các đại dự án của VHM."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup đã và đang có những đóng góp đáng kể vào việc triển khai các đại dự án của VHM."
+    },
+    {
+        "text": "VHM",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, ban lãnh đạo VHM cho rằng, công ty có đủ khả năng để thực hiện các dự án của công ty một cách độc lập, ngay cả khi không có sự hỗ trợ từ Vingroup."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, ban lãnh đạo VHM cho rằng, công ty có đủ khả năng để thực hiện các dự án của công ty một cách độc lập, ngay cả khi không có sự hỗ trợ từ Vingroup."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Đại diện Vinhomes cho biết, bối cảnh kinh tế năm 2023 khác với giai đoạn đáy của thị trường bất động sản giai đoạn 2010-2012, khi mà sự quan tâm của nhà đầu tư suy giảm trầm trọng trong bối cảnh bong bóng tín dụng/tài sản/nhu cầu tiêu dùng trong nước sụp đổ."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Đại diện Vinhomes cho biết, bối cảnh kinh tế năm 2023 khác với giai đoạn đáy của thị trường bất động sản giai đoạn 2010-2012, khi mà sự quan tâm của nhà đầu tư suy giảm trầm trọng trong bối cảnh bong bóng tín dụng/tài sản/nhu cầu tiêu dùng trong nước sụp đổ."
+    },
+    {
+        "text": "2010-2012",
+        "label": "DATE",
+        "evidence": "Đại diện Vinhomes cho biết, bối cảnh kinh tế năm 2023 khác với giai đoạn đáy của thị trường bất động sản giai đoạn 2010-2012, khi mà sự quan tâm của nhà đầu tư suy giảm trầm trọng trong bối cảnh bong bóng tín dụng/tài sản/nhu cầu tiêu dùng trong nước sụp đổ."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Thứ hai, chi phí tín dụng thấp hơn 10% sẽ là yếu tố thúc đẩy hoạt động kinh doanh."
+    },
+    {
+        "text": "2010- 2012",
+        "label": "DATE",
+        "evidence": "“Như vậy, chu kỳ suy giảm hiện tại có thể không kéo dài lâu như chu kỳ năm 2010- 2012."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Điều này không có nghĩa là thị trường có khả năng sẽ phục hồi trong ngắn hạn, nhưng Vinhomes bày tỏ sự lạc quan về sự tăng trưởng đáng kể trong hoạt động của ngành bất động sản vào năm 2024”, Đại diện Vinhomes nêu."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Điều này không có nghĩa là thị trường có khả năng sẽ phục hồi trong ngắn hạn, nhưng Vinhomes bày tỏ sự lạc quan về sự tăng trưởng đáng kể trong hoạt động của ngành bất động sản vào năm 2024”, Đại diện Vinhomes nêu."
+    },
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "Theo báo cáo cập nhật hoạt động kinh doanh về CTCP Vinhomes của Chứng khoán VNDirect, doanh nghiệp dự kiến mở bán 3 dự án nhà ở xã hội mang thương hiệu Happy Home trong các tháng cuối năm 2023."
+    },
+    {
+        "text": "Chứng khoán VNDirect",
+        "label": "ORG",
+        "evidence": "Theo báo cáo cập nhật hoạt động kinh doanh về CTCP Vinhomes của Chứng khoán VNDirect, doanh nghiệp dự kiến mở bán 3 dự án nhà ở xã hội mang thương hiệu Happy Home trong các tháng cuối năm 2023."
+    },
+    {
+        "text": "mở bán 3 dự án nhà ở xã hội mang thương hiệu Happy Home",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo cập nhật hoạt động kinh doanh về CTCP Vinhomes của Chứng khoán VNDirect, doanh nghiệp dự kiến mở bán 3 dự án nhà ở xã hội mang thương hiệu Happy Home trong các tháng cuối năm 2023."
+    },
+    {
+        "text": "các tháng cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo cập nhật hoạt động kinh doanh về CTCP Vinhomes của Chứng khoán VNDirect, doanh nghiệp dự kiến mở bán 3 dự án nhà ở xã hội mang thương hiệu Happy Home trong các tháng cuối năm 2023."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect ước tính 3 dự án trên sẽ mang lại khoảng 2.200 tỷ đồng giá trị hợp đồng ký mới trong giai đoạn 2024-2025.﻿"
+    },
+    {
+        "text": "2.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VNDirect ước tính 3 dự án trên sẽ mang lại khoảng 2.200 tỷ đồng giá trị hợp đồng ký mới trong giai đoạn 2024-2025.﻿"
+    },
+    {
+        "text": "2024-2025",
+        "label": "DATE",
+        "evidence": "VNDirect ước tính 3 dự án trên sẽ mang lại khoảng 2.200 tỷ đồng giá trị hợp đồng ký mới trong giai đoạn 2024-2025.﻿"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vinhomes là ﻿một trong các chủ đầu tư tích cực tham gia cuộc chơi nhà ở xã hội với 4 dự án."
+    },
+    {
+        "text": "bán niên năm 2023",
+        "label": "DATE",
+        "evidence": "Mới đây, tại BCTC soát xét bán niên năm 2023 của CTCP Vinhomes cho biết, doanh nghiệp này và các công ty con đã mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm từ các đối tác."
+    },
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "Mới đây, tại BCTC soát xét bán niên năm 2023 của CTCP Vinhomes cho biết, doanh nghiệp này và các công ty con đã mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm từ các đối tác."
+    },
+    {
+        "text": "mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm",
+        "label": "EVENT",
+        "evidence": "Mới đây, tại BCTC soát xét bán niên năm 2023 của CTCP Vinhomes cho biết, doanh nghiệp này và các công ty con đã mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm từ các đối tác."
+    },
+    {
+        "text": "51,33%",
+        "label": "RATE",
+        "evidence": "Mới đây, tại BCTC soát xét bán niên năm 2023 của CTCP Vinhomes cho biết, doanh nghiệp này và các công ty con đã mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm từ các đối tác."
+    },
+    {
+        "text": "CTCP Du lịch Cá Tầm",
+        "label": "ORG",
+        "evidence": "Mới đây, tại BCTC soát xét bán niên năm 2023 của CTCP Vinhomes cho biết, doanh nghiệp này và các công ty con đã mua thêm 51,33% cổ phần để sở hữu hoàn toàn cổ phần CTCP Du lịch Cá Tầm từ các đối tác."
+    },
+    {
+        "text": "197,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "153,8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "44 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "48,67%",
+        "label": "RATE",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "Du lịch Cá Tầm",
+        "label": "ORG",
+        "evidence": "Tổng giá phí hợp nhất kinh doanh là gần 197,5 tỷ đồng, trong đó có gần 153,8 tỷ đồng đã được thanh toán bằng tiền và gần 44 tỷ đồng còn lại là giá trị của khoản đầu tư của Vinhomes và các công ty con vào 48,67% vốn Du lịch Cá Tầm trước đó."
+    },
+    {
+        "text": "Du lịch Cá Tầm trở thành công ty con của Vinhomes",
+        "label": "EVENT",
+        "evidence": "Như vậy, Du lịch Cá Tầm trở thành công ty con của Vinhomes."
+    },
+    {
+        "text": "Du lịch Cá Tầm",
+        "label": "ORG",
+        "evidence": "Như vậy, Du lịch Cá Tầm trở thành công ty con của Vinhomes."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Như vậy, Du lịch Cá Tầm trở thành công ty con của Vinhomes."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Thành viên của tập đoàn Vingroup này cũng cho biết thêm, tại ngày mua Cá Tầm đang sở hữu một dự án bất động sản.﻿"
+    },
+    {
+        "text": "Cá Tầm",
+        "label": "ORG",
+        "evidence": "Thành viên của tập đoàn Vingroup này cũng cho biết thêm, tại ngày mua Cá Tầm đang sở hữu một dự án bất động sản.﻿"
+    },
+    {
+        "text": "Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm",
+        "label": "EVENT",
+        "evidence": "Trước đó, lần đầu tiên Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm là đầu năm 2022, với tỷ lệ sở hữu hơn 48%."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Trước đó, lần đầu tiên Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm là đầu năm 2022, với tỷ lệ sở hữu hơn 48%."
+    },
+    {
+        "text": "Du lịch Cá Tầm",
+        "label": "ORG",
+        "evidence": "Trước đó, lần đầu tiên Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm là đầu năm 2022, với tỷ lệ sở hữu hơn 48%."
+    },
+    {
+        "text": "đầu năm 2022",
+        "label": "DATE",
+        "evidence": "Trước đó, lần đầu tiên Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm là đầu năm 2022, với tỷ lệ sở hữu hơn 48%."
+    },
+    {
+        "text": "48%",
+        "label": "RATE",
+        "evidence": "Trước đó, lần đầu tiên Vinhomes ghi nhận khoản đầu tư vào Du lịch Cá Tầm là đầu năm 2022, với tỷ lệ sở hữu hơn 48%."
+    }
+]

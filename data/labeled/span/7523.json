@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "thẻ ATM Vietcombank"
+    },
+    {
+        "text": "rút tiền với thẻ ATM Vietcombank",
+        "label": "EVENT",
+        "evidence": "Dưới đây là cách rút tiền với thẻ ATM Vietcombank cho những người sử dụng lần đầu tiên."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "máy ATM của Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "thẻ chính chủ của Vietcombank"
+    },
+    {
+        "text": "không bị tính phí",
+        "label": "EVENT",
+        "evidence": "nếu sử dụng thẻ chính chủ của Vietcombank, bạn sẽ không bị tính phí."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "các máy ATM Vietcombank"
+    },
+    {
+        "text": "ngân hàng",
+        "label": "ORG",
+        "evidence": "trang web của ngân hàng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "máy ATM Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "thẻ Vietcombank"
+    },
+    {
+        "text": "nhập sai mã PIN quá ba lần, thẻ của bạn sẽ bị \"nuốt\" bởi máy",
+        "label": "EVENT",
+        "evidence": "Lưu ý rằng nếu bạn nhập sai mã PIN quá ba lần, thẻ của bạn sẽ bị \"nuốt\" bởi máy."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "thẻ ATM Vietcombank"
+    },
+    {
+        "text": "thay đổi mật khẩu, mã PIN thẻ ATM Vietcombank",
+        "label": "EVENT",
+        "evidence": "Khi sử dụng lần đầu, bạn cần thay đổi mật khẩu, mã PIN thẻ ATM Vietcombank."
+    },
+    {
+        "text": "ngân hàng",
+        "label": "ORG",
+        "evidence": "nhận thẻ từ ngân hàng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "thẻ ATM Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "máy ATM Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "máy ATM Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "từ máy ATM Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "từ máy ATM Vietcombank"
+    },
+    {
+        "text": "số tiền bạn nhập phải chia hết cho mệnh giá nhất định",
+        "label": "EVENT",
+        "evidence": "Để rút tiền thành công từ máy ATM Vietcombank, số tiền bạn nhập phải chia hết cho mệnh giá nhất định."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "máy ATM Vietcombank là 50.000 đồng"
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "mệnh giá của máy ATM Vietcombank là 50.000 đồng"
+    }
+]

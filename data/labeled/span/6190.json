@@ -1,0 +1,282 @@
+[
+    {
+        "text": "14/7",
+        "label": "DATE",
+        "evidence": "Phần lớn cổ phiếu ngành này có diễn biến khá tích cực trong sáng nay (14/7) với sắc xanh chiếm chủ đạo."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "trong đó STB của Sacombank có những thời điểm giảm kịch biên độ."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "trong đó STB của Sacombank có những thời điểm giảm kịch biên độ."
+    },
+    {
+        "text": "giao dịch ATC",
+        "label": "EVENT",
+        "evidence": "Bất ngờ nữa lại đến khi hàng loạt mã đảo chiều hồi phục trong những phút giao dịch ATC."
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "+2,4%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "+1,6%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "+1,6%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã tăng mạnh nhất là PGB của PGBank (+2,4%), HDB của HDBank (+1,6%), MBB (+1,6%)."
+    },
+    {
+        "text": "ngày giao dịch không hưởng quyền của cổ phiếu MBB để thực hiện trả cổ tức bằng cổ phiếu, tỷ lệ 15%",
+        "label": "EVENT",
+        "evidence": "Hôm nay là ngày giao dịch không hưởng quyền của cổ phiếu MBB để thực hiện trả cổ tức bằng cổ phiếu, tỷ lệ 15%."
+    },
+    {
+        "text": "cổ phiếu MBB",
+        "label": "ASSET",
+        "evidence": "Hôm nay là ngày giao dịch không hưởng quyền của cổ phiếu MBB để thực hiện trả cổ tức bằng cổ phiếu, tỷ lệ 15%."
+    },
+    {
+        "text": "cổ tức bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Hôm nay là ngày giao dịch không hưởng quyền của cổ phiếu MBB để thực hiện trả cổ tức bằng cổ phiếu, tỷ lệ 15%."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Hôm nay là ngày giao dịch không hưởng quyền của cổ phiếu MBB để thực hiện trả cổ tức bằng cổ phiếu, tỷ lệ 15%."
+    },
+    {
+        "text": "18.650 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Sau điều chỉnh, giá cổ phiếu MBB kết phiên ở mức 18.650 đồng/cp."
+    },
+    {
+        "text": "phiên ATC",
+        "label": "EVENT",
+        "evidence": "HDB đảo chiều bất ngờ trong phiên ATC, từ mức -0,3% lên +1,6%."
+    },
+    {
+        "text": "-0,3%",
+        "label": "RATE",
+        "evidence": "HDB đảo chiều bất ngờ trong phiên ATC, từ mức -0,3% lên +1,6%."
+    },
+    {
+        "text": "+1,6%",
+        "label": "RATE",
+        "evidence": "HDB đảo chiều bất ngờ trong phiên ATC, từ mức -0,3% lên +1,6%."
+    },
+    {
+        "text": "giá trị giao dịch đạt 60 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản HDB tăng khá mạnh so với các phiên trước, với giá trị giao dịch đạt 60 tỷ đồng, gấp 2 lần phiên 13/7."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản HDB tăng khá mạnh so với các phiên trước, với giá trị giao dịch đạt 60 tỷ đồng, gấp 2 lần phiên 13/7."
+    },
+    {
+        "text": "13/7",
+        "label": "DATE",
+        "evidence": "Thanh khoản HDB tăng khá mạnh so với các phiên trước, với giá trị giao dịch đạt 60 tỷ đồng, gấp 2 lần phiên 13/7."
+    },
+    {
+        "text": "giao dịch thỏa thuận đột biến",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này ghi nhận giao dịch thỏa thuận đột biến hôm 11/7 với hơn 50% số cổ phiếu lưu hành được trao tay với giá trị hơn 3.200 tỷ đồng."
+    },
+    {
+        "text": "11/7",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này ghi nhận giao dịch thỏa thuận đột biến hôm 11/7 với hơn 50% số cổ phiếu lưu hành được trao tay với giá trị hơn 3.200 tỷ đồng."
+    },
+    {
+        "text": "hơn 50% số cổ phiếu lưu hành được trao tay",
+        "label": "VOLUME",
+        "evidence": "Cổ phiếu này ghi nhận giao dịch thỏa thuận đột biến hôm 11/7 với hơn 50% số cổ phiếu lưu hành được trao tay với giá trị hơn 3.200 tỷ đồng."
+    },
+    {
+        "text": "giá trị hơn 3.200 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cổ phiếu này ghi nhận giao dịch thỏa thuận đột biến hôm 11/7 với hơn 50% số cổ phiếu lưu hành được trao tay với giá trị hơn 3.200 tỷ đồng."
+    },
+    {
+        "text": "3.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu này ghi nhận giao dịch thỏa thuận đột biến hôm 11/7 với hơn 50% số cổ phiếu lưu hành được trao tay với giá trị hơn 3.200 tỷ đồng."
+    },
+    {
+        "text": "14/7",
+        "label": "DATE",
+        "evidence": "Ở chiều ngược lại, nhiều cổ phiếu ngân hàng giảm mạnh ngày 14/7, trong đó STB của Sacombank là tâm điểm của ngành."
+    },
+    {
+        "text": "27.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này có thời điểm giảm sàn trong phiên chiều xuống còn 27.900 đồng/cp."
+    },
+    {
+        "text": "-3,3%",
+        "label": "RATE",
+        "evidence": "STB hồi phục nhẹ vào cuối phiên, giúp thu hẹp mức giảm còn -3,3%."
+    },
+    {
+        "text": "Thanh khoản STB tăng vọt với hơn 74,8 triệu cổ phiếu được khớp lệnh",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản STB tăng vọt với hơn 74,8 triệu cổ phiếu được khớp lệnh, giá trị hơn 2.100 tỷ đồng, gấp 7 lần phiên liền trước."
+    },
+    {
+        "text": "hơn 74,8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản STB tăng vọt với hơn 74,8 triệu cổ phiếu được khớp lệnh, giá trị hơn 2.100 tỷ đồng, gấp 7 lần phiên liền trước."
+    },
+    {
+        "text": "giá trị hơn 2.100 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản STB tăng vọt với hơn 74,8 triệu cổ phiếu được khớp lệnh, giá trị hơn 2.100 tỷ đồng, gấp 7 lần phiên liền trước."
+    },
+    {
+        "text": "2.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản STB tăng vọt với hơn 74,8 triệu cổ phiếu được khớp lệnh, giá trị hơn 2.100 tỷ đồng, gấp 7 lần phiên liền trước."
+    },
+    {
+        "text": "Khối ngoại bán ròng hơn 10 triệu cp STB",
+        "label": "EVENT",
+        "evidence": "Khối ngoại bán ròng hơn 10 triệu cp STB chỉ trong phiên hôm nay, giá trị tới 291 tỷ đồng."
+    },
+    {
+        "text": "hơn 10 triệu cp STB",
+        "label": "VOLUME",
+        "evidence": "Khối ngoại bán ròng hơn 10 triệu cp STB chỉ trong phiên hôm nay, giá trị tới 291 tỷ đồng."
+    },
+    {
+        "text": "291 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối ngoại bán ròng hơn 10 triệu cp STB chỉ trong phiên hôm nay, giá trị tới 291 tỷ đồng."
+    },
+    {
+        "text": "Cổ phiếuSTB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếuSTBcũng là mã có ảnh hưởng tiêu cực nhất tới chỉ số chung thị trường hôm nay."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "-2,2%",
+        "label": "RATE",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "-1,9%",
+        "label": "RATE",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "-1,6%",
+        "label": "RATE",
+        "evidence": "Một số cổ phiếu khác giảm trên dưới 2% như LPB (-2,2%), MSB (-1,9%), OCB (-1,6%),…"
+    },
+    {
+        "text": "2,5%",
+        "label": "RATE",
+        "evidence": "Trước đó, LPB có lúc giảm 2,5%, MSB giảm 2,7%, OCB giảm 3,2%."
+    },
+    {
+        "text": "2,7%",
+        "label": "RATE",
+        "evidence": "Trước đó, LPB có lúc giảm 2,5%, MSB giảm 2,7%, OCB giảm 3,2%."
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "Trước đó, LPB có lúc giảm 2,5%, MSB giảm 2,7%, OCB giảm 3,2%."
+    },
+    {
+        "text": "Thanh khoản toàn ngành hôm nay tăng vọt, đạt hơn 4.700 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản toàn ngành hôm nay tăng vọt, đạt hơn 4.700 tỷ đồng, trong đó chủ yếu do thanh khoản đột biến của STB."
+    },
+    {
+        "text": "4.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản toàn ngành hôm nay tăng vọt, đạt hơn 4.700 tỷ đồng, trong đó chủ yếu do thanh khoản đột biến của STB."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Ngoài STB bị nhà đầu tư nước ngoài bán ròng thì còn có một số mã ngân hàng khác như VPB của VPBank, CTG của VietinBank, EIB của Eximbank."
+    }
+]

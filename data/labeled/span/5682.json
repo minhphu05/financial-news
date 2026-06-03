@@ -1,0 +1,62 @@
+[
+    {
+        "text": "hình thức lừa đảo mới",
+        "label": "EVENT",
+        "evidence": "Theo ghi nhận về hình thức lừa đảo mới, các đối tượng thường tự xưng là nhân viên chuyển phát nhanh, liên hệ với khách hàng để thông báo về việc khách hàng có bưu phẩm, cụ thể là thẻ tín dụng của Ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Theo ghi nhận về hình thức lừa đảo mới, các đối tượng thường tự xưng là nhân viên chuyển phát nhanh, liên hệ với khách hàng để thông báo về việc khách hàng có bưu phẩm, cụ thể là thẻ tín dụng của Ngân hàng."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB khẳng định, dịch vụ chuyển phát nhanh thẻ tín dụng của ngân hàng HOÀN TOÀN MIỄN PHÍ."
+    },
+    {
+        "text": "dịch vụ chuyển phát nhanh thẻ tín dụng của ngân hàng HOÀN TOÀN MIỄN PHÍ",
+        "label": "EVENT",
+        "evidence": "SHB khẳng định, dịch vụ chuyển phát nhanh thẻ tín dụng của ngân hàng HOÀN TOÀN MIỄN PHÍ."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB tuyệt đối KHÔNG yêu cầu khách hàng đăng nhập hoặc chuyển khoản bất kỳ chi phí nhận thẻ."
+    },
+    {
+        "text": "SHB tuyệt đối KHÔNG yêu cầu khách hàng đăng nhập hoặc chuyển khoản bất kỳ chi phí nhận thẻ",
+        "label": "EVENT",
+        "evidence": "SHB tuyệt đối KHÔNG yêu cầu khách hàng đăng nhập hoặc chuyển khoản bất kỳ chi phí nhận thẻ."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB đặc biệt khuyến cáo:"
+    },
+    {
+        "text": "SHB đặc biệt khuyến cáo",
+        "label": "EVENT",
+        "evidence": "SHB đặc biệt khuyến cáo:"
+    },
+    {
+        "text": "thẻ tín dụng SHB",
+        "label": "ASSET",
+        "evidence": "- Tuyệt đối không chuyển khoản cho bất kỳ người tự xưng là nhân viên chuyển phát nhanh khi giao phát thẻ tín dụng SHB."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "- Tuyệt đối không chuyển khoản cho bất kỳ người tự xưng là nhân viên chuyển phát nhanh khi giao phát thẻ tín dụng SHB."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "- Không cung cấp thông tin cá nhân, không truy cập, đăng nhập thông tin tài khoản ngân hàng hoặc thông tin thẻ tín dụng tại bất kỳ đường link theo yêu cầu qua điện thoại, tin nhắn hoặc email không rõ nguồn gốc."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "- Liên hệ ngay Tổng đài hỗ trợ khách hàng 24/7 hotline *6688, các điểm giao dịch SHB hoặc cơ quan công an gần nhất."
+    }
+]

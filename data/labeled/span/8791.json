@@ -1,0 +1,512 @@
+[
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giảm thêm 1 triệu đồng cho chủ thẻ khi mua nhẫn cưới"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Hiểu được điều này, VIB dành tặng ưu đãi giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ."
+    },
+    {
+        "text": "giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ",
+        "label": "EVENT",
+        "evidence": "Hiểu được điều này, VIB dành tặng ưu đãi giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Hiểu được điều này, VIB dành tặng ưu đãi giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ."
+    },
+    {
+        "text": "25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Hiểu được điều này, VIB dành tặng ưu đãi giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ."
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Hiểu được điều này, VIB dành tặng ưu đãi giảm thêm 1 triệu đồng cho hóa đơn từ 25 triệu đồng tại PNJ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "Hoayeuthuong.com",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "Potico.vn",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "giảm... 25% tại Potico.vn",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, khi mua hoa trang trí nhà cửa cho dịp trọng đại, chủ thẻ VIB sẽ được giảm ngay 10% trên tổng hóa đơn tại Hoayeuthuong.com và 25% tại Potico.vn."
+    },
+    {
+        "text": "Watsons",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các hóa đơn mua mỹ phẩm tại Watsons cũng sẽ được giảm 10% cho hóa đơn từ 500.000 đồng."
+    },
+    {
+        "text": "giảm 10% cho hóa đơn từ 500.000 đồng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các hóa đơn mua mỹ phẩm tại Watsons cũng sẽ được giảm 10% cho hóa đơn từ 500.000 đồng."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, các hóa đơn mua mỹ phẩm tại Watsons cũng sẽ được giảm 10% cho hóa đơn từ 500.000 đồng."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, các hóa đơn mua mỹ phẩm tại Watsons cũng sẽ được giảm 10% cho hóa đơn từ 500.000 đồng."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Giảm đến 30% chi phí lưu trú để chụp hình cưới và tổ chức tiệc"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đáp ứng xu hướng này, VIB dành tặng ưu đãi giảm đến 30% khi sử dụng dịch vụ lưu trú tại các địa điểm phổ biến như Đà Nẵng, Hội An, Phú Quốc, Cam Ranh, Vũng Tàu…"
+    },
+    {
+        "text": "giảm đến 30% khi sử dụng dịch vụ lưu trú",
+        "label": "EVENT",
+        "evidence": "Đáp ứng xu hướng này, VIB dành tặng ưu đãi giảm đến 30% khi sử dụng dịch vụ lưu trú tại các địa điểm phổ biến như Đà Nẵng, Hội An, Phú Quốc, Cam Ranh, Vũng Tàu…"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Đáp ứng xu hướng này, VIB dành tặng ưu đãi giảm đến 30% khi sử dụng dịch vụ lưu trú tại các địa điểm phổ biến như Đà Nẵng, Hội An, Phú Quốc, Cam Ranh, Vũng Tàu…"
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Giảm đến 21% giá vé máy bay để lịch trình di chuyển cho đám cưới được chu toàn"
+    },
+    {
+        "text": "thẻ tín dụngVIB",
+        "label": "ASSET",
+        "evidence": "Sở hữu thẻ tín dụngVIB, người dùng có thể tận dụng các chương trình giảm giá vé máy bay để sắp xếp chu toàn cho vấn đề đi lại của chính mình, cũng như gia đình hai bên."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Sở hữu thẻ tín dụngVIB, người dùng có thể tận dụng các chương trình giảm giá vé máy bay để sắp xếp chu toàn cho vấn đề đi lại của chính mình, cũng như gia đình hai bên."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Chỉ cần lựa chọn lịch trình phù hợp và mua vé tại Vietnam Airlines, khách hàng sẽ được giảm ngay 5% cho vé máy bay quốc tế và 10% cho vé máy bay nội địa."
+    },
+    {
+        "text": "giảm ngay 5% cho vé máy bay quốc tế và 10% cho vé máy bay nội địa",
+        "label": "EVENT",
+        "evidence": "Chỉ cần lựa chọn lịch trình phù hợp và mua vé tại Vietnam Airlines, khách hàng sẽ được giảm ngay 5% cho vé máy bay quốc tế và 10% cho vé máy bay nội địa."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Chỉ cần lựa chọn lịch trình phù hợp và mua vé tại Vietnam Airlines, khách hàng sẽ được giảm ngay 5% cho vé máy bay quốc tế và 10% cho vé máy bay nội địa."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Chỉ cần lựa chọn lịch trình phù hợp và mua vé tại Vietnam Airlines, khách hàng sẽ được giảm ngay 5% cho vé máy bay quốc tế và 10% cho vé máy bay nội địa."
+    },
+    {
+        "text": "Qatar Airways",
+        "label": "ORG",
+        "evidence": "Riêng với hãng Qatar Airways và Singapore Airlines, chủ thẻ VIB được hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé."
+    },
+    {
+        "text": "Singapore Airlines",
+        "label": "ORG",
+        "evidence": "Riêng với hãng Qatar Airways và Singapore Airlines, chủ thẻ VIB được hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Riêng với hãng Qatar Airways và Singapore Airlines, chủ thẻ VIB được hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé."
+    },
+    {
+        "text": "hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé",
+        "label": "EVENT",
+        "evidence": "Riêng với hãng Qatar Airways và Singapore Airlines, chủ thẻ VIB được hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Riêng với hãng Qatar Airways và Singapore Airlines, chủ thẻ VIB được hưởng ưu đãi giảm đến 10% tùy thuộc hạng vé."
+    },
+    {
+        "text": "giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka",
+        "label": "EVENT",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "400.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "Traveloka",
+        "label": "ORG",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "giảm 250.000 VNĐ tại iVIVU.com",
+        "label": "EVENT",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "250.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "iVIVU.com",
+        "label": "ORG",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn",
+        "label": "EVENT",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "150.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "Mytour.vn",
+        "label": "ORG",
+        "evidence": "Người dùng còn được giảm ngay 400.000 VNĐ khi đặt vé máy bay trực tuyến tại Traveloka; giảm 250.000 VNĐ tại iVIVU.com; giảm đến 150.000 VNĐ cho vé nội địa, vé đến khu vực Đông Nam Á và Đông Bắc Á khi mua qua Mytour.vn."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Khi nhập mã \"MCSKYVN\", chủ thẻ VIB còn được giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com."
+    },
+    {
+        "text": "giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com",
+        "label": "EVENT",
+        "evidence": "Khi nhập mã \"MCSKYVN\", chủ thẻ VIB còn được giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Khi nhập mã \"MCSKYVN\", chủ thẻ VIB còn được giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com."
+    },
+    {
+        "text": "11.000.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "Khi nhập mã \"MCSKYVN\", chủ thẻ VIB còn được giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com."
+    },
+    {
+        "text": "Trip.com",
+        "label": "ORG",
+        "evidence": "Khi nhập mã \"MCSKYVN\", chủ thẻ VIB còn được giảm 21% khi chi tiêu tối thiểu 11.000.000 VNĐ cho vé máy bay tại Trip.com."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Giảm đến 30% mọi dịch vụ cho tuần trăng mật"
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước",
+        "label": "EVENT",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "Ibis Styles Vũng Tàu",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "New World Phú Quốc Resort",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "Legacy Yên Tử",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "Hôtel Perle d'Orient Cát Bà",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "Almanity Resort and Spa Hội An",
+        "label": "ORG",
+        "evidence": "Để có một chuyến đi lý tưởng, nhiều người đã sử dụng các đặc quyền dành riêng cho chủ thẻ tín dụng VIB như giảm đến 30% cho lưu trú, 15% cho ẩm thực và 30% cho spa tại các khách sạn, khu nghỉ dưỡng cao cấp trong nước như Ibis Styles Vũng Tàu, New World Phú Quốc Resort, Legacy Yên Tử, Hôtel Perle d'Orient Cát Bà, Almanity Resort and Spa Hội An…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tại nước ngoài, khách hàng VIB dễ dàng tìm được những điểm đến thú vị như Bangkok, Phuket, Krabi, Samui, Maldives và tận hưởng ưu đãi được tặng 1 đêm nghỉ tại chuỗi Centara Hotels & Resorts."
+    },
+    {
+        "text": "tận hưởng ưu đãi được tặng 1 đêm nghỉ tại chuỗi Centara Hotels & Resorts",
+        "label": "EVENT",
+        "evidence": "Tại nước ngoài, khách hàng VIB dễ dàng tìm được những điểm đến thú vị như Bangkok, Phuket, Krabi, Samui, Maldives và tận hưởng ưu đãi được tặng 1 đêm nghỉ tại chuỗi Centara Hotels & Resorts."
+    },
+    {
+        "text": "Centara Hotels & Resorts",
+        "label": "ORG",
+        "evidence": "Tại nước ngoài, khách hàng VIB dễ dàng tìm được những điểm đến thú vị như Bangkok, Phuket, Krabi, Samui, Maldives và tận hưởng ưu đãi được tặng 1 đêm nghỉ tại chuỗi Centara Hotels & Resorts."
+    },
+    {
+        "text": "thẻ Super Card",
+        "label": "ASSET",
+        "evidence": "Riêng phần mua sắm, khi thanh toán mua sắm bằng thẻ Super Card tại Mỹ, Nhật Bản, Mexico, Anh, Colombia, Singapore, Hong Kong... các cặp đôi mới cưới sẽ được giảm đến 20% với mã \"AMEX20\"."
+    },
+    {
+        "text": "giảm đến 20%",
+        "label": "EVENT",
+        "evidence": "Riêng phần mua sắm, khi thanh toán mua sắm bằng thẻ Super Card tại Mỹ, Nhật Bản, Mexico, Anh, Colombia, Singapore, Hong Kong... các cặp đôi mới cưới sẽ được giảm đến 20% với mã \"AMEX20\"."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Riêng phần mua sắm, khi thanh toán mua sắm bằng thẻ Super Card tại Mỹ, Nhật Bản, Mexico, Anh, Colombia, Singapore, Hong Kong... các cặp đôi mới cưới sẽ được giảm đến 20% với mã \"AMEX20\"."
+    },
+    {
+        "text": "VIBTravel Élite",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "3 kỳ sao kê đầu tiên",
+        "label": "DATE",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "các kỳ tiếp theo",
+        "label": "DATE",
+        "evidence": "Ngoài ra, VIBTravel Élitecó mức phí giao dịch ngoại tệ tốt nhất thị trường, 0% cho 3 kỳ sao kê đầu tiên và chỉ 1% cho các kỳ tiếp theo, giúp người dùng tiết kiệm đáng kể khi chi tiêu tại nước ngoài."
+    },
+    {
+        "text": "55%",
+        "label": "RATE",
+        "evidence": "Giảm đến 55% thiết kế và nội thất để xây dựng tổ ấm cho đôi lứa"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Đối với không gian sống dành cho vợ chồng sau cưới, VIB cùng nhiều đối tác mang đến nhiều ưu đãi giúp tối ưu hóa chi phí mua sắm và trang trí."
+    },
+    {
+        "text": "giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "GLAMIN",
+        "label": "ORG",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "350 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "EUROGOLD",
+        "label": "ORG",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "15 - 50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Khi thanh toán và đặt cọc chi phí thiết kế tại GLAMIN với công trình trên 350 triệu đồng bằng thẻ VIB, chủ nhà sẽ được giảm 50% giá trị, đồng thời nhận quà tặng Bộ phụ kiện bếp chính hãng EUROGOLD có giá trị từ 15 - 50 triệu đồng."
+    },
+    {
+        "text": "giảm giá đáng kể như 15% khi mua sắm tại Electrolux",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "Electrolux",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "giảm giá... 55% cho các sản phẩm Samsung",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "55%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "giảm giá... 45% tại LG",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "LG",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "giảm giá... 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "TLS Asia",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, các mặt hàng gia dụng đều được giảm giá đáng kể như 15% khi mua sắm tại Electrolux với mã \"ELECVIB\"; 55% cho các sản phẩm Samsung với mã \"VIBAFFILIATEV\"; 45% tại LG; 10% cho đơn hàng nệm TLS Asia nhập khẩu bất kỳ…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "hoàn phí thường niên năm đầu nếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "năm đầu",
+        "label": "DATE",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "1-20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "hoàn phí thường niên... trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ",
+        "label": "EVENT",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "trọn đời",
+        "label": "DATE",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "60-100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên",
+        "label": "EVENT",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "Anker",
+        "label": "ORG",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    },
+    {
+        "text": "1 triệu",
+        "label": "MONEY",
+        "evidence": "Mở thẻ VIB ngay hôm nay để đượchoàn phí thường niên năm đầunếu thỏa điều kiện chi tiêu thẻ 1-20 triệu đồng và trọn đời nếu chi tiêu 60-100 triệu đồng (tùy vào dòng thẻ) trong 30 ngày mở thẻ, đồng thời nhận thêm tai nghe không dây Anker cho giao dịch 1 triệu đầu tiên."
+    }
+]

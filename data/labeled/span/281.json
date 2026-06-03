@@ -1,0 +1,542 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "ngân hàng",
+        "label": "ORG",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB",
+        "label": "EVENT",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "thẻ ghi nợ (debit)",
+        "label": "ASSET",
+        "evidence": "Lên một ngân sách chi tiêu chi tiết, sử dụng ưu đãi và khuyến mãi thông minh từ thẻ ghi nợ (debit) và thẻ tín dụng (credit), chúng ta hoàn toàn có thể giảm bớt gánh nặng tài chính và tận hưởng mùa lễ hội một cách thoải mái hơn."
+    },
+    {
+        "text": "thẻ tín dụng (credit)",
+        "label": "ASSET",
+        "evidence": "Lên một ngân sách chi tiêu chi tiết, sử dụng ưu đãi và khuyến mãi thông minh từ thẻ ghi nợ (debit) và thẻ tín dụng (credit), chúng ta hoàn toàn có thể giảm bớt gánh nặng tài chính và tận hưởng mùa lễ hội một cách thoải mái hơn."
+    },
+    {
+        "text": "thẻ Visa",
+        "label": "ASSET",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "thẻ JCB",
+        "label": "ASSET",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "Tết năm nay",
+        "label": "DATE",
+        "evidence": "Điển hình như chủ thẻ ACB sẽ tự tin \"chiến\" Tết năm nay mà không lo về ví tiền khi ngân hàng vừa tung ra hàng loạt ưu đãi cho các dịch vụ mua sắm, du lịch và ăn uống bằng thẻ Visa và thẻ JCB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Có thẻ ACB, hưởng nhiều ưu đãi mua sắm, ăn uống, du lịch"
+    },
+    {
+        "text": "thẻ ACB",
+        "label": "ASSET",
+        "evidence": "Có thẻ ACB, hưởng nhiều ưu đãi mua sắm, ăn uống, du lịch"
+    },
+    {
+        "text": "khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB",
+        "label": "EVENT",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "20% - 50%",
+        "label": "RATE",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "các dòng thẻ Visa, JCB",
+        "label": "ASSET",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "Tết Nguyên Đán",
+        "label": "DATE",
+        "evidence": "Bạn có thể tận dụng các khuyến mãi giảm giá từ 20% - 50% trong ẩm thực cho các dòng thẻ Visa, JCB để chiêu đãi gia đình hoặc tự thưởng bản thân những món ăn ngon và đặc trưng dịp Tết Nguyên Đán."
+    },
+    {
+        "text": "ACBVisa",
+        "label": "ORG",
+        "evidence": "Chủ thẻACBVisa có thể hưởng thụ ưu đãi giảm giá đến 50% tại các nhà hàng cao cấp."
+    },
+    {
+        "text": "ưu đãi giảm giá đến 50% tại các nhà hàng cao cấp",
+        "label": "EVENT",
+        "evidence": "Chủ thẻACBVisa có thể hưởng thụ ưu đãi giảm giá đến 50% tại các nhà hàng cao cấp."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Chủ thẻACBVisa có thể hưởng thụ ưu đãi giảm giá đến 50% tại các nhà hàng cao cấp."
+    },
+    {
+        "text": "thẻACBVisa",
+        "label": "ASSET",
+        "evidence": "Chủ thẻACBVisa có thể hưởng thụ ưu đãi giảm giá đến 50% tại các nhà hàng cao cấp."
+    },
+    {
+        "text": "nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "Hokkaido Sachi",
+        "label": "ORG",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "Basta Hiro",
+        "label": "ORG",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "Gyu Shige",
+        "label": "ORG",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "Kohi",
+        "label": "ORG",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "ACB JCB",
+        "label": "ORG",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "thẻ ACB JCB",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, khách hàng đam mê ẩm thực Nhật Bản sẽ nhận ưu đãi giảm 20% tại các chuỗi nhà hàng Nhật lớn như Hokkaido Sachi, Basta Hiro, Gyu Shige, Kohi,... khi sở hữu thẻ ACB JCB."
+    },
+    {
+        "text": "mùa Tết",
+        "label": "DATE",
+        "evidence": "Và nếu lên kế hoạch du lịch mùa Tết, bạn hãy thanh toán bằng các dòng thẻ ACB quốc tế."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Và nếu lên kế hoạch du lịch mùa Tết, bạn hãy thanh toán bằng các dòng thẻ ACB quốc tế."
+    },
+    {
+        "text": "các dòng thẻ ACB quốc tế",
+        "label": "ASSET",
+        "evidence": "Và nếu lên kế hoạch du lịch mùa Tết, bạn hãy thanh toán bằng các dòng thẻ ACB quốc tế."
+    },
+    {
+        "text": "ACB Visa",
+        "label": "ORG",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "Thẻ ACB Visa",
+        "label": "ASSET",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways",
+        "label": "EVENT",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "Qatar Airways",
+        "label": "ORG",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG",
+        "label": "EVENT",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "IHG",
+        "label": "ORG",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "giảm đến 20% khi đặt phòng tại Agoda",
+        "label": "EVENT",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "Thẻ ACB Visa hiện đang có ưu đãi giảm giá 10% cho các chuyến bay với Qatar Airways, giảm 20% khi đặt phòng tại chuỗi khách sạn của IHG và giảm đến 20% khi đặt phòng tại Agoda."
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "thẻ JCB của ACB",
+        "label": "ASSET",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4",
+        "label": "EVENT",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "50,000 Yên",
+        "label": "MONEY",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "~8,000,000 VND",
+        "label": "MONEY",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "tháng 2 đến tháng 4",
+        "label": "DATE",
+        "evidence": "Đối với những chuyến du lịch tới Nhật Bản, dùng thẻ JCB của ACB, bạn sẽ được hoàn tiền 10% khi chi tiêu tích lũy từ 50,000 Yên (~8,000,000 VND) trở lên trong khoảng thời gian từ tháng 2 đến tháng 4."
+    },
+    {
+        "text": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda",
+        "label": "EVENT",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Booking.com",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel",
+        "label": "EVENT",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Movenpick Living West Hanoi",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Sheraton Hanoi Hotel",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Fraser Residence Hanoi",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "Maihouse Saigon Hotel",
+        "label": "ORG",
+        "evidence": "Ưu đãi giảm đến 10% khi đặt phòng qua Booking.com hay Agoda, giảm 20% khi đặt phòng tại các khách sạn danh tiếng như Movenpick Living West Hanoi, Sheraton Hanoi Hotel, Fraser Residence Hanoi, và Maihouse Saigon Hotel."
+    },
+    {
+        "text": "ACB JCB",
+        "label": "ORG",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng",
+        "label": "EVENT",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "Uniqlo",
+        "label": "ORG",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "1.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall",
+        "label": "EVENT",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "1.200.000 đồng",
+        "label": "MONEY",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "Aeon Mall",
+        "label": "ORG",
+        "evidence": "Chưa hết, với chủ thẻ ACB JCB, mọi hóa đơn mua sắm Uniqlo từ 1.500.000 đồng đều được hoàn đến 300.000 đồng tại hệ thống các cửa hàng của thương hiệu này, hoặc bạn sẽ nhận được phiếu mua hàng trị giá 100.000 đồng cho mỗi hóa đơn từ 1.200.000 đồng tại siêu thị Nhật Bản – Aeon Mall."
+    },
+    {
+        "text": "Cuối năm",
+        "label": "DATE",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc",
+        "label": "EVENT",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "ACB NAPAS",
+        "label": "ORG",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "thẻ ACB NAPAS",
+        "label": "ASSET",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "Lotte Cinema",
+        "label": "ORG",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee",
+        "label": "EVENT",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "45.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "Highlands Coffee",
+        "label": "ORG",
+        "evidence": "Cuối năm, đi cà phê hay xem phim với bạn bè, ACB cũng tặng thêm ưu đãi cho chủ thẻ ACB NAPAS như được giảm ngay 100.000 đồng cho mỗi giao dịch từ 200.000 đồng trở lên khi thanh toán tại các rạp Lotte Cinema trên toàn quốc, hoặc giảm ngay 20.000 đồng cho mỗi hóa đơn từ 45.000 đồng trở lên tại Highlands Coffee."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song song với hàng loạt ưu đãi giảm giá, hoàn tiền mang đến lợi ích cho khách hàng trong mùa mua sắm Tết, ACB còn triển khai thêm tính năng quản lý hạn mức thẻ trên ứng dụng Ngân hàng số ACB ONE."
+    },
+    {
+        "text": "triển khai thêm tính năng quản lý hạn mức thẻ trên ứng dụng Ngân hàng số ACB ONE",
+        "label": "EVENT",
+        "evidence": "Song song với hàng loạt ưu đãi giảm giá, hoàn tiền mang đến lợi ích cho khách hàng trong mùa mua sắm Tết, ACB còn triển khai thêm tính năng quản lý hạn mức thẻ trên ứng dụng Ngân hàng số ACB ONE."
+    },
+    {
+        "text": "Ngân hàng số ACB ONE",
+        "label": "ORG",
+        "evidence": "Song song với hàng loạt ưu đãi giảm giá, hoàn tiền mang đến lợi ích cho khách hàng trong mùa mua sắm Tết, ACB còn triển khai thêm tính năng quản lý hạn mức thẻ trên ứng dụng Ngân hàng số ACB ONE."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ORG",
+        "evidence": "Chủ thẻ sẽ hoàn toàn điều chỉnh được hạn mức chi tiêu giao dịch thẻ và bật/ tắt giao dịch thanh toán trực tuyến ngay trên ứng dụng ngân hàng số ACB ONE."
+    },
+    {
+        "text": "thẻ phụ",
+        "label": "ASSET",
+        "evidence": "Dựa trên nhu cầu tiêu dùng của chính mình, chủ thẻ có thể điều chỉnh hạn mức giao dịch theo ngày và theo từng lần giao dịch áp dụng cho: hạn mức giao dịch thanh toán, hạn mức giao dịch thanh toán thẻ trực tuyến và hạn mức sử dụng thẻ phụ (chỉ dành cho thẻ tín dụng)."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Dựa trên nhu cầu tiêu dùng của chính mình, chủ thẻ có thể điều chỉnh hạn mức giao dịch theo ngày và theo từng lần giao dịch áp dụng cho: hạn mức giao dịch thanh toán, hạn mức giao dịch thanh toán thẻ trực tuyến và hạn mức sử dụng thẻ phụ (chỉ dành cho thẻ tín dụng)."
+    },
+    {
+        "text": "từng tháng",
+        "label": "DATE",
+        "evidence": "Khách hàng có thể dễ dàng quản lý số tiền mình chi tiêu cho phù hợp với thu nhập và nhu cầu từng tháng, thậm chí cho các thành viên trong gia đình như con cái sử dụng thẻ phụ của bố mẹ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cùng với tính năng quản lý hạn mức thẻ, chủ thẻ tín dụng quốc tế ACB còn có thể tận dụng thêm tính năng chuyển đổi trả góp chủ động ngay trên ứng dụng ACB ONE."
+    },
+    {
+        "text": "thẻ tín dụng quốc tế ACB",
+        "label": "ASSET",
+        "evidence": "Cùng với tính năng quản lý hạn mức thẻ, chủ thẻ tín dụng quốc tế ACB còn có thể tận dụng thêm tính năng chuyển đổi trả góp chủ động ngay trên ứng dụng ACB ONE."
+    },
+    {
+        "text": "tận dụng thêm tính năng chuyển đổi trả góp chủ động ngay trên ứng dụng ACB ONE",
+        "label": "EVENT",
+        "evidence": "Cùng với tính năng quản lý hạn mức thẻ, chủ thẻ tín dụng quốc tế ACB còn có thể tận dụng thêm tính năng chuyển đổi trả góp chủ động ngay trên ứng dụng ACB ONE."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ORG",
+        "evidence": "Cùng với tính năng quản lý hạn mức thẻ, chủ thẻ tín dụng quốc tế ACB còn có thể tận dụng thêm tính năng chuyển đổi trả góp chủ động ngay trên ứng dụng ACB ONE."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Với mọi chi tiêu trên thẻ từ 3 triệu đồng, khách hàng dễ dàng chuyển đổi trả góp, thoải mái tận dụng hạn mức thẻ để sắm sửa Tết một cách thông minh, giảm bớt sự lo lắng các khoản chi phí chồng chất trong những ngày tất bật cuối năm."
+    },
+    {
+        "text": "những ngày tất bật cuối năm",
+        "label": "DATE",
+        "evidence": "Với mọi chi tiêu trên thẻ từ 3 triệu đồng, khách hàng dễ dàng chuyển đổi trả góp, thoải mái tận dụng hạn mức thẻ để sắm sửa Tết một cách thông minh, giảm bớt sự lo lắng các khoản chi phí chồng chất trong những ngày tất bật cuối năm."
+    },
+    {
+        "text": "15/1/2024 đến 30/3/2024",
+        "label": "DATE",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\"",
+        "label": "EVENT",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE",
+        "label": "EVENT",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ORG",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "ACB Visa",
+        "label": "ORG",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "Apple Pay qua thẻ ACB Visa",
+        "label": "ASSET",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ORG",
+        "evidence": "Từ 15/1/2024 đến 30/3/2024, trong chương trình khuyến mãi \"Tết cùng ACB, Quà tới cản không kịp\", khi thanh toán Apple Pay qua thẻ ACB Visa, khách hàng sẽ nhận ngay mã cào trúng quà mỗi ngày trên ứng dụng ACB ONE với loạt giải thưởng giá trị như iPhone 15 ProMax, bộ ấm sứ Minh Long cao cấp cùng hàng ngàn e-voucher...."
+    },
+    {
+        "text": "chủ thẻ tín dụng ACB khi mở mới hoặc tích lũy chi tiêu trong thời gian chương trình diễn ra, đều có cơ hội nhận thêm mã dự thưởng chương trình quay số định kì săn tiền tỉ với giải đặc biệt là ô tô Mercedes (C - class)",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, chủ thẻ tín dụng ACB khi mở mới hoặc tích lũy chi tiêu trong thời gian chương trình diễn ra, đều có cơ hội nhận thêm mã dự thưởng chương trình quay số định kì săn tiền tỉ với giải đặc biệt là ô tô Mercedes (C - class)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đặc biệt, chủ thẻ tín dụng ACB khi mở mới hoặc tích lũy chi tiêu trong thời gian chương trình diễn ra, đều có cơ hội nhận thêm mã dự thưởng chương trình quay số định kì săn tiền tỉ với giải đặc biệt là ô tô Mercedes (C - class)."
+    },
+    {
+        "text": "thẻ tín dụng ACB",
+        "label": "ASSET",
+        "evidence": "Đặc biệt, chủ thẻ tín dụng ACB khi mở mới hoặc tích lũy chi tiêu trong thời gian chương trình diễn ra, đều có cơ hội nhận thêm mã dự thưởng chương trình quay số định kì săn tiền tỉ với giải đặc biệt là ô tô Mercedes (C - class)."
+    }
+]

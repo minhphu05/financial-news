@@ -1,0 +1,1097 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cổ đông ACB làm thủ tục tham dự họp"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "số lượng cổ phần có quyền biểu quyết ở ACB thời điểm hiện tại là hơn 3,88 tỷ cổ phần, tương ứng với vốn điều lệ hơn 38.840 tỷ đồng."
+    },
+    {
+        "text": "hơn 3,88 tỷ cổ phần",
+        "label": "VOLUME",
+        "evidence": "số lượng cổ phần có quyền biểu quyết ở ACB thời điểm hiện tại là hơn 3,88 tỷ cổ phần, tương ứng với vốn điều lệ hơn 38.840 tỷ đồng."
+    },
+    {
+        "text": "hơn 38.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số lượng cổ phần có quyền biểu quyết ở ACB thời điểm hiện tại là hơn 3,88 tỷ cổ phần, tương ứng với vốn điều lệ hơn 38.840 tỷ đồng."
+    },
+    {
+        "text": "8h40",
+        "label": "DATE",
+        "evidence": "Tham dự đại hội tại thời điểm 8h40 có các cổ đông và người uỷ quyền đại diện cho hơn 2,25 tỷ cổ phần, đương đương 58% số cổ phần có quyền biểu quyết tham dự họp."
+    },
+    {
+        "text": "hơn 2,25 tỷ cổ phần",
+        "label": "VOLUME",
+        "evidence": "Tham dự đại hội tại thời điểm 8h40 có các cổ đông và người uỷ quyền đại diện cho hơn 2,25 tỷ cổ phần, đương đương 58% số cổ phần có quyền biểu quyết tham dự họp."
+    },
+    {
+        "text": "58%",
+        "label": "RATE",
+        "evidence": "Tham dự đại hội tại thời điểm 8h40 có các cổ đông và người uỷ quyền đại diện cho hơn 2,25 tỷ cổ phần, đương đương 58% số cổ phần có quyền biểu quyết tham dự họp."
+    },
+    {
+        "text": "9h20",
+        "label": "DATE",
+        "evidence": "Cập nhật tại thời điểm 9h20 khi các cổ đông thực hiện biểu quyết thông qua quy chế đại hội, có 867 cổ đông tham dự và uỷ quyền tham dự, đại diện cho hơn 66% số cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "hơn 66%",
+        "label": "RATE",
+        "evidence": "Cập nhật tại thời điểm 9h20 khi các cổ đông thực hiện biểu quyết thông qua quy chế đại hội, có 867 cổ đông tham dự và uỷ quyền tham dự, đại diện cho hơn 66% số cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 tiếp tục tăng trưởng về quy mô và tài sản"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của lãnh đạo ACB tại Đại hội, năm 2023, kinh tế vĩ mô Việt Nam ổn định, lạm phát được kiểm soát, các cân đối lớn được đảm bảo."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo của lãnh đạo ACB tại Đại hội, năm 2023, kinh tế vĩ mô Việt Nam ổn định, lạm phát được kiểm soát, các cân đối lớn được đảm bảo."
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của lãnh đạo ACB tại Đại hội, năm 2023, kinh tế vĩ mô Việt Nam ổn định, lạm phát được kiểm soát, các cân đối lớn được đảm bảo."
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "Tổng sản phẩm quốc nội (GDP) cả năm đạt hơn 5%, là mức tăng trưởng cao của khu vực và thế giới."
+    },
+    {
+        "text": "cả năm",
+        "label": "DATE",
+        "evidence": "Tổng sản phẩm quốc nội (GDP) cả năm đạt hơn 5%, là mức tăng trưởng cao của khu vực và thế giới."
+    },
+    {
+        "text": "hơn 5%",
+        "label": "RATE",
+        "evidence": "Tổng sản phẩm quốc nội (GDP) cả năm đạt hơn 5%, là mức tăng trưởng cao của khu vực và thế giới."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực ngân hàng, Ngân hàng Nhà nước (NHNN) đã bám sát thị trường, tình hình trong nước và quốc tế để điều hành chính sách tiền tệ, tín dụng, thực hiện đồng bộ các công cụ và giải pháp nhằm ổn định kinh tế vĩ mô, kiểm soát lạm phát và hỗ trợ phục hồi kinh tế."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực ngân hàng, Ngân hàng Nhà nước (NHNN) đã bám sát thị trường, tình hình trong nước và quốc tế để điều hành chính sách tiền tệ, tín dụng, thực hiện đồng bộ các công cụ và giải pháp nhằm ổn định kinh tế vĩ mô, kiểm soát lạm phát và hỗ trợ phục hồi kinh tế."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh ấy, ACB là tiếp tục tăng trưởng về quy mô và tài sản, hoàn thành và vượt nhiều chỉ tiêu trọng yếu được ĐHCĐ năm 2023 giao."
+    },
+    {
+        "text": "ĐHCĐ năm 2023",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh ấy, ACB là tiếp tục tăng trưởng về quy mô và tài sản, hoàn thành và vượt nhiều chỉ tiêu trọng yếu được ĐHCĐ năm 2023 giao."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "hơn 719 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "18,25%",
+        "label": "RATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "535 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "16,77%",
+        "label": "RATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "488 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "17,87%",
+        "label": "RATE",
+        "evidence": "Cụ thể, tổng tài sản đến cuối năm 2023 đạt hơn 719 ngàn tỷ đồng, tăng 18,25% so với năm 2022; Tiền gửi khách hàng đạt 535 ngàn tỷ đồng, tăng 16,77%; cho vay khách hàng đạt 488 ngàn tỷ, tăng 17,87%."
+    },
+    {
+        "text": "71 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt vốn chủ sở hữu tăng lên mức 71 ngàn tỷ đồng, tương đương tăng trưởng 21,42% so với năm trước."
+    },
+    {
+        "text": "21,42%",
+        "label": "RATE",
+        "evidence": "Đặc biệt vốn chủ sở hữu tăng lên mức 71 ngàn tỷ đồng, tương đương tăng trưởng 21,42% so với năm trước."
+    },
+    {
+        "text": "20.068 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt 20.068 tỷ đồng, tăng trưởng 17%."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước thuế đạt 20.068 tỷ đồng, tăng trưởng 17%."
+    },
+    {
+        "text": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024"
+    },
+    {
+        "text": "22.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "22.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng, tăng 10% so với năm trước."
+    },
+    {
+        "text": "Tổng tài sản tăng 12% lên 805.050 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng tài sản tăng 12% lên 805.050 tỷ đồng."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản tăng 12% lên 805.050 tỷ đồng."
+    },
+    {
+        "text": "805.050 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản tăng 12% lên 805.050 tỷ đồng."
+    },
+    {
+        "text": "Tiền gửi khách hàng và giấy tờ có giá tăng 11% lên 593.779 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tiền gửi khách hàng và giấy tờ có giá tăng 11% lên 593.779 tỷ đồng."
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng và giấy tờ có giá tăng 11% lên 593.779 tỷ đồng."
+    },
+    {
+        "text": "593.779 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi khách hàng và giấy tờ có giá tăng 11% lên 593.779 tỷ đồng."
+    },
+    {
+        "text": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng và tuân theo hạn mức tăng trưởng tín dụng được Ngân hàng Nhà nước giao."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng và tuân theo hạn mức tăng trưởng tín dụng được Ngân hàng Nhà nước giao."
+    },
+    {
+        "text": "555.866 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng và tuân theo hạn mức tăng trưởng tín dụng được Ngân hàng Nhà nước giao."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng và tuân theo hạn mức tăng trưởng tín dụng được Ngân hàng Nhà nước giao."
+    },
+    {
+        "text": "Tỷ lệ nợ xấu kiểm soát dưới 2%",
+        "label": "EVENT",
+        "evidence": "Tỷ lệ nợ xấu kiểm soát dưới 2%."
+    },
+    {
+        "text": "dưới 2%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu kiểm soát dưới 2%."
+    },
+    {
+        "text": "HĐQT của ACB",
+        "label": "ORG",
+        "evidence": "HĐQT của ACB nhận định năm 2024 nền kinh tế trong nước vẫn phải đối mặt với nhiều khó khăn và thách thức khi cầu thế giới chưa phục hồi mạnh."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "HĐQT của ACB nhận định năm 2024 nền kinh tế trong nước vẫn phải đối mặt với nhiều khó khăn và thách thức khi cầu thế giới chưa phục hồi mạnh."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Với các giải pháp của Chính phủ nhằm tháo gỡ khó khăn trên nhiều thị trường như bất động sản, trái phiếu doanh nghiệp,... thì kinh tế năm 2024 là có thể phục hồi."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Với các giải pháp của Chính phủ nhằm tháo gỡ khó khăn trên nhiều thị trường như bất động sản, trái phiếu doanh nghiệp,... thì kinh tế năm 2024 là có thể phục hồi."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Do đó, ACB kỳ vọng khả năng sớm phục hồi sản xuất kinh doanh của các doanh nghiệp và nhu cầu sản xuất, tiêu dùng của các hộ gia đình."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Vì vậy, HĐQT cho rằng, mức 14% là phù hợp với tình hình thị trường, đồng thời tuân thủ hạn mức tăng trưởng tín dụng năm 2024 được NHNN giao."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "Vì vậy, HĐQT cho rằng, mức 14% là phù hợp với tình hình thị trường, đồng thời tuân thủ hạn mức tăng trưởng tín dụng năm 2024 được NHNN giao."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Vì vậy, HĐQT cho rằng, mức 14% là phù hợp với tình hình thị trường, đồng thời tuân thủ hạn mức tăng trưởng tín dụng năm 2024 được NHNN giao."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Vì vậy, HĐQT cho rằng, mức 14% là phù hợp với tình hình thị trường, đồng thời tuân thủ hạn mức tăng trưởng tín dụng năm 2024 được NHNN giao."
+    },
+    {
+        "text": "Chia cổ tức tỷ lệ 25%",
+        "label": "EVENT",
+        "evidence": "Chia cổ tức tỷ lệ 25% trong đó 10% bằng tiền mặt"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Chia cổ tức tỷ lệ 25% trong đó 10% bằng tiền mặt"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Chia cổ tức tỷ lệ 25% trong đó 10% bằng tiền mặt"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "HĐQT ACB",
+        "label": "ORG",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "hơn 13,3 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "hơn 6,5 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "xấp xỉ 20 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo tờ trình phân phối lợi nhuận năm 2023, HĐQT ACB cho biết, sau khi đóng góp thuế và trích lập các quỹ theo quy định, ACB còn lai hơn 13,3 ngàn tỷ đồng lợi  nhuận, cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước, tổng cộng xấp xỉ 20 ngàn tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "hơn 9,7 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Với nguồn lực này, ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng để chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Sau chia cổ tức, ACB vẫn còn hơn 10 ngàn tỷ giữ lại."
+    },
+    {
+        "text": "hơn 10 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "Sau chia cổ tức, ACB vẫn còn hơn 10 ngàn tỷ giữ lại."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Toàn cảnh đại hội cổ đông năm 2024 của ACB"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Toàn cảnh đại hội cổ đông năm 2024 của ACB"
+    },
+    {
+        "text": "Tăng vốn điều lệ lên 44.666 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tăng vốn điều lệ lên 44.666 tỷ đồng, dự kiến hoàn tất trong quý 3"
+    },
+    {
+        "text": "44.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tăng vốn điều lệ lên 44.666 tỷ đồng, dự kiến hoàn tất trong quý 3"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Tăng vốn điều lệ lên 44.666 tỷ đồng, dự kiến hoàn tất trong quý 3"
+    },
+    {
+        "text": "HĐQT ACB",
+        "label": "ORG",
+        "evidence": "Theo nhận định của HĐQT ACB, việc tăng vốn điều lệ hiện nay là rất cần thiết với Ngân hàng vì các lý do: Có thêm nguồn vốn trung, dài hạn cho các hoạt động cấp tín dụng, đầu tư trái phiếu chính phủ của ngân hàng; Có thêm nguồn vốn để xây dựng văn phòng làm việc, cải tạo, sửa chữ, di dời trụ sở kênh phân phối, đầu tư vào các dự án chiến lược của Ngân hàng; Nâng cao năng lực tài chính để thích ứng với những biến động của thị trường."
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Theo nhận định của HĐQT ACB, việc tăng vốn điều lệ hiện nay là rất cần thiết với Ngân hàng vì các lý do: Có thêm nguồn vốn trung, dài hạn cho các hoạt động cấp tín dụng, đầu tư trái phiếu chính phủ của ngân hàng; Có thêm nguồn vốn để xây dựng văn phòng làm việc, cải tạo, sửa chữ, di dời trụ sở kênh phân phối, đầu tư vào các dự án chiến lược của Ngân hàng; Nâng cao năng lực tài chính để thích ứng với những biến động của thị trường."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Tóm lại, việc tăng vốn là hết sức cần thiết cho hoạt động kinh doanh của ACB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tóm lại, việc tăng vốn là hết sức cần thiết cho hoạt động kinh doanh của ACB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Vốn điều lệ hiện tại của ACB là 38.840 tỷ đồng."
+    },
+    {
+        "text": "38.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ hiện tại của ACB là 38.840 tỷ đồng."
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu tỷ lệ 15%",
+        "label": "EVENT",
+        "evidence": "Dự kiến sau khi chia cổ tức bằng cổ phiếu tỷ lệ 15%, vốn điều lệ của ngân hàng sẽ tăng thêm hơn 5.800 tỷ lên 44.666 tỷ đồng."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Dự kiến sau khi chia cổ tức bằng cổ phiếu tỷ lệ 15%, vốn điều lệ của ngân hàng sẽ tăng thêm hơn 5.800 tỷ lên 44.666 tỷ đồng."
+    },
+    {
+        "text": "hơn 5.800 tỷ",
+        "label": "MONEY",
+        "evidence": "Dự kiến sau khi chia cổ tức bằng cổ phiếu tỷ lệ 15%, vốn điều lệ của ngân hàng sẽ tăng thêm hơn 5.800 tỷ lên 44.666 tỷ đồng."
+    },
+    {
+        "text": "44.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dự kiến sau khi chia cổ tức bằng cổ phiếu tỷ lệ 15%, vốn điều lệ của ngân hàng sẽ tăng thêm hơn 5.800 tỷ lên 44.666 tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB dự kiến thời gian hoàn thành việc tăng vốn điều lệ là quý 3/2024."
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "ACB dự kiến thời gian hoàn thành việc tăng vốn điều lệ là quý 3/2024."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "ACB dự kiến thời gian hoàn thành việc tăng vốn điều lệ là quý 3/2024."
+    },
+    {
+        "text": "9h50",
+        "label": "DATE",
+        "evidence": "9h50: Đại hội của ACB bước vào phiên thảo luận"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "9h50: Đại hội của ACB bước vào phiên thảo luận"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Cổ đông hỏi:Kết quả kinh doanh quý 1 của ACB thế nào?"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cổ đông hỏi:Kết quả kinh doanh quý 1 của ACB thế nào?"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Ông Trần Hùng Huy, chủ tịch HĐQT trả lời: Kết quả kinh doanh của ACB quý 1 khá tốt."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ông Trần Hùng Huy, chủ tịch HĐQT trả lời: Kết quả kinh doanh của ACB quý 1 khá tốt."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Ông Trần Hùng Huy, chủ tịch HĐQT trả lời: Kết quả kinh doanh của ACB quý 1 khá tốt."
+    },
+    {
+        "text": "Tín dụng tăng trưởng 3,7% so với cuối năm 2023",
+        "label": "EVENT",
+        "evidence": "Tín dụng tăng trưởng 3,7% so với cuối năm 2023, cao hơn gấp đôi  so với mức tăng toàn ngành và cũng tốt hơn cùng kỳ."
+    },
+    {
+        "text": "3,7%",
+        "label": "RATE",
+        "evidence": "Tín dụng tăng trưởng 3,7% so với cuối năm 2023, cao hơn gấp đôi  so với mức tăng toàn ngành và cũng tốt hơn cùng kỳ."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Tín dụng tăng trưởng 3,7% so với cuối năm 2023, cao hơn gấp đôi  so với mức tăng toàn ngành và cũng tốt hơn cùng kỳ."
+    },
+    {
+        "text": "huy động, tăng trưởng 2,1%",
+        "label": "EVENT",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "huy động vốn CASA tăng 6,4%",
+        "label": "EVENT",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "6,4%",
+        "label": "RATE",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%",
+        "label": "EVENT",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "hơn 23%",
+        "label": "RATE",
+        "evidence": "Về huy động, tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%, tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%."
+    },
+    {
+        "text": "lợi nhuận dự kiến đạt 4.900 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Về lợi nhuận dự kiến đạt 4.900 tỷ đồng, sát kế hoạch của cả năm."
+    },
+    {
+        "text": "4.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về lợi nhuận dự kiến đạt 4.900 tỷ đồng, sát kế hoạch của cả năm."
+    },
+    {
+        "text": "cả năm",
+        "label": "DATE",
+        "evidence": "Về lợi nhuận dự kiến đạt 4.900 tỷ đồng, sát kế hoạch của cả năm."
+    },
+    {
+        "text": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5%",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5% do cùng kỳ năm trước có khoản thu bất thường từ xử lý nợ, nếu loại trừ bỏ yếu tố bất thường của cùng kỳ thì quý 1 năm nay tăng trưởng 3%."
+    },
+    {
+        "text": "khoảng 5%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5% do cùng kỳ năm trước có khoản thu bất thường từ xử lý nợ, nếu loại trừ bỏ yếu tố bất thường của cùng kỳ thì quý 1 năm nay tăng trưởng 3%."
+    },
+    {
+        "text": "quý 1 năm nay tăng trưởng 3%",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5% do cùng kỳ năm trước có khoản thu bất thường từ xử lý nợ, nếu loại trừ bỏ yếu tố bất thường của cùng kỳ thì quý 1 năm nay tăng trưởng 3%."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5% do cùng kỳ năm trước có khoản thu bất thường từ xử lý nợ, nếu loại trừ bỏ yếu tố bất thường của cùng kỳ thì quý 1 năm nay tăng trưởng 3%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về lãi suất, chủ tịch ACB nhận định lãi suất sẽ ổn định ở mức thấp từ nay đến cuối năm."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "Về lãi suất, chủ tịch ACB nhận định lãi suất sẽ ổn định ở mức thấp từ nay đến cuối năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB dự kiến duy trì lãi suất cho vay thấp, như cho vay doanh nghiệp chỉ 4,9% trong khi cho vay cá nhân chỉ 6-8%/năm, rất hỗ trợ khách hàng."
+    },
+    {
+        "text": "4,9%",
+        "label": "RATE",
+        "evidence": "ACB dự kiến duy trì lãi suất cho vay thấp, như cho vay doanh nghiệp chỉ 4,9% trong khi cho vay cá nhân chỉ 6-8%/năm, rất hỗ trợ khách hàng."
+    },
+    {
+        "text": "6-8%/năm",
+        "label": "RATE",
+        "evidence": "ACB dự kiến duy trì lãi suất cho vay thấp, như cho vay doanh nghiệp chỉ 4,9% trong khi cho vay cá nhân chỉ 6-8%/năm, rất hỗ trợ khách hàng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về dư nợ cho vay bất động sản, ACB không cho vay BĐS đầu tư mà cho vay người mua nhà, nợ xấu cũng thấp hơn nhiều mức thị trường chung, chỉ dưới 1%."
+    },
+    {
+        "text": "dưới 1%",
+        "label": "RATE",
+        "evidence": "Về dư nợ cho vay bất động sản, ACB không cho vay BĐS đầu tư mà cho vay người mua nhà, nợ xấu cũng thấp hơn nhiều mức thị trường chung, chỉ dưới 1%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đối với trái phiếu doanh nghiệp, ACB không đầu tư vào mảng này và thời gian tới cũng không có ý định làm."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Doanh số Banca năm 2023 có sụt giảm so với các năm trước nhưng vẫn giữ vị thế top đầu thị trường."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "Dự kiến năm nay ACB sẽ giữ mức như năm 2023 chứ không đặt mục tiêu tăng trưởng về Banca."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Dự kiến năm nay ACB sẽ giữ mức như năm 2023 chứ không đặt mục tiêu tăng trưởng về Banca."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Dự kiến năm nay ACB sẽ giữ mức như năm 2023 chứ không đặt mục tiêu tăng trưởng về Banca."
+    },
+    {
+        "text": "ông Huy",
+        "label": "PERSON",
+        "evidence": "\"Chúng tôi tin rằng thị trường này sẽ lành mạnh hơn trong thời gian tới\" - ông Huy nói."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cổ đông hỏi: Rất hoan nghênh kết quả của ACB, mong phần cổ tức có thể trả càng sớm càng tốt"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Trần Hùng Huycảm ơn cổ đông và cho biết mức cổ tức 25% là khá cao và ACB đã duy trì được suốt trong những năm vừa qua, đảm bảo quyền lợi tốt cho cổ đông."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Chủ tịch Trần Hùng Huycảm ơn cổ đông và cho biết mức cổ tức 25% là khá cao và ACB đã duy trì được suốt trong những năm vừa qua, đảm bảo quyền lợi tốt cho cổ đông."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chủ tịch Trần Hùng Huycảm ơn cổ đông và cho biết mức cổ tức 25% là khá cao và ACB đã duy trì được suốt trong những năm vừa qua, đảm bảo quyền lợi tốt cho cổ đông."
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát,Tổng giám đốc trả lời: Dựa trên KQKD quý 1 như đã báo cáo cổ đông, ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm."
+    },
+    {
+        "text": "KQKD quý 1",
+        "label": "EVENT",
+        "evidence": "Ông Từ Tiến Phát,Tổng giám đốc trả lời: Dựa trên KQKD quý 1 như đã báo cáo cổ đông, ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Ông Từ Tiến Phát,Tổng giám đốc trả lời: Dựa trên KQKD quý 1 như đã báo cáo cổ đông, ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ông Từ Tiến Phát,Tổng giám đốc trả lời: Dựa trên KQKD quý 1 như đã báo cáo cổ đông, ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm."
+    },
+    {
+        "text": "cả năm",
+        "label": "DATE",
+        "evidence": "Ông Từ Tiến Phát,Tổng giám đốc trả lời: Dựa trên KQKD quý 1 như đã báo cáo cổ đông, ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về Casa,ACBtin sẽ tăng trưởng và nằm trong top 5 về CASA trên thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nghe nói gần đây ACB chuyển đổi chiến lược sang phát triển khách hàng doanh nghiệp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đây là mảng mà phải cạnh tranh lớn trên thị trường, lợi thế của ACB là gì?"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Ông Trần Hùng Huytrả lời: Thị phần của ACB trong mảng bán lẻ khá cao, bắt đầu chững lại."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ông Trần Hùng Huytrả lời: Thị phần của ACB trong mảng bán lẻ khá cao, bắt đầu chững lại."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Do đó ACB củng cố vị thế trong phân khúc khách hàng cá nhân."
+    },
+    {
+        "text": "SME",
+        "label": "ORG",
+        "evidence": "Song song đó, các khách hàng SME của ACB đang ngày càng lớn lên và ACB cũng theo sự phát triển của họ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song song đó, các khách hàng SME của ACB đang ngày càng lớn lên và ACB cũng theo sự phát triển của họ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song song đó, các khách hàng SME của ACB đang ngày càng lớn lên và ACB cũng theo sự phát triển của họ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Luật TCTD mới có ảnh hưởng đến ACB không?"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Pháttrả lời: Luật TCTD mới được Quốc hội thông qua có 4 điểm mới."
+    },
+    {
+        "text": "Luật TCTD mới được Quốc hội thông qua",
+        "label": "EVENT",
+        "evidence": "Ông Từ Tiến Pháttrả lời: Luật TCTD mới được Quốc hội thông qua có 4 điểm mới."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Ông Từ Tiến Pháttrả lời: Luật TCTD mới được Quốc hội thông qua có 4 điểm mới."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nhìn nhận có 2 điểm không bị ảnh hưởng là quy định liên quan tỷ lệ sở hữu tối đa của tổ chức/cá nhân tại ngân hàng; và hai là tỷ lệ cho vay đối với nhóm cổ đông, ACB phân tán khách hàng cho vay nên không bị ảnh hưởng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nhìn nhận có 2 điểm không bị ảnh hưởng là quy định liên quan tỷ lệ sở hữu tối đa của tổ chức/cá nhân tại ngân hàng; và hai là tỷ lệ cho vay đối với nhóm cổ đông, ACB phân tán khách hàng cho vay nên không bị ảnh hưởng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "(Theo quy định mới khi khách hàng bị nhảy nhóm nợ ở ngân hàng khác sẽ bị liên đới ở ACB)."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Ngân hàng có định đầu tư thêm hạ tầng cho ACBS không?"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát:Năm 2024 ACBS sẽ có những đầu tư nâng cấp giúp giao dịch của khách hàng thuận tiện hơn, sinh lời tốt hơn."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Ông Từ Tiến Phát:Năm 2024 ACBS sẽ có những đầu tư nâng cấp giúp giao dịch của khách hàng thuận tiện hơn, sinh lời tốt hơn."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Ông Từ Tiến Phát:Năm 2024 ACBS sẽ có những đầu tư nâng cấp giúp giao dịch của khách hàng thuận tiện hơn, sinh lời tốt hơn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Gần đây vấn đề công nghệ thông tin rất được chý ý, ở ACB, ACBS và các công ty con khác đều chú trọng đến vấn đề này và đầu tư cao cho bảo mật, an toàn."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Gần đây vấn đề công nghệ thông tin rất được chý ý, ở ACB, ACBS và các công ty con khác đều chú trọng đến vấn đề này và đầu tư cao cho bảo mật, an toàn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhận định về nền kinh tế của lãnh đạo ACB thế nào?"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát:Chúng tôi có góc nhìn lạc quan nhưng cũng rất thận trọng vì biến số của nền kinh tế luôn có."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song về tổng thể, góc nhìn của lãnh đạo ACB là lạc quan."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Riêng ACB có các biện pháp để xử lý nợ xấu và đưa tỷ lệ nợ xấu xuống thấp hơn, theo mục tiêu đã đưa ra."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chủ tịch và Tổng giám đốc ACB trao đổi thêm về một số vấn đề cổ đông quan tâm liên quan nợ nhóm 2 gia tăng, nợ xấu, quản trị rủi ro."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chủ tịch ACB Trần Hùng Huy cho rằng, nợ xấu tăng là của toàn ngành nhưng ACB quản trị rủi ro rất tốt và chất lượng nợ xấu tốt, tỷ lệ thấp hơn nhiều so với các ngân hàng trong ngành."
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Chủ tịch ACB Trần Hùng Huy cho rằng, nợ xấu tăng là của toàn ngành nhưng ACB quản trị rủi ro rất tốt và chất lượng nợ xấu tốt, tỷ lệ thấp hơn nhiều so với các ngân hàng trong ngành."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chủ tịch ACB Trần Hùng Huy cho rằng, nợ xấu tăng là của toàn ngành nhưng ACB quản trị rủi ro rất tốt và chất lượng nợ xấu tốt, tỷ lệ thấp hơn nhiều so với các ngân hàng trong ngành."
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Tổng giám đốc Từ Tiến Phát bổ sung, nợ nhóm 2 tăng là do các khách hàng gặp khó khăn và bị nhảy nhóm nợ ở ngân hàng khác (Theo quy định mới khi khách hàng bị nhảy nhóm nợ ở ngân hàng khác sẽ bị liên đới ở ACB)."
+    },
+    {
+        "text": "10h40",
+        "label": "DATE",
+        "evidence": "Cập nhật tại thời điểm 10h40,trước khi tiến hành bỏ phiếu thông qua 8 tờ trình mà HĐQT đã gửi tới cô đông, tổng cộng có 860 cổ đông tham dự và uỷ quyền, đại diện cho 66,5% cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Cập nhật tại thời điểm 10h40,trước khi tiến hành bỏ phiếu thông qua 8 tờ trình mà HĐQT đã gửi tới cô đông, tổng cộng có 860 cổ đông tham dự và uỷ quyền, đại diện cho 66,5% cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "66,5%",
+        "label": "RATE",
+        "evidence": "Cập nhật tại thời điểm 10h40,trước khi tiến hành bỏ phiếu thông qua 8 tờ trình mà HĐQT đã gửi tới cô đông, tổng cộng có 860 cổ đông tham dự và uỷ quyền, đại diện cho 66,5% cổ phần có quyền biểu quyết."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cổ đông ACB dự đại hội"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trước khi thông qua kết quả kiểm phiếu,chủ tịch ACB Trần Hùng Huy phát biểuchia sẻ với cổ đông."
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Trước khi thông qua kết quả kiểm phiếu,chủ tịch ACB Trần Hùng Huy phát biểuchia sẻ với cổ đông."
+    },
+    {
+        "text": "ông Huy",
+        "label": "PERSON",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "ROE khoảng 25%",
+        "label": "RATE",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "khoảng 25%",
+        "label": "RATE",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "1,25%",
+        "label": "RATE",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo ông Huy, năm 2023 mặc dù kinh tế gặp khó khăn nhưng ACB vẫn tăng trưởng về quy mô, tài sản, sinh lời tốt (ROE khoảng 25%, là mức cao hàng đầu trong ngành), tỷ lệ nợ xấu tuy có cao hơn những năm trước đây nhưng 1,25% là mức rất thấp, khả quan, phản ánh chất lượng tín dụng tốt vượt trội của ACB."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's nâng xếp hạng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's nâng xếp hạng."
+    },
+    {
+        "text": "Fitch",
+        "label": "ORG",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's nâng xếp hạng."
+    },
+    {
+        "text": "Moody's",
+        "label": "ORG",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's nâng xếp hạng."
+    },
+    {
+        "text": "nâng xếp hạng",
+        "label": "EVENT",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's nâng xếp hạng."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "2023 là mốc son đánh dấu 30 năm của ACB, ngân hàng đã khẳng định được vị thế, thương hiệu trên thị trường."
+    },
+    {
+        "text": "30 năm của ACB",
+        "label": "EVENT",
+        "evidence": "2023 là mốc son đánh dấu 30 năm của ACB, ngân hàng đã khẳng định được vị thế, thương hiệu trên thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "2023 là mốc son đánh dấu 30 năm của ACB, ngân hàng đã khẳng định được vị thế, thương hiệu trên thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB tự hào là ngân hàng đầu tiên công bố báo cáo ESG."
+    },
+    {
+        "text": "công bố báo cáo ESG",
+        "label": "EVENT",
+        "evidence": "ACB tự hào là ngân hàng đầu tiên công bố báo cáo ESG."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, nền kinh tế nói chung còn nhiều khó khăn."
+    },
+    {
+        "text": "Quý 1",
+        "label": "DATE",
+        "evidence": "Quý 1 đã có những bước chuyển mình và lãnh đạo ACB dự đoán giữa năm sẽ tốt hơn, doanh nghiệp và nền kinh tế sẽ phục hồi tốt hơn khi Chính phủ có nhiều biện pháp thúc đẩy và hỗ trợ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Quý 1 đã có những bước chuyển mình và lãnh đạo ACB dự đoán giữa năm sẽ tốt hơn, doanh nghiệp và nền kinh tế sẽ phục hồi tốt hơn khi Chính phủ có nhiều biện pháp thúc đẩy và hỗ trợ."
+    },
+    {
+        "text": "giữa năm",
+        "label": "DATE",
+        "evidence": "Quý 1 đã có những bước chuyển mình và lãnh đạo ACB dự đoán giữa năm sẽ tốt hơn, doanh nghiệp và nền kinh tế sẽ phục hồi tốt hơn khi Chính phủ có nhiều biện pháp thúc đẩy và hỗ trợ."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Quý 1 đã có những bước chuyển mình và lãnh đạo ACB dự đoán giữa năm sẽ tốt hơn, doanh nghiệp và nền kinh tế sẽ phục hồi tốt hơn khi Chính phủ có nhiều biện pháp thúc đẩy và hỗ trợ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB không chọn cách tăng trưởng quá nóng mà tăng trưởng phù hợp với nền kinh tế."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "2019-2024",
+        "label": "DATE",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "cổ tức 25% mỗi năm",
+        "label": "EVENT",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm ở ACB (2019-2024), ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra, trong đó có lợi nhuận và cổ tức 25% mỗi năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Trong quá trình chuyển đổi 5 năm vừa qua, ACB đã nhận được những trái ngọt và sẽ duy trì trong thời gian tới."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong quá trình chuyển đổi 5 năm vừa qua, ACB đã nhận được những trái ngọt và sẽ duy trì trong thời gian tới."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "kế hoạch 2024",
+        "label": "EVENT",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "phân phối lợi nhuận",
+        "label": "EVENT",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "BKS",
+        "label": "ORG",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    },
+    {
+        "text": "99,69 -99,96%",
+        "label": "RATE",
+        "evidence": "Tất cả các tờ trình ACB gửi tới cổ đông (về kết quả hoạt động, kế hoạch 2024, phân phối lợi nhuận, thù lao cho HĐQT và BKS, tăng vốn điều lệ...) đều được thông qua với tỷ lệ biểu quyết rất cao, từ 99,69 -99,96%."
+    }
+]

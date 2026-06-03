@@ -1,0 +1,277 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mở đầu bài viết, vị lãnh đạo FPT cho biết, bức tranh kinh tế Việt Nam hiện tại có hai màu sáng và xám, làm cho khá nhiều người băn khoăn: liệu kinh tế Việt Nam đang tốt hay đang có điềm gì đó bất ổn chăng."
+    },
+    {
+        "text": "hai tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Cụ thể, chỉ trong hai tháng đầu năm 2025, số doanh nghiệp rút lui khỏi thị trường lên đến 67.034, trong khi đó số doanh nghiệp thành lập mới và quay lại hoạt động là 49.800."
+    },
+    {
+        "text": "số doanh nghiệp rút lui khỏi thị trường",
+        "label": "EVENT",
+        "evidence": "Cụ thể, chỉ trong hai tháng đầu năm 2025, số doanh nghiệp rút lui khỏi thị trường lên đến 67.034, trong khi đó số doanh nghiệp thành lập mới và quay lại hoạt động là 49.800."
+    },
+    {
+        "text": "67.034",
+        "label": "VOLUME",
+        "evidence": "Cụ thể, chỉ trong hai tháng đầu năm 2025, số doanh nghiệp rút lui khỏi thị trường lên đến 67.034, trong khi đó số doanh nghiệp thành lập mới và quay lại hoạt động là 49.800."
+    },
+    {
+        "text": "số doanh nghiệp thành lập mới và quay lại hoạt động",
+        "label": "EVENT",
+        "evidence": "Cụ thể, chỉ trong hai tháng đầu năm 2025, số doanh nghiệp rút lui khỏi thị trường lên đến 67.034, trong khi đó số doanh nghiệp thành lập mới và quay lại hoạt động là 49.800."
+    },
+    {
+        "text": "49.800",
+        "label": "VOLUME",
+        "evidence": "Cụ thể, chỉ trong hai tháng đầu năm 2025, số doanh nghiệp rút lui khỏi thị trường lên đến 67.034, trong khi đó số doanh nghiệp thành lập mới và quay lại hoạt động là 49.800."
+    },
+    {
+        "text": "17.234",
+        "label": "VOLUME",
+        "evidence": "Tức là số doanh nghiệp bị giảm là 17.234."
+    },
+    {
+        "text": "Ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT FPT"
+    },
+    {
+        "text": "hai tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Ở chiều ngược lại, thành viên HĐQT FPT có trích dẫn các số liệu kinh tế trong hai tháng đầu năm 2025 để nói về màu sáng."
+    },
+    {
+        "text": "Thu ngân sách nhà nước",
+        "label": "EVENT",
+        "evidence": "Thu ngân sách nhà nước (Thu NSNN) đạt 499.800 tỷ đồng, tăng trưởng 25.4% (cao hơn 3 lần tăng trưởng GDP)."
+    },
+    {
+        "text": "Thu NSNN",
+        "label": "EVENT",
+        "evidence": "Thu ngân sách nhà nước (Thu NSNN) đạt 499.800 tỷ đồng, tăng trưởng 25.4% (cao hơn 3 lần tăng trưởng GDP)."
+    },
+    {
+        "text": "499.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thu ngân sách nhà nước (Thu NSNN) đạt 499.800 tỷ đồng, tăng trưởng 25.4% (cao hơn 3 lần tăng trưởng GDP)."
+    },
+    {
+        "text": "25.4%",
+        "label": "RATE",
+        "evidence": "Thu ngân sách nhà nước (Thu NSNN) đạt 499.800 tỷ đồng, tăng trưởng 25.4% (cao hơn 3 lần tăng trưởng GDP)."
+    },
+    {
+        "text": "thu NSNN của Hà Nội",
+        "label": "EVENT",
+        "evidence": "Đặc biệt thu NSNN của Hà Nội đạt 185.700 tỷ đồng, tăng trưởng 63.1%, của Hải Phòng tăng trưởng 48.46%."
+    },
+    {
+        "text": "185.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt thu NSNN của Hà Nội đạt 185.700 tỷ đồng, tăng trưởng 63.1%, của Hải Phòng tăng trưởng 48.46%."
+    },
+    {
+        "text": "63.1%",
+        "label": "RATE",
+        "evidence": "Đặc biệt thu NSNN của Hà Nội đạt 185.700 tỷ đồng, tăng trưởng 63.1%, của Hải Phòng tăng trưởng 48.46%."
+    },
+    {
+        "text": "48.46%",
+        "label": "RATE",
+        "evidence": "Đặc biệt thu NSNN của Hà Nội đạt 185.700 tỷ đồng, tăng trưởng 63.1%, của Hải Phòng tăng trưởng 48.46%."
+    },
+    {
+        "text": "Du khách quốc tế đạt xấp xỉ 4 triệu lượt",
+        "label": "EVENT",
+        "evidence": "Du khách quốc tế đạt xấp xỉ 4 triệu lượt, tăng trưởng 30.2%."
+    },
+    {
+        "text": "xấp xỉ 4 triệu lượt",
+        "label": "VOLUME",
+        "evidence": "Du khách quốc tế đạt xấp xỉ 4 triệu lượt, tăng trưởng 30.2%."
+    },
+    {
+        "text": "30.2%",
+        "label": "RATE",
+        "evidence": "Du khách quốc tế đạt xấp xỉ 4 triệu lượt, tăng trưởng 30.2%."
+    },
+    {
+        "text": "Đầu tư FDI đăng ký",
+        "label": "EVENT",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "6.9 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "35.5%",
+        "label": "RATE",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "đầu tư của nhà nước",
+        "label": "EVENT",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "73.200 tỷ",
+        "label": "MONEY",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "21.7%",
+        "label": "RATE",
+        "evidence": "Đầu tư FDI đăng ký đạt 6.9 tỷ USD, tăng trưởng 35.5%, đầu tư của nhà nước đạt 73.200 tỷ, tăng trưởng 21.7%."
+    },
+    {
+        "text": "Xuất nhập khẩu",
+        "label": "EVENT",
+        "evidence": "Xuất nhập khẩu đạt 127.7 tỷ USD, tăng trưởng 12%."
+    },
+    {
+        "text": "127.7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Xuất nhập khẩu đạt 127.7 tỷ USD, tăng trưởng 12%."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "Xuất nhập khẩu đạt 127.7 tỷ USD, tăng trưởng 12%."
+    },
+    {
+        "text": "Tổng bán lẻ hàng hoá và dịch vụ tiêu dùng",
+        "label": "EVENT",
+        "evidence": "Tổng bán lẻ hàng hoá và dịch vụ tiêu dùng tăng trưởng 9.4%"
+    },
+    {
+        "text": "9.4%",
+        "label": "RATE",
+        "evidence": "Tổng bán lẻ hàng hoá và dịch vụ tiêu dùng tăng trưởng 9.4%"
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo viết: “Cả 5 chỉ tiêu SÁNG và số doanh nghiệp rút lui khỏi thị trường, thành lập mới và quay lại hoạt động đều là những con số thực tế và tin cậy."
+    },
+    {
+        "text": "số doanh nghiệp rút lui khỏi thị trường",
+        "label": "EVENT",
+        "evidence": "Ông Bảo viết: “Cả 5 chỉ tiêu SÁNG và số doanh nghiệp rút lui khỏi thị trường, thành lập mới và quay lại hoạt động đều là những con số thực tế và tin cậy."
+    },
+    {
+        "text": "thành lập mới và quay lại hoạt động",
+        "label": "EVENT",
+        "evidence": "Ông Bảo viết: “Cả 5 chỉ tiêu SÁNG và số doanh nghiệp rút lui khỏi thị trường, thành lập mới và quay lại hoạt động đều là những con số thực tế và tin cậy."
+    },
+    {
+        "text": "Số thu",
+        "label": "EVENT",
+        "evidence": "Số thu 2 tháng đầu năm 2025 chủ yếu là số thu từ kết quả hoạt động sản xuất kinh doanh của năm 2024."
+    },
+    {
+        "text": "2 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Số thu 2 tháng đầu năm 2025 chủ yếu là số thu từ kết quả hoạt động sản xuất kinh doanh của năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Số thu 2 tháng đầu năm 2025 chủ yếu là số thu từ kết quả hoạt động sản xuất kinh doanh của năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Thế nhưng nếu năm 2024 kết quả sản xuất,kinh doanh tốt thế, doanh nghiệp và người dân nộp thuế nhiều thế thì tại sao số doanh nghiệp rút lui khỏi thị trường lại lớn bất thường như thế?"
+    },
+    {
+        "text": "Tổng cục Thống kê GSO",
+        "label": "ORG",
+        "evidence": "Sau khi tìm hiểu sâu về bản chất những con số, tôi phát hiện ra điều này: Tổng cục Thống kê GSO đưa ra hai khái niệm doanh nghiệp: Doanh nghiệp có kết quả kinh doanh và doanh nghiệp không có kết quả kinh doanh (doanh số bằng 0, thậm chí tiền nộp ngân sách cũng bằng 0 nốt)."
+    },
+    {
+        "text": "GSO",
+        "label": "ORG",
+        "evidence": "Sau khi tìm hiểu sâu về bản chất những con số, tôi phát hiện ra điều này: Tổng cục Thống kê GSO đưa ra hai khái niệm doanh nghiệp: Doanh nghiệp có kết quả kinh doanh và doanh nghiệp không có kết quả kinh doanh (doanh số bằng 0, thậm chí tiền nộp ngân sách cũng bằng 0 nốt)."
+    },
+    {
+        "text": "GSO",
+        "label": "ORG",
+        "evidence": "Số doanh nghiệp không có kết quả kinh doanh hiện rất lớn, theo số liệu của GSO thì tháng 12/2022 lên đến 160.421 doanh nghiệp."
+    },
+    {
+        "text": "tháng 12/2022",
+        "label": "DATE",
+        "evidence": "Số doanh nghiệp không có kết quả kinh doanh hiện rất lớn, theo số liệu của GSO thì tháng 12/2022 lên đến 160.421 doanh nghiệp."
+    },
+    {
+        "text": "160.421 doanh nghiệp",
+        "label": "VOLUME",
+        "evidence": "tháng 12/2022 lên đến 160.421 doanh nghiệp."
+    },
+    {
+        "text": "cuối năm 2019",
+        "label": "DATE",
+        "evidence": "Nên nhớ vào cuối năm 2019 trước đại dịch Covid-19 chỉ có 90.107 doanh nghiệp thôi."
+    },
+    {
+        "text": "đại dịch Covid-19",
+        "label": "EVENT",
+        "evidence": "Nên nhớ vào cuối năm 2019 trước đại dịch Covid-19 chỉ có 90.107 doanh nghiệp thôi."
+    },
+    {
+        "text": "90.107 doanh nghiệp",
+        "label": "VOLUME",
+        "evidence": "Nên nhớ vào cuối năm 2019 trước đại dịch Covid-19 chỉ có 90.107 doanh nghiệp thôi."
+    },
+    {
+        "text": "đại dịch Covid",
+        "label": "EVENT",
+        "evidence": "Như vậy, đại dịch Covid đã góp phần làm cho 70.314 doanh nghiệp kiệt quệ."
+    },
+    {
+        "text": "70.314 doanh nghiệp",
+        "label": "VOLUME",
+        "evidence": "Như vậy, đại dịch Covid đã góp phần làm cho 70.314 doanh nghiệp kiệt quệ."
+    },
+    {
+        "text": "160.421 doanh nghiệp",
+        "label": "VOLUME",
+        "evidence": "Tất nhiên 160.421 doanh nghiệp này đã cố tìm cách đứng dậy sau đại dịch, thế nhưng rất tiếc rằng gần 1/2 trong số đó vẫn chưa thể đứng dậy nổi, họ đành hoặc giải thể hoặc tiếp tục tạm ngưng hoạt động."
+    },
+    {
+        "text": "doanh nghiệp rút lui khỏi thị trường",
+        "label": "EVENT",
+        "evidence": "Như vậy hầu hết các doanh nghiệp rút lui khỏi thị trường trong 2 tháng đầu năm 2025 (phá sản hoặc tạm ngưng hoạt động) đều thuộc các doanh nghiệp không có kết quả kinh doanh."
+    },
+    {
+        "text": "2 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Như vậy hầu hết các doanh nghiệp rút lui khỏi thị trường trong 2 tháng đầu năm 2025 (phá sản hoặc tạm ngưng hoạt động) đều thuộc các doanh nghiệp không có kết quả kinh doanh."
+    },
+    {
+        "text": "số doanh nghiệp giải thể, tạm ngưng hoạt động",
+        "label": "EVENT",
+        "evidence": "Điều này lý giải tại sao số doanh nghiệp giải thể, tạm ngưng hoạt động hầu như không liên quan đến số thu NSNN (bởi thực chất họ có đóng góp rất ít nào NSNN)”."
+    },
+    {
+        "text": "số thu NSNN",
+        "label": "EVENT",
+        "evidence": "Điều này lý giải tại sao số doanh nghiệp giải thể, tạm ngưng hoạt động hầu như không liên quan đến số thu NSNN (bởi thực chất họ có đóng góp rất ít nào NSNN)”."
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Cuối cùng, ông Bảo kết luận, khi tìm ra bản chất thật đằng sau những con số nêu trên, bức tranh kinh tế SÁNG và XÁM của Việt Nam hiện tại không có gì bất thường, không có gì đáng nghi ngờ cả."
+    }
+]

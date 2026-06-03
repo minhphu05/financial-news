@@ -1,0 +1,442 @@
+[
+    {
+        "text": "12/5",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch 12/5 chứng kiến diễn biến sôi động tại cổ phiếu TCB của Techcombank."
+    },
+    {
+        "text": "cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Phiên giao dịch 12/5 chứng kiến diễn biến sôi động tại cổ phiếu TCB của Techcombank."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Phiên giao dịch 12/5 chứng kiến diễn biến sôi động tại cổ phiếu TCB của Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Phiên giao dịch 12/5 chứng kiến diễn biến sôi động tại cổ phiếu TCB của Techcombank."
+    },
+    {
+        "text": "29.400 đồng",
+        "label": "PRICE",
+        "evidence": "Theo đó, kết thúc phiên chiều, cổ phiếu này dừng ở mức 29.400 đồng, tăng 6,52%."
+    },
+    {
+        "text": "tăng 6,52%",
+        "label": "RATE",
+        "evidence": "Theo đó, kết thúc phiên chiều, cổ phiếu này dừng ở mức 29.400 đồng, tăng 6,52%."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB là mã tăng mạnh nhất ngành ngân hàng cũng như nhóm VN30 phiên hôm nay."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "TCB là mã tăng mạnh nhất ngành ngân hàng cũng như nhóm VN30 phiên hôm nay."
+    },
+    {
+        "text": "29.400 đồng",
+        "label": "PRICE",
+        "evidence": "Với mức đóng cửa tại 29.400 đồng, TCB đã chính thức phá đỉnh ghi nhận vào đầu tháng 7/2021 và xác lập mức cao nhất lịch sử (giá đã điều chỉnh theo cổ tức)."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Với mức đóng cửa tại 29.400 đồng, TCB đã chính thức phá đỉnh ghi nhận vào đầu tháng 7/2021 và xác lập mức cao nhất lịch sử (giá đã điều chỉnh theo cổ tức)."
+    },
+    {
+        "text": "đầu tháng 7/2021",
+        "label": "DATE",
+        "evidence": "Với mức đóng cửa tại 29.400 đồng, TCB đã chính thức phá đỉnh ghi nhận vào đầu tháng 7/2021 và xác lập mức cao nhất lịch sử (giá đã điều chỉnh theo cổ tức)."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Qua đó, giúp vốn hoá thị trường của Techcombank đạt gần 208.600 tỷ đồng (tương đương 8,3 tỷ USD)."
+    },
+    {
+        "text": "gần 208.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Qua đó, giúp vốn hoá thị trường của Techcombank đạt gần 208.600 tỷ đồng (tương đương 8,3 tỷ USD)."
+    },
+    {
+        "text": "8,3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Qua đó, giúp vốn hoá thị trường của Techcombank đạt gần 208.600 tỷ đồng (tương đương 8,3 tỷ USD)."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Đi cùng diễn biến giá, thanh khoản TCB cũng tăng vọt với hơn 46,7 triệu đơn vị được mua – bán khớp lệnh trực tiếp trên sàn, gấp 2,7 lần khối lượng giao dịch bình quân 10 phiên gần nhất."
+    },
+    {
+        "text": "hơn 46,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Đi cùng diễn biến giá, thanh khoản TCB cũng tăng vọt với hơn 46,7 triệu đơn vị được mua – bán khớp lệnh trực tiếp trên sàn, gấp 2,7 lần khối lượng giao dịch bình quân 10 phiên gần nhất."
+    },
+    {
+        "text": "2,7 lần",
+        "label": "RATE",
+        "evidence": "Đi cùng diễn biến giá, thanh khoản TCB cũng tăng vọt với hơn 46,7 triệu đơn vị được mua – bán khớp lệnh trực tiếp trên sàn, gấp 2,7 lần khối lượng giao dịch bình quân 10 phiên gần nhất."
+    },
+    {
+        "text": "Cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu TCB liên tục tăng giá sau khi Techcombank tổ chức Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu TCB liên tục tăng giá sau khi Techcombank tổ chức Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4."
+    },
+    {
+        "text": "Đại hội đồng cổ đông thường niên 2025",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu TCB liên tục tăng giá sau khi Techcombank tổ chức Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4."
+    },
+    {
+        "text": "ngày 26/4",
+        "label": "DATE",
+        "evidence": "Cổ phiếu TCB liên tục tăng giá sau khi Techcombank tổ chức Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4."
+    },
+    {
+        "text": "hơn 13%",
+        "label": "RATE",
+        "evidence": "Tính từ đó đến nay, thị giá cổ phiếu này đã tăng tổng cộng hơn 13%."
+    },
+    {
+        "text": "Ông Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Ông Hồ Hùng Anh - Chủ tịch HĐQT Techcombank tại ĐHĐCĐ thường niên 2025"
+    },
+    {
+        "text": "Chủ tịch HĐQT Techcombank",
+        "label": "PERSON",
+        "evidence": "Ông Hồ Hùng Anh - Chủ tịch HĐQT Techcombank tại ĐHĐCĐ thường niên 2025"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Hồ Hùng Anh - Chủ tịch HĐQT Techcombank tại ĐHĐCĐ thường niên 2025"
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2025",
+        "label": "EVENT",
+        "evidence": "Ông Hồ Hùng Anh - Chủ tịch HĐQT Techcombank tại ĐHĐCĐ thường niên 2025"
+    },
+    {
+        "text": "Chủ tịch Techcombank Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Tại Đại hội cổ đông vừa qua,Chủ tịch Techcombank Hồ Hùng Anhđã tái khẳng định, cam kết lớn nhất mà ban lãnh đạo ngân hàng này đang theo đuổi là đạt được giá trị vốn hoá 20 tỷ USD vào cuối năm 2025."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tại Đại hội cổ đông vừa qua,Chủ tịch Techcombank Hồ Hùng Anhđã tái khẳng định, cam kết lớn nhất mà ban lãnh đạo ngân hàng này đang theo đuổi là đạt được giá trị vốn hoá 20 tỷ USD vào cuối năm 2025."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tại Đại hội cổ đông vừa qua,Chủ tịch Techcombank Hồ Hùng Anhđã tái khẳng định, cam kết lớn nhất mà ban lãnh đạo ngân hàng này đang theo đuổi là đạt được giá trị vốn hoá 20 tỷ USD vào cuối năm 2025."
+    },
+    {
+        "text": "cuối năm 2025",
+        "label": "DATE",
+        "evidence": "Tại Đại hội cổ đông vừa qua,Chủ tịch Techcombank Hồ Hùng Anhđã tái khẳng định, cam kết lớn nhất mà ban lãnh đạo ngân hàng này đang theo đuổi là đạt được giá trị vốn hoá 20 tỷ USD vào cuối năm 2025."
+    },
+    {
+        "text": "Ông Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "năm 2018",
+        "label": "DATE",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "Techcombank IPO lần đầu tiên",
+        "label": "EVENT",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "4,5 lần",
+        "label": "RATE",
+        "evidence": "Ông Hồ Hùng Anh cho biết, năm 2018, khi Techcombank IPO lần đầu tiên, thị trường định giá Techcombank gấp 4,5 lần giá trị sổ sách."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Hiện nay, vốn chủ sở hữu của Techcombank đạt khoảng gần 170.000 tỷ đồng."
+    },
+    {
+        "text": "khoảng gần 170.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện nay, vốn chủ sở hữu của Techcombank đạt khoảng gần 170.000 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Các cổ đông cũ củaTechcombankcó thể nhớ lại năm 2017, giá cổ phiếu Techcombank chỉ ở mức 10.000 - 15.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "năm 2017",
+        "label": "DATE",
+        "evidence": "\"Các cổ đông cũ củaTechcombankcó thể nhớ lại năm 2017, giá cổ phiếu Techcombank chỉ ở mức 10.000 - 15.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu Techcombank",
+        "label": "ASSET",
+        "evidence": "\"Các cổ đông cũ củaTechcombankcó thể nhớ lại năm 2017, giá cổ phiếu Techcombank chỉ ở mức 10.000 - 15.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "10.000 - 15.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "\"Các cổ đông cũ củaTechcombankcó thể nhớ lại năm 2017, giá cổ phiếu Techcombank chỉ ở mức 10.000 - 15.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "IPO thành công",
+        "label": "EVENT",
+        "evidence": "Nhưng khi IPO thành công, giá cổ phiếu đạt 127.000 đồng chỉ trong hơn một năm\"."
+    },
+    {
+        "text": "127.000 đồng",
+        "label": "PRICE",
+        "evidence": "Nhưng khi IPO thành công, giá cổ phiếu đạt 127.000 đồng chỉ trong hơn một năm\"."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Tất nhiên, chúng tôi không nói rằng kỳ tích đó sẽ lặp lại, nhưng với nền tảng hiện nay của Techcombank, chúng tôi hoàn toàn có thể tin rằng mình sẽ đạt được những cột mốc (20 tỷ USD - PV) như vậy\", Chủ tịch Techcombank cho hay."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "\"Tất nhiên, chúng tôi không nói rằng kỳ tích đó sẽ lặp lại, nhưng với nền tảng hiện nay của Techcombank, chúng tôi hoàn toàn có thể tin rằng mình sẽ đạt được những cột mốc (20 tỷ USD - PV) như vậy\", Chủ tịch Techcombank cho hay."
+    },
+    {
+        "text": "Chủ tịch Techcombank",
+        "label": "PERSON",
+        "evidence": "\"Tất nhiên, chúng tôi không nói rằng kỳ tích đó sẽ lặp lại, nhưng với nền tảng hiện nay của Techcombank, chúng tôi hoàn toàn có thể tin rằng mình sẽ đạt được những cột mốc (20 tỷ USD - PV) như vậy\", Chủ tịch Techcombank cho hay."
+    },
+    {
+        "text": "ông Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Theo ông Hùng Anh, năm nay, ngân hàng cũng có một số thuận lợi như các nhà đầu tư tin tưởng hơn, thị trường trái phiếu quay trở lại, thị trường bất động sản có tín hiệu hồi phục - đây là những phương diện mà Techcombank có thế mạnh."
+    },
+    {
+        "text": "thị trường trái phiếu quay trở lại",
+        "label": "EVENT",
+        "evidence": "Theo ông Hùng Anh, năm nay, ngân hàng cũng có một số thuận lợi như các nhà đầu tư tin tưởng hơn, thị trường trái phiếu quay trở lại, thị trường bất động sản có tín hiệu hồi phục - đây là những phương diện mà Techcombank có thế mạnh."
+    },
+    {
+        "text": "thị trường bất động sản có tín hiệu hồi phục",
+        "label": "EVENT",
+        "evidence": "Theo ông Hùng Anh, năm nay, ngân hàng cũng có một số thuận lợi như các nhà đầu tư tin tưởng hơn, thị trường trái phiếu quay trở lại, thị trường bất động sản có tín hiệu hồi phục - đây là những phương diện mà Techcombank có thế mạnh."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo ông Hùng Anh, năm nay, ngân hàng cũng có một số thuận lợi như các nhà đầu tư tin tưởng hơn, thị trường trái phiếu quay trở lại, thị trường bất động sản có tín hiệu hồi phục - đây là những phương diện mà Techcombank có thế mạnh."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, Techcombank đang phát triển các dịch vụ đáp ứng nhu cầu toàn diện của người dùng và ngày càng khẳng định vị thế của mình."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, để nhà đầu tư thực sự tin tưởng rằng Techcombank có thể phát triển bền vững, Techcombank cần thời gian."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, để nhà đầu tư thực sự tin tưởng rằng Techcombank có thể phát triển bền vững, Techcombank cần thời gian."
+    },
+    {
+        "text": "Chủ tịch Techcombank",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Techcombank nhìn nhận, các yếu tố như thuế quan cũng có tác động không nhỏ đến chiến lược của ngân hàng, nhưng Techcombak vẫn hi vọng sẽ dần đạt được các mục tiêu của mình và \"khi thời điểm đến, giá trị sẽ bùng nổ\"."
+    },
+    {
+        "text": "Techcombak",
+        "label": "ORG",
+        "evidence": "Chủ tịch Techcombank nhìn nhận, các yếu tố như thuế quan cũng có tác động không nhỏ đến chiến lược của ngân hàng, nhưng Techcombak vẫn hi vọng sẽ dần đạt được các mục tiêu của mình và \"khi thời điểm đến, giá trị sẽ bùng nổ\"."
+    },
+    {
+        "text": "buổi họp báo sau Đại hội đồng cổ đông thường niên 2025",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "ngày 26/4",
+        "label": "DATE",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "Tổng Giám đốc Techcombank Jens Lottner",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "cuối năm 2025",
+        "label": "DATE",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại buổi họp báo sau Đại hội đồng cổ đông thường niên 2025 vào ngày 26/4, Tổng Giám đốc Techcombank Jens Lottner cho biết ban lãnh đạo ngân hàng này tin rằng sẽ đạt được mục tiêu vốn hoá 20 tỷ USD vào cuối năm 2025 nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng."
+    },
+    {
+        "text": "Tổng Giám đốc Jens Lottner",
+        "label": "PERSON",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "cuối năm 2025",
+        "label": "DATE",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "2 đến 2,5 lần",
+        "label": "RATE",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo Tổng Giám đốc Jens Lottner, Techcombank đặt mục tiêu vốn chủ đạt 8 tỷ USD vào cuối năm 2025, với hệ số định giá từ 2 đến 2,5 lần giá trị sổ sách, dẫn đến con số 20 tỷ USD như mục tiêu đề ra."
+    },
+    {
+        "text": "7,2-7,3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "\"Hiện tại, chúng tôi có thể đạt khoảng 7,2-7,3 tỷ USD vốn chủ sở hữu vào cuối năm 2025, và đã trả cổ tức tiền mặt khoảng 500 triệu USD trong hai năm qua."
+    },
+    {
+        "text": "cuối năm 2025",
+        "label": "DATE",
+        "evidence": "\"Hiện tại, chúng tôi có thể đạt khoảng 7,2-7,3 tỷ USD vốn chủ sở hữu vào cuối năm 2025, và đã trả cổ tức tiền mặt khoảng 500 triệu USD trong hai năm qua."
+    },
+    {
+        "text": "500 triệu USD",
+        "label": "MONEY",
+        "evidence": "\"Hiện tại, chúng tôi có thể đạt khoảng 7,2-7,3 tỷ USD vốn chủ sở hữu vào cuối năm 2025, và đã trả cổ tức tiền mặt khoảng 500 triệu USD trong hai năm qua."
+    },
+    {
+        "text": "Tổng Giám đốc Techcombank",
+        "label": "PERSON",
+        "evidence": "\"Vấn đề hiện tại là thuyết phục thị trường rằng mức định giá của chúng tôi là hợp lý\", Tổng Giám đốc Techcombank cho hay."
+    },
+    {
+        "text": "Tổng Giám đốc Techcombank",
+        "label": "PERSON",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "20 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS)",
+        "label": "EVENT",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "Công ty Chứng khoán Techcombank",
+        "label": "ORG",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Tổng Giám đốc Techcombank cũng nhấn mạnh một trong những động lực chính để đạt mục tiêu vốn hóa 20 tỷ USD là kế hoạch chào bán cổ phiếu lần đầu ra công chúng (IPO) Công ty Chứng khoán Techcombank (TCBS), dự kiến diễn ra vào năm 2025."
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "Hiện, TCBS đóng góp 10% lợi nhuận của Techcombank, có tiềm năng được định giá từ 2,5 đến 4 tỷ USD, qua đó nâng giá trị tổng thể của toàn ngân hàng."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Hiện, TCBS đóng góp 10% lợi nhuận của Techcombank, có tiềm năng được định giá từ 2,5 đến 4 tỷ USD, qua đó nâng giá trị tổng thể của toàn ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Hiện, TCBS đóng góp 10% lợi nhuận của Techcombank, có tiềm năng được định giá từ 2,5 đến 4 tỷ USD, qua đó nâng giá trị tổng thể của toàn ngân hàng."
+    },
+    {
+        "text": "2,5 đến 4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Hiện, TCBS đóng góp 10% lợi nhuận của Techcombank, có tiềm năng được định giá từ 2,5 đến 4 tỷ USD, qua đó nâng giá trị tổng thể của toàn ngân hàng."
+    },
+    {
+        "text": "giá cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Năm ngoái, giá cổ phiếu TCB đã tăng 60%."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Năm ngoái, giá cổ phiếu TCB đã tăng 60%."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Năm ngoái, giá cổ phiếu TCB đã tăng 60%."
+    },
+    {
+        "text": "thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi",
+        "label": "EVENT",
+        "evidence": "Nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng, chúng tôi tin rằng có thể đạt được mục tiêu đề ra\", ông Jens Lottner cho hay."
+    },
+    {
+        "text": "ông Jens Lottner",
+        "label": "PERSON",
+        "evidence": "Nếu thị trường chứng khoán Việt Nam được nâng hạng lên thị trường mới nổi và các vấn đề thuế quan được nới lỏng, chúng tôi tin rằng có thể đạt được mục tiêu đề ra\", ông Jens Lottner cho hay."
+    }
+]

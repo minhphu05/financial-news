@@ -1,0 +1,192 @@
+[
+    {
+        "text": "25/4/2024",
+        "label": "DATE",
+        "evidence": "Từ 25/4/2024 đến hết 30/6/2024"
+    },
+    {
+        "text": "30/6/2024",
+        "label": "DATE",
+        "evidence": "Từ 25/4/2024 đến hết 30/6/2024"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "chủ thẻVietinBank"
+    },
+    {
+        "text": "70.000 VND",
+        "label": "MONEY",
+        "evidence": "mã ưu đãi giảm giá lên đến 70.000 VND/mã"
+    },
+    {
+        "text": "6.000.000 VND",
+        "label": "MONEY",
+        "evidence": "tiết kiệm đến hơn 6.000.000 VND/tháng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "liên kết thẻ VietinBank"
+    },
+    {
+        "text": "100.000 VND",
+        "label": "MONEY",
+        "evidence": "tối thiểu 100.000 VND"
+    },
+    {
+        "text": "mã giảm giá GrabCar trị giá 70.000VND",
+        "label": "EVENT",
+        "evidence": "có cơ hội nhận mã giảm giá GrabCar trị giá 70.000VND"
+    },
+    {
+        "text": "70.000VND",
+        "label": "MONEY",
+        "evidence": "trị giá 70.000VND"
+    },
+    {
+        "text": "mã giảm giá GrabBike trị giá 40.000 VND",
+        "label": "EVENT",
+        "evidence": "mã giảm giá GrabBike trị giá 40.000 VND/lượt di chuyển"
+    },
+    {
+        "text": "40.000 VND",
+        "label": "MONEY",
+        "evidence": "trị giá 40.000 VND"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "thanh toán bằng thẻ VietinBank"
+    },
+    {
+        "text": "mã giảm giá 40% tối đa 50.000 VND",
+        "label": "EVENT",
+        "evidence": "có cơ hội nhận mã giảm giá 40% tối đa 50.000 VND/lượt di chuyển"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "giảm giá 40%"
+    },
+    {
+        "text": "50.000 VND",
+        "label": "MONEY",
+        "evidence": "tối đa 50.000 VND"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "sử dụng thẻ VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "thẻ của VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "sở hữu thẻ VietinBank"
+    },
+    {
+        "text": "mở thẻ 100% online",
+        "label": "EVENT",
+        "evidence": "mở thẻ 100% online"
+    },
+    {
+        "text": "VietinBank iPay Mobile",
+        "label": "ORG",
+        "evidence": "ứng dụng VietinBank iPay Mobile"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Phòng giao dịch của VietinBank"
+    },
+    {
+        "text": "ưu đãi miễn phí 4 tháng gói hội viên GrabUnlimited",
+        "label": "EVENT",
+        "evidence": "cơ hội nhận ưu đãi miễn phí 4 tháng gói hội viên GrabUnlimited"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "khách hàng thân thiết của VietinBank"
+    },
+    {
+        "text": "Ưu đãi freeship 15.000 VND mỗi đơn GrabFood có giá trị từ 100.000 VND trở lên",
+        "label": "EVENT",
+        "evidence": "Ưu đãi freeship 15.000 VND mỗi đơn GrabFood có giá trị từ 100.000 VND trở lên"
+    },
+    {
+        "text": "15.000 VND",
+        "label": "MONEY",
+        "evidence": "freeship 15.000 VND"
+    },
+    {
+        "text": "100.000 VND",
+        "label": "MONEY",
+        "evidence": "giá trị từ 100.000 VND"
+    },
+    {
+        "text": "Mã ưu đãi giảm 10%, mức giảm tối đa 100.000 VND cho các chuyến GrabBike / GrabCar từ 25.000 VND",
+        "label": "EVENT",
+        "evidence": "Mã ưu đãi giảm 10%, mức giảm tối đa 100.000 VND cho các chuyến GrabBike / GrabCar từ 25.000 VND"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm 10%"
+    },
+    {
+        "text": "100.000 VND",
+        "label": "MONEY",
+        "evidence": "tối đa 100.000 VND"
+    },
+    {
+        "text": "25.000 VND",
+        "label": "MONEY",
+        "evidence": "từ 25.000 VND"
+    },
+    {
+        "text": "Mã ưu đãi 10.000 VND cho đơn GrabMart từ 200.000 VND",
+        "label": "EVENT",
+        "evidence": "Mã ưu đãi 10.000 VND cho đơn GrabMart từ 200.000 VND"
+    },
+    {
+        "text": "10.000 VND",
+        "label": "MONEY",
+        "evidence": "ưu đãi 10.000 VND"
+    },
+    {
+        "text": "200.000 VND",
+        "label": "MONEY",
+        "evidence": "từ 200.000 VND"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "chủ thẻ VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank đặc biệt chú trọng"
+    },
+    {
+        "text": "hợp tác cùng Grab",
+        "label": "EVENT",
+        "evidence": "hợp tác cùng Grab lần này"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "dịch vụ thẻ của VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "đại diện VietinBank cho biết"
+    }
+]

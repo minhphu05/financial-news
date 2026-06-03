@@ -1,0 +1,372 @@
+[
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank mới đây đã công bố báo cáo tài chính quý 4/2024, ghi nhận kết quả kinh doanh hoàn thành kế hoạch."
+    },
+    {
+        "text": "công bố báo cáo tài chính quý 4/2024",
+        "label": "EVENT",
+        "evidence": "Techcombank mới đây đã công bố báo cáo tài chính quý 4/2024, ghi nhận kết quả kinh doanh hoàn thành kế hoạch."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "Techcombank mới đây đã công bố báo cáo tài chính quý 4/2024, ghi nhận kết quả kinh doanh hoàn thành kế hoạch."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cụ thể, kết thúc năm 2024, lợi nhuận trước thuế hợp nhất đạt hơn 27.500 tỷ đồng, tăng 20,3% so với năm 2023."
+    },
+    {
+        "text": "hơn 27.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, kết thúc năm 2024, lợi nhuận trước thuế hợp nhất đạt hơn 27.500 tỷ đồng, tăng 20,3% so với năm 2023."
+    },
+    {
+        "text": "tăng 20,3%",
+        "label": "RATE",
+        "evidence": "Cụ thể, kết thúc năm 2024, lợi nhuận trước thuế hợp nhất đạt hơn 27.500 tỷ đồng, tăng 20,3% so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, kết thúc năm 2024, lợi nhuận trước thuế hợp nhất đạt hơn 27.500 tỷ đồng, tăng 20,3% so với năm 2023."
+    },
+    {
+        "text": "Tổng thu nhập hoạt động (TOI)",
+        "label": "ASSET",
+        "evidence": "Tổng thu nhập hoạt động (TOI) đạt 47 nghìn tỷ đồng, tăng 17,3% so với năm trước."
+    },
+    {
+        "text": "TOI",
+        "label": "ASSET",
+        "evidence": "Tổng thu nhập hoạt động (TOI) đạt 47 nghìn tỷ đồng, tăng 17,3% so với năm trước."
+    },
+    {
+        "text": "47 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng thu nhập hoạt động (TOI) đạt 47 nghìn tỷ đồng, tăng 17,3% so với năm trước."
+    },
+    {
+        "text": "tăng 17,3%",
+        "label": "RATE",
+        "evidence": "Tổng thu nhập hoạt động (TOI) đạt 47 nghìn tỷ đồng, tăng 17,3% so với năm trước."
+    },
+    {
+        "text": "Thu nhập lãi thuần (NII)",
+        "label": "ASSET",
+        "evidence": "Thu nhập lãi thuần (NII) trong cả năm 2024 đạt 35,5 nghìn tỷ đồng, ghi nhận tăng trưởng tích cực 28,2%."
+    },
+    {
+        "text": "NII",
+        "label": "ASSET",
+        "evidence": "Thu nhập lãi thuần (NII) trong cả năm 2024 đạt 35,5 nghìn tỷ đồng, ghi nhận tăng trưởng tích cực 28,2%."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Thu nhập lãi thuần (NII) trong cả năm 2024 đạt 35,5 nghìn tỷ đồng, ghi nhận tăng trưởng tích cực 28,2%."
+    },
+    {
+        "text": "35,5 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thu nhập lãi thuần (NII) trong cả năm 2024 đạt 35,5 nghìn tỷ đồng, ghi nhận tăng trưởng tích cực 28,2%."
+    },
+    {
+        "text": "tăng trưởng tích cực 28,2%",
+        "label": "RATE",
+        "evidence": "Thu nhập lãi thuần (NII) trong cả năm 2024 đạt 35,5 nghìn tỷ đồng, ghi nhận tăng trưởng tích cực 28,2%."
+    },
+    {
+        "text": "Thu nhập từ hoạt động dịch vụ (NFI)",
+        "label": "ASSET",
+        "evidence": "Thu nhập từ hoạt động dịch vụ (NFI) ghi nhận tăng 4,4% lên mức 10,6 nghìn tỷ đồng."
+    },
+    {
+        "text": "NFI",
+        "label": "ASSET",
+        "evidence": "Thu nhập từ hoạt động dịch vụ (NFI) ghi nhận tăng 4,4% lên mức 10,6 nghìn tỷ đồng."
+    },
+    {
+        "text": "tăng 4,4%",
+        "label": "RATE",
+        "evidence": "Thu nhập từ hoạt động dịch vụ (NFI) ghi nhận tăng 4,4% lên mức 10,6 nghìn tỷ đồng."
+    },
+    {
+        "text": "10,6 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thu nhập từ hoạt động dịch vụ (NFI) ghi nhận tăng 4,4% lên mức 10,6 nghìn tỷ đồng."
+    },
+    {
+        "text": "phí dịch vụ ngân hàng đầu tư",
+        "label": "ASSET",
+        "evidence": "Trong đó, phí dịch vụ ngân hàng đầu tư tăng trưởng mạnh 88,2% lên 3.461 tỷ đồng."
+    },
+    {
+        "text": "tăng trưởng mạnh 88,2%",
+        "label": "RATE",
+        "evidence": "Trong đó, phí dịch vụ ngân hàng đầu tư tăng trưởng mạnh 88,2% lên 3.461 tỷ đồng."
+    },
+    {
+        "text": "3.461 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, phí dịch vụ ngân hàng đầu tư tăng trưởng mạnh 88,2% lên 3.461 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, Techcombank cho biết ghi nhận 291,7 tỷ đồng chi phí từ hoạt động khác, chủ yếu tới từ khoản chi phí không lặp lại (one-off) từ việc dừng thỏa thuận phân phối độc quyền với Manulife, tuy nhiên được bù đắp phần nào bởi khoản lãi từ bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM."
+    },
+    {
+        "text": "291,7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, Techcombank cho biết ghi nhận 291,7 tỷ đồng chi phí từ hoạt động khác, chủ yếu tới từ khoản chi phí không lặp lại (one-off) từ việc dừng thỏa thuận phân phối độc quyền với Manulife, tuy nhiên được bù đắp phần nào bởi khoản lãi từ bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM."
+    },
+    {
+        "text": "dừng thỏa thuận phân phối độc quyền với Manulife",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, Techcombank cho biết ghi nhận 291,7 tỷ đồng chi phí từ hoạt động khác, chủ yếu tới từ khoản chi phí không lặp lại (one-off) từ việc dừng thỏa thuận phân phối độc quyền với Manulife, tuy nhiên được bù đắp phần nào bởi khoản lãi từ bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM."
+    },
+    {
+        "text": "Manulife",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, Techcombank cho biết ghi nhận 291,7 tỷ đồng chi phí từ hoạt động khác, chủ yếu tới từ khoản chi phí không lặp lại (one-off) từ việc dừng thỏa thuận phân phối độc quyền với Manulife, tuy nhiên được bù đắp phần nào bởi khoản lãi từ bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM."
+    },
+    {
+        "text": "bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, Techcombank cho biết ghi nhận 291,7 tỷ đồng chi phí từ hoạt động khác, chủ yếu tới từ khoản chi phí không lặp lại (one-off) từ việc dừng thỏa thuận phân phối độc quyền với Manulife, tuy nhiên được bù đắp phần nào bởi khoản lãi từ bán một phần của tòa nhà Hội sở tại Lê Duẩn, Tp. HCM."
+    },
+    {
+        "text": "tháng 7/2024",
+        "label": "DATE",
+        "evidence": "Được biết, hồi tháng 7/2024, HĐQT Techcombank đã ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM cho Công ty Cổ phần Masan."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Được biết, hồi tháng 7/2024, HĐQT Techcombank đã ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM cho Công ty Cổ phần Masan."
+    },
+    {
+        "text": "ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM",
+        "label": "EVENT",
+        "evidence": "Được biết, hồi tháng 7/2024, HĐQT Techcombank đã ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM cho Công ty Cổ phần Masan."
+    },
+    {
+        "text": "Công ty Cổ phần Masan",
+        "label": "ORG",
+        "evidence": "Được biết, hồi tháng 7/2024, HĐQT Techcombank đã ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM cho Công ty Cổ phần Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Được biết, hồi tháng 7/2024, HĐQT Techcombank đã ký kết đàm phán bán công trình xây dựng phần diện tích sàn văn phòng tầng 15 đến tầng 20 Toà nhà Techcombank Sài Gòn tại 23 Lê Duẩn, phường Bến Nghé, quận 1, TP.HCM cho Công ty Cổ phần Masan."
+    },
+    {
+        "text": "1.604 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá bán là 1.604 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Về hoạt động bảo hiểm nhân thọ, được biết Techcombank trả khoản phí 1.800 tỷ đồng cho Manulife để chấm dứt thỏa thuận phân phối bảo hiểm độc quyền."
+    },
+    {
+        "text": "1.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về hoạt động bảo hiểm nhân thọ, được biết Techcombank trả khoản phí 1.800 tỷ đồng cho Manulife để chấm dứt thỏa thuận phân phối bảo hiểm độc quyền."
+    },
+    {
+        "text": "Manulife",
+        "label": "ORG",
+        "evidence": "Về hoạt động bảo hiểm nhân thọ, được biết Techcombank trả khoản phí 1.800 tỷ đồng cho Manulife để chấm dứt thỏa thuận phân phối bảo hiểm độc quyền."
+    },
+    {
+        "text": "chấm dứt thỏa thuận phân phối bảo hiểm độc quyền",
+        "label": "EVENT",
+        "evidence": "Về hoạt động bảo hiểm nhân thọ, được biết Techcombank trả khoản phí 1.800 tỷ đồng cho Manulife để chấm dứt thỏa thuận phân phối bảo hiểm độc quyền."
+    },
+    {
+        "text": "ngày 20/1",
+        "label": "DATE",
+        "evidence": "Trong diễn biến liên quan, ngày 20/1, Hội đồng quản trị Techcombank thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, ngày 20/1, Hội đồng quản trị Techcombank thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank."
+    },
+    {
+        "text": "thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank",
+        "label": "EVENT",
+        "evidence": "Trong diễn biến liên quan, ngày 20/1, Hội đồng quản trị Techcombank thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank."
+    },
+    {
+        "text": "Công ty Bảo hiểm Nhân thọ",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, ngày 20/1, Hội đồng quản trị Techcombank thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, ngày 20/1, Hội đồng quản trị Techcombank thông qua việc phê duyệt ngày đăng ký cuối cùng để chốt danh sách cổ đông về việc lấy ý kiến cổ đông bằng văn bản, trong đó sẽ phê duyệt góp vốn thành lập Công ty Bảo hiểm Nhân thọ là công ty con của Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Về chi phí hoạt động, Techcombank ghi nhận chi phí này tăng mạnh trong quý 4/2024 (tăng 31,3% so với cùng kỳ) lên 4.700 tỷ đồng, một phần do yếu tố cuối năm và ngân hàng tăng cường đẩy mạnh các hoạt động truyền thông quảng bá."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "Về chi phí hoạt động, Techcombank ghi nhận chi phí này tăng mạnh trong quý 4/2024 (tăng 31,3% so với cùng kỳ) lên 4.700 tỷ đồng, một phần do yếu tố cuối năm và ngân hàng tăng cường đẩy mạnh các hoạt động truyền thông quảng bá."
+    },
+    {
+        "text": "tăng 31,3%",
+        "label": "RATE",
+        "evidence": "Về chi phí hoạt động, Techcombank ghi nhận chi phí này tăng mạnh trong quý 4/2024 (tăng 31,3% so với cùng kỳ) lên 4.700 tỷ đồng, một phần do yếu tố cuối năm và ngân hàng tăng cường đẩy mạnh các hoạt động truyền thông quảng bá."
+    },
+    {
+        "text": "4.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về chi phí hoạt động, Techcombank ghi nhận chi phí này tăng mạnh trong quý 4/2024 (tăng 31,3% so với cùng kỳ) lên 4.700 tỷ đồng, một phần do yếu tố cuối năm và ngân hàng tăng cường đẩy mạnh các hoạt động truyền thông quảng bá."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Chi phí hoạt động cả năm 2024 do đó ở mức 15.400 tỷ đồng, tăng 16% so với năm 2023."
+    },
+    {
+        "text": "15.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí hoạt động cả năm 2024 do đó ở mức 15.400 tỷ đồng, tăng 16% so với năm 2023."
+    },
+    {
+        "text": "tăng 16%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động cả năm 2024 do đó ở mức 15.400 tỷ đồng, tăng 16% so với năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Chi phí hoạt động cả năm 2024 do đó ở mức 15.400 tỷ đồng, tăng 16% so với năm 2023."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Chi phí dự phòng năm 2024 của Techcombank ở mức 4.082 tỷ đồng, tăng nhẹ 4,1% so với cùng kỳ."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Chi phí dự phòng năm 2024 của Techcombank ở mức 4.082 tỷ đồng, tăng nhẹ 4,1% so với cùng kỳ."
+    },
+    {
+        "text": "4.082 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí dự phòng năm 2024 của Techcombank ở mức 4.082 tỷ đồng, tăng nhẹ 4,1% so với cùng kỳ."
+    },
+    {
+        "text": "tăng nhẹ 4,1%",
+        "label": "RATE",
+        "evidence": "Chi phí dự phòng năm 2024 của Techcombank ở mức 4.082 tỷ đồng, tăng nhẹ 4,1% so với cùng kỳ."
+    },
+    {
+        "text": "113,8%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ bao phủ nợ xấu ở mức 113,8%."
+    },
+    {
+        "text": "ngày 31/12/2024",
+        "label": "DATE",
+        "evidence": "Tại ngày 31/12/2024, tổng tài sản Techcombank đạt 978,8 nghìn tỷ đồng, tăng 15,2% so với đầu năm."
+    },
+    {
+        "text": "tổng tài sản Techcombank",
+        "label": "ASSET",
+        "evidence": "Tại ngày 31/12/2024, tổng tài sản Techcombank đạt 978,8 nghìn tỷ đồng, tăng 15,2% so với đầu năm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tại ngày 31/12/2024, tổng tài sản Techcombank đạt 978,8 nghìn tỷ đồng, tăng 15,2% so với đầu năm."
+    },
+    {
+        "text": "978,8 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại ngày 31/12/2024, tổng tài sản Techcombank đạt 978,8 nghìn tỷ đồng, tăng 15,2% so với đầu năm."
+    },
+    {
+        "text": "tăng 15,2%",
+        "label": "RATE",
+        "evidence": "Tại ngày 31/12/2024, tổng tài sản Techcombank đạt 978,8 nghìn tỷ đồng, tăng 15,2% so với đầu năm."
+    },
+    {
+        "text": "tăng trưởng 20,85%",
+        "label": "RATE",
+        "evidence": "Tính riêng ngân hàng mẹ, tín dụng tăng trưởng 20,85% lên mức 640,7 nghìn tỷ đồng."
+    },
+    {
+        "text": "640,7 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính riêng ngân hàng mẹ, tín dụng tăng trưởng 20,85% lên mức 640,7 nghìn tỷ đồng."
+    },
+    {
+        "text": "tăng 21,8%",
+        "label": "RATE",
+        "evidence": "Tín dụng trên cơ sở hợp nhất tăng 21,8%."
+    },
+    {
+        "text": "Tiền gửi của khách hàng",
+        "label": "ASSET",
+        "evidence": "Tiền gửi của khách hàng đạt 533.392 tỷ đồng, tăng 17,3 % so với đầu năm."
+    },
+    {
+        "text": "533.392 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi của khách hàng đạt 533.392 tỷ đồng, tăng 17,3 % so với đầu năm."
+    },
+    {
+        "text": "tăng 17,3 %",
+        "label": "RATE",
+        "evidence": "Tiền gửi của khách hàng đạt 533.392 tỷ đồng, tăng 17,3 % so với đầu năm."
+    },
+    {
+        "text": "Tỷ lệ nợ xấu (NPL)",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu (NPL) ngân hàng cải thiện về mức 1,17%, từ 1,35% cuối quý 3."
+    },
+    {
+        "text": "NPL",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu (NPL) ngân hàng cải thiện về mức 1,17%, từ 1,35% cuối quý 3."
+    },
+    {
+        "text": "1,17%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu (NPL) ngân hàng cải thiện về mức 1,17%, từ 1,35% cuối quý 3."
+    },
+    {
+        "text": "1,35%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu (NPL) ngân hàng cải thiện về mức 1,17%, từ 1,35% cuối quý 3."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu (NPL) ngân hàng cải thiện về mức 1,17%, từ 1,35% cuối quý 3."
+    },
+    {
+        "text": "1,09%",
+        "label": "RATE",
+        "evidence": "Tính cả trái phiếu và cho vay, tỷ lệ tín dụng xấu là 1,09%."
+    },
+    {
+        "text": "1,0%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu trước CIC ở mức 1,0%."
+    }
+]

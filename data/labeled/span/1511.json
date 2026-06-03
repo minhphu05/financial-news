@@ -1,0 +1,997 @@
+[
+    {
+        "text": "Tổng dự nợ cho vay tăng",
+        "label": "EVENT",
+        "evidence": "Tổng dự nợ cho vay tăng, chất lượng tín dụng được bảo đảm"
+    },
+    {
+        "text": "chất lượng tín dụng được bảo đảm",
+        "label": "EVENT",
+        "evidence": "Tổng dự nợ cho vay tăng, chất lượng tín dụng được bảo đảm"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Chính phủvừa có Báo cáo số 482 /BC-CP gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp, trong đó nêu rõ về tình hình tài chính và hoạt động của khốingân hàng thương mạinhà nước trong năm 2022."
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Chính phủvừa có Báo cáo số 482 /BC-CP gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp, trong đó nêu rõ về tình hình tài chính và hoạt động của khốingân hàng thương mạinhà nước trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Chính phủvừa có Báo cáo số 482 /BC-CP gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp, trong đó nêu rõ về tình hình tài chính và hoạt động của khốingân hàng thương mạinhà nước trong năm 2022."
+    },
+    {
+        "text": "Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng TMCP Ngoại Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng được nêu trong báo cáo gồm: Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank), Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV), Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank), Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)."
+    },
+    {
+        "text": "31/12/2022",
+        "label": "DATE",
+        "evidence": "Báo cáo của các ngân hàng tại thời điểm 31/12/2022 nêu rõ: Năm 2022, ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước sau khi nền kinh tế đã bắt đầu phục hồi qua thời gian chịu ảnh hưởng nặng nề bởi đại dịch Covid-19."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Báo cáo của các ngân hàng tại thời điểm 31/12/2022 nêu rõ: Năm 2022, ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước sau khi nền kinh tế đã bắt đầu phục hồi qua thời gian chịu ảnh hưởng nặng nề bởi đại dịch Covid-19."
+    },
+    {
+        "text": "ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "Năm 2022, ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước sau khi nền kinh tế đã bắt đầu phục hồi qua thời gian chịu ảnh hưởng nặng nề bởi đại dịch Covid-19."
+    },
+    {
+        "text": "nền kinh tế đã bắt đầu phục hồi",
+        "label": "EVENT",
+        "evidence": "Năm 2022, ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước sau khi nền kinh tế đã bắt đầu phục hồi qua thời gian chịu ảnh hưởng nặng nề bởi đại dịch Covid-19."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "7.617.693 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "1.213.411 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "các hoạt động huy động khác cũng tăng mạnh trong năm",
+        "label": "EVENT",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "phát hành giấy tờ có giá",
+        "label": "EVENT",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "giấy tờ có giá",
+        "label": "ASSET",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng, tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021, cơ cấu nguồn vốn huy động vẫn chiếm tỷ trọng lớn bởi lượng tiền gửi khách hàng, các hoạt động huy động khác cũng tăng mạnh trong năm như qua thị trường liên ngân hàng, phát hành giấy tờ có giá."
+    },
+    {
+        "text": "các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "330.754 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "261.235 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "376%",
+        "label": "RATE",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng, tăng 261.235 tỷ đồng (376%) so cuối năm 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "5.590.177 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "370.103 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "giấy tờ có giá",
+        "label": "ASSET",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "352.223 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "118.095 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng, tăng 370.103 tỷ đồng (7%) so với cuối năm 2021; Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng, tăng 118.095 tỷ đồng (50%) so cuối năm 2021."
+    },
+    {
+        "text": "số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "241.657 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "21.228 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "970.487 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "304.656 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Trong khi đó, về sử dụng vốn, 4 ngân hàng thương mại đã có số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng, giảm 21.228 tỷ đồng (8%) so với cuối năm 2021; Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng, tăng 304.656 tỷ đồng (46%) so với cuối năm 2021."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, về việc cho vay khách hàng, trên cơ sở đảm bảo kiểm soát tốt chất lượng tín dụng và kiểm soát trong giới hạn được Ngân hàng Nhà nước cho phép, hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021."
+    },
+    {
+        "text": "hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, về việc cho vay khách hàng, trên cơ sở đảm bảo kiểm soát tốt chất lượng tín dụng và kiểm soát trong giới hạn được Ngân hàng Nhà nước cho phép, hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, về việc cho vay khách hàng, trên cơ sở đảm bảo kiểm soát tốt chất lượng tín dụng và kiểm soát trong giới hạn được Ngân hàng Nhà nước cho phép, hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, về việc cho vay khách hàng, trên cơ sở đảm bảo kiểm soát tốt chất lượng tín dụng và kiểm soát trong giới hạn được Ngân hàng Nhà nước cho phép, hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "5.257.307 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "609.633 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng, tăng 609.633 tỷ đồng (13%) so với cuối năm 2021."
+    },
+    {
+        "text": "Chất lượng tín dụng được đảm bảo",
+        "label": "EVENT",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "78.240 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "1,33%",
+        "label": "RATE",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "562.055 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "0,14%",
+        "label": "RATE",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Chất lượng tín dụng được đảm bảo, nợ xấu năm 2022 là 78.240 tỷ đồng, chiếm 1,33% so với tổng dư nợ, tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021."
+    },
+    {
+        "text": "Vốn đầu tư Nhà nước tiếp tục được bảo toàn và sinh lời",
+        "label": "EVENT",
+        "evidence": "Vốn đầu tư Nhà nước tiếp tục được bảo toàn và sinh lời"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "chứng khoán kinh doanh đầu tư",
+        "label": "ASSET",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "830.749 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "231.650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "39%",
+        "label": "RATE",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Về hoạt động đầu tư của 4 ngân hàng, báo cáo của Chính phủ cũng nêu rõ: Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng (đã tính dự phòng rủi ro), tăng 231.650 tỷ đồng (39%) so với cuối năm 2021."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, trong báo cáo, Chính phủ cũng nêu rõ về tình hình nợ xấu cho vay của 4 ngân hàng."
+    },
+    {
+        "text": "nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%",
+        "label": "EVENT",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "78.240 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "14.753 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "23,24%",
+        "label": "RATE",
+        "evidence": "Theo đó, nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng, tăng 14.753 tỷ đồng so với năm 2021 tương ứng với tỷ lệ tăng 23,24%."
+    },
+    {
+        "text": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)",
+        "label": "EVENT",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)."
+    },
+    {
+        "text": "1,33%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)."
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33% (tăng 11% so với năm 2021)."
+    },
+    {
+        "text": "Hoạt động thu hồi nợ xấu và các khoản nợ đã được xử lý bằng dự phòng rủi ro tiếp tục được đẩy mạnh và đạt được kết quả tốt",
+        "label": "EVENT",
+        "evidence": "Hoạt động thu hồi nợ xấu và các khoản nợ đã được xử lý bằng dự phòng rủi ro tiếp tục được đẩy mạnh và đạt được kết quả tốt."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ ... là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%)",
+        "label": "EVENT",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "2.831 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "1.204 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "29,84%",
+        "label": "RATE",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ",
+        "label": "EVENT",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "68 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Điều này được thể hiện bằng việc đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng, giảm 1.204 tỷ đồng so với năm 2021 (tương đương 29,84%), trong đó các ngân hàng giảm dần số dư các khoản nợ cơ cấu giữ nguyên nhóm nợ (Vietcombank chỉ còn 68 tỷ đồng dư nợ; BIDV không còn dư nợ)."
+    },
+    {
+        "text": "tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ ... đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "69.934 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "185.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "-73%",
+        "label": "RATE",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng, giảm 185.666 tỷ đồng (-73%) so với năm 2021."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Về kết quả xử lý nợ xấu, Chính phủ cũng cho rằng: Trong năm 2022, các ngân hàng thương mại Nhà nước đạt kết quả khá tích cực trong xử lý nợ xấu khi triển khai quyết liệt phương án xử lý nợ xấu, thường xuyên rà soát, cập nhật, đánh giá tính khả thi của phương án xử lý nợ xấu."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Về kết quả xử lý nợ xấu, Chính phủ cũng cho rằng: Trong năm 2022, các ngân hàng thương mại Nhà nước đạt kết quả khá tích cực trong xử lý nợ xấu khi triển khai quyết liệt phương án xử lý nợ xấu, thường xuyên rà soát, cập nhật, đánh giá tính khả thi của phương án xử lý nợ xấu."
+    },
+    {
+        "text": "các ngân hàng thương mại Nhà nước đạt kết quả khá tích cực trong xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "Về kết quả xử lý nợ xấu, Chính phủ cũng cho rằng: Trong năm 2022, các ngân hàng thương mại Nhà nước đạt kết quả khá tích cực trong xử lý nợ xấu khi triển khai quyết liệt phương án xử lý nợ xấu, thường xuyên rà soát, cập nhật, đánh giá tính khả thi của phương án xử lý nợ xấu."
+    },
+    {
+        "text": "tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 ... đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "119.888 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "60.381 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "101%",
+        "label": "RATE",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "62.599 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "23.686 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "61%",
+        "label": "RATE",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Cụ thể: tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng, tăng 60.381 tỷ đồng (101%) so cuối năm 2021; trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng, tăng 23.686 tỷ đồng (61%) so cuối năm 2021."
+    },
+    {
+        "text": "tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, về kết quả hoạt động kinh doanh, tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021."
+    },
+    {
+        "text": "538.372 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, về kết quả hoạt động kinh doanh, tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021."
+    },
+    {
+        "text": "95.835 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, về kết quả hoạt động kinh doanh, tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, về kết quả hoạt động kinh doanh, tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, về kết quả hoạt động kinh doanh, tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng, tăng 95.835 tỷ đồng (22%) so với năm 2021."
+    },
+    {
+        "text": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "101.648 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "31.118 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng, tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "81.510 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "24.875 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng, tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021",
+        "label": "EVENT",
+        "evidence": "Về hiệu quả sử dụng vốn của 4 ngân hàng, qua thống kê cho thấy, tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Về hiệu quả sử dụng vốn của 4 ngân hàng, qua thống kê cho thấy, tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "18,74%",
+        "label": "RATE",
+        "evidence": "Về hiệu quả sử dụng vốn của 4 ngân hàng, qua thống kê cho thấy, tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "3,24%",
+        "label": "RATE",
+        "evidence": "Về hiệu quả sử dụng vốn của 4 ngân hàng, qua thống kê cho thấy, tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Về hiệu quả sử dụng vốn của 4 ngân hàng, qua thống kê cho thấy, tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%, tăng 3,24% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021",
+        "label": "EVENT",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "1,07%",
+        "label": "RATE",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "0,19%",
+        "label": "RATE",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%, tăng 0,19% so với cùng kỳ năm 2021."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "22.516,4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "6.520 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "4.891 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "6.046.3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "13.062,27 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chính nhờ nỗ lực trong điều hành, đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng, trong đó: Vietinbank: 6.520 tỷ đồng; BIDV: 4.891 tỷ đồng; Vietcombank: 6.046.3 tỷ đồng và Agribank: 13.062,27 tỷ đồng."
+    },
+    {
+        "text": "Vốn đầu tư Nhà nước tại 4 ngân hàng tiếp tục được bảo toàn và sinh lời",
+        "label": "EVENT",
+        "evidence": "Vốn đầu tư Nhà nước tại 4 ngân hàng tiếp tục được bảo toàn và sinh lời."
+    },
+    {
+        "text": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "435.002 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "69.725 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "180.415 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "10.355 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng, tăng 69.725 tỷ đồng (19%) so với cuối năm 2021, trong đó vốn điều lệ đạt 180.415 tỷ đồng, tăng 10.355 tỷ đồng (6%) so cuối năm 2021."
+    },
+    {
+        "text": "các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "131.170 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "60.195 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "65.993 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "31.760 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "22.768 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "14.912 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "32.438 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "11.320 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "53,6%",
+        "label": "RATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021",
+        "label": "EVENT",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "9.971 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "2.203 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đồng thời, các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng, tăng 60.195 tỷ đồng so với năm 2021, trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng, tăng 31.760 tỷ đồng so với cuối năm 2021 (tăng chủ yếu các khoản phải thu bên ngoài); BIDV có các khoản phải thu là 22.768 tỷ đồng, tăng 14.912 tỷ đồng so với năm 2021; Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng, tăng 11.320 tỷ đồng (53,6%) so với năm 2021; Agribank có các khoản nợ phải thu là 9.971 tỷ đồng, tăng 2.203 tỷ đồng so cuối năm 2021."
+    },
+    {
+        "text": "208.925 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các khoản nợ phải trả là 208.925 tỷ đồng."
+    }
+]

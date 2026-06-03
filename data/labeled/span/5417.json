@@ -1,0 +1,917 @@
+[
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "CafeF đã xây dựng PRIVATE 100 – Danh sách các doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam với số thực nộp tối thiểu 100 tỷ đồng."
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "ORG",
+        "evidence": "CafeF đã xây dựng PRIVATE 100 – Danh sách các doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam với số thực nộp tối thiểu 100 tỷ đồng."
+    },
+    {
+        "text": "CafeF đã xây dựng PRIVATE 100 – Danh sách các doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam",
+        "label": "EVENT",
+        "evidence": "CafeF đã xây dựng PRIVATE 100 – Danh sách các doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam với số thực nộp tối thiểu 100 tỷ đồng."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với số thực nộp tối thiểu 100 tỷ đồng."
+    },
+    {
+        "text": "Danh sách lần đầu tiên sắp công bố trong tháng 8/2024",
+        "label": "EVENT",
+        "evidence": "Danh sách lần đầu tiên sắp công bố trong tháng 8/2024 được thống kê theo số liệu thực nộp trong niên độ tài chính 2023."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "Danh sách lần đầu tiên sắp công bố trong tháng 8/2024 được thống kê theo số liệu thực nộp trong niên độ tài chính 2023."
+    },
+    {
+        "text": "niên độ tài chính 2023",
+        "label": "DATE",
+        "evidence": "Danh sách lần đầu tiên sắp công bố trong tháng 8/2024 được thống kê theo số liệu thực nộp trong niên độ tài chính 2023."
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "ORG",
+        "evidence": "Không quá bất ngờ khi các vị trí dẫn đầu PRIVATE 100 hiện đều là các doanh nghiệp được sở hữu và điều hành bởi các tỷ phú đô la theo xếp hạng của Forbes."
+    },
+    {
+        "text": "Forbes",
+        "label": "ORG",
+        "evidence": "Không quá bất ngờ khi các vị trí dẫn đầu PRIVATE 100 hiện đều là các doanh nghiệp được sở hữu và điều hành bởi các tỷ phú đô la theo xếp hạng của Forbes."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Nguyễn Thị Phương Thảo",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Trần Đình Long",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Trần Bá Dương",
+        "label": "PERSON",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Thaco",
+        "label": "ORG",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "72.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo thống kê, năm 2023, các doanh nghiệp của 6 vị tỷ phú đô la của Việt Nam bao gồm ông Phạm Nhật Vượng (Vingroup), bà Nguyễn Thị Phương Thảo (Vietjet Air & HDBank), ông Trần Đình Long (Hòa Phát), ông Hồ Hùng Anh (Techcombank), ông Nguyễn Đăng Quang (Masan Group) và ông Trần Bá Dương & gia đình (Thaco) đã đóng góp cho ngân sách nhà nước 72.700 tỷ đồng."
+    },
+    {
+        "text": "Sovico Group",
+        "label": "ORG",
+        "evidence": "Trên thực tế, các tỷ phú vẫn còn sở hữu khá nhiều doanh nghiệp khác mà số nộp ngân sách chưa được công bố chẳng hạn như Sovico Group của tỷ phú Nguyễn Thị Phương Thảo hay công ty Xanh SM của tỷ phú Phạm Nhật Vượng."
+    },
+    {
+        "text": "Nguyễn Thị Phương Thảo",
+        "label": "PERSON",
+        "evidence": "Trên thực tế, các tỷ phú vẫn còn sở hữu khá nhiều doanh nghiệp khác mà số nộp ngân sách chưa được công bố chẳng hạn như Sovico Group của tỷ phú Nguyễn Thị Phương Thảo hay công ty Xanh SM của tỷ phú Phạm Nhật Vượng."
+    },
+    {
+        "text": "Xanh SM",
+        "label": "ORG",
+        "evidence": "hay công ty Xanh SM của tỷ phú Phạm Nhật Vượng."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "hay công ty Xanh SM của tỷ phú Phạm Nhật Vượng."
+    },
+    {
+        "text": "gần 73.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Con số gần 73.000 tỷ đồng nộp ngân sách của doanh nghiệp của các tỷ phú tương đương với tổng số nộp của 2 trong 3 tập đoàn nhà nước lớn nhất là Viettel và Petrolimex (tổng nộp 71.200 tỷ trong năm ngoái)."
+    },
+    {
+        "text": "Viettel",
+        "label": "ORG",
+        "evidence": "Con số gần 73.000 tỷ đồng nộp ngân sách của doanh nghiệp của các tỷ phú tương đương với tổng số nộp của 2 trong 3 tập đoàn nhà nước lớn nhất là Viettel và Petrolimex (tổng nộp 71.200 tỷ trong năm ngoái)."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Con số gần 73.000 tỷ đồng nộp ngân sách của doanh nghiệp của các tỷ phú tương đương với tổng số nộp của 2 trong 3 tập đoàn nhà nước lớn nhất là Viettel và Petrolimex (tổng nộp 71.200 tỷ trong năm ngoái)."
+    },
+    {
+        "text": "71.200 tỷ",
+        "label": "MONEY",
+        "evidence": "Con số gần 73.000 tỷ đồng nộp ngân sách của doanh nghiệp của các tỷ phú tương đương với tổng số nộp của 2 trong 3 tập đoàn nhà nước lớn nhất là Viettel và Petrolimex (tổng nộp 71.200 tỷ trong năm ngoái)."
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "Con số gần 73.000 tỷ đồng nộp ngân sách của doanh nghiệp của các tỷ phú tương đương với tổng số nộp của 2 trong 3 tập đoàn nhà nước lớn nhất là Viettel và Petrolimex (tổng nộp 71.200 tỷ trong năm ngoái)."
+    },
+    {
+        "text": "Tập đoàn Dầu khí PVN",
+        "label": "ORG",
+        "evidence": "Không loại trừ khả năng trong ít năm tới, tổng số nộp ngân sách của các tỷ phú có thể tiệm cận được với Tập đoàn Dầu khí PVN."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "Vingroup đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "hơn 30.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "ORG",
+        "evidence": "Luôn nằm trong top doanh nghiệp có vốn hóa lớn nhất thị trường, tập đoàn của tỷ phú Phạm Nhật Vượng đóng hơn 30.900 tỷ đồng vào ngân sách trong năm 2023, dẫn đầu danh sách PRIVATE 100."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong năm 2023, khoản nộp lớn nhất của Vingroup là thuế giá trị gia tăng gần 11.000 tỷ đồng, tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Trong năm 2023, khoản nộp lớn nhất của Vingroup là thuế giá trị gia tăng gần 11.000 tỷ đồng, tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "thuế giá trị gia tăng",
+        "label": "ASSET",
+        "evidence": "Trong năm 2023, khoản nộp lớn nhất của Vingroup là thuế giá trị gia tăng gần 11.000 tỷ đồng, tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "gần 11.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2023, khoản nộp lớn nhất của Vingroup là thuế giá trị gia tăng gần 11.000 tỷ đồng, tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "Thu nhập doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "6.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "thuế Nhà đất, tiền thuê đất",
+        "label": "ASSET",
+        "evidence": "tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "5.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tiếp đó là thuế Thu nhập doanh nghiệp 6.900 tỷ đồng, thuế Nhà đất, tiền thuê đất 5.000 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trước đó, năm 2022, Vingroup đóng hơn 44.900 tỷ đồng vào ngân sách."
+    },
+    {
+        "text": "Vingroup đóng hơn 44.900 tỷ đồng vào ngân sách",
+        "label": "EVENT",
+        "evidence": "Trước đó, năm 2022, Vingroup đóng hơn 44.900 tỷ đồng vào ngân sách."
+    },
+    {
+        "text": "hơn 44.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, năm 2022, Vingroup đóng hơn 44.900 tỷ đồng vào ngân sách."
+    },
+    {
+        "text": "tiền sử dụng đất, thuê đất, nghĩa vụ hợp đồng xây dựng - chuyển giao",
+        "label": "ASSET",
+        "evidence": "Trong đó, riêng tiền sử dụng đất, thuê đất, nghĩa vụ hợp đồng xây dựng - chuyển giao đã hơn 31.500 tỷ đồng, chủ yếu đến từ hai dự án đại đô thị trên địa bàn tỉnh Hưng Yên mà Vinhomes - công ty con của Vingroup làm chủ đầu tư."
+    },
+    {
+        "text": "hơn 31.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, riêng tiền sử dụng đất, thuê đất, nghĩa vụ hợp đồng xây dựng - chuyển giao đã hơn 31.500 tỷ đồng, chủ yếu đến từ hai dự án đại đô thị trên địa bàn tỉnh Hưng Yên mà Vinhomes - công ty con của Vingroup làm chủ đầu tư."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Trong đó, riêng tiền sử dụng đất, thuê đất, nghĩa vụ hợp đồng xây dựng - chuyển giao đã hơn 31.500 tỷ đồng, chủ yếu đến từ hai dự án đại đô thị trên địa bàn tỉnh Hưng Yên mà Vinhomes - công ty con của Vingroup làm chủ đầu tư."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Trong đó, riêng tiền sử dụng đất, thuê đất, nghĩa vụ hợp đồng xây dựng - chuyển giao đã hơn 31.500 tỷ đồng, chủ yếu đến từ hai dự án đại đô thị trên địa bàn tỉnh Hưng Yên mà Vinhomes - công ty con của Vingroup làm chủ đầu tư."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Ông Phạm Nhật Vượng góp mặt trong danh sách của Forbes từ năm 2015 và là người giàu nhất Việt Nam với khối tài sản 4,2 tỷ USD"
+    },
+    {
+        "text": "Forbes",
+        "label": "ORG",
+        "evidence": "Ông Phạm Nhật Vượng góp mặt trong danh sách của Forbes từ năm 2015 và là người giàu nhất Việt Nam với khối tài sản 4,2 tỷ USD"
+    },
+    {
+        "text": "năm 2015",
+        "label": "DATE",
+        "evidence": "Ông Phạm Nhật Vượng góp mặt trong danh sách của Forbes từ năm 2015 và là người giàu nhất Việt Nam với khối tài sản 4,2 tỷ USD"
+    },
+    {
+        "text": "4,2 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Ông Phạm Nhật Vượng góp mặt trong danh sách của Forbes từ năm 2015 và là người giàu nhất Việt Nam với khối tài sản 4,2 tỷ USD"
+    },
+    {
+        "text": "Thaco",
+        "label": "ORG",
+        "evidence": "Đứng thứ 2 trong danh sách doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam năm 2023 là Tập đoàn Thaco của tỷ phú Trần Bá Dương."
+    },
+    {
+        "text": "Trần Bá Dương",
+        "label": "PERSON",
+        "evidence": "Đứng thứ 2 trong danh sách doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam năm 2023 là Tập đoàn Thaco của tỷ phú Trần Bá Dương."
+    },
+    {
+        "text": "Thaco đã nộp tổng cộng 21.000 tỷ đồng vào ngân sách nhà nước trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Thaco đã nộp tổng cộng 21.000 tỷ đồng vào ngân sách nhà nước trong năm 2023."
+    },
+    {
+        "text": "21.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thaco đã nộp tổng cộng 21.000 tỷ đồng vào ngân sách nhà nước trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Thaco đã nộp tổng cộng 21.000 tỷ đồng vào ngân sách nhà nước trong năm 2023."
+    },
+    {
+        "text": "Thaco",
+        "label": "ORG",
+        "evidence": "Riêng tại Quảng Nam, Thaco đã nộp gần 16.000 tỷ đồng, trong đó, thuế nội địa là hơn 11.100 tỷ đồng."
+    },
+    {
+        "text": "gần 16.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Riêng tại Quảng Nam, Thaco đã nộp gần 16.000 tỷ đồng, trong đó, thuế nội địa là hơn 11.100 tỷ đồng."
+    },
+    {
+        "text": "thuế nội địa",
+        "label": "ASSET",
+        "evidence": "trong đó, thuế nội địa là hơn 11.100 tỷ đồng."
+    },
+    {
+        "text": "hơn 11.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong đó, thuế nội địa là hơn 11.100 tỷ đồng."
+    },
+    {
+        "text": "Trần Bá Dương",
+        "label": "PERSON",
+        "evidence": "Tỷ phú Trần Bá Dương & gia đình được đưa vào danh sách của Forbes từ năm 2018, theo bảng xếp hạng thời gian thực của Forbes, hiện ông sở hữu khối tài sản 1,2 tỷ USD, xếp thứ 5 Việt Nam."
+    },
+    {
+        "text": "Forbes",
+        "label": "ORG",
+        "evidence": "Tỷ phú Trần Bá Dương & gia đình được đưa vào danh sách của Forbes từ năm 2018, theo bảng xếp hạng thời gian thực của Forbes, hiện ông sở hữu khối tài sản 1,2 tỷ USD, xếp thứ 5 Việt Nam."
+    },
+    {
+        "text": "năm 2018",
+        "label": "DATE",
+        "evidence": "Tỷ phú Trần Bá Dương & gia đình được đưa vào danh sách của Forbes từ năm 2018, theo bảng xếp hạng thời gian thực của Forbes, hiện ông sở hữu khối tài sản 1,2 tỷ USD, xếp thứ 5 Việt Nam."
+    },
+    {
+        "text": "Forbes",
+        "label": "ORG",
+        "evidence": "Tỷ phú Trần Bá Dương & gia đình được đưa vào danh sách của Forbes từ năm 2018, theo bảng xếp hạng thời gian thực của Forbes, hiện ông sở hữu khối tài sản 1,2 tỷ USD, xếp thứ 5 Việt Nam."
+    },
+    {
+        "text": "1,2 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tỷ phú Trần Bá Dương & gia đình được đưa vào danh sách của Forbes từ năm 2018, theo bảng xếp hạng thời gian thực của Forbes, hiện ông sở hữu khối tài sản 1,2 tỷ USD, xếp thứ 5 Việt Nam."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Năm 2023, Hòa Phát đã nộp gần 9.100 tỷ đồng vào ngân sách, và đứng thứ 3 trong danh sách."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, Hòa Phát đã nộp gần 9.100 tỷ đồng vào ngân sách, và đứng thứ 3 trong danh sách."
+    },
+    {
+        "text": "Hòa Phát đã nộp gần 9.100 tỷ đồng vào ngân sách",
+        "label": "EVENT",
+        "evidence": "Năm 2023, Hòa Phát đã nộp gần 9.100 tỷ đồng vào ngân sách, và đứng thứ 3 trong danh sách."
+    },
+    {
+        "text": "gần 9.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, Hòa Phát đã nộp gần 9.100 tỷ đồng vào ngân sách, và đứng thứ 3 trong danh sách."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Hòa Phát cũng cho biết trong 6 tháng đầu năm 2024, số nộp ngân sách của tập đoàn này đã lên đến 7.400 tỷ đồng."
+    },
+    {
+        "text": "6 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Hòa Phát cũng cho biết trong 6 tháng đầu năm 2024, số nộp ngân sách của tập đoàn này đã lên đến 7.400 tỷ đồng."
+    },
+    {
+        "text": "số nộp ngân sách của tập đoàn này đã lên đến 7.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Hòa Phát cũng cho biết trong 6 tháng đầu năm 2024, số nộp ngân sách của tập đoàn này đã lên đến 7.400 tỷ đồng."
+    },
+    {
+        "text": "7.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hòa Phát cũng cho biết trong 6 tháng đầu năm 2024, số nộp ngân sách của tập đoàn này đã lên đến 7.400 tỷ đồng."
+    },
+    {
+        "text": "Tập đoàn Hòa Phát",
+        "label": "ORG",
+        "evidence": "Tập đoàn Hòa Phát đang hoạt động và đóng góp ngân sách nhà nước tại 25 tỉnh, thành phố trên cả nước."
+    },
+    {
+        "text": "Thép Hòa Phát Dung Quất",
+        "label": "ORG",
+        "evidence": "Trong đó, các công ty thành viên có đóng góp ngân sách nhiều nhất là Thép Hòa Phát Dung Quất, Thép Hòa Phát Hải Dương, Ống thép Hòa Phát, Thép Hòa Phát Hưng Yên, Điện máy gia dụng."
+    },
+    {
+        "text": "Thép Hòa Phát Hải Dương",
+        "label": "ORG",
+        "evidence": "Trong đó, các công ty thành viên có đóng góp ngân sách nhiều nhất là Thép Hòa Phát Dung Quất, Thép Hòa Phát Hải Dương, Ống thép Hòa Phát, Thép Hòa Phát Hưng Yên, Điện máy gia dụng."
+    },
+    {
+        "text": "Ống thép Hòa Phát",
+        "label": "ORG",
+        "evidence": "Trong đó, các công ty thành viên có đóng góp ngân sách nhiều nhất là Thép Hòa Phát Dung Quất, Thép Hòa Phát Hải Dương, Ống thép Hòa Phát, Thép Hòa Phát Hưng Yên, Điện máy gia dụng."
+    },
+    {
+        "text": "Thép Hòa Phát Hưng Yên",
+        "label": "ORG",
+        "evidence": "Trong đó, các công ty thành viên có đóng góp ngân sách nhiều nhất là Thép Hòa Phát Dung Quất, Thép Hòa Phát Hải Dương, Ống thép Hòa Phát, Thép Hòa Phát Hưng Yên, Điện máy gia dụng."
+    },
+    {
+        "text": "Điện máy gia dụng",
+        "label": "ORG",
+        "evidence": "Trong đó, các công ty thành viên có đóng góp ngân sách nhiều nhất là Thép Hòa Phát Dung Quất, Thép Hòa Phát Hải Dương, Ống thép Hòa Phát, Thép Hòa Phát Hưng Yên, Điện máy gia dụng."
+    },
+    {
+        "text": "Trần Đình Long",
+        "label": "PERSON",
+        "evidence": "Tỷ phú Trần Đình Long hiện là tỷ phú giàu thứ 3 Việt Nam với tài sản 2,4 tỷ USD."
+    },
+    {
+        "text": "2,4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tỷ phú Trần Đình Long hiện là tỷ phú giàu thứ 3 Việt Nam với tài sản 2,4 tỷ USD."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "hơn 7.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "tăng gần 63,6%",
+        "label": "RATE",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "hơn 4.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Techcombank nộp hơn 7.900 tỷ đồng vào ngân sách trong năm 2023, là mức đóng cao nhất từ năm 2019 đến nay của Techcombank và tăng gần 63,6% so với năm 2022 (hơn 4.800 tỷ đồng)."
+    },
+    {
+        "text": "Thu nhập doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Chủ yếu trong đó là thuế Thu nhập doanh nghiệp hơn 5.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 5.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chủ yếu trong đó là thuế Thu nhập doanh nghiệp hơn 5.000 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, Techcombank cũng là đơn vị dẫn đầu trong danh sách ngân hàng tư nhân và đứng thứ 4 trong số các doanh nghiệp tư nhân nộp ngân sách nhà nước năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đồng thời, Techcombank cũng là đơn vị dẫn đầu trong danh sách ngân hàng tư nhân và đứng thứ 4 trong số các doanh nghiệp tư nhân nộp ngân sách nhà nước năm 2023."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank hiện là một trong số những ngân hàng thương mại cổ phần lớn của Việt Nam, Chủ tịch Techcombank - ông Hồ Hùng Anh hiện đang đứng thứ 4 trong danh sách tỷ phú USD Việt Nam với khối tài sản 1,7 tỷ USD."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Techcombank hiện là một trong số những ngân hàng thương mại cổ phần lớn của Việt Nam, Chủ tịch Techcombank - ông Hồ Hùng Anh hiện đang đứng thứ 4 trong danh sách tỷ phú USD Việt Nam với khối tài sản 1,7 tỷ USD."
+    },
+    {
+        "text": "1,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Techcombank hiện là một trong số những ngân hàng thương mại cổ phần lớn của Việt Nam, Chủ tịch Techcombank - ông Hồ Hùng Anh hiện đang đứng thứ 4 trong danh sách tỷ phú USD Việt Nam với khối tài sản 1,7 tỷ USD."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023, đứng thứ 9 trong danh sách."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023, đứng thứ 9 trong danh sách."
+    },
+    {
+        "text": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023, đứng thứ 9 trong danh sách."
+    },
+    {
+        "text": "hơn 4.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023, đứng thứ 9 trong danh sách."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tập đoàn Masan của Chủ tịch Nguyễn Đăng Quang nộp ngân sách nhà nước hơn 4.400 tỷ đồng trong năm 2023, đứng thứ 9 trong danh sách."
+    },
+    {
+        "text": "thuế giá trị gia tăng",
+        "label": "ASSET",
+        "evidence": "Trong đó, khoản nộp lớn nhất là thuế giá trị gia tăng hơn 1.700 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, khoản nộp lớn nhất là thuế giá trị gia tăng hơn 1.700 tỷ đồng."
+    },
+    {
+        "text": "3 năm trước đó",
+        "label": "DATE",
+        "evidence": "Trong 3 năm trước đó, tập đoàn này nộp ngân sách nhà nước trong khoảng 4.800 – 5.400 tỷ đồng."
+    },
+    {
+        "text": "4.800 – 5.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong 3 năm trước đó, tập đoàn này nộp ngân sách nhà nước trong khoảng 4.800 – 5.400 tỷ đồng."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Masan Nguyễn Đăng Quang hiện đang đứng thứ 6 trong danh sách tỷ phú USD Việt Nam trên Forbes, sở hữu khối tài sản 1,1 tỷ USD."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Chủ tịch Masan Nguyễn Đăng Quang hiện đang đứng thứ 6 trong danh sách tỷ phú USD Việt Nam trên Forbes, sở hữu khối tài sản 1,1 tỷ USD."
+    },
+    {
+        "text": "Forbes",
+        "label": "ORG",
+        "evidence": "Chủ tịch Masan Nguyễn Đăng Quang hiện đang đứng thứ 6 trong danh sách tỷ phú USD Việt Nam trên Forbes, sở hữu khối tài sản 1,1 tỷ USD."
+    },
+    {
+        "text": "1,1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Chủ tịch Masan Nguyễn Đăng Quang hiện đang đứng thứ 6 trong danh sách tỷ phú USD Việt Nam trên Forbes, sở hữu khối tài sản 1,1 tỷ USD."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Ngoài ra vai trò lớn ở Masan, ông hiện còn là Phó Chủ tịch HĐQT Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra vai trò lớn ở Masan, ông hiện còn là Phó Chủ tịch HĐQT Techcombank."
+    },
+    {
+        "text": "Nguyễn Thị Phương Thảo",
+        "label": "PERSON",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "gần 3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "ORG",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "gần 800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đều thuộc sự dẫn dắt của nữ tỷ phú tự thân giàu nhất Việt Nam - bà Nguyễn Thị Phương Thảo, năm 2023, HDBank nộp ngân sách nhà nước gần 3.000 tỷ đồng, đứng thứ 13 trong danh sách PRIVATE 100 còn Vietjet Air nộp ngân sách nhà nước gần 800 tỷ đồng, đứng thứ 40."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "tăng 21,6%",
+        "label": "RATE",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "657 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "So với năm 2022, số nộp ngân sách nhà nước của Vietjet đã tăng 21,6% (năm 2021 Vietjet đóng ngân sách nhà nước 657 tỷ đồng)."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Giai đoạn trước dịch Covid-19, năm 2019, Vietjet nộp ngân sách nhà nước hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Giai đoạn trước dịch Covid-19, năm 2019, Vietjet nộp ngân sách nhà nước hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giai đoạn trước dịch Covid-19, năm 2019, Vietjet nộp ngân sách nhà nước hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Liên quan tới đặc thù hoạt động ngành hàng không, Vietjet có những khoản thu hộ thuế, phí, gián tiếp đóng góp cho ngân sách, cụ thể là phí, lệ phí sân bay, an ninh soi chiếu... chuyển cho ACV, liên qua tới mỗi hành khách thông qua các cảng hàng không, thuế môi trường liên quan xăng dầu..."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Liên quan tới đặc thù hoạt động ngành hàng không, Vietjet có những khoản thu hộ thuế, phí, gián tiếp đóng góp cho ngân sách, cụ thể là phí, lệ phí sân bay, an ninh soi chiếu... chuyển cho ACV, liên qua tới mỗi hành khách thông qua các cảng hàng không, thuế môi trường liên quan xăng dầu..."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Vietjet cho biết, trong năm 2023, Vietjet đã đóng góp các khoản thuế, phí trực tiếp và gián tiếp cho ngân sách khoảng 5.200 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Vietjet cho biết, trong năm 2023, Vietjet đã đóng góp các khoản thuế, phí trực tiếp và gián tiếp cho ngân sách khoảng 5.200 tỷ đồng."
+    },
+    {
+        "text": "Vietjet đã đóng góp các khoản thuế, phí trực tiếp và gián tiếp cho ngân sách khoảng 5.200 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vietjet cho biết, trong năm 2023, Vietjet đã đóng góp các khoản thuế, phí trực tiếp và gián tiếp cho ngân sách khoảng 5.200 tỷ đồng."
+    },
+    {
+        "text": "5.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietjet cho biết, trong năm 2023, Vietjet đã đóng góp các khoản thuế, phí trực tiếp và gián tiếp cho ngân sách khoảng 5.200 tỷ đồng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Về HDBank, số nộp ngân sách năm 2023 tăng 58,3% với mức nộp năm trước (gần 1.900 tỷ đồng)."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Về HDBank, số nộp ngân sách năm 2023 tăng 58,3% với mức nộp năm trước (gần 1.900 tỷ đồng)."
+    },
+    {
+        "text": "tăng 58,3%",
+        "label": "RATE",
+        "evidence": "Về HDBank, số nộp ngân sách năm 2023 tăng 58,3% với mức nộp năm trước (gần 1.900 tỷ đồng)."
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "Về HDBank, số nộp ngân sách năm 2023 tăng 58,3% với mức nộp năm trước (gần 1.900 tỷ đồng)."
+    },
+    {
+        "text": "gần 1.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về HDBank, số nộp ngân sách năm 2023 tăng 58,3% với mức nộp năm trước (gần 1.900 tỷ đồng)."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Phần lớn khoản nộp ngân sách của HDBank là thuế Thu nhập doanh nghiệp hơn 2.200 tỷ đồng, sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "Thu nhập doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Phần lớn khoản nộp ngân sách của HDBank là thuế Thu nhập doanh nghiệp hơn 2.200 tỷ đồng, sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "hơn 2.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phần lớn khoản nộp ngân sách của HDBank là thuế Thu nhập doanh nghiệp hơn 2.200 tỷ đồng, sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "Thu nhập cá nhân",
+        "label": "ASSET",
+        "evidence": "sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "445 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "VAT",
+        "label": "ASSET",
+        "evidence": "sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "214 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau đó là thuế Thu nhập cá nhân 445 tỷ đồng, thuế VAT 214 tỷ đồng, ..."
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "Hiện tại, ngoài vị trí Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực HDBank, bà Thảo còn lãnh đạo nhiều doanh nghiệp khác như Sovico, Hướng Dương Sunny."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Hiện tại, ngoài vị trí Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực HDBank, bà Thảo còn lãnh đạo nhiều doanh nghiệp khác như Sovico, Hướng Dương Sunny."
+    },
+    {
+        "text": "Thảo",
+        "label": "PERSON",
+        "evidence": "Hiện tại, ngoài vị trí Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực HDBank, bà Thảo còn lãnh đạo nhiều doanh nghiệp khác như Sovico, Hướng Dương Sunny."
+    },
+    {
+        "text": "Sovico",
+        "label": "ORG",
+        "evidence": "Hiện tại, ngoài vị trí Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực HDBank, bà Thảo còn lãnh đạo nhiều doanh nghiệp khác như Sovico, Hướng Dương Sunny."
+    },
+    {
+        "text": "Hướng Dương Sunny",
+        "label": "ORG",
+        "evidence": "Hiện tại, ngoài vị trí Chủ tịch HĐQT Vietjet Air và Phó Chủ tịch thường trực HDBank, bà Thảo còn lãnh đạo nhiều doanh nghiệp khác như Sovico, Hướng Dương Sunny."
+    },
+    {
+        "text": "2,9 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Bà hiện là người giàu thứ 2 Việt Nam với tài sản 2,9 tỷ USD."
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "ORG",
+        "evidence": "PRIVATE 100 – Top Doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam là danh sách được CafeF thu thập từ những nguồn công khai hoặc các số liệu có thể xác thực, phản ánh toàn bộ số thực nộp ngân sách của doanh nghiệp, bao gồm các khoản thuế, phí, các khoản phải nộp."
+    },
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "PRIVATE 100 – Top Doanh nghiệp tư nhân nộp ngân sách lớn nhất Việt Nam là danh sách được CafeF thu thập từ những nguồn công khai hoặc các số liệu có thể xác thực, phản ánh toàn bộ số thực nộp ngân sách của doanh nghiệp, bao gồm các khoản thuế, phí, các khoản phải nộp."
+    },
+    {
+        "text": "năm tài chính gần nhất",
+        "label": "DATE",
+        "evidence": "Các doanh nghiệp có số nộp ngân sách trong năm tài chính gần nhất từ 100 tỷ đồng trở lên đều có thể được tham gia vào danh sách."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các doanh nghiệp có số nộp ngân sách trong năm tài chính gần nhất từ 100 tỷ đồng trở lên đều có thể được tham gia vào danh sách."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "năm tài chính 2023",
+        "label": "DATE",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "Tập đoàn Hòa Phát",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "VNG",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    },
+    {
+        "text": "VPS",
+        "label": "ORG",
+        "evidence": "Một số doanh nghiệp tiêu biểu trong danh sách năm 2024, thể hiện số thực nộp của năm tài chính 2023, có thể kể đến như ACB; HDBank; Masan Group; OCB; PNJ; SHB; SSI; Techcombank; TPBank; Tập đoàn Hòa Phát; VNG; VPBank; VIB, VietBank, VPS…(xếp theo thứ tự bảng chữ cái)"
+    }
+]

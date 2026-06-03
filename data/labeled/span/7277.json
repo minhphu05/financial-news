@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Ngân hàng TMCP Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong thời gian gần đây, Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) tiếp tục nhận được phản ánh về việc kẻ gian gửi tin nhắn SMS giả mạo Vietcombank với nội dung thông báo điểm thưởng tích lũy sắp hết hạn và hướng dẫn khách hàng truy cập vào một đường dẫn để đổi quà hoặc nhận hoàn tiền với đặc điểm nhận dạng như sau:"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong thời gian gần đây, Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) tiếp tục nhận được phản ánh về việc kẻ gian gửi tin nhắn SMS giả mạo Vietcombank với nội dung thông báo điểm thưởng tích lũy sắp hết hạn và hướng dẫn khách hàng truy cập vào một đường dẫn để đổi quà hoặc nhận hoàn tiền với đặc điểm nhận dạng như sau:"
+    },
+    {
+        "text": "kẻ gian gửi tin nhắn SMS giả mạo Vietcombank với nội dung thông báo điểm thưởng tích lũy sắp hết hạn và hướng dẫn khách hàng truy cập vào một đường dẫn để đổi quà hoặc nhận hoàn tiền",
+        "label": "EVENT",
+        "evidence": "Trong thời gian gần đây, Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) tiếp tục nhận được phản ánh về việc kẻ gian gửi tin nhắn SMS giả mạo Vietcombank với nội dung thông báo điểm thưởng tích lũy sắp hết hạn và hướng dẫn khách hàng truy cập vào một đường dẫn để đổi quà hoặc nhận hoàn tiền với đặc điểm nhận dạng như sau:"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nếu bấm vào đường link trong tin nhắn, khách hàng được điều hướng đến trang website giả mạo Vietcombank và được yêu cầu thực hiện theo hướng dẫn để đổi quà/nhận hoàn tiền từ điểm tích lũy."
+    },
+    {
+        "text": "lấy cắp thông tin để chi tiêu",
+        "label": "EVENT",
+        "evidence": "Nếu khách hàng nhập các thông tin cá nhân, số thẻ, mã OTP, kẻ gian có thể lấy cắp thông tin để chi tiêu hoặc liên kết thẻ của khách hàng với thiết bị di động của đối tượng gian lận, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "liên kết thẻ của khách hàng với thiết bị di động của đối tượng gian lận",
+        "label": "EVENT",
+        "evidence": "Nếu khách hàng nhập các thông tin cá nhân, số thẻ, mã OTP, kẻ gian có thể lấy cắp thông tin để chi tiêu hoặc liên kết thẻ của khách hàng với thiết bị di động của đối tượng gian lận, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "chiếm đoạt tiền trong thẻ",
+        "label": "EVENT",
+        "evidence": "Nếu khách hàng nhập các thông tin cá nhân, số thẻ, mã OTP, kẻ gian có thể lấy cắp thông tin để chi tiêu hoặc liên kết thẻ của khách hàng với thiết bị di động của đối tượng gian lận, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đây là thủ đoạn lừa đảo, giả mạo tin nhắn thương hiệu đã được cơ quan chức năng và Vietcombank liên tục cảnh báo."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Để đảm bảo an toàn tài sản của khách hàng, Vietcombank tiếp tục khuyến cáo:"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank không yêu cầu khách hàng cung cấp thông tin bảo mật dịch vụ dưới mọi hình thức."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank không gửi thư điện tử, tin nhắn có chứa đường link tới khách hàng."
+    },
+    {
+        "text": "khóa thẻ khẩn cấp",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp khách hàng vô tình nhập thông tin thẻ vào website giả mạo, cần thực hiện khóa thẻ khẩn cấp bằng cách liên hệ với hotline hoặc truy cập ứng dụng VCB Digibank và thực hiện các thao tác như ngân hàng hướng dẫn."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Trong trường hợp khách hàng vô tình nhập thông tin thẻ vào website giả mạo, cần thực hiện khóa thẻ khẩn cấp bằng cách liên hệ với hotline hoặc truy cập ứng dụng VCB Digibank và thực hiện các thao tác như ngân hàng hướng dẫn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, ngân hàng khuyến khích khách hàng thường xuyên theo dõi mục Cảnh báo rủi ro trên website chính thức của Vietcombank để được cập nhật thông tin về những thủ đoạn lừa đảo mới nhất, chung tay bảo vệ an toàn giao dịch trực tuyến."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cho biết, cuối năm là dịp mà các khách hàng thường thực hiện nhiều giao dịch nên các đối tượng cũng sẽ tăng cường các kịch bản lừa đảo tinh vi khác nhau nhằm lợi dụng sự mất cảnh giác và sơ hở để lừa đảo chiếm đoạt tài sản trái phép."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "Vietcombank cho biết, cuối năm là dịp mà các khách hàng thường thực hiện nhiều giao dịch nên các đối tượng cũng sẽ tăng cường các kịch bản lừa đảo tinh vi khác nhau nhằm lợi dụng sự mất cảnh giác và sơ hở để lừa đảo chiếm đoạt tài sản trái phép."
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "text": "25/4",
+        "label": "DATE",
+        "evidence": "Sáng 25/4, CEO WinCommerce Nguyễn Thị Phương mở đầu phần thuyết trình về hành trình nửa thập kỷ của chuỗi bán lẻ nhiều chi nhánh nhất Việt Nam bằng một hoài nghi của thị trường cách đây 5 năm."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "CEO WinCommerce Nguyễn Thị Phương mở đầu phần thuyết trình về hành trình nửa thập kỷ của chuỗi bán lẻ nhiều chi nhánh nhất Việt Nam bằng một hoài nghi của thị trường cách đây 5 năm."
+    },
+    {
+        "text": "Nguyễn Thị Phương",
+        "label": "PERSON",
+        "evidence": "CEO WinCommerce Nguyễn Thị Phương mở đầu phần thuyết trình về hành trình nửa thập kỷ của chuỗi bán lẻ nhiều chi nhánh nhất Việt Nam bằng một hoài nghi của thị trường cách đây 5 năm."
+    },
+    {
+        "text": "5 năm trước",
+        "label": "DATE",
+        "evidence": "\"5 năm trước, khi Masan quyết định tiếp quản WinCommerce – hệ thống bán lẻ với hơn 3.000 cửa hàng – không ít hoài nghi được đặt ra: Liệu Masan có thật sự \"xoay chuyển\" được một mô hình kinh doanh đang lỗ tới 3.800 tỷ đồng mỗi năm, với chỉ 203 cửa hàng có lãi?\", bà Phương nói."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "khi Masan quyết định tiếp quản WinCommerce – hệ thống bán lẻ với hơn 3.000 cửa hàng – không ít hoài nghi được đặt ra: Liệu Masan có thật sự \"xoay chuyển\" được một mô hình kinh doanh đang lỗ tới 3.800 tỷ đồng mỗi năm, với chỉ 203 cửa hàng có lãi?\", bà Phương nói."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "khi Masan quyết định tiếp quản WinCommerce – hệ thống bán lẻ với hơn 3.000 cửa hàng – không ít hoài nghi được đặt ra: Liệu Masan có thật sự \"xoay chuyển\" được một mô hình kinh doanh đang lỗ tới 3.800 tỷ đồng mỗi năm, với chỉ 203 cửa hàng có lãi?\", bà Phương nói."
+    },
+    {
+        "text": "3.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "một mô hình kinh doanh đang lỗ tới 3.800 tỷ đồng mỗi năm, với chỉ 203 cửa hàng có lãi?\", bà Phương nói."
+    },
+    {
+        "text": "bà Phương",
+        "label": "PERSON",
+        "evidence": "mô hình kinh doanh đang lỗ tới 3.800 tỷ đồng mỗi năm, với chỉ 203 cửa hàng có lãi?\", bà Phương nói."
+    },
+    {
+        "text": "5 năm sau",
+        "label": "DATE",
+        "evidence": "5 năm sau, câu trả lời đã rõ: WinCommerce không những đã có lãi, mà còn ghi nhận doanh thu lần đầu tiên vượt mốc 30.000 tỷ đồng, đạt 33.000 tỷ đồng trong năm 2024. Đây được xem là \"ngưỡng kháng cự\" với nhiều doanh nghiệp bán lẻ tại Việt Nam, chỉ số ít thương hiệu nội địa có thể bứt phá qua."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "5 năm sau, câu trả lời đã rõ: WinCommerce không những đã có lãi, mà còn ghi nhận doanh thu lần đầu tiên vượt mốc 30.000 tỷ đồng, đạt 33.000 tỷ đồng trong năm 2024. Đây được xem là \"ngưỡng kháng cự\" với nhiều doanh nghiệp bán lẻ tại Việt Nam, chỉ số ít thương hiệu nội địa có thể bứt phá qua."
+    },
+    {
+        "text": "doanh thu lần đầu tiên vượt mốc 30.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "mà còn ghi nhận doanh thu lần đầu tiên vượt mốc 30.000 tỷ đồng, đạt 33.000 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "30.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mà còn ghi nhận doanh thu lần đầu tiên vượt mốc 30.000 tỷ đồng, đạt 33.000 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "33.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 33.000 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "đạt 33.000 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "bà Phương",
+        "label": "PERSON",
+        "evidence": "Theo bà Phương, công ty đã cải thiện kết quả tài chính tới 4.000 tỷ đồng mỗi năm so với 2019, và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024, sau khi đã trừ toàn bộ chi phí đầu tư mở mới và cải tạo cửa hàng."
+    },
+    {
+        "text": "cải thiện kết quả tài chính tới 4.000 tỷ đồng mỗi năm so với 2019",
+        "label": "EVENT",
+        "evidence": "công ty đã cải thiện kết quả tài chính tới 4.000 tỷ đồng mỗi năm so với 2019, và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024"
+    },
+    {
+        "text": "4.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "công ty đã cải thiện kết quả tài chính tới 4.000 tỷ đồng mỗi năm so với 2019, và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024"
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "kết quả tài chính tới 4.000 tỷ đồng mỗi năm so với 2019, và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024"
+    },
+    {
+        "text": "1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024, sau khi đã trừ toàn bộ chi phí đầu tư mở mới và cải tạo cửa hàng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "và đạt 1.500 tỷ đồng dòng tiền dương trong năm 2024, sau khi đã trừ toàn bộ chi phí đầu tư mở mới và cải tạo cửa hàng."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Và WinCommerce đã thực sự làm được cả ba điều đó\", bà Phương nói."
+    },
+    {
+        "text": "bà Phương",
+        "label": "PERSON",
+        "evidence": "Và WinCommerce đã thực sự làm được cả ba điều đó\", bà Phương nói."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Lý giải hành trình tăng trưởng của chuỗi bán lẻ lớn nhất Việt Nam này, lãnh đạo WinCommerce cho biết, điểm mấu chốt nằm ở việc tìm ra và vận hành thành công mô hình mini-mart."
+    },
+    {
+        "text": "Bà Phương",
+        "label": "PERSON",
+        "evidence": "Bà Phương nhận định, mô hình mini-mart có nhiều lợi thế dài hạn."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Ngoài mô hình kinh doanh, WinCommerce hiện đang sở hữu mô hình tài chính với chỉ số hòa vốn thấp nhất trong khu vực châu Á."
+    },
+    {
+        "text": "Nguyễn Thị Phương",
+        "label": "PERSON",
+        "evidence": "Bà Nguyễn Thị Phương cho biết, để đạt được điều này, công ty đã liên tục tối ưu hóa chi phí đầu tư cho từng cửa hàng, tính toán chi tiết đến từng khoản chi nhỏ nhất."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "\"Việc giảm 1 cm chiều dài của hóa đơn in cũng giúp WinCommerce tiết kiệm được khoảng 10 tỷ đồng mỗi năm\", bà Phương dẫn chứng."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "WinCommerce tiết kiệm được khoảng 10 tỷ đồng mỗi năm\", bà Phương dẫn chứng."
+    },
+    {
+        "text": "bà Phương",
+        "label": "PERSON",
+        "evidence": "10 tỷ đồng mỗi năm\", bà Phương dẫn chứng."
+    },
+    {
+        "text": "lương năm 2024 tăng từ 10 đến 12% so với năm trước",
+        "label": "EVENT",
+        "evidence": "Thu nhập của nhân viên cũng được cải thiện – lương năm 2024 tăng từ 10 đến 12% so với năm trước."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "lương năm 2024 tăng từ 10 đến 12% so với năm trước."
+    },
+    {
+        "text": "10 đến 12%",
+        "label": "RATE",
+        "evidence": "lương năm 2024 tăng từ 10 đến 12% so với năm trước."
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "tăng từ 10 đến 12% so với năm trước."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Tổng thể, WinCommerce đã giảm tới 60% chi phí trên mỗi đơn vị doanh thu."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "WinCommerce đã giảm tới 60% chi phí trên mỗi đơn vị doanh thu."
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "Nếu như năm 2019 hệ số EBITDA ở mức âm 15%, đến nay mô hình đã đạt mức dương 4,4%."
+    },
+    {
+        "text": "âm 15%",
+        "label": "RATE",
+        "evidence": "Nếu như năm 2019 hệ số EBITDA ở mức âm 15%, đến nay mô hình đã đạt mức dương 4,4%."
+    },
+    {
+        "text": "dương 4,4%",
+        "label": "RATE",
+        "evidence": "đến nay mô hình đã đạt mức dương 4,4%."
+    },
+    {
+        "text": "Bà Phương",
+        "label": "PERSON",
+        "evidence": "Bà Phương đánh giá, mini-mart đang được xem là động lực chính cho giai đoạn tăng trưởng tiếp theo của WinCommerce."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "cho giai đoạn tăng trưởng tiếp theo của WinCommerce."
+    },
+    {
+        "text": "Trong 5 năm tới",
+        "label": "DATE",
+        "evidence": "Trong 5 năm tới, cùng với việc mở rộng mạng lưới, Masan đặt mục tiêu hiện đại hóa hạ tầng bán lẻ Việt Nam thông qua phát triển công nghệ và xây dựng các nhãn hiệu mạnh."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan đặt mục tiêu hiện đại hóa hạ tầng bán lẻ Việt Nam thông qua phát triển công nghệ và xây dựng các nhãn hiệu mạnh."
+    },
+    {
+        "text": "hiện đại hóa hạ tầng bán lẻ Việt Nam thông qua phát triển công nghệ và xây dựng các nhãn hiệu mạnh",
+        "label": "EVENT",
+        "evidence": "Masan đặt mục tiêu hiện đại hóa hạ tầng bán lẻ Việt Nam thông qua phát triển công nghệ và xây dựng các nhãn hiệu mạnh."
+    },
+    {
+        "text": "chiến lược mở rộng của WinCommerce",
+        "label": "EVENT",
+        "evidence": "Theo lãnh đạo WinCommerce, chiến lược mở rộng của WinCommerce sẽ được triển khai theo quy hoạch rõ ràng:mỗi quận/huyện sẽ có ít nhất một siêu thị WinMart; mỗi xã/phường có một cửa hàng mini-mart; và mỗi thôn, tổ dân phố sẽ có một điểm bán WinCộng."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Theo lãnh đạo WinCommerce, chiến lược mở rộng của WinCommerce sẽ được triển khai theo quy hoạch rõ ràng:mỗi quận/huyện sẽ có ít nhất một siêu thị WinMart; mỗi xã/phường có một cửa hàng mini-mart; và mỗi thôn, tổ dân phố sẽ có một điểm bán WinCộng."
+    },
+    {
+        "text": "số hóa nền tảng",
+        "label": "EVENT",
+        "evidence": "Để mở rộng quy mô, lãnh đạo WinCommerce cũng nhấn mạnh đến việc số hóa nền tảng."
+    },
+    {
+        "text": "bà Phương",
+        "label": "PERSON",
+        "evidence": "nếu không có công nghệ, chắc chắn chúng ta không thể quản trị hiệu quả một hệ thống rộng lớn như vậy\", bà Phương nói."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Xa hơn, trong tương lai WinCommerce đặt mục tiêu đến năm 2029 sẽ mở rộng mạng lưới lên10.000 cửa hàng trên toàn quốc, với doanh thu kỳ vọng đạt60.000 tỷ đồng, đồng thời duy trìbiên lợi nhuận ròng (net profit margin) ở mức 3–5%."
+    },
+    {
+        "text": "năm 2029",
+        "label": "DATE",
+        "evidence": "trong tương lai WinCommerce đặt mục tiêu đến năm 2029 sẽ mở rộng mạng lưới lên10.000 cửa hàng trên toàn quốc"
+    },
+    {
+        "text": "mở rộng mạng lưới lên 10.000 cửa hàng trên toàn quốc",
+        "label": "EVENT",
+        "evidence": "đặt mục tiêu đến năm 2029 sẽ mở rộng mạng lưới lên10.000 cửa hàng trên toàn quốc, với doanh thu kỳ vọng đạt60.000 tỷ đồng"
+    },
+    {
+        "text": "doanh thu kỳ vọng đạt 60.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "với doanh thu kỳ vọng đạt60.000 tỷ đồng, đồng thời duy trìbiên lợi nhuận ròng (net profit margin) ở mức 3–5%."
+    },
+    {
+        "text": "60.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu kỳ vọng đạt60.000 tỷ đồng, đồng thời duy trìbiên lợi nhuận ròng (net profit margin) ở mức 3–5%."
+    },
+    {
+        "text": "duy trì biên lợi nhuận ròng (net profit margin) ở mức 3–5%",
+        "label": "EVENT",
+        "evidence": "đồng thời duy trìbiên lợi nhuận ròng (net profit margin) ở mức 3–5%."
+    },
+    {
+        "text": "3–5%",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận ròng (net profit margin) ở mức 3–5%."
+    }
+]

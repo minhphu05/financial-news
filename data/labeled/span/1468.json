@@ -1,0 +1,417 @@
+[
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Khảo sát biểu lãi suất huy động của 4 ngân hàng có nhiều tiền gửi nhất Việt Nam là Agribank, BIDV, VietinBank, Vietcombank cho thấy, lãi suất đang ở mức thấp nhất trong lịch sử."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Khảo sát biểu lãi suất huy động của 4 ngân hàng có nhiều tiền gửi nhất Việt Nam là Agribank, BIDV, VietinBank, Vietcombank cho thấy, lãi suất đang ở mức thấp nhất trong lịch sử."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Khảo sát biểu lãi suất huy động của 4 ngân hàng có nhiều tiền gửi nhất Việt Nam là Agribank, BIDV, VietinBank, Vietcombank cho thấy, lãi suất đang ở mức thấp nhất trong lịch sử."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khảo sát biểu lãi suất huy động của 4 ngân hàng có nhiều tiền gửi nhất Việt Nam là Agribank, BIDV, VietinBank, Vietcombank cho thấy, lãi suất đang ở mức thấp nhất trong lịch sử."
+    },
+    {
+        "text": "kỳ hạn 1 tháng",
+        "label": "DATE",
+        "evidence": "Tại kỳ hạn 1 tháng, lãi suất huy động của Vietcombank thấp nhất với chỉ 1,9%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 1 tháng, lãi suất huy động của Vietcombank thấp nhất với chỉ 1,9%/năm."
+    },
+    {
+        "text": "1,9%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 1 tháng, lãi suất huy động của Vietcombank thấp nhất với chỉ 1,9%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Agribank nhỉnh hơn với 2%/năm."
+    },
+    {
+        "text": "2%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, Agribank nhỉnh hơn với 2%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank và BIDV có lãi suất huy động cao nhất, áp dụng 2,2%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "VietinBank và BIDV có lãi suất huy động cao nhất, áp dụng 2,2%/năm."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "VietinBank và BIDV có lãi suất huy động cao nhất, áp dụng 2,2%/năm."
+    },
+    {
+        "text": "kỳ hạn gửi 3 tháng",
+        "label": "DATE",
+        "evidence": "Lãi suất kỳ hạn gửi 3 tháng của VietinBank, BIDV, Agribank giống nhau, cùng mức 2,5%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Lãi suất kỳ hạn gửi 3 tháng của VietinBank, BIDV, Agribank giống nhau, cùng mức 2,5%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Lãi suất kỳ hạn gửi 3 tháng của VietinBank, BIDV, Agribank giống nhau, cùng mức 2,5%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Lãi suất kỳ hạn gửi 3 tháng của VietinBank, BIDV, Agribank giống nhau, cùng mức 2,5%/năm."
+    },
+    {
+        "text": "2,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn gửi 3 tháng của VietinBank, BIDV, Agribank giống nhau, cùng mức 2,5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank niêm yết mức thấp hơn 0,3%/năm với 2,2%/năm."
+    },
+    {
+        "text": "0,3%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank niêm yết mức thấp hơn 0,3%/năm với 2,2%/năm."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank niêm yết mức thấp hơn 0,3%/năm với 2,2%/năm."
+    },
+    {
+        "text": "kỳ hạn gửi 6 tháng",
+        "label": "DATE",
+        "evidence": "Đối với kỳ hạn gửi 6 tháng và 9 tháng, lãi suất của Vietcombank là 3,2%/năm trong khi ba ngân hàng còn lại cùng áp dụng mức 3,5%/năm."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Đối với kỳ hạn gửi 6 tháng và 9 tháng, lãi suất của Vietcombank là 3,2%/năm trong khi ba ngân hàng còn lại cùng áp dụng mức 3,5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn gửi 6 tháng và 9 tháng, lãi suất của Vietcombank là 3,2%/năm trong khi ba ngân hàng còn lại cùng áp dụng mức 3,5%/năm."
+    },
+    {
+        "text": "3,2%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn gửi 6 tháng và 9 tháng, lãi suất của Vietcombank là 3,2%/năm trong khi ba ngân hàng còn lại cùng áp dụng mức 3,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn gửi 6 tháng và 9 tháng, lãi suất của Vietcombank là 3,2%/năm trong khi ba ngân hàng còn lại cùng áp dụng mức 3,5%/năm."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank niêm yết 4,8%/năm trong khi ba ngân hàng còn lại là 5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank niêm yết 4,8%/năm trong khi ba ngân hàng còn lại là 5%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank niêm yết 4,8%/năm trong khi ba ngân hàng còn lại là 5%/năm."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank niêm yết 4,8%/năm trong khi ba ngân hàng còn lại là 5%/năm."
+    },
+    {
+        "text": "kỳ hạn 24 tháng",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi kỳ hạn 24 tháng của Vietcombank tương đương với kỳ hạn 12 tháng, cùng mức 4,8%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi kỳ hạn 24 tháng của Vietcombank tương đương với kỳ hạn 12 tháng, cùng mức 4,8%/năm."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi kỳ hạn 24 tháng của Vietcombank tương đương với kỳ hạn 12 tháng, cùng mức 4,8%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiền gửi kỳ hạn 24 tháng của Vietcombank tương đương với kỳ hạn 12 tháng, cùng mức 4,8%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, ba ngân hàng Agribank, BIDV, VietinBank tăng thêm 0,3 điểm % so với kỳ hạn 12 tháng, niêm yết 5,3%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Như vậy, nhìn chung gửi tiền tại ba ngân hàng Agribank, BIDV, VietinBank sẽ có lãi suất nhỉnh hơn khoảng 0,2-0,3 điểm % so với Vietcombank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Như vậy, nhìn chung gửi tiền tại ba ngân hàng Agribank, BIDV, VietinBank sẽ có lãi suất nhỉnh hơn khoảng 0,2-0,3 điểm % so với Vietcombank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Như vậy, nhìn chung gửi tiền tại ba ngân hàng Agribank, BIDV, VietinBank sẽ có lãi suất nhỉnh hơn khoảng 0,2-0,3 điểm % so với Vietcombank."
+    },
+    {
+        "text": "0,2-0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Như vậy, nhìn chung gửi tiền tại ba ngân hàng Agribank, BIDV, VietinBank sẽ có lãi suất nhỉnh hơn khoảng 0,2-0,3 điểm % so với Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, nhìn chung gửi tiền tại ba ngân hàng Agribank, BIDV, VietinBank sẽ có lãi suất nhỉnh hơn khoảng 0,2-0,3 điểm % so với Vietcombank."
+    },
+    {
+        "text": "Đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Đầu năm 2024, một số ngân hàng cũng mạnh tay giảm lãi suất hoặc tung các chương trình tín dụng ưu đãi để thúc đẩy tăng trưởng tín dụng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank: Cho vay trung, dài hạn với lãi suất cố định trong 18 tháng – 10 năm, từ 6,7%-11%/năm"
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Vietcombank: Cho vay trung, dài hạn với lãi suất cố định trong 18 tháng – 10 năm, từ 6,7%-11%/năm"
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Vietcombank: Cho vay trung, dài hạn với lãi suất cố định trong 18 tháng – 10 năm, từ 6,7%-11%/năm"
+    },
+    {
+        "text": "6,7%-11%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank: Cho vay trung, dài hạn với lãi suất cố định trong 18 tháng – 10 năm, từ 6,7%-11%/năm"
+    },
+    {
+        "text": "Vietcombank mới đây thông báo chương trình cho vay áp dụng trong tháng 1/2024",
+        "label": "EVENT",
+        "evidence": "Vietcombank mới đây thông báo chương trình cho vay áp dụng trong tháng 1/2024."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank mới đây thông báo chương trình cho vay áp dụng trong tháng 1/2024."
+    },
+    {
+        "text": "tháng 1/2024",
+        "label": "DATE",
+        "evidence": "Vietcombank mới đây thông báo chương trình cho vay áp dụng trong tháng 1/2024."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "Cụ thể, ngân hàng này triển khai cho vay trung và dài hạn với thời hạn lên tới 30 năm và cố định lãi suất trong một thời gian nhất định"
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "6,7%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "2 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "6,8%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "3 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "7,5%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "9,5%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "7 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "10,5%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "11%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, người vay vốn để mua nhà – đất, mua xe hơi, đầu tư sản xuất kinh doanh…có quyền chọn lãi suất ưu đãi cố định trong 18 tháng đầu tiên là 6,7%/năm, 2 năm 6,8%/năm, 3 năm 7,5%/năm, 5 năm 9,5%/năm, 7 năm 10,5%/năm và 10 năm lãi suất cố định 11%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau thời gian ưu đãi lãi suất cố định, Vietcombank sẽ áp dụng lãi suất cho vay bằng lãi suất tiết kiệm 12 tháng cộng với biên độ 3,5%."
+    },
+    {
+        "text": "3,5%",
+        "label": "RATE",
+        "evidence": "Sau thời gian ưu đãi lãi suất cố định, Vietcombank sẽ áp dụng lãi suất cho vay bằng lãi suất tiết kiệm 12 tháng cộng với biên độ 3,5%."
+    },
+    {
+        "text": "3 đến 5 năm đầu tiên",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, nếu người vay trả nợ trước hạn trong 3 đến 5 năm đầu tiên thì Vietcombank sẽ thu phí 1-2% trên số tiền thanh toán trước hạn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, nếu người vay trả nợ trước hạn trong 3 đến 5 năm đầu tiên thì Vietcombank sẽ thu phí 1-2% trên số tiền thanh toán trước hạn."
+    },
+    {
+        "text": "1-2%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, nếu người vay trả nợ trước hạn trong 3 đến 5 năm đầu tiên thì Vietcombank sẽ thu phí 1-2% trên số tiền thanh toán trước hạn."
+    },
+    {
+        "text": "năm thứ 6 trở đi",
+        "label": "DATE",
+        "evidence": "Còn khách hàng trả nợ trước hạn từ năm thứ 6 trở đi thì miễn phí."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank: Cho vay trung dài hạn với lãi suất cố định từ 7%/năm, áp dụng từ 12 tháng – 24 tháng"
+    },
+    {
+        "text": "7%/năm",
+        "label": "RATE",
+        "evidence": "Agribank: Cho vay trung dài hạn với lãi suất cố định từ 7%/năm, áp dụng từ 12 tháng – 24 tháng"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Agribank: Cho vay trung dài hạn với lãi suất cố định từ 7%/năm, áp dụng từ 12 tháng – 24 tháng"
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Agribank: Cho vay trung dài hạn với lãi suất cố định từ 7%/năm, áp dụng từ 12 tháng – 24 tháng"
+    },
+    {
+        "text": "ngày 01/01/2024",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng",
+        "label": "EVENT",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "7,0%/năm",
+        "label": "RATE",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Từ ngày 01/01/2024, Agribank tiếp tục điều chỉnh chính sách lãi suất đối với cho vay trung hạn, dài hạn phục vụ hoạt động sản xuất kinh doanh, cho vay phục vụ nhu cầu đời sống với mức lãi suất cố định chỉ từ 7,0%/năm, thời gian áp dụng được nới rộng từ 12 tháng lên 24 tháng."
+    },
+    {
+        "text": "điều chỉnh giảm 0,5%/năm sàn lãi suất cho vay trung hạn, dài hạn đối với lĩnh vực kinh doanh bất động sản",
+        "label": "EVENT",
+        "evidence": "Đồng thời điều chỉnh giảm 0,5%/năm sàn lãi suất cho vay trung hạn, dài hạn đối với lĩnh vực kinh doanh bất động sản."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Đồng thời điều chỉnh giảm 0,5%/năm sàn lãi suất cho vay trung hạn, dài hạn đối với lĩnh vực kinh doanh bất động sản."
+    }
+]

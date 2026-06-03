@@ -1,0 +1,107 @@
+[
+    {
+        "text": "25/9/2025",
+        "label": "DATE",
+        "evidence": "Chiều tối ngày 25/9/2025, tài khoản ngân hàng của chị Nguyễn Thị Thu Hằng (sinh năm 1993 trú tại tổ dân phố Đại Lợi, xã Đức Thọ, tỉnh Hà Tĩnh) bỗng nhiên nhận được một khoản tiền 150 triệu đồng từ tài khoản lạ, không quen biết."
+    },
+    {
+        "text": "Nguyễn Thị Thu Hằng",
+        "label": "PERSON",
+        "evidence": "tài khoản ngân hàng của chị Nguyễn Thị Thu Hằng (sinh năm 1993 trú tại tổ dân phố Đại Lợi, xã Đức Thọ, tỉnh Hà Tĩnh) bỗng nhiên nhận được một khoản tiền 150 triệu đồng từ tài khoản lạ, không quen biết."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "bỗng nhiên nhận được một khoản tiền 150 triệu đồng từ tài khoản lạ, không quen biết."
+    },
+    {
+        "text": "nhận được một khoản tiền 150 triệu đồng từ tài khoản lạ, không quen biết",
+        "label": "EVENT",
+        "evidence": "bỗng nhiên nhận được một khoản tiền 150 triệu đồng từ tài khoản lạ, không quen biết."
+    },
+    {
+        "text": "đến Cơ quan Công an báo tin nhờ tìm cách chuyển trả cho người đã chuyển nhầm",
+        "label": "EVENT",
+        "evidence": "Trong tiềm thức chị Hằng nhận biết đây là hành động chuyển nhầm nên chị Hằng đã đến Cơ quan Công an báo tin nhờ tìm cách chuyển trả cho người đã chuyển nhầm."
+    },
+    {
+        "text": "Công an xã Đức Thọ",
+        "label": "ORG",
+        "evidence": "Ngay sau khi nhận thông tin Công an xã Đức Thọ đã phối hợp cùng ngân hàng BIDV chi nhánh tại xã Đức Thọ để tiến hành xác minh chủ tài khoản ngân hàng đã chuyển."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngay sau khi nhận thông tin Công an xã Đức Thọ đã phối hợp cùng ngân hàng BIDV chi nhánh tại xã Đức Thọ để tiến hành xác minh chủ tài khoản ngân hàng đã chuyển."
+    },
+    {
+        "text": "tiến hành xác minh chủ tài khoản ngân hàng đã chuyển",
+        "label": "EVENT",
+        "evidence": "Ngay sau khi nhận thông tin Công an xã Đức Thọ đã phối hợp cùng ngân hàng BIDV chi nhánh tại xã Đức Thọ để tiến hành xác minh chủ tài khoản ngân hàng đã chuyển."
+    },
+    {
+        "text": "công an xã Đức Thọ",
+        "label": "ORG",
+        "evidence": "Sau khi tiến hành xác minh công an xã Đức Thọ đã nhanh chóng xác định thông tin người chuyển 150 triệu đồng vào tài khoản của chị Hằng là chị Hoàng Thị Ngọc Ánh (sinh năm 1975, trú tại xã Bảo Lộc, tỉnh Lâm Đồng)."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi tiến hành xác minh công an xã Đức Thọ đã nhanh chóng xác định thông tin người chuyển 150 triệu đồng vào tài khoản của chị Hằng là chị Hoàng Thị Ngọc Ánh (sinh năm 1975, trú tại xã Bảo Lộc, tỉnh Lâm Đồng)."
+    },
+    {
+        "text": "Hoàng Thị Ngọc Ánh",
+        "label": "PERSON",
+        "evidence": "Sau khi tiến hành xác minh công an xã Đức Thọ đã nhanh chóng xác định thông tin người chuyển 150 triệu đồng vào tài khoản của chị Hằng là chị Hoàng Thị Ngọc Ánh (sinh năm 1975, trú tại xã Bảo Lộc, tỉnh Lâm Đồng)."
+    },
+    {
+        "text": "Công an xã Đức Thọ",
+        "label": "ORG",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "công an xã Bảo Lộc",
+        "label": "ORG",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "150 triệu",
+        "label": "MONEY",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "Nguyễn Thị Thu Hằng",
+        "label": "PERSON",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "Hoàng Thị Ngọc Ánh",
+        "label": "PERSON",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn",
+        "label": "EVENT",
+        "evidence": "Ngay sau đó Công an xã Đức Thọ phối hợp với công an xã Bảo Lộc, Lâm Đồng để thực hiện công tác chuyển trả số tiền 150 triệu từ chị Nguyễn Thị Thu Hằng cho Hoàng Thị Ngọc Ánh nguyên vẹn."
+    },
+    {
+        "text": "Chị Ánh",
+        "label": "PERSON",
+        "evidence": "Chị Ánh cũng đã cảm ơn chị Hằng và cảm ơn Công an xã Đức Thọ đã giúp đỡ chị Ánh."
+    },
+    {
+        "text": "chị Hằng",
+        "label": "PERSON",
+        "evidence": "Chị Ánh cũng đã cảm ơn chị Hằng và cảm ơn Công an xã Đức Thọ đã giúp đỡ chị Ánh."
+    },
+    {
+        "text": "Công an xã Đức Thọ",
+        "label": "ORG",
+        "evidence": "Chị Ánh cũng đã cảm ơn chị Hằng và cảm ơn Công an xã Đức Thọ đã giúp đỡ chị Ánh."
+    },
+    {
+        "text": "Cổng thông tin điện tử Công an Hà Tĩnh",
+        "label": "ORG",
+        "evidence": "Theo Cổng thông tin điện tử Công an Hà Tĩnh"
+    }
+]

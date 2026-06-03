@@ -1,0 +1,362 @@
+[
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Chuyến thăm của dàn lãnh đạo NVIDIA – \"big tech\" giá trị hơn 2.000 tỷ USD, đã tạo ra cú huých lớn đẩy giá trị của các tập đoàn công nghệ của Việt Nam lên cao kỷ lục."
+    },
+    {
+        "text": "hơn 2.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Chuyến thăm của dàn lãnh đạo NVIDIA – \"big tech\" giá trị hơn 2.000 tỷ USD, đã tạo ra cú huých lớn đẩy giá trị của các tập đoàn công nghệ của Việt Nam lên cao kỷ lục."
+    },
+    {
+        "text": "Chuyến thăm của dàn lãnh đạo NVIDIA",
+        "label": "EVENT",
+        "evidence": "Chuyến thăm của dàn lãnh đạo NVIDIA – \"big tech\" giá trị hơn 2.000 tỷ USD, đã tạo ra cú huých lớn đẩy giá trị của các tập đoàn công nghệ của Việt Nam lên cao kỷ lục."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "SauFPT, đến lượt cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh."
+    },
+    {
+        "text": "cổ phiếuCMC Corp",
+        "label": "ASSET",
+        "evidence": "SauFPT, đến lượt cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "SauFPT, đến lượt cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh."
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "SauFPT, đến lượt cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh."
+    },
+    {
+        "text": "cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh",
+        "label": "EVENT",
+        "evidence": "SauFPT, đến lượt cổ phiếuCMC Corp (CMG)cũng \"bốc đầu\" lên đỉnh."
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu CMG vừa tăng kịch trần phiên 8/5 lên 51.800 đồng/cp, cao nhất kể từ khi niêm yết."
+    },
+    {
+        "text": "Cổ phiếu CMG vừa tăng kịch trần phiên 8/5",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu CMG vừa tăng kịch trần phiên 8/5 lên 51.800 đồng/cp, cao nhất kể từ khi niêm yết."
+    },
+    {
+        "text": "8/5",
+        "label": "DATE",
+        "evidence": "Cổ phiếu CMG vừa tăng kịch trần phiên 8/5 lên 51.800 đồng/cp, cao nhất kể từ khi niêm yết."
+    },
+    {
+        "text": "51.800 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu CMG vừa tăng kịch trần phiên 8/5 lên 51.800 đồng/cp, cao nhất kể từ khi niêm yết."
+    },
+    {
+        "text": "Vốn hóa thị trường cũng theo đó lập kỷ lục gần 10.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục gần 10.000 tỷ đồng, tăng 60% so với thời điểm một năm trước và gấp gần 5 lần thời điểm mới \"chân ướt, chân ráo\" lên sàn."
+    },
+    {
+        "text": "gần 10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục gần 10.000 tỷ đồng, tăng 60% so với thời điểm một năm trước và gấp gần 5 lần thời điểm mới \"chân ướt, chân ráo\" lên sàn."
+    },
+    {
+        "text": "tăng 60%",
+        "label": "RATE",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục gần 10.000 tỷ đồng, tăng 60% so với thời điểm một năm trước và gấp gần 5 lần thời điểm mới \"chân ướt, chân ráo\" lên sàn."
+    },
+    {
+        "text": "một năm trước",
+        "label": "DATE",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục gần 10.000 tỷ đồng, tăng 60% so với thời điểm một năm trước và gấp gần 5 lần thời điểm mới \"chân ướt, chân ráo\" lên sàn."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "niêm yết 63,5 triệu cổ phiếu trên HoSE",
+        "label": "EVENT",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "63,5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "đầu năm 2010",
+        "label": "DATE",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "35.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "khoảng 2.200 tỷ",
+        "label": "MONEY",
+        "evidence": "CMC Corp niêm yết 63,5 triệu cổ phiếu trên HoSE vào đầu năm 2010 với giá tham chiếu ngày giao dịch đầu tiên 35.000 đồng/cp, tương ứng định giá khoảng 2.200 tỷ."
+    },
+    {
+        "text": "14 năm",
+        "label": "DATE",
+        "evidence": "Trải qua 14 năm giao dịch với nhiều thăng trầm, xu hướng của cổ phiếu này nhìn chung vẫn là đi lên."
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu CMG bứt phá mạnh có một phần hiệu ứng từ cái bắt tay với \"gã khổng lồ\" công nghệ của thế giới."
+    },
+    {
+        "text": "Đầu tháng 5 vừa qua",
+        "label": "DATE",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "Nguyễn Trung Chính",
+        "label": "PERSON",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA",
+        "label": "EVENT",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Đầu tháng 5 vừa qua, ông Nguyễn Trung Chính, Chủ tịch CMC Corp đã có cuộc gặp với lãnh đạo của NVIDIA nhằm tăng cường hợp tác chiến lược toàn diện của hai doanh nghiệp, đặc biệt trong lĩnh vực trí tuệ nhân tạo (AI)."
+    },
+    {
+        "text": "CMC",
+        "label": "ORG",
+        "evidence": "AI đang trở thành một phần không thể thiếu trong kế hoạch kinh doanh và chiến lược phát triển của CMC, đặc biệt nguồn nhân lực dự kiến tới nay 2028 sẽ là 15.000 kĩ sư CNTT, trong đó 6.000 kỹ sư AI chiếm 40% nguồn nhân lực toàn Tập đoàn"
+    },
+    {
+        "text": "2028",
+        "label": "DATE",
+        "evidence": "AI đang trở thành một phần không thể thiếu trong kế hoạch kinh doanh và chiến lược phát triển của CMC, đặc biệt nguồn nhân lực dự kiến tới nay 2028 sẽ là 15.000 kĩ sư CNTT, trong đó 6.000 kỹ sư AI chiếm 40% nguồn nhân lực toàn Tập đoàn"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "AI đang trở thành một phần không thể thiếu trong kế hoạch kinh doanh và chiến lược phát triển của CMC, đặc biệt nguồn nhân lực dự kiến tới nay 2028 sẽ là 15.000 kĩ sư CNTT, trong đó 6.000 kỹ sư AI chiếm 40% nguồn nhân lực toàn Tập đoàn"
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Trước đó, CMC Corp đã công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200 trị giá 250 triệu USD trong giai đoạn 2024-25, góp phần thúc đẩy phát triển mạnh các ứng dụng và giải pháp tiên tiến, tập trung hệ sinh thái sản phẩm công nghệ tương tác ở 6 lĩnh vực chính, gồm: Thiết kế chip, AI, Dữ liệu lớn (Bigdata), Dữ liệu mạng xã hội (Social data), Internet vạn vật – Thiết bị thông minh – Xử lý ảnh (IoT) và Công nghệ chuỗi khối/An toàn thông tin (Blockchain)…"
+    },
+    {
+        "text": "công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200",
+        "label": "EVENT",
+        "evidence": "Trước đó, CMC Corp đã công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200 trị giá 250 triệu USD trong giai đoạn 2024-25, góp phần thúc đẩy phát triển mạnh các ứng dụng và giải pháp tiên tiến, tập trung hệ sinh thái sản phẩm công nghệ tương tác ở 6 lĩnh vực chính, gồm: Thiết kế chip, AI, Dữ liệu lớn (Bigdata), Dữ liệu mạng xã hội (Social data), Internet vạn vật – Thiết bị thông minh – Xử lý ảnh (IoT) và Công nghệ chuỗi khối/An toàn thông tin (Blockchain)…"
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Trước đó, CMC Corp đã công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200 trị giá 250 triệu USD trong giai đoạn 2024-25, góp phần thúc đẩy phát triển mạnh các ứng dụng và giải pháp tiên tiến, tập trung hệ sinh thái sản phẩm công nghệ tương tác ở 6 lĩnh vực chính, gồm: Thiết kế chip, AI, Dữ liệu lớn (Bigdata), Dữ liệu mạng xã hội (Social data), Internet vạn vật – Thiết bị thông minh – Xử lý ảnh (IoT) và Công nghệ chuỗi khối/An toàn thông tin (Blockchain)…"
+    },
+    {
+        "text": "250 triệu USD",
+        "label": "MONEY",
+        "evidence": "Trước đó, CMC Corp đã công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200 trị giá 250 triệu USD trong giai đoạn 2024-25, góp phần thúc đẩy phát triển mạnh các ứng dụng và giải pháp tiên tiến, tập trung hệ sinh thái sản phẩm công nghệ tương tác ở 6 lĩnh vực chính, gồm: Thiết kế chip, AI, Dữ liệu lớn (Bigdata), Dữ liệu mạng xã hội (Social data), Internet vạn vật – Thiết bị thông minh – Xử lý ảnh (IoT) và Công nghệ chuỗi khối/An toàn thông tin (Blockchain)…"
+    },
+    {
+        "text": "giai đoạn 2024-25",
+        "label": "DATE",
+        "evidence": "Trước đó, CMC Corp đã công bố kế hoạch đầu tư 1.000 GPU NVIDIA GH 200 trị giá 250 triệu USD trong giai đoạn 2024-25, góp phần thúc đẩy phát triển mạnh các ứng dụng và giải pháp tiên tiến, tập trung hệ sinh thái sản phẩm công nghệ tương tác ở 6 lĩnh vực chính, gồm: Thiết kế chip, AI, Dữ liệu lớn (Bigdata), Dữ liệu mạng xã hội (Social data), Internet vạn vật – Thiết bị thông minh – Xử lý ảnh (IoT) và Công nghệ chuỗi khối/An toàn thông tin (Blockchain)…"
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "CMC Corp là doanh nghiệp cung cấp dịch vụ công nghệ thông tin - viễn thông lớn thứ hai tại Việt Nam."
+    },
+    {
+        "text": "hơn 25 năm",
+        "label": "DATE",
+        "evidence": "Trải qua hơn 25 năm hình thành và phát triển, tập đoàn đã cơ cấu hoạt động và tập trung kinh doanh 4 khối gồm: Hạ tầng số, Công nghệ & Giải pháp, Kinh doanh Quốc tế, Nghiên cứu và Giáo dục."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Trước khi bắt tay với NVIDIA, CMC Corp đã đứng trên vai một \"gã khổng lồ\" khác là Samsung SDS trong nhiều năm."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Trước khi bắt tay với NVIDIA, CMC Corp đã đứng trên vai một \"gã khổng lồ\" khác là Samsung SDS trong nhiều năm."
+    },
+    {
+        "text": "Samsung SDS",
+        "label": "ORG",
+        "evidence": "Trước khi bắt tay với NVIDIA, CMC Corp đã đứng trên vai một \"gã khổng lồ\" khác là Samsung SDS trong nhiều năm."
+    },
+    {
+        "text": "hợp tác từ 2016",
+        "label": "EVENT",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "2016",
+        "label": "DATE",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "tháng 5/2019",
+        "label": "DATE",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "Samsung",
+        "label": "ORG",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "ký thỏa thuận về đầu tư chiến lược",
+        "label": "EVENT",
+        "evidence": "Bắt đầu hợp tác từ 2016 nhưng đến tháng 5/2019, thành viên chuyên về giải pháp IT và Logistics của Samsung và CMC Corp mới ký thỏa thuận về đầu tư chiến lược để tăng cường hợp tác toàn diện trong tất cả các lĩnh vực thế mạnh của 2 bên, đặc biệt trong lĩnh vực công nghệ thông tin đầy tiềm năng."
+    },
+    {
+        "text": "Samsung SDS",
+        "label": "ORG",
+        "evidence": "Đến nay, Samsung SDS vẫn đang là cổ đông lớn nhất tại CMC Corp."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Đến nay, Samsung SDS vẫn đang là cổ đông lớn nhất tại CMC Corp."
+    },
+    {
+        "text": "Samsung SDS",
+        "label": "ORG",
+        "evidence": "Thực tế, kể từ khi Samsung SDS rót vốn, tình hình kinh doanh của CMC Corp đã cải thiện rõ rệt."
+    },
+    {
+        "text": "Samsung SDS rót vốn",
+        "label": "EVENT",
+        "evidence": "Thực tế, kể từ khi Samsung SDS rót vốn, tình hình kinh doanh của CMC Corp đã cải thiện rõ rệt."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Thực tế, kể từ khi Samsung SDS rót vốn, tình hình kinh doanh của CMC Corp đã cải thiện rõ rệt."
+    },
+    {
+        "text": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "391 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "niên độ 2023-24",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "ngày 1/4/2023-31/3/2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "tăng gần 10%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế liên tục tăng qua từng năm kể từ 2019 và đạt 391 tỷ đồng trong niên độ 2023-24 (từ ngày 1/4/2023-31/3/2024), tăng gần 10% so với niên độ trước."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Đây là mức lợi nhuận cao nhất CMC Corp đạt được kể từ khi hoạt động."
+    },
+    {
+        "text": "Giai đoạn 2023-2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 2023-2025, CMC Corp đặt mục tiêu trở thành doanh nghiệp toàn cầu với doanh thu tỷ USD."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Giai đoạn 2023-2025, CMC Corp đặt mục tiêu trở thành doanh nghiệp toàn cầu với doanh thu tỷ USD."
+    },
+    {
+        "text": "tỷ USD",
+        "label": "MONEY",
+        "evidence": "Giai đoạn 2023-2025, CMC Corp đặt mục tiêu trở thành doanh nghiệp toàn cầu với doanh thu tỷ USD."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Tại thị trường quốc tế, CMC Corp hướng tới vị thế nhà cung cấp dịch vụ công nghệ thông tin hàng đầu tại châu Á và xa hơn là mở rộng sang các nước khác ở Mỹ, châu Âu."
+    },
+    {
+        "text": "CMC",
+        "label": "ORG",
+        "evidence": "Về kế hoạch đầu tư trong thời gian tới, CMC có kế hoạch mở rộng AI DC tại Khu Công nghệ cao TP.HCM với quy mô lớn 40MW, đảm bảo sẵn sàng hạ tầng AI Cloud cũng như hạ tầng Cloud riêng cho từng khách hàng, thông qua đó giúp cộng đồng AI có hạ tầng và môi trường phát triển ứng dụng."
+    },
+    {
+        "text": "kế hoạch mở rộng AI DC tại Khu Công nghệ cao TP.HCM",
+        "label": "EVENT",
+        "evidence": "Về kế hoạch đầu tư trong thời gian tới, CMC có kế hoạch mở rộng AI DC tại Khu Công nghệ cao TP.HCM với quy mô lớn 40MW, đảm bảo sẵn sàng hạ tầng AI Cloud cũng như hạ tầng Cloud riêng cho từng khách hàng, thông qua đó giúp cộng đồng AI có hạ tầng và môi trường phát triển ứng dụng."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Liên quan đến các giải pháp đào tạo nguồn nhân lực, CMC Corp cam kết cùng NVIDIA xây dựng cộng đồng AI gồm nghiên cứu, startup, phát triển nguồn nhân lực AI chuyển đổi 1 triệu lập trình viên có khả năng ứng dụng AI tạo ra các giá trị mới, trong đó TP. Hồ Chí Minh chiếm hơn 65% nguồn nhân lực."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Liên quan đến các giải pháp đào tạo nguồn nhân lực, CMC Corp cam kết cùng NVIDIA xây dựng cộng đồng AI gồm nghiên cứu, startup, phát triển nguồn nhân lực AI chuyển đổi 1 triệu lập trình viên có khả năng ứng dụng AI tạo ra các giá trị mới, trong đó TP. Hồ Chí Minh chiếm hơn 65% nguồn nhân lực."
+    },
+    {
+        "text": "CMC Corp cam kết cùng NVIDIA xây dựng cộng đồng AI",
+        "label": "EVENT",
+        "evidence": "Liên quan đến các giải pháp đào tạo nguồn nhân lực, CMC Corp cam kết cùng NVIDIA xây dựng cộng đồng AI gồm nghiên cứu, startup, phát triển nguồn nhân lực AI chuyển đổi 1 triệu lập trình viên có khả năng ứng dụng AI tạo ra các giá trị mới, trong đó TP. Hồ Chí Minh chiếm hơn 65% nguồn nhân lực."
+    },
+    {
+        "text": "hơn 65%",
+        "label": "RATE",
+        "evidence": "Liên quan đến các giải pháp đào tạo nguồn nhân lực, CMC Corp cam kết cùng NVIDIA xây dựng cộng đồng AI gồm nghiên cứu, startup, phát triển nguồn nhân lực AI chuyển đổi 1 triệu lập trình viên có khả năng ứng dụng AI tạo ra các giá trị mới, trong đó TP. Hồ Chí Minh chiếm hơn 65% nguồn nhân lực."
+    }
+]

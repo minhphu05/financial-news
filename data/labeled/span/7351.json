@@ -1,0 +1,327 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombankcho biết, căn cứ thông báo của Công an Thành phố Hà Nội về thời gian cấm triệt để các phương tiện lưu thông (trừ xe có phù hiệu bảo vệ, xe phục vụ lễ kỷ niệm) trong tháng 8/2025 tại Hà Nội để phân luồng giao thông phục vụ Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9, ngân hàng thông báo điều chỉnh thời gian giao dịch tiền mặt tại một số phòng giao dịch (PGD) như sau:"
+    },
+    {
+        "text": "tháng 8/2025",
+        "label": "DATE",
+        "evidence": "trong tháng 8/2025 tại Hà Nội để phân luồng giao thông phục vụ Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9, ngân hàng thông báo điều chỉnh thời gian giao dịch tiền mặt tại một số phòng giao dịch (PGD) như sau:"
+    },
+    {
+        "text": "Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9",
+        "label": "EVENT",
+        "evidence": "trong tháng 8/2025 tại Hà Nội để phân luồng giao thông phục vụ Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9, ngân hàng thông báo điều chỉnh thời gian giao dịch tiền mặt tại một số phòng giao dịch (PGD) như sau:"
+    },
+    {
+        "text": "điều chỉnh thời gian giao dịch tiền mặt tại một số phòng giao dịch (PGD)",
+        "label": "EVENT",
+        "evidence": "ngân hàng thông báo điều chỉnh thời gian giao dịch tiền mặt tại một số phòng giao dịch (PGD) như sau:"
+    },
+    {
+        "text": "dừng giao dịch tiền mặt tại quầy",
+        "label": "EVENT",
+        "evidence": "Thời gian dừng giao dịch tiền mặt tại quầy:"
+    },
+    {
+        "text": "Ngày 21/8/2025",
+        "label": "DATE",
+        "evidence": "Ngày 21/8/2025: Từ 9h30 sáng."
+    },
+    {
+        "text": "9h30 sáng",
+        "label": "DATE",
+        "evidence": "Ngày 21/8/2025: Từ 9h30 sáng."
+    },
+    {
+        "text": "Ngày 27/8/2025 & 29/8/2025",
+        "label": "DATE",
+        "evidence": "Ngày 27/8/2025 & 29/8/2025: Từ 14h30 chiều."
+    },
+    {
+        "text": "14h30 chiều",
+        "label": "DATE",
+        "evidence": "Ngày 27/8/2025 & 29/8/2025: Từ 14h30 chiều."
+    },
+    {
+        "text": "thay đổi thời gian giao dịch",
+        "label": "EVENT",
+        "evidence": "Danh sách 22 PGD có thay đổi thời gian giao dịch tại đây:"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Các PGD không thuộc danh sách trên, ATM và các giao dịch khác ngoài dịch vụ tiền mặt tại quầy tại các PGD thuộc danh sách trên: Vietcombank phục vụ như bình thường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACBcũng cho biết, thực hiện theo phương án phân luồng giao thông phục vụ các hoạt động chào mừng kỷ niệm 80 năm Cách mạng tháng Tám thành công và Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam, theo thông tin từ Bộ Công an và Công an TP Hà Nội, ACB sẽ tạm ngừng giao dịch tiền mặt tại quầy trong thời gian các ngày 21, 27 và 30.08.2025"
+    },
+    {
+        "text": "kỷ niệm 80 năm Cách mạng tháng Tám thành công và Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+        "label": "EVENT",
+        "evidence": "các hoạt động chào mừng kỷ niệm 80 năm Cách mạng tháng Tám thành công và Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam, theo thông tin từ Bộ Công an và Công an TP Hà Nội, ACB sẽ tạm ngừng giao dịch tiền mặt tại quầy trong thời gian các ngày 21, 27 và 30.08.2025"
+    },
+    {
+        "text": "tạm ngừng giao dịch tiền mặt tại quầy",
+        "label": "EVENT",
+        "evidence": "ACB sẽ tạm ngừng giao dịch tiền mặt tại quầy trong thời gian các ngày 21, 27 và 30.08.2025"
+    },
+    {
+        "text": "các ngày 21, 27 và 30.08.2025",
+        "label": "DATE",
+        "evidence": "ACB sẽ tạm ngừng giao dịch tiền mặt tại quầy trong thời gian các ngày 21, 27 và 30.08.2025"
+    },
+    {
+        "text": "dừng giao dịch tiền",
+        "label": "EVENT",
+        "evidence": "Danh sách CN/PGD dừng giao dịch tiền tại:"
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ASSET",
+        "evidence": "Trong thời gian này, khách hàng sử dụng dịch vụ ATM/CRM và ngân hàng số ACB ONE để thực hiện các giao dịch nhanh chóng, thuận tiện."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombankthông báo, nhằm đảm bảo trải nghiệm khách hàng, ngân hàng ngừng giao dịch tiền mặt tại các chi nhánh như sau:"
+    },
+    {
+        "text": "ngừng giao dịch tiền mặt tại các chi nhánh",
+        "label": "EVENT",
+        "evidence": "Techcombankthông báo, nhằm đảm bảo trải nghiệm khách hàng, ngân hàng ngừng giao dịch tiền mặt tại các chi nhánh như sau:"
+    },
+    {
+        "text": "Ngày 21, 27 và 29/08/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 14h00"
+    },
+    {
+        "text": "Ngừng giao dịch tiền mặt",
+        "label": "EVENT",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 14h00"
+    },
+    {
+        "text": "14h00",
+        "label": "DATE",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 14h00"
+    },
+    {
+        "text": "Sở Giao Dịch",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Hà Nội",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Hai Bà Trưng",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Thụy Khuê",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Thăng Long",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Bát Đàn",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "CN Ba Đình",
+        "label": "ORG",
+        "evidence": "(Riêng 7 chi nhánh: Sở Giao Dịch, CN Hà Nội, CN Hai Bà Trưng, CN Thụy Khuê, CN Thăng Long, CN Bát Đàn và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "không giao dịch tiền mặt",
+        "label": "EVENT",
+        "evidence": "và CN Ba Đình không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "cả ngày 21/08/2025",
+        "label": "DATE",
+        "evidence": "không giao dịch tiền mặt vào cả ngày 21/08/2025)."
+    },
+    {
+        "text": "Ngày 30/08/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 30/08/2025: Không giao dịch tiền mặt cả ngày."
+    },
+    {
+        "text": "Không giao dịch tiền mặt cả ngày",
+        "label": "EVENT",
+        "evidence": "- Ngày 30/08/2025: Không giao dịch tiền mặt cả ngày."
+    },
+    {
+        "text": "Ngày 21, 27 và 29/08/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 16h00."
+    },
+    {
+        "text": "Ngừng giao dịch tiền mặt",
+        "label": "EVENT",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 16h00."
+    },
+    {
+        "text": "16h00",
+        "label": "DATE",
+        "evidence": "- Ngày 21, 27 và 29/08/2025: Ngừng giao dịch tiền mặt từ 16h00."
+    },
+    {
+        "text": "Ngày 30/08/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 30/08/2025: Ngừng giao dịch tiền mặt từ 11h00."
+    },
+    {
+        "text": "Ngừng giao dịch tiền mặt",
+        "label": "EVENT",
+        "evidence": "- Ngày 30/08/2025: Ngừng giao dịch tiền mặt từ 11h00."
+    },
+    {
+        "text": "11h00",
+        "label": "DATE",
+        "evidence": "- Ngày 30/08/2025: Ngừng giao dịch tiền mặt từ 11h00."
+    },
+    {
+        "text": "Techcombank Mobile",
+        "label": "ASSET",
+        "evidence": "Techcombank khuyến khích khách hàng lựa chọn các giao dịch trực tuyến để tiện lợi thực hiện giao dịch tại bất cứ đâu và vào bất kỳ thời gian nào như giao dịch trên nền tảng ngân hàng số toàn năng VPBank NEO, giao dịch tại hệ thống các ATM/CDM."
+    },
+    {
+        "text": "Techcombank Business",
+        "label": "ASSET",
+        "evidence": "Trong thời gian này, khách hàng ưu tiên giao dịch qua các ứng dụng ngân hàng số Techcombank Mobile, Techcombank Business và giao dịch qua thẻ."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBankcũng thông báo, thực hiện phương án phân luồng giao thông phục vụ các hoạt động diễu binh, diễu hành nằm trong Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9 do Phòng cảnh sát Giao thông (Công an TP Hà Nội) thông báo, VPBank sẽ điều chỉnh thời gian giao dịch trong 3 ngày 21/8, 27/8 và 29/8 của một số chi nhánh/phòng giao dịch (CN/PGD) trên địa bàn Hà Nội."
+    },
+    {
+        "text": "Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9",
+        "label": "EVENT",
+        "evidence": "diễu hành nằm trong Lễ kỷ niệm 80 năm Cách mạng Tháng Tám và Quốc khánh 2/9 do Phòng cảnh sát Giao thông (Công an TP Hà Nội) thông báo, VPBank sẽ điều chỉnh thời gian giao dịch trong 3 ngày 21/8, 27/8 và 29/8 của một số chi nhánh/phòng giao dịch (CN/PGD) trên địa bàn Hà Nội."
+    },
+    {
+        "text": "điều chỉnh thời gian giao dịch",
+        "label": "EVENT",
+        "evidence": "VPBank sẽ điều chỉnh thời gian giao dịch trong 3 ngày 21/8, 27/8 và 29/8 của một số chi nhánh/phòng giao dịch (CN/PGD) trên địa bàn Hà Nội."
+    },
+    {
+        "text": "3 ngày 21/8, 27/8 và 29/8",
+        "label": "DATE",
+        "evidence": "điều chỉnh thời gian giao dịch trong 3 ngày 21/8, 27/8 và 29/8 của một số chi nhánh/phòng giao dịch (CN/PGD) trên địa bàn Hà Nội."
+    },
+    {
+        "text": "thay đổi thời gian giao dịch",
+        "label": "EVENT",
+        "evidence": "Cụ thể, 67 CN/PGD tại Hà Nội nằm trong khu vực hạn chế sẽ thay đổi thời gian giao dịch:"
+    },
+    {
+        "text": "Ngày 21/8/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 21/8/2025: ngừng giao dịch tại quầy từ 10h30 sáng."
+    },
+    {
+        "text": "ngừng giao dịch tại quầy",
+        "label": "EVENT",
+        "evidence": "- Ngày 21/8/2025: ngừng giao dịch tại quầy từ 10h30 sáng."
+    },
+    {
+        "text": "10h30 sáng",
+        "label": "DATE",
+        "evidence": "- Ngày 21/8/2025: ngừng giao dịch tại quầy từ 10h30 sáng."
+    },
+    {
+        "text": "Ngày 27/8 và 29/8/2025",
+        "label": "DATE",
+        "evidence": "- Ngày 27/8 và 29/8/2025: ngừng giao dịch từ 15h00 chiều."
+    },
+    {
+        "text": "ngừng giao dịch",
+        "label": "EVENT",
+        "evidence": "- Ngày 27/8 và 29/8/2025: ngừng giao dịch từ 15h00 chiều."
+    },
+    {
+        "text": "15h00 chiều",
+        "label": "DATE",
+        "evidence": "- Ngày 27/8 và 29/8/2025: ngừng giao dịch từ 15h00 chiều."
+    },
+    {
+        "text": "hạn chế các giao dịch tiền mặt tại quầy",
+        "label": "EVENT",
+        "evidence": "Đồng thời, hạn chế các giao dịch tiền mặt tại quầy trong 3 ngày trên:"
+    },
+    {
+        "text": "Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng",
+        "label": "EVENT",
+        "evidence": "- Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng tại CN Sở Giao dịch, VPBank Láng Hạ, VPBank Kinh Đô."
+    },
+    {
+        "text": "10h30 sáng",
+        "label": "DATE",
+        "evidence": "- Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng tại CN Sở Giao dịch, VPBank Láng Hạ, VPBank Kinh Đô."
+    },
+    {
+        "text": "CN Sở Giao dịch",
+        "label": "ORG",
+        "evidence": "- Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng tại CN Sở Giao dịch, VPBank Láng Hạ, VPBank Kinh Đô."
+    },
+    {
+        "text": "VPBank Láng Hạ",
+        "label": "ORG",
+        "evidence": "- Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng tại CN Sở Giao dịch, VPBank Láng Hạ, VPBank Kinh Đô."
+    },
+    {
+        "text": "VPBank Kinh Đô",
+        "label": "ORG",
+        "evidence": "- Giao dịch tiền mặt chỉ giải quyết trước 10h30 sáng tại CN Sở Giao dịch, VPBank Láng Hạ, VPBank Kinh Đô."
+    },
+    {
+        "text": "không thực hiện các giao dịch tiền mặt",
+        "label": "EVENT",
+        "evidence": "- Các CN/PGD còn lại không thực hiện các giao dịch tiền mặt."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank cũng lưu ý, trong thời gian diễn ra Lễ kỷ niệm, thời gian giao dịch của các CN/PGD VPBank có thể thay đổi, điều chỉnh tùy thuộc vào thông báo của Ban Tổ chức Lễ kỷ niệm."
+    },
+    {
+        "text": "Lễ kỷ niệm",
+        "label": "EVENT",
+        "evidence": "trong thời gian diễn ra Lễ kỷ niệm, thời gian giao dịch của các CN/PGD VPBank có thể thay đổi, điều chỉnh tùy thuộc vào thông báo của Ban Tổ chức Lễ kỷ niệm."
+    },
+    {
+        "text": "thay đổi, điều chỉnh",
+        "label": "EVENT",
+        "evidence": "thời gian giao dịch của các CN/PGD VPBank có thể thay đổi, điều chỉnh tùy thuộc vào thông báo của Ban Tổ chức Lễ kỷ niệm."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank sẽ thường xuyên cập nhật đến khách hàng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Để không ảnh hưởng tới các giao dịch tài chính của khách hàng, VPBank khuyến khích khách hàng lựa chọn các giao dịch trực tuyến để tiện lợi thực hiện giao dịch tại bất cứ đâu và vào bất kỳ thời gian nào như giao dịch trên nền tảng ngân hàng số toàn năng VPBank NEO, giao dịch tại hệ thống các ATM/CDM."
+    },
+    {
+        "text": "VPBank NEO",
+        "label": "ASSET",
+        "evidence": "như giao dịch trên nền tảng ngân hàng số toàn năng VPBank NEO, giao dịch tại hệ thống các ATM/CDM."
+    }
+]

@@ -1,0 +1,397 @@
+[
+    {
+        "text": "ngày đầu tuần 1/4",
+        "label": "DATE",
+        "evidence": "Ngay trong ngày đầu tuần 1/4,lãi suất tiết kiệm tại ngân hàng Vietcombankđược điều chỉnh giảm 0,1 điểm phần trăm tại kỳ hạn từ 1 tháng - 9 tháng."
+    },
+    {
+        "text": "lãi suất tiết kiệm tại ngân hàng Vietcombankđược điều chỉnh giảm 0,1 điểm phần trăm tại kỳ hạn từ 1 tháng - 9 tháng",
+        "label": "EVENT",
+        "evidence": "Ngay trong ngày đầu tuần 1/4,lãi suất tiết kiệm tại ngân hàng Vietcombankđược điều chỉnh giảm 0,1 điểm phần trăm tại kỳ hạn từ 1 tháng - 9 tháng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngay trong ngày đầu tuần 1/4,lãi suất tiết kiệm tại ngân hàng Vietcombankđược điều chỉnh giảm 0,1 điểm phần trăm tại kỳ hạn từ 1 tháng - 9 tháng."
+    },
+    {
+        "text": "giảm 0,1 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Ngay trong ngày đầu tuần 1/4,lãi suất tiết kiệm tại ngân hàng Vietcombankđược điều chỉnh giảm 0,1 điểm phần trăm tại kỳ hạn từ 1 tháng - 9 tháng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sự điều chỉnh này đưa lãi suất tiết kiệm 1-2 tháng của Vietcombank xuống mức thấp nhất thị trường, 1,6%/năm."
+    },
+    {
+        "text": "1,6%/năm",
+        "label": "RATE",
+        "evidence": "Sự điều chỉnh này đưa lãi suất tiết kiệm 1-2 tháng của Vietcombank xuống mức thấp nhất thị trường, 1,6%/năm."
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi, lãi suất tiết kiệm ở kỳ hạn 6 - 9 tháng xuống mức 2,9%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank giữ nguyên lãi suất tiết kiệm tại kỳ hạn từ 12 - 60 tháng, hiện đang ở mức 4,7%."
+    },
+    {
+        "text": "4,7%",
+        "label": "RATE",
+        "evidence": "Vietcombank giữ nguyên lãi suất tiết kiệm tại kỳ hạn từ 12 - 60 tháng, hiện đang ở mức 4,7%."
+    },
+    {
+        "text": "ngày 2/4",
+        "label": "DATE",
+        "evidence": "Bước sang ngày 2/4,ngân hàng SCB điều chỉnh lãi suất tiết kiệm, giảm 0,1 điểm % tại một số kỳ hạn Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "ngân hàng SCB điều chỉnh lãi suất tiết kiệm, giảm 0,1 điểm % tại một số kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Bước sang ngày 2/4,ngân hàng SCB điều chỉnh lãi suất tiết kiệm, giảm 0,1 điểm % tại một số kỳ hạn Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Bước sang ngày 2/4,ngân hàng SCB điều chỉnh lãi suất tiết kiệm, giảm 0,1 điểm % tại một số kỳ hạn Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "giảm 0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Bước sang ngày 2/4,ngân hàng SCB điều chỉnh lãi suất tiết kiệm, giảm 0,1 điểm % tại một số kỳ hạn Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "1,65%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất tiết kiệm tại SCB ở kỳ hạn 1 tháng hiện giữ ở mức 1,65%/năm."
+    },
+    {
+        "text": "3,95%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 12-36 tháng giảm xuống còn 3,95%/năm."
+    },
+    {
+        "text": "ngày 3/4",
+        "label": "DATE",
+        "evidence": "Đến ngày 3/4,lãi suất tiết kiệm tại ngân hàng Techcombankcũng được điều chỉnh."
+    },
+    {
+        "text": "lãi suất tiết kiệm tại ngân hàng Techcombankcũng được điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Đến ngày 3/4,lãi suất tiết kiệm tại ngân hàng Techcombankcũng được điều chỉnh."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Đến ngày 3/4,lãi suất tiết kiệm tại ngân hàng Techcombankcũng được điều chỉnh."
+    },
+    {
+        "text": "điều chỉnh giảm lãi suất tiết kiệm tại kỳ hạn từ 12 tháng đến 36 tháng xuống còn mức 4,4%/năm, giảm 0,1 điểm %",
+        "label": "EVENT",
+        "evidence": "Cụ thể, ngân hàng này chỉ điều chỉnh giảm lãi suất tiết kiệm tại kỳ hạn từ 12 tháng đến 36 tháng xuống còn mức 4,4%/năm, giảm 0,1 điểm % so với lần điều chỉnh nhất."
+    },
+    {
+        "text": "4,4%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này chỉ điều chỉnh giảm lãi suất tiết kiệm tại kỳ hạn từ 12 tháng đến 36 tháng xuống còn mức 4,4%/năm, giảm 0,1 điểm % so với lần điều chỉnh nhất."
+    },
+    {
+        "text": "giảm 0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này chỉ điều chỉnh giảm lãi suất tiết kiệm tại kỳ hạn từ 12 tháng đến 36 tháng xuống còn mức 4,4%/năm, giảm 0,1 điểm % so với lần điều chỉnh nhất."
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "Mức lãi suất tiết kiệm này thấp hơn với nhóm ngân hàng Big4."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Hiện Agribank, BIDV, Vietcombank, VietinBank đang áp dụng lãi suất 4,7-4,8%/năm cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Hiện Agribank, BIDV, Vietcombank, VietinBank đang áp dụng lãi suất 4,7-4,8%/năm cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hiện Agribank, BIDV, Vietcombank, VietinBank đang áp dụng lãi suất 4,7-4,8%/năm cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Hiện Agribank, BIDV, Vietcombank, VietinBank đang áp dụng lãi suất 4,7-4,8%/năm cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "4,7-4,8%/năm",
+        "label": "RATE",
+        "evidence": "Hiện Agribank, BIDV, Vietcombank, VietinBank đang áp dụng lãi suất 4,7-4,8%/năm cho kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "ngày 3/4",
+        "label": "DATE",
+        "evidence": "Cũng trong ngày 3/4, ngân hàngVietBank niêm yết biểu lãi suất tiết kiệm mới, ghi nhận giảm tại hai kỳ hạn 14-15 tháng."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Cũng trong ngày 3/4, ngân hàngVietBank niêm yết biểu lãi suất tiết kiệm mới, ghi nhận giảm tại hai kỳ hạn 14-15 tháng."
+    },
+    {
+        "text": "VietBank niêm yết biểu lãi suất tiết kiệm mới, ghi nhận giảm tại hai kỳ hạn 14-15 tháng",
+        "label": "EVENT",
+        "evidence": "Cũng trong ngày 3/4, ngân hàngVietBank niêm yết biểu lãi suất tiết kiệm mới, ghi nhận giảm tại hai kỳ hạn 14-15 tháng."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Các kỳ hạn còn lại được VietBank niêm yết giữ nguyên."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Theo lãi suất tiết kiệm online của VietBank, lãi suất ngân hàng này hiện ở mức 3,1%/năm - 5,8%/năm (tương ứng kỳ hạn 1 tháng – 18 tháng trở lên)."
+    },
+    {
+        "text": "3,1%/năm - 5,8%/năm",
+        "label": "RATE",
+        "evidence": "Theo lãi suất tiết kiệm online của VietBank, lãi suất ngân hàng này hiện ở mức 3,1%/năm - 5,8%/năm (tương ứng kỳ hạn 1 tháng – 18 tháng trở lên)."
+    },
+    {
+        "text": "Ngày 4/4",
+        "label": "DATE",
+        "evidence": "Ngày 4/4 ghi nhận nhiều ngân hàng điều chỉnhlãi suất tiết kiệm."
+    },
+    {
+        "text": "nhiều ngân hàng điều chỉnhlãi suất tiết kiệm",
+        "label": "EVENT",
+        "evidence": "Ngày 4/4 ghi nhận nhiều ngân hàng điều chỉnhlãi suất tiết kiệm."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo đó, ngân hàngHDBankbất ngờ ngược dòng tăng lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "HDBankbất ngờ ngược dòng tăng lãi suất ở một số kỳ hạn",
+        "label": "EVENT",
+        "evidence": "Theo đó, ngân hàngHDBankbất ngờ ngược dòng tăng lãi suất ở một số kỳ hạn."
+    },
+    {
+        "text": "điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "tăng 0,2 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "5,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, ngân hàng này điều chỉnh lãi suất theo hướng tăng 0,2 điểm phần trăm lãi suất tiết kiệm đối với các kỳ hạn từ 12-18 tháng, tương ứng với lãi suất 5%/năm (12 tháng), 5,2%/năm (13 tháng), 5,8%/năm (15 tháng) và 5,9%/năm (18 tháng)."
+    },
+    {
+        "text": "Lãi suất tiết kiệm tại quầyABBankgiảm mạnh ở kỳ hạn 15-60 tháng",
+        "label": "EVENT",
+        "evidence": "Lãi suất tiết kiệm tại quầyABBankgiảm mạnh ở kỳ hạn 15-60 tháng, còn 3,9%/năm."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm tại quầyABBankgiảm mạnh ở kỳ hạn 15-60 tháng, còn 3,9%/năm."
+    },
+    {
+        "text": "3,9%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tiết kiệm tại quầyABBankgiảm mạnh ở kỳ hạn 15-60 tháng, còn 3,9%/năm."
+    },
+    {
+        "text": "3,7%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 9-12 tháng, lãi suất tiết kiệm còn 3,7%/năm, giảm 0,4 điểm %."
+    },
+    {
+        "text": "giảm 0,4 điểm %",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 9-12 tháng, lãi suất tiết kiệm còn 3,7%/năm, giảm 0,4 điểm %."
+    },
+    {
+        "text": "giảm 0,4 điểm %",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 9-12 tháng, lãi suất tiết kiệm còn 3,7%/năm, giảm 0,4 điểm %."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Ngân hàng MSBđiều chỉnh lãi suất tiết kiệm theo hướng giữ nguyên lãi suất huy động tại các kỳ hạn 1 - 5 tháng và tăng thêm 0,2 điểm % tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "MSBđiều chỉnh lãi suất tiết kiệm theo hướng giữ nguyên lãi suất huy động tại các kỳ hạn 1 - 5 tháng và tăng thêm 0,2 điểm % tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "Ngân hàng MSBđiều chỉnh lãi suất tiết kiệm theo hướng giữ nguyên lãi suất huy động tại các kỳ hạn 1 - 5 tháng và tăng thêm 0,2 điểm % tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "tăng thêm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Ngân hàng MSBđiều chỉnh lãi suất tiết kiệm theo hướng giữ nguyên lãi suất huy động tại các kỳ hạn 1 - 5 tháng và tăng thêm 0,2 điểm % tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "tuần này",
+        "label": "DATE",
+        "evidence": "Đây là ngân hàng thứ 2 trong tuần này tăng lãi suất tiết kiệm, bên cạnh ngân hàng HDBanl."
+    },
+    {
+        "text": "HDBanl",
+        "label": "ORG",
+        "evidence": "Đây là ngân hàng thứ 2 trong tuần này tăng lãi suất tiết kiệm, bên cạnh ngân hàng HDBanl."
+    },
+    {
+        "text": "lãi suất huy động kỳ hạn từ  6-11 tháng đồng loạt tăng thêm 0,2 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, lãi suất huy động kỳ hạn từ  6-11 tháng đồng loạt tăng thêm 0,2 điểm phần trăm lên mức 4,1%/năm."
+    },
+    {
+        "text": "tăng thêm 0,2 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất huy động kỳ hạn từ  6-11 tháng đồng loạt tăng thêm 0,2 điểm phần trăm lên mức 4,1%/năm."
+    },
+    {
+        "text": "4,1%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất huy động kỳ hạn từ  6-11 tháng đồng loạt tăng thêm 0,2 điểm phần trăm lên mức 4,1%/năm."
+    },
+    {
+        "text": "Lãi suất các kỳ hạn từ 12-36 tháng cũng tăng thêm 0,2 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "Lãi suất các kỳ hạn từ 12-36 tháng cũng tăng thêm 0,2 điểm phần trăm lên 4,5%/năm."
+    },
+    {
+        "text": "tăng thêm 0,2 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Lãi suất các kỳ hạn từ 12-36 tháng cũng tăng thêm 0,2 điểm phần trăm lên 4,5%/năm."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất các kỳ hạn từ 12-36 tháng cũng tăng thêm 0,2 điểm phần trăm lên 4,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Ngân hàng giữ nguyên mức lãi suất tiền gửi kỳ hạn từ 1-5 tháng ở mức 3,5%/năm."
+    },
+    {
+        "text": "Dong A Bank",
+        "label": "ORG",
+        "evidence": "Dong A Banklà ngân hàng tiếp theo điều chỉnh lãi suất tiết kiệm kể từ ngày 5/4."
+    },
+    {
+        "text": "Dong A Banklà ngân hàng tiếp theo điều chỉnh lãi suất tiết kiệm",
+        "label": "EVENT",
+        "evidence": "Dong A Banklà ngân hàng tiếp theo điều chỉnh lãi suất tiết kiệm kể từ ngày 5/4."
+    },
+    {
+        "text": "ngày 5/4",
+        "label": "DATE",
+        "evidence": "Dong A Banklà ngân hàng tiếp theo điều chỉnh lãi suất tiết kiệm kể từ ngày 5/4."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất cao nhất hiện là 4,8%/năm, áp dụng cho tiền gửi kỳ hạn 13 tháng."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn còn lại từ 18-36 tháng đang có lãi suất 4,7%/năm."
+    },
+    {
+        "text": "đầu tháng 4",
+        "label": "DATE",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "nhiều ngân hàng điều chỉnh lãi suất",
+        "label": "EVENT",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "Dong A Bank",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Như vậy, kể từ đầu tháng 4 trở lại đây, nhiều ngân hàng điều chỉnh lãi suất bao gồm: Vietcombank, SCB, Techcombank, ABBank, Dong A Bank, HDBank và MSB."
+    },
+    {
+        "text": "2 ngân hàng điều chỉnh tăng lãi suất tiết kiệm là HDBank và MSB",
+        "label": "EVENT",
+        "evidence": "Trong đó có 2 ngân hàng điều chỉnh tăng lãi suất tiết kiệm là HDBank và MSB."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong đó có 2 ngân hàng điều chỉnh tăng lãi suất tiết kiệm là HDBank và MSB."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Trong đó có 2 ngân hàng điều chỉnh tăng lãi suất tiết kiệm là HDBank và MSB."
+    }
+]

@@ -1,0 +1,497 @@
+[
+    {
+        "text": "23/8",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán Việt Nam tiếp tục diễn biến giằng co trong phiên 23/8, song áp lực bán mạnh từ nhóm cổ phiếu vốn hóa lớn khiến VN-Index “lùi bước” vào phiên chiều."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "song áp lực bán mạnh từ nhóm cổ phiếu vốn hóa lớn khiến VN-Index “lùi bước” vào phiên chiều."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "song áp lực bán mạnh từ nhóm cổ phiếu vốn hóa lớn khiến VN-Index “lùi bước” vào phiên chiều."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, chỉ số VN-Index giảm 7,93 điểm (-0,67%) xuống còn 1.172,56 điểm"
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Đóng cửa, chỉ số VN-Index giảm 7,93 điểm (-0,67%) xuống còn 1.172,56 điểm"
+    },
+    {
+        "text": "giảm 7,93 điểm",
+        "label": "RATE",
+        "evidence": "chỉ số VN-Index giảm 7,93 điểm (-0,67%) xuống còn 1.172,56 điểm"
+    },
+    {
+        "text": "-0,67%",
+        "label": "RATE",
+        "evidence": "giảm 7,93 điểm (-0,67%) xuống còn 1.172,56 điểm"
+    },
+    {
+        "text": "1.172,56 điểm",
+        "label": "PRICE",
+        "evidence": "xuống còn 1.172,56 điểm"
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index giảm 1,58 điểm xuống 238,07 điểm"
+    },
+    {
+        "text": "HNX-Index",
+        "label": "TICKER",
+        "evidence": "HNX-Index giảm 1,58 điểm xuống 238,07 điểm"
+    },
+    {
+        "text": "giảm 1,58 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 1,58 điểm xuống 238,07 điểm"
+    },
+    {
+        "text": "238,07 điểm",
+        "label": "PRICE",
+        "evidence": "xuống 238,07 điểm"
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index giảm 0,12 điểm xuống còn 89,39 điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "TICKER",
+        "evidence": "UPCoM-Index giảm 0,12 điểm xuống còn 89,39 điểm."
+    },
+    {
+        "text": "giảm 0,12 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Index giảm 0,12 điểm xuống còn 89,39 điểm."
+    },
+    {
+        "text": "89,39 điểm",
+        "label": "PRICE",
+        "evidence": "xuống còn 89,39 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE sụt giảm mạnh về mức thấp nhất trong hơn 1 tháng nay với giá trị khớp lệnh đạt vỏn vẹn 14.867 tỷ đồng."
+    },
+    {
+        "text": "14.867 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị khớp lệnh đạt vỏn vẹn 14.867 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại tiếp đà bán ròng﻿ mạnh với giá trị gần 541 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trước diễn biến trên, khối ngoại tiếp đà bán ròng﻿ mạnh với giá trị gần 541 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "541 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị gần 541 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị khoảng 556 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng với giá trị khoảng 556 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị khoảng 556 tỷ đồng"
+    },
+    {
+        "text": "556 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị khoảng 556 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu thép HPG",
+        "label": "ASSET",
+        "evidence": "cổ phiếu thép HPG bị bán mạnh nhất với giá trị trên 218 tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu thép HPG bị bán mạnh nhất với giá trị trên 218 tỷ đồng"
+    },
+    {
+        "text": "HPG bị bán mạnh nhất với giá trị trên 218 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu thép HPG bị bán mạnh nhất với giá trị trên 218 tỷ đồng"
+    },
+    {
+        "text": "218 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị trên 218 tỷ đồng"
+    },
+    {
+        "text": "VPB",
+        "label": "ASSET",
+        "evidence": "VPB cũng nằm trong danh sách bán ròng mạnh khoảng 115 tỷ đồng."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "VPB cũng nằm trong danh sách bán ròng mạnh khoảng 115 tỷ đồng."
+    },
+    {
+        "text": "bán ròng mạnh khoảng 115 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VPB cũng nằm trong danh sách bán ròng mạnh khoảng 115 tỷ đồng."
+    },
+    {
+        "text": "115 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 115 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "ASSET",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "SSI",
+        "label": "ASSET",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VND",
+        "label": "ASSET",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "STB, SSI, VND xếp tiếp theo danh sách với giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "54-74 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị bán từ 54-74 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "cổ phiếu VNM",
+        "label": "ASSET",
+        "evidence": "cổ phiếu VNM được mua ròng mạnh nhất với giá trị 54 tỷ đồng"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VNM được mua ròng mạnh nhất với giá trị 54 tỷ đồng"
+    },
+    {
+        "text": "VNM được mua ròng mạnh nhất với giá trị 54 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu VNM được mua ròng mạnh nhất với giá trị 54 tỷ đồng"
+    },
+    {
+        "text": "54 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 54 tỷ đồng"
+    },
+    {
+        "text": "VIC",
+        "label": "ASSET",
+        "evidence": "VIC xếp thứ 2 danh sách mua ròng mạnh với 32 tỷ đồng."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "VIC xếp thứ 2 danh sách mua ròng mạnh với 32 tỷ đồng."
+    },
+    {
+        "text": "VIC xếp thứ 2 danh sách mua ròng mạnh với 32 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VIC xếp thứ 2 danh sách mua ròng mạnh với 32 tỷ đồng."
+    },
+    {
+        "text": "32 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với 32 tỷ đồng."
+    },
+    {
+        "text": "DGC",
+        "label": "ASSET",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "PDR",
+        "label": "ASSET",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "PDR",
+        "label": "TICKER",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "TPB",
+        "label": "ASSET",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, DGC, PDR và TPB cũng được mua ròng mạnh từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "24-28 tỷ",
+        "label": "MONEY",
+        "evidence": "từ 24-28 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng 5 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại mua ròng 5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại mua ròng 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 5 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu CEO",
+        "label": "ASSET",
+        "evidence": "cổ phiếu CEO hôm nay được khối ngoại mua 5 tỷ đồng"
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "cổ phiếu CEO hôm nay được khối ngoại mua 5 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu CEO hôm nay được khối ngoại mua 5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu CEO hôm nay được khối ngoại mua 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua 5 tỷ đồng"
+    },
+    {
+        "text": "PVI",
+        "label": "ASSET",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "PVI",
+        "label": "TICKER",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "PVS",
+        "label": "ASSET",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "ASSET",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "PVI, PVS, IDC cũng được mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "1-2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 1-2 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG",
+        "label": "EVENT",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh tại SHS, NVB, TNG song giá trị không nhiều."
+    },
+    {
+        "text": "SHS",
+        "label": "ASSET",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "NVB",
+        "label": "ASSET",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "TNG",
+        "label": "ASSET",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "khối ngoại bán ròng mạnh tại SHS, NVB, TNG"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "T﻿rên UPCoM, khối ngoại mua ròng xấp xỉ 10 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại mua ròng xấp xỉ 10 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "T﻿rên UPCoM, khối ngoại mua ròng xấp xỉ 10 tỷ đồng"
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng xấp xỉ 10 tỷ đồng"
+    },
+    {
+        "text": "Cổ phiếu BSR",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu BSR được khối ngoại mua ròng 7 tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu BSR được khối ngoại mua ròng 7 tỷ đồng"
+    },
+    {
+        "text": "Cổ phiếu BSR được khối ngoại mua ròng 7 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu BSR được khối ngoại mua ròng 7 tỷ đồng"
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 7 tỷ đồng"
+    },
+    {
+        "text": "VTP",
+        "label": "ASSET",
+        "evidence": "VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "ACV",
+        "label": "ASSET",
+        "evidence": "VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM",
+        "label": "EVENT",
+        "evidence": "theo sau VTP, ACV,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "LTG",
+        "label": "ASSET",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "QNS",
+        "label": "ASSET",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "RIC",
+        "label": "ASSET",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "RIC",
+        "label": "TICKER",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "PVO",
+        "label": "ASSET",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "PVO",
+        "label": "TICKER",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "VEA",
+        "label": "ASSET",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    },
+    {
+        "text": "bán ròng mạnh trên UPCoM",
+        "label": "EVENT",
+        "evidence": "LTG, QNS, RIC, PVO và VEA thuộc danh sách bán ròng mạnh trên UPCoM song giá trị không đáng kể."
+    }
+]

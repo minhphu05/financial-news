@@ -1,0 +1,652 @@
+[
+    {
+        "text": "123,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Thặng dư thương mại của Việt Nam với Hoa Kỳ đạt 123,5 tỷ USD vào năm 2024, tăng gần 20% so với năm 2023 và thiết lập mức cao kỷ lục, theo dữ liệu của Hoa Kỳ công bố ngày 5/2."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Thặng dư thương mại của Việt Nam với Hoa Kỳ đạt 123,5 tỷ USD vào năm 2024, tăng gần 20% so với năm 2023 và thiết lập mức cao kỷ lục, theo dữ liệu của Hoa Kỳ công bố ngày 5/2."
+    },
+    {
+        "text": "gần 20%",
+        "label": "RATE",
+        "evidence": "Thặng dư thương mại của Việt Nam với Hoa Kỳ đạt 123,5 tỷ USD vào năm 2024, tăng gần 20% so với năm 2023 và thiết lập mức cao kỷ lục, theo dữ liệu của Hoa Kỳ công bố ngày 5/2."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Thặng dư thương mại của Việt Nam với Hoa Kỳ đạt 123,5 tỷ USD vào năm 2024, tăng gần 20% so với năm 2023 và thiết lập mức cao kỷ lục, theo dữ liệu của Hoa Kỳ công bố ngày 5/2."
+    },
+    {
+        "text": "ngày 5/2",
+        "label": "DATE",
+        "evidence": "Thặng dư thương mại của Việt Nam với Hoa Kỳ đạt 123,5 tỷ USD vào năm 2024, tăng gần 20% so với năm 2023 và thiết lập mức cao kỷ lục, theo dữ liệu của Hoa Kỳ công bố ngày 5/2."
+    },
+    {
+        "text": "ngày 2/4",
+        "label": "DATE",
+        "evidence": "Đó cũng là cơ sở để ngày 2/4, Tổng thống Mỹ Donald Trump công bố áp thuế đối ứng tỷ lệ 46% với Việt Nam."
+    },
+    {
+        "text": "Donald Trump",
+        "label": "PERSON",
+        "evidence": "Đó cũng là cơ sở để ngày 2/4, Tổng thống Mỹ Donald Trump công bố áp thuế đối ứng tỷ lệ 46% với Việt Nam."
+    },
+    {
+        "text": "công bố áp thuế đối ứng tỷ lệ 46% với Việt Nam",
+        "label": "EVENT",
+        "evidence": "Tổng thống Mỹ Donald Trump công bố áp thuế đối ứng tỷ lệ 46% với Việt Nam."
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "Tổng thống Mỹ Donald Trump công bố áp thuế đối ứng tỷ lệ 46% với Việt Nam."
+    },
+    {
+        "text": "khởi động đàm phán về một thoả thuận thương mại đối ứng",
+        "label": "EVENT",
+        "evidence": "Đến hiện tại, 2 quốc gia đã thống nhất khởi động đàm phán về một thoả thuận thương mại đối ứng, trong đó sẽ bao gồm các thoả thuận về thuế."
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "Trước đó, tại Diễn đàn Kinh tế Thế giới ở Davos vào tháng 1/2025, đáp lại quan ngại liên quan tới thặng dư thương mại của Việt Nam với Mỹ, Thủ tướng Chính phủ đã nhấn mạnh rằng Việt Nam mong muốn phát huy các lợi thế cạnh tranh, tăng cường nhập khẩu và hợp tác trong các lĩnh vực mà Mỹ có thế mạnh và Việt Nam có nhu cầu như hàng không, công nghệ cao…"
+    },
+    {
+        "text": "ngày 12/11/2017",
+        "label": "DATE",
+        "evidence": "8 năm trước, vào ngày 12/11/2017, trong khuôn khổ chuyến thăm cấp nhà nước của Tổng thống Mỹ Donald Trump (nhiệm kỳ 1) tới Việt Nam, một loạt hợp đồng trị giá tỷ đô giữa các doanh nghiệp lớn của Việt Nam (bên mua) và các tập đoàn Mỹ đã được ký thỏa thuận MOU."
+    },
+    {
+        "text": "Donald Trump",
+        "label": "PERSON",
+        "evidence": "8 năm trước, vào ngày 12/11/2017, trong khuôn khổ chuyến thăm cấp nhà nước của Tổng thống Mỹ Donald Trump (nhiệm kỳ 1) tới Việt Nam, một loạt hợp đồng trị giá tỷ đô giữa các doanh nghiệp lớn của Việt Nam (bên mua) và các tập đoàn Mỹ đã được ký thỏa thuận MOU."
+    },
+    {
+        "text": "ký thỏa thuận MOU",
+        "label": "EVENT",
+        "evidence": "một loạt hợp đồng trị giá tỷ đô giữa các doanh nghiệp lớn của Việt Nam (bên mua) và các tập đoàn Mỹ đã được ký thỏa thuận MOU."
+    },
+    {
+        "text": "1,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Thứ nhất là hợp đồng trị giá 1,5 tỷ USD cho việc mua, hỗ trợ 44 động cơ cho 20 máy bay Airbus A321neo mà ﻿Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN) ký với hãng sản xuất động cơ máy bay Pratt & Whitney (PW)."
+    },
+    {
+        "text": "44 động cơ",
+        "label": "VOLUME",
+        "evidence": "hợp đồng trị giá 1,5 tỷ USD cho việc mua, hỗ trợ 44 động cơ cho 20 máy bay Airbus A321neo"
+    },
+    {
+        "text": "20 máy bay Airbus A321neo",
+        "label": "VOLUME",
+        "evidence": "hợp đồng trị giá 1,5 tỷ USD cho việc mua, hỗ trợ 44 động cơ cho 20 máy bay Airbus A321neo"
+    },
+    {
+        "text": "Tổng công ty Hàng không Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN)"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN)"
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN)"
+    },
+    {
+        "text": "hợp đồng trị giá 1,5 tỷ USD cho việc mua, hỗ trợ 44 động cơ cho 20 máy bay Airbus A321neo mà ﻿Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN) ký với hãng sản xuất động cơ máy bay Pratt & Whitney (PW)",
+        "label": "EVENT",
+        "evidence": "Thứ nhất là hợp đồng trị giá 1,5 tỷ USD cho việc mua, hỗ trợ 44 động cơ cho 20 máy bay Airbus A321neo mà ﻿Tổng công ty Hàng không Việt Nam (Vietnam Airlines,mã chứng khoán HVN) ký với hãng sản xuất động cơ máy bay Pratt & Whitney (PW)."
+    },
+    {
+        "text": "Pratt & Whitney",
+        "label": "ORG",
+        "evidence": "ký với hãng sản xuất động cơ máy bay Pratt & Whitney (PW)."
+    },
+    {
+        "text": "PW",
+        "label": "ORG",
+        "evidence": "ký với hãng sản xuất động cơ máy bay Pratt & Whitney (PW)."
+    },
+    {
+        "text": "thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air, gồm mua và bảo dưỡng 20 động cơ thế hệ mới PW1000G để lắp đặt cho 10 tàu bay A321NEO của hãng",
+        "label": "EVENT",
+        "evidence": "Thứ hai là thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air, gồm mua và bảo dưỡng 20 động cơ thế hệ mới PW1000G để lắp đặt cho 10 tàu bay A321NEO của hãng."
+    },
+    {
+        "text": "600 triệu USD",
+        "label": "MONEY",
+        "evidence": "thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air"
+    },
+    {
+        "text": "Pratt & Whitney",
+        "label": "ORG",
+        "evidence": "thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air"
+    },
+    {
+        "text": "PW",
+        "label": "ORG",
+        "evidence": "thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air"
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "thoả thuận trị giá 600 triệu USD cũng với Pratt & Whitney (PW) của Vietjet Air"
+    },
+    {
+        "text": "20 động cơ thế hệ mới PW1000G",
+        "label": "VOLUME",
+        "evidence": "gồm mua và bảo dưỡng 20 động cơ thế hệ mới PW1000G"
+    },
+    {
+        "text": "10 tàu bay A321NEO",
+        "label": "VOLUME",
+        "evidence": "lắp đặt cho 10 tàu bay A321NEO của hãng"
+    },
+    {
+        "text": "12 năm",
+        "label": "DATE",
+        "evidence": "bao gồm một chương trình quản lý động cơ EngineWise™ trong 12 năm."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Vào cuối năm 2023, nhà sản xuất động cơ Pratt & Whitney xác nhận có hơn 1.000 động cơ PW1100G gặp lỗi sản xuất, cần phải thu hồi để sửa chữa."
+    },
+    {
+        "text": "Pratt & Whitney",
+        "label": "ORG",
+        "evidence": "nhà sản xuất động cơ Pratt & Whitney xác nhận có hơn 1.000 động cơ PW1100G gặp lỗi sản xuất, cần phải thu hồi để sửa chữa."
+    },
+    {
+        "text": "hơn 1.000 động cơ PW1100G",
+        "label": "VOLUME",
+        "evidence": "Pratt & Whitney xác nhận có hơn 1.000 động cơ PW1100G gặp lỗi sản xuất, cần phải thu hồi để sửa chữa."
+    },
+    {
+        "text": "gặp lỗi sản xuất, cần phải thu hồi để sửa chữa",
+        "label": "EVENT",
+        "evidence": "hơn 1.000 động cơ PW1100G gặp lỗi sản xuất, cần phải thu hồi để sửa chữa."
+    },
+    {
+        "text": "Tổng Công ty Khí Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Khí Việt Nam (PV GAS,mã chứng khoán GAS)"
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Khí Việt Nam (PV GAS,mã chứng khoán GAS)"
+    },
+    {
+        "text": "GAS",
+        "label": "TICKER",
+        "evidence": "Tổng Công ty Khí Việt Nam (PV GAS,mã chứng khoán GAS)"
+    },
+    {
+        "text": "ký 2 biên bản thỏa thuận với 2 đối tác Mỹ là Tập đoàn AES và Tập đoàn Alaska Gasline Development Corporation",
+        "label": "EVENT",
+        "evidence": "Tổng Công ty Khí Việt Nam (PV GAS,mã chứng khoán GAS) ký 2 biên bản thỏa thuận với 2 đối tác Mỹ là Tập đoàn AES và Tập đoàn Alaska Gasline Development Corporation."
+    },
+    {
+        "text": "Tập đoàn AES",
+        "label": "ORG",
+        "evidence": "ký 2 biên bản thỏa thuận với 2 đối tác Mỹ là Tập đoàn AES và Tập đoàn Alaska Gasline Development Corporation."
+    },
+    {
+        "text": "Tập đoàn Alaska Gasline Development Corporation",
+        "label": "ORG",
+        "evidence": "ký 2 biên bản thỏa thuận với 2 đối tác Mỹ là Tập đoàn AES và Tập đoàn Alaska Gasline Development Corporation."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "Theo đó, PV GAS và AES đã ký thỏa thuận trị giá 1,3 tỷ USD cho Dự án Kho cảng LNG Sơn Mỹ."
+    },
+    {
+        "text": "AES",
+        "label": "ORG",
+        "evidence": "Theo đó, PV GAS và AES đã ký thỏa thuận trị giá 1,3 tỷ USD cho Dự án Kho cảng LNG Sơn Mỹ."
+    },
+    {
+        "text": "ký thỏa thuận trị giá 1,3 tỷ USD cho Dự án Kho cảng LNG Sơn Mỹ",
+        "label": "EVENT",
+        "evidence": "PV GAS và AES đã ký thỏa thuận trị giá 1,3 tỷ USD cho Dự án Kho cảng LNG Sơn Mỹ."
+    },
+    {
+        "text": "1,3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "ký thỏa thuận trị giá 1,3 tỷ USD cho Dự án Kho cảng LNG Sơn Mỹ."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, dự án Kho cảng LNG Sơn Mỹ được UBND tỉnh chấp thuận chủ trương đầu tư cho Công ty TNHH Kho cảng LNG Sơn Mỹ - liên doanh giữa PV GAS và Tập đoàn AES thực hiện tại xã Sơn Mỹ, huyện Hàm Tân."
+    },
+    {
+        "text": "dự án Kho cảng LNG Sơn Mỹ được UBND tỉnh chấp thuận chủ trương đầu tư",
+        "label": "EVENT",
+        "evidence": "Năm 2023, dự án Kho cảng LNG Sơn Mỹ được UBND tỉnh chấp thuận chủ trương đầu tư cho Công ty TNHH Kho cảng LNG Sơn Mỹ - liên doanh giữa PV GAS và Tập đoàn AES thực hiện tại xã Sơn Mỹ, huyện Hàm Tân."
+    },
+    {
+        "text": "Công ty TNHH Kho cảng LNG Sơn Mỹ",
+        "label": "ORG",
+        "evidence": "chấp thuận chủ trương đầu tư cho Công ty TNHH Kho cảng LNG Sơn Mỹ - liên doanh giữa PV GAS và Tập đoàn AES thực hiện tại xã Sơn Mỹ, huyện Hàm Tân."
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "liên doanh giữa PV GAS và Tập đoàn AES thực hiện tại xã Sơn Mỹ, huyện Hàm Tân."
+    },
+    {
+        "text": "Tập đoàn AES",
+        "label": "ORG",
+        "evidence": "liên doanh giữa PV GAS và Tập đoàn AES thực hiện tại xã Sơn Mỹ, huyện Hàm Tân."
+    },
+    {
+        "text": "hơn 1,3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Dự án có tổng vốn đầu tư hơn 1,3 tỷ USD, sẽ cung cấp 3,6 triệu tấn khí LNG/năm."
+    },
+    {
+        "text": "3,6 triệu tấn khí LNG/năm",
+        "label": "VOLUME",
+        "evidence": "cung cấp 3,6 triệu tấn khí LNG/năm."
+    },
+    {
+        "text": "PV Gas",
+        "label": "ORG",
+        "evidence": "PV Gas cũng đã ký Biên bản Ghi nhớ về khả năng hợp tác trong lĩnh vực cung cấp Khí thiên nhiên hóa lỏng (LNG) và đầu tư thượng nguồn với Tập đoàn Alaska Gasline Development Corporation (AGDC)."
+    },
+    {
+        "text": "ký Biên bản Ghi nhớ về khả năng hợp tác trong lĩnh vực cung cấp Khí thiên nhiên hóa lỏng (LNG) và đầu tư thượng nguồn với Tập đoàn Alaska Gasline Development Corporation (AGDC)",
+        "label": "EVENT",
+        "evidence": "PV Gas cũng đã ký Biên bản Ghi nhớ về khả năng hợp tác trong lĩnh vực cung cấp Khí thiên nhiên hóa lỏng (LNG) và đầu tư thượng nguồn với Tập đoàn Alaska Gasline Development Corporation (AGDC)."
+    },
+    {
+        "text": "Tập đoàn Alaska Gasline Development Corporation",
+        "label": "ORG",
+        "evidence": "ký Biên bản Ghi nhớ về khả năng hợp tác trong lĩnh vực cung cấp Khí thiên nhiên hóa lỏng (LNG) và đầu tư thượng nguồn với Tập đoàn Alaska Gasline Development Corporation (AGDC)."
+    },
+    {
+        "text": "AGDC",
+        "label": "ORG",
+        "evidence": "ký Biên bản Ghi nhớ về khả năng hợp tác trong lĩnh vực cung cấp Khí thiên nhiên hóa lỏng (LNG) và đầu tư thượng nguồn với Tập đoàn Alaska Gasline Development Corporation (AGDC)."
+    },
+    {
+        "text": "AGDC",
+        "label": "ORG",
+        "evidence": "Biên bản thể hiện mong muốn hợp tác của AGDC trong việc tham gia cung cấp nguồn LNG cho các dự án nhập khẩu LNG tại Việt Nam"
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "đánh giá các cơ hội tham gia đầu tư phát triển của PV GAS tại các mỏ khí tại Bang Alaska – Mỹ."
+    },
+    {
+        "text": "ngày 27/2/2019",
+        "label": "DATE",
+        "evidence": "Đến ngày 27/2/2019, tại Hội nghị thượng đỉnh Mỹ - Triều lần 2 được tổ chức ở Việt Nam, các thỏa thuận lớn tiếp tục được ký kết."
+    },
+    {
+        "text": "các thỏa thuận lớn tiếp tục được ký kết",
+        "label": "EVENT",
+        "evidence": "các thỏa thuận lớn tiếp tục được ký kết."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Vietnam Airlines cùng﻿Tập đoàn Sabre đã ký kết mở rộng hợp tác chiến lược trong lĩnh vực công nghệ thông tin hàng không với trị giá 300 triệu USD."
+    },
+    {
+        "text": "Tập đoàn Sabre",
+        "label": "ORG",
+        "evidence": "Vietnam Airlines cùng﻿Tập đoàn Sabre đã ký kết mở rộng hợp tác chiến lược trong lĩnh vực công nghệ thông tin hàng không với trị giá 300 triệu USD."
+    },
+    {
+        "text": "ký kết mở rộng hợp tác chiến lược trong lĩnh vực công nghệ thông tin hàng không với trị giá 300 triệu USD",
+        "label": "EVENT",
+        "evidence": "Vietnam Airlines cùng﻿Tập đoàn Sabre đã ký kết mở rộng hợp tác chiến lược trong lĩnh vực công nghệ thông tin hàng không với trị giá 300 triệu USD."
+    },
+    {
+        "text": "300 triệu USD",
+        "label": "MONEY",
+        "evidence": "hợp tác chiến lược trong lĩnh vực công nghệ thông tin hàng không với trị giá 300 triệu USD."
+    },
+    {
+        "text": "Giữa năm 2018",
+        "label": "DATE",
+        "evidence": "Giữa năm 2018, hãng hàng không quốc gia cũng đã ký hợp đồng dài hạn với Sabre để duy trì, nâng cấp và bổ sung các chức năng mới cho hệ thống SabreSonic trị giá 400 triệu USD."
+    },
+    {
+        "text": "ký hợp đồng dài hạn với Sabre để duy trì, nâng cấp và bổ sung các chức năng mới cho hệ thống SabreSonic trị giá 400 triệu USD",
+        "label": "EVENT",
+        "evidence": "Giữa năm 2018, hãng hàng không quốc gia cũng đã ký hợp đồng dài hạn với Sabre để duy trì, nâng cấp và bổ sung các chức năng mới cho hệ thống SabreSonic trị giá 400 triệu USD."
+    },
+    {
+        "text": "Sabre",
+        "label": "ORG",
+        "evidence": "ký hợp đồng dài hạn với Sabre để duy trì, nâng cấp và bổ sung các chức năng mới cho hệ thống SabreSonic trị giá 400 triệu USD."
+    },
+    {
+        "text": "400 triệu USD",
+        "label": "MONEY",
+        "evidence": "hệ thống SabreSonic trị giá 400 triệu USD."
+    },
+    {
+        "text": "Ngày 8/11/2019",
+        "label": "DATE",
+        "evidence": "Ngày 8/11/2019 , Vietnam Airlines đã ký kết hai hợp đồng trị giá hơn 1 tỷ USD về bảo dưỡng động cơ máy bay Airbus A321neo với nhà sản xuất động cơ máy bay Pratt & Whitney và triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Ngày 8/11/2019 , Vietnam Airlines đã ký kết hai hợp đồng trị giá hơn 1 tỷ USD về bảo dưỡng động cơ máy bay Airbus A321neo với nhà sản xuất động cơ máy bay Pratt & Whitney và triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre."
+    },
+    {
+        "text": "ký kết hai hợp đồng trị giá hơn 1 tỷ USD về bảo dưỡng động cơ máy bay Airbus A321neo với nhà sản xuất động cơ máy bay Pratt & Whitney và triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre",
+        "label": "EVENT",
+        "evidence": "Ngày 8/11/2019 , Vietnam Airlines đã ký kết hai hợp đồng trị giá hơn 1 tỷ USD về bảo dưỡng động cơ máy bay Airbus A321neo với nhà sản xuất động cơ máy bay Pratt & Whitney và triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre."
+    },
+    {
+        "text": "hơn 1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "hai hợp đồng trị giá hơn 1 tỷ USD về bảo dưỡng động cơ máy bay Airbus A321neo"
+    },
+    {
+        "text": "Pratt & Whitney",
+        "label": "ORG",
+        "evidence": "bảo dưỡng động cơ máy bay Airbus A321neo với nhà sản xuất động cơ máy bay Pratt & Whitney"
+    },
+    {
+        "text": "Tập đoàn công nghệ Sabre",
+        "label": "ORG",
+        "evidence": "triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre."
+    },
+    {
+        "text": "Sabre",
+        "label": "ORG",
+        "evidence": "triển khai hệ thống quản trị, tối ưu hóa doanh thu thế hệ mới với Tập đoàn công nghệ Sabre."
+    },
+    {
+        "text": "ngày 9/4",
+        "label": "DATE",
+        "evidence": "Mới đây, ngày 9/4, Vietnam Airlines và Ngân hàng Citi - một trong những tổ chức tài chính hàng đầu của Mỹ - vừa ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Mới đây, ngày 9/4, Vietnam Airlines và Ngân hàng Citi - một trong những tổ chức tài chính hàng đầu của Mỹ - vừa ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "Ngân hàng Citi",
+        "label": "ORG",
+        "evidence": "Vietnam Airlines và Ngân hàng Citi - một trong những tổ chức tài chính hàng đầu của Mỹ - vừa ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "Citi",
+        "label": "ORG",
+        "evidence": "Vietnam Airlines và Ngân hàng Citi - một trong những tổ chức tài chính hàng đầu của Mỹ - vừa ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines",
+        "label": "EVENT",
+        "evidence": "Vietnam Airlines và Ngân hàng Citi - một trong những tổ chức tài chính hàng đầu của Mỹ - vừa ký kết Biên bản ghi nhớ (MOU) về cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "560 triệu USD",
+        "label": "MONEY",
+        "evidence": "cam kết tài trợ vốn trị giá từ 560 triệu USD trở lên cho các dự án đầu tư chiến lược của Vietnam Airlines."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Ngoài ra, Vietnam Airlines đang đặt mục tiêu khẩn trương hoàn thành thủ tục đầu tư, lựa chọn nhà cung cấp máy bay, đàm phán ký kết hợp đồng mua máy bay trong nửa đầu năm 2025 để có thể lấy được lịch giao máy bay theo yêu cầu phát triển đội bay của hãng."
+    },
+    {
+        "text": "nửa đầu năm 2025",
+        "label": "DATE",
+        "evidence": "đàm phán ký kết hợp đồng mua máy bay trong nửa đầu năm 2025 để có thể lấy được lịch giao máy bay theo yêu cầu phát triển đội bay của hãng."
+    },
+    {
+        "text": "50 máy bay thân hẹp Airbus A320NEO hoặc Boeing B737 MAX",
+        "label": "VOLUME",
+        "evidence": "tổng mức đầu tư 50 máy bay thân hẹp Airbus A320NEO hoặc Boeing B737 MAX và 10 động cơ dự phòng"
+    },
+    {
+        "text": "10 động cơ dự phòng",
+        "label": "VOLUME",
+        "evidence": "tổng mức đầu tư 50 máy bay thân hẹp Airbus A320NEO hoặc Boeing B737 MAX và 10 động cơ dự phòng"
+    },
+    {
+        "text": "3,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "khoảng 3,7 tỷ USD, tương đương 92.800 tỷ đồng."
+    },
+    {
+        "text": "92.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 3,7 tỷ USD, tương đương 92.800 tỷ đồng."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Về phía Vietjet,tại Hội nghị thượng đỉnh Mỹ - Triều lần 2, hãng đã ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD với Tập đoàn chế tạo máy bay Boeing, nâng tổng đơn hàng cho loại máy bay này lên 200 chiếc."
+    },
+    {
+        "text": "ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD với Tập đoàn chế tạo máy bay Boeing",
+        "label": "EVENT",
+        "evidence": "hãng đã ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD với Tập đoàn chế tạo máy bay Boeing"
+    },
+    {
+        "text": "100 tàu bay 737 MAX",
+        "label": "VOLUME",
+        "evidence": "ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD"
+    },
+    {
+        "text": "12,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD"
+    },
+    {
+        "text": "Tập đoàn chế tạo máy bay Boeing",
+        "label": "ORG",
+        "evidence": "ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD với Tập đoàn chế tạo máy bay Boeing"
+    },
+    {
+        "text": "Boeing",
+        "label": "ORG",
+        "evidence": "ký kết hợp đồng mua 100 tàu bay 737 MAX trị giá 12,7 tỷ USD với Tập đoàn chế tạo máy bay Boeing"
+    },
+    {
+        "text": "200 chiếc",
+        "label": "VOLUME",
+        "evidence": "nâng tổng đơn hàng cho loại máy bay này lên 200 chiếc."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Vietjet cũng đã ký kết thoả thuận với tập đoàn General Electric (Hoa kỳ) về dịch vụ dài hạn bảo dưỡng động cơ LEAP-1B trị giá 5,3 tỷ USD theo giá công bố của nhà sản xuất."
+    },
+    {
+        "text": "ký kết thoả thuận với tập đoàn General Electric (Hoa kỳ) về dịch vụ dài hạn bảo dưỡng động cơ LEAP-1B trị giá 5,3 tỷ USD",
+        "label": "EVENT",
+        "evidence": "Vietjet cũng đã ký kết thoả thuận với tập đoàn General Electric (Hoa kỳ) về dịch vụ dài hạn bảo dưỡng động cơ LEAP-1B trị giá 5,3 tỷ USD theo giá công bố của nhà sản xuất."
+    },
+    {
+        "text": "General Electric",
+        "label": "ORG",
+        "evidence": "ký kết thoả thuận với tập đoàn General Electric (Hoa kỳ) về dịch vụ dài hạn bảo dưỡng động cơ LEAP-1B trị giá 5,3 tỷ USD"
+    },
+    {
+        "text": "5,3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "dịch vụ dài hạn bảo dưỡng động cơ LEAP-1B trị giá 5,3 tỷ USD"
+    },
+    {
+        "text": "Năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, Vietjet bắt đầu tiếp nhận các tàu bay Boeing 737 Max đầu tiên trong đơn hàng 200 chiếc trị giá hơn 24 tỷ USD."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Năm 2025, Vietjet bắt đầu tiếp nhận các tàu bay Boeing 737 Max đầu tiên trong đơn hàng 200 chiếc trị giá hơn 24 tỷ USD."
+    },
+    {
+        "text": "bắt đầu tiếp nhận các tàu bay Boeing 737 Max đầu tiên trong đơn hàng 200 chiếc trị giá hơn 24 tỷ USD",
+        "label": "EVENT",
+        "evidence": "Vietjet bắt đầu tiếp nhận các tàu bay Boeing 737 Max đầu tiên trong đơn hàng 200 chiếc trị giá hơn 24 tỷ USD."
+    },
+    {
+        "text": "200 chiếc",
+        "label": "VOLUME",
+        "evidence": "trong đơn hàng 200 chiếc trị giá hơn 24 tỷ USD."
+    },
+    {
+        "text": "hơn 24 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đơn hàng 200 chiếc trị giá hơn 24 tỷ USD."
+    },
+    {
+        "text": "đàm phán để mở rộng đơn hàng này",
+        "label": "EVENT",
+        "evidence": "Hãng hiện cũng đang trong quá trình đàm phán để mở rộng đơn hàng này, phục vụ chiến lược phát triển toàn cầu."
+    },
+    {
+        "text": "Ngày 9/4",
+        "label": "DATE",
+        "evidence": "Ngày 9/4, Vietjet và AV AirFinance vừa ký kết thỏa thuận hợp tác tổng trị giá 300 triệu USD."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Ngày 9/4, Vietjet và AV AirFinance vừa ký kết thỏa thuận hợp tác tổng trị giá 300 triệu USD."
+    },
+    {
+        "text": "AV AirFinance",
+        "label": "ORG",
+        "evidence": "Ngày 9/4, Vietjet và AV AirFinance vừa ký kết thỏa thuận hợp tác tổng trị giá 300 triệu USD."
+    },
+    {
+        "text": "ký kết thỏa thuận hợp tác tổng trị giá 300 triệu USD",
+        "label": "EVENT",
+        "evidence": "Vietjet và AV AirFinance vừa ký kết thỏa thuận hợp tác tổng trị giá 300 triệu USD."
+    },
+    {
+        "text": "300 triệu USD",
+        "label": "MONEY",
+        "evidence": "thỏa thuận hợp tác tổng trị giá 300 triệu USD."
+    },
+    {
+        "text": "4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "một phần trong loạt thỏa thuận tài chính trị giá 4 tỷ USD mà Vietjet đã thực hiện cùng các đối tác hàng đầu Hoa Kỳ."
+    },
+    {
+        "text": "gần 300 tàu bay",
+        "label": "VOLUME",
+        "evidence": "bao gồm gần 300 tàu bay dự kiến được bàn giao trong giai đoạn 2025–2027."
+    },
+    {
+        "text": "2025–2027",
+        "label": "DATE",
+        "evidence": "giai đoạn 2025–2027."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Vietjet đang hợp tác chiến lược với nhiều tập đoàn hàng đầu Hoa Kỳ tổng giá trị hợp đồng gần 50 tỷ USD"
+    },
+    {
+        "text": "gần 50 tỷ USD",
+        "label": "MONEY",
+        "evidence": "tổng giá trị hợp đồng gần 50 tỷ USD"
+    },
+    {
+        "text": "khoảng 14 tỷ USD",
+        "label": "MONEY",
+        "evidence": "các dự án đang đàm phán sâu trị giá khoảng 14 tỷ USD."
+    },
+    {
+        "text": "GE",
+        "label": "ORG",
+        "evidence": "Riêng lĩnh vực động cơ và dịch vụ kỹ thuật với GE và Pratt & Whitney đã đạt quy mô hơn 10 tỷ USD."
+    },
+    {
+        "text": "Pratt & Whitney",
+        "label": "ORG",
+        "evidence": "lĩnh vực động cơ và dịch vụ kỹ thuật với GE và Pratt & Whitney đã đạt quy mô hơn 10 tỷ USD."
+    },
+    {
+        "text": "hơn 10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đã đạt quy mô hơn 10 tỷ USD."
+    },
+    {
+        "text": "CTCP Hàng không Tre Việt",
+        "label": "ORG",
+        "evidence": "CTCP Hàng không Tre Việt (Bamboo Airways) năm 2019 cũng ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "CTCP Hàng không Tre Việt (Bamboo Airways) năm 2019 cũng ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "CTCP Hàng không Tre Việt (Bamboo Airways) năm 2019 cũng ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD với Tập đoàn Boeing",
+        "label": "EVENT",
+        "evidence": "năm 2019 cũng﻿ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "10 máy bay thân rộng Boeing 787-9 Dreamliner",
+        "label": "VOLUME",
+        "evidence": "ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD"
+    },
+    {
+        "text": "gần 3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "ký thỏa thuận mua 10 máy bay thân rộng Boeing 787-9 Dreamliner trị giá gần 3 tỷ USD"
+    },
+    {
+        "text": "Tập đoàn Boeing",
+        "label": "ORG",
+        "evidence": "trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "Boeing",
+        "label": "ORG",
+        "evidence": "trị giá gần 3 tỷ USD với Tập đoàn Boeing (Mỹ)."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "Bamboo Airways đã nhận chiếc Boeing 787-9 Dreamliner đầu tiên vào tháng 12/2019"
+    },
+    {
+        "text": "tháng 12/2019",
+        "label": "DATE",
+        "evidence": "Bamboo Airways đã nhận chiếc Boeing 787-9 Dreamliner đầu tiên vào tháng 12/2019"
+    },
+    {
+        "text": "ngừng khai thác loại máy bay Boeing B787-9",
+        "label": "EVENT",
+        "evidence": "hãng đã ngừng khai thác loại máy bay Boeing B787-9 từ tháng 11/2023."
+    },
+    {
+        "text": "tháng 11/2023",
+        "label": "DATE",
+        "evidence": "hãng đã ngừng khai thác loại máy bay Boeing B787-9 từ tháng 11/2023."
+    }
+]

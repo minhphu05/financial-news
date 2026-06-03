@@ -1,0 +1,437 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tại đại hội, ACB dự kiến trình cổ đông phương án tăng vốn điều lệ từ cổ tức năm 2024 bằng cổ phần phổ thông."
+    },
+    {
+        "text": "tăng vốn điều lệ từ cổ tức năm 2024 bằng cổ phần phổ thông",
+        "label": "EVENT",
+        "evidence": "Tại đại hội, ACB dự kiến trình cổ đông phương án tăng vốn điều lệ từ cổ tức năm 2024 bằng cổ phần phổ thông."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tại đại hội, ACB dự kiến trình cổ đông phương án tăng vốn điều lệ từ cổ tức năm 2024 bằng cổ phần phổ thông."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo đó, ACB dự kiến phát hành gần 670 triệu cổ phiếu để chia cổ tức, tương đương tỷ lệ 15%."
+    },
+    {
+        "text": "phát hành gần 670 triệu cổ phiếu để chia cổ tức",
+        "label": "EVENT",
+        "evidence": "Theo đó, ACB dự kiến phát hành gần 670 triệu cổ phiếu để chia cổ tức, tương đương tỷ lệ 15%."
+    },
+    {
+        "text": "gần 670 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, ACB dự kiến phát hành gần 670 triệu cổ phiếu để chia cổ tức, tương đương tỷ lệ 15%."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Theo đó, ACB dự kiến phát hành gần 670 triệu cổ phiếu để chia cổ tức, tương đương tỷ lệ 15%."
+    },
+    {
+        "text": "quý 3 năm 2025",
+        "label": "DATE",
+        "evidence": "Thời gian dự kiến thực hiện trong quý 3 năm 2025."
+    },
+    {
+        "text": "6.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu hoàn thành, vốn điều lệ ngân hàng này sẽ tăng thêm 6.700 tỷ đồng, từ 44.666 lên 51.366 tỷ đồng."
+    },
+    {
+        "text": "44.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu hoàn thành, vốn điều lệ ngân hàng này sẽ tăng thêm 6.700 tỷ đồng, từ 44.666 lên 51.366 tỷ đồng."
+    },
+    {
+        "text": "51.366 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu hoàn thành, vốn điều lệ ngân hàng này sẽ tăng thêm 6.700 tỷ đồng, từ 44.666 lên 51.366 tỷ đồng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Qua đó, ACB tiếp tục cải thiện hệ số an toàn vốn và tăng khả năng mở rộng tín dụng trong bối cảnh nhu cầu vay vốn dự báo phục hồi mạnh mẽ."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024,ACBvẫn đáp ứng tốt các quy định về an toàn tài chính trong khi tăng trưởng mạnh về quy mô."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Năm 2024,ACBvẫn đáp ứng tốt các quy định về an toàn tài chính trong khi tăng trưởng mạnh về quy mô."
+    },
+    {
+        "text": "LDR",
+        "label": "ASSET",
+        "evidence": "Tỷ lệ cho vay trên tổng tiền gửi của ngân hàng (LDR) tại thời điểm 31/12/2024 đạt 78%, tỷ lệ vốn ngắn hạn cho vay trung dài hạn 18,8%."
+    },
+    {
+        "text": "31/12/2024",
+        "label": "DATE",
+        "evidence": "Tỷ lệ cho vay trên tổng tiền gửi của ngân hàng (LDR) tại thời điểm 31/12/2024 đạt 78%, tỷ lệ vốn ngắn hạn cho vay trung dài hạn 18,8%."
+    },
+    {
+        "text": "78%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ cho vay trên tổng tiền gửi của ngân hàng (LDR) tại thời điểm 31/12/2024 đạt 78%, tỷ lệ vốn ngắn hạn cho vay trung dài hạn 18,8%."
+    },
+    {
+        "text": "18,8%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ cho vay trên tổng tiền gửi của ngân hàng (LDR) tại thời điểm 31/12/2024 đạt 78%, tỷ lệ vốn ngắn hạn cho vay trung dài hạn 18,8%."
+    },
+    {
+        "text": "CAR",
+        "label": "ASSET",
+        "evidence": "Tỷ lệ an toàn vốn hợp nhất CAR ở mức 11,8%, vượt yêu cầu tối thiểu 8% theo quy định của NHNN."
+    },
+    {
+        "text": "11,8%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ an toàn vốn hợp nhất CAR ở mức 11,8%, vượt yêu cầu tối thiểu 8% theo quy định của NHNN."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ an toàn vốn hợp nhất CAR ở mức 11,8%, vượt yêu cầu tối thiểu 8% theo quy định của NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Tỷ lệ an toàn vốn hợp nhất CAR ở mức 11,8%, vượt yêu cầu tối thiểu 8% theo quy định của NHNN."
+    },
+    {
+        "text": "~70%",
+        "label": "RATE",
+        "evidence": "Hệ số rủi ro bình quân đối với tài sản có được kiểm soát ở mức ~70%, thuộc nhóm thấp nhất trong hệ thống các ngân hàng thương mại."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Kết quả, năm 2024 ngân hàng ghi nhận tổng lợi nhuận trước thuế đạt hơn 21 nghìn tỷ đồng, tăng 5% so với cùng kỳ nhờ tăng trưởng tốt quy mô, đẩy mạnh thu nhập từ dịch vụ, đồng thời kiểm soát chi phí hiệu quả."
+    },
+    {
+        "text": "hơn 21 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả, năm 2024 ngân hàng ghi nhận tổng lợi nhuận trước thuế đạt hơn 21 nghìn tỷ đồng, tăng 5% so với cùng kỳ nhờ tăng trưởng tốt quy mô, đẩy mạnh thu nhập từ dịch vụ, đồng thời kiểm soát chi phí hiệu quả."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Kết quả, năm 2024 ngân hàng ghi nhận tổng lợi nhuận trước thuế đạt hơn 21 nghìn tỷ đồng, tăng 5% so với cùng kỳ nhờ tăng trưởng tốt quy mô, đẩy mạnh thu nhập từ dịch vụ, đồng thời kiểm soát chi phí hiệu quả."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kết quả này cũng đưa ACB trở thành một trong 7 ngân hàng trong hệ thống ghi nhận mức lợi nhuận trước thuế trên 20.000 tỷ đồng trong năm 2024 và nằm trong top 3 ngân hàng tư nhân dẫn đầu về lợi nhuận."
+    },
+    {
+        "text": "trên 20.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả này cũng đưa ACB trở thành một trong 7 ngân hàng trong hệ thống ghi nhận mức lợi nhuận trước thuế trên 20.000 tỷ đồng trong năm 2024 và nằm trong top 3 ngân hàng tư nhân dẫn đầu về lợi nhuận."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Kết quả này cũng đưa ACB trở thành một trong 7 ngân hàng trong hệ thống ghi nhận mức lợi nhuận trước thuế trên 20.000 tỷ đồng trong năm 2024 và nằm trong top 3 ngân hàng tư nhân dẫn đầu về lợi nhuận."
+    },
+    {
+        "text": "ROE",
+        "label": "ASSET",
+        "evidence": "Tỷ lệ ROE của ngân hàng ở mức gần 22%, cao hơn so với trung bình toàn ngành và đứng vị trí thứ 2 toàn ngành."
+    },
+    {
+        "text": "gần 22%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ ROE của ngân hàng ở mức gần 22%, cao hơn so với trung bình toàn ngành và đứng vị trí thứ 2 toàn ngành."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Kết quả hoạt động năm 2024 cho thấy ACB tiếp tục tăng trưởng tốt về quy mô vốn và tài sản."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kết quả hoạt động năm 2024 cho thấy ACB tiếp tục tăng trưởng tốt về quy mô vốn và tài sản."
+    },
+    {
+        "text": "Cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "864 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "hơn 20%",
+        "label": "RATE",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "Cuối năm 2024, tổng tài sản ACB đạt 864 nghìn tỷ đồng, tăng hơn 20% so cuối năm 2023, và vượt 7% kế hoạch đề ra."
+    },
+    {
+        "text": "581 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng dư nợ tín dụng 581 nghìn tỷ đồng, đạt mức tăng trưởng ấn tượng hơn 19,1%, cao hơn mức tăng trưởng bình quân ngành (15%)."
+    },
+    {
+        "text": "hơn 19,1%",
+        "label": "RATE",
+        "evidence": "Tổng dư nợ tín dụng 581 nghìn tỷ đồng, đạt mức tăng trưởng ấn tượng hơn 19,1%, cao hơn mức tăng trưởng bình quân ngành (15%)."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Tổng dư nợ tín dụng 581 nghìn tỷ đồng, đạt mức tăng trưởng ấn tượng hơn 19,1%, cao hơn mức tăng trưởng bình quân ngành (15%)."
+    },
+    {
+        "text": "tăng mạnh 25%",
+        "label": "RATE",
+        "evidence": "Đặc biệt, tín dụng doanh nghiệp tăng mạnh 25%, phù hợp với định hướng phát triển cân bằng giữa khách hàng cá nhân và khách hàng doanh nghiệp."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Bằng sự nhanh nhạy, thích ứng với thị trường, ngay từ đầu năm 2024, với nhìn nhận FDI là điểm sáng của nền kinh tế, ACB đã đẩy mạnh các chương trình, sản phẩm dịch vụ cho nhóm khách hàng doanh nghiệp, đặc biệt doanh nghiệp FDI, giúp tín dụng mảng khách hàng doanh nghiệp đạt mức tăng 25%, cao nhất trong gần một thập kỷ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Bằng sự nhanh nhạy, thích ứng với thị trường, ngay từ đầu năm 2024, với nhìn nhận FDI là điểm sáng của nền kinh tế, ACB đã đẩy mạnh các chương trình, sản phẩm dịch vụ cho nhóm khách hàng doanh nghiệp, đặc biệt doanh nghiệp FDI, giúp tín dụng mảng khách hàng doanh nghiệp đạt mức tăng 25%, cao nhất trong gần một thập kỷ."
+    },
+    {
+        "text": "đẩy mạnh các chương trình, sản phẩm dịch vụ cho nhóm khách hàng doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Bằng sự nhanh nhạy, thích ứng với thị trường, ngay từ đầu năm 2024, với nhìn nhận FDI là điểm sáng của nền kinh tế, ACB đã đẩy mạnh các chương trình, sản phẩm dịch vụ cho nhóm khách hàng doanh nghiệp, đặc biệt doanh nghiệp FDI, giúp tín dụng mảng khách hàng doanh nghiệp đạt mức tăng 25%, cao nhất trong gần một thập kỷ."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Bằng sự nhanh nhạy, thích ứng với thị trường, ngay từ đầu năm 2024, với nhìn nhận FDI là điểm sáng của nền kinh tế, ACB đã đẩy mạnh các chương trình, sản phẩm dịch vụ cho nhóm khách hàng doanh nghiệp, đặc biệt doanh nghiệp FDI, giúp tín dụng mảng khách hàng doanh nghiệp đạt mức tăng 25%, cao nhất trong gần một thập kỷ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Mặc dù tỷ trọng đóng góp còn khiêm tốn vào tổng quy mô tín dụng, nhưng sự tăng trưởng ở nhóm khách hàng doanh nghiệp đã phản ánh chiến lược chuyển hướng nhanh chóng, kịp thời theo diễn biến thị trường của ACB."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, tổng huy động vốn, bao gồm phát hành giấy tờ có giá đạt 639 nghìn tỷ đồng, tăng 19,4% so với năm trước, vượt 8,4% kế hoạch và phù hợp với tốc độ tăng trưởng tín dụng."
+    },
+    {
+        "text": "phát hành giấy tờ có giá",
+        "label": "EVENT",
+        "evidence": "Năm 2024, tổng huy động vốn, bao gồm phát hành giấy tờ có giá đạt 639 nghìn tỷ đồng, tăng 19,4% so với năm trước, vượt 8,4% kế hoạch và phù hợp với tốc độ tăng trưởng tín dụng."
+    },
+    {
+        "text": "639 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, tổng huy động vốn, bao gồm phát hành giấy tờ có giá đạt 639 nghìn tỷ đồng, tăng 19,4% so với năm trước, vượt 8,4% kế hoạch và phù hợp với tốc độ tăng trưởng tín dụng."
+    },
+    {
+        "text": "19,4%",
+        "label": "RATE",
+        "evidence": "Năm 2024, tổng huy động vốn, bao gồm phát hành giấy tờ có giá đạt 639 nghìn tỷ đồng, tăng 19,4% so với năm trước, vượt 8,4% kế hoạch và phù hợp với tốc độ tăng trưởng tín dụng."
+    },
+    {
+        "text": "8,4%",
+        "label": "RATE",
+        "evidence": "Năm 2024, tổng huy động vốn, bao gồm phát hành giấy tờ có giá đạt 639 nghìn tỷ đồng, tăng 19,4% so với năm trước, vượt 8,4% kế hoạch và phù hợp với tốc độ tăng trưởng tín dụng."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "Tỷ lệ CASA tăng lên 23,3% so với mức 22,9% cuối năm 2023 cho thấy sự gia tăng bền vững của nguồn vốn chi phí thấp."
+    },
+    {
+        "text": "23,3%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA tăng lên 23,3% so với mức 22,9% cuối năm 2023 cho thấy sự gia tăng bền vững của nguồn vốn chi phí thấp."
+    },
+    {
+        "text": "22,9%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA tăng lên 23,3% so với mức 22,9% cuối năm 2023 cho thấy sự gia tăng bền vững của nguồn vốn chi phí thấp."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Tỷ lệ CASA tăng lên 23,3% so với mức 22,9% cuối năm 2023 cho thấy sự gia tăng bền vững của nguồn vốn chi phí thấp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Song song với mục tiêu kinh doanh, ACB chủ động và nghiêm túc trong việc kiểm soát và xử lý nợ xấu với tỷ lệ nợ xấu cuối năm ở mức 1,5%, là một trong số các ngân hàng có tỷ lệ nợ xấu thấp nhất thị trường và thấp hơn nhiều mức mục tiêu đặt ra đầu năm (dưới 2%)."
+    },
+    {
+        "text": "kiểm soát và xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "Song song với mục tiêu kinh doanh, ACB chủ động và nghiêm túc trong việc kiểm soát và xử lý nợ xấu với tỷ lệ nợ xấu cuối năm ở mức 1,5%, là một trong số các ngân hàng có tỷ lệ nợ xấu thấp nhất thị trường và thấp hơn nhiều mức mục tiêu đặt ra đầu năm (dưới 2%)."
+    },
+    {
+        "text": "1,5%",
+        "label": "RATE",
+        "evidence": "Song song với mục tiêu kinh doanh, ACB chủ động và nghiêm túc trong việc kiểm soát và xử lý nợ xấu với tỷ lệ nợ xấu cuối năm ở mức 1,5%, là một trong số các ngân hàng có tỷ lệ nợ xấu thấp nhất thị trường và thấp hơn nhiều mức mục tiêu đặt ra đầu năm (dưới 2%)."
+    },
+    {
+        "text": "dưới 2%",
+        "label": "RATE",
+        "evidence": "Song song với mục tiêu kinh doanh, ACB chủ động và nghiêm túc trong việc kiểm soát và xử lý nợ xấu với tỷ lệ nợ xấu cuối năm ở mức 1,5%, là một trong số các ngân hàng có tỷ lệ nợ xấu thấp nhất thị trường và thấp hơn nhiều mức mục tiêu đặt ra đầu năm (dưới 2%)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB duy trì tỷ lệ an toàn vốn theo chuẩn mực Basel II cao hơn mức quy định tối thiểu, đạt 11,8%."
+    },
+    {
+        "text": "Basel II",
+        "label": "ASSET",
+        "evidence": "ACB duy trì tỷ lệ an toàn vốn theo chuẩn mực Basel II cao hơn mức quy định tối thiểu, đạt 11,8%."
+    },
+    {
+        "text": "11,8%",
+        "label": "RATE",
+        "evidence": "ACB duy trì tỷ lệ an toàn vốn theo chuẩn mực Basel II cao hơn mức quy định tối thiểu, đạt 11,8%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nằm trong nhóm 10 ngân hàng được Ngân hàng Nhà nước lựa chọn thí điểm để triển khai phương pháp mô hình nội bộ (IRB - phương pháp nâng cao hơn so với quy định của thị trường) ứng dụng trong quản trị rủi ro tín dụng và an toàn vốn, tiếp tục nâng cao hơn tiêu chuẩn quản trị rủi ro và an toàn vốn theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "ACB nằm trong nhóm 10 ngân hàng được Ngân hàng Nhà nước lựa chọn thí điểm để triển khai phương pháp mô hình nội bộ (IRB - phương pháp nâng cao hơn so với quy định của thị trường) ứng dụng trong quản trị rủi ro tín dụng và an toàn vốn, tiếp tục nâng cao hơn tiêu chuẩn quản trị rủi ro và an toàn vốn theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "lựa chọn thí điểm để triển khai phương pháp mô hình nội bộ (IRB - phương pháp nâng cao hơn so với quy định của thị trường) ứng dụng trong quản trị rủi ro tín dụng và an toàn vốn",
+        "label": "EVENT",
+        "evidence": "ACB nằm trong nhóm 10 ngân hàng được Ngân hàng Nhà nước lựa chọn thí điểm để triển khai phương pháp mô hình nội bộ (IRB - phương pháp nâng cao hơn so với quy định của thị trường) ứng dụng trong quản trị rủi ro tín dụng và an toàn vốn, tiếp tục nâng cao hơn tiêu chuẩn quản trị rủi ro và an toàn vốn theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "IRB",
+        "label": "ASSET",
+        "evidence": "ACB nằm trong nhóm 10 ngân hàng được Ngân hàng Nhà nước lựa chọn thí điểm để triển khai phương pháp mô hình nội bộ (IRB - phương pháp nâng cao hơn so với quy định của thị trường) ứng dụng trong quản trị rủi ro tín dụng và an toàn vốn, tiếp tục nâng cao hơn tiêu chuẩn quản trị rủi ro và an toàn vốn theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB luôn được các tổ chức xếp hạng tín nhiệm trong nước và quốc tế đánh giá cao."
+    },
+    {
+        "text": "Fiinratings",
+        "label": "ORG",
+        "evidence": "Theo đó, Fiinratings đã xếp hạng ACB ở mức cao nhất trong số các ngân hàng tham gia xếp hạng tín nhiệm, với xếp hạng tín nhiệm dài hạn nhà phát hành đạt mức ‘AA+’ và triển vọng ‘Ổn định’."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo đó, Fiinratings đã xếp hạng ACB ở mức cao nhất trong số các ngân hàng tham gia xếp hạng tín nhiệm, với xếp hạng tín nhiệm dài hạn nhà phát hành đạt mức ‘AA+’ và triển vọng ‘Ổn định’."
+    },
+    {
+        "text": "xếp hạng ACB ở mức cao nhất trong số các ngân hàng tham gia xếp hạng tín nhiệm, với xếp hạng tín nhiệm dài hạn nhà phát hành đạt mức ‘AA+’ và triển vọng ‘Ổn định’",
+        "label": "EVENT",
+        "evidence": "Theo đó, Fiinratings đã xếp hạng ACB ở mức cao nhất trong số các ngân hàng tham gia xếp hạng tín nhiệm, với xếp hạng tín nhiệm dài hạn nhà phát hành đạt mức ‘AA+’ và triển vọng ‘Ổn định’."
+    },
+    {
+        "text": "‘AA+’",
+        "label": "ASSET",
+        "evidence": "Theo đó, Fiinratings đã xếp hạng ACB ở mức cao nhất trong số các ngân hàng tham gia xếp hạng tín nhiệm, với xếp hạng tín nhiệm dài hạn nhà phát hành đạt mức ‘AA+’ và triển vọng ‘Ổn định’."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "Fitch Ratings",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "Moody’s",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, ACB còn được Fitch Ratings nâng hạng triển vọng từ \"Ổn định\" lên \"Tích cực\" cho năm 2024 và Moody’s tiếp tục đánh giá ACB là ngân hàng với triển vọng \"Ổn định\"."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong làn sóng chuyển đổi số chung của toàn ngành ngân hàng, ACB cũng ghi nhận năm tích cực đối với hoạt động của kênh ngân hàng số."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, giao dịch qua kênh ngân hàng số ghi nhận tăng trưởng 98% về số lượng và 75% về giá trị giao dịch."
+    },
+    {
+        "text": "98%",
+        "label": "RATE",
+        "evidence": "Năm 2024, giao dịch qua kênh ngân hàng số ghi nhận tăng trưởng 98% về số lượng và 75% về giá trị giao dịch."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Năm 2024, giao dịch qua kênh ngân hàng số ghi nhận tăng trưởng 98% về số lượng và 75% về giá trị giao dịch."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, lần đầu tiên ACB ONE nhận giải thưởng Dịch vụ ngân hàng số sáng tạo nhất do tạp chí International Finance Magazine tổ chức đánh giá."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ASSET",
+        "evidence": "Năm 2024, lần đầu tiên ACB ONE nhận giải thưởng Dịch vụ ngân hàng số sáng tạo nhất do tạp chí International Finance Magazine tổ chức đánh giá."
+    },
+    {
+        "text": "nhận giải thưởng Dịch vụ ngân hàng số sáng tạo nhất",
+        "label": "EVENT",
+        "evidence": "Năm 2024, lần đầu tiên ACB ONE nhận giải thưởng Dịch vụ ngân hàng số sáng tạo nhất do tạp chí International Finance Magazine tổ chức đánh giá."
+    },
+    {
+        "text": "International Finance Magazine",
+        "label": "ORG",
+        "evidence": "Năm 2024, lần đầu tiên ACB ONE nhận giải thưởng Dịch vụ ngân hàng số sáng tạo nhất do tạp chí International Finance Magazine tổ chức đánh giá."
+    }
+]

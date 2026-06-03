@@ -1,0 +1,552 @@
+[
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Bộ Quốc phòng lấy ý kiến đóng góp rộng rãi của các tổ chức và cá nhân, tiếp tục chỉnh lý, hoàn thiện dự thảo Thông tư hướng dẫn thực hiện chính sách, chế độ đối với sĩ quan, quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, người làm công tác cơ yếu hưởng lương như đối với quân nhân trong thực hiện sắp xếp, tinh gọn tổ chức bộ máy trong Quân đội."
+    },
+    {
+        "text": "hướng dẫn thực hiện chính sách, chế độ đối với sĩ quan, quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, người làm công tác cơ yếu hưởng lương như đối với quân nhân",
+        "label": "EVENT",
+        "evidence": "Bộ Quốc phòng lấy ý kiến đóng góp rộng rãi của các tổ chức và cá nhân, tiếp tục chỉnh lý, hoàn thiện dự thảo Thông tư hướng dẫn thực hiện chính sách, chế độ đối với sĩ quan, quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, người làm công tác cơ yếu hưởng lương như đối với quân nhân trong thực hiện sắp xếp, tinh gọn tổ chức bộ máy trong Quân đội."
+    },
+    {
+        "text": "sắp xếp, tinh gọn tổ chức bộ máy trong Quân đội",
+        "label": "EVENT",
+        "evidence": "thực hiện sắp xếp, tinh gọn tổ chức bộ máy trong Quân đội."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "thực hiện sắp xếp, tinh gọn tổ chức bộ máy trong Quân đội."
+    },
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Theo Bộ Quốc phòng, thời điểm quyết định sắp xếp, tinh gọn tổ chức bộ máy đối với các cơ quan, đơn vị Quân đội của cấp có thẩm quyền là thời điểm quyết định về sắp xếp, tinh gọn tổ chức bộ máy có hiệu lực thi hành."
+    },
+    {
+        "text": "sắp xếp, tinh gọn tổ chức bộ máy đối với các cơ quan, đơn vị Quân đội",
+        "label": "EVENT",
+        "evidence": "Theo Bộ Quốc phòng, thời điểm quyết định sắp xếp, tinh gọn tổ chức bộ máy đối với các cơ quan, đơn vị Quân đội của cấp có thẩm quyền là thời điểm quyết định về sắp xếp, tinh gọn tổ chức bộ máy có hiệu lực thi hành."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "Theo Bộ Quốc phòng, thời điểm quyết định sắp xếp, tinh gọn tổ chức bộ máy đối với các cơ quan, đơn vị Quân đội của cấp có thẩm quyền là thời điểm quyết định về sắp xếp, tinh gọn tổ chức bộ máy có hiệu lực thi hành."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Trong thời hạn 12 tháng kể từ ngày quyết định có hiệu lực thi hành, đối tượng được cấp có thẩm quyền quyết định phục viên, nghỉ thôi việc hoặc quyết định nghỉ hưu trước tuổi, so với hạn tuổi phục vụ cao nhất (bao gồm cả các trường hợp không nghỉ chuẩn bị hưu hoặc nghỉ hưu không hết thời gian nghỉ chuẩn bị hưu theo quy định) thì được tính hưởng chính sách, chế độ trong thời hạn 12 tháng đầu tiên."
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "Trong thời hạn 12 tháng kể từ ngày quyết định có hiệu lực thi hành, đối tượng được cấp có thẩm quyền quyết định phục viên, nghỉ thôi việc hoặc quyết định nghỉ hưu trước tuổi, so với hạn tuổi phục vụ cao nhất (bao gồm cả các trường hợp không nghỉ chuẩn bị hưu hoặc nghỉ hưu không hết thời gian nghỉ chuẩn bị hưu theo quy định) thì được tính hưởng chính sách, chế độ trong thời hạn 12 tháng đầu tiên."
+    },
+    {
+        "text": "tháng thứ 13 trở đi",
+        "label": "DATE",
+        "evidence": "Sau thời hạn quy định kể trên thì được tính hưởng chính sách, chế độ từ tháng thứ 13 trở đi."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Mức lương cơ sở để tính tiền lương tháng hiện hưởng nêu trên là mức lương cơ sở do Chính phủ quy định tại thời điểm trước tháng liền kề tháng phục viên, nghỉ thôi việc hoặc nghỉ việc hưởng lương hưu hằng tháng."
+    },
+    {
+        "text": "Chính phủ quy định",
+        "label": "EVENT",
+        "evidence": "Mức lương cơ sở để tính tiền lương tháng hiện hưởng nêu trên là mức lương cơ sở do Chính phủ quy định tại thời điểm trước tháng liền kề tháng phục viên, nghỉ thôi việc hoặc nghỉ việc hưởng lương hưu hằng tháng."
+    },
+    {
+        "text": "60 tháng",
+        "label": "DATE",
+        "evidence": "Dự thảo quy định, số tháng nghỉ hưu trước tuổi để tính hưởng trợ cấp hưu trí một lần là số tháng tính từ tháng có quyết định nghỉ việc hưởng lương hưu hằng tháng của cấp có thẩm quyền so với hạn tuổi phục vụ cao nhất theo quy định tại Luật sửa đổi, bổ sung một số điều của Luật Sĩ quan Quân đội Nhân dân Việt Nam (tối đa không quá 60 tháng)."
+    },
+    {
+        "text": "từ 1 tháng đến đủ 6 tháng",
+        "label": "DATE",
+        "evidence": "Trường hợp tổng thời gian để tính trợ cấp có tháng lẻ thì được tính tròn theo nguyên tắc: từ 1 tháng đến đủ 6 tháng tính là 5 năm; từ trên 6 tháng đến dưới 12 tháng tính tròn là 1 năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Trường hợp tổng thời gian để tính trợ cấp có tháng lẻ thì được tính tròn theo nguyên tắc: từ 1 tháng đến đủ 6 tháng tính là 5 năm; từ trên 6 tháng đến dưới 12 tháng tính tròn là 1 năm."
+    },
+    {
+        "text": "từ trên 6 tháng đến dưới 12 tháng",
+        "label": "DATE",
+        "evidence": "Trường hợp tổng thời gian để tính trợ cấp có tháng lẻ thì được tính tròn theo nguyên tắc: từ 1 tháng đến đủ 6 tháng tính là 5 năm; từ trên 6 tháng đến dưới 12 tháng tính tròn là 1 năm."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Trường hợp tổng thời gian để tính trợ cấp có tháng lẻ thì được tính tròn theo nguyên tắc: từ 1 tháng đến đủ 6 tháng tính là 5 năm; từ trên 6 tháng đến dưới 12 tháng tính tròn là 1 năm."
+    },
+    {
+        "text": "từ đủ 2 năm đến đủ 5 năm",
+        "label": "DATE",
+        "evidence": "Với trường hợp có tuổi đời còn từ đủ 2 năm đến đủ 5 năm đến hạn tuổi cao nhất được hưởng 3 khoản trợ cấp"
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "- Nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực:"
+    },
+    {
+        "text": "tháng thứ 13 trở đi",
+        "label": "DATE",
+        "evidence": "- Nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực:"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Hai là trợ cấp cho số năm nghỉ hưu sớm: cứ mỗi năm nghỉ hưu trước tuổi (đủ 12 tháng) được hưởng 5 tháng tiền lương hiện hưởng:"
+    },
+    {
+        "text": "5 tháng",
+        "label": "DATE",
+        "evidence": "Hai là trợ cấp cho số năm nghỉ hưu sớm: cứ mỗi năm nghỉ hưu trước tuổi (đủ 12 tháng) được hưởng 5 tháng tiền lương hiện hưởng:"
+    },
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "Trần Văn Long",
+        "label": "PERSON",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "tháng 5/1971",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "tháng 2/1990",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "Cục A",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "Cơ quan Bộ Tổng Tham mưu",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Trần Văn Long (sinh tháng 5/1971, nhập ngũ tháng 2/1990), cấp bậc Đại tá, chức vụ Trợ lý công tác tại Cục A, Cơ quan Bộ Tổng Tham mưu."
+    },
+    {
+        "text": "tháng 5/2029",
+        "label": "DATE",
+        "evidence": "Theo quy định, đến hết tháng 5/2029, ông Long đủ 58 tuổi, hết hạn tuổi cao nhất theo cấp bậc quân hàm Đại tá."
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Long sáp nhập với đơn vị khác; ông Long được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi từ ngày 1/6/2025 và hưởng lương hưu ngay, đủ 54 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "đơn vị ông Long sáp nhập với đơn vị khác",
+        "label": "EVENT",
+        "evidence": "Tháng 3/2025 đơn vị ông Long sáp nhập với đơn vị khác; ông Long được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi từ ngày 1/6/2025 và hưởng lương hưu ngay, đủ 54 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "ông Long được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi từ ngày 1/6/2025 và hưởng lương hưu ngay",
+        "label": "EVENT",
+        "evidence": "Tháng 3/2025 đơn vị ông Long sáp nhập với đơn vị khác; ông Long được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi từ ngày 1/6/2025 và hưởng lương hưu ngay, đủ 54 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "ngày 1/6/2025",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Long sáp nhập với đơn vị khác; ông Long được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi từ ngày 1/6/2025 và hưởng lương hưu ngay, đủ 54 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "Ông Long thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 4 năm (48 tháng) và có 35 năm 4 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "4 năm",
+        "label": "DATE",
+        "evidence": "Ông Long thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 4 năm (48 tháng) và có 35 năm 4 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "48 tháng",
+        "label": "DATE",
+        "evidence": "Ông Long thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 4 năm (48 tháng) và có 35 năm 4 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "35 năm 4 tháng",
+        "label": "DATE",
+        "evidence": "Ông Long thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 4 năm (48 tháng) và có 35 năm 4 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "Ông Long thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 4 năm (48 tháng) và có 35 năm 4 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "tháng 5/2025",
+        "label": "DATE",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 5/2025) của ông Long là 30.000.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Long còn được hưởng các chế độ sau:"
+    },
+    {
+        "text": "30.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 5/2025) của ông Long là 30.000.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Long còn được hưởng các chế độ sau:"
+    },
+    {
+        "text": "30.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 30.000.000 đồng x 1,0 tháng x 48 tháng nghỉ hưu trước tuổi = 1.440.000.000 đồng"
+    },
+    {
+        "text": "48 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 30.000.000 đồng x 1,0 tháng x 48 tháng nghỉ hưu trước tuổi = 1.440.000.000 đồng"
+    },
+    {
+        "text": "1.440.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 30.000.000 đồng x 1,0 tháng x 48 tháng nghỉ hưu trước tuổi = 1.440.000.000 đồng"
+    },
+    {
+        "text": "30.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 30.000.000 đồng x 5 tháng x 4 năm nghỉ hưu trước tuổi = 600.000.000 đồng"
+    },
+    {
+        "text": "5 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 30.000.000 đồng x 5 tháng x 4 năm nghỉ hưu trước tuổi = 600.000.000 đồng"
+    },
+    {
+        "text": "4 năm",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 30.000.000 đồng x 5 tháng x 4 năm nghỉ hưu trước tuổi = 600.000.000 đồng"
+    },
+    {
+        "text": "600.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 30.000.000 đồng x 5 tháng x 4 năm nghỉ hưu trước tuổi = 600.000.000 đồng"
+    },
+    {
+        "text": "30.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 30.000.000 đồng x {05 tháng + (0,5 x 15,5 năm)} = 382.500.000 đồng"
+    },
+    {
+        "text": "05 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 30.000.000 đồng x {05 tháng + (0,5 x 15,5 năm)} = 382.500.000 đồng"
+    },
+    {
+        "text": "15,5 năm",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 30.000.000 đồng x {05 tháng + (0,5 x 15,5 năm)} = 382.500.000 đồng"
+    },
+    {
+        "text": "382.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 30.000.000 đồng x {05 tháng + (0,5 x 15,5 năm)} = 382.500.000 đồng"
+    },
+    {
+        "text": "2.422.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, tổng số tiền trợ cấp của ông Long được hưởng là:2.422.500.000 đồng"
+    },
+    {
+        "text": "trên 5 năm đến đủ 10 năm",
+        "label": "DATE",
+        "evidence": "Với trường hợp có tuổi đời còn trên 5 năm đến đủ 10 năm đến hạn tuổi cao nhất được hưởng 3 khoản trợ cấp"
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "- Nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực:"
+    },
+    {
+        "text": "tháng thứ 13 trở đi",
+        "label": "DATE",
+        "evidence": "- Nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực:"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Hai là trợ cấp cho số năm nghỉ hưu trước tuổi: cứ mỗi năm nghỉ hưu trước tuổi (đủ 12 tháng) được hưởng 4 tháng tiền lương hiện hưởng"
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "Hai là trợ cấp cho số năm nghỉ hưu trước tuổi: cứ mỗi năm nghỉ hưu trước tuổi (đủ 12 tháng) được hưởng 4 tháng tiền lương hiện hưởng"
+    },
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Hoàng Văn Mạnh (sinh tháng 7/1976, nhập ngũ tháng 9/1995), cấp bậc Thượng tá, chức vụ Chính trị viên Ban Chỉ huy quân sự huyện C."
+    },
+    {
+        "text": "Hoàng Văn Mạnh",
+        "label": "PERSON",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Hoàng Văn Mạnh (sinh tháng 7/1976, nhập ngũ tháng 9/1995), cấp bậc Thượng tá, chức vụ Chính trị viên Ban Chỉ huy quân sự huyện C."
+    },
+    {
+        "text": "tháng 7/1976",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Hoàng Văn Mạnh (sinh tháng 7/1976, nhập ngũ tháng 9/1995), cấp bậc Thượng tá, chức vụ Chính trị viên Ban Chỉ huy quân sự huyện C."
+    },
+    {
+        "text": "tháng 9/1995",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Hoàng Văn Mạnh (sinh tháng 7/1976, nhập ngũ tháng 9/1995), cấp bậc Thượng tá, chức vụ Chính trị viên Ban Chỉ huy quân sự huyện C."
+    },
+    {
+        "text": "Ban Chỉ huy quân sự huyện C",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Hoàng Văn Mạnh (sinh tháng 7/1976, nhập ngũ tháng 9/1995), cấp bậc Thượng tá, chức vụ Chính trị viên Ban Chỉ huy quân sự huyện C."
+    },
+    {
+        "text": "tháng 7/2032",
+        "label": "DATE",
+        "evidence": "Theo quy định, đến tháng 7/2032, ông Mạnh đủ 56 tuổi, hết hạn tuổi cao nhất theo cấp bậc quân hàm Thượng tá."
+    },
+    {
+        "text": "tháng 4/2025",
+        "label": "DATE",
+        "evidence": "Tháng 4/2025, đơn vị ông Mạnh sáp nhập với đơn vị khác; ông Mạnh được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi kể từ ngày 1/8/2025 và hưởng lương hưu ngay, đủ 49 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "đơn vị ông Mạnh sáp nhập với đơn vị khác",
+        "label": "EVENT",
+        "evidence": "Tháng 4/2025, đơn vị ông Mạnh sáp nhập với đơn vị khác; ông Mạnh được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi kể từ ngày 1/8/2025 và hưởng lương hưu ngay, đủ 49 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "ông Mạnh được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi kể từ ngày 1/8/2025 và hưởng lương hưu ngay",
+        "label": "EVENT",
+        "evidence": "Tháng 4/2025, đơn vị ông Mạnh sáp nhập với đơn vị khác; ông Mạnh được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi kể từ ngày 1/8/2025 và hưởng lương hưu ngay, đủ 49 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "ngày 1/8/2025",
+        "label": "DATE",
+        "evidence": "Tháng 4/2025, đơn vị ông Mạnh sáp nhập với đơn vị khác; ông Mạnh được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi kể từ ngày 1/8/2025 và hưởng lương hưu ngay, đủ 49 tuổi (không nghỉ chuẩn bị hưu)."
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "Ông Mạnh thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 7 năm (84 tháng) và có 29 năm 11 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "7 năm",
+        "label": "DATE",
+        "evidence": "Ông Mạnh thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 7 năm (84 tháng) và có 29 năm 11 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "84 tháng",
+        "label": "DATE",
+        "evidence": "Ông Mạnh thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 7 năm (84 tháng) và có 29 năm 11 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "29 năm 11 tháng",
+        "label": "DATE",
+        "evidence": "Ông Mạnh thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 7 năm (84 tháng) và có 29 năm 11 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "Ông Mạnh thuộc trường hợp nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ hưu trước hạn tuổi là 7 năm (84 tháng) và có 29 năm 11 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "tháng 7/2025",
+        "label": "DATE",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 7/2025) của ông Mạnh là 25.500.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Mạnh còn được hưởng các chế độ sau:"
+    },
+    {
+        "text": "25.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 7/2025) của ông Mạnh là 25.500.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Mạnh còn được hưởng các chế độ sau:"
+    },
+    {
+        "text": "25.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 25.500.000 đồng x 0,9 tháng x 60 tháng nghỉ hưu trước tuổi = 1.377.000.000 đồng"
+    },
+    {
+        "text": "60 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 25.500.000 đồng x 0,9 tháng x 60 tháng nghỉ hưu trước tuổi = 1.377.000.000 đồng"
+    },
+    {
+        "text": "1.377.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 25.500.000 đồng x 0,9 tháng x 60 tháng nghỉ hưu trước tuổi = 1.377.000.000 đồng"
+    },
+    {
+        "text": "25.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 25.500.000 đồng x 4 tháng x 7 năm nghỉ hưu trước tuổi = 714.000.000 đồng"
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 25.500.000 đồng x 4 tháng x 7 năm nghỉ hưu trước tuổi = 714.000.000 đồng"
+    },
+    {
+        "text": "7 năm",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 25.500.000 đồng x 4 tháng x 7 năm nghỉ hưu trước tuổi = 714.000.000 đồng"
+    },
+    {
+        "text": "714.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần đối với số năm nghỉ hưu trước tuổi là: 25.500.000 đồng x 4 tháng x 7 năm nghỉ hưu trước tuổi = 714.000.000 đồng"
+    },
+    {
+        "text": "25.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 25.500.000 đồng x {05 tháng + (0,5 x 10 năm)} = 255.000.000 đồng"
+    },
+    {
+        "text": "05 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 25.500.000 đồng x {05 tháng + (0,5 x 10 năm)} = 255.000.000 đồng"
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 25.500.000 đồng x {05 tháng + (0,5 x 10 năm)} = 255.000.000 đồng"
+    },
+    {
+        "text": "255.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp một lần cho số năm công tác có đóng bảo hiểm xã hội bắt buộc là: 25.500.000 đồng x {05 tháng + (0,5 x 10 năm)} = 255.000.000 đồng"
+    },
+    {
+        "text": "2.346.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, tổng số tiền trợ cấp của ông Mạnh được hưởng là:2.346.000.000 đồng"
+    },
+    {
+        "text": "dưới 2 năm",
+        "label": "DATE",
+        "evidence": "Với trường hợp có tuổi đời còn dưới 2 năm đến tuổi nghỉ hưu thì được hưởng trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi; cách tính hưởng trợ cấp hưu trí một lần như cách tính nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực."
+    },
+    {
+        "text": "12 tháng đầu tiên",
+        "label": "DATE",
+        "evidence": "Với trường hợp có tuổi đời còn dưới 2 năm đến tuổi nghỉ hưu thì được hưởng trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi; cách tính hưởng trợ cấp hưu trí một lần như cách tính nghỉ hưu trong thời hạn 12 tháng đầu tiên kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực."
+    },
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Lê Minh Quân (sinh tháng 4/1973, nhập ngũ tháng 2/1992), cấp bậc Trung tá, chức vụ Trợ lý Binh chủng Ban Chỉ huy quân sự huyện B."
+    },
+    {
+        "text": "Lê Minh Quân",
+        "label": "PERSON",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Lê Minh Quân (sinh tháng 4/1973, nhập ngũ tháng 2/1992), cấp bậc Trung tá, chức vụ Trợ lý Binh chủng Ban Chỉ huy quân sự huyện B."
+    },
+    {
+        "text": "tháng 4/1973",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Lê Minh Quân (sinh tháng 4/1973, nhập ngũ tháng 2/1992), cấp bậc Trung tá, chức vụ Trợ lý Binh chủng Ban Chỉ huy quân sự huyện B."
+    },
+    {
+        "text": "tháng 2/1992",
+        "label": "DATE",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Lê Minh Quân (sinh tháng 4/1973, nhập ngũ tháng 2/1992), cấp bậc Trung tá, chức vụ Trợ lý Binh chủng Ban Chỉ huy quân sự huyện B."
+    },
+    {
+        "text": "Ban Chỉ huy quân sự huyện B",
+        "label": "ORG",
+        "evidence": "Dự thảo của Bộ Quốc phòng dẫn ví dụ cụ thể: ông Lê Minh Quân (sinh tháng 4/1973, nhập ngũ tháng 2/1992), cấp bậc Trung tá, chức vụ Trợ lý Binh chủng Ban Chỉ huy quân sự huyện B."
+    },
+    {
+        "text": "tháng 4/2027",
+        "label": "DATE",
+        "evidence": "Theo quy định, đến hết tháng 4/2027, ông Quân đủ 54 tuổi, hết hạn tuổi phục vụ cao nhất theo cấp bậc quân hàm Trung tá."
+    },
+    {
+        "text": "tháng 3/2025",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "đơn vị ông Quân sáp nhập với đơn vị khác",
+        "label": "EVENT",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026",
+        "label": "EVENT",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "từ ngày 1/5/2025 đến ngày 30/4/2026",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "ngày 1/5/2026",
+        "label": "DATE",
+        "evidence": "Tháng 3/2025 đơn vị ông Quân sáp nhập với đơn vị khác; ông Quân được cấp có thẩm quyền quyết định nghỉ hưu trước hạn tuổi, thời gian nghỉ chuẩn bị hưu 12 tháng, kể từ ngày 1/5/2025 đến ngày 30/4/2026, hưởng lương hưu hằng tháng kể từ ngày 1/5/2026 (đủ 53 tuổi)."
+    },
+    {
+        "text": "tháng thứ 13 trở đi",
+        "label": "DATE",
+        "evidence": "Ông Quân thuộc trường hợp nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ trước hạn tuổi là 1 năm (12 tháng) và có 34 năm 3 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Ông Quân thuộc trường hợp nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ trước hạn tuổi là 1 năm (12 tháng) và có 34 năm 3 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Ông Quân thuộc trường hợp nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ trước hạn tuổi là 1 năm (12 tháng) và có 34 năm 3 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "34 năm 3 tháng",
+        "label": "DATE",
+        "evidence": "Ông Quân thuộc trường hợp nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ trước hạn tuổi là 1 năm (12 tháng) và có 34 năm 3 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "Ông Quân thuộc trường hợp nghỉ hưu từ tháng thứ 13 trở đi kể từ ngày quyết định sáp nhập của cấp có thẩm quyền có hiệu lực; thời gian nghỉ trước hạn tuổi là 1 năm (12 tháng) và có 34 năm 3 tháng công tác trong Quân đội có đóng bảo hiểm xã hội bắt buộc."
+    },
+    {
+        "text": "tháng 4/2026",
+        "label": "DATE",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 4/2026) của ông Quân là 22.000.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Quân còn được hưởng chế độ sau:"
+    },
+    {
+        "text": "22.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Giả sử tháng tiền lương hiện hưởng trước thời điểm nghỉ hưu (tháng 4/2026) của ông Quân là 22.000.000 đồng; ngoài được hưởng chế độ hưu trí theo quy định của pháp luật về bảo hiểm xã hội, ông Quân còn được hưởng chế độ sau:"
+    },
+    {
+        "text": "22.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 22.000.000 đồng x 0,5 tháng x 12 tháng nghỉ hưu trước tuổi =132.000.000 đồng"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 22.000.000 đồng x 0,5 tháng x 12 tháng nghỉ hưu trước tuổi =132.000.000 đồng"
+    },
+    {
+        "text": "132.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trợ cấp hưu trí một lần cho số tháng nghỉ hưu trước tuổi là: 22.000.000 đồng x 0,5 tháng x 12 tháng nghỉ hưu trước tuổi =132.000.000 đồng"
+    }
+]

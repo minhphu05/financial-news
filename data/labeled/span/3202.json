@@ -1,0 +1,357 @@
+[
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "CafeF vừa công bố danh sách Top 10 Ngân hàng tư nhân nộp ngân sách lớn nhất Việt Nam."
+    },
+    {
+        "text": "công bố danh sách Top 10 Ngân hàng tư nhân nộp ngân sách lớn nhất Việt Nam",
+        "label": "EVENT",
+        "evidence": "CafeF vừa công bố danh sách Top 10 Ngân hàng tư nhân nộp ngân sách lớn nhất Việt Nam."
+    },
+    {
+        "text": "Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh",
+        "label": "ORG",
+        "evidence": "Trong danh sách được công bố,Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh(HDBank) nằm trong top ngân hàng tư nhân nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong danh sách được công bố,Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh(HDBank) nằm trong top ngân hàng tư nhân nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "HDBank) nằm trong top ngân hàng tư nhân nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "HDBank) nằm trong top ngân hàng tư nhân nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "gần 3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nằm trong top ngân hàng tư nhân nộp ngân sách nhiều nhất trong năm 2023 với gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "tăng 60%",
+        "label": "RATE",
+        "evidence": "gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "gần 3.000 tỷ đồng, tăng 60% so với năm 2022 và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "23%",
+        "label": "RATE",
+        "evidence": "và tương đương 23% tổng lợi nhuận trước thuế của nhà băng này."
+    },
+    {
+        "text": "3 năm gần nhất",
+        "label": "DATE",
+        "evidence": "Lũy kế 3 năm gần nhất, HDBank đã đóng góp hơn 6.700 tỷ đồng vào ngân sách nhà nước."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Lũy kế 3 năm gần nhất, HDBank đã đóng góp hơn 6.700 tỷ đồng vào ngân sách nhà nước."
+    },
+    {
+        "text": "hơn 6.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 3 năm gần nhất, HDBank đã đóng góp hơn 6.700 tỷ đồng vào ngân sách nhà nước."
+    },
+    {
+        "text": "3 năm liên tiếp",
+        "label": "DATE",
+        "evidence": "Trước đó, nhà băng này đã 3 năm liên tiếp lọt các doanh nghiệp đóng thuế cao nhất theo danh sách được Tổng cục Thuế công bố, mức đóng góp cũng tăng gấp 3 lần sau 5 năm."
+    },
+    {
+        "text": "lọt các doanh nghiệp đóng thuế cao nhất theo danh sách được Tổng cục Thuế công bố",
+        "label": "EVENT",
+        "evidence": "Trước đó, nhà băng này đã 3 năm liên tiếp lọt các doanh nghiệp đóng thuế cao nhất theo danh sách được Tổng cục Thuế công bố, mức đóng góp cũng tăng gấp 3 lần sau 5 năm."
+    },
+    {
+        "text": "Tổng cục Thuế",
+        "label": "ORG",
+        "evidence": "Trước đó, nhà băng này đã 3 năm liên tiếp lọt các doanh nghiệp đóng thuế cao nhất theo danh sách được Tổng cục Thuế công bố, mức đóng góp cũng tăng gấp 3 lần sau 5 năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "mức đóng góp cũng tăng gấp 3 lần sau 5 năm."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Kết quả trên có thể lý giải được khi mà HDBank đã liên tục đầu tư mở rộng hạ tầng chi nhánh, nguồn nhân sự, gia tăng năng lực công nghệ…"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Nỗ lực này của HDBank đi cùng chiến lược cho vay ở các hạng mục là động lực phát triển của nền kinh tế, tập trung ở lĩnh vực nông nghiệp – nông thôn, chuỗi cung ứng, doanh nghiệp nhỏ và vừa, doanh nghiệp phụ nữ làm chủ, hộ kinh doanh…"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "việc ứng dụng chuyển đổi số toàn diện và đồng bộ từ sản phẩm dịch vụ cho tới quy trình nội bộ đã giúp HDBank giảm mạnh về chi phí hoạt động, từ đó nới rộng biên độ lợi nhuận."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank đã giữ được mức tăng trưởng đều đặn hơn 10 năm liên tiếp, mức đóng góp cho ngân sách của quốc gia theo đó cũng ngày càng lớn."
+    },
+    {
+        "text": "hơn 10 năm liên tiếp",
+        "label": "DATE",
+        "evidence": "HDBank đã giữ được mức tăng trưởng đều đặn hơn 10 năm liên tiếp, mức đóng góp cho ngân sách của quốc gia theo đó cũng ngày càng lớn."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Nộp ngân sách không chỉ là trách nhiệm pháp lý mà còn thể hiện trách nhiệm xã hội và cam kết của HDBank đối với cộng đồng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Đồng thời, số tiền nộp ngân sách lớn cũng là minh chứng cho sự ổn định và tăng trưởng của HDBank, tạo niềm tin cho nhà đầu tư và khách hàng, thúc đẩy sự phát triển bền vững của ngành ngân hàng nói riêng và nền kinh tế quốc gia nói chung."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "2023 là một năm có rất nhiều khó khăn, thách thức với nền kinh tế Việt Nam nói chung, và đặc biệt với hệ thống ngân hàng."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Các ngân hàng đã phải đối mặt với những thách thức về biến động trên thị trường trái phiếu doanh nghiệp kéo dài từ cuối năm 2022 sang đầu năm 2023."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Các ngân hàng đã phải đối mặt với những thách thức về biến động trên thị trường trái phiếu doanh nghiệp kéo dài từ cuối năm 2022 sang đầu năm 2023."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, nhờ những lợi thế riêng có về cơ sở khách hàng, năng lực quản trị, nắm bắt và dự báo diễn biến thị trường, cùng khả năng ứng biến linh hoạt trong mọi tình huống, HDBank đã hoàn thành xuất sắc các mục tiêu đề ra."
+    },
+    {
+        "text": "Kết thúc năm 2023",
+        "label": "DATE",
+        "evidence": "Kết thúc năm 2023 các chỉ tiêu đều vượt kế hoạch."
+    },
+    {
+        "text": "các chỉ tiêu đều vượt kế hoạch",
+        "label": "EVENT",
+        "evidence": "Kết thúc năm 2023 các chỉ tiêu đều vượt kế hoạch."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Tổng tài sản của HDBank đạt trên 602.000 tỷ đồng, tăng trưởng tới 44,7% so với năm 2022."
+    },
+    {
+        "text": "Tổng tài sản của HDBank đạt trên 602.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng tài sản của HDBank đạt trên 602.000 tỷ đồng, tăng trưởng tới 44,7% so với năm 2022."
+    },
+    {
+        "text": "trên 602.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản của HDBank đạt trên 602.000 tỷ đồng, tăng trưởng tới 44,7% so với năm 2022."
+    },
+    {
+        "text": "tăng trưởng tới 44,7%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tới 44,7% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tăng trưởng tới 44,7% so với năm 2022."
+    },
+    {
+        "text": "Tổng huy động đạt trên 536.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng huy động đạt trên 536.000 tỷ đồng, tăng 46,5%."
+    },
+    {
+        "text": "trên 536.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng huy động đạt trên 536.000 tỷ đồng, tăng 46,5%."
+    },
+    {
+        "text": "tăng 46,5%",
+        "label": "RATE",
+        "evidence": "Tổng huy động đạt trên 536.000 tỷ đồng, tăng 46,5%."
+    },
+    {
+        "text": "Dư nợ tín dụng vượt 353.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dư nợ tín dụng vượt 353.000 tỷ đồng, tăng 31,8% so với cùng kỳ."
+    },
+    {
+        "text": "vượt 353.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ tín dụng vượt 353.000 tỷ đồng, tăng 31,8% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 31,8%",
+        "label": "RATE",
+        "evidence": "tăng 31,8% so với cùng kỳ."
+    },
+    {
+        "text": "Lợi nhuận trước thuế đạt 13.017 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế đạt 13.017 tỷ đồng, tăng 26,8% so với cùng kỳ."
+    },
+    {
+        "text": "13.017 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt 13.017 tỷ đồng, tăng 26,8% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 26,8%",
+        "label": "RATE",
+        "evidence": "tăng 26,8% so với cùng kỳ."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Kết quả này giúp tỷ suất sinh lời trên tổng tài sản (ROA) của HDBank đạt hơn 2%; tỷ suất sinh lời trên vốn chủ sở hữu (ROE) tiếp tục tăng lên mức 24,2% và giữ vị thế hiệu quả dẫn đầu thị trường"
+    },
+    {
+        "text": "hơn 2%",
+        "label": "RATE",
+        "evidence": "Kết quả này giúp tỷ suất sinh lời trên tổng tài sản (ROA) của HDBank đạt hơn 2%; tỷ suất sinh lời trên vốn chủ sở hữu (ROE) tiếp tục tăng lên mức 24,2% và giữ vị thế hiệu quả dẫn đầu thị trường"
+    },
+    {
+        "text": "24,2%",
+        "label": "RATE",
+        "evidence": "tỷ suất sinh lời trên vốn chủ sở hữu (ROE) tiếp tục tăng lên mức 24,2% và giữ vị thế hiệu quả dẫn đầu thị trường"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Nối tiếp kết quả ấn tượng trong năm 2023, HDBank tiếp tục duy trì nhịp tăng trưởng ổn định và bền vững trong nửa đầu năm 2024."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Nối tiếp kết quả ấn tượng trong năm 2023, HDBank tiếp tục duy trì nhịp tăng trưởng ổn định và bền vững trong nửa đầu năm 2024."
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Nối tiếp kết quả ấn tượng trong năm 2023, HDBank tiếp tục duy trì nhịp tăng trưởng ổn định và bền vững trong nửa đầu năm 2024."
+    },
+    {
+        "text": "6 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "6 tháng đầu năm, HDBank ghi nhận tổng thu nhập 16.045 tỷ đồng, tăng 32,9% so với cùng kỳ."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "6 tháng đầu năm, HDBank ghi nhận tổng thu nhập 16.045 tỷ đồng, tăng 32,9% so với cùng kỳ."
+    },
+    {
+        "text": "ghi nhận tổng thu nhập 16.045 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "6 tháng đầu năm, HDBank ghi nhận tổng thu nhập 16.045 tỷ đồng, tăng 32,9% so với cùng kỳ."
+    },
+    {
+        "text": "16.045 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "6 tháng đầu năm, HDBank ghi nhận tổng thu nhập 16.045 tỷ đồng, tăng 32,9% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 32,9%",
+        "label": "RATE",
+        "evidence": "tăng 32,9% so với cùng kỳ."
+    },
+    {
+        "text": "Lợi nhuận trước thuế đạt 8.165 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế đạt 8.165 tỷ đồng, tăng 48,9% so với cùng kỳ do tăng cường hiệu quả hoạt động và áp dụng các sáng kiến chuyển đổi kỹ thuật số của HDBank."
+    },
+    {
+        "text": "8.165 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt 8.165 tỷ đồng, tăng 48,9% so với cùng kỳ do tăng cường hiệu quả hoạt động và áp dụng các sáng kiến chuyển đổi kỹ thuật số của HDBank."
+    },
+    {
+        "text": "tăng 48,9%",
+        "label": "RATE",
+        "evidence": "tăng 48,9% so với cùng kỳ do tăng cường hiệu quả hoạt động và áp dụng các sáng kiến chuyển đổi kỹ thuật số của HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "tăng 48,9% so với cùng kỳ do tăng cường hiệu quả hoạt động và áp dụng các sáng kiến chuyển đổi kỹ thuật số của HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, HDBank ghi dấu bước tiến mới trong hành trình triển khai toàn diện chiến lược phát triển bền vững (ESG) khi trở thành ngân hàng đầu tiên công bố báo cáo phát triển bền vững, được lập theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "trở thành ngân hàng đầu tiên công bố báo cáo phát triển bền vững",
+        "label": "EVENT",
+        "evidence": "khi trở thành ngân hàng đầu tiên công bố báo cáo phát triển bền vững, được lập theo các chuẩn mực quốc tế."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Qua báo cáo, HDBank thể hiện rõ cam kết trong việc thực thi các nguyên tắc về phát triển bền vững, hướng tới mục tiêu Ngân hàng phát thải ròng bằng 0 (Net Zero Bank) trước năm 2050."
+    },
+    {
+        "text": "hướng tới mục tiêu Ngân hàng phát thải ròng bằng 0 (Net Zero Bank) trước năm 2050",
+        "label": "EVENT",
+        "evidence": "hướng tới mục tiêu Ngân hàng phát thải ròng bằng 0 (Net Zero Bank) trước năm 2050."
+    },
+    {
+        "text": "0",
+        "label": "RATE",
+        "evidence": "hướng tới mục tiêu Ngân hàng phát thải ròng bằng 0 (Net Zero Bank) trước năm 2050."
+    },
+    {
+        "text": "trước năm 2050",
+        "label": "DATE",
+        "evidence": "hướng tới mục tiêu Ngân hàng phát thải ròng bằng 0 (Net Zero Bank) trước năm 2050."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Với vị thế là một trong những ngân hàng lớn nhất Việt Nam,HDBankluôn kiên định các giá trị cốt lõi: trung thực và trách nhiệm, khách hàng là trọng tâm, chuyên nghiệp và hợp tác, nhất quán và linh hoạt, hiệu quả và sáng tạo."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Ngân hàng chủ động tham gia các chương trình quan trọng của Chính phủ và ngành Ngân hàng, bao gồm thúc đẩy kinh tế Xanh, kinh tế tuần hoàn hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050, tài chính toàn diện và phát triển nông nghiệp - nông thôn."
+    },
+    {
+        "text": "ngành Ngân hàng",
+        "label": "ORG",
+        "evidence": "Ngân hàng chủ động tham gia các chương trình quan trọng của Chính phủ và ngành Ngân hàng, bao gồm thúc đẩy kinh tế Xanh, kinh tế tuần hoàn hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050, tài chính toàn diện và phát triển nông nghiệp - nông thôn."
+    },
+    {
+        "text": "hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050",
+        "label": "EVENT",
+        "evidence": "hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050, tài chính toàn diện và phát triển nông nghiệp - nông thôn."
+    },
+    {
+        "text": "0",
+        "label": "RATE",
+        "evidence": "hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050, tài chính toàn diện và phát triển nông nghiệp - nông thôn."
+    },
+    {
+        "text": "năm 2050",
+        "label": "DATE",
+        "evidence": "hướng đến mục tiêu phát thải ròng bằng \"0\" vào năm 2050, tài chính toàn diện và phát triển nông nghiệp - nông thôn."
+    }
+]

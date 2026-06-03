@@ -1,0 +1,412 @@
+[
+    {
+        "text": "21/5",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán phiên 21/5 rơi vào tình trạng “xanh vỏ, đỏ lòng”, VN-Index duy trì sắc xanh trong phần lớn thời gian giao dịch nhưng số lượng mã đỏ có phần chiếm ưu thế."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Thị trường chứng khoán phiên 21/5 rơi vào tình trạng “xanh vỏ, đỏ lòng”, VN-Index duy trì sắc xanh trong phần lớn thời gian giao dịch nhưng số lượng mã đỏ có phần chiếm ưu thế."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "Gelex",
+        "label": "ORG",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "GEX",
+        "label": "TICKER",
+        "evidence": "Lực kéo mạnh tập trung cục bộ trên một vài cổ phiếu, nổi bật trong số này có thể kể đến Vinhomes (VHM), Vietnam Airlines (HVN), Novaland (NVL), Gelex (GEX),…"
+    },
+    {
+        "text": "cổ phiếu VHM",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu VHM của Vinhomescó phiên tăng kịch trần thứ 2 liên tiếp qua đó leo lên vùng đỉnh 3 năm."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Cổ phiếu VHM của Vinhomescó phiên tăng kịch trần thứ 2 liên tiếp qua đó leo lên vùng đỉnh 3 năm."
+    },
+    {
+        "text": "phiên tăng kịch trần thứ 2 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu VHM của Vinhomescó phiên tăng kịch trần thứ 2 liên tiếp qua đó leo lên vùng đỉnh 3 năm."
+    },
+    {
+        "text": "3 năm",
+        "label": "DATE",
+        "evidence": "Cổ phiếu VHM của Vinhomescó phiên tăng kịch trần thứ 2 liên tiếp qua đó leo lên vùng đỉnh 3 năm."
+    },
+    {
+        "text": "thị giá 67.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "276.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "10,8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Với thị giá 67.300 đồng/cp, vốn hóa thị trường của Vinhomes vào khoảng 276.000 tỷ đồng (~10,8 tỷ USD), chỉ kém Vietcombank và Vingroup."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Con số này đưa Vinhomes vững vàng ở vị trí doanh nghiệp bất động sản lớn nhất sàn chứng khoán."
+    },
+    {
+        "text": "Cổ phiếu HVN",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu HVN của Vietnam Airlinescũng có phiên bứt phá mạnh lên mức 36.450 đồng/cp, tiến gần đến đỉnh lịch sử hồi 2018."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Cổ phiếu HVN của Vietnam Airlinescũng có phiên bứt phá mạnh lên mức 36.450 đồng/cp, tiến gần đến đỉnh lịch sử hồi 2018."
+    },
+    {
+        "text": "mức 36.450 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu HVN của Vietnam Airlinescũng có phiên bứt phá mạnh lên mức 36.450 đồng/cp, tiến gần đến đỉnh lịch sử hồi 2018."
+    },
+    {
+        "text": "2018",
+        "label": "DATE",
+        "evidence": "Cổ phiếu HVN của Vietnam Airlinescũng có phiên bứt phá mạnh lên mức 36.450 đồng/cp, tiến gần đến đỉnh lịch sử hồi 2018."
+    },
+    {
+        "text": "Từ đầu năm",
+        "label": "DATE",
+        "evidence": "Từ đầu năm, HVN đã tăng hơn 27% thị giá."
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "Từ đầu năm, HVN đã tăng hơn 27% thị giá."
+    },
+    {
+        "text": "hơn 27%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm, HVN đã tăng hơn 27% thị giá."
+    },
+    {
+        "text": "81.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giátrịvốn hóa cũng theo đó tăng lên gần 81.000 tỷ đồng."
+    },
+    {
+        "text": "Cổ phiếu HVN",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu HVN tăng mạnh sau khi Đại hội cổ đông thường niên 2025 thông qua nhiều nội dung quan trọng."
+    },
+    {
+        "text": "Đại hội cổ đông thường niên 2025 thông qua nhiều nội dung quan trọng",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu HVN tăng mạnh sau khi Đại hội cổ đông thường niên 2025 thông qua nhiều nội dung quan trọng."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Cổ phiếu HVN tăng mạnh sau khi Đại hội cổ đông thường niên 2025 thông qua nhiều nội dung quan trọng."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "900 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "giá chào bán 10.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "9.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, Vietnam Airlines có kế hoạch chào bán cổ phiếu cho cổ đông hiện hữu với số lượng dự kiến là 900 triệu cổ phiếu, giá chào bán 10.000 đồng/cp, tổng giá trị 9.000 tỷ đồng."
+    },
+    {
+        "text": "40,6%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ quyền 40,6% tại ngày chốt danh sách (100 quyền được mua 40,64 cổ phiếu phát hành thêm)."
+    },
+    {
+        "text": "kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP)",
+        "label": "EVENT",
+        "evidence": "Đại hội thông qua kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP) với tổng vốn đầu tư gần 3,6 tỷ USD (tương đương hơn 92.300 tỷ đồng)."
+    },
+    {
+        "text": "50 tàu bay thân hẹp",
+        "label": "VOLUME",
+        "evidence": "Đại hội thông qua kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP) với tổng vốn đầu tư gần 3,6 tỷ USD (tương đương hơn 92.300 tỷ đồng)."
+    },
+    {
+        "text": "10 động cơ dự phòng",
+        "label": "VOLUME",
+        "evidence": "Đại hội thông qua kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP) với tổng vốn đầu tư gần 3,6 tỷ USD (tương đương hơn 92.300 tỷ đồng)."
+    },
+    {
+        "text": "3,6 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Đại hội thông qua kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP) với tổng vốn đầu tư gần 3,6 tỷ USD (tương đương hơn 92.300 tỷ đồng)."
+    },
+    {
+        "text": "hơn 92.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đại hội thông qua kế hoạch đầu tư 50 tàu bay thân hẹp dưới 200 ghế (>160 ghế) tương đương A320Neo/ B737Max8 (bao gồm động cơ treo trên cánh, các thiết bị chọn thêm) và 10 động cơ dự phòng (ĐCDP) với tổng vốn đầu tư gần 3,6 tỷ USD (tương đương hơn 92.300 tỷ đồng)."
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "Nguồn vốn chủ sở hữu đối ứng chiếm 46%, nguồn vốn vay chiếm 54%."
+    },
+    {
+        "text": "54%",
+        "label": "RATE",
+        "evidence": "Nguồn vốn chủ sở hữu đối ứng chiếm 46%, nguồn vốn vay chiếm 54%."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Hình thức đầu tư tàu bay mới 100% trực tiếp từ Nhà sản xuất tàu bay."
+    },
+    {
+        "text": "21/5",
+        "label": "DATE",
+        "evidence": "Cũng tăng kịch trần phiên 21/5,cổ phiếu NVL của Novalandđã trở lại vùng giá cao nhất kể từ tháng 9/2024."
+    },
+    {
+        "text": "cổ phiếu NVL",
+        "label": "ASSET",
+        "evidence": "Cũng tăng kịch trần phiên 21/5,cổ phiếu NVL của Novalandđã trở lại vùng giá cao nhất kể từ tháng 9/2024."
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Cũng tăng kịch trần phiên 21/5,cổ phiếu NVL của Novalandđã trở lại vùng giá cao nhất kể từ tháng 9/2024."
+    },
+    {
+        "text": "tháng 9/2024",
+        "label": "DATE",
+        "evidence": "Cũng tăng kịch trần phiên 21/5,cổ phiếu NVL của Novalandđã trở lại vùng giá cao nhất kể từ tháng 9/2024."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, mức thị giá hiện tại vẫn còn thấp hơn rất nhiều so với đỉnh lịch sử đạt được năm 2021."
+    },
+    {
+        "text": "25.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường của doanh nghiệp bất động sản này hiện vào khoảng 25.000 tỷ đồng."
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Novalandmới đây đã có tờ trình xin ý kiến của đại hội cổ đông trong thời gian tới, sau đó trình Ủy ban Chứng khoán Nhà nước xem xét phê duyệt triển khai các thủ tục cần thiết, theo đúng quy định của pháp luật."
+    },
+    {
+        "text": "Ủy ban Chứng khoán Nhà nước",
+        "label": "ORG",
+        "evidence": "Novalandmới đây đã có tờ trình xin ý kiến của đại hội cổ đông trong thời gian tới, sau đó trình Ủy ban Chứng khoán Nhà nước xem xét phê duyệt triển khai các thủ tục cần thiết, theo đúng quy định của pháp luật."
+    },
+    {
+        "text": "phương án phát hành cổ phiếu hoán đổi nợ",
+        "label": "EVENT",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "NovaGroup",
+        "label": "ORG",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "Diamond Properties",
+        "label": "ORG",
+        "evidence": "Động thái này nhằm thực hiện phương án phát hành cổ phiếu hoán đổi nợ cho một số cổ đông đã bán tài sản đảm bảo trả nợ cho Novaland trong các khoản vay, trái phiếu, trong đó có hai cổ đông lớn là NovaGroup và Diamond Properties."
+    },
+    {
+        "text": "Bùi Thành Nhơn",
+        "label": "PERSON",
+        "evidence": "Trước đó, 5 cổ đông liên quan đến ôngBùi Thành Nhơnđã đăng ký bán gần 19 triệu cổ phần NVL để cân đối danh mục đầu tư, hỗ trợ cơ cấu nợ và các lý do cá nhân."
+    },
+    {
+        "text": "đăng ký bán gần 19 triệu cổ phần NVL",
+        "label": "EVENT",
+        "evidence": "Trước đó, 5 cổ đông liên quan đến ôngBùi Thành Nhơnđã đăng ký bán gần 19 triệu cổ phần NVL để cân đối danh mục đầu tư, hỗ trợ cơ cấu nợ và các lý do cá nhân."
+    },
+    {
+        "text": "gần 19 triệu cổ phần NVL",
+        "label": "VOLUME",
+        "evidence": "Trước đó, 5 cổ đông liên quan đến ôngBùi Thành Nhơnđã đăng ký bán gần 19 triệu cổ phần NVL để cân đối danh mục đầu tư, hỗ trợ cơ cấu nợ và các lý do cá nhân."
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Trước đó, 5 cổ đông liên quan đến ôngBùi Thành Nhơnđã đăng ký bán gần 19 triệu cổ phần NVL để cân đối danh mục đầu tư, hỗ trợ cơ cấu nợ và các lý do cá nhân."
+    },
+    {
+        "text": "16/5113/6",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến thực hiện theo phương thức khớp lệnh và thỏa thuận từ ngày 16/5113/6."
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Nếu thực hiện thành công, tổng tỷ lệ sở hữu của nhóm cổ đông lớn của Novaland sẽ giảm xuống mức 37,4%."
+    },
+    {
+        "text": "37,4%",
+        "label": "RATE",
+        "evidence": "Nếu thực hiện thành công, tổng tỷ lệ sở hữu của nhóm cổ đông lớn của Novaland sẽ giảm xuống mức 37,4%."
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "cổ phiếu GEX",
+        "label": "ASSET",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "Gelex",
+        "label": "ORG",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "cuối 2021",
+        "label": "DATE",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "phiên tăng kịch trần",
+        "label": "EVENT",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "21/5",
+        "label": "DATE",
+        "evidence": "Khác với NVL,cổ phiếu GEXcủa Gelexđang đến gần đỉnh lịch sử hồi cuối 2021 sau phiên tăng kịch trần ngày 21/5."
+    },
+    {
+        "text": "thị giá 32.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Với thị giá 32.500 đồng/cp, vốn hóa thị trường của Gelex hiện vào khoảng 28.000 tỷ đồng."
+    },
+    {
+        "text": "Gelex",
+        "label": "ORG",
+        "evidence": "Với thị giá 32.500 đồng/cp, vốn hóa thị trường của Gelex hiện vào khoảng 28.000 tỷ đồng."
+    },
+    {
+        "text": "28.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với thị giá 32.500 đồng/cp, vốn hóa thị trường của Gelex hiện vào khoảng 28.000 tỷ đồng."
+    },
+    {
+        "text": "Từ đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2025 đến nay, GEX đã tăng 82% thị giá và là một trong những doanh nghiệp tỷ USD có cổ phiếu tăng mạnh nhất."
+    },
+    {
+        "text": "GEX",
+        "label": "TICKER",
+        "evidence": "Từ đầu năm 2025 đến nay, GEX đã tăng 82% thị giá và là một trong những doanh nghiệp tỷ USD có cổ phiếu tăng mạnh nhất."
+    },
+    {
+        "text": "82%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm 2025 đến nay, GEX đã tăng 82% thị giá và là một trong những doanh nghiệp tỷ USD có cổ phiếu tăng mạnh nhất."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Nhìn chung, thị trường đang trong giai đoạn có sự phân hoá mạnh, dẫn đến VN-Index không bứt phá rõ rệt nhưng vẫn có những cổ phiếu “bốc đầu”."
+    },
+    {
+        "text": "mốc 1.300 điểm",
+        "label": "PRICE",
+        "evidence": "Chiều ngược lại, không ít cổ phiếu “vất vả” dò đáy dù chỉ số đã lấy lại được mốc 1.300 điểm."
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "text": "phiên cuối cùng của tháng 10",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán phiên cuối cùng của tháng 10 chứng kiến áp lực bán chiếm ưu thế trên diện rộng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu giảm sâu trong đó MWG của Thế Giới Di Động gây chú ý khi giảm kịch sàn \"trắng bên mua\"."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Nhiều cổ phiếu giảm sâu trong đó MWG của Thế Giới Di Động gây chú ý khi giảm kịch sàn \"trắng bên mua\"."
+    },
+    {
+        "text": "giảm kịch sàn",
+        "label": "EVENT",
+        "evidence": "Nhiều cổ phiếu giảm sâu trong đó MWG của Thế Giới Di Động gây chú ý khi giảm kịch sàn \"trắng bên mua\"."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "\"Cú sẩy chân\" khiến cổ phiếu MWG rơi xuống vùng giá thấp nhất trong vòng 34 tháng kể từ cuối tháng 12/2020."
+    },
+    {
+        "text": "34 tháng",
+        "label": "DATE",
+        "evidence": "\"Cú sẩy chân\" khiến cổ phiếu MWG rơi xuống vùng giá thấp nhất trong vòng 34 tháng kể từ cuối tháng 12/2020."
+    },
+    {
+        "text": "cuối tháng 12/2020",
+        "label": "DATE",
+        "evidence": "\"Cú sẩy chân\" khiến cổ phiếu MWG rơi xuống vùng giá thấp nhất trong vòng 34 tháng kể từ cuối tháng 12/2020."
+    },
+    {
+        "text": "giữa tháng 9",
+        "label": "DATE",
+        "evidence": "Tính từ đỉnh một năm đạt được vào giữa tháng 9, cổ phiếu này đã mất hơn 34% thị giá."
+    },
+    {
+        "text": "hơn 34%",
+        "label": "RATE",
+        "evidence": "Tính từ đỉnh một năm đạt được vào giữa tháng 9, cổ phiếu này đã mất hơn 34% thị giá."
+    },
+    {
+        "text": "gần 29.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó \"bốc hơi\" gần 29.000 tỷ đồng (~1,2 tỷ USD), chỉ còn khoảng hơn 55.000 tỷ đồng."
+    },
+    {
+        "text": "~1,2 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó \"bốc hơi\" gần 29.000 tỷ đồng (~1,2 tỷ USD), chỉ còn khoảng hơn 55.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 55.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó \"bốc hơi\" gần 29.000 tỷ đồng (~1,2 tỷ USD), chỉ còn khoảng hơn 55.000 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Nhờ đó, giao dịch trên MWG trở nên rất sôi động với hơn 13,2 triệu đơn vị được khớp lệnh tương đương giá trị giao dịch hơn 500 tỷ đồng, xếp thứ 3 toàn sàn."
+    },
+    {
+        "text": "hơn 13,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Nhờ đó, giao dịch trên MWG trở nên rất sôi động với hơn 13,2 triệu đơn vị được khớp lệnh tương đương giá trị giao dịch hơn 500 tỷ đồng, xếp thứ 3 toàn sàn."
+    },
+    {
+        "text": "hơn 500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhờ đó, giao dịch trên MWG trở nên rất sôi động với hơn 13,2 triệu đơn vị được khớp lệnh tương đương giá trị giao dịch hơn 500 tỷ đồng, xếp thứ 3 toàn sàn."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Dù vậy, lực bán vẫn áp đảo khiến MWG còn dư bán sàn hơn 200.000 cổ phiếu."
+    },
+    {
+        "text": "hơn 200.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Dù vậy, lực bán vẫn áp đảo khiến MWG còn dư bán sàn hơn 200.000 cổ phiếu."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Khối ngoại là một trong những tác nhân gây áp lực lên cổ phiếu MWG phiên 31/10 khi bán ròng hơn 2 triệu đơn vị, tương đương giá trị gần 80 tỷ đồng."
+    },
+    {
+        "text": "phiên 31/10",
+        "label": "DATE",
+        "evidence": "Khối ngoại là một trong những tác nhân gây áp lực lên cổ phiếu MWG phiên 31/10 khi bán ròng hơn 2 triệu đơn vị, tương đương giá trị gần 80 tỷ đồng."
+    },
+    {
+        "text": "hơn 2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Khối ngoại là một trong những tác nhân gây áp lực lên cổ phiếu MWG phiên 31/10 khi bán ròng hơn 2 triệu đơn vị, tương đương giá trị gần 80 tỷ đồng."
+    },
+    {
+        "text": "gần 80 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối ngoại là một trong những tác nhân gây áp lực lên cổ phiếu MWG phiên 31/10 khi bán ròng hơn 2 triệu đơn vị, tương đương giá trị gần 80 tỷ đồng."
+    },
+    {
+        "text": "tháng 10",
+        "label": "DATE",
+        "evidence": "Tính chung trong tháng 10, khối ngoại đã bán ròng tổng cộng 18,6 triệucổ phiếu MWG, tương đương giá trị bán ròng 940 tỷ đồng."
+    },
+    {
+        "text": "bán ròng tổng cộng 18,6 triệucổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "Tính chung trong tháng 10, khối ngoại đã bán ròng tổng cộng 18,6 triệucổ phiếu MWG, tương đương giá trị bán ròng 940 tỷ đồng."
+    },
+    {
+        "text": "18,6 triệucổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tính chung trong tháng 10, khối ngoại đã bán ròng tổng cộng 18,6 triệucổ phiếu MWG, tương đương giá trị bán ròng 940 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tính chung trong tháng 10, khối ngoại đã bán ròng tổng cộng 18,6 triệucổ phiếu MWG, tương đương giá trị bán ròng 940 tỷ đồng."
+    },
+    {
+        "text": "940 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính chung trong tháng 10, khối ngoại đã bán ròng tổng cộng 18,6 triệucổ phiếu MWG, tương đương giá trị bán ròng 940 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Điều này khiến MWG \"hở\" room ngoại khoảng 2%."
+    },
+    {
+        "text": "khoảng 2%",
+        "label": "RATE",
+        "evidence": "Điều này khiến MWG \"hở\" room ngoại khoảng 2%."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Đây là một điều khá bất ngờ bởi MWG từng là cổ phiếu rất được nhà đầu tư nước ngoài săn đón."
+    },
+    {
+        "text": "khoảng 45%",
+        "label": "RATE",
+        "evidence": "Trước đây, có những giai đoạn khối ngoại còn chấp nhận mua thoả thuận ngoài sàn cổ phiếu này với mức premium rất cao (khoảng 45%)."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, những giao dịch này gần như không còn xuất hiện, đặc biệt là khi Thế Giới Di Động gặp khó với bài toán tăng trưởng."
+    },
+    {
+        "text": "phiên giảm sàn 31/10",
+        "label": "DATE",
+        "evidence": "Ngay trước phiên giảm sàn 31/10, doanh nghiệp bán lẻ này đã công bố báo cáo tài chính với kết quả không mấy khả quan."
+    },
+    {
+        "text": "công bố báo cáo tài chính",
+        "label": "EVENT",
+        "evidence": "Ngay trước phiên giảm sàn 31/10, doanh nghiệp bán lẻ này đã công bố báo cáo tài chính với kết quả không mấy khả quan."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Doanh thu quý 3/2023 của Thế Giới Di Động đạt 30.287 tỷ đồng, giảm 5,5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Doanh thu quý 3/2023 của Thế Giới Di Động đạt 30.287 tỷ đồng, giảm 5,5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "30.287 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu quý 3/2023 của Thế Giới Di Động đạt 30.287 tỷ đồng, giảm 5,5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "giảm 5,5%",
+        "label": "RATE",
+        "evidence": "Doanh thu quý 3/2023 của Thế Giới Di Động đạt 30.287 tỷ đồng, giảm 5,5% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "gần 39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng, \"bốc hơi\" 96% so với quý 3 năm ngoái."
+    },
+    {
+        "text": "96%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng, \"bốc hơi\" 96% so với quý 3 năm ngoái."
+    },
+    {
+        "text": "quý 3 năm ngoái",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng, \"bốc hơi\" 96% so với quý 3 năm ngoái."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Luỹ kế 9 tháng đầu năm, doanh thu của Thế Giới Di Động giảm 15,5% so với cùng kỳ năm ngoái, xuống mức gần 87.000 tỷ đồng."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Luỹ kế 9 tháng đầu năm, doanh thu của Thế Giới Di Động giảm 15,5% so với cùng kỳ năm ngoái, xuống mức gần 87.000 tỷ đồng."
+    },
+    {
+        "text": "giảm 15,5%",
+        "label": "RATE",
+        "evidence": "Luỹ kế 9 tháng đầu năm, doanh thu của Thế Giới Di Động giảm 15,5% so với cùng kỳ năm ngoái, xuống mức gần 87.000 tỷ đồng."
+    },
+    {
+        "text": "gần 87.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Luỹ kế 9 tháng đầu năm, doanh thu của Thế Giới Di Động giảm 15,5% so với cùng kỳ năm ngoái, xuống mức gần 87.000 tỷ đồng."
+    },
+    {
+        "text": "gần 97%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế cũng \"bốc hơi\" đến gần 97% so với cùng kỳ năm ngoái, xuống còn 78 tỷ đồng và mới thực hiện vỏn vẹn chưa đến 2% mục tiêu cả năm 2023 đề ra."
+    },
+    {
+        "text": "78 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cũng \"bốc hơi\" đến gần 97% so với cùng kỳ năm ngoái, xuống còn 78 tỷ đồng và mới thực hiện vỏn vẹn chưa đến 2% mục tiêu cả năm 2023 đề ra."
+    },
+    {
+        "text": "chưa đến 2%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế cũng \"bốc hơi\" đến gần 97% so với cùng kỳ năm ngoái, xuống còn 78 tỷ đồng và mới thực hiện vỏn vẹn chưa đến 2% mục tiêu cả năm 2023 đề ra."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế cũng \"bốc hơi\" đến gần 97% so với cùng kỳ năm ngoái, xuống còn 78 tỷ đồng và mới thực hiện vỏn vẹn chưa đến 2% mục tiêu cả năm 2023 đề ra."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "133.405 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "tăng 8%",
+        "label": "RATE",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "giảm 16%",
+        "label": "RATE",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "4.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó trong năm 2022, Thế Giới Di Động ghi nhận doanh thu đạt 133.405 tỷ đồng, vẫn tăng 8% so với năm trướcnhưng lợi nhuận sau thuế lại giảm 16% so với năm 2021, xuống mức 4.100 tỷ đồng."
+    },
+    {
+        "text": "đứt chuỗi tăng trưởng lợi nhuận",
+        "label": "EVENT",
+        "evidence": "Đây là năm đầu tiên doanh nghiệp bán lẻ này đứt chuỗi tăng trưởng lợi nhuận kéo dài gần một thập kỷ và không hoàn thành kế hoạch đề ra."
+    }
+]

@@ -1,0 +1,332 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng mới công bố gần đây là Sacombank, Eximbank, Kienlongbank, HDBank,..."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng mới công bố gần đây là Sacombank, Eximbank, Kienlongbank, HDBank,..."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng mới công bố gần đây là Sacombank, Eximbank, Kienlongbank, HDBank,..."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Các ngân hàng mới công bố gần đây là Sacombank, Eximbank, Kienlongbank, HDBank,..."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombankcho biết, ﻿tính đến cuối tháng 9/2023, lợi nhuận trước thuế của Sacombank đạt 6.840 tỷ đồng"
+    },
+    {
+        "text": "cuối tháng 9/2023",
+        "label": "DATE",
+        "evidence": "tính đến cuối tháng 9/2023"
+    },
+    {
+        "text": "lợi nhuận trước thuế của Sacombank đạt 6.840 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế của Sacombank đạt 6.840 tỷ đồng"
+    },
+    {
+        "text": "6.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 6.840 tỷ đồng"
+    },
+    {
+        "text": "tăng hơn 54%",
+        "label": "RATE",
+        "evidence": "tăng hơn 54% so với cùng kỳ năm ngoái"
+    },
+    {
+        "text": "tổng tài sản hợp nhất đạt hơn 651.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tổng tài sản hợp nhất đạt hơn 651.000 tỷ đồng"
+    },
+    {
+        "text": "651.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt hơn 651.000 tỷ đồng"
+    },
+    {
+        "text": "tăng 10%",
+        "label": "RATE",
+        "evidence": "tăng 10% so với đầu năm"
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Kienlongbankcho biết, quý 3 năm 2023, lợi nhuận trước thuế của ngân hàng đạt 237,2 tỷ đồng."
+    },
+    {
+        "text": "quý 3 năm 2023",
+        "label": "DATE",
+        "evidence": "quý 3 năm 2023"
+    },
+    {
+        "text": "lợi nhuận trước thuế của ngân hàng đạt 237,2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế của ngân hàng đạt 237,2 tỷ đồng."
+    },
+    {
+        "text": "237,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 237,2 tỷ đồng."
+    },
+    {
+        "text": "Lũy kế 9 tháng",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng, lợi nhuận trước thuế chạm mốc 639 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận trước thuế chạm mốc 639 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế chạm mốc 639 tỷ đồng."
+    },
+    {
+        "text": "639 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chạm mốc 639 tỷ đồng."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "lợi nhuận quý 3 và lợi nhuận 9 tháng của Kienlongbank đều tăng trưởng dương so với cùng kỳ."
+    },
+    {
+        "text": "Tổng tài sản hợp nhất và tổng huy động vốn lần lượt đạt 85.553 tỷ đồng và 75.439 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng tài sản hợp nhất và tổng huy động vốn lần lượt đạt 85.553 tỷ đồng và 75.439 tỷ đồng."
+    },
+    {
+        "text": "85.553 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt đạt 85.553 tỷ đồng và 75.439 tỷ đồng."
+    },
+    {
+        "text": "75.439 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 75.439 tỷ đồng."
+    },
+    {
+        "text": "Dư nợ cấp tín dụng tính đến hết quý 3 đạt hơn 48.660 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dư nợ cấp tín dụng tính đến hết quý 3 đạt hơn 48.660 tỷ đồng."
+    },
+    {
+        "text": "hết quý 3",
+        "label": "DATE",
+        "evidence": "tính đến hết quý 3"
+    },
+    {
+        "text": "48.660 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt hơn 48.660 tỷ đồng."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbankbáo lãi trước thuế quý 3/2023﻿ ở mức 307 tỷ đồng"
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "quý 3/2023﻿ ở mức 307 tỷ đồng"
+    },
+    {
+        "text": "lãi trước thuế quý 3/2023 ở mức 307 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lãi trước thuế quý 3/2023﻿ ở mức 307 tỷ đồng"
+    },
+    {
+        "text": "307 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ở mức 307 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "cùng kỳ năm 2022."
+    },
+    {
+        "text": "Luỹ kế 9 tháng",
+        "label": "DATE",
+        "evidence": "Luỹ kế 9 tháng, lợi nhuận trước thuế Eximbank đạt 1.712 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận trước thuế Eximbank đạt 1.712 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế Eximbank đạt 1.712 tỷ đồng"
+    },
+    {
+        "text": "1.712 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 1.712 tỷ đồng"
+    },
+    {
+        "text": "giảm 46%",
+        "label": "RATE",
+        "evidence": "giảm 46% so với cùng kỳ."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "kết quả kinh doanh quý 3/2023."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế quý 3 tăng trưởng dương"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "là ACB, MSB, HDBank, LPBank, Saigonbank, Sacombank, Kienlongbank."
+    },
+    {
+        "text": "BacAbank",
+        "label": "ORG",
+        "evidence": "như BacAbank, PGBank, BVBank có lợi nhuận quý 3 giảm tới 60-70% so với cùng kỳ."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "như BacAbank, PGBank, BVBank có lợi nhuận quý 3 giảm tới 60-70% so với cùng kỳ."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "như BacAbank, PGBank, BVBank có lợi nhuận quý 3 giảm tới 60-70% so với cùng kỳ."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "lợi nhuận quý 3 giảm tới 60-70% so với cùng kỳ."
+    },
+    {
+        "text": "giảm tới 60-70%",
+        "label": "RATE",
+        "evidence": "giảm tới 60-70% so với cùng kỳ."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "1 ngân hàng bị lỗ trong quý 3 là NCB."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "1 ngân hàng bị lỗ trong quý 3 là NCB."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank đang tạm dẫn đầu với lợi nhuận trước thuế 9 tháng đầu năm đạt 17.115 tỷ đồng"
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "9 tháng đầu năm"
+    },
+    {
+        "text": "lợi nhuận trước thuế 9 tháng đầu năm đạt 17.115 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế 9 tháng đầu năm đạt 17.115 tỷ đồng"
+    },
+    {
+        "text": "17.115 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 17.115 tỷ đồng"
+    },
+    {
+        "text": "giảm 18%",
+        "label": "RATE",
+        "evidence": "giảm 18% so với cùng kỳ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB vượt VPBank, ghi nhận lợi nhuận trước thuế 9 tháng đạt hơn 15.000 tỷ đồng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "ACB vượt VPBank, ghi nhận lợi nhuận trước thuế 9 tháng đạt hơn 15.000 tỷ đồng"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế 9 tháng đạt hơn 15.000 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận trước thuế 9 tháng đạt hơn 15.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận trước thuế 9 tháng đạt hơn 15.000 tỷ đồng"
+    },
+    {
+        "text": "15.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt hơn 15.000 tỷ đồng"
+    },
+    {
+        "text": "tăng 11%",
+        "label": "RATE",
+        "evidence": "tăng 11% so với cùng kỳ."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Những ngân hàng có tỷ lệ nợ xấu thấp nhất hệ thống như ACB, Techcombank đều đã ghi nhận tỷ lệ nợ xấu vượt 1% vào cuối quý 3."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Những ngân hàng có tỷ lệ nợ xấu thấp nhất hệ thống như ACB, Techcombank đều đã ghi nhận tỷ lệ nợ xấu vượt 1% vào cuối quý 3."
+    },
+    {
+        "text": "tỷ lệ nợ xấu vượt 1%",
+        "label": "RATE",
+        "evidence": "ghi nhận tỷ lệ nợ xấu vượt 1% vào cuối quý 3."
+    },
+    {
+        "text": "cuối quý 3",
+        "label": "DATE",
+        "evidence": "vào cuối quý 3."
+    }
+]

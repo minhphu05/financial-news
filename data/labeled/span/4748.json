@@ -1,0 +1,297 @@
+[
+    {
+        "text": "1/7",
+        "label": "DATE",
+        "evidence": "Kể từ ngày 1/7, 34 đơn vị hành chính cấp tỉnh, gồm 28 tỉnh và 6 thành phố trực thuộc Trung ương chính thức vận hành theo mô hình chính quyền địa phương 2 cấp."
+    },
+    {
+        "text": "chính thức vận hành theo mô hình chính quyền địa phương 2 cấp",
+        "label": "EVENT",
+        "evidence": "Kể từ ngày 1/7, 34 đơn vị hành chính cấp tỉnh, gồm 28 tỉnh và 6 thành phố trực thuộc Trung ương chính thức vận hành theo mô hình chính quyền địa phương 2 cấp."
+    },
+    {
+        "text": "hợp nhất các tỉnh Bình Dương và Bà Rịa-Vũng Tàu vào TP.HCM",
+        "label": "EVENT",
+        "evidence": "Việc hợp nhất các tỉnh Bình Dương và Bà Rịa-Vũng Tàu vào TP.HCM, những cánh chim đầu đàn tại hai địa phương này sẽ chuyển trụ sở về TP.HCM gồm các doanh nghiệp đình đám thuộc nhiều lĩnh vực như thép, giày dép, thực phẩm, hàng tiêu dùng, đồ gỗ, dầu khí..."
+    },
+    {
+        "text": "Becamex IDC",
+        "label": "ORG",
+        "evidence": "Đây là nơi đặt trụ sở của Becamex IDC và cả hệ sinh thái bao gồm VSIP và BW Industrial, là một trong những nhà phát triển khu công nghiệp lớn nhất Việt Nam."
+    },
+    {
+        "text": "VSIP",
+        "label": "ORG",
+        "evidence": "Đây là nơi đặt trụ sở của Becamex IDC và cả hệ sinh thái bao gồm VSIP và BW Industrial, là một trong những nhà phát triển khu công nghiệp lớn nhất Việt Nam."
+    },
+    {
+        "text": "BW Industrial",
+        "label": "ORG",
+        "evidence": "Đây là nơi đặt trụ sở của Becamex IDC và cả hệ sinh thái bao gồm VSIP và BW Industrial, là một trong những nhà phát triển khu công nghiệp lớn nhất Việt Nam."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "Trụ sở chính của Thế giới di động - một trong những doanh nghiệp bán lẻ hàng đầu Việt Nam với vốn hóa gần 97.000 tỷ đồng đặt tại phường Phú Cường, thành phố Thủ Dầu Một, tỉnh Bình Dương sẽ chuyển thành phường Thủ Dầu Một, TP.HCM."
+    },
+    {
+        "text": "97.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trụ sở chính của Thế giới di động - một trong những doanh nghiệp bán lẻ hàng đầu Việt Nam với vốn hóa gần 97.000 tỷ đồng đặt tại phường Phú Cường, thành phố Thủ Dầu Một, tỉnh Bình Dương sẽ chuyển thành phường Thủ Dầu Một, TP.HCM."
+    },
+    {
+        "text": "Hoa Sen",
+        "label": "ORG",
+        "evidence": "Bình Dương cũng là nơi đặt trụ sở của các doanh nghiệp đầu ngành ngành thép như Hoa Sen, Nam Kim, Tôn Đông Á."
+    },
+    {
+        "text": "Nam Kim",
+        "label": "ORG",
+        "evidence": "Bình Dương cũng là nơi đặt trụ sở của các doanh nghiệp đầu ngành ngành thép như Hoa Sen, Nam Kim, Tôn Đông Á."
+    },
+    {
+        "text": "Tôn Đông Á",
+        "label": "ORG",
+        "evidence": "Bình Dương cũng là nơi đặt trụ sở của các doanh nghiệp đầu ngành ngành thép như Hoa Sen, Nam Kim, Tôn Đông Á."
+    },
+    {
+        "text": "Mondelez Kinh Đô",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "Uniben Foods",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "Orion Food Vina",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "Lotte Vietnam",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "Tân Hiệp Phát",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "CTCP Cà phê hòa tan Trung Nguyên",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "Sữa quốc tế LOF",
+        "label": "ORG",
+        "evidence": "Bình Dương còn là nơi đặt trụ sở của nhiều công ty đầu ngành trong lĩnh vực thực phẩm như Mondelez Kinh Đô, Uniben Foods, Orion Food Vina, Lotte Vietnam, Tân Hiệp Phát, CTCP Cà phê hòa tan Trung Nguyên, Sữa quốc tế LOF...."
+    },
+    {
+        "text": "P&G Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực hàng tiêu dùng có P&G Việt Nam, Kimberly-Clark, Rohto - Meentholatum..."
+    },
+    {
+        "text": "Kimberly-Clark",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực hàng tiêu dùng có P&G Việt Nam, Kimberly-Clark, Rohto - Meentholatum..."
+    },
+    {
+        "text": "Rohto - Meentholatum",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực hàng tiêu dùng có P&G Việt Nam, Kimberly-Clark, Rohto - Meentholatum..."
+    },
+    {
+        "text": "Công ty TNHH Kỹ nghệ gỗ Hoa Nét",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực đồ gỗ có Công ty TNHH Kỹ nghệ gỗ Hoa Nét (Wanek Furniture), Gỗ An Cường..."
+    },
+    {
+        "text": "Wanek Furniture",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực đồ gỗ có Công ty TNHH Kỹ nghệ gỗ Hoa Nét (Wanek Furniture), Gỗ An Cường..."
+    },
+    {
+        "text": "Gỗ An Cường",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực đồ gỗ có Công ty TNHH Kỹ nghệ gỗ Hoa Nét (Wanek Furniture), Gỗ An Cường..."
+    },
+    {
+        "text": "Adidas",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các nhà cung cấp lớn cho Adidas và Nike cũng đặt nhà máy tại Bình D﻿ương, công ty nội số 1 ngành giày dép - CTCP Đầu tư Thái Bình (TBS Group) cũng đặt nhà máy tại đây."
+    },
+    {
+        "text": "Nike",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các nhà cung cấp lớn cho Adidas và Nike cũng đặt nhà máy tại Bình D﻿ương, công ty nội số 1 ngành giày dép - CTCP Đầu tư Thái Bình (TBS Group) cũng đặt nhà máy tại đây."
+    },
+    {
+        "text": "CTCP Đầu tư Thái Bình",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các nhà cung cấp lớn cho Adidas và Nike cũng đặt nhà máy tại Bình D﻿ương, công ty nội số 1 ngành giày dép - CTCP Đầu tư Thái Bình (TBS Group) cũng đặt nhà máy tại đây."
+    },
+    {
+        "text": "TBS Group",
+        "label": "ORG",
+        "evidence": "Ngoài ra, các nhà cung cấp lớn cho Adidas và Nike cũng đặt nhà máy tại Bình D﻿ương, công ty nội số 1 ngành giày dép - CTCP Đầu tư Thái Bình (TBS Group) cũng đặt nhà máy tại đây."
+    },
+    {
+        "text": "Công ty TNHH Hóa dầu Long Sơn",
+        "label": "ORG",
+        "evidence": "Bà Rịa - Vũng Tàu là nơi đặt trụ sở của n﻿hiều doanh nghiệp trong chuỗi ngành dầu khí như Công ty TNHH Hóa dầu Long Sơn, Liên doanh Việt - Nga Vietsovpetro, Tổng Công ty Phát điện 3 - CTCP."
+    },
+    {
+        "text": "Liên doanh Việt - Nga Vietsovpetro",
+        "label": "ORG",
+        "evidence": "Bà Rịa - Vũng Tàu là nơi đặt trụ sở của n﻿hiều doanh nghiệp trong chuỗi ngành dầu khí như Công ty TNHH Hóa dầu Long Sơn, Liên doanh Việt - Nga Vietsovpetro, Tổng Công ty Phát điện 3 - CTCP."
+    },
+    {
+        "text": "Vietsovpetro",
+        "label": "ORG",
+        "evidence": "Bà Rịa - Vũng Tàu là nơi đặt trụ sở của n﻿hiều doanh nghiệp trong chuỗi ngành dầu khí như Công ty TNHH Hóa dầu Long Sơn, Liên doanh Việt - Nga Vietsovpetro, Tổng Công ty Phát điện 3 - CTCP."
+    },
+    {
+        "text": "Tổng Công ty Phát điện 3 - CTCP",
+        "label": "ORG",
+        "evidence": "Bà Rịa - Vũng Tàu là nơi đặt trụ sở của n﻿hiều doanh nghiệp trong chuỗi ngành dầu khí như Công ty TNHH Hóa dầu Long Sơn, Liên doanh Việt - Nga Vietsovpetro, Tổng Công ty Phát điện 3 - CTCP."
+    },
+    {
+        "text": "Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "SSA",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "CTCP Cảng Cái Mép Gemadept-Terminal Link",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "Công ty TNHH Cảng Quốc tế SP - PSA",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "SP - PSA",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "CTCP Tân Cảng - Cái Mép",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép",
+        "label": "ORG",
+        "evidence": "Các doanh nghiệp cảng thuộc cụm cảng Cái mép Thị Vải có mặt tại tỉnh Bà Rịa - Vũng Tàu như Công ty Liên doanh Dịch vụ Container Quốc tế Cảng Sài Gòn - SSA, CTCP Cảng Cái Mép Gemadept-Terminal Link (cảng nước sâu lớn nhất Việt Nam), Công ty TNHH Cảng Quốc tế SP - PSA, CTCP Tân Cảng - Cái Mép, Công ty TNHH Cảng quốc tế Tân Cảng - Cái Mép."
+    },
+    {
+        "text": "DIC Corp",
+        "label": "ORG",
+        "evidence": "Ngoài ra, Bà Rịa - Vũng Tàu cũng là nơi đặt trụ sở của DIC Corp, Công ty TNHH Hóa chất Hyosung Vina, Công ty TNHH Dự án Hồ Tràm, đơn vị đầu tư dự án The Grand Ho Tram."
+    },
+    {
+        "text": "Công ty TNHH Hóa chất Hyosung Vina",
+        "label": "ORG",
+        "evidence": "Ngoài ra, Bà Rịa - Vũng Tàu cũng là nơi đặt trụ sở của DIC Corp, Công ty TNHH Hóa chất Hyosung Vina, Công ty TNHH Dự án Hồ Tràm, đơn vị đầu tư dự án The Grand Ho Tram."
+    },
+    {
+        "text": "Công ty TNHH Dự án Hồ Tràm",
+        "label": "ORG",
+        "evidence": "Ngoài ra, Bà Rịa - Vũng Tàu cũng là nơi đặt trụ sở của DIC Corp, Công ty TNHH Hóa chất Hyosung Vina, Công ty TNHH Dự án Hồ Tràm, đơn vị đầu tư dự án The Grand Ho Tram."
+    },
+    {
+        "text": "The Grand Ho Tram",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, Bà Rịa - Vũng Tàu cũng là nơi đặt trụ sở của DIC Corp, Công ty TNHH Hóa chất Hyosung Vina, Công ty TNHH Dự án Hồ Tràm, đơn vị đầu tư dự án The Grand Ho Tram."
+    },
+    {
+        "text": "hợp nhất TP.HCM với tỉnh Bình Dương và Bà Rịa – Vũng Tàu từ ngày 1/7/2025",
+        "label": "EVENT",
+        "evidence": "Việc hợp nhất TP.HCM với tỉnh Bình Dương và Bà Rịa – Vũng Tàu từ ngày 1/7/2025, sẽ tạo nên chỉnh thể kinh tế - đô thị có diện tích hơn 6.770km2, dân số trên 14 triệu người."
+    },
+    {
+        "text": "1/7/2025",
+        "label": "DATE",
+        "evidence": "Việc hợp nhất TP.HCM với tỉnh Bình Dương và Bà Rịa – Vũng Tàu từ ngày 1/7/2025, sẽ tạo nên chỉnh thể kinh tế - đô thị có diện tích hơn 6.770km2, dân số trên 14 triệu người."
+    },
+    {
+        "text": "2,71 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng sản phẩm trên địa bàn (GRDP) của TP HCM mới (gồm TP HCM hiện tại, Bình Dương và Bà Rịa - Vũng Tàu) dự kiến sẽ đạt khoảng 2,71 triệu tỷ đồng, tương đương 114,3 - 121,1 tỷ USD."
+    },
+    {
+        "text": "114,3 - 121,1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tổng sản phẩm trên địa bàn (GRDP) của TP HCM mới (gồm TP HCM hiện tại, Bình Dương và Bà Rịa - Vũng Tàu) dự kiến sẽ đạt khoảng 2,71 triệu tỷ đồng, tương đương 114,3 - 121,1 tỷ USD."
+    },
+    {
+        "text": "24%",
+        "label": "RATE",
+        "evidence": "Con số này chiếm gần 24% tổng quy mô GDP của cả nước Việt Nam."
+    },
+    {
+        "text": "1,78 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "70 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "520.205 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "21,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "417.306 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "17,4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cụ thể, TP HCM là khoảng 1,78 triệu tỷ đồng (khoảng 70 tỷ USD), Bình Dương khoảng 520.205 tỷ đồng (khoảng 21,7 tỷ USD), Bà Rịa - Vũng Tàu khoảng 417.306 tỷ đồng (khoảng 17,4 tỷ USD)."
+    },
+    {
+        "text": "9.600 USD",
+        "label": "MONEY",
+        "evidence": "Sau sáp nhập, GRDP bình quân đầu người của TP HCM mới ước đạt khoảng 9.600 USD."
+    },
+    {
+        "text": "114-121 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Với GRDP khoảng 114-121 tỷ USD, \"siêu đô thị\" TP HCM mới sẽ vượt qua GDP của các nước như Myanmar, Campuchia, Lào và Brunei."
+    },
+    {
+        "text": "80 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vượt qua quy mô kinh tế của một số đô thị lớn trong khu vực như Kuala Lumpur (khoảng 80 tỷ USD) và Jakarta (khoảng 100 tỷ USD)."
+    },
+    {
+        "text": "100 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vượt qua quy mô kinh tế của một số đô thị lớn trong khu vực như Kuala Lumpur (khoảng 80 tỷ USD) và Jakarta (khoảng 100 tỷ USD)."
+    },
+    {
+        "text": "130 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Tiệm cận quy mô của Bangkok (khoảng 130 tỷ USD)."
+    }
+]

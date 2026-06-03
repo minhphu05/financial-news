@@ -1,0 +1,127 @@
+[
+    {
+        "text": "Ngân hàng số Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng số Cake by VPBank vừa gửi tin nhắn, email tới khách hàng cảnh báo một số thủ đoạn lừa đảo mới và khuyến cáo người dùng cẩn trọng."
+    },
+    {
+        "text": "gửi tin nhắn, email tới khách hàng cảnh báo một số thủ đoạn lừa đảo mới và khuyến cáo người dùng cẩn trọng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng số Cake by VPBank vừa gửi tin nhắn, email tới khách hàng cảnh báo một số thủ đoạn lừa đảo mới và khuyến cáo người dùng cẩn trọng."
+    },
+    {
+        "text": "MoMo",
+        "label": "ORG",
+        "evidence": "Cụ thể, đối tượng lừa đảo mạo danh fanpage MoMo gửi tin nhắn qua Messenger, Facebook hoặc Zalo hướng dẫn khách hàng nhận quà 500.000 đồng."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, đối tượng lừa đảo mạo danh fanpage MoMo gửi tin nhắn qua Messenger, Facebook hoặc Zalo hướng dẫn khách hàng nhận quà 500.000 đồng."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Sau đó, chúng yêu cầu người dùng tải app Cake by VPBank, mở thẻ tín dụng và cung cấp ảnh chụp màn hình thẻ, mã OTP."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Sau đó, chúng yêu cầu người dùng tải app Cake by VPBank, mở thẻ tín dụng và cung cấp ảnh chụp màn hình thẻ, mã OTP."
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "Một chiêu lừa khác là giả mạo tin nhắn, cuộc gọi trúng thưởng từ các trang thương mại điện tử Shopee, Điện máy xanh, Tiki, Lazada…"
+    },
+    {
+        "text": "Điện máy xanh",
+        "label": "ORG",
+        "evidence": "Một chiêu lừa khác là giả mạo tin nhắn, cuộc gọi trúng thưởng từ các trang thương mại điện tử Shopee, Điện máy xanh, Tiki, Lazada…"
+    },
+    {
+        "text": "Tiki",
+        "label": "ORG",
+        "evidence": "Một chiêu lừa khác là giả mạo tin nhắn, cuộc gọi trúng thưởng từ các trang thương mại điện tử Shopee, Điện máy xanh, Tiki, Lazada…"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "Một chiêu lừa khác là giả mạo tin nhắn, cuộc gọi trúng thưởng từ các trang thương mại điện tử Shopee, Điện máy xanh, Tiki, Lazada…"
+    },
+    {
+        "text": "ngân hàng số này cảnh báo",
+        "label": "EVENT",
+        "evidence": "Sau khi chiếm đoạt toàn bộ số tiền, chúng sẽ xóa tin nhắn, chặn liên lạc\" - ngân hàng số này cảnh báo."
+    },
+    {
+        "text": "Ngân hàng Sài Gòn",
+        "label": "ORG",
+        "evidence": "Ngân hàng Sài Gòn (SCB) cũng phát đi cảnh báo về việc kẻ gian mạo danh nhân viên ngân hàng liên hệ tư vấn nâng hạn mức thẻ tín dụng."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Ngân hàng Sài Gòn (SCB) cũng phát đi cảnh báo về việc kẻ gian mạo danh nhân viên ngân hàng liên hệ tư vấn nâng hạn mức thẻ tín dụng."
+    },
+    {
+        "text": "phát đi cảnh báo về việc kẻ gian mạo danh nhân viên ngân hàng liên hệ tư vấn nâng hạn mức thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Sài Gòn (SCB) cũng phát đi cảnh báo về việc kẻ gian mạo danh nhân viên ngân hàng liên hệ tư vấn nâng hạn mức thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Ngân hàng Sài Gòn (SCB) cũng phát đi cảnh báo về việc kẻ gian mạo danh nhân viên ngân hàng liên hệ tư vấn nâng hạn mức thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Tiếp đó, kết bạn, trò chuyện qua mạng xã hội Zalo, Facebook... yêu cầu khách hàng cung cấp hình ảnh CCCD, thẻ tín dụng, truy cập đường link giả, cung cấp thông tin thẻ, cung cấp mã xác thực OTP."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Với những thủ đoạn trên, khách hàng có thể đối mặt với rủi ro bị mất tiền trong thẻ tín dụng, bị đánh cắp thông tin thẻ hoặc bị phát sinh nợ xấu"
+    },
+    {
+        "text": "SCB cảnh báo",
+        "label": "EVENT",
+        "evidence": "Với những thủ đoạn trên, khách hàng có thể đối mặt với rủi ro bị mất tiền trong thẻ tín dụng, bị đánh cắp thông tin thẻ hoặc bị phát sinh nợ xấu\" - SCB cảnh báo."
+    },
+    {
+        "text": "Ngân hàng Quân đội",
+        "label": "ORG",
+        "evidence": "Một hình thức lừa đảo khác vừa được Ngân hàng Quân đội (MB) khuyến cáo là giả mạo con dấu chữ ký của ban lãnh đạo ngân hàng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Một hình thức lừa đảo khác vừa được Ngân hàng Quân đội (MB) khuyến cáo là giả mạo con dấu chữ ký của ban lãnh đạo ngân hàng."
+    },
+    {
+        "text": "khuyến cáo là giả mạo con dấu chữ ký của ban lãnh đạo ngân hàng",
+        "label": "EVENT",
+        "evidence": "Một hình thức lừa đảo khác vừa được Ngân hàng Quân đội (MB) khuyến cáo là giả mạo con dấu chữ ký của ban lãnh đạo ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Đối tượng tiếp cận khách hàng bằng cách giả mạo nhân viên ngân hàng, đăng bài quảng cáo cho vay, mở thẻ tín dụng trên các trang mạng xã hội."
+    },
+    {
+        "text": "ngân hàng MB thông tin",
+        "label": "EVENT",
+        "evidence": "Các đối tượng tiếp tục dẫn dắt yêu cầu khách hàng cung cấp mã OTP với kịch bản đây là mã xác thực online, mã nhận chương trình giảm lãi suất, mã đồng bộ dữ liệu lên hệ thống trước khi phát hành hay tăng hạn mức thẻ… để chiếm đoạt số dư trong tài khoản\" - ngân hàng MB thông tin."
+    },
+    {
+        "text": "các ngân hàng khuyến cáo khách hàng không cung cấp thông tin của cá nhân, thông tin thẻ cho bất cứ ai, kể cả người tự xưng là công an, cơ quan điều tra, nhân viên ngân hàng bao gồm: số CMND, CCCD, hộ khẩu, thông tin ngân hàng điện tử (tên đăng nhập, mật khẩu); thông tin xác thực giao dịch (các loại tin nhắn OTP/Smart OTP); thông tin về tài khoản ví liên kết (tên đăng nhập/mật khẩu)",
+        "label": "EVENT",
+        "evidence": "Để bảo vệ thông tin cá nhân của mình, tránh việc bị lừa đảo, bị mất tiền oan, các ngân hàng khuyến cáo khách hàng không cung cấp thông tin của cá nhân, thông tin thẻ cho bất cứ ai, kể cả người tự xưng là công an, cơ quan điều tra, nhân viên ngân hàng bao gồm: số CMND, CCCD, hộ khẩu, thông tin ngân hàng điện tử (tên đăng nhập, mật khẩu); thông tin xác thực giao dịch (các loại tin nhắn OTP/Smart OTP); thông tin về tài khoản ví liên kết (tên đăng nhập/mật khẩu)."
+    },
+    {
+        "text": "Các ngân hàng cũng khuyến cáo khách hàng tuyệt đối không mua, bán, cho thuê, cho mượn tài khoản cá nhân hoặc cung cấp thông tin đăng nhập dịch vụ ngân hàng điện tử cho bất kỳ ai, dưới bất kỳ hình thức nào",
+        "label": "EVENT",
+        "evidence": "Các ngân hàng cũng khuyến cáo khách hàng tuyệt đối không mua, bán, cho thuê, cho mượn tài khoản cá nhân hoặc cung cấp thông tin đăng nhập dịch vụ ngân hàng điện tử cho bất kỳ ai, dưới bất kỳ hình thức nào."
+    }
+]

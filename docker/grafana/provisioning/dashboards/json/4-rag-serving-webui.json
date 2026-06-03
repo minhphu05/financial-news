@@ -1,0 +1,199 @@
+{
+  "title": "4 - RAG Serving & WebUI",
+  "uid": "rag-serving-webui",
+  "editable": true,
+  "graphTooltip": 1,
+  "refresh": "10s",
+  "time": { "from": "now-6h", "to": "now" },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Total Requests",
+      "id": 1,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "blue", "mode": "fixed" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "sum(rag_api_requests_total)",
+        "legendFormat": "Requests",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Active Queries",
+      "id": 2,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 4, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 5, "color": "yellow" }, { "value": 10, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_active_queries",
+        "legendFormat": "Active",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Cache Hit Rate",
+      "id": 3,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 8, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "red" }, { "value": 0.3, "color": "yellow" }, { "value": 0.6, "color": "green" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_cache_hit_rate",
+        "legendFormat": "Hit Rate",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Positive Feedback",
+      "id": 4,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 12, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "green", "mode": "fixed" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_user_feedback_positive_total",
+        "legendFormat": "👍",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Negative Feedback",
+      "id": 5,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 16, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "red", "mode": "fixed" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_user_feedback_negative_total",
+        "legendFormat": "👎",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Error Rate (5xx)",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 4, "x": 20, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "sum(rag_api_requests_total{status=~\"5..\"})",
+        "legendFormat": "5xx",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Chat Query Latency (End-to-End)",
+      "id": 7,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 5 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rate(rag_chat_query_latency_seconds_sum[5m]) / rate(rag_chat_query_latency_seconds_count[5m])",
+        "legendFormat": "Avg Chat Latency",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "histogram_quantile(0.95, rate(rag_chat_query_latency_seconds_bucket[5m]))",
+        "legendFormat": "p95 Chat Latency",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Component Latency Breakdown",
+      "id": 8,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 5 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 20, "stacking": { "mode": "normal" } } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rate(rag_retrieval_latency_seconds_sum[5m]) / rate(rag_retrieval_latency_seconds_count[5m])",
+        "legendFormat": "Retrieval",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rate(rag_llm_generation_latency_seconds_sum[5m]) / rate(rag_llm_generation_latency_seconds_count[5m])",
+        "legendFormat": "LLM Generation",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Request Rate by Endpoint",
+      "id": 9,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 13 },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["sum"] } },
+      "fieldConfig": { "defaults": { "unit": "reqps", "custom": { "lineWidth": 1, "fillOpacity": 30, "drawStyle": "bars" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "sum by (endpoint) (rate(rag_api_requests_total[5m]))",
+        "legendFormat": "{{endpoint}}",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Cache Hits vs Misses",
+      "id": 10,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 13 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "custom": { "lineWidth": 2, "fillOpacity": 20 } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_cache_hit_total",
+        "legendFormat": "Cache Hit",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "rag_cache_miss_total",
+        "legendFormat": "Cache Miss",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "API Response Time (All Endpoints)",
+      "id": 11,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 24, "x": 0, "y": 21 },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["mean", "max"] } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 1, "fillOpacity": 5 } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "histogram_quantile(0.5, sum by (le, endpoint) (rate(rag_api_request_latency_seconds_bucket[5m])))",
+        "legendFormat": "{{endpoint}} p50",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "histogram_quantile(0.99, sum by (le, endpoint) (rate(rag_api_request_latency_seconds_bucket[5m])))",
+        "legendFormat": "{{endpoint}} p99",
+        "refId": "B"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Vietcombank vừa phát đi cảnh báo mới về tình trạng gia tăng các vụ lừa đảo mạo danh nhân viên hoặc tổng đài ngân hàng để chiếm đoạt tài sản khách hàng."
+    },
+    {
+        "text": "phát đi cảnh báo mới về tình trạng gia tăng các vụ lừa đảo mạo danh nhân viên hoặc tổng đài ngân hàng để chiếm đoạt tài sản khách hàng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Vietcombank vừa phát đi cảnh báo mới về tình trạng gia tăng các vụ lừa đảo mạo danh nhân viên hoặc tổng đài ngân hàng để chiếm đoạt tài sản khách hàng."
+    },
+    {
+        "text": "mời mở thẻ ghi nợ phi vật lý",
+        "label": "EVENT",
+        "evidence": "xuất hiện nhiều đối tượng mạo danh nhân viên ngân hàng liên hệ với khách hàng qua điện thoại, tin nhắn SMS, Zalo, Messenger… để mời mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng."
+    },
+    {
+        "text": "làm hồ sơ phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "xuất hiện nhiều đối tượng mạo danh nhân viên ngân hàng liên hệ với khách hàng qua điện thoại, tin nhắn SMS, Zalo, Messenger… để mời mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "để mời mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "để mời mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "“Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "đăng ký phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Kịch bản lừa đảo thường bao gồm việc dụ khách hàng đăng ký phát hành thẻ, sau đó yêu cầu cung cấp hình ảnh thẻ, dãy số in trên thẻ, tên in trên thẻ, mã OTP hoặc ảnh chụp màn hình hiển thị số thẻ trên ứng dụng VCB Digibank."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Kịch bản lừa đảo thường bao gồm việc dụ khách hàng đăng ký phát hành thẻ, sau đó yêu cầu cung cấp hình ảnh thẻ, dãy số in trên thẻ, tên in trên thẻ, mã OTP hoặc ảnh chụp màn hình hiển thị số thẻ trên ứng dụng VCB Digibank."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "mã OTP hoặc ảnh chụp màn hình hiển thị số thẻ trên ứng dụng VCB Digibank."
+    },
+    {
+        "text": "ví điện tử",
+        "label": "ASSET",
+        "evidence": "Từ đó, đối tượng sử dụng thông tin để liên kết ví điện tử, thực hiện giao dịch trực tuyến trên các sàn thương mại điện tử và chiếm đoạt tiền trong tài khoản."
+    },
+    {
+        "text": "chiếm đoạt tiền trong tài khoản",
+        "label": "EVENT",
+        "evidence": "Từ đó, đối tượng sử dụng thông tin để liên kết ví điện tử, thực hiện giao dịch trực tuyến trên các sàn thương mại điện tử và chiếm đoạt tiền trong tài khoản."
+    },
+    {
+        "text": "chuyển tiền để “nâng điểm tín dụng”",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, một số thủ đoạn khác cũng được ghi nhận như yêu cầu khách hàng chuyển tiền để “nâng điểm tín dụng”, thanh toán “phí hồ sơ” hoặc “phí phát hành thẻ”, từ đó lừa đảo chiếm đoạt số tiền này."
+    },
+    {
+        "text": "thanh toán “phí hồ sơ”",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, một số thủ đoạn khác cũng được ghi nhận như yêu cầu khách hàng chuyển tiền để “nâng điểm tín dụng”, thanh toán “phí hồ sơ” hoặc “phí phát hành thẻ”, từ đó lừa đảo chiếm đoạt số tiền này."
+    },
+    {
+        "text": "thanh toán “phí phát hành thẻ”",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, một số thủ đoạn khác cũng được ghi nhận như yêu cầu khách hàng chuyển tiền để “nâng điểm tín dụng”, thanh toán “phí hồ sơ” hoặc “phí phát hành thẻ”, từ đó lừa đảo chiếm đoạt số tiền này."
+    }
+]

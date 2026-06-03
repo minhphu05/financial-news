@@ -1,0 +1,442 @@
+[
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "ABBank vừa tiếp tục điều chỉnh lãi suất huy động, giảm mạnh tới 0,5-0,7 điểm % ở các kỳ hạn trung và dài hạn."
+    },
+    {
+        "text": "điều chỉnh lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "ABBank vừa tiếp tục điều chỉnh lãi suất huy động, giảm mạnh tới 0,5-0,7 điểm % ở các kỳ hạn trung và dài hạn."
+    },
+    {
+        "text": "giảm mạnh tới 0,5-0,7 điểm %",
+        "label": "RATE",
+        "evidence": "ABBank vừa tiếp tục điều chỉnh lãi suất huy động, giảm mạnh tới 0,5-0,7 điểm % ở các kỳ hạn trung và dài hạn."
+    },
+    {
+        "text": "0,5-0,7 điểm %",
+        "label": "RATE",
+        "evidence": "ABBank vừa tiếp tục điều chỉnh lãi suất huy động, giảm mạnh tới 0,5-0,7 điểm % ở các kỳ hạn trung và dài hạn."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 6 tháng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, lãi suất tiền gửi kỳ hạn 6 tháng theo hình thức trực tuyến tại ngân hàng chỉ còn 7,7%/năm, giảm 0,5 điểm % so với trước."
+    },
+    {
+        "text": "7,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất tiền gửi kỳ hạn 6 tháng theo hình thức trực tuyến tại ngân hàng chỉ còn 7,7%/năm, giảm 0,5 điểm % so với trước."
+    },
+    {
+        "text": "giảm 0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất tiền gửi kỳ hạn 6 tháng theo hình thức trực tuyến tại ngân hàng chỉ còn 7,7%/năm, giảm 0,5 điểm % so với trước."
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất tiền gửi kỳ hạn 6 tháng theo hình thức trực tuyến tại ngân hàng chỉ còn 7,7%/năm, giảm 0,5 điểm % so với trước."
+    },
+    {
+        "text": "Lãi suất kỳ hạn 12 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất kỳ hạn 12 tháng giảm 0,6% xuống 7,8%/năm."
+    },
+    {
+        "text": "giảm 0,6%",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 12 tháng giảm 0,6% xuống 7,8%/năm."
+    },
+    {
+        "text": "0,6%",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 12 tháng giảm 0,6% xuống 7,8%/năm."
+    },
+    {
+        "text": "7,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 12 tháng giảm 0,6% xuống 7,8%/năm."
+    },
+    {
+        "text": "Lãi suất kỳ hạn 36 tháng",
+        "label": "ASSET",
+        "evidence": "Lãi suất kỳ hạn 36 tháng giảm 0,7% xuống 7,8%/năm."
+    },
+    {
+        "text": "giảm 0,7%",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 36 tháng giảm 0,7% xuống 7,8%/năm."
+    },
+    {
+        "text": "0,7%",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 36 tháng giảm 0,7% xuống 7,8%/năm."
+    },
+    {
+        "text": "7,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 36 tháng giảm 0,7% xuống 7,8%/năm."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "SeABank cũng vừa đồng loạt giảm 0,3 điểm % kỳ hạn gửi từ 6 tháng trở lên."
+    },
+    {
+        "text": "giảm 0,3 điểm % kỳ hạn gửi từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "SeABank cũng vừa đồng loạt giảm 0,3 điểm % kỳ hạn gửi từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "SeABank cũng vừa đồng loạt giảm 0,3 điểm % kỳ hạn gửi từ 6 tháng trở lên."
+    },
+    {
+        "text": "lãi suất cao nhất kỳ hạn 12 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất kỳ hạn 12 tháng tại SeABank chỉ còn 7,3%/năm, kỳ hạn 36 tháng là 7,7%/năm."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Theo đó, lãi suất cao nhất kỳ hạn 12 tháng tại SeABank chỉ còn 7,3%/năm, kỳ hạn 36 tháng là 7,7%/năm."
+    },
+    {
+        "text": "7,3%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất cao nhất kỳ hạn 12 tháng tại SeABank chỉ còn 7,3%/năm, kỳ hạn 36 tháng là 7,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 36 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất kỳ hạn 12 tháng tại SeABank chỉ còn 7,3%/năm, kỳ hạn 36 tháng là 7,7%/năm."
+    },
+    {
+        "text": "7,7%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất cao nhất kỳ hạn 12 tháng tại SeABank chỉ còn 7,3%/năm, kỳ hạn 36 tháng là 7,7%/năm."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đây là mức lãi suất áp dụng cho tiền gửi từ 10 tỷ đồng trở lên."
+    },
+    {
+        "text": "500 triệu",
+        "label": "MONEY",
+        "evidence": "Đối với số tiền gửi nhỏ hơn, chẳng hạn như dưới 500 triệu, lãi suất cao nhất là 7,5%/năm (kỳ hạn 36 tháng)."
+    },
+    {
+        "text": "7,5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với số tiền gửi nhỏ hơn, chẳng hạn như dưới 500 triệu, lãi suất cao nhất là 7,5%/năm (kỳ hạn 36 tháng)."
+    },
+    {
+        "text": "kỳ hạn 36 tháng",
+        "label": "ASSET",
+        "evidence": "Đối với số tiền gửi nhỏ hơn, chẳng hạn như dưới 500 triệu, lãi suất cao nhất là 7,5%/năm (kỳ hạn 36 tháng)."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Tương tự, TPBank cũng giảm 0,3 điểm % các kỳ hạn từ 6 tháng."
+    },
+    {
+        "text": "giảm 0,3 điểm % các kỳ hạn từ 6 tháng",
+        "label": "EVENT",
+        "evidence": "Tương tự, TPBank cũng giảm 0,3 điểm % các kỳ hạn từ 6 tháng."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Tương tự, TPBank cũng giảm 0,3 điểm % các kỳ hạn từ 6 tháng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "7,7%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "kỳ hạn 6 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "12 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "13 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "15 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "18 tháng",
+        "label": "ASSET",
+        "evidence": "Theo đó, lãi suất cao nhất tại TPBank chỉ còn 7,7%/năm áp dụng cho kỳ hạn 6 tháng, 12 tháng, 13 tháng, 15 tháng, 18 tháng theo hình thức online."
+    },
+    {
+        "text": "Ngày 23/6",
+        "label": "DATE",
+        "evidence": "Ngày 23/6 chỉ còn 2 ngân hàng niêm yết lãi suất trên 8%/năm là GPBank và OceanBank."
+    },
+    {
+        "text": "niêm yết lãi suất trên 8%/năm",
+        "label": "EVENT",
+        "evidence": "Ngày 23/6 chỉ còn 2 ngân hàng niêm yết lãi suất trên 8%/năm là GPBank và OceanBank."
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "Ngày 23/6 chỉ còn 2 ngân hàng niêm yết lãi suất trên 8%/năm là GPBank và OceanBank."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "Ngày 23/6 chỉ còn 2 ngân hàng niêm yết lãi suất trên 8%/năm là GPBank và OceanBank."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Ngày 23/6 chỉ còn 2 ngân hàng niêm yết lãi suất trên 8%/năm là GPBank và OceanBank."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, GPBank áp dụng mức lãi suất 8,1%/năm cho kỳ hạn 13 tháng, 36 tháng,…"
+    },
+    {
+        "text": "8,1%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, GPBank áp dụng mức lãi suất 8,1%/năm cho kỳ hạn 13 tháng, 36 tháng,…"
+    },
+    {
+        "text": "kỳ hạn 13 tháng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, GPBank áp dụng mức lãi suất 8,1%/năm cho kỳ hạn 13 tháng, 36 tháng,…"
+    },
+    {
+        "text": "36 tháng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, GPBank áp dụng mức lãi suất 8,1%/năm cho kỳ hạn 13 tháng, 36 tháng,…"
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, OceanBank áp dụng 8,1%/năm cho kỳ hạn gửi 36 tháng."
+    },
+    {
+        "text": "8,1%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, OceanBank áp dụng 8,1%/năm cho kỳ hạn gửi 36 tháng."
+    },
+    {
+        "text": "kỳ hạn gửi 36 tháng",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, OceanBank áp dụng 8,1%/năm cho kỳ hạn gửi 36 tháng."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 (Vietcombank, VietinBank, BIDV, Agribank) đang có lãi suất huy động thấp nhất hệ thống."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 (Vietcombank, VietinBank, BIDV, Agribank) đang có lãi suất huy động thấp nhất hệ thống."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 (Vietcombank, VietinBank, BIDV, Agribank) đang có lãi suất huy động thấp nhất hệ thống."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 (Vietcombank, VietinBank, BIDV, Agribank) đang có lãi suất huy động thấp nhất hệ thống."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 (Vietcombank, VietinBank, BIDV, Agribank) đang có lãi suất huy động thấp nhất hệ thống."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Sau khi Ngân hàng Nhà nước điều chỉnh lãi suất điều hành từ ngày 19/6, những ngân hàng này cũng giảm mạnh tới 0,5 điểm % ở nhiều kỳ hạn."
+    },
+    {
+        "text": "điều chỉnh lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "Sau khi Ngân hàng Nhà nước điều chỉnh lãi suất điều hành từ ngày 19/6, những ngân hàng này cũng giảm mạnh tới 0,5 điểm % ở nhiều kỳ hạn."
+    },
+    {
+        "text": "ngày 19/6",
+        "label": "DATE",
+        "evidence": "Sau khi Ngân hàng Nhà nước điều chỉnh lãi suất điều hành từ ngày 19/6, những ngân hàng này cũng giảm mạnh tới 0,5 điểm % ở nhiều kỳ hạn."
+    },
+    {
+        "text": "giảm mạnh tới 0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Sau khi Ngân hàng Nhà nước điều chỉnh lãi suất điều hành từ ngày 19/6, những ngân hàng này cũng giảm mạnh tới 0,5 điểm % ở nhiều kỳ hạn."
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Sau khi Ngân hàng Nhà nước điều chỉnh lãi suất điều hành từ ngày 19/6, những ngân hàng này cũng giảm mạnh tới 0,5 điểm % ở nhiều kỳ hạn."
+    },
+    {
+        "text": "lãi suất tiền gửi tại quầy",
+        "label": "ASSET",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "3,4 – 4,1 – 5 – 6,3%/năm",
+        "label": "RATE",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "kỳ hạn 1 tháng",
+        "label": "ASSET",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "3 tháng",
+        "label": "ASSET",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "ASSET",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "12 tháng",
+        "label": "ASSET",
+        "evidence": "Hiện lãi suất tiền gửi tại quầy của những ngân hàng này khá giống nhau, đều niêm yết các mức 3,4 – 4,1 – 5 – 6,3%/năm tương ứng với các kỳ hạn 1 tháng – 3 tháng – 6 tháng – 12 tháng."
+    },
+    {
+        "text": "lãi suất tiền gửi online",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, lãi suất tiền gửi online trên ngân hàng số của nhóm Big 4 có sự chênh lệch đáng kể ở các kỳ hạn từ 6 tháng trở xuống."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, lãi suất tiền gửi online trên ngân hàng số của nhóm Big 4 có sự chênh lệch đáng kể ở các kỳ hạn từ 6 tháng trở xuống."
+    },
+    {
+        "text": "kỳ hạn 6 tháng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, tại kỳ hạn 6 tháng, BIDV cộng thêm 0,6 điểm % lên 5,6%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cụ thể, tại kỳ hạn 6 tháng, BIDV cộng thêm 0,6 điểm % lên 5,6%/năm."
+    },
+    {
+        "text": "cộng thêm 0,6 điểm %",
+        "label": "RATE",
+        "evidence": "Cụ thể, tại kỳ hạn 6 tháng, BIDV cộng thêm 0,6 điểm % lên 5,6%/năm."
+    },
+    {
+        "text": "0,6 điểm %",
+        "label": "RATE",
+        "evidence": "Cụ thể, tại kỳ hạn 6 tháng, BIDV cộng thêm 0,6 điểm % lên 5,6%/năm."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, tại kỳ hạn 6 tháng, BIDV cộng thêm 0,6 điểm % lên 5,6%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cộng thêm 0,2 điểm % lên 5,2%/năm."
+    },
+    {
+        "text": "cộng thêm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Vietcombank cộng thêm 0,2 điểm % lên 5,2%/năm."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Vietcombank cộng thêm 0,2 điểm % lên 5,2%/năm."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank cộng thêm 0,2 điểm % lên 5,2%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trong khi đó VietinBank giữ nguyên mức 5%/năm."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó VietinBank giữ nguyên mức 5%/năm."
+    },
+    {
+        "text": "kỳ hạn 3 tháng",
+        "label": "ASSET",
+        "evidence": "Đối với kỳ hạn 3 tháng hình thức trực tuyến, Agribank và BIDV có lãi suất cao nhất trong nhóm Big 4, niêm yết 4,5%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 3 tháng hình thức trực tuyến, Agribank và BIDV có lãi suất cao nhất trong nhóm Big 4, niêm yết 4,5%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 3 tháng hình thức trực tuyến, Agribank và BIDV có lãi suất cao nhất trong nhóm Big 4, niêm yết 4,5%/năm."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 3 tháng hình thức trực tuyến, Agribank và BIDV có lãi suất cao nhất trong nhóm Big 4, niêm yết 4,5%/năm."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 3 tháng hình thức trực tuyến, Agribank và BIDV có lãi suất cao nhất trong nhóm Big 4, niêm yết 4,5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tiếp đến là Vietcombank 4,3%/năm, VietinBank 4,1%/năm."
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "Tiếp đến là Vietcombank 4,3%/năm, VietinBank 4,1%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tiếp đến là Vietcombank 4,3%/năm, VietinBank 4,1%/năm."
+    },
+    {
+        "text": "4,1%/năm",
+        "label": "RATE",
+        "evidence": "Tiếp đến là Vietcombank 4,3%/năm, VietinBank 4,1%/năm."
+    }
+]

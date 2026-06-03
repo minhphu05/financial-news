@@ -1,0 +1,1117 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB báo lãi quý 3 sụt giảm so với cùng kỳ"
+    },
+    {
+        "text": "báo lãi quý 3 sụt giảm so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "ACB báo lãi quý 3 sụt giảm so với cùng kỳ"
+    },
+    {
+        "text": "Ngân hàng TMCP Á Châu",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa công bố báo cáo tài chính quý 3 với lợi nhuận hợp nhất trước thuế đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa công bố báo cáo tài chính quý 3 với lợi nhuận hợp nhất trước thuế đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "công bố báo cáo tài chính quý 3",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa công bố báo cáo tài chính quý 3 với lợi nhuận hợp nhất trước thuế đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "4.844 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận hợp nhất trước thuế đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "giảm 4%",
+        "label": "RATE",
+        "evidence": "đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "công bố báo cáo tài chính quý 3 với lợi nhuận hợp nhất trước thuế đạt 4.844 tỷ đồng, giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "giảm 4% so với cùng kỳ 2023."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng đầu năm, lợi nhuận trước thuế của ACB đạt hơn 15.300 tỷ đồng, tăng nhẹ 2% so với cùng kỳ, chủ yếu từ tăng trưởng quy mô tín dụng, phí dịch vụ và quản lý chi phí hiệu quả."
+    },
+    {
+        "text": "hơn 15.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế của ACB đạt hơn 15.300 tỷ đồng, tăng nhẹ 2% so với cùng kỳ, chủ yếu từ tăng trưởng quy mô tín dụng, phí dịch vụ và quản lý chi phí hiệu quả."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "lợi nhuận trước thuế của ACB đạt hơn 15.300 tỷ đồng, tăng nhẹ 2% so với cùng kỳ, chủ yếu từ tăng trưởng quy mô tín dụng, phí dịch vụ và quản lý chi phí hiệu quả."
+    },
+    {
+        "text": "tăng nhẹ 2%",
+        "label": "RATE",
+        "evidence": "đạt hơn 15.300 tỷ đồng, tăng nhẹ 2% so với cùng kỳ, chủ yếu từ tăng trưởng quy mô tín dụng, phí dịch vụ và quản lý chi phí hiệu quả."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với kết quả trên, ACB hiện là ngân hàng có lợi nhuận 9 tháng cao thứ hai hệ thống chỉ sau Techcombank (các ngân hàng lớn khác như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "ACB hiện là ngân hàng có lợi nhuận 9 tháng cao thứ hai hệ thống chỉ sau Techcombank (các ngân hàng lớn khác như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "ACB hiện là ngân hàng có lợi nhuận 9 tháng cao thứ hai hệ thống chỉ sau Techcombank (các ngân hàng lớn khác như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "như Vietcombank, VietinBank, BIDV, Agribank, MB chưa công bố)."
+    },
+    {
+        "text": "30/9",
+        "label": "DATE",
+        "evidence": "Tính đến 30/9, tín dụng của ACB đạt 555 nghìn tỷ, huy động đạt 512 nghìn tỷ, tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tính đến 30/9, tín dụng của ACB đạt 555 nghìn tỷ, huy động đạt 512 nghìn tỷ, tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "555 nghìn tỷ",
+        "label": "MONEY",
+        "evidence": "tín dụng của ACB đạt 555 nghìn tỷ, huy động đạt 512 nghìn tỷ, tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "512 nghìn tỷ",
+        "label": "MONEY",
+        "evidence": "huy động đạt 512 nghìn tỷ, tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "13,8%",
+        "label": "RATE",
+        "evidence": "tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "6,1%",
+        "label": "RATE",
+        "evidence": "tăng trưởng so với đầu năm lần lượt ghi nhận là 13,8% và 6,1%."
+    },
+    {
+        "text": "10 năm qua",
+        "label": "DATE",
+        "evidence": "mức tăng ròng cao nhất trong 10 năm qua."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về CASA, huy động không kỳ hạn của ACB đạt 114 nghìn tỷ, tăng 24% so với cùng kỳ năm 2023, tiếp tục là một trong những ngân hàng bán lẻ có tỷ lệ CASA cao nhất thị trường ở mức 22,2%."
+    },
+    {
+        "text": "114 nghìn tỷ",
+        "label": "MONEY",
+        "evidence": "huy động không kỳ hạn của ACB đạt 114 nghìn tỷ, tăng 24% so với cùng kỳ năm 2023, tiếp tục là một trong những ngân hàng bán lẻ có tỷ lệ CASA cao nhất thị trường ở mức 22,2%."
+    },
+    {
+        "text": "tăng 24%",
+        "label": "RATE",
+        "evidence": "đạt 114 nghìn tỷ, tăng 24% so với cùng kỳ năm 2023, tiếp tục là một trong những ngân hàng bán lẻ có tỷ lệ CASA cao nhất thị trường ở mức 22,2%."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng 24% so với cùng kỳ năm 2023, tiếp tục là một trong những ngân hàng bán lẻ có tỷ lệ CASA cao nhất thị trường ở mức 22,2%."
+    },
+    {
+        "text": "22,2%",
+        "label": "RATE",
+        "evidence": "tỷ lệ CASA cao nhất thị trường ở mức 22,2%."
+    },
+    {
+        "text": "Quý 3",
+        "label": "DATE",
+        "evidence": "Tỷ lệ nợ xấu Quý 3 của ACB ở mức 1,49%, thuộc nhóm những ngân hàng có nợ xấu thấp nhất thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tỷ lệ nợ xấu Quý 3 của ACB ở mức 1,49%, thuộc nhóm những ngân hàng có nợ xấu thấp nhất thị trường."
+    },
+    {
+        "text": "1,49%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu Quý 3 của ACB ở mức 1,49%, thuộc nhóm những ngân hàng có nợ xấu thấp nhất thị trường."
+    },
+    {
+        "text": "Quý 3",
+        "label": "DATE",
+        "evidence": "Chi phí trích lập dự phòng Quý 3 thấp hơn mức trích bình quân trong 2 quý đầu năm."
+    },
+    {
+        "text": "2 quý đầu năm",
+        "label": "DATE",
+        "evidence": "Chi phí trích lập dự phòng Quý 3 thấp hơn mức trích bình quân trong 2 quý đầu năm."
+    },
+    {
+        "text": "cuối quý 3",
+        "label": "DATE",
+        "evidence": "Tính đến cuối quý 3, tỷ lệ LDR của ACB là 82,4%, tỷ lệ vốn ngắn hạn cho vay trung và dài hạn chiếm 20,7%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tính đến cuối quý 3, tỷ lệ LDR của ACB là 82,4%, tỷ lệ vốn ngắn hạn cho vay trung và dài hạn chiếm 20,7%."
+    },
+    {
+        "text": "82,4%",
+        "label": "RATE",
+        "evidence": "tỷ lệ LDR của ACB là 82,4%, tỷ lệ vốn ngắn hạn cho vay trung và dài hạn chiếm 20,7%."
+    },
+    {
+        "text": "20,7%",
+        "label": "RATE",
+        "evidence": "tỷ lệ vốn ngắn hạn cho vay trung và dài hạn chiếm 20,7%."
+    },
+    {
+        "text": "Quý 3",
+        "label": "DATE",
+        "evidence": "Tỷ lệ an toàn vốn (riêng lẻ) tới cuối Quý 3 ở mức 11,3%, cao hơn nhiều so với mức quy định của NHNN."
+    },
+    {
+        "text": "11,3%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ an toàn vốn (riêng lẻ) tới cuối Quý 3 ở mức 11,3%, cao hơn nhiều so với mức quy định của NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "cao hơn nhiều so với mức quy định của NHNN."
+    },
+    {
+        "text": "32,7%",
+        "label": "RATE",
+        "evidence": "tỷ lệ CIR được duy trì ở mức thấp 32,7%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ROE của ACB vẫn duy trì ở mức cao 22,2%, tiếp tục nằm trong nhóm dẫn đầu ngành."
+    },
+    {
+        "text": "22,2%",
+        "label": "RATE",
+        "evidence": "ROE của ACB vẫn duy trì ở mức cao 22,2%, tiếp tục nằm trong nhóm dẫn đầu ngành."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB lãi 6.600 tỷ trong 9 tháng đầu năm"
+    },
+    {
+        "text": "lãi 6.600 tỷ trong 9 tháng đầu năm",
+        "label": "EVENT",
+        "evidence": "VIB lãi 6.600 tỷ trong 9 tháng đầu năm"
+    },
+    {
+        "text": "6.600 tỷ",
+        "label": "MONEY",
+        "evidence": "VIB lãi 6.600 tỷ trong 9 tháng đầu năm"
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "VIB lãi 6.600 tỷ trong 9 tháng đầu năm"
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Kết thúc 9 tháng đầu năm, Ngân hàng TMCP Quốc tế Việt Nam (VIB) ghi nhận lợi nhuận trước thuế đạt 6.600 tỷ đồng, giảm 21% so với cùng kỳ."
+    },
+    {
+        "text": "Ngân hàng TMCP Quốc tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Kết thúc 9 tháng đầu năm, Ngân hàng TMCP Quốc tế Việt Nam (VIB) ghi nhận lợi nhuận trước thuế đạt 6.600 tỷ đồng, giảm 21% so với cùng kỳ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quốc tế Việt Nam (VIB) ghi nhận lợi nhuận trước thuế đạt 6.600 tỷ đồng, giảm 21% so với cùng kỳ."
+    },
+    {
+        "text": "6.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận lợi nhuận trước thuế đạt 6.600 tỷ đồng, giảm 21% so với cùng kỳ."
+    },
+    {
+        "text": "giảm 21%",
+        "label": "RATE",
+        "evidence": "đạt 6.600 tỷ đồng, giảm 21% so với cùng kỳ."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Tỷ suất lợi nhuận trên vốn chủ sở hữu (ROE) đạt khoảng 19%."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Ước tính, lợi nhuận trước thuế quý 3 của VIB đạt 1.997 tỷ đồng, giảm 26% so với cùng kỳ 2023."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "lợi nhuận trước thuế quý 3 của VIB đạt 1.997 tỷ đồng, giảm 26% so với cùng kỳ 2023."
+    },
+    {
+        "text": "1.997 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế quý 3 của VIB đạt 1.997 tỷ đồng, giảm 26% so với cùng kỳ 2023."
+    },
+    {
+        "text": "giảm 26%",
+        "label": "RATE",
+        "evidence": "đạt 1.997 tỷ đồng, giảm 26% so với cùng kỳ 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "giảm 26% so với cùng kỳ 2023."
+    },
+    {
+        "text": "30/09/2024",
+        "label": "DATE",
+        "evidence": "Tính đến 30/09/2024, tổng tài sản VIB đạt hơn 445.000 tỷ đồng, tăng 9% so với đầu năm, trong đó dư nợ tín dụng đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "tổng tài sản VIB đạt hơn 445.000 tỷ đồng, tăng 9% so với đầu năm, trong đó dư nợ tín dụng đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "445.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản VIB đạt hơn 445.000 tỷ đồng, tăng 9% so với đầu năm, trong đó dư nợ tín dụng đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "tăng 9%",
+        "label": "RATE",
+        "evidence": "đạt hơn 445.000 tỷ đồng, tăng 9% so với đầu năm, trong đó dư nợ tín dụng đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "298.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dư nợ tín dụng đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "tăng gần 12%",
+        "label": "RATE",
+        "evidence": "đạt hơn 298.000 tỷ đồng, tăng gần 12% so với đầu năm, cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "cao hơn so với mức trung bình ngành là 9%."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Đặc biệt, trong riêng quý 3, VIB tăng trưởng tín dụng đạt gần 7% và là một trong những ngân hàng bán lẻ có tăng trưởng tín dụng tốt nhất ngành."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "trong riêng quý 3, VIB tăng trưởng tín dụng đạt gần 7% và là một trong những ngân hàng bán lẻ có tăng trưởng tín dụng tốt nhất ngành."
+    },
+    {
+        "text": "gần 7%",
+        "label": "RATE",
+        "evidence": "VIB tăng trưởng tín dụng đạt gần 7% và là một trong những ngân hàng bán lẻ có tăng trưởng tín dụng tốt nhất ngành."
+    },
+    {
+        "text": "tăng 8%",
+        "label": "RATE",
+        "evidence": "Huy động vốn tăng 8%."
+    },
+    {
+        "text": "Lợi nhuận 9 tháng SeABank tăng trưởng 43%",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận 9 tháng SeABank tăng trưởng 43%"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Lợi nhuận 9 tháng SeABank tăng trưởng 43%"
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận 9 tháng SeABank tăng trưởng 43%"
+    },
+    {
+        "text": "43%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận 9 tháng SeABank tăng trưởng 43%"
+    },
+    {
+        "text": "Ngân hàng TMCP Đông Nam Á",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank) vừa công bố kết quả kinh doanh 9 tháng với lợi nhuận trước thuế đạt 4.508 tỷ đồng, tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank) vừa công bố kết quả kinh doanh 9 tháng với lợi nhuận trước thuế đạt 4.508 tỷ đồng, tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "công bố kết quả kinh doanh 9 tháng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank) vừa công bố kết quả kinh doanh 9 tháng với lợi nhuận trước thuế đạt 4.508 tỷ đồng, tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank) vừa công bố kết quả kinh doanh 9 tháng với lợi nhuận trước thuế đạt 4.508 tỷ đồng, tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "4.508 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế đạt 4.508 tỷ đồng, tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tăng 1.352 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tương đương 43%",
+        "label": "RATE",
+        "evidence": "tăng 1.352 tỷ đồng tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tương đương 43% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Kết thúc 9 tháng đầu năm, tổng dư nợ cho vay khách hàng của SeABank đạt 196.890 tỷ đồng; Tổng tài sản tăng 22.396 tỷ đồng so với năm 2023, đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "tổng dư nợ cho vay khách hàng của SeABank đạt 196.890 tỷ đồng; Tổng tài sản tăng 22.396 tỷ đồng so với năm 2023, đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "196.890 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng dư nợ cho vay khách hàng của SeABank đạt 196.890 tỷ đồng; Tổng tài sản tăng 22.396 tỷ đồng so với năm 2023, đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "tăng 22.396 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng tài sản tăng 22.396 tỷ đồng so với năm 2023, đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Tổng tài sản tăng 22.396 tỷ đồng so với năm 2023, đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "288.518 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 288.518 tỷ đồng."
+    },
+    {
+        "text": "30/09/2024",
+        "label": "DATE",
+        "evidence": "Tính đến hết ngày 30/09/2024, tổng huy động từ các tổ chức, cá nhân trong nước và các tổ chức tài chính quốc tế của SeABank đạt 178.666 tỷ đồng, tăng gần 2% so với năm 2023."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "tổng huy động từ các tổ chức, cá nhân trong nước và các tổ chức tài chính quốc tế của SeABank đạt 178.666 tỷ đồng, tăng gần 2% so với năm 2023."
+    },
+    {
+        "text": "178.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SeABank đạt 178.666 tỷ đồng, tăng gần 2% so với năm 2023."
+    },
+    {
+        "text": "tăng gần 2%",
+        "label": "RATE",
+        "evidence": "đạt 178.666 tỷ đồng, tăng gần 2% so với năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng gần 2% so với năm 2023."
+    },
+    {
+        "text": "20.677 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi không kỳ hạn (CASA) đạt 20.677 tỷ đồng, tăng 24% so với thời điểm 31/12/2023 và chiếm 13,46% huy động từ tiền gửi của khách hàng."
+    },
+    {
+        "text": "tăng 24%",
+        "label": "RATE",
+        "evidence": "đạt 20.677 tỷ đồng, tăng 24% so với thời điểm 31/12/2023 và chiếm 13,46% huy động từ tiền gửi của khách hàng."
+    },
+    {
+        "text": "31/12/2023",
+        "label": "DATE",
+        "evidence": "tăng 24% so với thời điểm 31/12/2023 và chiếm 13,46% huy động từ tiền gửi của khách hàng."
+    },
+    {
+        "text": "13,46%",
+        "label": "RATE",
+        "evidence": "chiếm 13,46% huy động từ tiền gửi của khách hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank: Lợi nhuận trước thuế 9 tháng đạt 22.800 tỷ đồng"
+    },
+    {
+        "text": "Lợi nhuận trước thuế 9 tháng đạt 22.800 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Techcombank: Lợi nhuận trước thuế 9 tháng đạt 22.800 tỷ đồng"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Techcombank: Lợi nhuận trước thuế 9 tháng đạt 22.800 tỷ đồng"
+    },
+    {
+        "text": "22.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế 9 tháng đạt 22.800 tỷ đồng"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank báo lãi trước thuế 22,8 nghìn tỷ đồng trong 9 tháng đầu năm 2024, tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "báo lãi trước thuế 22,8 nghìn tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Techcombank báo lãi trước thuế 22,8 nghìn tỷ đồng trong 9 tháng đầu năm 2024, tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "22,8 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "báo lãi trước thuế 22,8 nghìn tỷ đồng trong 9 tháng đầu năm 2024, tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "22,8 nghìn tỷ đồng trong 9 tháng đầu năm 2024, tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tăng 33%",
+        "label": "RATE",
+        "evidence": "9 tháng đầu năm 2024, tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng 33% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Riêng quý 3, ngân hàng lãi 7.171 tỷ đồng, bỏ xa các ngân hàng khác trong nhóm tư nhân như ACB (4.844 tỷ đồng), LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "7.171 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng lãi 7.171 tỷ đồng, bỏ xa các ngân hàng khác trong nhóm tư nhân như ACB (4.844 tỷ đồng), LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "như ACB (4.844 tỷ đồng), LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "4.844 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACB (4.844 tỷ đồng), LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "2.899 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "LPBank (2.899 tỷ đồng), VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "1.997 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VIB (1.997 tỷ đồng)."
+    },
+    {
+        "text": "cuối tháng 9/2024",
+        "label": "DATE",
+        "evidence": "Tại cuối tháng 9/2024, tổng tài sản của Techcombank đạt 927,1 nghìn tỷ đồng, tăng 9,1% so với đầu năm và 18,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "tổng tài sản của Techcombank đạt 927,1 nghìn tỷ đồng, tăng 9,1% so với đầu năm và 18,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "927,1 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản của Techcombank đạt 927,1 nghìn tỷ đồng, tăng 9,1% so với đầu năm và 18,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 9,1%",
+        "label": "RATE",
+        "evidence": "đạt 927,1 nghìn tỷ đồng, tăng 9,1% so với đầu năm và 18,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "18,7%",
+        "label": "RATE",
+        "evidence": "tăng 9,1% so với đầu năm và 18,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng trưởng 17,4%",
+        "label": "RATE",
+        "evidence": "Tính riêng Ngân hàng, tín dụng tăng trưởng 17,4% so với đầu năm lên 622,1 nghìn tỷ đồng."
+    },
+    {
+        "text": "622,1 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tín dụng tăng trưởng 17,4% so với đầu năm lên 622,1 nghìn tỷ đồng."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Trên cơ sở hợp nhất, tín dụng cá nhân là động lực dẫn dắt tăng trưởng trong quý 3."
+    },
+    {
+        "text": "tăng tới 6,0%",
+        "label": "RATE",
+        "evidence": "Dư nợ khách hàng cá nhân tăng tới 6,0% so với quý trước, gấp đôi mức tăng dư nợ khách hàng doanh nghiệp (bao gồm cho vay & trái phiếu doanh nghiệp)."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Số dư CASA (bao gồm số dư “Sinh lời tự động) của Techcombank đạt mức cao kỷ lục 200,3 nghìn tỷ đồng, góp phần đưa tỷ lệ CASA lên mức 40,5%."
+    },
+    {
+        "text": "200,3 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "của Techcombank đạt mức cao kỷ lục 200,3 nghìn tỷ đồng, góp phần đưa tỷ lệ CASA lên mức 40,5%."
+    },
+    {
+        "text": "40,5%",
+        "label": "RATE",
+        "evidence": "góp phần đưa tỷ lệ CASA lên mức 40,5%."
+    },
+    {
+        "text": "495,0 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính chung tiền gửi của khách hàng đạt 495,0 nghìn tỷ đồng, tăng 8,9% so với đầu năm và 21,0% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 8,9%",
+        "label": "RATE",
+        "evidence": "đạt 495,0 nghìn tỷ đồng, tăng 8,9% so với đầu năm và 21,0% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "21,0%",
+        "label": "RATE",
+        "evidence": "và 21,0% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbank công bố kết quả sơ bộ 9 tháng"
+    },
+    {
+        "text": "công bố kết quả sơ bộ 9 tháng",
+        "label": "EVENT",
+        "evidence": "Eximbank công bố kết quả sơ bộ 9 tháng"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Eximbank công bố kết quả sơ bộ 9 tháng"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Trong thông báo mới đây, Eximbank cũng đã công bố thông tin sơ bộ về kết quả kinh doanh quý 3."
+    },
+    {
+        "text": "công bố thông tin sơ bộ về kết quả kinh doanh quý 3",
+        "label": "EVENT",
+        "evidence": "Eximbank cũng đã công bố thông tin sơ bộ về kết quả kinh doanh quý 3."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "công bố thông tin sơ bộ về kết quả kinh doanh quý 3."
+    },
+    {
+        "text": "lợi nhuận trước thuế quý 3 tăng 39%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế quý 3 tăng 39% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 11%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản tăng 11% so với đầu năm, tăng 16,9% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 16,9%",
+        "label": "RATE",
+        "evidence": "tổng tài sản tăng 11% so với đầu năm, tăng 16,9% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 9,1%",
+        "label": "RATE",
+        "evidence": "Tổng huy động tăng 9,1% so với đầu năm; tăng 12,2% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 12,2%",
+        "label": "RATE",
+        "evidence": "Tổng huy động tăng 9,1% so với đầu năm; tăng 12,2% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 15,1%",
+        "label": "RATE",
+        "evidence": "Dư nợ tăng 15,1% so với đầu năm, tăng 18,9% so với cùng kỳ"
+    },
+    {
+        "text": "tăng 18,9%",
+        "label": "RATE",
+        "evidence": "Dư nợ tăng 15,1% so với đầu năm, tăng 18,9% so với cùng kỳ"
+    },
+    {
+        "text": "12 -14%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ an toàn vốn CAR luôn ở ngưỡng 12 -14% (cao hơn so với ngưỡng 8% theo quy định Ngân hàng nhà nước)."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "cao hơn so với ngưỡng 8% theo quy định Ngân hàng nhà nước)."
+    },
+    {
+        "text": "Ngân hàng nhà nước",
+        "label": "ORG",
+        "evidence": "theo quy định Ngân hàng nhà nước)."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "LPBank lãi trước thuế gần 2.900 tỷ trong quý 3"
+    },
+    {
+        "text": "lãi trước thuế gần 2.900 tỷ trong quý 3",
+        "label": "EVENT",
+        "evidence": "LPBank lãi trước thuế gần 2.900 tỷ trong quý 3"
+    },
+    {
+        "text": "2.900 tỷ",
+        "label": "MONEY",
+        "evidence": "LPBank lãi trước thuế gần 2.900 tỷ trong quý 3"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "LPBank lãi trước thuế gần 2.900 tỷ trong quý 3"
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế quý 3/2024 của LPBank đạt 2.899 tỷ đồng, tăng 133,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận trước thuế quý 3/2024 của LPBank đạt 2.899 tỷ đồng, tăng 133,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "2.899 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế quý 3/2024 của LPBank đạt 2.899 tỷ đồng, tăng 133,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 133,7%",
+        "label": "RATE",
+        "evidence": "đạt 2.899 tỷ đồng, tăng 133,7% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng đầu năm,lợi nhuận trước thuế đạt 8.818 tỷ đồng, tăng 139% so với cùng kỳ."
+    },
+    {
+        "text": "8.818 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế đạt 8.818 tỷ đồng, tăng 139% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 139%",
+        "label": "RATE",
+        "evidence": "đạt 8.818 tỷ đồng, tăng 139% so với cùng kỳ."
+    },
+    {
+        "text": "30/9",
+        "label": "DATE",
+        "evidence": "Tính đến 30/9, tổng tài sản của LPBank đạt gần 446.000 tỷ đồng, tăng 16,4% so với cuối năm 2023."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "tổng tài sản của LPBank đạt gần 446.000 tỷ đồng, tăng 16,4% so với cuối năm 2023."
+    },
+    {
+        "text": "446.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản của LPBank đạt gần 446.000 tỷ đồng, tăng 16,4% so với cuối năm 2023."
+    },
+    {
+        "text": "tăng 16,4%",
+        "label": "RATE",
+        "evidence": "đạt gần 446.000 tỷ đồng, tăng 16,4% so với cuối năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng 16,4% so với cuối năm 2023."
+    },
+    {
+        "text": "tăng 16,1%",
+        "label": "RATE",
+        "evidence": "cho vay khách hàng tăng 16,1%, đạt 319.770 tỷ đồng."
+    },
+    {
+        "text": "319.770 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cho vay khách hàng tăng 16,1%, đạt 319.770 tỷ đồng."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "Tiền gửi khách hàng tại LPBank cũng tăng 14,3%, đạt gần 271.303 tỷ đồng."
+    },
+    {
+        "text": "tăng 14,3%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng tại LPBank cũng tăng 14,3%, đạt gần 271.303 tỷ đồng."
+    },
+    {
+        "text": "271.303 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 271.303 tỷ đồng."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm, số dư nợ xấu của LPBank tăng 70% từ 3.689 tỷ đồng lên 6.272 tỷ đồng, kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "số dư nợ xấu của LPBank tăng 70% từ 3.689 tỷ đồng lên 6.272 tỷ đồng, kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "tăng 70%",
+        "label": "RATE",
+        "evidence": "LPBank tăng 70% từ 3.689 tỷ đồng lên 6.272 tỷ đồng, kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "3.689 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 70% từ 3.689 tỷ đồng lên 6.272 tỷ đồng, kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "6.272 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "3.689 tỷ đồng lên 6.272 tỷ đồng, kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "tăng lên 1,96%",
+        "label": "RATE",
+        "evidence": "kéo tỷ lệ nợ xấu trên tổng dư nợ tăng lên 1,96%."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Kienlongbank: Lợi nhuận 9 tháng hơn 760 tỷ đồng"
+    },
+    {
+        "text": "Lợi nhuận 9 tháng hơn 760 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Kienlongbank: Lợi nhuận 9 tháng hơn 760 tỷ đồng"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Kienlongbank: Lợi nhuận 9 tháng hơn 760 tỷ đồng"
+    },
+    {
+        "text": "hơn 760 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kienlongbank: Lợi nhuận 9 tháng hơn 760 tỷ đồng"
+    },
+    {
+        "text": "Báo cáo tài chính hợp nhất vừa công bố",
+        "label": "EVENT",
+        "evidence": "Theo Báo cáo tài chính hợp nhất vừa công bố, lãi trước thuế của KienlongBank trong quý III/2024 đạt gần 209 tỷ đồng."
+    },
+    {
+        "text": "KienlongBank",
+        "label": "ORG",
+        "evidence": "lãi trước thuế của KienlongBank trong quý III/2024 đạt gần 209 tỷ đồng."
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "của KienlongBank trong quý III/2024 đạt gần 209 tỷ đồng."
+    },
+    {
+        "text": "209 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong quý III/2024 đạt gần 209 tỷ đồng."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng đầu năm, hoạt động kinh doanh của ngân hàng ghi nhận đà tăng trưởng tích cực với lợi nhuận trước thuế hơn 760 tỷ đồng, tăng 19% so với cùng kỳ."
+    },
+    {
+        "text": "hơn 760 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế hơn 760 tỷ đồng, tăng 19% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 19%",
+        "label": "RATE",
+        "evidence": "hơn 760 tỷ đồng, tăng 19% so với cùng kỳ."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "PGBank báo lãi quý 3 tăng trưởng 36%"
+    },
+    {
+        "text": "báo lãi quý 3 tăng trưởng 36%",
+        "label": "EVENT",
+        "evidence": "PGBank báo lãi quý 3 tăng trưởng 36%"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "PGBank báo lãi quý 3 tăng trưởng 36%"
+    },
+    {
+        "text": "36%",
+        "label": "RATE",
+        "evidence": "PGBank báo lãi quý 3 tăng trưởng 36%"
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế quý 3/2024 của ngân hàng đạt 77 tỷ đồng, tăng 36% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "77 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế quý 3/2024 của ngân hàng đạt 77 tỷ đồng, tăng 36% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "tăng 36%",
+        "label": "RATE",
+        "evidence": "đạt 77 tỷ đồng, tăng 36% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng 36% so với cùng kỳ năm 2023."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế luỹ kế 9 tháng của ngân hàng vẫn giảm 4,4% so với cùng kỳ, đạt 344 tỷ đồng."
+    },
+    {
+        "text": "giảm 4,4%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế luỹ kế 9 tháng của ngân hàng vẫn giảm 4,4% so với cùng kỳ, đạt 344 tỷ đồng."
+    },
+    {
+        "text": "344 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm 4,4% so với cùng kỳ, đạt 344 tỷ đồng."
+    },
+    {
+        "text": "Lợi nhuận 9 tháng Saigonbank sụt giảm",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận 9 tháng Saigonbank sụt giảm"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Lợi nhuận 9 tháng Saigonbank sụt giảm"
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận 9 tháng Saigonbank sụt giảm"
+    },
+    {
+        "text": "Ngân hàng TMCP Sài Gòn Công thương",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Sài Gòn Công thương (SaigonBank) cho biết lợi nhuận trước thuế 9 tháng đầu năm ước đạt hơn 200 tỷ đồng, thực hiện xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "SaigonBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Sài Gòn Công thương (SaigonBank) cho biết lợi nhuận trước thuế 9 tháng đầu năm ước đạt hơn 200 tỷ đồng, thực hiện xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế 9 tháng đầu năm ước đạt hơn 200 tỷ đồng, thực hiện xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "hơn 200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế 9 tháng đầu năm ước đạt hơn 200 tỷ đồng, thực hiện xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "55%",
+        "label": "RATE",
+        "evidence": "thực hiện xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "thực hiện xấp xấp xỉ 55% kế hoạch 2024."
+    },
+    {
+        "text": "SaigonBank",
+        "label": "ORG",
+        "evidence": "Cùng kỳ năm trước, lợi nhuận của SaigonBank đạt hơn 248 tỷ đồng."
+    },
+    {
+        "text": "hơn 248 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận của SaigonBank đạt hơn 248 tỷ đồng."
+    },
+    {
+        "text": "166 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng ghi nhận mức lợi nhuận trước thuế hơn 166 tỷ đồng trong nửa đầu năm."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "hơn 166 tỷ đồng trong nửa đầu năm."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "lợi nhuận trước thuế Saigonbank trong quý 3 ước đạt 34 tỷ đồng, giảm gần một nửa so với cùng kỳ 2023."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế Saigonbank trong quý 3 ước đạt 34 tỷ đồng, giảm gần một nửa so với cùng kỳ 2023."
+    },
+    {
+        "text": "34 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "quý 3 ước đạt 34 tỷ đồng, giảm gần một nửa so với cùng kỳ 2023."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "giảm gần một nửa so với cùng kỳ 2023."
+    },
+    {
+        "text": "BaoViet Bank",
+        "label": "ORG",
+        "evidence": "BaoViet Bank: Lợi nhuận 9 tháng đạt hơn 32 tỷ đồng."
+    },
+    {
+        "text": "Lợi nhuận 9 tháng đạt hơn 32 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "BaoViet Bank: Lợi nhuận 9 tháng đạt hơn 32 tỷ đồng."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "BaoViet Bank: Lợi nhuận 9 tháng đạt hơn 32 tỷ đồng."
+    },
+    {
+        "text": "hơn 32 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận 9 tháng đạt hơn 32 tỷ đồng."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm 2024, ngân hàng đã tăng 35% trích lập dự phòng so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 35%",
+        "label": "RATE",
+        "evidence": "ngân hàng đã tăng 35% trích lập dự phòng so với cùng kỳ năm trước."
+    },
+    {
+        "text": "hơn 32 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt hơn 32 tỷ đồng."
+    }
+]

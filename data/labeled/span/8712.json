@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh (HoSE)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thành phố Hồ Chí Minh (HoSE)"
+    },
+    {
+        "text": "loại bỏ đối với giao dịch bán cổ phiếuNgân hàng Thương mại cổ phần Quốc tế Việt Nam(mã VIB)",
+        "label": "EVENT",
+        "evidence": "đã thông báo về việc loại bỏ đối với giao dịch bán cổ phiếuNgân hàng Thương mại cổ phần Quốc tế Việt Nam(mã VIB)."
+    },
+    {
+        "text": "cổ phiếuNgân hàng Thương mại cổ phần Quốc tế Việt Nam",
+        "label": "ASSET",
+        "evidence": "giao dịch bán cổ phiếuNgân hàng Thương mại cổ phần Quốc tế Việt Nam(mã VIB)"
+    },
+    {
+        "text": "Ngân hàng Thương mại cổ phần Quốc tế Việt Nam",
+        "label": "ORG",
+        "evidence": "cổ phiếuNgân hàng Thương mại cổ phần Quốc tế Việt Nam(mã VIB)"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "Việt Nam(mã VIB)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "giám sát của HoSE"
+    },
+    {
+        "text": "Ủy ban Chứng khoán Nhà nước",
+        "label": "ORG",
+        "evidence": "ý kiến của Ủy ban Chứng khoán Nhà nước"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "ngày 01/11/2024"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "nhà đầu tư, HoSE thông báo"
+    },
+    {
+        "text": "loại bỏ đối với giao dịch bán 2.610.349 cổ phiếu VIB ngày 31/10/2024 của bà Lê Thị Huệ",
+        "label": "EVENT",
+        "evidence": "thông báo thực hiện loại bỏ đối với giao dịch bán 2.610.349 cổ phiếu VIB ngày 31/10/2024 của bà Lê Thị Huệ"
+    },
+    {
+        "text": "2.610.349 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "giao dịch bán 2.610.349 cổ phiếu VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VIB ngày 31/10/2024"
+    },
+    {
+        "text": "31/10/2024",
+        "label": "DATE",
+        "evidence": "ngày 31/10/2024"
+    },
+    {
+        "text": "bà Lê Thị Huệ",
+        "label": "PERSON",
+        "evidence": "của bà Lê Thị Huệ"
+    },
+    {
+        "text": "ông Đặng Khắc Vỹ",
+        "label": "PERSON",
+        "evidence": "liên quan đến ông Đặng Khắc Vỹ"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT của VIB"
+    },
+    {
+        "text": "không công bố thông tin, không báo cáo trước khi giao dịch",
+        "label": "EVENT",
+        "evidence": "do không công bố thông tin, không báo cáo trước khi giao dịch."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "báo cáo quản trị của VIB"
+    },
+    {
+        "text": "bà Lê Thị Huệ",
+        "label": "PERSON",
+        "evidence": "bà Lê Thị Huệ là chị dâu của ông Lê Khắc Vỹ."
+    },
+    {
+        "text": "ông Lê Khắc Vỹ",
+        "label": "PERSON",
+        "evidence": "chị dâu của ông Lê Khắc Vỹ."
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VIB bất ngờ"
+    },
+    {
+        "text": "29/10",
+        "label": "DATE",
+        "evidence": "phiên 29/10"
+    },
+    {
+        "text": "hơn 300 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "lên tới hơn 300 triệu cổ phần."
+    },
+    {
+        "text": "Ngân hàng Commonwealth Bank of Australia",
+        "label": "ORG",
+        "evidence": "Ngân hàng Commonwealth Bank of Australia (CBA)"
+    },
+    {
+        "text": "CBA",
+        "label": "ORG",
+        "evidence": "Australia (CBA)"
+    },
+    {
+        "text": "bán khoảng 10% cổ phần của VIB",
+        "label": "EVENT",
+        "evidence": "CBA) thông báo đã bán khoảng 10% cổ phần của VIB thông qua Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "bán khoảng 10% cổ phần"
+    },
+    {
+        "text": "cổ phần của VIB",
+        "label": "ASSET",
+        "evidence": "khoảng 10% cổ phần của VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "cổ phần của VIB"
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán TP HCM",
+        "label": "ORG",
+        "evidence": "thông qua Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "TP HCM (HoSE)"
+    },
+    {
+        "text": "29/10",
+        "label": "DATE",
+        "evidence": "vào ngày 29/10"
+    },
+    {
+        "text": "31/10",
+        "label": "DATE",
+        "evidence": "vào ngày 31/10"
+    },
+    {
+        "text": "320 triệu AUD",
+        "label": "MONEY",
+        "evidence": "khoảng 320 triệu AUD"
+    },
+    {
+        "text": "hơn 5.300 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "tương đương hơn 5.300 tỉ đồng."
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "Hồi tháng 6"
+    },
+    {
+        "text": "Đại hội đồng cổ đông bất thường VIB đã thông qua việc giảm tỷ lệ sở hữu nước ngoài từ 20,5% xuống 4,99%",
+        "label": "EVENT",
+        "evidence": "Đại hội đồng cổ đông bất thường VIB đã thông qua việc giảm tỷ lệ sở hữu nước ngoài từ 20,5% xuống 4,99%"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "cổ đông bất thường VIB"
+    },
+    {
+        "text": "20,5%",
+        "label": "RATE",
+        "evidence": "từ 20,5% xuống 4,99%"
+    },
+    {
+        "text": "4,99%",
+        "label": "RATE",
+        "evidence": "xuống 4,99%"
+    },
+    {
+        "text": "1/7/2024",
+        "label": "DATE",
+        "evidence": "từ ngày 1/7/2024."
+    }
+]

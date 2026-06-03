@@ -1,0 +1,67 @@
+[
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "thông tin thẻ hiển thị trên ứng dụng VCB Digibank"
+    },
+    {
+        "text": "Digibank",
+        "label": "ASSET",
+        "evidence": "SmartOTP, mobile Push trên Digibank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "các quy định cấm vận của Vietcombank"
+    },
+    {
+        "text": "rửa tiền",
+        "label": "EVENT",
+        "evidence": "rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt"
+    },
+    {
+        "text": "tài trợ khủng bố",
+        "label": "EVENT",
+        "evidence": "rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt"
+    },
+    {
+        "text": "tài trợ phổ biến vũ khí hủy diệt hàng loạt",
+        "label": "EVENT",
+        "evidence": "rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt"
+    },
+    {
+        "text": "mua bán tiền ảo",
+        "label": "EVENT",
+        "evidence": "các giao dịch mua bán tiền ảo"
+    },
+    {
+        "text": "chuyển tiền/nạp tiền vào tài khoản/ví điện tử tại nước ngoài",
+        "label": "EVENT",
+        "evidence": "các giao dịch chuyển tiền/nạp tiền vào tài khoản/ví điện tử tại nước ngoài"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "theo quy định của Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trang thông tin điện tử chính thức của Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lưu ý, Vietcombank không gọi điện"
+    },
+    {
+        "text": "Kênh ngân hàng điện tử VCB",
+        "label": "ASSET",
+        "evidence": "khóa thẻ trên Kênh ngân hàng điện tử VCB"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "theo quy định của Vietcombank."
+    }
+]

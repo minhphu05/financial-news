@@ -1,0 +1,527 @@
+[
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo biểu lãi suất mới nhất vừa được HDBank công bố, ngân hàng này tiếp tục giảm mạnh lãi suất huy động tại nhiều kỳ hạn."
+    },
+    {
+        "text": "HDBank công bố",
+        "label": "EVENT",
+        "evidence": "Theo biểu lãi suất mới nhất vừa được HDBank công bố, ngân hàng này tiếp tục giảm mạnh lãi suất huy động tại nhiều kỳ hạn."
+    },
+    {
+        "text": "giảm mạnh lãi suất huy động tại nhiều kỳ hạn",
+        "label": "EVENT",
+        "evidence": "HDBank công bố, ngân hàng này tiếp tục giảm mạnh lãi suất huy động tại nhiều kỳ hạn."
+    },
+    {
+        "text": "giảm 0,5 điểm %",
+        "label": "EVENT",
+        "evidence": "Cụ thể, lãi suất tiền gửi tại các kỳ hạn từ 1 tháng đến dưới 6 tháng đồng loạt giảm 0,5 điểm %, từ mức trần 4,75%/năm theo quy định xuống còn 4,25%/năm;"
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "đồng loạt giảm 0,5 điểm %, từ mức trần 4,75%/năm theo quy định xuống còn 4,25%/năm;"
+    },
+    {
+        "text": "4,75%/năm",
+        "label": "RATE",
+        "evidence": "từ mức trần 4,75%/năm theo quy định xuống còn 4,25%/năm;"
+    },
+    {
+        "text": "4,25%/năm",
+        "label": "RATE",
+        "evidence": "quy định xuống còn 4,25%/năm;"
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "lãi suất các kỳ hạn chính như 6 tháng, 12 tháng và 13 tháng giảm 0,2 điểm % xuống mức 7,3%/năm;"
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,2 điểm % xuống mức 7,3%/năm;"
+    },
+    {
+        "text": "7,3%/năm",
+        "label": "RATE",
+        "evidence": "xuống mức 7,3%/năm;"
+    },
+    {
+        "text": "đợt giảm lãi suất huy động lần thứ 4 liên tiếp của HDBank",
+        "label": "EVENT",
+        "evidence": "Đây là đợt giảm lãi suất huy động lần thứ 4 liên tiếp của HDBank trong chưa đầy 1 tháng qua."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "đợt giảm lãi suất huy động lần thứ 4 liên tiếp của HDBank trong chưa đầy 1 tháng qua."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "trong chưa đầy 1 tháng qua."
+    },
+    {
+        "text": "31/5",
+        "label": "DATE",
+        "evidence": "ngân hàng này đã có 3 đợt điều chỉnh khác diễn ra vào ngày 31/5, 12/6 và 19/6."
+    },
+    {
+        "text": "12/6",
+        "label": "DATE",
+        "evidence": "ngân hàng này đã có 3 đợt điều chỉnh khác diễn ra vào ngày 31/5, 12/6 và 19/6."
+    },
+    {
+        "text": "19/6",
+        "label": "DATE",
+        "evidence": "ngân hàng này đã có 3 đợt điều chỉnh khác diễn ra vào ngày 31/5, 12/6 và 19/6."
+    },
+    {
+        "text": "26/6",
+        "label": "DATE",
+        "evidence": "Từ ngày 26/6, OceanBank đồng loạt giảm 0,3 - 0,4% lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Từ ngày 26/6, OceanBank đồng loạt giảm 0,3 - 0,4% lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "đồng loạt giảm 0,3 - 0,4% lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "OceanBank đồng loạt giảm 0,3 - 0,4% lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,3 - 0,4%",
+        "label": "RATE",
+        "evidence": "đồng loạt giảm 0,3 - 0,4% lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "7,8%/năm",
+        "label": "RATE",
+        "evidence": "Hiện lãi suất cao nhất mà ngân hàng này niêm yết là 7,8%/năm dành cho các kỳ hạn từ 18 tháng trở lên, theo hình thức gửi tiền online."
+    },
+    {
+        "text": "đợt điều chỉnh lãi suất thứ ba liên tiếp của Oceanbank",
+        "label": "EVENT",
+        "evidence": "Đây là đợt điều chỉnh lãi suất thứ ba liên tiếp của Oceanbank trong chưa đầy nửa tháng qua."
+    },
+    {
+        "text": "Oceanbank",
+        "label": "ORG",
+        "evidence": "Đây là đợt điều chỉnh lãi suất thứ ba liên tiếp của Oceanbank trong chưa đầy nửa tháng qua."
+    },
+    {
+        "text": "nửa tháng",
+        "label": "DATE",
+        "evidence": "trong chưa đầy nửa tháng qua."
+    },
+    {
+        "text": "19/6",
+        "label": "DATE",
+        "evidence": "Trước đó, ngân hàng này cũng đã thay đổi biểu lãi suất huy động vào ngày 19/6 và 17/6."
+    },
+    {
+        "text": "17/6",
+        "label": "DATE",
+        "evidence": "Trước đó, ngân hàng này cũng đã thay đổi biểu lãi suất huy động vào ngày 19/6 và 17/6."
+    },
+    {
+        "text": "thay đổi biểu lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "ngân hàng này cũng đã thay đổi biểu lãi suất huy động vào ngày 19/6 và 17/6."
+    },
+    {
+        "text": "26/6",
+        "label": "DATE",
+        "evidence": "Từ ngày 26/6, NCB giảm 0,1 điểm % lãi suất huy động 6 tháng xuống còn 7,3%."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "Từ ngày 26/6, NCB giảm 0,1 điểm % lãi suất huy động 6 tháng xuống còn 7,3%."
+    },
+    {
+        "text": "giảm 0,1 điểm % lãi suất huy động 6 tháng",
+        "label": "EVENT",
+        "evidence": "NCB giảm 0,1 điểm % lãi suất huy động 6 tháng xuống còn 7,3%."
+    },
+    {
+        "text": "0,1 điểm %",
+        "label": "RATE",
+        "evidence": "NCB giảm 0,1 điểm % lãi suất huy động 6 tháng xuống còn 7,3%."
+    },
+    {
+        "text": "7,3%",
+        "label": "RATE",
+        "evidence": "xuống còn 7,3%."
+    },
+    {
+        "text": "lần giảm lãi suất huy động thứ năm liên tiếp kể từ đầu tháng 6 của NCB",
+        "label": "EVENT",
+        "evidence": "Đây là lần giảm lãi suất huy động thứ năm liên tiếp kể từ đầu tháng 6 của NCB."
+    },
+    {
+        "text": "đầu tháng 6",
+        "label": "DATE",
+        "evidence": "kể từ đầu tháng 6 của NCB."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "kể từ đầu tháng 6 của NCB."
+    },
+    {
+        "text": "3/6",
+        "label": "DATE",
+        "evidence": "4 lần trước diễn ra vào ngày 3/6, 8/6, 13/6, 17/6 và 21/6."
+    },
+    {
+        "text": "8/6",
+        "label": "DATE",
+        "evidence": "4 lần trước diễn ra vào ngày 3/6, 8/6, 13/6, 17/6 và 21/6."
+    },
+    {
+        "text": "13/6",
+        "label": "DATE",
+        "evidence": "4 lần trước diễn ra vào ngày 3/6, 8/6, 13/6, 17/6 và 21/6."
+    },
+    {
+        "text": "17/6",
+        "label": "DATE",
+        "evidence": "4 lần trước diễn ra vào ngày 3/6, 8/6, 13/6, 17/6 và 21/6."
+    },
+    {
+        "text": "21/6",
+        "label": "DATE",
+        "evidence": "4 lần trước diễn ra vào ngày 3/6, 8/6, 13/6, 17/6 và 21/6."
+    },
+    {
+        "text": "lãi suất huy động các kỳ hạn từ 1 tháng đến dưới 6 tháng của NCB đã giảm 0,25 điểm %",
+        "label": "EVENT",
+        "evidence": "Sau 5 lần giảm liên tiếp, lãi suất huy động các kỳ hạn từ 1 tháng đến dưới 6 tháng của NCB đã giảm 0,25 điểm %, trong khi các kỳ hạn từ 6 tháng trở lên giảm 0,55 – 0,8 điểm %."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "lãi suất huy động các kỳ hạn từ 1 tháng đến dưới 6 tháng của NCB đã giảm 0,25 điểm %,"
+    },
+    {
+        "text": "0,25 điểm %",
+        "label": "RATE",
+        "evidence": "của NCB đã giảm 0,25 điểm %, trong khi các kỳ hạn từ 6 tháng trở lên giảm 0,55 – 0,8 điểm %."
+    },
+    {
+        "text": "các kỳ hạn từ 6 tháng trở lên giảm 0,55 – 0,8 điểm %",
+        "label": "EVENT",
+        "evidence": "trong khi các kỳ hạn từ 6 tháng trở lên giảm 0,55 – 0,8 điểm %."
+    },
+    {
+        "text": "0,55 – 0,8 điểm %",
+        "label": "RATE",
+        "evidence": "trong khi các kỳ hạn từ 6 tháng trở lên giảm 0,55 – 0,8 điểm %."
+    },
+    {
+        "text": "sáng hôm nay (27/6)",
+        "label": "DATE",
+        "evidence": "Khảo sát biểu lãi suất niêm yết trên website của 34 ngân hàng trong nước vào sáng hôm nay (27/6) cho thấy, không còn ngân hàng nào niêm yết lãi suất huy động trên mức 8%/năm cho kỳ hạn 12 tháng."
+    },
+    {
+        "text": "27/6",
+        "label": "DATE",
+        "evidence": "Khảo sát biểu lãi suất niêm yết trên website của 34 ngân hàng trong nước vào sáng hôm nay (27/6) cho thấy, không còn ngân hàng nào niêm yết lãi suất huy động trên mức 8%/năm cho kỳ hạn 12 tháng."
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "không còn ngân hàng nào niêm yết lãi suất huy động trên mức 8%/năm cho kỳ hạn 12 tháng."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Theo đó, hiện mức lãi suất cao nhất được áp dụng cho kỳ hạn này là 8% do GPBank niêm yết cho hình thức gửi tiền trực tuyến."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "là 8% do GPBank niêm yết cho hình thức gửi tiền trực tuyến."
+    },
+    {
+        "text": "GPBank niêm yết cho hình thức gửi tiền trực tuyến",
+        "label": "EVENT",
+        "evidence": "là 8% do GPBank niêm yết cho hình thức gửi tiền trực tuyến."
+    },
+    {
+        "text": "7,5 – 7,8%",
+        "label": "RATE",
+        "evidence": "hầu hết đang niêm yết lãi suất kỳ hạn 12 tháng ở mức 7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "niêm yết lãi suất kỳ hạn 12 tháng ở mức 7,5 – 7,8%",
+        "label": "EVENT",
+        "evidence": "hầu hết đang niêm yết lãi suất kỳ hạn 12 tháng ở mức 7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "7,5 – 7,8% như ABBank, BacABank, VietBank, OceanBank, Nam A Bank, BVBank, SHB, VietABank, NCB, OCB và Eximbank."
+    },
+    {
+        "text": "7 - 7,2%/năm",
+        "label": "RATE",
+        "evidence": "Tại nhóm ngân hàng tư nhân lớn, mức lãi suất áp dụng cho kỳ hạn 1 năm dao động trong khoảng 7 - 7,2%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng thương mại nhà nước gồm Agribank, BIDV, Vietcombank, Vietinbank có lãi suất tiền gửi 12 tháng thấp nhất thị trường là 6,3%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng thương mại nhà nước gồm Agribank, BIDV, Vietcombank, Vietinbank có lãi suất tiền gửi 12 tháng thấp nhất thị trường là 6,3%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng thương mại nhà nước gồm Agribank, BIDV, Vietcombank, Vietinbank có lãi suất tiền gửi 12 tháng thấp nhất thị trường là 6,3%/năm."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Nhóm ngân hàng thương mại nhà nước gồm Agribank, BIDV, Vietcombank, Vietinbank có lãi suất tiền gửi 12 tháng thấp nhất thị trường là 6,3%/năm."
+    },
+    {
+        "text": "6,3%/năm",
+        "label": "RATE",
+        "evidence": "có lãi suất tiền gửi 12 tháng thấp nhất thị trường là 6,3%/năm."
+    },
+    {
+        "text": "27/6",
+        "label": "DATE",
+        "evidence": "Lãi suất cao nhất được niêm yết tại website các ngân hàng ngày 27/6. (Quốc Thụy tổng hợp)"
+    },
+    {
+        "text": "Quốc Thụy",
+        "label": "PERSON",
+        "evidence": "Lãi suất cao nhất được niêm yết tại website các ngân hàng ngày 27/6. (Quốc Thụy tổng hợp)"
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Hồi đầu năm 2023, ngoại trừ nhóm Big4, tất cả ngân hàng tư nhân đều niêm yết mức lãi suất trên 9% cho kỳ hạn 12 tháng;"
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "Hồi đầu năm 2023, ngoại trừ nhóm Big4, tất cả ngân hàng tư nhân đều niêm yết mức lãi suất trên 9% cho kỳ hạn 12 tháng;"
+    },
+    {
+        "text": "niêm yết mức lãi suất trên 9% cho kỳ hạn 12 tháng",
+        "label": "EVENT",
+        "evidence": "tất cả ngân hàng tư nhân đều niêm yết mức lãi suất trên 9% cho kỳ hạn 12 tháng;"
+    },
+    {
+        "text": "trên 9%",
+        "label": "RATE",
+        "evidence": "niêm yết mức lãi suất trên 9% cho kỳ hạn 12 tháng;"
+    },
+    {
+        "text": "áp dụng mức trên dưới 10% cho kỳ hạn này",
+        "label": "EVENT",
+        "evidence": "thậm chí một số nhà băng còn áp dụng mức trên dưới 10% cho kỳ hạn này."
+    },
+    {
+        "text": "trên dưới 10%",
+        "label": "RATE",
+        "evidence": "thậm chí một số nhà băng còn áp dụng mức trên dưới 10% cho kỳ hạn này."
+    },
+    {
+        "text": "lãi suất huy động 12 tháng niêm yết tại các ngân hàng đã giảm khoảng 1,5 – 3 điểm %",
+        "label": "EVENT",
+        "evidence": "Như vậy, lãi suất huy động 12 tháng niêm yết tại các ngân hàng đã giảm khoảng 1,5 – 3 điểm % so với mức đỉnh điểm ghi nhận cuối tháng 1/2023."
+    },
+    {
+        "text": "1,5 – 3 điểm %",
+        "label": "RATE",
+        "evidence": "đã giảm khoảng 1,5 – 3 điểm % so với mức đỉnh điểm ghi nhận cuối tháng 1/2023."
+    },
+    {
+        "text": "cuối tháng 1/2023",
+        "label": "DATE",
+        "evidence": "ghi nhận cuối tháng 1/2023."
+    },
+    {
+        "text": "giảm mạnh",
+        "label": "EVENT",
+        "evidence": "Lãi suất huy động đã giảm mạnh trong những tháng gần đây sau khi Ngân hàng Nhà nước (NHNN) có 4 lần giảm lãi suất điều hành chỉ trong vòng hơn 3 tháng qua."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) có 4 lần giảm lãi suất điều hành chỉ trong vòng hơn 3 tháng qua."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) có 4 lần giảm lãi suất điều hành chỉ trong vòng hơn 3 tháng qua."
+    },
+    {
+        "text": "4 lần giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước (NHNN) có 4 lần giảm lãi suất điều hành chỉ trong vòng hơn 3 tháng qua."
+    },
+    {
+        "text": "hơn 3 tháng",
+        "label": "DATE",
+        "evidence": "chỉ trong vòng hơn 3 tháng qua."
+    },
+    {
+        "text": "giữa tháng 3",
+        "label": "DATE",
+        "evidence": "Với 4 lần giảm kể từ giữa tháng 3, các loại lãi suất chính sách của NHNN đã giảm tổng cộng 1, 5 – 2 điểm % và đã đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "các loại lãi suất chính sách của NHNN đã giảm tổng cộng 1, 5 – 2 điểm % và đã đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "giảm tổng cộng 1, 5 – 2 điểm %",
+        "label": "EVENT",
+        "evidence": "các loại lãi suất chính sách của NHNN đã giảm tổng cộng 1, 5 – 2 điểm % và đã đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "1, 5 – 2 điểm %",
+        "label": "RATE",
+        "evidence": "đã giảm tổng cộng 1, 5 – 2 điểm % và đã đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022",
+        "label": "EVENT",
+        "evidence": "đã đảo ngược phần lớn mức tăng trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "trong 2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "tăng tổng cộng 2 điểm % mỗi loại lãi suất",
+        "label": "EVENT",
+        "evidence": "2 lần điều chỉnh năm 2022 (tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "2 điểm %",
+        "label": "RATE",
+        "evidence": "tăng tổng cộng 2 điểm % mỗi loại lãi suất)."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "bù trừ của NHNN đối với TCTD, chi nhánh ngân hàng nước ngoài đã giảm về bằng mức thấp kỷ lục duy trì trong giai đoạn từ tháng 10/2020 – tháng 9/2022."
+    },
+    {
+        "text": "TCTD",
+        "label": "ORG",
+        "evidence": "bù trừ của NHNN đối với TCTD, chi nhánh ngân hàng nước ngoài đã giảm về bằng mức thấp kỷ lục duy trì trong giai đoạn từ tháng 10/2020 – tháng 9/2022."
+    },
+    {
+        "text": "lãi suất cho vay qua đêm trong thanh toán điện tử liên ngân hàng và cho vay bù đắp thiếu hụt vốn trong thanh toán bù trừ của NHNN đối với TCTD, chi nhánh ngân hàng nước ngoài đã giảm về bằng mức thấp kỷ lục",
+        "label": "EVENT",
+        "evidence": "lãi suất cho vay qua đêm trong thanh toán điện tử liên ngân hàng và cho vay bù đắp thiếu hụt vốn trong thanh toán bù trừ của NHNN đối với TCTD, chi nhánh ngân hàng nước ngoài đã giảm về bằng mức thấp kỷ lục duy trì trong giai đoạn từ tháng 10/2020 – tháng 9/2022."
+    },
+    {
+        "text": "tháng 10/2020",
+        "label": "DATE",
+        "evidence": "duy trì trong giai đoạn từ tháng 10/2020 – tháng 9/2022."
+    },
+    {
+        "text": "tháng 9/2022",
+        "label": "DATE",
+        "evidence": "duy trì trong giai đoạn từ tháng 10/2020 – tháng 9/2022."
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Trong khi lãi suất tái chiết khấu và tái cấp vốn chỉ còn cao hơn 0,5 điểm % so với giai đoạn này."
+    },
+    {
+        "text": "giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "Nói về các quyết định giảm lãi suất điều hành, NHNN cho biết việc tiếp tục giảm lãi suất điều hành khẳng định và xác lập xu hướng giảm lãi suất cho thị trường trong thời gian tới,"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Nói về các quyết định giảm lãi suất điều hành, NHNN cho biết việc tiếp tục giảm lãi suất điều hành khẳng định và xác lập xu hướng giảm lãi suất cho thị trường trong thời gian tới,"
+    },
+    {
+        "text": "tiếp tục giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "NHNN cho biết việc tiếp tục giảm lãi suất điều hành khẳng định và xác lập xu hướng giảm lãi suất cho thị trường trong thời gian tới,"
+    },
+    {
+        "text": "giảm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "TCTD mạnh dạn và quyết liệt hơn trong việc giảm lãi suất cho vay, đồng hành cùng doanh nghiệp và người dân, góp phần thúc đẩy tăng trưởng và phục hồi kinh tế."
+    },
+    {
+        "text": "Đào Minh Tú",
+        "label": "PERSON",
+        "evidence": "- Phó Thống đốc Đào Minh Tú cho biết."
+    }
+]

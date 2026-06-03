@@ -1,0 +1,337 @@
+[
+    {
+        "text": "ngày 12/5",
+        "label": "DATE",
+        "evidence": "áp dụng từ ngày 12/5 của VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "của VPBank, lãi suất áp dụng"
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "đã đồng loạt giảm 0,2 điểm %"
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "chỉ còn 8%/năm"
+    },
+    {
+        "text": "7,2%/năm",
+        "label": "RATE",
+        "evidence": "giảm về 7,2%/năm"
+    },
+    {
+        "text": "VPBank, lãi suất áp dụng cho các kỳ hạn trên 12 tháng đã đồng loạt giảm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "của VPBank, lãi suất áp dụng cho các kỳ hạn trên 12 tháng đã đồng loạt giảm 0,2 điểm %"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank cũng giảm 0,1 - 0,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "giảm 0,1 - 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "cũng giảm 0,1 - 0,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "7,8%",
+        "label": "RATE",
+        "evidence": "TPBank áp dụng là 7,8%"
+    },
+    {
+        "text": "TPBank cũng giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "TPBank cũng giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước VPBank và TPBank"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Trước VPBank và TPBank"
+    },
+    {
+        "text": "ngày 11/5",
+        "label": "DATE",
+        "evidence": "Từ ngày 11/5, lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "trên 12 tháng tại Agribank đồng loạt giảm 0,2 điểm %"
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "đồng loạt giảm 0,2 điểm % so với trước đó"
+    },
+    {
+        "text": "7%/năm",
+        "label": "RATE",
+        "evidence": "xuống còn 7%/năm"
+    },
+    {
+        "text": "giảm 0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Agribank cũng giảm 0,3 điểm % lãi suất huy động"
+    },
+    {
+        "text": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đồng loạt giảm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm"
+    },
+    {
+        "text": "Agribank cũng giảm 0,3 điểm % lãi suất huy động tại các kỳ hạn từ 1 đến dưới 6 tháng",
+        "label": "EVENT",
+        "evidence": "Agribank cũng giảm 0,3 điểm % lãi suất huy động tại các kỳ hạn từ 1 đến dưới 6 tháng"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank cũng giảm 0,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "giảm 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Techcombank cũng giảm 0,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "Techcombank cũng giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "Techcombank cũng giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên"
+    },
+    {
+        "text": "ngày 10/5",
+        "label": "DATE",
+        "evidence": "Từ ngày 10/5, OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "giảm 0,4 - 1,2 điểm %",
+        "label": "RATE",
+        "evidence": "cũng giảm 0,4 - 1,2 điểm % lãi suất huy động"
+    },
+    {
+        "text": "OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn"
+    },
+    {
+        "text": "giảm thêm 0,3 điểm %",
+        "label": "RATE",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng"
+    },
+    {
+        "text": "ngày 9/5",
+        "label": "DATE",
+        "evidence": "từ ngày 9/5"
+    },
+    {
+        "text": "8,7%",
+        "label": "RATE",
+        "evidence": "HDBank áp dụng là 8,7% dành cho kỳ hạn 13 tháng"
+    },
+    {
+        "text": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng",
+        "label": "EVENT",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng từ ngày 9/5"
+    },
+    {
+        "text": "đầu tháng 2",
+        "label": "DATE",
+        "evidence": "từ đầu tháng 2 đến nay"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành"
+    },
+    {
+        "text": "giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành vào ngày 15/3 và 3/4"
+    },
+    {
+        "text": "ngày 15/3",
+        "label": "DATE",
+        "evidence": "vào ngày 15/3 và 3/4"
+    },
+    {
+        "text": "3/4",
+        "label": "DATE",
+        "evidence": "vào ngày 15/3 và 3/4"
+    },
+    {
+        "text": "giảm khoảng 0,5 – 1,7%",
+        "label": "RATE",
+        "evidence": "đã giảm khoảng 0,5 – 1,7% ở tất cả kỳ hạn"
+    },
+    {
+        "text": "sáng ngày 12/5",
+        "label": "DATE",
+        "evidence": "trong sáng ngày 12/5 cho thấy"
+    },
+    {
+        "text": "8,8%/năm",
+        "label": "RATE",
+        "evidence": "là 8,8%/năm, được ghi nhận tại ABBank"
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "được ghi nhận tại ABBank"
+    },
+    {
+        "text": "8,5%",
+        "label": "RATE",
+        "evidence": "Mức lãi suất trên 8,5% cũng chỉ còn 2 ngân hàng"
+    },
+    {
+        "text": "Viet A Bank",
+        "label": "ORG",
+        "evidence": "Viet A Bank (8,7%)"
+    },
+    {
+        "text": "8,7%",
+        "label": "RATE",
+        "evidence": "Viet A Bank (8,7%)"
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "và VietBank (8,6%)"
+    },
+    {
+        "text": "8,6%",
+        "label": "RATE",
+        "evidence": "và VietBank (8,6%)"
+    },
+    {
+        "text": "giảm lãi suất huy động 12 tháng xuống dưới mức 8%/năm",
+        "label": "EVENT",
+        "evidence": "đã giảm lãi suất huy động 12 tháng xuống dưới mức 8%/năm"
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "xuống dưới mức 8%/năm"
+    },
+    {
+        "text": "giữa tháng 1",
+        "label": "DATE",
+        "evidence": "hồi giữa tháng 1"
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "ngoại trừ nhóm Big4"
+    },
+    {
+        "text": "9%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất từ 9%/năm trở lên"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "thậm chí xấp xỉ 10% tại một số ngân hàng tư nhân nhỏ"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "chủ trương của Chính phủ và NHNN"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "chủ trương của Chính phủ và NHNN"
+    },
+    {
+        "text": "giảm mặt bằng lãi suất",
+        "label": "EVENT",
+        "evidence": "việc giảm mặt bằng lãi suất trong thời gian tới"
+    },
+    {
+        "text": "4 ngân hàng có vốn nhà nước đã cam kết đồng thuận với chủ trương của Chính phủ và NHNN trong việc giảm mặt bằng lãi suất",
+        "label": "EVENT",
+        "evidence": "4 ngân hàng có vốn nhà nước đã cam kết đồng thuận với chủ trương của Chính phủ và NHNN trong việc giảm mặt bằng lãi suất trong thời gian tới"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN cho biết sẽ tiếp tục đưa ra nhiều giải pháp chính sách"
+    },
+    {
+        "text": "hỗ trợ các ngân hàng giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "một mặt hỗ trợ các ngân hàng giảm lãi suất"
+    },
+    {
+        "text": "VnDirect",
+        "label": "ORG",
+        "evidence": "chứng khoán VnDirect kỳ vọng"
+    },
+    {
+        "text": "7,0%",
+        "label": "RATE",
+        "evidence": "hạ về mức 7,0% trong năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "hạ về mức 7,0% trong năm 2023"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "(2) Chính phủ thúc đẩy đầu tư công"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "(3) NHNN có thể giảm thêm lãi suất điều hành"
+    },
+    {
+        "text": "giảm thêm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "NHNN có thể giảm thêm lãi suất điều hành"
+    },
+    {
+        "text": "FED",
+        "label": "ORG",
+        "evidence": "nếu FED đảo chiều chính sách tiền tệ"
+    },
+    {
+        "text": "đảo chiều chính sách tiền tệ",
+        "label": "EVENT",
+        "evidence": "FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023"
+    },
+    {
+        "text": "nửa cuối năm 2023",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm 2023"
+    }
+]

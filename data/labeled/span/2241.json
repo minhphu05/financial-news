@@ -1,0 +1,537 @@
+[
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Đại diện tiêu biểu là NVIDIA vừa \"bốc hơi\" 300 tỷ USD vốn hóa trong nửa cuối tháng 6 sau khi lập đỉnh lịch sử."
+    },
+    {
+        "text": "300 tỷ USD",
+        "label": "MONEY",
+        "evidence": "vừa \"bốc hơi\" 300 tỷ USD vốn hóa trong nửa cuối tháng 6 sau khi lập đỉnh lịch sử."
+    },
+    {
+        "text": "nửa cuối tháng 6",
+        "label": "DATE",
+        "evidence": "trong nửa cuối tháng 6 sau khi lập đỉnh lịch sử."
+    },
+    {
+        "text": "lập đỉnh lịch sử",
+        "label": "EVENT",
+        "evidence": "sau khi lập đỉnh lịch sử."
+    },
+    {
+        "text": "một sự điều chỉnh lành mạnh",
+        "label": "EVENT",
+        "evidence": "coi đợt giảm giá này là \"một sự điều chỉnh lành mạnh\" nhưng không thể phủ nhận nhà đầu tư đã quá hưng phấn với cổ phiếu công nghệ thời gian qua."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "giảm từ đỉnh như FPT (-5,5%)"
+    },
+    {
+        "text": "-5,5%",
+        "label": "RATE",
+        "evidence": "FPT (-5,5%)"
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "VGI (-5,9%)"
+    },
+    {
+        "text": "-5,9%",
+        "label": "RATE",
+        "evidence": "VGI (-5,9%)"
+    },
+    {
+        "text": "CTR",
+        "label": "TICKER",
+        "evidence": "CTR (-10,4%)"
+    },
+    {
+        "text": "-10,4%",
+        "label": "RATE",
+        "evidence": "CTR (-10,4%)"
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "FOX (-13,8%)"
+    },
+    {
+        "text": "-13,8%",
+        "label": "RATE",
+        "evidence": "FOX (-13,8%)"
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "CMG (-11,8%)"
+    },
+    {
+        "text": "-11,8%",
+        "label": "RATE",
+        "evidence": "CMG (-11,8%)"
+    },
+    {
+        "text": "ELC",
+        "label": "TICKER",
+        "evidence": "ELC (-15,6%)"
+    },
+    {
+        "text": "-15,6%",
+        "label": "RATE",
+        "evidence": "ELC (-15,6%)"
+    },
+    {
+        "text": "ICT",
+        "label": "TICKER",
+        "evidence": "ICT (-23,9%)"
+    },
+    {
+        "text": "-23,9%",
+        "label": "RATE",
+        "evidence": "ICT (-23,9%)"
+    },
+    {
+        "text": "SBD",
+        "label": "TICKER",
+        "evidence": "SBD (-20,5%)"
+    },
+    {
+        "text": "-20,5%",
+        "label": "RATE",
+        "evidence": "SBD (-20,5%)"
+    },
+    {
+        "text": "MFS",
+        "label": "TICKER",
+        "evidence": "MFS (-38,8%)..."
+    },
+    {
+        "text": "-38,8%",
+        "label": "RATE",
+        "evidence": "MFS (-38,8%)..."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Điển hình như FPT với P/E cao hàng đầu lịch sử gần 28 lần"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Điển hình như FPT với P/E cao hàng đầu lịch sử gần 28 lần"
+    },
+    {
+        "text": "gần 28 lần",
+        "label": "RATE",
+        "evidence": "P/E cao hàng đầu lịch sử gần 28 lần"
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "VGI ở mức 230 lần"
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "VGI ở mức 230 lần"
+    },
+    {
+        "text": "230 lần",
+        "label": "RATE",
+        "evidence": "VGI ở mức 230 lần"
+    },
+    {
+        "text": "CMG",
+        "label": "ORG",
+        "evidence": "CMG ở mức 36 lần"
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "CMG ở mức 36 lần"
+    },
+    {
+        "text": "36 lần",
+        "label": "RATE",
+        "evidence": "CMG ở mức 36 lần"
+    },
+    {
+        "text": "ELC",
+        "label": "ORG",
+        "evidence": "ELC ở mức 25 lần"
+    },
+    {
+        "text": "ELC",
+        "label": "TICKER",
+        "evidence": "ELC ở mức 25 lần"
+    },
+    {
+        "text": "25 lần",
+        "label": "RATE",
+        "evidence": "ELC ở mức 25 lần"
+    },
+    {
+        "text": "cuối tháng 5",
+        "label": "DATE",
+        "evidence": "Trong một báo cáo hồi cuối tháng 5, VNDirect cho rằng, giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng, giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại",
+        "label": "EVENT",
+        "evidence": "giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "giá cổ phiếu FPT tăng vọt từ khi tin tức về mối quan hệ hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "hợp tác với NVIDIA xuất hiện, đẩy định giá lên cao nhất mọi thời đại."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "CTCK này dẫn chứng P/E của SOX (chỉ số ngành bán dẫn) vượt trội so với thị trường, cho thấy sự quan tâm mạnh mẽ của nhà đầu tư và niềm tin vào câu chuyện bán dẫn."
+    },
+    {
+        "text": "SOX",
+        "label": "ASSET",
+        "evidence": "P/E của SOX (chỉ số ngành bán dẫn)"
+    },
+    {
+        "text": "SOX",
+        "label": "TICKER",
+        "evidence": "P/E của SOX (chỉ số ngành bán dẫn)"
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Cụ thể, P/E của NVIDIA đã tăng đáng kể trong năm 2023 do niềm tin của thị trường vào triển vọng tương lai của hãng, được thúc đẩy bởi các khoản đầu tư chiến lược vào các ứng dụng hỗ trợ AI vượt xa chip bán dẫn."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "đã tăng đáng kể trong năm 2023 do niềm tin của thị trường"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Theo VNDirect, mặc dù đóng góp trực tiếp của bán dẫn hiện tại vào kết quả tài chính của FPT có thể không đáng kể, nhưng thị trường có thể sẵn sàng trả FPT một mức giá cao hơn và chờ đợi một câu chuyện xa hơn."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "kết quả tài chính của FPT có thể không đáng kể"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "kết quả tài chính của FPT có thể không đáng kể"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "sẵn sàng trả FPT một mức giá cao hơn"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "sẵn sàng trả FPT một mức giá cao hơn"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Từ đỉnh lịch sử, FPT và VGI đều giảm chưa đến 6% dù áp lực chốt lời là không hề nhỏ."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Từ đỉnh lịch sử, FPT và VGI đều giảm chưa đến 6% dù áp lực chốt lời là không hề nhỏ."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "FPT và VGI đều giảm chưa đến 6% dù áp lực chốt lời là không hề nhỏ."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "FPT và VGI đều giảm chưa đến 6% dù áp lực chốt lời là không hề nhỏ."
+    },
+    {
+        "text": "chưa đến 6%",
+        "label": "RATE",
+        "evidence": "đều giảm chưa đến 6% dù áp lực chốt lời là không hề nhỏ."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tại thời điểm đạt đỉnh, FPT đã tăng 64% trong khithị giá VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Tại thời điểm đạt đỉnh, FPT đã tăng 64% trong khithị giá VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "64%",
+        "label": "RATE",
+        "evidence": "FPT đã tăng 64% trong khithị giá VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "thị giá VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "thị giá VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "cao gấp 4,3 lần",
+        "label": "RATE",
+        "evidence": "VGIcao gấp 4,3 lần so với đầu năm."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong năm 2023, FOX, CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10% so với cùng kỳ, MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "FOX",
+        "label": "ORG",
+        "evidence": "Trong năm 2023, FOX, CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10% so với cùng kỳ, MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Trong năm 2023, FOX, CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10% so với cùng kỳ, MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "CMG",
+        "label": "ORG",
+        "evidence": "FOX, CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "FOX, CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "CTR",
+        "label": "ORG",
+        "evidence": "CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "CTR",
+        "label": "TICKER",
+        "evidence": "CMG, CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "SBD",
+        "label": "ORG",
+        "evidence": "CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "SBD",
+        "label": "TICKER",
+        "evidence": "CTR, SBD đều chỉ tăng trưởng lợi nhuận ở mức dưới 10%"
+    },
+    {
+        "text": "dưới 10%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận ở mức dưới 10% so với cùng kỳ"
+    },
+    {
+        "text": "MFS",
+        "label": "ORG",
+        "evidence": "MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "MFS",
+        "label": "TICKER",
+        "evidence": "MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "ICT",
+        "label": "ORG",
+        "evidence": "MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "ICT",
+        "label": "TICKER",
+        "evidence": "MFS và ICT thậm chí còn đi lùi."
+    },
+    {
+        "text": "quý đầu năm nay",
+        "label": "DATE",
+        "evidence": "Tình hình cũng không cải thiện nhiều trong quý đầu năm nay."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "ngay cả những cái tên đầu ngành nhưFPT, VGI mức độ hưởng lợi cũng khá hạn chế."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "ngay cả những cái tên đầu ngành nhưFPT, VGI mức độ hưởng lợi cũng khá hạn chế."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "nhưFPT, VGI mức độ hưởng lợi cũng khá hạn chế."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "nhưFPT, VGI mức độ hưởng lợi cũng khá hạn chế."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, FPT hay VGI đều có những câu chuyện riêng hấp dẫn để nhà đầu tư chấp nhận mức định giá đắt đỏ như vậy chứ không chỉ đơn thuần là xuôi theo sóng công nghệ, viễn thông."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Tuy nhiên, FPT hay VGI đều có những câu chuyện riêng hấp dẫn để nhà đầu tư chấp nhận mức định giá đắt đỏ như vậy chứ không chỉ đơn thuần là xuôi theo sóng công nghệ, viễn thông."
+    },
+    {
+        "text": "VGI",
+        "label": "ORG",
+        "evidence": "FPT hay VGI đều có những câu chuyện riêng hấp dẫn để nhà đầu tư chấp nhận mức định giá đắt đỏ như vậy chứ không chỉ đơn thuần là xuôi theo sóng công nghệ, viễn thông."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "FPT hay VGI đều có những câu chuyện riêng hấp dẫn để nhà đầu tư chấp nhận mức định giá đắt đỏ như vậy chứ không chỉ đơn thuần là xuôi theo sóng công nghệ, viễn thông."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT vốn là một cỗ máy tăng trưởng bền bỉ suốt nhiều năm qua"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "FPT vốn là một cỗ máy tăng trưởng bền bỉ suốt nhiều năm qua"
+    },
+    {
+        "text": "cái bắt tay với NVIDIA",
+        "label": "EVENT",
+        "evidence": "sẽ tiếp tục bứt phá sau cái bắt tay với NVIDIA và chiến lược M&A đã chứng minh được hiệu quả."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "cái bắt tay với NVIDIA và chiến lược M&A đã chứng minh được hiệu quả."
+    },
+    {
+        "text": "chiến lược M&A đã chứng minh được hiệu quả",
+        "label": "EVENT",
+        "evidence": "và chiến lược M&A đã chứng minh được hiệu quả."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "Viettel Global cũng đang ghi nhận những chuyển biến tích cực trong kết quả kinh doanh và hướng đến mục tiêu xoá lỗ luỹ kế trong năm nay."
+    },
+    {
+        "text": "xoá lỗ luỹ kế trong năm nay",
+        "label": "EVENT",
+        "evidence": "hướng đến mục tiêu xoá lỗ luỹ kế trong năm nay."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "KBSV dẫn dự báo của Gartner cho thấy, chi tiêu cho lĩnh vực công nghệ thông tin trong năm 2024 trên thế giới sẽ tăng trưởng ổn định ở mức 8%, đạt 5.100 tỷ USD nhờ kỳ vọng đầu tư vào Cloud, bảo mật thông tin, AI và tự động hoá."
+    },
+    {
+        "text": "Gartner",
+        "label": "ORG",
+        "evidence": "KBSV dẫn dự báo của Gartner cho thấy, chi tiêu cho lĩnh vực công nghệ thông tin trong năm 2024 trên thế giới sẽ tăng trưởng ổn định ở mức 8%, đạt 5.100 tỷ USD nhờ kỳ vọng đầu tư vào Cloud, bảo mật thông tin, AI và tự động hoá."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "thông tin trong năm 2024 trên thế giới sẽ tăng trưởng ổn định ở mức 8%"
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "tăng trưởng ổn định ở mức 8%, đạt 5.100 tỷ USD"
+    },
+    {
+        "text": "5.100 tỷ USD",
+        "label": "MONEY",
+        "evidence": "8%, đạt 5.100 tỷ USD nhờ kỳ vọng đầu tư vào Cloud, bảo mật thông tin, AI và tự động hoá."
+    },
+    {
+        "text": "13,8%",
+        "label": "RATE",
+        "evidence": "Lĩnh vực phần mềm và dịch vụ công nghệ thông tin được cho là sẽ tăng trưởng lần lượt 13,8% và 10,4%."
+    },
+    {
+        "text": "10,4%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lần lượt 13,8% và 10,4%."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Về dài hạn, KBSV cho rằng chi tiêu cho lĩnh vực công nghệ sẽ tiếp tục tăng trưởng do sự phát triển nhanh của công nghệ, đòi hỏi các doanh nghiệp, tổ chức phải mạnh tay đầu tư để cạnh tranh, thích nghi với xu thế tất yếu; thói quen của người tiêu dùng dần thay đổi, phụ thuộc vào các sản phẩm công nghệ thông tin; Chính phủ các nước ưu tiên phát triển công nghệ để bắt kịp sự thay đổi của thế giới."
+    },
+    {
+        "text": "hai chữ số",
+        "label": "RATE",
+        "evidence": "KBSV dự báo các công ty công nghệ vẫn sẽ duy trì được đà tăng trưởng kết quả kinh doanh hai chữ số."
+    },
+    {
+        "text": "Agriseco",
+        "label": "ORG",
+        "evidence": "Đối với ngành viễn thông, Agriseco dự báo tiếp tục tăng trưởng về lợi nhuận nhờ đẩy mạnh phát triển 5G."
+    },
+    {
+        "text": "năm 2024-2025",
+        "label": "DATE",
+        "evidence": "Năm 2024-2025 được kỳ vọng là giai đoạn triển khai rộng khắp mạng 5G ở các tỉnh, thành."
+    },
+    {
+        "text": "phát triển các trung tâm dữ liệu (data center)",
+        "label": "EVENT",
+        "evidence": "Chính phủ đã đẩy mạnh chính sách phát triển các trung tâm dữ liệu (data center), tạo cơ sở hạ tầng cho hoạt động viễn thông."
+    },
+    {
+        "text": "Gartner",
+        "label": "ORG",
+        "evidence": "Theo Gartner, việc phát triển data center giúp thúc đẩy 15% doanh thu hằng năm cho mảng viễn thông."
+    },
+    {
+        "text": "phát triển data center giúp thúc đẩy 15% doanh thu hằng năm cho mảng viễn thông",
+        "label": "EVENT",
+        "evidence": "việc phát triển data center giúp thúc đẩy 15% doanh thu hằng năm cho mảng viễn thông."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "thúc đẩy 15% doanh thu hằng năm cho mảng viễn thông."
+    }
+]

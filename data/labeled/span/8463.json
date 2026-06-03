@@ -1,0 +1,167 @@
+[
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế",
+        "label": "EVENT",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "tối đa 500 triệu USD",
+        "label": "MONEY",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "trái phiếu quốc tế",
+        "label": "ASSET",
+        "evidence": "CTCP Vinhomes (Mã:VHM) vừa công bố Nghị quyết của HĐQT về việc phê duyệt phát hành tối đa 500 triệu USD trái phiếu quốc tế."
+    },
+    {
+        "text": "trái phiếu không chuyển đổi, không kèm chứng quyền và có tài sản bảo đảm",
+        "label": "ASSET",
+        "evidence": "Đây là trái phiếu không chuyển đổi, không kèm chứng quyền và có tài sản bảo đảm."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "Mệnh giá mỗi trái phiếu dự kiến là 200.000 USD."
+    },
+    {
+        "text": "200.000 USD",
+        "label": "MONEY",
+        "evidence": "Mệnh giá mỗi trái phiếu dự kiến là 200.000 USD."
+    },
+    {
+        "text": "phát hành trái phiếu",
+        "label": "EVENT",
+        "evidence": "Dự kiến số tiền thu được từ việc phát hành trái phiếu sẽ được sử dụng để thanh toán các khoản phí, chi phí liên quan tới việc chào bán, phát hành trái phiếu;"
+    },
+    {
+        "text": "chào bán",
+        "label": "EVENT",
+        "evidence": "Dự kiến số tiền thu được từ việc phát hành trái phiếu sẽ được sử dụng để thanh toán các khoản phí, chi phí liên quan tới việc chào bán, phát hành trái phiếu;"
+    },
+    {
+        "text": "thực hiện các dự án đầu tư (không bao gồm xây dựng nhà ở)",
+        "label": "EVENT",
+        "evidence": "thực hiện các dự án đầu tư (không bao gồm xây dựng nhà ở) và thực hiện kế hoạch sản xuất, kinh doanh các dự án khác của công ty theo quy định."
+    },
+    {
+        "text": "thực hiện kế hoạch sản xuất, kinh doanh các dự án khác của công ty",
+        "label": "EVENT",
+        "evidence": "thực hiện các dự án đầu tư (không bao gồm xây dựng nhà ở) và thực hiện kế hoạch sản xuất, kinh doanh các dự án khác của công ty theo quy định."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Dự kiến, thời gian phát hành sẽ không muộn hơn tháng 4/2024."
+    },
+    {
+        "text": "tháng 4/2024",
+        "label": "DATE",
+        "evidence": "Dự kiến, thời gian phát hành sẽ không muộn hơn tháng 4/2024."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "Kỳ hạn các lô trái phiếu tối đa 5 năm kể từ thời điểm phát hành."
+    },
+    {
+        "text": "tối đa 5 năm",
+        "label": "DATE",
+        "evidence": "Kỳ hạn các lô trái phiếu tối đa 5 năm kể từ thời điểm phát hành."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Kỳ hạn các lô trái phiếu tối đa 5 năm kể từ thời điểm phát hành."
+    },
+    {
+        "text": "lãi suất cố định, thả nổi hoặc kết hợp",
+        "label": "RATE",
+        "evidence": "Lãi suất được áp dụng có thể là lãi suất cố định, thả nổi hoặc kết hợp phụ thuộc vào điều kiện thị trường."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2023",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Trước đó, tại ĐHĐCĐ thường niên 2023, HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore",
+        "label": "EVENT",
+        "evidence": "HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "tối đa 500 triệu USD",
+        "label": "MONEY",
+        "evidence": "HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán Singapore",
+        "label": "ORG",
+        "evidence": "HĐQT Vinhomes đã trình cổ đông thông qua phương án niêm yết tối đa 500 triệu USD trái phiếu tại Sở Giao dịch Chứng khoán Singapore."
+    },
+    {
+        "text": "thanh toán lãi 3 - 6 tháng/lần",
+        "label": "EVENT",
+        "evidence": "Dự kiến thanh toán lãi 3 - 6 tháng/lần, thanh toán gốc cuối kỳ hoặc trước hạn theo phê duyệt của HĐQT tùy thuộc vào thị trường và điều kiện phát hành cụ thể."
+    },
+    {
+        "text": "3 - 6 tháng/lần",
+        "label": "DATE",
+        "evidence": "Dự kiến thanh toán lãi 3 - 6 tháng/lần, thanh toán gốc cuối kỳ hoặc trước hạn theo phê duyệt của HĐQT tùy thuộc vào thị trường và điều kiện phát hành cụ thể."
+    },
+    {
+        "text": "thanh toán gốc cuối kỳ hoặc trước hạn",
+        "label": "EVENT",
+        "evidence": "Dự kiến thanh toán lãi 3 - 6 tháng/lần, thanh toán gốc cuối kỳ hoặc trước hạn theo phê duyệt của HĐQT tùy thuộc vào thị trường và điều kiện phát hành cụ thể."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Dự kiến thanh toán lãi 3 - 6 tháng/lần, thanh toán gốc cuối kỳ hoặc trước hạn theo phê duyệt của HĐQT tùy thuộc vào thị trường và điều kiện phát hành cụ thể."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Dự kiến thanh toán lãi 3 - 6 tháng/lần, thanh toán gốc cuối kỳ hoặc trước hạn theo phê duyệt của HĐQT tùy thuộc vào thị trường và điều kiện phát hành cụ thể."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Phương thức thanh toán lãi và gốc được điều chỉnh linh hoạt dựa vào tình hình thị trường tại thời điểm phát hành."
+    }
+]

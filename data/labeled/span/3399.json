@@ -1,0 +1,187 @@
+[
+    {
+        "text": "Chi nhánh Công ty TNHH Thép Hòa Phát Hưng Yên tại Bình Dương",
+        "label": "ORG",
+        "evidence": "Chi nhánh Công ty TNHH Thép Hòa Phát Hưng Yên tại Bình Dương vừa công bố điều chỉnh giảm giá bán tại miền Nam."
+    },
+    {
+        "text": "điều chỉnh giảm giá bán tại miền Nam",
+        "label": "EVENT",
+        "evidence": "Chi nhánh Công ty TNHH Thép Hòa Phát Hưng Yên tại Bình Dương vừa công bố điều chỉnh giảm giá bán tại miền Nam."
+    },
+    {
+        "text": "ngày 5/4/2023",
+        "label": "DATE",
+        "evidence": "Thời gian áp dụng từ ngày 5/4/2023."
+    },
+    {
+        "text": "thép cây",
+        "label": "ASSET",
+        "evidence": "Trong đó, thép cây giảm còn 100.000 đồng/tấn và thép cuộn các loại là 300.000 đồng/tấn (chưa gồm VAT)."
+    },
+    {
+        "text": "100.000 đồng/tấn",
+        "label": "PRICE",
+        "evidence": "Trong đó, thép cây giảm còn 100.000 đồng/tấn và thép cuộn các loại là 300.000 đồng/tấn (chưa gồm VAT)."
+    },
+    {
+        "text": "thép cuộn các loại",
+        "label": "ASSET",
+        "evidence": "Trong đó, thép cây giảm còn 100.000 đồng/tấn và thép cuộn các loại là 300.000 đồng/tấn (chưa gồm VAT)."
+    },
+    {
+        "text": "300.000 đồng/tấn",
+        "label": "PRICE",
+        "evidence": "Trong đó, thép cây giảm còn 100.000 đồng/tấn và thép cuộn các loại là 300.000 đồng/tấn (chưa gồm VAT)."
+    },
+    {
+        "text": "tăng giá liên tục từ đầu năm đến nay",
+        "label": "EVENT",
+        "evidence": "Động thái này đi ngược với việc tăng giá liên tục từ đầu năm đến nay."
+    },
+    {
+        "text": "hôm 21/3/2023",
+        "label": "DATE",
+        "evidence": "Mới hôm 21/3/2023, cũng Công ty TNHH Hoà Phát Hưng Yên đã tiếp tục thông báo đến khách hàng về việc tăng giá bán."
+    },
+    {
+        "text": "Công ty TNHH Hoà Phát Hưng Yên",
+        "label": "ORG",
+        "evidence": "Mới hôm 21/3/2023, cũng Công ty TNHH Hoà Phát Hưng Yên đã tiếp tục thông báo đến khách hàng về việc tăng giá bán."
+    },
+    {
+        "text": "thông báo đến khách hàng về việc tăng giá bán",
+        "label": "EVENT",
+        "evidence": "Mới hôm 21/3/2023, cũng Công ty TNHH Hoà Phát Hưng Yên đã tiếp tục thông báo đến khách hàng về việc tăng giá bán."
+    },
+    {
+        "text": "giá phôi thép, nguyên vật liệu đầu vào tăng",
+        "label": "EVENT",
+        "evidence": "Theo công ty, trước tình hình giá phôi thép, nguyên vật liệu đầu vào tăng, Công ty quyết định tăng giá bán sản phẩm, cụ thể với mặt hàng thép cây tăng lên 150.000 đồng/tấn (giá này chưa bao gồm VAT)."
+    },
+    {
+        "text": "tăng giá bán sản phẩm",
+        "label": "EVENT",
+        "evidence": "Theo công ty, trước tình hình giá phôi thép, nguyên vật liệu đầu vào tăng, Công ty quyết định tăng giá bán sản phẩm, cụ thể với mặt hàng thép cây tăng lên 150.000 đồng/tấn (giá này chưa bao gồm VAT)."
+    },
+    {
+        "text": "thép cây",
+        "label": "ASSET",
+        "evidence": "cụ thể với mặt hàng thép cây tăng lên 150.000 đồng/tấn (giá này chưa bao gồm VAT)."
+    },
+    {
+        "text": "150.000 đồng/tấn",
+        "label": "PRICE",
+        "evidence": "thép cây tăng lên 150.000 đồng/tấn (giá này chưa bao gồm VAT)."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Đây không phải lần đầuHPGđiều chỉnh tăng giá trong năm 2023."
+    },
+    {
+        "text": "điều chỉnh tăng giá trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Đây không phải lần đầuHPGđiều chỉnh tăng giá trong năm 2023."
+    },
+    {
+        "text": "Tháng 2",
+        "label": "DATE",
+        "evidence": "Tháng 2, với việc thị trường thép Trung Quốc diễn biến tích, HPG đã có thông báo điều chỉnh tăng giá thép cuộn cán nóng HRC thêm 55 USD/tấn."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tháng 2, với việc thị trường thép Trung Quốc diễn biến tích, HPG đã có thông báo điều chỉnh tăng giá thép cuộn cán nóng HRC thêm 55 USD/tấn."
+    },
+    {
+        "text": "thông báo điều chỉnh tăng giá thép cuộn cán nóng HRC thêm 55 USD/tấn",
+        "label": "EVENT",
+        "evidence": "HPG đã có thông báo điều chỉnh tăng giá thép cuộn cán nóng HRC thêm 55 USD/tấn."
+    },
+    {
+        "text": "thép cuộn cán nóng HRC",
+        "label": "ASSET",
+        "evidence": "HPG đã có thông báo điều chỉnh tăng giá thép cuộn cán nóng HRC thêm 55 USD/tấn."
+    },
+    {
+        "text": "55 USD/tấn",
+        "label": "PRICE",
+        "evidence": "thêm 55 USD/tấn."
+    },
+    {
+        "text": "thép HPG",
+        "label": "ASSET",
+        "evidence": "Trước đó, thép HPG tại miền Bắc đã có đợt tăng 300.000 đồng/tấn đối với cả thép cuộn CB240 và thép thanh vằn D10 CB300…"
+    },
+    {
+        "text": "tăng 300.000 đồng/tấn",
+        "label": "PRICE",
+        "evidence": "thép HPG tại miền Bắc đã có đợt tăng 300.000 đồng/tấn đối với cả thép cuộn CB240 và thép thanh vằn D10 CB300…"
+    },
+    {
+        "text": "thép cuộn CB240",
+        "label": "ASSET",
+        "evidence": "tăng 300.000 đồng/tấn đối với cả thép cuộn CB240 và thép thanh vằn D10 CB300…"
+    },
+    {
+        "text": "thép thanh vằn D10 CB300",
+        "label": "ASSET",
+        "evidence": "tăng 300.000 đồng/tấn đối với cả thép cuộn CB240 và thép thanh vằn D10 CB300…"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Không riêng HPG, loạt công ty thép trong nước cũng có thông báo điều chỉnh tăng giá bán mặt hàng này."
+    },
+    {
+        "text": "Thép Việt Đức",
+        "label": "ORG",
+        "evidence": "Thép Việt Đức, Việt Ý, Pomina... đồng loạt tăng giá trên toàn quốc."
+    },
+    {
+        "text": "Việt Ý",
+        "label": "ORG",
+        "evidence": "Thép Việt Đức, Việt Ý, Pomina... đồng loạt tăng giá trên toàn quốc."
+    },
+    {
+        "text": "Pomina",
+        "label": "ORG",
+        "evidence": "Thép Việt Đức, Việt Ý, Pomina... đồng loạt tăng giá trên toàn quốc."
+    },
+    {
+        "text": "đồng loạt tăng giá trên toàn quốc",
+        "label": "EVENT",
+        "evidence": "Thép Việt Đức, Việt Ý, Pomina... đồng loạt tăng giá trên toàn quốc."
+    },
+    {
+        "text": "giá thép xây dựng trong nước đã chứng kiến mức điều chỉnh tăng mạnh lần thứ 3 liên tiếp từ đầu năm",
+        "label": "EVENT",
+        "evidence": "Theo đó, giá thép xây dựng trong nước đã chứng kiến mức điều chỉnh tăng mạnh lần thứ 3 liên tiếp từ đầu năm."
+    },
+    {
+        "text": "giá các loại nguyên liệu đầu vào cho sản xuất thép tăng cao",
+        "label": "EVENT",
+        "evidence": "Nguyên nhân chính không xuất phát từ nhu cầu thị trường, mà là từ việc giá các loại nguyên liệu đầu vào cho sản xuất thép tăng cao."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Về phía HPG, tại ĐHĐCĐ mới đây, Chủ tịch làông Trần Đình Longtiếp tục nhấn mạnh rằng giai đoạn khó khăn, khốc liệt nhất của ngành thép đã qua."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "EVENT",
+        "evidence": "Về phía HPG, tại ĐHĐCĐ mới đây, Chủ tịch làông Trần Đình Longtiếp tục nhấn mạnh rằng giai đoạn khó khăn, khốc liệt nhất của ngành thép đã qua."
+    },
+    {
+        "text": "ông Trần Đình Long",
+        "label": "PERSON",
+        "evidence": "Chủ tịch làông Trần Đình Longtiếp tục nhấn mạnh rằng giai đoạn khó khăn, khốc liệt nhất của ngành thép đã qua."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Nội lực của HPG và doanh nghiệp ngành thép là tốt, nhưng tương lai triển vọng vẫn phụ thuộc vào nhu cầu của thị trường."
+    }
+]

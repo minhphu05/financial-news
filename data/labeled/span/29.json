@@ -1,0 +1,187 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Theo thông báo, ACB đã ban hành điều khoản về mua bán vàng miếng có hiệu lực từ ngày 10/10."
+    },
+    {
+        "text": "ban hành điều khoản về mua bán vàng miếng",
+        "label": "EVENT",
+        "evidence": "Theo thông báo, ACB đã ban hành điều khoản về mua bán vàng miếng có hiệu lực từ ngày 10/10."
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "Theo thông báo, ACB đã ban hành điều khoản về mua bán vàng miếng có hiệu lực từ ngày 10/10."
+    },
+    {
+        "text": "10/10",
+        "label": "DATE",
+        "evidence": "Theo thông báo, ACB đã ban hành điều khoản về mua bán vàng miếng có hiệu lực từ ngày 10/10."
+    },
+    {
+        "text": "vàng miếng thương hiệu ACB",
+        "label": "ASSET",
+        "evidence": "Giao dịch sẽ được triển khai tại một số chi nhánh, với các loại vàng gồm: vàng miếng thương hiệu ACB, SJC và một số loại khác do ngân hàng quy định trong từng giai đoạn."
+    },
+    {
+        "text": "SJC",
+        "label": "ORG",
+        "evidence": "Giao dịch sẽ được triển khai tại một số chi nhánh, với các loại vàng gồm: vàng miếng thương hiệu ACB, SJC và một số loại khác do ngân hàng quy định trong từng giai đoạn."
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Ông Trần Hùng Huy, Chủ tịchNgân hàng Á Châu(ACB)."
+    },
+    {
+        "text": "Ngân hàng Á Châu",
+        "label": "ORG",
+        "evidence": "Ông Trần Hùng Huy, Chủ tịchNgân hàng Á Châu(ACB)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ông Trần Hùng Huy, Chủ tịchNgân hàng Á Châu(ACB)."
+    },
+    {
+        "text": "vàng miếng SJC",
+        "label": "ASSET",
+        "evidence": "Đối với vàng miếng SJC, các chi nhánh chỉ giao dịch loại 1 lượng."
+    },
+    {
+        "text": "1 lượng",
+        "label": "VOLUME",
+        "evidence": "Đối với vàng miếng SJC, các chi nhánh chỉ giao dịch loại 1 lượng."
+    },
+    {
+        "text": "vàng miếng thương hiệu ACB",
+        "label": "ASSET",
+        "evidence": "Riêng vàng miếng thương hiệu ACB sẽ được giao dịch ở tất cả các trọng lượng."
+    },
+    {
+        "text": "tiền đồng",
+        "label": "ASSET",
+        "evidence": "Thanh toán thực hiện bằng tiền đồng thông qua tài khoản tại ACB, thời gian thanh toán và giao nhận trong ngày hoặc tối đa hai ngày làm việc."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Thanh toán thực hiện bằng tiền đồng thông qua tài khoản tại ACB, thời gian thanh toán và giao nhận trong ngày hoặc tối đa hai ngày làm việc."
+    },
+    {
+        "text": "hai ngày làm việc",
+        "label": "DATE",
+        "evidence": "Thanh toán thực hiện bằng tiền đồng thông qua tài khoản tại ACB, thời gian thanh toán và giao nhận trong ngày hoặc tối đa hai ngày làm việc."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cũng lưu ý, giá vàng được áp dụng theo niêm yết hoặc thỏa thuận tại từng thời điểm."
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "Khách hàng cá nhân cần cung cấp đầy đủ giấy tờ tùy thân, trong khi tổ chức phải có giấy phép mua bán vàng miếng do Ngân hàng Nhà nước cấp."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Khách hàng cá nhân cần cung cấp đầy đủ giấy tờ tùy thân, trong khi tổ chức phải có giấy phép mua bán vàng miếng do Ngân hàng Nhà nước cấp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB cũng nhấn mạnh, bảng giá trên website và ứng dụng ACB One chỉ mang tính tham khảo; trong trường hợp hệ thống gặp sự cố, giá áp dụng là giá tại quầy."
+    },
+    {
+        "text": "ACB One",
+        "label": "ASSET",
+        "evidence": "ACB cũng nhấn mạnh, bảng giá trên website và ứng dụng ACB One chỉ mang tính tham khảo; trong trường hợp hệ thống gặp sự cố, giá áp dụng là giá tại quầy."
+    },
+    {
+        "text": "cuộc họp với Ngân hàng Nhà nước",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại cuộc họp với Ngân hàng Nhà nước, Techcombank cũng hé lộ kế hoạch tham gia thị trường, nhằm gia tăng nguồn cung và thúc đẩy minh bạch hóa hoạt động kinh doanh vàng."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trước đó, tại cuộc họp với Ngân hàng Nhà nước, Techcombank cũng hé lộ kế hoạch tham gia thị trường, nhằm gia tăng nguồn cung và thúc đẩy minh bạch hóa hoạt động kinh doanh vàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trước đó, tại cuộc họp với Ngân hàng Nhà nước, Techcombank cũng hé lộ kế hoạch tham gia thị trường, nhằm gia tăng nguồn cung và thúc đẩy minh bạch hóa hoạt động kinh doanh vàng."
+    },
+    {
+        "text": "hé lộ kế hoạch tham gia thị trường",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại cuộc họp với Ngân hàng Nhà nước, Techcombank cũng hé lộ kế hoạch tham gia thị trường, nhằm gia tăng nguồn cung và thúc đẩy minh bạch hóa hoạt động kinh doanh vàng."
+    },
+    {
+        "text": "Phạm Quang Thắng",
+        "label": "PERSON",
+        "evidence": "Ông Phạm Quang Thắng – Phó tổng giám đốc Ngân hàng TMCP Kỹ Thương Việt Nam (Techcombank) cho biết, giai đoạn trước, ngân hàng từng tham gia lĩnh vực vàng nhưng đã tạm dừng vào những năm gần đây."
+    },
+    {
+        "text": "Ngân hàng TMCP Kỹ Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ông Phạm Quang Thắng – Phó tổng giám đốc Ngân hàng TMCP Kỹ Thương Việt Nam (Techcombank) cho biết, giai đoạn trước, ngân hàng từng tham gia lĩnh vực vàng nhưng đã tạm dừng vào những năm gần đây."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ông Phạm Quang Thắng – Phó tổng giám đốc Ngân hàng TMCP Kỹ Thương Việt Nam (Techcombank) cho biết, giai đoạn trước, ngân hàng từng tham gia lĩnh vực vàng nhưng đã tạm dừng vào những năm gần đây."
+    },
+    {
+        "text": "Nghị định 232/2025",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, với sự cởi mở từ Nghị định 232/2025, ngân hàng đã có sự chuẩn bị rất tích cực và chỉ đợi Thông tư hướng dẫn được ban hành, Techcombank sẽ chính thức xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, với sự cởi mở từ Nghị định 232/2025, ngân hàng đã có sự chuẩn bị rất tích cực và chỉ đợi Thông tư hướng dẫn được ban hành, Techcombank sẽ chính thức xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với sự cởi mở từ Nghị định 232/2025, ngân hàng đã có sự chuẩn bị rất tích cực và chỉ đợi Thông tư hướng dẫn được ban hành, Techcombank sẽ chính thức xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất."
+    },
+    {
+        "text": "xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, với sự cởi mở từ Nghị định 232/2025, ngân hàng đã có sự chuẩn bị rất tích cực và chỉ đợi Thông tư hướng dẫn được ban hành, Techcombank sẽ chính thức xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với sự cởi mở từ Nghị định 232/2025, ngân hàng đã có sự chuẩn bị rất tích cực và chỉ đợi Thông tư hướng dẫn được ban hành, Techcombank sẽ chính thức xin phép NHNN để tham gia nhập khẩu vàng nguyên liệu và sản xuất."
+    },
+    {
+        "text": "nhập khẩu vàng nguyên liệu",
+        "label": "EVENT",
+        "evidence": "Theo đó, phía nhà băng đang tìm kiếm đối tác quốc tế để nhập khẩu vàng nguyên liệu, nghiên cứu chế tác vàng miếng mang thương hiệu Techcombank, đồng thời chuẩn bị cơ sở vật chất trong nước như nhân sự, kho bãi, quy trình nhập – cung ứng và hệ thống phân phối."
+    },
+    {
+        "text": "nghiên cứu chế tác vàng miếng mang thương hiệu Techcombank",
+        "label": "EVENT",
+        "evidence": "Theo đó, phía nhà băng đang tìm kiếm đối tác quốc tế để nhập khẩu vàng nguyên liệu, nghiên cứu chế tác vàng miếng mang thương hiệu Techcombank, đồng thời chuẩn bị cơ sở vật chất trong nước như nhân sự, kho bãi, quy trình nhập – cung ứng và hệ thống phân phối."
+    },
+    {
+        "text": "vàng miếng mang thương hiệu Techcombank",
+        "label": "ASSET",
+        "evidence": "Theo đó, phía nhà băng đang tìm kiếm đối tác quốc tế để nhập khẩu vàng nguyên liệu, nghiên cứu chế tác vàng miếng mang thương hiệu Techcombank, đồng thời chuẩn bị cơ sở vật chất trong nước như nhân sự, kho bãi, quy trình nhập – cung ứng và hệ thống phân phối."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo đó, phía nhà băng đang tìm kiếm đối tác quốc tế để nhập khẩu vàng nguyên liệu, nghiên cứu chế tác vàng miếng mang thương hiệu Techcombank, đồng thời chuẩn bị cơ sở vật chất trong nước như nhân sự, kho bãi, quy trình nhập – cung ứng và hệ thống phân phối."
+    },
+    {
+        "text": "phát triển nền tảng số để người dân có thể mua bán vàng trực tuyến",
+        "label": "EVENT",
+        "evidence": "Ngoài kênh chi nhánh, ngân hàng cũng định hướng phát triển nền tảng số để người dân có thể mua bán vàng trực tuyến."
+    }
+]

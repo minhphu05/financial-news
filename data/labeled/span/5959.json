@@ -1,0 +1,522 @@
+[
+    {
+        "text": "Công ty Cổ phần Chứng khoán Asean",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Chứng khoán Asean đã công bố báo cáo tài chính quý 2/2024 với doanh thu hoạt động đạt gần 83 tỷ đồng"
+    },
+    {
+        "text": "báo cáo tài chính quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Công ty Cổ phần Chứng khoán Asean đã công bố báo cáo tài chính quý 2/2024 với doanh thu hoạt động đạt gần 83 tỷ đồng"
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Công ty Cổ phần Chứng khoán Asean đã công bố báo cáo tài chính quý 2/2024 với doanh thu hoạt động đạt gần 83 tỷ đồng"
+    },
+    {
+        "text": "gần 83 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu hoạt động đạt gần 83 tỷ đồng, tăng trưởng 206% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "206%",
+        "label": "RATE",
+        "evidence": "doanh thu hoạt động đạt gần 83 tỷ đồng, tăng trưởng 206% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "tài sản tài chính ghi nhận thông qua lãi lỗ (FVTPL)",
+        "label": "ASSET",
+        "evidence": "nguồn thu chủ yếu tới từ lãi từ các tài sản tài chính ghi nhận thông qua lãi lỗ (FVTPL) đạt gần 60 tỷ đồng"
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "lãi từ các tài sản tài chính ghi nhận thông qua lãi lỗ (FVTPL) đạt gần 60 tỷ đồng"
+    },
+    {
+        "text": "gần 60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lãi từ các tài sản tài chính ghi nhận thông qua lãi lỗ (FVTPL) đạt gần 60 tỷ đồng trong khi cùng kỳ lỗ gần 22 tỷ đồng."
+    },
+    {
+        "text": "gần 22 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong khi cùng kỳ lỗ gần 22 tỷ đồng."
+    },
+    {
+        "text": "các khoản đầu tư nắm giữ tới ngày đáo hạn",
+        "label": "ASSET",
+        "evidence": "lãi từ các khoản đầu tư nắm giữ tới ngày đáo hạn sụt giảm mạnh 79% còn ghi nhận khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "79%",
+        "label": "RATE",
+        "evidence": "lãi từ các khoản đầu tư nắm giữ tới ngày đáo hạn sụt giảm mạnh 79% còn ghi nhận khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "còn ghi nhận khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "doanh thu môi giới cũng giảm tới 40% so với cùng kỳ đem lại 8 tỷ đồng doanh thu."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đem lại 8 tỷ đồng doanh thu."
+    },
+    {
+        "text": "181%",
+        "label": "RATE",
+        "evidence": "Trong kỳ, chi phí hoạt động tăng 181% so với quý 2/2023 ghi nhận hơn 25 tỷ đồng"
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "chi phí hoạt động tăng 181% so với quý 2/2023 ghi nhận hơn 25 tỷ đồng"
+    },
+    {
+        "text": "hơn 25 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận hơn 25 tỷ đồng"
+    },
+    {
+        "text": "lỗ các tài sản tài chính ghi nhận thông qua lãi/lỗ (FVTPL)",
+        "label": "ASSET",
+        "evidence": "phần lớn chênh lệch đến từ lỗ các tài sản tài chính ghi nhận thông qua lãi/lỗ (FVTPL) đạt gần 17 tỷ đồng"
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "lỗ các tài sản tài chính ghi nhận thông qua lãi/lỗ (FVTPL) đạt gần 17 tỷ đồng"
+    },
+    {
+        "text": "gần 17 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 17 tỷ đồng tăng gần 4.300% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "gần 4.300%",
+        "label": "RATE",
+        "evidence": "tăng gần 4.300% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "56%",
+        "label": "RATE",
+        "evidence": "chi phí tài chính và chi phí quản lý doanh nghiệp lần lượt sụt giảm 56% và 16% cùng kỳ xuống còn 6 tỷ và 9 tỷ đồng."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "chi phí tài chính và chi phí quản lý doanh nghiệp lần lượt sụt giảm 56% và 16% cùng kỳ xuống còn 6 tỷ và 9 tỷ đồng."
+    },
+    {
+        "text": "6 tỷ",
+        "label": "MONEY",
+        "evidence": "xuống còn 6 tỷ và 9 tỷ đồng."
+    },
+    {
+        "text": "9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "xuống còn 6 tỷ và 9 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán Asean",
+        "label": "ORG",
+        "evidence": "Kết quả,Chứng khoán Asean báo lãi trước thuế gần 55 tỷ đồng, tăng đến 6.400% so với cùng kỳ 2023."
+    },
+    {
+        "text": "gần 55 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chứng khoán Asean báo lãi trước thuế gần 55 tỷ đồng, tăng đến 6.400% so với cùng kỳ 2023."
+    },
+    {
+        "text": "6.400%",
+        "label": "RATE",
+        "evidence": "tăng đến 6.400% so với cùng kỳ 2023."
+    },
+    {
+        "text": "cùng kỳ 2023",
+        "label": "DATE",
+        "evidence": "tăng đến 6.400% so với cùng kỳ 2023."
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Lũy kế nửa đầu năm 2024, CTCK này ghi nhận lợi nhuận trước thuế hơn 69 tỷ đồng, cao gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Lũy kế nửa đầu năm 2024, CTCK này ghi nhận lợi nhuận trước thuế hơn 69 tỷ đồng"
+    },
+    {
+        "text": "hơn 69 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận lợi nhuận trước thuế hơn 69 tỷ đồng, cao gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "gấp 3 lần",
+        "label": "RATE",
+        "evidence": "cao gấp 3 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "30/6/2024",
+        "label": "DATE",
+        "evidence": "Tại thời điểm 30/6/2024, tổng tài sản của Aseansc đạt 1.391 tỷ đồng"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "Tại thời điểm 30/6/2024, tổng tài sản của Aseansc đạt 1.391 tỷ đồng"
+    },
+    {
+        "text": "1.391 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản của Aseansc đạt 1.391 tỷ đồng, giảm gần 250 tỷ đồng so với thời điểm đầu năm"
+    },
+    {
+        "text": "gần 250 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm gần 250 tỷ đồng so với thời điểm đầu năm"
+    },
+    {
+        "text": "tài sản tài chính FVTPL",
+        "label": "ASSET",
+        "evidence": "các tài sản tài chính FVTPL giảm mạnh 560 tỷ đồng"
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "các tài sản tài chính FVTPL giảm mạnh 560 tỷ đồng"
+    },
+    {
+        "text": "560 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "các tài sản tài chính FVTPL giảm mạnh 560 tỷ đồng"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "ngược lại Aseansc ghi nhận tăng 200 tỷ đồng các khoản đầu tư nắm giữ đến ngày đáo hạn (HTM)."
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Aseansc ghi nhận tăng 200 tỷ đồng các khoản đầu tư nắm giữ đến ngày đáo hạn (HTM)."
+    },
+    {
+        "text": "các khoản đầu tư nắm giữ đến ngày đáo hạn (HTM)",
+        "label": "ASSET",
+        "evidence": "Aseansc ghi nhận tăng 200 tỷ đồng các khoản đầu tư nắm giữ đến ngày đáo hạn (HTM)."
+    },
+    {
+        "text": "HTM",
+        "label": "ASSET",
+        "evidence": "các khoản đầu tư nắm giữ đến ngày đáo hạn (HTM)."
+    },
+    {
+        "text": "NĐT",
+        "label": "ORG",
+        "evidence": "Khoản tiền gửi của NĐT về giao dịch chứng khoán theo phương thức CTCK quản lý đạt hơn 170 tỷ đồng."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Khoản tiền gửi của NĐT về giao dịch chứng khoán theo phương thức CTCK quản lý đạt hơn 170 tỷ đồng."
+    },
+    {
+        "text": "hơn 170 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt hơn 170 tỷ đồng."
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Ghi nhận tại thời điểm cuối quý 2/2024, khoản mục FVTPL của Aseansc có giá trị thị trường gần 525 tỷ đồng"
+    },
+    {
+        "text": "FVTPL",
+        "label": "ASSET",
+        "evidence": "khoản mục FVTPL của Aseansc có giá trị thị trường gần 525 tỷ đồng"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "khoản mục FVTPL của Aseansc có giá trị thị trường gần 525 tỷ đồng"
+    },
+    {
+        "text": "gần 525 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoản mục FVTPL của Aseansc có giá trị thị trường gần 525 tỷ đồng, tăng hơn 40 tỷ so với cuối quý 1, chủ yếu là cổ phiếu niêm yết (503 tỷ), trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "hơn 40 tỷ",
+        "label": "MONEY",
+        "evidence": "tăng hơn 40 tỷ so với cuối quý 1, chủ yếu là cổ phiếu niêm yết (503 tỷ), trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "cuối quý 1",
+        "label": "DATE",
+        "evidence": "tăng hơn 40 tỷ so với cuối quý 1, chủ yếu là cổ phiếu niêm yết (503 tỷ), trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "cổ phiếu niêm yết",
+        "label": "ASSET",
+        "evidence": "chủ yếu là cổ phiếu niêm yết (503 tỷ), trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "503 tỷ",
+        "label": "MONEY",
+        "evidence": "cổ phiếu niêm yết (503 tỷ), trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "trái phiếu niêm yết",
+        "label": "ASSET",
+        "evidence": "trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "21 tỷ",
+        "label": "MONEY",
+        "evidence": "trái phiếu niêm yết (21 tỷ)."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "ABI",
+        "label": "TICKER",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "TSJ",
+        "label": "TICKER",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "VEC",
+        "label": "TICKER",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "HTM",
+        "label": "TICKER",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Danh mục tự doanh bao gồm các cổ phiếu: ABI, TSJ, VEC, HTM, TCB,…"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, Aseansc nắm giữ 7 triệu cổ phiếu SGP của CTCP Cảng Sài Gòn"
+    },
+    {
+        "text": "7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Aseansc nắm giữ 7 triệu cổ phiếu SGP của CTCP Cảng Sài Gòn"
+    },
+    {
+        "text": "SGP",
+        "label": "TICKER",
+        "evidence": "Aseansc nắm giữ 7 triệu cổ phiếu SGP của CTCP Cảng Sài Gòn"
+    },
+    {
+        "text": "CTCP Cảng Sài Gòn",
+        "label": "ORG",
+        "evidence": "Aseansc nắm giữ 7 triệu cổ phiếu SGP của CTCP Cảng Sài Gòn có giá gốc hơn 42 tỷ đồng"
+    },
+    {
+        "text": "hơn 42 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có giá gốc hơn 42 tỷ đồng, hiện có giá trị hợp lý gần 216 tỷ (tại thời điểm cuối quý 2/2024)"
+    },
+    {
+        "text": "gần 216 tỷ",
+        "label": "MONEY",
+        "evidence": "hiện có giá trị hợp lý gần 216 tỷ (tại thời điểm cuối quý 2/2024)"
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "tại thời điểm cuối quý 2/2024"
+    },
+    {
+        "text": "413%",
+        "label": "RATE",
+        "evidence": "tương ứng tạm lãi 413%."
+    },
+    {
+        "text": "Dư nợ cho vay margin",
+        "label": "ASSET",
+        "evidence": "Dư nợ cho vay margin và ứng trước tiền bán của Aseansc ghi nhận hơn 275 tỷ đồng"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "Dư nợ cho vay margin và ứng trước tiền bán của Aseansc ghi nhận hơn 275 tỷ đồng"
+    },
+    {
+        "text": "hơn 275 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận hơn 275 tỷ đồng, tương đương hồi đầu năm"
+    },
+    {
+        "text": "dư nợ margin",
+        "label": "ASSET",
+        "evidence": "trong đó dư nợ margin đạt 272 tỷ đồng."
+    },
+    {
+        "text": "272 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dư nợ margin đạt 272 tỷ đồng."
+    },
+    {
+        "text": "BCTC quý 2/2024",
+        "label": "EVENT",
+        "evidence": "BCTC quý 2/2024 Aseansc"
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "BCTC quý 2/2024 Aseansc"
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "BCTC quý 2/2024 Aseansc"
+    },
+    {
+        "text": "SeABank dự kiến mua công ty chứng khoán ASEAN",
+        "label": "EVENT",
+        "evidence": "SeABank dự kiến mua công ty chứng khoán ASEAN"
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "SeABank dự kiến mua công ty chứng khoán ASEAN"
+    },
+    {
+        "text": "công ty chứng khoán ASEAN",
+        "label": "ORG",
+        "evidence": "SeABank dự kiến mua công ty chứng khoán ASEAN"
+    },
+    {
+        "text": "Chứng khoán ASEAN",
+        "label": "ORG",
+        "evidence": "Theo tìm hiểu, Chứng khoán ASEAN được thành lập từ năm 2006 và hiện có vốn điều lệ 1.000 tỷ đồng."
+    },
+    {
+        "text": "năm 2006",
+        "label": "DATE",
+        "evidence": "Chứng khoán ASEAN được thành lập từ năm 2006 và hiện có vốn điều lệ 1.000 tỷ đồng."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hiện có vốn điều lệ 1.000 tỷ đồng."
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Cuối quý 2/2024, Asean Securities đang có 3 cổ đông lớn bao gồm Công ty TNHH Phát triển thương mại dịch vụ Vĩnh Lộc"
+    },
+    {
+        "text": "Asean Securities",
+        "label": "ORG",
+        "evidence": "Cuối quý 2/2024, Asean Securities đang có 3 cổ đông lớn bao gồm Công ty TNHH Phát triển thương mại dịch vụ Vĩnh Lộc"
+    },
+    {
+        "text": "Công ty TNHH Phát triển thương mại dịch vụ Vĩnh Lộc",
+        "label": "ORG",
+        "evidence": "bao gồm Công ty TNHH Phát triển thương mại dịch vụ Vĩnh Lộc, Công ty TNHH Tư vấn đầu tư Thành Kim và Công ty TNHH Đầu tư và Thương mại Toàn Phú."
+    },
+    {
+        "text": "Công ty TNHH Tư vấn đầu tư Thành Kim",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Tư vấn đầu tư Thành Kim và Công ty TNHH Đầu tư và Thương mại Toàn Phú."
+    },
+    {
+        "text": "Công ty TNHH Đầu tư và Thương mại Toàn Phú",
+        "label": "ORG",
+        "evidence": "và Công ty TNHH Đầu tư và Thương mại Toàn Phú."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2024 Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB) đã thông qua việc mua cổ phần của Aseansc để Công ty này trở thành công ty con của SeABank",
+        "label": "EVENT",
+        "evidence": "Được biết, ĐHĐCĐ thường niên 2024 Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB) đã thông qua việc mua cổ phần của Aseansc để Công ty này trở thành công ty con của SeABank."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2024",
+        "label": "DATE",
+        "evidence": "Được biết, ĐHĐCĐ thường niên 2024 Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB) đã thông qua việc mua cổ phần của Aseansc để Công ty này trở thành công ty con của SeABank."
+    },
+    {
+        "text": "Ngân hàng TMCP Đông Nam Á",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB)"
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB)"
+    },
+    {
+        "text": "SSB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Đông Nam Á (SeABank – mã SSB)"
+    },
+    {
+        "text": "cổ phần",
+        "label": "ASSET",
+        "evidence": "mua cổ phần của Aseansc để Công ty này trở thành công ty con của SeABank."
+    },
+    {
+        "text": "Aseansc",
+        "label": "ORG",
+        "evidence": "mua cổ phần của Aseansc để Công ty này trở thành công ty con của SeABank."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "trở thành công ty con của SeABank."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Tỷ lệ sở hữu cổ phần của SeABank tại Asean Securities dự kiến tối đa 100% Vốn điều lệ của Asean Securities tại thời điểm triển khai"
+    },
+    {
+        "text": "Asean Securities",
+        "label": "ORG",
+        "evidence": "Tỷ lệ sở hữu cổ phần của SeABank tại Asean Securities dự kiến tối đa 100% Vốn điều lệ của Asean Securities tại thời điểm triển khai"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "dự kiến tối đa 100% Vốn điều lệ của Asean Securities tại thời điểm triển khai"
+    },
+    {
+        "text": "Asean Securities",
+        "label": "ORG",
+        "evidence": "Vốn điều lệ của Asean Securities tại thời điểm triển khai"
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "bên cạnh hoạt động kinh doanh ngân hàng là cốt lõi đóng vai trò trung tâm, việc SeABankmua cổ phần của doanh nghiệp hoạt động trong lĩnh vực chứng khoán"
+    },
+    {
+        "text": "mua cổ phần của doanh nghiệp hoạt động trong lĩnh vực chứng khoán",
+        "label": "EVENT",
+        "evidence": "việc SeABankmua cổ phần của doanh nghiệp hoạt động trong lĩnh vực chứng khoán sẽ tạo cơ hội cho ngânhàng mở rộng hoạt động, đa dạng hóa các nhóm sản phẩm dịch vụ"
+    }
+]

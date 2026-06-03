@@ -1,0 +1,167 @@
+[
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "đáp ứng quy định của NHNN về đảm bảo tính sẵn sàng của hệ thống"
+    },
+    {
+        "text": "Công ty Cổ phần Thanh toán Quốc gia Việt Nam",
+        "label": "ORG",
+        "evidence": "hệ thống, Công ty Cổ phần Thanh toán Quốc gia Việt Nam (Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "Thanh toán Quốc gia Việt Nam (Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật trong khoảng thời gian từ"
+    },
+    {
+        "text": "diễn tập chuyển đổi hệ thống kỹ thuật",
+        "label": "EVENT",
+        "evidence": "Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024"
+    },
+    {
+        "text": "0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "kỹ thuật trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribankcho biết trong khoảng thời gian trên sẽ bịgián đoạn dịch vụ chuyển tiền trênứng dụng:"
+    },
+    {
+        "text": "sẽ bị gián đoạn dịch vụ chuyển tiền trên ứng dụng",
+        "label": "EVENT",
+        "evidence": "trong khoảng thời gian trên sẽ bịgián đoạn dịch vụ chuyển tiền trênứng dụng:"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "Giao dịch đi qua hệ thống thanh toán của Napas;"
+    },
+    {
+        "text": "Citibank",
+        "label": "ORG",
+        "evidence": "Giao dịch đi ngân hàng Citibank, Techcombank;"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "đi ngân hàng Citibank, Techcombank;"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Các giao dịch chuyển khoản đến Agribank qua hệ thống của Napas có thể không thực hiện được"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "đến Agribank qua hệ thống của Napas có thể không thực hiện được trong thời gian trên"
+    },
+    {
+        "text": "Các giao dịch chuyển khoản đến Agribank qua hệ thống của Napas có thể không thực hiện được",
+        "label": "EVENT",
+        "evidence": "Các giao dịch chuyển khoản đến Agribank qua hệ thống của Napas có thể không thực hiện được trong thời gian trên"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Realtime (Vietcombank, Vietinbank và MB);"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Realtime (Vietcombank, Vietinbank và MB);"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Vietcombank, Vietinbank và MB);"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương 24/7 (BIDV và Vietinbank)"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "song phương 24/7 (BIDV và Vietinbank) và hệ thống thanh toán điện tử liên ngân hàng"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombanklưu ý, trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "một số dịch vụ chuyển tiền và thanh toán có thể xảy ra gián đoạn tạm thời",
+        "label": "EVENT",
+        "evidence": "một số dịch vụ chuyển tiền và thanh toán có thể xảy ra gián đoạn tạm thời như:"
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS;"
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "Thanh toán SamSung Pay liên kết với thẻ NAPAS."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACBcũng thông báo, trong thời gian này, một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm:"
+    },
+    {
+        "text": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn",
+        "label": "EVENT",
+        "evidence": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm:"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Giao dịch nội địa thực hiện tại ATM/POS khácACB;"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024"
+    },
+    {
+        "text": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng",
+        "label": "EVENT",
+        "evidence": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    }
+]

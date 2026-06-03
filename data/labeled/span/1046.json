@@ -1,0 +1,87 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cụ thể, BIDV cho biết giá trị của khoản nợ tạm tính đến ngày 09/05/2023 là hơn 1.016 tỷ đồng, trong đó dư nợ gốc là trên 633 tỷ đồng."
+    },
+    {
+        "text": "ngày 09/05/2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, BIDV cho biết giá trị của khoản nợ tạm tính đến ngày 09/05/2023 là hơn 1.016 tỷ đồng, trong đó dư nợ gốc là trên 633 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.016 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, BIDV cho biết giá trị của khoản nợ tạm tính đến ngày 09/05/2023 là hơn 1.016 tỷ đồng, trong đó dư nợ gốc là trên 633 tỷ đồng."
+    },
+    {
+        "text": "trên 633 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, BIDV cho biết giá trị của khoản nợ tạm tính đến ngày 09/05/2023 là hơn 1.016 tỷ đồng, trong đó dư nợ gốc là trên 633 tỷ đồng."
+    },
+    {
+        "text": "17,86 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi",
+        "label": "ASSET",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "Công ty CP thủy điện Đức Nhân – Đăk Psi",
+        "label": "ORG",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "24,541 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "cổ phiếu Công ty CP thủy điện Nước Chè",
+        "label": "ASSET",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "Công ty CP thủy điện Nước Chè",
+        "label": "ORG",
+        "evidence": "cùng với 17,86 triệu cổ phiếu Công ty CP thủy điện Đức Nhân – Đăk Psi (chưa niêm yết) và 24,541 triệu cổ phiếu Công ty CP thủy điện Nước Chè (chưa niêm yết)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV đưa ra giá khởi điểm bằng giá trị khoản nợ tính đến ngày 9/5 là hơn 1.016 tỷ đồng."
+    },
+    {
+        "text": "BIDV đưa ra giá khởi điểm bằng giá trị khoản nợ tính đến ngày 9/5",
+        "label": "EVENT",
+        "evidence": "BIDV đưa ra giá khởi điểm bằng giá trị khoản nợ tính đến ngày 9/5 là hơn 1.016 tỷ đồng."
+    },
+    {
+        "text": "ngày 9/5",
+        "label": "DATE",
+        "evidence": "BIDV đưa ra giá khởi điểm bằng giá trị khoản nợ tính đến ngày 9/5 là hơn 1.016 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.016 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV đưa ra giá khởi điểm bằng giá trị khoản nợ tính đến ngày 9/5 là hơn 1.016 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo BIDV, Công ty CP Thủy điện Đức Nhân Đắk Psi có địa chỉ tại 45 Tố Hữu, phường Quyết Thắng, thành phố Kon Tum, tỉnh Kon Tum."
+    },
+    {
+        "text": "Công ty CP Thủy điện Đức Nhân Đắk Psi",
+        "label": "ORG",
+        "evidence": "Theo BIDV, Công ty CP Thủy điện Đức Nhân Đắk Psi có địa chỉ tại 45 Tố Hữu, phường Quyết Thắng, thành phố Kon Tum, tỉnh Kon Tum."
+    },
+    {
+        "text": "Công ty TNHH Hoàng Nhi",
+        "label": "ORG",
+        "evidence": "Trong khi Công ty TNHH Hoàng Nhi có địa chỉ tại 93 Huỳnh Thúc Kháng, TP Pleiku, tỉnh Gia Lai."
+    }
+]

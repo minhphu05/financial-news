@@ -1,0 +1,452 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBankdược SSI dự báo đạt tăng trưởng lợi nhuận khoảng 60% trong quý II/2024, dẫn đầu danh sách."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "VPBankdược SSI dự báo đạt tăng trưởng lợi nhuận khoảng 60% trong quý II/2024, dẫn đầu danh sách."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận khoảng 60%",
+        "label": "EVENT",
+        "evidence": "VPBankdược SSI dự báo đạt tăng trưởng lợi nhuận khoảng 60% trong quý II/2024, dẫn đầu danh sách."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "VPBankdược SSI dự báo đạt tăng trưởng lợi nhuận khoảng 60% trong quý II/2024, dẫn đầu danh sách."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "VPBankdược SSI dự báo đạt tăng trưởng lợi nhuận khoảng 60% trong quý II/2024, dẫn đầu danh sách."
+    },
+    {
+        "text": "4.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo báo cáo, trong quý này, nhà băng có thể ghi nhận mức lợi nhuận đạt 4.200 tỷ đồng, do FE Credit có thể đạt được điểm hòa vốn."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Theo báo cáo, trong quý này, nhà băng có thể ghi nhận mức lợi nhuận đạt 4.200 tỷ đồng, do FE Credit có thể đạt được điểm hòa vốn."
+    },
+    {
+        "text": "đạt được điểm hòa vốn",
+        "label": "EVENT",
+        "evidence": "do FE Credit có thể đạt được điểm hòa vốn."
+    },
+    {
+        "text": "Đại hội cổ đông",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại Đại hội cổ đông, ông Nguyễn Đức Vinh – Tổng giám đốc của VPBank cho biết: \"Chúng tôi đã có lộ trình bù lỗ cho FE Credit."
+    },
+    {
+        "text": "ông Nguyễn Đức Vinh",
+        "label": "PERSON",
+        "evidence": "Trước đó, tại Đại hội cổ đông, ông Nguyễn Đức Vinh – Tổng giám đốc của VPBank cho biết: \"Chúng tôi đã có lộ trình bù lỗ cho FE Credit."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước đó, tại Đại hội cổ đông, ông Nguyễn Đức Vinh – Tổng giám đốc của VPBank cho biết: \"Chúng tôi đã có lộ trình bù lỗ cho FE Credit."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Chúng tôi đã có lộ trình bù lỗ cho FE Credit."
+    },
+    {
+        "text": "1.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dự kiến năm nay, doanh nghiệp này có thể lãi hơn 1.200 tỷ đồng."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Lợi nhuận các năm tiếp theo, từ 2025 trở đi có thể rơi vào mức 3.000-4.000 tỷ đồng\"."
+    },
+    {
+        "text": "3.000-4.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận các năm tiếp theo, từ 2025 trở đi có thể rơi vào mức 3.000-4.000 tỷ đồng\"."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Sau VPBank,Techcombanklà nhà băng khác được SSI kỳ vọng đạt tăng trưởng trên 30% trong quý này."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Sau VPBank,Techcombanklà nhà băng khác được SSI kỳ vọng đạt tăng trưởng trên 30% trong quý này."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Sau VPBank,Techcombanklà nhà băng khác được SSI kỳ vọng đạt tăng trưởng trên 30% trong quý này."
+    },
+    {
+        "text": "tăng trưởng trên 30%",
+        "label": "EVENT",
+        "evidence": "SSI kỳ vọng đạt tăng trưởng trên 30% trong quý này."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "SSI kỳ vọng đạt tăng trưởng trên 30% trong quý này."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nhóm phân tích đánh giá, Techcombank sẽ duy trì đà tăng tốt trong quý II, đạt 10 - 11% so với đầu năm với NIM và tỷ lệ nợ xấu được kỳ vọng sẽ tương đối ổn định so với quý trước."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Nhóm phân tích đánh giá, Techcombank sẽ duy trì đà tăng tốt trong quý II, đạt 10 - 11% so với đầu năm với NIM và tỷ lệ nợ xấu được kỳ vọng sẽ tương đối ổn định so với quý trước."
+    },
+    {
+        "text": "10 - 11%",
+        "label": "RATE",
+        "evidence": "đạt 10 - 11% so với đầu năm với NIM và tỷ lệ nợ xấu được kỳ vọng sẽ tương đối ổn định so với quý trước."
+    },
+    {
+        "text": "phát hành trái phiếu",
+        "label": "EVENT",
+        "evidence": "Về lợi nhuận, thu nhập ngoài lãi dự báo sẽ duy trì ổn định trong bối cảnh hoạt động bảo lãnh và phát hành trái phiếu, lợi nhuận bất thường từ kinh doanh trái phiếu Chính phủ có thể không lớn như trong quý I."
+    },
+    {
+        "text": "trái phiếu Chính phủ",
+        "label": "ASSET",
+        "evidence": "lợi nhuận bất thường từ kinh doanh trái phiếu Chính phủ có thể không lớn như trong quý I."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "lợi nhuận bất thường từ kinh doanh trái phiếu Chính phủ có thể không lớn như trong quý I."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Do vậy, lợi nhuận trước thuế của Techcombank có thể đạt 7.000 tỷ đồng, tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế của Techcombank có thể đạt 7.000 tỷ đồng, tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "tăng 31%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế của Techcombank có thể đạt 7.000 tỷ đồng, tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế của Techcombank có thể đạt 7.000 tỷ đồng, tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "giảm 5%",
+        "label": "RATE",
+        "evidence": "tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "tăng 31% so với cùng kỳ nhưng giảm 5% nếu so với quý liền trước."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Kế tiếp làHDBank."
+    },
+    {
+        "text": "Quý II/2024",
+        "label": "DATE",
+        "evidence": "Quý II/2024, nhà băng này có thể đạt 3.500-3.600 tỷ đồng lợi nhuận tăng từ 28-31% so với cùng kỳ nhờ tăng trưởng tín dụng."
+    },
+    {
+        "text": "3.500-3.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quý II/2024, nhà băng này có thể đạt 3.500-3.600 tỷ đồng lợi nhuận tăng từ 28-31% so với cùng kỳ nhờ tăng trưởng tín dụng."
+    },
+    {
+        "text": "tăng từ 28-31%",
+        "label": "RATE",
+        "evidence": "3.500-3.600 tỷ đồng lợi nhuận tăng từ 28-31% so với cùng kỳ nhờ tăng trưởng tín dụng."
+    },
+    {
+        "text": "28-31%",
+        "label": "RATE",
+        "evidence": "3.500-3.600 tỷ đồng lợi nhuận tăng từ 28-31% so với cùng kỳ nhờ tăng trưởng tín dụng."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, NIM quý II/2024 có thể giảm so với quý I/2024."
+    },
+    {
+        "text": "quý I/2024",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, NIM quý II/2024 có thể giảm so với quý I/2024."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Với nhóm ngân hàng quốc doanh, SSI Research dự báo, ba \"ông lớn\" gồmVietcombank, BIDV, VietinBankđều sẽ đạt tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Với nhóm ngân hàng quốc doanh, SSI Research dự báo, ba \"ông lớn\" gồmVietcombank, BIDV, VietinBankđều sẽ đạt tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Với nhóm ngân hàng quốc doanh, SSI Research dự báo, ba \"ông lớn\" gồmVietcombank, BIDV, VietinBankđều sẽ đạt tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Với nhóm ngân hàng quốc doanh, SSI Research dự báo, ba \"ông lớn\" gồmVietcombank, BIDV, VietinBankđều sẽ đạt tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15%",
+        "label": "EVENT",
+        "evidence": "đều sẽ đạt tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "8-10%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận lần lượt từ 8-10%, 12% và 15% so với cùng kỳ."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trong quý I của nhóm Big 4"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, với Vietcombank, do tăng trưởng tín dụng tăng lên khoảng 4% so với đầu năm vào cuối tháng 6, trong khi, huy động giảm, NIM của nhà băng này vẫn sẽ ổn định trong quý II."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng tăng lên khoảng 4% so với đầu năm vào cuối tháng 6, trong khi, huy động giảm, NIM của nhà băng này vẫn sẽ ổn định trong quý II."
+    },
+    {
+        "text": "cuối tháng 6",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng tăng lên khoảng 4% so với đầu năm vào cuối tháng 6, trong khi, huy động giảm, NIM của nhà băng này vẫn sẽ ổn định trong quý II."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "NIM của nhà băng này vẫn sẽ ổn định trong quý II."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế quý II của Vietcombank có thể đạt khoảng 10.000-10.300 tỷ đồng, tương ứng mức tăng 8-10%."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận trước thuế quý II của Vietcombank có thể đạt khoảng 10.000-10.300 tỷ đồng, tương ứng mức tăng 8-10%."
+    },
+    {
+        "text": "10.000-10.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế quý II của Vietcombank có thể đạt khoảng 10.000-10.300 tỷ đồng, tương ứng mức tăng 8-10%."
+    },
+    {
+        "text": "tăng 8-10%",
+        "label": "RATE",
+        "evidence": "10.000-10.300 tỷ đồng, tương ứng mức tăng 8-10%."
+    },
+    {
+        "text": "8-10%",
+        "label": "RATE",
+        "evidence": "10.000-10.300 tỷ đồng, tương ứng mức tăng 8-10%."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Trong khi đó, BIDV có thể đạt tăng trưởng lợi nhuận 12% do NIM có thể cải thiện khá tốt so với quý trước đó."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận 12%",
+        "label": "EVENT",
+        "evidence": "BIDV có thể đạt tăng trưởng lợi nhuận 12% do NIM có thể cải thiện khá tốt so với quý trước đó."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "BIDV có thể đạt tăng trưởng lợi nhuận 12% do NIM có thể cải thiện khá tốt so với quý trước đó."
+    },
+    {
+        "text": "7.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dự báo, nhà băng này có thể lãi trước thuế 7.800 tỷ đồng."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Ngân hàng được đánh giá sẽ có mức tăng trưởng lợi nhuận ấn tượng nhất trong \"Big 3\" là Vietinbank."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "\"CTG duy trì quỹ đạo tăng trưởng ổn định trong nửa đầu năm 2024, giúp NIM duy trì ổn định so với quý trước."
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "\"CTG duy trì quỹ đạo tăng trưởng ổn định trong nửa đầu năm 2024, giúp NIM duy trì ổn định so với quý trước."
+    },
+    {
+        "text": "xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "ngân hàng có thể tiếp tục xử lý nợ xấu mạnh mẽ trong quý II/2024, do đó, lợi nhuận trước thuế dự kiến tăng 15% so với cùng kỳ, đạt 7.500 tỷ đồng"
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "ngân hàng có thể tiếp tục xử lý nợ xấu mạnh mẽ trong quý II/2024, do đó, lợi nhuận trước thuế dự kiến tăng 15% so với cùng kỳ, đạt 7.500 tỷ đồng"
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế dự kiến tăng 15% so với cùng kỳ, đạt 7.500 tỷ đồng"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế dự kiến tăng 15% so với cùng kỳ, đạt 7.500 tỷ đồng"
+    },
+    {
+        "text": "7.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế dự kiến tăng 15% so với cùng kỳ, đạt 7.500 tỷ đồng"
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "đạt 7.500 tỷ đồng\", báo cáo SSI Research viết."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trái ngược với bức tranh tích cực của VPBank hay Techcombank, hai ngân hàng có thể ghi nhận đà tăng trưởng lợi nhuận kém khả quan hơn trong quý II/2024 là VIB và OCB."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trái ngược với bức tranh tích cực của VPBank hay Techcombank, hai ngân hàng có thể ghi nhận đà tăng trưởng lợi nhuận kém khả quan hơn trong quý II/2024 là VIB và OCB."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "hai ngân hàng có thể ghi nhận đà tăng trưởng lợi nhuận kém khả quan hơn trong quý II/2024 là VIB và OCB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "hai ngân hàng có thể ghi nhận đà tăng trưởng lợi nhuận kém khả quan hơn trong quý II/2024 là VIB và OCB."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "hai ngân hàng có thể ghi nhận đà tăng trưởng lợi nhuận kém khả quan hơn trong quý II/2024 là VIB và OCB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Cụ thể, tại VIB, việc giảm lãi suất để kích cầu tín dụng có thể giúp ngân hàng đạt mức tăng trưởng tín dụng 3% so với đầu năm."
+    },
+    {
+        "text": "giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "việc giảm lãi suất để kích cầu tín dụng có thể giúp ngân hàng đạt mức tăng trưởng tín dụng 3% so với đầu năm."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng 3% so với đầu năm."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, động thái này cũng có thể khiến NIM giảm trong quý II/2024 do chi phí tín dụng cao."
+    },
+    {
+        "text": "2.100-2.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế sẽ đạt 2.100-2.200 tỷ đồng, giảm 25-28% so với cùng kỳ\", báo cáo của SSI viết."
+    },
+    {
+        "text": "giảm 25-28%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế sẽ đạt 2.100-2.200 tỷ đồng, giảm 25-28% so với cùng kỳ\", báo cáo của SSI viết."
+    },
+    {
+        "text": "25-28%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế sẽ đạt 2.100-2.200 tỷ đồng, giảm 25-28% so với cùng kỳ\", báo cáo của SSI viết."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "giảm 25-28% so với cùng kỳ\", báo cáo của SSI viết."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Còn OCB, tỷ lệ NIM và nợ xấu dự kiến sẽ duy trì ổn định so với quý trước, tăng trưởng tín dụng sẽ đạt 7-8% so với đầu năm."
+    },
+    {
+        "text": "7-8%",
+        "label": "RATE",
+        "evidence": "tăng trưởng tín dụng sẽ đạt 7-8% so với đầu năm."
+    },
+    {
+        "text": "chi phí dự phòng có thể tăng",
+        "label": "EVENT",
+        "evidence": "chi phí dự phòng có thể tăng đáng kể trong quý II/2024 làm lợi nhuận trước thuế giảm 5-14% so với cùng kỳ, đạt 1.350-1.500 tỷ đồng."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "chi phí dự phòng có thể tăng đáng kể trong quý II/2024 làm lợi nhuận trước thuế giảm 5-14% so với cùng kỳ, đạt 1.350-1.500 tỷ đồng."
+    },
+    {
+        "text": "giảm 5-14%",
+        "label": "RATE",
+        "evidence": "làm lợi nhuận trước thuế giảm 5-14% so với cùng kỳ, đạt 1.350-1.500 tỷ đồng."
+    },
+    {
+        "text": "5-14%",
+        "label": "RATE",
+        "evidence": "làm lợi nhuận trước thuế giảm 5-14% so với cùng kỳ, đạt 1.350-1.500 tỷ đồng."
+    },
+    {
+        "text": "1.350-1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "làm lợi nhuận trước thuế giảm 5-14% so với cùng kỳ, đạt 1.350-1.500 tỷ đồng."
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "text": "Ngân hàng Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Vietcombank đã gửi thông báo đến người dùng những điều nên và không nên làm khi thực hiện giao dịch trên ngân hàng số."
+    },
+    {
+        "text": "gửi thông báo đến người dùng những điều nên và không nên làm khi thực hiện giao dịch trên ngân hàng số",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Vietcombank đã gửi thông báo đến người dùng những điều nên và không nên làm khi thực hiện giao dịch trên ngân hàng số."
+    },
+    {
+        "text": "tiết lộ thông tin định danh cá nhân (Tên đăng nhập, Mật khẩu và Mã khóa bí mật dùng 1 lần - OTP)",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không tiết lộ thông tin định danh cá nhân (Tên đăng nhập, Mật khẩu và Mã khóa bí mật dùng 1 lần - OTP) cho bất cứ ai."
+    },
+    {
+        "text": "tải và sử dụng ứng dụng không rõ nguồn gốc",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không tải và sử dụng ứng dụng không rõ nguồn gốc (tuyệt đối không thực hiện đăng nhập dịch vụ thông qua các đường link được gắn trong tin nhắn SMS, email, Zalo, Viber...)"
+    },
+    {
+        "text": "thực hiện đăng nhập dịch vụ thông qua các đường link được gắn trong tin nhắn SMS, email, Zalo, Viber",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không tải và sử dụng ứng dụng không rõ nguồn gốc (tuyệt đối không thực hiện đăng nhập dịch vụ thông qua các đường link được gắn trong tin nhắn SMS, email, Zalo, Viber...)"
+    },
+    {
+        "text": "không thực hiện giao dịch trên ứng dụng ngân hàng",
+        "label": "EVENT",
+        "evidence": "Trường hợp không thực hiện giao dịch trên ứng dụng ngân hàng (ngân hàng số) nhưng vẫn nhận thông báo từ ngân hàng: mã OTP, thay đổi số dư bất thường, đăng nhập trên thiết bị khác, liên kết ví điện tử..."
+    },
+    {
+        "text": "nhận thông báo từ ngân hàng: mã OTP, thay đổi số dư bất thường, đăng nhập trên thiết bị khác, liên kết ví điện tử",
+        "label": "EVENT",
+        "evidence": "Trường hợp không thực hiện giao dịch trên ứng dụng ngân hàng (ngân hàng số) nhưng vẫn nhận thông báo từ ngân hàng: mã OTP, thay đổi số dư bất thường, đăng nhập trên thiết bị khác, liên kết ví điện tử..."
+    },
+    {
+        "text": "không cung cấp OTP",
+        "label": "EVENT",
+        "evidence": "Người dùng tuyệt đối không cung cấp OTP và thông báo ngay cho ngân hàng."
+    },
+    {
+        "text": "thông báo ngay cho ngân hàng",
+        "label": "EVENT",
+        "evidence": "Người dùng tuyệt đối không cung cấp OTP và thông báo ngay cho ngân hàng."
+    },
+    {
+        "text": "Đổi mật khẩu, mã PIN truy cập các dịch vụ Ngân hàng điện tử",
+        "label": "EVENT",
+        "evidence": "- Đổi mật khẩu, mã PIN truy cập các dịch vụ Ngân hàng điện tử lần đầu trong vòng 24h kể từ khi nhận được."
+    },
+    {
+        "text": "Thay đổi mật khẩu thường xuyên",
+        "label": "EVENT",
+        "evidence": "- Thay đổi mật khẩu thường xuyên (tối thiểu định kỳ 03 tháng/lần) để đảm bảo an toàn cho tài khoản."
+    },
+    {
+        "text": "03 tháng/lần",
+        "label": "DATE",
+        "evidence": "- Thay đổi mật khẩu thường xuyên (tối thiểu định kỳ 03 tháng/lần) để đảm bảo an toàn cho tài khoản."
+    },
+    {
+        "text": "Thay đổi mật khẩu truy cập dịch vụ Internet Banking, Mobile Banking",
+        "label": "EVENT",
+        "evidence": "- Thay đổi mật khẩu truy cập dịch vụ Internet Banking, Mobile Banking ngay lập tức sau khi phát hiện ra mình vừa click vào các đường link nghi ngờ giả mạo hoặc vô tình trả lời thông tin cho người lạ gọi tới."
+    }
+]

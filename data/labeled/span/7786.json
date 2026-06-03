@@ -1,0 +1,462 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Theo biểu lãi suất niêm yết mới nhất của VietinBank, lãi suất huy động tại các kỳ hạn 1 - 5 tháng đồng loạt giảm 0,3 điểm % so với trước đó."
+    },
+    {
+        "text": "lãi suất huy động tại các kỳ hạn 1 - 5 tháng đồng loạt giảm 0,3 điểm %",
+        "label": "EVENT",
+        "evidence": "lãi suất huy động tại các kỳ hạn 1 - 5 tháng đồng loạt giảm 0,3 điểm % so với trước đó."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "lãi suất huy động tại các kỳ hạn 1 - 5 tháng đồng loạt giảm 0,3 điểm % so với trước đó."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn từ 1 đến dưới 3 tháng giảm từ 4,9%/năm xuống 4,6%/năm"
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn từ 1 đến dưới 3 tháng giảm từ 4,9%/năm xuống 4,6%/năm"
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn từ 2 đến dưới 6 tháng giảm từ 5,4%/năm xuống 5,1%/năm"
+    },
+    {
+        "text": "5,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn từ 2 đến dưới 6 tháng giảm từ 5,4%/năm xuống 5,1%/năm"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trước đó, Vietcombank cũng giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm từ ngày 12/5."
+    },
+    {
+        "text": "giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm",
+        "label": "EVENT",
+        "evidence": "Vietcombank cũng giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm từ ngày 12/5."
+    },
+    {
+        "text": "5,4%",
+        "label": "RATE",
+        "evidence": "giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm từ ngày 12/5."
+    },
+    {
+        "text": "5,1%/năm",
+        "label": "RATE",
+        "evidence": "giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm từ ngày 12/5."
+    },
+    {
+        "text": "ngày 12/5",
+        "label": "DATE",
+        "evidence": "giảm lãi suất kỳ hạn 3 tháng từ 5,4% xuống còn 5,1%/năm từ ngày 12/5."
+    },
+    {
+        "text": "giảm lãi suất tiền gửi kỳ hạn 1-2 tháng từ 4,9%/năm xuống 4,6%/năm",
+        "label": "EVENT",
+        "evidence": "Đồng thời, giảm lãi suất tiền gửi kỳ hạn 1-2 tháng từ 4,9%/năm xuống 4,6%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "giảm lãi suất tiền gửi kỳ hạn 1-2 tháng từ 4,9%/năm xuống 4,6%/năm."
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "giảm lãi suất tiền gửi kỳ hạn 1-2 tháng từ 4,9%/năm xuống 4,6%/năm."
+    },
+    {
+        "text": "ngày 10/5",
+        "label": "DATE",
+        "evidence": "Từ ngày 10/5, lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Từ ngày 10/5, lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm."
+    },
+    {
+        "text": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm."
+    },
+    {
+        "text": "7%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại Agribank đã đồng loạt giảm 0,2 điểm % so với trước đó, xuống còn 7%/năm."
+    },
+    {
+        "text": "Agribank cũng giảm 0,3 điểm % lãi suất huy động tại các kỳ hạn từ 1 đến dưới 6 tháng",
+        "label": "EVENT",
+        "evidence": "Đồng thời, Agribank cũng giảm 0,3 điểm % lãi suất huy động tại các kỳ hạn từ 1 đến dưới 6 tháng."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Agribank cũng giảm 0,3 điểm % lãi suất huy động tại các kỳ hạn từ 1 đến dưới 6 tháng."
+    },
+    {
+        "text": "4,9%",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất kỳ hạn 1 – 2 tháng chỉ còn 4,9% và 3 – 5 tháng là 5,1%."
+    },
+    {
+        "text": "5,1%",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất kỳ hạn 1 – 2 tháng chỉ còn 4,9% và 3 – 5 tháng là 5,1%."
+    },
+    {
+        "text": "đợt giảm lãi suất huy động thứ 2",
+        "label": "EVENT",
+        "evidence": "Đây là đợt giảm lãi suất huy động thứ 2 trong vòng hơn 1 tháng qua của các Ngân hàng thương mại Nhà nước."
+    },
+    {
+        "text": "đầu tháng 4",
+        "label": "DATE",
+        "evidence": "Hồi đầu tháng 4, sau khi NHNN giảm lãi suất điều hành, nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động với mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Hồi đầu tháng 4, sau khi NHNN giảm lãi suất điều hành, nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động với mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "NHNN giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "sau khi NHNN giảm lãi suất điều hành, nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động với mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động với mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "nhóm Big4 cũng đã đồng loạt giảm lãi suất huy động với mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "7,2%/năm",
+        "label": "RATE",
+        "evidence": "mức cao nhất dành cho hình thức gửi tiền tại quầy chỉ còn 7,2%/năm."
+    },
+    {
+        "text": "cuối tháng 4",
+        "label": "DATE",
+        "evidence": "trong cuộc họp với Thủ tướng hồi cuối tháng 4, các ngân hàng có vốn nhà nước đã cam kết đồng thuận với chủ trương của Chính phủ và NHNN trong việc giảm mặt bằng lãi suất trong thời gian tới."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "chủ trương của Chính phủ và NHNN trong việc giảm mặt bằng lãi suất trong thời gian tới."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "chủ trương của Chính phủ và NHNN trong việc giảm mặt bằng lãi suất trong thời gian tới."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "“ông lớn” Techcombank cũng giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên từ ngày 10/5."
+    },
+    {
+        "text": "giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "Techcombank cũng giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên từ ngày 10/5."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên từ ngày 10/5."
+    },
+    {
+        "text": "ngày 10/5",
+        "label": "DATE",
+        "evidence": "giảm 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên từ ngày 10/5."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Hiện mức lãi suất cao nhất đang được Techcombank áp dụng là 7,6%, dành cho khách VIP1 gửi số tiền từ 3 tỷ trở lên."
+    },
+    {
+        "text": "7,6%",
+        "label": "RATE",
+        "evidence": "Hiện mức lãi suất cao nhất đang được Techcombank áp dụng là 7,6%, dành cho khách VIP1 gửi số tiền từ 3 tỷ trở lên."
+    },
+    {
+        "text": "3 tỷ",
+        "label": "MONEY",
+        "evidence": "số tiền từ 3 tỷ trở lên."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tại VPBank, lãi suất áp dụng cho các kỳ hạn trên 12 tháng đã đồng loạt giảm 0,2 điểm %."
+    },
+    {
+        "text": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại VPBank đã đồng loạt giảm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng tại VPBank đã đồng loạt giảm 0,2 điểm %."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "lãi suất áp dụng cho các kỳ hạn trên 12 tháng đã đồng loạt giảm 0,2 điểm %."
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất cao nhất áp dụng cho kỳ hạn 12 – 13 chỉ còn 8%/năm, kỳ hạn 15 – 36 tháng giảm về 7,2%/năm"
+    },
+    {
+        "text": "7,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 15 – 36 tháng giảm về 7,2%/năm"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank cũng giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "TPBank cũng giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,1 - 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,1 - 0,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Hiện mức lãi suất cao nhất đang được TPBank áp dụng là 7,8%, dành cho khách gửi tiền online."
+    },
+    {
+        "text": "7,8%",
+        "label": "RATE",
+        "evidence": "Hiện mức lãi suất cao nhất đang được TPBank áp dụng là 7,8%, dành cho khách gửi tiền online."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước VPBank và TPBank, nhiều ngân hàng cũng đã giảm thêm lãi suất huy động trong những ngày gần đây."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Trước VPBank và TPBank, nhiều ngân hàng cũng đã giảm thêm lãi suất huy động trong những ngày gần đây."
+    },
+    {
+        "text": "ngày 10/5",
+        "label": "DATE",
+        "evidence": "Từ ngày 10/5, OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Từ ngày 10/5, OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "OCB cũng giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,4 - 1,2 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,4 - 1,2 điểm % lãi suất huy động tại các kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng từ ngày 9/5."
+    },
+    {
+        "text": "giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng",
+        "label": "EVENT",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng từ ngày 9/5."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng từ ngày 9/5."
+    },
+    {
+        "text": "ngày 9/5",
+        "label": "DATE",
+        "evidence": "HDBank cũng giảm thêm 0,3 điểm % tại các kỳ hạn 6, 12 và 13 tháng từ ngày 9/5."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Hiện mức lãi suất cao nhất được HDBank áp dụng là 8,7% dành cho kỳ hạn 13 tháng."
+    },
+    {
+        "text": "8,7%",
+        "label": "RATE",
+        "evidence": "Hiện mức lãi suất cao nhất được HDBank áp dụng là 8,7% dành cho kỳ hạn 13 tháng."
+    },
+    {
+        "text": "12/5",
+        "label": "DATE",
+        "evidence": "Từ 12/5, MSB cũng giảm 0,3 điểm % lãi suất huy động ở các kỳ hạn từ 6 thàng trở lên."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Từ 12/5, MSB cũng giảm 0,3 điểm % lãi suất huy động ở các kỳ hạn từ 6 thàng trở lên."
+    },
+    {
+        "text": "giảm 0,3 điểm % lãi suất huy động ở các kỳ hạn từ 6 thàng trở lên",
+        "label": "EVENT",
+        "evidence": "MSB cũng giảm 0,3 điểm % lãi suất huy động ở các kỳ hạn từ 6 thàng trở lên."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "giảm 0,3 điểm % lãi suất huy động ở các kỳ hạn từ 6 thàng trở lên."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Trong khi mức điều chỉnh tại VietBank là 0,1 – 0,2 điểm %."
+    },
+    {
+        "text": "0,1 – 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Trong khi mức điều chỉnh tại VietBank là 0,1 – 0,2 điểm %."
+    },
+    {
+        "text": "đầu tháng 2",
+        "label": "DATE",
+        "evidence": "Lãi suất huy động đã liên tục giảm mạnh từ đầu tháng 2 đến nay, đặc biệt là sau khi Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "sau khi Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "sau khi Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "đặc biệt là sau khi Ngân hàng Nhà nước (NHNN) giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "ngày 15/3",
+        "label": "DATE",
+        "evidence": "giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "3/4",
+        "label": "DATE",
+        "evidence": "giảm lãi suất điều hành vào ngày 15/3 và 3/4."
+    },
+    {
+        "text": "0,5 – 1,7%",
+        "label": "RATE",
+        "evidence": "lãi suất huy động niêm yết tại các ngân hàng đã giảm khoảng 0,5 – 1,7% ở tất cả kỳ hạn."
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "đã giảm lãi suất huy động 12 tháng xuống dưới mức 8%/năm."
+    },
+    {
+        "text": "giữa tháng 1",
+        "label": "DATE",
+        "evidence": "trong giai đoạn cao điểm hồi giữa tháng 1, ngoại trừ nhóm Big4, hầu hết ngân hàng tư nhân đều niêm yết lãi suất từ 9%/năm trở lên cho kỳ hạn 12 tháng, thậm chí xấp xỉ 10% tại một số ngân hàng tư nhân nhỏ."
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "ngoại trừ nhóm Big4, hầu hết ngân hàng tư nhân đều niêm yết lãi suất từ 9%/năm trở lên cho kỳ hạn 12 tháng, thậm chí xấp xỉ 10% tại một số ngân hàng tư nhân nhỏ."
+    },
+    {
+        "text": "9%/năm",
+        "label": "RATE",
+        "evidence": "niêm yết lãi suất từ 9%/năm trở lên cho kỳ hạn 12 tháng, thậm chí xấp xỉ 10% tại một số ngân hàng tư nhân nhỏ."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "niêm yết lãi suất từ 9%/năm trở lên cho kỳ hạn 12 tháng, thậm chí xấp xỉ 10% tại một số ngân hàng tư nhân nhỏ."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Trong thời gian tới, NHNN cho biết sẽ tiếp tục đưa ra nhiều giải pháp chính sách, một mặt hỗ trợ các ngân hàng giảm lãi suất, mặt khác điều hành để tạo thanh khoản ổn định, tạo niềm tin vững chắc cho thị trường trong việc hỗ trợ các tổ chức tín dụng cung ứng vốn tín dụng cho nền kinh tế với lãi suất cho vay hợp lý, tạo thuận lợi cho quá trình phục hồi nền kinh tế."
+    },
+    {
+        "text": "NHNN cho biết sẽ tiếp tục đưa ra nhiều giải pháp chính sách",
+        "label": "EVENT",
+        "evidence": "NHNN cho biết sẽ tiếp tục đưa ra nhiều giải pháp chính sách, một mặt hỗ trợ các ngân hàng giảm lãi suất, mặt khác điều hành để tạo thanh khoản ổn định, tạo niềm tin vững chắc cho thị trường trong việc hỗ trợ các tổ chức tín dụng cung ứng vốn tín dụng cho nền kinh tế với lãi suất cho vay hợp lý, tạo thuận lợi cho quá trình phục hồi nền kinh tế."
+    },
+    {
+        "text": "VnDirect",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích mới đây, chứng khoán VnDirect kỳ vọng lãi suất tiền gửi kỳ hạn 12 tháng bình quân hạ về mức 7,0% trong năm 2023"
+    },
+    {
+        "text": "7,0%",
+        "label": "RATE",
+        "evidence": "kỳ vọng lãi suất tiền gửi kỳ hạn 12 tháng bình quân hạ về mức 7,0% trong năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "kỳ vọng lãi suất tiền gửi kỳ hạn 12 tháng bình quân hạ về mức 7,0% trong năm 2023"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "(2) Chính phủ thúc đẩy đầu tư công qua đó bơm thêm tiền vào nền kinh tế"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "(3) NHNN có thể giảm thêm lãi suất điều hành nếu FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023."
+    },
+    {
+        "text": "NHNN có thể giảm thêm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "NHNN có thể giảm thêm lãi suất điều hành nếu FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023."
+    },
+    {
+        "text": "FED",
+        "label": "ORG",
+        "evidence": "nếu FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023."
+    },
+    {
+        "text": "FED đảo chiều chính sách tiền tệ",
+        "label": "EVENT",
+        "evidence": "nếu FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023."
+    },
+    {
+        "text": "nửa cuối năm 2023",
+        "label": "DATE",
+        "evidence": "nếu FED đảo chiều chính sách tiền tệ trong nửa cuối năm 2023."
+    }
+]

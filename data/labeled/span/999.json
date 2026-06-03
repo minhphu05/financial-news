@@ -1,0 +1,957 @@
+[
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Chính phủvừa có Báo cáo số 482 /BC-CP gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp"
+    },
+    {
+        "text": "Báo cáo số 482 /BC-CP",
+        "label": "EVENT",
+        "evidence": "Chính phủvừa có Báo cáo số 482 /BC-CP gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp"
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "gửi Quốc hội về hoạt động đầu tư, quản lý, sử dụng vốn nhà nước tại doanh nghiệp"
+    },
+    {
+        "text": "khối ngân hàng thương mại nhà nước",
+        "label": "ORG",
+        "evidence": "về tình hình tài chính và hoạt động của khốingân hàng thương mạinhà nước trong năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "khốingân hàng thương mạinhà nước trong năm 2022"
+    },
+    {
+        "text": "Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank)"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank)"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "TICKER",
+        "evidence": "Ngân hàng Thương mại cổ phần (TMCP) Công Thương Việt Nam (Vietinbank)"
+    },
+    {
+        "text": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)"
+    },
+    {
+        "text": "BIDV",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)"
+    },
+    {
+        "text": "Ngân hàng TMCP Ngoại Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)"
+    },
+    {
+        "text": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank)"
+    },
+    {
+        "text": "31/12/2022",
+        "label": "DATE",
+        "evidence": "Báo cáo của các ngân hàng tại thời điểm 31/12/2022 nêu rõ"
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022, ngành ngân hàng nói chung và khối ngân hành thương mại Nhà nước tăng trưởng cao hơn cùng kỳ năm trước"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng"
+    },
+    {
+        "text": "7.617.693 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2022, tổng nợ phải trả và vốn chủ sở hữu (tổng nguồn vốn) của khối ngân hàng thương mại Nhà nước đạt 7.617.693 tỷ đồng"
+    },
+    {
+        "text": "1.213.411 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 1.213.411 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "giấy tờ có giá",
+        "label": "ASSET",
+        "evidence": "phát hành giấy tờ có giá"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng"
+    },
+    {
+        "text": "330.754 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "các khoản nợ Chính phủ và Ngân hàng Nhà nước là 330.754 tỷ đồng"
+    },
+    {
+        "text": "261.235 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 261.235 tỷ đồng (376%) so cuối năm 2021"
+    },
+    {
+        "text": "376%",
+        "label": "RATE",
+        "evidence": "tăng 261.235 tỷ đồng (376%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 261.235 tỷ đồng (376%) so cuối năm 2021"
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng"
+    },
+    {
+        "text": "5.590.177 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong năm 2022, 4 ngân hàng thương mại cũng huy động tiền gửi của khách hàng đạt 5.590.177 tỷ đồng"
+    },
+    {
+        "text": "370.103 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 370.103 tỷ đồng (7%) so với cuối năm 2021"
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "tăng 370.103 tỷ đồng (7%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 370.103 tỷ đồng (7%) so với cuối năm 2021"
+    },
+    {
+        "text": "Phát hành giấy tờ có giá",
+        "label": "EVENT",
+        "evidence": "Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng"
+    },
+    {
+        "text": "352.223 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Phát hành giấy tờ có giá: đạt 352.223 tỷ đồng"
+    },
+    {
+        "text": "118.095 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 118.095 tỷ đồng (50%) so cuối năm 2021"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tăng 118.095 tỷ đồng (50%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 118.095 tỷ đồng (50%) so cuối năm 2021"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng"
+    },
+    {
+        "text": "241.657 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số tiền gửi tại Ngân hàng Nhà nước đạt 241.657 tỷ đồng"
+    },
+    {
+        "text": "21.228 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm 21.228 tỷ đồng (8%) so với cuối năm 2021"
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "giảm 21.228 tỷ đồng (8%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "giảm 21.228 tỷ đồng (8%) so với cuối năm 2021"
+    },
+    {
+        "text": "970.487 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi và cho vay tổ chức tín dụng khác đạt 970.487 tỷ đồng"
+    },
+    {
+        "text": "304.656 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 304.656 tỷ đồng (46%) so với cuối năm 2021"
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "tăng 304.656 tỷ đồng (46%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 304.656 tỷ đồng (46%) so với cuối năm 2021"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "trong giới hạn được Ngân hàng Nhà nước cho phép"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021"
+    },
+    {
+        "text": "khối ngân hàng thương mại Nhà nước",
+        "label": "ORG",
+        "evidence": "hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "hoạt động tín dụng năm 2022 của khối ngân hàng thương mại Nhà nước đã có sự tăng trưởng so với năm 2021"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng dư nợ cho vay đạt 5.257.307 tỷ đồng"
+    },
+    {
+        "text": "5.257.307 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng dư nợ cho vay đạt 5.257.307 tỷ đồng"
+    },
+    {
+        "text": "609.633 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 609.633 tỷ đồng (13%) so với cuối năm 2021"
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "tăng 609.633 tỷ đồng (13%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 609.633 tỷ đồng (13%) so với cuối năm 2021"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "nợ xấu năm 2022 là 78.240 tỷ đồng"
+    },
+    {
+        "text": "78.240 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nợ xấu năm 2022 là 78.240 tỷ đồng"
+    },
+    {
+        "text": "1,33%",
+        "label": "RATE",
+        "evidence": "chiếm 1,33% so với tổng dư nợ"
+    },
+    {
+        "text": "562.055 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021"
+    },
+    {
+        "text": "0,14%",
+        "label": "RATE",
+        "evidence": "tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 562.055 tỷ đồng (tăng 0,14%) so cuối năm 2021"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "báo cáo của Chính phủ cũng nêu rõ"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng"
+    },
+    {
+        "text": "tổng số dư các khoản chứng khoán kinh doanh đầu tư",
+        "label": "ASSET",
+        "evidence": "tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng"
+    },
+    {
+        "text": "khối ngân hàng thương mại Nhà nước",
+        "label": "ORG",
+        "evidence": "tổng số dư các khoản chứng khoán kinh doanh đầu tư của khối ngân hàng thương mại Nhà nước là 830.749 tỷ đồng"
+    },
+    {
+        "text": "830.749 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 830.749 tỷ đồng"
+    },
+    {
+        "text": "231.650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 231.650 tỷ đồng (39%) so với cuối năm 2021"
+    },
+    {
+        "text": "39%",
+        "label": "RATE",
+        "evidence": "tăng 231.650 tỷ đồng (39%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 231.650 tỷ đồng (39%) so với cuối năm 2021"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "trong báo cáo, Chính phủ cũng nêu rõ về tình hình nợ xấu cho vay của 4 ngân hàng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng"
+    },
+    {
+        "text": "78.240 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nợ xấu năm 2022 của 4 ngân hàng là 78.240 tỷ đồng"
+    },
+    {
+        "text": "14.753 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 14.753 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 14.753 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "23,24%",
+        "label": "RATE",
+        "evidence": "tương ứng với tỷ lệ tăng 23,24%"
+    },
+    {
+        "text": "Tỷ lệ nợ xấu năm 2022",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33%"
+    },
+    {
+        "text": "1,33%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu năm 2022 là 1,33%"
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "tăng 11% so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 11% so với năm 2021"
+    },
+    {
+        "text": "khối ngân hàng thương mại Nhà nước",
+        "label": "ORG",
+        "evidence": "khối ngân hàng thương mại Nhà nước tiếp tục chú trọng thực hiện quyết liệt các biện pháp để nâng cao chất lượng tài sản"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2022, tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng"
+    },
+    {
+        "text": "tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN",
+        "label": "EVENT",
+        "evidence": "tổng số dư các khoản nợ được cơ cấu và giữ nguyên nhóm nợ theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng"
+    },
+    {
+        "text": "Thông tư số 09/2014/TTNHNN",
+        "label": "EVENT",
+        "evidence": "theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN"
+    },
+    {
+        "text": "Quyết định số 780/QĐ-NHNN",
+        "label": "EVENT",
+        "evidence": "theo Thông tư số 09/2014/TTNHNN và Quyết định số 780/QĐ-NHNN"
+    },
+    {
+        "text": "khối ngân hàng thương mại Nhà nước",
+        "label": "ORG",
+        "evidence": "của khối ngân hàng thương mại Nhà nước là 2.831 tỷ đồng"
+    },
+    {
+        "text": "2.831 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 2.831 tỷ đồng"
+    },
+    {
+        "text": "1.204 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm 1.204 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "giảm 1.204 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "29,84%",
+        "label": "RATE",
+        "evidence": "(tương đương 29,84%)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "(Vietcombank chỉ còn 68 tỷ đồng dư nợ"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "TICKER",
+        "evidence": "(Vietcombank chỉ còn 68 tỷ đồng dư nợ"
+    },
+    {
+        "text": "68 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank chỉ còn 68 tỷ đồng dư nợ"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV không còn dư nợ"
+    },
+    {
+        "text": "BIDV",
+        "label": "TICKER",
+        "evidence": "BIDV không còn dư nợ"
+    },
+    {
+        "text": "tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN)",
+        "label": "EVENT",
+        "evidence": "Đối với tỷ lệ nợ cơ cấu lại thời hạn trả nợ, miễn giảm lãi và giữ nguyên nhóm nợ theo Thông tư số 01/2020/TT-NHNN (đã được sửa đổi, bổ sung tại Thông tư số 03/2021/TT-NHNN và Thông tư số 14/2021/TT-NHNN) đến cuối năm 2022 là 69.934 tỷ đồng"
+    },
+    {
+        "text": "Thông tư số 01/2020/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "theo Thông tư số 01/2020/TT-NHNN"
+    },
+    {
+        "text": "Thông tư số 03/2021/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "bổ sung tại Thông tư số 03/2021/TT-NHNN"
+    },
+    {
+        "text": "Thông tư số 14/2021/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "và Thông tư số 14/2021/TT-NHNN"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "đến cuối năm 2022 là 69.934 tỷ đồng"
+    },
+    {
+        "text": "69.934 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 69.934 tỷ đồng"
+    },
+    {
+        "text": "185.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giảm 185.666 tỷ đồng (-73%) so với năm 2021"
+    },
+    {
+        "text": "-73%",
+        "label": "RATE",
+        "evidence": "giảm 185.666 tỷ đồng (-73%) so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "giảm 185.666 tỷ đồng (-73%) so với năm 2021"
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Về kết quả xử lý nợ xấu, Chính phủ cũng cho rằng"
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, các ngân hàng thương mại Nhà nước đạt kết quả khá tích cực trong xử lý nợ xấu"
+    },
+    {
+        "text": "tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng",
+        "label": "EVENT",
+        "evidence": "tổng số nợ xấu của các ngân hàng thương mại Nhà nước được xử lý trong năm 2022 thông qua các hình thức: Khách hàng trả nợ, bán phát mại tài sản; trích lập dự phòng đạt 119.888 tỷ đồng"
+    },
+    {
+        "text": "119.888 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trích lập dự phòng đạt 119.888 tỷ đồng"
+    },
+    {
+        "text": "60.381 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 60.381 tỷ đồng (101%) so cuối năm 2021"
+    },
+    {
+        "text": "101%",
+        "label": "RATE",
+        "evidence": "tăng 60.381 tỷ đồng (101%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 60.381 tỷ đồng (101%) so cuối năm 2021"
+    },
+    {
+        "text": "sử dụng dự phòng rủi ro",
+        "label": "EVENT",
+        "evidence": "trong đó, sử dụng dự phòng rủi ro 62.599 tỷ đồng"
+    },
+    {
+        "text": "62.599 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sử dụng dự phòng rủi ro 62.599 tỷ đồng"
+    },
+    {
+        "text": "23.686 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 23.686 tỷ đồng (61%) so cuối năm 2021"
+    },
+    {
+        "text": "61%",
+        "label": "RATE",
+        "evidence": "tăng 23.686 tỷ đồng (61%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 23.686 tỷ đồng (61%) so cuối năm 2021"
+    },
+    {
+        "text": "tổng doanh thu của 4 ngân hàng",
+        "label": "MONEY",
+        "evidence": "tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng"
+    },
+    {
+        "text": "538.372 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng doanh thu của 4 ngân hàng đạt 538.372 tỷ đồng"
+    },
+    {
+        "text": "95.835 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 95.835 tỷ đồng (22%) so với năm 2021"
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "tăng 95.835 tỷ đồng (22%) so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 95.835 tỷ đồng (22%) so với năm 2021"
+    },
+    {
+        "text": "Lợi nhuận trước thuế của 4 ngân hàng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng"
+    },
+    {
+        "text": "101.648 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế của 4 ngân hàng đạt 101.648 tỷ đồng"
+    },
+    {
+        "text": "31.118 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 31.118 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "Lợi nhuận sau thuế",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng"
+    },
+    {
+        "text": "81.510 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế: đạt 81.510 tỷ đồng"
+    },
+    {
+        "text": "24.875 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 24.875 tỷ đồng (44%) so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%"
+    },
+    {
+        "text": "tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE)",
+        "label": "RATE",
+        "evidence": "tỷ suất lợi nhuận sau thuế/vốn chủ sở hữu (ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%"
+    },
+    {
+        "text": "18,74%",
+        "label": "RATE",
+        "evidence": "ROE) hợp nhất thời điểm cuối năm 2022: đạt 18,74%"
+    },
+    {
+        "text": "3,24%",
+        "label": "RATE",
+        "evidence": "tăng 3,24% so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 3,24% so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA)",
+        "label": "RATE",
+        "evidence": "Tỷ suất lợi nhuận sau thuế/tổng tài sản (ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%"
+    },
+    {
+        "text": "1,07%",
+        "label": "RATE",
+        "evidence": "ROA) hợp nhất thời điểm cuối năm 2022: đạt 1,07%"
+    },
+    {
+        "text": "0,19%",
+        "label": "RATE",
+        "evidence": "tăng 0,19% so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 0,19% so với cùng kỳ năm 2021"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng"
+    },
+    {
+        "text": "nộp vào ngân sách nhà nước",
+        "label": "EVENT",
+        "evidence": "đến cuối năm 2022, các ngân hàng thương mại nhà nước đã nộp vào ngân sách nhà nước là 22.516,4 tỷ đồng"
+    },
+    {
+        "text": "22.516,4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân sách nhà nước là 22.516,4 tỷ đồng"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "trong đó: Vietinbank: 6.520 tỷ đồng"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "TICKER",
+        "evidence": "trong đó: Vietinbank: 6.520 tỷ đồng"
+    },
+    {
+        "text": "6.520 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietinbank: 6.520 tỷ đồng"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV: 4.891 tỷ đồng"
+    },
+    {
+        "text": "BIDV",
+        "label": "TICKER",
+        "evidence": "BIDV: 4.891 tỷ đồng"
+    },
+    {
+        "text": "4.891 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV: 4.891 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank: 6.046.3 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "TICKER",
+        "evidence": "Vietcombank: 6.046.3 tỷ đồng"
+    },
+    {
+        "text": "6.046.3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank: 6.046.3 tỷ đồng"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "và Agribank: 13.062,27 tỷ đồng"
+    },
+    {
+        "text": "13.062,27 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Agribank: 13.062,27 tỷ đồng"
+    },
+    {
+        "text": "Vốn chủ sở hữu",
+        "label": "ASSET",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng"
+    },
+    {
+        "text": "435.002 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu đạt 435.002 tỷ đồng"
+    },
+    {
+        "text": "69.725 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 69.725 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "tăng 69.725 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 69.725 tỷ đồng (19%) so với cuối năm 2021"
+    },
+    {
+        "text": "vốn điều lệ",
+        "label": "ASSET",
+        "evidence": "trong đó vốn điều lệ đạt 180.415 tỷ đồng"
+    },
+    {
+        "text": "180.415 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong đó vốn điều lệ đạt 180.415 tỷ đồng"
+    },
+    {
+        "text": "10.355 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 10.355 tỷ đồng (6%) so cuối năm 2021"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "tăng 10.355 tỷ đồng (6%) so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 10.355 tỷ đồng (6%) so cuối năm 2021"
+    },
+    {
+        "text": "131.170 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "các khoản nợ phải thu (ngoài các khoản phải thu từ hoạt động tín dụng) là 131.170 tỷ đồng"
+    },
+    {
+        "text": "60.195 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 60.195 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 60.195 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "TICKER",
+        "evidence": "trong đó: Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng"
+    },
+    {
+        "text": "65.993 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietinbank có các khoản nợ phải thu là 65.993 tỷ đồng"
+    },
+    {
+        "text": "31.760 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 31.760 tỷ đồng so với cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 31.760 tỷ đồng so với cuối năm 2021"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV có các khoản phải thu là 22.768 tỷ đồng"
+    },
+    {
+        "text": "BIDV",
+        "label": "TICKER",
+        "evidence": "BIDV có các khoản phải thu là 22.768 tỷ đồng"
+    },
+    {
+        "text": "22.768 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV có các khoản phải thu là 22.768 tỷ đồng"
+    },
+    {
+        "text": "14.912 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 14.912 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 14.912 tỷ đồng so với năm 2021"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "TICKER",
+        "evidence": "Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng"
+    },
+    {
+        "text": "32.438 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank có các khoản nợ phải thu là 32.438 tỷ đồng"
+    },
+    {
+        "text": "11.320 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 11.320 tỷ đồng (53,6%) so với năm 2021"
+    },
+    {
+        "text": "53,6%",
+        "label": "RATE",
+        "evidence": "tăng 11.320 tỷ đồng (53,6%) so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 11.320 tỷ đồng (53,6%) so với năm 2021"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank có các khoản nợ phải thu là 9.971 tỷ đồng"
+    },
+    {
+        "text": "9.971 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Agribank có các khoản nợ phải thu là 9.971 tỷ đồng"
+    },
+    {
+        "text": "2.203 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 2.203 tỷ đồng so cuối năm 2021"
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 2.203 tỷ đồng so cuối năm 2021"
+    },
+    {
+        "text": "208.925 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Các khoản nợ phải trả là 208.925 tỷ đồng"
+    }
+]

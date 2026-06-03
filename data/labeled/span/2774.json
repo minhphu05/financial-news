@@ -1,0 +1,427 @@
+[
+    {
+        "text": "năm 2017",
+        "label": "DATE",
+        "evidence": "Giá đất từng lên đỉnh vào năm 2017"
+    },
+    {
+        "text": "2017",
+        "label": "DATE",
+        "evidence": "Nhìn lại quá khứ, thời điểm 2017, khi các thông tin về một phần huyện Vạn Ninh (Khánh Hòa) được quy hoạch thành khu kinh tế Vân Phong - bắc Vân Phong, thị trường bất động sản nơi đây lập tức trở thành khu vực “nóng” nhất cả nước."
+    },
+    {
+        "text": "huyện Vạn Ninh (Khánh Hòa) được quy hoạch thành khu kinh tế Vân Phong - bắc Vân Phong",
+        "label": "EVENT",
+        "evidence": "Nhìn lại quá khứ, thời điểm 2017, khi các thông tin về một phần huyện Vạn Ninh (Khánh Hòa) được quy hoạch thành khu kinh tế Vân Phong - bắc Vân Phong, thị trường bất động sản nơi đây lập tức trở thành khu vực “nóng” nhất cả nước."
+    },
+    {
+        "text": "lô đất ven biển",
+        "label": "ASSET",
+        "evidence": "Khi đó, nhiều lô đất ven biển còn được giao dịch với giá cao gấp 10 lần chỉ trong phút mốt."
+    },
+    {
+        "text": "Ngọc Linh",
+        "label": "PERSON",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "Giữa năm 2017",
+        "label": "DATE",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "70 - 80 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "70 - 80 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "15 - 20 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "15 - 20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Anh Ngọc Linh, môi giới bất động sản kể lại: “Giữa năm 2017, nhiều khu vực ở thị trấn Vạn Giã giá đất lên tới 70 - 80 triệu đồng/m2, trong khi cách đó 1 năm chỉ khoảng 15 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "đất ở",
+        "label": "ASSET",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "đất nuôi trồng thủy sản",
+        "label": "ASSET",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "đất nông nghiệp",
+        "label": "ASSET",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "4 - 5 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "4 - 5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "vài trăm nghìn đồng/m2",
+        "label": "PRICE",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "vài trăm nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Không chỉ đất ở, nhiều người còn mạnh tay mua cả đất nuôi trồng thủy sản, đất nông nghiệp,... khiến giá tăng lên 4 - 5 triệu đồng/m2, trong khi trước đó chỉ khoảng vài trăm nghìn đồng/m2”."
+    },
+    {
+        "text": "tháng 5/2018",
+        "label": "DATE",
+        "evidence": "Thế nhưng, đến tháng 5/2018, UBND tỉnh Khánh Hòa vào cuộc chỉ đạo dừng chuyển đổi mục đích sử dụng đất, tách thửa, chuyển quyền sử dụng đất tại khu vực quy hoạch đặc khu bắc Vân Phong."
+    },
+    {
+        "text": "UBND tỉnh Khánh Hòa",
+        "label": "ORG",
+        "evidence": "Thế nhưng, đến tháng 5/2018, UBND tỉnh Khánh Hòa vào cuộc chỉ đạo dừng chuyển đổi mục đích sử dụng đất, tách thửa, chuyển quyền sử dụng đất tại khu vực quy hoạch đặc khu bắc Vân Phong."
+    },
+    {
+        "text": "UBND tỉnh Khánh Hòa vào cuộc chỉ đạo dừng chuyển đổi mục đích sử dụng đất, tách thửa, chuyển quyền sử dụng đất tại khu vực quy hoạch đặc khu bắc Vân Phong",
+        "label": "EVENT",
+        "evidence": "Thế nhưng, đến tháng 5/2018, UBND tỉnh Khánh Hòa vào cuộc chỉ đạo dừng chuyển đổi mục đích sử dụng đất, tách thửa, chuyển quyền sử dụng đất tại khu vực quy hoạch đặc khu bắc Vân Phong."
+    },
+    {
+        "text": "giữa năm 2018",
+        "label": "DATE",
+        "evidence": "Đến giữa năm 2018, giá đất tại thị trấn Vạn giã giảm hơn một nửa, còn 30 - 40 triệu đồng/m2."
+    },
+    {
+        "text": "30 - 40 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Đến giữa năm 2018, giá đất tại thị trấn Vạn giã giảm hơn một nửa, còn 30 - 40 triệu đồng/m2."
+    },
+    {
+        "text": "30 - 40 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Đến giữa năm 2018, giá đất tại thị trấn Vạn giã giảm hơn một nửa, còn 30 - 40 triệu đồng/m2."
+    },
+    {
+        "text": "đất rừng",
+        "label": "ASSET",
+        "evidence": "Các loại đất rừng, đất nuôi trồng thủy sản, đất nông nghiệp không còn ghi nhận sự ồ ạt xuống tiền của nhà đầu tư và nhanh chóng trở về mức giá bằng thời điểm 2016."
+    },
+    {
+        "text": "2016",
+        "label": "DATE",
+        "evidence": "Các loại đất rừng, đất nuôi trồng thủy sản, đất nông nghiệp không còn ghi nhận sự ồ ạt xuống tiền của nhà đầu tư và nhanh chóng trở về mức giá bằng thời điểm 2016."
+    },
+    {
+        "text": "tháng 6/2020",
+        "label": "DATE",
+        "evidence": "Đến tháng 6/2020, Thủ tướng đồng ý tạm dừng triển khai lập quy hoạch tổng thể phát triển kinh tế - xã hội đơn vị hành chính đặc khu kinh tế bắc Vân Phong."
+    },
+    {
+        "text": "Thủ tướng",
+        "label": "PERSON",
+        "evidence": "Đến tháng 6/2020, Thủ tướng đồng ý tạm dừng triển khai lập quy hoạch tổng thể phát triển kinh tế - xã hội đơn vị hành chính đặc khu kinh tế bắc Vân Phong."
+    },
+    {
+        "text": "Thủ tướng đồng ý tạm dừng triển khai lập quy hoạch tổng thể phát triển kinh tế - xã hội đơn vị hành chính đặc khu kinh tế bắc Vân Phong",
+        "label": "EVENT",
+        "evidence": "Đến tháng 6/2020, Thủ tướng đồng ý tạm dừng triển khai lập quy hoạch tổng thể phát triển kinh tế - xã hội đơn vị hành chính đặc khu kinh tế bắc Vân Phong."
+    },
+    {
+        "text": "giữa năm 2021",
+        "label": "DATE",
+        "evidence": "Mãi đến giữa năm 2021, theo sức nóng chung của thị trường bất động sản, thị trường Vạn Ninh cũng ấm trở lại."
+    },
+    {
+        "text": "đất nền",
+        "label": "ASSET",
+        "evidence": "Giá rao bán đất nền có tăng nhẹ khi hay tin các “ông lớn” đổ bộ?"
+    },
+    {
+        "text": "Ban quản lý Khu kinh tế Vân Phong",
+        "label": "ORG",
+        "evidence": "Mới đây, Ban quản lý Khu kinh tế Vân Phong cho biết, từ ngày 7 - 15/2, đơn vị sẽ làm việc với 13 nhà đầu tư quan tâm đề xuất đầu tư các dự án ưu tiên thu hút đầu tư vào khu vực này và các khu công nghiệp trên địa bàn tỉnh Khánh Hòa."
+    },
+    {
+        "text": "từ ngày 7 - 15/2",
+        "label": "DATE",
+        "evidence": "Mới đây, Ban quản lý Khu kinh tế Vân Phong cho biết, từ ngày 7 - 15/2, đơn vị sẽ làm việc với 13 nhà đầu tư quan tâm đề xuất đầu tư các dự án ưu tiên thu hút đầu tư vào khu vực này và các khu công nghiệp trên địa bàn tỉnh Khánh Hòa."
+    },
+    {
+        "text": "làm việc với 13 nhà đầu tư quan tâm đề xuất đầu tư các dự án ưu tiên thu hút đầu tư vào khu vực này và các khu công nghiệp trên địa bàn tỉnh Khánh Hòa",
+        "label": "EVENT",
+        "evidence": "Mới đây, Ban quản lý Khu kinh tế Vân Phong cho biết, từ ngày 7 - 15/2, đơn vị sẽ làm việc với 13 nhà đầu tư quan tâm đề xuất đầu tư các dự án ưu tiên thu hút đầu tư vào khu vực này và các khu công nghiệp trên địa bàn tỉnh Khánh Hòa."
+    },
+    {
+        "text": "Công ty CP Dầu khí Đông Phương",
+        "label": "ORG",
+        "evidence": "Cụ thể, 13 doanh nghiệp quan tâm gồm: Công ty CP Dầu khí Đông Phương (dự án về lọc hóa dầu, năng lượng, công nghiệp);"
+    },
+    {
+        "text": "Công ty Stavian Hóa chất",
+        "label": "ORG",
+        "evidence": "Công ty Stavian Hóa chất, Công ty Stavian Land (dự án về hóa dầu, công nghiệp);"
+    },
+    {
+        "text": "Công ty Stavian Land",
+        "label": "ORG",
+        "evidence": "Công ty Stavian Hóa chất, Công ty Stavian Land (dự án về hóa dầu, công nghiệp);"
+    },
+    {
+        "text": "CTCP Trung Nam",
+        "label": "ORG",
+        "evidence": "CTCP Trung Nam (Dự án về năng lượng, KCN);"
+    },
+    {
+        "text": "Công ty CP Sonadezi",
+        "label": "ORG",
+        "evidence": "Công ty CP Sonadezi (dự án về đầu tư phát triển KCN);"
+    },
+    {
+        "text": "Tổng công ty Becamex IDC",
+        "label": "ORG",
+        "evidence": "Tổng công ty Becamex IDC (dự án về đầu tư phát triển KCN);"
+    },
+    {
+        "text": "Công ty CP SSI",
+        "label": "ORG",
+        "evidence": "Công ty CP SSI (dự án về đầu tư phát triển KCN);"
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "Công ty CP SSI (dự án về đầu tư phát triển KCN);"
+    },
+    {
+        "text": "Công ty CP Shinec",
+        "label": "ORG",
+        "evidence": "Công ty CP Shinec (dự án về đầu tư phát triển KCN);"
+    },
+    {
+        "text": "Tổng công ty Tân Cảng Sài Gòn",
+        "label": "ORG",
+        "evidence": "Tổng công ty Tân Cảng Sài Gòn (dự án về đầu tư xây dựng cảng biển);"
+    },
+    {
+        "text": "Tập đoàn Sungroup",
+        "label": "ORG",
+        "evidence": "Tập đoàn Sungroup (dự án thuộc lĩnh vực du lịch, dịch vụ, sân bay, cảng biển...);"
+    },
+    {
+        "text": "Tập đoàn Novaland",
+        "label": "ORG",
+        "evidence": "Tập đoàn Novaland và Cty CP Đầu tư Đất Tâm (dự án thuộc lĩnh vực đô thị, du lịch);"
+    },
+    {
+        "text": "Cty CP Đầu tư Đất Tâm",
+        "label": "ORG",
+        "evidence": "Tập đoàn Novaland và Cty CP Đầu tư Đất Tâm (dự án thuộc lĩnh vực đô thị, du lịch);"
+    },
+    {
+        "text": "Công ty Cổ phầnFPT",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phầnFPT(dự án thuộc lĩnh vực đô thị, du lịch);"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Công ty Cổ phầnFPT(dự án thuộc lĩnh vực đô thị, du lịch);"
+    },
+    {
+        "text": "CTCP Flamingo Holding Group",
+        "label": "ORG",
+        "evidence": "CTCP Flamingo Holding Group (dự án thuộc lĩnh vực đô thị, du lịch, KCN)."
+    },
+    {
+        "text": "Hưởng",
+        "label": "PERSON",
+        "evidence": "Trước thông tin này, anh Hưởng, một môi giới tại khu vực cho biết, mấy ngày gần đây, nhiều nhà đầu tư bắt đầu rục rịch trở lại Vạn Ninh."
+    },
+    {
+        "text": "ngày 1/2",
+        "label": "DATE",
+        "evidence": "Trong ngày 1/2 bên tôi cũng bán được vài lô đất."
+    },
+    {
+        "text": "tăng khoảng 10%",
+        "label": "RATE",
+        "evidence": "Giá đất rao bán tại khu vực này cũng đã tăng khoảng 10% so với trước Tết."
+    },
+    {
+        "text": "trước Tết",
+        "label": "DATE",
+        "evidence": "Giá đất rao bán tại khu vực này cũng đã tăng khoảng 10% so với trước Tết."
+    },
+    {
+        "text": "2017",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, giá đất vẫn chưa chạm đỉnh như thời điểm 2017”, anh Hưởng nói."
+    },
+    {
+        "text": "một mảnh đất tại trục đường Trần Hưng Đạo",
+        "label": "ASSET",
+        "evidence": "Đơn cử, một mảnh đất tại trục đường Trần Hưng Đạo có diện tích trên sổ hồng 178m2, tuy nhiên diện tích thực tế là hơn 200m2."
+    },
+    {
+        "text": "trước Tết",
+        "label": "DATE",
+        "evidence": "Trước Tết, mảnh đất này có giá 52 triệu đồng/m2, thì nay đã tăng lên 57 triệu đồng/m2."
+    },
+    {
+        "text": "52 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Trước Tết, mảnh đất này có giá 52 triệu đồng/m2, thì nay đã tăng lên 57 triệu đồng/m2."
+    },
+    {
+        "text": "52 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trước Tết, mảnh đất này có giá 52 triệu đồng/m2, thì nay đã tăng lên 57 triệu đồng/m2."
+    },
+    {
+        "text": "57 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Trước Tết, mảnh đất này có giá 52 triệu đồng/m2, thì nay đã tăng lên 57 triệu đồng/m2."
+    },
+    {
+        "text": "57 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trước Tết, mảnh đất này có giá 52 triệu đồng/m2, thì nay đã tăng lên 57 triệu đồng/m2."
+    },
+    {
+        "text": "30 - 60 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Theo anh Hưởng, giá đất trên trục đường Trần Hưng Đạo đang được nhiều nhà đầu tư quan tâm, giá bán dao động 30 - 60 triệu đồng/m2, tùy vị trí."
+    },
+    {
+        "text": "30 - 60 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo anh Hưởng, giá đất trên trục đường Trần Hưng Đạo đang được nhiều nhà đầu tư quan tâm, giá bán dao động 30 - 60 triệu đồng/m2, tùy vị trí."
+    },
+    {
+        "text": "70 - 75 triệu đồng",
+        "label": "PRICE",
+        "evidence": "Còn đối diện khu vực quảng trường đang xây dựng có giá cao nhất từ 70 - 75 triệu đồng."
+    },
+    {
+        "text": "70 - 75 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Còn đối diện khu vực quảng trường đang xây dựng có giá cao nhất từ 70 - 75 triệu đồng."
+    },
+    {
+        "text": "4 -5 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "“Giá từ 4 -5 triệu đồng/m2 cũng có nhưng không phải vị trí thuận tiện."
+    },
+    {
+        "text": "4 -5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "“Giá từ 4 -5 triệu đồng/m2 cũng có nhưng không phải vị trí thuận tiện."
+    },
+    {
+        "text": "7 - 20 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Theo khảo sát, giá đất tại xã Vạn Hưng có giá từ 7 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "7 - 20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo khảo sát, giá đất tại xã Vạn Hưng có giá từ 7 - 20 triệu đồng/m2."
+    },
+    {
+        "text": "15 - 25 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Tại xã Vạn Thạnh giá dao động từ 15 - 25 triệu đồng/m2."
+    },
+    {
+        "text": "15 - 25 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại xã Vạn Thạnh giá dao động từ 15 - 25 triệu đồng/m2."
+    },
+    {
+        "text": "12 - 27 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Giá tại Tân Đức Đông dao động từ 12 - 27 triệu đồng/m2…"
+    },
+    {
+        "text": "12 - 27 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giá tại Tân Đức Đông dao động từ 12 - 27 triệu đồng/m2…"
+    },
+    {
+        "text": "1 - 1,5 triệu đồng/m2",
+        "label": "PRICE",
+        "evidence": "Bên cạnh đó, một số loại đất có thời hạn 50 năm đang được rao bán từ 1 - 1,5 triệu đồng/m2."
+    },
+    {
+        "text": "1 - 1,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, một số loại đất có thời hạn 50 năm đang được rao bán từ 1 - 1,5 triệu đồng/m2."
+    },
+    {
+        "text": "Thành",
+        "label": "PERSON",
+        "evidence": "Trong vai khách tìm mua đất, chúng tôi liên hệ với môi giới tên Thành, người này cho biết, trước Tết thị trường khu vực này cũng khá trầm lắng."
+    },
+    {
+        "text": "sau Tết",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, sau Tết một số nhà đầu tư đã liên hệ tới để xem, giao dịch đất, giá cũng đã tăng nhẹ."
+    },
+    {
+        "text": "đất cây năm",
+        "label": "ASSET",
+        "evidence": "Cùng đó, các loại đất cây năm, đất nông nghiệp không còn được nhà đầu tư quan tâm, bởi sợ dính quy hoạch."
+    },
+    {
+        "text": "ngày 7/2",
+        "label": "DATE",
+        "evidence": "Đến ngày 7/2, nhiều doanh nghiệp lớn sẽ họp và quyết định đầu tư."
+    },
+    {
+        "text": "nhiều doanh nghiệp lớn sẽ họp và quyết định đầu tư",
+        "label": "EVENT",
+        "evidence": "Đến ngày 7/2, nhiều doanh nghiệp lớn sẽ họp và quyết định đầu tư."
+    },
+    {
+        "text": "Ngày 2/4",
+        "label": "DATE",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    },
+    {
+        "text": "công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050",
+        "label": "EVENT",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    },
+    {
+        "text": "giai đoạn 2021 - 2030",
+        "label": "DATE",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    },
+    {
+        "text": "năm 2050",
+        "label": "DATE",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    },
+    {
+        "text": "đến năm 2040",
+        "label": "DATE",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    },
+    {
+        "text": "tầm nhìn 2050",
+        "label": "DATE",
+        "evidence": "Ngày 2/4 sẽ công bố Quy hoạch tỉnh Khánh Hòa giai đoạn 2021 - 2030, tầm nhìn đến năm 2050 và Điều chỉnh quy hoạch chung xây dựng Khu Kinh tế Vân Phong đến năm 2040, tầm nhìn 2050, khi đó có thể sẽ xảy ra sốt đất tại khu vực này”, người môi giới."
+    }
+]

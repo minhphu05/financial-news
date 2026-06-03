@@ -1,0 +1,912 @@
+[
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "FPT Shop"
+    },
+    {
+        "text": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "4.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "giảm 3% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "ghi nhận sự phục hồi 7% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Doanh thu giảm nhẹ xuống mức 4.000 tỷ đồng (giảm 3% so với cùng kỳ), trong khi các chuỗi Điện Máy Xanh và Thế Giới Di Động của đối thủ cạnh tranh lại ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "ghi nhận sự phục hồi 7% so với cùng kỳ."
+    },
+    {
+        "text": "doanh thu của FPT Shop tăng so với quý trước",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, doanh thu của FPT Shop tăng so với quý trước (tăng 20% so với quý trước, so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, doanh thu của FPT Shop tăng so với quý trước (tăng 20% so với quý trước, so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "tăng 20% so với quý trước",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, doanh thu của FPT Shop tăng so với quý trước (tăng 20% so với quý trước, so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, doanh thu của FPT Shop tăng so với quý trước (tăng 20% so với quý trước, so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "giảm 4% so với quý trước",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, doanh thu của FPT Shop tăng so với quý trước (tăng 20% so với quý trước, so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "ĐMX",
+        "label": "ORG",
+        "evidence": "so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "TGDĐ",
+        "label": "ORG",
+        "evidence": "so với mức giảm 4% so với quý trước của đối thủ ĐMX/TGDĐ) nhờ vào doanh thu máy tính xách tay cao hơn trong mùa tựu trường."
+    },
+    {
+        "text": "Việc đóng cửa 118 cửa hàng",
+        "label": "EVENT",
+        "evidence": "Việc đóng cửa 118 cửa hàng tính đến thời điểm hiện tại (chủ yếu trong quý 2/2024) đã giúp công ty tối ưu hóa chi phí trong bối cảnh nhu cầu yếu."
+    },
+    {
+        "text": "118 cửa hàng",
+        "label": "VOLUME",
+        "evidence": "Việc đóng cửa 118 cửa hàng tính đến thời điểm hiện tại (chủ yếu trong quý 2/2024) đã giúp công ty tối ưu hóa chi phí trong bối cảnh nhu cầu yếu."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "Việc đóng cửa 118 cửa hàng tính đến thời điểm hiện tại (chủ yếu trong quý 2/2024) đã giúp công ty tối ưu hóa chi phí trong bối cảnh nhu cầu yếu."
+    },
+    {
+        "text": "FPT Shop có lãi trong quý",
+        "label": "EVENT",
+        "evidence": "Điều này cùng với sự thay đổi cơ cấu sản phẩm (tăng doanh thu máy tính xách tay trong mùa tựu trường) đã giúp FPT Shop có lãi trong quý (LNTT đạt 40 tỷ đồng trong quý 3/2024) sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Điều này cùng với sự thay đổi cơ cấu sản phẩm (tăng doanh thu máy tính xách tay trong mùa tựu trường) đã giúp FPT Shop có lãi trong quý (LNTT đạt 40 tỷ đồng trong quý 3/2024) sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "LNTT đạt 40 tỷ đồng trong quý 3/2024",
+        "label": "EVENT",
+        "evidence": "Điều này cùng với sự thay đổi cơ cấu sản phẩm (tăng doanh thu máy tính xách tay trong mùa tựu trường) đã giúp FPT Shop có lãi trong quý (LNTT đạt 40 tỷ đồng trong quý 3/2024) sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "40 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "LNTT đạt 40 tỷ đồng trong quý 3/2024) sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "LNTT đạt 40 tỷ đồng trong quý 3/2024) sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "6 quý",
+        "label": "DATE",
+        "evidence": "sau 6 quý liên tiếp thua lỗ."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "637 cửa hàng FPT Shop",
+        "label": "VOLUME",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "giảm 118 cửa hàng so với đầu năm",
+        "label": "EVENT",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "118 cửa hàng",
+        "label": "VOLUME",
+        "evidence": "Tính đến quý 3/2024, FPT Retail có 637 cửa hàng FPT Shop (giảm 118 cửa hàng so với đầu năm)."
+    },
+    {
+        "text": "ghi nhận chi phí bất thường là 33 tỷ đồng liên quan đến việc đóng cửa cửa hàng trong 9 tháng đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Công ty đã ghi nhận chi phí bất thường là 33 tỷ đồng liên quan đến việc đóng cửa cửa hàng trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "33 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Công ty đã ghi nhận chi phí bất thường là 33 tỷ đồng liên quan đến việc đóng cửa cửa hàng trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Công ty đã ghi nhận chi phí bất thường là 33 tỷ đồng liên quan đến việc đóng cửa cửa hàng trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "số lỗ 9 tháng đầu năm 2024 sẽ là 40 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Nếu loại trừ chi phí bất thường, số lỗ 9 tháng đầu năm 2024 sẽ là 40 tỷ đồng."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Nếu loại trừ chi phí bất thường, số lỗ 9 tháng đầu năm 2024 sẽ là 40 tỷ đồng."
+    },
+    {
+        "text": "40 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu loại trừ chi phí bất thường, số lỗ 9 tháng đầu năm 2024 sẽ là 40 tỷ đồng."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Với nhu cầu bão hòa và các nỗ lực tối ưu hóa chi phí (chuyển doanh thu từ offline sang online), SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024",
+        "label": "EVENT",
+        "evidence": "SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "120 cửa hàng FPT Shop",
+        "label": "VOLUME",
+        "evidence": "SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "duy trì số lượng cửa hàng đó vào năm 2025",
+        "label": "EVENT",
+        "evidence": "SSI ước tính công ty sẽ đóng cửa 120 cửa hàng FPT Shop vào năm 2024 và duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "duy trì số lượng cửa hàng đó vào năm 2025."
+    },
+    {
+        "text": "Doanh thu dự kiến sẽ giảm vào năm 2024 (15.100 tỷ đồng, giảm 6% so với cùng kỳ)",
+        "label": "EVENT",
+        "evidence": "Doanh thu dự kiến sẽ giảm vào năm 2024 (15.100 tỷ đồng, giảm 6% so với cùng kỳ) do số lượng cửa hàng giảm và nhu cầu yếu, nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Doanh thu dự kiến sẽ giảm vào năm 2024 (15.100 tỷ đồng, giảm 6% so với cùng kỳ) do số lượng cửa hàng giảm và nhu cầu yếu, nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "15.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu dự kiến sẽ giảm vào năm 2024 (15.100 tỷ đồng, giảm 6% so với cùng kỳ) do số lượng cửa hàng giảm và nhu cầu yếu, nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "giảm 6% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "Doanh thu dự kiến sẽ giảm vào năm 2024 (15.100 tỷ đồng, giảm 6% so với cùng kỳ) do số lượng cửa hàng giảm và nhu cầu yếu, nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "tăng vào năm 2025",
+        "label": "EVENT",
+        "evidence": "nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "15.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "tăng 5% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "nhưng sẽ tăng vào năm 2025 (15.900 tỷ đồng, tăng 5% so với cùng kỳ) cùng với sự phục hồi tiêu dùng và chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "4-5 năm",
+        "label": "DATE",
+        "evidence": "chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "chu kỳ thay thế điện thoại di động (4-5 năm sau nhu cầu tăng cao bất thường vào năm 2021)."
+    },
+    {
+        "text": "Biên lợi nhuận trước thuế dự kiến sẽ cải thiện vào năm 2024 và 2025",
+        "label": "EVENT",
+        "evidence": "Biên lợi nhuận trước thuế dự kiến sẽ cải thiện vào năm 2024 và 2025 khi cạnh tranh về giá trở nên ít gay gắt hơn do mức tồn kho của công ty đối thủ (MWG) đã giảm và các nỗ lực tối ưu hóa chi phí."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Biên lợi nhuận trước thuế dự kiến sẽ cải thiện vào năm 2024 và 2025 khi cạnh tranh về giá trở nên ít gay gắt hơn do mức tồn kho của công ty đối thủ (MWG) đã giảm và các nỗ lực tối ưu hóa chi phí."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Biên lợi nhuận trước thuế dự kiến sẽ cải thiện vào năm 2024 và 2025 khi cạnh tranh về giá trở nên ít gay gắt hơn do mức tồn kho của công ty đối thủ (MWG) đã giảm và các nỗ lực tối ưu hóa chi phí."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "do mức tồn kho của công ty đối thủ (MWG) đã giảm và các nỗ lực tối ưu hóa chi phí."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, sự phục hồi biên lợi nhuận của FPT Shop sẽ chậm hơn nhiều so với đối thủ MWG do tỷ trọng doanh thu từ điện thoại di động (~70% doanh thu) đang phải đối mặt với sự cạnh tranh gay gắt từ thương mại điện tử.﻿"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tuy nhiên, sự phục hồi biên lợi nhuận của FPT Shop sẽ chậm hơn nhiều so với đối thủ MWG do tỷ trọng doanh thu từ điện thoại di động (~70% doanh thu) đang phải đối mặt với sự cạnh tranh gay gắt từ thương mại điện tử.﻿"
+    },
+    {
+        "text": "~70%",
+        "label": "RATE",
+        "evidence": "do tỷ trọng doanh thu từ điện thoại di động (~70% doanh thu) đang phải đối mặt với sự cạnh tranh gay gắt từ thương mại điện tử.﻿"
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Long Châu"
+    },
+    {
+        "text": "Doanh thu đạt tổng cộng 6.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Doanh thu đạt tổng cộng 6.500 tỷ đồng (tăng 55% so với cùng kỳ, tăng 8% so với quý trước)."
+    },
+    {
+        "text": "6.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu đạt tổng cộng 6.500 tỷ đồng (tăng 55% so với cùng kỳ, tăng 8% so với quý trước)."
+    },
+    {
+        "text": "tăng 55% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "Doanh thu đạt tổng cộng 6.500 tỷ đồng (tăng 55% so với cùng kỳ, tăng 8% so với quý trước)."
+    },
+    {
+        "text": "tăng 8% so với quý trước",
+        "label": "RATE",
+        "evidence": "Doanh thu đạt tổng cộng 6.500 tỷ đồng (tăng 55% so với cùng kỳ, tăng 8% so với quý trước)."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "FPT Retail đã đẩy nhanh tốc độ mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024 (so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024",
+        "label": "EVENT",
+        "evidence": "FPT Retail đã đẩy nhanh tốc độ mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024 (so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "143 cửa hàng Long Châu",
+        "label": "VOLUME",
+        "evidence": "FPT Retail đã đẩy nhanh tốc độ mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024 (so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "FPT Retail đã đẩy nhanh tốc độ mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024 (so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "FPT Retail đã đẩy nhanh tốc độ mở mới với 143 cửa hàng Long Châu mới được mở trong quý 3/2024 (so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "209 cửa hàng mới",
+        "label": "VOLUME",
+        "evidence": "(so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "6 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "(so với 209 cửa hàng mới trong 6 tháng đầu năm 2024), trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "1,1-1,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong khi doanh thu/tháng/cửa hàng vẫn ở mức cao (1,1-1,2 tỷ đồng)."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Long Châu cũng tiếp tục mở rộng kinh doanh vaccine, với 115 trung tâm vaccine tính đến cuối quý 3/2024 (vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "tiếp tục mở rộng kinh doanh vaccine",
+        "label": "EVENT",
+        "evidence": "Long Châu cũng tiếp tục mở rộng kinh doanh vaccine, với 115 trung tâm vaccine tính đến cuối quý 3/2024 (vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "115 trung tâm vaccine",
+        "label": "VOLUME",
+        "evidence": "Long Châu cũng tiếp tục mở rộng kinh doanh vaccine, với 115 trung tâm vaccine tính đến cuối quý 3/2024 (vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "cuối quý 3/2024",
+        "label": "DATE",
+        "evidence": "Long Châu cũng tiếp tục mở rộng kinh doanh vaccine, với 115 trung tâm vaccine tính đến cuối quý 3/2024 (vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "vượt kế hoạch 100 trung tâm vaccine/năm",
+        "label": "EVENT",
+        "evidence": "Long Châu cũng tiếp tục mở rộng kinh doanh vaccine, với 115 trung tâm vaccine tính đến cuối quý 3/2024 (vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "100 trung tâm vaccine",
+        "label": "VOLUME",
+        "evidence": "(vượt kế hoạch 100 trung tâm vaccine/năm)."
+    },
+    {
+        "text": "biên lợi nhuận ròng tiếp tục cải thiện",
+        "label": "EVENT",
+        "evidence": "Mặc dù tích cực mở mới nhà thuốc và trung tâm vaccine, biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "1,3%",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "1,9%",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "biên lợi nhuận ròng tiếp tục cải thiện (2% trong quý 3/2024 so với 1,3%/1,9% trong quý 3/2023 & quý 2/2024)."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Long Châu vẫn là động lực lợi nhuận chính của FPT Retail khi chiếm 76% tổng lợi nhuận ròng trong quý 3/2024."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Long Châu vẫn là động lực lợi nhuận chính của FPT Retail khi chiếm 76% tổng lợi nhuận ròng trong quý 3/2024."
+    },
+    {
+        "text": "chiếm 76% tổng lợi nhuận ròng trong quý 3/2024",
+        "label": "EVENT",
+        "evidence": "Long Châu vẫn là động lực lợi nhuận chính của FPT Retail khi chiếm 76% tổng lợi nhuận ròng trong quý 3/2024."
+    },
+    {
+        "text": "76%",
+        "label": "RATE",
+        "evidence": "Long Châu vẫn là động lực lợi nhuận chính của FPT Retail khi chiếm 76% tổng lợi nhuận ròng trong quý 3/2024."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Long Châu vẫn là động lực lợi nhuận chính của FPT Retail khi chiếm 76% tổng lợi nhuận ròng trong quý 3/2024."
+    },
+    {
+        "text": "9 tháng 2024",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng 2024, doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023)",
+        "label": "EVENT",
+        "evidence": "Lũy kế 9 tháng 2024, doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "28.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "tăng 24% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "357 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "khoản lỗ 197 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "9 tháng 2023",
+        "label": "DATE",
+        "evidence": "doanh thu và LNTT lần lượt đạt 28.700 tỷ đồng (tăng 24% so với cùng kỳ) và 357 tỷ đồng (so với khoản lỗ 197 tỷ đồng trong 9 tháng 2023) theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm",
+        "label": "EVENT",
+        "evidence": "theo đó, đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "77%",
+        "label": "RATE",
+        "evidence": "đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "286%",
+        "label": "RATE",
+        "evidence": "đã hoàn thành lần lượt 77% và 286% kế hoạch thận trọng cho cả năm."
+    },
+    {
+        "text": "Năm 2024-2025",
+        "label": "DATE",
+        "evidence": "Năm 2024-2025 sẽ là giai đoạn đầu của chu kỳ lợi nhuận mới của FPT Retail, trong đó lợi nhuận của FPT Shop sẽ có lãi trở lại sau một thời gian dài giảm hàng tồn kho và tối ưu hóa chi phí, trong khi Long Châu sẽ tiếp tục đạt được kết quả mạnh mẽ từ việc mở rộng mạng lưới cửa hàng và cải thiện biên lợi nhuận."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Năm 2024-2025 sẽ là giai đoạn đầu của chu kỳ lợi nhuận mới của FPT Retail, trong đó lợi nhuận của FPT Shop sẽ có lãi trở lại sau một thời gian dài giảm hàng tồn kho và tối ưu hóa chi phí, trong khi Long Châu sẽ tiếp tục đạt được kết quả mạnh mẽ từ việc mở rộng mạng lưới cửa hàng và cải thiện biên lợi nhuận."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Năm 2024-2025 sẽ là giai đoạn đầu của chu kỳ lợi nhuận mới của FPT Retail, trong đó lợi nhuận của FPT Shop sẽ có lãi trở lại sau một thời gian dài giảm hàng tồn kho và tối ưu hóa chi phí, trong khi Long Châu sẽ tiếp tục đạt được kết quả mạnh mẽ từ việc mở rộng mạng lưới cửa hàng và cải thiện biên lợi nhuận."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Năm 2024-2025 sẽ là giai đoạn đầu của chu kỳ lợi nhuận mới của FPT Retail, trong đó lợi nhuận của FPT Shop sẽ có lãi trở lại sau một thời gian dài giảm hàng tồn kho và tối ưu hóa chi phí, trong khi Long Châu sẽ tiếp tục đạt được kết quả mạnh mẽ từ việc mở rộng mạng lưới cửa hàng và cải thiện biên lợi nhuận."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Việc mở rộng mạng lưới cửa hàng Long Châu sẽ là động lực tăng trưởng chính cho FPT Retail trong dài hạn."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Việc mở rộng mạng lưới cửa hàng Long Châu sẽ là động lực tăng trưởng chính cho FPT Retail trong dài hạn."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI ước tính kênh bệnh viện và các cửa hàng nhà thuốc nhỏ hơn trên khắp cả nước chiếm khoảng 85% tổng doanh thu bán lẻ dược phẩm."
+    },
+    {
+        "text": "85%",
+        "label": "RATE",
+        "evidence": "SSI ước tính kênh bệnh viện và các cửa hàng nhà thuốc nhỏ hơn trên khắp cả nước chiếm khoảng 85% tổng doanh thu bán lẻ dược phẩm."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Sở hữu lợi thế cạnh tranh rõ rệt trong bán lẻ dược phẩm (bán nhiều loại thuốc kê đơn hơn giúp Long Châu giành thị phần không chỉ từ các cửa hàng thuốc tư nhân nhỏ lẻ mà còn từ các nhà thuốc bệnh viện), Long Châu tiếp tục mở rộng mạng lưới cửa hàng để giành thị phần, trong khi các đối thủ cạnh tranh (Pharmacity và An Khang) đang thu hẹp quy mô do mô hình kinh doanh không phù hợp (chủ yếu tập trung vào thuốc không kê toa và mỹ phẩm)."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Sở hữu lợi thế cạnh tranh rõ rệt trong bán lẻ dược phẩm (bán nhiều loại thuốc kê đơn hơn giúp Long Châu giành thị phần không chỉ từ các cửa hàng thuốc tư nhân nhỏ lẻ mà còn từ các nhà thuốc bệnh viện), Long Châu tiếp tục mở rộng mạng lưới cửa hàng để giành thị phần, trong khi các đối thủ cạnh tranh (Pharmacity và An Khang) đang thu hẹp quy mô do mô hình kinh doanh không phù hợp (chủ yếu tập trung vào thuốc không kê toa và mỹ phẩm)."
+    },
+    {
+        "text": "Pharmacity",
+        "label": "ORG",
+        "evidence": "trong khi các đối thủ cạnh tranh (Pharmacity và An Khang) đang thu hẹp quy mô do mô hình kinh doanh không phù hợp (chủ yếu tập trung vào thuốc không kê toa và mỹ phẩm)."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "trong khi các đối thủ cạnh tranh (Pharmacity và An Khang) đang thu hẹp quy mô do mô hình kinh doanh không phù hợp (chủ yếu tập trung vào thuốc không kê toa và mỹ phẩm)."
+    },
+    {
+        "text": "Pharmacity",
+        "label": "ORG",
+        "evidence": "Pharmacity bắt đầu thu hẹp mạng lưới cửa hàng từ năm 2023."
+    },
+    {
+        "text": "thu hẹp mạng lưới cửa hàng từ năm 2023",
+        "label": "EVENT",
+        "evidence": "Pharmacity bắt đầu thu hẹp mạng lưới cửa hàng từ năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Pharmacity bắt đầu thu hẹp mạng lưới cửa hàng từ năm 2023."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Và gần đây An Khang cũng đã thu hẹp mạng lưới cửa hàng, giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024."
+    },
+    {
+        "text": "thu hẹp mạng lưới cửa hàng, giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024",
+        "label": "EVENT",
+        "evidence": "Và gần đây An Khang cũng đã thu hẹp mạng lưới cửa hàng, giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024."
+    },
+    {
+        "text": "giảm 40%",
+        "label": "RATE",
+        "evidence": "giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024."
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024."
+    },
+    {
+        "text": "cuối quý 3/2024",
+        "label": "DATE",
+        "evidence": "giảm 40% số lượng cửa hàng kể từ tháng 6 đến cuối quý 3/2024."
+    },
+    {
+        "text": "ngày 1/1/2025",
+        "label": "DATE",
+        "evidence": "Bắt đầu từ ngày 1/1/2025, bệnh nhân sẽ được bảo hiểm y tế hoàn trả chi phí cho các loại thuốc mua ngoài nhà thuốc bệnh viện, nếu các nhà thuốc bệnh viện này thiếu thuốc."
+    },
+    {
+        "text": "bệnh nhân sẽ được bảo hiểm y tế hoàn trả chi phí cho các loại thuốc mua ngoài nhà thuốc bệnh viện, nếu các nhà thuốc bệnh viện này thiếu thuốc",
+        "label": "EVENT",
+        "evidence": "Bắt đầu từ ngày 1/1/2025, bệnh nhân sẽ được bảo hiểm y tế hoàn trả chi phí cho các loại thuốc mua ngoài nhà thuốc bệnh viện, nếu các nhà thuốc bệnh viện này thiếu thuốc."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Điều này sẽ có lợi cho các nhà thuốc không thuộc bệnh viện nói chung, và Long Châu sẽ là chuỗi nhà thuốc được hưởng lợi chính trong số đó."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI dự báo FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025 để giành thị phần từ các cửa hàng thuốc nhỏ lẻ và các nhà thuốc bệnh viện, chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025",
+        "label": "EVENT",
+        "evidence": "SSI dự báo FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025 để giành thị phần từ các cửa hàng thuốc nhỏ lẻ và các nhà thuốc bệnh viện, chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "SSI dự báo FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025 để giành thị phần từ các cửa hàng thuốc nhỏ lẻ và các nhà thuốc bệnh viện, chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "400 nhà thuốc",
+        "label": "VOLUME",
+        "evidence": "SSI dự báo FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025 để giành thị phần từ các cửa hàng thuốc nhỏ lẻ và các nhà thuốc bệnh viện, chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "giai đoạn 2024-2025",
+        "label": "DATE",
+        "evidence": "SSI dự báo FPT Retail sẽ mở 400 nhà thuốc mỗi năm trong giai đoạn 2024-2025 để giành thị phần từ các cửa hàng thuốc nhỏ lẻ và các nhà thuốc bệnh viện, chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "hơn 85%",
+        "label": "RATE",
+        "evidence": "chiếm hơn 85% thị trường nhà thuốc."
+    },
+    {
+        "text": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)",
+        "label": "EVENT",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "năm 2024-2025",
+        "label": "DATE",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "22.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "tăng 43% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "27.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "tăng 20% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "Doanh thu năm 2024-2025 cho mảng nhà thuốc ước tính đạt 22.700 tỷ đồng (tăng 43% so với cùng kỳ) và 27.300 tỷ đồng (tăng 20% so với cùng kỳ)."
+    },
+    {
+        "text": "Biên lợi nhuận của chuỗi nhà thuốc Long Châu dự kiến sẽ tiếp tục mở rộng, đạt ít nhất 3% trong dài hạn",
+        "label": "EVENT",
+        "evidence": "Biên lợi nhuận của chuỗi nhà thuốc Long Châu dự kiến sẽ tiếp tục mở rộng, đạt ít nhất 3% trong dài hạn."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Biên lợi nhuận của chuỗi nhà thuốc Long Châu dự kiến sẽ tiếp tục mở rộng, đạt ít nhất 3% trong dài hạn."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Biên lợi nhuận của chuỗi nhà thuốc Long Châu dự kiến sẽ tiếp tục mở rộng, đạt ít nhất 3% trong dài hạn."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)",
+        "label": "EVENT",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "1,9%",
+        "label": "RATE",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "1,5%",
+        "label": "RATE",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "9 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Trong 9 tháng đầu năm 2024, biên lợi nhuận ròng của Long Châu đã cải thiện lên 1,9% (so với 1,5% trong 9 tháng đầu năm 2023)."
+    },
+    {
+        "text": "Vắc-xin Long Châu",
+        "label": "ORG",
+        "evidence": "Vắc-xin Long Châu"
+    },
+    {
+        "text": "số lượng trung tâm vắc-xin cuối quý 3/2024 vượt kế hoạch năm là 100 trung tâm",
+        "label": "EVENT",
+        "evidence": "Hoạt động kinh doanh vắc-xin đã nhân rộng nhanh chóng gần đây, với số lượng trung tâm vắc-xin cuối quý 3/2024 vượt kế hoạch năm là 100 trung tâm."
+    },
+    {
+        "text": "cuối quý 3/2024",
+        "label": "DATE",
+        "evidence": "số lượng trung tâm vắc-xin cuối quý 3/2024 vượt kế hoạch năm là 100 trung tâm."
+    },
+    {
+        "text": "100 trung tâm",
+        "label": "VOLUME",
+        "evidence": "số lượng trung tâm vắc-xin cuối quý 3/2024 vượt kế hoạch năm là 100 trung tâm."
+    },
+    {
+        "text": "một năm",
+        "label": "DATE",
+        "evidence": "Sau một năm ra mắt, mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Sau một năm ra mắt, mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Sau một năm ra mắt, mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Sau một năm ra mắt, mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Sau một năm ra mắt, mảng vắc-xin đã đóng góp 5% vào doanh thu của Long Châu trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "Chuỗi vắc-xin Long Châu",
+        "label": "ORG",
+        "evidence": "Chuỗi vắc-xin Long Châu hiện trở thành chuỗi vắc-xin hiện đại lớn thứ hai tại Việt Nam."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "Hoạt động kinh doanh vắc-xin của Long Châu dự kiến sẽ tăng trưởng nhanh chóng nhờ tăng chi tiêu cho vắc-xin do tỷ lệ tiêm chủng hiện tại còn thấp (<5%, theoFPTRetail) và dịch vụ thiêm chủng tư nhân giành thị phần do tình trạng quá tải tại các trung tâm vắc-xin công."
+    },
+    {
+        "text": "<5%",
+        "label": "RATE",
+        "evidence": "tỷ lệ tiêm chủng hiện tại còn thấp (<5%, theoFPTRetail) và dịch vụ thiêm chủng tư nhân giành thị phần do tình trạng quá tải tại các trung tâm vắc-xin công."
+    },
+    {
+        "text": "FPTRetail",
+        "label": "ORG",
+        "evidence": "(<5%, theoFPTRetail) và dịch vụ thiêm chủng tư nhân giành thị phần do tình trạng quá tải tại các trung tâm vắc-xin công."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Với triển vọng tiềm năng, FPT Retail dự định có 500 trung tâm vắc-xin vào cuối năm 2027 (so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "dự định có 500 trung tâm vắc-xin vào cuối năm 2027",
+        "label": "EVENT",
+        "evidence": "Với triển vọng tiềm năng, FPT Retail dự định có 500 trung tâm vắc-xin vào cuối năm 2027 (so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "500 trung tâm vắc-xin",
+        "label": "VOLUME",
+        "evidence": "FPT Retail dự định có 500 trung tâm vắc-xin vào cuối năm 2027 (so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "cuối năm 2027",
+        "label": "DATE",
+        "evidence": "FPT Retail dự định có 500 trung tâm vắc-xin vào cuối năm 2027 (so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "115 trung tâm vắc-xin",
+        "label": "VOLUME",
+        "evidence": "(so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "Q3/2024",
+        "label": "DATE",
+        "evidence": "(so với 115 trung tâm vắc-xin tính đến Q3/2024)."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, SSI lưu ý rằng quy mô thị trường vắc-xin nhỏ hơn nhiều so với thuốc."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "FPT Retail ước tính quy mô thị trường vắc-xin vào khoảng 667 triệu USD vào năm 2023, trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "ước tính quy mô thị trường vắc-xin vào khoảng 667 triệu USD vào năm 2023",
+        "label": "EVENT",
+        "evidence": "FPT Retail ước tính quy mô thị trường vắc-xin vào khoảng 667 triệu USD vào năm 2023, trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "667 triệu USD",
+        "label": "MONEY",
+        "evidence": "FPT Retail ước tính quy mô thị trường vắc-xin vào khoảng 667 triệu USD vào năm 2023, trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "FPT Retail ước tính quy mô thị trường vắc-xin vào khoảng 667 triệu USD vào năm 2023, trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "IQVIA",
+        "label": "ORG",
+        "evidence": "trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023",
+        "label": "EVENT",
+        "evidence": "trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "8,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "trong khi dữ liệu của IQVIA cho thấy quy mô thị trường thuốc đạt 8,5 tỷ USD vào năm 2023."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Do đó, nhân rộng mạng lưới nhà thuốc và cải thiện biên lợi nhuận nhà thuốc vẫn sẽ là động lực chính cho lợi nhuận của FPT Retail trong dài hạn."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Đối với hoạt động kinh doanh vắc-xin, SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ)",
+        "label": "EVENT",
+        "evidence": "Đối với hoạt động kinh doanh vắc-xin, SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "năm 2024-2025",
+        "label": "DATE",
+        "evidence": "SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "2.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "tăng 153% so với cùng kỳ",
+        "label": "RATE",
+        "evidence": "SSI ước tính doanh thu năm 2024-2025 lần lượt đạt 1.000 tỷ đồng và 2.600 tỷ đồng (tăng 153% so với cùng kỳ), tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "4%-9%",
+        "label": "RATE",
+        "evidence": "tương đương 4%-9% tổng doanh thu của Long Châu."
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "tương đương 4%-9% tổng doanh thu của Long Châu."
+    }
+]

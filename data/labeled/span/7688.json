@@ -1,0 +1,627 @@
+[
+    {
+        "text": "Tuần này",
+        "label": "DATE",
+        "evidence": "Tuần này, có 9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức    , trong đó 7 công ty trả cổ tức bằng tiền mặt, 1 doanh nghiệp phát hành thêm và 1 công ty trả cổ tức kết hợp."
+    },
+    {
+        "text": "9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức    , trong đó 7 công ty trả cổ tức bằng tiền mặt, 1 doanh nghiệp phát hành thêm và 1 công ty trả cổ tức kết hợp."
+    },
+    {
+        "text": "7 công ty trả cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức    , trong đó 7 công ty trả cổ tức bằng tiền mặt, 1 doanh nghiệp phát hành thêm và 1 công ty trả cổ tức kết hợp."
+    },
+    {
+        "text": "1 doanh nghiệp phát hành thêm",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức    , trong đó 7 công ty trả cổ tức bằng tiền mặt, 1 doanh nghiệp phát hành thêm và 1 công ty trả cổ tức kết hợp."
+    },
+    {
+        "text": "1 công ty trả cổ tức kết hợp",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9     doanh nghiệp    thông báo chốt quyền để     trả cổ tức    , trong đó 7 công ty trả cổ tức bằng tiền mặt, 1 doanh nghiệp phát hành thêm và 1 công ty trả cổ tức kết hợp."
+    },
+    {
+        "text": "Công ty CP Garmex Sài Gòn",
+        "label": "ORG",
+        "evidence": "Công ty CP Garmex Sài Gòn (mã chứng khoán: GMC) công bố thông tin, lấy ý kiến bằng văn bản về kế hoạch chuyển nhượng quyền sử dụng đất và tài sản đi cùng là công trình     xây dựng    ."
+    },
+    {
+        "text": "GMC",
+        "label": "TICKER",
+        "evidence": "Công ty CP Garmex Sài Gòn (mã chứng khoán: GMC) công bố thông tin, lấy ý kiến bằng văn bản về kế hoạch chuyển nhượng quyền sử dụng đất và tài sản đi cùng là công trình     xây dựng    ."
+    },
+    {
+        "text": "lấy ý kiến bằng văn bản về kế hoạch chuyển nhượng quyền sử dụng đất và tài sản đi cùng là công trình     xây dựng",
+        "label": "EVENT",
+        "evidence": "Công ty CP Garmex Sài Gòn (mã chứng khoán: GMC) công bố thông tin, lấy ý kiến bằng văn bản về kế hoạch chuyển nhượng quyền sử dụng đất và tài sản đi cùng là công trình     xây dựng    ."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "Theo đó, GMC muốn chuyển nhượng thửa đất hơn 5 ha tại xã Hắc Dịch huyện Tân Thành (nay là phường Hắc Dịch, thị xã Phú Mỹ), tỉnh Bà Rịa - Vũng Tàu thuộc quyền sở hữu của Garmex Sài Gòn."
+    },
+    {
+        "text": "GMC muốn chuyển nhượng thửa đất hơn 5 ha tại xã Hắc Dịch huyện Tân Thành (nay là phường Hắc Dịch, thị xã Phú Mỹ), tỉnh Bà Rịa - Vũng Tàu",
+        "label": "EVENT",
+        "evidence": "Theo đó, GMC muốn chuyển nhượng thửa đất hơn 5 ha tại xã Hắc Dịch huyện Tân Thành (nay là phường Hắc Dịch, thị xã Phú Mỹ), tỉnh Bà Rịa - Vũng Tàu thuộc quyền sở hữu của Garmex Sài Gòn."
+    },
+    {
+        "text": "Garmex Sài Gòn",
+        "label": "ORG",
+        "evidence": "Theo đó, GMC muốn chuyển nhượng thửa đất hơn 5 ha tại xã Hắc Dịch huyện Tân Thành (nay là phường Hắc Dịch, thị xã Phú Mỹ), tỉnh Bà Rịa - Vũng Tàu thuộc quyền sở hữu của Garmex Sài Gòn."
+    },
+    {
+        "text": "Công ty CP Garmex Sài Gòn",
+        "label": "ORG",
+        "evidence": "Một nhà máy của Công ty CP Garmex Sài Gòn."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "GMC cũng sẽ chuyển nhượng thửa đất 2,6 ha tại Cụm công nghiệp Hà Lam - Chợ Được (xã Bình Phục, huyện Thăng Bình, tỉnh Quảng Nam) thuộc quyền sở hữu của Công ty TNHH Garmex Quảng Nam."
+    },
+    {
+        "text": "chuyển nhượng thửa đất 2,6 ha tại Cụm công nghiệp Hà Lam - Chợ Được (xã Bình Phục, huyện Thăng Bình, tỉnh Quảng Nam)",
+        "label": "EVENT",
+        "evidence": "GMC cũng sẽ chuyển nhượng thửa đất 2,6 ha tại Cụm công nghiệp Hà Lam - Chợ Được (xã Bình Phục, huyện Thăng Bình, tỉnh Quảng Nam) thuộc quyền sở hữu của Công ty TNHH Garmex Quảng Nam."
+    },
+    {
+        "text": "Công ty TNHH Garmex Quảng Nam",
+        "label": "ORG",
+        "evidence": "GMC cũng sẽ chuyển nhượng thửa đất 2,6 ha tại Cụm công nghiệp Hà Lam - Chợ Được (xã Bình Phục, huyện Thăng Bình, tỉnh Quảng Nam) thuộc quyền sở hữu của Công ty TNHH Garmex Quảng Nam."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "GMC thông tin, công ty hiện nay không có đơn hàng, với tình hình kinh doanh không thuận lợi, nếu giữ sản xuất tại các nhà máy đối với ngành may thì công ty sẽ lỗ rất nhiều nên GMC đã tổ chức lại bộ máy,     cắt giảm lao động    , tạm ngưng sản xuất để giảm thiểu thiệt hại và tiếp tục thực hiện tiết kiệm chi phí tối đa."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "GMC thông tin, công ty hiện nay không có đơn hàng, với tình hình kinh doanh không thuận lợi, nếu giữ sản xuất tại các nhà máy đối với ngành may thì công ty sẽ lỗ rất nhiều nên GMC đã tổ chức lại bộ máy,     cắt giảm lao động    , tạm ngưng sản xuất để giảm thiểu thiệt hại và tiếp tục thực hiện tiết kiệm chi phí tối đa."
+    },
+    {
+        "text": "GMC đã tổ chức lại bộ máy,     cắt giảm lao động    , tạm ngưng sản xuất",
+        "label": "EVENT",
+        "evidence": "GMC thông tin, công ty hiện nay không có đơn hàng, với tình hình kinh doanh không thuận lợi, nếu giữ sản xuất tại các nhà máy đối với ngành may thì công ty sẽ lỗ rất nhiều nên GMC đã tổ chức lại bộ máy,     cắt giảm lao động    , tạm ngưng sản xuất để giảm thiểu thiệt hại và tiếp tục thực hiện tiết kiệm chi phí tối đa."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "GMC cũng sẽ rà soát tài sản, tìm kiếm cơ hội khai thác hợp lý các mặt bằng hiện có hoặc thanh lý các tài sản không cần dùng, đa dạng hoá ngành nghề để tránh rủi ro cho công ty."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "GMC",
+        "label": "ORG",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "8,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "giảm 97%",
+        "label": "RATE",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "52 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, GMC ghi nhận gần 8,3 tỷ đồng     doanh thu thuần hợp nhất    , giảm 97% so với năm 2022 và lỗ sau thuế gần 52 tỷ đồng."
+    },
+    {
+        "text": "Jung Sung Kwan",
+        "label": "PERSON",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "Công ty CP Dệt may Đầu tư Thương mại Thành Công",
+        "label": "ORG",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "TCM",
+        "label": "TICKER",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "vừa có đơn xin từ nhiệm",
+        "label": "EVENT",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025",
+        "label": "EVENT",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "nhiệm kỳ 2021 - 2025",
+        "label": "DATE",
+        "evidence": "Ông Jung Sung Kwan - Tổng Giám đốc Công ty CP Dệt may Đầu tư Thương mại Thành Công (mã chứng khoán: TCM) - vừa có đơn xin từ nhiệm sau gần 3 năm giữ chức vụ này, đồng thời xin rút khỏi vị trí thành viên Hội đồng quản trị nhiệm kỳ 2021 - 2025."
+    },
+    {
+        "text": "Jung Sung Kwan",
+        "label": "PERSON",
+        "evidence": "Ông Jung Sung Kwan năm nay 58 tuổi, quốc tịch Hàn Quốc, là cử nhân quản lý doanh nghiệp."
+    },
+    {
+        "text": "Tháng 4/2021",
+        "label": "DATE",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "TCM",
+        "label": "ORG",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "nhiệm kỳ 2021 - 2023",
+        "label": "DATE",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "E-land Asia Holdings Pte., Ltd",
+        "label": "ORG",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "TCM",
+        "label": "ORG",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "cuối tháng 5/2021",
+        "label": "DATE",
+        "evidence": "Tháng 4/2021, ông tham gia vào Hội đồng quản trị TCM nhiệm kỳ 2021 - 2023 sau khi được cổ đông lớn nhất là E-land Asia Holdings Pte., Ltd đề cử và tiếp tục được bổ nhiệm làm Tổng giám đốc TCM vào cuối tháng 5/2021."
+    },
+    {
+        "text": "TCM",
+        "label": "ORG",
+        "evidence": "Tại TCM, ông hiện không sở hữu bất kỳ cổ phần nào."
+    },
+    {
+        "text": "Công ty CP Dệt may Đầu tư Thương mại Thành Công",
+        "label": "ORG",
+        "evidence": "Công ty CP Dệt may Đầu tư Thương mại Thành Công có sự thay đổi nhân sự chủ chốt."
+    },
+    {
+        "text": "Jung Sung Kwan",
+        "label": "PERSON",
+        "evidence": "Ngoài ra, ông Jung Sung Kwan còn đang giữ chức thành viên Hội đồng quản trị kiêm Ủy viên Ban kiểm soát của Công ty CP Hợp tác Kinh tế và Xuất nhập khẩu Savimex (mã chứng khoán: SAV) nhiệm kỳ 2019 - 2024."
+    },
+    {
+        "text": "Công ty CP Hợp tác Kinh tế và Xuất nhập khẩu Savimex",
+        "label": "ORG",
+        "evidence": "Ngoài ra, ông Jung Sung Kwan còn đang giữ chức thành viên Hội đồng quản trị kiêm Ủy viên Ban kiểm soát của Công ty CP Hợp tác Kinh tế và Xuất nhập khẩu Savimex (mã chứng khoán: SAV) nhiệm kỳ 2019 - 2024."
+    },
+    {
+        "text": "SAV",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, ông Jung Sung Kwan còn đang giữ chức thành viên Hội đồng quản trị kiêm Ủy viên Ban kiểm soát của Công ty CP Hợp tác Kinh tế và Xuất nhập khẩu Savimex (mã chứng khoán: SAV) nhiệm kỳ 2019 - 2024."
+    },
+    {
+        "text": "nhiệm kỳ 2019 - 2024",
+        "label": "DATE",
+        "evidence": "Ngoài ra, ông Jung Sung Kwan còn đang giữ chức thành viên Hội đồng quản trị kiêm Ủy viên Ban kiểm soát của Công ty CP Hợp tác Kinh tế và Xuất nhập khẩu Savimex (mã chứng khoán: SAV) nhiệm kỳ 2019 - 2024."
+    },
+    {
+        "text": "Jung Sung Kwan",
+        "label": "PERSON",
+        "evidence": "Hiện tại, ông Jung Sung Kwan đang sở hữu 121.640 cổ phần SAV."
+    },
+    {
+        "text": "121.640 cổ phần",
+        "label": "VOLUME",
+        "evidence": "Hiện tại, ông Jung Sung Kwan đang sở hữu 121.640 cổ phần SAV."
+    },
+    {
+        "text": "cổ phần SAV",
+        "label": "ASSET",
+        "evidence": "Hiện tại, ông Jung Sung Kwan đang sở hữu 121.640 cổ phần SAV."
+    },
+    {
+        "text": "SAV",
+        "label": "TICKER",
+        "evidence": "Hiện tại, ông Jung Sung Kwan đang sở hữu 121.640 cổ phần SAV."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombanksẽ tăng vốn điều lệ lên hơn 77.570 tỷ đồng"
+    },
+    {
+        "text": "tăng vốn điều lệ lên hơn 77.570 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vietcombanksẽ tăng vốn điều lệ lên hơn 77.570 tỷ đồng"
+    },
+    {
+        "text": "77.570 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombanksẽ tăng vốn điều lệ lên hơn 77.570 tỷ đồng"
+    },
+    {
+        "text": "Ngân hàng    TMCP Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng    TMCP Ngoại thương Việt Nam (Vietcombank - mã chứng khoán: VCB) vừa công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng    TMCP Ngoại thương Việt Nam (Vietcombank - mã chứng khoán: VCB) vừa công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng    TMCP Ngoại thương Việt Nam (Vietcombank - mã chứng khoán: VCB) vừa công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022."
+    },
+    {
+        "text": "công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022",
+        "label": "EVENT",
+        "evidence": "Ngân hàng    TMCP Ngoại thương Việt Nam (Vietcombank - mã chứng khoán: VCB) vừa công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Ngân hàng    TMCP Ngoại thương Việt Nam (Vietcombank - mã chứng khoán: VCB) vừa công bố nghị quyết Hội đồng quản trị phê duyệt phương án     phân phối lợi nhuận    năm 2022."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Theo nguyên tắc phê duyệt của Ngân hàng Nhà nước, Vietcombank thống nhất phương án chia cổ tức bằng cổ phiếu từ nguồn lợi nhuận còn lại sau thuế, trích các quỹ năm 2022."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo nguyên tắc phê duyệt của Ngân hàng Nhà nước, Vietcombank thống nhất phương án chia cổ tức bằng cổ phiếu từ nguồn lợi nhuận còn lại sau thuế, trích các quỹ năm 2022."
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu từ nguồn lợi nhuận còn lại sau thuế, trích các quỹ năm 2022",
+        "label": "EVENT",
+        "evidence": "Theo nguyên tắc phê duyệt của Ngân hàng Nhà nước, Vietcombank thống nhất phương án chia cổ tức bằng cổ phiếu từ nguồn lợi nhuận còn lại sau thuế, trích các quỹ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Theo nguyên tắc phê duyệt của Ngân hàng Nhà nước, Vietcombank thống nhất phương án chia cổ tức bằng cổ phiếu từ nguồn lợi nhuận còn lại sau thuế, trích các quỹ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cụ thể, lợi nhuận sau thuế riêng lẻ kiểm toán năm 2022 của Vietcombank đạt gần 29.390 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, lợi nhuận sau thuế riêng lẻ kiểm toán năm 2022 của Vietcombank đạt gần 29.390 tỷ đồng."
+    },
+    {
+        "text": "29.390 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, lợi nhuận sau thuế riêng lẻ kiểm toán năm 2022 của Vietcombank đạt gần 29.390 tỷ đồng."
+    },
+    {
+        "text": "1.469 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trích lập quỹ dự trữ bổ sung vốn điều lệ (hơn 1.469 tỷ đồng), quỹ dự phòng tài chính (2.939 tỷ đồng) và quỹ khen thưởng, phúc lợi (3.291 tỷ đồng), ngân hàng này sẽ dùng toàn bộ hơn 21.680 tỷ đồng lợi nhuận sau thuế còn lại để chia cổ tức bằng cổ phiếu cho cổ đông."
+    },
+    {
+        "text": "2.939 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trích lập quỹ dự trữ bổ sung vốn điều lệ (hơn 1.469 tỷ đồng), quỹ dự phòng tài chính (2.939 tỷ đồng) và quỹ khen thưởng, phúc lợi (3.291 tỷ đồng), ngân hàng này sẽ dùng toàn bộ hơn 21.680 tỷ đồng lợi nhuận sau thuế còn lại để chia cổ tức bằng cổ phiếu cho cổ đông."
+    },
+    {
+        "text": "3.291 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trích lập quỹ dự trữ bổ sung vốn điều lệ (hơn 1.469 tỷ đồng), quỹ dự phòng tài chính (2.939 tỷ đồng) và quỹ khen thưởng, phúc lợi (3.291 tỷ đồng), ngân hàng này sẽ dùng toàn bộ hơn 21.680 tỷ đồng lợi nhuận sau thuế còn lại để chia cổ tức bằng cổ phiếu cho cổ đông."
+    },
+    {
+        "text": "21.680 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trích lập quỹ dự trữ bổ sung vốn điều lệ (hơn 1.469 tỷ đồng), quỹ dự phòng tài chính (2.939 tỷ đồng) và quỹ khen thưởng, phúc lợi (3.291 tỷ đồng), ngân hàng này sẽ dùng toàn bộ hơn 21.680 tỷ đồng lợi nhuận sau thuế còn lại để chia cổ tức bằng cổ phiếu cho cổ đông."
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu cho cổ đông",
+        "label": "EVENT",
+        "evidence": "Sau khi trích lập quỹ dự trữ bổ sung vốn điều lệ (hơn 1.469 tỷ đồng), quỹ dự phòng tài chính (2.939 tỷ đồng) và quỹ khen thưởng, phúc lợi (3.291 tỷ đồng), ngân hàng này sẽ dùng toàn bộ hơn 21.680 tỷ đồng lợi nhuận sau thuế còn lại để chia cổ tức bằng cổ phiếu cho cổ đông."
+    },
+    {
+        "text": "55.891 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "21.680 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "gần 39%",
+        "label": "RATE",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "khoảng 2,17 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Như vậy, với vốn điều lệ hiện tại là gần 55.891 tỷ đồng và giá trị chia cổ tức bằng cổ phiếu hơn 21.680 tỷ đồng, ước tính tỷ lệ thực hiện quyền chia cổ tức bằng cổ phiếu của Vietcombank sẽ gần 39%/vốn điều lệ, tương đương phát hành thêm khoảng 2,17 tỷ cổ phiếu để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng."
+    },
+    {
+        "text": "vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng."
+    },
+    {
+        "text": "21.680 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng."
+    },
+    {
+        "text": "77.571 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.571 tỷ đồng."
+    },
+    {
+        "text": "ngày 31/12/2023",
+        "label": "DATE",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "hơn 4,18 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "74,8%",
+        "label": "RATE",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "Mizuho Bank",
+        "label": "ORG",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "gần 0,84 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Tính đến ngày 31/12/2023, Vietcombank có 2 cổ đông lớn là Ngân hàng Nhà nước nắm giữ hơn 4,18 tỷ cổ phiếu (tương đương 74,8% vốn điều lệ) và Mizuho Bank nắm giữ gần 0,84 tỷ cổ phiếu (tương đương 15% vốn điều lệ) ."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng."
+    },
+    {
+        "text": "vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng."
+    },
+    {
+        "text": "21.680 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng."
+    },
+    {
+        "text": "77.570 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi hoàn tất chia cổ tức năm 2022, vốn điều lệ của Vietcombank sẽ tăng thêm 21.680 tỷ đồng, lên mức hơn 77.570 tỷ đồng."
+    },
+    {
+        "text": "Ngày 5/3",
+        "label": "DATE",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "Công ty CP Phát triển Hạ tầng Vĩnh Phúc",
+        "label": "ORG",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "IDV",
+        "label": "TICKER",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%",
+        "label": "EVENT",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Ngày 5/3 tới, Công ty CP Phát triển Hạ tầng Vĩnh Phúc (mã chứng khoán: IDV) sẽ chốt quyền chia cổ tức năm 2023 bằng tiền mặt và cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "IDV",
+        "label": "ORG",
+        "evidence": "Theo đó, IDV sẽ trả cổ tức 10% bằng tiền mặt, dự kiến vào ngày 21/3."
+    },
+    {
+        "text": "trả cổ tức 10% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Theo đó, IDV sẽ trả cổ tức 10% bằng tiền mặt, dự kiến vào ngày 21/3."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Theo đó, IDV sẽ trả cổ tức 10% bằng tiền mặt, dự kiến vào ngày 21/3."
+    },
+    {
+        "text": "ngày 21/3",
+        "label": "DATE",
+        "evidence": "Theo đó, IDV sẽ trả cổ tức 10% bằng tiền mặt, dự kiến vào ngày 21/3."
+    },
+    {
+        "text": "hơn 31 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với hơn 31 triệu cổ phiếu đang lưu hành, Hạ tầng Vĩnh Phúc sẽ chi tương ứng hơn 31 tỷ đồng để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "Hạ tầng Vĩnh Phúc",
+        "label": "ORG",
+        "evidence": "Với hơn 31 triệu cổ phiếu đang lưu hành, Hạ tầng Vĩnh Phúc sẽ chi tương ứng hơn 31 tỷ đồng để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "31 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với hơn 31 triệu cổ phiếu đang lưu hành, Hạ tầng Vĩnh Phúc sẽ chi tương ứng hơn 31 tỷ đồng để trả cổ tức cho cổ đông hiện hữu."
+    },
+    {
+        "text": "IDV",
+        "label": "ORG",
+        "evidence": "Đồng thời, IDV dự kiến phát hành gần 4,7 triệu cổ phiếu để chia cổ tức theo tỷ lệ thực hiện quyền 100:15, có nghĩa cổ đông sở hữu 1 cổ phần sẽ được hưởng 1 quyền, cứ 100 quyền sẽ được nhận thêm 15 cổ phiếu mới."
+    },
+    {
+        "text": "phát hành gần 4,7 triệu cổ phiếu để chia cổ tức theo tỷ lệ thực hiện quyền 100:15",
+        "label": "EVENT",
+        "evidence": "Đồng thời, IDV dự kiến phát hành gần 4,7 triệu cổ phiếu để chia cổ tức theo tỷ lệ thực hiện quyền 100:15, có nghĩa cổ đông sở hữu 1 cổ phần sẽ được hưởng 1 quyền, cứ 100 quyền sẽ được nhận thêm 15 cổ phiếu mới."
+    },
+    {
+        "text": "gần 4,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Đồng thời, IDV dự kiến phát hành gần 4,7 triệu cổ phiếu để chia cổ tức theo tỷ lệ thực hiện quyền 100:15, có nghĩa cổ đông sở hữu 1 cổ phần sẽ được hưởng 1 quyền, cứ 100 quyền sẽ được nhận thêm 15 cổ phiếu mới."
+    },
+    {
+        "text": "15 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Đồng thời, IDV dự kiến phát hành gần 4,7 triệu cổ phiếu để chia cổ tức theo tỷ lệ thực hiện quyền 100:15, có nghĩa cổ đông sở hữu 1 cổ phần sẽ được hưởng 1 quyền, cứ 100 quyền sẽ được nhận thêm 15 cổ phiếu mới."
+    },
+    {
+        "text": "ngày 30/9/2023",
+        "label": "DATE",
+        "evidence": "Nguồn phát hành là lợi nhuận sau thuế chưa phân phối đến ngày 30/9/2023 trên báo cáo tài chính đã được kiểm toán năm 2023 của công ty, tương ứng hơn 413 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Nguồn phát hành là lợi nhuận sau thuế chưa phân phối đến ngày 30/9/2023 trên báo cáo tài chính đã được kiểm toán năm 2023 của công ty, tương ứng hơn 413 tỷ đồng."
+    },
+    {
+        "text": "413 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nguồn phát hành là lợi nhuận sau thuế chưa phân phối đến ngày 30/9/2023 trên báo cáo tài chính đã được kiểm toán năm 2023 của công ty, tương ứng hơn 413 tỷ đồng."
+    },
+    {
+        "text": "ngày 11/3",
+        "label": "DATE",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "Công ty CP Sách và Thiết bị Trường học TPHCM",
+        "label": "ORG",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "STC",
+        "label": "TICKER",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "chốt danh sách     tạm ứng cổ tức    năm 2023",
+        "label": "EVENT",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "tổ chức đại hội cổ đông thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Vào ngày 11/3, Công ty CP Sách và Thiết bị Trường học TPHCM (mã chứng khoán: STC) sẽ chốt danh sách     tạm ứng cổ tức    năm 2023 và tổ chức đại hội cổ đông thường niên năm 2024."
+    },
+    {
+        "text": "STC",
+        "label": "ORG",
+        "evidence": "Theo đó, STC sẽ chia cổ tức bằng tiền mặt với tỷ lệ 14%."
+    },
+    {
+        "text": "chia cổ tức bằng tiền mặt với tỷ lệ 14%",
+        "label": "EVENT",
+        "evidence": "Theo đó, STC sẽ chia cổ tức bằng tiền mặt với tỷ lệ 14%."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "Theo đó, STC sẽ chia cổ tức bằng tiền mặt với tỷ lệ 14%."
+    },
+    {
+        "text": "gần 5,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Với gần 5,7 triệu cổ phiếu đang lưu hành, STC dự kiến sẽ chi gần 8 tỷ đồng để trả cổ tức."
+    },
+    {
+        "text": "STC",
+        "label": "ORG",
+        "evidence": "Với gần 5,7 triệu cổ phiếu đang lưu hành, STC dự kiến sẽ chi gần 8 tỷ đồng để trả cổ tức."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với gần 5,7 triệu cổ phiếu đang lưu hành, STC dự kiến sẽ chi gần 8 tỷ đồng để trả cổ tức."
+    }
+]

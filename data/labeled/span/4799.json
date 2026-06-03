@@ -1,0 +1,757 @@
+[
+    {
+        "text": "Tuần này",
+        "label": "DATE",
+        "evidence": "Tuần này, có 9 doanh nghiệp thông báo chốt quyền để     trả cổ tức    , trong đó 8 công ty trả cổ tức bằng tiền, 1 doanh nghiệp trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "9 doanh nghiệp thông báo chốt quyền để trả cổ tức",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9 doanh nghiệp thông báo chốt quyền để     trả cổ tức    , trong đó 8 công ty trả cổ tức bằng tiền, 1 doanh nghiệp trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "trả cổ tức bằng tiền",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9 doanh nghiệp thông báo chốt quyền để     trả cổ tức    , trong đó 8 công ty trả cổ tức bằng tiền, 1 doanh nghiệp trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "trả cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Tuần này, có 9 doanh nghiệp thông báo chốt quyền để     trả cổ tức    , trong đó 8 công ty trả cổ tức bằng tiền, 1 doanh nghiệp trả cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "2 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "Công ty CP Đầu tư Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "24.524 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "13,5%",
+        "label": "RATE",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "150.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong 2 tháng đầu năm, Công ty CP Đầu tư     Thế giới Di động    (mã chứng khoán:MWG) ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ và hoàn thành 16% so với kế hoạch doanh thu 150.000 tỷ đồng."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "Topzone",
+        "label": "ORG",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "23%",
+        "label": "RATE",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "45,9%",
+        "label": "RATE",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "Bách hoá Xanh",
+        "label": "ORG",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "28,9%",
+        "label": "RATE",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "2,2%",
+        "label": "RATE",
+        "evidence": "Chuỗi Thế giới Di động và Topzone chiếm 23% tổng doanh thu, chuỗi Điện máy Xanh đóng góp 45,9% tổng doanh thu, chuỗi Bách hoá Xanh đóng góp 28,9% tổng doanh thu và các hoạt động khác đóng góp 2,2% tổng doanh thu."
+    },
+    {
+        "text": "Hai tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Hai tháng đầu năm, Công ty CP Đầu tư Thế giới Di động ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ"
+    },
+    {
+        "text": "Công ty CP Đầu tư Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Hai tháng đầu năm, Công ty CP Đầu tư Thế giới Di động ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ"
+    },
+    {
+        "text": "24.524 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hai tháng đầu năm, Công ty CP Đầu tư Thế giới Di động ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ"
+    },
+    {
+        "text": "13,5%",
+        "label": "RATE",
+        "evidence": "Hai tháng đầu năm, Công ty CP Đầu tư Thế giới Di động ghi nhận doanh thu đạt 24.524 tỷ đồng, tăng 13,5% so với cùng kỳ"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Cụ thể, chuỗi Thế giới Di động và     Điện máy Xanh    ghi nhận doanh thu 17.000 tỷ đồng, tăng 13% so với cùng kỳ."
+    },
+    {
+        "text": "Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "Cụ thể, chuỗi Thế giới Di động và     Điện máy Xanh    ghi nhận doanh thu 17.000 tỷ đồng, tăng 13% so với cùng kỳ."
+    },
+    {
+        "text": "17.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, chuỗi Thế giới Di động và     Điện máy Xanh    ghi nhận doanh thu 17.000 tỷ đồng, tăng 13% so với cùng kỳ."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Cụ thể, chuỗi Thế giới Di động và     Điện máy Xanh    ghi nhận doanh thu 17.000 tỷ đồng, tăng 13% so với cùng kỳ."
+    },
+    {
+        "text": "Bách hóa Xanh",
+        "label": "ORG",
+        "evidence": "Chuỗi Bách hóa Xanh ghi nhận doanh thu đạt hơn 7.000 tỷ đồng, tăng 16% so với cùng kỳ."
+    },
+    {
+        "text": "hơn 7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chuỗi Bách hóa Xanh ghi nhận doanh thu đạt hơn 7.000 tỷ đồng, tăng 16% so với cùng kỳ."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "Chuỗi Bách hóa Xanh ghi nhận doanh thu đạt hơn 7.000 tỷ đồng, tăng 16% so với cùng kỳ."
+    },
+    {
+        "text": "Hai tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Hai tháng đầu năm, Bách hóa Xanh mở mới 94 cửa hàng với hơn 50% cửa hàng tập trung tại các tỉnh miền Trung."
+    },
+    {
+        "text": "Bách hóa Xanh",
+        "label": "ORG",
+        "evidence": "Hai tháng đầu năm, Bách hóa Xanh mở mới 94 cửa hàng với hơn 50% cửa hàng tập trung tại các tỉnh miền Trung."
+    },
+    {
+        "text": "Từ đầu năm đến nay",
+        "label": "DATE",
+        "evidence": "Từ đầu năm đến nay, chuỗi Thế giới Di động giảm 3 cửa hàng, chuỗi Bách hóa Xanh mở mới 94 cửa hàng, chuỗi Erablue thêm 8 cửa hàng, chuỗi Điện máy Xanh thêm 1 cửa hàng."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Từ đầu năm đến nay, chuỗi Thế giới Di động giảm 3 cửa hàng, chuỗi Bách hóa Xanh mở mới 94 cửa hàng, chuỗi Erablue thêm 8 cửa hàng, chuỗi Điện máy Xanh thêm 1 cửa hàng."
+    },
+    {
+        "text": "Bách hóa Xanh",
+        "label": "ORG",
+        "evidence": "Từ đầu năm đến nay, chuỗi Thế giới Di động giảm 3 cửa hàng, chuỗi Bách hóa Xanh mở mới 94 cửa hàng, chuỗi Erablue thêm 8 cửa hàng, chuỗi Điện máy Xanh thêm 1 cửa hàng."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Từ đầu năm đến nay, chuỗi Thế giới Di động giảm 3 cửa hàng, chuỗi Bách hóa Xanh mở mới 94 cửa hàng, chuỗi Erablue thêm 8 cửa hàng, chuỗi Điện máy Xanh thêm 1 cửa hàng."
+    },
+    {
+        "text": "Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "Từ đầu năm đến nay, chuỗi Thế giới Di động giảm 3 cửa hàng, chuỗi Bách hóa Xanh mở mới 94 cửa hàng, chuỗi Erablue thêm 8 cửa hàng, chuỗi Điện máy Xanh thêm 1 cửa hàng."
+    },
+    {
+        "text": "Năm nay",
+        "label": "DATE",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)",
+        "label": "EVENT",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "150.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "4.850 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Năm nay, MWG đặt mục tiêu     doanh thu    thuần đạt 150.000 tỷ đồng (tăng 12%) và lợi nhuận sau thuế 4.850 tỷ đồng (tăng 30% so với 2024)."
+    },
+    {
+        "text": "Nguyễn Đình Minh Huy",
+        "label": "PERSON",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "Công ty CP Đầu tư Phát triển Nhà Đà Nẵng",
+        "label": "ORG",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "NDN",
+        "label": "TICKER",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "vừa mua vào 1.616.300 cổ phiếu NDN",
+        "label": "EVENT",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "1.616.300 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "cổ phiếu NDN",
+        "label": "ASSET",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "2,26%",
+        "label": "RATE",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "từ ngày 3/3-12/3",
+        "label": "DATE",
+        "evidence": "Ông Nguyễn Đình Minh Huy - thành viên Ban kiểm soát Công ty CP Đầu tư Phát triển Nhà Đà Nẵng (mã chứng khoán: NDN) - vừa mua vào 1.616.300 cổ phiếu NDN để nâng sở hữu lên 2,26% vốn điều lệ, giao dịch được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "Nguyễn Đình Nam",
+        "label": "PERSON",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "Huy",
+        "label": "PERSON",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "bán ra toàn bộ 1.616.300 cổ phần NDN",
+        "label": "EVENT",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "1.616.300 cổ phần",
+        "label": "VOLUME",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "cổ phần NDN",
+        "label": "ASSET",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "Ở chiều ngược lại, ông Nguyễn Đình Nam (cha của ông Huy) đã bán ra toàn bộ 1.616.300 cổ phần NDN để giảm sở hữu về 0% vốn điều lệ."
+    },
+    {
+        "text": "từ ngày 3/3-12/3",
+        "label": "DATE",
+        "evidence": "Giao dịch cũng được thực hiện từ ngày 3/3-12/3."
+    },
+    {
+        "text": "Nguyễn Đình Minh Huy",
+        "label": "PERSON",
+        "evidence": "Như vậy, ông Nguyễn Đình Minh Huy và ông Nguyễn Đình Nam đã giao dịch cùng lượng cổ phiếu, nhiều khả năng đây là giao dịch trao tay giữa hai người liên quan."
+    },
+    {
+        "text": "Nguyễn Đình Nam",
+        "label": "PERSON",
+        "evidence": "Như vậy, ông Nguyễn Đình Minh Huy và ông Nguyễn Đình Nam đã giao dịch cùng lượng cổ phiếu, nhiều khả năng đây là giao dịch trao tay giữa hai người liên quan."
+    },
+    {
+        "text": "Công ty CP Nông nghiệp BaF Việt Nam",
+        "label": "ORG",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "BaF Việt Nam",
+        "label": "ORG",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "BAF",
+        "label": "TICKER",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn",
+        "label": "EVENT",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "Hoàng Thị Thu Hiền",
+        "label": "PERSON",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "Nguyễn Quốc Văn",
+        "label": "PERSON",
+        "evidence": "Công ty CP Nông nghiệp BaF Việt Nam (mã chứng khoán: BAF) nhận được đơn từ nhiệm vị trí Trưởng ban kiểm soát của bà Hoàng Thị Thu Hiền và thành viên Ban kiểm soát của ông Nguyễn Quốc Văn."
+    },
+    {
+        "text": "từ ngày 31/3",
+        "label": "DATE",
+        "evidence": "Cả hai xin từ nhiệm từ ngày 31/3 với lý do cá nhân."
+    },
+    {
+        "text": "BAF",
+        "label": "TICKER",
+        "evidence": "BAF sẽ chỉ còn bà Lưu Ngọc Trâm trong Ban kiểm soát."
+    },
+    {
+        "text": "Lưu Ngọc Trâm",
+        "label": "PERSON",
+        "evidence": "BAF sẽ chỉ còn bà Lưu Ngọc Trâm trong Ban kiểm soát."
+    },
+    {
+        "text": "Hoàng Thị Thu Hiền",
+        "label": "PERSON",
+        "evidence": "Bà Hoàng Thị Thu Hiền được bầu là thành viên đồng thời là Trưởng ban kiểm soát từ tháng 12/2023 còn ông Nguyễn Quốc Văn được bầu là thành viên Ban kiểm soát từ tháng 3/2021."
+    },
+    {
+        "text": "từ tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Bà Hoàng Thị Thu Hiền được bầu là thành viên đồng thời là Trưởng ban kiểm soát từ tháng 12/2023 còn ông Nguyễn Quốc Văn được bầu là thành viên Ban kiểm soát từ tháng 3/2021."
+    },
+    {
+        "text": "Nguyễn Quốc Văn",
+        "label": "PERSON",
+        "evidence": "Bà Hoàng Thị Thu Hiền được bầu là thành viên đồng thời là Trưởng ban kiểm soát từ tháng 12/2023 còn ông Nguyễn Quốc Văn được bầu là thành viên Ban kiểm soát từ tháng 3/2021."
+    },
+    {
+        "text": "từ tháng 3/2021",
+        "label": "DATE",
+        "evidence": "Bà Hoàng Thị Thu Hiền được bầu là thành viên đồng thời là Trưởng ban kiểm soát từ tháng 12/2023 còn ông Nguyễn Quốc Văn được bầu là thành viên Ban kiểm soát từ tháng 3/2021."
+    },
+    {
+        "text": "BAF",
+        "label": "TICKER",
+        "evidence": "Như vậy, sau khi miễn nhiệm 2 thành viên trên, Ban kiểm soát của BAF chỉ còn lại bà Lưu Ngọc Trâm."
+    },
+    {
+        "text": "Lưu Ngọc Trâm",
+        "label": "PERSON",
+        "evidence": "Như vậy, sau khi miễn nhiệm 2 thành viên trên, Ban kiểm soát của BAF chỉ còn lại bà Lưu Ngọc Trâm."
+    },
+    {
+        "text": "cổ phiếu Vinasun",
+        "label": "ASSET",
+        "evidence": "Gom cổ phiếu Vinasun"
+    },
+    {
+        "text": "Lê Hải Đoàn",
+        "label": "PERSON",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "đã mua vào 10.000 cổ phiếu VNS",
+        "label": "EVENT",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "10.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "cổ phiếu VNS",
+        "label": "ASSET",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "VNS",
+        "label": "TICKER",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "Công ty CP Ánh Dương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "hơn 9,23 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "13,6%",
+        "label": "RATE",
+        "evidence": "Ông Lê Hải Đoàn đã mua vào 10.000     cổ phiếu VNS    của Công ty CP Ánh Dương Việt Nam (Vinasun) nhằm mục đích đầu tư, qua đó nâng tỷ lệ sở hữu của ông lên hơn 9,23 triệu cổ phần, tỷ lệ 13,6% vốn."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "Lê Hải Đoàn",
+        "label": "PERSON",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "mua vào cổ phiếu VNS",
+        "label": "EVENT",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "cổ phiếu VNS",
+        "label": "ASSET",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "VNS",
+        "label": "TICKER",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "Tael Two Partners Ltd",
+        "label": "ORG",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "liên tiếp thoái vốn",
+        "label": "EVENT",
+        "evidence": "Kể từ năm 2024 đến nay, ông Lê Hải Đoàn đã nhiều lần mua vào cổ phiếu VNS trong bối cảnh quỹ ngoại Tael Two Partners Ltd liên tiếp thoái vốn."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "ngày 13/12/2024",
+        "label": "DATE",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "mua vào hơn 1,4 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "hơn 1,4 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Ông Đoàn trở thành cổ đông lớn của Vinasun từ ngày 13/12/2024 sau khi mua vào hơn 1,4 triệu cổ phiếu."
+    },
+    {
+        "text": "Công ty CP Tập đoàn HIPT",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "HIPT",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "HIG",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "2,31 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "cổ phần VNS",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "VNS",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "3,4%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "Vinasun",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Công ty CP Tập đoàn HIPT (mã chứng khoán: HIG) nơi ông Đoàn làm Chủ tịch Hội đồng quản trị và là cổ đông lớn nhất cũng đang sở hữu 2,31 triệu cổ phần VNS, chiếm tỷ lệ 3,4% vốn Vinasun."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Như vậy, ông Đoàn và công ty của ông đang nắm tổng cộng hơn 11,54 triệu cổ phần VNS, chiếm tỷ lệ 17,01% vốn."
+    },
+    {
+        "text": "hơn 11,54 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Như vậy, ông Đoàn và công ty của ông đang nắm tổng cộng hơn 11,54 triệu cổ phần VNS, chiếm tỷ lệ 17,01% vốn."
+    },
+    {
+        "text": "cổ phần VNS",
+        "label": "ASSET",
+        "evidence": "Như vậy, ông Đoàn và công ty của ông đang nắm tổng cộng hơn 11,54 triệu cổ phần VNS, chiếm tỷ lệ 17,01% vốn."
+    },
+    {
+        "text": "VNS",
+        "label": "TICKER",
+        "evidence": "Như vậy, ông Đoàn và công ty của ông đang nắm tổng cộng hơn 11,54 triệu cổ phần VNS, chiếm tỷ lệ 17,01% vốn."
+    },
+    {
+        "text": "17,01%",
+        "label": "RATE",
+        "evidence": "Như vậy, ông Đoàn và công ty của ông đang nắm tổng cộng hơn 11,54 triệu cổ phần VNS, chiếm tỷ lệ 17,01% vốn."
+    },
+    {
+        "text": "nhiệm kỳ 2023 - 2027",
+        "label": "DATE",
+        "evidence": "Sau thời gian để cổ đông và nhóm cổ đông ứng cử thành viên vào Hội đồng quản trị nhiệm kỳ 2023 - 2027, Công ty CP Cơ điện lạnh (mã chứng khoán:REE) cho biết đã không nhận được hồ sơ đáp ứng đủ các tiêu chuẩn."
+    },
+    {
+        "text": "Công ty CP Cơ điện lạnh",
+        "label": "ORG",
+        "evidence": "Sau thời gian để cổ đông và nhóm cổ đông ứng cử thành viên vào Hội đồng quản trị nhiệm kỳ 2023 - 2027, Công ty CP Cơ điện lạnh (mã chứng khoán:REE) cho biết đã không nhận được hồ sơ đáp ứng đủ các tiêu chuẩn."
+    },
+    {
+        "text": "REE",
+        "label": "TICKER",
+        "evidence": "Sau thời gian để cổ đông và nhóm cổ đông ứng cử thành viên vào Hội đồng quản trị nhiệm kỳ 2023 - 2027, Công ty CP Cơ điện lạnh (mã chứng khoán:REE) cho biết đã không nhận được hồ sơ đáp ứng đủ các tiêu chuẩn."
+    },
+    {
+        "text": "Hội đồng quản trị đương nhiệm REE đề cử ứng viên là ông Ashok Ramachandran",
+        "label": "EVENT",
+        "evidence": "Do đó, Hội đồng quản trị đương nhiệm REE đề cử ứng viên là ông Ashok Ramachandran sinh năm 1980, quốc tịch Úc."
+    },
+    {
+        "text": "REE",
+        "label": "TICKER",
+        "evidence": "Do đó, Hội đồng quản trị đương nhiệm REE đề cử ứng viên là ông Ashok Ramachandran sinh năm 1980, quốc tịch Úc."
+    },
+    {
+        "text": "Ashok Ramachandran",
+        "label": "PERSON",
+        "evidence": "Do đó, Hội đồng quản trị đương nhiệm REE đề cử ứng viên là ông Ashok Ramachandran sinh năm 1980, quốc tịch Úc."
+    },
+    {
+        "text": "Cơ điện lạnh",
+        "label": "ORG",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải",
+        "label": "EVENT",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "Ashok Ramachandran",
+        "label": "PERSON",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "nhiệm kỳ 2023 - 2027",
+        "label": "DATE",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "Huỳnh Thanh Hải",
+        "label": "PERSON",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "có đơn từ nhiệm vào ngày 12/2",
+        "label": "EVENT",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "ngày 12/2",
+        "label": "DATE",
+        "evidence": "Như vậy, Cơ điện lạnh sẽ trình cổ đông bầu ông Ashok Ramachandran vào vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027 thay thế ông Huỳnh Thanh Hải, người đã có đơn từ nhiệm vào ngày 12/2."
+    },
+    {
+        "text": "REE",
+        "label": "TICKER",
+        "evidence": "REE có ứng viên cho vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027."
+    },
+    {
+        "text": "nhiệm kỳ 2023 - 2027",
+        "label": "DATE",
+        "evidence": "REE có ứng viên cho vị trí thành viên Hội đồng quản trị nhiệm kỳ 2023 - 2027."
+    },
+    {
+        "text": "Ashok Ramachandran",
+        "label": "PERSON",
+        "evidence": "Ông Ashok Ramachandran có 20 năm kinh nghiệm trong vai trò kỹ sư, quản lý và điều hành doanh nghiệp tại Việt Nam, Malaysia, Ấn Độ và châu Á."
+    },
+    {
+        "text": "từ tháng 7/2018 - 10/2023",
+        "label": "DATE",
+        "evidence": "Trong đó, từ tháng 7/2018 - 10/2023, ông Ashok Ramachandran là Tổng giám đốc kiêm Chủ tịch Hội đồng quản trị Công ty Schindler Ấn Độ và khu vực nam châu Á."
+    },
+    {
+        "text": "Ashok Ramachandran",
+        "label": "PERSON",
+        "evidence": "Trong đó, từ tháng 7/2018 - 10/2023, ông Ashok Ramachandran là Tổng giám đốc kiêm Chủ tịch Hội đồng quản trị Công ty Schindler Ấn Độ và khu vực nam châu Á."
+    },
+    {
+        "text": "Công ty Schindler Ấn Độ",
+        "label": "ORG",
+        "evidence": "Trong đó, từ tháng 7/2018 - 10/2023, ông Ashok Ramachandran là Tổng giám đốc kiêm Chủ tịch Hội đồng quản trị Công ty Schindler Ấn Độ và khu vực nam châu Á."
+    },
+    {
+        "text": "Schindler Ấn Độ",
+        "label": "ORG",
+        "evidence": "Trong đó, từ tháng 7/2018 - 10/2023, ông Ashok Ramachandran là Tổng giám đốc kiêm Chủ tịch Hội đồng quản trị Công ty Schindler Ấn Độ và khu vực nam châu Á."
+    },
+    {
+        "text": "từ tháng 10/2023 - 3/2025",
+        "label": "DATE",
+        "evidence": "Từ tháng 10/2023 - 3/2025 ông Ashok Ramachandran là Giám đốc điều hành Công ty JSW Energy."
+    },
+    {
+        "text": "Ashok Ramachandran",
+        "label": "PERSON",
+        "evidence": "Từ tháng 10/2023 - 3/2025 ông Ashok Ramachandran là Giám đốc điều hành Công ty JSW Energy."
+    },
+    {
+        "text": "Công ty JSW Energy",
+        "label": "ORG",
+        "evidence": "Từ tháng 10/2023 - 3/2025 ông Ashok Ramachandran là Giám đốc điều hành Công ty JSW Energy."
+    },
+    {
+        "text": "JSW Energy",
+        "label": "ORG",
+        "evidence": "Từ tháng 10/2023 - 3/2025 ông Ashok Ramachandran là Giám đốc điều hành Công ty JSW Energy."
+    },
+    {
+        "text": "ngày 1/4 tới",
+        "label": "DATE",
+        "evidence": "Vào ngày 1/4 tới, REE dự kiến tổ chức đại hội đồng cổ đông thường niên năm 2025 tại TPHCM."
+    },
+    {
+        "text": "REE",
+        "label": "TICKER",
+        "evidence": "Vào ngày 1/4 tới, REE dự kiến tổ chức đại hội đồng cổ đông thường niên năm 2025 tại TPHCM."
+    },
+    {
+        "text": "dự kiến tổ chức đại hội đồng cổ đông thường niên năm 2025",
+        "label": "EVENT",
+        "evidence": "Vào ngày 1/4 tới, REE dự kiến tổ chức đại hội đồng cổ đông thường niên năm 2025 tại TPHCM."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Vào ngày 1/4 tới, REE dự kiến tổ chức đại hội đồng cổ đông thường niên năm 2025 tại TPHCM."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "Cơ điện lạnh",
+        "label": "ORG",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "10.248 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "21,7%",
+        "label": "RATE",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    },
+    {
+        "text": "2.427 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2025, Cơ điện lạnh đặt mục tiêu doanh thu 10.248 tỷ đồng, tăng hơn 22% so với năm 2024; lợi nhuận sau thuế tăng 21,7%, lên mức 2.427 tỷ đồng."
+    }
+]

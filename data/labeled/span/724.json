@@ -1,0 +1,242 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV và MBgần đây cho biết, trước thực trạng gia tăng các hành vi lừa đảo tinh vi trong hoạt động mua bán vàng, các khách hàng cần nâng cao cảnh giác với các thủ đoạn giả mạo thông tin doanh nghiệp nhằm chiếm đoạt tài sản."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "BIDV và MBgần đây cho biết, trước thực trạng gia gia tăng các hành vi lừa đảo tinh vi trong hoạt động mua bán vàng, các khách hàng cần nâng cao cảnh giác với các thủ đoạn giả mạo thông tin doanh nghiệp nhằm chiếm đoạt tài sản."
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo cảnh báo từ Ngân hàng Nhà nước Việt Nam và các cơ quan chức năng, thời gian qua, các đối tượng mạo danh thương hiệu một số doanh nghiệp kinh doanh mua, bán vàng thực hiện các thủ đoạn lừa đảo như:"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "- Giả mạo website, fanpage, tài khoản mạng xã hộicủa các doanh nghiệp kinh doanh vàng lớn, sử dụng tên miền, giao diện và logo tương tự để gây nhầm lẫn với các trang chính thức."
+    },
+    {
+        "text": "giá vàng/bạc",
+        "label": "PRICE",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "chương trình khuyến mãi",
+        "label": "EVENT",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "chiết khấu cao",
+        "label": "EVENT",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "tặng thưởng lớn",
+        "label": "EVENT",
+        "evidence": "- Đăng tải thông tin giả mạo về giá vàng/bạc, các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn,nhằm thu hút người mua và tạo lòng tin."
+    },
+    {
+        "text": "giao dịch mua bán vàng online",
+        "label": "EVENT",
+        "evidence": "- Mời gọi giao dịch mua bán vàng online,cam kết lợi nhuận cao, trả lãi theo ngày hoặc tuần để thực hiện hành vi vi phạm pháp luật."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "- Mời gọi giao dịch mua bán vàng online,cam kết lợi nhuận cao, trả lãi theo ngày hoặc tuần để thực hiện hành vi vi phạm pháp luật."
+    },
+    {
+        "text": "lợi nhuận cao",
+        "label": "RATE",
+        "evidence": "- Mời gọi giao dịch mua bán vàng online,cam kết lợi nhuận cao, trả lãi theo ngày hoặc tuần để thực hiện hành vi vi phạm pháp luật."
+    },
+    {
+        "text": "trả lãi theo ngày hoặc tuần",
+        "label": "RATE",
+        "evidence": "- Mời gọi giao dịch mua bán vàng online,cam kết lợi nhuận cao, trả lãi theo ngày hoặc tuần để thực hiện hành vi vi phạm pháp luật."
+    },
+    {
+        "text": "thông báo trúng thưởng",
+        "label": "EVENT",
+        "evidence": "- Gửi tin nhắn, email giả danh doanh nghiệp hoặc lãnh đạo công ty vàng/bạcđể thông báo trúng thưởng, thu thập thông tin dữ liệu của khách hàng hàng, người dân để thực hiện hành vi vi phạm pháp luật; Lợi dụng thông tin cá nhân bị rò rỉ, mạo danh người quen, nhân viên công ty vàng/bạc để tiếp cận lừa đảo qua điện thoại, qua các ứng dụng mạng xã hội khác."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "- Gửi tin nhắn, email giả danh doanh nghiệp hoặc lãnh đạo công ty vàng/bạcđể thông báo trúng thưởng, thu thập thông tin dữ liệu của khách hàng hàng, người dân để thực hiện hành vi vi phạm pháp luật; Lợi dụng thông tin cá nhân bị rò rỉ, mạo danh người quen, nhân viên công ty vàng/bạc để tiếp cận lừa đảo qua điện thoại, qua các ứng dụng mạng xã hội khác."
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "- Gửi tin nhắn, email giả danh doanh nghiệp hoặc lãnh đạo công ty vàng/bạcđể thông báo trúng thưởng, thu thập thông tin dữ liệu của khách hàng hàng, người dân để thực hiện hành vi vi phạm pháp luật; Lợi dụng thông tin cá nhân bị rò rỉ, mạo danh người quen, nhân viên công ty vàng/bạc để tiếp cận lừa đảo qua điện thoại, qua các ứng dụng mạng xã hội khác."
+    },
+    {
+        "text": "mua bán trực tiếp",
+        "label": "EVENT",
+        "evidence": "- Chỉ thực hiện mua bán trực tiếp tại các cơ sở kinh doanh vàng được cấp giấy phép, có cán bộ, nhân viên giao dịch tại quầy, bảng hiệu ghi rõ nội dung \"Địa điểm được NHNN cấp phép kinh doanh mua, bán vàng miếng\" và bản sao giấy phép công khai tại nơi dễ quan sát."
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "- Chỉ thực hiện mua bán trực tiếp tại các cơ sở kinh doanh vàng được cấp giấy phép, có cán bộ, nhân viên giao dịch tại quầy, bảng hiệu ghi rõ nội dung \"Địa điểm được NHNN cấp phép kinh doanh mua, bán vàng miếng\" và bản sao giấy phép công khai tại nơi dễ quan sát."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "- Chỉ thực hiện mua bán trực tiếp tại các cơ sở kinh doanh vàng được cấp giấy phép, có cán bộ, nhân viên giao dịch tại quầy, bảng hiệu ghi rõ nội dung \"Địa điểm được NHNN cấp phép kinh doanh mua, bán vàng miếng\" và bản sao giấy phép công khai tại nơi dễ quan sát."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "SJC",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "DOJI",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "Bảo Tín Minh Châu",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "Phú Quý",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết, gần đây có hiện tượng các đối tượng lừa đảo giả mạo website, fanpage, tài khoản mạng xã hội với tên miền, giao diện và logo giống hệt các thương hiệu kinh doanh vàng uy tín như SJC, DOJI, Bảo Tín Minh Châu, Phú Quý… hoặc các tổ chức tín dụng được cấp phép như SHB, khiến người dùng dễ dàng nhầm lẫn với trang chính thức."
+    },
+    {
+        "text": "giá vàng/bạc",
+        "label": "PRICE",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "chương trình khuyến mãi",
+        "label": "EVENT",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "chiết khấu cao",
+        "label": "EVENT",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "tặng thưởng hấp dẫn",
+        "label": "EVENT",
+        "evidence": "Sau khi tạo dựng lòng tin, các đối tượng tung tin giả về giá vàng/bạc, quảng bá các chương trình khuyến mãi, chiết khấu cao, tặng thưởng hấp dẫn."
+    },
+    {
+        "text": "đầu tư online",
+        "label": "EVENT",
+        "evidence": "Lợi dụng lòng tham và sự thiếu cảnh giác, các đối tượng mời gọi đầu tư online, cam kết lãi cao, trả lãi theo ngày/tuần — thực chất là hình thức lừa đảo có dấu hiệu đa cấp hoặc chiếm đoạt tiền."
+    },
+    {
+        "text": "lãi cao",
+        "label": "RATE",
+        "evidence": "Lợi dụng lòng tham và sự thiếu cảnh giác, các đối tượng mời gọi đầu tư online, cam kết lãi cao, trả lãi theo ngày/tuần — thực chất là hình thức lừa đảo có dấu hiệu đa cấp hoặc chiếm đoạt tiền."
+    },
+    {
+        "text": "trả lãi theo ngày/tuần",
+        "label": "RATE",
+        "evidence": "Lợi dụng lòng tham và sự thiếu cảnh giác, các đối tượng mời gọi đầu tư online, cam kết lãi cao, trả lãi theo ngày/tuần — thực chất là hình thức lừa đảo có dấu hiệu đa cấp hoặc chiếm đoạt tiền."
+    },
+    {
+        "text": "thông báo trúng thưởng",
+        "label": "EVENT",
+        "evidence": "Khi nạn nhân “sập bẫy”, chúng tiếp tục gửi tin nhắn, email giả danh doanh nghiệp hoặc lãnh đạo công ty để thông báo trúng thưởng, yêu cầu cung cấp thông tin cá nhân, tài khoản ngân hàng nhằm trục lợi."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đại diện SHB cảnh báo khách hàng tuyệt đối KHÔNG cung cấp thông tin cá nhân, KHÔNG giao dịch vàng/bạc qua các kênh không chính thống và cần thận trọng trước mọi lời mời chào đầu tư sinh lời cao — vì phía sau có thể là cái bẫy tài chính được giăng sẵn để chiếm đoạt tài sản."
+    },
+    {
+        "text": "giao dịch vàng/bạc",
+        "label": "EVENT",
+        "evidence": "Đại diện SHB cảnh báo khách hàng tuyệt đối KHÔNG cung cấp thông tin cá nhân, KHÔNG giao dịch vàng/bạc qua các kênh không chính thống và cần thận trọng trước mọi lời mời chào đầu tư sinh lời cao — vì phía sau có thể là cái bẫy tài chính được giăng sẵn để chiếm đoạt tài sản."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "Đại diện SHB cảnh báo khách hàng tuyệt đối KHÔNG cung cấp thông tin cá nhân, KHÔNG giao dịch vàng/bạc qua các kênh không chính thống và cần thận trọng trước mọi lời mời chào đầu tư sinh lời cao — vì phía sau có thể là cái bẫy tài chính được giăng sẵn để chiếm đoạt tài sản."
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "Đại diện SHB cảnh báo khách hàng tuyệt đối KHÔNG cung cấp thông tin cá nhân, KHÔNG giao dịch vàng/bạc qua các kênh không chính thống và cần thận trọng trước mọi lời mời chào đầu tư sinh lời cao — vì phía sau có thể là cái bẫy tài chính được giăng sẵn để chiếm đoạt tài sản."
+    },
+    {
+        "text": "đầu tư sinh lời cao",
+        "label": "EVENT",
+        "evidence": "Đại diện SHB cảnh báo khách hàng tuyệt đối KHÔNG cung cấp thông tin cá nhân, KHÔNG giao dịch vàng/bạc qua các kênh không chính thống và cần thận trọng trước mọi lời mời chào đầu tư sinh lời cao — vì phía sau có thể là cái bẫy tài chính được giăng sẵn để chiếm đoạt tài sản."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB nhấn mạnh, khách hàng tuyệt đối KHÔNG thực hiện bất kỳ yêu cầu nào (truy cập vào link lạ, cài đặt ứng dụng lạ, chuyển tiền, nạp thẻ, rút tiền…) của các đối tượng khi có nghi vấn."
+    },
+    {
+        "text": "chuyển tiền",
+        "label": "EVENT",
+        "evidence": "SHB nhấn mạnh, khách hàng tuyệt đối KHÔNG thực hiện bất kỳ yêu cầu nào (truy cập vào link lạ, cài đặt ứng dụng lạ, chuyển tiền, nạp thẻ, rút tiền…) của các đối tượng khi có nghi vấn."
+    },
+    {
+        "text": "nạp thẻ",
+        "label": "EVENT",
+        "evidence": "SHB nhấn mạnh, khách hàng tuyệt đối KHÔNG thực hiện bất kỳ yêu cầu nào (truy cập vào link lạ, cài đặt ứng dụng lạ, chuyển tiền, nạp thẻ, rút tiền…) của các đối tượng khi có nghi vấn."
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "SHB nhấn mạnh, khách hàng tuyệt đối KHÔNG thực hiện bất kỳ yêu cầu nào (truy cập vào link lạ, cài đặt ứng dụng lạ, chuyển tiền, nạp thẻ, rút tiền…) của các đối tượng khi có nghi vấn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB khẳng định không yêu cầu khách hàng cung cấp thông tin cá nhân qua các kênh như gọi điện, nhắn tin SMS, email, phần mềm chat (Zalo, Viber, Facebook Messenger, Telegram, What’sapp…)."
+    },
+    {
+        "text": "giao dịch mua, bán vàng miếng trực tiếp",
+        "label": "EVENT",
+        "evidence": "Khách hàng chỉ nên thực hiện giao dịch mua, bán vàng miếng trực tiếp tại các điểm chính thức đã được Nhà nước cấp phép. Tuyệt đối không giao dịch qua các kênh trung gian, không rõ nguồn gốc."
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "Khách hàng chỉ nên thực hiện giao dịch mua, bán vàng miếng trực tiếp tại các điểm chính thức đã được Nhà nước cấp phép. Tuyệt đối không giao dịch qua các kênh trung gian, không rõ nguồn gốc."
+    }
+]

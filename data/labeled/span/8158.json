@@ -1,0 +1,592 @@
+[
+    {
+        "text": "Sở giao dịch Chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Thông tin từ Sở giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh vừa báo cáo kết quả phát hành 70.000 trái phiếu mã ATHCB2431001, mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động 7.000 tỷ đồng."
+    },
+    {
+        "text": "phát hành 70.000 trái phiếu mã ATHCB2431001",
+        "label": "EVENT",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh vừa báo cáo kết quả phát hành 70.000 trái phiếu mã ATHCB2431001, mệnh giá 100 triệu đồng/trái phiếu, qua đó huy động 7.000 tỷ đồng."
+    },
+    {
+        "text": "70.000 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành 70.000 trái phiếu mã ATHCB2431001"
+    },
+    {
+        "text": "trái phiếu mã ATHCB2431001",
+        "label": "ASSET",
+        "evidence": "phát hành 70.000 trái phiếu mã ATHCB2431001"
+    },
+    {
+        "text": "ATHCB2431001",
+        "label": "TICKER",
+        "evidence": "phát hành 70.000 trái phiếu mã ATHCB2431001"
+    },
+    {
+        "text": "100 triệu đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "mệnh giá 100 triệu đồng/trái phiếu"
+    },
+    {
+        "text": "huy động 7.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "qua đó huy động 7.000 tỷ đồng."
+    },
+    {
+        "text": "7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "huy động 7.000 tỷ đồng"
+    },
+    {
+        "text": "ATHCB2431001",
+        "label": "TICKER",
+        "evidence": "Mã trái phiếu này được phát hành ngày 23/12/2024, kỳ hạn 84 tháng."
+    },
+    {
+        "text": "23/12/2024",
+        "label": "DATE",
+        "evidence": "Mã trái phiếu này được phát hành ngày 23/12/2024, kỳ hạn 84 tháng."
+    },
+    {
+        "text": "84 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 84 tháng."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kết hợp 3%/năm."
+    },
+    {
+        "text": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh",
+        "label": "ORG",
+        "evidence": "Được biết, Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh được thành lập năm 2014."
+    },
+    {
+        "text": "năm 2014",
+        "label": "DATE",
+        "evidence": "được thành lập năm 2014."
+    },
+    {
+        "text": "12/12/2024",
+        "label": "DATE",
+        "evidence": "Theo đăng ký doanh nghiệp cập nhật ngày 12/12/2024"
+    },
+    {
+        "text": "tăng vốn điều lệ từ 1.156,2 tỷ đồng lên 2.906,2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "công ty này mới tăng vốn điều lệ từ 1.156,2 tỷ đồng lên 2.906,2 tỷ đồng."
+    },
+    {
+        "text": "1.156,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ từ 1.156,2 tỷ đồng"
+    },
+    {
+        "text": "2.906,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 2.906,2 tỷ đồng"
+    },
+    {
+        "text": "Phùng Thu Hiền",
+        "label": "PERSON",
+        "evidence": "Cơ cấu cổ đông gồm Tổng giám đốc Phùng Thu Hiền nắm 95% vốn"
+    },
+    {
+        "text": "95%",
+        "label": "RATE",
+        "evidence": "nắm 95% vốn"
+    },
+    {
+        "text": "Nguyễn Thị Lê Phan",
+        "label": "PERSON",
+        "evidence": "Chủ tịch HĐTV Nguyễn Thị Lê Phan nắm 2%"
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "nắm 2%"
+    },
+    {
+        "text": "Nguyễn Huy Lâm",
+        "label": "PERSON",
+        "evidence": "và Nguyễn Huy Lâm nắm 3%."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "nắm 3%."
+    },
+    {
+        "text": "28/11/2024",
+        "label": "DATE",
+        "evidence": "ngày 28/11/2024"
+    },
+    {
+        "text": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh và Công ty TNHH Đầu và Phát triển BĐS Hải Đăng ký kết Hợp đồng nguyên tắc chuyển nhượng một phần dự án bất động sản số 2811/2024/HĐNT CNDA BĐS/HĐ-AT."
+    },
+    {
+        "text": "Công ty TNHH Đầu và Phát triển BĐS Hải Đăng",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh và Công ty TNHH Đầu và Phát triển BĐS Hải Đăng ký kết Hợp đồng nguyên tắc chuyển nhượng một phần dự án bất động sản số 2811/2024/HĐNT CNDA BĐS/HĐ-AT."
+    },
+    {
+        "text": "ký kết Hợp đồng nguyên tắc chuyển nhượng một phần dự án bất động sản số 2811/2024/HĐNT CNDA BĐS/HĐ-AT",
+        "label": "EVENT",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh và Công ty TNHH Đầu và Phát triển BĐS Hải Đăng ký kết Hợp đồng nguyên tắc chuyển nhượng một phần dự án bất động sản số 2811/2024/HĐNT CNDA BĐS/HĐ-AT."
+    },
+    {
+        "text": "Công ty TNHH Đầu và Phát triển BĐS Hải Đăng",
+        "label": "ORG",
+        "evidence": "do Công ty TNHH Đầu và Phát triển BĐS Hải Đăng làm chủ đầu tư."
+    },
+    {
+        "text": "17/12",
+        "label": "DATE",
+        "evidence": "Ngày 17/12 vừa qua"
+    },
+    {
+        "text": "phát hành 1.000 tỷ đồng trái phiếu",
+        "label": "EVENT",
+        "evidence": "trước thời điểm phát hành 1.000 tỷ đồng trái phiếu nêu trên chỉ vài ngày"
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "phát hành 1.000 tỷ đồng trái phiếu"
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "phát hành 1.000 tỷ đồng trái phiếu"
+    },
+    {
+        "text": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh",
+        "label": "ORG",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh đem quyền tài sản phát sinh từ hợp đồng chuyển nhượng số 2811/2024/HĐNT CNDA BĐS/HĐ-AT và các thỏa thuận sửa đổi, bổ sung (nếu có) thế chấp tại ngân hàng."
+    },
+    {
+        "text": "đem quyền tài sản phát sinh từ hợp đồng chuyển nhượng số 2811/2024/HĐNT CNDA BĐS/HĐ-AT và các thỏa thuận sửa đổi, bổ sung (nếu có) thế chấp tại ngân hàng",
+        "label": "EVENT",
+        "evidence": "Công ty TNHH Dịch vụ Thương mại Tổng hợp An Thịnh đem quyền tài sản phát sinh từ hợp đồng chuyển nhượng số 2811/2024/HĐNT CNDA BĐS/HĐ-AT và các thỏa thuận sửa đổi, bổ sung (nếu có) thế chấp tại ngân hàng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Cũng theo dữ liệu từ HNX"
+    },
+    {
+        "text": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An",
+        "label": "ORG",
+        "evidence": "Đó là Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An ngày 24/12 phát hành thành công 10.000 trái phiếu mã MANCB2426001."
+    },
+    {
+        "text": "24/12",
+        "label": "DATE",
+        "evidence": "ngày 24/12"
+    },
+    {
+        "text": "phát hành thành công 10.000 trái phiếu mã MANCB2426001",
+        "label": "EVENT",
+        "evidence": "phát hành thành công 10.000 trái phiếu mã MANCB2426001."
+    },
+    {
+        "text": "10.000 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành thành công 10.000 trái phiếu mã MANCB2426001"
+    },
+    {
+        "text": "trái phiếu mã MANCB2426001",
+        "label": "ASSET",
+        "evidence": "phát hành thành công 10.000 trái phiếu mã MANCB2426001"
+    },
+    {
+        "text": "MANCB2426001",
+        "label": "TICKER",
+        "evidence": "phát hành thành công 10.000 trái phiếu mã MANCB2426001"
+    },
+    {
+        "text": "100 triệu đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "Với mệnh giá 100 triệu đồng/trái phiếu"
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng giá trị huy động là 1.000 tỷ đồng."
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 18 tháng"
+    },
+    {
+        "text": "10,5%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cố định 10,5%/năm."
+    },
+    {
+        "text": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An được thành lập tháng 6/2023 với vốn điều lệ 3.800 tỷ đồng."
+    },
+    {
+        "text": "tháng 6/2023",
+        "label": "DATE",
+        "evidence": "thành lập tháng 6/2023"
+    },
+    {
+        "text": "3.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ 3.800 tỷ đồng."
+    },
+    {
+        "text": "Phạm Quang Định",
+        "label": "PERSON",
+        "evidence": "Phạm Quang Định góp 49%"
+    },
+    {
+        "text": "49%",
+        "label": "RATE",
+        "evidence": "góp 49%"
+    },
+    {
+        "text": "Hoàng Quốc Thủy",
+        "label": "PERSON",
+        "evidence": "Tổng giám đốc Hoàng Quốc Thủy nắm 46%"
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "nắm 46%"
+    },
+    {
+        "text": "Ngạc Văn Lượng",
+        "label": "PERSON",
+        "evidence": "Ngạc Văn Lượng góp 5%."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "góp 5%."
+    },
+    {
+        "text": "Tháng 7/2024",
+        "label": "DATE",
+        "evidence": "Tháng 7/2024"
+    },
+    {
+        "text": "tăng vọt vốn điều lệ lên mức 6.800 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "công ty tăng vọt vốn điều lệ lên mức 6.800 tỷ đồng."
+    },
+    {
+        "text": "6.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "6.800 tỷ đồng"
+    },
+    {
+        "text": "18/12/2024",
+        "label": "DATE",
+        "evidence": "ngày 18/12/2024"
+    },
+    {
+        "text": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An và Công ty cổ phần Trung Tâm Hội Trợ Triển Lãm Việt Nam (VEFAC, mã chứng khoán: VEF) ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-MA nhằm mục tiêu thực hiện việc đầu tư, xây dựng và kinh doanh đối với một số cấu phần thuộc Dự án đầu tư xây dựng Khu đô thị mới tại các xã Xuân Canh, Đông Hội, Mai Lâm, huyện Đông Anh, Hà Nội (tên thương mại là Vinhomes Cổ Loa)."
+    },
+    {
+        "text": "Công ty cổ phần Trung Tâm Hội Trợ Triển Lãm Việt Nam",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Trung Tâm Hội Trợ Triển Lãm Việt Nam (VEFAC, mã chứng khoán: VEF)"
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "(VEFAC, mã chứng khoán: VEF)"
+    },
+    {
+        "text": "VEF",
+        "label": "TICKER",
+        "evidence": "mã chứng khoán: VEF"
+    },
+    {
+        "text": "ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-MA",
+        "label": "EVENT",
+        "evidence": "ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-MA"
+    },
+    {
+        "text": "28/10/2024",
+        "label": "DATE",
+        "evidence": "ngày 28/10/2024."
+    },
+    {
+        "text": "24/12",
+        "label": "DATE",
+        "evidence": "Cũng trong ngày 24/12"
+    },
+    {
+        "text": "Công ty cổ phần Phú Thọ Land",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Phú Thọ Land phát hành thành công 9.500 trái phiếu mã PTJCB2425001."
+    },
+    {
+        "text": "phát hành thành công 9.500 trái phiếu mã PTJCB2425001",
+        "label": "EVENT",
+        "evidence": "Công ty cổ phần Phú Thọ Land phát hành thành công 9.500 trái phiếu mã PTJCB2425001."
+    },
+    {
+        "text": "9.500 trái phiếu",
+        "label": "VOLUME",
+        "evidence": "phát hành thành công 9.500 trái phiếu mã PTJCB2425001"
+    },
+    {
+        "text": "trái phiếu mã PTJCB2425001",
+        "label": "ASSET",
+        "evidence": "phát hành thành công 9.500 trái phiếu mã PTJCB2425001"
+    },
+    {
+        "text": "PTJCB2425001",
+        "label": "TICKER",
+        "evidence": "phát hành thành công 9.500 trái phiếu mã PTJCB2425001"
+    },
+    {
+        "text": "100 triệu đồng/trái phiếu",
+        "label": "PRICE",
+        "evidence": "Với mệnh giá 100 triệu đồng/trái phiếu"
+    },
+    {
+        "text": "huy động được 950 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "công ty này huy động được 950 tỷ đồng."
+    },
+    {
+        "text": "950 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "huy động được 950 tỷ đồng"
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 12 tháng"
+    },
+    {
+        "text": "10%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cố định 10%/năm."
+    },
+    {
+        "text": "Phú Thọ Land",
+        "label": "ORG",
+        "evidence": "Được biết, Phú Thọ Land thành lập tháng 11/2019"
+    },
+    {
+        "text": "tháng 11/2019",
+        "label": "DATE",
+        "evidence": "thành lập tháng 11/2019"
+    },
+    {
+        "text": "20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ 20 tỷ đồng."
+    },
+    {
+        "text": "CTCP BV Land",
+        "label": "ORG",
+        "evidence": "Cổ đông sáng lập khi đó gồm CTCP BV Land góp 14 tỷ"
+    },
+    {
+        "text": "14 tỷ",
+        "label": "MONEY",
+        "evidence": "góp 14 tỷ"
+    },
+    {
+        "text": "70% vốn điều lệ",
+        "label": "RATE",
+        "evidence": "chiếm 70% vốn điều lệ"
+    },
+    {
+        "text": "CTCP Xây dựng Balimas",
+        "label": "ORG",
+        "evidence": "CTCP Xây dựng Balimas góp 200 triệu"
+    },
+    {
+        "text": "200 triệu",
+        "label": "MONEY",
+        "evidence": "góp 200 triệu"
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "chiếm 1%"
+    },
+    {
+        "text": "CTCP BV Asset",
+        "label": "ORG",
+        "evidence": "CTCP BV Asset góp 5,8 tỷ"
+    },
+    {
+        "text": "5,8 tỷ",
+        "label": "MONEY",
+        "evidence": "góp 5,8 tỷ"
+    },
+    {
+        "text": "29% vốn điều lệ",
+        "label": "RATE",
+        "evidence": "chiếm 29% vốn điều lệ"
+    },
+    {
+        "text": "BV Land",
+        "label": "ORG",
+        "evidence": "BV Land và BV Asset là thành viên của BV Group."
+    },
+    {
+        "text": "BV Asset",
+        "label": "ORG",
+        "evidence": "BV Land và BV Asset là thành viên của BV Group."
+    },
+    {
+        "text": "BV Group",
+        "label": "ORG",
+        "evidence": "là thành viên của BV Group."
+    },
+    {
+        "text": "giai đoạn 2023 đến nay",
+        "label": "DATE",
+        "evidence": "Trong giai đoạn 2023 đến nay"
+    },
+    {
+        "text": "tháng 11/2024",
+        "label": "DATE",
+        "evidence": "đến tháng 11/2024"
+    },
+    {
+        "text": "tăng vốn điều lệ lên 4.360 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "công ty này đã tăng vốn điều lệ lên 4.360 tỷ đồng."
+    },
+    {
+        "text": "4.360 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "4.360 tỷ đồng"
+    },
+    {
+        "text": "Nguyễn Danh Toàn",
+        "label": "PERSON",
+        "evidence": "Hiện Tổng giám đốc công ty là ông Nguyễn Danh Toàn."
+    },
+    {
+        "text": "Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An",
+        "label": "ORG",
+        "evidence": "Tương tự như Công ty cổ phần Phát triển và Đầu tư Kinh doanh Minh An"
+    },
+    {
+        "text": "18/12/2024",
+        "label": "DATE",
+        "evidence": "ngày 18/12/2024"
+    },
+    {
+        "text": "Phú Thọ Land",
+        "label": "ORG",
+        "evidence": "Phú Thọ Land và VEFAC ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-PTL nhằm mục tiêu thực hiện việc đầu tư, xây dựng và kinh doanh đối với một số cấu phần thuộc Dự án Vinhomes Cổ Loa."
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "Phú Thọ Land và VEFAC ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-PTL nhằm mục tiêu thực hiện việc đầu tư, xây dựng và kinh doanh đối với một số cấu phần thuộc Dự án Vinhomes Cổ Loa."
+    },
+    {
+        "text": "ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-PTL",
+        "label": "EVENT",
+        "evidence": "ký kết Hợp đồng hợp tác đầu tư và kinh doanh số 01/2024/HĐHTĐT/VEFAC-PTL"
+    },
+    {
+        "text": "28/10/2024",
+        "label": "DATE",
+        "evidence": "ngày 28/10/2024."
+    },
+    {
+        "text": "Phú Thọ Land",
+        "label": "ORG",
+        "evidence": "Trước đó, Phú Thọ Land cũng ký Hợp đồng mua bán nhà ở số 154PTL/VHOCP3/HĐMBNO ngày 29/08/2024 vớiCông ty cổ phần Vinhomesvề việc về việc mua các nhà ở liền kề tại dự án Khu đô thị sinh thái Đại An (tên thương mại Vinhome Ocean Park 3 – The Crown)."
+    },
+    {
+        "text": "ký Hợp đồng mua bán nhà ở số 154PTL/VHOCP3/HĐMBNO ngày 29/08/2024",
+        "label": "EVENT",
+        "evidence": "ký Hợp đồng mua bán nhà ở số 154PTL/VHOCP3/HĐMBNO ngày 29/08/2024"
+    },
+    {
+        "text": "29/08/2024",
+        "label": "DATE",
+        "evidence": "ngày 29/08/2024"
+    },
+    {
+        "text": "Công ty cổ phần Vinhomes",
+        "label": "ORG",
+        "evidence": "vớiCông ty cổ phần Vinhomesvề việc về việc mua các nhà ở liền kề tại dự án Khu đô thị sinh thái Đại An (tên thương mại Vinhome Ocean Park 3 – The Crown)."
+    },
+    {
+        "text": "34.880 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng vốn đầu tư gần 34.880 tỷ đồng"
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "do VEFAC làm chủ đầu tư."
+    },
+    {
+        "text": "VEFAC",
+        "label": "ORG",
+        "evidence": "Trước đó, VEFAC cho biết có thể bắt đầu thi công dự án vào cuối năm 2024 và dự kiến vận hành dự án vào quý đầu năm 2030."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "cuối năm 2024"
+    },
+    {
+        "text": "quý đầu năm 2030",
+        "label": "DATE",
+        "evidence": "quý đầu năm 2030."
+    },
+    {
+        "text": "hơn 15.100 căn hộ",
+        "label": "VOLUME",
+        "evidence": "khu đô thị này có hơn 15.100 căn hộ"
+    },
+    {
+        "text": "hơn 4.000 biệt thự đơn lập, liền kề",
+        "label": "VOLUME",
+        "evidence": "hơn 4.000 biệt thự đơn lập, liền kề cao 4-5 tầng"
+    },
+    {
+        "text": "hơn 4.800 căn hộ",
+        "label": "VOLUME",
+        "evidence": "hai tòa chung cư 45 tầng với hơn 4.800 căn hộ"
+    },
+    {
+        "text": "14 công trình hỗn hợp",
+        "label": "VOLUME",
+        "evidence": "dự án còn 14 công trình hỗn hợp (thương mại, dịch vụ, văn phòng và căn hộ ở) cao 45 tầng"
+    },
+    {
+        "text": "6.100 căn hộ",
+        "label": "VOLUME",
+        "evidence": "có 6.100 căn hộ."
+    }
+]

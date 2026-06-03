@@ -1,0 +1,18 @@
+# Avoid copying heavy datasets and notebooks into the build context.
+data/
+**/__pycache__/
+*.pyc
+.git/
+.gitignore
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+**/*.ipynb
+**/*.ipynb_checkpoints
+docs/
+notebooks/
+*.log
+.pytest_cache/

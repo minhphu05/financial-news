@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank mới đây đã công bố kết quả kinh doanh quý 2/2023."
+    },
+    {
+        "text": "kết quả kinh doanh quý 2/2023",
+        "label": "EVENT",
+        "evidence": "Techcombank mới đây đã công bố kết quả kinh doanh quý 2/2023."
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "Techcombank mới đây đã công bố kết quả kinh doanh quý 2/2023."
+    },
+    {
+        "text": "cho vay bất động sản",
+        "label": "ASSET",
+        "evidence": "các mảng kinh doanh quan trọng của ngân hàng như cho vay bất động sản, trái phiếu doanh nghiệp hay bảo hiểm liên kết với ngân hàng (banca) bị ảnh hưởng bởi thị trường chung"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "các mảng kinh doanh quan trọng của ngân hàng như cho vay bất động sản, trái phiếu doanh nghiệp hay bảo hiểm liên kết với ngân hàng (banca) bị ảnh hưởng bởi thị trường chung"
+    },
+    {
+        "text": "bảo hiểm liên kết với ngân hàng (banca)",
+        "label": "ASSET",
+        "evidence": "các mảng kinh doanh quan trọng của ngân hàng như cho vay bất động sản, trái phiếu doanh nghiệp hay bảo hiểm liên kết với ngân hàng (banca) bị ảnh hưởng bởi thị trường chung"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "nhưng Techcombank vẫn ghi nhận lợi nhuận tương đương quý 1."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Kết quả 6 tháng, ngân hàng tiếp tục đi đúng nhịp độ của kế hoạch ban đầu đề ra với lợi nhuận trước thuế đạt gần 11.300 tỷ đồng"
+    },
+    {
+        "text": "gần 11.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết quả 6 tháng, ngân hàng tiếp tục đi đúng nhịp độ của kế hoạch ban đầu đề ra với lợi nhuận trước thuế đạt gần 11.300 tỷ đồng"
+    },
+    {
+        "text": "51,2%",
+        "label": "RATE",
+        "evidence": "tương đương khoảng 51,2% mục tiêu cả năm đã được đại hội đồng cổ đông 2023 thông qua."
+    },
+    {
+        "text": "đại hội đồng cổ đông 2023 thông qua",
+        "label": "EVENT",
+        "evidence": "tương đương khoảng 51,2% mục tiêu cả năm đã được đại hội đồng cổ đông 2023 thông qua."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "đã được đại hội đồng cổ đông 2023 thông qua."
+    },
+    {
+        "text": "Tín dụng tăng chậm lại trong quý 2",
+        "label": "EVENT",
+        "evidence": "Tín dụng tăng chậm lại trong quý 2 do ngân hàng phải tuân thủ chỉ tiêu được Ngân hàng nhà nước cấp đầu năm (đợt 1)"
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Tín dụng tăng chậm lại trong quý 2 do ngân hàng phải tuân thủ chỉ tiêu được Ngân hàng nhà nước cấp đầu năm (đợt 1)"
+    },
+    {
+        "text": "Ngân hàng nhà nước",
+        "label": "ORG",
+        "evidence": "chỉ tiêu được Ngân hàng nhà nước cấp đầu năm (đợt 1)"
+    },
+    {
+        "text": "biên lợi nhuận (NIM) thu hẹp",
+        "label": "EVENT",
+        "evidence": "trong khi biên lợi nhuận (NIM) thu hẹp vì các chính sách giảm giá linh hoạt để hỗ trợ khách hàng"
+    },
+    {
+        "text": "thu nhập lãi thuần quý 2 sụt giảm hơn 19%",
+        "label": "EVENT",
+        "evidence": "khiến thu nhập lãi thuần quý 2 sụt giảm hơn 19%."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "thu nhập lãi thuần quý 2 sụt giảm hơn 19%."
+    },
+    {
+        "text": "hơn 19%",
+        "label": "RATE",
+        "evidence": "thu nhập lãi thuần quý 2 sụt giảm hơn 19%."
+    },
+    {
+        "text": "Ngân hàng",
+        "label": "ORG",
+        "evidence": "do tín dụng vẫn chiếm tỷ trọng cao nhất trong cơ cấu doanh thu thuần của Ngân hàng."
+    },
+    {
+        "text": "dịch vụ thẻ",
+        "label": "ASSET",
+        "evidence": "Có thể kể đến như các phần phí từ dịch vụ thẻ; từ thư tín dụng (LC); tiền mặt và thanh toán; ngoại hối…"
+    },
+    {
+        "text": "thư tín dụng (LC)",
+        "label": "ASSET",
+        "evidence": "Có thể kể đến như các phần phí từ dịch vụ thẻ; từ thư tín dụng (LC); tiền mặt và thanh toán; ngoại hối…"
+    },
+    {
+        "text": "tiền mặt và thanh toán",
+        "label": "ASSET",
+        "evidence": "Có thể kể đến như các phần phí từ dịch vụ thẻ; từ thư tín dụng (LC); tiền mặt và thanh toán; ngoại hối…"
+    },
+    {
+        "text": "ngoại hối",
+        "label": "ASSET",
+        "evidence": "Có thể kể đến như các phần phí từ dịch vụ thẻ; từ thư tín dụng (LC); tiền mặt và thanh toán; ngoại hối…"
+    },
+    {
+        "text": "thanh lý trụ sở cũ tại Hà Nội trong quý 1",
+        "label": "EVENT",
+        "evidence": "bên cạnh nguồn thu từ “hoạt động khác” tăng đột biến nhờ thanh lý trụ sở cũ tại Hà Nội trong quý 1"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "thanh lý trụ sở cũ tại Hà Nội trong quý 1"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nhưng nói đến Techcombank, bên cạnh câu chuyện kinh doanh đơn thuần và lợi nhuận"
+    },
+    {
+        "text": "CASA – tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "thì còn một chỉ số khác đã gắn với ngân hàng này suốt gần chục năm qua đó là CASA – tiền gửi không kỳ hạn."
+    },
+    {
+        "text": "tiền gửi không kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Từ 2016, với chính sách “Zero fee”, Techcombank đã ghi dấu ấn trên thị trường với tỷ lệ tiền gửi không kỳ hạn trong tổng tiền gửi tăng liên tục quý này qua quý khác."
+    },
+    {
+        "text": "2016",
+        "label": "DATE",
+        "evidence": "Từ 2016, với chính sách “Zero fee”, Techcombank đã ghi dấu ấn trên thị trường với tỷ lệ tiền gửi không kỳ hạn trong tổng tiền gửi tăng liên tục quý này qua quý khác."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Từ 2016, với chính sách “Zero fee”, Techcombank đã ghi dấu ấn trên thị trường với tỷ lệ tiền gửi không kỳ hạn trong tổng tiền gửi tăng liên tục quý này qua quý khác."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "Có giai đoạn CASA ở Techcombank đạt tỷ lệ xấp xỉ 50% - một con số trong mơ và là mục tiêu phấn đấu của tất cả các ngân hàng trong hệ thống."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Có giai đoạn CASA ở Techcombank đạt tỷ lệ xấp xỉ 50% - một con số trong mơ và là mục tiêu phấn đấu của tất cả các ngân hàng trong hệ thống."
+    },
+    {
+        "text": "xấp xỉ 50%",
+        "label": "RATE",
+        "evidence": "Có giai đoạn CASA ở Techcombank đạt tỷ lệ xấp xỉ 50% - một con số trong mơ và là mục tiêu phấn đấu của tất cả các ngân hàng trong hệ thống."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank vì thế cũng được gắn với cái tên “ông vua CASA”."
+    },
+    {
+        "text": "quý 2/2022",
+        "label": "DATE",
+        "evidence": "Nhưng kể từ quý 2/2022, do xu hướng chung của toàn thị trường, khi các kênh tài sản là chứng khoán và bất động sản trở nên hấp dẫn hơn trong khi hoạt động sản xuất kinh doanh cũng hồi phục hậu Covid"
+    },
+    {
+        "text": "chứng khoán",
+        "label": "ASSET",
+        "evidence": "khi các kênh tài sản là chứng khoán và bất động sản trở nên hấp dẫn hơn trong khi hoạt động sản xuất kinh doanh cũng hồi phục hậu Covid"
+    },
+    {
+        "text": "bất động sản",
+        "label": "ASSET",
+        "evidence": "khi các kênh tài sản là chứng khoán và bất động sản trở nên hấp dẫn hơn trong khi hoạt động sản xuất kinh doanh cũng hồi phục hậu Covid"
+    },
+    {
+        "text": "CASA của Techcombank",
+        "label": "ASSET",
+        "evidence": "khiến CASA của Techcombank và các ngân hàng khác sụt giảm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "khiến CASA của Techcombank và các ngân hàng khác sụt giảm."
+    },
+    {
+        "text": "quý 3/2022",
+        "label": "DATE",
+        "evidence": "Xu hướng ấy tiếp diễn trong quý 3/2022, và đến quý cuối năm ngoái lại thêm áp lực từ lãi suất tiền gửi có kỳ hạn tăng cao, khiến cho CASA không thể hồi phục."
+    },
+    {
+        "text": "lãi suất tiền gửi có kỳ hạn tăng cao",
+        "label": "EVENT",
+        "evidence": "và đến quý cuối năm ngoái lại thêm áp lực từ lãi suất tiền gửi có kỳ hạn tăng cao, khiến cho CASA không thể hồi phục."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "khiến cho CASA không thể hồi phục."
+    },
+    {
+        "text": "quý 1 năm nay",
+        "label": "DATE",
+        "evidence": "Đỉnh điểm là quý 1 năm nay, tỷ lệ CASA của Techcombank bị giảm về 32%"
+    },
+    {
+        "text": "tỷ lệ CASA của Techcombank bị giảm về 32%",
+        "label": "EVENT",
+        "evidence": "Đỉnh điểm là quý 1 năm nay, tỷ lệ CASA của Techcombank bị giảm về 32%, đồng thời để mất ngôi vương vào tay của người bạn đồng hành MB."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "tỷ lệ CASA của Techcombank bị giảm về 32%, đồng thời để mất ngôi vương vào tay của người bạn đồng hành MB."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "tỷ lệ CASA của Techcombank bị giảm về 32%, đồng thời để mất ngôi vương vào tay của người bạn đồng hành MB."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "đồng thời để mất ngôi vương vào tay của người bạn đồng hành MB."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên sự sụt giảm của CASA, theo cách gọi của lãnh đạo Techcombank là sự nghịch chiều, đã dừng lại."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "theo cách gọi của lãnh đạo Techcombank là sự nghịch chiều, đã dừng lại."
+    },
+    {
+        "text": "báo cáo tài chính quý 2 mới công bố",
+        "label": "EVENT",
+        "evidence": "Trong báo cáo tài chính quý 2 mới công bố, Techcombank thông báo CASA đã lên mức 34,9%."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Trong báo cáo tài chính quý 2 mới công bố, Techcombank thông báo CASA đã lên mức 34,9%."
+    },
+    {
+        "text": "Techcombank thông báo CASA đã lên mức 34,9%",
+        "label": "EVENT",
+        "evidence": "Techcombank thông báo CASA đã lên mức 34,9%."
+    },
+    {
+        "text": "CASA",
+        "label": "ASSET",
+        "evidence": "Techcombank thông báo CASA đã lên mức 34,9%."
+    },
+    {
+        "text": "34,9%",
+        "label": "RATE",
+        "evidence": "Techcombank thông báo CASA đã lên mức 34,9%."
+    },
+    {
+        "text": "2,9 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Thêm 2,9 điểm phần trăm là không quá nhiều, nhưng cho thấy một tín hiệu tích cực"
+    },
+    {
+        "text": "CASA của Techcombank",
+        "label": "ASSET",
+        "evidence": "Sự hồi phục CASA của Techcombank, nếu quan sát sẽ thấy, không chỉ đơn thuần đến từ việc lãi suất tiền gửi có kỳ hạn giảm và các kênh đầu tư khác kém lạc quan."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Sự hồi phục CASA của Techcombank, nếu quan sát sẽ thấy, không chỉ đơn thuần đến từ việc lãi suất tiền gửi có kỳ hạn giảm và các kênh đầu tư khác kém lạc quan."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Mà đó còn là kết quả của quá trình chuyển đổi số - vốn được Techcombank dày công đầu tư, nuôi dưỡng suốt thời gian qua."
+    },
+    {
+        "text": "6 tháng đầu năm nay",
+        "label": "DATE",
+        "evidence": "Theo báo cáo mới công bố, chỉ trong 6 tháng đầu năm nay Techcombank đã thu hút được thêm 1,4 triệu khách hàng mới"
+    },
+    {
+        "text": "Techcombank đã thu hút được thêm 1,4 triệu khách hàng mới",
+        "label": "EVENT",
+        "evidence": "chỉ trong 6 tháng đầu năm nay Techcombank đã thu hút được thêm 1,4 triệu khách hàng mới, trong đó có tới gần một nửa đến từ kênh số."
+    },
+    {
+        "text": "1,4 triệu",
+        "label": "VOLUME",
+        "evidence": "chỉ trong 6 tháng đầu năm nay Techcombank đã thu hút được thêm 1,4 triệu khách hàng mới, trong đó có tới gần một nửa đến từ kênh số."
+    },
+    {
+        "text": "1,4 triệu",
+        "label": "VOLUME",
+        "evidence": "Đáng chú ý, con số 1,4 triệu này còn nhiều hơn cả lượng khách hàng mới mà Techcombank có được trong cả năm 2022."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "lượng khách hàng mới mà Techcombank có được trong cả năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "lượng khách hàng mới mà Techcombank có được trong cả năm 2022."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nói tới số hóa, đầu tư cho công nghệ chắc chắn trên thị trường không ngân hàng nào vượt qua được Techcombank, ít nhất là tính đến thời điểm này."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nói tới số hóa, đầu tư cho công nghệ chắc chắn trên thị trường không ngân hàng nào vượt qua được Techcombank, ít nhất là tính đến thời điểm này."
+    },
+    {
+        "text": "giai đoạn 2016 – 2020",
+        "label": "DATE",
+        "evidence": "Như giai đoạn 2016 – 2020, nhà băng này đã chi 300 triệu USD cho các dự án chuyển đổi số, xoay quanh trục chiến lược “khách hàng là trọng tâm”."
+    },
+    {
+        "text": "300 triệu USD",
+        "label": "MONEY",
+        "evidence": "Như giai đoạn 2016 – 2020, nhà băng này đã chi 300 triệu USD cho các dự án chuyển đổi số, xoay quanh trục chiến lược “khách hàng là trọng tâm”."
+    },
+    {
+        "text": "giai đoạn 2021 – 2025",
+        "label": "DATE",
+        "evidence": "Hay giai đoạn 2021 – 2025, Techcombank cam kết đầu tư tiếp 500 triệu USD cho hành trình chuyển đổi số hóa"
+    },
+    {
+        "text": "Techcombank cam kết đầu tư tiếp 500 triệu USD cho hành trình chuyển đổi số hóa",
+        "label": "EVENT",
+        "evidence": "Hay giai đoạn 2021 – 2025, Techcombank cam kết đầu tư tiếp 500 triệu USD cho hành trình chuyển đổi số hóa, bắt tay cùng các đối tác hàng đầu thế giới như Amazon, Backbase, Salesforce, Adobe…"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Hay giai đoạn 2021 – 2025, Techcombank cam kết đầu tư tiếp 500 triệu USD cho hành trình chuyển đổi số hóa"
+    },
+    {
+        "text": "500 triệu USD",
+        "label": "MONEY",
+        "evidence": "Hay giai đoạn 2021 – 2025, Techcombank cam kết đầu tư tiếp 500 triệu USD cho hành trình chuyển đổi số hóa"
+    },
+    {
+        "text": "Amazon",
+        "label": "ORG",
+        "evidence": "bắt tay cùng các đối tác hàng đầu thế giới như Amazon, Backbase, Salesforce, Adobe…"
+    },
+    {
+        "text": "Backbase",
+        "label": "ORG",
+        "evidence": "bắt tay cùng các đối tác hàng đầu thế giới như Amazon, Backbase, Salesforce, Adobe…"
+    },
+    {
+        "text": "Salesforce",
+        "label": "ORG",
+        "evidence": "bắt tay cùng các đối tác hàng đầu thế giới như Amazon, Backbase, Salesforce, Adobe…"
+    },
+    {
+        "text": "Adobe",
+        "label": "ORG",
+        "evidence": "bắt tay cùng các đối tác hàng đầu thế giới như Amazon, Backbase, Salesforce, Adobe…"
+    },
+    {
+        "text": "2009",
+        "label": "DATE",
+        "evidence": "Trước đó, vào năm 2009, Techcombank cũng là ngân hàng Việt Nam đầu tiên bắt tay cùng tập đoàn tư vấn hàng đầu thế giới là McKinsey để xây dựng mô hình kinh doanh và phát triển tiêu chuẩn quốc tế."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trước đó, vào năm 2009, Techcombank cũng là ngân hàng Việt Nam đầu tiên bắt tay cùng tập đoàn tư vấn hàng đầu thế giới là McKinsey để xây dựng mô hình kinh doanh và phát triển tiêu chuẩn quốc tế."
+    },
+    {
+        "text": "McKinsey",
+        "label": "ORG",
+        "evidence": "Techcombank cũng là ngân hàng Việt Nam đầu tiên bắt tay cùng tập đoàn tư vấn hàng đầu thế giới là McKinsey để xây dựng mô hình kinh doanh và phát triển tiêu chuẩn quốc tế."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022 ghi nhận có đến 75% khách hàng thực hiện giao dịch hơn 35 lần/tháng trên kênh ngân hàng số"
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Năm 2022 ghi nhận có đến 75% khách hàng thực hiện giao dịch hơn 35 lần/tháng trên kênh ngân hàng số"
+    },
+    {
+        "text": "hơn 35 lần/tháng",
+        "label": "RATE",
+        "evidence": "Năm 2022 ghi nhận có đến 75% khách hàng thực hiện giao dịch hơn 35 lần/tháng trên kênh ngân hàng số"
+    },
+    {
+        "text": "hơn 1 lần/ngày",
+        "label": "RATE",
+        "evidence": "tức trung bình hơn 1 lần/ngày - cao hơn cả tỷ lệ giao dịch trung bình toàn cầu."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Số lượng khách hàng mới đến với kênh số của Techcombank năm 2022 tăng trưởng tới 40% so với năm 2021"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Số lượng khách hàng mới đến với kênh số của Techcombank năm 2022 tăng trưởng tới 40% so với năm 2021"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Techcombank năm 2022 tăng trưởng tới 40% so với năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng trưởng tới 40% so với năm 2021, với tỉ lệ gắn bó đạt đến 88%."
+    },
+    {
+        "text": "88%",
+        "label": "RATE",
+        "evidence": "với tỉ lệ gắn bó đạt đến 88%."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "một trong những mục tiêu chính của Techcombank là khách hàng sẽ sử dụng tài khoản Techcombank làm tài khoản chính."
+    },
+    {
+        "text": "tài khoản Techcombank",
+        "label": "ASSET",
+        "evidence": "là khách hàng sẽ sử dụng tài khoản Techcombank làm tài khoản chính."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "chắc chắn mục tiêu của Techcombank sẽ không phải quá xa vời."
+    }
+]

@@ -1,0 +1,402 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "thương vụ phát hành riêng lẻ giữa VPBank và Sumitomo Mitsui Banking Corporation (SMBC)"
+    },
+    {
+        "text": "Sumitomo Mitsui Banking Corporation",
+        "label": "ORG",
+        "evidence": "thương vụ phát hành riêng lẻ giữa VPBank và Sumitomo Mitsui Banking Corporation (SMBC)"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "thương vụ phát hành riêng lẻ giữa VPBank và Sumitomo Mitsui Banking Corporation (SMBC)"
+    },
+    {
+        "text": "Sumitomo Mitsui Financial Group",
+        "label": "ORG",
+        "evidence": "– thuộc tập đoàn tài chính Sumitomo Mitsui Financial Group, thỏa thuận giữa hai bên đã chính thức được ký kết"
+    },
+    {
+        "text": "thương vụ phát hành riêng lẻ giữa VPBank và Sumitomo Mitsui Banking Corporation (SMBC)",
+        "label": "EVENT",
+        "evidence": "Sau nhiều chờ đợi và đồn đoán về thương vụ phát hành riêng lẻ giữa VPBank và Sumitomo Mitsui Banking Corporation (SMBC)"
+    },
+    {
+        "text": "thỏa thuận giữa hai bên đã chính thức được ký kết",
+        "label": "EVENT",
+        "evidence": "Sumitomo Mitsui Financial Group, thỏa thuận giữa hai bên đã chính thức được ký kết"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo thông tin được VPBank công bố"
+    },
+    {
+        "text": "30.160 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "với mức giá 30.160 đồng/cổ phiếu"
+    },
+    {
+        "text": "thương vụ bán 15% vốn này",
+        "label": "EVENT",
+        "evidence": "thương vụ bán 15% vốn này mang về cho ngân hàng 35,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "15% vốn",
+        "label": "RATE",
+        "evidence": "thương vụ bán 15% vốn này mang về cho ngân hàng 35,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "35,9 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mang về cho ngân hàng 35,9 nghìn tỷ đồng"
+    },
+    {
+        "text": "xấp xỉ 1,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "(xấp xỉ 1,5 tỷ USD)"
+    },
+    {
+        "text": "103,5 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 103,5 nghìn tỷ đồng tại thời điểm cuối năm 2022"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "tại thời điểm cuối năm 2022"
+    },
+    {
+        "text": "gần 140 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên gần 140 nghìn tỷ đồng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Với nguồn vốn tăng thêm, VPBank hiện xác lập vị trí ngân hàng thương mại có vốn chủ sở hữu lớn thứ hai Việt Nam"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "theo sát ông lớn Vietcombank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "của VPBank, ngân hàng cũng nhấn mạnh nền tảng vốn lớn cho phépVPBankcó đủ năng lực tài chính"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "cho phépVPBankcó đủ năng lực tài chính để phục vụ những khách hàng doanh nghiệp có quy mô rất lớn"
+    },
+    {
+        "text": "15% vốn điều lệ",
+        "label": "RATE",
+        "evidence": "Với tỷ lệ nắm giữ 15% vốn điều lệ, SMBC sẽ là cổ đông lớn nhất của VPBank"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "SMBC sẽ là cổ đông lớn nhất của VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "cổ đông lớn nhất của VPBank"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "chắc chắn SMBC hay rộng hơn là tập đoàn Sumitomo Mitsui Financial Group sẽ hỗ trợ VPBank"
+    },
+    {
+        "text": "Sumitomo Mitsui Financial Group",
+        "label": "ORG",
+        "evidence": "hay rộng hơn là tập đoàn Sumitomo Mitsui Financial Group sẽ hỗ trợ VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "sẽ hỗ trợ VPBank cả về mặt tài chính và kinh nghiệm thị trường cho VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "và kinh nghiệm thị trường cho VPBank"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "đã được thực hiện từ năm 2022"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Trong năm qua, SMBC chính là ngân hàng đứng ra thu xếp các khoản vay hợp vốn"
+    },
+    {
+        "text": "thu xếp các khoản vay hợp vốn trị giá hơn 1 tỷ USD từ các định chế tài chính quốc tế cho VPBank",
+        "label": "EVENT",
+        "evidence": "SMBC chính là ngân hàng đứng ra thu xếp các khoản vay hợp vốn trị giá hơn 1 tỷ USD từ các định chế tài chính quốc tế cho VPBank"
+    },
+    {
+        "text": "hơn 1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "trị giá hơn 1 tỷ USD từ các định chế tài chính quốc tế cho VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "từ các định chế tài chính quốc tế cho VPBank"
+    },
+    {
+        "text": "hơn 2.100 tỷ USD",
+        "label": "MONEY",
+        "evidence": "với tổng tài sản hơn 2.100 tỷ USD"
+    },
+    {
+        "text": "Fitch Ratings",
+        "label": "ORG",
+        "evidence": "(Fitch Ratings và Standard & Poor’s Global xếp hạng A"
+    },
+    {
+        "text": "Standard & Poor’s Global",
+        "label": "ORG",
+        "evidence": "Fitch Ratings và Standard & Poor’s Global xếp hạng A"
+    },
+    {
+        "text": "A",
+        "label": "RATE",
+        "evidence": "Global xếp hạng A"
+    },
+    {
+        "text": "Moody’s",
+        "label": "ORG",
+        "evidence": "Moody’s xếp hạng A1"
+    },
+    {
+        "text": "A1",
+        "label": "RATE",
+        "evidence": "Moody’s xếp hạng A1"
+    },
+    {
+        "text": "Sumitomo Mitsui Financial Group",
+        "label": "ORG",
+        "evidence": "Sumitomo Mitsui Financial Group có thể được coi như là một hậu phương"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "phía sau của VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "tài chính hùng hậu, VPBank giờ đây có thể sánh với bốn ngân hàng quốc doanh"
+    },
+    {
+        "text": "thương vụ M&A sáng giá nói trên",
+        "label": "EVENT",
+        "evidence": "Việc chốt thương vụ M&A sáng giá nói trên, thực tế, không quá bất ngờ"
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "khi hồi đầu năm SMBC đã phát đi thông cáo chấm dứt quan hệ chiến lược với Eximbank"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "hồi đầu năm SMBC đã phát đi thông cáo chấm dứt quan hệ chiến lược với Eximbank"
+    },
+    {
+        "text": "phát đi thông cáo chấm dứt quan hệ chiến lược với Eximbank",
+        "label": "EVENT",
+        "evidence": "SMBC đã phát đi thông cáo chấm dứt quan hệ chiến lược với Eximbank"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "quan hệ chiến lược với Eximbank"
+    },
+    {
+        "text": "bắt đầu quá trình thoái vốn tại ngân hàng này",
+        "label": "EVENT",
+        "evidence": "và bắt đầu quá trình thoái vốn tại ngân hàng này"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "thông qua mối quan hệ hợp tác với VPBank"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "ngoài quy mô vốn ra, SMBC sẽ mang lại những lợi ích gì khác cho VPBank?"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "sẽ mang lại những lợi ích gì khác cho VPBank?"
+    },
+    {
+        "text": "thương vụ bán vốn thành công",
+        "label": "EVENT",
+        "evidence": "tiềm lực tài chính được tăng cường từ thương vụ bán vốn thành công sẽ giúp ngân hàng bổ sung nguồn lực"
+    },
+    {
+        "text": "Công ty Chứng khoán Bản Việt",
+        "label": "ORG",
+        "evidence": "Công ty Chứng khoán Bản Việt nhận xét trong một bản nhận định nhanh"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "giữa VPBank và SMBC"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "giữa VPBank và SMBC"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "và hỗ trợ VPBank tối ưu hóa chi phí huy động trong bối cảnh lãi suất cao hiện nay"
+    },
+    {
+        "text": "CTCK VNDirect",
+        "label": "ORG",
+        "evidence": "Báo cáo đánh giá của CTCK VNDirect phát hành hồi giữa tháng 3"
+    },
+    {
+        "text": "giữa tháng 3",
+        "label": "DATE",
+        "evidence": "phát hành hồi giữa tháng 3"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "an toàn vốn (CAR) của VPBank sau thương vụ bán vốn thành công sẽ lên tới 20,5%"
+    },
+    {
+        "text": "thương vụ bán vốn thành công",
+        "label": "EVENT",
+        "evidence": "của VPBank sau thương vụ bán vốn thành công sẽ lên tới 20,5%"
+    },
+    {
+        "text": "20,5%",
+        "label": "RATE",
+        "evidence": "sẽ lên tới 20,5%"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "CAR cuối năm 2022 14,9%"
+    },
+    {
+        "text": "14,9%",
+        "label": "RATE",
+        "evidence": "CAR cuối năm 2022 14,9%"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "hạn mức tính dụng cao từ Ngân hàng Nhà nước (NHNN) trong năm 2023"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Nhà nước (NHNN) trong năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "trong năm 2023"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trong năm 2022, VPBank nhận hạn mức tín dụng lên tới 31%"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong năm 2022, VPBank nhận hạn mức tín dụng lên tới 31%"
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "tín dụng lên tới 31% từ NHNN"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "31% từ NHNN"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect đồng thời đưa ra nhận định"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "chúng tôi cũng kỳ vọng VPBank sẽ có thể tiếp tục đầu tư mạnh hơn"
+    },
+    {
+        "text": "VPBank Securities",
+        "label": "ORG",
+        "evidence": "ví dụ như VPBank Securities ở mảng chứng khoán"
+    },
+    {
+        "text": "OPES",
+        "label": "ORG",
+        "evidence": "hay OPES ở mảng bảo hiểm phi nhân thọ"
+    },
+    {
+        "text": "Sumitomo",
+        "label": "ORG",
+        "evidence": "hơn với Sumitomo là một điểm tích cực khác"
+    },
+    {
+        "text": "Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "ông Ngô Chí Dũng - Chủ tịch HĐQT VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "trong 30 năm của VPBank"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "trên khắp thế giới của SMBC"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "sẽ đưa VPBank trở thành một ngân hàng có bề dày kinh nghiệm"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "sau khi SMBC tham gia vào hoạt động của VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "tham gia vào hoạt động của VPBank"
+    }
+]

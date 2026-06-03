@@ -1,0 +1,217 @@
+[
+    {
+        "text": "QĐ 2345",
+        "label": "ORG",
+        "evidence": "xác thực sinh trắc học theo QĐ 2345"
+    },
+    {
+        "text": "Đề án 06 của Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Bám sát định hướng Đề án 06 của Thủ tướng Chính phủ"
+    },
+    {
+        "text": "Phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022 - 2025, tầm nhìn đến năm 2030",
+        "label": "EVENT",
+        "evidence": "Đề án 06 của Thủ tướng Chính phủ \"Phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022 - 2025, tầm nhìn đến năm 2030"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước đã chính thức ban hành Quyết định 2345/QĐ-NHΝΝ."
+    },
+    {
+        "text": "ban hành Quyết định 2345/QĐ-NHΝΝ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước đã chính thức ban hành Quyết định 2345/QĐ-NHΝΝ."
+    },
+    {
+        "text": "Quyết định 2345/QĐ-NHΝΝ",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước đã chính thức ban hành Quyết định 2345/QĐ-NHΝΝ."
+    },
+    {
+        "text": "ngày 1/7/2024",
+        "label": "DATE",
+        "evidence": "Theo đó từ ngày 1/7/2024"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank tiên phong dành nhiều nguồn lực"
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Ngay từ năm 2020, VietinBank đã đầu tư"
+    },
+    {
+        "text": "đầu tư giải pháp công nghệ sinh trắc học",
+        "label": "EVENT",
+        "evidence": "VietinBank đã đầu tư giải pháp công nghệ sinh trắc học."
+    },
+    {
+        "text": "QĐ 2345",
+        "label": "ORG",
+        "evidence": "khi QĐ 2345 được ban hành"
+    },
+    {
+        "text": "hoàn thành bộ giải pháp kết nối với Trung tâm dữ liệu quốc gia về dân cư để xác thực sinh trắc học khách hàng",
+        "label": "EVENT",
+        "evidence": "VietinBank là một trong các đơn vị đầu tiên hoàn thành bộ giải pháp kết nối với Trung tâm dữ liệu quốc gia về dân cư để xác thực sinh trắc học khách hàng."
+    },
+    {
+        "text": "QĐ 2345",
+        "label": "ORG",
+        "evidence": "QĐ 2345 yêu cầu khách hàng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "đã giúp VietinBank từng bước làm sạch dữ liệu khách hàng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tính đến nay, VietinBank đã thực hiện xác thực thành công cho hơn 5 triệu khách hàng"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "kênh số của VietinBank có sự tăng trưởng ấn tượng với khoảng hàng chục triệu giao dịch xác thực sinh trắc học mỗi tháng."
+    },
+    {
+        "text": "hàng chục triệu giao dịch xác thực sinh trắc học mỗi tháng",
+        "label": "VOLUME",
+        "evidence": "khoảng hàng chục triệu giao dịch xác thực sinh trắc học mỗi tháng."
+    },
+    {
+        "text": "Trần Công Quỳnh Lân",
+        "label": "PERSON",
+        "evidence": "ông Trần Công Quỳnh Lân , Phó Tổng Giám đốc VietinBank cho biết"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Phó Tổng Giám đốc VietinBank cho biết"
+    },
+    {
+        "text": "Phạm Hoàng Hạnh",
+        "label": "PERSON",
+        "evidence": "chị Phạm Hoàng Hạnh, khách hàng VietinBank chia sẻ"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Là khách hàng lâu năm của ngân hàng VietinBank"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Số liệu từ NHNN cho thấy"
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "mất tiền trong tháng 8/2024 giảm khoảng 50% so với số vụ việc trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "giảm khoảng 50%",
+        "label": "RATE",
+        "evidence": "giảm khoảng 50% so với số vụ việc trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "7 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "số vụ việc trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "nhận tiền lừa đảo trong tháng 8/2024 giảm khoảng 72% so với trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "giảm khoảng 72%",
+        "label": "RATE",
+        "evidence": "giảm khoảng 72% so với trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "7 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "so với trung bình 7 tháng đầu năm 2024."
+    },
+    {
+        "text": "Đề án số 06/QĐ-TTG của Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Đề án số 06/QĐ-TTG của Thủ tướng Chính phủ cũng như Kế hoạch phối hợp số 01/KHPH-BCA-NHNNVN"
+    },
+    {
+        "text": "Kế hoạch phối hợp số 01/KHPH-BCA-NHNNVN",
+        "label": "ORG",
+        "evidence": "Kế hoạch phối hợp số 01/KHPH-BCA-NHNNVN giữa Bộ Công an và Ngân hàng Nhà nước"
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "giữa Bộ Công an và Ngân hàng Nhà nước"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "giữa Bộ Công an và Ngân hàng Nhà nước"
+    },
+    {
+        "text": "Thông tư 17",
+        "label": "ORG",
+        "evidence": "khi Thông tư 17 và Thông tư 18 của Ngân hàng Nhà nước có hiệu lực"
+    },
+    {
+        "text": "Thông tư 18 của Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "khi Thông tư 17 và Thông tư 18 của Ngân hàng Nhà nước có hiệu lực"
+    },
+    {
+        "text": "Thông tư 18",
+        "label": "ORG",
+        "evidence": "Thông tư 17 và Thông tư 18 của Ngân hàng Nhà nước"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "trong thời gian tới đây, VietinBank sẽ tiếp tục đẩy mạnh"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "khách hàng cá nhân tại VietinBank được đối chiếu với thông tin sinh trắc học trong CCCD gắn chip hoặc qua ứng dụng VneID."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Cùng với đó, VietinBank sẽ thúc đẩy ứng dụng dữ liệu quốc gia về dân cư trong việc đánh giá mức độ khả tín khách hàng vay"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Từ bây giờ tới cuối năm, VietinBank sẽ tiếp tục truyền thông và hỗ trợ khách hàng trong việc định danh tài khoản"
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "sẵn sàng đến đầu năm 2025"
+    },
+    {
+        "text": "Trần Công Quỳnh Lân",
+        "label": "PERSON",
+        "evidence": "Phó Tổng Giám đốc VietinBank Trần Công Quỳnh Lân chia sẻ."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "dịch vụ ngân hàng số củaVietinBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank cũng tăng cường triển khai các sản phẩm dịch vụ hiện đại"
+    }
+]

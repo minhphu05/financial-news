@@ -1,0 +1,132 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "CEO ACB Từ Tiến Phát"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "CEO ACB Từ Tiến Phát"
+    },
+    {
+        "text": "Quyết định 2345 của NHNN",
+        "label": "EVENT",
+        "evidence": "Theo Quyết định 2345 của NHNN, từ 1/7/2024, yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo Quyết định 2345 của NHNN, từ 1/7/2024, yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "1/7/2024",
+        "label": "DATE",
+        "evidence": "Theo Quyết định 2345 của NHNN, từ 1/7/2024, yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "10 triệu đồng/lần",
+        "label": "MONEY",
+        "evidence": "yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "20 triệu đồng/ngày",
+        "label": "MONEY",
+        "evidence": "yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "yêu cầu các giao dịch chuyển tiền trực tuyến hoặc nạp tiền vào ví điện tử có giá trị cao trên 10 triệu đồng/lần, hoặc vượt quá 20 triệu đồng/ngày, thanh toán hóa đơn trên 100 triệu đồng phải được xác thực bằng sinh trắc học khớp đúng với dữ liệu sinh trắc học lưu trong chip của thẻ CCCD."
+    },
+    {
+        "text": "họp báo \"Ngày không tiền mặt\" 2024 với chủ đề \"Thúc đẩy phát triển thanh toán không tiền mặt an toàn\"",
+        "label": "EVENT",
+        "evidence": "Tại họp báo \"Ngày không tiền mặt\" 2024 với chủ đề \"Thúc đẩy phát triển thanh toán không tiền mặt an toàn\" đang diễn ra vào chiều nay 28-5, do báo Tuổi Trẻ phối hợp Vụ Thanh toán - Ngân hàng Nhà nước tổ chức, lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "28-5",
+        "label": "DATE",
+        "evidence": "Tại họp báo \"Ngày không tiền mặt\" 2024 với chủ đề \"Thúc đẩy phát triển thanh toán không tiền mặt an toàn\" đang diễn ra vào chiều nay 28-5, do báo Tuổi Trẻ phối hợp Vụ Thanh toán - Ngân hàng Nhà nước tổ chức, lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "báo Tuổi Trẻ",
+        "label": "ORG",
+        "evidence": "do báo Tuổi Trẻ phối hợp Vụ Thanh toán - Ngân hàng Nhà nước tổ chức, lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "Vụ Thanh toán - Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "do báo Tuổi Trẻ phối hợp Vụ Thanh toán - Ngân hàng Nhà nước tổ chức, lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "lãnh đạo NHNN đã giải thích rõ hơn về lý do lấy con số 10 triệu đồng làm mốc yêu cầu xác thực sinh trắc học."
+    },
+    {
+        "text": "Lê Anh Dũng",
+        "label": "PERSON",
+        "evidence": "Ông Lê Anh Dũng - phó vụ trưởng Vụ Thanh toán Ngân hàng Nhà nước cho biết, NHNN đã nghiên cứu rất kỹ để khi ban hành quyết định có thể cân bằng giữa xác thực giao dịch ngăn chặn gian lận lừa đảo nhưng vẫn đảm bảo trải nghiệm khách hàng xuyên suốt."
+    },
+    {
+        "text": "Vụ Thanh toán Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ông Lê Anh Dũng - phó vụ trưởng Vụ Thanh toán Ngân hàng Nhà nước cho biết, NHNN đã nghiên cứu rất kỹ để khi ban hành quyết định có thể cân bằng giữa xác thực giao dịch ngăn chặn gian lận lừa đảo nhưng vẫn đảm bảo trải nghiệm khách hàng xuyên suốt."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ông Lê Anh Dũng - phó vụ trưởng Vụ Thanh toán Ngân hàng Nhà nước cho biết, NHNN đã nghiên cứu rất kỹ để khi ban hành quyết định có thể cân bằng giữa xác thực giao dịch ngăn chặn gian lận lừa đảo nhưng vẫn đảm bảo trải nghiệm khách hàng xuyên suốt."
+    },
+    {
+        "text": "10 triệu",
+        "label": "MONEY",
+        "evidence": "Mốc 10 triệu là con số phù hợp, vì 70% giao dịch chuyển tiền hiện nay là dưới 10 triệu đồng."
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Cũng tại họp báo, ông Từ Tiến Phát, Tổng giám đốc Ngân hàng ACB cho rằng, mặc dù việc truyền thông được đẩy mạnh thời gian qua nhưng hoạt động lừa đảo vẫn diễn ra, thậm chí tần suất cao hơn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cũng tại họp báo, ông Từ Tiến Phát, Tổng giám đốc Ngân hàng ACB cho rằng, mặc dù việc truyền thông được đẩy mạnh thời gian qua nhưng hoạt động lừa đảo vẫn diễn ra, thậm chí tần suất cao hơn."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "CEO ACB cho biết, để thực hiện các nội dung của nghị định 2345, các ngân hàng phải đầu tư không nhỏ, trong khi không thu phí khách hàng."
+    },
+    {
+        "text": "nghị định 2345",
+        "label": "EVENT",
+        "evidence": "CEO ACB cho biết, để thực hiện các nội dung của nghị định 2345, các ngân hàng phải đầu tư không nhỏ, trong khi không thu phí khách hàng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB đang trong giai đoạn cuối cùng áp dụng 2345, dự kiến trong tháng 6 tới sẽ thông báo cho khách hàng đăng ký xác thực thông tin."
+    },
+    {
+        "text": "2345",
+        "label": "EVENT",
+        "evidence": "ACB đang trong giai đoạn cuối cùng áp dụng 2345, dự kiến trong tháng 6 tới sẽ thông báo cho khách hàng đăng ký xác thực thông tin."
+    },
+    {
+        "text": "tháng 6 tới",
+        "label": "DATE",
+        "evidence": "ACB đang trong giai đoạn cuối cùng áp dụng 2345, dự kiến trong tháng 6 tới sẽ thông báo cho khách hàng đăng ký xác thực thông tin."
+    },
+    {
+        "text": "thông báo cho khách hàng đăng ký xác thực thông tin",
+        "label": "EVENT",
+        "evidence": "ACB đang trong giai đoạn cuối cùng áp dụng 2345, dự kiến trong tháng 6 tới sẽ thông báo cho khách hàng đăng ký xác thực thông tin."
+    }
+]

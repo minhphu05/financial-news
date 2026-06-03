@@ -1,0 +1,137 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ưu đãi được áp dụng cho những chủ thẻ tín dụng quốc tế Sacombank JCB chưa từng phát sinh giao dịch thanh toán, mua sắm trực tuyến nào trước khi chương trình diễn ra và đã có tối thiểu 1 giao dịch trực tiếp (như thanh toán qua máy POS/mPOS, rút tiền mặt tại ATM) trong vòng 6 tháng từ 08/2023 đến 02/2024."
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Ưu đãi được áp dụng cho những chủ thẻ tín dụng quốc tế Sacombank JCB chưa từng phát sinh giao dịch thanh toán, mua sắm trực tuyến nào trước khi chương trình diễn ra và đã có tối thiểu 1 giao dịch trực tiếp (như thanh toán qua máy POS/mPOS, rút tiền mặt tại ATM) trong vòng 6 tháng từ 08/2023 đến 02/2024."
+    },
+    {
+        "text": "thẻ tín dụng quốc tế Sacombank JCB",
+        "label": "ASSET",
+        "evidence": "Ưu đãi được áp dụng cho những chủ thẻ tín dụng quốc tế Sacombank JCB chưa từng phát sinh giao dịch thanh toán, mua sắm trực tuyến nào trước khi chương trình diễn ra và đã có tối thiểu 1 giao dịch trực tiếp (như thanh toán qua máy POS/mPOS, rút tiền mặt tại ATM) trong vòng 6 tháng từ 08/2023 đến 02/2024."
+    },
+    {
+        "text": "08/2023 đến 02/2024",
+        "label": "DATE",
+        "evidence": "trong vòng 6 tháng từ 08/2023 đến 02/2024."
+    },
+    {
+        "text": "Sacombank JCB",
+        "label": "ASSET",
+        "evidence": "Trong thời gian này, chủ thẻ Sacombank JCB còn được hưởng nhiều ưu đãi hấp dẫn khác nữa như hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024), tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024), giảm giá đến 20% tại hơn 100 nhà hàng (đến ngày 31/12/2024), hoàn 10% khi chi tiêu tại Nhật Bản (đến ngày 30/04/2024) cùng nhiều ưu đãi hoàn tiền/giảm giá các dịch vụ mua vé máy bay, đặt phòng khách sạn…"
+    },
+    {
+        "text": "hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam",
+        "label": "EVENT",
+        "evidence": "Trong thời gian này, chủ thẻ Sacombank JCB còn được hưởng nhiều ưu đãi hấp dẫn khác nữa như hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024), tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024), giảm giá đến 20% tại hơn 100 nhà hàng (đến ngày 31/12/2024), hoàn 10% khi chi tiêu tại Nhật Bản (đến ngày 30/04/2024) cùng nhiều ưu đãi hoàn tiền/giảm giá các dịch vụ mua vé máy bay, đặt phòng khách sạn…"
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024)"
+    },
+    {
+        "text": "1.500.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024)"
+    },
+    {
+        "text": "Uniqlo Việt Nam",
+        "label": "ORG",
+        "evidence": "hoàn 300.000 đồng cho hóa đơn từ 1.500.000 đồng tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024)"
+    },
+    {
+        "text": "từ ngày 26/04 đến 30/04/2024",
+        "label": "DATE",
+        "evidence": "tại Uniqlo Việt Nam (từ ngày 26/04 đến 30/04/2024)"
+    },
+    {
+        "text": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON",
+        "label": "EVENT",
+        "evidence": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024)"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON"
+    },
+    {
+        "text": "1.200.000 đồng",
+        "label": "MONEY",
+        "evidence": "tặng phiếu mua hàng trị giá 100.000 đồng cho hóa đơn từ 1.200.000 đồng tại Trung tâm bách hóa tổng hợp và siêu thị AEON"
+    },
+    {
+        "text": "Trung tâm bách hóa tổng hợp và siêu thị AEON",
+        "label": "ORG",
+        "evidence": "tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024)"
+    },
+    {
+        "text": "đến ngày 30/06/2024",
+        "label": "DATE",
+        "evidence": "tại Trung tâm bách hóa tổng hợp và siêu thị AEON (đến ngày 30/06/2024)"
+    },
+    {
+        "text": "giảm giá đến 20% tại hơn 100 nhà hàng",
+        "label": "EVENT",
+        "evidence": "giảm giá đến 20% tại hơn 100 nhà hàng (đến ngày 31/12/2024)"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "giảm giá đến 20% tại hơn 100 nhà hàng (đến ngày 31/12/2024)"
+    },
+    {
+        "text": "đến ngày 31/12/2024",
+        "label": "DATE",
+        "evidence": "giảm giá đến 20% tại hơn 100 nhà hàng (đến ngày 31/12/2024)"
+    },
+    {
+        "text": "hoàn 10% khi chi tiêu tại Nhật Bản",
+        "label": "EVENT",
+        "evidence": "hoàn 10% khi chi tiêu tại Nhật Bản (đến ngày 30/04/2024) cùng nhiều ưu đãi hoàn tiền/giảm giá các dịch vụ mua vé máy bay, đặt phòng khách sạn…"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "hoàn 10% khi chi tiêu tại Nhật Bản (đến ngày 30/04/2024)"
+    },
+    {
+        "text": "đến ngày 30/04/2024",
+        "label": "DATE",
+        "evidence": "hoàn 10% khi chi tiêu tại Nhật Bản (đến ngày 30/04/2024)"
+    },
+    {
+        "text": "Thẻ tín dụng quốc tế Sacombank JCB",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản - là nguồn tài chính dự phòng thiết yếu cho mọi nhu cầu chi tiêu với nhiều tiện ích như: mua trước, trả sau được miễn lãi tối đa 55 ngày; mua sắm và thanh toán tiện lợi qua Internet; rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế; trả góp lãi suất 0% cho mọi giao dịch thanh toán; miễn hoặc giảm phí thường niên theo doanh số giao dịch thanh toán…"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản - là nguồn tài chính dự phòng thiết yếu cho mọi nhu cầu chi tiêu với nhiều tiện ích như: mua trước, trả sau được miễn lãi tối đa 55 ngày; mua sắm và thanh toán tiện lợi qua Internet; rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế; trả góp lãi suất 0% cho mọi giao dịch thanh toán; miễn hoặc giảm phí thường niên theo doanh số giao dịch thanh toán…"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "Thẻ tín dụng quốc tế Sacombank JCB - thương hiệu thẻ đến từ Nhật Bản - là nguồn tài chính dự phòng thiết yếu cho mọi nhu cầu chi tiêu với nhiều tiện ích như: mua trước, trả sau được miễn lãi tối đa 55 ngày; mua sắm và thanh toán tiện lợi qua Internet; rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế; trả góp lãi suất 0% cho mọi giao dịch thanh toán; miễn hoặc giảm phí thường niên theo doanh số giao dịch thanh toán…"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "rút tiền mặt 90% hạn mức tín dụng tại tất cả ATM trong nước và quốc tế"
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "trả góp lãi suất 0% cho mọi giao dịch thanh toán"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Mọi thông tin chi tiết, khách hàng vui lòng liên hệ các điểm giao dịch Sacombank trên toàn quốc; hotline 1800 5858 88; Email:ask@sacombank.com; Websitewww.sacombank.com.vn."
+    }
+]

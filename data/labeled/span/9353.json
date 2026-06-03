@@ -1,0 +1,222 @@
+[
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "bao gồm Apple, Amazon, Alphabet"
+    },
+    {
+        "text": "Amazon",
+        "label": "ORG",
+        "evidence": "bao gồm Apple, Amazon, Alphabet"
+    },
+    {
+        "text": "Alphabet",
+        "label": "ORG",
+        "evidence": "bao gồm Apple, Amazon, Alphabet"
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "evidence": "Alphabet (công ty mẹ Google)"
+    },
+    {
+        "text": "Meta",
+        "label": "ORG",
+        "evidence": "Meta (công ty mẹ Facebook)"
+    },
+    {
+        "text": "Facebook",
+        "label": "ORG",
+        "evidence": "Meta (công ty mẹ Facebook)"
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Meta (công ty mẹ Facebook), Microsoft, Nvidia và Tesla."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Microsoft, Nvidia và Tesla."
+    },
+    {
+        "text": "Tesla",
+        "label": "ORG",
+        "evidence": "Nvidia và Tesla."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "ngân hàng (Vietcombank, BIDV,VietinBank, Techcombank)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Vietcombank, BIDV,VietinBank, Techcombank)"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "BIDV,VietinBank, Techcombank)"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "VietinBank, Techcombank)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "và “họ”Vingroup(Vingroup, Vinhomes, Vinpearl)"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vingroup, Vinhomes, Vinpearl)"
+    },
+    {
+        "text": "Vinpearl",
+        "label": "ORG",
+        "evidence": "Vinhomes, Vinpearl)"
+    },
+    {
+        "text": "1,9 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên đến gần 1,9 triệu tỷ đồng"
+    },
+    {
+        "text": "~74 tỷ USD",
+        "label": "MONEY",
+        "evidence": "1,9 triệu tỷ đồng (~74 tỷ USD)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "chiếm 1/3 toàn sàn HoSE."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "ảnh hưởng đáng kể đến VN-Index."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup dù định hướng phát triển trở thành tập đoàn công nghiệp"
+    },
+    {
+        "text": "Investor Day",
+        "label": "EVENT",
+        "evidence": "Tại Investor Day hồi đầu năm"
+    },
+    {
+        "text": "Lê Anh Tuấn",
+        "label": "PERSON",
+        "evidence": "ông Lê Anh Tuấn – Giám đốc đầu tư Dragon Capital"
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Dragon Capital dự báo"
+    },
+    {
+        "text": "giai đoạn 2027-2028",
+        "label": "DATE",
+        "evidence": "dự báo giai đoạn 2027-2028"
+    },
+    {
+        "text": "làn sóng IPO quy mô 47 tỷ USD",
+        "label": "EVENT",
+        "evidence": "thị trường chứng khoán được kỳ vọng đón làn sóng IPO quy mô 47 tỷ USD."
+    },
+    {
+        "text": "47 tỷ USD",
+        "label": "MONEY",
+        "evidence": "quy mô 47 tỷ USD."
+    },
+    {
+        "text": "Vinpearl",
+        "label": "ORG",
+        "evidence": "Ngoài Vinpearl, nhiều tên tuổi đáng chú ý"
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "như TCBS, F88, THACO AUTO, Bách Hóa Xanh"
+    },
+    {
+        "text": "F88",
+        "label": "ORG",
+        "evidence": "TCBS, F88, THACO AUTO, Bách Hóa Xanh"
+    },
+    {
+        "text": "THACO AUTO",
+        "label": "ORG",
+        "evidence": "F88, THACO AUTO, Bách Hóa Xanh"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "THACO AUTO, Bách Hóa Xanh"
+    },
+    {
+        "text": "Golden Gate",
+        "label": "ORG",
+        "evidence": "Xanh, Golden Gate và Highlands Coffee"
+    },
+    {
+        "text": "Highlands Coffee",
+        "label": "ORG",
+        "evidence": "Golden Gate và Highlands Coffee, VPS, Viettel IDC"
+    },
+    {
+        "text": "VPS",
+        "label": "ORG",
+        "evidence": "Highlands Coffee, VPS, Viettel IDC, Misa"
+    },
+    {
+        "text": "Viettel IDC",
+        "label": "ORG",
+        "evidence": "VPS, Viettel IDC, Misa, VNPay, Long Châu"
+    },
+    {
+        "text": "Misa",
+        "label": "ORG",
+        "evidence": "Viettel IDC, Misa, VNPay, Long Châu"
+    },
+    {
+        "text": "VNPay",
+        "label": "ORG",
+        "evidence": "Misa, VNPay, Long Châu"
+    },
+    {
+        "text": "Long Châu",
+        "label": "ORG",
+        "evidence": "VNPay, Long Châu,… cũng đang có kế hoạch."
+    },
+    {
+        "text": "Nghị quyết 57",
+        "label": "EVENT",
+        "evidence": "phát triển khoa học công nghệ (Nghị quyết 57)"
+    },
+    {
+        "text": "Nghị quyết 68",
+        "label": "EVENT",
+        "evidence": "kinh tế tư nhân (Nghị quyết 68)."
+    },
+    {
+        "text": "VinaCapital",
+        "label": "ORG",
+        "evidence": "Giám đốc VinaCapital, tầm nhìn cốt lõi của Nghị quyết 68"
+    },
+    {
+        "text": "Nghị quyết 68",
+        "label": "EVENT",
+        "evidence": "cốt lõi của Nghị quyết 68 là xây dựng một khu vực kinh tế tư nhân"
+    },
+    {
+        "text": "năm 2045",
+        "label": "DATE",
+        "evidence": "thu nhập cao vào năm 2045."
+    }
+]

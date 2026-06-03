@@ -1,0 +1,167 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Hạn mức rút tiền tối đa từ ATM BIDV dao động từ 50.000.000 - 80.000.000 đồng/ngày, với số lần rút trong ngày dao động từ 5 - 20 lần tùy thuộc vào loại thẻ được ngân hàng BIDV phát hành."
+    },
+    {
+        "text": "50.000.000 - 80.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Hạn mức rút tiền tối đa từ ATM BIDV dao động từ 50.000.000 - 80.000.000 đồng/ngày, với số lần rút trong ngày dao động từ 5 - 20 lần tùy thuộc vào loại thẻ được ngân hàng BIDV phát hành."
+    },
+    {
+        "text": "5 - 20 lần",
+        "label": "VOLUME",
+        "evidence": "Hạn mức rút tiền tối đa từ ATM BIDV dao động từ 50.000.000 - 80.000.000 đồng/ngày, với số lần rút trong ngày dao động từ 5 - 20 lần tùy thuộc vào loại thẻ được ngân hàng BIDV phát hành."
+    },
+    {
+        "text": "ngân hàng BIDV",
+        "label": "ORG",
+        "evidence": "Hạn mức rút tiền tối đa từ ATM BIDV dao động từ 50.000.000 - 80.000.000 đồng/ngày, với số lần rút trong ngày dao động từ 5 - 20 lần tùy thuộc vào loại thẻ được ngân hàng BIDV phát hành."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Một số loại thẻ do BIDV phát hành."
+    },
+    {
+        "text": "ngân hàng BIDV",
+        "label": "ORG",
+        "evidence": "Theo đó, ngân hàng BIDV quy định hạn mức rút tiền từ ATM cho các loại thẻ như sau:"
+    },
+    {
+        "text": "ngân hàng BIDV quy định hạn mức rút tiền từ ATM cho các loại thẻ",
+        "label": "EVENT",
+        "evidence": "Theo đó, ngân hàng BIDV quy định hạn mức rút tiền từ ATM cho các loại thẻ như sau:"
+    },
+    {
+        "text": "Thẻ BIDV Moving",
+        "label": "ASSET",
+        "evidence": "Thẻ BIDV Moving: Số tiền có thể rút tối đa tại ATM BIDV là 50.000.000 đồng/ngày và rút tối đa 20 lần/ngày."
+    },
+    {
+        "text": "ATM BIDV",
+        "label": "ORG",
+        "evidence": "Thẻ BIDV Moving: Số tiền có thể rút tối đa tại ATM BIDV là 50.000.000 đồng/ngày và rút tối đa 20 lần/ngày."
+    },
+    {
+        "text": "50.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ BIDV Moving: Số tiền có thể rút tối đa tại ATM BIDV là 50.000.000 đồng/ngày và rút tối đa 20 lần/ngày."
+    },
+    {
+        "text": "20 lần/ngày",
+        "label": "VOLUME",
+        "evidence": "Thẻ BIDV Moving: Số tiền có thể rút tối đa tại ATM BIDV là 50.000.000 đồng/ngày và rút tối đa 20 lần/ngày."
+    },
+    {
+        "text": "Thẻ BIDV eTrans",
+        "label": "ASSET",
+        "evidence": "Thẻ BIDV eTrans: 50.000.000 đồng là hạn mức tối đa/ngày và tối đa 20 lần rút/ngày."
+    },
+    {
+        "text": "50.000.000 đồng",
+        "label": "MONEY",
+        "evidence": "Thẻ BIDV eTrans: 50.000.000 đồng là hạn mức tối đa/ngày và tối đa 20 lần rút/ngày."
+    },
+    {
+        "text": "20 lần rút/ngày",
+        "label": "VOLUME",
+        "evidence": "Thẻ BIDV eTrans: 50.000.000 đồng là hạn mức tối đa/ngày và tối đa 20 lần rút/ngày."
+    },
+    {
+        "text": "Thẻ BIDV Harmony",
+        "label": "ASSET",
+        "evidence": "Thẻ BIDV Harmony: Hạn mức tối đa là 70.000.000 đồng/ngày và 20 lần rút/ngày tại ATM BIDV."
+    },
+    {
+        "text": "70.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ BIDV Harmony: Hạn mức tối đa là 70.000.000 đồng/ngày và 20 lần rút/ngày tại ATM BIDV."
+    },
+    {
+        "text": "20 lần rút/ngày",
+        "label": "VOLUME",
+        "evidence": "Thẻ BIDV Harmony: Hạn mức tối đa là 70.000.000 đồng/ngày và 20 lần rút/ngày tại ATM BIDV."
+    },
+    {
+        "text": "ATM BIDV",
+        "label": "ORG",
+        "evidence": "Thẻ BIDV Harmony: Hạn mức tối đa là 70.000.000 đồng/ngày và 20 lần rút/ngày tại ATM BIDV."
+    },
+    {
+        "text": "Thẻ liên kết sinh viên",
+        "label": "ASSET",
+        "evidence": "Thẻ liên kết sinh viên: Hạn mức rút tối đa là 30.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "30.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ liên kết sinh viên: Hạn mức rút tối đa là 30.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "5.000.000 đồng/lần",
+        "label": "MONEY",
+        "evidence": "Thẻ liên kết sinh viên: Hạn mức rút tối đa là 30.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "Thẻ liên kết khác và đồng thương hiệu",
+        "label": "ASSET",
+        "evidence": "Thẻ liên kết khác và đồng thương hiệu: Hạn mức rút tối đa là 50.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "50.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ liên kết khác và đồng thương hiệu: Hạn mức rút tối đa là 50.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "5.000.000 đồng/lần",
+        "label": "MONEY",
+        "evidence": "Thẻ liên kết khác và đồng thương hiệu: Hạn mức rút tối đa là 50.000.000 đồng/ngày và 5.000.000 đồng/lần."
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế BIDV",
+        "label": "ASSET",
+        "evidence": "Đối với thẻ ghi nợ quốc tế BIDV, hạn mức rút tiền BIDV tối đa chung là: 5.000.000 đồng/lần."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đối với thẻ ghi nợ quốc tế BIDV, hạn mức rút tiền BIDV tối đa chung là: 5.000.000 đồng/lần."
+    },
+    {
+        "text": "5.000.000 đồng/lần",
+        "label": "MONEY",
+        "evidence": "Đối với thẻ ghi nợ quốc tế BIDV, hạn mức rút tiền BIDV tối đa chung là: 5.000.000 đồng/lần."
+    },
+    {
+        "text": "Thẻ Young Plus",
+        "label": "ASSET",
+        "evidence": "Thẻ Young Plus: 100.000.000 đồng/ngày."
+    },
+    {
+        "text": "100.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ Young Plus: 100.000.000 đồng/ngày."
+    },
+    {
+        "text": "Thẻ thường",
+        "label": "ASSET",
+        "evidence": "Thẻ thường: 200.000.000 đồng/ngày."
+    },
+    {
+        "text": "200.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ thường: 200.000.000 đồng/ngày."
+    },
+    {
+        "text": "Thẻ Platinum",
+        "label": "ASSET",
+        "evidence": "Thẻ Platinum: 400.000.000 đồng/ngày."
+    },
+    {
+        "text": "400.000.000 đồng/ngày",
+        "label": "MONEY",
+        "evidence": "Thẻ Platinum: 400.000.000 đồng/ngày."
+    }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo VDSC, Vietcombank là ngân hàng sẽ ít phải đối mặt về áp lực trích lập dự phòng trong năm 2023 nhờ vào chính sách thận trọng trong nhiều năm qua."
+    },
+    {
+        "text": "VDSC",
+        "label": "ORG",
+        "evidence": "Theo VDSC, Vietcombank là ngân hàng sẽ ít phải đối mặt về áp lực trích lập dự phòng trong năm 2023 nhờ vào chính sách thận trọng trong nhiều năm qua."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Bộ đệm dự phòng hàng đầu ngành sẽ đảm bảo ngân hàng khỏi mọi sự gián đoạn bao gồm rủi ro sự kiện và rủi ro tín dụng, vốn có thể tác động khó lường đến lợi nhuận.\nNgoài ra, Vietcombank cũng ít phơi nhiễm với trái phiếu doanh nghiệp và phân khúc rủi; do đó, tỷ lệ nợ xấu dự kiến sẽ được kiểm soát tốt trong năm 2023."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, Vietcombank cũng ít phơi nhiễm với trái phiếu doanh nghiệp và phân khúc rủi; do đó, tỷ lệ nợ xấu dự kiến sẽ được kiểm soát tốt trong năm 2023."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Vietcombank được NHNN chỉ định là ngân hàng duy nhất thực hiện thanh toán bù trừ cho các giao dịch Visa nội địa."
+    },
+    {
+        "text": "Vietcombank được NHNN chỉ định là ngân hàng duy nhất thực hiện thanh toán bù trừ cho các giao dịch Visa nội địa",
+        "label": "EVENT",
+        "evidence": "Vietcombank được NHNN chỉ định là ngân hàng duy nhất thực hiện thanh toán bù trừ cho các giao dịch Visa nội địa."
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "Vietcombank được NHNN chỉ định là ngân hàng duy nhất thực hiện thanh toán bù trừ cho các giao dịch Visa nội địa."
+    },
+    {
+        "text": "VCB-Money",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán đa tiền tệ (VCB-Money) đóng vai trò quan trọng trong hệ thống thanh toán chung."
+    },
+    {
+        "text": "Ngân hàng triển khai chương trình miễn phí dịch vụ vào đầu năm nay",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, Vietcombank đã cải thiện tỷ lệ CASA qua từng quý kể từ khi Ngân hàng triển khai chương trình miễn phí dịch vụ vào đầu năm nay."
+    },
+    {
+        "text": "đầu năm nay",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, Vietcombank đã cải thiện tỷ lệ CASA qua từng quý kể từ khi Ngân hàng triển khai chương trình miễn phí dịch vụ vào đầu năm nay."
+    },
+    {
+        "text": "Hỗ trợ NHNN trong chương trình chuyển giao ngân hàng yếu kém",
+        "label": "EVENT",
+        "evidence": "VDSC cũng kỳ vọng Vietcombank sẽ được cấp hạn mức tín dụng cao so với ngành nhờ (1) Bảng cân đối lành mạnh và bộ đệm dự phòng rủi ro vững chắc nhất, (2) Hỗ trợ NHNN trong chương trình chuyển giao ngân hàng yếu kém và giảm lãi suất hỗ trợ khách hàng trong năm 2022."
+    },
+    {
+        "text": "giảm lãi suất hỗ trợ khách hàng trong năm 2022",
+        "label": "EVENT",
+        "evidence": "VDSC cũng kỳ vọng Vietcombank sẽ được cấp hạn mức tín dụng cao so với ngành nhờ (1) Bảng cân đối lành mạnh và bộ đệm dự phòng rủi ro vững chắc nhất, (2) Hỗ trợ NHNN trong chương trình chuyển giao ngân hàng yếu kém và giảm lãi suất hỗ trợ khách hàng trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "VDSC cũng kỳ vọng Vietcombank sẽ được cấp hạn mức tín dụng cao so với ngành nhờ (1) Bảng cân đối lành mạnh và bộ đệm dự phòng rủi ro vững chắc nhất, (2) Hỗ trợ NHNN trong chương trình chuyển giao ngân hàng yếu kém và giảm lãi suất hỗ trợ khách hàng trong năm 2022."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank\nVietinBank là một trong những ngân hàng quốc doanh có thể triển khai hỗ trợ giảm lãi suất, điều này sẽ áp lực lên NIM vào năm 2023."
+    },
+    {
+        "text": "triển khai hỗ trợ giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "VietinBank là một trong những ngân hàng quốc doanh có thể triển khai hỗ trợ giảm lãi suất, điều này sẽ áp lực lên NIM vào năm 2023."
+    },
+    {
+        "text": "NIM sẽ giảm 10 điểm cơ bản",
+        "label": "EVENT",
+        "evidence": "VDSC dự báo NIM sẽ giảm 10 điểm cơ bản và sớm phục hồi từ năm 2024, dẫn đến mức tăng thu nhập lãi thuần lần lượt là 8,4% và 14,4% vào năm 2023 và 2024."
+    },
+    {
+        "text": "10 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "VDSC dự báo NIM sẽ giảm 10 điểm cơ bản và sớm phục hồi từ năm 2024, dẫn đến mức tăng thu nhập lãi thuần lần lượt là 8,4% và 14,4% vào năm 2023 và 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "VDSC dự báo NIM sẽ giảm 10 điểm cơ bản và sớm phục hồi từ năm 2024, dẫn đến mức tăng thu nhập lãi thuần lần lượt là 8,4% và 14,4% vào năm 2023 và 2024."
+    },
+    {
+        "text": "8,4%",
+        "label": "RATE",
+        "evidence": "VDSC dự báo NIM sẽ giảm 10 điểm cơ bản và sớm phục hồi từ năm 2024, dẫn đến mức tăng thu nhập lãi thuần lần lượt là 8,4% và 14,4% vào năm 2023 và 2024."
+    },
+    {
+        "text": "14,4%",
+        "label": "RATE",
+        "evidence": "VDSC dự báo NIM sẽ giảm 10 điểm cơ bản và sớm phục hồi từ năm 2024, dẫn đến mức tăng thu nhập lãi thuần lần lượt là 8,4% và 14,4% vào năm 2023 và 2024."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Sau khi chất lượng tài sản được cải thiện kể từ năm 2020, chi phí rủi ro trong giai đoạn bất ổn sắp tới có thể gia tăng so với 2022 nhưng áp lực không còn nhiều so với giai đoạn trước đó."
+    },
+    {
+        "text": "Dự thảo sửa đổi Thông tư 22 áp dụng",
+        "label": "EVENT",
+        "evidence": "VDSC cho rằng, việc tận dụng bảng cân đối hiệu quả sau khi Dự thảo sửa đổi Thông tư 22 áp dụng sẽ thúc đẩy thu nhập và tỷ suất sinh lời lên mức cao hơn."
+    },
+    {
+        "text": "giai đoạn 2024-2025",
+        "label": "DATE",
+        "evidence": "VDSC ước tính CAR có thể ở mức an toàn hơn trong giai đoạn 2024-2025 nhờ việc mở rộng bảng cân đối phù hợp, duy trì khả năng sinh lời, chiến lược giảm đòn bẩy và định hướng ngân hàng bán lẻ."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV\nTheo VDSC, chất lượng tài sản của BIDV đã được cải thiện tốt kể từ khi tất toán trái phiếu VAMC."
+    },
+    {
+        "text": "tất toán trái phiếu VAMC",
+        "label": "EVENT",
+        "evidence": "Theo VDSC, chất lượng tài sản của BIDV đã được cải thiện tốt kể từ khi tất toán trái phiếu VAMC."
+    },
+    {
+        "text": "VAMC",
+        "label": "ORG",
+        "evidence": "Theo VDSC, chất lượng tài sản của BIDV đã được cải thiện tốt kể từ khi tất toán trái phiếu VAMC."
+    },
+    {
+        "text": "trái phiếu VAMC",
+        "label": "ASSET",
+        "evidence": "Theo VDSC, chất lượng tài sản của BIDV đã được cải thiện tốt kể từ khi tất toán trái phiếu VAMC."
+    },
+    {
+        "text": "đầu năm 2021",
+        "label": "DATE",
+        "evidence": "Điều này được cho là nhờ cách tiếp cận thận trọng hơn đối với chính sách trích lập dự phòng khi tỷ lệ dự phòng bao nợ xấu đã chuyển sang mức ba con số kể từ đầu năm 2021 và duy trì ở mức cao cho đến thời điểm hiện tại, điều này đã thúc đẩy khả năng phục hồi của ngân hàng để đối phó với những bất ổn sắp tới."
+    },
+    {
+        "text": "Dự thảo sửa đổi Thông tư 22 có hiệu lực",
+        "label": "EVENT",
+        "evidence": "Nếu Dự thảo sửa đổi Thông tư 22 có hiệu lực, VDSC cho rằng áp lực huy động của BIDV sẽ phần nào được giảm bớt nhờ nguồn vốn được sử dụng hiệu quả hơn để khuyến khích hoạt động ngân hàng và tài trợ nền kinh tế, khi kể đến lượng tiền gửi Kho bạc lớn nhất của BIDV trong số NH quốc doanh niêm yết."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank\nTrên đà khởi sắc của ngành bất động sản, Techcombank đã mở rộng bảng cân đối với tốc độ tăng trưởng bình quân (CAGR) 5 năm qua là 16%."
+    },
+    {
+        "text": "5 năm qua",
+        "label": "DATE",
+        "evidence": "Trên đà khởi sắc của ngành bất động sản, Techcombank đã mở rộng bảng cân đối với tốc độ tăng trưởng bình quân (CAGR) 5 năm qua là 16%."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "Trên đà khởi sắc của ngành bất động sản, Techcombank đã mở rộng bảng cân đối với tốc độ tăng trưởng bình quân (CAGR) 5 năm qua là 16%."
+    },
+    {
+        "text": "cuối quý 3/2022",
+        "label": "DATE",
+        "evidence": "Đến cuối quý 3/2022, khoảng 75% danh mục đầu tư tín dụng của Techcombank tài trợ cho lĩnh vực bất động sản bao gồm các nhà phát triển và các khoản vay mua nhà và trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Đến cuối quý 3/2022, khoảng 75% danh mục đầu tư tín dụng của Techcombank tài trợ cho lĩnh vực bất động sản bao gồm các nhà phát triển và các khoản vay mua nhà và trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, niềm tin vào trái phiếu doanh nghiệp suy giảm sẽ tác động tiêu cực đến thu nhập ngoài lãi của Techcombank và chiếm khoảng 20% thu nhập phí."
+    },
+    {
+        "text": "giai đoạn từ 2019 đến đầu 2022",
+        "label": "DATE",
+        "evidence": "Theo đó, trong giai đoạn từ 2019 đến đầu 2022, với các sản phẩm đa dạng được hỗ trợ bởi công nghệ tiên tiến, các sáng kiến tiên phong trên nền tảng thanh toán và hệ sinh thái toàn diện, Techcombank đã tạo dựng được uy tín, sự kết nối và nâng cao thị phần trong phân khúc khách hàng đại chúng và thượng lưu."
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "evidence": "Theo đó, trong giai đoạn từ 2019 đến đầu 2022, với các sản phẩm đa dạng được hỗ trợ bởi công nghệ tiên tiến, các sáng kiến tiên phong trên nền tảng thanh toán và hệ sinh thái toàn diện, Techcombank đã tạo dựng được uy tín, sự kết nối và nâng cao thị phần trong phân khúc khách hàng đại chúng và thượng lưu."
+    },
+    {
+        "text": "đầu 2022",
+        "label": "DATE",
+        "evidence": "Theo đó, trong giai đoạn từ 2019 đến đầu 2022, với các sản phẩm đa dạng được hỗ trợ bởi công nghệ tiên tiến, các sáng kiến tiên phong trên nền tảng thanh toán và hệ sinh thái toàn diện, Techcombank đã tạo dựng được uy tín, sự kết nối và nâng cao thị phần trong phân khúc khách hàng đại chúng và thượng lưu."
+    },
+    {
+        "text": "Techcombank đã tăng lãi suất huy động các kỳ hạn để giải quyết lo ngại về thanh khoản",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh lãi suất tăng cùng với hiệu ứng rút vốn gần đây, Techcombank đã tăng lãi suất huy động các kỳ hạn để giải quyết lo ngại về thanh khoản."
+    },
+    {
+        "text": "Techcombank cũng tăng lãi suất huy động không kỳ hạn lên 1% để giữ chân khách hàng hiện tại",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, với việc nhiều ngân hàng nhân rộng mô hình thu hút CASA từ đầu năm, Techcombank cũng tăng lãi suất huy động không kỳ hạn lên 1% để giữ chân khách hàng hiện tại."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, với việc nhiều ngân hàng nhân rộng mô hình thu hút CASA từ đầu năm, Techcombank cũng tăng lãi suất huy động không kỳ hạn lên 1% để giữ chân khách hàng hiện tại."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB\nVDSC cho rằng NIM của MB có thể thu hẹp tạm thời do ảnh hưởng từ thị trường bất động sản.Mức độ phơi nhiễm cao với ngành bất động sản: dư nợ cho vay mua nhà, cho vay chủ đầu tư BĐS chiếm lần lượt 23,7% và 4,5% tổng dư nợ, TPDN BĐS chiếm 2,5% tổng tài sản."
+    },
+    {
+        "text": "23,7%",
+        "label": "RATE",
+        "evidence": "Mức độ phơi nhiễm cao với ngành bất động sản: dư nợ cho vay mua nhà, cho vay chủ đầu tư BĐS chiếm lần lượt 23,7% và 4,5% tổng dư nợ, TPDN BĐS chiếm 2,5% tổng tài sản."
+    },
+    {
+        "text": "4,5%",
+        "label": "RATE",
+        "evidence": "Mức độ phơi nhiễm cao với ngành bất động sản: dư nợ cho vay mua nhà, cho vay chủ đầu tư BĐS chiếm lần lượt 23,7% và 4,5% tổng dư nợ, TPDN BĐS chiếm 2,5% tổng tài sản."
+    },
+    {
+        "text": "TPDN BĐS",
+        "label": "ASSET",
+        "evidence": "Mức độ phơi nhiễm cao với ngành bất động sản: dư nợ cho vay mua nhà, cho vay chủ đầu tư BĐS chiếm lần lượt 23,7% và 4,5% tổng dư nợ, TPDN BĐS chiếm 2,5% tổng tài sản."
+    },
+    {
+        "text": "2,5%",
+        "label": "RATE",
+        "evidence": "Mức độ phơi nhiễm cao với ngành bất động sản: dư nợ cho vay mua nhà, cho vay chủ đầu tư BĐS chiếm lần lượt 23,7% và 4,5% tổng dư nợ, TPDN BĐS chiếm 2,5% tổng tài sản."
+    },
+    {
+        "text": "quý 2/2022",
+        "label": "DATE",
+        "evidence": "Theo đó, tỷ lệ nợ xấu hình thành tăng dần từ quý 2/2022, phản ánh các ảnh hưởng tiêu cực từ vĩ mô thế giới."
+    },
+    {
+        "text": "tham gia tái cơ cấu TCTD yếu kém",
+        "label": "EVENT",
+        "evidence": "Hạn mức tăng trưởng tín dụng có thể được ưu tiên cao hơn trung bình ngành nhờ tham gia tái cơ cấu TCTD yếu kém và chất lượng thanh khoản tốt."
+    },
+    {
+        "text": "giữa năm 2023",
+        "label": "DATE",
+        "evidence": "Khi áp lực từ vĩ mô bên ngoài tạm lắng từ giữa năm 2023, thanh khoản hệ thống ngân hàng và lãi suất huy động được kỳ vọng giảm dần, giúp NIM bắt đầu cải thiện."
+    },
+    {
+        "text": "TPDN",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, thu nhập dịch vụ dự báo giảm tốc ở mảng bảo hiểm và ngân hàng đầu tư chủ yếu do tăng trưởng tín dụng năm 2023 thấp hơn năm 2022 và các điều chỉnh của cơ quan quản lý về phát hành riêng lẻ TPDN."
+    },
+    {
+        "text": "quý 4/2022",
+        "label": "DATE",
+        "evidence": "Mặt khác, chất lượng tài sản dự báo suy yếu từ quý 4/2022 do nhiều khó khăn trong nền kinh tế."
+    },
+    {
+        "text": "nửa đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Chi phí tín dụng biên có thể tăng trong nửa đầu năm 2023 trước khi dịu đi trong nửa cuối năm nhờ vĩ mô cải thiện dần."
+    },
+    {
+        "text": "nửa cuối năm",
+        "label": "DATE",
+        "evidence": "Chi phí tín dụng biên có thể tăng trong nửa đầu năm 2023 trước khi dịu đi trong nửa cuối năm nhờ vĩ mô cải thiện dần."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank\nVDSC cho rằng các nguồn vốn mới có thể giúp VPBank giảm áp lực về huy động, bù đắp một phần cho lợi suất tài sản dự báo chịu ảnh hưởng tiêu cực từ thị trường bất động sản."
+    },
+    {
+        "text": "phát hành riêng lẻ",
+        "label": "EVENT",
+        "evidence": "Theo đó, nhờ nguồn vốn gia tăng từ khoản phí trả trước bancassurance và phát hành riêng lẻ (kỳ vọng hoàn tất đầu năm 2023), áp lực huy động năm 2023 không quá cao sẽ là một yếu tố hỗ trợ NIM choVPBank."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Theo đó, nhờ nguồn vốn gia tăng từ khoản phí trả trước bancassurance và phát hành riêng lẻ (kỳ vọng hoàn tất đầu năm 2023), áp lực huy động năm 2023 không quá cao sẽ là một yếu tố hỗ trợ NIM choVPBank."
+    },
+    {
+        "text": "17,6%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, mức độ phân bổ tín dụng của ngân hàng mẹ vào ngành BĐS cao: dư nợ cho vay mua nhà, cho vay phát triển BĐS chiếm lần lượt 17,6% và 12,6% tổng dư nợ, TPDN BĐS chiếm 3,4% tổng tài sản."
+    },
+    {
+        "text": "12,6%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, mức độ phân bổ tín dụng của ngân hàng mẹ vào ngành BĐS cao: dư nợ cho vay mua nhà, cho vay phát triển BĐS chiếm lần lượt 17,6% và 12,6% tổng dư nợ, TPDN BĐS chiếm 3,4% tổng tài sản."
+    },
+    {
+        "text": "3,4%",
+        "label": "RATE",
+        "evidence": "Tuy nhiên, mức độ phân bổ tín dụng của ngân hàng mẹ vào ngành BĐS cao: dư nợ cho vay mua nhà, cho vay phát triển BĐS chiếm lần lượt 17,6% và 12,6% tổng dư nợ, TPDN BĐS chiếm 3,4% tổng tài sản."
+    },
+    {
+        "text": "cho phép chuyển đổi từ lãi suất thả nổi sang lãi suất cố định cho một số khách hàng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, VPBank có thể vẫn phải đánh đổi NIM cho mục tiêu kiểm soát nợ xấu khi cho phép chuyển đổi từ lãi suất thả nổi sang lãi suất cố định cho một số khách hàng."
+    },
+    {
+        "text": "cuối quý III",
+        "label": "DATE",
+        "evidence": "Thực tế, NIM cuối quý III của cả ngân hàng mẹ và hợp nhất đều giảm do áp lực từ chi phí huy động và khó khăn của thị trường tài chính tiêu dùng."
+    },
+    {
+        "text": "một năm tới",
+        "label": "DATE",
+        "evidence": "VDSC cũng cho rằng, VPBank sẽ đối mặt với áp lực nợ xấu cao trong ít nhất một năm tới do nhiều yếu tố kết hợp: (1) Mức độ tiếp xúc cao với thị trường bất động sản thông qua dư nợ cho vay và đầu tư vào TPDN trong khi thị trường BĐS được dự báo không sớm phục hồi."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Động lực tăng trưởng vĩ mô kém ảnh hưởng đến thu nhập khả dụng của các khách hàng vay, nhất là khách hàng thu nhập thấp tại FE Credit."
+    },
+    {
+        "text": "62%",
+        "label": "RATE",
+        "evidence": "Khả năng đáp ứng nghĩa vụ tài chính của khách hàng vay suy yếu nhưng đệm dự phòng mỏng (dự phòng chỉ bằng 62% nợ xấu cuối Q3/2022) trong khi chưa hoàn tất nghĩa vụ trích lập cho nợ cơ cấu sẽ gây căng thẳng trên bảng báo cáo lợi nhuận năm sau."
+    },
+    {
+        "text": "cuối Q3/2022",
+        "label": "DATE",
+        "evidence": "Khả năng đáp ứng nghĩa vụ tài chính của khách hàng vay suy yếu nhưng đệm dự phòng mỏng (dự phòng chỉ bằng 62% nợ xấu cuối Q3/2022) trong khi chưa hoàn tất nghĩa vụ trích lập cho nợ cơ cấu sẽ gây căng thẳng trên bảng báo cáo lợi nhuận năm sau."
+    },
+    {
+        "text": "2016-2021",
+        "label": "DATE",
+        "evidence": "Theo đó, giai đoạn chính sách tiền tệ nới lỏng 2016-2021 đã tạo điều kiện cho VPBank gia tăng quy mô và tỷ suất lợi nhuận nhanh chóng nhờ mảng tài chính tiêu dùng và khách hàng đại chúng."
+    },
+    {
+        "text": "Q2/2022",
+        "label": "DATE",
+        "evidence": "Sang năm 2022, khả năng sinh lời của nhóm khách hàng thu nhập thấp đã bị xói mòn kể từ Q2/2022 khi các yếu tố bất lợi của vĩ mô nước ngoài và bất ổn chính trị toàn cầu gia tăng tác động đến nền kinh tế Việt Nam."
+    },
+    {
+        "text": "tham gia tái cấu trúc TCTD yếu kém",
+        "label": "EVENT",
+        "evidence": "Điểm tích cực là hạn mức tăng trưởng được cấp có thể cao hơn trung bình ngành nhờ bộ đệm vốn lớn và tham gia tái cấu trúc TCTD yếu kém."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB\nTheo VDSC, biên NIM của ACB được quản lý tốt bất chấp lãi suất huy động tăng."
+    },
+    {
+        "text": "63%",
+        "label": "RATE",
+        "evidence": "Cụ thể, tỷ trọng cho vay ngắn hạn cao (63% cuối Q3/22) tạo điều kiện cho ngân hàng nhanh chóng chuyển giao chi phí đầu vào cho khách hàng."
+    },
+    {
+        "text": "cuối Q3/22",
+        "label": "DATE",
+        "evidence": "Cụ thể, tỷ trọng cho vay ngắn hạn cao (63% cuối Q3/22) tạo điều kiện cho ngân hàng nhanh chóng chuyển giao chi phí đầu vào cho khách hàng."
+    },
+    {
+        "text": "cuối Q3",
+        "label": "DATE",
+        "evidence": "NIM cuối Q3 tiếp tục tăng so với Q2 và so với cuối năm 2021, mặc dù tốc độ huy động tăng dần theo quý và tốc độ cấp tín dụng giảm dần theo quý trong 9T2022."
+    },
+    {
+        "text": "Q2",
+        "label": "DATE",
+        "evidence": "NIM cuối Q3 tiếp tục tăng so với Q2 và so với cuối năm 2021, mặc dù tốc độ huy động tăng dần theo quý và tốc độ cấp tín dụng giảm dần theo quý trong 9T2022."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "NIM cuối Q3 tiếp tục tăng so với Q2 và so với cuối năm 2021, mặc dù tốc độ huy động tăng dần theo quý và tốc độ cấp tín dụng giảm dần theo quý trong 9T2022."
+    },
+    {
+        "text": "9T2022",
+        "label": "DATE",
+        "evidence": "NIM cuối Q3 tiếp tục tăng so với Q2 và so với cuối năm 2021, mặc dù tốc độ huy động tăng dần theo quý và tốc độ cấp tín dụng giảm dần theo quý trong 9T2022."
+    },
+    {
+        "text": "21,5%",
+        "label": "RATE",
+        "evidence": "Tỷ trọng cho vay mua nhà và cho vay phát triển BĐS chiếm lần lượt 21,5% và 1,2% tổng dư nợ và không đầu tư vào TPDN."
+    },
+    {
+        "text": "1,2%",
+        "label": "RATE",
+        "evidence": "Tỷ trọng cho vay mua nhà và cho vay phát triển BĐS chiếm lần lượt 21,5% và 1,2% tổng dư nợ và không đầu tư vào TPDN."
+    },
+    {
+        "text": "trên 4%",
+        "label": "RATE",
+        "evidence": "NIM duy trì tốt trên 4% mặc dù chi phí huy động tăng."
+    },
+    {
+        "text": "57%",
+        "label": "RATE",
+        "evidence": "Đà tăng thu nhập phí chậm lại với mảng chiếm tỷ trọng lớn nhất (57% cuối Q3) là bancassurance có doanh số thường đi cùng với tăng trưởng tín dụng và nhu cầu bảo hiểm thu hẹp trong giai đoạn kinh tế khó khăn."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank\nNăm 2023, VDSC kỳ vọng đà tăng trưởng của HDBank sẽ ổn định nhưng có thể chậm lại so với năm 2022."
+    },
+    {
+        "text": "giảm lãi suất lãi suất để hỗ trợ khách hàng",
+        "label": "EVENT",
+        "evidence": "Xét trên toàn ngành, VDSC vẫn cho rằng HDBank sẽ được cấp hạn mức cao nhất nhờ hỗ trợ quỹ tín dụng, giảm lãi suất lãi suất để hỗ trợ khách hàng và cho vay đối với các lĩnh vực ưu tiên."
+    },
+    {
+        "text": "cho vay đối với các lĩnh vực ưu tiên",
+        "label": "EVENT",
+        "evidence": "Xét trên toàn ngành, VDSC vẫn cho rằng HDBank sẽ được cấp hạn mức cao nhất nhờ hỗ trợ quỹ tín dụng, giảm lãi suất lãi suất để hỗ trợ khách hàng và cho vay đối với các lĩnh vực ưu tiên."
+    },
+    {
+        "text": "HDSaison",
+        "label": "ORG",
+        "evidence": "Mặt khác, HDSaison là một trong những định chế lớn nhất trong mảng cho vay tiêu dùng, thúc đẩy hệ sinh thái của ngân hàng và tạo lợi thế cho ngân hàng trong việc tiếp cận những khách hàng giai đoạn đầu, những người sau này sẽ phát triển lên tầng lớp thượng lưu khi nền kinh tế phát triển và trở thành khách hàng trung thành của ngân hàng mẹ."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Xét trên toàn ngành, HDBank sẽ được cấp hạn mức tín dụng cao nhất giúp thu nhập lãi thuần tăng 17% trong bối cảnh chi phí vốn tăng."
+    },
+    {
+        "text": "28%",
+        "label": "RATE",
+        "evidence": "Thu nhập phí dự kiến tăng 28% trong năm 2023."
+    },
+    {
+        "text": "12.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế dự báo vượt 12.400 tỷ đồng."
+    }
+]

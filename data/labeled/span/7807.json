@@ -1,0 +1,102 @@
+[
+    {
+        "text": "Vietcombank chi nhánh Hoàn Kiếm",
+        "label": "ORG",
+        "evidence": "Vietcombank chi nhánh Hoàn Kiếm vừa thông báo phát mại tài sản bảo đảm của khách hàng để xử lý nợ."
+    },
+    {
+        "text": "phát mại tài sản bảo đảm của khách hàng để xử lý nợ",
+        "label": "EVENT",
+        "evidence": "Vietcombank chi nhánh Hoàn Kiếm vừa thông báo phát mại tài sản bảo đảm của khách hàng để xử lý nợ."
+    },
+    {
+        "text": "52 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tài sản có đầy đủ tính pháp lý, giá khởi điểm từ 52 tỷ đồng trở lên."
+    },
+    {
+        "text": "bán thỏa thuận",
+        "label": "EVENT",
+        "evidence": "Phương thức phát mại là bán thỏa thuận hoặc bán đấu giá qua thi hành án."
+    },
+    {
+        "text": "bán đấu giá",
+        "label": "EVENT",
+        "evidence": "Phương thức phát mại là bán thỏa thuận hoặc bán đấu giá qua thi hành án."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo mô tả của Vietcombank, thửa đất có diện tích là 154m2."
+    },
+    {
+        "text": "650 triệu/m2",
+        "label": "PRICE",
+        "evidence": "từng được rao bán với giá 650 triệu/m2, tương đương với hơn 100 tỷ đồng."
+    },
+    {
+        "text": "hơn 100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từng được rao bán với giá 650 triệu/m2, tương đương với hơn 100 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "BĐS tại 29 Hàng Thiếc là một trong những bất động sản giá trị lớn được Vietcombank rao bán thời gian gần đây."
+    },
+    {
+        "text": "rao bán",
+        "label": "EVENT",
+        "evidence": "BĐS tại 29 Hàng Thiếc là một trong những bất động sản giá trị lớn được Vietcombank rao bán thời gian gần đây."
+    },
+    {
+        "text": "phát mại",
+        "label": "EVENT",
+        "evidence": "Ngân hàng hiện phát mại nhiều bất động sản khác với giá trị thấp hơn."
+    },
+    {
+        "text": "Vietcombank Hạ Long",
+        "label": "ORG",
+        "evidence": "Chẳng hạn, Vietcombank Hạ Long đang phát mại tài sản bảo đảm của Công ty TNHH 1 thành viên Cường Hải Dương."
+    },
+    {
+        "text": "phát mại tài sản bảo đảm của Công ty TNHH 1 thành viên Cường Hải Dương",
+        "label": "EVENT",
+        "evidence": "Chẳng hạn, Vietcombank Hạ Long đang phát mại tài sản bảo đảm của Công ty TNHH 1 thành viên Cường Hải Dương."
+    },
+    {
+        "text": "Công ty TNHH 1 thành viên Cường Hải Dương",
+        "label": "ORG",
+        "evidence": "Chẳng hạn, Vietcombank Hạ Long đang phát mại tài sản bảo đảm của Công ty TNHH 1 thành viên Cường Hải Dương."
+    },
+    {
+        "text": "463,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giá khởi điểm là 463,5 triệu đồng."
+    },
+    {
+        "text": "442,7 triệu đồng",
+        "label": "MONEY",
+        "evidence": "diện tích 114,9m2, giá 442,7 triệu đồng."
+    },
+    {
+        "text": "Vietcombank Bạc Liêu",
+        "label": "ORG",
+        "evidence": "Vietcombank Bạc Liêu cũng thông báo đấu giá bất động sản của Công ty CP XD & TM Thiên Tân."
+    },
+    {
+        "text": "đấu giá bất động sản của Công ty CP XD & TM Thiên Tân",
+        "label": "EVENT",
+        "evidence": "Vietcombank Bạc Liêu cũng thông báo đấu giá bất động sản của Công ty CP XD & TM Thiên Tân."
+    },
+    {
+        "text": "Công ty CP XD & TM Thiên Tân",
+        "label": "ORG",
+        "evidence": "Vietcombank Bạc Liêu cũng thông báo đấu giá bất động sản của Công ty CP XD & TM Thiên Tân."
+    },
+    {
+        "text": "5,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá khởi điểm 5,9 tỷ đồng."
+    }
+]

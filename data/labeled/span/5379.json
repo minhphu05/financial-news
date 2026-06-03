@@ -1,0 +1,382 @@
+[
+    {
+        "text": "Bộ Công Thương",
+        "label": "ORG",
+        "evidence": "Bộ Công Thương đang chuẩn bị cho việc triển khai lộ trình mới về sử dụng xăng sinh học tại Việt Nam, với mục tiêu chuyển sang sử dụng xăng sinh học E10 (pha 10% ethanol vào xăng khoáng) trên toàn quốc."
+    },
+    {
+        "text": "triển khai lộ trình mới về sử dụng xăng sinh học tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "Bộ Công Thương đang chuẩn bị cho việc triển khai lộ trình mới về sử dụng xăng sinh học tại Việt Nam, với mục tiêu chuyển sang sử dụng xăng sinh học E10 (pha 10% ethanol vào xăng khoáng) trên toàn quốc."
+    },
+    {
+        "text": "xăng sinh học E10",
+        "label": "ASSET",
+        "evidence": "mục tiêu chuyển sang sử dụng xăng sinh học E10 (pha 10% ethanol vào xăng khoáng) trên toàn quốc."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "pha 10% ethanol vào xăng khoáng"
+    },
+    {
+        "text": "ethanol",
+        "label": "ASSET",
+        "evidence": "pha 10% ethanol vào xăng khoáng"
+    },
+    {
+        "text": "xăng khoáng",
+        "label": "ASSET",
+        "evidence": "pha 10% ethanol vào xăng khoáng"
+    },
+    {
+        "text": "chuyển sang sử dụng xăng sinh học E10 (pha 10% ethanol vào xăng khoáng) trên toàn quốc",
+        "label": "EVENT",
+        "evidence": "mục tiêu chuyển sang sử dụng xăng sinh học E10 (pha 10% ethanol vào xăng khoáng) trên toàn quốc."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Bộ này đang tham mưu để trình Chính phủ ban hành lộ trình sử dụng xăng E10, dự kiến thực hiện từ ngày 1/1/2026."
+    },
+    {
+        "text": "ban hành lộ trình sử dụng xăng E10",
+        "label": "EVENT",
+        "evidence": "trình Chính phủ ban hành lộ trình sử dụng xăng E10"
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "ban hành lộ trình sử dụng xăng E10"
+    },
+    {
+        "text": "ngày 1/1/2026",
+        "label": "DATE",
+        "evidence": "dự kiến thực hiện từ ngày 1/1/2026."
+    },
+    {
+        "text": "xăng sinh học E10",
+        "label": "ASSET",
+        "evidence": "Theo lộ trình của Chính phủ, xăng sinh học E10 sẽ từng bước thay thế xăng khoáng trên thị trường.﻿"
+    },
+    {
+        "text": "xăng khoáng",
+        "label": "ASSET",
+        "evidence": "Theo lộ trình của Chính phủ, xăng sinh học E10 sẽ từng bước thay thế xăng khoáng trên thị trường.﻿"
+    },
+    {
+        "text": "Tổng Công ty Dầu Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Dầu Việt Nam (PVOIL, mã chứng khoán OIL)"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Dầu Việt Nam (PVOIL, mã chứng khoán OIL)"
+    },
+    {
+        "text": "OIL",
+        "label": "TICKER",
+        "evidence": "mã chứng khoán OIL"
+    },
+    {
+        "text": "Tập đoàn Xăng dầu Việt Nam",
+        "label": "ORG",
+        "evidence": "Tập đoàn Xăng dầu Việt Nam (Petrolimex, mã chứng khoán PLX)"
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tập đoàn Xăng dầu Việt Nam (Petrolimex, mã chứng khoán PLX)"
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "mã chứng khoán PLX"
+    },
+    {
+        "text": "thí điểm bán xăng E10",
+        "label": "EVENT",
+        "evidence": "hai doanh nghiệp đầu mối xăng dầu lớn nhất cả nước đã có thông báo cho biết sẽ thí điểm bán xăng E10 từ ngày 1/8."
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "sẽ thí điểm bán xăng E10 từ ngày 1/8."
+    },
+    {
+        "text": "ngày 1/8",
+        "label": "DATE",
+        "evidence": "sẽ thí điểm bán xăng E10 từ ngày 1/8."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Theo PVOIL, Công ty sẽ bán thí điểm bán xăng sinh học E10 RON95 tại các cửa hàng xăng dầu trên địa bàn Tp. Hà Nội và Tp. Hải Phòng."
+    },
+    {
+        "text": "bán thí điểm bán xăng sinh học E10 RON95",
+        "label": "EVENT",
+        "evidence": "Công ty sẽ bán thí điểm bán xăng sinh học E10 RON95 tại các cửa hàng xăng dầu trên địa bàn Tp. Hà Nội và Tp. Hải Phòng."
+    },
+    {
+        "text": "xăng sinh học E10 RON95",
+        "label": "ASSET",
+        "evidence": "bán thí điểm bán xăng sinh học E10 RON95"
+    },
+    {
+        "text": "nâng cấp, chuyển đổi và phát triển điểm bán xăng E10",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp sẽ tiếp tục nâng cấp, chuyển đổi và phát triển điểm bán xăng E10"
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "phát triển điểm bán xăng E10"
+    },
+    {
+        "text": "thực hiện lộ trình sử dụng xăng E10",
+        "label": "EVENT",
+        "evidence": "sẵn sàng thực hiện lộ trình sử dụng xăng E10 từ ngày 1/1/2026."
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "lộ trình sử dụng xăng E10"
+    },
+    {
+        "text": "ngày 1/1/2026",
+        "label": "DATE",
+        "evidence": "thực hiện lộ trình sử dụng xăng E10 từ ngày 1/1/2026."
+    },
+    {
+        "text": "Ông Cao Hoài Dương",
+        "label": "PERSON",
+        "evidence": "Ông Cao Hoài Dương – Chủ tịch HĐQTPVOIL- cho biết từ lâu doanh nghiệp đã đầu tư các cơ sở pha chế xăng sinh học ở các kho, kể cả kho đầu mối cũng như kho trung chuyển."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQTPVOIL"
+    },
+    {
+        "text": "đầu tư các cơ sở pha chế xăng sinh học",
+        "label": "EVENT",
+        "evidence": "doanh nghiệp đã đầu tư các cơ sở pha chế xăng sinh học ở các kho"
+    },
+    {
+        "text": "triển khai thí điểm bán xăng E10",
+        "label": "EVENT",
+        "evidence": "việc doanh nghiệp này triển khai thí điểm bán xăng E10 ngay từ ngày 1/8 nhằm giúp khách hàng dần làm quen với loại nhiên liệu mới, tránh gây “cú sốc” trong quá trình chuyển đổi."
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "triển khai thí điểm bán xăng E10"
+    },
+    {
+        "text": "ngày 1/8",
+        "label": "DATE",
+        "evidence": "triển khai thí điểm bán xăng E10 ngay từ ngày 1/8"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "PVOIL cho biết đang nâng cấp và cải tạo các trạm pha chế xăng E5 RON92 hiện nay tại các điểm kho chiến lược trên cả nước, đáp ứng nhu cầu kinh doanh xăng E10 RON95."
+    },
+    {
+        "text": "nâng cấp và cải tạo các trạm pha chế xăng E5 RON92",
+        "label": "EVENT",
+        "evidence": "đang nâng cấp và cải tạo các trạm pha chế xăng E5 RON92 hiện nay tại các điểm kho chiến lược trên cả nước"
+    },
+    {
+        "text": "xăng E5 RON92",
+        "label": "ASSET",
+        "evidence": "trạm pha chế xăng E5 RON92"
+    },
+    {
+        "text": "kinh doanh xăng E10 RON95",
+        "label": "EVENT",
+        "evidence": "đáp ứng nhu cầu kinh doanh xăng E10 RON95."
+    },
+    {
+        "text": "xăng E10 RON95",
+        "label": "ASSET",
+        "evidence": "nhu cầu kinh doanh xăng E10 RON95."
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "PVOIL cũng tăng cường phối hợp với các đơn vị thành viên của Tập đoàn, như Nhà máy Lọc dầu Dung Quất (BSR) và Nhà máy Lọc dầu Nghi Sơn/ PVNDB để đảm bảo sản lượng sản phẩm xăng khoáng, song song đó đảm bảo nguồn cung ethanol (E100) ổn định, tối ưu chi phí và đảm bảo sản lượng đáp ứng nhu cầu thị trường."
+    },
+    {
+        "text": "tăng cường phối hợp với các đơn vị thành viên của Tập đoàn",
+        "label": "EVENT",
+        "evidence": "PVOIL cũng tăng cường phối hợp với các đơn vị thành viên của Tập đoàn"
+    },
+    {
+        "text": "Nhà máy Lọc dầu Dung Quất",
+        "label": "ORG",
+        "evidence": "Nhà máy Lọc dầu Dung Quất (BSR)"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Nhà máy Lọc dầu Dung Quất (BSR)"
+    },
+    {
+        "text": "Nhà máy Lọc dầu Nghi Sơn",
+        "label": "ORG",
+        "evidence": "Nhà máy Lọc dầu Nghi Sơn/ PVNDB"
+    },
+    {
+        "text": "PVNDB",
+        "label": "ORG",
+        "evidence": "Nhà máy Lọc dầu Nghi Sơn/ PVNDB"
+    },
+    {
+        "text": "đảm bảo sản lượng sản phẩm xăng khoáng",
+        "label": "EVENT",
+        "evidence": "để đảm bảo sản lượng sản phẩm xăng khoáng"
+    },
+    {
+        "text": "xăng khoáng",
+        "label": "ASSET",
+        "evidence": "sản lượng sản phẩm xăng khoáng"
+    },
+    {
+        "text": "đảm bảo nguồn cung ethanol (E100) ổn định",
+        "label": "EVENT",
+        "evidence": "đảm bảo nguồn cung ethanol (E100) ổn định"
+    },
+    {
+        "text": "ethanol (E100)",
+        "label": "ASSET",
+        "evidence": "nguồn cung ethanol (E100) ổn định"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "PVOIL đang vận hành 900 cửa hàng xăng dầu trên toàn quốc."
+    },
+    {
+        "text": "triển khai kinh doanh xăng E10 đồng bộ",
+        "label": "EVENT",
+        "evidence": "đã có kế hoạch triển khai kinh doanh xăng E10 đồng bộ trong toàn hệ thống ngay khi lộ trình chính thức được áp dụng."
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "kinh doanh xăng E10 đồng bộ"
+    },
+    {
+        "text": "PVOIL",
+        "label": "ORG",
+        "evidence": "Ảnh: Thông tin từ Website PVOIL."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tương tự,Petrolimexcũng sẽ thí điểm kinh doanh xăng E10 tại 36 cửa hàng xăng dầu thuộc địa bàn Tp.HCM (trước sáp nhập), nhằm đánh giá thị trường và khả năng triển khai thực tiễn."
+    },
+    {
+        "text": "thí điểm kinh doanh xăng E10",
+        "label": "EVENT",
+        "evidence": "Petrolimexcũng sẽ thí điểm kinh doanh xăng E10 tại 36 cửa hàng xăng dầu thuộc địa bàn Tp.HCM"
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "thí điểm kinh doanh xăng E10"
+    },
+    {
+        "text": "Ông Trần Ngọc Năm",
+        "label": "PERSON",
+        "evidence": "Ông Trần Ngọc Năm – Phó Tổng Giám đốc Petrolimex cho biết việc kinh doanh xăng E10 đòi hỏi sự chuẩn bị nghiêm túc về hạ tầng, công nghệ, bồn chứa chuyên dụng cho cồn nhiên liệu và sự phối hợp chặt chẽ từ các nhà máy lọc dầu."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Phó Tổng Giám đốc Petrolimex"
+    },
+    {
+        "text": "kinh doanh xăng E10",
+        "label": "EVENT",
+        "evidence": "việc kinh doanh xăng E10 đòi hỏi sự chuẩn bị nghiêm túc về hạ tầng, công nghệ, bồn chứa chuyên dụng cho cồn nhiên liệu và sự phối hợp chặt chẽ từ các nhà máy lọc dầu."
+    },
+    {
+        "text": "xăng E10",
+        "label": "ASSET",
+        "evidence": "kinh doanh xăng E10"
+    },
+    {
+        "text": "Bộ Công Thương",
+        "label": "ORG",
+        "evidence": "Công ty được biết đã đề xuất Bộ Công Thương sớm có chỉ đạo về tiến độ triển khai để các thương nhân đầu mối chủ động đầu tư và chuyển đổi hệ thống kỹ thuật."
+    },
+    {
+        "text": "đề xuất Bộ Công Thương sớm có chỉ đạo về tiến độ triển khai",
+        "label": "EVENT",
+        "evidence": "đã đề xuất Bộ Công Thương sớm có chỉ đạo về tiến độ triển khai"
+    },
+    {
+        "text": "đầu tư và chuyển đổi hệ thống kỹ thuật",
+        "label": "EVENT",
+        "evidence": "các thương nhân đầu mối chủ động đầu tư và chuyển đổi hệ thống kỹ thuật."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Ghi nhận thông tin trên website Petrolimex, doanh nghiệp hiện có 43 đơn vị thành viên trực tiếp kinh doanh xăng dầu, với mạng lưới phân phối trải rộng khắp 34 tỉnh, thành phố."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "hệ thống của Petrolimex sở hữu hơn 5.500 cửa hàng."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Ảnh: Thông tin từ Website Petrolimex"
+    },
+    {
+        "text": "xăng sinh học E10",
+        "label": "ASSET",
+        "evidence": "Được biết, xăng sinh học E10, với thành phần gồm 10% ethanol sinh học pha trộn cùng 90% xăng khoáng, được xem là giải pháp quan trọng nhằm giảm phát thải CO₂, thúc đẩy ngành nông nghiệp ethanol và đa dạng hóa nguồn cung năng lượng."
+    },
+    {
+        "text": "10% ethanol sinh học",
+        "label": "RATE",
+        "evidence": "thành phần gồm 10% ethanol sinh học pha trộn cùng 90% xăng khoáng"
+    },
+    {
+        "text": "ethanol sinh học",
+        "label": "ASSET",
+        "evidence": "10% ethanol sinh học"
+    },
+    {
+        "text": "90% xăng khoáng",
+        "label": "RATE",
+        "evidence": "pha trộn cùng 90% xăng khoáng"
+    },
+    {
+        "text": "xăng khoáng",
+        "label": "ASSET",
+        "evidence": "90% xăng khoáng"
+    },
+    {
+        "text": "giảm phát thải CO₂",
+        "label": "EVENT",
+        "evidence": "nhằm giảm phát thải CO₂"
+    },
+    {
+        "text": "thúc đẩy ngành nông nghiệp ethanol",
+        "label": "EVENT",
+        "evidence": "thúc đẩy ngành nông nghiệp ethanol"
+    },
+    {
+        "text": "đa dạng hóa nguồn cung năng lượng",
+        "label": "EVENT",
+        "evidence": "và đa dạng hóa nguồn cung năng lượng."
+    }
+]

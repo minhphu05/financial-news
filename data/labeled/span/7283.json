@@ -1,0 +1,72 @@
+[
+    {
+        "text": "diễn tập",
+        "label": "EVENT",
+        "evidence": "Thời gian diễn tập gồm 2 giai đoạn:"
+    },
+    {
+        "text": "Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025",
+        "label": "EVENT",
+        "evidence": "Giai đoạn 1:Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025 (60 phút)."
+    },
+    {
+        "text": "00h00-01h00 ngày 27/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 1:Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025 (60 phút)."
+    },
+    {
+        "text": "27/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 1:Gián đoạn dự kiến từ 00h00-01h00 ngày 27/10/2025 (60 phút)."
+    },
+    {
+        "text": "Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025",
+        "label": "EVENT",
+        "evidence": "Giai đoạn 2:Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025 (60 phút)."
+    },
+    {
+        "text": "00h00-01h00 ngày 31/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 2:Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025 (60 phút)."
+    },
+    {
+        "text": "31/10/2025",
+        "label": "DATE",
+        "evidence": "Giai đoạn 2:Gián đoạn dự kiến từ 00h00-01h00 ngày 31/10/2025 (60 phút)."
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "Trong khoảng thời gian nói trên, một số dịch vụ chuyển tiền và thanh toán được xử lý qua hệ thống của NAPAS có thể xảy ra gián đoạn tạm thời như sau:"
+    },
+    {
+        "text": "Visa",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "Master",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "JCB",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "UPI",
+        "label": "ORG",
+        "evidence": "- Dịch vụ Thanh toán thẻ quốc tế với các thương hiệu Visa, Master, JCB, UPI;"
+    },
+    {
+        "text": "Napas thực hiện chuyển đổi hệ thống kỹ thuật",
+        "label": "EVENT",
+        "evidence": "Để tránh gián đoạn giao dịch, khách hàng chủ động thực hiện các giao dịch trước hoặc sau thời gian Napas thực hiện chuyển đổi hệ thống kỹ thuật nêu trên."
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "Để tránh gián đoạn giao dịch, khách hàng chủ động thực hiện các giao dịch trước hoặc sau thời gian Napas thực hiện chuyển đổi hệ thống kỹ thuật nêu trên."
+    }
+]

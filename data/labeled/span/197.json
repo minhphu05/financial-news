@@ -1,0 +1,327 @@
+[
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "nhằm nâng cao chất lượng dịch vụ cũng như đáp ứng quy định của NHNN về đảm bảo tính sẵn sàng của hệ thống"
+    },
+    {
+        "text": "Công ty Cổ phần Thanh toán Quốc gia Việt Nam",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Thanh toán Quốc gia Việt Nam (Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Thanh toán Quốc gia Việt Nam (Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật"
+    },
+    {
+        "text": "diễn tập chuyển đổi hệ thống kỹ thuật",
+        "label": "EVENT",
+        "evidence": "Napas) thực hiện diễn tập chuyển đổi hệ thống kỹ thuật trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "từ 0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribankcho biết trong khoảng thời gian trên sẽ bịgián đoạn dịch vụ chuyển tiền trênứng dụng"
+    },
+    {
+        "text": "gián đoạn dịch vụ chuyển tiền trênứng dụng",
+        "label": "EVENT",
+        "evidence": "Agribankcho biết trong khoảng thời gian trên sẽ bịgián đoạn dịch vụ chuyển tiền trênứng dụng"
+    },
+    {
+        "text": "eBanking",
+        "label": "ASSET",
+        "evidence": "- eBanking: Giao dịch đi qua hệ thống thanh toán của Napas"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "eBanking: Giao dịch đi qua hệ thống thanh toán của Napas"
+    },
+    {
+        "text": "Agribank Plus",
+        "label": "ASSET",
+        "evidence": "- Agribank Plus: Giao dịch đi ngân hàng Citibank, Techcombank"
+    },
+    {
+        "text": "Citibank",
+        "label": "ORG",
+        "evidence": "Agribank Plus: Giao dịch đi ngân hàng Citibank, Techcombank"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Agribank Plus: Giao dịch đi ngân hàng Citibank, Techcombank"
+    },
+    {
+        "text": "ARS",
+        "label": "ASSET",
+        "evidence": "- Hệ thống kết nối ARS và thanh toán song phương bảo hiểm xã hội"
+    },
+    {
+        "text": "Hệ thống kết nối ARS và thanh toán song phương bảo hiểm xã hội",
+        "label": "EVENT",
+        "evidence": "- Hệ thống kết nối ARS và thanh toán song phương bảo hiểm xã hội"
+    },
+    {
+        "text": "Gián đoạn giao dịch chuyển khoản đến",
+        "label": "EVENT",
+        "evidence": "Gián đoạn giao dịch chuyển khoản đến"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Các giao dịch chuyển khoản đến Agribank qua hệ thống của Napas có thể không thực hiện được trong thời gian trên"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "Các giao dịch chuyển khoản đến Agribank qua hệ thống của Napas có thể không thực hiện được trong thời gian trên"
+    },
+    {
+        "text": "Hệ thống thanh toán song phương Realtime",
+        "label": "ASSET",
+        "evidence": "Hệ thống thanh toán song phương Realtime (Vietcombank, Vietinbank và MB)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương Realtime (Vietcombank, Vietinbank và MB)"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương Realtime (Vietcombank, Vietinbank và MB)"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương Realtime (Vietcombank, Vietinbank và MB)"
+    },
+    {
+        "text": "Hệ thống thanh toán song phương 24/7",
+        "label": "ASSET",
+        "evidence": "Hệ thống thanh toán song phương 24/7 (BIDV và Vietinbank)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương 24/7 (BIDV và Vietinbank)"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Hệ thống thanh toán song phương 24/7 (BIDV và Vietinbank)"
+    },
+    {
+        "text": "hệ thống thanh toán điện tử liên ngân hàng",
+        "label": "ASSET",
+        "evidence": "hệ thống thanh toán điện tử liên ngân hàng"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombanklưu ý, trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024, một số dịch vụ chuyển tiền và thanh toán có thể xảy ra gián đoạn tạm thời như"
+    },
+    {
+        "text": "từ 0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian từ 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "một số dịch vụ chuyển tiền và thanh toán có thể xảy ra gián đoạn tạm thời",
+        "label": "EVENT",
+        "evidence": "một số dịch vụ chuyển tiền và thanh toán có thể xảy ra gián đoạn tạm thời như"
+    },
+    {
+        "text": "Chuyển tiền nhanh liên ngân hàng 24/7",
+        "label": "ASSET",
+        "evidence": "- Chuyển tiền nhanh liên ngân hàng 24/7"
+    },
+    {
+        "text": "Chuyển tiền hoặc thanh toán bằng mã VietQR",
+        "label": "ASSET",
+        "evidence": "- Chuyển tiền hoặc thanh toán bằng mã VietQR (bao gồm cả QR cá nhân và QR cửa hàng)"
+    },
+    {
+        "text": "VietQR",
+        "label": "ASSET",
+        "evidence": "Chuyển tiền hoặc thanh toán bằng mã VietQR (bao gồm cả QR cá nhân và QR cửa hàng)"
+    },
+    {
+        "text": "Thanh toán online (Ecom NAPAS)",
+        "label": "ASSET",
+        "evidence": "- Thanh toán online (Ecom NAPAS) và giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "Ecom NAPAS",
+        "label": "ASSET",
+        "evidence": "Thanh toán online (Ecom NAPAS) và giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS",
+        "label": "ASSET",
+        "evidence": "giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "ATM",
+        "label": "ASSET",
+        "evidence": "giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "POS",
+        "label": "ASSET",
+        "evidence": "giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "thẻ liên kết với NAPAS",
+        "label": "ASSET",
+        "evidence": "giao dịch thanh toán qua ATM/POS đối với thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "thẻ liên kết với NAPAS"
+    },
+    {
+        "text": "Thanh toán vé máy bay trênTechcombankMobile",
+        "label": "ASSET",
+        "evidence": "- Thanh toán vé máy bay trênTechcombankMobile"
+    },
+    {
+        "text": "TechcombankMobile",
+        "label": "ASSET",
+        "evidence": "Thanh toán vé máy bay trênTechcombankMobile"
+    },
+    {
+        "text": "Thanh toán SamSung Pay liên kết với thẻ NAPAS",
+        "label": "ASSET",
+        "evidence": "- Thanh toán SamSung Pay liên kết với thẻ NAPAS"
+    },
+    {
+        "text": "SamSung Pay",
+        "label": "ASSET",
+        "evidence": "Thanh toán SamSung Pay liên kết với thẻ NAPAS"
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "thẻ NAPAS"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACBcũng thông báo, trong thời gian này, một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm"
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm"
+    },
+    {
+        "text": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn",
+        "label": "EVENT",
+        "evidence": "một số dịch vụ liên quan đến thanh toán của Napas tại ACB sẽ bị gián đoạn bao gồm"
+    },
+    {
+        "text": "Chuyển tiền nhanh NAPAS 24/7",
+        "label": "ASSET",
+        "evidence": "- Chuyển tiền nhanh NAPAS 24/7"
+    },
+    {
+        "text": "NAPAS",
+        "label": "ORG",
+        "evidence": "Chuyển tiền nhanh NAPAS 24/7"
+    },
+    {
+        "text": "Nạp tiền/thanh toán cước điện thoại",
+        "label": "ASSET",
+        "evidence": "- Nạp tiền/thanh toán cước điện thoại"
+    },
+    {
+        "text": "Giao dịch nội địa thực hiện tại ATM/POS khácACB",
+        "label": "ASSET",
+        "evidence": "- Giao dịch nội địa thực hiện tại ATM/POS khácACB"
+    },
+    {
+        "text": "ATM",
+        "label": "ASSET",
+        "evidence": "Giao dịch nội địa thực hiện tại ATM/POS khácACB"
+    },
+    {
+        "text": "POS",
+        "label": "ASSET",
+        "evidence": "Giao dịch nội địa thực hiện tại ATM/POS khácACB"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Giao dịch nội địa thực hiện tại ATM/POS khácACB"
+    },
+    {
+        "text": "Giao dịch thanh toán trực tuyến (Ecommerce) và Samsung Pay",
+        "label": "ASSET",
+        "evidence": "- Giao dịch thanh toán trực tuyến (Ecommerce) và Samsung Pay"
+    },
+    {
+        "text": "Ecommerce",
+        "label": "ASSET",
+        "evidence": "Giao dịch thanh toán trực tuyến (Ecommerce) và Samsung Pay"
+    },
+    {
+        "text": "Samsung Pay",
+        "label": "ASSET",
+        "evidence": "Giao dịch thanh toán trực tuyến (Ecommerce) và Samsung Pay"
+    },
+    {
+        "text": "ATM",
+        "label": "ASSET",
+        "evidence": "- Một số tính năng, dịch vụ tại ATM/CRM ..."
+    },
+    {
+        "text": "CRM",
+        "label": "ASSET",
+        "evidence": "- Một số tính năng, dịch vụ tại ATM/CRM ..."
+    },
+    {
+        "text": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng",
+        "label": "EVENT",
+        "evidence": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "thẻ ACB",
+        "label": "ASSET",
+        "evidence": "Các tính năng của thẻ ACB sẽ bị ảnh hưởng trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "0h00 đến 1h00 ngày 28/10/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    },
+    {
+        "text": "01/11/2024",
+        "label": "DATE",
+        "evidence": "trong khoảng thời gian 0h00 đến 1h00 ngày 28/10/2024 và 01/11/2024"
+    }
+]

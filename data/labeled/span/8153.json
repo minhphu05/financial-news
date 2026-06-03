@@ -1,0 +1,367 @@
+[
+    {
+        "text": "Chứng khoán VCBS",
+        "label": "ORG",
+        "evidence": "Chứng khoán VCBS vừa đưa ra dự báo về tăng trưởng lợi nhuận của 55 doanh nghiệp trong quý 4/2024 và cả năm 2025."
+    },
+    {
+        "text": "dự báo về tăng trưởng lợi nhuận của 55 doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Chứng khoán VCBS vừa đưa ra dự báo về tăng trưởng lợi nhuận của 55 doanh nghiệp trong quý 4/2024 và cả năm 2025."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "Chứng khoán VCBS vừa đưa ra dự báo về tăng trưởng lợi nhuận của 55 doanh nghiệp trong quý 4/2024 và cả năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Chứng khoán VCBS vừa đưa ra dự báo về tăng trưởng lợi nhuận của 55 doanh nghiệp trong quý 4/2024 và cả năm 2025."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "CTD",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "NLG",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "HDC",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Cụ thể, hàng loạt doanh nghiệp dự báo ghi nhận lợi nhuận \"tăng bằng lần\" trong quý 4/2024 gồm MSB, VPB, TPB, CTD, VHM, KDH, NLG , HDC, MWG."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "VGC",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "PVD",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "DCM",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "POW",
+        "label": "TICKER",
+        "evidence": "Ngược chiều, nhiều doanh nghiệp sẽ có lợi nhuận tăng trưởng âm trong quý này như TCB, VGC, QNS, HPG, PVD, DCM, POW,...."
+    },
+    {
+        "text": "VCBS",
+        "label": "ORG",
+        "evidence": "Với nhóm ngân hàng, VCBS dự báoTPBsẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4 nhờ nhu cầu tín dụng ở mức tốt và cơ cấu huy động vốn tương đối linh hoạt giúp tối ưu hóa chi phí vốn.﻿"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Với nhóm ngân hàng, VCBS dự báoTPBsẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4 nhờ nhu cầu tín dụng ở mức tốt và cơ cấu huy động vốn tương đối linh hoạt giúp tối ưu hóa chi phí vốn.﻿"
+    },
+    {
+        "text": "VCBS dự báo TPB sẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4",
+        "label": "EVENT",
+        "evidence": "Với nhóm ngân hàng, VCBS dự báoTPBsẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4 nhờ nhu cầu tín dụng ở mức tốt và cơ cấu huy động vốn tương đối linh hoạt giúp tối ưu hóa chi phí vốn.﻿"
+    },
+    {
+        "text": "tăng 261%",
+        "label": "RATE",
+        "evidence": "Với nhóm ngân hàng, VCBS dự báoTPBsẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4 nhờ nhu cầu tín dụng ở mức tốt và cơ cấu huy động vốn tương đối linh hoạt giúp tối ưu hóa chi phí vốn.﻿"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Với nhóm ngân hàng, VCBS dự báoTPBsẽ là \"ngôi sao tăng trưởng\" với LNTT có thể tăng 261% trong quý 4 nhờ nhu cầu tín dụng ở mức tốt và cơ cấu huy động vốn tương đối linh hoạt giúp tối ưu hóa chi phí vốn.﻿"
+    },
+    {
+        "text": "VCBS",
+        "label": "ORG",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%",
+        "label": "EVENT",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "tăng trưởng đột biến 1.254%",
+        "label": "RATE",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Trong nhóm bất động sản, VCBS dự báo LNST quý 4 củaVinhomes (mã VHM)có thể tăng trưởng đột biến 1.254%. Động lực đến từ doanh số bán hàng tăng trưởng nhờ các dự án mới, lợi nhuận tăng trưởng tốt trong năm 2025 và duy trì vị thế dẫn đầu trong chu kì thị trường mới"
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "KDH cũng được dự báo LNST quý 4 tăng trưởng 730%",
+        "label": "EVENT",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "tăng trưởng 730%",
+        "label": "RATE",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận",
+        "label": "EVENT",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "Q4/2024",
+        "label": "DATE",
+        "evidence": "KDHcũng được dự báo LNST quý 4 tăng trưởng 730% nhờ dự án cao tầng The Privia (Q. Bình Tân, TP.HCM) bắt đầu bàn giao và ghi nhận lợi nhuận từ Q4/2024.﻿"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "MWG được dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833%",
+        "label": "EVENT",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận 833%",
+        "label": "RATE",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "BHX ghi nhận lãi ròng",
+        "label": "EVENT",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "250 tỷ",
+        "label": "MONEY",
+        "evidence": "Tại nhóm bán lẻ,MWGđược dự báo sẽ \"tỏa sáng\" trong quý 4 với mức tăng trưởng lợi nhuận 833% nhờ BHX ghi nhận lãi ròng trong năm, ước tính cả năm ghi nhận khoảng 250 tỷ LNST. Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "4,5%",
+        "label": "RATE",
+        "evidence": "Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "5,5-6%",
+        "label": "RATE",
+        "evidence": "Biên lợi nhuận ròng mảng ICT cải thiện sau giai đoạn tái cấu trúc, ước tính trung bình cả năm đạt 4,5%, 2025 đạt khoảng 5,5-6%. 3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "Era Blue hòa vốn",
+        "label": "EVENT",
+        "evidence": "3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "Q3",
+        "label": "DATE",
+        "evidence": "3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "Q3 ghi nhận lãi nhẹ 148 triệu đồng",
+        "label": "EVENT",
+        "evidence": "3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "148 triệu đồng",
+        "label": "MONEY",
+        "evidence": "3. Era Blue hòa vốn sớm hơn dự kiến, chỉ sau 1,5 năm, Q3 ghi nhận lãi nhẹ 148 triệu đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027. (2) Việc hợp tác toàn diện với NVIDIA để thúc đẩy phát triển mảng Trí tuệ nhân tạo (AI) và điện toán đám mây. (3) Mảng viễn thông trở lại mức tăng trưởng 2 chữ số đến từ trung tâm dữ liệu và truyền hình internet. (4) Mảng giáo dục nhiều tiềm năng tăng trưởng với doanh thu ước tính hàng năm có thể đạt 30%/năm."
+    },
+    {
+        "text": "FPT dự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025",
+        "label": "EVENT",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "tăng trưởng lợi nhuận 29%",
+        "label": "RATE",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Với nhóm công nghệ,FPTdự báo duy trì mức tăng trưởng lợi nhuận 29% trong quý 4 ﻿và 25% trong năm 2025 do (1) Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "tăng trưởng 30%/năm",
+        "label": "RATE",
+        "evidence": "Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "giai đoạn 2025-2027",
+        "label": "DATE",
+        "evidence": "Mảng CNTT toàn cầu có triển vọng đạt mức tăng trưởng 30%/năm trong giai đoạn 2025-2027."
+    },
+    {
+        "text": "hợp tác toàn diện với NVIDIA",
+        "label": "EVENT",
+        "evidence": "Việc hợp tác toàn diện với NVIDIA để thúc đẩy phát triển mảng Trí tuệ nhân tạo (AI) và điện toán đám mây."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Việc hợp tác toàn diện với NVIDIA để thúc đẩy phát triển mảng Trí tuệ nhân tạo (AI) và điện toán đám mây."
+    },
+    {
+        "text": "tăng trưởng 2 chữ số",
+        "label": "RATE",
+        "evidence": "Mảng viễn thông trở lại mức tăng trưởng 2 chữ số đến từ trung tâm dữ liệu và truyền hình internet."
+    },
+    {
+        "text": "30%/năm",
+        "label": "RATE",
+        "evidence": "Mảng giáo dục nhiều tiềm năng tăng trưởng với doanh thu ước tính hàng năm có thể đạt 30%/năm."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "HPG được dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025",
+        "label": "EVENT",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "suy giảm nhẹ 1%",
+        "label": "RATE",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "tăng trưởng 77%",
+        "label": "RATE",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "Nhà máy Dung Quất 2 đi vào hoạt động",
+        "label": "EVENT",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Ngược chiều,HPGđược dự báo LNST quý 4 suy giảm nhẹ 1%, song sẽ tăng trưởng 77% trong năm 2025 do Nhà máy Dung Quất 2 đi vào hoạt động trong năm 2025 giúp KQKD khởi sắc."
+    },
+    {
+        "text": "thuế CBPG thép HRC được thông qua",
+        "label": "EVENT",
+        "evidence": "Giá thép tạo đáy đi lên trong bối cảnh nhu cầu BĐS toàn cầu phục hồi và dự kiến thuế CBPG thép HRC được thông qua.﻿"
+    }
+]

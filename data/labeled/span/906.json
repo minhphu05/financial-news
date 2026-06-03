@@ -1,0 +1,62 @@
+[
+    {
+        "text": "công an thành phố Hà Nội",
+        "label": "ORG",
+        "evidence": "Theo công an thành phố Hà Nội, khoảng 13h30' ngày 05/6/2024, bà T đến ngân hàng BIDV tại 34D Lý Nam Đế, phường Cửa Đông, quận Hoàn Kiếm để chuyển số tiền 410 triệu đồng."
+    },
+    {
+        "text": "13h30' ngày 05/6/2024",
+        "label": "DATE",
+        "evidence": "Theo công an thành phố Hà Nội, khoảng 13h30' ngày 05/6/2024, bà T đến ngân hàng BIDV tại 34D Lý Nam Đế, phường Cửa Đông, quận Hoàn Kiếm để chuyển số tiền 410 triệu đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo công an thành phố Hà Nội, khoảng 13h30' ngày 05/6/2024, bà T đến ngân hàng BIDV tại 34D Lý Nam Đế, phường Cửa Đông, quận Hoàn Kiếm để chuyển số tiền 410 triệu đồng."
+    },
+    {
+        "text": "chuyển số tiền 410 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Theo công an thành phố Hà Nội, khoảng 13h30' ngày 05/6/2024, bà T đến ngân hàng BIDV tại 34D Lý Nam Đế, phường Cửa Đông, quận Hoàn Kiếm để chuyển số tiền 410 triệu đồng."
+    },
+    {
+        "text": "410 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo công an thành phố Hà Nội, khoảng 13h30' ngày 05/6/2024, bà T đến ngân hàng BIDV tại 34D Lý Nam Đế, phường Cửa Đông, quận Hoàn Kiếm để chuyển số tiền 410 triệu đồng."
+    },
+    {
+        "text": "Công an phường Cửa Đông",
+        "label": "ORG",
+        "evidence": "Nhân viên ngân hàng gặng hỏi thì bà T bỏ về. Nhân viên ngân hàng nghi ngờ bà T đã bị các đối tượng lừa đảo và có thể bị dẫn dắt ra ngân hàng khác chuyển tiền nên nhân viên ngân hàng đã tìm đến tận nhà bà T cố gắng giải thích cho bà hiểu, nhưng bà không nghe hướng dẫn nên nhân viên ngân hàng đã gọi điện báo sự việc cho Công an phường Cửa Đông."
+    },
+    {
+        "text": "Công an",
+        "label": "ORG",
+        "evidence": "Qua trao đổi, bà cho biết đã bị các đối tượng tự xưng là Công an, Viện kiểm sát gọi điện nói bà liên quan đến đường dây mua bán trái phép chất ma túy và yêu cầu bà chuyển toàn bộ số tiền đang có trong sổ tiết kiệm, sau khi chứng minh được nguồn tiền sẽ trả lại cho bà."
+    },
+    {
+        "text": "Viện kiểm sát",
+        "label": "ORG",
+        "evidence": "Qua trao đổi, bà cho biết đã bị các đối tượng tự xưng là Công an, Viện kiểm sát gọi điện nói bà liên quan đến đường dây mua bán trái phép chất ma túy và yêu cầu bà chuyển toàn bộ số tiền đang có trong sổ tiết kiệm, sau khi chứng minh được nguồn tiền sẽ trả lại cho bà."
+    },
+    {
+        "text": "sổ tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Qua trao đổi, bà cho biết đã bị các đối tượng tự xưng là Công an, Viện kiểm sát gọi điện nói bà liên quan đến đường dây mua bán trái phép chất ma túy và yêu cầu bà chuyển toàn bộ số tiền đang có trong sổ tiết kiệm, sau khi chứng minh được nguồn tiền sẽ trả lại cho bà."
+    },
+    {
+        "text": "dừng việc chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Sau khi được cán bộ Công an phường Cửa Đông phân tích, giải thích về các phương thức, thủ đoạn hoạt động của đối tượng thì bà T đã dừng việc chuyển tiền cho các đối tượng."
+    },
+    {
+        "text": "ngân hàngBIDV",
+        "label": "ORG",
+        "evidence": "Nhờ sự tận tình của nhân viên ngân hàngBIDVvà sự có mặt kịp thời của Công an phường Cửa Đông mà bà T đã không chuyển tiền cho các đối tượng lừa đảo."
+    },
+    {
+        "text": "Cơ quan Công an",
+        "label": "ORG",
+        "evidence": "Để làm việc với người dân, cơ quan Công an sẽ trực tiếp gửi giấy mời, giấy triệu tập hoặc gửi qua Công an địa phương; tuyệt đối không yêu cầu người dân chuyển tiền vào tài khoản ngân hàng."
+    }
+]

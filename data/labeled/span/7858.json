@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Công ty Chứng khoán Vietcap",
+        "label": "ORG",
+        "evidence": "Công ty Chứng khoán Vietcap công bố báo cáo kết quả kinh doanh của CTCP Vinhomes (mã: VHM)."
+    },
+    {
+        "text": "báo cáo kết quả kinh doanh",
+        "label": "EVENT",
+        "evidence": "Công ty Chứng khoán Vietcap công bố báo cáo kết quả kinh doanh của CTCP Vinhomes (mã: VHM)."
+    },
+    {
+        "text": "CTCP Vinhomes",
+        "label": "ORG",
+        "evidence": "Công ty Chứng khoán Vietcap công bố báo cáo kết quả kinh doanh của CTCP Vinhomes (mã: VHM)."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "của CTCP Vinhomes (mã: VHM)."
+    },
+    {
+        "text": "doanh số bán hàng cao trong quý 2/2024",
+        "label": "EVENT",
+        "evidence": "Theo đó, doanh số bán hàng cao trong quý 2/2024 nhờ doanh số bán lẻ tiếp tục cải thiện và doanh số bán lô lớn mới tại Royal Island."
+    },
+    {
+        "text": "quý 2/2024",
+        "label": "DATE",
+        "evidence": "doanh số bán hàng cao trong quý 2/2024"
+    },
+    {
+        "text": "doanh số bán lẻ tiếp tục cải thiện",
+        "label": "EVENT",
+        "evidence": "doanh số bán hàng cao trong quý 2/2024 nhờ doanh số bán lẻ tiếp tục cải thiện và doanh số bán lô lớn mới tại Royal Island."
+    },
+    {
+        "text": "doanh số bán lô lớn mới tại Royal Island",
+        "label": "EVENT",
+        "evidence": "doanh số bán hàng cao trong quý 2/2024 nhờ doanh số bán lẻ tiếp tục cải thiện và doanh số bán lô lớn mới tại Royal Island."
+    },
+    {
+        "text": "Giá trị hợp đồng bán hàng quý 2/2024 của VHM đạt 35.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giá trị hợp đồng bán hàng quý 2/2024 củaVHMđạt 35.500 tỷ đồng, tăng 120% so với quý trước và tăng 43% so với cùng kỳ"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "củaVHMđạt 35.500 tỷ đồng"
+    },
+    {
+        "text": "35.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 35.500 tỷ đồng"
+    },
+    {
+        "text": "120%",
+        "label": "RATE",
+        "evidence": "tăng 120% so với quý trước"
+    },
+    {
+        "text": "43%",
+        "label": "RATE",
+        "evidence": "tăng 43% so với cùng kỳ"
+    },
+    {
+        "text": "doanh số bán lẻ (chiếm 53%) tăng 17% so với quý trước",
+        "label": "EVENT",
+        "evidence": "với doanh số bán lẻ (chiếm 53%) tăng 17% so với quý trước do được thúc đẩy bởi dự án Royal Island được mở bán gần đây."
+    },
+    {
+        "text": "53%",
+        "label": "RATE",
+        "evidence": "chiếm 53%"
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "tăng 17% so với quý trước"
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Trong tháng 3, VHM đã mở bán dự án Royal Island tại tỉnh Hải Phòng (với tổng diện tích là 877 ha với 8.300 căn thấp tầng)."
+    },
+    {
+        "text": "VHM đã mở bán dự án Royal Island",
+        "label": "EVENT",
+        "evidence": "Trong tháng 3, VHM đã mở bán dự án Royal Island tại tỉnh Hải Phòng"
+    },
+    {
+        "text": "Royal Island",
+        "label": "ASSET",
+        "evidence": "VHM đã mở bán dự án Royal Island tại tỉnh Hải Phòng"
+    },
+    {
+        "text": "877 ha",
+        "label": "VOLUME",
+        "evidence": "tổng diện tích là 877 ha"
+    },
+    {
+        "text": "8.300 căn thấp tầng",
+        "label": "VOLUME",
+        "evidence": "8.300 căn thấp tầng"
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tại cuối quý 2/2024"
+    },
+    {
+        "text": "khoảng 2.800 căn tại dự án này đã được bán lẻ cho khách hàng cá nhân",
+        "label": "EVENT",
+        "evidence": "khoảng 2.800 căn tại dự án này đã được bán lẻ cho khách hàng cá nhân"
+    },
+    {
+        "text": "2.800 căn",
+        "label": "VOLUME",
+        "evidence": "khoảng 2.800 căn"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "tương đương 90% tổng số căn được mở bán."
+    },
+    {
+        "text": "Giá trị hợp đồng bán hàng đạt 51.700 tỷ đồng trong nửa đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "Giá trị hợp đồng bán hàng đạt 51.700 tỷ đồng trong nửa đầu năm 2024, tăng 27% so với cùng kỳ"
+    },
+    {
+        "text": "51.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 51.700 tỷ đồng"
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "trong nửa đầu năm 2024"
+    },
+    {
+        "text": "27%",
+        "label": "RATE",
+        "evidence": "tăng 27% so với cùng kỳ"
+    },
+    {
+        "text": "dự án Royal Island đóng góp 81%",
+        "label": "EVENT",
+        "evidence": "trong đó dự án Royal Island đóng góp 81%."
+    },
+    {
+        "text": "Royal Island",
+        "label": "ASSET",
+        "evidence": "dự án Royal Island đóng góp 81%."
+    },
+    {
+        "text": "81%",
+        "label": "RATE",
+        "evidence": "đóng góp 81%."
+    },
+    {
+        "text": "cuối quý 2/2024",
+        "label": "DATE",
+        "evidence": "Tính đến cuối quý 2/2024"
+    },
+    {
+        "text": "doanh số bán hàng chưa ghi nhận của VHM là 118.700 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "doanh số bán hàng chưa ghi nhận của VHM là 118.700 tỷ đồng, tăng 33% so với cùng kỳ"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "của VHM là 118.700 tỷ đồng"
+    },
+    {
+        "text": "118.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 118.700 tỷ đồng"
+    },
+    {
+        "text": "33%",
+        "label": "RATE",
+        "evidence": "tăng 33% so với cùng kỳ"
+    },
+    {
+        "text": "doanh số bán lô lớn chiếm 58%",
+        "label": "EVENT",
+        "evidence": "với doanh số bán lô lớn chiếm 58%."
+    },
+    {
+        "text": "58%",
+        "label": "RATE",
+        "evidence": "chiếm 58%."
+    },
+    {
+        "text": "Ban lãnh đạo kỳ vọng 55% doanh số bán hàng chưa ghi nhận sẽ được ghi nhận trong nửa cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "Ban lãnh đạo kỳ vọng 55% doanh số bán hàng chưa ghi nhận sẽ được ghi nhận trong nửa cuối năm 2024."
+    },
+    {
+        "text": "55%",
+        "label": "RATE",
+        "evidence": "55% doanh số bán hàng"
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm 2024."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Nguồn: VHM, Vietcap tổng hợp."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Nguồn: VHM, Vietcap tổng hợp."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Vietcap cho hay"
+    },
+    {
+        "text": "ban lãnh đạo VHM có kế hoạch mở bán 2 dự án mới tại Hà Nội trong nửa cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "ban lãnh đạo VHM có kế hoạch mở bán 2 dự án mới tại Hà Nội trong nửa cuối năm 2024, cùng với việc tiếp tục bán hàng tại các dự án hiện hữu."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "ban lãnh đạo VHM"
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm 2024"
+    },
+    {
+        "text": "tiếp tục bán hàng tại các dự án hiện hữu",
+        "label": "EVENT",
+        "evidence": "cùng với việc tiếp tục bán hàng tại các dự án hiện hữu."
+    },
+    {
+        "text": "tháng 7/2024",
+        "label": "DATE",
+        "evidence": "trong tháng 7/2024"
+    },
+    {
+        "text": "VHM đã mở bán The Royal Residence",
+        "label": "EVENT",
+        "evidence": "VHM đã mở bán The Royal Residence (phân khu cao tầng của Vinhomes Star City Thanh Hóa) và ghi nhận tỷ lệ hấp thụ trong lần mở bán đầu tiên đạt 70% trong vòng 5 ngày."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM đã mở bán The Royal Residence"
+    },
+    {
+        "text": "The Royal Residence",
+        "label": "ASSET",
+        "evidence": "VHM đã mở bán The Royal Residence (phân khu cao tầng của Vinhomes Star City Thanh Hóa)"
+    },
+    {
+        "text": "Vinhomes Star City Thanh Hóa",
+        "label": "ORG",
+        "evidence": "của Vinhomes Star City Thanh Hóa"
+    },
+    {
+        "text": "ghi nhận tỷ lệ hấp thụ trong lần mở bán đầu tiên đạt 70% trong vòng 5 ngày",
+        "label": "EVENT",
+        "evidence": "ghi nhận tỷ lệ hấp thụ trong lần mở bán đầu tiên đạt 70% trong vòng 5 ngày."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "đạt 70%"
+    },
+    {
+        "text": "5 ngày",
+        "label": "DATE",
+        "evidence": "trong vòng 5 ngày."
+    },
+    {
+        "text": "Khu công nghiệp Vinhomes Vũng Áng",
+        "label": "ASSET",
+        "evidence": "Khu công nghiệp Vinhomes Vũng Áng cũng được chấp thuận chủ trương đầu tư."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM hiện có một KCN đang hoạt động là Tổ hợp Sản xuất Ô tô VinFast tại Hải Phòng"
+    },
+    {
+        "text": "Tổ hợp Sản xuất Ô tô VinFast",
+        "label": "ORG",
+        "evidence": "Tổ hợp Sản xuất Ô tô VinFast tại Hải Phòng"
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Tổ hợp Sản xuất Ô tô VinFast tại Hải Phòng"
+    },
+    {
+        "text": "276 ha",
+        "label": "VOLUME",
+        "evidence": "tổng diện tích là 276 ha"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "tỷ lệ lấp đầy 100%"
+    },
+    {
+        "text": "ngày 13/07",
+        "label": "DATE",
+        "evidence": "Vào ngày 13/07, Phó Thủ tướng đã ký quyết định chấp thuận chủ trương đầu tư KCN Vinhomes Vũng Áng (tổng diện tích là 965ha; Hà Tĩnh)."
+    },
+    {
+        "text": "Phó Thủ tướng đã ký quyết định chấp thuận chủ trương đầu tư KCN Vinhomes Vũng Áng",
+        "label": "EVENT",
+        "evidence": "Phó Thủ tướng đã ký quyết định chấp thuận chủ trương đầu tư KCN Vinhomes Vũng Áng (tổng diện tích là 965ha; Hà Tĩnh)."
+    },
+    {
+        "text": "KCN Vinhomes Vũng Áng",
+        "label": "ASSET",
+        "evidence": "chủ trương đầu tư KCN Vinhomes Vũng Áng"
+    },
+    {
+        "text": "965ha",
+        "label": "VOLUME",
+        "evidence": "tổng diện tích là 965ha"
+    },
+    {
+        "text": "mảng này đóng góp không đáng kể vào triển vọng lợi nhuận giai đoạn 2024-2026 của VHM",
+        "label": "EVENT",
+        "evidence": "chúng tôi cho rằng mảng này đóng góp không đáng kể vào triển vọng lợi nhuận giai đoạn 2024-2026 của VHM"
+    },
+    {
+        "text": "2024-2026",
+        "label": "DATE",
+        "evidence": "giai đoạn 2024-2026"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "của VHM\", Vietcap dẫn lời của ban lãnh đạo VHM."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Vietcap dẫn lời của ban lãnh đạo VHM."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "của ban lãnh đạo VHM."
+    }
+]

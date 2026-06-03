@@ -1,0 +1,107 @@
+[
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ HOSE, giao dịch dự kiến được thực hiện từ ngày 13/4/2023 - 12/5/2023."
+    },
+    {
+        "text": "giao dịch dự kiến được thực hiện từ ngày 13/4/2023 - 12/5/2023",
+        "label": "EVENT",
+        "evidence": "Theo thông tin từ HOSE, giao dịch dự kiến được thực hiện từ ngày 13/4/2023 - 12/5/2023."
+    },
+    {
+        "text": "ngày 13/4/2023",
+        "label": "DATE",
+        "evidence": "Theo thông tin từ HOSE, giao dịch dự kiến được thực hiện từ ngày 13/4/2023 - 12/5/2023."
+    },
+    {
+        "text": "12/5/2023",
+        "label": "DATE",
+        "evidence": "Theo thông tin từ HOSE, giao dịch dự kiến được thực hiện từ ngày 13/4/2023 - 12/5/2023."
+    },
+    {
+        "text": "Ông Trần Tú Thi",
+        "label": "PERSON",
+        "evidence": "Ông Trần Tú Thi là người nhà của ông Nguyễn Thành Đô - Phó chủ tịch HĐQT HDBank."
+    },
+    {
+        "text": "Ông Nguyễn Thành Đô",
+        "label": "PERSON",
+        "evidence": "Ông Trần Tú Thi là người nhà của ông Nguyễn Thành Đô - Phó chủ tịch HĐQT HDBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Ông Trần Tú Thi là người nhà của ông Nguyễn Thành Đô - Phó chủ tịch HĐQT HDBank."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2023 đến nay, nhiều lãnh đạo HDBank đã hoàn tất mua vào cổ phiếu HDB."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Từ đầu năm 2023 đến nay, nhiều lãnh đạo HDBank đã hoàn tất mua vào cổ phiếu HDB."
+    },
+    {
+        "text": "hoàn tất mua vào cổ phiếu HDB",
+        "label": "EVENT",
+        "evidence": "Từ đầu năm 2023 đến nay, nhiều lãnh đạo HDBank đã hoàn tất mua vào cổ phiếu HDB."
+    },
+    {
+        "text": "cổ phiếu HDB",
+        "label": "ASSET",
+        "evidence": "Từ đầu năm 2023 đến nay, nhiều lãnh đạo HDBank đã hoàn tất mua vào cổ phiếu HDB."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Từ đầu năm 2023 đến nay, nhiều lãnh đạo HDBank đã hoàn tất mua vào cổ phiếu HDB."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, HDBank cũng thu hút sự quan tâm đầu tư lớn của nhà đầu tư nước ngoài."
+    },
+    {
+        "text": "10 ngày đầu tháng 4/2022",
+        "label": "DATE",
+        "evidence": "Theo dữ liệu giao dịch, chỉ riêng 10 ngày đầu tháng 4/2022, khối ngoại mua ròng gần 7 triệu cổ phiếu HDB và room ngoại sắp kín."
+    },
+    {
+        "text": "khối ngoại mua ròng gần 7 triệu cổ phiếu HDB",
+        "label": "EVENT",
+        "evidence": "Theo dữ liệu giao dịch, chỉ riêng 10 ngày đầu tháng 4/2022, khối ngoại mua ròng gần 7 triệu cổ phiếu HDB và room ngoại sắp kín."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Theo dữ liệu giao dịch, chỉ riêng 10 ngày đầu tháng 4/2022, khối ngoại mua ròng gần 7 triệu cổ phiếu HDB và room ngoại sắp kín."
+    },
+    {
+        "text": "Phiên 10/4",
+        "label": "DATE",
+        "evidence": "Phiên 10/4, HDB được khối ngoại mua ròng nhiều nhất rổ VN30 đạt 2,6 triệu cổ phiếu."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Phiên 10/4, HDB được khối ngoại mua ròng nhiều nhất rổ VN30 đạt 2,6 triệu cổ phiếu."
+    },
+    {
+        "text": "khối ngoại mua ròng nhiều nhất rổ VN30",
+        "label": "EVENT",
+        "evidence": "Phiên 10/4, HDB được khối ngoại mua ròng nhiều nhất rổ VN30 đạt 2,6 triệu cổ phiếu."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "Phiên 10/4, HDB được khối ngoại mua ròng nhiều nhất rổ VN30 đạt 2,6 triệu cổ phiếu."
+    },
+    {
+        "text": "2,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Phiên 10/4, HDB được khối ngoại mua ròng nhiều nhất rổ VN30 đạt 2,6 triệu cổ phiếu."
+    }
+]

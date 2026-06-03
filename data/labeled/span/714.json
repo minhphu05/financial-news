@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 ngân hàng thương mại nhà nước, gồm Agribank, BIDV, VietinBank và Vietcombank, luôn là lựa chọn hàng đầu của khách hàng khi gửi tiết kiệm nhờ uy tín và mạng lưới hoạt động rộng khắp."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 ngân hàng thương mại nhà nước, gồm Agribank, BIDV, VietinBank và Vietcombank, luôn là lựa chọn hàng đầu của khách hàng khi gửi tiết kiệm nhờ uy tín và mạng lưới hoạt động rộng khắp."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 ngân hàng thương mại nhà nước, gồm Agribank, BIDV, VietinBank và Vietcombank, luôn là lựa chọn hàng đầu của khách hàng khi gửi tiết kiệm nhờ uy tín và mạng lưới hoạt động rộng khắp."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 ngân hàng thương mại nhà nước, gồm Agribank, BIDV, VietinBank và Vietcombank, luôn là lựa chọn hàng đầu của khách hàng khi gửi tiết kiệm nhờ uy tín và mạng lưới hoạt động rộng khắp."
+    },
+    {
+        "text": "Nhóm Big 4 ngân hàng thương mại nhà nước",
+        "label": "ORG",
+        "evidence": "Nhóm Big 4 ngân hàng thương mại nhà nước, gồm Agribank, BIDV, VietinBank và Vietcombank, luôn là lựa chọn hàng đầu của khách hàng khi gửi tiết kiệm nhờ uy tín và mạng lưới hoạt động rộng khắp."
+    },
+    {
+        "text": "lãi suất tiết kiệm kỳ hạn 1 tháng",
+        "label": "ASSET",
+        "evidence": "Vậy ngân hàng nào đang dẫn đầu về lãi suất tiết kiệm kỳ hạn 1 tháng trong tháng 6/2025?"
+    },
+    {
+        "text": "tháng 6/2025",
+        "label": "DATE",
+        "evidence": "Vậy ngân hàng nào đang dẫn đầu về lãi suất tiết kiệm kỳ hạn 1 tháng trong tháng 6/2025?"
+    },
+    {
+        "text": "ngày 23/6/2025",
+        "label": "DATE",
+        "evidence": "Theo khảo sát mới nhất vào ngày 23/6/2025, lãi suất tiết kiệm kỳ hạn 1 tháng của nhóm Big 4 dao động trong khoảng1,6% đến 2,1%/nămđối với hình thức gửi tại quầy, và nhỉnh hơn một chút khi gửi trực tuyến."
+    },
+    {
+        "text": "1,6% đến 2,1%/năm",
+        "label": "RATE",
+        "evidence": "Theo khảo sát mới nhất vào ngày 23/6/2025, lãi suất tiết kiệm kỳ hạn 1 tháng của nhóm Big 4 dao động trong khoảng1,6% đến 2,1%/nămđối với hình thức gửi tại quầy, và nhỉnh hơn một chút khi gửi trực tuyến."
+    },
+    {
+        "text": "2,1",
+        "label": "RATE",
+        "evidence": "Agribank\n2,1"
+    },
+    {
+        "text": "1,6",
+        "label": "RATE",
+        "evidence": "BIDV\n1,6"
+    },
+    {
+        "text": "2,1%/năm",
+        "label": "RATE",
+        "evidence": "Agribank hiện dẫn đầu nhóm Big 4 với lãi suất kỳ hạn 1 tháng là2,1%/nămkhi gửi tại quầy."
+    },
+    {
+        "text": "Agribank cũng là ngân hàng duy nhất trong nhóm Big 4 điều chỉnh tăng lãi suất kỳ hạn ngắn vào đầu năm 2025",
+        "label": "EVENT",
+        "evidence": "Agribank cũng là ngân hàng duy nhất trong nhóm Big 4 điều chỉnh tăng lãi suất kỳ hạn ngắn vào đầu năm 2025, giúp củng cố vị thế dẫn đầu ở phân khúc này."
+    },
+    {
+        "text": "đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Agribank cũng là ngân hàng duy nhất trong nhóm Big 4 điều chỉnh tăng lãi suất kỳ hạn ngắn vào đầu năm 2025, giúp củng cố vị thế dẫn đầu ở phân khúc này."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "BIDV duy trì lãi suất ổn định trong năm 2025, không có nhiều biến động ở kỳ hạn ngắn."
+    },
+    {
+        "text": "tiền gửi kỳ hạn 1 tháng",
+        "label": "ASSET",
+        "evidence": "VietinBankvà Vietcombank cũng áp dụng lãi suất1,6%/nămcho tiền gửi kỳ hạn 1 tháng tại quầy."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Nếu gửi100 triệu đồngkỳ hạn 1 tháng tại Agribank, số tiền lãi nhận được sẽ là: 100 triệu × 2,1% ÷ 12 =175.000 đồng"
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "Nếu gửi100 triệu đồngkỳ hạn 1 tháng tại Agribank, số tiền lãi nhận được sẽ là: 100 triệu × 2,1% ÷ 12 =175.000 đồng"
+    },
+    {
+        "text": "175.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu gửi100 triệu đồngkỳ hạn 1 tháng tại Agribank, số tiền lãi nhận được sẽ là: 100 triệu × 2,1% ÷ 12 =175.000 đồng"
+    },
+    {
+        "text": "1,6%",
+        "label": "RATE",
+        "evidence": "Với100 triệu đồnggửi kỳ hạn 1 tháng tại BIDV, Vietcombank và VietinBank số tiền lãi là: 100 triệu × 1,6% ÷ 12 =133.333 đồng."
+    },
+    {
+        "text": "133.333 đồng",
+        "label": "MONEY",
+        "evidence": "Với100 triệu đồnggửi kỳ hạn 1 tháng tại BIDV, Vietcombank và VietinBank số tiền lãi là: 100 triệu × 1,6% ÷ 12 =133.333 đồng."
+    }
+]

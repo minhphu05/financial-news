@@ -1,0 +1,257 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "vị lãnh đạo FPT đề cập về các quan điểm về doanh nghiệp tư nhân và doanh nghiệp FDI."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "doanh nghiệp tư nhân chỉ chiếm có 10% GDP thôi"
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "doanh nghiệp tư nhân chỉ chiếm có 10% GDP thôi"
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "tăng trưởng GDP của Việt Nam chủ yếu dựa vào FDI"
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo thắc mắc, không hiểu tại sao các thông tin vừa cũ vừa lạc hậu, vừa sai như thế lại “cứ nói triền miên năm này qua năm khác mà không có ai cải chính”."
+    },
+    {
+        "text": "Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ông Đỗ Cao Bảo - thành viên HĐQT Tập đoàn FPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "vị lãnh đạo của FPT lấy dẫn chứng trong Niên giám thống kê năm 2023 để phân tích."
+    },
+    {
+        "text": "Niên giám thống kê năm 2023",
+        "label": "EVENT",
+        "evidence": "Niên giám thống kê năm 2023 để phân tích."
+    },
+    {
+        "text": "NIÊN GIÁM THỐNG KÊ 2023",
+        "label": "EVENT",
+        "evidence": "NIÊN GIÁM THỐNG KÊ 2023 (của Tổng cục Thống kê, mới phát hành tháng 12/2024)"
+    },
+    {
+        "text": "Tổng cục Thống kê",
+        "label": "ORG",
+        "evidence": "NIÊN GIÁM THỐNG KÊ 2023 (của Tổng cục Thống kê, mới phát hành tháng 12/2024)"
+    },
+    {
+        "text": "tháng 12/2024",
+        "label": "DATE",
+        "evidence": "mới phát hành tháng 12/2024"
+    },
+    {
+        "text": "1.861",
+        "label": "VOLUME",
+        "evidence": "- Nhà nước: 1.861"
+    },
+    {
+        "text": "22.930",
+        "label": "VOLUME",
+        "evidence": "- FDI: 22.930"
+    },
+    {
+        "text": "735.500",
+        "label": "VOLUME",
+        "evidence": "- Tư nhân: 735.500"
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Doanh thu 2022 của doanh nghiệp (tỷ đồng):"
+    },
+    {
+        "text": "4,31 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "- Nhà nước: 4,31 triệu tỷ, chiếm 11%, tăng trưởng 27,5%"
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "chiếm 11%, tăng trưởng 27,5%"
+    },
+    {
+        "text": "27,5%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 27,5%"
+    },
+    {
+        "text": "10,98 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "- FDI: 10,98 triệu tỷ, chiếm 30,52%, tăng trưởng 16,1%"
+    },
+    {
+        "text": "30,52%",
+        "label": "RATE",
+        "evidence": "chiếm 30,52%, tăng trưởng 16,1%"
+    },
+    {
+        "text": "16,1%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 16,1%"
+    },
+    {
+        "text": "20,68 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "- Tư nhân: 20,68 triệu tỷ, chiếm 57,5%, tăng trưởng 17,6%"
+    },
+    {
+        "text": "57,5%",
+        "label": "RATE",
+        "evidence": "chiếm 57,5%, tăng trưởng 17,6%"
+    },
+    {
+        "text": "17,6%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 17,6%"
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Tổng thu nhập 2022 của người lao động (tỷ đồng):"
+    },
+    {
+        "text": "204.340 tỷ",
+        "label": "MONEY",
+        "evidence": "- Nhà nước: 204.340 tỷ, chiếm 9,88%"
+    },
+    {
+        "text": "9,88%",
+        "label": "RATE",
+        "evidence": "chiếm 9,88%"
+    },
+    {
+        "text": "790.431 tỷ",
+        "label": "MONEY",
+        "evidence": "- FDI: 790.431 tỷ, chiếm 38,22%"
+    },
+    {
+        "text": "38,22%",
+        "label": "RATE",
+        "evidence": "chiếm 38,22%"
+    },
+    {
+        "text": "1.073.113 tỷ",
+        "label": "MONEY",
+        "evidence": "- Tư nhân: 1.073.113 tỷ, chiếm 51,89%"
+    },
+    {
+        "text": "51,89%",
+        "label": "RATE",
+        "evidence": "chiếm 51,89%"
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "Đóng góp vào GDP quốc gia theo giá hiện hành (tỷ đồng):"
+    },
+    {
+        "text": "1,96 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "- DN Nhà nước: 1,96 triệu tỷ đồng, 20,54%"
+    },
+    {
+        "text": "20,54%",
+        "label": "RATE",
+        "evidence": "20,54%"
+    },
+    {
+        "text": "1,95 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "- DN FDI: 1,95 triệu tỷ đồng, 20,46%"
+    },
+    {
+        "text": "20,46%",
+        "label": "RATE",
+        "evidence": "20,46%"
+    },
+    {
+        "text": "4,82 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "- Khối tư nhân: 4,82 triệu tỷ đồng, 50,46% (DN tư nhân 29,46%, hộ gia đình 21%)."
+    },
+    {
+        "text": "50,46%",
+        "label": "RATE",
+        "evidence": "50,46% (DN tư nhân 29,46%, hộ gia đình 21%)."
+    },
+    {
+        "text": "29,46%",
+        "label": "RATE",
+        "evidence": "DN tư nhân 29,46%, hộ gia đình 21%"
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "hộ gia đình 21%"
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "đóng góp vào GDP của DN tư nhân đều vượt trội so với DN FDI."
+    },
+    {
+        "text": "12,64 triệu",
+        "label": "MONEY",
+        "evidence": "DN FDI 12,64 triệu tháng, DN Tư nhân 10,2 triệu tháng."
+    },
+    {
+        "text": "10,2 triệu",
+        "label": "MONEY",
+        "evidence": "DN Tư nhân 10,2 triệu tháng."
+    },
+    {
+        "text": "16,93 triệu",
+        "label": "MONEY",
+        "evidence": "DN Nhà nước (16,93 triệu tháng)”."
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Cuối cùng, ông Bảo kết luận: “May mắn là các người làm chiến lược, kế hoạch kinh tế của quốc gia không nghe theo những thông tin sai lệch này”."
+    },
+    {
+        "text": "GDP",
+        "label": "ASSET",
+        "evidence": "số liệu GDP là năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "số liệu GDP là năm 2023"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "số liệu về số doanh nghiệp, doanh thu, tổng thu nhập, hiệu suất là năm 2022"
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "cuối năm 2024 mới thống kê xong số liệu của doanh nghiệp năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "số liệu của doanh nghiệp năm 2022."
+    }
+]

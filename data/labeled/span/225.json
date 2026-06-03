@@ -1,0 +1,547 @@
+[
+    {
+        "text": "Ngân hàng TMCP Á Châu",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa áp dụng biểu lãi suất huy động mới từ ngày hôm nay (31/7)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa áp dụng biểu lãi suất huy động mới từ ngày hôm nay (31/7)."
+    },
+    {
+        "text": "áp dụng biểu lãi suất huy động mới",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa áp dụng biểu lãi suất huy động mới từ ngày hôm nay (31/7)."
+    },
+    {
+        "text": "31/7",
+        "label": "DATE",
+        "evidence": "Ngân hàng TMCP Á Châu (ACB) vừa áp dụng biểu lãi suất huy động mới từ ngày hôm nay (31/7)."
+    },
+    {
+        "text": "ACB tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Đây là lần đầu tiên ACB tăng lãi suất huy động trong tháng 7."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Đây là lần đầu tiên ACB tăng lãi suất huy động trong tháng 7."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "sản phẩm có lãi suất cao nhất,ACBchia biểu lãi suất theo mức tiền gửi, lần lượt là: dưới 200 triệu đồng, từ 200 triệu đồng đến dưới 1 tỷ đồng, từ 1 tỷ đồng đến dưới 5 tỷ đồng và từ 5 tỷ đồng trở lên."
+    },
+    {
+        "text": "dưới 200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt là: dưới 200 triệu đồng, từ 200 triệu đồng đến dưới 1 tỷ đồng, từ 1 tỷ đồng đến dưới 5 tỷ đồng và từ 5 tỷ đồng trở lên."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "MONEY",
+        "evidence": "từ 200 triệu đồng đến dưới 1 tỷ đồng"
+    },
+    {
+        "text": "dưới 1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 200 triệu đồng đến dưới 1 tỷ đồng"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 1 tỷ đồng đến dưới 5 tỷ đồng"
+    },
+    {
+        "text": "dưới 5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 1 tỷ đồng đến dưới 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "từ 5 tỷ đồng trở lên."
+    },
+    {
+        "text": "tăng thêm 0,2%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn 1 tháng đã tăng thêm 0,2%/năm, lên dao động trong khoảng 3,0 – 3,2%/năm tùy vào mức tiền gửi;"
+    },
+    {
+        "text": "3,0 – 3,2%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn 1 tháng đã tăng thêm 0,2%/năm, lên dao động trong khoảng 3,0 – 3,2%/năm tùy vào mức tiền gửi;"
+    },
+    {
+        "text": "tăng 0,2%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 2 tháng cùng tăng 0,2%/năm lên dao động trong khoảng 3,1 – 3,3%/năm;"
+    },
+    {
+        "text": "3,1 – 3,3%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 2 tháng cùng tăng 0,2%/năm lên dao động trong khoảng 3,1 – 3,3%/năm;"
+    },
+    {
+        "text": "tăng 0,3%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 3 tháng tăng 0,3%/năm lên dao động trong khoảng 3,4 – 3,6%/năm;"
+    },
+    {
+        "text": "3,4 – 3,6%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 3 tháng tăng 0,3%/năm lên dao động trong khoảng 3,4 – 3,6%/năm;"
+    },
+    {
+        "text": "tăng 0,25%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất huy động kỳ hạn 6 tháng tăng 0,25%/năm lên khoảng 4,5 – 4,35%/năm;"
+    },
+    {
+        "text": "4,5 – 4,35%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất huy động kỳ hạn 6 tháng tăng 0,25%/năm lên khoảng 4,5 – 4,35%/năm;"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Lãi suất các kỳ hạn 9 tháng được ACB tăng thêm 0,2%/năm, hiện dao động trong vùng 4,2 – 4,4%/năm;"
+    },
+    {
+        "text": "tăng thêm 0,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất các kỳ hạn 9 tháng được ACB tăng thêm 0,2%/năm, hiện dao động trong vùng 4,2 – 4,4%/năm;"
+    },
+    {
+        "text": "4,2 – 4,4%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất các kỳ hạn 9 tháng được ACB tăng thêm 0,2%/năm, hiện dao động trong vùng 4,2 – 4,4%/năm;"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với kỳ hạn 12 tháng, ACB tăng thêm 0,1%/năm so với trước đó, hiện nằm trong khoảng 4,8 – 5,0%/năm."
+    },
+    {
+        "text": "tăng thêm 0,1%/năm",
+        "label": "RATE",
+        "evidence": "Với kỳ hạn 12 tháng, ACB tăng thêm 0,1%/năm so với trước đó, hiện nằm trong khoảng 4,8 – 5,0%/năm."
+    },
+    {
+        "text": "4,8 – 5,0%/năm",
+        "label": "RATE",
+        "evidence": "Với kỳ hạn 12 tháng, ACB tăng thêm 0,1%/năm so với trước đó, hiện nằm trong khoảng 4,8 – 5,0%/năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Như vậy, mức lãi suất huy động cao nhất hiện nay theo biểu lãi suất huy động trực tuyến tại ACB là 5,0%/năm, áp dụng cho tài khoản tiền gửi từ 5 tỷ đồng tại kỳ hạn 12 tháng."
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "mức lãi suất huy động cao nhất hiện nay theo biểu lãi suất huy động trực tuyến tại ACB là 5,0%/năm, áp dụng cho tài khoản tiền gửi từ 5 tỷ đồng tại kỳ hạn 12 tháng."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "áp dụng cho tài khoản tiền gửi từ 5 tỷ đồng tại kỳ hạn 12 tháng."
+    },
+    {
+        "text": "4,8 – 4,95%",
+        "label": "RATE",
+        "evidence": "Với số tiền gửi ít hơn, lãi suất cao nhất khách hàng được nhận nằm trong khoảng 4,8 – 4,95%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB là ngân hàng tư nhân lớn tiếp theo gia nhập cuộc đua lãi suất huy động trong tháng 7."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "ACB là ngân hàng tư nhân lớn tiếp theo gia nhập cuộc đua lãi suất huy động trong tháng 7."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Trước đó, SHB, MB, VPBank và Sacombank cũng có động thái tương tự."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Trước đó, SHB, MB, VPBank và Sacombank cũng có động thái tương tự."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước đó, SHB, MB, VPBank và Sacombank cũng có động thái tương tự."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trước đó, SHB, MB, VPBank và Sacombank cũng có động thái tương tự."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Mới nhất, SHB tăng lãi suất huy động các kỳ hạn ngắn từ 1-5 tháng thêm 0,2 %/năm kể từ ngày hôm qua 30/7"
+    },
+    {
+        "text": "SHB tăng lãi suất huy động các kỳ hạn ngắn từ 1-5 tháng thêm 0,2 %/năm",
+        "label": "EVENT",
+        "evidence": "Mới nhất, SHB tăng lãi suất huy động các kỳ hạn ngắn từ 1-5 tháng thêm 0,2 %/năm kể từ ngày hôm qua 30/7"
+    },
+    {
+        "text": "0,2 %/năm",
+        "label": "RATE",
+        "evidence": "SHB tăng lãi suất huy động các kỳ hạn ngắn từ 1-5 tháng thêm 0,2 %/năm kể từ ngày hôm qua 30/7"
+    },
+    {
+        "text": "30/7",
+        "label": "DATE",
+        "evidence": "kể từ ngày hôm qua 30/7"
+    },
+    {
+        "text": "cuối tháng 3",
+        "label": "DATE",
+        "evidence": "lãi suất huy động đã rục rịch tăng trở lại từ cuối tháng 3 và diễn ra trên diện rộng vào tháng 4, tháng 5 và tháng 6."
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "diễn ra trên diện rộng vào tháng 4, tháng 5 và tháng 6."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "diễn ra trên diện rộng vào tháng 4, tháng 5 và tháng 6."
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "diễn ra trên diện rộng vào tháng 4, tháng 5 và tháng 6."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Bước sang tháng 7, đã có khoảng 20 ngân hàng điều chỉnh tăng lãi suất huy động, gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "điều chỉnh tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "đã có khoảng 20 ngân hàng điều chỉnh tăng lãi suất huy động, gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "BaoViet Bank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "KienLong Bank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "PVCombank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "Bac A Bank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "gồm: NCB, Eximbank, SeABank, VIB, BaoViet Bank, Saigonbank, VietBank, MB, BVBank, KienLong Bank, VPBank, PVCombank, PGBank, Sacombank, BIDV, ABBank, Bac A Bank, SHB, ACB và Cake by VPBank."
+    },
+    {
+        "text": "tăng lãi suất huy động 2 - 3 lần",
+        "label": "EVENT",
+        "evidence": "Trong đó, nhiều ngân hàng đã tăng lãi suất huy động 2 - 3 lần."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "hoạt động can thiệp của Ngân hàng Nhà nước (NHNN) thông qua các công cụ tín phiếu và bán ngoại tệ cũng ảnh hưởng tới thanh khoản tiền Đồng của các ngân hàng."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "hoạt động can thiệp của Ngân hàng Nhà nước (NHNN) thông qua các công cụ tín phiếu và bán ngoại tệ cũng ảnh hưởng tới thanh khoản tiền Đồng của các ngân hàng."
+    },
+    {
+        "text": "tín phiếu",
+        "label": "ASSET",
+        "evidence": "thông qua các công cụ tín phiếu và bán ngoại tệ cũng ảnh hưởng tới thanh khoản tiền Đồng của các ngân hàng."
+    },
+    {
+        "text": "bán ngoại tệ",
+        "label": "EVENT",
+        "evidence": "thông qua các công cụ tín phiếu và bán ngoại tệ cũng ảnh hưởng tới thanh khoản tiền Đồng của các ngân hàng."
+    },
+    {
+        "text": "Công ty cổ phần Chứng khoán Rồng Việt",
+        "label": "ORG",
+        "evidence": "Chuyên gia của Công ty cổ phần Chứng khoán Rồng Việt (VDSC) cho rằng, lãi suất huy động tăng trở lại là một kịch bản phù hợp dựa trên biến động của kỳ vọng tỷ giá và chính sách lãi suất."
+    },
+    {
+        "text": "VDSC",
+        "label": "ORG",
+        "evidence": "Chuyên gia của Công ty cổ phần Chứng khoán Rồng Việt (VDSC) cho rằng, lãi suất huy động tăng trở lại là một kịch bản phù hợp dựa trên biến động của kỳ vọng tỷ giá và chính sách lãi suất."
+    },
+    {
+        "text": "đầu quý II",
+        "label": "DATE",
+        "evidence": "Thực tế, từ đầu quý II, mặt bằng lãi suất VND bắt đầu tăng và đến giữa năm, mức lãi suất huy động VND từ các ngân hàng đã tăng khoảng 0,5% đến 1% cho các kỳ hạn khác nhau."
+    },
+    {
+        "text": "0,5% đến 1%",
+        "label": "RATE",
+        "evidence": "mức lãi suất huy động VND từ các ngân hàng đã tăng khoảng 0,5% đến 1% cho các kỳ hạn khác nhau."
+    },
+    {
+        "text": "lãi suất thị trường mở (OMO)",
+        "label": "RATE",
+        "evidence": "Các mức lãi suất can thiệp thị trường từ cơ quan quản lý như lãi suất thị trường mở (OMO), lãi suất phát hành tín phiếu cũng được điều chỉnh cao hơn."
+    },
+    {
+        "text": "lãi suất phát hành tín phiếu",
+        "label": "RATE",
+        "evidence": "Các mức lãi suất can thiệp thị trường từ cơ quan quản lý như lãi suất thị trường mở (OMO), lãi suất phát hành tín phiếu cũng được điều chỉnh cao hơn."
+    },
+    {
+        "text": "VDSC",
+        "label": "ORG",
+        "evidence": "VDSC đưa ra dự báo, mặt bằng lãi suất VND trong 6 tháng cuối năm có thể tiếp tục tăng nhẹ 0,25 - 0,75%."
+    },
+    {
+        "text": "6 tháng cuối năm",
+        "label": "DATE",
+        "evidence": "VDSC đưa ra dự báo, mặt bằng lãi suất VND trong 6 tháng cuối năm có thể tiếp tục tăng nhẹ 0,25 - 0,75%."
+    },
+    {
+        "text": "0,25 - 0,75%",
+        "label": "RATE",
+        "evidence": "VDSC đưa ra dự báo, mặt bằng lãi suất VND trong 6 tháng cuối năm có thể tiếp tục tăng nhẹ 0,25 - 0,75%."
+    },
+    {
+        "text": "Chứng khoán KB Việt Nam",
+        "label": "ORG",
+        "evidence": "Chứng khoán KB Việt Nam (KBSV) cũng đưa ra nhận định: “lãi suất huy động sẽ tiếp tục tăng thêm 50 điểm cơ bản từ nay cho tới cuối năm, lên mức quanh vùng đáy COVID-19 giai đoạn 2020-2021”."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Chứng khoán KB Việt Nam (KBSV) cũng đưa ra nhận định: “lãi suất huy động sẽ tiếp tục tăng thêm 50 điểm cơ bản từ nay cho tới cuối năm, lên mức quanh vùng đáy COVID-19 giai đoạn 2020-2021”."
+    },
+    {
+        "text": "tăng thêm 50 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "“lãi suất huy động sẽ tiếp tục tăng thêm 50 điểm cơ bản từ nay cho tới cuối năm, lên mức quanh vùng đáy COVID-19 giai đoạn 2020-2021”."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "tăng thêm 50 điểm cơ bản từ nay cho tới cuối năm"
+    },
+    {
+        "text": "2020-2021",
+        "label": "DATE",
+        "evidence": "lên mức quanh vùng đáy COVID-19 giai đoạn 2020-2021”."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Theo các chuyên gia của KBSV, các yếu tố trọng yếu tác động tới mặt bằng lãi suất huy động từ nay đến cuối năm bao gồm:"
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "tới mặt bằng lãi suất huy động từ nay đến cuối năm"
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "Thứ nhất, tỷ giá trong quý III/2024 vẫn sẽ có các biến động trồi sụt, mặc dù rủi ro tăng mạnh trở lại không còn đáng ngại."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo đó, NHNN vẫn sẽ duy trì định hướng giữ nền lãi suất liên ngân hàng ở mức cao vừa đủ để hạn chế carry trade, song song với nghiệp vụ bán USD để đáp ứng nhu cầu của doanh nghiệp trong bối cảnh nhập khẩu được dự báo sẽ tiếp tục gia tăng trong thời gian tới."
+    },
+    {
+        "text": "bán USD",
+        "label": "EVENT",
+        "evidence": "song song với nghiệp vụ bán USD để đáp ứng nhu cầu của doanh nghiệp trong bối cảnh nhập khẩu được dự báo sẽ tiếp tục gia tăng trong thời gian tới."
+    },
+    {
+        "text": "USD",
+        "label": "MONEY",
+        "evidence": "song song với nghiệp vụ bán USD để đáp ứng nhu cầu của doanh nghiệp trong bối cảnh nhập khẩu được dự báo sẽ tiếp tục gia tăng trong thời gian tới."
+    },
+    {
+        "text": "tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Những điều này sẽ tác động trực tiếp đến thanh khoản hệ thống và làm tăng lãi suất huy động ở thị trường 1, đặc biệt là ở nhóm NHTM tư nhân vừa và nhỏ có nguồn huy động kém linh hoạt và các ngân hàng ghi nhận tăng trưởng tín dụng tốt."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "từ đó khiến đà tăng của lãi suất huy động tiếp diễn vào cuối năm."
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "tăng trưởng tín dụng được dự báo sẽ phục hồi rõ nét hơn theo sự ấm lên của nền kinh tế trong nửa cuối năm 2024 trước những động lực chính bao gồm:"
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "tín dụng trong quý II/2024 đã ghi nhận sự cải thiện, tính đến ngày 30/6 đạt 6% (xét riêng quý II/2024 tín dụng tăng thêm 4,6 điểm %), chủ yếu được dẫn dắt bởi nhóm bất động sản và cho vay phát triển cơ sở hạ tầng."
+    },
+    {
+        "text": "30/6",
+        "label": "DATE",
+        "evidence": "tính đến ngày 30/6 đạt 6% (xét riêng quý II/2024 tín dụng tăng thêm 4,6 điểm %), chủ yếu được dẫn dắt bởi nhóm bất động sản và cho vay phát triển cơ sở hạ tầng."
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "tính đến ngày 30/6 đạt 6% (xét riêng quý II/2024 tín dụng tăng thêm 4,6 điểm %), chủ yếu được dẫn dắt bởi nhóm bất động sản và cho vay phát triển cơ sở hạ tầng."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "xét riêng quý II/2024 tín dụng tăng thêm 4,6 điểm %"
+    },
+    {
+        "text": "tăng thêm 4,6 điểm %",
+        "label": "RATE",
+        "evidence": "xét riêng quý II/2024 tín dụng tăng thêm 4,6 điểm %"
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "dự báo sẽ đi ngang hoặc nhích nhẹ vào cuối năm."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "lãi suất cho vay đã giảm xuống thấp tương đối so với mức đỉnh cuối năm 2022 theo chủ trương hạ lãi suất hỗ trợ phát triển kinh tế của Chính Phủ và NHNN."
+    },
+    {
+        "text": "Chính Phủ",
+        "label": "ORG",
+        "evidence": "theo chủ trương hạ lãi suất hỗ trợ phát triển kinh tế của Chính Phủ và NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "theo chủ trương hạ lãi suất hỗ trợ phát triển kinh tế của Chính Phủ và NHNN."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Tuy nhiên với diễn biến tăng trở lại của chi phí huy động vốn, các chuyên gia của KBSV cho rằng, lãi suất cho vay đã tạo đáy và nhiều khả năng sẽ đi ngang hoặc nhích nhẹ vào cuối năm."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "nhiều khả năng sẽ đi ngang hoặc nhích nhẹ vào cuối năm."
+    },
+    {
+        "text": "KBSV",
+        "label": "ORG",
+        "evidence": "Dẫu vậy, KBSV cho rằng, mức tăng cụ thể sẽ phụ thuộc vào từng ngân hàng."
+    },
+    {
+        "text": "Thông tư 02 sẽ hết hiệu lực",
+        "label": "EVENT",
+        "evidence": "trong khi Thông tư 02 sẽ hết hiệu lực vào cuối năm 2024 có thể khiến nhiều khách hàng bị nhảy nhóm nợ, khiến lãi suất cho vay phải được điều chỉnh hợp lý để cân đối với rủi ro của khách hàng."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "trong khi Thông tư 02 sẽ hết hiệu lực vào cuối năm 2024 có thể khiến nhiều khách hàng bị nhảy nhóm nợ, khiến lãi suất cho vay phải được điều chỉnh hợp lý để cân đối với rủi ro của khách hàng."
+    }
+]

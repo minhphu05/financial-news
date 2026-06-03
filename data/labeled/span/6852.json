@@ -1,0 +1,332 @@
+[
+    {
+        "text": "Ngân hàng Quốc tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Quốc tế Việt Nam (VIB)vừa thông báo về chính sách phát hành cổ phiếu thưởng cho cán bộ nhân viên."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngân hàng Quốc tế Việt Nam (VIB)vừa thông báo về chính sách phát hành cổ phiếu thưởng cho cán bộ nhân viên."
+    },
+    {
+        "text": "phát hành cổ phiếu thưởng cho cán bộ nhân viên",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Quốc tế Việt Nam (VIB)vừa thông báo về chính sách phát hành cổ phiếu thưởng cho cán bộ nhân viên."
+    },
+    {
+        "text": "hơn 110 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhà băng này sử dụng hơn 110 tỷ đồng từ nguồn vốn chủ sở hữu để phát hành cổ phiếu thưởng cho nhân viên (ESOP), tương ứng tổng 11 triệu cổ phiếu."
+    },
+    {
+        "text": "phát hành cổ phiếu thưởng cho nhân viên (ESOP)",
+        "label": "EVENT",
+        "evidence": "Nhà băng này sử dụng hơn 110 tỷ đồng từ nguồn vốn chủ sở hữu để phát hành cổ phiếu thưởng cho nhân viên (ESOP), tương ứng tổng 11 triệu cổ phiếu."
+    },
+    {
+        "text": "11 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Nhà băng này sử dụng hơn 110 tỷ đồng từ nguồn vốn chủ sở hữu để phát hành cổ phiếu thưởng cho nhân viên (ESOP), tương ứng tổng 11 triệu cổ phiếu."
+    },
+    {
+        "text": "21.000 đồng mỗi cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Nếu tính theo vùng giá 21.000 đồng mỗi cổ phiếu VIB duy trì từ đầu năm đến nay, số cổ phiếu thưởng này có trị giá hơn 230 tỷ đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "Nếu tính theo vùng giá 21.000 đồng mỗi cổ phiếu VIB duy trì từ đầu năm đến nay, số cổ phiếu thưởng này có trị giá hơn 230 tỷ đồng."
+    },
+    {
+        "text": "hơn 230 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu tính theo vùng giá 21.000 đồng mỗi cổ phiếu VIB duy trì từ đầu năm đến nay, số cổ phiếu thưởng này có trị giá hơn 230 tỷ đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Danh sách cán bộ được nhận cổ phiếu thưởng của VIB bao gồm 1.918 người."
+    },
+    {
+        "text": "1.000 đến 600.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong đó, số cổ phiếu mỗi người được thưởng dao động 1.000 đến 600.000 cổ phiếu, tùy chức vụ và hiệu quả làm việc."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Tính trên 12.000 nhân sự đang làm việc tại VIB, khoảng 16% nhân sự nhà băng này được phát thưởng cổ phiếu trong đợt này."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "Tính trên 12.000 nhân sự đang làm việc tại VIB, khoảng 16% nhân sự nhà băng này được phát thưởng cổ phiếu trong đợt này."
+    },
+    {
+        "text": "ông Lê Quang Trung",
+        "label": "PERSON",
+        "evidence": "Hiện, người được thưởng nhiều nhất là ông Lê Quang Trung - Giám đốc Khối nguồn vốn nhà băng, với gần 620.000 cổ phiếu, gấp hơn 4 lần Tổng giám đốc Hàn Ngọc Vũ."
+    },
+    {
+        "text": "gần 620.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Hiện, người được thưởng nhiều nhất là ông Lê Quang Trung - Giám đốc Khối nguồn vốn nhà băng, với gần 620.000 cổ phiếu, gấp hơn 4 lần Tổng giám đốc Hàn Ngọc Vũ."
+    },
+    {
+        "text": "Hàn Ngọc Vũ",
+        "label": "PERSON",
+        "evidence": "Hiện, người được thưởng nhiều nhất là ông Lê Quang Trung - Giám đốc Khối nguồn vốn nhà băng, với gần 620.000 cổ phiếu, gấp hơn 4 lần Tổng giám đốc Hàn Ngọc Vũ."
+    },
+    {
+        "text": "ngày 26/7",
+        "label": "DATE",
+        "evidence": "Tính theo giá chốt phiên ngày 26/7 là 20.900 đồng/cổ phiếu, ước tính giá trị thị trường của số cổ phiếu ông Trung được nhận sẽ rơi vào khoảng 12,9 tỷ đồng."
+    },
+    {
+        "text": "20.900 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Tính theo giá chốt phiên ngày 26/7 là 20.900 đồng/cổ phiếu, ước tính giá trị thị trường của số cổ phiếu ông Trung được nhận sẽ rơi vào khoảng 12,9 tỷ đồng."
+    },
+    {
+        "text": "12,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính theo giá chốt phiên ngày 26/7 là 20.900 đồng/cổ phiếu, ước tính giá trị thị trường của số cổ phiếu ông Trung được nhận sẽ rơi vào khoảng 12,9 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong năm 2023, ngân hàng đã phát hành 7,6 triệu cổ phiếu cho 1.700 nhân viên."
+    },
+    {
+        "text": "phát hành 7,6 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Trong năm 2023, ngân hàng đã phát hành 7,6 triệu cổ phiếu cho 1.700 nhân viên."
+    },
+    {
+        "text": "7,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong năm 2023, ngân hàng đã phát hành 7,6 triệu cổ phiếu cho 1.700 nhân viên."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Còn vào năm 2019, VIB cũng thực hiện phát hành 7,8 triệu cổ phiếu thưởng cho người lao động."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Còn vào năm 2019, VIB cũng thực hiện phát hành 7,8 triệu cổ phiếu thưởng cho người lao động."
+    },
+    {
+        "text": "phát hành 7,8 triệu cổ phiếu thưởng",
+        "label": "EVENT",
+        "evidence": "Còn vào năm 2019, VIB cũng thực hiện phát hành 7,8 triệu cổ phiếu thưởng cho người lao động."
+    },
+    {
+        "text": "7,8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Còn vào năm 2019, VIB cũng thực hiện phát hành 7,8 triệu cổ phiếu thưởng cho người lao động."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngoài VIB,Techcombankcũng đang lên kế hoạch phát hành ESOP."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ngoài VIB,Techcombankcũng đang lên kế hoạch phát hành ESOP."
+    },
+    {
+        "text": "lên kế hoạch phát hành ESOP",
+        "label": "EVENT",
+        "evidence": "Ngoài VIB,Techcombankcũng đang lên kế hoạch phát hành ESOP."
+    },
+    {
+        "text": "phát hành ESOP năm 2024",
+        "label": "EVENT",
+        "evidence": "Nội dung phát hành ESOP năm 2024 chưa được nhắc đến trong tài liệu và nghị quyết Đại hội đồng cổ đông thường niên năm nay."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Nội dung phát hành ESOP năm 2024 chưa được nhắc đến trong tài liệu và nghị quyết Đại hội đồng cổ đông thường niên năm nay."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, ngân hàng này đang rục rịch kế hoạch ESOP sau khi được Ngân hàng Nhà nước chấp thuận tăng vốn điều lệ lên 70.450 tỷ đồng bằng hình thức phát hành cổ phiếu từ nguồn vốn chủ sở hữu."
+    },
+    {
+        "text": "tăng vốn điều lệ lên 70.450 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, ngân hàng này đang rục rịch kế hoạch ESOP sau khi được Ngân hàng Nhà nước chấp thuận tăng vốn điều lệ lên 70.450 tỷ đồng bằng hình thức phát hành cổ phiếu từ nguồn vốn chủ sở hữu."
+    },
+    {
+        "text": "70.450 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên, ngân hàng này đang rục rịch kế hoạch ESOP sau khi được Ngân hàng Nhà nước chấp thuận tăng vốn điều lệ lên 70.450 tỷ đồng bằng hình thức phát hành cổ phiếu từ nguồn vốn chủ sở hữu."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nếu kế hoạch ESOP mới được thông qua, vốn điều lệ của Techcombank sẽ sớm vượt mốc 70.450 tỷ đồng."
+    },
+    {
+        "text": "70.450 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nếu kế hoạch ESOP mới được thông qua, vốn điều lệ của Techcombank sẽ sớm vượt mốc 70.450 tỷ đồng."
+    },
+    {
+        "text": "tăng vốn từ phát hành ESOP",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, quy mô tăng vốn từ phát hành ESOP có thể sẽ không quá lớn."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "phát hành 5,27 triệu cổ phiếu ESOP",
+        "label": "EVENT",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "5,27 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "52 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "35.225 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trước đó, Techcombank đã phát hành 5,27 triệu cổ phiếu ESOP, thu về 52 tỷ đồng và đưa vốn điều lệ lên mức 35.225 tỷ đồng trong năm 2023."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Vào năm 2022, ngân hàng cũng đã chào bán 6,3 triệu cổ phiếu ESOP cho người lao động."
+    },
+    {
+        "text": "chào bán 6,3 triệu cổ phiếu ESOP",
+        "label": "EVENT",
+        "evidence": "Vào năm 2022, ngân hàng cũng đã chào bán 6,3 triệu cổ phiếu ESOP cho người lao động."
+    },
+    {
+        "text": "6,3 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Vào năm 2022, ngân hàng cũng đã chào bán 6,3 triệu cổ phiếu ESOP cho người lao động."
+    },
+    {
+        "text": "năm 2018 - 2021",
+        "label": "DATE",
+        "evidence": "Từ năm 2018 - 2021, Techcombank luôn duy trì chương trình này."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Từ năm 2018 - 2021, Techcombank luôn duy trì chương trình này."
+    },
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó,Nam A Bankcũng vừa thông qua quy chế phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP)."
+    },
+    {
+        "text": "thông qua quy chế phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP)",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó,Nam A Bankcũng vừa thông qua quy chế phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP)."
+    },
+    {
+        "text": "Nam A Bank",
+        "label": "ORG",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "phát hành 50 triệu cổ phiếu ESOP",
+        "label": "EVENT",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "50 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "10.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "tăng vốn điều lệ thêm 500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nam A Bank dự kiến phát hành 50 triệu cổ phiếu ESOP với giá chào bán 10.000 đồng/cổ phiếu, tăng vốn điều lệ thêm 500 tỷ đồng."
+    },
+    {
+        "text": "4,726%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ phát hành tương đương 4,726% số lượng cổ phiếu đang lưu hành."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Thời gian dự kiến thực hiện trong năm 2024."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Số lượng cổ phiếu ESOP trên bị hạn chế chuyển nhượng 100% trong thời hạn 1 năm kể từ ngày kết thúc đợt phát hành, trong năm thứ 2 sẽ giải tỏa 50% số cổ phiếu còn lại."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Số lượng cổ phiếu ESOP trên bị hạn chế chuyển nhượng 100% trong thời hạn 1 năm kể từ ngày kết thúc đợt phát hành, trong năm thứ 2 sẽ giải tỏa 50% số cổ phiếu còn lại."
+    },
+    {
+        "text": "năm thứ 2",
+        "label": "DATE",
+        "evidence": "Số lượng cổ phiếu ESOP trên bị hạn chế chuyển nhượng 100% trong thời hạn 1 năm kể từ ngày kết thúc đợt phát hành, trong năm thứ 2 sẽ giải tỏa 50% số cổ phiếu còn lại."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Số lượng cổ phiếu ESOP trên bị hạn chế chuyển nhượng 100% trong thời hạn 1 năm kể từ ngày kết thúc đợt phát hành, trong năm thứ 2 sẽ giải tỏa 50% số cổ phiếu còn lại."
+    },
+    {
+        "text": "ESOP (phát hành cổ phiếu ưu đãi cho người lao động)",
+        "label": "EVENT",
+        "evidence": "ESOP (phát hành cổ phiếu ưu đãi cho người lao động) được hiểu là việc các doanh nghiệp bán cổ phiếu cho các nhân viên xuất sắc, người lao động theo các tiêu chí được chọn với giá ưu đãi, thường thấp hơn nhiều so so với giá giao dịch trên thị trường."
+    },
+    {
+        "text": "cổ phiếu ESOP",
+        "label": "ASSET",
+        "evidence": "Theo chuẩn mực kế toán đang áp dụng tại Việt Nam, khoản chênh lệch giữa giá bán cổ phiếu ESOP và thị giá không bị phản ánh vào chi phí lương, thưởng."
+    },
+    {
+        "text": "ESOP",
+        "label": "EVENT",
+        "evidence": "ESOP ngoài là chiến lược giúp giữ chân nhân sự giỏi của doanh nghiệp còn giúp các đơn vị này tăng vốn."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "ESOP ngoài là chiến lược giúp giữ chân nhân sự giỏi của doanh nghiệp còn giúp các đơn vị này tăng vốn."
+    }
+]

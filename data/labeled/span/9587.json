@@ -1,0 +1,47 @@
+[
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "website chính thức của VinFast"
+    },
+    {
+        "text": "giả danh nhân viên, quản lý cấp cao hoặc cổ đông của VinFast, đồng thời sử dụng các trang web giả mạo để lừa đảo khách hàng",
+        "label": "EVENT",
+        "evidence": "một số cá nhân đã giả danh nhân viên, quản lý cấp cao hoặc cổ đông của VinFast, đồng thời sử dụng các trang web giả mạo để lừa đảo khách hàng."
+    },
+    {
+        "text": "quỹ đầu tư",
+        "label": "ASSET",
+        "evidence": "kêu gọi góp vốn vào các \"quỹ đầu tư\""
+    },
+    {
+        "text": "quỹ huy động vốn",
+        "label": "ASSET",
+        "evidence": "\"quỹ huy động vốn\""
+    },
+    {
+        "text": "quỹ phúc lợi",
+        "label": "ASSET",
+        "evidence": "\"quỹ phúc lợi\" giả danh của VinFast hoặc Tập đoànVingroup."
+    },
+    {
+        "text": "kêu gọi góp vốn vào các \"quỹ đầu tư\", \"quỹ huy động vốn\" hoặc \"quỹ phúc lợi\" giả danh của VinFast hoặc Tập đoànVingroup",
+        "label": "EVENT",
+        "evidence": "thường thông qua việc kêu gọi góp vốn vào các \"quỹ đầu tư\", \"quỹ huy động vốn\" hoặc \"quỹ phúc lợi\" giả danh của VinFast hoặc Tập đoànVingroup."
+    },
+    {
+        "text": "Tập đoànVingroup",
+        "label": "ORG",
+        "evidence": "VinFast hoặc Tập đoànVingroup."
+    },
+    {
+        "text": "yêu cầu ứng viên nộp một khoản tiền ban đầu thông qua các trang web giả mạo",
+        "label": "EVENT",
+        "evidence": "Một số trường hợp khác lợi dụng danh nghĩa tuyển dụng tại VinFast, yêu cầu ứng viên nộp một khoản tiền ban đầu thông qua các trang web giả mạo."
+    },
+    {
+        "text": "VinFast đã phát đi thông báo",
+        "label": "EVENT",
+        "evidence": "VinFast đã phát đi thông báo:"
+    }
+]

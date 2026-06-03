@@ -1,0 +1,527 @@
+[
+    {
+        "text": "giá gas tăng",
+        "label": "EVENT",
+        "evidence": "việc giá gas tăng \"giáng thêm một cú bồi\", cao làm cho đời sống của người lao động và các nhà cung cấp dịch vụ ăn uống gặp rất nhiều khó khăn."
+    },
+    {
+        "text": "giá gas thế giới tăng mạnh",
+        "label": "EVENT",
+        "evidence": "Các doanh nghiệp cung ứng gas lý giải, do giá gas thế giới tăng mạnh, giá gas bán lẻ trong nước cũng được điều chỉnh tăng thêm 20.000 đồng/bình 12 kg kể từ hôm nay (1/10)."
+    },
+    {
+        "text": "giá gas bán lẻ trong nước cũng được điều chỉnh tăng thêm 20.000 đồng/bình 12 kg",
+        "label": "EVENT",
+        "evidence": "Các doanh nghiệp cung ứng gas lý giải, do giá gas thế giới tăng mạnh, giá gas bán lẻ trong nước cũng được điều chỉnh tăng thêm 20.000 đồng/bình 12 kg kể từ hôm nay (1/10)."
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "giá gas bán lẻ trong nước cũng được điều chỉnh tăng thêm 20.000 đồng/bình 12 kg kể từ hôm nay (1/10)."
+    },
+    {
+        "text": "1/10",
+        "label": "DATE",
+        "evidence": "giá gas bán lẻ trong nước cũng được điều chỉnh tăng thêm 20.000 đồng/bình 12 kg kể từ hôm nay (1/10)."
+    },
+    {
+        "text": "City Petro",
+        "label": "ORG",
+        "evidence": "Đại diện thương hiệu City Petro cho biết các sản phẩm gas bán lẻ của doanh nghiệp này sẽ tăng 75.000 đồng loại bình gas 45 kg, 83.000 đồng đối với bình gas 50 kg."
+    },
+    {
+        "text": "tăng 75.000 đồng loại bình gas 45 kg",
+        "label": "EVENT",
+        "evidence": "Đại diện thương hiệu City Petro cho biết các sản phẩm gas bán lẻ của doanh nghiệp này sẽ tăng 75.000 đồng loại bình gas 45 kg, 83.000 đồng đối với bình gas 50 kg."
+    },
+    {
+        "text": "75.000 đồng",
+        "label": "MONEY",
+        "evidence": "sẽ tăng 75.000 đồng loại bình gas 45 kg, 83.000 đồng đối với bình gas 50 kg."
+    },
+    {
+        "text": "83.000 đồng đối với bình gas 50 kg",
+        "label": "EVENT",
+        "evidence": "Đại diện thương hiệu City Petro cho biết các sản phẩm gas bán lẻ của doanh nghiệp này sẽ tăng 75.000 đồng loại bình gas 45 kg, 83.000 đồng đối với bình gas 50 kg."
+    },
+    {
+        "text": "83.000 đồng",
+        "label": "MONEY",
+        "evidence": "75.000 đồng loại bình gas 45 kg, 83.000 đồng đối với bình gas 50 kg."
+    },
+    {
+        "text": "464.000 đồng",
+        "label": "PRICE",
+        "evidence": "Giá bán lẻ đến tay người tiêu dùng đối với loại bình gas 12 kg của hãng này là 464.000 đồng sau tăng giá."
+    },
+    {
+        "text": "Công ty cổ phần Kinh doanh LPG Việt Nam - PV gas LPG miền Nam",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Kinh doanh LPG Việt Nam - PV gas LPG miền Nam cho biết giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9."
+    },
+    {
+        "text": "PV gas LPG miền Nam",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Kinh doanh LPG Việt Nam - PV gas LPG miền Nam cho biết giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9."
+    },
+    {
+        "text": "giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9",
+        "label": "EVENT",
+        "evidence": "Công ty cổ phần Kinh doanh LPG Việt Nam - PV gas LPG miền Nam cho biết giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9."
+    },
+    {
+        "text": "1.667 đồng/kg",
+        "label": "MONEY",
+        "evidence": "giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "giá gas của hãng sẽ tăng 1.667 đồng/kg (đã bao gồm VAT) so với tháng 9."
+    },
+    {
+        "text": "410.000 - 470.000 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "Các thương hiệu gas khác trên thị trường phổ biến ở mức từ 410.000 - 470.000 đồng/bình 12 kg, nếu có khuyến mãi thì giá thấp hơn từ 20.000 - 50.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "20.000 - 50.000 đồng",
+        "label": "MONEY",
+        "evidence": "giá thấp hơn từ 20.000 - 50.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "giá gas thế giới tháng 10 chốt 607,5 USD/tấn",
+        "label": "PRICE",
+        "evidence": "Nguyên nhân giá gas tăng là do giá gas thế giới tháng 10 chốt 607,5 USD/tấn, tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "tháng 10",
+        "label": "DATE",
+        "evidence": "giá gas thế giới tháng 10 chốt 607,5 USD/tấn, tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "607,5 USD/tấn",
+        "label": "MONEY",
+        "evidence": "giá gas thế giới tháng 10 chốt 607,5 USD/tấn, tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "tăng 52,5 USD/tấn so với tháng 9",
+        "label": "EVENT",
+        "evidence": "giá gas thế giới tháng 10 chốt 607,5 USD/tấn, tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "52,5 USD/tấn",
+        "label": "MONEY",
+        "evidence": "tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "các công ty điều chỉnh tăng giá bán lẻ",
+        "label": "EVENT",
+        "evidence": "tăng 52,5 USD/tấn so với tháng 9 nên các công ty điều chỉnh tăng giá bán lẻ theo."
+    },
+    {
+        "text": "tháng thứ ba",
+        "label": "DATE",
+        "evidence": "Như vậy, giá gas đã có tháng thứ ba tăng liên tiếp sau các tháng giảm."
+    },
+    {
+        "text": "các tháng cuối năm",
+        "label": "DATE",
+        "evidence": "Theo các doanh nghiệp, xu hướng giá gas có thể tiếp tục tăng vào các tháng cuối năm do nhu cầu nhiên liệu dự trữ cho mùa đông sẽ tăng."
+    },
+    {
+        "text": "giá gas tăng",
+        "label": "EVENT",
+        "evidence": "Không chỉ giá gas tăng, thời gian qua, hàng loạt mặt hàng tiêu dùng thiết yếu như xăng dầu, điện, gạo, thực phẩm tăng chóng mặt khiến cho đời sống của người dân vốn đã khó khăn, nay càng thêm chật vật."
+    },
+    {
+        "text": "hàng loạt mặt hàng tiêu dùng thiết yếu như xăng dầu, điện, gạo, thực phẩm tăng chóng mặt",
+        "label": "EVENT",
+        "evidence": "Không chỉ giá gas tăng, thời gian qua, hàng loạt mặt hàng tiêu dùng thiết yếu như xăng dầu, điện, gạo, thực phẩm tăng chóng mặt khiến cho đời sống của người dân vốn đã khó khăn, nay càng thêm chật vật."
+    },
+    {
+        "text": "giá gạo tẻ thường ở mức 12.000 - 14.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "Cụ thể, tại các chợ dân sinh, giá gạo tẻ thường ở mức 12.000 - 14.000 đồng/kg; gạo trắng thông dụng 16.000 đồng/kg; gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "12.000 - 14.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "giá gạo tẻ thường ở mức 12.000 - 14.000 đồng/kg; gạo trắng thông dụng 16.000 đồng/kg; gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo trắng thông dụng 16.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo trắng thông dụng 16.000 đồng/kg; gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "16.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo trắng thông dụng 16.000 đồng/kg; gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo nàng nhen 23.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "23.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo nàng nhen 23.000 đồng/kg; gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "18.000 - 20.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo thơm thái hạt dài 18.000 - 20.000 đồng/kg; gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo thơm Jasmine 15.500 - 17.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "15.500 - 17.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo thơm Jasmine 15.500 - 17.000 đồng/kg; gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo Hương Lài 19.500 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "19.500 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo Hương Lài 19.500 đồng/kg; gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo nàng hoa 19.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "19.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo nàng hoa 19.000 đồng/kg; gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "gạo sóc thường 16.000 - 17.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "16.000 - 17.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "gạo sóc thường 16.000 - 17.000 đồng/kg..."
+    },
+    {
+        "text": "Giá các loại gạo tăng từ 2.000 - 3.000 đồng/kg kể từ cuối tháng 7 đến nay",
+        "label": "EVENT",
+        "evidence": "Giá các loại gạo tăng từ 2.000 - 3.000 đồng/kg kể từ cuối tháng 7 đến nay."
+    },
+    {
+        "text": "2.000 - 3.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "Giá các loại gạo tăng từ 2.000 - 3.000 đồng/kg kể từ cuối tháng 7 đến nay."
+    },
+    {
+        "text": "cuối tháng 7",
+        "label": "DATE",
+        "evidence": "Giá các loại gạo tăng từ 2.000 - 3.000 đồng/kg kể từ cuối tháng 7 đến nay."
+    },
+    {
+        "text": "giá các loại thịt heo 3 tháng qua cũng tăng từ 20 - 30%",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, giá các loại thịt heo 3 tháng qua cũng tăng từ 20 - 30%."
+    },
+    {
+        "text": "3 tháng qua",
+        "label": "DATE",
+        "evidence": "giá các loại thịt heo 3 tháng qua cũng tăng từ 20 - 30%."
+    },
+    {
+        "text": "20 - 30%",
+        "label": "RATE",
+        "evidence": "giá các loại thịt heo 3 tháng qua cũng tăng từ 20 - 30%."
+    },
+    {
+        "text": "thịt mông sấn có giá 90.000 – 95.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "Hiện thịt mông sấn có giá 90.000 – 95.000 đồng/kg, sườn thăn, ba chỉ có giá 120.000 - 130.000 đồng/kg, giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "90.000 – 95.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "thịt mông sấn có giá 90.000 – 95.000 đồng/kg, sườn thăn, ba chỉ có giá 120.000 - 130.000 đồng/kg, giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "sườn thăn, ba chỉ có giá 120.000 - 130.000 đồng/kg",
+        "label": "PRICE",
+        "evidence": "thịt mông sấn có giá 90.000 – 95.000 đồng/kg, sườn thăn, ba chỉ có giá 120.000 - 130.000 đồng/kg, giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "120.000 - 130.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "sườn thăn, ba chỉ có giá 120.000 - 130.000 đồng/kg, giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "giảm khoảng 5.000 đồng/kg so với giữa tuần",
+        "label": "EVENT",
+        "evidence": "giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "5.000 đồng/kg",
+        "label": "MONEY",
+        "evidence": "giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "giữa tuần",
+        "label": "DATE",
+        "evidence": "giảm khoảng 5.000 đồng/kg so với giữa tuần."
+    },
+    {
+        "text": "giá thịt heo giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "Dù giá thịt heo giảm nhẹ nhưng do thu nhập eo hẹp, kinh tế khó khăn nên người tiêu dùng đã phải thắt lựng buộc bụng, cắt giảm chi tiêu nên sức tiêu thụ khá chậm."
+    },
+    {
+        "text": "VTC News",
+        "label": "ORG",
+        "evidence": "Trả lời VTC News, nhiều người dân và doanh nghiệp cung cấp thực phẩm, suất ăn trong các trường học, khu công nghiệp cho biết, giá gas tăng mạnh và trước đó giá xăng dầu, các loại thực phẩm như gạo, thịt, cá file cũng tăng khiến cho họ gặp nhiều khó khăn."
+    },
+    {
+        "text": "giá gas tăng mạnh",
+        "label": "EVENT",
+        "evidence": "giá gas tăng mạnh và trước đó giá xăng dầu, các loại thực phẩm như gạo, thịt, cá file cũng tăng khiến cho họ gặp nhiều khó khăn."
+    },
+    {
+        "text": "giá xăng dầu, các loại thực phẩm như gạo, thịt, cá file cũng tăng",
+        "label": "EVENT",
+        "evidence": "giá gas tăng mạnh và trước đó giá xăng dầu, các loại thực phẩm như gạo, thịt, cá file cũng tăng khiến cho họ gặp nhiều khó khăn."
+    },
+    {
+        "text": "Trần Phương Dung",
+        "label": "PERSON",
+        "evidence": "Vừa bật bếp gas chuẩn bị bữa sáng cho cả gia đình, chị Trần Phương Dung, công nhân may mặc khu công nghiệp Đồng Văn (Hà Nam) cho biết cuộc sống gia đình vốn đã khó khăn, nay giá gas tăng mạnh khiến việc nấu nướng của chị cũng rất dè chừng."
+    },
+    {
+        "text": "khu công nghiệp Đồng Văn",
+        "label": "ORG",
+        "evidence": "chị Trần Phương Dung, công nhân may mặc khu công nghiệp Đồng Văn (Hà Nam) cho biết cuộc sống gia đình vốn đã khó khăn, nay giá gas tăng mạnh khiến việc nấu nướng của chị cũng rất dè chừng."
+    },
+    {
+        "text": "giá gas tăng mạnh",
+        "label": "EVENT",
+        "evidence": "nay giá gas tăng mạnh khiến việc nấu nướng của chị cũng rất dè chừng."
+    },
+    {
+        "text": "chưa đầy 15 triệu",
+        "label": "MONEY",
+        "evidence": "thu nhập hai vợ chồng chưa đầy 15 triệu, lại đang nuôi hai con nhỏ nên các khoản chi phí cho cuộc sống như tiền trọ, tiền điện, tiền nước, xăng xe, thực phẩm, gạo, học phí cho con và cả tiền gas tăng phi mã khiến chị rất áp lực."
+    },
+    {
+        "text": "tiền gas tăng phi mã",
+        "label": "EVENT",
+        "evidence": "tiền trọ, tiền điện, tiền nước, xăng xe, thực phẩm, gạo, học phí cho con và cả tiền gas tăng phi mã khiến chị rất áp lực."
+    },
+    {
+        "text": "Nhà nước",
+        "label": "ORG",
+        "evidence": "mong muốn Nhà nước sớm bình ổn giá cả các mặt hàng để cuộc sống bớt vất vả"
+    },
+    {
+        "text": "sớm bình ổn giá cả các mặt hàng",
+        "label": "EVENT",
+        "evidence": "mong muốn Nhà nước sớm bình ổn giá cả các mặt hàng để cuộc sống bớt vất vả"
+    },
+    {
+        "text": "mỗi tháng",
+        "label": "DATE",
+        "evidence": "mỗi tháng gia đình chị Dung dùng hết hơn một bình gas (loại 12 kg)."
+    },
+    {
+        "text": "hơn một bình gas (loại 12 kg)",
+        "label": "VOLUME",
+        "evidence": "mỗi tháng gia đình chị Dung dùng hết hơn một bình gas (loại 12 kg)."
+    },
+    {
+        "text": "hàng chục triệu đồng",
+        "label": "MONEY",
+        "evidence": "việc đầu tư khoản tiền hàng chục triệu đồng để mua mới một chiếc bếp từ còn là câu chuyện giá điện tăng từ tháng 5 vừa qua và tăng theo lũy tiến càng khiến gia đình chị phải đắn đo cân nhắc."
+    },
+    {
+        "text": "giá điện tăng từ tháng 5 vừa qua và tăng theo lũy tiến",
+        "label": "EVENT",
+        "evidence": "câu chuyện giá điện tăng từ tháng 5 vừa qua và tăng theo lũy tiến càng khiến gia đình chị phải đắn đo cân nhắc."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "giá điện tăng từ tháng 5 vừa qua và tăng theo lũy tiến càng khiến gia đình chị phải đắn đo cân nhắc."
+    },
+    {
+        "text": "chưa đầy 15 triệu",
+        "label": "MONEY",
+        "evidence": "lương công nhân hai vợ chồng chưa đầy 15 triệu, nuôi 4 miệng ăn, học, đi lại, rồi hai tháng phải đi xe máy về quê Hải Dương một lần nên phải tính toán chi li từng bữa theo kiểu “khéo ăn thì no, khéo co thì ấm”."
+    },
+    {
+        "text": "năm học mới",
+        "label": "DATE",
+        "evidence": "Hiện trẻ em đã vào năm học mới, lại đang vào dịp cuối năm, chi phí vốn đã tăng, nay lại càng tăng thêm."
+    },
+    {
+        "text": "dịp cuối năm",
+        "label": "DATE",
+        "evidence": "Hiện trẻ em đã vào năm học mới, lại đang vào dịp cuối năm, chi phí vốn đã tăng, nay lại càng tăng thêm."
+    },
+    {
+        "text": "hai tháng",
+        "label": "DATE",
+        "evidence": "rồi hai tháng phải đi xe máy về quê Hải Dương một lần nên phải tính toán chi li từng bữa theo kiểu “khéo ăn thì no, khéo co thì ấm”."
+    },
+    {
+        "text": "Vũ Huy Hà",
+        "label": "PERSON",
+        "evidence": "Anh Vũ Huy Hà, Giám đốc công ty Suất ăn công nghiệp Hà Nội (Hà Nội) cho biết, là đơn vị chuyên cung cấp hàng trăm nghìn suất ăn cho các cháu học sinh trên địa bàn Hà Nội, Bắc Ninh, Bắc Giang nên nhu cầu tiêu thụ các sản phẩm gạo, thịt, cá, thịt gà, trứng và ga để nấu chín thức ăn mỗi ngày rất lớn."
+    },
+    {
+        "text": "Giám đốc công ty Suất ăn công nghiệp Hà Nội",
+        "label": "PERSON",
+        "evidence": "Anh Vũ Huy Hà, Giám đốc công ty Suất ăn công nghiệp Hà Nội (Hà Nội) cho biết, là đơn vị chuyên cung cấp hàng trăm nghìn suất ăn cho các cháu học sinh trên địa bàn Hà Nội, Bắc Ninh, Bắc Giang nên nhu cầu tiêu thụ các sản phẩm gạo, thịt, cá, thịt gà, trứng và ga để nấu chín thức ăn mỗi ngày rất lớn."
+    },
+    {
+        "text": "công ty Suất ăn công nghiệp Hà Nội",
+        "label": "ORG",
+        "evidence": "Anh Vũ Huy Hà, Giám đốc công ty Suất ăn công nghiệp Hà Nội (Hà Nội) cho biết, là đơn vị chuyên cung cấp hàng trăm nghìn suất ăn cho các cháu học sinh trên địa bàn Hà Nội, Bắc Ninh, Bắc Giang nên nhu cầu tiêu thụ các sản phẩm gạo, thịt, cá, thịt gà, trứng và ga để nấu chín thức ăn mỗi ngày rất lớn."
+    },
+    {
+        "text": "tuần tháng 8",
+        "label": "DATE",
+        "evidence": "Đơn vị chúng tôi bắt đầu cung cấp suất ăn vào các trường học từ trung tuần tháng 8."
+    },
+    {
+        "text": "giá các loại thực phẩm liên tục tăng và neo ở mức cao",
+        "label": "EVENT",
+        "evidence": "Và cũng kể từ đó đến nay, giá các loại thực phẩm liên tục tăng và neo ở mức cao, trong khi suất ăn của các cháu học sinh dao động từ 25.000 - 30.000 tuỳ từng khu vực khiến doanh nghiệp đang phải gồng mình gánh chịu."
+    },
+    {
+        "text": "25.000 - 30.000",
+        "label": "MONEY",
+        "evidence": "suất ăn của các cháu học sinh dao động từ 25.000 - 30.000 tuỳ từng khu vực khiến doanh nghiệp đang phải gồng mình gánh chịu."
+    },
+    {
+        "text": "các bộ, ngành",
+        "label": "ORG",
+        "evidence": "Do vậy, chúng tôi mong các bộ, ngành sớm có chính sách bình ổn không chỉ giá gas mà còn xăng dầu và các loại thực phẩm khác”, anh Hà nói."
+    },
+    {
+        "text": "sớm có chính sách bình ổn không chỉ giá gas mà còn xăng dầu và các loại thực phẩm khác",
+        "label": "EVENT",
+        "evidence": "Do vậy, chúng tôi mong các bộ, ngành sớm có chính sách bình ổn không chỉ giá gas mà còn xăng dầu và các loại thực phẩm khác”, anh Hà nói."
+    },
+    {
+        "text": "giá cả nhiều mặt hàng tăng cao",
+        "label": "EVENT",
+        "evidence": "Doanh nghiệp thực phẩm gặp nhiều khó khăn do giá cả nhiều mặt hàng tăng cao thời gian gần đây"
+    },
+    {
+        "text": "Nguyễn Văn Trường",
+        "label": "PERSON",
+        "evidence": "Anh Nguyễn Văn Trường, Phó Giám đốc Công ty thực phẩm Nhân Hoà (Hà Nội) cũng than thở, trong bối cảnh nền kinh tế đang còn khó khăn, thực phẩm các loại đã đắt đỏ, nay giá gas lại tăng thêm càng tạo thêm gánh nặng cho doanh nghiệp."
+    },
+    {
+        "text": "Phó Giám đốc Công ty thực phẩm Nhân Hoà",
+        "label": "PERSON",
+        "evidence": "Anh Nguyễn Văn Trường, Phó Giám đốc Công ty thực phẩm Nhân Hoà (Hà Nội) cũng than thở, trong bối cảnh nền kinh tế đang còn khó khăn, thực phẩm các loại đã đắt đỏ, nay giá gas lại tăng thêm càng tạo thêm gánh nặng cho doanh nghiệp."
+    },
+    {
+        "text": "Công ty thực phẩm Nhân Hoà",
+        "label": "ORG",
+        "evidence": "Anh Nguyễn Văn Trường, Phó Giám đốc Công ty thực phẩm Nhân Hoà (Hà Nội) cũng than thở, trong bối cảnh nền kinh tế đang còn khó khăn, thực phẩm các loại đã đắt đỏ, nay giá gas lại tăng thêm càng tạo thêm gánh nặng cho doanh nghiệp."
+    },
+    {
+        "text": "giá gas lại tăng thêm",
+        "label": "EVENT",
+        "evidence": "nay giá gas lại tăng thêm càng tạo thêm gánh nặng cho doanh nghiệp."
+    },
+    {
+        "text": "mỗi ngày",
+        "label": "DATE",
+        "evidence": "trung bình mỗi ngày doanh nghiệp anh tiêu thụ khoảng 5 tạ gas."
+    },
+    {
+        "text": "5 tạ gas",
+        "label": "VOLUME",
+        "evidence": "trung bình mỗi ngày doanh nghiệp anh tiêu thụ khoảng 5 tạ gas."
+    },
+    {
+        "text": "83.000 đồng",
+        "label": "MONEY",
+        "evidence": "mỗi bình ga 50 kg chúng tôi giảm chi phí được 83.000 đồng."
+    },
+    {
+        "text": "giá ga tăng",
+        "label": "EVENT",
+        "evidence": "Nay giá ga tăng, mỗi ngày chi phí của doanh nghiệp tăng 830.000 tiền gas."
+    },
+    {
+        "text": "mỗi ngày",
+        "label": "DATE",
+        "evidence": "Nay giá ga tăng, mỗi ngày chi phí của doanh nghiệp tăng 830.000 tiền gas."
+    },
+    {
+        "text": "830.000 tiền gas",
+        "label": "MONEY",
+        "evidence": "mỗi ngày chi phí của doanh nghiệp tăng 830.000 tiền gas."
+    },
+    {
+        "text": "các loại thực phẩm khác như rau của quả, gạo, thịt, cá, xăng dầu cũng tăng",
+        "label": "EVENT",
+        "evidence": "Chưa kể các loại thực phẩm khác như rau của quả, gạo, thịt, cá, xăng dầu cũng tăng khiến mỗi ngày chi phí của doanh nghiệp cũng đội thêm hơn 3 triệu đồng."
+    },
+    {
+        "text": "hơn 3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "khiến mỗi ngày chi phí của doanh nghiệp cũng đội thêm hơn 3 triệu đồng."
+    },
+    {
+        "text": "cả tháng cho 21 ngày phục vụ",
+        "label": "DATE",
+        "evidence": "Nếu tính gộp cả tháng cho 21 ngày phục vụ, mỗi tháng chúng tôi tăng chi phí hơn 63 triệu đồng."
+    },
+    {
+        "text": "mỗi tháng",
+        "label": "DATE",
+        "evidence": "mỗi tháng chúng tôi tăng chi phí hơn 63 triệu đồng."
+    },
+    {
+        "text": "hơn 63 triệu đồng",
+        "label": "MONEY",
+        "evidence": "mỗi tháng chúng tôi tăng chi phí hơn 63 triệu đồng."
+    },
+    {
+        "text": "giá thực phẩm, xăng dầu, gas liên tiếp tăng cao",
+        "label": "EVENT",
+        "evidence": "giá thực phẩm, xăng dầu, gas liên tiếp tăng cao không chỉ ảnh hưởng đến các doanh nghiệp mà còn tác động trực tiếp đến đời sống, sinh hoạt của người dân."
+    },
+    {
+        "text": "Nhà nước",
+        "label": "ORG",
+        "evidence": "Do vậy, chúng tôi rất mong Nhà nước sớm có chính sách can thiệp để bình ổn, giúp cho doanh nghiệp, người dân vượt qua khó khăn”, anh Trường kiến nghị."
+    },
+    {
+        "text": "có chính sách can thiệp để bình ổn, giúp cho doanh nghiệp, người dân vượt qua khó khăn",
+        "label": "EVENT",
+        "evidence": "Do vậy, chúng tôi rất mong Nhà nước sớm có chính sách can thiệp để bình ổn, giúp cho doanh nghiệp, người dân vượt qua khó khăn”, anh Trường kiến nghị."
+    }
+]

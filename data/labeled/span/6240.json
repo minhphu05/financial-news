@@ -1,0 +1,352 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi tại quầy của Sacombank tháng 9/2025"
+    },
+    {
+        "text": "tháng 9/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi tại quầy của Sacombank tháng 9/2025"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Theo biểu lãi suất mới nhất được Sacombank công bố, lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân không thay đổi so với trước đó, dao động từ0,5% đến 5,2%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân không thay đổi so với trước đó",
+        "label": "EVENT",
+        "evidence": "Theo biểu lãi suất mới nhất được Sacombank công bố, lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân không thay đổi so với trước đó, dao động từ0,5% đến 5,2%/năm."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "dao động từ0,5% đến 5,2%/năm."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "dao động từ0,5% đến 5,2%/năm."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn gửi dưới 1 tháng được áp dụng mức lãi suất là0,5%/năm"
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 1 đến dưới 2 tháng là2,8%/năm"
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn gửi từ 2 đến dưới 3 tháng là2,9%/năm"
+    },
+    {
+        "text": "3,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3 đến dưới 4 tháng là3,2%/năm"
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 tháng là4,2%/năm"
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "9 tháng là4,3%/năm"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank niêm yết mức lãi suất4,9%/nămcho kỳ hạn 12 - 18 tháng và5,0%/nămcho kỳ hạn 24 tháng."
+    },
+    {
+        "text": "niêm yết mức lãi suất4,9%/nămcho kỳ hạn 12 - 18 tháng và5,0%/nămcho kỳ hạn 24 tháng",
+        "label": "EVENT",
+        "evidence": "Sacombank niêm yết mức lãi suất4,9%/nămcho kỳ hạn 12 - 18 tháng và5,0%/nămcho kỳ hạn 24 tháng."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Sacombank niêm yết mức lãi suất4,9%/nămcho kỳ hạn 12 - 18 tháng và5,0%/nămcho kỳ hạn 24 tháng."
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "và5,0%/nămcho kỳ hạn 24 tháng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Khách hàng gửi tiền tại quầy Sacombank sẽ được hưởng mức lãi cao nhất là5,2%/nămdành cho kỳ hạn gửi 36 tháng."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "hưởng mức lãi cao nhất là5,2%/nămdành cho kỳ hạn gửi 36 tháng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài hình thức trả lãi cuối kỳ, Sacombank còn cung cấp các hình thức trả lãi linh hoạt bao gồm lãi hàng quý (4,18%/năm - 4,86%/năm), lãi hàng tháng (2,8%/năm - 4,84%/năm), và lãi trả trước (2,79%/năm - 4,67%/năm)."
+    },
+    {
+        "text": "4,18%/năm",
+        "label": "RATE",
+        "evidence": "lãi hàng quý (4,18%/năm - 4,86%/năm)"
+    },
+    {
+        "text": "4,86%/năm",
+        "label": "RATE",
+        "evidence": "(4,18%/năm - 4,86%/năm)"
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "lãi hàng tháng (2,8%/năm - 4,84%/năm)"
+    },
+    {
+        "text": "4,84%/năm",
+        "label": "RATE",
+        "evidence": "(2,8%/năm - 4,84%/năm)"
+    },
+    {
+        "text": "2,79%/năm",
+        "label": "RATE",
+        "evidence": "lãi trả trước (2,79%/năm - 4,67%/năm)"
+    },
+    {
+        "text": "4,67%/năm",
+        "label": "RATE",
+        "evidence": "(2,79%/năm - 4,67%/năm)"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất huy động tại quầy của Sacombank tại ngày 1/9/2025"
+    },
+    {
+        "text": "1/9/2025",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất huy động tại quầy của Sacombank tại ngày 1/9/2025"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi trực tuyến của Sacombank tháng 9/2025"
+    },
+    {
+        "text": "tháng 9/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi trực tuyến của Sacombank tháng 9/2025"
+    },
+    {
+        "text": "một số kỳ hạn có lãi suất cao hơn từ0,4% đến 0,8%/nămso với gửi tại quầy, dao động trong khoảng 0,5 - 5,6%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với hình thức gửi tiết kiệm trực tuyến, một số kỳ hạn có lãi suất cao hơn từ0,4% đến 0,8%/nămso với gửi tại quầy, dao động trong khoảng 0,5 - 5,6%/năm."
+    },
+    {
+        "text": "0,4%",
+        "label": "RATE",
+        "evidence": "lãi suất cao hơn từ0,4% đến 0,8%/nămso với gửi tại quầy"
+    },
+    {
+        "text": "0,8%/năm",
+        "label": "RATE",
+        "evidence": "0,8%/nămso với gửi tại quầy"
+    },
+    {
+        "text": "0,5",
+        "label": "RATE",
+        "evidence": "dao động trong khoảng 0,5 - 5,6%/năm."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "dao động trong khoảng 0,5 - 5,6%/năm."
+    },
+    {
+        "text": "3,6%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất tiết kiệm kỳ hạn 1 tháng là 3,6%/năm"
+    },
+    {
+        "text": "3,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 2 tháng là 3,8%/năm"
+    },
+    {
+        "text": "3,9%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 3-5 tháng là 3,9%/năm"
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất ngân hàng kỳ hạn 6-11 tháng là 4,8%/năm"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn 12-13 tháng là 5,3%/năm"
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 15 tháng là 5,4%/năm"
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất kỳ hạn 18 tháng là 5,5%/năm"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động cao nhất Sacombank dành cho khách hàng cá nhân gửi tiết kiệm trực tuyến hiện là 5,6%/năm, áp dụng cho kỳ hạn 24-36 tháng."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "tiết kiệm trực tuyến hiện là 5,6%/năm"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất huy động online của Sacombank trong tháng tại ngày 1/9/2025"
+    },
+    {
+        "text": "1/9/2025",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất huy động online của Sacombank trong tháng tại ngày 1/9/2025"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Các sản phẩm tiết kiệm đặc biệt tại Sacombank"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài các sản phẩm truyền thống trên, Sacombank cũng cung cấp nhiều sản phẩm tiết kiệm đa dạng, phù hợp với nhu cầu tài chính của từng khách hàng."
+    },
+    {
+        "text": "Tiết kiệm Phù Đổng",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Phù Đổng: Dành cho khách hàng muốn tích lũy tài chính cho con trẻ, áp dụng lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng"
+    },
+    {
+        "text": "Tiết kiệm Tích góp Siêu linh hoạt",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Tích góp Siêu linh hoạt: Cho phép khách hàng gửi góp định kỳ với lãi suất cao, lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cao, lên đến 5,9%/năm cho kỳ hạn 36 tháng"
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 7 tháng:4,9%/năm(1 tháng đầu)"
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 9 tháng:5,0%/năm(3 tháng đầu)"
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 tháng:5,6%/năm(6 tháng đầu)"
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 24 tháng:5,7%/năm(18 tháng đầu)"
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 36 tháng:5,9%/năm(30 tháng đầu)"
+    },
+    {
+        "text": "Tiết kiệm Trung Niên Phúc Lộc",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Trung Niên Phúc Lộc: Dành cho khách hàng từ 40 tuổi trở lên, sản phẩm này cộng thêm lãi suất thưởng từ 0,2% đến 0,3%/năm so với lãi suất tiết kiệm truyền thống, tùy thuộc vào kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,2%",
+        "label": "RATE",
+        "evidence": "lãi suất thưởng từ 0,2% đến 0,3%/năm"
+    },
+    {
+        "text": "0,3%/năm",
+        "label": "RATE",
+        "evidence": "0,3%/năm so với lãi suất tiết kiệm truyền thống"
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "EUR",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "AUD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "CAD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "JPY",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "SGD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "CHF",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "GBP",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "Lãi suất từ 0% đến 0,12%/năm"
+    },
+    {
+        "text": "0,12%/năm",
+        "label": "RATE",
+        "evidence": "đến 0,12%/năm"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Khách hàng nên liên hệ trực tiếp với các chi nhánh/phòng giao dịch của Sacombank để cập nhật thông tin chính xác nhất."
+    }
+]

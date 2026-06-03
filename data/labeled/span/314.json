@@ -1,0 +1,407 @@
+[
+    {
+        "text": "Chín tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Chín tháng đầu năm, ACB bám sát mục tiêu đề ra, đạt hơn 15.000 tỷ lợi nhuận trước thuế, tương đương 75% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chín tháng đầu năm, ACB bám sát mục tiêu đề ra, đạt hơn 15.000 tỷ lợi nhuận trước thuế, tương đương 75% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "đạt hơn 15.000 tỷ lợi nhuận trước thuế",
+        "label": "EVENT",
+        "evidence": "Chín tháng đầu năm, ACB bám sát mục tiêu đề ra, đạt hơn 15.000 tỷ lợi nhuận trước thuế, tương đương 75% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "hơn 15.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Chín tháng đầu năm, ACB bám sát mục tiêu đề ra, đạt hơn 15.000 tỷ lợi nhuận trước thuế, tương đương 75% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Chín tháng đầu năm, ACB bám sát mục tiêu đề ra, đạt hơn 15.000 tỷ lợi nhuận trước thuế, tương đương 75% kế hoạch lợi nhuận năm."
+    },
+    {
+        "text": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "hơn 5.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "quý 3 cùng kỳ năm 2022",
+        "label": "DATE",
+        "evidence": "Lợi nhuận ACB quý 3/2023 đạt hơn 5.000 tỷ, ghi nhận sự tăng trưởng so với quý 2 vừa qua cũng như so với quý 3 cùng kỳ năm 2022."
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "Thu nhập ngoài lãi tăng 45% so với cùng kỳ đã góp phần giúp ACB tăng trưởng lợi nhuận."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Thu nhập ngoài lãi tăng 45% so với cùng kỳ đã góp phần giúp ACB tăng trưởng lợi nhuận."
+    },
+    {
+        "text": "23%",
+        "label": "RATE",
+        "evidence": "Trong đó, mua bán ngoại tệ và hoạt động đầu tư tiếp tục đóng góp lớn vào thu nhập giúp đưa tỷ trọng thu nhập ngoài lãi lên 23% trong tổng doanh thu, cao hơn so với cùng kỳ (18%)."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "Trong đó, mua bán ngoại tệ và hoạt động đầu tư tiếp tục đóng góp lớn vào thu nhập giúp đưa tỷ trọng thu nhập ngoài lãi lên 23% trong tổng doanh thu, cao hơn so với cùng kỳ (18%)."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Với tăng trưởng tiền gửi khách hàng trong 9 tháng đầu năm đạt 7,6%,ACBtiếp tục vượt hơn trung bình ngành (~ 6%) từ đó giúp gia tăng thị phần huy động."
+    },
+    {
+        "text": "7,6%",
+        "label": "RATE",
+        "evidence": "Với tăng trưởng tiền gửi khách hàng trong 9 tháng đầu năm đạt 7,6%,ACBtiếp tục vượt hơn trung bình ngành (~ 6%) từ đó giúp gia tăng thị phần huy động."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với tăng trưởng tiền gửi khách hàng trong 9 tháng đầu năm đạt 7,6%,ACBtiếp tục vượt hơn trung bình ngành (~ 6%) từ đó giúp gia tăng thị phần huy động."
+    },
+    {
+        "text": "~ 6%",
+        "label": "RATE",
+        "evidence": "Với tăng trưởng tiền gửi khách hàng trong 9 tháng đầu năm đạt 7,6%,ACBtiếp tục vượt hơn trung bình ngành (~ 6%) từ đó giúp gia tăng thị phần huy động."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Quy mô tiền gửi không kỳ hạn liên tục được cải thiện, tăng trưởng tốt trong quý 3 và đã phục hồi so với mức đầu năm."
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "Quy mô tiền gửi không kỳ hạn liên tục được cải thiện, tăng trưởng tốt trong quý 3 và đã phục hồi so với mức đầu năm."
+    },
+    {
+        "text": "cuối tháng 9/2023",
+        "label": "DATE",
+        "evidence": "Tính đến cuối tháng 9/2023, dư nợ cho vay của riêng ngân hàng ghi nhận mức tăng 8,2% so với đầu năm, cao hơn so với tăng trưởng toàn ngành (~ 6,9%)."
+    },
+    {
+        "text": "8,2%",
+        "label": "RATE",
+        "evidence": "Tính đến cuối tháng 9/2023, dư nợ cho vay của riêng ngân hàng ghi nhận mức tăng 8,2% so với đầu năm, cao hơn so với tăng trưởng toàn ngành (~ 6,9%)."
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "Tính đến cuối tháng 9/2023, dư nợ cho vay của riêng ngân hàng ghi nhận mức tăng 8,2% so với đầu năm, cao hơn so với tăng trưởng toàn ngành (~ 6,9%)."
+    },
+    {
+        "text": "~ 6,9%",
+        "label": "RATE",
+        "evidence": "Tính đến cuối tháng 9/2023, dư nợ cho vay của riêng ngân hàng ghi nhận mức tăng 8,2% so với đầu năm, cao hơn so với tăng trưởng toàn ngành (~ 6,9%)."
+    },
+    {
+        "text": "công ty chứng khoán ACBS",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, hoạt động cho vay của công ty chứng khoán ACBS phục hồi khi dư nợ tăng gấp đôi so với cuối năm 2022."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, hoạt động cho vay của công ty chứng khoán ACBS phục hồi khi dư nợ tăng gấp đôi so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, hoạt động cho vay của công ty chứng khoán ACBS phục hồi khi dư nợ tăng gấp đôi so với cuối năm 2022."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kết quả chung cho thấy tăng trưởng tín dụng của toàn tập đoàn ACB lên 8,7% so với đầu năm, đạt 450.000 tỷ."
+    },
+    {
+        "text": "8,7%",
+        "label": "RATE",
+        "evidence": "Kết quả chung cho thấy tăng trưởng tín dụng của toàn tập đoàn ACB lên 8,7% so với đầu năm, đạt 450.000 tỷ."
+    },
+    {
+        "text": "đầu năm",
+        "label": "DATE",
+        "evidence": "Kết quả chung cho thấy tăng trưởng tín dụng của toàn tập đoàn ACB lên 8,7% so với đầu năm, đạt 450.000 tỷ."
+    },
+    {
+        "text": "450.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Kết quả chung cho thấy tăng trưởng tín dụng của toàn tập đoàn ACB lên 8,7% so với đầu năm, đạt 450.000 tỷ."
+    },
+    {
+        "text": "93%",
+        "label": "RATE",
+        "evidence": "Hiện mảng bán lẻ chiếm tỷ trọng hơn 93% danh mục cho vay của ACB và ngân hàng không tập trung vào các lĩnh vực có rủi ro cao như cho vay tiêu dùng, cho vay tín chấp, cho vay kinh doanh bất động sản,…."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Hiện mảng bán lẻ chiếm tỷ trọng hơn 93% danh mục cho vay của ACB và ngân hàng không tập trung vào các lĩnh vực có rủi ro cao như cho vay tiêu dùng, cho vay tín chấp, cho vay kinh doanh bất động sản,…."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB thực hiện nghiêm túc việc kiểm soát và xử lý nợ xấu trong hoạt động để ngăn ngừa rủi ro."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhờ vậy, dù trong bối cảnh nợ xấu toàn ngành nói chung và tại ACB nói riêng có xu hướng tăng lên (1,2%), ACB vẫn duy trì được tỷ lệ nợ xấu thuộc nhóm thấp nhất thị trường."
+    },
+    {
+        "text": "1,2%",
+        "label": "RATE",
+        "evidence": "Nhờ vậy, dù trong bối cảnh nợ xấu toàn ngành nói chung và tại ACB nói riêng có xu hướng tăng lên (1,2%), ACB vẫn duy trì được tỷ lệ nợ xấu thuộc nhóm thấp nhất thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhờ vậy, dù trong bối cảnh nợ xấu toàn ngành nói chung và tại ACB nói riêng có xu hướng tăng lên (1,2%), ACB vẫn duy trì được tỷ lệ nợ xấu thuộc nhóm thấp nhất thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhìn chung, rủi ro về chất lượng tài sản đối với ACB tương đối thấp do không sở hữu trái phiếu doanh nghiệp, tỉ lệ nợ xấu thấp và chiến lược thận trọng (98% khoản vay của ACB được đảm bảo với tỉ lệ cho vay trên giá trị tài sản (LTV) chỉ 54%)"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Nhìn chung, rủi ro về chất lượng tài sản đối với ACB tương đối thấp do không sở hữu trái phiếu doanh nghiệp, tỉ lệ nợ xấu thấp và chiến lược thận trọng (98% khoản vay của ACB được đảm bảo với tỉ lệ cho vay trên giá trị tài sản (LTV) chỉ 54%)"
+    },
+    {
+        "text": "98%",
+        "label": "RATE",
+        "evidence": "Nhìn chung, rủi ro về chất lượng tài sản đối với ACB tương đối thấp do không sở hữu trái phiếu doanh nghiệp, tỉ lệ nợ xấu thấp và chiến lược thận trọng (98% khoản vay của ACB được đảm bảo với tỉ lệ cho vay trên giá trị tài sản (LTV) chỉ 54%)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Nhìn chung, rủi ro về chất lượng tài sản đối với ACB tương đối thấp do không sở hữu trái phiếu doanh nghiệp, tỉ lệ nợ xấu thấp và chiến lược thận trọng (98% khoản vay của ACB được đảm bảo với tỉ lệ cho vay trên giá trị tài sản (LTV) chỉ 54%)"
+    },
+    {
+        "text": "54%",
+        "label": "RATE",
+        "evidence": "Nhìn chung, rủi ro về chất lượng tài sản đối với ACB tương đối thấp do không sở hữu trái phiếu doanh nghiệp, tỉ lệ nợ xấu thấp và chiến lược thận trọng (98% khoản vay của ACB được đảm bảo với tỉ lệ cho vay trên giá trị tài sản (LTV) chỉ 54%)"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Tỷ lệ an toàn vốn riêng lẻ tiếp tục tăng trưởng bền vững trong quý 3."
+    },
+    {
+        "text": "Cuối tháng 9",
+        "label": "DATE",
+        "evidence": "Cuối tháng 9, tỷ lệ này đạt 12,8%, vượt xa mức quy định tối thiểu, luôn đảm bảo trong vùng an toàn ngay cả trong điều kiện căng thẳng."
+    },
+    {
+        "text": "12,8%",
+        "label": "RATE",
+        "evidence": "Cuối tháng 9, tỷ lệ này đạt 12,8%, vượt xa mức quy định tối thiểu, luôn đảm bảo trong vùng an toàn ngay cả trong điều kiện căng thẳng."
+    },
+    {
+        "text": "quý 2/2023",
+        "label": "DATE",
+        "evidence": "Trong quý 2/2023, Chứng khoán Yuanta Việt Nam đã công bố cập nhật bảng xếp hạng CAMEL (một phương pháp phân tích tình hình hoạt động và rủi ro của ngân hàng), theo đó, ACB giữ top đầu bảng cùng với Vietcombank, khẳng định năng lực quản trị rủi ro hiệu quả của ngân hàng trước những biến số của thị trường."
+    },
+    {
+        "text": "Chứng khoán Yuanta Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong quý 2/2023, Chứng khoán Yuanta Việt Nam đã công bố cập nhật bảng xếp hạng CAMEL (một phương pháp phân tích tình hình hoạt động và rủi ro của ngân hàng), theo đó, ACB giữ top đầu bảng cùng với Vietcombank, khẳng định năng lực quản trị rủi ro hiệu quả của ngân hàng trước những biến số của thị trường."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong quý 2/2023, Chứng khoán Yuanta Việt Nam đã công bố cập nhật bảng xếp hạng CAMEL (một phương pháp phân tích tình hình hoạt động và rủi ro của ngân hàng), theo đó, ACB giữ top đầu bảng cùng với Vietcombank, khẳng định năng lực quản trị rủi ro hiệu quả của ngân hàng trước những biến số của thị trường."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong quý 2/2023, Chứng khoán Yuanta Việt Nam đã công bố cập nhật bảng xếp hạng CAMEL (một phương pháp phân tích tình hình hoạt động và rủi ro của ngân hàng), theo đó, ACB giữ top đầu bảng cùng với Vietcombank, khẳng định năng lực quản trị rủi ro hiệu quả của ngân hàng trước những biến số của thị trường."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "Tính đến tháng 9, ACB vẫn đảm bảo mức sinh lời thuộc tốp cao nhất thị trường, với ROE ở mức 24,5%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tính đến tháng 9, ACB vẫn đảm bảo mức sinh lời thuộc tốp cao nhất thị trường, với ROE ở mức 24,5%."
+    },
+    {
+        "text": "24,5%",
+        "label": "RATE",
+        "evidence": "Tính đến tháng 9, ACB vẫn đảm bảo mức sinh lời thuộc tốp cao nhất thị trường, với ROE ở mức 24,5%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ACB kiểm soát chi phí hoạt động một cách hiệu quả, tăng nhẹ so với cùng kỳ năm 2022 trong khi doanh thu tăng trưởng 17%."
+    },
+    {
+        "text": "cùng kỳ năm 2022",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, ACB kiểm soát chi phí hoạt động một cách hiệu quả, tăng nhẹ so với cùng kỳ năm 2022 trong khi doanh thu tăng trưởng 17%."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, ACB kiểm soát chi phí hoạt động một cách hiệu quả, tăng nhẹ so với cùng kỳ năm 2022 trong khi doanh thu tăng trưởng 17%."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "Nhờ đó tỷ lệ CIR được cải thiện còn 32%, giảm so với cùng kỳ năm 2022 (36%)."
+    },
+    {
+        "text": "cùng kỳ năm 2022",
+        "label": "DATE",
+        "evidence": "Nhờ đó tỷ lệ CIR được cải thiện còn 32%, giảm so với cùng kỳ năm 2022 (36%)."
+    },
+    {
+        "text": "36%",
+        "label": "RATE",
+        "evidence": "Nhờ đó tỷ lệ CIR được cải thiện còn 32%, giảm so với cùng kỳ năm 2022 (36%)."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "đã giải ngân hết gói tín dụng 30.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "30.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "50.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "giảm đến 3%/năm",
+        "label": "RATE",
+        "evidence": "Mới đây, đại diện ACB cho biết đã giải ngân hết gói tín dụng 30.000 tỷ đồng, hiện đang triển khai tiếp tục gói tín dụng lên 50.000 tỷ đồng với lãi suất ưu đãi giảm đến 3%/năm nhằm hỗ trợ khách hàng trong bối cảnh khó khăn, tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "tạo nguồn cung ứng vốn cần thiết cho mùa kinh doanh cao điểm cuối năm đồng thời tích cực đáp ứng yêu cầu hỗ trợ doanh nghiệp từ NHNN."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đối với khách hàng cá nhân, ACB hiện có gói tín dụng có mức lãi suất vay ưu đãi khoảng 7 – 8%/năm nhằm gia tăng tín dụng tiêu dùng."
+    },
+    {
+        "text": "khoảng 7 – 8%/năm",
+        "label": "RATE",
+        "evidence": "Đối với khách hàng cá nhân, ACB hiện có gói tín dụng có mức lãi suất vay ưu đãi khoảng 7 – 8%/năm nhằm gia tăng tín dụng tiêu dùng."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ACB còn thực hiện áp dụng mức lãi suất 9%/năm cố định trong thời gian 2 năm đầu như một cam kết bảo đảm quyền lợi lâu dài cho khách hàng thay vì chỉ được ưu đãi lãi suất trong thời gian đầu vay, sau đó sẽ nâng lên."
+    },
+    {
+        "text": "9%/năm",
+        "label": "RATE",
+        "evidence": "Bên cạnh đó, ACB còn thực hiện áp dụng mức lãi suất 9%/năm cố định trong thời gian 2 năm đầu như một cam kết bảo đảm quyền lợi lâu dài cho khách hàng thay vì chỉ được ưu đãi lãi suất trong thời gian đầu vay, sau đó sẽ nâng lên."
+    },
+    {
+        "text": "2 năm đầu",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, ACB còn thực hiện áp dụng mức lãi suất 9%/năm cố định trong thời gian 2 năm đầu như một cam kết bảo đảm quyền lợi lâu dài cho khách hàng thay vì chỉ được ưu đãi lãi suất trong thời gian đầu vay, sau đó sẽ nâng lên."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Có thể nói ACB đã thực hiện có nguyên tắc, tuân thủ quy định Thông tư 06/2023 và sự cạnh tranh lành mạnh trong hoạt động ngân hàng cũng như quyền lợi của khách hàng trong thời gian dài."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Với hoạt động kinh doanh hiệu quả, ACB đã được tổ chức Enterprise Asia trao giải Doanh nghiệp xuất sắc Châu Á 2023 vào đầu tháng 10 vừa qua dựa trên các tiêu chí như về doanh thu, năng lực đổi mới, vận hành và phát triển bền vững cùng chiến lược xây dựng đội ngũ nhân sự giỏi."
+    },
+    {
+        "text": "Enterprise Asia",
+        "label": "ORG",
+        "evidence": "Với hoạt động kinh doanh hiệu quả, ACB đã được tổ chức Enterprise Asia trao giải Doanh nghiệp xuất sắc Châu Á 2023 vào đầu tháng 10 vừa qua dựa trên các tiêu chí như về doanh thu, năng lực đổi mới, vận hành và phát triển bền vững cùng chiến lược xây dựng đội ngũ nhân sự giỏi."
+    },
+    {
+        "text": "ACB đã được tổ chức Enterprise Asia trao giải Doanh nghiệp xuất sắc Châu Á 2023",
+        "label": "EVENT",
+        "evidence": "Với hoạt động kinh doanh hiệu quả, ACB đã được tổ chức Enterprise Asia trao giải Doanh nghiệp xuất sắc Châu Á 2023 vào đầu tháng 10 vừa qua dựa trên các tiêu chí như về doanh thu, năng lực đổi mới, vận hành và phát triển bền vững cùng chiến lược xây dựng đội ngũ nhân sự giỏi."
+    },
+    {
+        "text": "đầu tháng 10",
+        "label": "DATE",
+        "evidence": "Với hoạt động kinh doanh hiệu quả, ACB đã được tổ chức Enterprise Asia trao giải Doanh nghiệp xuất sắc Châu Á 2023 vào đầu tháng 10 vừa qua dựa trên các tiêu chí như về doanh thu, năng lực đổi mới, vận hành và phát triển bền vững cùng chiến lược xây dựng đội ngũ nhân sự giỏi."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đây là năm thứ 4 liên tiếp ACB nhận được giải thưởng này."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngoài ra, ACB còn đạt thêm giải thưởng Thương hiệu truyền cảm hứng 2023 (Inspirational Brand Award) của Enterprise Asia."
+    },
+    {
+        "text": "ACB còn đạt thêm giải thưởng Thương hiệu truyền cảm hứng 2023 (Inspirational Brand Award) của Enterprise Asia",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, ACB còn đạt thêm giải thưởng Thương hiệu truyền cảm hứng 2023 (Inspirational Brand Award) của Enterprise Asia."
+    },
+    {
+        "text": "Enterprise Asia",
+        "label": "ORG",
+        "evidence": "Ngoài ra, ACB còn đạt thêm giải thưởng Thương hiệu truyền cảm hứng 2023 (Inspirational Brand Award) của Enterprise Asia."
+    }
+]

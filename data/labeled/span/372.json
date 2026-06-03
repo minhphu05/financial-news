@@ -1,0 +1,292 @@
+[
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB:Báo lãi trước thuế quý 1 đạt hơn 6.500 tỷ đồng, tăng 10% so với cùng kỳ."
+    },
+    {
+        "text": "Báo lãi trước thuế quý 1",
+        "label": "EVENT",
+        "evidence": "MB:Báo lãi trước thuế quý 1 đạt hơn 6.500 tỷ đồng, tăng 10% so với cùng kỳ."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "MB:Báo lãi trước thuế quý 1 đạt hơn 6.500 tỷ đồng, tăng 10% so với cùng kỳ."
+    },
+    {
+        "text": "hơn 6.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MB:Báo lãi trước thuế quý 1 đạt hơn 6.500 tỷ đồng, tăng 10% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 10%",
+        "label": "RATE",
+        "evidence": "MB:Báo lãi trước thuế quý 1 đạt hơn 6.500 tỷ đồng, tăng 10% so với cùng kỳ."
+    },
+    {
+        "text": "35,5%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ CASA ước tính đạt 35,5%."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB:Báo cáo tài chính cho thấy, như thông tin mà lãnh đạo ngân hàng trước đó, lợi nhuận trước thuế quý 1 của ngân hàng đạt 5.156 tỷ đồng, tăng 25%."
+    },
+    {
+        "text": "Báo cáo tài chính",
+        "label": "EVENT",
+        "evidence": "ACB:Báo cáo tài chính cho thấy, như thông tin mà lãnh đạo ngân hàng trước đó, lợi nhuận trước thuế quý 1 của ngân hàng đạt 5.156 tỷ đồng, tăng 25%."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "ACB:Báo cáo tài chính cho thấy, như thông tin mà lãnh đạo ngân hàng trước đó, lợi nhuận trước thuế quý 1 của ngân hàng đạt 5.156 tỷ đồng, tăng 25%."
+    },
+    {
+        "text": "5.156 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACB:Báo cáo tài chính cho thấy, như thông tin mà lãnh đạo ngân hàng trước đó, lợi nhuận trước thuế quý 1 của ngân hàng đạt 5.156 tỷ đồng, tăng 25%."
+    },
+    {
+        "text": "tăng 25%",
+        "label": "RATE",
+        "evidence": "ACB:Báo cáo tài chính cho thấy, như thông tin mà lãnh đạo ngân hàng trước đó, lợi nhuận trước thuế quý 1 của ngân hàng đạt 5.156 tỷ đồng, tăng 25%."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombankbáo lãi trước thuế 2.383 tỷ đồng, tăng 50%, với động lực chính đến từ hoạt động cốt lõi - thu nhập lãi thuần."
+    },
+    {
+        "text": "báo lãi trước thuế",
+        "label": "EVENT",
+        "evidence": "Sacombankbáo lãi trước thuế 2.383 tỷ đồng, tăng 50%, với động lực chính đến từ hoạt động cốt lõi - thu nhập lãi thuần."
+    },
+    {
+        "text": "2.383 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sacombankbáo lãi trước thuế 2.383 tỷ đồng, tăng 50%, với động lực chính đến từ hoạt động cốt lõi - thu nhập lãi thuần."
+    },
+    {
+        "text": "tăng 50%",
+        "label": "RATE",
+        "evidence": "Sacombankbáo lãi trước thuế 2.383 tỷ đồng, tăng 50%, với động lực chính đến từ hoạt động cốt lõi - thu nhập lãi thuần."
+    },
+    {
+        "text": "tăng 2,2%",
+        "label": "RATE",
+        "evidence": "Dư nợ cho vay khách hàng tăng 2,2% lên 448.469 tỷ."
+    },
+    {
+        "text": "448.469 tỷ",
+        "label": "MONEY",
+        "evidence": "Dư nợ cho vay khách hàng tăng 2,2% lên 448.469 tỷ."
+    },
+    {
+        "text": "tăng 5,3%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng tăng 5,3% và đạt 478.789 tỷ đồng."
+    },
+    {
+        "text": "478.789 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi khách hàng tăng 5,3% và đạt 478.789 tỷ đồng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Nợ xấu nội bảng của Sacombank tăng 1.042 tỷ trong 3 tháng đầu năm lên 5.341 tỷ."
+    },
+    {
+        "text": "1.042 tỷ",
+        "label": "MONEY",
+        "evidence": "Nợ xấu nội bảng của Sacombank tăng 1.042 tỷ trong 3 tháng đầu năm lên 5.341 tỷ."
+    },
+    {
+        "text": "3 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Nợ xấu nội bảng của Sacombank tăng 1.042 tỷ trong 3 tháng đầu năm lên 5.341 tỷ."
+    },
+    {
+        "text": "5.341 tỷ",
+        "label": "MONEY",
+        "evidence": "Nợ xấu nội bảng của Sacombank tăng 1.042 tỷ trong 3 tháng đầu năm lên 5.341 tỷ."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "NCBcó lợi nhuận trước thuế 5,5 tỷ đồng trong quý 1/2023, giảm tới 78% so với cùng kỳ."
+    },
+    {
+        "text": "5,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "NCBcó lợi nhuận trước thuế 5,5 tỷ đồng trong quý 1/2023, giảm tới 78% so với cùng kỳ."
+    },
+    {
+        "text": "quý 1/2023",
+        "label": "DATE",
+        "evidence": "NCBcó lợi nhuận trước thuế 5,5 tỷ đồng trong quý 1/2023, giảm tới 78% so với cùng kỳ."
+    },
+    {
+        "text": "giảm tới 78%",
+        "label": "RATE",
+        "evidence": "NCBcó lợi nhuận trước thuế 5,5 tỷ đồng trong quý 1/2023, giảm tới 78% so với cùng kỳ."
+    },
+    {
+        "text": "công bố KQKD quý 1",
+        "label": "EVENT",
+        "evidence": "Ngân hàng hiện có lãi thấp nhất trong các ngân hàng công bố KQKD quý 1."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Ngân hàng hiện có lãi thấp nhất trong các ngân hàng công bố KQKD quý 1."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "SeABankghi nhận lợi nhuận trước thuế 1.070 tỷ đồng, giảm 18% so với cùng kỳ."
+    },
+    {
+        "text": "1.070 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SeABankghi nhận lợi nhuận trước thuế 1.070 tỷ đồng, giảm 18% so với cùng kỳ."
+    },
+    {
+        "text": "giảm 18%",
+        "label": "RATE",
+        "evidence": "SeABankghi nhận lợi nhuận trước thuế 1.070 tỷ đồng, giảm 18% so với cùng kỳ."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV:Lợi nhuận trước thuế đạt 6.920 tỷ đồng, tăng 53% so với cùng kỳ và đứng thứ 2 trong hệ thống, chỉ sau Vietcombank."
+    },
+    {
+        "text": "6.920 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BIDV:Lợi nhuận trước thuế đạt 6.920 tỷ đồng, tăng 53% so với cùng kỳ và đứng thứ 2 trong hệ thống, chỉ sau Vietcombank."
+    },
+    {
+        "text": "tăng 53%",
+        "label": "RATE",
+        "evidence": "BIDV:Lợi nhuận trước thuế đạt 6.920 tỷ đồng, tăng 53% so với cùng kỳ và đứng thứ 2 trong hệ thống, chỉ sau Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "BIDV:Lợi nhuận trước thuế đạt 6.920 tỷ đồng, tăng 53% so với cùng kỳ và đứng thứ 2 trong hệ thống, chỉ sau Vietcombank."
+    },
+    {
+        "text": "giảm 25%",
+        "label": "RATE",
+        "evidence": "Một trong những động lực chính là chi phí dự phòng rủi ro giảm 25% so với cùng kỳ."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank:Lợi nhuận trước thuế đạt 5.890 tỷ đồng, tăng 1% so với cùng kỳ."
+    },
+    {
+        "text": "5.890 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VietinBank:Lợi nhuận trước thuế đạt 5.890 tỷ đồng, tăng 1% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 1%",
+        "label": "RATE",
+        "evidence": "VietinBank:Lợi nhuận trước thuế đạt 5.890 tỷ đồng, tăng 1% so với cùng kỳ."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank:Lợi nhuận trước thuế riêng lẻ đạt 2.857 tỷ đồng, tăng 26% so với cùng kỳ, tiếp tục lọt vào Top 10 nhà băng có lãi cao nhất."
+    },
+    {
+        "text": "2.857 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "HDBank:Lợi nhuận trước thuế riêng lẻ đạt 2.857 tỷ đồng, tăng 26% so với cùng kỳ, tiếp tục lọt vào Top 10 nhà băng có lãi cao nhất."
+    },
+    {
+        "text": "tăng 26%",
+        "label": "RATE",
+        "evidence": "HDBank:Lợi nhuận trước thuế riêng lẻ đạt 2.857 tỷ đồng, tăng 26% so với cùng kỳ, tiếp tục lọt vào Top 10 nhà băng có lãi cao nhất."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank là ngân hàng có lợi nhuận trước thuế quý 1/2023 cao nhất trong hệ thống, đạt khoảng 11.200 tỷ đồng, tăng 14% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "quý 1/2023",
+        "label": "DATE",
+        "evidence": "Vietcombank là ngân hàng có lợi nhuận trước thuế quý 1/2023 cao nhất trong hệ thống, đạt khoảng 11.200 tỷ đồng, tăng 14% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "11.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank là ngân hàng có lợi nhuận trước thuế quý 1/2023 cao nhất trong hệ thống, đạt khoảng 11.200 tỷ đồng, tăng 14% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "tăng 14%",
+        "label": "RATE",
+        "evidence": "Vietcombank là ngân hàng có lợi nhuận trước thuế quý 1/2023 cao nhất trong hệ thống, đạt khoảng 11.200 tỷ đồng, tăng 14% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "Tecombank",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "Có khá nhiều ngân hàng ghi nhận lợi nhuận tăng trưởng âm như VPBank, Tecombank, LienVietPostBank, VietABank, SeABank, NCB.,..."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Nguyên nhân chính khiến lợi nhuận Techcombank sụt giảm là do chi phí lãi tăng mạnh, đến từ việc trả lãi tiền gửi cho khách hàng lên cao do lãi suất huy động tăng mạnh thời gian qua."
+    },
+    {
+        "text": "giảm tới 19,5%",
+        "label": "RATE",
+        "evidence": "Điều này dẫn đến thu nhập lãi thuần giảm tới 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tại VPBank, lợi nhuận sụt giảm một phần do ngân hàng không có nguồn thu đột biến như cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Quý 1/2022",
+        "label": "DATE",
+        "evidence": "Quý 1/2022, nhà băng này có khoản thu trả trước từ hợp đồng bancassurance."
+    },
+    {
+        "text": "hợp đồng bancassurance",
+        "label": "ASSET",
+        "evidence": "Quý 1/2022, nhà băng này có khoản thu trả trước từ hợp đồng bancassurance."
+    }
+]

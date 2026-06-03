@@ -1,0 +1,387 @@
+[
+    {
+        "text": "Sacombank Pay",
+        "label": "ORG",
+        "evidence": "Đối với khách hàng sử dụng Sacombank Pay, Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu và mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu",
+        "label": "EVENT",
+        "evidence": "Đối với khách hàng sử dụng Sacombank Pay, Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu và mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu và mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu và mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn",
+        "label": "EVENT",
+        "evidence": "Ngân hàng tặng mã VUILE50 giảm 50% (tối đa 50.000 đồng) khi lần đầu áp mã khuyến mãi đặt vé xem phim, vé xe, vé tàu và mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "mã DAILE50 giảm 50% (tối đa 200.000 đồng) khi lần đầu đặt vé máy bay, khách sạn."
+    },
+    {
+        "text": "giảm 30% với mã VUILE30 (tối đa 40.000 đồng)",
+        "label": "EVENT",
+        "evidence": "Khách hàng đã từng áp mã khuyến mãi trên sẽ được giảm 30% với mã VUILE30 (tối đa 40.000 đồng) và mã DAILE30 (tối đa 150.000 đồng)."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm 30% với mã VUILE30 (tối đa 40.000 đồng) và mã DAILE30 (tối đa 150.000 đồng)."
+    },
+    {
+        "text": "40.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 30% với mã VUILE30 (tối đa 40.000 đồng) và mã DAILE30 (tối đa 150.000 đồng)."
+    },
+    {
+        "text": "mã DAILE30 (tối đa 150.000 đồng)",
+        "label": "EVENT",
+        "evidence": "Khách hàng đã từng áp mã khuyến mãi trên sẽ được giảm 30% với mã VUILE30 (tối đa 40.000 đồng) và mã DAILE30 (tối đa 150.000 đồng)."
+    },
+    {
+        "text": "150.000 đồng",
+        "label": "MONEY",
+        "evidence": "mã DAILE30 (tối đa 150.000 đồng)."
+    },
+    {
+        "text": "1.190 giao dịch",
+        "label": "VOLUME",
+        "evidence": "Ưu đãi này áp dụng cho 1.190 giao dịch thành công sớm nhất mỗi tuần trong thời gian từ nay đến ngày 04/05/2025."
+    },
+    {
+        "text": "ngày 04/05/2025",
+        "label": "DATE",
+        "evidence": "Ưu đãi này áp dụng cho 1.190 giao dịch thành công sớm nhất mỗi tuần trong thời gian từ nay đến ngày 04/05/2025."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Cũng trong thời gian này, Sacombank hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất; hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên",
+        "label": "EVENT",
+        "evidence": "Sacombank hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất; hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất;"
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất;"
+    },
+    {
+        "text": "4.000 chủ thẻ tín dụng",
+        "label": "VOLUME",
+        "evidence": "hoàn 30% (tối đa 200.000 đồng) cho 4.000 chủ thẻ tín dụng phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất;"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phát sinh giao dịch trong nước từ 1 triệu đồng trở lên sớm nhất;"
+    },
+    {
+        "text": "hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên",
+        "label": "EVENT",
+        "evidence": "hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn 30% phí chuyển đổi ngoại tệ (tối đa 300.000 đồng) cho chủ thẻ thanh toán và thẻ tín dụng phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phát sinh giao dịch ở nước ngoài từ 3 triệu đồng trở lên."
+    },
+    {
+        "text": "ngày 30/06/2025",
+        "label": "DATE",
+        "evidence": "Từ nay đến ngày 30/06/2025, 3.500 chủ thẻ Sacombank Visa giao dịch qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "3.500 chủ thẻ Sacombank Visa",
+        "label": "VOLUME",
+        "evidence": "3.500 chủ thẻ Sacombank Visa giao dịch qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Sacombank Visa",
+        "label": "ASSET",
+        "evidence": "3.500 chủ thẻ Sacombank Visa giao dịch qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Apple Pay",
+        "label": "ORG",
+        "evidence": "qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Samsung Pay",
+        "label": "ORG",
+        "evidence": "qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Google Pay",
+        "label": "ORG",
+        "evidence": "qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Garmin Pay",
+        "label": "ORG",
+        "evidence": "qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví",
+        "label": "EVENT",
+        "evidence": "3.500 chủ thẻ Sacombank Visa giao dịch qua các ví Apple Pay/Samsung Pay/Google Pay/Garmin Pay ở nước ngoài mỗi tháng được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "được hoàn 300.000 đồng khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "khi giao dịch từ 3 triệu đồng/ví sớm nhất."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó là nhiều ưu đãi khác cho chủ thẻ Sacombank như giảm 500.000 đồng khi đặt tour du lịch từ 10 triệu đồng tại Vietravel; giảm đến 10% khi đặt vé máy bay tại Eva Air, mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group; giảm đến 20% khi đặt khách sạn tại Agoda, mua rượu vang tại WeWine; giảm đến 30% tại các resort, nhà hàng hoặc đặt xe máy/ô tô tại Xanh SM; giảm đến 200.000 đồng tại Shopee, thuê xe tại Mioto với mã SACOM2025; giảm đến 100.000 đồng tại GrabFood; mua 2 vé xem phim 2D tại CGV với 100.000 đồng…"
+    },
+    {
+        "text": "giảm 500.000 đồng khi đặt tour du lịch từ 10 triệu đồng tại Vietravel",
+        "label": "EVENT",
+        "evidence": "giảm 500.000 đồng khi đặt tour du lịch từ 10 triệu đồng tại Vietravel;"
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 500.000 đồng khi đặt tour du lịch từ 10 triệu đồng tại Vietravel;"
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "đặt tour du lịch từ 10 triệu đồng tại Vietravel;"
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "đặt tour du lịch từ 10 triệu đồng tại Vietravel;"
+    },
+    {
+        "text": "giảm đến 10% khi đặt vé máy bay tại Eva Air, mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group",
+        "label": "EVENT",
+        "evidence": "giảm đến 10% khi đặt vé máy bay tại Eva Air, mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group;"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm đến 10% khi đặt vé máy bay tại Eva Air, mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group;"
+    },
+    {
+        "text": "Eva Air",
+        "label": "ORG",
+        "evidence": "khi đặt vé máy bay tại Eva Air, mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group;"
+    },
+    {
+        "text": "Tam Sơn Group",
+        "label": "ORG",
+        "evidence": "mua sắm tại các thương hiệu thời trang thuộc Tam Sơn Group;"
+    },
+    {
+        "text": "giảm đến 20% khi đặt khách sạn tại Agoda, mua rượu vang tại WeWine",
+        "label": "EVENT",
+        "evidence": "giảm đến 20% khi đặt khách sạn tại Agoda, mua rượu vang tại WeWine;"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "giảm đến 20% khi đặt khách sạn tại Agoda, mua rượu vang tại WeWine;"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "khi đặt khách sạn tại Agoda, mua rượu vang tại WeWine;"
+    },
+    {
+        "text": "WeWine",
+        "label": "ORG",
+        "evidence": "mua rượu vang tại WeWine;"
+    },
+    {
+        "text": "giảm đến 30% tại các resort, nhà hàng hoặc đặt xe máy/ô tô tại Xanh SM",
+        "label": "EVENT",
+        "evidence": "giảm đến 30% tại các resort, nhà hàng hoặc đặt xe máy/ô tô tại Xanh SM;"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm đến 30% tại các resort, nhà hàng hoặc đặt xe máy/ô tô tại Xanh SM;"
+    },
+    {
+        "text": "Xanh SM",
+        "label": "ORG",
+        "evidence": "đặt xe máy/ô tô tại Xanh SM;"
+    },
+    {
+        "text": "giảm đến 200.000 đồng tại Shopee, thuê xe tại Mioto với mã SACOM2025",
+        "label": "EVENT",
+        "evidence": "giảm đến 200.000 đồng tại Shopee, thuê xe tại Mioto với mã SACOM2025;"
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm đến 200.000 đồng tại Shopee, thuê xe tại Mioto với mã SACOM2025;"
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "giảm đến 200.000 đồng tại Shopee, thuê xe tại Mioto với mã SACOM2025;"
+    },
+    {
+        "text": "Mioto",
+        "label": "ORG",
+        "evidence": "thuê xe tại Mioto với mã SACOM2025;"
+    },
+    {
+        "text": "giảm đến 100.000 đồng tại GrabFood",
+        "label": "EVENT",
+        "evidence": "giảm đến 100.000 đồng tại GrabFood;"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm đến 100.000 đồng tại GrabFood;"
+    },
+    {
+        "text": "GrabFood",
+        "label": "ORG",
+        "evidence": "giảm đến 100.000 đồng tại GrabFood;"
+    },
+    {
+        "text": "mua 2 vé xem phim 2D tại CGV với 100.000 đồng",
+        "label": "EVENT",
+        "evidence": "mua 2 vé xem phim 2D tại CGV với 100.000 đồng…"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "mua 2 vé xem phim 2D tại CGV với 100.000 đồng…"
+    },
+    {
+        "text": "CGV",
+        "label": "ORG",
+        "evidence": "mua 2 vé xem phim 2D tại CGV với 100.000 đồng…"
+    },
+    {
+        "text": "bảo hiểm nhân thọ Dai-ichi Life Việt Nam",
+        "label": "ASSET",
+        "evidence": "khách hàng tham gia bảo hiểm nhân thọ Dai-ichi Life Việt Nam qua hợp tác với Sacombank cũng nhận được nhiều ưu đãi như: khách hàng doanh nghiệp từ nay đến hết tháng 06/2025 được hoàn tiền lên đến 15% tổng phí kỳ đầu (IP); khách hàng cá nhân tham gia hợp đồng mới trong tháng 05/2025 được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "Dai-ichi Life Việt Nam",
+        "label": "ORG",
+        "evidence": "khách hàng tham gia bảo hiểm nhân thọ Dai-ichi Life Việt Nam qua hợp tác với Sacombank cũng nhận được nhiều ưu đãi như: khách hàng doanh nghiệp từ nay đến hết tháng 06/2025 được hoàn tiền lên đến 15% tổng phí kỳ đầu (IP); khách hàng cá nhân tham gia hợp đồng mới trong tháng 05/2025 được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "khách hàng tham gia bảo hiểm nhân thọ Dai-ichi Life Việt Nam qua hợp tác với Sacombank cũng nhận được nhiều ưu đãi như: khách hàng doanh nghiệp từ nay đến hết tháng 06/2025 được hoàn tiền lên đến 15% tổng phí kỳ đầu (IP); khách hàng cá nhân tham gia hợp đồng mới trong tháng 05/2025 được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "tháng 06/2025",
+        "label": "DATE",
+        "evidence": "khách hàng doanh nghiệp từ nay đến hết tháng 06/2025 được hoàn tiền lên đến 15% tổng phí kỳ đầu (IP);"
+    },
+    {
+        "text": "hoàn tiền lên đến 15% tổng phí kỳ đầu (IP)",
+        "label": "EVENT",
+        "evidence": "khách hàng doanh nghiệp từ nay đến hết tháng 06/2025 được hoàn tiền lên đến 15% tổng phí kỳ đầu (IP);"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "hoàn tiền lên đến 15% tổng phí kỳ đầu (IP);"
+    },
+    {
+        "text": "tháng 05/2025",
+        "label": "DATE",
+        "evidence": "khách hàng cá nhân tham gia hợp đồng mới trong tháng 05/2025 được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "được nhận đến 0,5 chỉ vàng SBJ",
+        "label": "EVENT",
+        "evidence": "khách hàng cá nhân tham gia hợp đồng mới trong tháng 05/2025 được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "0,5 chỉ vàng SBJ",
+        "label": "ASSET",
+        "evidence": "được nhận đến 0,5 chỉ vàng SBJ."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "khách hàng thanh toán phí bảo hiểm tái tục năm thứ 2 qua thẻ tín dụng Sacombank được hoàn phí chuyển đổi trả góp khi đăng ký tại điểm giao dịch Sacombank từ nay đến hết tháng 06/2025."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "khách hàng thanh toán phí bảo hiểm tái tục năm thứ 2 qua thẻ tín dụng Sacombank được hoàn phí chuyển đổi trả góp khi đăng ký tại điểm giao dịch Sacombank từ nay đến hết tháng 06/2025."
+    },
+    {
+        "text": "hoàn phí chuyển đổi trả góp khi đăng ký tại điểm giao dịch Sacombank",
+        "label": "EVENT",
+        "evidence": "khách hàng thanh toán phí bảo hiểm tái tục năm thứ 2 qua thẻ tín dụng Sacombank được hoàn phí chuyển đổi trả góp khi đăng ký tại điểm giao dịch Sacombank từ nay đến hết tháng 06/2025."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "khi đăng ký tại điểm giao dịch Sacombank từ nay đến hết tháng 06/2025."
+    },
+    {
+        "text": "tháng 06/2025",
+        "label": "DATE",
+        "evidence": "khi đăng ký tại điểm giao dịch Sacombank từ nay đến hết tháng 06/2025."
+    },
+    {
+        "text": "bảo hiểm sức khỏe",
+        "label": "ASSET",
+        "evidence": "Đồng thời còn có thêm hàng trăm quà tặng hấp dẫn dành cho các khách hàng tham gia các loại bảo hiểm sức khỏe/tài sản qua danh mục đối tác liên kết tại Sacombank."
+    },
+    {
+        "text": "bảo hiểm tài sản",
+        "label": "ASSET",
+        "evidence": "Đồng thời còn có thêm hàng trăm quà tặng hấp dẫn dành cho các khách hàng tham gia các loại bảo hiểm sức khỏe/tài sản qua danh mục đối tác liên kết tại Sacombank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "qua danh mục đối tác liên kết tại Sacombank."
+    }
+]

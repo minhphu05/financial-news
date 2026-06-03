@@ -1,0 +1,457 @@
+[
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "Top 10 ngân hàng có “quân số” nhiều nhất quý I/2023"
+    },
+    {
+        "text": "báo cáo tài chính hợp nhất quý I/2023 đã được công bố",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo tài chính hợp nhất quý I/2023 đã được công bố của 28 ngân hàng, tính đến ngày 31/03/2023, các nhà băng này đang có 274.131 nhân sự, giảm 1.062 nhân sự so với đầu năm."
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo tài chính hợp nhất quý I/2023 đã được công bố của 28 ngân hàng, tính đến ngày 31/03/2023, các nhà băng này đang có 274.131 nhân sự, giảm 1.062 nhân sự so với đầu năm."
+    },
+    {
+        "text": "ngày 31/03/2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo tài chính hợp nhất quý I/2023 đã được công bố của 28 ngân hàng, tính đến ngày 31/03/2023, các nhà băng này đang có 274.131 nhân sự, giảm 1.062 nhân sự so với đầu năm."
+    },
+    {
+        "text": "274.131 nhân sự",
+        "label": "VOLUME",
+        "evidence": "các nhà băng này đang có 274.131 nhân sự, giảm 1.062 nhân sự so với đầu năm."
+    },
+    {
+        "text": "giảm 1.062 nhân sự",
+        "label": "VOLUME",
+        "evidence": "các nhà băng này đang có 274.131 nhân sự, giảm 1.062 nhân sự so với đầu năm."
+    },
+    {
+        "text": "192.420 nhân sự",
+        "label": "VOLUME",
+        "evidence": "Trong đó, top 10 hiện có 192.420 nhân sự, tương đương với 70% lực lượng lao động của 28 ngân hàng."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "Trong đó, top 10 hiện có 192.420 nhân sự, tương đương với 70% lực lượng lao động của 28 ngân hàng."
+    },
+    {
+        "text": "28.195 nhân viên",
+        "label": "VOLUME",
+        "evidence": "Với 28.195 nhân viên,BIDVđã soán ngôi nhà băng có nhiều nhân sự nhất của VPBank dù nhân sự của BIDV trong quý vừa qua giảm 240 người (riêng ngân hàng mẹ giảm 264 người)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Với 28.195 nhân viên,BIDVđã soán ngôi nhà băng có nhiều nhân sự nhất của VPBank dù nhân sự của BIDV trong quý vừa qua giảm 240 người (riêng ngân hàng mẹ giảm 264 người)."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Với 28.195 nhân viên,BIDVđã soán ngôi nhà băng có nhiều nhân sự nhất của VPBank dù nhân sự của BIDV trong quý vừa qua giảm 240 người (riêng ngân hàng mẹ giảm 264 người)."
+    },
+    {
+        "text": "giảm 240 người",
+        "label": "VOLUME",
+        "evidence": "dù nhân sự của BIDV trong quý vừa qua giảm 240 người (riêng ngân hàng mẹ giảm 264 người)."
+    },
+    {
+        "text": "giảm 264 người",
+        "label": "VOLUME",
+        "evidence": "dù nhân sự của BIDV trong quý vừa qua giảm 240 người (riêng ngân hàng mẹ giảm 264 người)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Tất nhiên nếu tính cả Agribank (chưa niêm yết) thì số lượng nhân sự của BIDV còn ít hơn rất nhiều so với \"ông lớn nông nghiệp\"."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tất nhiên nếu tính cả Agribank (chưa niêm yết) thì số lượng nhân sự của BIDV còn ít hơn rất nhiều so với \"ông lớn nông nghiệp\"."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBankhiện ở vị trí thứ 2 trong bảng xếp hạng với 28.155 nhân sự, giảm 956 người so với đầu năm."
+    },
+    {
+        "text": "28.155 nhân sự",
+        "label": "VOLUME",
+        "evidence": "VPBankhiện ở vị trí thứ 2 trong bảng xếp hạng với 28.155 nhân sự, giảm 956 người so với đầu năm."
+    },
+    {
+        "text": "giảm 956 người",
+        "label": "VOLUME",
+        "evidence": "VPBankhiện ở vị trí thứ 2 trong bảng xếp hạng với 28.155 nhân sự, giảm 956 người so với đầu năm."
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "Đây cũng là nhà băng có lượng nhân sự sụt giảm lớn nhất trong quý I/2023."
+    },
+    {
+        "text": "giảm 167 người",
+        "label": "VOLUME",
+        "evidence": "Nguyên nhân do số lao động ngân hàng mẹ giảm 167 người, cùng lúc các công ty thành viên khác trong tập đoàn giảm 789 người."
+    },
+    {
+        "text": "giảm 789 người",
+        "label": "VOLUME",
+        "evidence": "Nguyên nhân do số lao động ngân hàng mẹ giảm 167 người, cùng lúc các công ty thành viên khác trong tập đoàn giảm 789 người."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBankhiện có 24.939 nhân sự, giảm 180 người so với đầu năm."
+    },
+    {
+        "text": "24.939 nhân sự",
+        "label": "VOLUME",
+        "evidence": "VietinBankhiện có 24.939 nhân sự, giảm 180 người so với đầu năm."
+    },
+    {
+        "text": "giảm 180 người",
+        "label": "VOLUME",
+        "evidence": "VietinBankhiện có 24.939 nhân sự, giảm 180 người so với đầu năm."
+    },
+    {
+        "text": "giảm 170 người",
+        "label": "VOLUME",
+        "evidence": "Sự sụt giảm về số lượng nhân sự chủ yếu do số lượng nhân viên ở ngân hàng mẹ với mức giảm 170 người và các công ty con giảm 10 người so với đầu năm."
+    },
+    {
+        "text": "giảm 10 người",
+        "label": "VOLUME",
+        "evidence": "Sự sụt giảm về số lượng nhân sự chủ yếu do số lượng nhân viên ở ngân hàng mẹ với mức giảm 170 người và các công ty con giảm 10 người so với đầu năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo sau làVietcombankvới 22.862 nhân viên, tăng 263 người so với cuối năm 2022."
+    },
+    {
+        "text": "22.862 nhân viên",
+        "label": "VOLUME",
+        "evidence": "Theo sau làVietcombankvới 22.862 nhân viên, tăng 263 người so với cuối năm 2022."
+    },
+    {
+        "text": "tăng 263 người",
+        "label": "VOLUME",
+        "evidence": "Theo sau làVietcombankvới 22.862 nhân viên, tăng 263 người so với cuối năm 2022."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Theo sau làVietcombankvới 22.862 nhân viên, tăng 263 người so với cuối năm 2022."
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "Tính đến thời điểm hiện tại, đây là ông lớn duy nhất ghi nhận nhân sự cả tập đoàn tăng trưởng trong quý I/2023."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trên thực tế, ngay từ đầu năm, Vietcombank đã mở ra nhiều đợt chiêu mộ nhân sự ở các quy mô khác nhau."
+    },
+    {
+        "text": "690 cơ hội việc làm",
+        "label": "VOLUME",
+        "evidence": "từ đầu năm đến nay ngân hàng đã tổ chức được 3 lần và mở ra ít nhất 690 cơ hội việc làm."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombankở vị trí thứ 5 với 18.439 nhân viên, gần như không đổi khi chỉ giảm 3 người so với đầu năm."
+    },
+    {
+        "text": "18.439 nhân viên",
+        "label": "VOLUME",
+        "evidence": "Sacombankở vị trí thứ 5 với 18.439 nhân viên, gần như không đổi khi chỉ giảm 3 người so với đầu năm."
+    },
+    {
+        "text": "giảm 3 người",
+        "label": "VOLUME",
+        "evidence": "gần như không đổi khi chỉ giảm 3 người so với đầu năm."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Các thành viên còn lại top 10 nhà băng có số lượng nhân sự lớn nhất làHDBank(16.270 người),MB(16.085 người),ACB(13.081 người),LienVietpostBank(12.282 người),Techcombank(12.112 người)."
+    },
+    {
+        "text": "16.270 người",
+        "label": "VOLUME",
+        "evidence": "HDBank(16.270 người)"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB(16.085 người)"
+    },
+    {
+        "text": "16.085 người",
+        "label": "VOLUME",
+        "evidence": "MB(16.085 người)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB(13.081 người)"
+    },
+    {
+        "text": "13.081 người",
+        "label": "VOLUME",
+        "evidence": "ACB(13.081 người)"
+    },
+    {
+        "text": "LienVietpostBank",
+        "label": "ORG",
+        "evidence": "LienVietpostBank(12.282 người)"
+    },
+    {
+        "text": "12.282 người",
+        "label": "VOLUME",
+        "evidence": "LienVietpostBank(12.282 người)"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank(12.112 người)."
+    },
+    {
+        "text": "12.112 người",
+        "label": "VOLUME",
+        "evidence": "Techcombank(12.112 người)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong đó, dẫn đầu làVietcombankvới lượng nhân sự tăng thêm đạt 263 người."
+    },
+    {
+        "text": "tăng thêm đạt 263 người",
+        "label": "VOLUME",
+        "evidence": "Trong đó, dẫn đầu làVietcombankvới lượng nhân sự tăng thêm đạt 263 người."
+    },
+    {
+        "text": "NamABank",
+        "label": "ORG",
+        "evidence": "Ở vị trí thứ hai,NamABankghi nhận quy mô nhân sự tăng thêm 250 người."
+    },
+    {
+        "text": "tăng thêm 250 người",
+        "label": "VOLUME",
+        "evidence": "NamABankghi nhận quy mô nhân sự tăng thêm 250 người."
+    },
+    {
+        "text": "tăng thêm 241 người",
+        "label": "VOLUME",
+        "evidence": "Việc này chủ yếu do số lượng nhân sự ở công ty con đã tăng thêm 241 người."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbankở vị trí thứ ba với lượng nhân sự tăng thêm 198 người."
+    },
+    {
+        "text": "tăng thêm 198 người",
+        "label": "VOLUME",
+        "evidence": "Eximbankở vị trí thứ ba với lượng nhân sự tăng thêm 198 người."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Theo sau làOCBvới tổng nhân sự tăng thêm 115 người."
+    },
+    {
+        "text": "tổng nhân sự tăng thêm 115 người",
+        "label": "VOLUME",
+        "evidence": "Theo sau làOCBvới tổng nhân sự tăng thêm 115 người."
+    },
+    {
+        "text": "tháng 1-2/2023",
+        "label": "DATE",
+        "evidence": "Giai đoạn tháng 1-2/2023 là khoảng thời gian dự án Liobank - một đơn vị ngân hàng hoàn toàn số (Neobank) trực thuộc OCB bước vào giai đoạn nước rút."
+    },
+    {
+        "text": "Liobank",
+        "label": "ORG",
+        "evidence": "Giai đoạn tháng 1-2/2023 là khoảng thời gian dự án Liobank - một đơn vị ngân hàng hoàn toàn số (Neobank) trực thuộc OCB bước vào giai đoạn nước rút."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Giai đoạn tháng 1-2/2023 là khoảng thời gian dự án Liobank - một đơn vị ngân hàng hoàn toàn số (Neobank) trực thuộc OCB bước vào giai đoạn nước rút."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Ngay từ đầu năm, không ít nhân sự thuộc lĩnh vực công nghệ, marketing, bán hàng cho riêng khối này đã liên tục được OCB chiêu mộ."
+    },
+    {
+        "text": "VietCapitalBank",
+        "label": "ORG",
+        "evidence": "VietCapitalBankở vị trí thứ 5 với khi ghi nhận nhận tổng nhân sự tăng thêm 87 người."
+    },
+    {
+        "text": "tăng thêm 87 người",
+        "label": "VOLUME",
+        "evidence": "VietCapitalBankở vị trí thứ 5 với khi ghi nhận nhận tổng nhân sự tăng thêm 87 người."
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "5 ngân hàng còn lại trên bảng xếp hạng các nhà băng có nhân sự tăng nhiều nhất trong quý I/2023 là là MSB (tăng 83 người); LienVietPostBank (tăng 79 nhân sự); ACB (tăng 46 nhân viên); BacABank (tăng 44 lao động) và VietABank (tăng 27 người)."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "MSB(tăng 83 người)"
+    },
+    {
+        "text": "tăng 83 người",
+        "label": "VOLUME",
+        "evidence": "MSB(tăng 83 người)"
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "LienVietPostBank(tăng 79 nhân sự)"
+    },
+    {
+        "text": "tăng 79 nhân sự",
+        "label": "VOLUME",
+        "evidence": "LienVietPostBank(tăng 79 nhân sự)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB(tăng 46 nhân viên)"
+    },
+    {
+        "text": "tăng 46 nhân viên",
+        "label": "VOLUME",
+        "evidence": "ACB(tăng 46 nhân viên)"
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "BacABank(tăng 44 lao động)"
+    },
+    {
+        "text": "tăng 44 lao động",
+        "label": "VOLUME",
+        "evidence": "BacABank(tăng 44 lao động)"
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "VietABank (tăng 27 người)."
+    },
+    {
+        "text": "tăng 27 người",
+        "label": "VOLUME",
+        "evidence": "VietABank (tăng 27 người)."
+    },
+    {
+        "text": "Vũ Việt Dũng",
+        "label": "PERSON",
+        "evidence": "Theo chuyên gia tư vấn, đào tạo và tuyển dụng nhân sự Vũ Việt Dũng, Chủ tịch HĐQT Công ty KeyPerson, do xu hướng chung phát triển ngân hàng bán lẻ, tăng thu nhập dịch vụ, đa dạng hệ sinh thái nên các ngân hàng có xu hướng gia tăng lượng nhân sự ở các công ty con."
+    },
+    {
+        "text": "Công ty KeyPerson",
+        "label": "ORG",
+        "evidence": "Theo chuyên gia tư vấn, đào tạo và tuyển dụng nhân sự Vũ Việt Dũng, Chủ tịch HĐQT Công ty KeyPerson, do xu hướng chung phát triển ngân hàng bán lẻ, tăng thu nhập dịch vụ, đa dạng hệ sinh thái nên các ngân hàng có xu hướng gia tăng lượng nhân sự ở các công ty con."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Điển hình như thời gian gần đây HDBank có quyết định mua lại một công ty chứng khoán; OCB phát triển LioBank; hay trước đó VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "HDBank có quyết định mua lại một công ty chứng khoán",
+        "label": "EVENT",
+        "evidence": "Điển hình như thời gian gần đây HDBank có quyết định mua lại một công ty chứng khoán; OCB phát triển LioBank; hay trước đó VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB phát triển LioBank"
+    },
+    {
+        "text": "LioBank",
+        "label": "ORG",
+        "evidence": "OCB phát triển LioBank"
+    },
+    {
+        "text": "OCB phát triển LioBank",
+        "label": "EVENT",
+        "evidence": "OCB phát triển LioBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "hay trước đó VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "ASC",
+        "label": "ORG",
+        "evidence": "VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "VPBank Securities",
+        "label": "ORG",
+        "evidence": "VPBank Securities"
+    },
+    {
+        "text": "OPES",
+        "label": "ORG",
+        "evidence": "VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES",
+        "label": "EVENT",
+        "evidence": "hay trước đó VPBank mua lại công ty chứng khoán ASC (hiện tại là VPBank Securities) và bảo hiểm OPES."
+    },
+    {
+        "text": "ông Dũng",
+        "label": "PERSON",
+        "evidence": "Do đó, lượng nhân sự tăng thêm tại các ngân hàng sẽ tiếp tục chủ yếu đến từ các công ty con, các mảng kinh doanh ngân hàng cá nhân và công nghệ”, ông Dũng đánh giá."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Ông nói thêm, giai đoạn quý I thường được gọi là “Mùa chuyển nhượng”."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Thế nhưng từ quý 2 trở đi, khi lượng sinh viên ra trường nhiều hơn, thị trường sẽ chính thức bước vào “mùa tuyển dụng”, lượng lao động tại các nhà băng cũng sẽ nhiều hơn."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đơn cử, một số ông lớn như BIDV, VietinBank, Vietcombank thường từ quý II trở đi mới bắt đầu mở những đợt tuyển dụng quy mô lớn."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đơn cử, một số ông lớn như BIDV, VietinBank, Vietcombank thường từ quý II trở đi mới bắt đầu mở những đợt tuyển dụng quy mô lớn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đơn cử, một số ông lớn như BIDV, VietinBank, Vietcombank thường từ quý II trở đi mới bắt đầu mở những đợt tuyển dụng quy mô lớn."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Đơn cử, một số ông lớn như BIDV, VietinBank, Vietcombank thường từ quý II trở đi mới bắt đầu mở những đợt tuyển dụng quy mô lớn."
+    }
+]

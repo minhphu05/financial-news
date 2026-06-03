@@ -1,0 +1,402 @@
+[
+    {
+        "text": "25/1",
+        "label": "DATE",
+        "evidence": "Trong bối cảnh sắc đỏ áp đảo trên thị trường phiên 25/1, nhóm cổ phiếu bán lẻ bất ngờ trở thành điểm sáng thu hút sự chú ý."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Nổi bật nhất là FRT của FPT Retail khi cổ phiếu này tăng kịch trần với thanh khoản đột biến."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Nổi bật nhất là FRT của FPT Retail khi cổ phiếu này tăng kịch trần với thanh khoản đột biến."
+    },
+    {
+        "text": "tăng kịch trần",
+        "label": "EVENT",
+        "evidence": "Nổi bật nhất là FRT của FPT Retail khi cổ phiếu này tăng kịch trần với thanh khoản đột biến."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Thậm chí, FRT còn đóng cửa trong tình trạng \"trắng bên bán\"."
+    },
+    {
+        "text": "đóng cửa trong tình trạng \"trắng bên bán\"",
+        "label": "EVENT",
+        "evidence": "Thậm chí, FRT còn đóng cửa trong tình trạng \"trắng bên bán\"."
+    },
+    {
+        "text": "bứt phá mạnh",
+        "label": "EVENT",
+        "evidence": "Phiên bứt phá mạnh đã chấm dứt nhịp điều chỉnh và đưa cổ phiếu này trở lại vùng đỉnh lịch sử."
+    },
+    {
+        "text": "chấm dứt nhịp điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Phiên bứt phá mạnh đã chấm dứt nhịp điều chỉnh và đưa cổ phiếu này trở lại vùng đỉnh lịch sử."
+    },
+    {
+        "text": "đưa cổ phiếu này trở lại vùng đỉnh lịch sử",
+        "label": "EVENT",
+        "evidence": "Phiên bứt phá mạnh đã chấm dứt nhịp điều chỉnh và đưa cổ phiếu này trở lại vùng đỉnh lịch sử."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Mặc dù không tăng sốc như FRT nhưng cổ phiếu MWG của Thế Giới Di Động cũng có một phiên giao dịch đầy khởi sắc."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Mặc dù không tăng sốc như FRT nhưng cổ phiếu MWG của Thế Giới Di Động cũng có một phiên giao dịch đầy khởi sắc."
+    },
+    {
+        "text": "1,8%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này tăng 1,8% qua đó đóng cửa cao nhất phiên tại mức 45.200 đồng/cp."
+    },
+    {
+        "text": "45.200 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này tăng 1,8% qua đó đóng cửa cao nhất phiên tại mức 45.200 đồng/cp."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Bộ đôi MWG vàFRTcũng chính là 2 cổ phiếu đóng góp lớn nhất vào VN-Index trong phiên 25/1."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Bộ đôi MWG vàFRTcũng chính là 2 cổ phiếu đóng góp lớn nhất vào VN-Index trong phiên 25/1."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Bộ đôi MWG vàFRTcũng chính là 2 cổ phiếu đóng góp lớn nhất vào VN-Index trong phiên 25/1."
+    },
+    {
+        "text": "25/1",
+        "label": "DATE",
+        "evidence": "Bộ đôi MWG vàFRTcũng chính là 2 cổ phiếu đóng góp lớn nhất vào VN-Index trong phiên 25/1."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FRT vàMWGcùng bứt phá mạnh ngay trước thời điểm công bố báo cáo tài chính quý 4/2023 cho thấy kỳ vọng của giới đầu tư vào kết quả kinh doanh của 2 doanh nghiệp hàng đầu ngành bán lẻ trong quý cuối năm."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FRT vàMWGcùng bứt phá mạnh ngay trước thời điểm công bố báo cáo tài chính quý 4/2023 cho thấy kỳ vọng của giới đầu tư vào kết quả kinh doanh của 2 doanh nghiệp hàng đầu ngành bán lẻ trong quý cuối năm."
+    },
+    {
+        "text": "công bố báo cáo tài chính quý 4/2023",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu FRT vàMWGcùng bứt phá mạnh ngay trước thời điểm công bố báo cáo tài chính quý 4/2023 cho thấy kỳ vọng của giới đầu tư vào kết quả kinh doanh của 2 doanh nghiệp hàng đầu ngành bán lẻ trong quý cuối năm."
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "Cổ phiếu FRT vàMWGcùng bứt phá mạnh ngay trước thời điểm công bố báo cáo tài chính quý 4/2023 cho thấy kỳ vọng của giới đầu tư vào kết quả kinh doanh của 2 doanh nghiệp hàng đầu ngành bán lẻ trong quý cuối năm."
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "công bố kết quả kinh doanh quý 4/2023",
+        "label": "EVENT",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "lợi nhuận tăng trưởng hơn 34%",
+        "label": "EVENT",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "hơn 34%",
+        "label": "RATE",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Trước đó, một doanh nghiệp bán lẻ khác là PNJ cũng đã công bố kết quả kinh doanh quý 4/2023 với lợi nhuận tăng trưởng hơn 34% so với cùng kỳ 2022."
+    },
+    {
+        "text": "cả năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế luỹ kế cả năm 2023 đạt 1.971 tỷ đồng, tăng gần 9% so với năm 2022 và là mức cao kỷ lục kể từ khi hoạt động."
+    },
+    {
+        "text": "1.971 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế luỹ kế cả năm 2023 đạt 1.971 tỷ đồng, tăng gần 9% so với năm 2022 và là mức cao kỷ lục kể từ khi hoạt động."
+    },
+    {
+        "text": "gần 9%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế luỹ kế cả năm 2023 đạt 1.971 tỷ đồng, tăng gần 9% so với năm 2022 và là mức cao kỷ lục kể từ khi hoạt động."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế luỹ kế cả năm 2023 đạt 1.971 tỷ đồng, tăng gần 9% so với năm 2022 và là mức cao kỷ lục kể từ khi hoạt động."
+    },
+    {
+        "text": "mức cao kỷ lục",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế luỹ kế cả năm 2023 đạt 1.971 tỷ đồng, tăng gần 9% so với năm 2022 và là mức cao kỷ lục kể từ khi hoạt động."
+    },
+    {
+        "text": "phục hồi sức mua của người tiêu dùng",
+        "label": "EVENT",
+        "evidence": "Dù có sự khác biệt tương đối về sản phẩm bán lẻ nhưng kết quả khả quan của PNJ cũng phản ánh phần nào sự phục hồi sức mua của người tiêu dùng trong quý 4/2023."
+    },
+    {
+        "text": "quý 4/2023",
+        "label": "DATE",
+        "evidence": "Dù có sự khác biệt tương đối về sản phẩm bán lẻ nhưng kết quả khả quan của PNJ cũng phản ánh phần nào sự phục hồi sức mua của người tiêu dùng trong quý 4/2023."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Về triển vọng ngành bán lẻ năm 2024, SSI Research đánh giá môi trường kinh tế vĩ mô có thể vẫn còn nhiều thách thức nhưng một số khó khăn sẽ giảm bớt so với năm 2023, từ đó hỗ trợ phục hồi tiêu dùng."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Về triển vọng ngành bán lẻ năm 2024, SSI Research đánh giá môi trường kinh tế vĩ mô có thể vẫn còn nhiều thách thức nhưng một số khó khăn sẽ giảm bớt so với năm 2023, từ đó hỗ trợ phục hồi tiêu dùng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Về triển vọng ngành bán lẻ năm 2024, SSI Research đánh giá môi trường kinh tế vĩ mô có thể vẫn còn nhiều thách thức nhưng một số khó khăn sẽ giảm bớt so với năm 2023, từ đó hỗ trợ phục hồi tiêu dùng."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "phục hồi 5% svck",
+        "label": "EVENT",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "giảm mạnh khoảng 20%-25% svck",
+        "label": "EVENT",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "khoảng 20%-25%",
+        "label": "RATE",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "SSI Research kỳ vọng doanh thu của doanh nghiệp bán lẻ điện thoại & điện máy sẽ phục hồi 5% svck trong năm 2024 sau khi giảm mạnh khoảng 20%-25% svck trong năm 2023."
+    },
+    {
+        "text": "tăng ở mức một chữ số thấp",
+        "label": "EVENT",
+        "evidence": "Tương tự, mức tiêu thụ trang sức được dự báo sẽ tăng ở mức một chữ số thấp trong năm 2024, sau khi giảm khoảng 10% trong năm 2023."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tương tự, mức tiêu thụ trang sức được dự báo sẽ tăng ở mức một chữ số thấp trong năm 2024, sau khi giảm khoảng 10% trong năm 2023."
+    },
+    {
+        "text": "giảm khoảng 10%",
+        "label": "EVENT",
+        "evidence": "Tương tự, mức tiêu thụ trang sức được dự báo sẽ tăng ở mức một chữ số thấp trong năm 2024, sau khi giảm khoảng 10% trong năm 2023."
+    },
+    {
+        "text": "khoảng 10%",
+        "label": "RATE",
+        "evidence": "Tương tự, mức tiêu thụ trang sức được dự báo sẽ tăng ở mức một chữ số thấp trong năm 2024, sau khi giảm khoảng 10% trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tương tự, mức tiêu thụ trang sức được dự báo sẽ tăng ở mức một chữ số thấp trong năm 2024, sau khi giảm khoảng 10% trong năm 2023."
+    },
+    {
+        "text": "nửa đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Đối với mảng điện thoại & điện máy và trang sức, SSI Research kỳ vọng mức tăng trưởng mạnh hơn trong nửa đầu năm 2024 dựa trên mức nền so sánh thấp, nhưng mức tăng trưởng sẽ giảm dần trong nửa cuối năm 2024."
+    },
+    {
+        "text": "nửa cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Đối với mảng điện thoại & điện máy và trang sức, SSI Research kỳ vọng mức tăng trưởng mạnh hơn trong nửa đầu năm 2024 dựa trên mức nền so sánh thấp, nhưng mức tăng trưởng sẽ giảm dần trong nửa cuối năm 2024."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, biên lợi nhuận của các doanh nghiệp bán lẻ dự kiến sẽ tăng trong năm 2024."
+    },
+    {
+        "text": "biên lợi nhuận của các doanh nghiệp bán lẻ dự kiến sẽ tăng",
+        "label": "EVENT",
+        "evidence": "Theo SSI Research, biên lợi nhuận của các doanh nghiệp bán lẻ dự kiến sẽ tăng trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo SSI Research, biên lợi nhuận của các doanh nghiệp bán lẻ dự kiến sẽ tăng trong năm 2024."
+    },
+    {
+        "text": "biên lợi nhuận bị thu hẹp",
+        "label": "EVENT",
+        "evidence": "Biên lợi nhuận bị thu hẹp trong năm 2023 do hoạt động giảm hàng tồn kho bởi các nhà bán lẻ điện thoại & điện máy, sau đó dẫn đến cuộc chiến giá."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Biên lợi nhuận bị thu hẹp trong năm 2023 do hoạt động giảm hàng tồn kho bởi các nhà bán lẻ điện thoại & điện máy, sau đó dẫn đến cuộc chiến giá."
+    },
+    {
+        "text": "giảm hàng tồn kho",
+        "label": "EVENT",
+        "evidence": "Biên lợi nhuận bị thu hẹp trong năm 2023 do hoạt động giảm hàng tồn kho bởi các nhà bán lẻ điện thoại & điện máy, sau đó dẫn đến cuộc chiến giá."
+    },
+    {
+        "text": "cuộc chiến giá",
+        "label": "EVENT",
+        "evidence": "Biên lợi nhuận bị thu hẹp trong năm 2023 do hoạt động giảm hàng tồn kho bởi các nhà bán lẻ điện thoại & điện máy, sau đó dẫn đến cuộc chiến giá."
+    },
+    {
+        "text": "giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022",
+        "label": "EVENT",
+        "evidence": "Việc giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022, diễn ra gay gắt nhất đối với sản phẩm iPhone 14 và hạ nhiệt trong quý 3/2023."
+    },
+    {
+        "text": "quý 4/2022",
+        "label": "DATE",
+        "evidence": "Việc giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022, diễn ra gay gắt nhất đối với sản phẩm iPhone 14 và hạ nhiệt trong quý 3/2023."
+    },
+    {
+        "text": "iPhone 14",
+        "label": "ASSET",
+        "evidence": "Việc giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022, diễn ra gay gắt nhất đối với sản phẩm iPhone 14 và hạ nhiệt trong quý 3/2023."
+    },
+    {
+        "text": "hạ nhiệt",
+        "label": "EVENT",
+        "evidence": "Việc giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022, diễn ra gay gắt nhất đối với sản phẩm iPhone 14 và hạ nhiệt trong quý 3/2023."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Việc giảm hàng tồn kho các sản phẩm điện thoại & điện máy đã bắt đầu từ quý 4/2022, diễn ra gay gắt nhất đối với sản phẩm iPhone 14 và hạ nhiệt trong quý 3/2023."
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "ĐMX/TGDĐ",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "lượng hàng tồn kho giảm",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "FPT Shops",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "quý 4/2021",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "quý 1/2022",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, mức tồn kho của các nhà bán lẻ trong quý 3/2023 khác nhau khi chuỗi ĐMX/TGDĐ ghi nhận lượng hàng tồn kho giảm, trong khi lượng hàng tồn kho của FPT Shops vẫn ở mức cao (gần mức cao nhất trong quý 4/2021 và quý 1/2022)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Do đó, các nhà bán lẻ điện thoại & điện máy có thể phải duy trì chiến lược giá cạnh tranh và biên lợi nhuận tại các nhà bán lẻ điện thoại & điện máy trong năm 2024 có thể không quay trở lại được mức như năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Do đó, các nhà bán lẻ điện thoại & điện máy có thể phải duy trì chiến lược giá cạnh tranh và biên lợi nhuận tại các nhà bán lẻ điện thoại & điện máy trong năm 2024 có thể không quay trở lại được mức như năm 2022."
+    },
+    {
+        "text": "biên lợi nhuận của doanh nghiệp bán lẻ trang sức đã cải thiện",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, biên lợi nhuận của doanh nghiệp bán lẻ trang sức đã cải thiện trong năm 2023 so với năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong khi đó, biên lợi nhuận của doanh nghiệp bán lẻ trang sức đã cải thiện trong năm 2023 so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trong khi đó, biên lợi nhuận của doanh nghiệp bán lẻ trang sức đã cải thiện trong năm 2023 so với năm 2022."
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "Vì trang sức vàng được coi là phương tiện lưu trữ giá trị và giá vàng tăng 13% so với đầu năm, áp lực giảm hàng tồn kho đối với các doanh nghiệp bán lẻ trang sức thấp hơn nhiều so với các doanh nghiệp bán lẻ điện thoại & điện máy."
+    },
+    {
+        "text": "giá vàng tăng 13% so với đầu năm",
+        "label": "EVENT",
+        "evidence": "Vì trang sức vàng được coi là phương tiện lưu trữ giá trị và giá vàng tăng 13% so với đầu năm, áp lực giảm hàng tồn kho đối với các doanh nghiệp bán lẻ trang sức thấp hơn nhiều so với các doanh nghiệp bán lẻ điện thoại & điện máy."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Vì trang sức vàng được coi là phương tiện lưu trữ giá trị và giá vàng tăng 13% so với đầu năm, áp lực giảm hàng tồn kho đối với các doanh nghiệp bán lẻ trang sức thấp hơn nhiều so với các doanh nghiệp bán lẻ điện thoại & điện máy."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, khi thu nhập hạn chế, người tiêu dùng có xu hướng mua đồ trang sức bằng vàng có giá trị thấp hơn."
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "Đối với PNJ, những mặt hàng có giá trị thấp hơn này thường tạo ra biên lợi nhuận gộp cao hơn."
+    },
+    {
+        "text": "tạo ra biên lợi nhuận gộp cao hơn",
+        "label": "EVENT",
+        "evidence": "Đối với PNJ, những mặt hàng có giá trị thấp hơn này thường tạo ra biên lợi nhuận gộp cao hơn."
+    }
+]

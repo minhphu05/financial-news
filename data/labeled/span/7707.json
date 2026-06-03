@@ -1,0 +1,982 @@
+[
+    {
+        "text": "4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "4 tỷ USD là số tiền các định chế tài chính nước ngoài chi ra để mua cổ phần chiến lược của các ngân hàng Việt Nam."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Các thương vụ chủ yếu tập trung trên nhóm ngân hàng có vốn Nhà nước chi phối như Vietcombank, VietinBank, BIDV."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Các thương vụ chủ yếu tập trung trên nhóm ngân hàng có vốn Nhà nước chi phối như Vietcombank, VietinBank, BIDV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Các thương vụ chủ yếu tập trung trên nhóm ngân hàng có vốn Nhà nước chi phối như Vietcombank, VietinBank, BIDV."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, thương vụ có giá trị lớn nhất từ trước đến nay lại thuộc về một ngân hàng tư nhân là VPBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC",
+        "label": "EVENT",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "168,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "21.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "Quỹ đầu tư cấp vốn IFC",
+        "label": "ORG",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "Ngân hàng Thế giới",
+        "label": "ORG",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "WB",
+        "label": "ORG",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "năm 2011",
+        "label": "DATE",
+        "evidence": "Ngân hàng “nổ phát súng” đầu tiên làVietinBank (CTG)với thương vụ chào bán riêng lẻ 168,6 triệu cổ phiếu với giá 21.000 đồng/cp cho IFC và Quỹ đầu tư cấp vốn IFC, thành viên thuộc nhóm Ngân hàng Thế giới (WB) năm 2011."
+    },
+    {
+        "text": "3.540 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị tương ứng vào khoảng 3.540 tỷ đồng (~180 triệu USD)."
+    },
+    {
+        "text": "180 triệu USD",
+        "label": "MONEY",
+        "evidence": "Giá trị tương ứng vào khoảng 3.540 tỷ đồng (~180 triệu USD)."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "Với thương vụ này, nhóm IFC nắm 10% cổ phần tại ngân hàng của VietinBank nhưng đến nay đã không còn là cổ đông lớn sau khi không tham gia đợt chào bán riêng lẻ năm 2013 và nhiều lần giảm sở hữu."
+    },
+    {
+        "text": "10% cổ phần",
+        "label": "RATE",
+        "evidence": "Với thương vụ này, nhóm IFC nắm 10% cổ phần tại ngân hàng của VietinBank nhưng đến nay đã không còn là cổ đông lớn sau khi không tham gia đợt chào bán riêng lẻ năm 2013 và nhiều lần giảm sở hữu."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Với thương vụ này, nhóm IFC nắm 10% cổ phần tại ngân hàng của VietinBank nhưng đến nay đã không còn là cổ đông lớn sau khi không tham gia đợt chào bán riêng lẻ năm 2013 và nhiều lần giảm sở hữu."
+    },
+    {
+        "text": "đợt chào bán riêng lẻ năm 2013",
+        "label": "EVENT",
+        "evidence": "Với thương vụ này, nhóm IFC nắm 10% cổ phần tại ngân hàng của VietinBank nhưng đến nay đã không còn là cổ đông lớn sau khi không tham gia đợt chào bán riêng lẻ năm 2013 và nhiều lần giảm sở hữu."
+    },
+    {
+        "text": "năm 2013",
+        "label": "DATE",
+        "evidence": "Với thương vụ này, nhóm IFC nắm 10% cổ phần tại ngân hàng của VietinBank nhưng đến nay đã không còn là cổ đông lớn sau khi không tham gia đợt chào bán riêng lẻ năm 2013 và nhiều lần giảm sở hữu."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cùng năm,Vietcombank (VCB)“bắt tay” Tập đoàn tài chính Mizuho (Nhật Bản)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Cùng năm,Vietcombank (VCB)“bắt tay” Tập đoàn tài chính Mizuho (Nhật Bản)."
+    },
+    {
+        "text": "Tập đoàn tài chính Mizuho",
+        "label": "ORG",
+        "evidence": "Cùng năm,Vietcombank (VCB)“bắt tay” Tập đoàn tài chính Mizuho (Nhật Bản)."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Cùng năm,Vietcombank (VCB)“bắt tay” Tập đoàn tài chính Mizuho (Nhật Bản)."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Theo hợp đồng ký kết giữa 2 bên, Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp."
+    },
+    {
+        "text": "Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp",
+        "label": "EVENT",
+        "evidence": "Theo hợp đồng ký kết giữa 2 bên, Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp."
+    },
+    {
+        "text": "347,6 triệu cổ phiếu phổ thông",
+        "label": "VOLUME",
+        "evidence": "Theo hợp đồng ký kết giữa 2 bên, Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo hợp đồng ký kết giữa 2 bên, Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp."
+    },
+    {
+        "text": "34.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Theo hợp đồng ký kết giữa 2 bên, Mizuho sẽ đăng ký mua 347,6 triệu cổ phiếu phổ thông của Vietcombank với giá 34.000 đồng/cp."
+    },
+    {
+        "text": "11.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị khoản đầu tư tương ứng hơn 11.800 tỷ đồng (~567 triệu USD), lớn nhất trong hoạt động M&A tại Việt Nam thời điểm đó."
+    },
+    {
+        "text": "567 triệu USD",
+        "label": "MONEY",
+        "evidence": "Giá trị khoản đầu tư tương ứng hơn 11.800 tỷ đồng (~567 triệu USD), lớn nhất trong hoạt động M&A tại Việt Nam thời điểm đó."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Sau thương vụ, Mizuho trở thành đối tác chiến lược đầu tiên của Vietcombank cùng với một ghế trong HĐQT của ngân hàng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau thương vụ, Mizuho trở thành đối tác chiến lược đầu tiên của Vietcombank cùng với một ghế trong HĐQT của ngân hàng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngoài vốn, cổ đông Nhật Bản còn cung cấp cho Vietcombank các dịch vụ hỗ trợ kỹ thuật trên nhiều hoạt động, bao gồm việc cử các chuyên gia và cung cấp các dịch vụ đào tạo cho Vietcombank cũng như đem lại các cơ hội hợp tác bán chéo sản phẩm giữa các bên."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "Mitsubishi UFJ",
+        "label": "ORG",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp",
+        "label": "EVENT",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "644,4 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "24.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "năm 2013",
+        "label": "DATE",
+        "evidence": "2 năm sau khi Mizuho lần đầu rót vốn vào Vietcombank, một “gã khổng lồ” khác trong ngành tài chính Nhật Bản là Mitsubishi UFJ cũng nối gót đầu tư vào VietinBank trong đợt chào bán riêng lẻ 644,4 triệu cổ phần với giá 24.000 đồng/cp năm 2013."
+    },
+    {
+        "text": "15.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị thương vụ tương ứng vào khoảng 15.500 tỷ đồng (~743 triệu USD)."
+    },
+    {
+        "text": "743 triệu USD",
+        "label": "MONEY",
+        "evidence": "Giá trị thương vụ tương ứng vào khoảng 15.500 tỷ đồng (~743 triệu USD)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh việc củng cố năng lực tài chính, VietinBank còn nhận được sự hỗ trợ của cổ đông đến từ Nhật Bản trong hoạt động điều hành, quản trị và quản lý rủi ro trong ngành ngân hàng."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Mặt khác, thông qua hợp tác với VietinBank, Mitsubishi UFJ muốn mở rộng hơn nữa hoạt động cũng cấp dịch vụ tài chính tại Châu Á, đặc biệt tại Việt Nam."
+    },
+    {
+        "text": "Mitsubishi UFJ",
+        "label": "ORG",
+        "evidence": "Mặt khác, thông qua hợp tác với VietinBank, Mitsubishi UFJ muốn mở rộng hơn nữa hoạt động cũng cấp dịch vụ tài chính tại Châu Á, đặc biệt tại Việt Nam."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho",
+        "label": "EVENT",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "111 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "55.800 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "Quỹ đầu tư quốc gia của Singapore",
+        "label": "ORG",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "GIC",
+        "label": "ORG",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "6.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "270 triệu USD",
+        "label": "MONEY",
+        "evidence": "Đến năm 2019, Vietcombank tiếp tục chào bán riêng lẻ hơn 111 triệu cổ phiếu với giá 55.800 đồng/cp cho hai nhà đầu tư là Quỹ đầu tư quốc gia của Singapore (GIC) và Mizuho, thu về khoảng 6.200 tỷ đồng (~270 triệu USD)."
+    },
+    {
+        "text": "GIC",
+        "label": "ORG",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "GIC mua 94,4 triệu cổ phần",
+        "label": "EVENT",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "94,4 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "2,55%",
+        "label": "RATE",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "Mizuho mua thêm 16,7 triệu cổ phần mới",
+        "label": "EVENT",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "16,7 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "15% cổ phần",
+        "label": "RATE",
+        "evidence": "Trong đó, GIC mua 94,4 triệu cổ phần (tỷ lệ 2,55%) trong khi Mizuho mua thêm 16,7 triệu cổ phần mới để duy trì tỷ lệ sở hữu 15% cổ phần."
+    },
+    {
+        "text": "Keb Hana Bank",
+        "label": "ORG",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "603,3 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "33.640 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Cùng năm, Keb Hana Bank (Hàn Quốc) cũng trở thành cổ đông chiến lược củaBIDV (BID)sau khi mua hơn 603,3 triệu cổ phiếu trong đợt chào bán riêng lẻ với giá bán 33.640 đồng/cổ phiếu."
+    },
+    {
+        "text": "20.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị tương ứng vào khoảng 20.300 tỷ đồng (~882 triệu USD), phá kỷ lục về giá trị thương vụ đầu tư chiến lược M&A ngành ngân hàng Việt Nam."
+    },
+    {
+        "text": "882 triệu USD",
+        "label": "MONEY",
+        "evidence": "Giá trị tương ứng vào khoảng 20.300 tỷ đồng (~882 triệu USD), phá kỷ lục về giá trị thương vụ đầu tư chiến lược M&A ngành ngân hàng Việt Nam."
+    },
+    {
+        "text": "Keb Hana Bank",
+        "label": "ORG",
+        "evidence": "Theo thoả thuận giữa 2 bên ký, Keb Hana Bank sẽ đồng hành cùng BIDV với vai trò là cổ đông chiến lược tối thiểu 5 năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo thoả thuận giữa 2 bên ký, Keb Hana Bank sẽ đồng hành cùng BIDV với vai trò là cổ đông chiến lược tối thiểu 5 năm."
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "Theo thoả thuận giữa 2 bên ký, Keb Hana Bank sẽ đồng hành cùng BIDV với vai trò là cổ đông chiến lược tối thiểu 5 năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngoài vốn, BIDV còn nhận được hỗ trợ từ ngân hàng hàng đầu Hàn Quốc trong các lĩnh vực gồm quản trị chiến lược, nâng cao quản trị rủi ro, đa dạng hoá các tài sản sinh lời, phát triển ngân hàng số, ngân hàng bán lẻ, và nâng cao phát triển nguồn nhân lực..."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)",
+        "label": "EVENT",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "Sumimoto Mitsui Banking Corp",
+        "label": "ORG",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "15% vốn",
+        "label": "RATE",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Kỷ lục của BIDV sau đó bị xô đổ bởi thương vụ Sumimoto Mitsui Banking Corp (SMBC - Nhật Bản) mua 15% vốnVPBank (VPB)năm 2023."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "1,19 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "30.159 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "35.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "1,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo thoả thuận, VPBank chào bán riêng lẻ hơn 1,19 tỷ cổ phiếu cho nhà băng đến từ Nhật Bản với giá 30.159 đồng/cổ phiếu, tương đương tổng giá trị hơn 35.900 tỷ đồng (~1,5 tỷ USD)."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Thoả thuận này chính thức đưa SMBC trở thành cổ đông chiến lược của VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Thoả thuận này chính thức đưa SMBC trở thành cổ đông chiến lược của VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Đây là một phần trong kế hoạch tăng vốn được VPBank thực hiện từ năm 2022 nhằm tăng cường năng lực tài chính dài hạn và giúp ngân hàng đạt được mục tiêu tăng trưởng chiến lược trong 5 năm tới."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Đây là một phần trong kế hoạch tăng vốn được VPBank thực hiện từ năm 2022 nhằm tăng cường năng lực tài chính dài hạn và giúp ngân hàng đạt được mục tiêu tăng trưởng chiến lược trong 5 năm tới."
+    },
+    {
+        "text": "5 năm tới",
+        "label": "DATE",
+        "evidence": "Đây là một phần trong kế hoạch tăng vốn được VPBank thực hiện từ năm 2022 nhằm tăng cường năng lực tài chính dài hạn và giúp ngân hàng đạt được mục tiêu tăng trưởng chiến lược trong 5 năm tới."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Sau thương vụ, VPBank trở thành ngân hàng có vốn chủ sở hữu lớn thứ 2 tại Việt Nam, chỉ sau Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau thương vụ, VPBank trở thành ngân hàng có vốn chủ sở hữu lớn thứ 2 tại Việt Nam, chỉ sau Vietcombank."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "Công ty Tài chính Tiêu dùng SMBC",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "SMBCCF",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "Sumitomo Mitsui Financial Group",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "SMFG",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "100% vốn",
+        "label": "RATE",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "mua lại 49% cổ phần của FE Credit từ VPBank",
+        "label": "EVENT",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "49% cổ phần",
+        "label": "RATE",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước đó vào năm 2021, Công ty Tài chính Tiêu dùng SMBC (SMBCCF), một công ty con khác do Sumitomo Mitsui Financial Group (SMFG) sở hữu 100% vốn, đã mua lại 49% cổ phần của FE Credit từ VPBank."
+    },
+    {
+        "text": "1,4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Giá trị thương vụ ước tính vào khoảng 1,4 tỷ USD tương ứng định giá FE Credit lên đến 2,8 tỷ USD."
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "Giá trị thương vụ ước tính vào khoảng 1,4 tỷ USD tương ứng định giá FE Credit lên đến 2,8 tỷ USD."
+    },
+    {
+        "text": "2,8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Giá trị thương vụ ước tính vào khoảng 1,4 tỷ USD tương ứng định giá FE Credit lên đến 2,8 tỷ USD."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Điều này được thể hiện qua kết quả kinh doanh, cụ thể là lợi nhuận của Vietcombank, VietinBank và BIDV nhìn chung đều tăng trưởng mạnh dù một số thời điểm chững lại vì những lý do khách quan."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Điều này được thể hiện qua kết quả kinh doanh, cụ thể là lợi nhuận của Vietcombank, VietinBank và BIDV nhìn chung đều tăng trưởng mạnh dù một số thời điểm chững lại vì những lý do khách quan."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Điều này được thể hiện qua kết quả kinh doanh, cụ thể là lợi nhuận của Vietcombank, VietinBank và BIDV nhìn chung đều tăng trưởng mạnh dù một số thời điểm chững lại vì những lý do khách quan."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Từ sau khi Mizuho rót vốn đầu tư, lợi nhuận của Vietcombank đã tăng bền bỉ và chạm ngưỡng 1 tỷ USD vào năm 2019, trở thành ngân hàng đầu tiên của Việt Nam đạt được cột mốc này."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Từ sau khi Mizuho rót vốn đầu tư, lợi nhuận của Vietcombank đã tăng bền bỉ và chạm ngưỡng 1 tỷ USD vào năm 2019, trở thành ngân hàng đầu tiên của Việt Nam đạt được cột mốc này."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Từ sau khi Mizuho rót vốn đầu tư, lợi nhuận của Vietcombank đã tăng bền bỉ và chạm ngưỡng 1 tỷ USD vào năm 2019, trở thành ngân hàng đầu tiên của Việt Nam đạt được cột mốc này."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Từ sau khi Mizuho rót vốn đầu tư, lợi nhuận của Vietcombank đã tăng bền bỉ và chạm ngưỡng 1 tỷ USD vào năm 2019, trở thành ngân hàng đầu tiên của Việt Nam đạt được cột mốc này."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Sau một năm 2020 chững lại do đại dịch Covid, lợi nhuận của nhà băng này đã nhanh chóng lấy lại đà tăng trưởng."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 vừa qua, Vietcombank ước lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng, tăng 10,3% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Năm 2023 vừa qua, Vietcombank ước lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng, tăng 10,3% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2023 vừa qua, Vietcombank ước lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng, tăng 10,3% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "41.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023 vừa qua, Vietcombank ước lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng, tăng 10,3% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng 10,3%",
+        "label": "RATE",
+        "evidence": "Năm 2023 vừa qua, Vietcombank ước lãi trước thuế hợp nhất đạt khoảng 41.200 tỷ đồng, tăng 10,3% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tương tự, VietinBank cũng duy trì tăng trưởng qua từng năm, trừ năm 2018 do yếu tố khách quan."
+    },
+    {
+        "text": "năm 2018",
+        "label": "DATE",
+        "evidence": "Tương tự, VietinBank cũng duy trì tăng trưởng qua từng năm, trừ năm 2018 do yếu tố khách quan."
+    },
+    {
+        "text": "phương án tái cơ cấu lại hoạt động ngân hàng gắn với xử lý nợ xấu trong giai đoạn 2016 - 2020",
+        "label": "EVENT",
+        "evidence": "Theo đó, phương án tái cơ cấu lại hoạt động ngân hàng gắn với xử lý nợ xấu trong giai đoạn 2016 - 2020 đã được Ngân hàng Nhà nước phê duyệt ngày 27/11/2018."
+    },
+    {
+        "text": "giai đoạn 2016 - 2020",
+        "label": "DATE",
+        "evidence": "Theo đó, phương án tái cơ cấu lại hoạt động ngân hàng gắn với xử lý nợ xấu trong giai đoạn 2016 - 2020 đã được Ngân hàng Nhà nước phê duyệt ngày 27/11/2018."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Theo đó, phương án tái cơ cấu lại hoạt động ngân hàng gắn với xử lý nợ xấu trong giai đoạn 2016 - 2020 đã được Ngân hàng Nhà nước phê duyệt ngày 27/11/2018."
+    },
+    {
+        "text": "27/11/2018",
+        "label": "DATE",
+        "evidence": "Theo đó, phương án tái cơ cấu lại hoạt động ngân hàng gắn với xử lý nợ xấu trong giai đoạn 2016 - 2020 đã được Ngân hàng Nhà nước phê duyệt ngày 27/11/2018."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, do phương án tăng vốn thời điểm đó chưa được phê duyệt và việc thực hiện bước đầu đề án tái cơ cấu khiến VietinBank phải điều chỉnh giảm một loạt chỉ tiêu trong quý cuối năm."
+    },
+    {
+        "text": "quý cuối năm",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, do phương án tăng vốn thời điểm đó chưa được phê duyệt và việc thực hiện bước đầu đề án tái cơ cấu khiến VietinBank phải điều chỉnh giảm một loạt chỉ tiêu trong quý cuối năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận của VietinBank sau đó đã nhanh chóng tăng trưởng trở lại từ năm 2019 và đạt kỷ lục gần 21.000 tỷ đồng năm 2022."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Lợi nhuận của VietinBank sau đó đã nhanh chóng tăng trưởng trở lại từ năm 2019 và đạt kỷ lục gần 21.000 tỷ đồng năm 2022."
+    },
+    {
+        "text": "21.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận của VietinBank sau đó đã nhanh chóng tăng trưởng trở lại từ năm 2019 và đạt kỷ lục gần 21.000 tỷ đồng năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Lợi nhuận của VietinBank sau đó đã nhanh chóng tăng trưởng trở lại từ năm 2019 và đạt kỷ lục gần 21.000 tỷ đồng năm 2022."
+    },
+    {
+        "text": "lợi nhuận trước thuế riêng lẻ năm 2023 của VietinBank đã vượt mục tiêu kế hoạch (22.500 tỷ đồng)",
+        "label": "EVENT",
+        "evidence": "Dù chưa công bố con số cụ thể nhưng đại diện ngân hàng cho biết lợi nhuận trước thuế riêng lẻ năm 2023 của VietinBank đã vượt mục tiêu kế hoạch (22.500 tỷ đồng) được ĐHĐCĐ giao phó trên cơ sở đảm bảo các chỉ tiêu an toàn hoạt động."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Dù chưa công bố con số cụ thể nhưng đại diện ngân hàng cho biết lợi nhuận trước thuế riêng lẻ năm 2023 của VietinBank đã vượt mục tiêu kế hoạch (22.500 tỷ đồng) được ĐHĐCĐ giao phó trên cơ sở đảm bảo các chỉ tiêu an toàn hoạt động."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Dù chưa công bố con số cụ thể nhưng đại diện ngân hàng cho biết lợi nhuận trước thuế riêng lẻ năm 2023 của VietinBank đã vượt mục tiêu kế hoạch (22.500 tỷ đồng) được ĐHĐCĐ giao phó trên cơ sở đảm bảo các chỉ tiêu an toàn hoạt động."
+    },
+    {
+        "text": "22.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dù chưa công bố con số cụ thể nhưng đại diện ngân hàng cho biết lợi nhuận trước thuế riêng lẻ năm 2023 của VietinBank đã vượt mục tiêu kế hoạch (22.500 tỷ đồng) được ĐHĐCĐ giao phó trên cơ sở đảm bảo các chỉ tiêu an toàn hoạt động."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Trong khi đó, BIDV liên tục tăng trưởng mạnh trong giai đoạn 2020-2023 sau khi Keb Hana Bank trở thành cổ đông chiến lược."
+    },
+    {
+        "text": "giai đoạn 2020-2023",
+        "label": "DATE",
+        "evidence": "Trong khi đó, BIDV liên tục tăng trưởng mạnh trong giai đoạn 2020-2023 sau khi Keb Hana Bank trở thành cổ đông chiến lược."
+    },
+    {
+        "text": "Keb Hana Bank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, BIDV liên tục tăng trưởng mạnh trong giai đoạn 2020-2023 sau khi Keb Hana Bank trở thành cổ đông chiến lược."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, ngân hàng ước lãi trước thuế hợp nhất 27.400 tỷ đồng, tăng 19% so với thực hiện năm 2022."
+    },
+    {
+        "text": "lãi trước thuế hợp nhất 27.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2023, ngân hàng ước lãi trước thuế hợp nhất 27.400 tỷ đồng, tăng 19% so với thực hiện năm 2022."
+    },
+    {
+        "text": "27.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023, ngân hàng ước lãi trước thuế hợp nhất 27.400 tỷ đồng, tăng 19% so với thực hiện năm 2022."
+    },
+    {
+        "text": "tăng 19%",
+        "label": "RATE",
+        "evidence": "Năm 2023, ngân hàng ước lãi trước thuế hợp nhất 27.400 tỷ đồng, tăng 19% so với thực hiện năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2023, ngân hàng ước lãi trước thuế hợp nhất 27.400 tỷ đồng, tăng 19% so với thực hiện năm 2022."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Đây là lần đầu tiên lợi nhuận của nhà băng này vượt ngưỡng 1 tỷ USD."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Với mức lợi nhuận này, BIDV là ngân hàng có lợi nhuận cao thứ hai trong nhóm Big 4, chỉ sau Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Với mức lợi nhuận này, BIDV là ngân hàng có lợi nhuận cao thứ hai trong nhóm Big 4, chỉ sau Vietcombank."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Điển hình như trường hợp của Mizuho, số cổ phần của Vietcombank trong tay nhà băng đến từ Nhật Bản hiện có giá trị thị trường lên đến 73.600 tỷ đồng, gấp gần 6 lần số vốn đầu tư."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Điển hình như trường hợp của Mizuho, số cổ phần của Vietcombank trong tay nhà băng đến từ Nhật Bản hiện có giá trị thị trường lên đến 73.600 tỷ đồng, gấp gần 6 lần số vốn đầu tư."
+    },
+    {
+        "text": "73.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Điển hình như trường hợp của Mizuho, số cổ phần của Vietcombank trong tay nhà băng đến từ Nhật Bản hiện có giá trị thị trường lên đến 73.600 tỷ đồng, gấp gần 6 lần số vốn đầu tư."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tương tự, cổ đông chiến lược còn lại của Vietcombank là GIC cũng đang lãi lớn dù đến sau Mizuho nhiều năm."
+    },
+    {
+        "text": "GIC",
+        "label": "ORG",
+        "evidence": "Tương tự, cổ đông chiến lược còn lại của Vietcombank là GIC cũng đang lãi lớn dù đến sau Mizuho nhiều năm."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Tương tự, cổ đông chiến lược còn lại của Vietcombank là GIC cũng đang lãi lớn dù đến sau Mizuho nhiều năm."
+    },
+    {
+        "text": "12.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Số cổ phần trong tay cổ đông đến từ Singapore hiện có giá trị thị trường hơn 12.500 tỷ đồng, gấp 2,4 lần số vốn bỏ ra, chưa tính cổ tức."
+    },
+    {
+        "text": "GIC",
+        "label": "ORG",
+        "evidence": "Cần lưu ý rằng, số tiền cổ tức GIC nhận được từ Vietcombank chắc chắn sẽ ít hơn Mizuho do tỷ lệ sở hữu thấp hơn và thời gian nắm giữ ngắn hơn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cần lưu ý rằng, số tiền cổ tức GIC nhận được từ Vietcombank chắc chắn sẽ ít hơn Mizuho do tỷ lệ sở hữu thấp hơn và thời gian nắm giữ ngắn hơn."
+    },
+    {
+        "text": "Mizuho",
+        "label": "ORG",
+        "evidence": "Cần lưu ý rằng, số tiền cổ tức GIC nhận được từ Vietcombank chắc chắn sẽ ít hơn Mizuho do tỷ lệ sở hữu thấp hơn và thời gian nắm giữ ngắn hơn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank hiện là cái tên giá trị nhất sàn chứng khoán Việt Nam với vốn hóa thị trường lên đến 490.700 tỷ đồng (~20,5 tỷ USD), bỏ xa phần còn lại."
+    },
+    {
+        "text": "490.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcombank hiện là cái tên giá trị nhất sàn chứng khoán Việt Nam với vốn hóa thị trường lên đến 490.700 tỷ đồng (~20,5 tỷ USD), bỏ xa phần còn lại."
+    },
+    {
+        "text": "20,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vietcombank hiện là cái tên giá trị nhất sàn chứng khoán Việt Nam với vốn hóa thị trường lên đến 490.700 tỷ đồng (~20,5 tỷ USD), bỏ xa phần còn lại."
+    },
+    {
+        "text": "nửa triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Nhà băng này cũng là cái tên đầu tiên chạm đến ngưỡng nửa triệu tỷ vốn hóa trong lịch sử hơn 23 của thị trường chứng khoán khi cổ phiếu VCB lên đỉnh hồi tháng 7 năm ngoái."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Nhà băng này cũng là cái tên đầu tiên chạm đến ngưỡng nửa triệu tỷ vốn hóa trong lịch sử hơn 23 của thị trường chứng khoán khi cổ phiếu VCB lên đỉnh hồi tháng 7 năm ngoái."
+    },
+    {
+        "text": "tháng 7 năm ngoái",
+        "label": "DATE",
+        "evidence": "Nhà băng này cũng là cái tên đầu tiên chạm đến ngưỡng nửa triệu tỷ vốn hóa trong lịch sử hơn 23 của thị trường chứng khoán khi cổ phiếu VCB lên đỉnh hồi tháng 7 năm ngoái."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Xếp ngay sau Vietcombank là BIDV với giá trị vốn hóa đạt 262.500 tỷ đồng (~10,9 tỷ USD)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Xếp ngay sau Vietcombank là BIDV với giá trị vốn hóa đạt 262.500 tỷ đồng (~10,9 tỷ USD)."
+    },
+    {
+        "text": "262.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Xếp ngay sau Vietcombank là BIDV với giá trị vốn hóa đạt 262.500 tỷ đồng (~10,9 tỷ USD)."
+    },
+    {
+        "text": "10,9 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Xếp ngay sau Vietcombank là BIDV với giá trị vốn hóa đạt 262.500 tỷ đồng (~10,9 tỷ USD)."
+    },
+    {
+        "text": "15% cổ phần",
+        "label": "RATE",
+        "evidence": "Với 15% cổ phần đang nắm giữ tại BIDV, khoản đầu tư này của Keb Hana Bank hiện có giá trị thị trường lên đến gần 39.400 tỷ đồng (~1,6 tỷ USD)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Với 15% cổ phần đang nắm giữ tại BIDV, khoản đầu tư này của Keb Hana Bank hiện có giá trị thị trường lên đến gần 39.400 tỷ đồng (~1,6 tỷ USD)."
+    },
+    {
+        "text": "Keb Hana Bank",
+        "label": "ORG",
+        "evidence": "Với 15% cổ phần đang nắm giữ tại BIDV, khoản đầu tư này của Keb Hana Bank hiện có giá trị thị trường lên đến gần 39.400 tỷ đồng (~1,6 tỷ USD)."
+    },
+    {
+        "text": "39.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với 15% cổ phần đang nắm giữ tại BIDV, khoản đầu tư này của Keb Hana Bank hiện có giá trị thị trường lên đến gần 39.400 tỷ đồng (~1,6 tỷ USD)."
+    },
+    {
+        "text": "1,6 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Với 15% cổ phần đang nắm giữ tại BIDV, khoản đầu tư này của Keb Hana Bank hiện có giá trị thị trường lên đến gần 39.400 tỷ đồng (~1,6 tỷ USD)."
+    },
+    {
+        "text": "Keb Hana Bank",
+        "label": "ORG",
+        "evidence": "Ước tính, Keb Hana Bank đang \"tạm lãi\" khoảng 19.000 tỷ đồng sau hơn 4 năm làm cổ đông chiến lược tại BIDV, chưa tính cổ tức tiền tươi gần 1.500 tỷ đồng."
+    },
+    {
+        "text": "19.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ước tính, Keb Hana Bank đang \"tạm lãi\" khoảng 19.000 tỷ đồng sau hơn 4 năm làm cổ đông chiến lược tại BIDV, chưa tính cổ tức tiền tươi gần 1.500 tỷ đồng."
+    },
+    {
+        "text": "4 năm",
+        "label": "DATE",
+        "evidence": "Ước tính, Keb Hana Bank đang \"tạm lãi\" khoảng 19.000 tỷ đồng sau hơn 4 năm làm cổ đông chiến lược tại BIDV, chưa tính cổ tức tiền tươi gần 1.500 tỷ đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ước tính, Keb Hana Bank đang \"tạm lãi\" khoảng 19.000 tỷ đồng sau hơn 4 năm làm cổ đông chiến lược tại BIDV, chưa tính cổ tức tiền tươi gần 1.500 tỷ đồng."
+    },
+    {
+        "text": "1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ước tính, Keb Hana Bank đang \"tạm lãi\" khoảng 19.000 tỷ đồng sau hơn 4 năm làm cổ đông chiến lược tại BIDV, chưa tính cổ tức tiền tươi gần 1.500 tỷ đồng."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu BID hiện vẫn đang ở vùng giá cao nhất từ trước đến nay (đã điều chỉnh)."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Chưa về lại đỉnh lịch sử nhưngcổ phiếu CTGcủa VietinBank cũng đang tăng mạnh thời gian gần đây."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Chưa về lại đỉnh lịch sử nhưngcổ phiếu CTGcủa VietinBank cũng đang tăng mạnh thời gian gần đây."
+    },
+    {
+        "text": "tăng hơn 15%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này đã tăng hơn 15% trong chưa đầy một tháng, qua đó đẩy giá trị vốn hóa lên trên 161.000 tỷ đồng (~6,7 tỷ USD)."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Cổ phiếu này đã tăng hơn 15% trong chưa đầy một tháng, qua đó đẩy giá trị vốn hóa lên trên 161.000 tỷ đồng (~6,7 tỷ USD)."
+    },
+    {
+        "text": "161.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu này đã tăng hơn 15% trong chưa đầy một tháng, qua đó đẩy giá trị vốn hóa lên trên 161.000 tỷ đồng (~6,7 tỷ USD)."
+    },
+    {
+        "text": "6,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu này đã tăng hơn 15% trong chưa đầy một tháng, qua đó đẩy giá trị vốn hóa lên trên 161.000 tỷ đồng (~6,7 tỷ USD)."
+    },
+    {
+        "text": "19,7% vốn",
+        "label": "RATE",
+        "evidence": "Với việc nắm giữ 19,7% vốn, khoản đầu tư của Mitsubishi UFJ vào VietinBank hiện có giá trị thị trường khoảng 31.700 tỷ đồng, gấp đôi số tiền bỏ ra."
+    },
+    {
+        "text": "Mitsubishi UFJ",
+        "label": "ORG",
+        "evidence": "Với việc nắm giữ 19,7% vốn, khoản đầu tư của Mitsubishi UFJ vào VietinBank hiện có giá trị thị trường khoảng 31.700 tỷ đồng, gấp đôi số tiền bỏ ra."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Với việc nắm giữ 19,7% vốn, khoản đầu tư của Mitsubishi UFJ vào VietinBank hiện có giá trị thị trường khoảng 31.700 tỷ đồng, gấp đôi số tiền bỏ ra."
+    },
+    {
+        "text": "31.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với việc nắm giữ 19,7% vốn, khoản đầu tư của Mitsubishi UFJ vào VietinBank hiện có giá trị thị trường khoảng 31.700 tỷ đồng, gấp đôi số tiền bỏ ra."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Nhìn chung, những thương vụ định chế tài chính nước ngoài mua cổ phần chiến lược của các ngân hàng Việt đều đem lại thành công nhất định cho cả 2 phía (trừ trường hợp của VPBank với SMBC chưa thể đánh giá do thời gian hợp tác chưa đủ dài)."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Nhìn chung, những thương vụ định chế tài chính nước ngoài mua cổ phần chiến lược của các ngân hàng Việt đều đem lại thành công nhất định cho cả 2 phía (trừ trường hợp của VPBank với SMBC chưa thể đánh giá do thời gian hợp tác chưa đủ dài)."
+    }
+]

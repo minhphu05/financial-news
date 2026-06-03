@@ -1,0 +1,252 @@
+[
+    {
+        "text": "Công ty cổ phần Đầu tư Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Công ty cổ phần Đầu tư Thế giới Di động (mã: MWG)vừa có thông báo về việc mua lại cổ phiếu quỹ."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Công ty cổ phần Đầu tư Thế giới Di động (mã: MWG)vừa có thông báo về việc mua lại cổ phiếu quỹ."
+    },
+    {
+        "text": "mua lại cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "vừa có thông báo về việc mua lại cổ phiếu quỹ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Cụ thể, MWG dự kiến mua lại 10.000.000 cổ phiếu quỹ."
+    },
+    {
+        "text": "10.000.000 cổ phiếu quỹ",
+        "label": "VOLUME",
+        "evidence": "MWG dự kiến mua lại 10.000.000 cổ phiếu quỹ."
+    },
+    {
+        "text": "Báo cáo tài chính năm 2024 (riêng và hợp nhất) đã được kiểm toán",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế chưa phân phối căn cứ Báo cáo tài chính năm 2024 (riêng và hợp nhất) đã được kiểm toán."
+    },
+    {
+        "text": "12.582 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "kiểm toán. là 12.582 tỷ đồng."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Giá đặt mua sẽ bé hơn hoặc bằng giá tham chiếu + (giá tham chiếu x 50% Biên độ giao động giá cổ phiếu)."
+    },
+    {
+        "text": "ngày 19/11/2025",
+        "label": "DATE",
+        "evidence": "dự kiến từ ngày 19/11/2025 đến ngày 18/12/2025."
+    },
+    {
+        "text": "ngày 18/12/2025",
+        "label": "DATE",
+        "evidence": "dự kiến từ ngày 19/11/2025 đến ngày 18/12/2025."
+    },
+    {
+        "text": "phiên 7/11",
+        "label": "DATE",
+        "evidence": "Tạm tính theo thị giá đóng cửa phiên 7/11 của MWG là 76.500 đồng/cp"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tạm tính theo thị giá đóng cửa phiên 7/11 của MWG là 76.500 đồng/cp"
+    },
+    {
+        "text": "76.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "thị giá đóng cửa phiên 7/11 của MWG là 76.500 đồng/cp"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "ước tính MWG cần chi gần 770 tỷ đồng để hoàn tất thương vụ trên."
+    },
+    {
+        "text": "770 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cần chi gần 770 tỷ đồng để hoàn tất thương vụ trên."
+    },
+    {
+        "text": "9 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "lũy kế 9 tháng đầu năm 2025, doanh nghiệp bán lẻ của ông Nguyễn Đức Tài ghi nhận doanh thu thuần đạt 113.607 tỷ đồng"
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "doanh nghiệp bán lẻ của ông Nguyễn Đức Tài ghi nhận doanh thu thuần đạt 113.607 tỷ đồng"
+    },
+    {
+        "text": "113.607 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận doanh thu thuần đạt 113.607 tỷ đồng, tăng 14% so với cùng kỳ."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "doanh thu thuần đạt 113.607 tỷ đồng, tăng 14% so với cùng kỳ."
+    },
+    {
+        "text": "5.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cao kỷ lục gần 5.000 tỷ đồng, tăng 73% so với cùng kỳ 2024"
+    },
+    {
+        "text": "73%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế cao kỷ lục gần 5.000 tỷ đồng, tăng 73% so với cùng kỳ 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "tăng 73% so với cùng kỳ 2024 và hoàn thành vượt kế hoạch cả năm."
+    },
+    {
+        "text": "Thế giới di động",
+        "label": "ORG",
+        "evidence": "hai chuỗi Thế giới di động và Điện máy xanh của MWG đạt doanh thu 76.500 tỷ đồng"
+    },
+    {
+        "text": "Điện máy xanh",
+        "label": "ORG",
+        "evidence": "hai chuỗi Thế giới di động và Điện máy xanh của MWG đạt doanh thu 76.500 tỷ đồng"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "hai chuỗi Thế giới di động và Điện máy xanh của MWG đạt doanh thu 76.500 tỷ đồng"
+    },
+    {
+        "text": "76.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "của MWG đạt doanh thu 76.500 tỷ đồng, tăng gần 15% so với cùng kỳ"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "đạt doanh thu 76.500 tỷ đồng, tăng gần 15% so với cùng kỳ"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "Đối với Bách Hóa Xanh (BHX), chuỗi siêu thị thực phẩm đạt 34.400 tỷ đồng doanh thu lũy kế 9 tháng"
+    },
+    {
+        "text": "BHX",
+        "label": "ORG",
+        "evidence": "Đối với Bách Hóa Xanh (BHX), chuỗi siêu thị thực phẩm đạt 34.400 tỷ đồng doanh thu lũy kế 9 tháng"
+    },
+    {
+        "text": "34.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chuỗi siêu thị thực phẩm đạt 34.400 tỷ đồng doanh thu lũy kế 9 tháng, tăng 14% so với cùng kỳ."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "doanh thu lũy kế 9 tháng, tăng 14% so với cùng kỳ."
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "Chuỗi An Khang duy trì đà tăng với doanh thu bình quân 540 triệu đồng/cửa hàng trong tháng 9"
+    },
+    {
+        "text": "540 triệu đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu bình quân 540 triệu đồng/cửa hàng trong tháng 9, tăng ba tháng liên tiếp."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "540 triệu đồng/cửa hàng trong tháng 9, tăng ba tháng liên tiếp."
+    },
+    {
+        "text": "AVAKids",
+        "label": "ORG",
+        "evidence": "AVAKids ghi nhận tăng trưởng hai chữ số, doanh thu trung bình đạt 1,8 tỷ đồng/cửa hàng"
+    },
+    {
+        "text": "1,8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu trung bình đạt 1,8 tỷ đồng/cửa hàng và đã có lãi ở cấp độ công ty."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "Tại Indonesia, chuỗi Erablue tăng trưởng hơn 70% sau 9 tháng, tiến gần mục tiêu 150 cửa hàng trong năm 2025"
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "chuỗi Erablue tăng trưởng hơn 70% sau 9 tháng, tiến gần mục tiêu 150 cửa hàng trong năm 2025"
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "tăng trưởng hơn 70% sau 9 tháng, tiến gần mục tiêu 150 cửa hàng trong năm 2025"
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "mục tiêu 150 cửa hàng trong năm 2025 và đã đạt lợi nhuận dương."
+    },
+    {
+        "text": "tháng 9/2025",
+        "label": "DATE",
+        "evidence": "Tính đến hết tháng 9/2025, hệ thống bán lẻ của MWG bao gồm 1.013 cửa hàng Thế Giới Di Động"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "hệ thống bán lẻ của MWG bao gồm 1.013 cửa hàng Thế Giới Di Động (gồm cả TopZone)"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "bao gồm 1.013 cửa hàng Thế Giới Di Động (gồm cả TopZone), 2.018 cửa hàng Điện Máy Xanh (gồm cả ĐMX Supermini)"
+    },
+    {
+        "text": "TopZone",
+        "label": "ORG",
+        "evidence": "1.013 cửa hàng Thế Giới Di Động (gồm cả TopZone), 2.018 cửa hàng Điện Máy Xanh (gồm cả ĐMX Supermini)"
+    },
+    {
+        "text": "Điện Máy Xanh",
+        "label": "ORG",
+        "evidence": "2.018 cửa hàng Điện Máy Xanh (gồm cả ĐMX Supermini), 2.290 cửa hàng Bách Hóa Xanh"
+    },
+    {
+        "text": "ĐMX Supermini",
+        "label": "ORG",
+        "evidence": "2.018 cửa hàng Điện Máy Xanh (gồm cả ĐMX Supermini), 2.290 cửa hàng Bách Hóa Xanh"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "2.290 cửa hàng Bách Hóa Xanh, 347 nhà thuốc An Khang, 67 cửa hàng AVAKids"
+    },
+    {
+        "text": "An Khang",
+        "label": "ORG",
+        "evidence": "347 nhà thuốc An Khang, 67 cửa hàng AVAKids và 144 cửa hàng Erablue"
+    },
+    {
+        "text": "AVAKids",
+        "label": "ORG",
+        "evidence": "67 cửa hàng AVAKids và 144 cửa hàng Erablue – liên doanh của MWG tại Indonesia."
+    },
+    {
+        "text": "Erablue",
+        "label": "ORG",
+        "evidence": "144 cửa hàng Erablue – liên doanh của MWG tại Indonesia."
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Theo biểu phí mới nhất từ ngày 10/5/2025 của BIDV, ở nhóm dịch vụ trênSmartBanking, việc đăng ký và duy trì dịch vụ tiếp tụcmiễn phí."
+    },
+    {
+        "text": "10/5/2025",
+        "label": "DATE",
+        "evidence": "Theo biểu phí mới nhất từ ngày 10/5/2025 của BIDV, ở nhóm dịch vụ trênSmartBanking, việc đăng ký và duy trì dịch vụ tiếp tụcmiễn phí."
+    },
+    {
+        "text": "biểu phí mới nhất từ ngày 10/5/2025 của BIDV",
+        "label": "EVENT",
+        "evidence": "Theo biểu phí mới nhất từ ngày 10/5/2025 của BIDV, ở nhóm dịch vụ trênSmartBanking, việc đăng ký và duy trì dịch vụ tiếp tụcmiễn phí."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "nếu xin cấp lạitại quầy, khách hàng phổ thông chịu10.000 đồng/lần, còn khách hàngPremier/Premier Elite/Privateđược miễn."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "dành cho khách hàng thông thường có hai mức:500.000 đồngcho lần đầu và200.000 đồng/nămcho các năm tiếp theo (thu sau tối thiểu 12 tháng kể từ kỳ gần nhất)."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "dành cho khách hàng thông thường có hai mức:500.000 đồngcho lần đầu và200.000 đồng/nămcho các năm tiếp theo (thu sau tối thiểu 12 tháng kể từ kỳ gần nhất)."
+    },
+    {
+        "text": "386.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu chọnCombo “hạn mức ưu tiên + bảo hiểm an ninh mạng (Cyber)”, khách hàng thông thường trả386.000 đồng/năm đầu, từ năm thứ hai186.000 đồng/năm; nhómPremier Eliteáp dụng186.000 đồng/năm, cònPrivatemiễn phí."
+    },
+    {
+        "text": "186.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu chọnCombo “hạn mức ưu tiên + bảo hiểm an ninh mạng (Cyber)”, khách hàng thông thường trả386.000 đồng/năm đầu, từ năm thứ hai186.000 đồng/năm; nhómPremier Eliteáp dụng186.000 đồng/năm, cònPrivatemiễn phí."
+    },
+    {
+        "text": "186.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu chọnCombo “hạn mức ưu tiên + bảo hiểm an ninh mạng (Cyber)”, khách hàng thông thường trả386.000 đồng/năm đầu, từ năm thứ hai186.000 đồng/năm; nhómPremier Eliteáp dụng186.000 đồng/năm, cònPrivatemiễn phí."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếudưới 15 tin/tháng, khách hàng phổ thông trả10.000 đồng/thuê bao/tháng(trả bằng ngoại tệ là1 USD/thuê bao/tháng, các ngoại tệ khác quy đổi theo tỷ giá tương ứng)."
+    },
+    {
+        "text": "1 USD",
+        "label": "MONEY",
+        "evidence": "Nếudưới 15 tin/tháng, khách hàng phổ thông trả10.000 đồng/thuê bao/tháng(trả bằng ngoại tệ là1 USD/thuê bao/tháng, các ngoại tệ khác quy đổi theo tỷ giá tương ứng)."
+    },
+    {
+        "text": "700 đồng",
+        "label": "MONEY",
+        "evidence": "Nếutừ 15 tin/tháng trở lên, phí tính theo sản lượng:700 đồng/SMSđối với VND hoặc0,03 USD/SMSvới tài khoản ngoại tệ."
+    },
+    {
+        "text": "0,03 USD",
+        "label": "MONEY",
+        "evidence": "Nếutừ 15 tin/tháng trở lên, phí tính theo sản lượng:700 đồng/SMSđối với VND hoặc0,03 USD/SMSvới tài khoản ngoại tệ."
+    },
+    {
+        "text": "cung cấp OTT Alerts ngay trong ứng dụng SmartBanking và thông báo giọng nói (voice OTT)",
+        "label": "EVENT",
+        "evidence": "Ngoài SMS, BIDV cung cấp OTT Alerts ngay trong ứng dụng SmartBanking và thông báo giọng nói (voice OTT); cả hai kênh nàymiễn phícho tất cả khách hàng."
+    },
+    {
+        "text": "1.000 đồng",
+        "label": "MONEY",
+        "evidence": "Với khách hàng làđơn vị chấp nhận thanh toán/POSmuốn nhậnSMS chi tiết theo giao dịch, phí áp dụng là1.000 đồng/tin nhắnđối với khách hàng phổ thông; nhómPremier/Privatemiễn phí."
+    },
+    {
+        "text": "0,2% giá trị giao dịch",
+        "label": "RATE",
+        "evidence": "Khithanh toán bằng mã QR tại Thái Lan, khách hàng thông thường và Premier chịu phí0,2% giá trị giao dịch, trong khi khách hàngPrivateđượcmiễn."
+    },
+    {
+        "text": "9.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nếu cầntách lệnh giao dịch 24/7trên SmartBanking, mức thu cho khách hàng phổ thông là9.000 đồng/lần, cònPremier/Premier Elite/Privateđượcmiễn phí."
+    }
+]

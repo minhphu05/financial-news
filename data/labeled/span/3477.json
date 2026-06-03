@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Ngân hàng TMCP Bưu điện Liên Việt",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) vừa có báo cáo về giao dịch cổ phiếu LPB của người liên quan của người nội bộ."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) vừa có báo cáo về giao dịch cổ phiếu LPB của người liên quan của người nội bộ."
+    },
+    {
+        "text": "báo cáo về giao dịch cổ phiếu LPB của người liên quan của người nội bộ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) vừa có báo cáo về giao dịch cổ phiếu LPB của người liên quan của người nội bộ."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) vừa có báo cáo về giao dịch cổ phiếu LPB của người liên quan của người nội bộ."
+    },
+    {
+        "text": "Phạm Thị Thanh Thủy",
+        "label": "PERSON",
+        "evidence": "Theo đó, bà Phạm Thị Thanh Thủy, vợ ông Bùi Thái Hà - Phó Tổng Giám đốc đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB để phục vụ nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "Bùi Thái Hà",
+        "label": "PERSON",
+        "evidence": "Theo đó, bà Phạm Thị Thanh Thủy, vợ ông Bùi Thái Hà - Phó Tổng Giám đốc đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB để phục vụ nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Theo đó, bà Phạm Thị Thanh Thủy, vợ ông Bùi Thái Hà - Phó Tổng Giám đốc đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB để phục vụ nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "2,2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, bà Phạm Thị Thanh Thủy, vợ ông Bùi Thái Hà - Phó Tổng Giám đốc đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB để phục vụ nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Theo đó, bà Phạm Thị Thanh Thủy, vợ ông Bùi Thái Hà - Phó Tổng Giám đốc đăng ký bán toàn bộ 2,2 triệu cổ phiếu LPB để phục vụ nhu cầu tài chính cá nhân."
+    },
+    {
+        "text": "Giao dịch dự kiến diễn ra từ 21/4 - 28/5 theo phương thức thỏa thuận và khớp lệnh",
+        "label": "EVENT",
+        "evidence": "Giao dịch dự kiến diễn ra từ 21/4 - 28/5 theo phương thức thỏa thuận và khớp lệnh."
+    },
+    {
+        "text": "21/4",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến diễn ra từ 21/4 - 28/5 theo phương thức thỏa thuận và khớp lệnh."
+    },
+    {
+        "text": "28/5",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến diễn ra từ 21/4 - 28/5 theo phương thức thỏa thuận và khớp lệnh."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Nếu thành công, bà Thanh Thủy sẽ không còn sở hữu cổ phần nào tại LienVietPostBank."
+    },
+    {
+        "text": "Bùi Thái Hà",
+        "label": "PERSON",
+        "evidence": "Trong khi ông Bùi Thái Hà hiện nắm giữ 835.416 cổ phiếu, tương đương 0,048% vốn điều lệ ngân hàng."
+    },
+    {
+        "text": "835.416 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong khi ông Bùi Thái Hà hiện nắm giữ 835.416 cổ phiếu, tương đương 0,048% vốn điều lệ ngân hàng."
+    },
+    {
+        "text": "0,048%",
+        "label": "RATE",
+        "evidence": "Trong khi ông Bùi Thái Hà hiện nắm giữ 835.416 cổ phiếu, tương đương 0,048% vốn điều lệ ngân hàng."
+    },
+    {
+        "text": "18/4",
+        "label": "DATE",
+        "evidence": "Kết phiên giao dịch ngày 18/4, thị giá LPB dừng ở 14.000 đồng/cp."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Kết phiên giao dịch ngày 18/4, thị giá LPB dừng ở 14.000 đồng/cp."
+    },
+    {
+        "text": "14.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Kết phiên giao dịch ngày 18/4, thị giá LPB dừng ở 14.000 đồng/cp."
+    },
+    {
+        "text": "Thủy",
+        "label": "PERSON",
+        "evidence": "Ước tính theo mức giá này, bà Thủy có thể thu về khoảng 31,2 tỷ đồng từ giao dịch trên."
+    },
+    {
+        "text": "31,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ước tính theo mức giá này, bà Thủy có thể thu về khoảng 31,2 tỷ đồng từ giao dịch trên."
+    },
+    {
+        "text": "Thủy",
+        "label": "PERSON",
+        "evidence": "Trước bà Thủy, nhiều người thân lãnh đạo LienVietPostBank cũng đã đăng ký hoặc bán ra cổ phiếu LPB trong thời gian gần đây."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Trước bà Thủy, nhiều người thân lãnh đạo LienVietPostBank cũng đã đăng ký hoặc bán ra cổ phiếu LPB trong thời gian gần đây."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Trước bà Thủy, nhiều người thân lãnh đạo LienVietPostBank cũng đã đăng ký hoặc bán ra cổ phiếu LPB trong thời gian gần đây."
+    },
+    {
+        "text": "Dương Công Đoàn",
+        "label": "PERSON",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "Dương Công Toàn",
+        "label": "PERSON",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "đăng ký bán hơn 3,8 triệu cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "hơn 3,8 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Mới nhất, ông Dương Công Đoàn, anh trai ông Dương Công Toàn, Phó chủ tịch LienVietPostBank đã đăng ký bán hơn 3,8 triệu cổ phiếu LPB."
+    },
+    {
+        "text": "Giao dịch dự kiến diễn ra trong thời gian 12/4 – 11/5 theo hình thức khớp lệnh hoặc/và thỏa thuận",
+        "label": "EVENT",
+        "evidence": "Giao dịch dự kiến diễn ra trong thời gian 12/4 – 11/5 theo hình thức khớp lệnh hoặc/và thỏa thuận."
+    },
+    {
+        "text": "12/4",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến diễn ra trong thời gian 12/4 – 11/5 theo hình thức khớp lệnh hoặc/và thỏa thuận."
+    },
+    {
+        "text": "11/5",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến diễn ra trong thời gian 12/4 – 11/5 theo hình thức khớp lệnh hoặc/và thỏa thuận."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "hơn 13,8 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "10 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "0,5783%",
+        "label": "RATE",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Nếu thành công, ông Đoàn sẽ giảm lượng cổ phiếu LPB sở hữu từ hơn 13,8 triệu đơn vị xuống còn 10 triệu đơn vị, tương đương 0,5783% vốn điều lệ LienVietPostBank."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "bán ra gần 15,4 triệu cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "gần 15,4 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "12/12/2022",
+        "label": "DATE",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "10/1/2023",
+        "label": "DATE",
+        "evidence": "Trước đó, ông Đoàn cũng đã bán ra gần 15,4 triệu cổ phiếu LPB trong thời gian 12/12/2022 – 10/1/2023."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "Đoàn",
+        "label": "PERSON",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "29,17 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "13,8 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "1,687%",
+        "label": "RATE",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "0,7984%",
+        "label": "RATE",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Sau giao dịch, lượng cổ phiếu LPB mà ông Đoàn nắm giữ giảm từ 29,17 triệu đơn vị xuống còn 13,8 triệu đơn vị, tỷ lệ sở hữu giảm tương ứng từ 1,687% xuống 0,7984% (bao gồm 15% cổ tức phát sinh thêm so với thời điểm thông báo giao dịch)."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "Nguyễn Đức Ứng",
+        "label": "PERSON",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "Nguyễn Thị Gấm",
+        "label": "PERSON",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "đăng ký bán ra 80.000 cổ phiếu ngân hàng này",
+        "label": "EVENT",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "80.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Hồi tháng 3, ông Nguyễn Đức Ứng, anh rể của bà Nguyễn Thị Gấm, Phó Tổng Giám đốc LienVietPostBank cũng đã đăng ký bán ra 80.000 cổ phiếu ngân hàng này."
+    },
+    {
+        "text": "Ứng",
+        "label": "PERSON",
+        "evidence": "Tuy nhiên sau giao dịch, ông Ứng chỉ bán được 1 nửa số cổ phiếu (tương đương 40.000 cổ phiếu) do giá cổ phiếu chưa đạt kỳ vọng."
+    },
+    {
+        "text": "bán được 1 nửa số cổ phiếu (tương đương 40.000 cổ phiếu)",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên sau giao dịch, ông Ứng chỉ bán được 1 nửa số cổ phiếu (tương đương 40.000 cổ phiếu) do giá cổ phiếu chưa đạt kỳ vọng."
+    },
+    {
+        "text": "40.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tuy nhiên sau giao dịch, ông Ứng chỉ bán được 1 nửa số cổ phiếu (tương đương 40.000 cổ phiếu) do giá cổ phiếu chưa đạt kỳ vọng."
+    },
+    {
+        "text": "Ứng",
+        "label": "PERSON",
+        "evidence": "Ngay sau đó, ông Ứng đã tiếp tục đăng ký bán 48.000 cổ phiếu LPB."
+    },
+    {
+        "text": "đăng ký bán 48.000 cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Ngay sau đó, ông Ứng đã tiếp tục đăng ký bán 48.000 cổ phiếu LPB."
+    },
+    {
+        "text": "48.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Ngay sau đó, ông Ứng đã tiếp tục đăng ký bán 48.000 cổ phiếu LPB."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Ngay sau đó, ông Ứng đã tiếp tục đăng ký bán 48.000 cổ phiếu LPB."
+    },
+    {
+        "text": "Giao dịch dự kiến được thực hiện từ ngày 20/3/2023 đến ngày 19/4/2023 theo phương thức khớp lệnh hoặc thỏa thuận",
+        "label": "EVENT",
+        "evidence": "Giao dịch dự kiến được thực hiện từ ngày 20/3/2023 đến ngày 19/4/2023 theo phương thức khớp lệnh hoặc thỏa thuận."
+    },
+    {
+        "text": "20/3/2023",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến được thực hiện từ ngày 20/3/2023 đến ngày 19/4/2023 theo phương thức khớp lệnh hoặc thỏa thuận."
+    },
+    {
+        "text": "19/4/2023",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến được thực hiện từ ngày 20/3/2023 đến ngày 19/4/2023 theo phương thức khớp lệnh hoặc thỏa thuận."
+    },
+    {
+        "text": "Ứng",
+        "label": "PERSON",
+        "evidence": "Nếu giao dịch thành công, ông Ứng sẽ chỉ còn nắm giữ 60 cổ phiếu LPB."
+    },
+    {
+        "text": "60 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Nếu giao dịch thành công, ông Ứng sẽ chỉ còn nắm giữ 60 cổ phiếu LPB."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Nếu giao dịch thành công, ông Ứng sẽ chỉ còn nắm giữ 60 cổ phiếu LPB."
+    },
+    {
+        "text": "Vũ Quốc Vinh",
+        "label": "PERSON",
+        "evidence": "Trước đó, ông Vũ Quốc Vinh, em trai Phó Tổng Giám đốc Vũ Quốc Khánh cũng đã bán thành công toàn bộ 64.745 cổ phiếu LPB đang nắm giữ."
+    },
+    {
+        "text": "Vũ Quốc Khánh",
+        "label": "PERSON",
+        "evidence": "Trước đó, ông Vũ Quốc Vinh, em trai Phó Tổng Giám đốc Vũ Quốc Khánh cũng đã bán thành công toàn bộ 64.745 cổ phiếu LPB đang nắm giữ."
+    },
+    {
+        "text": "bán thành công toàn bộ 64.745 cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Trước đó, ông Vũ Quốc Vinh, em trai Phó Tổng Giám đốc Vũ Quốc Khánh cũng đã bán thành công toàn bộ 64.745 cổ phiếu LPB đang nắm giữ."
+    },
+    {
+        "text": "64.745 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trước đó, ông Vũ Quốc Vinh, em trai Phó Tổng Giám đốc Vũ Quốc Khánh cũng đã bán thành công toàn bộ 64.745 cổ phiếu LPB đang nắm giữ."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Trước đó, ông Vũ Quốc Vinh, em trai Phó Tổng Giám đốc Vũ Quốc Khánh cũng đã bán thành công toàn bộ 64.745 cổ phiếu LPB đang nắm giữ."
+    },
+    {
+        "text": "Trần Thị Hoài Hương",
+        "label": "PERSON",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "Nguyễn Ngọc Nam",
+        "label": "PERSON",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "bán thành công 13.900 cổ phiếu LPB",
+        "label": "EVENT",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "13.900 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Bà Trần Thị Hoài Hương, em dâu ông Nguyễn Ngọc Nam - một Phó Tổng giám đốc khác của ngân hàng LienVietPostBank cũng đã bán thành công 13.900 cổ phiếu LPB."
+    },
+    {
+        "text": "Hương",
+        "label": "PERSON",
+        "evidence": "Sau giao dịch, bà Hương chỉ còn 20 cổ phiếu tại LienVietPostBank."
+    },
+    {
+        "text": "20 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Sau giao dịch, bà Hương chỉ còn 20 cổ phiếu tại LienVietPostBank."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Sau giao dịch, bà Hương chỉ còn 20 cổ phiếu tại LienVietPostBank."
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu",
+        "label": "EVENT",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "hơn 140,5 triệu cổ phần",
+        "label": "VOLUME",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "Ngân hàng TMCP Bưu điện Liên Việt",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "Tổng công ty Bưu điện Việt Nam",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan, Sở Giao dịch Chứng khoán Hà Nội (HNX) cho biết sẽ không tổ chức phiên đấu giá hơn 140,5 triệu cổ phần LPB của Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) do Tổng công ty Bưu điện Việt Nam sở hữu."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Theo kế hoạch, HNX sẽ tổ chức phiên bán đấu giá vào ngày 21/4/2023."
+    },
+    {
+        "text": "tổ chức phiên bán đấu giá",
+        "label": "EVENT",
+        "evidence": "Theo kế hoạch, HNX sẽ tổ chức phiên bán đấu giá vào ngày 21/4/2023."
+    },
+    {
+        "text": "21/4/2023",
+        "label": "DATE",
+        "evidence": "Theo kế hoạch, HNX sẽ tổ chức phiên bán đấu giá vào ngày 21/4/2023."
+    },
+    {
+        "text": "15h30 ngày 14/4/2023",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, đến hết thời hạn đăng ký và đặt cọc (15h30 ngày 14/4/2023) không có nhà đầu tư đăng ký tham gia mua cổ phần của công ty."
+    },
+    {
+        "text": "phiên đấu giá cổ phần không đủ điều kiện để tổ chức",
+        "label": "EVENT",
+        "evidence": "Do đó, theo quy định tại Điều 14 Quy chế bán đấu giá cổ phần của LienVietPostBank do VNPost sở hữu, phiên đấu giá cổ phần không đủ điều kiện để tổ chức."
+    },
+    {
+        "text": "LienVietPostBank",
+        "label": "ORG",
+        "evidence": "Do đó, theo quy định tại Điều 14 Quy chế bán đấu giá cổ phần của LienVietPostBank do VNPost sở hữu, phiên đấu giá cổ phần không đủ điều kiện để tổ chức."
+    },
+    {
+        "text": "VNPost",
+        "label": "ORG",
+        "evidence": "Do đó, theo quy định tại Điều 14 Quy chế bán đấu giá cổ phần của LienVietPostBank do VNPost sở hữu, phiên đấu giá cổ phần không đủ điều kiện để tổ chức."
+    }
+]

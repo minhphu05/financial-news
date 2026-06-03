@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Ngân hàng TMCP Ngoại thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại thương Việt Nam - Vietcombank vừa thông báo cập nhật biểu phí dịch vụ thẻ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Ngoại thương Việt Nam - Vietcombank vừa thông báo cập nhật biểu phí dịch vụ thẻ."
+    },
+    {
+        "text": "thông báo cập nhật biểu phí dịch vụ thẻ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Ngoại thương Việt Nam - Vietcombank vừa thông báo cập nhật biểu phí dịch vụ thẻ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, Vietcombank cũng dừng áp dụng phí duy trì thẻ từ (thẻ ghi nợ nội địa và ghi nợ quốc tế công nghệ từ), kể từ ngày 12/5/2025."
+    },
+    {
+        "text": "dừng áp dụng phí duy trì thẻ từ (thẻ ghi nợ nội địa và ghi nợ quốc tế công nghệ từ)",
+        "label": "EVENT",
+        "evidence": "Đồng thời, Vietcombank cũng dừng áp dụng phí duy trì thẻ từ (thẻ ghi nợ nội địa và ghi nợ quốc tế công nghệ từ), kể từ ngày 12/5/2025."
+    },
+    {
+        "text": "thẻ ghi nợ nội địa",
+        "label": "ASSET",
+        "evidence": "dừng áp dụng phí duy trì thẻ từ (thẻ ghi nợ nội địa và ghi nợ quốc tế công nghệ từ)"
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế công nghệ từ",
+        "label": "ASSET",
+        "evidence": "dừng áp dụng phí duy trì thẻ từ (thẻ ghi nợ nội địa và ghi nợ quốc tế công nghệ từ)"
+    },
+    {
+        "text": "12/5/2025",
+        "label": "DATE",
+        "evidence": "kể từ ngày 12/5/2025."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đăng tải trên website, Vietcombank cho biết sẽ dừng xử lý mọi giao dịch qua dải băng từ trên thẻ do Vietcombank phát hành kể từ ngày 1/7/2025."
+    },
+    {
+        "text": "dừng xử lý mọi giao dịch qua dải băng từ trên thẻ do Vietcombank phát hành",
+        "label": "EVENT",
+        "evidence": "Vietcombank cho biết sẽ dừng xử lý mọi giao dịch qua dải băng từ trên thẻ do Vietcombank phát hành kể từ ngày 1/7/2025."
+    },
+    {
+        "text": "1/7/2025",
+        "label": "DATE",
+        "evidence": "kể từ ngày 1/7/2025."
+    },
+    {
+        "text": "thẻ công nghệ từ",
+        "label": "ASSET",
+        "evidence": "Tất cả các loại thẻ công nghệ từ và dải từ trên thẻ Chip hoặc Chip không tiếp xúc (contactless) sẽ không còn được hỗ trợ xử lý giao dịch sau thời điểm trên."
+    },
+    {
+        "text": "dải từ trên thẻ Chip",
+        "label": "ASSET",
+        "evidence": "Tất cả các loại thẻ công nghệ từ và dải từ trên thẻ Chip hoặc Chip không tiếp xúc (contactless) sẽ không còn được hỗ trợ xử lý giao dịch sau thời điểm trên."
+    },
+    {
+        "text": "Chip không tiếp xúc (contactless)",
+        "label": "ASSET",
+        "evidence": "Tất cả các loại thẻ công nghệ từ và dải từ trên thẻ Chip hoặc Chip không tiếp xúc (contactless) sẽ không còn được hỗ trợ xử lý giao dịch sau thời điểm trên."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng từng áp dụng phí duy trì mỗi thẻ từ 10.000 đồng/tháng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo thông báo của Vietcombank, các loại phí khác của ngân hàng gần như không thay đổi."
+    },
+    {
+        "text": "thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Biểu phí dịch vụ thẻ ghi nợ áp dụng cho khách hàng cá nhân tại Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Biểu phí dịch vụ thẻ ghi nợ áp dụng cho khách hàng cá nhân tại Vietcombank."
+    }
+]

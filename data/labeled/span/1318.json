@@ -1,0 +1,897 @@
+[
+    {
+        "text": "25/12",
+        "label": "DATE",
+        "evidence": "kết phiên 25/12, giá cổ phiếu CTG của ngân hàng TMCP Công thương Việt Nam (Vietinbank) ở mức 38.200 đồng/cổ phiếu"
+    },
+    {
+        "text": "cổ phiếu CTG",
+        "label": "ASSET",
+        "evidence": "giá cổ phiếu CTG của ngân hàng TMCP Công thương Việt Nam (Vietinbank) ở mức 38.200 đồng/cổ phiếu"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "giá cổ phiếu CTG của ngân hàng TMCP Công thương Việt Nam (Vietinbank) ở mức 38.200 đồng/cổ phiếu"
+    },
+    {
+        "text": "ngân hàng TMCP Công thương Việt Nam",
+        "label": "ORG",
+        "evidence": "giá cổ phiếu CTG của ngân hàng TMCP Công thương Việt Nam (Vietinbank) ở mức 38.200 đồng/cổ phiếu"
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "ngân hàng TMCP Công thương Việt Nam (Vietinbank) ở mức 38.200 đồng/cổ phiếu"
+    },
+    {
+        "text": "38.200 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "ở mức 38.200 đồng/cổ phiếu, tăng 5,25% so với phiên trước"
+    },
+    {
+        "text": "5,25%",
+        "label": "RATE",
+        "evidence": "tăng 5,25% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh tăng đột biến đạt gần 25,2 triệu đơn vị"
+    },
+    {
+        "text": "25,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "khối lượng cổ phiếu giao dịch khớp lệnh tăng đột biến đạt gần 25,2 triệu đơn vị - tăng hơn 8 lần phiên trước."
+    },
+    {
+        "text": "Thị trường chứng khoán “thăng hoa”",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán “thăng hoa”, cổ phiếu CTG được các nhà đầu tư “gom” mạnh vào thời điểm cuối phiên sáng"
+    },
+    {
+        "text": "cổ phiếu CTG",
+        "label": "ASSET",
+        "evidence": "cổ phiếu CTG được các nhà đầu tư “gom” mạnh vào thời điểm cuối phiên sáng, giúp thị giá tăng “thẳng đứng” kịch trần."
+    },
+    {
+        "text": "thị giá tăng “thẳng đứng” kịch trần",
+        "label": "EVENT",
+        "evidence": "giúp thị giá tăng “thẳng đứng” kịch trần. Tuy nhiên, sức nóng của mã cổ phiếu nhà băng này đã giảm đi đáng kể ở phiên chiều."
+    },
+    {
+        "text": "Cổ phiếu CTG đạt đỉnh giá cao nhất lịch sử niêm yết ở phiên 25/12",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu CTG đạt đỉnh giá cao nhất lịch sử niêm yết ở phiên 25/12."
+    },
+    {
+        "text": "25/12",
+        "label": "DATE",
+        "evidence": "Cổ phiếu CTG đạt đỉnh giá cao nhất lịch sử niêm yết ở phiên 25/12."
+    },
+    {
+        "text": "38.200 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Đáng chú ý, với mức giá 38.200 đồng/cổ phiếu, đây là mức giá cao nhất lịch sử niên yết của cổ phiếu CTG"
+    },
+    {
+        "text": "cổ phiếu CTG",
+        "label": "ASSET",
+        "evidence": "mức giá cao nhất lịch sử niên yết của cổ phiếu CTG, đưa vốn hóa thị trường của nhà băng này lên hơn 205.133 tỷ đồng."
+    },
+    {
+        "text": "205.133 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đưa vốn hóa thị trường của nhà băng này lên hơn 205.133 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu STB",
+        "label": "ASSET",
+        "evidence": "cổ phiếu STB củaNgân hàng TMCP Sài Gòn Thương Tín(Sacombank) cũng được nhà đầu tư “gom” mạnh trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu STB củaNgân hàng TMCP Sài Gòn Thương Tín(Sacombank) cũng được nhà đầu tư “gom” mạnh trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "Ngân hàng TMCP Sài Gòn Thương Tín",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Sài Gòn Thương Tín(Sacombank) cũng được nhà đầu tư “gom” mạnh trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sài Gòn Thương Tín(Sacombank) cũng được nhà đầu tư “gom” mạnh trong phiên giao dịch hôm nay."
+    },
+    {
+        "text": "25/12",
+        "label": "DATE",
+        "evidence": "Kết phiên 25/12, giá cổ phiếu STB ở mức 36.250 đồng/cổ phiếu, tăng 4,47% so với phiên trước"
+    },
+    {
+        "text": "cổ phiếu STB",
+        "label": "ASSET",
+        "evidence": "giá cổ phiếu STB ở mức 36.250 đồng/cổ phiếu, tăng 4,47% so với phiên trước"
+    },
+    {
+        "text": "36.250 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "giá cổ phiếu STB ở mức 36.250 đồng/cổ phiếu, tăng 4,47% so với phiên trước"
+    },
+    {
+        "text": "4,47%",
+        "label": "RATE",
+        "evidence": "tăng 4,47% so với phiên trước, khối lượng cổ phiếu giao dịch khớp lệnh tăng đột biến đạt gần 14,4 triệu đơn vị"
+    },
+    {
+        "text": "14,4 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "khối lượng cổ phiếu giao dịch khớp lệnh tăng đột biến đạt gần 14,4 triệu đơn vị - tăng gần 4 lần so với phiên trước."
+    },
+    {
+        "text": "Cổ phiếu STB cũng được nhà đầu tư “gom” mạnh đột biến ở cuối phiên sáng, giúp thị giá tăng “thẳng đứng”",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu STB cũng được nhà đầu tư “gom” mạnh đột biến ở cuối phiên sáng, giúp thị giá tăng “thẳng đứng”. Lực cầu có phần giảm nhẹ ở phiên chiều."
+    },
+    {
+        "text": "Cổ phiếu STB tiếp đà \"thăng hoa\", đạt đỉnh giá cao nhất lịch sử niêm yết",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu STB tiếp đà \"thăng hoa\", đạt đỉnh giá cao nhất lịch sử niêm yết. (Nguồn: Cafef)"
+    },
+    {
+        "text": "36.250 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Với mức giá 36.250 đồng/cổ phiếu, đây là đỉnh giá cao nhất lịch sử niêm yết của mã cổ phiếu STB."
+    },
+    {
+        "text": "mã cổ phiếu STB",
+        "label": "ASSET",
+        "evidence": "đây là đỉnh giá cao nhất lịch sử niêm yết của mã cổ phiếu STB. Hiện, vốn hóa thị trường của Sacombank đạt hơn 68.339 tỷ đồng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "vốn hóa thị trường của Sacombank đạt hơn 68.339 tỷ đồng."
+    },
+    {
+        "text": "68.339 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn hóa thị trường của Sacombank đạt hơn 68.339 tỷ đồng."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "chỉ số chính VN-Index tích lũy thêm gần 14 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "VN-Index tích lũy thêm gần 14 điểm",
+        "label": "EVENT",
+        "evidence": "chỉ số chính VN-Index tích lũy thêm gần 14 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "1.274,04 điểm",
+        "label": "PRICE",
+        "evidence": "chỉ số chính VN-Index tích lũy thêm gần 14 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "25/12",
+        "label": "DATE",
+        "evidence": "Kết phiên 25/12, chỉ số chính VN-Index tăng 13,68 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "chỉ số chính VN-Index",
+        "label": "ASSET",
+        "evidence": "chỉ số chính VN-Index tăng 13,68 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "tăng 13,68 điểm",
+        "label": "RATE",
+        "evidence": "chỉ số chính VN-Index tăng 13,68 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "1.274,04 điểm",
+        "label": "PRICE",
+        "evidence": "chỉ số chính VN-Index tăng 13,68 điểm, lên 1.274,04 điểm."
+    },
+    {
+        "text": "Chỉ số HNX-Index",
+        "label": "ASSET",
+        "evidence": "Chỉ số HNX-Index tăng 1,45 điểm, lên 229,81 điểm."
+    },
+    {
+        "text": "tăng 1,45 điểm",
+        "label": "RATE",
+        "evidence": "Chỉ số HNX-Index tăng 1,45 điểm, lên 229,81 điểm."
+    },
+    {
+        "text": "229,81 điểm",
+        "label": "PRICE",
+        "evidence": "Chỉ số HNX-Index tăng 1,45 điểm, lên 229,81 điểm."
+    },
+    {
+        "text": "Chỉ số UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "Chỉ số UPCoM-Index tăng 0,57 điểm, lên 94,59 điểm."
+    },
+    {
+        "text": "tăng 0,57 điểm",
+        "label": "RATE",
+        "evidence": "Chỉ số UPCoM-Index tăng 0,57 điểm, lên 94,59 điểm."
+    },
+    {
+        "text": "94,59 điểm",
+        "label": "PRICE",
+        "evidence": "Chỉ số UPCoM-Index tăng 0,57 điểm, lên 94,59 điểm."
+    },
+    {
+        "text": "Thanh khoản trên thị trường “bùng nổ”",
+        "label": "EVENT",
+        "evidence": "Thanh khoản trên thị trường “bùng nổ”, với tổng giá trị giao dịch trên cả 3 sàn dạt gần 21.100 tỷ đồng."
+    },
+    {
+        "text": "21.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với tổng giá trị giao dịch trên cả 3 sàn dạt gần 21.100 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Riêng trên sàn HoSE, thanh khoản đạt hơn 18.800 tỷ đồng."
+    },
+    {
+        "text": "18.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thanh khoản đạt hơn 18.800 tỷ đồng."
+    },
+    {
+        "text": "rổ VN30",
+        "label": "ASSET",
+        "evidence": "Tại rổ VN30 có đến 30/30 mã tăng giá, chỉ số VN30-Index tăng 19,21 điểm, lên 1.342,48 điểm."
+    },
+    {
+        "text": "chỉ số VN30-Index",
+        "label": "ASSET",
+        "evidence": "chỉ số VN30-Index tăng 19,21 điểm, lên 1.342,48 điểm."
+    },
+    {
+        "text": "tăng 19,21 điểm",
+        "label": "RATE",
+        "evidence": "chỉ số VN30-Index tăng 19,21 điểm, lên 1.342,48 điểm."
+    },
+    {
+        "text": "1.342,48 điểm",
+        "label": "PRICE",
+        "evidence": "chỉ số VN30-Index tăng 19,21 điểm, lên 1.342,48 điểm."
+    },
+    {
+        "text": "Nhóm cổ phiếu ngân hàng “thăng hoa”",
+        "label": "EVENT",
+        "evidence": "Nhóm cổ phiếu ngân hàng “thăng hoa” với hầu hết các mã cổ phiếu được nhà đầu tư “gom” mạnh như, bộ đôi cổ phiếu ngân hàng CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "bộ đôi cổ phiếu ngân hàng CTG và STB",
+        "label": "ASSET",
+        "evidence": "bộ đôi cổ phiếu ngân hàng CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "bộ đôi cổ phiếu ngân hàng CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "bộ đôi cổ phiếu ngân hàng CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "5,52%",
+        "label": "RATE",
+        "evidence": "CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "4,47%",
+        "label": "RATE",
+        "evidence": "CTG và STB lần lượt tăng 5,52% và 4,47%."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Theo sau là các cổ phiếu tăng trên 2% như TPB +2,18%, MBB +2,3%, HDB +2,14%."
+    },
+    {
+        "text": "+2,18%",
+        "label": "RATE",
+        "evidence": "TPB +2,18%, MBB +2,3%, HDB +2,14%."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "TPB +2,18%, MBB +2,3%, HDB +2,14%."
+    },
+    {
+        "text": "+2,3%",
+        "label": "RATE",
+        "evidence": "MBB +2,3%, HDB +2,14%."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "MBB +2,3%, HDB +2,14%."
+    },
+    {
+        "text": "+2,14%",
+        "label": "RATE",
+        "evidence": "HDB +2,14%."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Tiếp đến là các cổ phiếu tăng trên 1% là ACB, BIB, SSB, TCB và VPB."
+    },
+    {
+        "text": "BIB",
+        "label": "TICKER",
+        "evidence": "Tiếp đến là các cổ phiếu tăng trên 1% là ACB, BIB, SSB, TCB và VPB."
+    },
+    {
+        "text": "SSB",
+        "label": "TICKER",
+        "evidence": "Tiếp đến là các cổ phiếu tăng trên 1% là ACB, BIB, SSB, TCB và VPB."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Tiếp đến là các cổ phiếu tăng trên 1% là ACB, BIB, SSB, TCB và VPB."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Tiếp đến là các cổ phiếu tăng trên 1% là ACB, BIB, SSB, TCB và VPB."
+    },
+    {
+        "text": "nhóm cổ phiếu chứng khoán cũng hút mạnh dòng tiền của các nhà đầu tư",
+        "label": "EVENT",
+        "evidence": "Tương tự nhóm cổ phiếu chứng khoán cũng hút mạnh dòng tiền của các nhà đầu tư với SSI +2,31%, HCM +2,08%, MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "với SSI +2,31%, HCM +2,08%, MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+2,31%",
+        "label": "RATE",
+        "evidence": "SSI +2,31%, HCM +2,08%, MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "HCM",
+        "label": "TICKER",
+        "evidence": "HCM +2,08%, MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+2,08%",
+        "label": "RATE",
+        "evidence": "HCM +2,08%, MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "MBS",
+        "label": "TICKER",
+        "evidence": "MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+2,47%",
+        "label": "RATE",
+        "evidence": "MBS +2,47%, SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+1,55%",
+        "label": "RATE",
+        "evidence": "SHS +1,55%, VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+1,49%",
+        "label": "RATE",
+        "evidence": "VIX +1,49%, VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "VCI",
+        "label": "TICKER",
+        "evidence": "VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "+1,19%",
+        "label": "RATE",
+        "evidence": "VCI +1,19%, FTS +1,9%."
+    },
+    {
+        "text": "FTS",
+        "label": "TICKER",
+        "evidence": "FTS +1,9%."
+    },
+    {
+        "text": "+1,9%",
+        "label": "RATE",
+        "evidence": "FTS +1,9%."
+    },
+    {
+        "text": "cổ phiếu IVS",
+        "label": "ASSET",
+        "evidence": "Đặc biệt, cổ phiếu IVS tăng trần 9,57% lên 10.300 đồng/cổ phiếu."
+    },
+    {
+        "text": "IVS",
+        "label": "TICKER",
+        "evidence": "cổ phiếu IVS tăng trần 9,57% lên 10.300 đồng/cổ phiếu."
+    },
+    {
+        "text": "9,57%",
+        "label": "RATE",
+        "evidence": "tăng trần 9,57% lên 10.300 đồng/cổ phiếu."
+    },
+    {
+        "text": "10.300 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "lên 10.300 đồng/cổ phiếu."
+    },
+    {
+        "text": "Nhóm cổ phiếu bất động sản cũng được nhà đầu tư “gom” mạnh",
+        "label": "EVENT",
+        "evidence": "Nhóm cổ phiếu bất động sản cũng được nhà đầu tư “gom” mạnh, với BCM +2,06%, VRE +1,47%, VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "BCM",
+        "label": "TICKER",
+        "evidence": "với BCM +2,06%, VRE +1,47%, VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+2,06%",
+        "label": "RATE",
+        "evidence": "BCM +2,06%, VRE +1,47%, VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "VRE",
+        "label": "TICKER",
+        "evidence": "VRE +1,47%, VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+1,47%",
+        "label": "RATE",
+        "evidence": "VRE +1,47%, VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+0,62%",
+        "label": "RATE",
+        "evidence": "VHM +0,62%, VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+0,12%",
+        "label": "RATE",
+        "evidence": "VIC +0,12%, SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "SIP",
+        "label": "TICKER",
+        "evidence": "SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+1,07%",
+        "label": "RATE",
+        "evidence": "SIP +1,07%, PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "PDR",
+        "label": "TICKER",
+        "evidence": "PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+1,24%",
+        "label": "RATE",
+        "evidence": "PDR +1,24%, TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+3,31%",
+        "label": "RATE",
+        "evidence": "TCH +3,31%, NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "NLG",
+        "label": "TICKER",
+        "evidence": "NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+1,68%",
+        "label": "RATE",
+        "evidence": "NLG +1,68%, KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "+1,99%",
+        "label": "RATE",
+        "evidence": "KBC +1,99%, DXS +1,39% …"
+    },
+    {
+        "text": "DXS",
+        "label": "TICKER",
+        "evidence": "DXS +1,39% …"
+    },
+    {
+        "text": "+1,39%",
+        "label": "RATE",
+        "evidence": "DXS +1,39% …"
+    },
+    {
+        "text": "DXG",
+        "label": "TICKER",
+        "evidence": "Ngược dòng, chỉ một số mã cổ phiếu giảm nhẹ như DXG -0,91%, KDH -0,14%, VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "-0,91%",
+        "label": "RATE",
+        "evidence": "DXG -0,91%, KDH -0,14%, VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "KDH -0,14%, VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "-0,14%",
+        "label": "RATE",
+        "evidence": "KDH -0,14%, VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "VPI",
+        "label": "TICKER",
+        "evidence": "VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "-0,84%",
+        "label": "RATE",
+        "evidence": "VPI -0,84%, DTD -1,07%, …"
+    },
+    {
+        "text": "DTD",
+        "label": "TICKER",
+        "evidence": "DTD -1,07%, …"
+    },
+    {
+        "text": "-1,07%",
+        "label": "RATE",
+        "evidence": "DTD -1,07%, …"
+    },
+    {
+        "text": "VCG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, thị trường ghi nhận loạt cổ phiếu bluechip thuộc các nhóm ngành tăng mạnh như VCG +5,51%, CTD +3,77%, HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+5,51%",
+        "label": "RATE",
+        "evidence": "VCG +5,51%, CTD +3,77%, HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "CTD",
+        "label": "TICKER",
+        "evidence": "CTD +3,77%, HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+3,77%",
+        "label": "RATE",
+        "evidence": "CTD +3,77%, HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "HHV",
+        "label": "TICKER",
+        "evidence": "HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+6,85%",
+        "label": "RATE",
+        "evidence": "HHV +6,85%, BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "BMP",
+        "label": "TICKER",
+        "evidence": "BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,7%",
+        "label": "RATE",
+        "evidence": "BMP +1,7%, HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,69%",
+        "label": "RATE",
+        "evidence": "HPG +1,69%, GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "GVR",
+        "label": "TICKER",
+        "evidence": "GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,3%",
+        "label": "RATE",
+        "evidence": "GVR +1,3%, MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "MSR",
+        "label": "TICKER",
+        "evidence": "MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+5,88%",
+        "label": "RATE",
+        "evidence": "MSR +5,88%, KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "KSB",
+        "label": "TICKER",
+        "evidence": "KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+6,82%",
+        "label": "RATE",
+        "evidence": "KSB +6,82%, HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "HNG",
+        "label": "TICKER",
+        "evidence": "HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,64%",
+        "label": "RATE",
+        "evidence": "HNG +1,64%, MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,47%",
+        "label": "RATE",
+        "evidence": "MWG +1,47%, PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "PVD",
+        "label": "TICKER",
+        "evidence": "PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "+1,48%",
+        "label": "RATE",
+        "evidence": "PVD +1,48%, CMG +1,64%, …"
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "CMG +1,64%, …"
+    },
+    {
+        "text": "+1,64%",
+        "label": "RATE",
+        "evidence": "CMG +1,64%, …"
+    },
+    {
+        "text": "Cổ phiếu Yeah1 (YEG)",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu Yeah1 (YEG) kèo dài đà tăng trần lên phiên thứ 7 liên tiếp. (Nguồn: Cafef)"
+    },
+    {
+        "text": "YEG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu Yeah1 (YEG) kèo dài đà tăng trần lên phiên thứ 7 liên tiếp. (Nguồn: Cafef)"
+    },
+    {
+        "text": "kèo dài đà tăng trần lên phiên thứ 7 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu Yeah1 (YEG) kèo dài đà tăng trần lên phiên thứ 7 liên tiếp. (Nguồn: Cafef)"
+    },
+    {
+        "text": "Cổ phiếu YEG của CTCP Tập đoàn Yeah1",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu YEG của CTCP Tập đoàn Yeah1 tiếp tục gây ấn tượng mạnh trên thị trường, khi kéo dài đà tăng trần lên phiên thứ 7 liên tiếp, thị giá tăng gần 50%."
+    },
+    {
+        "text": "YEG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu YEG của CTCP Tập đoàn Yeah1 tiếp tục gây ấn tượng mạnh trên thị trường, khi kéo dài đà tăng trần lên phiên thứ 7 liên tiếp, thị giá tăng gần 50%."
+    },
+    {
+        "text": "CTCP Tập đoàn Yeah1",
+        "label": "ORG",
+        "evidence": "Cổ phiếu YEG của CTCP Tập đoàn Yeah1 tiếp tục gây ấn tượng mạnh trên thị trường"
+    },
+    {
+        "text": "kéo dài đà tăng trần lên phiên thứ 7 liên tiếp",
+        "label": "EVENT",
+        "evidence": "khi kéo dài đà tăng trần lên phiên thứ 7 liên tiếp, thị giá tăng gần 50%."
+    },
+    {
+        "text": "gần 50%",
+        "label": "RATE",
+        "evidence": "thị giá tăng gần 50%."
+    },
+    {
+        "text": "Yeah1",
+        "label": "ORG",
+        "evidence": "vốn hóa thị trường của Yeah1 tăng mạnh, lên hơn 3.178 tỷ đồng."
+    },
+    {
+        "text": "3.178 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên hơn 3.178 tỷ đồng."
+    },
+    {
+        "text": "HVN",
+        "label": "TICKER",
+        "evidence": "như HVN -3,86%, HAG -1,96%, CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-3,86%",
+        "label": "RATE",
+        "evidence": "HVN -3,86%, HAG -1,96%, CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "HAG",
+        "label": "TICKER",
+        "evidence": "HAG -1,96%, CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,96%",
+        "label": "RATE",
+        "evidence": "HAG -1,96%, CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "CSV",
+        "label": "TICKER",
+        "evidence": "CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,89%",
+        "label": "RATE",
+        "evidence": "CSV -1,89%, PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "PVT",
+        "label": "TICKER",
+        "evidence": "PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,05%",
+        "label": "RATE",
+        "evidence": "PVT -1,05%, HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "HAH",
+        "label": "TICKER",
+        "evidence": "HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,77%",
+        "label": "RATE",
+        "evidence": "HAH -1,77%, VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "VOS",
+        "label": "TICKER",
+        "evidence": "VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,4%",
+        "label": "RATE",
+        "evidence": "VOS -1,4%, NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "NTP",
+        "label": "TICKER",
+        "evidence": "NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,95%",
+        "label": "RATE",
+        "evidence": "NTP -1,95%, APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "APG",
+        "label": "TICKER",
+        "evidence": "APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-6,88%",
+        "label": "RATE",
+        "evidence": "APG -6,88%, MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "MIG",
+        "label": "TICKER",
+        "evidence": "MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-2,71%",
+        "label": "RATE",
+        "evidence": "MIG -2,71%, DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "DSE",
+        "label": "TICKER",
+        "evidence": "DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,31%",
+        "label": "RATE",
+        "evidence": "DSE -1,31%, BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "BMS",
+        "label": "TICKER",
+        "evidence": "BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,79%",
+        "label": "RATE",
+        "evidence": "BMS -1,79%, EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "EVS",
+        "label": "TICKER",
+        "evidence": "EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-1,67%",
+        "label": "RATE",
+        "evidence": "EVS -1,67%, EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "-0,51%",
+        "label": "RATE",
+        "evidence": "EIB -0,51%, DBD -3,95%, …"
+    },
+    {
+        "text": "DBD",
+        "label": "TICKER",
+        "evidence": "DBD -3,95%, …"
+    },
+    {
+        "text": "-3,95%",
+        "label": "RATE",
+        "evidence": "DBD -3,95%, …"
+    }
+]

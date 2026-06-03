@@ -1,0 +1,657 @@
+[
+    {
+        "text": "phiên giao dịch 6/2",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán Việt Nam chứng kiến sự đảo chiều khá tích cực trong phiên giao dịch 6/2."
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "Sau khi giảm tới hơn 9 điểm trong sáng nay, VNIndex đã đảo chiều phục hồi vào những phút cuối buổi chiều và kết phiên ở 1.089,29 điểm, tăng 12,14 điểm."
+    },
+    {
+        "text": "1.089,29 điểm",
+        "label": "PRICE",
+        "evidence": "kết phiên ở 1.089,29 điểm"
+    },
+    {
+        "text": "tăng 12,14 điểm",
+        "label": "RATE",
+        "evidence": "tăng 12,14 điểm"
+    },
+    {
+        "text": "cổ phiếu ngân hàng",
+        "label": "ASSET",
+        "evidence": "Nhóm cổ phiếu ngân hàng nhìn chung diễn biến tích cực trong phiên hôm nay với sự dẫn dắt của các cổ phiếu vốn hóa lớn."
+    },
+    {
+        "text": "6/2/2022",
+        "label": "DATE",
+        "evidence": "và còn lại 6 mã giảm giá trong ngày 6/2/2022."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "MSB là mã tăng giá mạnh nhất (5,8%) hôm nay"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "MSB là mã tăng giá mạnh nhất (5,8%) hôm nay"
+    },
+    {
+        "text": "5,8%",
+        "label": "RATE",
+        "evidence": "mạnh nhất (5,8%) hôm nay"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "cao nhất trong ngày giao dịch 6/2 (12.850 đồng/cp)."
+    },
+    {
+        "text": "12.850 đồng/cp",
+        "label": "PRICE",
+        "evidence": "ngày giao dịch 6/2 (12.850 đồng/cp)."
+    },
+    {
+        "text": "gần 1,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Khối lượng giao dịch MSB đạt gần 1,7 triệu đơn vị"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Khối lượng giao dịch MSB đạt gần 1,7 triệu đơn vị"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Khối lượng giao dịch MSB đạt gần 1,7 triệu đơn vị"
+    },
+    {
+        "text": "BID",
+        "label": "ORG",
+        "evidence": "như BID (tăng 3,8%)"
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "như BID (tăng 3,8%)"
+    },
+    {
+        "text": "3,8%",
+        "label": "RATE",
+        "evidence": "BID (tăng 3,8%)"
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "VCB (tăng 3,2%)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB (tăng 3,2%)"
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "VCB (tăng 3,2%)"
+    },
+    {
+        "text": "TCB",
+        "label": "ORG",
+        "evidence": "TCB (3,1%)"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB (3,1%)"
+    },
+    {
+        "text": "3,1%",
+        "label": "RATE",
+        "evidence": "TCB (3,1%)"
+    },
+    {
+        "text": "CTG",
+        "label": "ORG",
+        "evidence": "CTG (2,9%)"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG (2,9%)"
+    },
+    {
+        "text": "2,9%",
+        "label": "RATE",
+        "evidence": "CTG (2,9%)"
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "là những mã kéo mạnh VNIndex nhất trong hôm nay."
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "như VPB (1,4%)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "như VPB (1,4%)"
+    },
+    {
+        "text": "1,4%",
+        "label": "RATE",
+        "evidence": "VPB (1,4%)"
+    },
+    {
+        "text": "MBB",
+        "label": "ORG",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "TPB",
+        "label": "ORG",
+        "evidence": "TPB (0,4%)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB (0,4%)"
+    },
+    {
+        "text": "0,4%",
+        "label": "RATE",
+        "evidence": "TPB (0,4%)"
+    },
+    {
+        "text": "TPB",
+        "label": "ORG",
+        "evidence": "Trong đó, TPB của TPBank ghi nhận phiên tăng giá thứ 3 liên tiếp với thanh khoản duy trì ở mặt bằng cao."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, TPB của TPBank ghi nhận phiên tăng giá thứ 3 liên tiếp với thanh khoản duy trì ở mặt bằng cao."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPB của TPBank ghi nhận phiên tăng giá thứ 3 liên tiếp với thanh khoản duy trì ở mặt bằng cao."
+    },
+    {
+        "text": "Hơn 4,5 triệu cp",
+        "label": "VOLUME",
+        "evidence": "Hơn 4,5 triệu cp được trao tay giữa các nhà đầu tư trong ngày 6/2"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "Hơn 4,5 triệu cp được trao tay giữa các nhà đầu tư trong ngày 6/2"
+    },
+    {
+        "text": "109 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 109 tỷ đồng"
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "từ đầu năm 2023, với giá tăng hơn 14%"
+    },
+    {
+        "text": "tăng hơn 14%",
+        "label": "RATE",
+        "evidence": "từ đầu năm 2023, với giá tăng hơn 14%"
+    },
+    {
+        "text": "176 tỷ đồng/phiên",
+        "label": "MONEY",
+        "evidence": "thanh khoản bình quân 176 tỷ đồng/phiên."
+    },
+    {
+        "text": "Đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Đầu năm 2023, cổ đông TPBank nhận tin vui khi ngân hàng này dự kiến sẽ trả cổ tức 25% bằng tiền mặt trong quý I này."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Đầu năm 2023, cổ đông TPBank nhận tin vui khi ngân hàng này dự kiến sẽ trả cổ tức 25% bằng tiền mặt trong quý I này."
+    },
+    {
+        "text": "dự kiến sẽ trả cổ tức 25% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "ngân hàng này dự kiến sẽ trả cổ tức 25% bằng tiền mặt trong quý I này."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "sẽ trả cổ tức 25% bằng tiền mặt"
+    },
+    {
+        "text": "quý I này",
+        "label": "DATE",
+        "evidence": "trong quý I này."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB (-2,7%)"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "VIB (-2,7%)"
+    },
+    {
+        "text": "-2,7%",
+        "label": "RATE",
+        "evidence": "VIB (-2,7%)"
+    },
+    {
+        "text": "KLB",
+        "label": "ORG",
+        "evidence": "KLB (-1,7%)"
+    },
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "KLB (-1,7%)"
+    },
+    {
+        "text": "-1,7%",
+        "label": "RATE",
+        "evidence": "KLB (-1,7%)"
+    },
+    {
+        "text": "SGB",
+        "label": "ORG",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "-1,5%",
+        "label": "RATE",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "STB (-1,3%)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (-1,3%)"
+    },
+    {
+        "text": "-1,3%",
+        "label": "RATE",
+        "evidence": "STB (-1,3%)"
+    },
+    {
+        "text": "ABB",
+        "label": "ORG",
+        "evidence": "ABB (-1,2%)"
+    },
+    {
+        "text": "ABB",
+        "label": "TICKER",
+        "evidence": "ABB (-1,2%)"
+    },
+    {
+        "text": "-1,2%",
+        "label": "RATE",
+        "evidence": "ABB (-1,2%)"
+    },
+    {
+        "text": "HDB",
+        "label": "ORG",
+        "evidence": "HDB (-0,3%)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB (-0,3%)."
+    },
+    {
+        "text": "-0,3%",
+        "label": "RATE",
+        "evidence": "HDB (-0,3%)."
+    },
+    {
+        "text": "1.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với giá trị giao dịch đạt 1.800 tỷ đồng"
+    },
+    {
+        "text": "2.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "so với mức bình quân 2.900 tỷ đồng của tuần trước"
+    },
+    {
+        "text": "30/1-3/2/2023",
+        "label": "DATE",
+        "evidence": "tuần trước (30/1-3/2/2023)."
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "STB (503 tỷ)"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (503 tỷ)"
+    },
+    {
+        "text": "503 tỷ",
+        "label": "MONEY",
+        "evidence": "STB (503 tỷ)"
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "VPB (308 tỷ)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "VPB (308 tỷ)"
+    },
+    {
+        "text": "308 tỷ",
+        "label": "MONEY",
+        "evidence": "VPB (308 tỷ)"
+    },
+    {
+        "text": "MBB",
+        "label": "ORG",
+        "evidence": "MBB (123 tỷ)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (123 tỷ)"
+    },
+    {
+        "text": "123 tỷ",
+        "label": "MONEY",
+        "evidence": "MBB (123 tỷ)"
+    },
+    {
+        "text": "TPB",
+        "label": "ORG",
+        "evidence": "TPB (109 tỷ)"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "TPB (109 tỷ)"
+    },
+    {
+        "text": "109 tỷ",
+        "label": "MONEY",
+        "evidence": "TPB (109 tỷ)"
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "VCB (109 tỷ)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB (109 tỷ)"
+    },
+    {
+        "text": "109 tỷ",
+        "label": "MONEY",
+        "evidence": "VCB (109 tỷ)"
+    },
+    {
+        "text": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB",
+        "label": "EVENT",
+        "evidence": "Về động thái của khối ngoại, nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "HDB",
+        "label": "ORG",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "CTG",
+        "label": "ORG",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "nhà đầu tư nước ngoài tiếp tục mua ròng STB, HDB, CTG, VCB."
+    },
+    {
+        "text": "HDB",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, HDB đã được mua ròng 9 phiên liên tiếp với giá trị mua ròng 181 tỷ đồng, riêng phiên 6/2 là 15,5 tỷ đồng."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, HDB đã được mua ròng 9 phiên liên tiếp với giá trị mua ròng 181 tỷ đồng, riêng phiên 6/2 là 15,5 tỷ đồng."
+    },
+    {
+        "text": "mua ròng 9 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "HDB đã được mua ròng 9 phiên liên tiếp với giá trị mua ròng 181 tỷ đồng"
+    },
+    {
+        "text": "181 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị mua ròng 181 tỷ đồng"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "riêng phiên 6/2 là 15,5 tỷ đồng."
+    },
+    {
+        "text": "15,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "riêng phiên 6/2 là 15,5 tỷ đồng."
+    },
+    {
+        "text": "HDB",
+        "label": "ORG",
+        "evidence": "giá cổ phiếu HDB diễn biến khá tích cực từ đầu 2023 với mức tăng 16%."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "giá cổ phiếu HDB diễn biến khá tích cực từ đầu 2023 với mức tăng 16%."
+    },
+    {
+        "text": "đầu 2023",
+        "label": "DATE",
+        "evidence": "từ đầu 2023 với mức tăng 16%."
+    },
+    {
+        "text": "tăng 16%",
+        "label": "RATE",
+        "evidence": "với mức tăng 16%."
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "STB cũng được mua ròng 6 phiên liên tiếp với giá trị mua ròng 460 tỷ đồng, riêng phiên 6/2 là 125 tỷ."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB cũng được mua ròng 6 phiên liên tiếp với giá trị mua ròng 460 tỷ đồng, riêng phiên 6/2 là 125 tỷ."
+    },
+    {
+        "text": "mua ròng 6 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "STB cũng được mua ròng 6 phiên liên tiếp với giá trị mua ròng 460 tỷ đồng"
+    },
+    {
+        "text": "460 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị mua ròng 460 tỷ đồng"
+    },
+    {
+        "text": "6/2",
+        "label": "DATE",
+        "evidence": "riêng phiên 6/2 là 125 tỷ."
+    },
+    {
+        "text": "125 tỷ",
+        "label": "MONEY",
+        "evidence": "riêng phiên 6/2 là 125 tỷ."
+    },
+    {
+        "text": "CTG",
+        "label": "ORG",
+        "evidence": "CTG và VCB ghi nhận giá trị mua ròng lần lượt là 22,4 tỷ và 31,6 tỷ trong hôm nay."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG và VCB ghi nhận giá trị mua ròng lần lượt là 22,4 tỷ và 31,6 tỷ trong hôm nay."
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "CTG và VCB ghi nhận giá trị mua ròng lần lượt là 22,4 tỷ và 31,6 tỷ trong hôm nay."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "CTG và VCB ghi nhận giá trị mua ròng lần lượt là 22,4 tỷ và 31,6 tỷ trong hôm nay."
+    },
+    {
+        "text": "22,4 tỷ",
+        "label": "MONEY",
+        "evidence": "lần lượt là 22,4 tỷ"
+    },
+    {
+        "text": "31,6 tỷ",
+        "label": "MONEY",
+        "evidence": "và 31,6 tỷ trong hôm nay."
+    },
+    {
+        "text": "Chứng khoán VCSC",
+        "label": "ORG",
+        "evidence": "Theo Chứng khoán VCSC, trong năm 2022, khối ngoại đã mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room, trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "trong năm 2022, khối ngoại đã mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room"
+    },
+    {
+        "text": "khối ngoại đã mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room",
+        "label": "EVENT",
+        "evidence": "khối ngoại đã mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room, trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "cổ phiếu ngân hàng",
+        "label": "ASSET",
+        "evidence": "mua ròng mạnh mẽ nhóm cổ phiếu ngân hàng chưa kín room"
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "CTG",
+        "label": "ORG",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "HDB",
+        "label": "ORG",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "trong đó dẫn dắt bởi STB, CTG, VCB, HDB,…"
+    },
+    {
+        "text": "cổ phiếu ngân hàng",
+        "label": "ASSET",
+        "evidence": "khối ngoại có thể tiếp tục mua ròng nhóm cổ phiếu ngân hàng trong 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "nhóm cổ phiếu ngân hàng trong 2023"
+    }
+]

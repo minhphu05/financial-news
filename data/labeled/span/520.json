@@ -1,0 +1,297 @@
+[
+    {
+        "text": "chào bán các trái phiếu",
+        "label": "EVENT",
+        "evidence": "sử dụng vốn thu được từ việc chào bán các trái phiếu và phương án bố trí nguồn trả nợ trái phiếu"
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "chào bán các trái phiếu"
+    },
+    {
+        "text": "Tổng Công ty Becamex IDC",
+        "label": "ORG",
+        "evidence": "tài sản thuộc sở hữu của Tổng Công ty Becamex IDC và/hoặc tài sản của bên thứ ba khác làm tài sản bảo đảm cho các nghĩa vụ của Tổng Công ty Becamex IDC liên quan đến các trái phiếu phát hành."
+    },
+    {
+        "text": "trái phiếu phát hành",
+        "label": "EVENT",
+        "evidence": "nghĩa vụ của Tổng Công ty Becamex IDC liên quan đến các trái phiếu phát hành."
+    },
+    {
+        "text": "đăng ký, lưu ký trái phiếu tại Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC)",
+        "label": "EVENT",
+        "evidence": "HĐQT phê duyệt việc đăng ký, lưu ký trái phiếu tại Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC)"
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "đăng ký, lưu ký trái phiếu"
+    },
+    {
+        "text": "Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC)"
+    },
+    {
+        "text": "VSDC",
+        "label": "ORG",
+        "evidence": "Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC)"
+    },
+    {
+        "text": "Đăng ký giao dịch trái phiếu trên hệ thống giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại Sở Giao dịch Chứng khoán Hà Nội (HNX)",
+        "label": "EVENT",
+        "evidence": "Đăng ký giao dịch trái phiếu trên hệ thống giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại Sở Giao dịch Chứng khoán Hà Nội (HNX) đối với các trái phiếu đã phát hành."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "giao dịch trái phiếu trên hệ thống giao dịch trái phiếu doanh nghiệp"
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch Chứng khoán Hà Nội (HNX)"
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "đối với các trái phiếu đã phát hành."
+    },
+    {
+        "text": "Ông Phạm Ngọc Thuận",
+        "label": "PERSON",
+        "evidence": "HĐQT giao và ủy quyền Ông Phạm Ngọc Thuận – Thành viên HĐQT kiêm Tổng Giám đốc là người đại diện theo pháp luật của Tổng Công ty Becamex IDC"
+    },
+    {
+        "text": "Tổng Công ty Becamex IDC",
+        "label": "ORG",
+        "evidence": "người đại diện theo pháp luật của Tổng Công ty Becamex IDC"
+    },
+    {
+        "text": "ngày 27/6",
+        "label": "DATE",
+        "evidence": "Tại phiên họp thường niên ngày 27/6"
+    },
+    {
+        "text": "Becamex",
+        "label": "ORG",
+        "evidence": "Becamex đã được cổ đông thông qua phương án chào bán thêm cổ phiếu ra công chúng để tăng vốn điều lệ."
+    },
+    {
+        "text": "phương án chào bán thêm cổ phiếu ra công chúng để tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "thông qua phương án chào bán thêm cổ phiếu ra công chúng để tăng vốn điều lệ."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "phương án chào bán thêm cổ phiếu ra công chúng"
+    },
+    {
+        "text": "Becamex",
+        "label": "ORG",
+        "evidence": "Becamex muốn chào bán thêm 300 triệu cổ phiếu qua phương thức đấu giá công khai tại Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "chào bán thêm 300 triệu cổ phiếu qua phương thức đấu giá công khai tại Sở Giao dịch Chứng khoán TP HCM (HoSE)",
+        "label": "EVENT",
+        "evidence": "Becamex muốn chào bán thêm 300 triệu cổ phiếu qua phương thức đấu giá công khai tại Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "300 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "chào bán thêm 300 triệu cổ phiếu"
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "300 triệu cổ phiếu"
+    },
+    {
+        "text": "Sở Giao dịch Chứng khoán TP HCM",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch Chứng khoán TP HCM (HoSE)."
+    },
+    {
+        "text": "Cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu chào bán thành công cho nhà đầu tư thông qua đấu giá công khai sẽ không bị hạn chế giao dịch."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Số cổ phiếu không chào bán hết khi chào bán tiếp sẽ bị hạn chế chuyển nhượng trong vòng 1 năm kể từ ngày hoàn thành đợt chào bán."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "hạn chế chuyển nhượng trong vòng 1 năm"
+    },
+    {
+        "text": "năm 2024 – 2025",
+        "label": "DATE",
+        "evidence": "Thời gian thực hiện: dự kiến trong năm 2024 – 2025 sau khi được UBCKNN chấp thuận"
+    },
+    {
+        "text": "UBCKNN",
+        "label": "ORG",
+        "evidence": "sau khi được UBCKNN chấp thuận"
+    },
+    {
+        "text": "50.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Giá khởi điểm đấu sẽ không thấp hơn 50.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "15.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số tiền dự kiến huy động tối thiểu là 15.000 tỷ đồng"
+    },
+    {
+        "text": "Becamex IDC",
+        "label": "ORG",
+        "evidence": "Becamex IDC sẽ đầu tư 6.300 tỷ đồng vào các dự án"
+    },
+    {
+        "text": "đầu tư 6.300 tỷ đồng vào các dự án",
+        "label": "EVENT",
+        "evidence": "Becamex IDC sẽ đầu tư 6.300 tỷ đồng vào các dự án"
+    },
+    {
+        "text": "6.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đầu tư 6.300 tỷ đồng"
+    },
+    {
+        "text": "3.634 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "3.634 tỷ đồng góp vốn vào các thành viên hiện hữu"
+    },
+    {
+        "text": "góp vốn vào các thành viên hiện hữu",
+        "label": "EVENT",
+        "evidence": "3.634 tỷ đồng góp vốn vào các thành viên hiện hữu"
+    },
+    {
+        "text": "5.066 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "5.066 tỷ đồng tái cấu trúc tài chính."
+    },
+    {
+        "text": "tái cấu trúc tài chính",
+        "label": "EVENT",
+        "evidence": "5.066 tỷ đồng tái cấu trúc tài chính."
+    },
+    {
+        "text": "3.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "KCN Bàu Bàng mở rộng (3.500 tỷ đồng)"
+    },
+    {
+        "text": "2.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "KCN Cây Trường (2.800 tỷ đồng)"
+    },
+    {
+        "text": "VSIP",
+        "label": "ORG",
+        "evidence": "VSIP (2.118 tỷ đồng)"
+    },
+    {
+        "text": "2.118 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VSIP (2.118 tỷ đồng)"
+    },
+    {
+        "text": "Becamex Bình Phước",
+        "label": "ORG",
+        "evidence": "Becamex Bình Phước (900 tỷ đồng)"
+    },
+    {
+        "text": "900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Becamex Bình Phước (900 tỷ đồng)"
+    },
+    {
+        "text": "Becamex",
+        "label": "ORG",
+        "evidence": "Becamex đang vận hành 18 khu công nghiệp Becamex-VSIP tại 9 tỉnh, thành phố."
+    },
+    {
+        "text": "Becamex-VSIP",
+        "label": "ORG",
+        "evidence": "18 khu công nghiệp Becamex-VSIP"
+    },
+    {
+        "text": "kế hoạch kinh doanh năm 2024",
+        "label": "EVENT",
+        "evidence": "Về kế hoạch kinh doanh năm 2024, Becamex IDC đặt ra mục tiêu mang về 9.000 tỷ đồng doanh thu, 2.350 tỷ đồng lợi nhuận sau thuế, lần lượt tăng 2% và 3% so với thực hiện năm trước."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "kế hoạch kinh doanh năm 2024"
+    },
+    {
+        "text": "Becamex IDC",
+        "label": "ORG",
+        "evidence": "Becamex IDC đặt ra mục tiêu mang về 9.000 tỷ đồng doanh thu"
+    },
+    {
+        "text": "9.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mang về 9.000 tỷ đồng doanh thu"
+    },
+    {
+        "text": "2.350 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "2.350 tỷ đồng lợi nhuận sau thuế"
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "lần lượt tăng 2% và 3%"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "và 3% so với thực hiện năm trước."
+    },
+    {
+        "text": "1.035 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh nghiệp này cũng dự kiến chi 1.035 tỷ đồng để trả cổ tức cho năm 2023 với tỷ lệ 10% bằng tiền mặt."
+    },
+    {
+        "text": "trả cổ tức cho năm 2023 với tỷ lệ 10% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "chi 1.035 tỷ đồng để trả cổ tức cho năm 2023 với tỷ lệ 10% bằng tiền mặt."
+    },
+    {
+        "text": "cổ tức",
+        "label": "ASSET",
+        "evidence": "trả cổ tức cho năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "cho năm 2023"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 10% bằng tiền mặt."
+    }
+]

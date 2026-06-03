@@ -1,0 +1,307 @@
+[
+    {
+        "text": "phiên ATC",
+        "label": "EVENT",
+        "evidence": "Cuối phiên ATC, nhiều cổ phiếu ngân hàng bất ngờ đảo chiều tăng mạnh, đóng cửa ở giá cao nhất trong phiên giao dịch."
+    },
+    {
+        "text": "phiên giao dịch",
+        "label": "EVENT",
+        "evidence": "Cuối phiên ATC, nhiều cổ phiếu ngân hàng bất ngờ đảo chiều tăng mạnh, đóng cửa ở giá cao nhất trong phiên giao dịch."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "18.250 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "-0,5%",
+        "label": "RATE",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "18.700 đồng",
+        "label": "PRICE",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "+1,9%",
+        "label": "RATE",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "phiên ATC",
+        "label": "EVENT",
+        "evidence": "Chẳng hạn HDB của HDBank từ mức 18.250 đồng/cp (-0,5%) đảo chiều tăng mạnh trong phiên ATC và đóng cửa ở mức 18.700 đồng (+1,9%), cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "phiên giao dịch hôm nay",
+        "label": "EVENT",
+        "evidence": "cũng là mức giá cao nhất trong phiên giao dịch hôm nay của cổ phiếu này."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB cũng là một trong 3 cổ phiếu ngân hàng tăng giá mạnh nhất hôm nay."
+    },
+    {
+        "text": "Giá trị giao dịch khớp lệnh của HDB đạt hơn 41 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Giá trị giao dịch khớp lệnh của HDB đạt hơn 41 tỷ đồng, khá ổn định so với các phiên gần đây."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Giá trị giao dịch khớp lệnh của HDB đạt hơn 41 tỷ đồng, khá ổn định so với các phiên gần đây."
+    },
+    {
+        "text": "hơn 41 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị giao dịch khớp lệnh của HDB đạt hơn 41 tỷ đồng, khá ổn định so với các phiên gần đây."
+    },
+    {
+        "text": "hơn 16 triệu cp HDB",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, hơn 16 triệu cp HDB được trao tay theo phương thức thỏa thuận, giá trị gần 300 tỷ đồng."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "hơn 16 triệu cp HDB được trao tay theo phương thức thỏa thuận, giá trị gần 300 tỷ đồng."
+    },
+    {
+        "text": "gần 300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 16 triệu cp HDB được trao tay theo phương thức thỏa thuận, giá trị gần 300 tỷ đồng."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Tương tự, CTG của VietinBank cũng tăng vọt trong 15 phút giao dịch cuối phiên, đóng cửa ở giá cao nhất ngày là 29.200 đồng/cp."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tương tự, CTG của VietinBank cũng tăng vọt trong 15 phút giao dịch cuối phiên, đóng cửa ở giá cao nhất ngày là 29.200 đồng/cp."
+    },
+    {
+        "text": "15 phút giao dịch cuối phiên",
+        "label": "EVENT",
+        "evidence": "CTG của VietinBank cũng tăng vọt trong 15 phút giao dịch cuối phiên, đóng cửa ở giá cao nhất ngày là 29.200 đồng/cp."
+    },
+    {
+        "text": "29.200 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đóng cửa ở giá cao nhất ngày là 29.200 đồng/cp."
+    },
+    {
+        "text": "2,1%",
+        "label": "RATE",
+        "evidence": "Với mức tăng 2,1%, CTG đứng thứ 2 trong những cổ phiếu ngân hàng tăng giá hôm nay."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Với mức tăng 2,1%, CTG đứng thứ 2 trong những cổ phiếu ngân hàng tăng giá hôm nay."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "PGBank là mã ngân hàng tăng giá mạnh nhất hôm nay (+4,9%)."
+    },
+    {
+        "text": "+4,9%",
+        "label": "RATE",
+        "evidence": "PGBank là mã ngân hàng tăng giá mạnh nhất hôm nay (+4,9%)."
+    },
+    {
+        "text": "phiên hồi phục đầu tiên",
+        "label": "EVENT",
+        "evidence": "Đây là phiên hồi phục đầu tiên sau 4 phiên liên tục giảm trước đó của PGB."
+    },
+    {
+        "text": "4 phiên liên tục giảm",
+        "label": "EVENT",
+        "evidence": "sau 4 phiên liên tục giảm trước đó của PGB."
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "Đây là phiên hồi phục đầu tiên sau 4 phiên liên tục giảm trước đó của PGB."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (+1,7%)"
+    },
+    {
+        "text": "+1,7%",
+        "label": "RATE",
+        "evidence": "STB (+1,7%)"
+    },
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "KLB (+1,4%)"
+    },
+    {
+        "text": "+1,4%",
+        "label": "RATE",
+        "evidence": "KLB (+1,4%)"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "EIB (+1,2%)"
+    },
+    {
+        "text": "+1,2%",
+        "label": "RATE",
+        "evidence": "EIB (+1,2%)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "NAB",
+        "label": "TICKER",
+        "evidence": "như VCB, SHB, TPB, OCB, SGB, NAB."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VCB diễn biến tiêu cực nhất, giảm 1,8% xuống 99.900 đồng/cp."
+    },
+    {
+        "text": "giảm 1,8%",
+        "label": "RATE",
+        "evidence": "giảm 1,8% xuống 99.900 đồng/cp."
+    },
+    {
+        "text": "99.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "giảm 1,8% xuống 99.900 đồng/cp."
+    },
+    {
+        "text": "mở cửa",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này giao dịch trong sắc đỏ từ khi mở cửa cho đến hết phiên."
+    },
+    {
+        "text": "hết phiên",
+        "label": "EVENT",
+        "evidence": "từ khi mở cửa cho đến hết phiên."
+    },
+    {
+        "text": "giá trị giao dịch khớp lệnh gần 1.900 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị giao dịch khớp lệnh gần 1.900 tỷ đồng, thấp hơn mức bình quân 2.900 tỷ đồng/phiên của tuàn trước."
+    },
+    {
+        "text": "gần 1.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị giao dịch khớp lệnh gần 1.900 tỷ đồng, thấp hơn mức bình quân 2.900 tỷ đồng/phiên của tuàn trước."
+    },
+    {
+        "text": "mức bình quân 2.900 tỷ đồng/phiên",
+        "label": "VOLUME",
+        "evidence": "thấp hơn mức bình quân 2.900 tỷ đồng/phiên của tuàn trước."
+    },
+    {
+        "text": "2.900 tỷ đồng/phiên",
+        "label": "MONEY",
+        "evidence": "thấp hơn mức bình quân 2.900 tỷ đồng/phiên của tuàn trước."
+    },
+    {
+        "text": "tuàn trước",
+        "label": "DATE",
+        "evidence": "của tuàn trước."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Dẫn đầu thanh khoản là STB, VPB, SHB, VCB,…"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Dẫn đầu thanh khoản là STB, VPB, SHB, VCB,…"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Dẫn đầu thanh khoản là STB, VPB, SHB, VCB,…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Dẫn đầu thanh khoản là STB, VPB, SHB, VCB,…"
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "Nhà đầu tư nước ngoài chủ yếu bán ròng trên nhóm ngân hàng phiên hôm nay, trong đó những mã bị bán mạnh nhất là STB (47 tỷ), VCB (47 tỷ), VPB (42 tỷ),…"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (47 tỷ)"
+    },
+    {
+        "text": "47 tỷ",
+        "label": "MONEY",
+        "evidence": "STB (47 tỷ)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VCB (47 tỷ)"
+    },
+    {
+        "text": "47 tỷ",
+        "label": "MONEY",
+        "evidence": "VCB (47 tỷ)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "VPB (42 tỷ)"
+    },
+    {
+        "text": "42 tỷ",
+        "label": "MONEY",
+        "evidence": "VPB (42 tỷ)"
+    }
+]

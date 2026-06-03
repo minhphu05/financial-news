@@ -1,0 +1,567 @@
+[
+    {
+        "text": "Ủy ban Kinh tế Quốc hội",
+        "label": "ORG",
+        "evidence": "Tại báo cáo gửi Ủy ban Kinh tế Quốc hội cuối tháng 4/2023"
+    },
+    {
+        "text": "cuối tháng 4/2023",
+        "label": "DATE",
+        "evidence": "Tại báo cáo gửi Ủy ban Kinh tế Quốc hội cuối tháng 4/2023"
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước Việt Nam (NHNN) cho biết đến nay đã trình và được cấp có thẩm quyền phê duyệt chủ trương chuyển giao bắt buộc đối với 4 ngân hàng được kiểm soát đặc biệt."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước Việt Nam (NHNN) cho biết đến nay đã trình và được cấp có thẩm quyền phê duyệt chủ trương chuyển giao bắt buộc đối với 4 ngân hàng được kiểm soát đặc biệt."
+    },
+    {
+        "text": "chủ trương chuyển giao bắt buộc đối với 4 ngân hàng được kiểm soát đặc biệt",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước Việt Nam (NHNN) cho biết đến nay đã trình và được cấp có thẩm quyền phê duyệt chủ trương chuyển giao bắt buộc đối với 4 ngân hàng được kiểm soát đặc biệt."
+    },
+    {
+        "text": "mua bắt buộc với giá 0 đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "0 đồng",
+        "label": "PRICE",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "Ngân hàng Xây dựng",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "CBBank",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "Ngân hàng Đại Dương",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "Ngân hàng Dầu khí Toàn cầu",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "GP Bank",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "Ngân hàng Đông Á",
+        "label": "ORG",
+        "evidence": "Trong đó bao gồm 3 ngân hàng mua bắt buộc với giá 0 đồng (là Ngân hàng Xây dựng - CBBank, Ngân hàng Đại Dương - OceanBank, Ngân hàng Dầu khí Toàn cầu - GP Bank) và Ngân hàng Đông Á."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "song trong Tờ trình Chính phủ về việc ban hành Nghị định sửa đổi, bổ sung Nghị định số 01/2014/NĐ-CP"
+    },
+    {
+        "text": "ban hành Nghị định sửa đổi, bổ sung Nghị định số 01/2014/NĐ-CP",
+        "label": "EVENT",
+        "evidence": "song trong Tờ trình Chính phủ về việc ban hành Nghị định sửa đổi, bổ sung Nghị định số 01/2014/NĐ-CP"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "bổ sung Nghị định số 01/2014/NĐ-CP, NHNN thông tin rằng, theo kế hoạch, có 4 ngân hàng thương mại cổ phần sẽ nhận chuyển giao bắt buộc đối với 4 ngân hàng yếu kém ."
+    },
+    {
+        "text": "nhận chuyển giao bắt buộc đối với 4 ngân hàng yếu kém",
+        "label": "EVENT",
+        "evidence": "theo kế hoạch, có 4 ngân hàng thương mại cổ phần sẽ nhận chuyển giao bắt buộc đối với 4 ngân hàng yếu kém ."
+    },
+    {
+        "text": "kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém",
+        "label": "EVENT",
+        "evidence": "Trước đó, đã có 4 ngân hàng công bố kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém là MB, Vietcombank, HDBank và VPBank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém là MB, Vietcombank, HDBank và VPBank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém là MB, Vietcombank, HDBank và VPBank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém là MB, Vietcombank, HDBank và VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "kế hoạch nhận chuyển giao bắt buộc ngân hàng yếu kém là MB, Vietcombank, HDBank và VPBank."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MBlà đơn vị đầu tiên lấy ý kiến cổ đông về phương án nhận chuyển giao bắt buộc 1 ngân hàng yếu kém từ năm 2022."
+    },
+    {
+        "text": "lấy ý kiến cổ đông về phương án nhận chuyển giao bắt buộc 1 ngân hàng yếu kém",
+        "label": "EVENT",
+        "evidence": "MBlà đơn vị đầu tiên lấy ý kiến cổ đông về phương án nhận chuyển giao bắt buộc 1 ngân hàng yếu kém từ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "lấy ý kiến cổ đông về phương án nhận chuyển giao bắt buộc 1 ngân hàng yếu kém từ năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đến năm 2023, lãnh đạo ngân hàng này cho biết ngân hàng đã chuẩn bị, xây dựng, báo cáo phương án chuyển giao bắt buộc một ngân hàng thương mại theo quy định và triển khai một số giao dịch hợp tác, hỗ trợ ngân hàng thương mại đó."
+    },
+    {
+        "text": "phương án chuyển giao bắt buộc một ngân hàng thương mại",
+        "label": "EVENT",
+        "evidence": "báo cáo phương án chuyển giao bắt buộc một ngân hàng thương mại theo quy định và triển khai một số giao dịch hợp tác, hỗ trợ ngân hàng thương mại đó."
+    },
+    {
+        "text": "Hội đồng Quản trị MB",
+        "label": "ORG",
+        "evidence": "Hội đồng Quản trị MB cũng đã quyết định và tổ chức thực hiện các công việc, nội dung có liên quan để chuẩn bị, xây dựng, báo cáo phương án chuyển giao bắt buộc và thực hiện các thủ tục với cơ quan có thẩm quyền để phê duyệt phương án theo quy định."
+    },
+    {
+        "text": "phương án chuyển giao bắt buộc",
+        "label": "EVENT",
+        "evidence": "báo cáo phương án chuyển giao bắt buộc và thực hiện các thủ tục với cơ quan có thẩm quyền để phê duyệt phương án theo quy định."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Đồng thời, MB đã và đang triển khai một số giao dịch hợp tác, hỗ trợ ngân hàng thương mại đó theo định hướng chỉ đạo của Ngân hàng Nhà nước, nhằm chuẩn bị cho việc MB nhận chuyên giao bắt buộc."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Đồng thời, MB đã và đang triển khai một số giao dịch hợp tác, hỗ trợ ngân hàng thương mại đó theo định hướng chỉ đạo của Ngân hàng Nhà nước, nhằm chuẩn bị cho việc MB nhận chuyên giao bắt buộc."
+    },
+    {
+        "text": "MB nhận chuyên giao bắt buộc",
+        "label": "EVENT",
+        "evidence": "nhằm chuẩn bị cho việc MB nhận chuyên giao bắt buộc."
+    },
+    {
+        "text": "nhận chuyển giao bắt buộc",
+        "label": "EVENT",
+        "evidence": "“Việc nhận chuyển giao bắt buộc đã được trình và thông qua tại Đại hội đồng cổ đông năm 2022."
+    },
+    {
+        "text": "Đại hội đồng cổ đông năm 2022",
+        "label": "EVENT",
+        "evidence": "Việc nhận chuyển giao bắt buộc đã được trình và thông qua tại Đại hội đồng cổ đông năm 2022."
+    },
+    {
+        "text": "thủ tục định giá ngân hàng chuyển giao bắt buộc",
+        "label": "EVENT",
+        "evidence": "Hiện tại, chúng tôi đang thực hiện thủ tục định giá ngân hàng chuyển giao bắt buộc."
+    },
+    {
+        "text": "11 tháng",
+        "label": "DATE",
+        "evidence": "Theo quy trình của Nhà nước thì thời gian định giá 11 tháng"
+    },
+    {
+        "text": "tháng 3/2023",
+        "label": "DATE",
+        "evidence": "đã bắt đầu từ tháng 3/2023 và dự kiến cuối năm nay hoặc đầu năm 2024 thì việc định giá mới xong."
+    },
+    {
+        "text": "cuối năm nay hoặc đầu năm 2024",
+        "label": "DATE",
+        "evidence": "dự kiến cuối năm nay hoặc đầu năm 2024 thì việc định giá mới xong."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Khi đó, MB mới có thể nhận chuyển giao bắt buộc tổ chức tín dụng đó được”"
+    },
+    {
+        "text": "Phó Tổng giám đốc thường trực Phạm Như Ánh",
+        "label": "PERSON",
+        "evidence": "Phó Tổng giám đốc thường trực Phạm Như Ánh nói tại ĐHCĐ thường niên 2023"
+    },
+    {
+        "text": "Phạm Như Ánh",
+        "label": "PERSON",
+        "evidence": "Phó Tổng giám đốc thường trực Phạm Như Ánh nói tại ĐHCĐ thường niên 2023"
+    },
+    {
+        "text": "ĐHCĐ thường niên 2023",
+        "label": "EVENT",
+        "evidence": "Phó Tổng giám đốc thường trực Phạm Như Ánh nói tại ĐHCĐ thường niên 2023"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Tuy danh tính ngân hàng được chuyển giao bắt buộc không được MB tiết lộ nhưng thông tin bước đầu xác định là Oceanbank."
+    },
+    {
+        "text": "Oceanbank",
+        "label": "ORG",
+        "evidence": "thông tin bước đầu xác định là Oceanbank."
+    },
+    {
+        "text": "Hội nghị Triển khai nhiệm vụ kinh doanh năm 2022 của Oceanbank",
+        "label": "EVENT",
+        "evidence": "tại Hội nghị Triển khai nhiệm vụ kinh doanh năm 2022 của Oceanbank, các lãnh đạo cao nhất của MB là ông Lưu Trung Thái và ông Phạm Như Ánh đều tham dự."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "các lãnh đạo cao nhất của MB là ông Lưu Trung Thái và ông Phạm Như Ánh đều tham dự."
+    },
+    {
+        "text": "Lưu Trung Thái",
+        "label": "PERSON",
+        "evidence": "các lãnh đạo cao nhất của MB là ông Lưu Trung Thái và ông Phạm Như Ánh đều tham dự."
+    },
+    {
+        "text": "Phạm Như Ánh",
+        "label": "PERSON",
+        "evidence": "các lãnh đạo cao nhất của MB là ông Lưu Trung Thái và ông Phạm Như Ánh đều tham dự."
+    },
+    {
+        "text": "Lưu Trung Thái",
+        "label": "PERSON",
+        "evidence": "Phát biểu với tư cách Khách mời của Hội nghị, ông Lưu Trung Thái cho biết"
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Việc hợp tác với OceanBank vừa là nhiệm vụ chính trị, vừa là cơ hội của MB."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Việc hợp tác với OceanBank vừa là nhiệm vụ chính trị, vừa là cơ hội của MB."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo lộ trình của NHNN mà Chính phủ đã cho phép, MB sẽ phối hợp cùng OceanBank kiểm tra hệ thống dữ liệu và xây dựng phương án trình Chính phủ."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "mà Chính phủ đã cho phép, MB sẽ phối hợp cùng OceanBank kiểm tra hệ thống dữ liệu và xây dựng phương án trình Chính phủ."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB sẽ phối hợp cùng OceanBank kiểm tra hệ thống dữ liệu và xây dựng phương án trình Chính phủ."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "MB sẽ phối hợp cùng OceanBank kiểm tra hệ thống dữ liệu và xây dựng phương án trình Chính phủ."
+    },
+    {
+        "text": "xây dựng phương án trình Chính phủ",
+        "label": "EVENT",
+        "evidence": "kiểm tra hệ thống dữ liệu và xây dựng phương án trình Chính phủ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "VớiVietcombank, năm 2022, ngân hàng đã xin ý kiến cổ đông về chủ trương nhận chuyển giao bắt buộc một tổ chức tín dụng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "VớiVietcombank, năm 2022, ngân hàng đã xin ý kiến cổ đông về chủ trương nhận chuyển giao bắt buộc một tổ chức tín dụng."
+    },
+    {
+        "text": "xin ý kiến cổ đông về chủ trương nhận chuyển giao bắt buộc một tổ chức tín dụng",
+        "label": "EVENT",
+        "evidence": "ngân hàng đã xin ý kiến cổ đông về chủ trương nhận chuyển giao bắt buộc một tổ chức tín dụng."
+    },
+    {
+        "text": "Chủ tịch Phạm Quang Dũng",
+        "label": "PERSON",
+        "evidence": "Theo Chủ tịch Phạm Quang Dũng, thời gian xử lý tổ chức tín dụng yếu kém sẽ phụ thuộc vào tình hình tài chính của đơn vị này."
+    },
+    {
+        "text": "Phạm Quang Dũng",
+        "label": "PERSON",
+        "evidence": "Theo Chủ tịch Phạm Quang Dũng, thời gian xử lý tổ chức tín dụng yếu kém sẽ phụ thuộc vào tình hình tài chính của đơn vị này."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "''Vietcombank đánh giá, với sự hỗ trợ theo quy định mà ngân hàng nhận được, thời gian xử lý sẽ không quá 8 – 10 năm."
+    },
+    {
+        "text": "8 – 10 năm",
+        "label": "DATE",
+        "evidence": "thời gian xử lý sẽ không quá 8 – 10 năm."
+    },
+    {
+        "text": "ông Dũng",
+        "label": "PERSON",
+        "evidence": "Biến những tổ chức này thành các tổ chức tín dụng lành mạnh và hoạt động bình thường'', ông Dũng cho biết tại ĐHCĐ thường niên 2022."
+    },
+    {
+        "text": "ĐHCĐ thường niên 2022",
+        "label": "EVENT",
+        "evidence": "ông Dũng cho biết tại ĐHCĐ thường niên 2022."
+    },
+    {
+        "text": "ĐHCĐ 2023",
+        "label": "EVENT",
+        "evidence": "Tại ĐHCĐ 2023, Vietcombank tiếp tục nói đề cập đến kế hoạch nhận chuyển giao bắt buộc một tổ chức tín dụng yếu kém theo chỉ đạo của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại ĐHCĐ 2023, Vietcombank tiếp tục nói đề cập đến kế hoạch nhận chuyển giao bắt buộc một tổ chức tín dụng yếu kém theo chỉ đạo của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "kế hoạch nhận chuyển giao bắt buộc một tổ chức tín dụng yếu kém",
+        "label": "EVENT",
+        "evidence": "kế hoạch nhận chuyển giao bắt buộc một tổ chức tín dụng yếu kém theo chỉ đạo của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "theo chỉ đạo của Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Đại hội đồng cổ đông năm nay",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại Đại hội đồng cổ đông năm nay, Chủ tịch Vietcombank Phạm Quang Dũng cho biết"
+    },
+    {
+        "text": "Chủ tịch Vietcombank Phạm Quang Dũng",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại Đại hội đồng cổ đông năm nay, Chủ tịch Vietcombank Phạm Quang Dũng cho biết"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Chủ tịch Vietcombank Phạm Quang Dũng cho biết"
+    },
+    {
+        "text": "Phạm Quang Dũng",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Vietcombank Phạm Quang Dũng cho biết"
+    },
+    {
+        "text": "chủ trương nhận chuyển giao bắt buộc tổ chức tín dụng yếu kém",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đã trình và được các cơ quan Nhà nước có thẩm quyền thông qua chủ trương nhận chuyển giao bắt buộc tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "phương án nhận chuyển giao",
+        "label": "EVENT",
+        "evidence": "Ngân hàng cũng đã xây dựng xong phương án nhận chuyển giao và trình lên các cơ quan Nhà nước có thẩm quyền được để chờ phê duyệt."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngay sau khi nhận được quyết định phê duyệt,Vietcombanksẽ tổ chức thực hiện."
+    },
+    {
+        "text": "nhận chuyển giao TCTD yếu kém",
+        "label": "EVENT",
+        "evidence": "Hiện nay, ngân hàng đang rất tích cực chuẩn bị nhận chuyển giao TCTD yếu kém."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trên thị trường từ lâu đã đồn đoán về khả năng Vietcombank sẽ nhận chuyển giao CB Bank."
+    },
+    {
+        "text": "CB Bank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ nhận chuyển giao CB Bank."
+    },
+    {
+        "text": "năm 2015",
+        "label": "DATE",
+        "evidence": "Trước đó, năm 2015, khi CB Bank bị mua lại bắt buộc 0 đồng do thua lỗ, âm vốn, Vietcombank đã được chỉ định tham gia hỗ trợ ngân hàng này tái cơ cấu."
+    },
+    {
+        "text": "CB Bank bị mua lại bắt buộc 0 đồng",
+        "label": "EVENT",
+        "evidence": "khi CB Bank bị mua lại bắt buộc 0 đồng do thua lỗ, âm vốn"
+    },
+    {
+        "text": "0 đồng",
+        "label": "PRICE",
+        "evidence": "khi CB Bank bị mua lại bắt buộc 0 đồng do thua lỗ, âm vốn"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank đã được chỉ định tham gia hỗ trợ ngân hàng này tái cơ cấu."
+    },
+    {
+        "text": "hỗ trợ ngân hàng này tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "Vietcombank đã được chỉ định tham gia hỗ trợ ngân hàng này tái cơ cấu."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Giữa năm ngoái,HDBankchính thức đề xuất chủ trương góp vốn điều lệ với mức không quá 9.000 tỷ đồng vào một ngân hàng thương mại được chuyển giao bắt buộc để thực hiện tái cơ cấu."
+    },
+    {
+        "text": "đề xuất chủ trương góp vốn điều lệ với mức không quá 9.000 tỷ đồng vào một ngân hàng thương mại được chuyển giao bắt buộc để thực hiện tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "HDBankchính thức đề xuất chủ trương góp vốn điều lệ với mức không quá 9.000 tỷ đồng vào một ngân hàng thương mại được chuyển giao bắt buộc để thực hiện tái cơ cấu."
+    },
+    {
+        "text": "9.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với mức không quá 9.000 tỷ đồng vào một ngân hàng thương mại được chuyển giao bắt buộc để thực hiện tái cơ cấu."
+    },
+    {
+        "text": "ĐHCĐ năm 2023",
+        "label": "EVENT",
+        "evidence": "Đến ĐHCĐ năm 2023, HDBank cũng xin ý kiến cổ đông về việc tiếp tục tham gia chương trình tái cơ cấu các Tổ chức tín dụng ngân hàng theo chủ trương của NHNN"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank cũng xin ý kiến cổ đông về việc tiếp tục tham gia chương trình tái cơ cấu các Tổ chức tín dụng ngân hàng theo chủ trương của NHNN"
+    },
+    {
+        "text": "xin ý kiến cổ đông về việc tiếp tục tham gia chương trình tái cơ cấu các Tổ chức tín dụng ngân hàng",
+        "label": "EVENT",
+        "evidence": "HDBank cũng xin ý kiến cổ đông về việc tiếp tục tham gia chương trình tái cơ cấu các Tổ chức tín dụng ngân hàng theo chủ trương của NHNN"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "theo chủ trương của NHNN; đồng thời thông qua những nội dung được cập nhật, sửa đổi, bổ sung của phương án nhận chuyển giao bắt buộc theo tình hình thực tế và hướng dẫn, phê duyệt của cơ quan nhà nước có thẩm quyền tại thời điểm đệ trình."
+    },
+    {
+        "text": "phương án nhận chuyển giao bắt buộc",
+        "label": "EVENT",
+        "evidence": "bổ sung của phương án nhận chuyển giao bắt buộc theo tình hình thực tế và hướng dẫn, phê duyệt của cơ quan nhà nước có thẩm quyền tại thời điểm đệ trình."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "đã có thông tin về việc HDBank hỗ trợ tái cơ cấu DongA Bank."
+    },
+    {
+        "text": "hỗ trợ tái cơ cấu DongA Bank",
+        "label": "EVENT",
+        "evidence": "đã có thông tin về việc HDBank hỗ trợ tái cơ cấu DongA Bank."
+    },
+    {
+        "text": "DongA Bank",
+        "label": "ORG",
+        "evidence": "hỗ trợ tái cơ cấu DongA Bank."
+    },
+    {
+        "text": "DongA Bank",
+        "label": "ORG",
+        "evidence": "nhiều khả năng DongA Bank và HDBank sẽ tiếp tục con đường tái cơ cấu trước đây."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "nhiều khả năng DongA Bank và HDBank sẽ tiếp tục con đường tái cơ cấu trước đây."
+    },
+    {
+        "text": "tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "HDBank sẽ tiếp tục con đường tái cơ cấu trước đây."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VớiVPBank, tại ĐHCĐ năm 2022, khi trả lời cổ đông về khả năng tham gia tái cơ cấu, Chủ tịch Ngô Chí Dũng cho biết, ngân hàng đang nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "ĐHCĐ năm 2022",
+        "label": "EVENT",
+        "evidence": "VớiVPBank, tại ĐHCĐ năm 2022, khi trả lời cổ đông về khả năng tham gia tái cơ cấu, Chủ tịch Ngô Chí Dũng cho biết, ngân hàng đang nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "Chủ tịch Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Ngô Chí Dũng cho biết, ngân hàng đang nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Ngô Chí Dũng cho biết, ngân hàng đang nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém",
+        "label": "EVENT",
+        "evidence": "ngân hàng đang nghiên cứu việc nhận chuyển giao một tổ chức tín dụng yếu kém."
+    },
+    {
+        "text": "ĐHCĐ năm 2023",
+        "label": "EVENT",
+        "evidence": "Tại ĐHCĐ năm 2023 mới đây, lãnh đạo VPBank khẳng định,VPBanklà 1 trong 4 ngân hàng tham gia vào tái cơ cấu các ngân hàng yếu kém"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "lãnh đạo VPBank khẳng định,VPBanklà 1 trong 4 ngân hàng tham gia vào tái cơ cấu các ngân hàng yếu kém"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "lãnh đạo VPBank khẳng định,VPBanklà 1 trong 4 ngân hàng tham gia vào tái cơ cấu các ngân hàng yếu kém"
+    },
+    {
+        "text": "tái cơ cấu các ngân hàng yếu kém",
+        "label": "EVENT",
+        "evidence": "VPBanklà 1 trong 4 ngân hàng tham gia vào tái cơ cấu các ngân hàng yếu kém, hiện trong quá trình nghiên cứu đề xuất, phê duyệt của các ngân hàng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Đối tượng hướng tới chưa được VPBank công bố nhưng thị trường có nhiều đồn đoán ngân hàng này sẽ là \"bến đỗ\" của GP Bank."
+    },
+    {
+        "text": "GP Bank",
+        "label": "ORG",
+        "evidence": "ngân hàng này sẽ là \"bến đỗ\" của GP Bank."
+    },
+    {
+        "text": "Lễ công bố các quyết định bổ nhiệm tân Chủ tịch và Tổng Giám đốc GP Bank",
+        "label": "EVENT",
+        "evidence": "tại Lễ công bố các quyết định bổ nhiệm tân Chủ tịch và Tổng Giám đốc GP Bank hồi tháng 9/2022 cũng có sự tham gia của đại diện lãnh đạo VPBank."
+    },
+    {
+        "text": "tháng 9/2022",
+        "label": "DATE",
+        "evidence": "hồi tháng 9/2022 cũng có sự tham gia của đại diện lãnh đạo VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "cũng có sự tham gia của đại diện lãnh đạo VPBank."
+    }
+]

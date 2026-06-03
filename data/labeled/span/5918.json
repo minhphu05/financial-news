@@ -1,0 +1,392 @@
+[
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "trong đó NVB giảm mạnh nhất (-2%)"
+    },
+    {
+        "text": "-2%",
+        "label": "RATE",
+        "evidence": "trong đó NVB giảm mạnh nhất (-2%)"
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "tiếp đến là LPB (-1,7%)"
+    },
+    {
+        "text": "-1,7%",
+        "label": "RATE",
+        "evidence": "tiếp đến là LPB (-1,7%)"
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "-1,5%",
+        "label": "RATE",
+        "evidence": "SGB (-1,5%)"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "như VCB (-1,3%)"
+    },
+    {
+        "text": "-1,3%",
+        "label": "RATE",
+        "evidence": "như VCB (-1,3%)"
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID (-0,8%)"
+    },
+    {
+        "text": "-0,8%",
+        "label": "RATE",
+        "evidence": "BID (-0,8%)"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB (-0,2%)"
+    },
+    {
+        "text": "-0,2%",
+        "label": "RATE",
+        "evidence": "TCB (-0,2%)"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG (-0,2%)"
+    },
+    {
+        "text": "-0,2%",
+        "label": "RATE",
+        "evidence": "CTG (-0,2%)"
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "PGB của PGBank (UPCoM) là cổ phiếu tăng mạnh nhất nhóm ngân hàng phiên 7/4"
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "PGB của PGBank (UPCoM) là cổ phiếu tăng mạnh nhất nhóm ngân hàng phiên 7/4"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "PGB của PGBank (UPCoM) là cổ phiếu tăng mạnh nhất nhóm ngân hàng phiên 7/4"
+    },
+    {
+        "text": "7/4",
+        "label": "DATE",
+        "evidence": "nhóm ngân hàng phiên 7/4"
+    },
+    {
+        "text": "25.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đóng cửa giá 25.000 đồng/cp (+3,3%)"
+    },
+    {
+        "text": "+3,3%",
+        "label": "RATE",
+        "evidence": "đóng cửa giá 25.000 đồng/cp (+3,3%)"
+    },
+    {
+        "text": "10 phiên tăng liên tiếp",
+        "label": "EVENT",
+        "evidence": "đánh dấu chuỗi 10 phiên tăng liên tiếp"
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Sáng nay, Petrolimex – cổ đông lớn nhất của PGBank đã bán đấu giá thành công 120 triệu cổ phiếu PGB với giá bình quân 21.400 đồng/cp."
+    },
+    {
+        "text": "bán đấu giá thành công 120 triệu cổ phiếu PGB",
+        "label": "EVENT",
+        "evidence": "Sáng nay, Petrolimex – cổ đông lớn nhất của PGBank đã bán đấu giá thành công 120 triệu cổ phiếu PGB với giá bình quân 21.400 đồng/cp."
+    },
+    {
+        "text": "120 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "bán đấu giá thành công 120 triệu cổ phiếu PGB"
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "bán đấu giá thành công 120 triệu cổ phiếu PGB"
+    },
+    {
+        "text": "21.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "với giá bình quân 21.400 đồng/cp"
+    },
+    {
+        "text": "21.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "giá khởi điểm 21.300 đồng/cp"
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "thấp hơn khoảng 17% so với thị giá hiện tại của PGB"
+    },
+    {
+        "text": "PGB",
+        "label": "TICKER",
+        "evidence": "thấp hơn khoảng 17% so với thị giá hiện tại của PGB"
+    },
+    {
+        "text": "2.568 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Petrolimex có thể thu về 2.568 tỷ đồng từ thương vụ thoái vốn."
+    },
+    {
+        "text": "thương vụ thoái vốn",
+        "label": "EVENT",
+        "evidence": "Petrolimex có thể thu về 2.568 tỷ đồng từ thương vụ thoái vốn."
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu tăng mạnh tiếp theo là OCB với diễn biến ngập trong sắc xanh toàn bộ phiên giao dịch"
+    },
+    {
+        "text": "16.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đóng cửa ở giá 16.900 đồng/cp (+ 3%)"
+    },
+    {
+        "text": "+ 3%",
+        "label": "RATE",
+        "evidence": "đóng cửa ở giá 16.900 đồng/cp (+ 3%)"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Mới đây, OCB đã công bố tài liệu họp Đại hội đồng cổ đông với kế hoạch tăng vốn “khủng”."
+    },
+    {
+        "text": "công bố tài liệu họp Đại hội đồng cổ đông với kế hoạch tăng vốn “khủng”",
+        "label": "EVENT",
+        "evidence": "OCB đã công bố tài liệu họp Đại hội đồng cổ đông với kế hoạch tăng vốn “khủng”."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "để tăng 50% vốn điều lệ lên hơn 20.500 tỷ đồng."
+    },
+    {
+        "text": "20.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ lên hơn 20.500 tỷ đồng."
+    },
+    {
+        "text": "7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngân hàng hiện có hơn 7.000 tỷ đồng lợi nhuận để lại sau khi trích lập các quỹ."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "SHB gây bất ngờ với nhà đầu tư với cú đảo chiều ngoạn mục trong phiên ATC."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB gây bất ngờ với nhà đầu tư với cú đảo chiều ngoạn mục trong phiên ATC."
+    },
+    {
+        "text": "phiên ATC",
+        "label": "DATE",
+        "evidence": "cú đảo chiều ngoạn mục trong phiên ATC."
+    },
+    {
+        "text": "- 2,6%",
+        "label": "RATE",
+        "evidence": "Từ mức (- 2,6%), cổ phiếu này tăng dựng đứng"
+    },
+    {
+        "text": "+2,2%",
+        "label": "RATE",
+        "evidence": "kết phiên với mức (+2,2%), giá 11.600 đồng/cp."
+    },
+    {
+        "text": "11.600 đồng/cp",
+        "label": "PRICE",
+        "evidence": "kết phiên với mức (+2,2%), giá 11.600 đồng/cp."
+    },
+    {
+        "text": "tổ chức Đại hội cổ đông thường niên",
+        "label": "EVENT",
+        "evidence": "Đây sẽ là ngân hàng đầu tiên tổ chức Đại hội cổ đông thường niên trong tháng 4 này"
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "tổ chức Đại hội cổ đông thường niên trong tháng 4 này"
+    },
+    {
+        "text": "11/4",
+        "label": "DATE",
+        "evidence": "dự kiến vào đầu tuần tới, ngày 11/4."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Thanh khoản SHB vẫn thuộc nhóm dẫn đầu với hơn 30 triệu đơn vị được trao tay giữa các nhà đầu tư"
+    },
+    {
+        "text": "30 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "hơn 30 triệu đơn vị được trao tay giữa các nhà đầu tư"
+    },
+    {
+        "text": "339 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 339 tỷ đồng."
+    },
+    {
+        "text": "712.000 cp",
+        "label": "VOLUME",
+        "evidence": "mua ròng hơn 712.000 cp"
+    },
+    {
+        "text": "8,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 8,2 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB (+1,4%)"
+    },
+    {
+        "text": "+1,4%",
+        "label": "RATE",
+        "evidence": "STB (+1,4%)"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "ACB (+0,6%)"
+    },
+    {
+        "text": "+0,6%",
+        "label": "RATE",
+        "evidence": "ACB (+0,6%)"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "MBB (0,5%)"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "NAB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "BAB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "BVB",
+        "label": "TICKER",
+        "evidence": "gồm VPB, KLB, TPB, NAB, BAB, BVB."
+    },
+    {
+        "text": "7/4",
+        "label": "DATE",
+        "evidence": "Thanh khoản toàn ngành ngày 7/4 là gần 2.000 tỷ đồng"
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngày 7/4 là gần 2.000 tỷ đồng"
+    },
+    {
+        "text": "3.000 tỷ",
+        "label": "MONEY",
+        "evidence": "giảm mạnh so với 3.000 tỷ của phiên 6/4."
+    },
+    {
+        "text": "6/4",
+        "label": "DATE",
+        "evidence": "của phiên 6/4."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong đó, STB của Sacombank, cổ phiếu có thanh khoản cao nhất ngành"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "STB của Sacombank"
+    },
+    {
+        "text": "giá trị giao dịch giảm 72%",
+        "label": "EVENT",
+        "evidence": "ghi nhận giá trị giao dịch giảm 72%"
+    },
+    {
+        "text": "72%",
+        "label": "RATE",
+        "evidence": "ghi nhận giá trị giao dịch giảm 72%"
+    },
+    {
+        "text": "400 tỷ",
+        "label": "MONEY",
+        "evidence": "đạt gần 400 tỷ."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu khác như VPB, TPB, TCB cũng có thanh khoản giảm khoảng một nửa so với phiên 6/4."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu khác như VPB, TPB, TCB cũng có thanh khoản giảm khoảng một nửa so với phiên 6/4."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu khác như VPB, TPB, TCB cũng có thanh khoản giảm khoảng một nửa so với phiên 6/4."
+    },
+    {
+        "text": "6/4",
+        "label": "DATE",
+        "evidence": "so với phiên 6/4."
+    }
+]

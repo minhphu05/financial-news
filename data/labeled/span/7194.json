@@ -1,0 +1,152 @@
+[
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "trong 6 tháng đầu năm, TPBank liên tiếp công bố các đợt giảm lãi suất lớn và hiệu quả."
+    },
+    {
+        "text": "TPBank liên tiếp công bố các đợt giảm lãi suất lớn và hiệu quả",
+        "label": "EVENT",
+        "evidence": "trong 6 tháng đầu năm, TPBank liên tiếp công bố các đợt giảm lãi suất lớn và hiệu quả."
+    },
+    {
+        "text": "giảm tối đa tới 3,6 %",
+        "label": "RATE",
+        "evidence": "Có những khoản vay đủ điều kiện có thể được giảm tối đa tới 3,6 %, giúp người đi vay bớt nỗi lo trả lãi ngân hàng, an tâm làm ăn, kinh doanh."
+    },
+    {
+        "text": "Chương trình ưu đãi lãi suất với tổng hạn mức lên đến 6.000 tỷ đồng dành cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu",
+        "label": "EVENT",
+        "evidence": "Trong đó đáng chú ý là Chương trình ưu đãi lãi suất với tổng hạn mức lên đến 6.000 tỷ đồng dành cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu, đang được áp dụng tới hết ngày 31/7."
+    },
+    {
+        "text": "6.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chương trình ưu đãi lãi suất với tổng hạn mức lên đến 6.000 tỷ đồng dành cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu, đang được áp dụng tới hết ngày 31/7."
+    },
+    {
+        "text": "31/7",
+        "label": "DATE",
+        "evidence": "đang được áp dụng tới hết ngày 31/7."
+    },
+    {
+        "text": "7,5%/năm",
+        "label": "RATE",
+        "evidence": "vay với lãi suất cho vay/chiết khấu tối thiểu chỉ từ 7,5%/năm khi vay bằng VNĐ và 4,5% khi vay bằng USD, cố định trong suốt thời gian vay."
+    },
+    {
+        "text": "VNĐ",
+        "label": "ASSET",
+        "evidence": "vay với lãi suất cho vay/chiết khấu tối thiểu chỉ từ 7,5%/năm khi vay bằng VNĐ và 4,5% khi vay bằng USD, cố định trong suốt thời gian vay."
+    },
+    {
+        "text": "4,5%",
+        "label": "RATE",
+        "evidence": "vay với lãi suất cho vay/chiết khấu tối thiểu chỉ từ 7,5%/năm khi vay bằng VNĐ và 4,5% khi vay bằng USD, cố định trong suốt thời gian vay."
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "vay với lãi suất cho vay/chiết khấu tối thiểu chỉ từ 7,5%/năm khi vay bằng VNĐ và 4,5% khi vay bằng USD, cố định trong suốt thời gian vay."
+    },
+    {
+        "text": "EVN",
+        "label": "ORG",
+        "evidence": "Hoặc các doanh nghiệp là nhà thầu cho EVN, nhà thầu xây lắp khu công nghiệp, hoặc các doanh nghiệp có phát sinh bảo lãnh tại các Tổ chức tín dụng (bao gồm cả TPBank) trong vòng 01 năm gần nhất từ 10 tỷ đồng trở lên"
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hoặc các doanh nghiệp có phát sinh bảo lãnh tại các Tổ chức tín dụng (bao gồm cả TPBank) trong vòng 01 năm gần nhất từ 10 tỷ đồng trở lên"
+    },
+    {
+        "text": "6,3%/năm",
+        "label": "RATE",
+        "evidence": "khi phát sinh khoản giải ngân mới tại TPBank cũng được hưởng mức lãi suất vô cùng hấp dẫn, chỉ từ 6,3%/năm."
+    },
+    {
+        "text": "1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hạn mức TPBank dành cho gói vay này lên tới 1.500 tỷ đồng và kéo dài đến hết ngày 31/10 năm nay."
+    },
+    {
+        "text": "hết ngày 31/10 năm nay",
+        "label": "DATE",
+        "evidence": "Hạn mức TPBank dành cho gói vay này lên tới 1.500 tỷ đồng và kéo dài đến hết ngày 31/10 năm nay."
+    },
+    {
+        "text": "Gói ưu đãi lãi suất 5.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "TPBank đã tung ra Gói ưu đãi lãi suất 5.000 tỷ đồng, sẵn sàng cấp vốn với lãi suất siêu ưu đãi chỉ từ 0,66%/tháng (tương đương 8%/năm)."
+    },
+    {
+        "text": "5.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TPBank đã tung ra Gói ưu đãi lãi suất 5.000 tỷ đồng, sẵn sàng cấp vốn với lãi suất siêu ưu đãi chỉ từ 0,66%/tháng (tương đương 8%/năm)."
+    },
+    {
+        "text": "0,66%/tháng",
+        "label": "RATE",
+        "evidence": "sẵn sàng cấp vốn với lãi suất siêu ưu đãi chỉ từ 0,66%/tháng (tương đương 8%/năm)."
+    },
+    {
+        "text": "8%/năm",
+        "label": "RATE",
+        "evidence": "sẵn sàng cấp vốn với lãi suất siêu ưu đãi chỉ từ 0,66%/tháng (tương đương 8%/năm)."
+    },
+    {
+        "text": "giảm thêm tới 0,4%",
+        "label": "RATE",
+        "evidence": "Đặc biệt, khi chuyển doanh số bán hàng về tài khoản TPBank, lãi suất sẽ được giảm thêm tới 0,4%."
+    },
+    {
+        "text": "1-2%",
+        "label": "RATE",
+        "evidence": "TPBank còn đặc biệt quan tâm đến những nhu cầu thiết thực khác của khách hàng như mua nhà, sắm xe với các ưu đãi giảm lãi suất từ 1-2%."
+    },
+    {
+        "text": "0,7%/tháng",
+        "label": "RATE",
+        "evidence": "TPBank đang cho vay mua, xây sửa nhà với lãi suất cực ưu đãi, chỉ từ 0,7%/tháng (tương đương khoảng 8,5%/năm) cùng vô vàn chương trình ưu đãi vay vốn mua nhà dự án hợp tác với các chủ đầu tư uy tín khác."
+    },
+    {
+        "text": "8,5%/năm",
+        "label": "RATE",
+        "evidence": "TPBank đang cho vay mua, xây sửa nhà với lãi suất cực ưu đãi, chỉ từ 0,7%/tháng (tương đương khoảng 8,5%/năm) cùng vô vàn chương trình ưu đãi vay vốn mua nhà dự án hợp tác với các chủ đầu tư uy tín khác."
+    },
+    {
+        "text": "8,2%/năm",
+        "label": "RATE",
+        "evidence": "Ngoài ưu đãi lãi suất cho vay mua nhà, lãi suất vay mua ô tô tại TPBank cũng đáng chú ý không kém khi chỉ từ 8,2%/năm, cố định 6 tháng đầu."
+    },
+    {
+        "text": "TPBank đã liên tiếp có 4 lần hạ lãi suất cơ sở VNĐ",
+        "label": "EVENT",
+        "evidence": "kể từ đầu năm đến nay, TPBank đã liên tiếp có 4 lần hạ lãi suất cơ sở VNĐ và một lần giảm lãi suất cơ sở USD."
+    },
+    {
+        "text": "một lần giảm lãi suất cơ sở USD",
+        "label": "EVENT",
+        "evidence": "TPBank đã liên tiếp có 4 lần hạ lãi suất cơ sở VNĐ và một lần giảm lãi suất cơ sở USD."
+    },
+    {
+        "text": "ngày 10/7",
+        "label": "DATE",
+        "evidence": "Tiếp đà giảm, ngày 10/7 sắp tới, lãi suất cơ sở VNĐ tại nhà băng này sẽ tiếp tục giảm lần thứ 5."
+    },
+    {
+        "text": "lãi suất cơ sở VNĐ tại nhà băng này sẽ tiếp tục giảm lần thứ 5",
+        "label": "EVENT",
+        "evidence": "Tiếp đà giảm, ngày 10/7 sắp tới, lãi suất cơ sở VNĐ tại nhà băng này sẽ tiếp tục giảm lần thứ 5."
+    },
+    {
+        "text": "0,80 – 1,4%",
+        "label": "RATE",
+        "evidence": "Theo đó, tổng mức giảm sau 5 lần khoảng từ 0,80 – 1,4%, áp dụng cho tất cả các khoản vay hiện hữu đến kỳ điều chỉnh lãi suất."
+    },
+    {
+        "text": "Nguyễn Hưng",
+        "label": "PERSON",
+        "evidence": "Ông Nguyễn Hưng, Tổng Giám đốc TPBank chia sẻ: \"TPBank luôn sẵn sàng đồng hành cùng khách hàng vượt khó với các chương trình hỗ trợ vay vốn, hạ lãi suất cho vay thiết thực và kịp thời."
+    }
+]

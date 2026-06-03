@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Điện máy Xanh tặng quà tri ân khách hàng",
+        "label": "EVENT",
+        "evidence": "Một trong những trò lừa đảo phổ biến mà nhiều người dính bẫy thời gian qua là \"Điện máy Xanh tặng quà tri ân khách hàng\"."
+    },
+    {
+        "text": "Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "Thủ đoạn chung của kẻ lừa đảo là giả danh nhân viên của Điện máy Xanh gọi điện đến chúc mừng người nghe đã nhận được phần thưởng đặc biệt của cửa hàng."
+    },
+    {
+        "text": "chương trình \"tặng quà chào mừng\"",
+        "label": "EVENT",
+        "evidence": "Sau khi vào nhóm chung, chủ phòng sẽ yêu cầu mọi người gửi số tài khoản ngân hàng để chương trình \"tặng quà chào mừng\"."
+    },
+    {
+        "text": "chuyển tiền chào mừng trị giá 50 nghìn đồng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, để lấy lòng tin, kẻ gian đã hào phóng chuyển tiền chào mừng trị giá 50 nghìn đồng cho tất cả mọi người trong nhóm thật sự."
+    },
+    {
+        "text": "50 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Tuy nhiên, để lấy lòng tin, kẻ gian đã hào phóng chuyển tiền chào mừng trị giá 50 nghìn đồng cho tất cả mọi người trong nhóm thật sự."
+    },
+    {
+        "text": "tặng thêm 20 nghìn đồng",
+        "label": "EVENT",
+        "evidence": "Như để chứng minh sự \"trong sạch\", trưởng nhóm tiếp tục tặng thêm 20 nghìn đồng cho từng người khi điểm danh và liên tục bật mí sẽ còn nhiều món quà đặc biệt hơn nữa dành cho những ai tham gia tích cực nhất."
+    },
+    {
+        "text": "20 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Như để chứng minh sự \"trong sạch\", trưởng nhóm tiếp tục tặng thêm 20 nghìn đồng cho từng người khi điểm danh và liên tục bật mí sẽ còn nhiều món quà đặc biệt hơn nữa dành cho những ai tham gia tích cực nhất."
+    },
+    {
+        "text": "70 nghìn",
+        "label": "MONEY",
+        "evidence": "Sau khi nhận được 70 nghìn tiền chào mừng, trong số 80 người đã có lác đác vài người bỏ nhóm."
+    },
+    {
+        "text": "khởi động chương trình gọi là làm nhiệm vụ tặng quà",
+        "label": "EVENT",
+        "evidence": "Lúc này nhóm lừa đảo bắt đầu khởi động chương trình gọi là làm nhiệm vụ tặng quà."
+    },
+    {
+        "text": "chuyển 10 nghìn đồng vào tài khoản",
+        "label": "EVENT",
+        "evidence": "Với mỗi lần Quan tâm sẽ được chuyển 10 nghìn đồng vào tài khoản."
+    },
+    {
+        "text": "10 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Với mỗi lần Quan tâm sẽ được chuyển 10 nghìn đồng vào tài khoản."
+    },
+    {
+        "text": "Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "Các trang tài khoản được Quan tâm đều là thương hiệu lớn, uy tín như Điện máy Xanh, Viettel, Vincom…"
+    },
+    {
+        "text": "Viettel",
+        "label": "ORG",
+        "evidence": "Các trang tài khoản được Quan tâm đều là thương hiệu lớn, uy tín như Điện máy Xanh, Viettel, Vincom…"
+    },
+    {
+        "text": "Vincom",
+        "label": "ORG",
+        "evidence": "Các trang tài khoản được Quan tâm đều là thương hiệu lớn, uy tín như Điện máy Xanh, Viettel, Vincom…"
+    },
+    {
+        "text": "500 nghìn đồng",
+        "label": "MONEY",
+        "evidence": "Sau một buổi chiều làm nhiệm vụ, những người chăm chỉ có thể kiếm được số tiền lên tới 500 nghìn đồng."
+    },
+    {
+        "text": "chương trình buổi chiều kết thúc",
+        "label": "EVENT",
+        "evidence": "Chúng tuyên bố chương trình buổi chiều kết thúc và hẹn mọi người tiếp tục nhiệm vụ vào sáng ngày mai."
+    },
+    {
+        "text": "nhận phần quà 100 nghìn vào tài khoản",
+        "label": "EVENT",
+        "evidence": "Vẫn cách thức quen thuộc, kẻ gian tuyên bố ai điểm danh vào đúng 8h sáng sẽ nhận phần quà 100 nghìn vào tài khoản."
+    },
+    {
+        "text": "100 nghìn",
+        "label": "MONEY",
+        "evidence": "Vẫn cách thức quen thuộc, kẻ gian tuyên bố ai điểm danh vào đúng 8h sáng sẽ nhận phần quà 100 nghìn vào tài khoản."
+    },
+    {
+        "text": "mời gọi mọi người đăng ký thành viên",
+        "label": "EVENT",
+        "evidence": "Biết rằng thời cơ chín muồi đã tới, chủ phòng mời gọi mọi người đăng ký thành viên để nhận được nhiều ưu đãi hơn, kiếm tiền nhiều hơn."
+    },
+    {
+        "text": "150 nghìn",
+        "label": "MONEY",
+        "evidence": "Lệ phí đăng ký sẽ có các mốc 150 nghìn để nhận về hoa hồng 300 nghìn và 250 nghìn nhận hoa hồng 450 nghìn, đảm bảo thu nhập mỗi ngày từ 400-500 nghìn khi tham gia nhiệm vụ."
+    },
+    {
+        "text": "300 nghìn",
+        "label": "MONEY",
+        "evidence": "Lệ phí đăng ký sẽ có các mốc 150 nghìn để nhận về hoa hồng 300 nghìn và 250 nghìn nhận hoa hồng 450 nghìn, đảm bảo thu nhập mỗi ngày từ 400-500 nghìn khi tham gia nhiệm vụ."
+    },
+    {
+        "text": "250 nghìn",
+        "label": "MONEY",
+        "evidence": "Lệ phí đăng ký sẽ có các mốc 150 nghìn để nhận về hoa hồng 300 nghìn và 250 nghìn nhận hoa hồng 450 nghìn, đảm bảo thu nhập mỗi ngày từ 400-500 nghìn khi tham gia nhiệm vụ."
+    },
+    {
+        "text": "450 nghìn",
+        "label": "MONEY",
+        "evidence": "Lệ phí đăng ký sẽ có các mốc 150 nghìn để nhận về hoa hồng 300 nghìn và 250 nghìn nhận hoa hồng 450 nghìn, đảm bảo thu nhập mỗi ngày từ 400-500 nghìn khi tham gia nhiệm vụ."
+    },
+    {
+        "text": "400-500 nghìn",
+        "label": "MONEY",
+        "evidence": "Lệ phí đăng ký sẽ có các mốc 150 nghìn để nhận về hoa hồng 300 nghìn và 250 nghìn nhận hoa hồng 450 nghìn, đảm bảo thu nhập mỗi ngày từ 400-500 nghìn khi tham gia nhiệm vụ."
+    },
+    {
+        "text": "7tr860 nghìn",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, thành viên còn có lương 7tr860 nghìn hàng tháng."
+    },
+    {
+        "text": "50 nghìn",
+        "label": "MONEY",
+        "evidence": "Đăng ký xong, chủ phòng yêu cầu mọi người tải ứng dụng để đăng nhập và được thưởng 50 nghìn nữa."
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "evidence": "Ứng dụng mà kẻ gian kêu gọi tải xuống được thiết kế sơ sài, không có tên rõ ràng, không hề có trên cửa hàng ứng dụng chính thức của Google hay Apple mà được tải thông qua đường link bên ngoài."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Ứng dụng mà kẻ gian kêu gọi tải xuống được thiết kế sơ sài, không có tên rõ ràng, không hề có trên cửa hàng ứng dụng chính thức của Google hay Apple mà được tải thông qua đường link bên ngoài."
+    }
+]

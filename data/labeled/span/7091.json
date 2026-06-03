@@ -1,0 +1,87 @@
+[
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Mới đây, TPBank đã phát đi cảnh báo về các thủ đoạn lừa đảo mới trong lĩnh vực tài chính, nhằm bảo vệ thông tin cá nhân và tài khoản ngân hàng của khách hàng."
+    },
+    {
+        "text": "phát đi cảnh báo về các thủ đoạn lừa đảo mới trong lĩnh vực tài chính",
+        "label": "EVENT",
+        "evidence": "Mới đây, TPBank đã phát đi cảnh báo về các thủ đoạn lừa đảo mới trong lĩnh vực tài chính, nhằm bảo vệ thông tin cá nhân và tài khoản ngân hàng của khách hàng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank cho biết các đối tượng lừa đảo hiện nay sử dụng nhiều phương thức mạo danh khác nhau để tiếp cận và đánh cắp thông tin của khách hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Một trong những thủ đoạn phổ biến là giả mạo đầu số Brandname của ngân hàng, gọi điện thông báo thẻ tín dụng sắp hết hạn và yêu cầu khách hàng cung cấp thông tin thẻ để gia hạn."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Những kẻ lừa đảo này thường yêu cầu khách hàng cung cấp thông tin cá nhân, tài khoản ngân hàng, mã OTP hoặc yêu cầu truy cập vào các liên kết lạ, quét mã QR hoặc tải ứng dụng không rõ nguồn gốc."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Những kẻ lừa đảo này thường yêu cầu khách hàng cung cấp thông tin cá nhân, tài khoản ngân hàng, mã OTP hoặc yêu cầu truy cập vào các liên kết lạ, quét mã QR hoặc tải ứng dụng không rõ nguồn gốc."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank khuyến cáo khách hàng cần lưu ý."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank chỉ sử dụng đầu số Brandname duy nhất là \"TPBANK\" để gửi tin nhắn cho khách hàng và tuyệt đốikhôngdùng đầu số này để gọi điện cho khách hàng."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Các cơ quan nhà nước và ngân hàngkhông bao giờ yêu cầucung cấp thông tin cá nhân, tài khoản ngân hàng hay mã OTP, kể cả cho nhân viên ngân hàng."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Các cơ quan nhà nước và ngân hàngkhông bao giờ yêu cầucung cấp thông tin cá nhân, tài khoản ngân hàng hay mã OTP, kể cả cho nhân viên ngân hàng."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Để bảo vệ tài khoản của mình, TPBank khuyến cáo khách hàng thực hiện các biện pháp bảo mật như: Cài đặt và sử dụngxác thực sinh trắc họctheo hướng dẫn của ngân hàng khi thực hiện giao dịch trực tuyến qua Internet Banking hoặc Mobile Banking."
+    },
+    {
+        "text": "Internet Banking",
+        "label": "ASSET",
+        "evidence": "Cài đặt và sử dụngxác thực sinh trắc họctheo hướng dẫn của ngân hàng khi thực hiện giao dịch trực tuyến qua Internet Banking hoặc Mobile Banking."
+    },
+    {
+        "text": "Mobile Banking",
+        "label": "ASSET",
+        "evidence": "Cài đặt và sử dụngxác thực sinh trắc họctheo hướng dẫn của ngân hàng khi thực hiện giao dịch trực tuyến qua Internet Banking hoặc Mobile Banking."
+    },
+    {
+        "text": "eToken+",
+        "label": "ASSET",
+        "evidence": "Khách hàng sử dụngxác thực qua tin nhắn điện thoại SMShoặc phương thứceToken+trên App TPBank."
+    },
+    {
+        "text": "App TPBank",
+        "label": "ASSET",
+        "evidence": "Khách hàng sử dụngxác thực qua tin nhắn điện thoại SMShoặc phương thứceToken+trên App TPBank."
+    },
+    {
+        "text": "App TPBank",
+        "label": "ASSET",
+        "evidence": "Khách hàng cài đặt phương thứcbảo mật 2 lớptrên App TPBank để gia tăng mức độ an toàn cho tài khoản."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Khách hàng liên lạc lại trực tiếp và nhận thông tin qua các kênh thông tin chính thức của TPBank."
+    }
+]

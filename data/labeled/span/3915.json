@@ -1,0 +1,307 @@
+[
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "Đã sẵn tiền ở Kho bạc Nhà nước"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "Thực hiện lộ trình cải cách tiền lương"
+    },
+    {
+        "text": "ngày 1/7",
+        "label": "DATE",
+        "evidence": "từ ngày 1/7"
+    },
+    {
+        "text": "lương cơ sở tăng 30%",
+        "label": "EVENT",
+        "evidence": "lương cơ sở tăng 30%"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "tăng 30%"
+    },
+    {
+        "text": "mức 1,8 triệu đồng",
+        "label": "PRICE",
+        "evidence": "tương đương từ mức 1,8 triệu đồng lên 2,34 triệu đồng/tháng"
+    },
+    {
+        "text": "1,8 triệu đồng",
+        "label": "MONEY",
+        "evidence": "từ mức 1,8 triệu đồng lên 2,34 triệu đồng/tháng"
+    },
+    {
+        "text": "2,34 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "lên 2,34 triệu đồng/tháng"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Bộ Tài chính cho biết, hiện nay ngân sách đã để dành được 680.000 tỷ đồng cho cải cách tiền lương."
+    },
+    {
+        "text": "680.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân sách đã để dành được 680.000 tỷ đồng cho cải cách tiền lương"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "cho cải cách tiền lương"
+    },
+    {
+        "text": "Ngày 10/7",
+        "label": "DATE",
+        "evidence": "Ngày 10/7"
+    },
+    {
+        "text": "Tiền Phong",
+        "label": "ORG",
+        "evidence": "trao đổi vớiPV Tiền Phong"
+    },
+    {
+        "text": "Cục Quản lý Ngân quỹ - Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "lãnh đạo Cục Quản lý Ngân quỹ - Kho bạc Nhà nước cho biết"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "số tiền cải cách tiền lương này nằm trong tồn quỹ của từng cấp ngân sách"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "Phần tiền dùng cải cách tiền lương của địa phương"
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Từ năm 2019"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "chương trình cải cách tiền lương"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "Kho bạc Nhà nước quản lý tiền ngân quỹ"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "khoản tiền chi cải cách tiền lương"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "Kho bạc Nhà nước thanh toán theo yêu cầu"
+    },
+    {
+        "text": "Cục Quản lý Ngân quỹ",
+        "label": "ORG",
+        "evidence": "lãnh đạo Cục Quản lý Ngân quỹ cho biết"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "đáp ứng tiêu chí của Bộ Tài chính"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "được Ngân hàng Nhà nước đánh giá đáp ứng an toàn vốn"
+    },
+    {
+        "text": "680.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoản tiền 680.000 tỷ đồng sẽ chi cải cách tiền lương cả giai đoạn 2024 -2026."
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "sẽ chi cải cách tiền lương cả giai đoạn 2024 -2026"
+    },
+    {
+        "text": "giai đoạn 2024 -2026",
+        "label": "DATE",
+        "evidence": "cả giai đoạn 2024 -2026"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "dự toán công khai ngân sách năm 2024"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Bộ Tài chính cho biết, tổng chi ngân sách 2,119 triệu tỷ đồng"
+    },
+    {
+        "text": "2,119 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng chi ngân sách 2,119 triệu tỷ đồng"
+    },
+    {
+        "text": "chi cải cách tiền lương và điều chỉnh tiền lương, một số chế độ trợ cấp, phụ cấp, chính sách an sinh xã hội",
+        "label": "EVENT",
+        "evidence": "riêng chi cải cách tiền lương và điều chỉnh tiền lương, một số chế độ trợ cấp, phụ cấp, chính sách an sinh xã hội 74.048 tỷ đồng."
+    },
+    {
+        "text": "74.048 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chính sách an sinh xã hội 74.048 tỷ đồng."
+    },
+    {
+        "text": "680.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khoản tiền 680.000 tỷ đồng cho cải cách tiền lương"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "680.000 tỷ đồng cho cải cách tiền lương"
+    },
+    {
+        "text": "Kho bạc Nhà nước",
+        "label": "ORG",
+        "evidence": "do Kho bạc Nhà nước quản lý"
+    },
+    {
+        "text": "xây dựng dự toán ngân sách nhà nước năm 2025",
+        "label": "EVENT",
+        "evidence": "dự thảo thông tư hướng dẫn xây dựng dự toán ngân sách nhà nước năm 2025"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "xây dựng dự toán ngân sách nhà nước năm 2025"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Bộ Tài chính hướng dẫn dự toán nguồn cải cách tiền lương và kinh phí điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hàng tháng, trợ cấp ưu đãi người có công năm 2025."
+    },
+    {
+        "text": "dự toán nguồn cải cách tiền lương và kinh phí điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hàng tháng, trợ cấp ưu đãi người có công năm 2025",
+        "label": "EVENT",
+        "evidence": "hướng dẫn dự toán nguồn cải cách tiền lương và kinh phí điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hàng tháng, trợ cấp ưu đãi người có công năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "người có công năm 2025."
+    },
+    {
+        "text": "kinh phí điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hàng tháng, trợ cấp ưu đãi người có công",
+        "label": "EVENT",
+        "evidence": "nguồn kinh phí điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hàng tháng, trợ cấp ưu đãi người có công"
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "dự thảo của Bộ Tài chính nêu"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "chính sách cải cách tiền lương?"
+    },
+    {
+        "text": "cải cách tiền lương",
+        "label": "EVENT",
+        "evidence": "chính sách cải cách tiền lương bao gồm"
+    },
+    {
+        "text": "Bộ Nội vụ",
+        "label": "ORG",
+        "evidence": "Bộ Nội vụ cũng vừa ban hành Thông tư 07/2024/TT-BNV hướng dẫn thực hiện mức lương cơ sở đối với các đối tượng hưởng lương, phụ cấp trong các cơ quan, tổ chức, đơn vị sự nghiệp công lập của Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội và hội."
+    },
+    {
+        "text": "Thông tư 07/2024/TT-BNV hướng dẫn thực hiện mức lương cơ sở đối với các đối tượng hưởng lương, phụ cấp trong các cơ quan, tổ chức, đơn vị sự nghiệp công lập của Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội và hội",
+        "label": "EVENT",
+        "evidence": "ban hành Thông tư 07/2024/TT-BNV hướng dẫn thực hiện mức lương cơ sở đối với các đối tượng hưởng lương, phụ cấp trong các cơ quan, tổ chức, đơn vị sự nghiệp công lập của Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội và hội."
+    },
+    {
+        "text": "ngày 1/7/2024",
+        "label": "DATE",
+        "evidence": "thực hiện từ ngày 1/7/2024"
+    },
+    {
+        "text": "mức lương cơ sở 2,34 triệu đồng/tháng",
+        "label": "PRICE",
+        "evidence": "bằng mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số lương hiện hưởng."
+    },
+    {
+        "text": "2,34 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số lương hiện hưởng."
+    },
+    {
+        "text": "ngày 1/7",
+        "label": "DATE",
+        "evidence": "thực hiện từ ngày 1/7"
+    },
+    {
+        "text": "mức lương cơ sở 2,34 triệu đồng/tháng",
+        "label": "PRICE",
+        "evidence": "tính bằng mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số phụ cấp hiện hưởng."
+    },
+    {
+        "text": "2,34 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số phụ cấp hiện hưởng."
+    },
+    {
+        "text": "ngày 1/7/2024",
+        "label": "DATE",
+        "evidence": "thực hiện từ ngày 1/7/2024"
+    },
+    {
+        "text": "ngày 1/7",
+        "label": "DATE",
+        "evidence": "thực hiện từ ngày 1/7 bằng mức lương cơ sở"
+    },
+    {
+        "text": "mức lương cơ sở 2,34 triệu đồng/tháng",
+        "label": "PRICE",
+        "evidence": "bằng mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số chênh lệch bảo lưu hiện hưởng (nếu có)."
+    },
+    {
+        "text": "2,34 triệu đồng/tháng",
+        "label": "MONEY",
+        "evidence": "mức lương cơ sở 2,34 triệu đồng/tháng nhân với hệ số chênh lệch bảo lưu hiện hưởng (nếu có)."
+    },
+    {
+        "text": "Luật sửa đổi, bổ sung một số điều của Luật Cán bộ, công chức và Luật Viên chức năm 2019",
+        "label": "EVENT",
+        "evidence": "khoản 19 Điều 1 Luật sửa đổi, bổ sung một số điều của Luật Cán bộ, công chức và Luật Viên chức năm 2019"
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Luật Viên chức năm 2019"
+    },
+    {
+        "text": "23,4 triệu đồng/người/tháng",
+        "label": "MONEY",
+        "evidence": "mức 23,4 triệu đồng/người/tháng."
+    },
+    {
+        "text": "lực lượng vũ trang",
+        "label": "ORG",
+        "evidence": "Đối với lực lượng vũ trang"
+    },
+    {
+        "text": "24,336 triệu đồng/người/tháng",
+        "label": "MONEY",
+        "evidence": "mức 24,336 triệu đồng/người/tháng."
+    }
+]

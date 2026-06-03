@@ -1,0 +1,169 @@
+{
+  "title": "2 - Preprocessing & Chunking",
+  "uid": "preprocessing-chunking",
+  "editable": true,
+  "graphTooltip": 1,
+  "refresh": "30s",
+  "time": { "from": "now-24h", "to": "now" },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Documents Processed",
+      "id": 1,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_articles_cleaned_total",
+        "legendFormat": "Processed",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Documents Dropped",
+      "id": 2,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 6, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "yellow" }, { "value": 5, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_articles_dropped_total",
+        "legendFormat": "Dropped",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Total Chunks Generated",
+      "id": 3,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 12, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "color": { "fixedColor": "blue", "mode": "fixed" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunks_written_total",
+        "legendFormat": "Chunks",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "gauge",
+      "title": "Avg Chunks per Document",
+      "id": 4,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 5, "w": 6, "x": 18, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "showThresholdLabels": false, "showThresholdMarkers": true },
+      "fieldConfig": { "defaults": { "min": 0, "max": 30, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 15, "color": "yellow" }, { "value": 25, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunks_per_document_avg",
+        "legendFormat": "Chunks/Doc",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "bargauge",
+      "title": "Chunk Size Distribution (Characters)",
+      "id": 5,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 5 },
+      "options": { "displayMode": "gradient", "orientation": "horizontal", "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "palette-classic" } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunk_size_min_chars",
+        "legendFormat": "Min",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunk_size_p50_chars",
+        "legendFormat": "Median (p50)",
+        "refId": "B"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunk_size_avg_chars",
+        "legendFormat": "Average",
+        "refId": "C"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_chunk_size_max_chars",
+        "legendFormat": "Max",
+        "refId": "D"
+      }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Processing Latency (Cleaning)",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 5 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_cleaning_duration_seconds",
+        "legendFormat": "Cleaning Duration",
+        "refId": "A"
+      },
+      {
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_run_duration_seconds",
+        "legendFormat": "Total Pipeline Duration",
+        "refId": "B"
+      }]
+    },
+    {
+      "type": "gauge",
+      "title": "Processing Queue Length",
+      "id": 7,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 0, "y": 12 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "showThresholdLabels": false, "showThresholdMarkers": true },
+      "fieldConfig": { "defaults": { "min": 0, "max": 500, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 50, "color": "yellow" }, { "value": 200, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_processing_queue_length",
+        "legendFormat": "Pending Docs",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Failed Articles",
+      "id": 8,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 8, "y": 12 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "orange" }, { "value": 5, "color": "red" }] } } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_articles_failed_total",
+        "legendFormat": "Failed",
+        "refId": "A"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Last Ingestion Run",
+      "id": 9,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 8, "x": 16, "y": 12 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "dateTimeFromNow" } },
+      "targets": [{
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "expr": "ingestion_last_run_timestamp_seconds * 1000",
+        "legendFormat": "Last Run",
+        "refId": "A"
+      }]
+    }
+  ]
+}

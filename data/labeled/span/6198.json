@@ -1,0 +1,462 @@
+[
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "-5,2%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "-4,7%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "VAB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "-3,8%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "BAB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "-2,9%",
+        "label": "RATE",
+        "evidence": "Trong đó, các mã giảm mạnh nhất là KLB (-5,2%), OCB (-4,7%), VAB (-3,8%), BAB (-2,9%),…"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Ngược lại, EIB của Eximbank tăng mạnh nhất trong các cổ phiếu ngân hàng tuần qua với mức +7,9%."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Ngược lại, EIB của Eximbank tăng mạnh nhất trong các cổ phiếu ngân hàng tuần qua với mức +7,9%."
+    },
+    {
+        "text": "+7,9%",
+        "label": "RATE",
+        "evidence": "Ngược lại, EIB của Eximbank tăng mạnh nhất trong các cổ phiếu ngân hàng tuần qua với mức +7,9%."
+    },
+    {
+        "text": "ngày 20/2",
+        "label": "DATE",
+        "evidence": "Trong tuần tới, ngày 20/2, EIB sẽ chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông, tương đương tỷ lệ phát hành 20%."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Trong tuần tới, ngày 20/2, EIB sẽ chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông, tương đương tỷ lệ phát hành 20%."
+    },
+    {
+        "text": "chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông",
+        "label": "EVENT",
+        "evidence": "Trong tuần tới, ngày 20/2, EIB sẽ chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông, tương đương tỷ lệ phát hành 20%."
+    },
+    {
+        "text": "gần 245,88 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong tuần tới, ngày 20/2, EIB sẽ chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông, tương đương tỷ lệ phát hành 20%."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Trong tuần tới, ngày 20/2, EIB sẽ chốt danh sách cổ đông phát hành gần 245,88 triệu cổ phiếu trả cổ tức cho cổ đông, tương đương tỷ lệ phát hành 20%."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID của BIDV cũng tăng mạnh với mức +6,6%."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BID của BIDV cũng tăng mạnh với mức +6,6%."
+    },
+    {
+        "text": "+6,6%",
+        "label": "RATE",
+        "evidence": "BID của BIDV cũng tăng mạnh với mức +6,6%."
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "Đây cũng là cổ phiếu có tác động tích cực nhất tới VNIndex trong tuần qua."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu ngân hàng quốc doanh khác là CTG cũng tăng +1,9%, trong khi VCB điều chỉnh giảm (-1,6%)."
+    },
+    {
+        "text": "+1,9%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu ngân hàng quốc doanh khác là CTG cũng tăng +1,9%, trong khi VCB điều chỉnh giảm (-1,6%)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu ngân hàng quốc doanh khác là CTG cũng tăng +1,9%, trong khi VCB điều chỉnh giảm (-1,6%)."
+    },
+    {
+        "text": "-1,6%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu ngân hàng quốc doanh khác là CTG cũng tăng +1,9%, trong khi VCB điều chỉnh giảm (-1,6%)."
+    },
+    {
+        "text": "VBB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "3,2%",
+        "label": "RATE",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "2,5%",
+        "label": "RATE",
+        "evidence": "Các cổ phiếu tăng mạnh khác là VBB (4%), LPB (3,2%), STB (3,2%), TCB (3,2%), ACB (2,5%),…"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu STB vẫn tăng giá dù bị khối ngoại bán mạnh trên thị trường."
+    },
+    {
+        "text": "hơn 13 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Cổ phiếu này bị nhà đầu tư nước ngoài bán ròng hơn 13 triệu đơn vị trong tuần, giá trị 317 tỷ đồng, đưa tỷ lệ sở hữu của NĐTNN từ 29,9% giảm xuống 29,43%."
+    },
+    {
+        "text": "317 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu này bị nhà đầu tư nước ngoài bán ròng hơn 13 triệu đơn vị trong tuần, giá trị 317 tỷ đồng, đưa tỷ lệ sở hữu của NĐTNN từ 29,9% giảm xuống 29,43%."
+    },
+    {
+        "text": "29,9%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này bị nhà đầu tư nước ngoài bán ròng hơn 13 triệu đơn vị trong tuần, giá trị 317 tỷ đồng, đưa tỷ lệ sở hữu của NĐTNN từ 29,9% giảm xuống 29,43%."
+    },
+    {
+        "text": "29,43%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu này bị nhà đầu tư nước ngoài bán ròng hơn 13 triệu đơn vị trong tuần, giá trị 317 tỷ đồng, đưa tỷ lệ sở hữu của NĐTNN từ 29,9% giảm xuống 29,43%."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Theo đó,STBtrở thành cổ phiếu bị khối ngoại bán ròng mạnh nhất trên cả ba sàn tuần qua."
+    },
+    {
+        "text": "tranh cãi về “room” ngoại tại Sacombank là 23,6% hay 30%",
+        "label": "EVENT",
+        "evidence": "Diễn biến này xảy ra giữa lúc xuất hiện tranh cãi về “room” ngoại tại Sacombank là 23,6% hay 30%?"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Diễn biến này xảy ra giữa lúc xuất hiện tranh cãi về “room” ngoại tại Sacombank là 23,6% hay 30%?"
+    },
+    {
+        "text": "23,6%",
+        "label": "RATE",
+        "evidence": "Diễn biến này xảy ra giữa lúc xuất hiện tranh cãi về “room” ngoại tại Sacombank là 23,6% hay 30%?"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Diễn biến này xảy ra giữa lúc xuất hiện tranh cãi về “room” ngoại tại Sacombank là 23,6% hay 30%?"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "23,6%",
+        "label": "RATE",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "VSD",
+        "label": "ORG",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "VSD",
+        "label": "ORG",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Trong khi Sacombank khẳng định room ngoại tại nhà băng này chỉ là 23,6%, thay vì mức 30% như VSD thông báo thì VSD khẳng định tỷ lệ sở hữu tối đa của NĐTNN đối với cổ phiếu STB là 30% là đúng quy định."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Hiện Sacombank cho biết sẽ làm việc với cơ quan hữu quan, Ngân hàng Nhà nước để bảo vệ quyền lợi hợp pháp của họ về vấn đề room ngoại."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Hiện Sacombank cho biết sẽ làm việc với cơ quan hữu quan, Ngân hàng Nhà nước để bảo vệ quyền lợi hợp pháp của họ về vấn đề room ngoại."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, Sacombank cho rằng VSD cần có hướng giải quyết với Sacombank và chịu trách nhiệm với các nhà đầu tư nước ngoài."
+    },
+    {
+        "text": "VSD",
+        "label": "ORG",
+        "evidence": "Đồng thời, Sacombank cho rằng VSD cần có hướng giải quyết với Sacombank và chịu trách nhiệm với các nhà đầu tư nước ngoài."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đồng thời, Sacombank cho rằng VSD cần có hướng giải quyết với Sacombank và chịu trách nhiệm với các nhà đầu tư nước ngoài."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "hơn 3,6 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "hơn 2,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "hơn 400.000 đơn vị",
+        "label": "VOLUME",
+        "evidence": "Ngoài STB, khối ngoại còn bán ròng một số mã ngân hàng khác trong tuần qua như SHB (hơn 3,6 triệu đơn vị), EIB (hơn 2,2 triệu đơn vị), CTG (hơn 400.000 đơn vị),…"
+    },
+    {
+        "text": "3 triệu cp",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, nhà đầu tư nước ngoài mua ròng 3 triệu cp HDB và hơn 1 triệu cp BID."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, nhà đầu tư nước ngoài mua ròng 3 triệu cp HDB và hơn 1 triệu cp BID."
+    },
+    {
+        "text": "hơn 1 triệu cp",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, nhà đầu tư nước ngoài mua ròng 3 triệu cp HDB và hơn 1 triệu cp BID."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, nhà đầu tư nước ngoài mua ròng 3 triệu cp HDB và hơn 1 triệu cp BID."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu HDB ghi nhận 4 phiên mua ròng đầu tuần và 1 phiên bán ròng cuối tuần."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Khối ngoại đã liên tục mua ròng HDB trong thời gian qua, kéo dài từ phiên 18/1 đến 16/2 rồi mới quay đầu bán nhẹ trong phiên 17/2 (bán ròng 4 tỷ đồng)."
+    },
+    {
+        "text": "18/1",
+        "label": "DATE",
+        "evidence": "Khối ngoại đã liên tục mua ròng HDB trong thời gian qua, kéo dài từ phiên 18/1 đến 16/2 rồi mới quay đầu bán nhẹ trong phiên 17/2 (bán ròng 4 tỷ đồng)."
+    },
+    {
+        "text": "16/2",
+        "label": "DATE",
+        "evidence": "Khối ngoại đã liên tục mua ròng HDB trong thời gian qua, kéo dài từ phiên 18/1 đến 16/2 rồi mới quay đầu bán nhẹ trong phiên 17/2 (bán ròng 4 tỷ đồng)."
+    },
+    {
+        "text": "17/2",
+        "label": "DATE",
+        "evidence": "Khối ngoại đã liên tục mua ròng HDB trong thời gian qua, kéo dài từ phiên 18/1 đến 16/2 rồi mới quay đầu bán nhẹ trong phiên 17/2 (bán ròng 4 tỷ đồng)."
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối ngoại đã liên tục mua ròng HDB trong thời gian qua, kéo dài từ phiên 18/1 đến 16/2 rồi mới quay đầu bán nhẹ trong phiên 17/2 (bán ròng 4 tỷ đồng)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu HDB cũng diễn biến tích cực với mức tăng +1,7% trong tuần , kết phiên 17/2 ở mức 18.450 đồng/cp."
+    },
+    {
+        "text": "+1,7%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu HDB cũng diễn biến tích cực với mức tăng +1,7% trong tuần , kết phiên 17/2 ở mức 18.450 đồng/cp."
+    },
+    {
+        "text": "17/2",
+        "label": "DATE",
+        "evidence": "Cổ phiếu HDB cũng diễn biến tích cực với mức tăng +1,7% trong tuần , kết phiên 17/2 ở mức 18.450 đồng/cp."
+    },
+    {
+        "text": "18.450 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu HDB cũng diễn biến tích cực với mức tăng +1,7% trong tuần , kết phiên 17/2 ở mức 18.450 đồng/cp."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID ghi nhận chuỗi mua ròng 9 phiên liên tiếp, riêng tuần qua là hơn 1 triệu đơn vị, giá trị hơn 52 tỷ đồng."
+    },
+    {
+        "text": "hơn 1 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "BID ghi nhận chuỗi mua ròng 9 phiên liên tiếp, riêng tuần qua là hơn 1 triệu đơn vị, giá trị hơn 52 tỷ đồng."
+    },
+    {
+        "text": "hơn 52 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BID ghi nhận chuỗi mua ròng 9 phiên liên tiếp, riêng tuần qua là hơn 1 triệu đơn vị, giá trị hơn 52 tỷ đồng."
+    },
+    {
+        "text": "hơn 8.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản toàn ngành tuần qua đạt hơn 8.500 tỷ đồng, tức trung bình hơn 1.700 tỷ đồng/phiên."
+    },
+    {
+        "text": "hơn 1.700 tỷ đồng/phiên",
+        "label": "MONEY",
+        "evidence": "Thanh khoản toàn ngành tuần qua đạt hơn 8.500 tỷ đồng, tức trung bình hơn 1.700 tỷ đồng/phiên."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "2.236 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "1.376 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "641 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "587 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    },
+    {
+        "text": "519 tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, các mã dẫn đầu giá trị giao dịch là STB (2.236 tỷ), VPB (1.376 tỷ), LPB (641 tỷ), MBB (587 tỷ), TPB (519 tỷ)."
+    }
+]

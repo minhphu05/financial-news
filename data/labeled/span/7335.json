@@ -1,0 +1,52 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Các đối tượng mạo danh ngân hàng gửi tin nhắn SMS có tên người gửi trùng khớp với tên của các ngân hàng lớn tại Việt Nam như: ACB, VCB, BIDV, Techcombank, Sacombank... với nội dung thông báo điểm thưởng tích lũy của quý khách sắp hết hạn, đề nghị truy cập vào đường link sau để đổi quà và gửi kèm đường link."
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "Các đối tượng mạo danh ngân hàng gửi tin nhắn SMS có tên người gửi trùng khớp với tên của các ngân hàng lớn tại Việt Nam như: ACB, VCB, BIDV, Techcombank, Sacombank... với nội dung thông báo điểm thưởng tích lũy của quý khách sắp hết hạn, đề nghị truy cập vào đường link sau để đổi quà và gửi kèm đường link."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Các đối tượng mạo danh ngân hàng gửi tin nhắn SMS có tên người gửi trùng khớp với tên của các ngân hàng lớn tại Việt Nam như: ACB, VCB, BIDV, Techcombank, Sacombank... với nội dung thông báo điểm thưởng tích lũy của quý khách sắp hết hạn, đề nghị truy cập vào đường link sau để đổi quà và gửi kèm đường link."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Các đối tượng mạo danh ngân hàng gửi tin nhắn SMS có tên người gửi trùng khớp với tên của các ngân hàng lớn tại Việt Nam như: ACB, VCB, BIDV, Techcombank, Sacombank... với nội dung thông báo điểm thưởng tích lũy của quý khách sắp hết hạn, đề nghị truy cập vào đường link sau để đổi quà và gửi kèm đường link."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Các đối tượng mạo danh ngân hàng gửi tin nhắn SMS có tên người gửi trùng khớp với tên của các ngân hàng lớn tại Việt Nam như: ACB, VCB, BIDV, Techcombank, Sacombank... với nội dung thông báo điểm thưởng tích lũy của quý khách sắp hết hạn, đề nghị truy cập vào đường link sau để đổi quà và gửi kèm đường link."
+    },
+    {
+        "text": "nhận được các tin nhắn với nội dung thông báo về việc điểm thưởng tích lũy sắp hết hạn và đề nghị truy cập vào một đường link để đổi lấy những phần quà giá trị",
+        "label": "EVENT",
+        "evidence": "Thời gian gần đây, nhiều người dùng đã nhận được các tin nhắn với nội dung thông báo về việc điểm thưởng tích lũy sắp hết hạn và đề nghị truy cập vào một đường link để đổi lấy những phần quà giá trị."
+    },
+    {
+        "text": "thực hiện một giao dịch chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Đồng thời, chúng thực hiện một giao dịch chuyển tiền trên thiết bị của mình."
+    },
+    {
+        "text": "hoàn tất giao dịch chuyển tiền từ tài khoản của nạn nhân đến một tài khoản khác",
+        "label": "EVENT",
+        "evidence": "Khi nạn nhân nhập mã OTP lên website giả, kẻ lừa đảo ngay lập tức sử dụng mã này để hoàn tất giao dịch chuyển tiền từ tài khoản của nạn nhân đến một tài khoản khác."
+    },
+    {
+        "text": "khóa tài khoản/thẻ ngân hàng",
+        "label": "EVENT",
+        "evidence": "Trong trường hợp đã lỡ truy cập vào link và cung cấp thông tin, cần ngay lập tức khóa tài khoản/thẻ ngân hàng thông qua ứng dụng hoặc gọi hotline, đồng thời trình báo sự việc tới cơ quan Công an gần nhất."
+    },
+    {
+        "text": "Công an tỉnh Quảng Ngãi",
+        "label": "ORG",
+        "evidence": "Theo Công an tỉnh Quảng Ngãi"
+    }
+]

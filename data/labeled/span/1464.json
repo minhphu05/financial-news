@@ -1,0 +1,302 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động VietinBank dành cho khách hàng cá nhân"
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "Đối với khách hàng cá nhân, mức lãi suất áp dụng cho  hình thức lĩnh vào cuối kỳ dao động từ 2,2%/năm đến 5,3%/năm ."
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Đối với khách hàng cá nhân, mức lãi suất áp dụng cho  hình thức lĩnh vào cuối kỳ dao động từ 2,2%/năm đến 5,3%/năm ."
+    },
+    {
+        "text": "kỳ hạn từ 1 đến dưới 3 tháng được hưởng lãi suất là 2,2%/năm, giảm 0,8%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, kỳ hạn từ 1 đến dưới 3 tháng được hưởng lãi suất là 2,2%/năm, giảm 0,8%/năm so với hồi đầu tháng 12/2023."
+    },
+    {
+        "text": "2,2%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, kỳ hạn từ 1 đến dưới 3 tháng được hưởng lãi suất là 2,2%/năm, giảm 0,8%/năm so với hồi đầu tháng 12/2023."
+    },
+    {
+        "text": "giảm 0,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, kỳ hạn từ 1 đến dưới 3 tháng được hưởng lãi suất là 2,2%/năm, giảm 0,8%/năm so với hồi đầu tháng 12/2023."
+    },
+    {
+        "text": "đầu tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, kỳ hạn từ 1 đến dưới 3 tháng được hưởng lãi suất là 2,2%/năm, giảm 0,8%/năm so với hồi đầu tháng 12/2023."
+    },
+    {
+        "text": "Kỳ hạn từ 3 tháng đến dưới 6 tháng cũng giảm 0,8%/năm xuống còn 2,5%/năm",
+        "label": "EVENT",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng cũng giảm 0,8%/năm xuống còn 2,5%/năm."
+    },
+    {
+        "text": "giảm 0,8%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng cũng giảm 0,8%/năm xuống còn 2,5%/năm."
+    },
+    {
+        "text": "2,5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng cũng giảm 0,8%/năm xuống còn 2,5%/năm."
+    },
+    {
+        "text": "sau khi giảm 0,8%/năm, lãi suất áp dụng đang ở mức 3,5%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,8%/năm, lãi suất áp dụng đang ở mức 3,5%/năm."
+    },
+    {
+        "text": "giảm 0,8%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,8%/năm, lãi suất áp dụng đang ở mức 3,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,8%/năm, lãi suất áp dụng đang ở mức 3,5%/năm."
+    },
+    {
+        "text": "Kỳ hạn từ 12 tháng đến dưới 24 tháng được áp dụng mức lãi suất 5%/năm, thấp hơn 0,3%/năm so với tháng trước",
+        "label": "EVENT",
+        "evidence": "Kỳ hạn từ 12 tháng đến dưới 24 tháng được áp dụng mức lãi suất 5%/năm, thấp hơn 0,3%/năm so với tháng trước."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 12 tháng đến dưới 24 tháng được áp dụng mức lãi suất 5%/năm, thấp hơn 0,3%/năm so với tháng trước."
+    },
+    {
+        "text": "thấp hơn 0,3%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 12 tháng đến dưới 24 tháng được áp dụng mức lãi suất 5%/năm, thấp hơn 0,3%/năm so với tháng trước."
+    },
+    {
+        "text": "tháng trước",
+        "label": "DATE",
+        "evidence": "Kỳ hạn từ 12 tháng đến dưới 24 tháng được áp dụng mức lãi suất 5%/năm, thấp hơn 0,3%/năm so với tháng trước."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Mức lãi suất cao nhất tại VietinBank hiện tại là 5,3%/năm, áp dụng cho kỳ hạn từ 24 tháng trở lên."
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất cao nhất tại VietinBank hiện tại là 5,3%/năm, áp dụng cho kỳ hạn từ 24 tháng trở lên."
+    },
+    {
+        "text": "lãi suất áp dụng lần lượt là 0,1%/năm và 0,2%/năm, không thay đổi so với tháng trước",
+        "label": "EVENT",
+        "evidence": "Đối với tiền gửi không kỳ hạn hoặc có kỳ hạn dưới 1 tháng, lãi suất áp dụng lần lượt là 0,1%/năm và 0,2%/năm, không thay đổi so với tháng trước."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Đối với tiền gửi không kỳ hạn hoặc có kỳ hạn dưới 1 tháng, lãi suất áp dụng lần lượt là 0,1%/năm và 0,2%/năm, không thay đổi so với tháng trước."
+    },
+    {
+        "text": "0,2%/năm",
+        "label": "RATE",
+        "evidence": "Đối với tiền gửi không kỳ hạn hoặc có kỳ hạn dưới 1 tháng, lãi suất áp dụng lần lượt là 0,1%/năm và 0,2%/năm, không thay đổi so với tháng trước."
+    },
+    {
+        "text": "0,10",
+        "label": "RATE",
+        "evidence": "Không kỳ hạn\n0,10"
+    },
+    {
+        "text": "0,20",
+        "label": "RATE",
+        "evidence": "Dưới 1 tháng\n0,20"
+    },
+    {
+        "text": "2,20",
+        "label": "RATE",
+        "evidence": "Từ 1 tháng đến dưới 2 tháng\n2,20"
+    },
+    {
+        "text": "2,50",
+        "label": "RATE",
+        "evidence": "Từ 3 tháng đến dưới 4 tháng\n2,50"
+    },
+    {
+        "text": "3,50",
+        "label": "RATE",
+        "evidence": "Từ 6 tháng đến dưới 7 tháng\n3,50"
+    },
+    {
+        "text": "5,00",
+        "label": "RATE",
+        "evidence": "12 tháng\n5,00"
+    },
+    {
+        "text": "5,30",
+        "label": "RATE",
+        "evidence": "Từ 24 tháng đến dưới 36 tháng\n5,30"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nguồn: VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Lãi suất huy động VietinBank dành cho khách hàng doanh nghiệp"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đối với khách hàng doanh nghiệp, VietinBank cũng giảm mạnh lãi suất huy động so với mức niêm yết cách đây 1 tháng."
+    },
+    {
+        "text": "VietinBank cũng giảm mạnh lãi suất huy động so với mức niêm yết cách đây 1 tháng",
+        "label": "EVENT",
+        "evidence": "Đối với khách hàng doanh nghiệp, VietinBank cũng giảm mạnh lãi suất huy động so với mức niêm yết cách đây 1 tháng."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Đối với khách hàng doanh nghiệp, VietinBank cũng giảm mạnh lãi suất huy động so với mức niêm yết cách đây 1 tháng."
+    },
+    {
+        "text": "2,1",
+        "label": "RATE",
+        "evidence": "Hiện lãi suất tiền gửi tại ngân hàng này đang dao động trong khoảng 2,1 - 4,5%/năm đối với hình thức nhận lãi cuối kỳ."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Hiện lãi suất tiền gửi tại ngân hàng này đang dao động trong khoảng 2,1 - 4,5%/năm đối với hình thức nhận lãi cuối kỳ."
+    },
+    {
+        "text": "mức lãi suất dành cho kỳ hạn từ 1 đến dưới 3 tháng là 2,1%/năm, giảm 0,6%/năm so với tháng trước",
+        "label": "EVENT",
+        "evidence": "Cụ thể, mức lãi suất dành cho kỳ hạn từ 1 đến dưới 3 tháng là 2,1%/năm, giảm 0,6%/năm so với tháng trước."
+    },
+    {
+        "text": "2,1%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, mức lãi suất dành cho kỳ hạn từ 1 đến dưới 3 tháng là 2,1%/năm, giảm 0,6%/năm so với tháng trước."
+    },
+    {
+        "text": "giảm 0,6%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, mức lãi suất dành cho kỳ hạn từ 1 đến dưới 3 tháng là 2,1%/năm, giảm 0,6%/năm so với tháng trước."
+    },
+    {
+        "text": "Kỳ hạn từ 3 tháng đến dưới 6 tháng được hưởng lãi suất 2,4%/năm, giảm 0,8%/năm",
+        "label": "EVENT",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng được hưởng lãi suất 2,4%/năm, giảm 0,8%/năm."
+    },
+    {
+        "text": "2,4%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng được hưởng lãi suất 2,4%/năm, giảm 0,8%/năm."
+    },
+    {
+        "text": "giảm 0,8%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 3 tháng đến dưới 6 tháng được hưởng lãi suất 2,4%/năm, giảm 0,8%/năm."
+    },
+    {
+        "text": "sau khi giảm 0,6 điểm% xuống còn 3,4%/năm",
+        "label": "EVENT",
+        "evidence": "Kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,6 điểm% xuống còn 3,4%/năm."
+    },
+    {
+        "text": "giảm 0,6 điểm%",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,6 điểm% xuống còn 3,4%/năm."
+    },
+    {
+        "text": "3,4%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn từ 6 tháng đến dưới 12 tháng, sau khi giảm 0,6 điểm% xuống còn 3,4%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Mức lãi suất cao nhất mà VietinBank đang áp dụng cho khách hàng doanh nghiệp là 4,5%/năm, dành cho các kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất cao nhất mà VietinBank đang áp dụng cho khách hàng doanh nghiệp là 4,5%/năm, dành cho các kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "12 tháng trở lên",
+        "label": "DATE",
+        "evidence": "Mức lãi suất cao nhất mà VietinBank đang áp dụng cho khách hàng doanh nghiệp là 4,5%/năm, dành cho các kỳ hạn từ 12 tháng trở lên."
+    },
+    {
+        "text": "Mức lãi suất áp dụng cho các kỳ hạn này đã giảm 0,2%/năm so với cách đây 1 tháng",
+        "label": "EVENT",
+        "evidence": "Mức lãi suất áp dụng cho các kỳ hạn này đã giảm 0,2%/năm so với cách đây 1 tháng."
+    },
+    {
+        "text": "giảm 0,2%/năm",
+        "label": "RATE",
+        "evidence": "Mức lãi suất áp dụng cho các kỳ hạn này đã giảm 0,2%/năm so với cách đây 1 tháng."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Mức lãi suất áp dụng cho các kỳ hạn này đã giảm 0,2%/năm so với cách đây 1 tháng."
+    },
+    {
+        "text": "Các khoản tiền gửi không kỳ hạn và có kỳ hạn dưới 1 tháng được hưởng lãi suất là 0,2%/năm, không thay đổi so với tháng 12/2023",
+        "label": "EVENT",
+        "evidence": "Các khoản tiền gửi không kỳ hạn và có kỳ hạn dưới 1 tháng được hưởng lãi suất là 0,2%/năm, không thay đổi so với tháng 12/2023."
+    },
+    {
+        "text": "0,2%/năm",
+        "label": "RATE",
+        "evidence": "Các khoản tiền gửi không kỳ hạn và có kỳ hạn dưới 1 tháng được hưởng lãi suất là 0,2%/năm, không thay đổi so với tháng 12/2023."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Các khoản tiền gửi không kỳ hạn và có kỳ hạn dưới 1 tháng được hưởng lãi suất là 0,2%/năm, không thay đổi so với tháng 12/2023."
+    },
+    {
+        "text": "0,20",
+        "label": "RATE",
+        "evidence": "Không kỳ hạn\n0,20"
+    },
+    {
+        "text": "2,10",
+        "label": "RATE",
+        "evidence": "Từ 1 tháng đến dưới 2 tháng\n2,10"
+    },
+    {
+        "text": "2,40",
+        "label": "RATE",
+        "evidence": "Từ 3 tháng đến dưới 4 tháng\n2,40"
+    },
+    {
+        "text": "3,40",
+        "label": "RATE",
+        "evidence": "Từ 6 tháng đến dưới 7 tháng\n3,40"
+    },
+    {
+        "text": "4,50",
+        "label": "RATE",
+        "evidence": "12 tháng\n4,50"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nguồn: VietinBank"
+    }
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "text": "tăng hơn 10 điểm",
+        "label": "RATE",
+        "evidence": "có thời điểm chỉ số chính tăng hơn 10 điểm trước khi thu hẹp vào cuối phiên."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng 6,38 điểm (+0,6%) lên 1.072,22 điểm."
+    },
+    {
+        "text": "tăng 6,38 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index tăng 6,38 điểm (+0,6%) lên 1.072,22 điểm."
+    },
+    {
+        "text": "+0,6%",
+        "label": "RATE",
+        "evidence": "VN-Index tăng 6,38 điểm (+0,6%) lên 1.072,22 điểm."
+    },
+    {
+        "text": "1.072,22 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index tăng 6,38 điểm (+0,6%) lên 1.072,22 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE sụt giảm nhẹ 6% so với phiên trước, giá trị khớp lệnh đạt 9.395 tỷ đồng."
+    },
+    {
+        "text": "sụt giảm nhẹ 6%",
+        "label": "RATE",
+        "evidence": "Thanh khoản trên HoSE sụt giảm nhẹ 6% so với phiên trước, giá trị khớp lệnh đạt 9.395 tỷ đồng."
+    },
+    {
+        "text": "9.395 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị khớp lệnh đạt 9.395 tỷ đồng."
+    },
+    {
+        "text": "mua ròng phiên thứ 6 liên tiếp",
+        "label": "EVENT",
+        "evidence": "Nhà đầu tư ngoại tiếp tục mua ròng phiên thứ 6 liên tiếp với tổng giá trị lên tới 400 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng giá trị lên tới 400 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK phiên hôm nay trở lại mua ròng với giá trị trên cả ba sàn đạt 270 tỷ đồng."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK phiên hôm nay trở lại mua ròng với giá trị trên cả ba sàn đạt 270 tỷ đồng."
+    },
+    {
+        "text": "270 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị trên cả ba sàn đạt 270 tỷ đồng."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HOSE, khối tự doanh mua ròng xấp xỉ 272 tỷ đồng."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "khối tự doanh mua ròng xấp xỉ 272 tỷ đồng."
+    },
+    {
+        "text": "272 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng xấp xỉ 272 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh",
+        "label": "EVENT",
+        "evidence": "tự doanh mua ròng mạnh 280 tỷ đồng qua kênh khớp lệnh"
+    },
+    {
+        "text": "280 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng mạnh 280 tỷ đồng qua kênh khớp lệnh"
+    },
+    {
+        "text": "bán ròng nhẹ",
+        "label": "EVENT",
+        "evidence": "bán ròng nhẹ 9 tỷ đồng trên kênh thỏa thuận."
+    },
+    {
+        "text": "9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng nhẹ 9 tỷ đồng trên kênh thỏa thuận."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "nhóm tự doanh CTCK đẩy mạnh mua ròng mạnh tại mã HPG với giá trị 35 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "mua ròng mạnh",
+        "label": "EVENT",
+        "evidence": "nhóm tự doanh CTCK đẩy mạnh mua ròng mạnh tại mã HPG với giá trị 35 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "mua ròng mạnh tại mã HPG với giá trị 35 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "35 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 35 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "gom ròng mạnh",
+        "label": "EVENT",
+        "evidence": "ngoài ra còn gom ròng mạnh tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "tại các mã VHM, STB, FPT, VPB, MWG với giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "17-20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị dao động từ 17-20 tỷ đồng."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Ở chiều ngược lại, CTCK tập trung bán ròng 2 chứng chỉ quỹ FUEVFVND và E1VFVN30 lần lượt 16 tỷ và 7 tỷ đồng."
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "CTCK tập trung bán ròng 2 chứng chỉ quỹ FUEVFVND và E1VFVN30 lần lượt 16 tỷ và 7 tỷ đồng."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "chứng chỉ quỹ FUEVFVND và E1VFVN30 lần lượt 16 tỷ và 7 tỷ đồng."
+    },
+    {
+        "text": "E1VFVN30",
+        "label": "TICKER",
+        "evidence": "FUEVFVND và E1VFVN30 lần lượt 16 tỷ và 7 tỷ đồng."
+    },
+    {
+        "text": "16 tỷ",
+        "label": "MONEY",
+        "evidence": "lần lượt 16 tỷ và 7 tỷ đồng."
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "7 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, tự doanh phiên hôm nay bán ròng hơn 5 tỷ đồngtại 6 cổ phiếu, tâm điểm bán TNG (-3 tỷ); PVS (-2 tỷ),..."
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "tự doanh phiên hôm nay bán ròng hơn 5 tỷ đồngtại 6 cổ phiếu, tâm điểm bán TNG (-3 tỷ); PVS (-2 tỷ),..."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng hơn 5 tỷ đồngtại 6 cổ phiếu"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "tâm điểm bán TNG (-3 tỷ)"
+    },
+    {
+        "text": "-3 tỷ",
+        "label": "MONEY",
+        "evidence": "TNG (-3 tỷ)"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVS (-2 tỷ)"
+    },
+    {
+        "text": "-2 tỷ",
+        "label": "MONEY",
+        "evidence": "PVS (-2 tỷ)"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trong khi đó trên UPCoM, tự doanh CTCK mua ròng nhẹ 2 tỷ đồngtại 3 cổ phiếu gồm MCH, QNS và QTP và bán ròng không đáng kể tại VÈ"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK mua ròng nhẹ 2 tỷ đồngtại 3 cổ phiếu gồm MCH, QNS và QTP và bán ròng không đáng kể tại VÈ"
+    },
+    {
+        "text": "mua ròng nhẹ",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK mua ròng nhẹ 2 tỷ đồngtại 3 cổ phiếu gồm MCH, QNS và QTP và bán ròng không đáng kể tại VÈ"
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng nhẹ 2 tỷ đồngtại 3 cổ phiếu"
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "3 cổ phiếu gồm MCH, QNS và QTP"
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "3 cổ phiếu gồm MCH, QNS và QTP"
+    },
+    {
+        "text": "QTP",
+        "label": "TICKER",
+        "evidence": "3 cổ phiếu gồm MCH, QNS và QTP"
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "và bán ròng không đáng kể tại VÈ"
+    }
+]

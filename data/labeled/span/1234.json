@@ -1,0 +1,377 @@
+[
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "NHNN tăng mạnh tỷ giá trung tâm"
+    },
+    {
+        "text": "tăng mạnh tỷ giá trung tâm",
+        "label": "EVENT",
+        "evidence": "NHNN tăng mạnh tỷ giá trung tâm"
+    },
+    {
+        "text": "13/5",
+        "label": "DATE",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "tỷ giá USD trung tâm",
+        "label": "ASSET",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "24.973 VND/USD",
+        "label": "PRICE",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "tăng 28 đồng",
+        "label": "RATE",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua",
+        "label": "EVENT",
+        "evidence": "Sáng nay (13/5), tỷ giá USD trung tâm được Ngân hàng Nhà nước công bố ở mức 24.973 VND/USD, tăng 28 đồng so với mức niêm yết hôm qua và mức cao nhất kể từ khi cơ chế tỷ giá này được thiết lập."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Với biên độ 5%, hiện tỷ giá USD các ngân hàng thương mại được phép giao dịch là 23.724 - 26.222 VND/USD."
+    },
+    {
+        "text": "tỷ giá USD các ngân hàng thương mại",
+        "label": "ASSET",
+        "evidence": "Với biên độ 5%, hiện tỷ giá USD các ngân hàng thương mại được phép giao dịch là 23.724 - 26.222 VND/USD."
+    },
+    {
+        "text": "23.724 - 26.222 VND/USD",
+        "label": "PRICE",
+        "evidence": "Với biên độ 5%, hiện tỷ giá USD các ngân hàng thương mại được phép giao dịch là 23.724 - 26.222 VND/USD."
+    },
+    {
+        "text": "Sở giao dịch Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tỷ giá mua - bán tham khảo cũng được Sở giao dịch Ngân hàng Nhà nước tăng tương ứng lên mức 23.775 - 26.171 VND/USD."
+    },
+    {
+        "text": "23.775 - 26.171 VND/USD",
+        "label": "PRICE",
+        "evidence": "Tỷ giá mua - bán tham khảo cũng được Sở giao dịch Ngân hàng Nhà nước tăng tương ứng lên mức 23.775 - 26.171 VND/USD."
+    },
+    {
+        "text": "Sở giao dịch Ngân hàng Nhà nước tăng tương ứng lên mức 23.775 - 26.171 VND/USD",
+        "label": "EVENT",
+        "evidence": "Tỷ giá mua - bán tham khảo cũng được Sở giao dịch Ngân hàng Nhà nước tăng tương ứng lên mức 23.775 - 26.171 VND/USD."
+    },
+    {
+        "text": "tỷ giá USD",
+        "label": "ASSET",
+        "evidence": "Sáng nay, tỷ giá USD tại các ngân hàng biến động trái chiều, song xu hướng giảm chiếm ưu thế."
+    },
+    {
+        "text": "11h00",
+        "label": "DATE",
+        "evidence": "Lúc 11h00, Vietcombank – Ngân hàng có khối lượng giao dịch ngoại tệ lớn nhất hệ thống – niêm yết tỷ giá USD ở mức 25.750 – 26.140 VND/USD, không thay đổi so với mức chốt ngày hôm qua."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Lúc 11h00, Vietcombank – Ngân hàng có khối lượng giao dịch ngoại tệ lớn nhất hệ thống – niêm yết tỷ giá USD ở mức 25.750 – 26.140 VND/USD, không thay đổi so với mức chốt ngày hôm qua."
+    },
+    {
+        "text": "tỷ giá USD",
+        "label": "ASSET",
+        "evidence": "Lúc 11h00, Vietcombank – Ngân hàng có khối lượng giao dịch ngoại tệ lớn nhất hệ thống – niêm yết tỷ giá USD ở mức 25.750 – 26.140 VND/USD, không thay đổi so với mức chốt ngày hôm qua."
+    },
+    {
+        "text": "25.750 – 26.140 VND/USD",
+        "label": "PRICE",
+        "evidence": "Lúc 11h00, Vietcombank – Ngân hàng có khối lượng giao dịch ngoại tệ lớn nhất hệ thống – niêm yết tỷ giá USD ở mức 25.750 – 26.140 VND/USD, không thay đổi so với mức chốt ngày hôm qua."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV cũng giữ nguyên tỷ giá mua - bán."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trong khi VietinBank tăng mạnh 120 đồng ở giá mua và tăng 10 đồng ở giá bán."
+    },
+    {
+        "text": "tăng mạnh 120 đồng",
+        "label": "RATE",
+        "evidence": "Trong khi VietinBank tăng mạnh 120 đồng ở giá mua và tăng 10 đồng ở giá bán."
+    },
+    {
+        "text": "tăng 10 đồng",
+        "label": "RATE",
+        "evidence": "Trong khi VietinBank tăng mạnh 120 đồng ở giá mua và tăng 10 đồng ở giá bán."
+    },
+    {
+        "text": "VietinBank tăng mạnh 120 đồng ở giá mua và tăng 10 đồng ở giá bán",
+        "label": "EVENT",
+        "evidence": "Trong khi VietinBank tăng mạnh 120 đồng ở giá mua và tăng 10 đồng ở giá bán."
+    },
+    {
+        "text": "tỷ giá USD",
+        "label": "ASSET",
+        "evidence": "Bên nhóm ngân hàng tư nhân, tỷ giá USD có xu hướng giảm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, Techcombank giảm giá mua 22 đồng và giảm giá bán 30 đồng."
+    },
+    {
+        "text": "giảm giá mua 22 đồng",
+        "label": "RATE",
+        "evidence": "Cụ thể, Techcombank giảm giá mua 22 đồng và giảm giá bán 30 đồng."
+    },
+    {
+        "text": "giảm giá bán 30 đồng",
+        "label": "RATE",
+        "evidence": "Cụ thể, Techcombank giảm giá mua 22 đồng và giảm giá bán 30 đồng."
+    },
+    {
+        "text": "Techcombank giảm giá mua 22 đồng và giảm giá bán 30 đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, Techcombank giảm giá mua 22 đồng và giảm giá bán 30 đồng."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbank giảm 10 đồng ở cả hai chiều giao dịch."
+    },
+    {
+        "text": "giảm 10 đồng",
+        "label": "RATE",
+        "evidence": "Eximbank giảm 10 đồng ở cả hai chiều giao dịch."
+    },
+    {
+        "text": "Eximbank giảm 10 đồng ở cả hai chiều giao dịch",
+        "label": "EVENT",
+        "evidence": "Eximbank giảm 10 đồng ở cả hai chiều giao dịch."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong khi Sacombank giảm 17 đồng đối với cả giá mua và giá bán."
+    },
+    {
+        "text": "giảm 17 đồng",
+        "label": "RATE",
+        "evidence": "Trong khi Sacombank giảm 17 đồng đối với cả giá mua và giá bán."
+    },
+    {
+        "text": "Sacombank giảm 17 đồng đối với cả giá mua và giá bán",
+        "label": "EVENT",
+        "evidence": "Trong khi Sacombank giảm 17 đồng đối với cả giá mua và giá bán."
+    },
+    {
+        "text": "12/5",
+        "label": "DATE",
+        "evidence": "Trên thị trường liên ngân hàng, tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)."
+    },
+    {
+        "text": "25.973 VND/USD",
+        "label": "PRICE",
+        "evidence": "Trên thị trường liên ngân hàng, tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)."
+    },
+    {
+        "text": "tăng 8 đồng",
+        "label": "RATE",
+        "evidence": "Trên thị trường liên ngân hàng, tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)."
+    },
+    {
+        "text": "9/5",
+        "label": "DATE",
+        "evidence": "Trên thị trường liên ngân hàng, tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)."
+    },
+    {
+        "text": "tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)",
+        "label": "EVENT",
+        "evidence": "Trên thị trường liên ngân hàng, tỷ giá chốt phiên 12/5 với mức 25.973 VND/USD, tăng 8 đồng so với mức chốt phiên cuối tuần trước (9/5)."
+    },
+    {
+        "text": "10h00 sáng nay",
+        "label": "DATE",
+        "evidence": "Tại thị trường \"chợ đen\", khảo sát lúc 10h00 sáng nay cho thấy đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua."
+    },
+    {
+        "text": "đồng USD",
+        "label": "ASSET",
+        "evidence": "Tại thị trường \"chợ đen\", khảo sát lúc 10h00 sáng nay cho thấy đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua."
+    },
+    {
+        "text": "26.370 - 26.470 VND/USD",
+        "label": "PRICE",
+        "evidence": "Tại thị trường \"chợ đen\", khảo sát lúc 10h00 sáng nay cho thấy đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua."
+    },
+    {
+        "text": "tăng 20 đồng",
+        "label": "RATE",
+        "evidence": "Tại thị trường \"chợ đen\", khảo sát lúc 10h00 sáng nay cho thấy đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua."
+    },
+    {
+        "text": "đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua",
+        "label": "EVENT",
+        "evidence": "Tại thị trường \"chợ đen\", khảo sát lúc 10h00 sáng nay cho thấy đồng USD hiện được giao dịch ở mức 26.370 - 26.470 VND/USD, giá mua và giá bán cùng tăng 20 đồng so với mức ghi nhận sáng qua."
+    },
+    {
+        "text": "Đồng USD bật tăng mạnh trên thị trường quốc tế",
+        "label": "EVENT",
+        "evidence": "Đồng USD bật tăng mạnh trên thị trường quốc tế"
+    },
+    {
+        "text": "USD Index",
+        "label": "ASSET",
+        "evidence": "Trên thị trường quốc tế, chỉ số USD Index (DXY), thước đo sức mạnh của đồng bạc xanh so với các đồng tiền chủ chốt khác, đang dao động quanh mức 101,5 điểm."
+    },
+    {
+        "text": "DXY",
+        "label": "TICKER",
+        "evidence": "Trên thị trường quốc tế, chỉ số USD Index (DXY), thước đo sức mạnh của đồng bạc xanh so với các đồng tiền chủ chốt khác, đang dao động quanh mức 101,5 điểm."
+    },
+    {
+        "text": "101,5 điểm",
+        "label": "PRICE",
+        "evidence": "Trên thị trường quốc tế, chỉ số USD Index (DXY), thước đo sức mạnh của đồng bạc xanh so với các đồng tiền chủ chốt khác, đang dao động quanh mức 101,5 điểm."
+    },
+    {
+        "text": "Đồng USD đã bật tăng mạnh 1,5% trong phiên giao dịch hôm qua",
+        "label": "EVENT",
+        "evidence": "Đồng USD đã bật tăng mạnh 1,5% trong phiên giao dịch hôm qua nhờ được hỗ trợ bởi mức tăng của lợi suất trái phiếu kho bạc Mỹ trong bối cảnh nhà đầu tư lạc quan rằng thỏa thuận thương mại Mỹ - Trung."
+    },
+    {
+        "text": "1,5%",
+        "label": "RATE",
+        "evidence": "Đồng USD đã bật tăng mạnh 1,5% trong phiên giao dịch hôm qua nhờ được hỗ trợ bởi mức tăng của lợi suất trái phiếu kho bạc Mỹ trong bối cảnh nhà đầu tư lạc quan rằng thỏa thuận thương mại Mỹ - Trung."
+    },
+    {
+        "text": "lợi suất trái phiếu kho bạc Mỹ",
+        "label": "ASSET",
+        "evidence": "Đồng USD đã bật tăng mạnh 1,5% trong phiên giao dịch hôm qua nhờ được hỗ trợ bởi mức tăng của lợi suất trái phiếu kho bạc Mỹ trong bối cảnh nhà đầu tư lạc quan rằng thỏa thuận thương mại Mỹ - Trung."
+    },
+    {
+        "text": "thỏa thuận thương mại Mỹ - Trung",
+        "label": "EVENT",
+        "evidence": "Đồng USD đã bật tăng mạnh 1,5% trong phiên giao dịch hôm qua nhờ được hỗ trợ bởi mức tăng của lợi suất trái phiếu kho bạc Mỹ trong bối cảnh nhà đầu tư lạc quan rằng thỏa thuận thương mại Mỹ - Trung."
+    },
+    {
+        "text": "15/4",
+        "label": "DATE",
+        "evidence": "Theo đó, kể từ ngày 15/4, tổng mức thuế quan 145% mà Mỹ áp lên hàng hoá Trung Quốc sẽ giảm xuống còn 30% (bao gồm mức thuế liên quan đến ma tuý fentanyl)."
+    },
+    {
+        "text": "145%",
+        "label": "RATE",
+        "evidence": "Theo đó, kể từ ngày 15/4, tổng mức thuế quan 145% mà Mỹ áp lên hàng hoá Trung Quốc sẽ giảm xuống còn 30% (bao gồm mức thuế liên quan đến ma tuý fentanyl)."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Theo đó, kể từ ngày 15/4, tổng mức thuế quan 145% mà Mỹ áp lên hàng hoá Trung Quốc sẽ giảm xuống còn 30% (bao gồm mức thuế liên quan đến ma tuý fentanyl)."
+    },
+    {
+        "text": "tổng mức thuế quan 145% mà Mỹ áp lên hàng hoá Trung Quốc sẽ giảm xuống còn 30%",
+        "label": "EVENT",
+        "evidence": "Theo đó, kể từ ngày 15/4, tổng mức thuế quan 145% mà Mỹ áp lên hàng hoá Trung Quốc sẽ giảm xuống còn 30% (bao gồm mức thuế liên quan đến ma tuý fentanyl)."
+    },
+    {
+        "text": "125%",
+        "label": "RATE",
+        "evidence": "Đồng thời, mức thuế 125% mà Trung Quốc áp đặt với hàng hoá Mỹ sẽ hạ còn 10%."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Đồng thời, mức thuế 125% mà Trung Quốc áp đặt với hàng hoá Mỹ sẽ hạ còn 10%."
+    },
+    {
+        "text": "mức thuế 125% mà Trung Quốc áp đặt với hàng hoá Mỹ sẽ hạ còn 10%",
+        "label": "EVENT",
+        "evidence": "Đồng thời, mức thuế 125% mà Trung Quốc áp đặt với hàng hoá Mỹ sẽ hạ còn 10%."
+    },
+    {
+        "text": "12/5",
+        "label": "DATE",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "Bộ trưởng Bộ Tài chính Mỹ Scott Bessent",
+        "label": "PERSON",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "Bộ Tài chính Mỹ",
+        "label": "ORG",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "Scott Bessent",
+        "label": "PERSON",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày",
+        "label": "EVENT",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "90 ngày",
+        "label": "DATE",
+        "evidence": "Phát biểu tại một cuộc họp báo ở Geneva (Thuỵ Sỹ) vào sáng ngày 12/5, Bộ trưởng Bộ Tài chính Mỹ Scott Bessent cho biết hai nền kinh tế lớn nhất thế giới đã quyết định tạm ngừng căng thẳng thương mại trong 90 ngày."
+    },
+    {
+        "text": "Bộ trưởng Tài chính Mỹ Scott Bessent",
+        "label": "PERSON",
+        "evidence": "Bộ trưởng Tài chính Mỹ Scott Bessent khẳng định Mỹ muốn mối quan hệ thương mại cân bằng hơn với Trung Quốc và các đối tác, đồng thời cũng cho biết sẽ tiếp tục làm việc với Bắc Kinh trong vài tuần tới để khởi động một thỏa thuận toàn diện hơn."
+    },
+    {
+        "text": "Scott Bessent",
+        "label": "PERSON",
+        "evidence": "Bộ trưởng Tài chính Mỹ Scott Bessent khẳng định Mỹ muốn mối quan hệ thương mại cân bằng hơn với Trung Quốc và các đối tác, đồng thời cũng cho biết sẽ tiếp tục làm việc với Bắc Kinh trong vài tuần tới để khởi động một thỏa thuận toàn diện hơn."
+    },
+    {
+        "text": "cuối tháng 4",
+        "label": "DATE",
+        "evidence": "Kể từ cuối tháng 4, đồng USD đã dần hồi phục so với các đồng tiền chủ chốt khác trong bối cảnh căng thẳng thương mại giữa Mỹ và Trung Quốc hạ nhiệt."
+    },
+    {
+        "text": "đồng USD",
+        "label": "ASSET",
+        "evidence": "Kể từ cuối tháng 4, đồng USD đã dần hồi phục so với các đồng tiền chủ chốt khác trong bối cảnh căng thẳng thương mại giữa Mỹ và Trung Quốc hạ nhiệt."
+    },
+    {
+        "text": "đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro",
+        "label": "EVENT",
+        "evidence": "Trước đó, đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro."
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Trước đó, đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro."
+    },
+    {
+        "text": "đồng franc Thụy Sĩ",
+        "label": "ASSET",
+        "evidence": "Trước đó, đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro."
+    },
+    {
+        "text": "hơn ba năm",
+        "label": "DATE",
+        "evidence": "Trước đó, đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro."
+    },
+    {
+        "text": "đồng euro",
+        "label": "ASSET",
+        "evidence": "Trước đó, đồng USD đã giảm mạnh xuống mức thấp nhất trong 10 năm so với đồng franc Thụy Sĩ và yếu nhất trong hơn ba năm so với đồng euro."
+    }
+]

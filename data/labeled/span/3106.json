@@ -1,0 +1,372 @@
+[
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của MSVN, các ngân hàng vẫn có ưu thế hấp dẫn nhà đầu tư trong các công ty niêm yết trên thị trường chứng khoán, đặc biệt là ở các nước đang phát triển như Việt Nam trong giai đoạn hiện nay."
+    },
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "MSVN nhận định một số ngân hàng tư nhân Việt Nam sẽ nổi lên trong thập kỷ này để trở thành trụ cột chính của ngành tài chính quốc gia."
+    },
+    {
+        "text": "10%/năm",
+        "label": "RATE",
+        "evidence": "kế hoạch GDP tăng trưởng 10%/năm, tổng vốn đầu tư khoảng 1.400 tỷ USD trong 5 năm (280 tỷ USD/năm), chủ yếu cho hạ tầng"
+    },
+    {
+        "text": "1.400 tỷ USD",
+        "label": "MONEY",
+        "evidence": "tổng vốn đầu tư khoảng 1.400 tỷ USD trong 5 năm (280 tỷ USD/năm), chủ yếu cho hạ tầng"
+    },
+    {
+        "text": "5 năm",
+        "label": "DATE",
+        "evidence": "tổng vốn đầu tư khoảng 1.400 tỷ USD trong 5 năm (280 tỷ USD/năm), chủ yếu cho hạ tầng"
+    },
+    {
+        "text": "280 tỷ USD",
+        "label": "MONEY",
+        "evidence": "tổng vốn đầu tư khoảng 1.400 tỷ USD trong 5 năm (280 tỷ USD/năm), chủ yếu cho hạ tầng"
+    },
+    {
+        "text": "nâng hạng tín nhiệm quốc gia lên Investment Grade",
+        "label": "EVENT",
+        "evidence": "kỳ vọng nâng hạng tín nhiệm quốc gia lên Investment Grade (2028–2030) và thị trường chứng khoán lên Emerging Market để hút vốn ngoại"
+    },
+    {
+        "text": "2028–2030",
+        "label": "DATE",
+        "evidence": "kỳ vọng nâng hạng tín nhiệm quốc gia lên Investment Grade (2028–2030) và thị trường chứng khoán lên Emerging Market để hút vốn ngoại"
+    },
+    {
+        "text": "thị trường chứng khoán lên Emerging Market",
+        "label": "EVENT",
+        "evidence": "kỳ vọng nâng hạng tín nhiệm quốc gia lên Investment Grade (2028–2030) và thị trường chứng khoán lên Emerging Market để hút vốn ngoại"
+    },
+    {
+        "text": "phát triển Trung tâm Tài chính Quốc tế (IFC) tại TP.HCM và Đà Nẵng",
+        "label": "EVENT",
+        "evidence": "phát triển Trung tâm Tài chính Quốc tế (IFC) tại TP.HCM và Đà Nẵng, nhằm nâng tỷ trọng dịch vụ tài chính từ mức 19% GDP HCMC lên 30–35% như các trung tâm tài chính quốc tế."
+    },
+    {
+        "text": "IFC",
+        "label": "ORG",
+        "evidence": "phát triển Trung tâm Tài chính Quốc tế (IFC) tại TP.HCM và Đà Nẵng, nhằm nâng tỷ trọng dịch vụ tài chính từ mức 19% GDP HCMC lên 30–35% như các trung tâm tài chính quốc tế."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "nâng tỷ trọng dịch vụ tài chính từ mức 19% GDP HCMC lên 30–35% như các trung tâm tài chính quốc tế."
+    },
+    {
+        "text": "30–35%",
+        "label": "RATE",
+        "evidence": "nâng tỷ trọng dịch vụ tài chính từ mức 19% GDP HCMC lên 30–35% như các trung tâm tài chính quốc tế."
+    },
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "MSVN kỳ vọng một giai đoạn đầu tư sinh lời hứa hẹn khởi sắc trong thời gian 3–5 năm tới."
+    },
+    {
+        "text": "3–5 năm",
+        "label": "DATE",
+        "evidence": "MSVN kỳ vọng một giai đoạn đầu tư sinh lời hứa hẹn khởi sắc trong thời gian 3–5 năm tới."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Trước đó, SSI cũng vừa công bố báo cáo nhận định khả năng nâng hạng thị trường có thể kích hoạt dòng vốn mới với quy mô lớn (từ cả thị trường trong nước và nhà đầu tư nước ngoài) vào cổ phiếu ngân hàng"
+    },
+    {
+        "text": "nâng hạng thị trường",
+        "label": "EVENT",
+        "evidence": "Trước đó, SSI cũng vừa công bố báo cáo nhận định khả năng nâng hạng thị trường có thể kích hoạt dòng vốn mới với quy mô lớn (từ cả thị trường trong nước và nhà đầu tư nước ngoài) vào cổ phiếu ngân hàng"
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "SSI cũng đã nâng mức P/B mục tiêu cho các ngân hàng."
+    },
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Những vị trí tiềm năng sáng trong ngành ngân hàng theo báo cáo của MSVN bao gồm: HDBank (HDB), Techcombank (TCB), MB (MBB), Vietcombank (VCB), VietinBank (CTG)…"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank được đánh giá nằm trong các ngân hàng tư nhân lớn, sẽ là trụ cột tài chính của kỷ nguyên \"Rising Nation\" và HDBank cũng là \"alpha stock – cổ phiếu đột phá\", hấp dẫn cho nhà đầu tư lâu dài nhờ sức bật thanh khoản và chiến lược tăng trưởng rõ ràng."
+    },
+    {
+        "text": "alpha stock – cổ phiếu đột phá",
+        "label": "ASSET",
+        "evidence": "HDBank cũng là \"alpha stock – cổ phiếu đột phá\", hấp dẫn cho nhà đầu tư lâu dài nhờ sức bật thanh khoản và chiến lược tăng trưởng rõ ràng."
+    },
+    {
+        "text": "Q2/2025",
+        "label": "DATE",
+        "evidence": "Biểu đồ ROE, NIM và tăng trưởng tín dụng của Top 15 ngân hàng tại Q2/2025, trong đó HDBank đạt ROE 26,5%, NIM 5,23% và tăng trưởng tín dụng 18,2%"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Biểu đồ ROE, NIM và tăng trưởng tín dụng của Top 15 ngân hàng tại Q2/2025, trong đó HDBank đạt ROE 26,5%, NIM 5,23% và tăng trưởng tín dụng 18,2%"
+    },
+    {
+        "text": "26,5%",
+        "label": "RATE",
+        "evidence": "trong đó HDBank đạt ROE 26,5%, NIM 5,23% và tăng trưởng tín dụng 18,2%"
+    },
+    {
+        "text": "5,23%",
+        "label": "RATE",
+        "evidence": "trong đó HDBank đạt ROE 26,5%, NIM 5,23% và tăng trưởng tín dụng 18,2%"
+    },
+    {
+        "text": "18,2%",
+        "label": "RATE",
+        "evidence": "trong đó HDBank đạt ROE 26,5%, NIM 5,23% và tăng trưởng tín dụng 18,2%"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh những lợi ích được hưởng của ngành ngân hàng nói chung, giá trị HDBank còn gắn với những lợi thế riêng như: câu chuyện sắp tới có cổ đông chiến lược nước ngoài lớn, nới room ngoại (hiện HDB đã kín room 17,5% và sắp tới sẽ nâng room lên 27%, trong khi room ngoại tối đa của HDB có thể lên đến 49% do tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "hiện HDB đã kín room 17,5% và sắp tới sẽ nâng room lên 27%"
+    },
+    {
+        "text": "17,5%",
+        "label": "RATE",
+        "evidence": "hiện HDB đã kín room 17,5% và sắp tới sẽ nâng room lên 27%"
+    },
+    {
+        "text": "27%",
+        "label": "RATE",
+        "evidence": "hiện HDB đã kín room 17,5% và sắp tới sẽ nâng room lên 27%"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "trong khi room ngoại tối đa của HDB có thể lên đến 49% do tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á"
+    },
+    {
+        "text": "49%",
+        "label": "RATE",
+        "evidence": "trong khi room ngoại tối đa của HDB có thể lên đến 49% do tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á"
+    },
+    {
+        "text": "tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á",
+        "label": "EVENT",
+        "evidence": "trong khi room ngoại tối đa của HDB có thể lên đến 49% do tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á"
+    },
+    {
+        "text": "Ngân hàng Đông Á",
+        "label": "ORG",
+        "evidence": "do tham gia nhận chuyển giao bắt buộc Ngân hàng Đông Á"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank cũng là ngân hàng có tăng trưởng tín dụng trong nhóm đầu ngành, dự kiến tỷ lệ tăng trưởng tín dụng năm 2025 sẽ đạt trên 32%."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "dự kiến tỷ lệ tăng trưởng tín dụng năm 2025 sẽ đạt trên 32%."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "dự kiến tỷ lệ tăng trưởng tín dụng năm 2025 sẽ đạt trên 32%."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank cũng luôn đứng đầu về hiệu suất kinh doanh với ROE 26,5% và lợi nhuận trước thuế trên 10.000 tỷ đồng trong nửa đầu năm 2025."
+    },
+    {
+        "text": "26,5%",
+        "label": "RATE",
+        "evidence": "HDBank cũng luôn đứng đầu về hiệu suất kinh doanh với ROE 26,5% và lợi nhuận trước thuế trên 10.000 tỷ đồng trong nửa đầu năm 2025."
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế trên 10.000 tỷ đồng trong nửa đầu năm 2025."
+    },
+    {
+        "text": "nửa đầu năm 2025",
+        "label": "DATE",
+        "evidence": "lợi nhuận trước thuế trên 10.000 tỷ đồng trong nửa đầu năm 2025."
+    },
+    {
+        "text": "HD Financial Group",
+        "label": "ORG",
+        "evidence": "các nguồn thu mới từ hệ sinh thái HD Financial Group sẽ giúp HDBank duy trì tăng trưởng và lợi nhuận bền vững."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "các nguồn thu mới từ hệ sinh thái HD Financial Group sẽ giúp HDBank duy trì tăng trưởng và lợi nhuận bền vững."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Đặc biệt, HDBank sở hữu hệ sinh thái tài chính và tiềm năng tăng thêm giá trị rất lớn từ nguồn vốn huy động và hợp tác chiến lược, như: bảo hiểm bancassurance (đang đàm phán với một số công ty bảo hiểm quốc tế lớn), IPO các công ty HD Saison (dẫn đầu thị trường cho vay tiêu dùng) và HD Securities (công ty chứng khoán trong hệ sinh thái của HD Financial Group)."
+    },
+    {
+        "text": "IPO các công ty HD Saison",
+        "label": "EVENT",
+        "evidence": "IPO các công ty HD Saison (dẫn đầu thị trường cho vay tiêu dùng) và HD Securities (công ty chứng khoán trong hệ sinh thái của HD Financial Group)."
+    },
+    {
+        "text": "HD Saison",
+        "label": "ORG",
+        "evidence": "IPO các công ty HD Saison (dẫn đầu thị trường cho vay tiêu dùng) và HD Securities (công ty chứng khoán trong hệ sinh thái của HD Financial Group)."
+    },
+    {
+        "text": "HD Securities",
+        "label": "ORG",
+        "evidence": "IPO các công ty HD Saison (dẫn đầu thị trường cho vay tiêu dùng) và HD Securities (công ty chứng khoán trong hệ sinh thái của HD Financial Group)."
+    },
+    {
+        "text": "HD Financial Group",
+        "label": "ORG",
+        "evidence": "HD Securities (công ty chứng khoán trong hệ sinh thái của HD Financial Group)."
+    },
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "Nguồn: Báo cáo của MSVN"
+    },
+    {
+        "text": "Maybank IBG",
+        "label": "ORG",
+        "evidence": "Theo Maybank IBG (MSVN), HDBank có mức giá mục tiêu là 43.600đ/cp (tăng thêm +40%), dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "MSVN",
+        "label": "ORG",
+        "evidence": "Theo Maybank IBG (MSVN), HDBank có mức giá mục tiêu là 43.600đ/cp (tăng thêm +40%), dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Theo Maybank IBG (MSVN), HDBank có mức giá mục tiêu là 43.600đ/cp (tăng thêm +40%), dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "43.600đ/cp",
+        "label": "PRICE",
+        "evidence": "HDBank có mức giá mục tiêu là 43.600đ/cp (tăng thêm +40%), dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "+40%",
+        "label": "RATE",
+        "evidence": "43.600đ/cp (tăng thêm +40%), dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "2026E",
+        "label": "DATE",
+        "evidence": "dựa trên P/B 2026E ở mức 1.7x."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Nhiều nhà phân tích và nhà đầu tư cho rằng có thể có những đột biến tích cực hơn nữa với tiềm năng thật của HDBank sẽ được lộ diện trong thời gian tới."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Với ROE duy trì mức cao nhất ngành trên 25%, cùng những lợi thế và tiềm năng riêng sẽ được khai thác cùng các giá trị gia tăng sắp tới, mức P/B hợp lý của HDBank có thể tiệm cận 2.0x, tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "mức P/B hợp lý của HDBank có thể tiệm cận 2.0x, tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "VPB",
+        "label": "ORG",
+        "evidence": "tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "tương tự nhóm ngân hàng Vietcombank (2.7x), BIDV (2.0x), VPB (1.8x) và Techcombank (1.8x)."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Khi đó, giá mục tiêu củaHDBcó thể vượt mức 50.000đ/cp."
+    },
+    {
+        "text": "50.000đ/cp",
+        "label": "PRICE",
+        "evidence": "Khi đó, giá mục tiêu củaHDBcó thể vượt mức 50.000đ/cp."
+    }
+]

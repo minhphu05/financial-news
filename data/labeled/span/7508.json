@@ -1,0 +1,157 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cho biết, thời gian vừa qua đã xuất hiện hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank gọi điện mời phát hành thẻ tín dụng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cho biết, thời gian vừa qua đã xuất hiện hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank gọi điện mời phát hành thẻ tín dụng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Vietcombank cho biết, thời gian vừa qua đã xuất hiện hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank gọi điện mời phát hành thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Vietcombank cho biết, thời gian vừa qua đã xuất hiện hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank gọi điện mời phát hành thẻ tín dụng."
+    },
+    {
+        "text": "mở thẻ ghi nợ phi vật lý",
+        "label": "EVENT",
+        "evidence": "Cụ thể, kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Cụ thể, kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Cụ thể, kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Trong một số trường hợp, khi nhận cuộc gọi, khách hàng sẽ nghe thấy thông điệp giả danh tổng đài tự động:“Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Trong một số trường hợp, khi nhận cuộc gọi, khách hàng sẽ nghe thấy thông điệp giả danh tổng đài tự động:“Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "Ví điện tử",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian yêu cầu khách hàng cung cấp một số thông tin thẻ để liên kết thẻ của khách hàng với Ví điện tử của chúng, từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các thông tin chúng yêu cầu cung cấp thường bao gồm:Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các thông tin chúng yêu cầu cung cấp thường bao gồm:Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các thông tin chúng yêu cầu cung cấp thường bao gồm:Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…"
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Các thông tin chúng yêu cầu cung cấp thường bao gồm:Thông tin thẻ: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trong dịch vụ ngân hàng số VCB Digibank…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cho hay, kẻ gian cũng có thể yêu cầu khách hàng cung cấp thông tin số tài khoản, thông tin cá nhân (CCCD, hình ảnh sinh trắc học…), thông tin bảo mật dịch vụ (mật khẩu, OTP …) để đăng nhập ứng dụng ngân hàng và chiếm đoạt tài sản của khách hàng."
+    },
+    {
+        "text": "chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Trong quá trình lừa đảo, kẻ gian có thể yêu cầu khách hàng chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ…."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank khuyến cáo, khách hàng tuyệt đối không cung cấp các thông tin bảo mật (thông tin thẻ, mật khẩu ứng dụng VCBDigibank, mã OTP) cho bất kỳ ai."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Vietcombank khuyến cáo, khách hàng tuyệt đối không cung cấp các thông tin bảo mật (thông tin thẻ, mật khẩu ứng dụng VCBDigibank, mã OTP) cho bất kỳ ai."
+    },
+    {
+        "text": "VCBDigibank",
+        "label": "ORG",
+        "evidence": "Vietcombank khuyến cáo, khách hàng tuyệt đối không cung cấp các thông tin bảo mật (thông tin thẻ, mật khẩu ứng dụng VCBDigibank, mã OTP) cho bất kỳ ai."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank KHÔNG yêu cầu khách hàng cung cấp thông tin bảo mật dịch vụ dưới mọi hình thức."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank KHÔNG gửi thư điện tử, tin nhắn SMS có chứa đường link tới khách hàng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "https://www.vietcombank.com.vn",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "1900545413",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "18001565",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khách hàng chỉ liên hệ và nhận thông tin qua các kênh chính thức của Vietcombank: website https://www.vietcombank.com.vn , Hotline 1900545413 dành cho khách hàng thông thường, Hotline 18001565 dành cho Khách hàng Ưu tiên, Hoặc Chuyên viên Chăm sóc khách hàng Priority với thông tin liên hệ được hiển thị tại VCB Digibank (Mục Cài đặt/Liên hệ với Vietcombank/Chuyên viên chăm sóc chuyên trách)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng này cũng khuyến cáo khách hàng thường xuyên cập nhật nội dung Hướng dẫn giao dịch an toàn trên website của Vietcombank tại mục: Tin nổi bật >> Cảnh báo rủi ro."
+    }
+]

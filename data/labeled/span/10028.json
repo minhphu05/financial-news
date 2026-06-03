@@ -1,0 +1,597 @@
+[
+    {
+        "text": "Sun PhuQuoc Airways",
+        "label": "ORG",
+        "evidence": "Đang quyết liệt đàm phán với Sun PhuQuoc Airways, \"bù đắp\" Vietjet Air"
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "Đang quyết liệt đàm phán với Sun PhuQuoc Airways, \"bù đắp\" Vietjet Air"
+    },
+    {
+        "text": "tháng 4/2025",
+        "label": "DATE",
+        "evidence": "Đặc biệt, từ tháng 4/2025, hãng hàng không Vietjet Air sẽ tự làm dịch vụ mặt đất, khiến Công ty phải nghiên cứu các giải pháp tìm kiếm khách hàng mới, phát triển các dịch vụ mới để gia tăng thêm nguồn thu."
+    },
+    {
+        "text": "Vietjet Air",
+        "label": "ORG",
+        "evidence": "Đặc biệt, từ tháng 4/2025, hãng hàng không Vietjet Air sẽ tự làm dịch vụ mặt đất, khiến Công ty phải nghiên cứu các giải pháp tìm kiếm khách hàng mới, phát triển các dịch vụ mới để gia tăng thêm nguồn thu."
+    },
+    {
+        "text": "hãng hàng không Vietjet Air sẽ tự làm dịch vụ mặt đất",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, từ tháng 4/2025, hãng hàng không Vietjet Air sẽ tự làm dịch vụ mặt đất, khiến Công ty phải nghiên cứu các giải pháp tìm kiếm khách hàng mới, phát triển các dịch vụ mới để gia tăng thêm nguồn thu."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Vietjet là khách hàng lớn của công ty khi chiếm khoảng 40% doanh thu năm 2024."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Vietjet là khách hàng lớn của công ty khi chiếm khoảng 40% doanh thu năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Vietjet là khách hàng lớn của công ty khi chiếm khoảng 40% doanh thu năm 2024."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "Chủ tịch SGN chia sẻ thêm: \"Khi Vietjet ra tự phục vụ thì chúng tôi mất 39-40% tỷ trọng doanh thu, lợi nhuận mất đâu đó trên 20%."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Chủ tịch SGN chia sẻ thêm: \"Khi Vietjet ra tự phục vụ thì chúng tôi mất 39-40% tỷ trọng doanh thu, lợi nhuận mất đâu đó trên 20%."
+    },
+    {
+        "text": "39-40%",
+        "label": "RATE",
+        "evidence": "Chủ tịch SGN chia sẻ thêm: \"Khi Vietjet ra tự phục vụ thì chúng tôi mất 39-40% tỷ trọng doanh thu, lợi nhuận mất đâu đó trên 20%."
+    },
+    {
+        "text": "trên 20%",
+        "label": "RATE",
+        "evidence": "Chủ tịch SGN chia sẻ thêm: \"Khi Vietjet ra tự phục vụ thì chúng tôi mất 39-40% tỷ trọng doanh thu, lợi nhuận mất đâu đó trên 20%."
+    },
+    {
+        "text": "Hôm qua",
+        "label": "DATE",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines",
+        "label": "EVENT",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "United Airlines",
+        "label": "ORG",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "10-20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hôm qua, SGN có nhận thêm hợp đồng từ một hãng hàng không ở Mỹ United Airlines, dự kiến mang lại thêm 60 tỷ đồng doanh thu/năm và sẽ tăng hơn các năm sau, lợi nhuận khoảng 10-20 tỷ đồng."
+    },
+    {
+        "text": "Sun PhuQuoc Airways",
+        "label": "ORG",
+        "evidence": "Tôi muốn chia sẻ thêm đang có hãng nội địa Sun PhuQuoc Airways với 30 máy bay hoạt động cuối năm nay, chúng tôi quyết định tham gia thầu hãng này, đồng thời tự tin với kinh nghiệm và sự thiện chí sẽ có thuận lợi hơn các đơn vị khác, khả năng sẽ lấy được hợp đồng."
+    },
+    {
+        "text": "cuối năm nay",
+        "label": "DATE",
+        "evidence": "Tôi muốn chia sẻ thêm đang có hãng nội địa Sun PhuQuoc Airways với 30 máy bay hoạt động cuối năm nay, chúng tôi quyết định tham gia thầu hãng này, đồng thời tự tin với kinh nghiệm và sự thiện chí sẽ có thuận lợi hơn các đơn vị khác, khả năng sẽ lấy được hợp đồng."
+    },
+    {
+        "text": "tham gia thầu hãng này",
+        "label": "EVENT",
+        "evidence": "Tôi muốn chia sẻ thêm đang có hãng nội địa Sun PhuQuoc Airways với 30 máy bay hoạt động cuối năm nay, chúng tôi quyết định tham gia thầu hãng này, đồng thời tự tin với kinh nghiệm và sự thiện chí sẽ có thuận lợi hơn các đơn vị khác, khả năng sẽ lấy được hợp đồng."
+    },
+    {
+        "text": "lấy được hợp đồng",
+        "label": "EVENT",
+        "evidence": "Tôi muốn chia sẻ thêm đang có hãng nội địa Sun PhuQuoc Airways với 30 máy bay hoạt động cuối năm nay, chúng tôi quyết định tham gia thầu hãng này, đồng thời tự tin với kinh nghiệm và sự thiện chí sẽ có thuận lợi hơn các đơn vị khác, khả năng sẽ lấy được hợp đồng."
+    },
+    {
+        "text": "200 tỷ doanh thu/năm",
+        "label": "MONEY",
+        "evidence": "Nếu thành công thì chúng tôi sẽ có 200 tỷ doanh thu/năm và lợi nhuận lớn, bởi đây là hãng hàng không 5-6 sao\"."
+    },
+    {
+        "text": "chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Công ty dự chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt; đồng thời sẽ tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành để đảm bảo đủ nguồn vốn đầu tư dự án Long Thành."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Công ty dự chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt; đồng thời sẽ tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành để đảm bảo đủ nguồn vốn đầu tư dự án Long Thành."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Công ty dự chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt; đồng thời sẽ tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành để đảm bảo đủ nguồn vốn đầu tư dự án Long Thành."
+    },
+    {
+        "text": "tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành",
+        "label": "EVENT",
+        "evidence": "Công ty dự chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt; đồng thời sẽ tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành để đảm bảo đủ nguồn vốn đầu tư dự án Long Thành."
+    },
+    {
+        "text": "Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành",
+        "label": "ORG",
+        "evidence": "Công ty dự chia cổ tức năm 2025 với tỷ lệ 15% bằng tiền mặt; đồng thời sẽ tiếp tục góp vốn vào Công ty TNHH Phục vụ mặt đất Sài Gòn – Long Thành để đảm bảo đủ nguồn vốn đầu tư dự án Long Thành."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, Công ty vẫn đạt lãi ròng gần 271 tỷ đồng, tăng trưởng 19% và vượt 13% kế hoạch đề ra."
+    },
+    {
+        "text": "gần 271 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, Công ty vẫn đạt lãi ròng gần 271 tỷ đồng, tăng trưởng 19% và vượt 13% kế hoạch đề ra."
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "Năm 2024, Công ty vẫn đạt lãi ròng gần 271 tỷ đồng, tăng trưởng 19% và vượt 13% kế hoạch đề ra."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Năm 2024, Công ty vẫn đạt lãi ròng gần 271 tỷ đồng, tăng trưởng 19% và vượt 13% kế hoạch đề ra."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu)",
+        "label": "EVENT",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "gần 84 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "2.500 đồng cho mỗi cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "trích 97 tỷ đồng cho quỹ đầu tư phát triển",
+        "label": "EVENT",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "97 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với kết quả đạt được, HĐQT đề xuất trích gần 84 tỷ đồng để thực hiện chia cổ tức với tỷ lệ 25% (2.500 đồng cho mỗi cổ phiếu) và trích 97 tỷ đồng cho quỹ đầu tư phát triển (chủ yếu dùng để đầu tư dự án tại Long Thành)."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "Mới đây, SGN đã ký kết hợp tác chiến lược với Sasco để cung cấp dịch vụ và phát triển sản phẩm mới; ký hợp hợp tác đào tạo với trường đại học để chuẩn bị phục vụ Dự án Sân bay Long Thành đi vào khai thác từ năm 2026."
+    },
+    {
+        "text": "ký kết hợp tác chiến lược với Sasco",
+        "label": "EVENT",
+        "evidence": "Mới đây, SGN đã ký kết hợp tác chiến lược với Sasco để cung cấp dịch vụ và phát triển sản phẩm mới; ký hợp hợp tác đào tạo với trường đại học để chuẩn bị phục vụ Dự án Sân bay Long Thành đi vào khai thác từ năm 2026."
+    },
+    {
+        "text": "Sasco",
+        "label": "ORG",
+        "evidence": "Mới đây, SGN đã ký kết hợp tác chiến lược với Sasco để cung cấp dịch vụ và phát triển sản phẩm mới; ký hợp hợp tác đào tạo với trường đại học để chuẩn bị phục vụ Dự án Sân bay Long Thành đi vào khai thác từ năm 2026."
+    },
+    {
+        "text": "năm 2026",
+        "label": "DATE",
+        "evidence": "Mới đây, SGN đã ký kết hợp tác chiến lược với Sasco để cung cấp dịch vụ và phát triển sản phẩm mới; ký hợp hợp tác đào tạo với trường đại học để chuẩn bị phục vụ Dự án Sân bay Long Thành đi vào khai thác từ năm 2026."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "Liên danh giữa SGN và Phục vụ mặt đất Hà Nội (HGS) là đơn vị đã trúng thầu Dự án Đầu tư xây dựng và kinh doanh dịch vụ sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không và dịch vụ phục vụ kỹ thuật thương mại mặt đất số 2 tại Long Thành."
+    },
+    {
+        "text": "Phục vụ mặt đất Hà Nội",
+        "label": "ORG",
+        "evidence": "Liên danh giữa SGN và Phục vụ mặt đất Hà Nội (HGS) là đơn vị đã trúng thầu Dự án Đầu tư xây dựng và kinh doanh dịch vụ sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không và dịch vụ phục vụ kỹ thuật thương mại mặt đất số 2 tại Long Thành."
+    },
+    {
+        "text": "HGS",
+        "label": "ORG",
+        "evidence": "Liên danh giữa SGN và Phục vụ mặt đất Hà Nội (HGS) là đơn vị đã trúng thầu Dự án Đầu tư xây dựng và kinh doanh dịch vụ sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không và dịch vụ phục vụ kỹ thuật thương mại mặt đất số 2 tại Long Thành."
+    },
+    {
+        "text": "trúng thầu Dự án Đầu tư xây dựng và kinh doanh dịch vụ sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không và dịch vụ phục vụ kỹ thuật thương mại mặt đất số 2 tại Long Thành",
+        "label": "EVENT",
+        "evidence": "Liên danh giữa SGN và Phục vụ mặt đất Hà Nội (HGS) là đơn vị đã trúng thầu Dự án Đầu tư xây dựng và kinh doanh dịch vụ sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không và dịch vụ phục vụ kỹ thuật thương mại mặt đất số 2 tại Long Thành."
+    },
+    {
+        "text": "miễn nhiệm các thành viên HĐQT nhiệm kỳ cũ",
+        "label": "EVENT",
+        "evidence": "Cũng tại đại hội, Công ty thực hiện miễn nhiệm các thành viên HĐQT nhiệm kỳ cũ và bầu lại cho nhiệm kỳ mới."
+    },
+    {
+        "text": "bầu lại cho nhiệm kỳ mới",
+        "label": "EVENT",
+        "evidence": "Cũng tại đại hội, Công ty thực hiện miễn nhiệm các thành viên HĐQT nhiệm kỳ cũ và bầu lại cho nhiệm kỳ mới."
+    },
+    {
+        "text": "Tổng công ty Cảng hàng không Việt Nam",
+        "label": "ORG",
+        "evidence": "Danh sách ứng viên gồm 3 thành viên do Tổng công ty Cảng hàng không Việt Nam (ACV) đề cử gồm ông Nguyễn Cao Cường, Bùi Tuấn Anh và Nguyễn Công Hoàn."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Danh sách ứng viên gồm 3 thành viên do Tổng công ty Cảng hàng không Việt Nam (ACV) đề cử gồm ông Nguyễn Cao Cường, Bùi Tuấn Anh và Nguyễn Công Hoàn."
+    },
+    {
+        "text": "Nguyễn Cao Cường",
+        "label": "PERSON",
+        "evidence": "Danh sách ứng viên gồm 3 thành viên do Tổng công ty Cảng hàng không Việt Nam (ACV) đề cử gồm ông Nguyễn Cao Cường, Bùi Tuấn Anh và Nguyễn Công Hoàn."
+    },
+    {
+        "text": "Bùi Tuấn Anh",
+        "label": "PERSON",
+        "evidence": "Danh sách ứng viên gồm 3 thành viên do Tổng công ty Cảng hàng không Việt Nam (ACV) đề cử gồm ông Nguyễn Cao Cường, Bùi Tuấn Anh và Nguyễn Công Hoàn."
+    },
+    {
+        "text": "Nguyễn Công Hoàn",
+        "label": "PERSON",
+        "evidence": "Danh sách ứng viên gồm 3 thành viên do Tổng công ty Cảng hàng không Việt Nam (ACV) đề cử gồm ông Nguyễn Cao Cường, Bùi Tuấn Anh và Nguyễn Công Hoàn."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Cổ đông Vietjet đề cử ông Lưu Đức Khánh và quỹ America LLC để cử ông Lê Anh Minh."
+    },
+    {
+        "text": "Lưu Đức Khánh",
+        "label": "PERSON",
+        "evidence": "Cổ đông Vietjet đề cử ông Lưu Đức Khánh và quỹ America LLC để cử ông Lê Anh Minh."
+    },
+    {
+        "text": "quỹ America LLC",
+        "label": "ORG",
+        "evidence": "Cổ đông Vietjet đề cử ông Lưu Đức Khánh và quỹ America LLC để cử ông Lê Anh Minh."
+    },
+    {
+        "text": "Lê Anh Minh",
+        "label": "PERSON",
+        "evidence": "Cổ đông Vietjet đề cử ông Lưu Đức Khánh và quỹ America LLC để cử ông Lê Anh Minh."
+    },
+    {
+        "text": "ông Cường",
+        "label": "PERSON",
+        "evidence": "Trong đó ông Cường, ông Hoàng và ông Khánh là những thành viên cũ."
+    },
+    {
+        "text": "ông Hoàng",
+        "label": "PERSON",
+        "evidence": "Trong đó ông Cường, ông Hoàng và ông Khánh là những thành viên cũ."
+    },
+    {
+        "text": "ông Khánh",
+        "label": "PERSON",
+        "evidence": "Trong đó ông Cường, ông Hoàng và ông Khánh là những thành viên cũ."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "1. Vietjet rời đi thì quản lý đội ngũ nhân sự ra sao?"
+    },
+    {
+        "text": "Chủ tịch HĐQT Nguyễn Cao Cường",
+        "label": "PERSON",
+        "evidence": "Chủ tịch HĐQT Nguyễn Cao Cường: Để phục vụ Vietjet thì cần khoảng hơn 300 nhân viên, sau khi họ đi thì còn giữ lại đâu đó 90 người để phục vụ cho Vietravel và một phần chuẩn bị cho tương lai Long Thành, cộng với việc chuẩn bị cho 1 số hãng nội địa khác, chúng tôi đang quyết liệt lấy về hợp đồng Sun PhuQuoc Airways."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT Nguyễn Cao Cường: Để phục vụ Vietjet thì cần khoảng hơn 300 nhân viên, sau khi họ đi thì còn giữ lại đâu đó 90 người để phục vụ cho Vietravel và một phần chuẩn bị cho tương lai Long Thành, cộng với việc chuẩn bị cho 1 số hãng nội địa khác, chúng tôi đang quyết liệt lấy về hợp đồng Sun PhuQuoc Airways."
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT Nguyễn Cao Cường: Để phục vụ Vietjet thì cần khoảng hơn 300 nhân viên, sau khi họ đi thì còn giữ lại đâu đó 90 người để phục vụ cho Vietravel và một phần chuẩn bị cho tương lai Long Thành, cộng với việc chuẩn bị cho 1 số hãng nội địa khác, chúng tôi đang quyết liệt lấy về hợp đồng Sun PhuQuoc Airways."
+    },
+    {
+        "text": "lấy về hợp đồng Sun PhuQuoc Airways",
+        "label": "EVENT",
+        "evidence": "Chủ tịch HĐQT Nguyễn Cao Cường: Để phục vụ Vietjet thì cần khoảng hơn 300 nhân viên, sau khi họ đi thì còn giữ lại đâu đó 90 người để phục vụ cho Vietravel và một phần chuẩn bị cho tương lai Long Thành, cộng với việc chuẩn bị cho 1 số hãng nội địa khác, chúng tôi đang quyết liệt lấy về hợp đồng Sun PhuQuoc Airways."
+    },
+    {
+        "text": "Sun PhuQuoc Airways",
+        "label": "ORG",
+        "evidence": "Chủ tịch HĐQT Nguyễn Cao Cường: Để phục vụ Vietjet thì cần khoảng hơn 300 nhân viên, sau khi họ đi thì còn giữ lại đâu đó 90 người để phục vụ cho Vietravel và một phần chuẩn bị cho tương lai Long Thành, cộng với việc chuẩn bị cho 1 số hãng nội địa khác, chúng tôi đang quyết liệt lấy về hợp đồng Sun PhuQuoc Airways."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "ai có nhu cầu đi sang Vietjet thì phía đối tác cũng sẵn sàng nhận 200 lao động."
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Về trang thiết bị thì Vietjet có thuê lại trang thiết bị do nhận thấy sự lãng phí khi chúng tôi chưa dùng tới, giá thuê tương đối khoảng hơn 10 tỷ đồng trong 3 năm, trừ đi khấu hao thì vẫn có lãi."
+    },
+    {
+        "text": "thuê lại trang thiết bị",
+        "label": "EVENT",
+        "evidence": "Về trang thiết bị thì Vietjet có thuê lại trang thiết bị do nhận thấy sự lãng phí khi chúng tôi chưa dùng tới, giá thuê tương đối khoảng hơn 10 tỷ đồng trong 3 năm, trừ đi khấu hao thì vẫn có lãi."
+    },
+    {
+        "text": "hơn 10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về trang thiết bị thì Vietjet có thuê lại trang thiết bị do nhận thấy sự lãng phí khi chúng tôi chưa dùng tới, giá thuê tương đối khoảng hơn 10 tỷ đồng trong 3 năm, trừ đi khấu hao thì vẫn có lãi."
+    },
+    {
+        "text": "hơn 7,2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chi phí xử lý một lần và trợ cấp thôi việc hơn 7,2 tỷ đồng cho khoảng 200 người."
+    },
+    {
+        "text": "doanh thu 2025 dự kiến giảm 15%",
+        "label": "EVENT",
+        "evidence": "2. Vì sao doanh thu 2025 dự kiến giảm 15% nhưng sao lợi nhuận lại giảm 41%?"
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "2. Vì sao doanh thu 2025 dự kiến giảm 15% nhưng sao lợi nhuận lại giảm 41%?"
+    },
+    {
+        "text": "giảm 15%",
+        "label": "RATE",
+        "evidence": "2. Vì sao doanh thu 2025 dự kiến giảm 15% nhưng sao lợi nhuận lại giảm 41%?"
+    },
+    {
+        "text": "lợi nhuận lại giảm 41%",
+        "label": "EVENT",
+        "evidence": "2. Vì sao doanh thu 2025 dự kiến giảm 15% nhưng sao lợi nhuận lại giảm 41%?"
+    },
+    {
+        "text": "giảm 41%",
+        "label": "RATE",
+        "evidence": "2. Vì sao doanh thu 2025 dự kiến giảm 15% nhưng sao lợi nhuận lại giảm 41%?"
+    },
+    {
+        "text": "Vietjet",
+        "label": "ORG",
+        "evidence": "Thứ hai, sản lượng giảm từ Vietjet thì lương bình quân của nhân viên cũng giảm."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, tôi có xin công ty mẹ ACV giữ mức lương người lao động ổn định như 2024 để giữ được nhân tài."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, tôi có xin công ty mẹ ACV giữ mức lương người lao động ổn định như 2024 để giữ được nhân tài."
+    },
+    {
+        "text": "khoảng 60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Do vậy, chi phí liên quan đến lương thưởng, trợ cấp thôi việc đâu đó khoảng 60 tỷ đồng, là nguyên nhân chính làm lợi nhuận giảm nhanh hơn doanh thu."
+    },
+    {
+        "text": "16-17%",
+        "label": "RATE",
+        "evidence": "Chủ tịch: Với IRR khoảng 16-17%, khả năng đến năm 2028 sẽ có lãi."
+    },
+    {
+        "text": "năm 2028",
+        "label": "DATE",
+        "evidence": "Chủ tịch: Với IRR khoảng 16-17%, khả năng đến năm 2028 sẽ có lãi."
+    },
+    {
+        "text": "trên 8%",
+        "label": "RATE",
+        "evidence": "Hoạt động tại bay Đà Nẵng và Cam Ranh cũng đang tốt, năm nay đặt mục tiêu tăng trưởng rất cao đều phải trên 8%, thậm chí chúng tôi còn muốn điều chỉnh tăng trưởng lên 2 con số, bù đắp lại chi phí lớn và bù đắp cho công ty mẹ ở Tân Sơn Nhất."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "Thị phần tại Cam Ranh khoảng 60%, đang lớn hơn đối thủ AGS."
+    },
+    {
+        "text": "AGS",
+        "label": "ORG",
+        "evidence": "Thị phần tại Cam Ranh khoảng 60%, đang lớn hơn đối thủ AGS."
+    },
+    {
+        "text": "Sau năm 2027",
+        "label": "DATE",
+        "evidence": "4. Sau năm 2027 thì dự kiến hoạt động ra sao?"
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Về việc tăng vốn, hiện ACV vẫn giữ 48%."
+    },
+    {
+        "text": "48%",
+        "label": "RATE",
+        "evidence": "Về việc tăng vốn, hiện ACV vẫn giữ 48%."
+    },
+    {
+        "text": "giảm xuống 35%",
+        "label": "EVENT",
+        "evidence": "Trước đây có định hướng giảm xuống 35% giai đoạn 2015-2020 nhưng đến nay chỉ giảm được xuống 48% và đã hết hạn."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Trước đây có định hướng giảm xuống 35% giai đoạn 2015-2020 nhưng đến nay chỉ giảm được xuống 48% và đã hết hạn."
+    },
+    {
+        "text": "giai đoạn 2015-2020",
+        "label": "DATE",
+        "evidence": "Trước đây có định hướng giảm xuống 35% giai đoạn 2015-2020 nhưng đến nay chỉ giảm được xuống 48% và đã hết hạn."
+    },
+    {
+        "text": "48%",
+        "label": "RATE",
+        "evidence": "Trước đây có định hướng giảm xuống 35% giai đoạn 2015-2020 nhưng đến nay chỉ giảm được xuống 48% và đã hết hạn."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Công ty mẹ ACV đang đi vay rất nhiều để xây dựng Long Thành, do đó sẽ có kế hoạch đồng bộ ở các công ty con để có tiền đầu tư các sân bay; trong đó chắc chắn có SGN, có thể tăng vốn hoặc thoái vốn."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "Công ty mẹ ACV đang đi vay rất nhiều để xây dựng Long Thành, do đó sẽ có kế hoạch đồng bộ ở các công ty con để có tiền đầu tư các sân bay; trong đó chắc chắn có SGN, có thể tăng vốn hoặc thoái vốn."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Công ty mẹ ACV đang đi vay rất nhiều để xây dựng Long Thành, do đó sẽ có kế hoạch đồng bộ ở các công ty con để có tiền đầu tư các sân bay; trong đó chắc chắn có SGN, có thể tăng vốn hoặc thoái vốn."
+    },
+    {
+        "text": "thoái vốn",
+        "label": "EVENT",
+        "evidence": "Công ty mẹ ACV đang đi vay rất nhiều để xây dựng Long Thành, do đó sẽ có kế hoạch đồng bộ ở các công ty con để có tiền đầu tư các sân bay; trong đó chắc chắn có SGN, có thể tăng vốn hoặc thoái vốn."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "5. Khoản nợ của Bamboo Airways đã thanh toán chưa?"
+    },
+    {
+        "text": "Bamboo",
+        "label": "ORG",
+        "evidence": "Chủ tịch: Nợ của Bamboo khoảng 72 tỷ đồng, chúng tôi đã ngồi xuống đàm phán và chuyển sang không kiện nữa mà hòa giải."
+    },
+    {
+        "text": "72 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chủ tịch: Nợ của Bamboo khoảng 72 tỷ đồng, chúng tôi đã ngồi xuống đàm phán và chuyển sang không kiện nữa mà hòa giải."
+    },
+    {
+        "text": "Bamboo",
+        "label": "ORG",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "trả nợ đúng cam kết 5 tỷ trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "5 tỷ",
+        "label": "MONEY",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "năm 2025 cam kết trả 16 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "16 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, Bamboo đã trả nợ đúng cam kết 5 tỷ trong năm 2024 và năm 2025 cam kết trả 16 tỷ đồng (hiện đã trả 3 tỷ đồng và đang đốc thúc thu hồi nợ)."
+    },
+    {
+        "text": "đến năm 2028 sẽ trả hết",
+        "label": "EVENT",
+        "evidence": "Dự kiến đến năm 2028 sẽ trả hết và các khoản này đã được trích lập dự phòng 100%."
+    },
+    {
+        "text": "năm 2028",
+        "label": "DATE",
+        "evidence": "Dự kiến đến năm 2028 sẽ trả hết và các khoản này đã được trích lập dự phòng 100%."
+    },
+    {
+        "text": "trích lập dự phòng 100%",
+        "label": "EVENT",
+        "evidence": "Dự kiến đến năm 2028 sẽ trả hết và các khoản này đã được trích lập dự phòng 100%."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Dự kiến đến năm 2028 sẽ trả hết và các khoản này đã được trích lập dự phòng 100%."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Lãnh đạo ACV cũng bày tỏ quan tâm, ủng hộ Công ty làm các mảng dịch vụ khác ngoài phục vụ hành khách."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Long Thành có 2 ga hàng hóa, trong đó ACV đang triển khai xây dựng ga số 1 cách đây 1 tháng với sản lượng khoảng 500.000 tấn/năm và có thể mở rộng 650.000 tấn, diện tích 6-7ha và có thể mở rộng thêm."
+    },
+    {
+        "text": "cách đây 1 tháng",
+        "label": "DATE",
+        "evidence": "Long Thành có 2 ga hàng hóa, trong đó ACV đang triển khai xây dựng ga số 1 cách đây 1 tháng với sản lượng khoảng 500.000 tấn/năm và có thể mở rộng 650.000 tấn, diện tích 6-7ha và có thể mở rộng thêm."
+    },
+    {
+        "text": "500.000 tấn/năm",
+        "label": "VOLUME",
+        "evidence": "Long Thành có 2 ga hàng hóa, trong đó ACV đang triển khai xây dựng ga số 1 cách đây 1 tháng với sản lượng khoảng 500.000 tấn/năm và có thể mở rộng 650.000 tấn, diện tích 6-7ha và có thể mở rộng thêm."
+    },
+    {
+        "text": "650.000 tấn",
+        "label": "VOLUME",
+        "evidence": "Long Thành có 2 ga hàng hóa, trong đó ACV đang triển khai xây dựng ga số 1 cách đây 1 tháng với sản lượng khoảng 500.000 tấn/năm và có thể mở rộng 650.000 tấn, diện tích 6-7ha và có thể mở rộng thêm."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "ACV đang nghiên cứu thêm về khu thương mại tự do hàng hóa (FTZ) ở Long Thành, có ưu điểm gần kho hàng số 1."
+    },
+    {
+        "text": "SGN",
+        "label": "TICKER",
+        "evidence": "SGN có rất nhiều cơ hội tham gia các mảng dịch vụ khác, với lợi thế 2.000 người lao động có kinh nghiệm hàng không nên chỉ cần có thêm 1 số chứng chỉ về hàng hóa."
+    }
+]

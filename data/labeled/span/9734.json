@@ -1,0 +1,312 @@
+[
+    {
+        "text": "Dow Jones",
+        "label": "ASSET",
+        "evidence": "Đêm qua, Dow Jones đóng cửa giảm 375 điểm sau báo cáo GDP."
+    },
+    {
+        "text": "giảm 375 điểm",
+        "label": "RATE",
+        "evidence": "Đêm qua, Dow Jones đóng cửa giảm 375 điểm sau báo cáo GDP."
+    },
+    {
+        "text": "báo cáo GDP",
+        "label": "EVENT",
+        "evidence": "Đêm qua, Dow Jones đóng cửa giảm 375 điểm sau báo cáo GDP."
+    },
+    {
+        "text": "ngày 25/4",
+        "label": "DATE",
+        "evidence": "Số liệu vừa mới công bố ngày 25/4 cho thấy nền kinh tế Mỹ đã chậm lại trong ba tháng đầu tiên của năm 2024."
+    },
+    {
+        "text": "ba tháng đầu tiên của năm 2024",
+        "label": "DATE",
+        "evidence": "Số liệu vừa mới công bố ngày 25/4 cho thấy nền kinh tế Mỹ đã chậm lại trong ba tháng đầu tiên của năm 2024."
+    },
+    {
+        "text": "Cục Dự trữ Liên bang Mỹ",
+        "label": "ORG",
+        "evidence": "Sự quan tâm của thị trường đổ dồn vào thước đo lạm phát tháng 3 của Cục Dự trữ Liên bang Mỹ (FED) công bố tối nay, làm căn cứ dự báo triển vọng cắt giảm lãi suất"
+    },
+    {
+        "text": "FED",
+        "label": "ORG",
+        "evidence": "Sự quan tâm của thị trường đổ dồn vào thước đo lạm phát tháng 3 của Cục Dự trữ Liên bang Mỹ (FED) công bố tối nay, làm căn cứ dự báo triển vọng cắt giảm lãi suất"
+    },
+    {
+        "text": "thước đo lạm phát tháng 3 của Cục Dự trữ Liên bang Mỹ (FED) công bố tối nay",
+        "label": "EVENT",
+        "evidence": "Sự quan tâm của thị trường đổ dồn vào thước đo lạm phát tháng 3 của Cục Dự trữ Liên bang Mỹ (FED) công bố tối nay, làm căn cứ dự báo triển vọng cắt giảm lãi suất"
+    },
+    {
+        "text": "cắt giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "Sự quan tâm của thị trường đổ dồn vào thước đo lạm phát tháng 3 của Cục Dự trữ Liên bang Mỹ (FED) công bố tối nay, làm căn cứ dự báo triển vọng cắt giảm lãi suất"
+    },
+    {
+        "text": "KRX tiếp trễ hẹn",
+        "label": "EVENT",
+        "evidence": "Trong nước, thông tin KRX tiếp trễ hẹn cũng khiến thị trường thất vọng."
+    },
+    {
+        "text": "Ủy ban Chứng khoán Nhà nước",
+        "label": "ORG",
+        "evidence": "Ủy ban Chứng khoán Nhà nước không chấp thuận việc đưa hệ thống KRX vào vận hành ngày 2/5 với nhiều lý do được đưa ra."
+    },
+    {
+        "text": "không chấp thuận việc đưa hệ thống KRX vào vận hành",
+        "label": "EVENT",
+        "evidence": "Ủy ban Chứng khoán Nhà nước không chấp thuận việc đưa hệ thống KRX vào vận hành ngày 2/5 với nhiều lý do được đưa ra."
+    },
+    {
+        "text": "ngày 2/5",
+        "label": "DATE",
+        "evidence": "Ủy ban Chứng khoán Nhà nước không chấp thuận việc đưa hệ thống KRX vào vận hành ngày 2/5 với nhiều lý do được đưa ra."
+    },
+    {
+        "text": "kế hoạch đưa KRX vào hoạt động",
+        "label": "EVENT",
+        "evidence": "Nhóm chứng khoán phản ứng tiêu cực nhất với thay đổi này, trong khi trước đó từng “đua trần” mỗi lần đón nhận diễn biến mới, kế hoạch đưa KRX vào hoạt động."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Góp lực đẩy quan trọng cho VN-Index đi lên là đà tăng từ VIC."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Góp lực đẩy quan trọng cho VN-Index đi lên là đà tăng từ VIC."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Cổ phiếu Vingroup tăng 5,8%, giữ đà tăng sau khi doanh nghiệp tổ chức đại hội cổ đông, với phần trả lời đáng chú ý của ông Phạm Nhật Vượng về dòng tiền, Vinfast."
+    },
+    {
+        "text": "tăng 5,8%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu Vingroup tăng 5,8%, giữ đà tăng sau khi doanh nghiệp tổ chức đại hội cổ đông, với phần trả lời đáng chú ý của ông Phạm Nhật Vượng về dòng tiền, Vinfast."
+    },
+    {
+        "text": "đại hội cổ đông",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu Vingroup tăng 5,8%, giữ đà tăng sau khi doanh nghiệp tổ chức đại hội cổ đông, với phần trả lời đáng chú ý của ông Phạm Nhật Vượng về dòng tiền, Vinfast."
+    },
+    {
+        "text": "Phạm Nhật Vượng",
+        "label": "PERSON",
+        "evidence": "Cổ phiếu Vingroup tăng 5,8%, giữ đà tăng sau khi doanh nghiệp tổ chức đại hội cổ đông, với phần trả lời đáng chú ý của ông Phạm Nhật Vượng về dòng tiền, Vinfast."
+    },
+    {
+        "text": "Vinfast",
+        "label": "ORG",
+        "evidence": "Cổ phiếu Vingroup tăng 5,8%, giữ đà tăng sau khi doanh nghiệp tổ chức đại hội cổ đông, với phần trả lời đáng chú ý của ông Phạm Nhật Vượng về dòng tiền, Vinfast."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "GVR",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Nhóm VN30 dù trong trạng thái phân hoá, nhưng các mã dẫn đầu đà tăng như HDB, SHB, GVR, MWG, PLX, TCB… vẫn hỗ trợ đáng kể cho VN-Index."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, nhóm cổ phiếu để mất điểm như BID, MSN, GAS, CTG, HPG… không quá tiêu cực."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, nhóm cổ phiếu để mất điểm như BID, MSN, GAS, CTG, HPG… không quá tiêu cực."
+    },
+    {
+        "text": "GAS",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, nhóm cổ phiếu để mất điểm như BID, MSN, GAS, CTG, HPG… không quá tiêu cực."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, nhóm cổ phiếu để mất điểm như BID, MSN, GAS, CTG, HPG… không quá tiêu cực."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, nhóm cổ phiếu để mất điểm như BID, MSN, GAS, CTG, HPG… không quá tiêu cực."
+    },
+    {
+        "text": "mất trên 1 điểm",
+        "label": "RATE",
+        "evidence": "Không cổ phiếu khiến VN-Index mất trên 1 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Giá trị khớp lệnh HoSE hơn 14.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 14.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị khớp lệnh HoSE hơn 14.000 tỷ đồng."
+    },
+    {
+        "text": "tăng 4,55 điểm",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index tăng 4,55 điểm (0,38%) lên 1.209,52 điểm."
+    },
+    {
+        "text": "0,38%",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index tăng 4,55 điểm (0,38%) lên 1.209,52 điểm."
+    },
+    {
+        "text": "1.209,52 điểm",
+        "label": "PRICE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index tăng 4,55 điểm (0,38%) lên 1.209,52 điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index giảm 0,75 điểm (0,33%) xuống 226,82 điểm."
+    },
+    {
+        "text": "giảm 0,75 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 0,75 điểm (0,33%) xuống 226,82 điểm."
+    },
+    {
+        "text": "0,33%",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 0,75 điểm (0,33%) xuống 226,82 điểm."
+    },
+    {
+        "text": "226,82 điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Index giảm 0,75 điểm (0,33%) xuống 226,82 điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index tăng 0,43 điểm (0,49%) lên 88,76 điểm."
+    },
+    {
+        "text": "tăng 0,43 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,43 điểm (0,49%) lên 88,76 điểm."
+    },
+    {
+        "text": "0,49%",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,43 điểm (0,49%) lên 88,76 điểm."
+    },
+    {
+        "text": "88,76 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM-Index tăng 0,43 điểm (0,49%) lên 88,76 điểm."
+    },
+    {
+        "text": "mua ròng trở lại 217 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Khối ngoại mua ròng trở lại 217 tỷ đồng, tập trung vào MWG, PVS, VCB, MSN, KDH…"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Khối ngoại mua ròng trở lại 217 tỷ đồng, tập trung vào MWG, PVS, VCB, MSN, KDH…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Khối ngoại mua ròng trở lại 217 tỷ đồng, tập trung vào MWG, PVS, VCB, MSN, KDH…"
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "Khối ngoại mua ròng trở lại 217 tỷ đồng, tập trung vào MWG, PVS, VCB, MSN, KDH…"
+    },
+    {
+        "text": "kỳ nghỉ lễ 30/4-1/5 kéo dài 5 ngày",
+        "label": "EVENT",
+        "evidence": "Khép lại phiên hôm nay, thị trường bước vào kỳ nghỉ lễ 30/4-1/5 kéo dài 5 ngày."
+    },
+    {
+        "text": "Sở Giao dịch chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "VNX",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "Sở Giao dịch chứng khoán TPHCM",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "Sở Giao dịch chứng khoán Hà Nội",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "VSDC",
+        "label": "ORG",
+        "evidence": "Sở Giao dịch chứng khoán Việt Nam (VNX), Sở Giao dịch chứng khoán TPHCM (HoSE), Sở Giao dịch chứng khoán Hà Nội (HNX), Tổng Công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thực hiện nghỉ hoán đổi 5 ngày."
+    },
+    {
+        "text": "ngừng trong các ngày nghỉ lễ trên",
+        "label": "EVENT",
+        "evidence": "Giao dịch trên sàn chứng khoán do đó cũng sẽ ngừng trong các ngày nghỉ lễ trên."
+    },
+    {
+        "text": "ngày đi làm bù thứ Bảy (4/5)",
+        "label": "DATE",
+        "evidence": "Vào ngày đi làm bù thứ Bảy (4/5), các sở giao dịch chứng khoán, VSDC không thực hiện giao dịch, hoạt động bù trừ, thanh toán."
+    },
+    {
+        "text": "4/5",
+        "label": "DATE",
+        "evidence": "Vào ngày đi làm bù thứ Bảy (4/5), các sở giao dịch chứng khoán, VSDC không thực hiện giao dịch, hoạt động bù trừ, thanh toán."
+    },
+    {
+        "text": "các sở giao dịch chứng khoán, VSDC không thực hiện giao dịch, hoạt động bù trừ, thanh toán",
+        "label": "EVENT",
+        "evidence": "Vào ngày đi làm bù thứ Bảy (4/5), các sở giao dịch chứng khoán, VSDC không thực hiện giao dịch, hoạt động bù trừ, thanh toán."
+    }
+]

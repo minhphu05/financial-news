@@ -1,0 +1,407 @@
+[
+    {
+        "text": "Ngân hàng VIB",
+        "label": "ORG",
+        "evidence": "Ngân hàng VIB"
+    },
+    {
+        "text": "tạm ngừng hoạt động tại một số chi nhánh, phòng giao dịch và hệ thống ATM/CDM",
+        "label": "EVENT",
+        "evidence": "đã nhanh chóng đưa ra các thông báo về việc tạm ngừng hoạt động tại một số chi nhánh, phòng giao dịch và hệ thống ATM/CDM."
+    },
+    {
+        "text": "Ngân hàng Quốc Tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Quốc Tế Việt Nam (VIB) vừa phát đi thông báo khẩn về việc tạm dừng hoạt động tại một số chi nhánh/phòng giao dịch."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Ngân hàng Quốc Tế Việt Nam (VIB) vừa phát đi thông báo khẩn về việc tạm dừng hoạt động tại một số chi nhánh/phòng giao dịch."
+    },
+    {
+        "text": "tạm dừng hoạt động tại một số chi nhánh/phòng giao dịch",
+        "label": "EVENT",
+        "evidence": "về việc tạm dừng hoạt động tại một số chi nhánh/phòng giao dịch."
+    },
+    {
+        "text": "22/7/2025",
+        "label": "DATE",
+        "evidence": "trong ngày hôm nay, 22/7/2025 (Thứ Ba)"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "các điểm giao dịch của VIB tại 1 số địa phương sẽ tạm ngừng phục vụ do ảnh hưởng trực tiếp của bão Wipha."
+    },
+    {
+        "text": "tạm ngừng phục vụ",
+        "label": "EVENT",
+        "evidence": "các điểm giao dịch của VIB tại 1 số địa phương sẽ tạm ngừng phục vụ do ảnh hưởng trực tiếp của bão Wipha."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB dự kiến sẽ làm việc bình thường trở lại vào ngày mai, 23/7/2025 (Thứ Tư), tùy thuộc vào tình hình thực tế và diễn biến của cơn bão."
+    },
+    {
+        "text": "làm việc bình thường trở lại",
+        "label": "EVENT",
+        "evidence": "VIB dự kiến sẽ làm việc bình thường trở lại vào ngày mai, 23/7/2025 (Thứ Tư), tùy thuộc vào tình hình thực tế và diễn biến của cơn bão."
+    },
+    {
+        "text": "23/7/2025",
+        "label": "DATE",
+        "evidence": "vào ngày mai, 23/7/2025 (Thứ Tư)"
+    },
+    {
+        "text": "dừng hoạt động",
+        "label": "EVENT",
+        "evidence": "Danh sách Chi nhánh/ Phòng giao dịch dừng hoạt động tại Hải Phòng, Quảng Ninh và Hưng Yên như sau:"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chi nhánh, phòng giao dịch VIB sẽ tạm dừng hoạt động do bão số 3 WIPHA."
+    },
+    {
+        "text": "tạm dừng hoạt động",
+        "label": "EVENT",
+        "evidence": "Chi nhánh, phòng giao dịch VIB sẽ tạm dừng hoạt động do bão số 3 WIPHA."
+    },
+    {
+        "text": "tạm ngừng hoạt động",
+        "label": "EVENT",
+        "evidence": "Trong thời gian các chi nhánh/phòng giao dịch tạm ngừng hoạt động, VIB khuyến khích khách hàng ưu tiên sử dụng các kênh giao dịch trực tuyến."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong thời gian các chi nhánh/phòng giao dịch tạm ngừng hoạt động, VIB khuyến khích khách hàng ưu tiên sử dụng các kênh giao dịch trực tuyến."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các giao dịch qua thẻ, ứng dụng MyVIB, Internet Banking và hệ thống ATM vẫn hoạt động bình thường."
+    },
+    {
+        "text": "ứng dụng MyVIB",
+        "label": "ASSET",
+        "evidence": "Các giao dịch qua thẻ, ứng dụng MyVIB, Internet Banking và hệ thống ATM vẫn hoạt động bình thường."
+    },
+    {
+        "text": "Internet Banking",
+        "label": "ASSET",
+        "evidence": "Các giao dịch qua thẻ, ứng dụng MyVIB, Internet Banking và hệ thống ATM vẫn hoạt động bình thường."
+    },
+    {
+        "text": "hệ thống ATM",
+        "label": "ASSET",
+        "evidence": "Các giao dịch qua thẻ, ứng dụng MyVIB, Internet Banking và hệ thống ATM vẫn hoạt động bình thường."
+    },
+    {
+        "text": "hoạt động bình thường",
+        "label": "EVENT",
+        "evidence": "và hệ thống ATM vẫn hoạt động bình thường."
+    },
+    {
+        "text": "MyVIB",
+        "label": "ASSET",
+        "evidence": "chuyển tiền qua số thẻ/số tài khoản (trên MyVIB) hoặc hình thức chuyển tiền nhanh (trên Internet Banking)"
+    },
+    {
+        "text": "Internet Banking",
+        "label": "ASSET",
+        "evidence": "chuyển tiền nhanh (trên Internet Banking) để đảm bảo giao dịch được xử lý thông suốt và không bị gián đoạn."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Tại TPBank, ngân hàng này cũng đã thông báo tạm ngừng phục vụ tại một số điểm giao dịch hoặc hệ thống TPBank LiveBank 24/7 do ảnh hưởng của mưa bão."
+    },
+    {
+        "text": "tạm ngừng phục vụ tại một số điểm giao dịch hoặc hệ thống TPBank LiveBank 24/7",
+        "label": "EVENT",
+        "evidence": "cũng đã thông báo tạm ngừng phục vụ tại một số điểm giao dịch hoặc hệ thống TPBank LiveBank 24/7 do ảnh hưởng của mưa bão."
+    },
+    {
+        "text": "TPBank LiveBank 24/7",
+        "label": "ASSET",
+        "evidence": "hệ thống TPBank LiveBank 24/7 do ảnh hưởng của mưa bão."
+    },
+    {
+        "text": "16h ngày 21/7 - 22/7",
+        "label": "DATE",
+        "evidence": "từ 16h ngày 21/7 - 22/7 các khu vực thuộc địa phận TP Hải Phòng và tỉnh Quảng Ninh đã bắt đầu ngưng phục vụ"
+    },
+    {
+        "text": "ngưng phục vụ",
+        "label": "EVENT",
+        "evidence": "đã bắt đầu ngưng phục vụ, bao gồm: TPBank Tô Hiệu, TPBank Ngô Quyền (TP Hải Phòng); TPBank Cẩm Phả, TPBank Uông Bí (Quảng Ninh)."
+    },
+    {
+        "text": "TPBank Tô Hiệu",
+        "label": "ORG",
+        "evidence": "bao gồm: TPBank Tô Hiệu, TPBank Ngô Quyền (TP Hải Phòng)"
+    },
+    {
+        "text": "TPBank Ngô Quyền",
+        "label": "ORG",
+        "evidence": "TPBank Tô Hiệu, TPBank Ngô Quyền (TP Hải Phòng)"
+    },
+    {
+        "text": "TPBank Cẩm Phả",
+        "label": "ORG",
+        "evidence": "TPBank Cẩm Phả, TPBank Uông Bí (Quảng Ninh)."
+    },
+    {
+        "text": "TPBank Uông Bí",
+        "label": "ORG",
+        "evidence": "TPBank Cẩm Phả, TPBank Uông Bí (Quảng Ninh)."
+    },
+    {
+        "text": "TPBank Thái Bình",
+        "label": "ORG",
+        "evidence": "Khu vực Hưng Yên: TPBank Thái Bình."
+    },
+    {
+        "text": "TPBank Hải Hậu",
+        "label": "ORG",
+        "evidence": "Khu vực Ninh Bình: TPBank Hải Hậu."
+    },
+    {
+        "text": "TPBank LiveBank 24/7",
+        "label": "ASSET",
+        "evidence": "Đối với dịch vụ TPBank LiveBank 24/7, từ 12h ngày 21/7, TPBank đã ngừng phục vụ dịch vụ này tại các tỉnh, thành phố như Hải Phòng, Quảng Ninh, Ninh Bình, Thái Bình (LiveBank Thái Bình), Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "12h ngày 21/7",
+        "label": "DATE",
+        "evidence": "từ 12h ngày 21/7, TPBank đã ngừng phục vụ dịch vụ này tại các tỉnh, thành phố như Hải Phòng, Quảng Ninh, Ninh Bình, Thái Bình (LiveBank Thái Bình), Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank đã ngừng phục vụ dịch vụ này tại các tỉnh, thành phố như Hải Phòng, Quảng Ninh, Ninh Bình, Thái Bình (LiveBank Thái Bình), Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "ngừng phục vụ dịch vụ này",
+        "label": "EVENT",
+        "evidence": "TPBank đã ngừng phục vụ dịch vụ này tại các tỉnh, thành phố như Hải Phòng, Quảng Ninh, Ninh Bình, Thái Bình (LiveBank Thái Bình), Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "LiveBank Thái Bình",
+        "label": "ASSET",
+        "evidence": "Thái Bình (LiveBank Thái Bình), Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "LiveBank Lê Ngọc Hân",
+        "label": "ASSET",
+        "evidence": "Hưng Yên và LiveBank Lê Ngọc Hân (Hà Nội)."
+    },
+    {
+        "text": "LiveBank Nam Định",
+        "label": "ASSET",
+        "evidence": "Khu vực Ninh Bình: LiveBank Nam Định, LiveBank Nam Trực, LiveBank Trần Hưng Đạo, LiveBank Hải Hậu, Livebank Tam Cốc"
+    },
+    {
+        "text": "LiveBank Nam Trực",
+        "label": "ASSET",
+        "evidence": "LiveBank Nam Định, LiveBank Nam Trực, LiveBank Trần Hưng Đạo, LiveBank Hải Hậu, Livebank Tam Cốc"
+    },
+    {
+        "text": "LiveBank Trần Hưng Đạo",
+        "label": "ASSET",
+        "evidence": "LiveBank Nam Trực, LiveBank Trần Hưng Đạo, LiveBank Hải Hậu, Livebank Tam Cốc"
+    },
+    {
+        "text": "LiveBank Hải Hậu",
+        "label": "ASSET",
+        "evidence": "LiveBank Trần Hưng Đạo, LiveBank Hải Hậu, Livebank Tam Cốc"
+    },
+    {
+        "text": "Livebank Tam Cốc",
+        "label": "ASSET",
+        "evidence": "LiveBank Hải Hậu, Livebank Tam Cốc"
+    },
+    {
+        "text": "LiveBank Uông Bí",
+        "label": "ASSET",
+        "evidence": "Khu vực Quảng Ninh: LiveBank Uông Bí, LiveBank Quảng Ninh, LiveBank Cẩm Phả"
+    },
+    {
+        "text": "LiveBank Quảng Ninh",
+        "label": "ASSET",
+        "evidence": "LiveBank Uông Bí, LiveBank Quảng Ninh, LiveBank Cẩm Phả"
+    },
+    {
+        "text": "LiveBank Cẩm Phả",
+        "label": "ASSET",
+        "evidence": "LiveBank Quảng Ninh, LiveBank Cẩm Phả"
+    },
+    {
+        "text": "LiveBank Thái Bình",
+        "label": "ASSET",
+        "evidence": "Khu vực Hưng Yên: LiveBank Thái Bình"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "TPBank hiện chưa công bố thời gian cụ thể sẽ mở cửa trở lại các điểm giao dịch này, do việc này còn phụ thuộc vào mức độ ảnh hưởng và diễn biến phức tạp của bão Wipha."
+    },
+    {
+        "text": "mở cửa trở lại các điểm giao dịch này",
+        "label": "EVENT",
+        "evidence": "sẽ mở cửa trở lại các điểm giao dịch này, do việc này còn phụ thuộc vào mức độ ảnh hưởng và diễn biến phức tạp của bão Wipha."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB"
+    },
+    {
+        "text": "Ngân hàng Phương Đông",
+        "label": "ORG",
+        "evidence": "Ngân hàng Phương Đông (OCB) cũng đã kịp thời thông báo đến Quý Khách hàng về việc tạm ngừng giao dịch tại một số chi nhánh/phòng giao dịch và hoạt động ATM/CDM trong khu vực bị ảnh hưởng bởi bão."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Ngân hàng Phương Đông (OCB) cũng đã kịp thời thông báo đến Quý Khách hàng về việc tạm ngừng giao dịch tại một số chi nhánh/phòng giao dịch và hoạt động ATM/CDM trong khu vực bị ảnh hưởng bởi bão."
+    },
+    {
+        "text": "tạm ngừng giao dịch tại một số chi nhánh/phòng giao dịch và hoạt động ATM/CDM",
+        "label": "EVENT",
+        "evidence": "về việc tạm ngừng giao dịch tại một số chi nhánh/phòng giao dịch và hoạt động ATM/CDM trong khu vực bị ảnh hưởng bởi bão."
+    },
+    {
+        "text": "tạm ngừng giao dịch",
+        "label": "EVENT",
+        "evidence": "Thời gian tạm ngừng giao dịch được xác định là ngày hôm nay, Thứ Ba, 22/7/2025."
+    },
+    {
+        "text": "22/7/2025",
+        "label": "DATE",
+        "evidence": "Thứ Ba, 22/7/2025."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB nhấn mạnh rằng các chi nhánh/phòng giao dịch, ATM/CDM ngoài danh sách ảnh hưởng vẫn hoạt động bình thường."
+    },
+    {
+        "text": "ATM/CDM",
+        "label": "ASSET",
+        "evidence": "các chi nhánh/phòng giao dịch, ATM/CDM ngoài danh sách ảnh hưởng vẫn hoạt động bình thường."
+    },
+    {
+        "text": "hoạt động bình thường",
+        "label": "EVENT",
+        "evidence": "ATM/CDM ngoài danh sách ảnh hưởng vẫn hoạt động bình thường."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Trong thời gian này, OCB khuyến khích Quý khách hàng ưu tiên thực hiện các giao dịch trực tuyến trên ngân hàng số OCB OMNI để đảm bảo mọi nhu cầu tài chính được đáp ứng một cách liên tục và an toàn."
+    },
+    {
+        "text": "ngân hàng số OCB OMNI",
+        "label": "ASSET",
+        "evidence": "trên ngân hàng số OCB OMNI để đảm bảo mọi nhu cầu tài chính được đáp ứng một cách liên tục và an toàn."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "Thông báo của ngân hàng OCB."
+    },
+    {
+        "text": "duy trì hoạt động bình thường",
+        "label": "EVENT",
+        "evidence": "Hầu hết các ngân hàng đều khuyến khích và duy trì hoạt động bình thường cho các kênh sau:"
+    },
+    {
+        "text": "Internet Banking",
+        "label": "ASSET",
+        "evidence": "Internet Banking (Ngân hàng trực tuyến): Truy cập qua website của ngân hàng trên máy tính hoặc điện thoại để thực hiện các giao dịch như chuyển khoản, thanh toán hóa đơn, kiểm tra số dư, sao kê, gửi tiết kiệm trực tuyến..."
+    },
+    {
+        "text": "Ngân hàng trực tuyến",
+        "label": "ASSET",
+        "evidence": "Internet Banking (Ngân hàng trực tuyến): Truy cập qua website của ngân hàng trên máy tính hoặc điện thoại để thực hiện các giao dịch như chuyển khoản, thanh toán hóa đơn, kiểm tra số dư, sao kê, gửi tiết kiệm trực tuyến..."
+    },
+    {
+        "text": "Mobile Banking",
+        "label": "ASSET",
+        "evidence": "Mobile Banking (Ứng dụng di động): Sử dụng ứng dụng ngân hàng trên điện thoại thông minh (ví dụ: MyVIB, TPBank Mobile, OCB OMNI) để thực hiện gần như đầy đủ các giao dịch như trên Internet Banking, tiện lợi và nhanh chóng."
+    },
+    {
+        "text": "MyVIB",
+        "label": "ASSET",
+        "evidence": "(ví dụ: MyVIB, TPBank Mobile, OCB OMNI) để thực hiện gần như đầy đủ các giao dịch như trên Internet Banking, tiện lợi và nhanh chóng."
+    },
+    {
+        "text": "TPBank Mobile",
+        "label": "ASSET",
+        "evidence": "MyVIB, TPBank Mobile, OCB OMNI) để thực hiện gần như đầy đủ các giao dịch như trên Internet Banking, tiện lợi và nhanh chóng."
+    },
+    {
+        "text": "OCB OMNI",
+        "label": "ASSET",
+        "evidence": "TPBank Mobile, OCB OMNI) để thực hiện gần như đầy đủ các giao dịch như trên Internet Banking, tiện lợi và nhanh chóng."
+    },
+    {
+        "text": "Chuyển tiền nhanh 24/7",
+        "label": "ASSET",
+        "evidence": "Chuyển tiền nhanh 24/7: Đối với các giao dịch chuyển khoản liên ngân hàng, hãy chọn hình thức chuyển tiền nhanh qua số tài khoản hoặc số thẻ để đảm bảo tiền được nhận ngay lập tức, ngay cả ngoài giờ hành chính hoặc vào các ngày nghỉ lễ."
+    },
+    {
+        "text": "hệ thống ATM/CDM",
+        "label": "ASSET",
+        "evidence": "Sử dụng hệ thống ATM/CDM thay thế (nếu an toàn)"
+    },
+    {
+        "text": "ATM/CDM",
+        "label": "ASSET",
+        "evidence": "Mặc dù một số ATM/CDM có thể bị tạm ngừng hoạt động ở khu vực ảnh hưởng nặng, nhưng nhiều máy vẫn đang hoạt động bình thường."
+    },
+    {
+        "text": "tạm ngừng hoạt động",
+        "label": "EVENT",
+        "evidence": "Mặc dù một số ATM/CDM có thể bị tạm ngừng hoạt động ở khu vực ảnh hưởng nặng, nhưng nhiều máy vẫn đang hoạt động bình thường."
+    },
+    {
+        "text": "hoạt động bình thường",
+        "label": "EVENT",
+        "evidence": "nhưng nhiều máy vẫn đang hoạt động bình thường."
+    },
+    {
+        "text": "ATM/CDM",
+        "label": "ASSET",
+        "evidence": "kiểm tra thông báo của ngân hàng hoặc sử dụng các máy ATM/CDM ở khu vực lân cận không bị ảnh hưởng bởi bão."
+    },
+    {
+        "text": "Cập nhật thông tin từ ngân hàng",
+        "label": "EVENT",
+        "evidence": "Cập nhật thông tin từ ngân hàng"
+    },
+    {
+        "text": "các thông báo chính thức từ ngân hàng",
+        "label": "EVENT",
+        "evidence": "Theo dõi sát sao các thông báo chính thức từ ngân hàng của bạn qua các kênh:"
+    },
+    {
+        "text": "đăng tải thông báo mới nhất về tình hình hoạt động",
+        "label": "EVENT",
+        "evidence": "Các ngân hàng thường đăng tải thông báo mới nhất về tình hình hoạt động trên trang chủ."
+    },
+    {
+        "text": "cập nhật thông tin nhanh chóng",
+        "label": "EVENT",
+        "evidence": "Nhiều ngân hàng cập nhật thông tin nhanh chóng qua Facebook, Zalo hoặc các nền tảng khác."
+    },
+    {
+        "text": "liên hệ tổng đài của ngân hàng",
+        "label": "EVENT",
+        "evidence": "hãy liên hệ tổng đài của ngân hàng để được giải đáp trực tiếp."
+    }
+]

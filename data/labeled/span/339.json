@@ -1,0 +1,167 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Câu hỏi đặt ra là \"Sau viral sẽ là gì?\". Có thật khách hàng trẻ mà ACB tiếp cận được chỉ đến trong một đêm?"
+    },
+    {
+        "text": "Insider Intelligence",
+        "label": "ORG",
+        "evidence": "Theo Insider Intelligence, đến cuối năm 2026, sẽ có ít nhất 4 triệu Gen Z mở tài khoản ngân hàng mới hàng năm."
+    },
+    {
+        "text": "cuối năm 2026",
+        "label": "DATE",
+        "evidence": "Theo Insider Intelligence, đến cuối năm 2026, sẽ có ít nhất 4 triệu Gen Z mở tài khoản ngân hàng mới hàng năm."
+    },
+    {
+        "text": "4 triệu",
+        "label": "VOLUME",
+        "evidence": "Theo Insider Intelligence, đến cuối năm 2026, sẽ có ít nhất 4 triệu Gen Z mở tài khoản ngân hàng mới hàng năm."
+    },
+    {
+        "text": "mở tài khoản ngân hàng mới",
+        "label": "EVENT",
+        "evidence": "Theo Insider Intelligence, đến cuối năm 2026, sẽ có ít nhất 4 triệu Gen Z mở tài khoản ngân hàng mới hàng năm."
+    },
+    {
+        "text": "83%",
+        "label": "RATE",
+        "evidence": "ngại thủ tục rườm rà (83% khách hàng trẻ sẽ chần chừ với những quy trình mất thời gian), và khả năng tập trung thấp (trung bình Gen Z chỉ cho mình 8 giây để tiếp thu một thông điệp)."
+    },
+    {
+        "text": "David Bach",
+        "label": "PERSON",
+        "evidence": "Đây là lỗ hổng tài chính mang tên \"latte factor\" - thuật ngữ từ David Bach chỉ khoản tiền cà phê tưởng chừng nhỏ lẻ vô hại, nhưng khi nhìn lại, chúng lại chiếm một phần không nhỏ trong thu nhập chúng ta."
+    },
+    {
+        "text": "Thẻ ACB Urbox",
+        "label": "ASSET",
+        "evidence": "Để xử lý lỗ hổng này, tấm Thẻ ACB Urbox là giải pháp bù đắp cho túi tiền khách hàng."
+    },
+    {
+        "text": "thẻ Urbox",
+        "label": "ASSET",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "Starbucks",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "Gojek",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "Circle K",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "GS 25",
+        "label": "ORG",
+        "evidence": "Sử dụng thẻ Urbox giúp bạn tích lũy điểm thưởng không giới hạn đến 5% giá trị giao dịch khi mua sắm ở các thương hiệu thân thiết với Gen Z như: Starbucks, Phúc Long, Gojek, Circle K, GS 25..."
+    },
+    {
+        "text": "Thẻ ACB UrBox",
+        "label": "ASSET",
+        "evidence": "Thẻ ACB UrBox Chi tiêu tích điểm đổi quà: giai đoạn người dùng trẻ đang làm quen với quản lý tài chính, đang phân vân lựa chọn sản phẩm phù hợp nhất với phong cách sở thích trẻ trung hiện đại."
+    },
+    {
+        "text": "Thẻ Hoàn tiền",
+        "label": "ASSET",
+        "evidence": "Thẻ Hoàn tiền Chi tiêu: giai đoạn đầu lập nghiệp, khi khách hàng có kiến thức về tài chính cùng thu nhập tốt hơn để bắt đầu xây dựng nền tảng tài chính cá nhân và gia đình."
+    },
+    {
+        "text": "Thẻ Signature",
+        "label": "ASSET",
+        "evidence": "Thẻ Signature: giai đoạn sự nghiệp thăng hoa, chiếc thẻ giúp người dùng thoả mãn vật chất cuộc sống, thích trải nghiệm mới mẻ và chăm sóc đời sống tinh thần cho bản thân và gia đình."
+    },
+    {
+        "text": "Thẻ Infinite",
+        "label": "ASSET",
+        "evidence": "Thẻ Infinite: chiếc thẻ song hành cùng giai đoạn đỉnh cao cuộc đời, kiến tạo và lan tỏa giá trị cho thế hệ mai sau."
+    },
+    {
+        "text": "ACB ONE",
+        "label": "ASSET",
+        "evidence": "Thủ tục rườm rà hóa nhẹ tênh nhờ ACB ONE"
+    },
+    {
+        "text": "mở tài khoản trực tuyến",
+        "label": "EVENT",
+        "evidence": "tích hợp các kênh bán hàng cùng công nghệ AI để rút ngắn mọi quy trình mở tài khoản trực tuyến cho khách."
+    },
+    {
+        "text": "mở thẻ trên ứng dụng ACB ONE",
+        "label": "EVENT",
+        "evidence": "Khi mở thẻ trên ứng dụng ACB ONE, bạn cũng có thể dùng điểm thưởng tích lũy để đổi quà và trải nghiệm mọi dịch vụ yêu thích tại hơn 250 thương hiệu nhà hàng, thời trang, mua sắm giải trí."
+    },
+    {
+        "text": "Momo",
+        "label": "ORG",
+        "evidence": "ACB đã hợp tác cùng các ví điện tử như Momo, ZaloPay giúp khách mở tài khoản trực tiếp ở mọi nơi, kèm nhiều ưu đãi và voucher mua sắm, ăn uống, và giải trí hấp dẫn, bắt mắt."
+    },
+    {
+        "text": "ZaloPay",
+        "label": "ORG",
+        "evidence": "ACB đã hợp tác cùng các ví điện tử như Momo, ZaloPay giúp khách mở tài khoản trực tiếp ở mọi nơi, kèm nhiều ưu đãi và voucher mua sắm, ăn uống, và giải trí hấp dẫn, bắt mắt."
+    },
+    {
+        "text": "khách mở tài khoản trực tiếp",
+        "label": "EVENT",
+        "evidence": "ACB đã hợp tác cùng các ví điện tử như Momo, ZaloPay giúp khách mở tài khoản trực tiếp ở mọi nơi, kèm nhiều ưu đãi và voucher mua sắm, ăn uống, và giải trí hấp dẫn, bắt mắt."
+    },
+    {
+        "text": "chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, đây cũng là một nước đi thấu hiểu người dùng khi Gen Z luôn ưa chuộng phương án chuyển tiền tốc độ, hoặc quét mã QR trong vài giây mà không cần phải bấm một dãy số tài khoản dài."
+    },
+    {
+        "text": "quét mã QR",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, đây cũng là một nước đi thấu hiểu người dùng khi Gen Z luôn ưa chuộng phương án chuyển tiền tốc độ, hoặc quét mã QR trong vài giây mà không cần phải bấm một dãy số tài khoản dài."
+    },
+    {
+        "text": "thanh toán không tiền mặt",
+        "label": "EVENT",
+        "evidence": "Họ cũng được ví như một thế hệ ưa thích thanh toán không tiền mặt, khi sở hữu ví điện tử, ngân hàng số, app mobile banking... thay vì giữ khư khư tiền mặt trong túi của mình."
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Và hiện tượng viral từ chủ tịch Trần Hùng Huy chính là nút thắt đáng nhớ cho chiến lược trẻ hóa thương hiệu."
+    },
+    {
+        "text": "sự kiện kỷ niệm",
+        "label": "EVENT",
+        "evidence": "vốn dĩ ông đã sở hữu một lượng \"fan\" khủng ngay cả trước khi sự kiện kỷ niệm lên sóng."
+    },
+    {
+        "text": "chủ tịch ACB",
+        "label": "PERSON",
+        "evidence": "Chính sự đối lập giữa một \"banker\" truyền thống và hình tượng đa tài, hiện đại này đã giúp chủ tịch ACB gây hiệu ứng tò mò trước công chúng, gợi cho họ sự quan tâm, từ đó xây dựng \"brand love\" với ACB - một \"ngân hàng trẻ\" với một đội ngũ lãnh đạo trẻ thấu hiểu khách hàng của mình và luôn đồng hành cùng họ."
+    },
+    {
+        "text": "Sự kiện chủ tịch nhảy dưới mưa",
+        "label": "EVENT",
+        "evidence": "Sự kiện chủ tịch nhảy dưới mưa sẽ luôn được nhớ đến khi nhắc về ACB."
+    },
+    {
+        "text": "30 năm",
+        "label": "DATE",
+        "evidence": "Đây chính là thành công từ sự kế thừa giá trị nền tảng mà cả tập thể ACB đã nỗ lực xây dựng và theo đuổi trong suốt 30 năm qua."
+    }
+]

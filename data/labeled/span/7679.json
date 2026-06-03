@@ -1,0 +1,332 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Vietcombank vừa công bố lãi suất bình quân kỳ hạn tháng 3 ở mức 6,4%/năm."
+    },
+    {
+        "text": "công bố lãi suất bình quân kỳ hạn tháng 3 ở mức 6,4%/năm",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Vietcombank vừa công bố lãi suất bình quân kỳ hạn tháng 3 ở mức 6,4%/năm."
+    },
+    {
+        "text": "6,4%/năm",
+        "label": "RATE",
+        "evidence": "Ngân hàng Vietcombank vừa công bố lãi suất bình quân kỳ hạn tháng 3 ở mức 6,4%/năm."
+    },
+    {
+        "text": "Chênh lệch lãi suất tiền gửi và cho vay bình quân là 3,4%/năm",
+        "label": "EVENT",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân là 3,4%/năm, chênh lệch lãi suất sau khi trừ đi chi phí liên quan hoạt động huy động vốn, sử dụng vốn ở mức 1,8%/năm."
+    },
+    {
+        "text": "3,4%/năm",
+        "label": "RATE",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân là 3,4%/năm, chênh lệch lãi suất sau khi trừ đi chi phí liên quan hoạt động huy động vốn, sử dụng vốn ở mức 1,8%/năm."
+    },
+    {
+        "text": "chênh lệch lãi suất sau khi trừ đi chi phí liên quan hoạt động huy động vốn, sử dụng vốn ở mức 1,8%/năm",
+        "label": "EVENT",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân là 3,4%/năm, chênh lệch lãi suất sau khi trừ đi chi phí liên quan hoạt động huy động vốn, sử dụng vốn ở mức 1,8%/năm."
+    },
+    {
+        "text": "1,8%/năm",
+        "label": "RATE",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân là 3,4%/năm, chênh lệch lãi suất sau khi trừ đi chi phí liên quan hoạt động huy động vốn, sử dụng vốn ở mức 1,8%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank cũng công bố lãi suất cho vay bình quân là 6,3%/năm, chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm."
+    },
+    {
+        "text": "công bố lãi suất cho vay bình quân là 6,3%/năm",
+        "label": "EVENT",
+        "evidence": "VietinBank cũng công bố lãi suất cho vay bình quân là 6,3%/năm, chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm."
+    },
+    {
+        "text": "6,3%/năm",
+        "label": "RATE",
+        "evidence": "VietinBank cũng công bố lãi suất cho vay bình quân là 6,3%/năm, chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm."
+    },
+    {
+        "text": "chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm",
+        "label": "EVENT",
+        "evidence": "VietinBank cũng công bố lãi suất cho vay bình quân là 6,3%/năm, chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm."
+    },
+    {
+        "text": "2,45%/năm",
+        "label": "RATE",
+        "evidence": "VietinBank cũng công bố lãi suất cho vay bình quân là 6,3%/năm, chênh lệch lãi suất cho vay và huy động bình quân 2,45%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Trước đó, Agribank và BIDV cũng công bố một loạt các mức lãi suất cho vay bình quân và chênh lệch lãi suất bình quân tháng 3."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Trước đó, Agribank và BIDV cũng công bố một loạt các mức lãi suất cho vay bình quân và chênh lệch lãi suất bình quân tháng 3."
+    },
+    {
+        "text": "công bố một loạt các mức lãi suất cho vay bình quân và chênh lệch lãi suất bình quân tháng 3",
+        "label": "EVENT",
+        "evidence": "Trước đó, Agribank và BIDV cũng công bố một loạt các mức lãi suất cho vay bình quân và chênh lệch lãi suất bình quân tháng 3."
+    },
+    {
+        "text": "lãi suất cho vay bình quân ở mức 7,47%/năm",
+        "label": "EVENT",
+        "evidence": "Tại Agribank, lãi suất cho vay bình quân ở mức 7,47%/năm."
+    },
+    {
+        "text": "7,47%/năm",
+        "label": "RATE",
+        "evidence": "Tại Agribank, lãi suất cho vay bình quân ở mức 7,47%/năm."
+    },
+    {
+        "text": "lãi suất cho vay bình quân tại BIDVlà 6,49%/năm",
+        "label": "EVENT",
+        "evidence": "Trong khi đó,lãi suất cho vay bình quân tại BIDVlà 6,49%/năm."
+    },
+    {
+        "text": "6,49%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó,lãi suất cho vay bình quân tại BIDVlà 6,49%/năm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Ở nhóm ngân hàng thương mại, Techcombank hiện đã công bố lãi suất cho vay bình quân tháng 2 đối với khách hàng cá nhân ở mức 7,33%/năm."
+    },
+    {
+        "text": "công bố lãi suất cho vay bình quân tháng 2 đối với khách hàng cá nhân ở mức 7,33%/năm",
+        "label": "EVENT",
+        "evidence": "Techcombank hiện đã công bố lãi suất cho vay bình quân tháng 2 đối với khách hàng cá nhân ở mức 7,33%/năm."
+    },
+    {
+        "text": "7,33%/năm",
+        "label": "RATE",
+        "evidence": "Techcombank hiện đã công bố lãi suất cho vay bình quân tháng 2 đối với khách hàng cá nhân ở mức 7,33%/năm."
+    },
+    {
+        "text": "Chênh lệch lãi suất tiền gửi và cho vay bình quân 4,33%/năm",
+        "label": "EVENT",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân 4,33%/năm."
+    },
+    {
+        "text": "4,33%/năm",
+        "label": "RATE",
+        "evidence": "Chênh lệch lãi suất tiền gửi và cho vay bình quân 4,33%/năm."
+    },
+    {
+        "text": "lãi suất cho vay bình quân là 6,88%/năm",
+        "label": "EVENT",
+        "evidence": "Với khách hàng doanh nghiệp, lãi suất cho vay bình quân là 6,88%/năm, chênh lệch lãi suất tiền gửi và cho vay bình quân 3,89%/năm."
+    },
+    {
+        "text": "6,88%/năm",
+        "label": "RATE",
+        "evidence": "Với khách hàng doanh nghiệp, lãi suất cho vay bình quân là 6,88%/năm, chênh lệch lãi suất tiền gửi và cho vay bình quân 3,89%/năm."
+    },
+    {
+        "text": "chênh lệch lãi suất tiền gửi và cho vay bình quân 3,89%/năm",
+        "label": "EVENT",
+        "evidence": "Với khách hàng doanh nghiệp, lãi suất cho vay bình quân là 6,88%/năm, chênh lệch lãi suất tiền gửi và cho vay bình quân 3,89%/năm."
+    },
+    {
+        "text": "3,89%/năm",
+        "label": "RATE",
+        "evidence": "Với khách hàng doanh nghiệp, lãi suất cho vay bình quân là 6,88%/năm, chênh lệch lãi suất tiền gửi và cho vay bình quân 3,89%/năm."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Nhiều ngân hàng khác cũng đã công bố lãi suất cho vay bình quân cụ thể mức lãi suất này tại TPBank là 7,76%/năm."
+    },
+    {
+        "text": "công bố lãi suất cho vay bình quân cụ thể mức lãi suất này tại TPBank là 7,76%/năm",
+        "label": "EVENT",
+        "evidence": "Nhiều ngân hàng khác cũng đã công bố lãi suất cho vay bình quân cụ thể mức lãi suất này tại TPBank là 7,76%/năm."
+    },
+    {
+        "text": "7,76%/năm",
+        "label": "RATE",
+        "evidence": "Nhiều ngân hàng khác cũng đã công bố lãi suất cho vay bình quân cụ thể mức lãi suất này tại TPBank là 7,76%/năm."
+    },
+    {
+        "text": "Vietbank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Vietbank công bố lãi suất cho vay bình quân là 7,32%/năm."
+    },
+    {
+        "text": "công bố lãi suất cho vay bình quân là 7,32%/năm",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, Vietbank công bố lãi suất cho vay bình quân là 7,32%/năm."
+    },
+    {
+        "text": "7,32%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, Vietbank công bố lãi suất cho vay bình quân là 7,32%/năm."
+    },
+    {
+        "text": "Ngân hàng OCB",
+        "label": "ORG",
+        "evidence": "Ngân hàng OCB áp dụng lãi suất 7,79%/năm đối với cá nhân và 9,29%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "áp dụng lãi suất 7,79%/năm đối với cá nhân và 9,29%/năm đối với doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Ngân hàng OCB áp dụng lãi suất 7,79%/năm đối với cá nhân và 9,29%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "7,79%/năm",
+        "label": "RATE",
+        "evidence": "Ngân hàng OCB áp dụng lãi suất 7,79%/năm đối với cá nhân và 9,29%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "9,29%/năm",
+        "label": "RATE",
+        "evidence": "Ngân hàng OCB áp dụng lãi suất 7,79%/năm đối với cá nhân và 9,29%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Trong khi đó, VIB công bố lãi suất cho vay bình quân là 8,6%/năm đối với cá nhân và 7,69%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "công bố lãi suất cho vay bình quân là 8,6%/năm đối với cá nhân và 7,69%/năm đối với doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, VIB công bố lãi suất cho vay bình quân là 8,6%/năm đối với cá nhân và 7,69%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "8,6%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, VIB công bố lãi suất cho vay bình quân là 8,6%/năm đối với cá nhân và 7,69%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "7,69%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, VIB công bố lãi suất cho vay bình quân là 8,6%/năm đối với cá nhân và 7,69%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB hiện áp dụng lãi suất cho vay bình quân 9,7%/năm đối với cá nhân và 9,33%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "áp dụng lãi suất cho vay bình quân 9,7%/năm đối với cá nhân và 9,33%/năm đối với doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "ACB hiện áp dụng lãi suất cho vay bình quân 9,7%/năm đối với cá nhân và 9,33%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "9,7%/năm",
+        "label": "RATE",
+        "evidence": "ACB hiện áp dụng lãi suất cho vay bình quân 9,7%/năm đối với cá nhân và 9,33%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "9,33%/năm",
+        "label": "RATE",
+        "evidence": "ACB hiện áp dụng lãi suất cho vay bình quân 9,7%/năm đối với cá nhân và 9,33%/năm đối với doanh nghiệp."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Lãi suất cho vay bình quân tại ABBank hiện là 7,42%/năm với khách hàng cá nhân và 6,12%/năm với doanh nghiệp."
+    },
+    {
+        "text": "Lãi suất cho vay bình quân tại ABBank hiện là 7,42%/năm với khách hàng cá nhân và 6,12%/năm với doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Lãi suất cho vay bình quân tại ABBank hiện là 7,42%/năm với khách hàng cá nhân và 6,12%/năm với doanh nghiệp."
+    },
+    {
+        "text": "7,42%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất cho vay bình quân tại ABBank hiện là 7,42%/năm với khách hàng cá nhân và 6,12%/năm với doanh nghiệp."
+    },
+    {
+        "text": "6,12%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất cho vay bình quân tại ABBank hiện là 7,42%/năm với khách hàng cá nhân và 6,12%/năm với doanh nghiệp."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm."
+    },
+    {
+        "text": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm",
+        "label": "EVENT",
+        "evidence": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm."
+    },
+    {
+        "text": "9,4%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm."
+    },
+    {
+        "text": "8,17%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất cho vay bình quân tại BVBank là 9,4%/năm, Eximbank là 8,17%/năm."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Khảo sát cho thấy, nhóm ngân hàng Big 4 có mức chênh lệch lãi suất cho vay và tiền gửi cũng như lãi suất bình quân cho vay ở mức thấp hơn so với cổ phần."
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "Trước đó vào đầu tháng 3, Ngân hàng Nhà nước đã vừa có văn bản gửi các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài về việc công bố lãi suất cho vay."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trước đó vào đầu tháng 3, Ngân hàng Nhà nước đã vừa có văn bản gửi các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài về việc công bố lãi suất cho vay."
+    },
+    {
+        "text": "có văn bản gửi các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài về việc công bố lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "Trước đó vào đầu tháng 3, Ngân hàng Nhà nước đã vừa có văn bản gửi các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài về việc công bố lãi suất cho vay."
+    },
+    {
+        "text": "yêu cầu các tổ chức tín dụng gửi đường dẫn (link) công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng,... trước ngày 1/4",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước yêu cầu các tổ chức tín dụng gửi đường dẫn (link) công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng,... trước ngày 1/4."
+    },
+    {
+        "text": "trước ngày 1/4",
+        "label": "DATE",
+        "evidence": "Ngân hàng Nhà nước yêu cầu các tổ chức tín dụng gửi đường dẫn (link) công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng,... trước ngày 1/4."
+    },
+    {
+        "text": "công khai lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "Trước đó, liên quan đến việc công khai lãi suất cho vay, một số lãnh đạo ngân hàng cũng cho rằng, lãi suất cho vay áp dụng theo từng phân khúc, sản phẩm, loại hình rủi ro và theo thời hạn ngắn hay dài."
+    },
+    {
+        "text": "tăng trưởng tín dụng 2 tháng đầu năm nay giảm 1,12% so với cuối năm 2023",
+        "label": "EVENT",
+        "evidence": "Đồng thời điều này có tác dụng cải thiện tăng trưởng tín dụng trong những tháng tiếp theo, trong bối cảnh tăng trưởng tín dụng 2 tháng đầu năm nay giảm 1,12% so với cuối năm 2023."
+    },
+    {
+        "text": "2 tháng đầu năm nay",
+        "label": "DATE",
+        "evidence": "Đồng thời điều này có tác dụng cải thiện tăng trưởng tín dụng trong những tháng tiếp theo, trong bối cảnh tăng trưởng tín dụng 2 tháng đầu năm nay giảm 1,12% so với cuối năm 2023."
+    },
+    {
+        "text": "giảm 1,12%",
+        "label": "RATE",
+        "evidence": "Đồng thời điều này có tác dụng cải thiện tăng trưởng tín dụng trong những tháng tiếp theo, trong bối cảnh tăng trưởng tín dụng 2 tháng đầu năm nay giảm 1,12% so với cuối năm 2023."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Đồng thời điều này có tác dụng cải thiện tăng trưởng tín dụng trong những tháng tiếp theo, trong bối cảnh tăng trưởng tín dụng 2 tháng đầu năm nay giảm 1,12% so với cuối năm 2023."
+    }
+]

@@ -1,0 +1,337 @@
+[
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Chỉ 12 tiếng sau khi Apple ra mắt các phiên bản iPhone 16, hệ thống bán lẻ tại Việt Nam đã công bố giá bán và cho đặt hàng sản phẩm."
+    },
+    {
+        "text": "ra mắt các phiên bản iPhone 16",
+        "label": "EVENT",
+        "evidence": "Chỉ 12 tiếng sau khi Apple ra mắt các phiên bản iPhone 16, hệ thống bán lẻ tại Việt Nam đã công bố giá bán và cho đặt hàng sản phẩm."
+    },
+    {
+        "text": "12 tiếng sau",
+        "label": "DATE",
+        "evidence": "Chỉ 12 tiếng sau khi Apple ra mắt các phiên bản iPhone 16, hệ thống bán lẻ tại Việt Nam đã công bố giá bán và cho đặt hàng sản phẩm."
+    },
+    {
+        "text": "công bố giá bán và cho đặt hàng sản phẩm",
+        "label": "EVENT",
+        "evidence": "hệ thống bán lẻ tại Việt Nam đã công bố giá bán và cho đặt hàng sản phẩm."
+    },
+    {
+        "text": "iPhone 16",
+        "label": "ASSET",
+        "evidence": "Được biết, iPhone 16 có sự đổi mới là màn hình tràn viền tuyệt đối với 2 phiên bản Pro mà Promax."
+    },
+    {
+        "text": "Pro",
+        "label": "ASSET",
+        "evidence": "Được biết, iPhone 16 có sự đổi mới là màn hình tràn viền tuyệt đối với 2 phiên bản Pro mà Promax."
+    },
+    {
+        "text": "Promax",
+        "label": "ASSET",
+        "evidence": "Được biết, iPhone 16 có sự đổi mới là màn hình tràn viền tuyệt đối với 2 phiên bản Pro mà Promax."
+    },
+    {
+        "text": "giá bán dự kiến không thay đổi",
+        "label": "PRICE",
+        "evidence": "Với giá bán dự kiến không thay đổi so với năm trước, đi kèm nhiều cải tiến và ứng dụng, hầu hết các đại lý đều kỳ vọng doanh số sẽ tiếp tục tăng trưởng 2 con số so với dòng sản phẩm ra mắt năm trước."
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "Với giá bán dự kiến không thay đổi so với năm trước, đi kèm nhiều cải tiến và ứng dụng, hầu hết các đại lý đều kỳ vọng doanh số sẽ tiếp tục tăng trưởng 2 con số so với dòng sản phẩm ra mắt năm trước."
+    },
+    {
+        "text": "2 con số",
+        "label": "RATE",
+        "evidence": "hầu hết các đại lý đều kỳ vọng doanh số sẽ tiếp tục tăng trưởng 2 con số so với dòng sản phẩm ra mắt năm trước."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Thực tế, các dòng iPhone mới hàng năm đều được đón nhận nhiệt tình bởi “tín đồ” iPhone Việt Nam, và mang về hàng trăm tỷ đồng doanh thu cho FPT Shop, Thế giới Di động…"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Thực tế, các dòng iPhone mới hàng năm đều được đón nhận nhiệt tình bởi “tín đồ” iPhone Việt Nam, và mang về hàng trăm tỷ đồng doanh thu cho FPT Shop, Thế giới Di động…"
+    },
+    {
+        "text": "Ông Nguyễn Thế Kha",
+        "label": "PERSON",
+        "evidence": "ÔngNguyễn Thế Kha, Giám đốc Thương mại hệ thống FPT Shopvà F.Studio by FPT, cho biết:“Hàng năm iPhone vẫn là nguồn doanh số đóng góp chính với hệ thống FPT Shop và đặc biệt vào quý cuối năm riêng iPhone có thể đóng góp đến 1/3 doanh số bán các thiết bị công nghệ."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "ÔngNguyễn Thế Kha, Giám đốc Thương mại hệ thống FPT Shopvà F.Studio by FPT, cho biết:“Hàng năm iPhone vẫn là nguồn doanh số đóng góp chính với hệ thống FPT Shop và đặc biệt vào quý cuối năm riêng iPhone có thể đóng góp đến 1/3 doanh số bán các thiết bị công nghệ."
+    },
+    {
+        "text": "F.Studio by FPT",
+        "label": "ORG",
+        "evidence": "ÔngNguyễn Thế Kha, Giám đốc Thương mại hệ thống FPT Shopvà F.Studio by FPT, cho biết:“Hàng năm iPhone vẫn là nguồn doanh số đóng góp chính với hệ thống FPT Shop và đặc biệt vào quý cuối năm riêng iPhone có thể đóng góp đến 1/3 doanh số bán các thiết bị công nghệ."
+    },
+    {
+        "text": "quý cuối năm",
+        "label": "DATE",
+        "evidence": "và đặc biệt vào quý cuối năm riêng iPhone có thể đóng góp đến 1/3 doanh số bán các thiết bị công nghệ."
+    },
+    {
+        "text": "1/3",
+        "label": "RATE",
+        "evidence": "riêng iPhone có thể đóng góp đến 1/3 doanh số bán các thiết bị công nghệ."
+    },
+    {
+        "text": "iPhone mới ra mắt",
+        "label": "EVENT",
+        "evidence": "Năm nay cũng không ngoại lệ khi iPhone mới ra mắt với nhiều cả tiến vượt trội về cấu hình và đặt biệt là cải tiến về trải nghiệm người dùng cùng mầu mới (vàng sa mạc) là tông mầu luôn được ưa chuộng nhất từ trước đến nay”."
+    },
+    {
+        "text": "sau ngày ra mắt",
+        "label": "DATE",
+        "evidence": "Theo ông Kha, chỉ sau ngày ra mắt hệ thống đã ghi nhận đến gần 20.000 khách hàng đăng ký thông tin tại hệ thống của FPT Shop (trong đó phần lớn là chọn iPhone mầu mới) đã thấy được sức “nóng” của sản phẩm khi con số này tăng cao hơn 30% so với số nhận thông tin cùng kỳ năm trước."
+    },
+    {
+        "text": "gần 20.000 khách hàng đăng ký thông tin",
+        "label": "VOLUME",
+        "evidence": "chỉ sau ngày ra mắt hệ thống đã ghi nhận đến gần 20.000 khách hàng đăng ký thông tin tại hệ thống của FPT Shop (trong đó phần lớn là chọn iPhone mầu mới) đã thấy được sức “nóng” của sản phẩm khi con số này tăng cao hơn 30% so với số nhận thông tin cùng kỳ năm trước."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "gần 20.000 khách hàng đăng ký thông tin tại hệ thống của FPT Shop (trong đó phần lớn là chọn iPhone mầu mới) đã thấy được sức “nóng” của sản phẩm khi con số này tăng cao hơn 30% so với số nhận thông tin cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng cao hơn 30%",
+        "label": "RATE",
+        "evidence": "khi con số này tăng cao hơn 30% so với số nhận thông tin cùng kỳ năm trước."
+    },
+    {
+        "text": "cùng kỳ năm trước",
+        "label": "DATE",
+        "evidence": "khi con số này tăng cao hơn 30% so với số nhận thông tin cùng kỳ năm trước."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "TạiThế giới Di động,chỉ tính riêng trong tháng 9/2023 (tháng ra mắt iPhone 15), chuỗi cửa hàng đã bán ra hơn 18.000 chiếc iPhone 15, ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "tháng 9/2023",
+        "label": "DATE",
+        "evidence": "chỉ tính riêng trong tháng 9/2023 (tháng ra mắt iPhone 15), chuỗi cửa hàng đã bán ra hơn 18.000 chiếc iPhone 15, ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "tháng ra mắt iPhone 15",
+        "label": "EVENT",
+        "evidence": "tháng 9/2023 (tháng ra mắt iPhone 15), chuỗi cửa hàng đã bán ra hơn 18.000 chiếc iPhone 15, ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "hơn 18.000 chiếc iPhone 15",
+        "label": "VOLUME",
+        "evidence": "chuỗi cửa hàng đã bán ra hơn 18.000 chiếc iPhone 15, ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "iPhone 15",
+        "label": "ASSET",
+        "evidence": "chuỗi cửa hàng đã bán ra hơn 18.000 chiếc iPhone 15, ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "gần 600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ghi nhận doanh thu đạt gần 600 tỷ đồng."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Năm nay, Thế Giới Di Động cũng đã cung cấp các mẫu iPhone 16 và iPhone 16 Plus với chip A18 hoàn toàn mới, tính năng điều khiển Camera, các nâng cấp mạnh mẽ cho hệ thống camera…"
+    },
+    {
+        "text": "Năm nay",
+        "label": "DATE",
+        "evidence": "Năm nay, Thế Giới Di Động cũng đã cung cấp các mẫu iPhone 16 và iPhone 16 Plus với chip A18 hoàn toàn mới, tính năng điều khiển Camera, các nâng cấp mạnh mẽ cho hệ thống camera…"
+    },
+    {
+        "text": "iPhone 16",
+        "label": "ASSET",
+        "evidence": "Năm nay, Thế Giới Di Động cũng đã cung cấp các mẫu iPhone 16 và iPhone 16 Plus với chip A18 hoàn toàn mới, tính năng điều khiển Camera, các nâng cấp mạnh mẽ cho hệ thống camera…"
+    },
+    {
+        "text": "iPhone 16 Plus",
+        "label": "ASSET",
+        "evidence": "Năm nay, Thế Giới Di Động cũng đã cung cấp các mẫu iPhone 16 và iPhone 16 Plus với chip A18 hoàn toàn mới, tính năng điều khiển Camera, các nâng cấp mạnh mẽ cho hệ thống camera…"
+    },
+    {
+        "text": "iPhone 16 Pro Max",
+        "label": "ASSET",
+        "evidence": "Mức giá dự kiến của iPhone 16 Pro Max sẽ từ 34.990.000."
+    },
+    {
+        "text": "34.990.000",
+        "label": "PRICE",
+        "evidence": "Mức giá dự kiến của iPhone 16 Pro Max sẽ từ 34.990.000."
+    },
+    {
+        "text": "Di động Việt",
+        "label": "ORG",
+        "evidence": "Với chuỗiDi động Việt, tính trong quý đầu tin mở bán iPhone 15 series, những sản phẩm thuộc iPhone mới mang về 60% doanh thu trên tổng số bán của ngành hàng Apple."
+    },
+    {
+        "text": "quý đầu tin mở bán iPhone 15 series",
+        "label": "EVENT",
+        "evidence": "tính trong quý đầu tin mở bán iPhone 15 series, những sản phẩm thuộc iPhone mới mang về 60% doanh thu trên tổng số bán của ngành hàng Apple."
+    },
+    {
+        "text": "iPhone 15 series",
+        "label": "ASSET",
+        "evidence": "tính trong quý đầu tin mở bán iPhone 15 series, những sản phẩm thuộc iPhone mới mang về 60% doanh thu trên tổng số bán của ngành hàng Apple."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "những sản phẩm thuộc iPhone mới mang về 60% doanh thu trên tổng số bán của ngành hàng Apple."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "những sản phẩm thuộc iPhone mới mang về 60% doanh thu trên tổng số bán của ngành hàng Apple."
+    },
+    {
+        "text": "Pro Max",
+        "label": "ASSET",
+        "evidence": "Trong đó chiếm tỷ lệ cao nhất vẫn là bản Pro Max."
+    },
+    {
+        "text": "iPhone 16 series",
+        "label": "ASSET",
+        "evidence": "Nhận định về sức mua, độ “hot” năm nay của iPhone 16 series, đại diện là bà Nguyễn Thị Kim Vân cho biết: “Năm nay, cả trên dòng iPhone thường và dòng Pro đều có các nâng cấp từ thiết kế đến cấu hình như có nhiều phiên bản màu mới; kích thước màn hình lớn hơn, thời lượng pin lâu hơn… Và đặc biệt là các tác vụ đã có AI."
+    },
+    {
+        "text": "bà Nguyễn Thị Kim Vân",
+        "label": "PERSON",
+        "evidence": "Nhận định về sức mua, độ “hot” năm nay của iPhone 16 series, đại diện là bà Nguyễn Thị Kim Vân cho biết: “Năm nay, cả trên dòng iPhone thường và dòng Pro đều có các nâng cấp từ thiết kế đến cấu hình như có nhiều phiên bản màu mới; kích thước màn hình lớn hơn, thời lượng pin lâu hơn… Và đặc biệt là các tác vụ đã có AI."
+    },
+    {
+        "text": "Di Động Việt",
+        "label": "ORG",
+        "evidence": "Vì vậy, Di Động Việt nhận định, trong giai đoạn mở bán, iPhone 16 series vẫn sẽ là siêu phẩm bán chạy, thu hút nhất năm”."
+    },
+    {
+        "text": "iPhone 16 series",
+        "label": "ASSET",
+        "evidence": "Hệ thống kỳ vọng số bán iPhone 16 series sẽ tăng khoảng 2,5% so với sản phẩm tiền nhiệm, dự đoán model Pro Max vẫn sẽ chiếm tỷ lệ hơn 80%."
+    },
+    {
+        "text": "tăng khoảng 2,5%",
+        "label": "RATE",
+        "evidence": "Hệ thống kỳ vọng số bán iPhone 16 series sẽ tăng khoảng 2,5% so với sản phẩm tiền nhiệm, dự đoán model Pro Max vẫn sẽ chiếm tỷ lệ hơn 80%."
+    },
+    {
+        "text": "Pro Max",
+        "label": "ASSET",
+        "evidence": "dự đoán model Pro Max vẫn sẽ chiếm tỷ lệ hơn 80%."
+    },
+    {
+        "text": "hơn 80%",
+        "label": "RATE",
+        "evidence": "dự đoán model Pro Max vẫn sẽ chiếm tỷ lệ hơn 80%."
+    },
+    {
+        "text": "Di Động Việt",
+        "label": "ORG",
+        "evidence": "Với những nâng cấp ấn tượng trên cả 4 model năm nay, Di Động Việt dự đoán lượng khách đăng ký nhận thông tin sẽ tăng gấp 3 lần so với sản phẩm tiền nhiệm."
+    },
+    {
+        "text": "tăng gấp 3 lần",
+        "label": "RATE",
+        "evidence": "Di Động Việt dự đoán lượng khách đăng ký nhận thông tin sẽ tăng gấp 3 lần so với sản phẩm tiền nhiệm."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "Theo khảo sát tháng 8/2024 của hệ thống bán lẻCellphoneS, mẫu iPhone 16 Pro Max vẫn là sản phẩm được đón nhận nhiều nhất, khả năng chiếm khoảng 75% lượng đặt cọc đợt đầu."
+    },
+    {
+        "text": "CellphoneS",
+        "label": "ORG",
+        "evidence": "Theo khảo sát tháng 8/2024 của hệ thống bán lẻCellphoneS, mẫu iPhone 16 Pro Max vẫn là sản phẩm được đón nhận nhiều nhất, khả năng chiếm khoảng 75% lượng đặt cọc đợt đầu."
+    },
+    {
+        "text": "iPhone 16 Pro Max",
+        "label": "ASSET",
+        "evidence": "mẫu iPhone 16 Pro Max vẫn là sản phẩm được đón nhận nhiều nhất, khả năng chiếm khoảng 75% lượng đặt cọc đợt đầu."
+    },
+    {
+        "text": "khoảng 75%",
+        "label": "RATE",
+        "evidence": "khả năng chiếm khoảng 75% lượng đặt cọc đợt đầu."
+    },
+    {
+        "text": "lượng đặt cọc đợt đầu",
+        "label": "VOLUME",
+        "evidence": "khả năng chiếm khoảng 75% lượng đặt cọc đợt đầu."
+    },
+    {
+        "text": "65%",
+        "label": "RATE",
+        "evidence": "Trong đó có đến 65% khách hàng chọn lựa hình thức bán máy cũ lên đời."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Thực tế, Apple nói chung và iPhone nói riêng đang tăng hiện diện tại Việt Nam."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "Thực tế, Apple nói chung và iPhone nói riêng đang tăng hiện diện tại Việt Nam."
+    },
+    {
+        "text": "Counterpoint Research",
+        "label": "ORG",
+        "evidence": "Nghiên cứu nhiều năm trở lại đây của Counterpoint Research đều nhận định rằng Việt Nam là quốc gia có mức tăng trưởng về iPhone với tốc độ nhanh hơn so với các nước trong khu vực."
+    },
+    {
+        "text": "CEO Apple Tim Cook",
+        "label": "PERSON",
+        "evidence": "Gần đây, CEO Apple Tim Cook cũng từng đề cập đến Việt Nam là một trong những thị trường có doanh thu đạt mức kỷ lục trong quý 3/2023:"
+    },
+    {
+        "text": "quý 3/2023",
+        "label": "DATE",
+        "evidence": "Gần đây, CEO Apple Tim Cook cũng từng đề cập đến Việt Nam là một trong những thị trường có doanh thu đạt mức kỷ lục trong quý 3/2023:"
+    },
+    {
+        "text": "đạt kỷ lục doanh thu ở Ấn Độ",
+        "label": "EVENT",
+        "evidence": "Chúng tôi đạt kỷ lục doanh thu ở Ấn Độ, cũng như kỷ lục quý ở một số quốc gia gồm Brazil, Canada, Pháp, Indonesia, Mexico, Philippines, Arab Saudi, Thổ Nhĩ Kỳ, UAE, Việt Nam\"."
+    },
+    {
+        "text": "kỷ lục quý ở một số quốc gia gồm Brazil, Canada, Pháp, Indonesia, Mexico, Philippines, Arab Saudi, Thổ Nhĩ Kỳ, UAE, Việt Nam",
+        "label": "EVENT",
+        "evidence": "Chúng tôi đạt kỷ lục doanh thu ở Ấn Độ, cũng như kỷ lục quý ở một số quốc gia gồm Brazil, Canada, Pháp, Indonesia, Mexico, Philippines, Arab Saudi, Thổ Nhĩ Kỳ, UAE, Việt Nam\"."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Báo cáo xuất nhập khẩu năm 2022 cũng ghi nhận, số iPhone nhập về Việt Nam trong năm ngoái đạt giá trị 1,61 tỷ USD, chiếm 46,05% tổng kim ngạch nhập khẩu điện thoại nguyên chiếc của cả nước."
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "Báo cáo xuất nhập khẩu năm 2022 cũng ghi nhận, số iPhone nhập về Việt Nam trong năm ngoái đạt giá trị 1,61 tỷ USD, chiếm 46,05% tổng kim ngạch nhập khẩu điện thoại nguyên chiếc của cả nước."
+    },
+    {
+        "text": "1,61 tỷ USD",
+        "label": "MONEY",
+        "evidence": "số iPhone nhập về Việt Nam trong năm ngoái đạt giá trị 1,61 tỷ USD, chiếm 46,05% tổng kim ngạch nhập khẩu điện thoại nguyên chiếc của cả nước."
+    },
+    {
+        "text": "46,05%",
+        "label": "RATE",
+        "evidence": "chiếm 46,05% tổng kim ngạch nhập khẩu điện thoại nguyên chiếc của cả nước."
+    }
+]

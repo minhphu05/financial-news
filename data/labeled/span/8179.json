@@ -1,0 +1,262 @@
+[
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vinhomes vừa công bố báo cáo kết quả giao dịch mua lại cổ phiếu."
+    },
+    {
+        "text": "công bố báo cáo kết quả giao dịch mua lại cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Vinhomes vừa công bố báo cáo kết quả giao dịch mua lại cổ phiếu."
+    },
+    {
+        "text": "mua lại gần 247 triệu cổ phiếu của chính mình",
+        "label": "EVENT",
+        "evidence": "Theo đó, công ty đã mua lại gần 247 triệu cổ phiếu của chính mình trong thời gian từ 23/10 đến 21/11."
+    },
+    {
+        "text": "gần 247 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Theo đó, công ty đã mua lại gần 247 triệu cổ phiếu của chính mình trong thời gian từ 23/10 đến 21/11."
+    },
+    {
+        "text": "từ 23/10 đến 21/11",
+        "label": "DATE",
+        "evidence": "trong thời gian từ 23/10 đến 21/11."
+    },
+    {
+        "text": "42.444,36 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Giá mua bình quân là 42.444,36 đồng/cp, tương ứng giá trị giao dịch lên đến 10.500 tỷ đồng, lớn nhất lịch sử chứng khoán Việt Nam."
+    },
+    {
+        "text": "10.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương ứng giá trị giao dịch lên đến 10.500 tỷ đồng, lớn nhất lịch sử chứng khoán Việt Nam."
+    },
+    {
+        "text": "chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "lớn nhất lịch sử chứng khoán Việt Nam."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Sau giao dịch, số lượng cổ phiếu có quyền biểu quyết của Vinhomes giảm từ hơn 4,35 tỷ đơn vị xuống còn gần 4,11 tỷ đơn vị."
+    },
+    {
+        "text": "giảm từ hơn 4,35 tỷ đơn vị xuống còn gần 4,11 tỷ đơn vị",
+        "label": "EVENT",
+        "evidence": "số lượng cổ phiếu có quyền biểu quyết của Vinhomes giảm từ hơn 4,35 tỷ đơn vị xuống còn gần 4,11 tỷ đơn vị."
+    },
+    {
+        "text": "hơn 4,35 tỷ đơn vị",
+        "label": "VOLUME",
+        "evidence": "số lượng cổ phiếu có quyền biểu quyết của Vinhomes giảm từ hơn 4,35 tỷ đơn vị xuống còn gần 4,11 tỷ đơn vị."
+    },
+    {
+        "text": "gần 4,11 tỷ đơn vị",
+        "label": "VOLUME",
+        "evidence": "số lượng cổ phiếu có quyền biểu quyết của Vinhomes giảm từ hơn 4,35 tỷ đơn vị xuống còn gần 4,11 tỷ đơn vị."
+    },
+    {
+        "text": "giảm từ 43.544 tỷ đồng xuống còn hơn 41.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vốn điều lệ công ty cũng theo đó giảm từ 43.544 tỷ đồng xuống còn hơn 41.000 tỷ đồng."
+    },
+    {
+        "text": "43.544 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ công ty cũng theo đó giảm từ 43.544 tỷ đồng xuống còn hơn 41.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 41.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn điều lệ công ty cũng theo đó giảm từ 43.544 tỷ đồng xuống còn hơn 41.000 tỷ đồng."
+    },
+    {
+        "text": "mua lại cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "Về mục đích mua lại cổ phiếu quỹ, Vinhomes cho rằngthị giá VHMở mức thấp hơn so với giá trị thực của công ty."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vinhomes cho rằngthị giá VHMở mức thấp hơn so với giá trị thực của công ty."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Vinhomes cho rằngthị giá VHMở mức thấp hơn so với giá trị thực của công ty."
+    },
+    {
+        "text": "mua lại cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Việc mua lại cổ phiếu để đảm bảo quyền lợi của công ty và cổ đông."
+    },
+    {
+        "text": "kế hoạch mua lại cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Công ty khẳng định rằng kế hoạch mua lại cổ phiếu sẽ được tài trợ bằng lượng tiền mặt có sẵn và dòng tiền hoạt động, nhờ vào doanh thu từ việc bán một số dự án."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, trong thời gian Vinhomes giao dịch mua cổ phiếu quỹ, khối ngoại lại bán ròng mạnh cổ phiếu này và chỉ có duy nhất một phiên mua ròng nhẹ."
+    },
+    {
+        "text": "mua cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, trong thời gian Vinhomes giao dịch mua cổ phiếu quỹ, khối ngoại lại bán ròng mạnh cổ phiếu này và chỉ có duy nhất một phiên mua ròng nhẹ."
+    },
+    {
+        "text": "bán ròng mạnh cổ phiếu này",
+        "label": "EVENT",
+        "evidence": "khối ngoại lại bán ròng mạnh cổ phiếu này và chỉ có duy nhất một phiên mua ròng nhẹ."
+    },
+    {
+        "text": "mua ròng nhẹ",
+        "label": "EVENT",
+        "evidence": "và chỉ có duy nhất một phiên mua ròng nhẹ."
+    },
+    {
+        "text": "bán ròng lên đến gần 91 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Tổng khối lượng bán ròng lên đến gần 91 triệu cổ phiếu, giá trị bán ròng khoảng 3.800 tỷ đồng."
+    },
+    {
+        "text": "gần 91 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tổng khối lượng bán ròng lên đến gần 91 triệu cổ phiếu, giá trị bán ròng khoảng 3.800 tỷ đồng."
+    },
+    {
+        "text": "3.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị bán ròng khoảng 3.800 tỷ đồng."
+    },
+    {
+        "text": "mua ròng nhẹ",
+        "label": "EVENT",
+        "evidence": "Xu hướng này đã có dấu hiệu đảo chiều khi khối ngoại trở lại mua ròng nhẹ trong vài phiên gần đây."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Trên thị trường, cổ phiếu VHM có nhịp tăng mạnh sau khi hé lộ kế hoạch mua cổ phiếu quỹ, qua đó leo lên đỉnh một năm trước khi biến động mạnh trong thời gian thực hiện giao dịch."
+    },
+    {
+        "text": "tăng mạnh sau khi hé lộ kế hoạch mua cổ phiếu quỹ",
+        "label": "EVENT",
+        "evidence": "Trên thị trường, cổ phiếu VHM có nhịp tăng mạnh sau khi hé lộ kế hoạch mua cổ phiếu quỹ, qua đó leo lên đỉnh một năm trước khi biến động mạnh trong thời gian thực hiện giao dịch."
+    },
+    {
+        "text": "42.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu này hiện đang dừng ở mức 42.400 đồng/cp, thấp hơn 12% so với đỉnh một năm nhưng vẫn cao hơn 23% so với đáy lịch sử."
+    },
+    {
+        "text": "thấp hơn 12%",
+        "label": "RATE",
+        "evidence": "thấp hơn 12% so với đỉnh một năm nhưng vẫn cao hơn 23% so với đáy lịch sử."
+    },
+    {
+        "text": "cao hơn 23%",
+        "label": "RATE",
+        "evidence": "thấp hơn 12% so với đỉnh một năm nhưng vẫn cao hơn 23% so với đáy lịch sử."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vốn hóa thị trường của Vinhomes đạt xấp xỉ 185.000 tỷ đồng."
+    },
+    {
+        "text": "185.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường của Vinhomes đạt xấp xỉ 185.000 tỷ đồng."
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "Về kết quả kinh doanh quý 3/2024, Vinhomes ghi nhận doanh thu thuần đạt 33.323 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Về kết quả kinh doanh quý 3/2024, Vinhomes ghi nhận doanh thu thuần đạt 33.323 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "33.323 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vinhomes ghi nhận doanh thu thuần đạt 33.323 tỷ đồng, tăng nhẹ gần 2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng nhẹ gần 2%",
+        "label": "RATE",
+        "evidence": "tăng nhẹ gần 2% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "hơn 8.980 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi trừ chi phí, lợi nhuận sau thuế đạt hơn 8.980 tỷ đồng."
+    },
+    {
+        "text": "9 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng đầu năm, Vinhomes ghi nhận tổng doanh thu thuần hợp nhất đạt 69.910 tỷ đồng và lợi nhuận sau thuế đạt 20.600 tỷ đồng."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Lũy kế 9 tháng đầu năm, Vinhomes ghi nhận tổng doanh thu thuần hợp nhất đạt 69.910 tỷ đồng và lợi nhuận sau thuế đạt 20.600 tỷ đồng."
+    },
+    {
+        "text": "69.910 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 9 tháng đầu năm, Vinhomes ghi nhận tổng doanh thu thuần hợp nhất đạt 69.910 tỷ đồng và lợi nhuận sau thuế đạt 20.600 tỷ đồng."
+    },
+    {
+        "text": "20.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 9 tháng đầu năm, Vinhomes ghi nhận tổng doanh thu thuần hợp nhất đạt 69.910 tỷ đồng và lợi nhuận sau thuế đạt 20.600 tỷ đồng."
+    },
+    {
+        "text": "cuối quý 3/2024",
+        "label": "DATE",
+        "evidence": "Tính đến cuối quý 3/2024, Vinhomes ghi nhận quy mô tổng tài sản và vốn chủ sở hữu lần lượt đạt 524.684 tỷ đồng và 215.966 tỷ đồng, tăng lần lượt 18% và 18,3% so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Tính đến cuối quý 3/2024, Vinhomes ghi nhận quy mô tổng tài sản và vốn chủ sở hữu lần lượt đạt 524.684 tỷ đồng và 215.966 tỷ đồng, tăng lần lượt 18% và 18,3% so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "524.684 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối quý 3/2024, Vinhomes ghi nhận quy mô tổng tài sản và vốn chủ sở hữu lần lượt đạt 524.684 tỷ đồng và 215.966 tỷ đồng, tăng lần lượt 18% và 18,3% so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "215.966 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối quý 3/2024, Vinhomes ghi nhận quy mô tổng tài sản và vốn chủ sở hữu lần lượt đạt 524.684 tỷ đồng và 215.966 tỷ đồng, tăng lần lượt 18% và 18,3% so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "tăng lần lượt 18% và 18,3%",
+        "label": "RATE",
+        "evidence": "tăng lần lượt 18% và 18,3% so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "so với thời điểm cuối năm 2023"
+    },
+    {
+        "text": "22.055 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, khoản tiền, tương đương tiền và tiền gửi ngân hàng có giá trị 22.055 tỷ đồng (~1 tỷ USD)."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Trong đó, khoản tiền, tương đương tiền và tiền gửi ngân hàng có giá trị 22.055 tỷ đồng (~1 tỷ USD)."
+    }
+]

@@ -1,0 +1,647 @@
+[
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Tập đoàn Masan (MSN) vừa công bố tài liệu họp ĐHĐCĐ thường niên vào ngày 24/4 tới đây."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Tập đoàn Masan (MSN) vừa công bố tài liệu họp ĐHĐCĐ thường niên vào ngày 24/4 tới đây."
+    },
+    {
+        "text": "công bố tài liệu họp ĐHĐCĐ thường niên",
+        "label": "EVENT",
+        "evidence": "Tập đoàn Masan (MSN) vừa công bố tài liệu họp ĐHĐCĐ thường niên vào ngày 24/4 tới đây."
+    },
+    {
+        "text": "24/4",
+        "label": "DATE",
+        "evidence": "Tập đoàn Masan (MSN) vừa công bố tài liệu họp ĐHĐCĐ thường niên vào ngày 24/4 tới đây."
+    },
+    {
+        "text": "90.000 - 100.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, Công ty lên kế hoạch doanh thu 90.000 - 100.000 tỷ đồng, tăng trưởng 18-31% so với thực hiện trong năm 2022."
+    },
+    {
+        "text": "18-31%",
+        "label": "RATE",
+        "evidence": "Theo đó, Công ty lên kế hoạch doanh thu 90.000 - 100.000 tỷ đồng, tăng trưởng 18-31% so với thực hiện trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Theo đó, Công ty lên kế hoạch doanh thu 90.000 - 100.000 tỷ đồng, tăng trưởng 18-31% so với thực hiện trong năm 2022."
+    },
+    {
+        "text": "4.000 - 5.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận kế hoạch dao động trong khoảng 4.000 - 5.000 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "So với con số thực hiện năm 2022 là 4.754 tỷ đồng, theo kịch bản cao nhất MSN dự kiến chỉ tăng trưởng nhẹ 5% về lợi nhuận."
+    },
+    {
+        "text": "4.754 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "So với con số thực hiện năm 2022 là 4.754 tỷ đồng, theo kịch bản cao nhất MSN dự kiến chỉ tăng trưởng nhẹ 5% về lợi nhuận."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "So với con số thực hiện năm 2022 là 4.754 tỷ đồng, theo kịch bản cao nhất MSN dự kiến chỉ tăng trưởng nhẹ 5% về lợi nhuận."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "So với con số thực hiện năm 2022 là 4.754 tỷ đồng, theo kịch bản cao nhất MSN dự kiến chỉ tăng trưởng nhẹ 5% về lợi nhuận."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Kế hoạch được Masan đề ra trong bối cảnh thị trường bán lẻ đối mặt với khó khăn nhu cầu giảm sút, người dân thắt chặt chi tiêu."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Chi tiết từng mảng hiện nay của Masan, gồm:"
+    },
+    {
+        "text": "The CrownX",
+        "label": "ORG",
+        "evidence": "Thứ nhất, The CrownX - nền tảng bán lẻ tiêu dùng tích hợp được thành lập vào năm 2020:Năm qua, TCX ghi nhận doanh thu thuần giảm nhẹ còn 56.221 tỷ đồng do biến động vĩ mô và tâm lý thắt chặt chi tiêu của người dân."
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "Thứ nhất, The CrownX - nền tảng bán lẻ tiêu dùng tích hợp được thành lập vào năm 2020:Năm qua, TCX ghi nhận doanh thu thuần giảm nhẹ còn 56.221 tỷ đồng do biến động vĩ mô và tâm lý thắt chặt chi tiêu của người dân."
+    },
+    {
+        "text": "TCX",
+        "label": "ORG",
+        "evidence": "Năm qua, TCX ghi nhận doanh thu thuần giảm nhẹ còn 56.221 tỷ đồng do biến động vĩ mô và tâm lý thắt chặt chi tiêu của người dân."
+    },
+    {
+        "text": "56.221 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm qua, TCX ghi nhận doanh thu thuần giảm nhẹ còn 56.221 tỷ đồng do biến động vĩ mô và tâm lý thắt chặt chi tiêu của người dân."
+    },
+    {
+        "text": "Wincommerce",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "WinMart+",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "WinMart",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "29.369 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "28.103 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Trong đó,Wincommerce (WCM - chuỗi bán lẻ hiện đại, đang vận hành WinMart+/WinMart)ghi nhận doanh thu 29.369 tỷ đồng - giảm 5% và Masan Consumer (MCH) - công ty con sản xuất tiêu dùng đạt 28.103 tỷ đồng doanh thu - cùng giảm so với năm 2021."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart)",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "Winmart+",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "Winmart",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "3.268 cửa hàng WinMart+",
+        "label": "VOLUME",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "130 siêu thi WinMart",
+        "label": "VOLUME",
+        "evidence": "Đáng chú ý, năm 2022 WCM đã mở thêm 730 cửa hàng minimart (Winmart+) và 8 siêu thị (Winmart), như vậy đến cuối năm có tất cả 3.268 cửa hàng WinMart+ và 130 siêu thi WinMart."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Tuy nhiên, theo MSN, Công ty không đánh đổi lợi nhuận để mở rộng quy mô."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, Công ty đề mục tiêu mở rộng thêm khoảng 800-1.200 số lượng điểm minimart."
+    },
+    {
+        "text": "mở rộng thêm khoảng 800-1.200 số lượng điểm minimart",
+        "label": "EVENT",
+        "evidence": "Năm 2023, Công ty đề mục tiêu mở rộng thêm khoảng 800-1.200 số lượng điểm minimart."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "WCM dự kiến mở rộng biên lợi nhuận gộp bằng cách hợp tác với các nhà cung cấp để đưa ra thị trường các nhãn hàng riêng có giá thành phải chăng dành cho gia đình có thu nhập thấp hơn."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "Với tỷ lệ thâm nhập hiện tại là 7%, doanh thu WCM dự kiến tăng 10-15% trong năm 2023."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Với tỷ lệ thâm nhập hiện tại là 7%, doanh thu WCM dự kiến tăng 10-15% trong năm 2023."
+    },
+    {
+        "text": "10-15%",
+        "label": "RATE",
+        "evidence": "Với tỷ lệ thâm nhập hiện tại là 7%, doanh thu WCM dự kiến tăng 10-15% trong năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Với tỷ lệ thâm nhập hiện tại là 7%, doanh thu WCM dự kiến tăng 10-15% trong năm 2023."
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Còn Masan Consumer, Công ty dự kiến sẽ hồi phục doanh thu các sản phẩm mới (như thương hiệu Chante)."
+    },
+    {
+        "text": "Chante",
+        "label": "ORG",
+        "evidence": "Còn Masan Consumer, Công ty dự kiến sẽ hồi phục doanh thu các sản phẩm mới (như thương hiệu Chante)."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Thực phẩm tiện lợi, đồ uống và chăm sóc cá nhân - gia đình dự kiến là động lực chính của MCH, chiếm 2/3 tổng tăng trưởng doanh thu năm nay."
+    },
+    {
+        "text": "TCX",
+        "label": "ORG",
+        "evidence": "Nhìn chung, năm nay TCX kỳ vọng sẽ đạt được mức tăng trưởng cả về doanh thu và lợi nhuận nhờ cải thiện hiệu quả hoạt động của WCM và MCH."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Nhìn chung, năm nay TCX kỳ vọng sẽ đạt được mức tăng trưởng cả về doanh thu và lợi nhuận nhờ cải thiện hiệu quả hoạt động của WCM và MCH."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Nhìn chung, năm nay TCX kỳ vọng sẽ đạt được mức tăng trưởng cả về doanh thu và lợi nhuận nhờ cải thiện hiệu quả hoạt động của WCM và MCH."
+    },
+    {
+        "text": "Phúc Long Heritage",
+        "label": "ORG",
+        "evidence": "Thứ hai, Phúc Long Heritage (PLH):Kể từ khi về với hệ sinh thái Masan, Phúc Long có sự tăng trưởng đáng kể."
+    },
+    {
+        "text": "PLH",
+        "label": "ORG",
+        "evidence": "Thứ hai, Phúc Long Heritage (PLH):Kể từ khi về với hệ sinh thái Masan, Phúc Long có sự tăng trưởng đáng kể."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Kể từ khi về với hệ sinh thái Masan, Phúc Long có sự tăng trưởng đáng kể."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Kể từ khi về với hệ sinh thái Masan, Phúc Long có sự tăng trưởng đáng kể."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022, doanh thu chuỗi đạt 1.579 tỷ đồng, tương đương EBITDA đạt 195 tỷ đồng."
+    },
+    {
+        "text": "1.579 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2022, doanh thu chuỗi đạt 1.579 tỷ đồng, tương đương EBITDA đạt 195 tỷ đồng."
+    },
+    {
+        "text": "195 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2022, doanh thu chuỗi đạt 1.579 tỷ đồng, tương đương EBITDA đạt 195 tỷ đồng."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini",
+        "label": "EVENT",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "quý 4/2022",
+        "label": "DATE",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "111 cửa hàng đại diện thương hiệu",
+        "label": "VOLUME",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "21 cửa hàng mini",
+        "label": "VOLUME",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Phúc Long cũng mở thêm con số kỷ lục là 23 cửa hàng flaship mới và 2 cửa hàng mini trong quý 4/2022, nâng tổng số lên 111 cửa hàng đại diện thương hiệu và 21 cửa hàng mini, tăng gần gấp đôi từ khi Masan đầu tư vào năm 2021."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, Phúc Long đặt mục tiêu mở thêm 75-90 cửa hàng đại diện thương hiệu mới, triển khai chương trình hội viên WIN của hệ sinh thái Masan."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Năm 2023, Phúc Long đặt mục tiêu mở thêm 75-90 cửa hàng đại diện thương hiệu mới, triển khai chương trình hội viên WIN của hệ sinh thái Masan."
+    },
+    {
+        "text": "mở thêm 75-90 cửa hàng đại diện thương hiệu mới",
+        "label": "EVENT",
+        "evidence": "Năm 2023, Phúc Long đặt mục tiêu mở thêm 75-90 cửa hàng đại diện thương hiệu mới, triển khai chương trình hội viên WIN của hệ sinh thái Masan."
+    },
+    {
+        "text": "WIN",
+        "label": "ORG",
+        "evidence": "Năm 2023, Phúc Long đặt mục tiêu mở thêm 75-90 cửa hàng đại diện thương hiệu mới, triển khai chương trình hội viên WIN của hệ sinh thái Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Năm 2023, Phúc Long đặt mục tiêu mở thêm 75-90 cửa hàng đại diện thương hiệu mới, triển khai chương trình hội viên WIN của hệ sinh thái Masan."
+    },
+    {
+        "text": "Masan MEATLife",
+        "label": "ORG",
+        "evidence": "Thứ ba, Masan MEATLife (MML) - công ty chuyên về thịt và sở hữu thương hiệu thịt mát MEATDeli:"
+    },
+    {
+        "text": "MML",
+        "label": "ORG",
+        "evidence": "Thứ ba, Masan MEATLife (MML) - công ty chuyên về thịt và sở hữu thương hiệu thịt mát MEATDeli:"
+    },
+    {
+        "text": "MEATDeli",
+        "label": "ORG",
+        "evidence": "Thứ ba, Masan MEATLife (MML) - công ty chuyên về thịt và sở hữu thương hiệu thịt mát MEATDeli:"
+    },
+    {
+        "text": "74%",
+        "label": "RATE",
+        "evidence": "Doanh thu thuần năm qua giảm mạnh 74% còn 4.785 tỷ đồng, chủ yếu do tác động của việc tách mảng thức ăn chăn nuôi."
+    },
+    {
+        "text": "4.785 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Doanh thu thuần năm qua giảm mạnh 74% còn 4.785 tỷ đồng, chủ yếu do tác động của việc tách mảng thức ăn chăn nuôi."
+    },
+    {
+        "text": "tách mảng thức ăn chăn nuôi",
+        "label": "EVENT",
+        "evidence": "Doanh thu thuần năm qua giảm mạnh 74% còn 4.785 tỷ đồng, chủ yếu do tác động của việc tách mảng thức ăn chăn nuôi."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, MML dự mở rộng danh mục sản phẩm bằng cách đầu tư vào R&D cho cả sản phẩm tươi sống lẫn đã qua chế biến."
+    },
+    {
+        "text": "MML",
+        "label": "ORG",
+        "evidence": "Năm 2023, MML dự mở rộng danh mục sản phẩm bằng cách đầu tư vào R&D cho cả sản phẩm tươi sống lẫn đã qua chế biến."
+    },
+    {
+        "text": "mở rộng danh mục sản phẩm",
+        "label": "EVENT",
+        "evidence": "Năm 2023, MML dự mở rộng danh mục sản phẩm bằng cách đầu tư vào R&D cho cả sản phẩm tươi sống lẫn đã qua chế biến."
+    },
+    {
+        "text": "Masan High-Tech Materials",
+        "label": "ORG",
+        "evidence": "Thứ tư, Masan High-Tech Materials:Năm 2023 dự kiến doanh thu thuần đạt khoảng 16.500 - 18.200 tỷ đồng, tăng 6-17% do các yếu tố cơ bản về thị trường vonfram tiếp tục được cải thiện."
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 dự kiến doanh thu thuần đạt khoảng 16.500 - 18.200 tỷ đồng, tăng 6-17% do các yếu tố cơ bản về thị trường vonfram tiếp tục được cải thiện."
+    },
+    {
+        "text": "16.500 - 18.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2023 dự kiến doanh thu thuần đạt khoảng 16.500 - 18.200 tỷ đồng, tăng 6-17% do các yếu tố cơ bản về thị trường vonfram tiếp tục được cải thiện."
+    },
+    {
+        "text": "6-17%",
+        "label": "RATE",
+        "evidence": "Năm 2023 dự kiến doanh thu thuần đạt khoảng 16.500 - 18.200 tỷ đồng, tăng 6-17% do các yếu tố cơ bản về thị trường vonfram tiếp tục được cải thiện."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022, Công ty ghi nhận doanh thu 76.185 tỷ và lợi nhuận 4.754 tỷ đồng, cùng giảm so với năm 2021."
+    },
+    {
+        "text": "76.185 tỷ",
+        "label": "MONEY",
+        "evidence": "Năm 2022, Công ty ghi nhận doanh thu 76.185 tỷ và lợi nhuận 4.754 tỷ đồng, cùng giảm so với năm 2021."
+    },
+    {
+        "text": "4.754 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2022, Công ty ghi nhận doanh thu 76.185 tỷ và lợi nhuận 4.754 tỷ đồng, cùng giảm so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "Năm 2022, Công ty ghi nhận doanh thu 76.185 tỷ và lợi nhuận 4.754 tỷ đồng, cùng giảm so với năm 2021."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "chia cổ tức 2022 bằng tiền",
+        "label": "EVENT",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "800 đồng/cp",
+        "label": "MONEY",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "20/6/2022",
+        "label": "DATE",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "1.139 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với kết quả trên, HĐQT thống nhất chia cổ tức 2022 bằng tiền với tỷ lệ 8% (800 đồng/cp), đã được tạm ứng theo Nghị quyết ngày 20/6/2022 (tương đương tổng tiền chi ra là 1.139 tỷ đồng)."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Sang năm 2023, Công ty dự tạm ứng cổ tức từ nguồn lợi nhuận giữ lại."
+    },
+    {
+        "text": "tạm ứng cổ tức",
+        "label": "EVENT",
+        "evidence": "Sang năm 2023, Công ty dự tạm ứng cổ tức từ nguồn lợi nhuận giữ lại."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Kế hoạch chi tiết sẽ được uỷ quyền cho HĐQT phê duyệt tuỳ thuộc vào tình hình kinh doanh thực tế của Công ty."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "HĐQT cũng thông qua thù lap cho thành viên HĐQT trong năm 2023 là 0 đồng, và kế hoạch ngân sách cho chi phí hoạt động của HĐQT là không quá 5 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "HĐQT cũng thông qua thù lap cho thành viên HĐQT trong năm 2023 là 0 đồng, và kế hoạch ngân sách cho chi phí hoạt động của HĐQT là không quá 5 tỷ đồng."
+    },
+    {
+        "text": "0 đồng",
+        "label": "MONEY",
+        "evidence": "HĐQT cũng thông qua thù lap cho thành viên HĐQT trong năm 2023 là 0 đồng, và kế hoạch ngân sách cho chi phí hoạt động của HĐQT là không quá 5 tỷ đồng."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "HĐQT cũng thông qua thù lap cho thành viên HĐQT trong năm 2023 là 0 đồng, và kế hoạch ngân sách cho chi phí hoạt động của HĐQT là không quá 5 tỷ đồng."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "HĐQT cũng thông qua thù lap cho thành viên HĐQT trong năm 2023 là 0 đồng, và kế hoạch ngân sách cho chi phí hoạt động của HĐQT là không quá 5 tỷ đồng."
+    },
+    {
+        "text": "Phát hành cổ phần tăng vốn",
+        "label": "EVENT",
+        "evidence": "Phát hành cổ phần tăng vốn﻿"
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, năm nay Masan dự trình phương án tăng vốn thông qua phát hành ESOP với tỷ lệ 0,5% số cổ phần đang lưu hành, giá phát hành là 10.000 đồng/cp (thị giá hiện tại vào mức 76.800 đồng/cp)."
+    },
+    {
+        "text": "phát hành ESOP",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, năm nay Masan dự trình phương án tăng vốn thông qua phát hành ESOP với tỷ lệ 0,5% số cổ phần đang lưu hành, giá phát hành là 10.000 đồng/cp (thị giá hiện tại vào mức 76.800 đồng/cp)."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "Đáng chú ý, năm nay Masan dự trình phương án tăng vốn thông qua phát hành ESOP với tỷ lệ 0,5% số cổ phần đang lưu hành, giá phát hành là 10.000 đồng/cp (thị giá hiện tại vào mức 76.800 đồng/cp)."
+    },
+    {
+        "text": "10.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Đáng chú ý, năm nay Masan dự trình phương án tăng vốn thông qua phát hành ESOP với tỷ lệ 0,5% số cổ phần đang lưu hành, giá phát hành là 10.000 đồng/cp (thị giá hiện tại vào mức 76.800 đồng/cp)."
+    },
+    {
+        "text": "76.800 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Đáng chú ý, năm nay Masan dự trình phương án tăng vốn thông qua phát hành ESOP với tỷ lệ 0,5% số cổ phần đang lưu hành, giá phát hành là 10.000 đồng/cp (thị giá hiện tại vào mức 76.800 đồng/cp)."
+    },
+    {
+        "text": "Cổ phiếu ESOP",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu ESOP sẽ bị hạn chế chuyển nhượng trong vòng 1 năm từ ngày phát hành."
+    },
+    {
+        "text": "chào bán cổ phiếu riêng lẻ",
+        "label": "EVENT",
+        "evidence": "Song song, Công ty còn dự kiến chào bán cổ phiếu riêng lẻ cho nhà đầu tư chiến lược hoặc nhà đầu tư chứng khoán chuyên nghiệp."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Số lượng chào bán dự kiến tối đa 10% tổng cổ phần đang lưu hành, cổ phiếu chào bán sẽ bị hạn chế chuyển nhượng trong vòng 3 năm với nhà đầu tư chiến lược và 1 năm đối với nhà đầu tư chứng khoán chuyên nghiệp."
+    },
+    {
+        "text": "cổ phiếu chào bán",
+        "label": "ASSET",
+        "evidence": "Số lượng chào bán dự kiến tối đa 10% tổng cổ phần đang lưu hành, cổ phiếu chào bán sẽ bị hạn chế chuyển nhượng trong vòng 3 năm với nhà đầu tư chiến lược và 1 năm đối với nhà đầu tư chứng khoán chuyên nghiệp."
+    },
+    {
+        "text": "3 năm",
+        "label": "DATE",
+        "evidence": "Số lượng chào bán dự kiến tối đa 10% tổng cổ phần đang lưu hành, cổ phiếu chào bán sẽ bị hạn chế chuyển nhượng trong vòng 3 năm với nhà đầu tư chiến lược và 1 năm đối với nhà đầu tư chứng khoán chuyên nghiệp."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Số lượng chào bán dự kiến tối đa 10% tổng cổ phần đang lưu hành, cổ phiếu chào bán sẽ bị hạn chế chuyển nhượng trong vòng 3 năm với nhà đầu tư chiến lược và 1 năm đối với nhà đầu tư chứng khoán chuyên nghiệp."
+    },
+    {
+        "text": "M&A",
+        "label": "EVENT",
+        "evidence": "Tổng số vốn thu về mục đích bổ sung vốn cho hoạt động kinh doanh, góp vốn vào công ty con, nâng cao năng lực tài chính, thực hiện M&A..."
+    },
+    {
+        "text": "Huy động thêm tối đa 500 triệu USD trái phiếu quốc tế",
+        "label": "EVENT",
+        "evidence": "Huy động thêm tối đa 500 triệu USD trái phiếu quốc tế﻿"
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Ngoài ta, HĐQT còn xin ý kiến cổ đông về việc phát hành trái phiếu chuyển đổi ra thị trường quốc tế, dự kiến số lượng tối đa là 500 triệu USD."
+    },
+    {
+        "text": "phát hành trái phiếu chuyển đổi ra thị trường quốc tế",
+        "label": "EVENT",
+        "evidence": "Ngoài ta, HĐQT còn xin ý kiến cổ đông về việc phát hành trái phiếu chuyển đổi ra thị trường quốc tế, dự kiến số lượng tối đa là 500 triệu USD."
+    },
+    {
+        "text": "500 triệu USD",
+        "label": "MONEY",
+        "evidence": "Ngoài ta, HĐQT còn xin ý kiến cổ đông về việc phát hành trái phiếu chuyển đổi ra thị trường quốc tế, dự kiến số lượng tối đa là 500 triệu USD."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Tỷ lệ chuyển đổi sẽ do HĐQT quyết định, thời gian thực hiện trong năm 2023 hoặc sang năm 2024."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tỷ lệ chuyển đổi sẽ do HĐQT quyết định, thời gian thực hiện trong năm 2023 hoặc sang năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Tỷ lệ chuyển đổi sẽ do HĐQT quyết định, thời gian thực hiện trong năm 2023 hoặc sang năm 2024."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Tương ứng, Masan cũng sẽ phát hành cổ phiếu để chuyển đổi trái phiếu, tăng vốn điều lệ."
+    },
+    {
+        "text": "phát hành cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Tương ứng, Masan cũng sẽ phát hành cổ phiếu để chuyển đổi trái phiếu, tăng vốn điều lệ."
+    },
+    {
+        "text": "trái phiếu",
+        "label": "ASSET",
+        "evidence": "Tương ứng, Masan cũng sẽ phát hành cổ phiếu để chuyển đổi trái phiếu, tăng vốn điều lệ."
+    },
+    {
+        "text": "trái phiếu chuyển đổi",
+        "label": "ASSET",
+        "evidence": "Mục đích huy động vốn từ trái phiếu chuyển đổi dự kiến (i) để thực hiện các chương trình và dự án đầu tư của Công ty (bao gồm mua cổ phần công ty con), (ii) bổ sung vốn lưu động và (iii) cơ cấu lại các khoản nợ nước ngoài của Công ty."
+    },
+    {
+        "text": "mua cổ phần công ty con",
+        "label": "EVENT",
+        "evidence": "Mục đích huy động vốn từ trái phiếu chuyển đổi dự kiến (i) để thực hiện các chương trình và dự án đầu tư của Công ty (bao gồm mua cổ phần công ty con), (ii) bổ sung vốn lưu động và (iii) cơ cấu lại các khoản nợ nước ngoài của Công ty."
+    },
+    {
+        "text": "cơ cấu lại các khoản nợ nước ngoài",
+        "label": "EVENT",
+        "evidence": "Mục đích huy động vốn từ trái phiếu chuyển đổi dự kiến (i) để thực hiện các chương trình và dự án đầu tư của Công ty (bao gồm mua cổ phần công ty con), (ii) bổ sung vốn lưu động và (iii) cơ cấu lại các khoản nợ nước ngoài của Công ty."
+    },
+    {
+        "text": "miễn nhiệm tư cách thành viên HĐQT của ông Ji Han Yooo do từ nhiệm",
+        "label": "EVENT",
+        "evidence": "Đại hội lần này cũng thông qua việc miễn nhiệm tư cách thành viên HĐQT của ông Ji Han Yooo do từ nhiệm, tiến hành bầu thay thế thành viên mới cho nhiệm kỳ 2019-2024."
+    },
+    {
+        "text": "Ji Han Yooo",
+        "label": "PERSON",
+        "evidence": "Đại hội lần này cũng thông qua việc miễn nhiệm tư cách thành viên HĐQT của ông Ji Han Yooo do từ nhiệm, tiến hành bầu thay thế thành viên mới cho nhiệm kỳ 2019-2024."
+    },
+    {
+        "text": "bầu thay thế thành viên mới",
+        "label": "EVENT",
+        "evidence": "Đại hội lần này cũng thông qua việc miễn nhiệm tư cách thành viên HĐQT của ông Ji Han Yooo do từ nhiệm, tiến hành bầu thay thế thành viên mới cho nhiệm kỳ 2019-2024."
+    },
+    {
+        "text": "2019-2024",
+        "label": "DATE",
+        "evidence": "Đại hội lần này cũng thông qua việc miễn nhiệm tư cách thành viên HĐQT của ông Ji Han Yooo do từ nhiệm, tiến hành bầu thay thế thành viên mới cho nhiệm kỳ 2019-2024."
+    }
+]

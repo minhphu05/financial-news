@@ -1,0 +1,627 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi tại quầy của Sacombank tháng 6/2025"
+    },
+    {
+        "text": "tháng 6/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi tại quầy của Sacombank tháng 6/2025"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Theo biểu lãi suất mới nhất được Sacombank công bố, lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân dao động từ0,5% đến 5,2%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "Sacombank công bố",
+        "label": "EVENT",
+        "evidence": "Theo biểu lãi suất mới nhất được Sacombank công bố, lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân dao động từ0,5% đến 5,2%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân dao động từ0,5% đến 5,2%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi tại quầy dành cho khách hàng cá nhân dao động từ0,5% đến 5,2%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ."
+    },
+    {
+        "text": "dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn dưới 1 tháng: Lãi suất 0,5%/năm."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn dưới 1 tháng: Lãi suất 0,5%/năm."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 1 tháng đến dưới 2 tháng: Lãi suất 2,8%/năm."
+    },
+    {
+        "text": "dưới 2 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 1 tháng đến dưới 2 tháng: Lãi suất 2,8%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 1 tháng đến dưới 2 tháng: Lãi suất 2,8%/năm."
+    },
+    {
+        "text": "2 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 2 tháng đến dưới 3 tháng: Lãi suất 2,9%/năm."
+    },
+    {
+        "text": "dưới 3 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 2 tháng đến dưới 3 tháng: Lãi suất 2,9%/năm."
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 2 tháng đến dưới 3 tháng: Lãi suất 2,9%/năm."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 3 tháng đến dưới 4 tháng: Lãi suất 3,2%/năm."
+    },
+    {
+        "text": "dưới 4 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 3 tháng đến dưới 4 tháng: Lãi suất 3,2%/năm."
+    },
+    {
+        "text": "3,2%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 3 tháng đến dưới 4 tháng: Lãi suất 3,2%/năm."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 6 tháng: Lãi suất 4,2%/năm."
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 6 tháng: Lãi suất 4,2%/năm."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 9 tháng: Lãi suất 4,3%/năm."
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 9 tháng: Lãi suất 4,3%/năm."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng và 15 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "15 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng và 15 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 12 tháng và 15 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 18 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 18 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng: Lãi suất 5,0%/năm."
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 24 tháng: Lãi suất 5,0%/năm."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 36 tháng: Lãi suất cao nhất là5,2%/năm."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 36 tháng: Lãi suất cao nhất là5,2%/năm."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài hình thức lĩnh lãi cuối kỳ, Sacombank cung cấp các phương thức trả lãi linh hoạt như:"
+    },
+    {
+        "text": "Sacombank cung cấp các phương thức trả lãi linh hoạt",
+        "label": "EVENT",
+        "evidence": "Ngoài hình thức lĩnh lãi cuối kỳ, Sacombank cung cấp các phương thức trả lãi linh hoạt như:"
+    },
+    {
+        "text": "4,18%",
+        "label": "RATE",
+        "evidence": "Lãi hàng quý: Từ 4,18% đến 4,86%/năm."
+    },
+    {
+        "text": "4,86%/năm",
+        "label": "RATE",
+        "evidence": "Lãi hàng quý: Từ 4,18% đến 4,86%/năm."
+    },
+    {
+        "text": "2,8%",
+        "label": "RATE",
+        "evidence": "Lãi hàng tháng: Từ 2,8% đến 4,84%/năm."
+    },
+    {
+        "text": "4,84%/năm",
+        "label": "RATE",
+        "evidence": "Lãi hàng tháng: Từ 2,8% đến 4,84%/năm."
+    },
+    {
+        "text": "2,79%",
+        "label": "RATE",
+        "evidence": "Lãi trả trước: Từ 2,79% đến 4,67%/năm."
+    },
+    {
+        "text": "4,67%/năm",
+        "label": "RATE",
+        "evidence": "Lãi trả trước: Từ 2,79% đến 4,67%/năm."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãi suất tiền gửi trực tuyến của Sacombank tháng 6/2025"
+    },
+    {
+        "text": "tháng 6/2025",
+        "label": "DATE",
+        "evidence": "Lãi suất tiền gửi trực tuyến của Sacombank tháng 6/2025"
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ORG",
+        "evidence": "Đối với hình thức gửi tiết kiệm trực tuyến qua các kênh như Sacombank Pay, eBanking hoặc STM, lãi suất được áp dụng cao hơn từ0,4% đến 0,7%/nămso với gửi tại quầy."
+    },
+    {
+        "text": "eBanking",
+        "label": "ORG",
+        "evidence": "Đối với hình thức gửi tiết kiệm trực tuyến qua các kênh như Sacombank Pay, eBanking hoặc STM, lãi suất được áp dụng cao hơn từ0,4% đến 0,7%/nămso với gửi tại quầy."
+    },
+    {
+        "text": "STM",
+        "label": "ORG",
+        "evidence": "Đối với hình thức gửi tiết kiệm trực tuyến qua các kênh như Sacombank Pay, eBanking hoặc STM, lãi suất được áp dụng cao hơn từ0,4% đến 0,7%/nămso với gửi tại quầy."
+    },
+    {
+        "text": "0,4%",
+        "label": "RATE",
+        "evidence": "lãi suất được áp dụng cao hơn từ0,4% đến 0,7%/nămso với gửi tại quầy."
+    },
+    {
+        "text": "0,7%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất được áp dụng cao hơn từ0,4% đến 0,7%/nămso với gửi tại quầy."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "Cụ thể, khung lãi suất tiền gửi trực tuyến dao động từ0,5% đến 5,7%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ:"
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, khung lãi suất tiền gửi trực tuyến dao động từ0,5% đến 5,7%/năm, áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ:"
+    },
+    {
+        "text": "dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ:"
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng cho các kỳ hạn từ dưới 1 tháng đến 36 tháng, lĩnh lãi cuối kỳ:"
+    },
+    {
+        "text": "dưới 1 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn dưới 1 tháng: Lãi suất 0,5%/năm."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn dưới 1 tháng: Lãi suất 0,5%/năm."
+    },
+    {
+        "text": "1 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 1 tháng: Lãi suất 3,3%/năm."
+    },
+    {
+        "text": "3,3%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 1 tháng: Lãi suất 3,3%/năm."
+    },
+    {
+        "text": "2 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 2 tháng: Lãi suất 3,5%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 2 tháng: Lãi suất 3,5%/năm."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 3 tháng đến 5 tháng: Lãi suất 3,6%/năm."
+    },
+    {
+        "text": "5 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 3 tháng đến 5 tháng: Lãi suất 3,6%/năm."
+    },
+    {
+        "text": "3,6%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 3 tháng đến 5 tháng: Lãi suất 3,6%/năm."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 6 tháng đến 11 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "11 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 6 tháng đến 11 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 6 tháng đến 11 tháng: Lãi suất 4,9%/năm."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng và 13 tháng: Lãi suất 5,4%/năm."
+    },
+    {
+        "text": "13 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng và 13 tháng: Lãi suất 5,4%/năm."
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 12 tháng và 13 tháng: Lãi suất 5,4%/năm."
+    },
+    {
+        "text": "15 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 15 tháng: Lãi suất 5,5%/năm."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 15 tháng: Lãi suất 5,5%/năm."
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 18 tháng: Lãi suất 5,6%/năm."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 18 tháng: Lãi suất 5,6%/năm."
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng và 36 tháng: Lãi suất cao nhất là5,7%/năm."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng và 36 tháng: Lãi suất cao nhất là5,7%/năm."
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 24 tháng và 36 tháng: Lãi suất cao nhất là5,7%/năm."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Các sản phẩm tiết kiệm đặc biệt tại Sacombank"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài các sản phẩm truyền thống trên, Sacombank cũng cung cấp nhiều sản phẩm tiết kiệm đa dạng, phù hợp với nhu cầu tài chính của từng khách hàng."
+    },
+    {
+        "text": "Sacombank cũng cung cấp nhiều sản phẩm tiết kiệm đa dạng",
+        "label": "EVENT",
+        "evidence": "Ngoài các sản phẩm truyền thống trên, Sacombank cũng cung cấp nhiều sản phẩm tiết kiệm đa dạng, phù hợp với nhu cầu tài chính của từng khách hàng."
+    },
+    {
+        "text": "Tiết kiệm Phù Đổng",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Phù Đổng: Dành cho khách hàng muốn tích lũy tài chính cho con trẻ, áp dụng lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "áp dụng lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "30 tháng đầu",
+        "label": "DATE",
+        "evidence": "áp dụng lãi suất cố định cao nhất lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 6 tháng: 4,2%/năm."
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 6 tháng: 4,2%/năm."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "6 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "18 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "30 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "Tiết kiệm Tích góp Siêu linh hoạt",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Tích góp Siêu linh hoạt: Cho phép khách hàng gửi góp định kỳ với lãi suất cao, lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "30 tháng đầu",
+        "label": "DATE",
+        "evidence": "lên đến 5,9%/năm cho kỳ hạn 36 tháng (30 tháng đầu)."
+    },
+    {
+        "text": "7 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 7 tháng: 4,9%/năm (1 tháng đầu)."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 7 tháng: 4,9%/năm (1 tháng đầu)."
+    },
+    {
+        "text": "1 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 7 tháng: 4,9%/năm (1 tháng đầu)."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 9 tháng: 5,0%/năm (3 tháng đầu)."
+    },
+    {
+        "text": "5,0%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 9 tháng: 5,0%/năm (3 tháng đầu)."
+    },
+    {
+        "text": "3 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 9 tháng: 5,0%/năm (3 tháng đầu)."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "6 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 12 tháng: 5,6%/năm (6 tháng đầu)."
+    },
+    {
+        "text": "24 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "18 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 24 tháng: 5,7%/năm (18 tháng đầu)."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "5,9%/năm",
+        "label": "RATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "30 tháng đầu",
+        "label": "DATE",
+        "evidence": "Kỳ hạn 36 tháng: 5,9%/năm (30 tháng đầu)."
+    },
+    {
+        "text": "Tiết kiệm Trung Niên Phúc Lộc",
+        "label": "ASSET",
+        "evidence": "Tiết kiệm Trung Niên Phúc Lộc: Dành cho khách hàng từ 40 tuổi trở lên, sản phẩm này cộng thêm lãi suất thưởng từ 0,2% đến 0,3%/năm so với lãi suất tiết kiệm truyền thống, tùy thuộc vào kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,2%",
+        "label": "RATE",
+        "evidence": "sản phẩm này cộng thêm lãi suất thưởng từ 0,2% đến 0,3%/năm so với lãi suất tiết kiệm truyền thống, tùy thuộc vào kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "0,3%/năm",
+        "label": "RATE",
+        "evidence": "sản phẩm này cộng thêm lãi suất thưởng từ 0,2% đến 0,3%/năm so với lãi suất tiết kiệm truyền thống, tùy thuộc vào kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "tùy thuộc vào kỳ hạn từ 6 tháng trở lên."
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "EUR",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "AUD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "CAD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "JPY",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "SGD",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "CHF",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "GBP",
+        "label": "ASSET",
+        "evidence": "Đối với tiền gửi bằng ngoại tệ (USD, EUR, AUD, CAD, JPY, SGD, CHF, GBP): Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "0,12%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất từ 0% đến 0,12%/năm, tùy thuộc vào loại tiền và kỳ hạn."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Khách hàng nên liên hệ trực tiếp với các chi nhánh/phòng giao dịch của Sacombank để cập nhật thông tin chính xác nhất."
+    }
+]

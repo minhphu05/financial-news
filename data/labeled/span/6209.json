@@ -1,0 +1,442 @@
+[
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index liên tục đổi màu, song cuối phiên vẫn không thoát khỏi sắc đỏ."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "VN-Index liên tục đổi màu, song cuối phiên vẫn không thoát khỏi sắc đỏ."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "giá trị giao dịch trên HOSE giảm về quanh mốc 10.700 tỷ đồng."
+    },
+    {
+        "text": "10.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị giao dịch trên HOSE giảm về quanh mốc 10.700 tỷ đồng."
+    },
+    {
+        "text": "phiên cơ cấu danh mục của quỹ ETF nội mô phỏng theo các rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, hôm nay phiên cơ cấu danh mục của quỹ ETF nội mô phỏng theo các rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "phiên cơ cấu danh mục của quỹ ETF nội mô phỏng theo các rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VN30",
+        "label": "TICKER",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VNFINLead",
+        "label": "ASSET",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VNFINLead",
+        "label": "TICKER",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VNDiamond",
+        "label": "ASSET",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VNDiamond",
+        "label": "TICKER",
+        "evidence": "rổ chỉ số như VN30, VNFINLead và VNDiamond đã công bố danh mục mới trước đó."
+    },
+    {
+        "text": "VN30-Index",
+        "label": "ASSET",
+        "evidence": "Đối với VN30-Index, rổ này sẽ thêm mới BCM đồng thời loại KDH ra khỏi danh mục."
+    },
+    {
+        "text": "VN30-Index",
+        "label": "TICKER",
+        "evidence": "Đối với VN30-Index, rổ này sẽ thêm mới BCM đồng thời loại KDH ra khỏi danh mục."
+    },
+    {
+        "text": "thêm mới BCM đồng thời loại KDH ra khỏi danh mục",
+        "label": "EVENT",
+        "evidence": "Đối với VN30-Index, rổ này sẽ thêm mới BCM đồng thời loại KDH ra khỏi danh mục."
+    },
+    {
+        "text": "BCM",
+        "label": "TICKER",
+        "evidence": "rổ này sẽ thêm mới BCM đồng thời loại KDH ra khỏi danh mục."
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "đồng thời loại KDH ra khỏi danh mục."
+    },
+    {
+        "text": "chỉ số VNFIN Lead",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, chỉ số VNFIN Lead, VNDiamond giữ nguyên danh mục như kỳ trước, song tỷ trọng danh mục được tính lại theo số liệu cập nhật."
+    },
+    {
+        "text": "VNDiamond",
+        "label": "ASSET",
+        "evidence": "chỉ số VNFIN Lead, VNDiamond giữ nguyên danh mục như kỳ trước, song tỷ trọng danh mục được tính lại theo số liệu cập nhật."
+    },
+    {
+        "text": "VNDiamond",
+        "label": "TICKER",
+        "evidence": "chỉ số VNFIN Lead, VNDiamond giữ nguyên danh mục như kỳ trước, song tỷ trọng danh mục được tính lại theo số liệu cập nhật."
+    },
+    {
+        "text": "BCM",
+        "label": "TICKER",
+        "evidence": "Trên thị trường, BCM được thêm mới nhưng giao dịch không mấy khởi sắc khi kết phiên đứng tham chiếu."
+    },
+    {
+        "text": "KDH",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, KDH lại duy trì sắc xanh với mức tăng 1,3%."
+    },
+    {
+        "text": "1,3%",
+        "label": "RATE",
+        "evidence": "mức tăng 1,3%."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,44 điểm (-0,04%) xuống 1.077 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Kết thúc phiên giao dịch, VN-Index giảm 0,44 điểm (-0,04%) xuống 1.077 điểm."
+    },
+    {
+        "text": "giảm 0,44 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index giảm 0,44 điểm (-0,04%) xuống 1.077 điểm."
+    },
+    {
+        "text": "-0,04%",
+        "label": "RATE",
+        "evidence": "giảm 0,44 điểm (-0,04%) xuống 1.077 điểm."
+    },
+    {
+        "text": "1.077 điểm",
+        "label": "PRICE",
+        "evidence": "xuống 1.077 điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index giảm 0,02 điểm xuống 215 điểm và UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "TICKER",
+        "evidence": "HNX-Index giảm 0,02 điểm xuống 215 điểm và UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "giảm 0,02 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm 0,02 điểm xuống 215 điểm và UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "215 điểm",
+        "label": "PRICE",
+        "evidence": "xuống 215 điểm"
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "TICKER",
+        "evidence": "UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "tăng 0,66 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,66 điểm lên 75 điểm."
+    },
+    {
+        "text": "75 điểm",
+        "label": "PRICE",
+        "evidence": "lên 75 điểm."
+    },
+    {
+        "text": "569 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhà đầu tư ngoại trở lại﻿﻿ với tổng giá trị lên tới 569 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE, khối ngoại mua ròng với giá trị xấp xỉ 530 tỷ đồng"
+    },
+    {
+        "text": "mua ròng với giá trị xấp xỉ 530 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HoSE, khối ngoại mua ròng với giá trị xấp xỉ 530 tỷ đồng"
+    },
+    {
+        "text": "530 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng với giá trị xấp xỉ 530 tỷ đồng"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, STB được mua ròng mạnh nhất với giá trị 171 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất với giá trị 171 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "STB được mua ròng mạnh nhất với giá trị 171 tỷ đồng."
+    },
+    {
+        "text": "171 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng mạnh nhất với giá trị 171 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, HPG xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 107 tỷ đồng."
+    },
+    {
+        "text": "107 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trên HoSE với 107 tỷ đồng."
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng cổ phiếu ngân hàng là NVL và VCB với giá trị lần lượt 50 tỷ và 31 tỷ đồng."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu ngân hàng là NVL và VCB với giá trị lần lượt 50 tỷ và 31 tỷ đồng."
+    },
+    {
+        "text": "50 tỷ",
+        "label": "MONEY",
+        "evidence": "với giá trị lần lượt 50 tỷ và 31 tỷ đồng."
+    },
+    {
+        "text": "31 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "50 tỷ và 31 tỷ đồng."
+    },
+    {
+        "text": "KDC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, KDC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 11 tỷ đồng;"
+    },
+    {
+        "text": "chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 11 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "KDC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 11 tỷ đồng;"
+    },
+    {
+        "text": "11 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với giá trị 11 tỷ đồng;"
+    },
+    {
+        "text": "HHV",
+        "label": "TICKER",
+        "evidence": "theo sau HHV, MSN bị bán khoảng 10 và 9 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "theo sau HHV, MSN bị bán khoảng 10 và 9 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bán khoảng 10 và 9 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "MSN bị bán khoảng 10 và 9 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "10",
+        "label": "MONEY",
+        "evidence": "bị bán khoảng 10 và 9 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 9 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng 17 tỷ đồng"
+    },
+    {
+        "text": "mua ròng 17 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HNX, khối ngoại mua ròng 17 tỷ đồng"
+    },
+    {
+        "text": "17 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 17 tỷ đồng"
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "IDC được khối ngoại mua ròng với 10 tỷ đồng, ngoài ra dòng vốn ngoại cò﻿n tìm tới PVS, MBS, CEO,... với giá trị mua ròng từ vài tỷ đồng."
+    },
+    {
+        "text": "mua ròng với 10 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "IDC được khối ngoại mua ròng với 10 tỷ đồng, ngoài ra dòng vốn ngoại cò﻿n tìm tới PVS, MBS, CEO,... với giá trị mua ròng từ vài tỷ đồng."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng với 10 tỷ đồng"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "dòng vốn ngoại cò﻿n tìm tới PVS, MBS, CEO,... với giá trị mua ròng từ vài tỷ đồng."
+    },
+    {
+        "text": "MBS",
+        "label": "TICKER",
+        "evidence": "PVS, MBS, CEO,... với giá trị mua ròng từ vài tỷ đồng."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "MBS, CEO,... với giá trị mua ròng từ vài tỷ đồng."
+    },
+    {
+        "text": "TVD",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, TVD bị bán 400 triệu đồng."
+    },
+    {
+        "text": "bán 400 triệu đồng",
+        "label": "VOLUME",
+        "evidence": "TVD bị bán 400 triệu đồng."
+    },
+    {
+        "text": "400 triệu đồng",
+        "label": "MONEY",
+        "evidence": "bán 400 triệu đồng."
+    },
+    {
+        "text": "S55",
+        "label": "TICKER",
+        "evidence": "S55, THD, DHP... bị bán ròng vài trăm triệu trên HNX."
+    },
+    {
+        "text": "THD",
+        "label": "TICKER",
+        "evidence": "S55, THD, DHP... bị bán ròng vài trăm triệu trên HNX."
+    },
+    {
+        "text": "DHP",
+        "label": "TICKER",
+        "evidence": "THD, DHP... bị bán ròng vài trăm triệu trên HNX."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "bị bán ròng vài trăm triệu trên HNX."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM, khối ngoại bán ròng hơn 22 tỷ đồng"
+    },
+    {
+        "text": "bán ròng hơn 22 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên UPCoM, khối ngoại bán ròng hơn 22 tỷ đồng"
+    },
+    {
+        "text": "22 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 22 tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Cụ thể, cổ phiếu BSR hôm nay được khối ngoại mua 19 tỷ đồng, tương tự, QNS, VEA, ACV cũng đồng loạt được mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "mua 19 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "cổ phiếu BSR hôm nay được khối ngoại mua 19 tỷ đồng, tương tự, QNS, VEA, ACV cũng đồng loạt được mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua 19 tỷ đồng,"
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "QNS, VEA, ACV cũng đồng loạt được mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "QNS, VEA, ACV cũng đồng loạt được mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "VEA, ACV cũng đồng loạt được mua ròng mỗi cổ phiếu từ vài tỷ đồng."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Ngược lại, VTP hôm nay bị khối ngoại bán ròng khoảng 1 tỷ đồng; ngoài ra họ cũng bán ròng tại MCH, CLX, HNI,..."
+    },
+    {
+        "text": "bán ròng khoảng 1 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "VTP hôm nay bị khối ngoại bán ròng khoảng 1 tỷ đồng; ngoài ra họ cũng bán ròng tại MCH, CLX, HNI,..."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng khoảng 1 tỷ đồng;"
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại MCH, CLX, HNI,..."
+    },
+    {
+        "text": "CLX",
+        "label": "TICKER",
+        "evidence": "MCH, CLX, HNI,..."
+    },
+    {
+        "text": "HNI",
+        "label": "TICKER",
+        "evidence": "CLX, HNI,..."
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index quay đầu giảm điểm."
+    },
+    {
+        "text": "VN-Index quay đầu giảm điểm",
+        "label": "EVENT",
+        "evidence": "VN-Index quay đầu giảm điểm."
+    },
+    {
+        "text": "hơn 13 điểm",
+        "label": "RATE",
+        "evidence": "Thị trường có thời điểm mất hơn 13 điểm"
+    },
+    {
+        "text": "6/3",
+        "label": "DATE",
+        "evidence": "kết phiên 6/3"
+    },
+    {
+        "text": "7,25 điểm",
+        "label": "RATE",
+        "evidence": "với mức giảm 7,25 điểm"
+    },
+    {
+        "text": "1.262 điểm",
+        "label": "PRICE",
+        "evidence": "tại 1.262 điểm"
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "thanh khoản khớp lệnh trên HOSE"
+    },
+    {
+        "text": "thanh khoản khớp lệnh trên HOSE vượt 23.000 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Dòng tiền duy trì với thanh khoản khớp lệnh trên HOSE lệnh trên HOSE vượt 23.000 tỷ đồng."
+    },
+    {
+        "text": "23.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thanh khoản khớp lệnh trên HOSE lệnh trên HOSE vượt 23.000 tỷ đồng."
+    },
+    {
+        "text": "bán ròng 235 tỷ đồng trên toàn thị trường",
+        "label": "EVENT",
+        "evidence": "họ đã bán ròng 235 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "235 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "họ đã bán ròng 235 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị xấp xỉ161tỷ đồng."
+    },
+    {
+        "text": "khối ngoại bán ròng với giá trị xấp xỉ161tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị xấp xỉ161tỷ đồng."
+    },
+    {
+        "text": "161tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại bán ròng với giá trị xấp xỉ161tỷ đồng."
+    },
+    {
+        "text": "NLG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu NLG với giá trị 85 tỷ đồng."
+    },
+    {
+        "text": "tâm điểm mua ròng là cổ phiếu NLG với giá trị 85 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tâm điểm mua ròng là cổ phiếu NLG với giá trị 85 tỷ đồng."
+    },
+    {
+        "text": "85 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "NLG với giá trị 85 tỷ đồng."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "gom mạnh SSI với giá trị 73 tỷ đồng"
+    },
+    {
+        "text": "gom mạnh SSI với giá trị 73 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Khối ngoại cũng gom mạnh SSI với giá trị 73 tỷ đồng"
+    },
+    {
+        "text": "73 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "SSI với giá trị 73 tỷ đồng"
+    },
+    {
+        "text": "tăng kịch trần",
+        "label": "RATE",
+        "evidence": "cổ phiếu này tăng kịch trần"
+    },
+    {
+        "text": "thanh khoản lập kỷ lục",
+        "label": "VOLUME",
+        "evidence": "thanh khoản lập kỷ lục."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "CTG và DGC cũng lần lượt được mua ròng 71 và 49 tỷ đồng"
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "CTG và DGC cũng lần lượt được mua ròng 71 và 49 tỷ đồng"
+    },
+    {
+        "text": "được mua ròng 71 và 49 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "CTG và DGC cũng lần lượt được mua ròng 71 và 49 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "71 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "71 và 49 tỷ đồng"
+    },
+    {
+        "text": "49 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "71 và 49 tỷ đồng"
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "49 tỷ đồng trên HOSE."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM chịu áp lực bán mạnh nhất của khối ngoại"
+    },
+    {
+        "text": "VHM chịu áp lực bán mạnh nhất của khối ngoại với giá trị 216 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VHM chịu áp lực bán mạnh nhất của khối ngoại với giá trị 216 tỷ đồng"
+    },
+    {
+        "text": "216 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 216 tỷ đồng"
+    },
+    {
+        "text": "VIX",
+        "label": "TICKER",
+        "evidence": "VIX, FUEVFVND là hai cổ phiếu tiếp theo bị bán 116 và 61 tỷ đồng"
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "VIX, FUEVFVND là hai cổ phiếu tiếp theo bị bán 116 và 61 tỷ đồng"
+    },
+    {
+        "text": "bị bán 116 và 61 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "FUEVFVND là hai cổ phiếu tiếp theo bị bán 116 và 61 tỷ đồng tỷ đồng mỗi mã."
+    },
+    {
+        "text": "116 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bị bán 116 và 61 tỷ đồng"
+    },
+    {
+        "text": "61 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bị bán 116 và 61 tỷ đồng"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại bán ròng76tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng76tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại bán ròng76tỷ đồng"
+    },
+    {
+        "text": "76tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại bán ròng76tỷ đồng"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "TNG được mua ròng mạnh nhất với giá trị 2,6 tỷ đồng."
+    },
+    {
+        "text": "TNG được mua ròng mạnh nhất với giá trị 2,6 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "TNG được mua ròng mạnh nhất với giá trị 2,6 tỷ đồng."
+    },
+    {
+        "text": "2,6 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 2,6 tỷ đồng."
+    },
+    {
+        "text": "BVS",
+        "label": "TICKER",
+        "evidence": "BVS xếp tiếp theo trong danh sách mua ròng mạnh trên HNX với 2 tỷ đồng."
+    },
+    {
+        "text": "BVS xếp tiếp theo trong danh sách mua ròng mạnh trên HNX với 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, BVS xếp tiếp theo trong danh sách mua ròng mạnh trên HNX với 2 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "mua ròng mạnh trên HNX với 2 tỷ đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trên HNX với 2 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại cũng mua ròng GKM, NBC, PVG",
+        "label": "EVENT",
+        "evidence": "khối ngoại cũng mua ròng GKM, NBC, PVG với giá trị không quá lớn."
+    },
+    {
+        "text": "GKM",
+        "label": "TICKER",
+        "evidence": "mua ròng GKM, NBC, PVG"
+    },
+    {
+        "text": "NBC",
+        "label": "TICKER",
+        "evidence": "mua ròng GKM, NBC, PVG"
+    },
+    {
+        "text": "PVG",
+        "label": "TICKER",
+        "evidence": "mua ròng GKM, NBC, PVG"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "PVS là mã chịu áp lực bán ròng của khối ngoại"
+    },
+    {
+        "text": "PVS là mã chịu áp lực bán ròng của khối ngoại với giá trị 38 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "PVS là mã chịu áp lực bán ròng của khối ngoại với giá trị 38 tỷ đồng"
+    },
+    {
+        "text": "38 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 38 tỷ đồng"
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "theo sau SHS bị bán khoảng 24 tỷ đồng."
+    },
+    {
+        "text": "SHS bị bán khoảng 24 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "theo sau SHS bị bán khoảng 24 tỷ đồng."
+    },
+    {
+        "text": "24 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bị bán khoảng 24 tỷ đồng."
+    },
+    {
+        "text": "UPCOM",
+        "label": "ORG",
+        "evidence": "Trên UPCOM, khối ngoại mua ròng1,6tỷ đồng"
+    },
+    {
+        "text": "khối ngoại mua ròng1,6tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại mua ròng1,6tỷ đồng"
+    },
+    {
+        "text": "1,6tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại mua ròng1,6tỷ đồng"
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "cổ phiếu ACV được khối ngoại mua 3 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu ACV được khối ngoại mua 3 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu ACV được khối ngoại mua 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua 3 tỷ đồng."
+    },
+    {
+        "text": "VGT",
+        "label": "TICKER",
+        "evidence": "VGT và VEA cũng được mua ròng"
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "VGT và VEA cũng được mua ròng"
+    },
+    {
+        "text": "VGT và VEA cũng được mua ròng mỗi mã vài tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VGT và VEA cũng được mua ròng mỗi mã vài tỷ đồng."
+    },
+    {
+        "text": "VGI",
+        "label": "TICKER",
+        "evidence": "VGI hôm nay bị khối ngoại bán ròng khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "VGI hôm nay bị khối ngoại bán ròng khoảng 5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VGI hôm nay bị khối ngoại bán ròng khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "bán ròng tại QNS, MPC, HPP",
+        "label": "EVENT",
+        "evidence": "họ cũng bán ròng tại QNS, MPC, HPP,..."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "bán ròng tại QNS, MPC, HPP"
+    },
+    {
+        "text": "MPC",
+        "label": "TICKER",
+        "evidence": "bán ròng tại QNS, MPC, HPP"
+    },
+    {
+        "text": "HPP",
+        "label": "TICKER",
+        "evidence": "bán ròng tại QNS, MPC, HPP"
+    }
+]

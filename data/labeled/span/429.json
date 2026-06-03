@@ -1,0 +1,907 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Cổ đông ACB làm thủ tục tham dự họp"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "số lượng cổ phần có quyền biểu quyết ở ACB thời điểm hiện tại là hơn 3,88 tỷ cổ phần"
+    },
+    {
+        "text": "hơn 3,88 tỷ cổ phần",
+        "label": "VOLUME",
+        "evidence": "số lượng cổ phần có quyền biểu quyết ở ACB thời điểm hiện tại là hơn 3,88 tỷ cổ phần"
+    },
+    {
+        "text": "hơn 38.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn điều lệ hơn 38.840 tỷ đồng"
+    },
+    {
+        "text": "8h40",
+        "label": "DATE",
+        "evidence": "Tham dự đại hội tại thời điểm 8h40"
+    },
+    {
+        "text": "hơn 2,25 tỷ cổ phần",
+        "label": "VOLUME",
+        "evidence": "uỷ quyền đại diện cho hơn 2,25 tỷ cổ phần"
+    },
+    {
+        "text": "58%",
+        "label": "RATE",
+        "evidence": "đương đương 58% số cổ phần có quyền biểu quyết tham dự họp"
+    },
+    {
+        "text": "9h20",
+        "label": "DATE",
+        "evidence": "Cập nhật tại thời điểm 9h20"
+    },
+    {
+        "text": "867 cổ đông",
+        "label": "VOLUME",
+        "evidence": "có 867 cổ đông tham dự và uỷ quyền tham dự"
+    },
+    {
+        "text": "hơn 66%",
+        "label": "RATE",
+        "evidence": "đại diện cho hơn 66% số cổ phần có quyền biểu quyết"
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023 tiếp tục tăng trưởng về quy mô và tài sản"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "báo cáo của lãnh đạo ACB tại Đại hội"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "năm 2023, kinh tế vĩ mô Việt Nam ổn định"
+    },
+    {
+        "text": "hơn 5%",
+        "label": "RATE",
+        "evidence": "Tổng sản phẩm quốc nội (GDP) cả năm đạt hơn 5%"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) đã bám sát thị trường"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước (NHNN) đã bám sát thị trường"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Trong bối cảnh ấy, ACB là tiếp tục tăng trưởng về quy mô và tài sản"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "chỉ tiêu trọng yếu được ĐHCĐ năm 2023 giao"
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "tổng tài sản đến cuối năm 2023"
+    },
+    {
+        "text": "hơn 719 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt hơn 719 ngàn tỷ đồng"
+    },
+    {
+        "text": "tăng 18,25%",
+        "label": "RATE",
+        "evidence": "tăng 18,25% so với năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tăng 18,25% so với năm 2022"
+    },
+    {
+        "text": "535 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiền gửi khách hàng đạt 535 ngàn tỷ đồng"
+    },
+    {
+        "text": "tăng 16,77%",
+        "label": "RATE",
+        "evidence": "tăng 16,77%"
+    },
+    {
+        "text": "488 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "cho vay khách hàng đạt 488 ngàn tỷ"
+    },
+    {
+        "text": "tăng 17,87%",
+        "label": "RATE",
+        "evidence": "tăng 17,87%"
+    },
+    {
+        "text": "71 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn chủ sở hữu tăng lên mức 71 ngàn tỷ đồng"
+    },
+    {
+        "text": "tăng trưởng 21,42%",
+        "label": "RATE",
+        "evidence": "tương đương tăng trưởng 21,42% so với năm trước"
+    },
+    {
+        "text": "20.068 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế đạt 20.068 tỷ đồng"
+    },
+    {
+        "text": "tăng trưởng 17%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 17%"
+    },
+    {
+        "text": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024",
+        "label": "EVENT",
+        "evidence": "Kế hoạch lãi 22.000 tỷ đồng trong năm 2024"
+    },
+    {
+        "text": "22.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "kế hoạch lãi 22.000 tỷ đồng"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "kế hoạch lãi 22.000 tỷ đồng trong năm 2024"
+    },
+    {
+        "text": "kế hoạch kinh doanh 2024",
+        "label": "EVENT",
+        "evidence": "Về kế hoạch kinh doanh 2024, ACB đặt mục tiêu"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "kế hoạch kinh doanh 2024"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB đặt mục tiêu lợi nhuận trước thuế 22.000 tỷ đồng"
+    },
+    {
+        "text": "22.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế 22.000 tỷ đồng"
+    },
+    {
+        "text": "tăng 10%",
+        "label": "RATE",
+        "evidence": "tăng 10% so với năm trước"
+    },
+    {
+        "text": "tăng 12%",
+        "label": "RATE",
+        "evidence": "Tổng tài sản tăng 12% lên 805.050 tỷ đồng"
+    },
+    {
+        "text": "805.050 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 805.050 tỷ đồng"
+    },
+    {
+        "text": "tăng 11%",
+        "label": "RATE",
+        "evidence": "Tiền gửi khách hàng và giấy tờ có giá tăng 11% lên 593.779 tỷ đồng"
+    },
+    {
+        "text": "593.779 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 593.779 tỷ đồng"
+    },
+    {
+        "text": "tăng 14%",
+        "label": "RATE",
+        "evidence": "Dư nợ cho vay khách hàng tăng 14% lên 555.866 tỷ đồng"
+    },
+    {
+        "text": "555.866 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 555.866 tỷ đồng"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "hạn mức tăng trưởng tín dụng được Ngân hàng Nhà nước giao"
+    },
+    {
+        "text": "dưới 2%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu kiểm soát dưới 2%"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "HĐQT của ACB nhận định năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "HĐQT của ACB nhận định năm 2024"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "như bất động sản, trái phiếu doanh nghiệp"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "kinh tế năm 2024 là có thể phục hồi"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB kỳ vọng khả năng sớm phục hồi sản xuất kinh doanh"
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "mức 14% là phù hợp với tình hình thị trường"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "hạn mức tăng trưởng tín dụng năm 2024"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "được NHNN giao"
+    },
+    {
+        "text": "Chia cổ tức tỷ lệ 25% trong đó 10% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Chia cổ tức tỷ lệ 25% trong đó 10% bằng tiền mặt"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 25%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "10% bằng tiền mặt"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "phân phối lợi nhuận năm 2023"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "HĐQT ACB cho biết"
+    },
+    {
+        "text": "hơn 13,3 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACB còn lai hơn 13,3 ngàn tỷ đồng lợi nhuận"
+    },
+    {
+        "text": "hơn 6,5 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "cộng với hơn 6,5 ngàn tỷ lợi nhuận để lại các năm trước"
+    },
+    {
+        "text": "xấp xỉ 20 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng cộng xấp xỉ 20 ngàn tỷ đồng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB dự tính trích ra hơn 9,7 ngàn tỷ đồng"
+    },
+    {
+        "text": "hơn 9,7 ngàn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trích ra hơn 9,7 ngàn tỷ đồng"
+    },
+    {
+        "text": "chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "chia cổ tức cho cổ đông với tổng tỷ lệ 25%, trong đó 15% bằng cổ phiếu và 10% bằng tiền mặt"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "tổng tỷ lệ 25%"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "15% bằng cổ phiếu"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "10% bằng tiền mặt"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Sau chia cổ tức, ACB vẫn còn hơn 10 ngàn tỷ giữ lại"
+    },
+    {
+        "text": "hơn 10 ngàn tỷ",
+        "label": "MONEY",
+        "evidence": "vẫn còn hơn 10 ngàn tỷ giữ lại"
+    },
+    {
+        "text": "Tăng vốn điều lệ lên 44.666 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tăng vốn điều lệ lên 44.666 tỷ đồng"
+    },
+    {
+        "text": "44.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tăng vốn điều lệ lên 44.666 tỷ đồng"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "dự kiến hoàn tất trong quý 3"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "nhận định của HĐQT ACB"
+    },
+    {
+        "text": "trái phiếu chính phủ",
+        "label": "ASSET",
+        "evidence": "đầu tư trái phiếu chính phủ của ngân hàng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Vốn điều lệ hiện tại của ACB là 38.840 tỷ đồng"
+    },
+    {
+        "text": "38.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là 38.840 tỷ đồng"
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu tỷ lệ 15%",
+        "label": "EVENT",
+        "evidence": "Dự kiến sau khi chia cổ tức bằng cổ phiếu tỷ lệ 15%"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 15%"
+    },
+    {
+        "text": "hơn 5.800 tỷ",
+        "label": "MONEY",
+        "evidence": "tăng thêm hơn 5.800 tỷ"
+    },
+    {
+        "text": "44.666 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 44.666 tỷ đồng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB dự kiến thời gian hoàn thành việc tăng vốn điều lệ"
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "thời gian hoàn thành việc tăng vốn điều lệ"
+    },
+    {
+        "text": "quý 3/2024",
+        "label": "DATE",
+        "evidence": "là quý 3/2024"
+    },
+    {
+        "text": "9h50",
+        "label": "DATE",
+        "evidence": "9h50: Đại hội của ACB bước vào phiên thảo luận"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Đại hội của ACB bước vào phiên thảo luận"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Kết quả kinh doanh quý 1 của ACB thế nào?"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "kinh doanh quý 1 của ACB thế nào?"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Ông Trần Hùng Huy, chủ tịch HĐQT trả lời"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kết quả kinh doanh của ACB quý 1 khá tốt"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "kinh doanh của ACB quý 1 khá tốt"
+    },
+    {
+        "text": "tăng trưởng 3,7%",
+        "label": "RATE",
+        "evidence": "Tín dụng tăng trưởng 3,7% so với cuối năm 2023"
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "so với cuối năm 2023"
+    },
+    {
+        "text": "tăng trưởng 2,1%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 2,1% trong đó huy động vốn CASA tăng 6,4%"
+    },
+    {
+        "text": "tăng 6,4%",
+        "label": "RATE",
+        "evidence": "huy động vốn CASA tăng 6,4%"
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "tỷ lệ CASA cải thiện từ 22% lên mức hơn 23%"
+    },
+    {
+        "text": "hơn 23%",
+        "label": "RATE",
+        "evidence": "lên mức hơn 23%"
+    },
+    {
+        "text": "4.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận dự kiến đạt 4.900 tỷ đồng"
+    },
+    {
+        "text": "giảm nhẹ so với cùng kỳ khoảng 5%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận giảm nhẹ so với cùng kỳ khoảng 5%"
+    },
+    {
+        "text": "quý 1 năm nay",
+        "label": "DATE",
+        "evidence": "quý 1 năm nay tăng trưởng 3%"
+    },
+    {
+        "text": "tăng trưởng 3%",
+        "label": "RATE",
+        "evidence": "quý 1 năm nay tăng trưởng 3%"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "chủ tịch ACB nhận định lãi suất sẽ ổn định"
+    },
+    {
+        "text": "cuối năm",
+        "label": "DATE",
+        "evidence": "từ nay đến cuối năm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB dự kiến duy trì lãi suất cho vay thấp"
+    },
+    {
+        "text": "4,9%",
+        "label": "RATE",
+        "evidence": "cho vay doanh nghiệp chỉ 4,9% trong khi cho vay cá nhân chỉ 6-8%/năm"
+    },
+    {
+        "text": "6-8%/năm",
+        "label": "RATE",
+        "evidence": "cho vay cá nhân chỉ 6-8%/năm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB không cho vay BĐS đầu tư"
+    },
+    {
+        "text": "dưới 1%",
+        "label": "RATE",
+        "evidence": "chỉ dưới 1%"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Đối với trái phiếu doanh nghiệp"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB không đầu tư vào mảng này"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Doanh số Banca năm 2023 có sụt giảm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Dự kiến năm nay ACB sẽ giữ mức như năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "như năm 2023"
+    },
+    {
+        "text": "Huy",
+        "label": "PERSON",
+        "evidence": "ông Huy nói"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Chủ tịch Trần Hùng Huy cảm ơn cổ đông"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "mức cổ tức 25% là khá cao"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "và ACB đã duy trì được suốt trong những năm vừa qua"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát, Tổng giám đốc trả lời"
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Dựa trên KQKD quý 1 như đã báo cáo cổ đông"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB tự tin hoàn thành mục tiêu đã đề ra cho cả năm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Về Casa,ACBtin sẽ tăng trưởng"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát, Tổng giám đốc ACB"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tổng giám đốc ACB trả lời cổ đông"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Ông Trần Hùng Huy trả lời"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Thị phần của ACB trong mảng bán lẻ khá cao"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Do đó ACB củng cố vị thế trong phân khúc khách hàng cá nhân"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "SME của ACB đang ngày càng lớn lên"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "và ACB cũng theo sự phát triển của họ"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát trả lời"
+    },
+    {
+        "text": "Luật TCTD mới",
+        "label": "EVENT",
+        "evidence": "Luật TCTD mới được Quốc hội thông qua có 4 điểm mới"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB nhìn nhận có 2 điểm không bị ảnh hưởng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "sẽ bị liên đới ở ACB"
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "đầu tư thêm hạ tầng cho ACBS không?"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát:Năm 2024 ACBS sẽ có những đầu tư"
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024 ACBS sẽ có những đầu tư nâng cấp"
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "ACBS sẽ có những đầu tư nâng cấp"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ở ACB, ACBS và các công ty con khác"
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "ACB, ACBS và các công ty con khác"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Ông Từ Tiến Phát:Chúng tôi có góc nhìn lạc quan"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Riêng ACB có các biện pháp để xử lý nợ xấu"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Tổng giám đốc ACB trao đổi thêm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Chủ tịch ACB Trần Hùng Huy cho rằng"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "Chủ tịch ACB Trần Hùng Huy cho rằng"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB quản trị rủi ro rất tốt"
+    },
+    {
+        "text": "Từ Tiến Phát",
+        "label": "PERSON",
+        "evidence": "Tổng giám đốc Từ Tiến Phát bổ sung"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "sẽ bị liên đới ở ACB"
+    },
+    {
+        "text": "10h40",
+        "label": "DATE",
+        "evidence": "Cập nhật tại thời điểm 10h40"
+    },
+    {
+        "text": "860 cổ đông",
+        "label": "VOLUME",
+        "evidence": "tổng cộng có 860 cổ đông tham dự và uỷ quyền"
+    },
+    {
+        "text": "66,5%",
+        "label": "RATE",
+        "evidence": "đại diện cho 66,5% cổ phần có quyền biểu quyết"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "chủ tịch ACB Trần Hùng Huy phát biểu"
+    },
+    {
+        "text": "Trần Hùng Huy",
+        "label": "PERSON",
+        "evidence": "chủ tịch ACB Trần Hùng Huy phát biểu"
+    },
+    {
+        "text": "Huy",
+        "label": "PERSON",
+        "evidence": "Theo ông Huy"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "năm 2023 mặc dù kinh tế gặp khó khăn"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "nhưng ACB vẫn tăng trưởng về quy mô, tài sản"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "ROE khoảng 25%"
+    },
+    {
+        "text": "1,25%",
+        "label": "RATE",
+        "evidence": "nhưng 1,25% là mức rất thấp"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "tín dụng tốt vượt trội của ACB"
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, ACB là ngân hàng duy nhất được Fitch và Moody's"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB là ngân hàng duy nhất được Fitch và Moody's"
+    },
+    {
+        "text": "Fitch",
+        "label": "ORG",
+        "evidence": "được Fitch và Moody's nâng xếp hạng"
+    },
+    {
+        "text": "Moody's",
+        "label": "ORG",
+        "evidence": "Fitch và Moody's nâng xếp hạng"
+    },
+    {
+        "text": "nâng xếp hạng",
+        "label": "EVENT",
+        "evidence": "Fitch và Moody's nâng xếp hạng"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "2023 là mốc son đánh dấu 30 năm của ACB"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "30 năm của ACB"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB tự hào là ngân hàng đầu tiên công bố báo cáo ESG"
+    },
+    {
+        "text": "công bố báo cáo ESG",
+        "label": "EVENT",
+        "evidence": "ACB tự hào là ngân hàng đầu tiên công bố báo cáo ESG"
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, nền kinh tế nói chung còn nhiều khó khăn"
+    },
+    {
+        "text": "Quý 1",
+        "label": "DATE",
+        "evidence": "Quý 1 đã có những bước chuyển mình"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "lãnh đạo ACB dự đoán giữa năm sẽ tốt hơn"
+    },
+    {
+        "text": "giữa năm",
+        "label": "DATE",
+        "evidence": "dự đoán giữa năm sẽ tốt hơn"
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024 cũng là năm cuối của giai đoạn chiến lược 5 năm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "giai đoạn chiến lược 5 năm ở ACB (2019-2024)"
+    },
+    {
+        "text": "(2019-2024)",
+        "label": "DATE",
+        "evidence": "giai đoạn chiến lược 5 năm ở ACB (2019-2024)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "ACB tự tin sẽ đạt được tất các chỉ tiêu đã đề ra"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "lợi nhuận và cổ tức 25% mỗi năm"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "tờ trình ACB gửi tới cổ đông"
+    },
+    {
+        "text": "kế hoạch 2024",
+        "label": "EVENT",
+        "evidence": "kế hoạch 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "kế hoạch 2024"
+    },
+    {
+        "text": "phân phối lợi nhuận",
+        "label": "EVENT",
+        "evidence": "phân phối lợi nhuận"
+    },
+    {
+        "text": "tăng vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "tăng vốn điều lệ"
+    },
+    {
+        "text": "99,69 -99,96%",
+        "label": "RATE",
+        "evidence": "từ 99,69 -99,96%"
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "text": "31-8",
+        "label": "DATE",
+        "evidence": "Chiều 31-8, Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9"
+    },
+    {
+        "text": "Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam",
+        "label": "ORG",
+        "evidence": "Chiều 31-8, Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9"
+    },
+    {
+        "text": "PV GAS LPG Miền Nam",
+        "label": "ORG",
+        "evidence": "Chiều 31-8, Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9"
+    },
+    {
+        "text": "PetroVietNam gas",
+        "label": "ORG",
+        "evidence": "Chiều 31-8, Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9"
+    },
+    {
+        "text": "thông báo tăng giá bán lẻ từ 1-9",
+        "label": "EVENT",
+        "evidence": "Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9, mức tăng 2.750 đồng/kg"
+    },
+    {
+        "text": "1-9",
+        "label": "DATE",
+        "evidence": "Công ty CP Kinh doanh LPG Việt Nam - PV GAS LPG Miền Nam (PetroVietNam gas) thông báo tăng giá bán lẻ từ 1-9"
+    },
+    {
+        "text": "2.750 đồng",
+        "label": "MONEY",
+        "evidence": "mức tăng 2.750 đồng/kg, tương đương 33.000 đồng/bình 12kg và 123.750 đồng/bình 45 kg so với tháng 8."
+    },
+    {
+        "text": "33.000 đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 33.000 đồng/bình 12kg và 123.750 đồng/bình 45 kg so với tháng 8."
+    },
+    {
+        "text": "123.750 đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 33.000 đồng/bình 12kg và 123.750 đồng/bình 45 kg so với tháng 8."
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "123.750 đồng/bình 45 kg so với tháng 8."
+    },
+    {
+        "text": "Công ty TNHH một thành viên Dầu khí TP HCM",
+        "label": "ORG",
+        "evidence": "Tương tự, Công ty TNHH một thành viên Dầu khí TP HCM (gas SP) cũng thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9"
+    },
+    {
+        "text": "gas SP",
+        "label": "ORG",
+        "evidence": "Tương tự, Công ty TNHH một thành viên Dầu khí TP HCM (gas SP) cũng thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9"
+    },
+    {
+        "text": "thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9",
+        "label": "EVENT",
+        "evidence": "Công ty TNHH một thành viên Dầu khí TP HCM (gas SP) cũng thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9"
+    },
+    {
+        "text": "33.000 đồng",
+        "label": "MONEY",
+        "evidence": "cũng thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9"
+    },
+    {
+        "text": "1-9",
+        "label": "DATE",
+        "evidence": "cũng thông báo tăng giá bán lẻ 33.000 đồng/bình 12 kg từ 1-9"
+    },
+    {
+        "text": "406.500 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "giá bán lẻ tối đa đến người tiêu dùng ở mức 406.500 đồng/bình 12 kg."
+    },
+    {
+        "text": "406.500 đồng",
+        "label": "MONEY",
+        "evidence": "giá bán lẻ tối đa đến người tiêu dùng ở mức 406.500 đồng/bình 12 kg."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Như vậy, sau khi thiết lập giá đáy vào tháng 7 với mức giá 347.000 đồng/bình 12 kg"
+    },
+    {
+        "text": "347.000 đồng/bình 12 kg",
+        "label": "PRICE",
+        "evidence": "mức giá 347.000 đồng/bình 12 kg"
+    },
+    {
+        "text": "347.000 đồng",
+        "label": "MONEY",
+        "evidence": "mức giá 347.000 đồng/bình 12 kg"
+    },
+    {
+        "text": "gas SP",
+        "label": "ORG",
+        "evidence": "gas SP và các hãng khác đã tăng liên tục trong 3 tháng"
+    },
+    {
+        "text": "tăng liên tục trong 3 tháng",
+        "label": "EVENT",
+        "evidence": "gas SP và các hãng khác đã tăng liên tục trong 3 tháng, tổng mức tăng khoảng 72.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "gas SP và các hãng khác đã tăng liên tục trong 3 tháng"
+    },
+    {
+        "text": "72.000 đồng",
+        "label": "MONEY",
+        "evidence": "tổng mức tăng khoảng 72.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "tháng 2",
+        "label": "DATE",
+        "evidence": "so với mức giá đỉnh trong năm là tháng 2 thì giá gas vẫn còn thấp hơn khoảng 70.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "70.000 đồng",
+        "label": "MONEY",
+        "evidence": "giá gas vẫn còn thấp hơn khoảng 70.000 đồng/bình 12 kg."
+    },
+    {
+        "text": "tăng giá thêm khoảng 124.000 đồng từ ngày mai",
+        "label": "EVENT",
+        "evidence": "Bình gas 45 kg (trong hình) sẽ tăng giá thêm khoảng 124.000 đồng từ ngày mai"
+    },
+    {
+        "text": "124.000 đồng",
+        "label": "MONEY",
+        "evidence": "sẽ tăng giá thêm khoảng 124.000 đồng từ ngày mai"
+    },
+    {
+        "text": "ngày mai",
+        "label": "DATE",
+        "evidence": "sẽ tăng giá thêm khoảng 124.000 đồng từ ngày mai"
+    },
+    {
+        "text": "tăng giá tương tự ở mức 17.000 đồng/bình 6 kg, 33.000 đồng/bình 12 kg, 34.000 đồng/bình 12,5 kg và 124.000 đồng/bình 45 kg",
+        "label": "EVENT",
+        "evidence": "các thương hiệu gas khác cũng tăng giá tương tự ở mức 17.000 đồng/bình 6 kg, 33.000 đồng/bình 12 kg, 34.000 đồng/bình 12,5 kg và 124.000 đồng/bình 45 kg."
+    },
+    {
+        "text": "17.000 đồng",
+        "label": "MONEY",
+        "evidence": "tăng giá tương tự ở mức 17.000 đồng/bình 6 kg"
+    },
+    {
+        "text": "33.000 đồng",
+        "label": "MONEY",
+        "evidence": "tăng giá tương tự ở mức 17.000 đồng/bình 6 kg, 33.000 đồng/bình 12 kg"
+    },
+    {
+        "text": "34.000 đồng",
+        "label": "MONEY",
+        "evidence": "33.000 đồng/bình 12 kg, 34.000 đồng/bình 12,5 kg và 124.000 đồng/bình 45 kg."
+    },
+    {
+        "text": "124.000 đồng",
+        "label": "MONEY",
+        "evidence": "34.000 đồng/bình 12,5 kg và 124.000 đồng/bình 45 kg."
+    },
+    {
+        "text": "giá gas thế giới giao theo hợp đồng (CP) vừa chốt tăng 90 USD/tấn so với tháng 8, lên mức 555 USD/tấn",
+        "label": "EVENT",
+        "evidence": "do giá gas thế giới giao theo hợp đồng (CP) vừa chốt tăng 90 USD/tấn so với tháng 8, lên mức 555 USD/tấn."
+    },
+    {
+        "text": "90 USD",
+        "label": "MONEY",
+        "evidence": "vừa chốt tăng 90 USD/tấn so với tháng 8"
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "vừa chốt tăng 90 USD/tấn so với tháng 8, lên mức 555 USD/tấn."
+    },
+    {
+        "text": "555 USD/tấn",
+        "label": "PRICE",
+        "evidence": "lên mức 555 USD/tấn."
+    },
+    {
+        "text": "555 USD",
+        "label": "MONEY",
+        "evidence": "lên mức 555 USD/tấn."
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "doanh nghiệp có chính sách cho khách hàng mượn vỏ bình để mua hàng trước trong tháng 8 với giá cũ để tiết giảm chi phí."
+    }
+]

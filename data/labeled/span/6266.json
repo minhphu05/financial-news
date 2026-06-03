@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Thấu hiểu thực trạng này, Sacombank triển khai hai chương trình ưu đãi lớn dành cho khách hàng doanh nghiệp đến hết ngày 31/12/2025, mang tên\"Quản lý vượt trội – Cơ hội toàn cầu\"và\"Bền tăng trưởng – Vững tương lai\"."
+    },
+    {
+        "text": "Sacombank triển khai hai chương trình ưu đãi lớn dành cho khách hàng doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Thấu hiểu thực trạng này, Sacombank triển khai hai chương trình ưu đãi lớn dành cho khách hàng doanh nghiệp đến hết ngày 31/12/2025, mang tên\"Quản lý vượt trội – Cơ hội toàn cầu\"và\"Bền tăng trưởng – Vững tương lai\"."
+    },
+    {
+        "text": "hết ngày 31/12/2025",
+        "label": "DATE",
+        "evidence": "Thấu hiểu thực trạng này, Sacombank triển khai hai chương trình ưu đãi lớn dành cho khách hàng doanh nghiệp đến hết ngày 31/12/2025, mang tên\"Quản lý vượt trội – Cơ hội toàn cầu\"và\"Bền tăng trưởng – Vững tương lai\"."
+    },
+    {
+        "text": "thẻ doanh nghiệp Sacombank",
+        "label": "ASSET",
+        "evidence": "Chương trình\"Quản lý vượt trội – Cơ hội toàn cầu\"khuyến khích doanh nghiệp sử dụng thẻ doanh nghiệp Sacombank, một giải pháp tài chính hiện đại, không chỉ giúp doanh nghiệp đáp ứng yêu cầu về giao dịch không tiền mặt theo quy định mà còn mang đến nhiều giá trị gia tăng như hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng, miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "...mang đến nhiều giá trị gia tăng như hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng, miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "...mang đến nhiều giá trị gia tăng như hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng, miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "...hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng, miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "miễn phí phát hành và phí thường niên năm đầu tiên",
+        "label": "EVENT",
+        "evidence": "...mang đến nhiều giá trị gia tăng như hoàn tiền lên đến 2% trên tổng doanh số giao dịch thẻ tín dụng, miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "năm đầu tiên",
+        "label": "DATE",
+        "evidence": "...miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "tặng Voucher du lịch trị giá 50 triệu đồng",
+        "label": "EVENT",
+        "evidence": "...miễn phí phát hành và phí thường niên năm đầu tiên, tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "...tặng Voucher du lịch trị giá 50 triệu đồng, túi du lịch doanh nhân cao cấp."
+    },
+    {
+        "text": "thẻ doanh nghiệp Sacombank Visa",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, khách hàng sở hữu thẻ doanh nghiệp Sacombank Visa còn có cơ hội nhận được Voucher vé máy bay thương gia nội địa của Bamboo Airways hoặc Voucher Urbox khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "Ngoài ra, khách hàng sở hữu thẻ doanh nghiệp Sacombank Visa còn có cơ hội nhận được Voucher vé máy bay thương gia nội địa của Bamboo Airways hoặc Voucher Urbox khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "nhận được Voucher vé máy bay thương gia nội địa của Bamboo Airways hoặc Voucher Urbox khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khách hàng sở hữu thẻ doanh nghiệp Sacombank Visa còn có cơ hội nhận được Voucher vé máy bay thương gia nội địa của Bamboo Airways hoặc Voucher Urbox khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "...khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "...khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "...khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "thẻ tín dụng doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "...khi đạt tổng doanh số giao dịch sớm nhất từ 50 triệu đồng đối với thẻ thanh toán hoặc 100 triệu đồng đối với thẻ tín dụng doanh nghiệp."
+    },
+    {
+        "text": "mỗi tháng",
+        "label": "DATE",
+        "evidence": "Số lượng các Voucher có giới hạn và chỉ dành cho những khách hàng đạt doanh số giao dịch tối thiểu sớm nhất mỗi tháng."
+    },
+    {
+        "text": "miễn phí chọn số tài khoản đẹp theo yêu cầu",
+        "label": "EVENT",
+        "evidence": "Cụ thể, khách hàng mới tham gia chương trình hoặc quay trở lại giao dịch sẽ được miễn phí chọn số tài khoản đẹp theo yêu cầu và sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng."
+    },
+    {
+        "text": "tài khoản đẹp",
+        "label": "ASSET",
+        "evidence": "Cụ thể, khách hàng mới tham gia chương trình hoặc quay trở lại giao dịch sẽ được miễn phí chọn số tài khoản đẹp theo yêu cầu và sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng."
+    },
+    {
+        "text": "sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, khách hàng mới tham gia chương trình hoặc quay trở lại giao dịch sẽ được miễn phí chọn số tài khoản đẹp theo yêu cầu và sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng."
+    },
+    {
+        "text": "gói dịch vụ Diamond Account",
+        "label": "ASSET",
+        "evidence": "Cụ thể, khách hàng mới tham gia chương trình hoặc quay trở lại giao dịch sẽ được miễn phí chọn số tài khoản đẹp theo yêu cầu và sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Cụ thể, khách hàng mới tham gia chương trình hoặc quay trở lại giao dịch sẽ được miễn phí chọn số tài khoản đẹp theo yêu cầu và sử dụng miễn phí gói dịch vụ Diamond Account trong 6 tháng."
+    },
+    {
+        "text": "miễn phí 1 năm phí thường niên thẻ doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các doanh nghiệp đang giao dịch tại Sacombank khi sử dụng thêm các sản phẩm dịch vụ mới sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Ngoài ra, các doanh nghiệp đang giao dịch tại Sacombank khi sử dụng thêm các sản phẩm dịch vụ mới sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "thẻ doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "...sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "miễn phí 6 tháng sử dụng eBanking",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các doanh nghiệp đang giao dịch tại Sacombank khi sử dụng thêm các sản phẩm dịch vụ mới sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "...sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT)",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các doanh nghiệp đang giao dịch tại Sacombank khi sử dụng thêm các sản phẩm dịch vụ mới sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "ưu đãi cho 5 giao dịch mua bán ngoại tệ",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, các doanh nghiệp đang giao dịch tại Sacombank khi sử dụng thêm các sản phẩm dịch vụ mới sẽ nhận được nhiều ưu đãi hấp dẫn như miễn phí 1 năm phí thường niên thẻ doanh nghiệp, miễn phí 6 tháng sử dụng eBanking, miễn phí 5 giao dịch chuyển tiền quốc tế trực tuyến (eFT) và ưu đãi cho 5 giao dịch mua bán ngoại tệ trong thời gian diễn ra chương trình."
+    },
+    {
+        "text": "hết năm 2025",
+        "label": "DATE",
+        "evidence": "Thông qua hai chương trình ưu đãi được triển khai đến hết năm 2025, Sacombank tiếp tục khẳng định cam kết đồng hành cùng doanh nghiệp phát triển bền vững, hội nhập sâu rộng vào nền kinh tế số và góp phần xây dựng hệ sinh thái kinh doanh thân thiện với môi trường."
+    }
+]

@@ -1,0 +1,367 @@
+[
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "các nhà phân tích của HSBC đã chỉ ra hai rào cản vẫn đang khiến Việt Nam bị đánh giá ở mức \"Hạn chế\" trong việc nâng hạng thị trường."
+    },
+    {
+        "text": "nâng hạng thị trường",
+        "label": "EVENT",
+        "evidence": "các nhà phân tích của HSBC đã chỉ ra hai rào cản vẫn đang khiến Việt Nam bị đánh giá ở mức \"Hạn chế\" trong việc nâng hạng thị trường."
+    },
+    {
+        "text": "giới hạn sở hữu nước ngoài (FOL)",
+        "label": "EVENT",
+        "evidence": "Một là rào cản về giới hạn sở hữu nước ngoài (FOL)."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "0% room",
+        "label": "RATE",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "nhiều cổ phiếu ngân hàng và bán lẻ đầu ngành nhưTCB(còn 0% room), VIB (0%) hay MWG (1%) đã gần như không còn không gian cho nhà đầu tư ngoại, làm giới hạn đáng kể các lựa chọn giải ngân quy mô lớn."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "13%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "Room ngoại của các doanh nghiệp khác như VCB còn 8%, BID còn 13%, CTG 3%, VPB 4%, LPB 4%, STB 10%, FPT 12%, ..."
+    },
+    {
+        "text": "44,4%",
+        "label": "RATE",
+        "evidence": "Có thể thấy, vấn đề này trở nên đặc biệt nghiêm trọng ở nhóm ngành Tài chính, vốn chiếm tới44,4%trọng số VN-Index nhưng chỉ còn khoảng11%room trống."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Có thể thấy, vấn đề này trở nên đặc biệt nghiêm trọng ở nhóm ngành Tài chính, vốn chiếm tới44,4%trọng số VN-Index nhưng chỉ còn khoảng11%room trống."
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "Có thể thấy, vấn đề này trở nên đặc biệt nghiêm trọng ở nhóm ngành Tài chính, vốn chiếm tới44,4%trọng số VN-Index nhưng chỉ còn khoảng11%room trống."
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "Nguồn: HSBC"
+    },
+    {
+        "text": "ký quỹ 100% tiền mặt trước khi đặt lệnh (pre-funding)",
+        "label": "EVENT",
+        "evidence": "Việc thị trường vẫn yêu cầu nhà đầu tư phải ký quỹ 100% tiền mặt trước khi đặt lệnh (pre-funding) đã đi ngược lại với chuẩn mực quốc tế về Chu kỳ thanh toán (DvP), nơi việc chuyển giao chứng khoán và thanh toán tiền diễn ra đồng thời."
+    },
+    {
+        "text": "Chu kỳ thanh toán (DvP)",
+        "label": "EVENT",
+        "evidence": "chuẩn mực quốc tế về Chu kỳ thanh toán (DvP), nơi việc chuyển giao chứng khoán và thanh toán tiền diễn ra đồng thời."
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "Nguồn: HSBC"
+    },
+    {
+        "text": "nâng hạng",
+        "label": "EVENT",
+        "evidence": "Việc nâng hạng sẽ mở ra hai luồng vốn ngoại chính: thụ động và chủ động."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Dòng vốn thụ động từ các quỹ ETF mô phỏng chỉ số sẽ là luồng tiền chắc chắn nhất."
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "HSBC ước tính, với tỷ trọng ban đầu khoảng 0,5% trong rổ FTSE EM, luồng vốn này có thể đạt khoảng1,5 tỷ USD."
+    },
+    {
+        "text": "0,5%",
+        "label": "RATE",
+        "evidence": "HSBC ước tính, với tỷ trọng ban đầu khoảng 0,5% trong rổ FTSE EM, luồng vốn này có thể đạt khoảng1,5 tỷ USD."
+    },
+    {
+        "text": "FTSE EM",
+        "label": "ASSET",
+        "evidence": "0,5% trong rổ FTSE EM, luồng vốn này có thể đạt khoảng1,5 tỷ USD."
+    },
+    {
+        "text": "1,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "luồng vốn này có thể đạt khoảng1,5 tỷ USD."
+    },
+    {
+        "text": "10,4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Trong kịch bản lạc quan nhất, tổng dòng vốn từ cả hai nguồn có thể lên tới10,4 tỷ USD."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "ví dụ như Hòa Phát (HPG) với room còn lại 27%,Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Hòa Phát (HPG) với room còn lại 27%,Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "27%",
+        "label": "RATE",
+        "evidence": "Hòa Phát (HPG) với room còn lại 27%,Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "27%,Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "44%",
+        "label": "RATE",
+        "evidence": "Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vingroup(VIC) còn 44%, Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Vinhomes (VHM) còn 40%, và đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "đặc biệt là Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "75%",
+        "label": "RATE",
+        "evidence": "Masan (MSN) với không gian cho vốn ngoại lên tới 75%."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Yếu tố có thể tạo ra đột biến lớn nhất đến từ nhóm ngân hàng tư nhân đang tự khóa room như TCB vàVIB."
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "Yếu tố có thể tạo ra đột biến lớn nhất đến từ nhóm ngân hàng tư nhân đang tự khóa room như TCB vàVIB."
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "HSBC vẫn đưa ra một góc nhìn lạc quan về việc nâng hạng thị trường."
+    },
+    {
+        "text": "nâng hạng thị trường",
+        "label": "EVENT",
+        "evidence": "HSBC vẫn đưa ra một góc nhìn lạc quan về việc nâng hạng thị trường."
+    },
+    {
+        "text": "Luật Chứng khoán",
+        "label": "EVENT",
+        "evidence": "Luật Chứng khoán và việc ra mắt hệ thống giao dịch KRX – đang đưa Việt Nam đến gần hơn với việc được nâng hạng."
+    },
+    {
+        "text": "ra mắt hệ thống giao dịch KRX",
+        "label": "EVENT",
+        "evidence": "Luật Chứng khoán và việc ra mắt hệ thống giao dịch KRX – đang đưa Việt Nam đến gần hơn với việc được nâng hạng."
+    },
+    {
+        "text": "nâng hạng",
+        "label": "EVENT",
+        "evidence": "đang đưa Việt Nam đến gần hơn với việc được nâng hạng."
+    },
+    {
+        "text": "FTSE",
+        "label": "ORG",
+        "evidence": "chúng tôi lưu ý rằng FTSE cũng tham khảo ý kiến của các nhà đầu tư và công ty môi giới khi đưa ra quyết định cuối cùng,"
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "cuối cùng,\"HSBC cho biết thêm."
+    },
+    {
+        "text": "HSBC",
+        "label": "ORG",
+        "evidence": "Sự lạc quan của HSBC đến từ việc Việt Nam hoàn thành 7 trên 9 tiêu chí của FTSE Russell, là sự công nhận cho một quá trình cải cách bền bỉ, tạo ra một \"sân chơi\" đáng tin cậy."
+    },
+    {
+        "text": "7 trên 9 tiêu chí của FTSE Russell",
+        "label": "EVENT",
+        "evidence": "Sự lạc quan của HSBC đến từ việc Việt Nam hoàn thành 7 trên 9 tiêu chí của FTSE Russell, là sự công nhận cho một quá trình cải cách bền bỉ, tạo ra một \"sân chơi\" đáng tin cậy."
+    },
+    {
+        "text": "FTSE Russell",
+        "label": "ORG",
+        "evidence": "hoàn thành 7 trên 9 tiêu chí của FTSE Russell, là sự công nhận cho một quá trình cải cách bền bỉ, tạo ra một \"sân chơi\" đáng tin cậy."
+    },
+    {
+        "text": "World Bank",
+        "label": "ORG",
+        "evidence": "Việc đáp ứng tiêu chí về GNI bình quân đầu người của World Bank và mức độ tín nhiệm quốc gia đã xây dựng được niềm tin cơ bản."
+    },
+    {
+        "text": "KRX",
+        "label": "ASSET",
+        "evidence": "một phần quan trọng nhờ vào sự ổn định của hệ thống giao dịch KRX."
+    },
+    {
+        "text": "Trung tâm Lưu ký Chứng khoán",
+        "label": "ORG",
+        "evidence": "Sự hiện diện của Trung tâm Lưu ký Chứng khoán (VSDC) và các ngân hàng lưu ký có năng lực cạnh tranh mang đến cho các định chế tài chính quốc tế sự an tâm khi nắm giữ tài sản tại Việt Nam."
+    },
+    {
+        "text": "VSDC",
+        "label": "ORG",
+        "evidence": "Trung tâm Lưu ký Chứng khoán (VSDC) và các ngân hàng lưu ký có năng lực cạnh tranh mang đến cho các định chế tài chính quốc tế sự an tâm khi nắm giữ tài sản tại Việt Nam."
+    },
+    {
+        "text": "Bloomberg",
+        "label": "ORG",
+        "evidence": "Chỉ số chứng khoán Pakistan sau khi nâng hạng - Nguồn Bloomberg"
+    },
+    {
+        "text": "UAE",
+        "label": "ORG",
+        "evidence": "Trường hợp củaUAE và Qatar (nâng hạng 2014)là một ví dụ, khi thị trường bùng nổ trước sự kiện nhưng nhanh chóng điều chỉnh sau đó."
+    },
+    {
+        "text": "Qatar",
+        "label": "ORG",
+        "evidence": "UAE và Qatar (nâng hạng 2014)là một ví dụ, khi thị trường bùng nổ trước sự kiện nhưng nhanh chóng điều chỉnh sau đó."
+    },
+    {
+        "text": "nâng hạng 2014",
+        "label": "EVENT",
+        "evidence": "UAE và Qatar (nâng hạng 2014)là một ví dụ, khi thị trường bùng nổ trước sự kiện nhưng nhanh chóng điều chỉnh sau đó."
+    },
+    {
+        "text": "100 USD/thùng",
+        "label": "PRICE",
+        "evidence": "Đáng chú ý, đà tăng này được cộng hưởng rất lớn từ bối cảnh giá dầu thế giới trên 100 USD/thùng."
+    },
+    {
+        "text": "Pakistan",
+        "label": "ORG",
+        "evidence": "Tương tự,Pakistan (nâng hạng 2017)cũng chứng kiến thị trường đạt đỉnh lịch sử ngay tại thời điểm được nâng hạng rồi bước vào một chu kỳ giảm giá kéo dài, một phần do các vấn đề kinh tế nội tại bộc lộ."
+    },
+    {
+        "text": "nâng hạng 2017",
+        "label": "EVENT",
+        "evidence": "Pakistan (nâng hạng 2017)cũng chứng kiến thị trường đạt đỉnh lịch sử ngay tại thời điểm được nâng hạng rồi bước vào một chu kỳ giảm giá kéo dài, một phần do các vấn đề kinh tế nội tại bộc lộ."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "thị trường của chúng ta đã \"chạy trước\" một đoạn rất dài với mức tăng40%từ đầu năm."
+    }
+]

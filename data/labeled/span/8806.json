@@ -1,0 +1,332 @@
+[
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Giao book trực tuyến 2 vé khứ hồi bay cuối tuần của Vietnam Airlines giá gần 7 triệu đồng"
+    },
+    {
+        "text": "gần 7 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giao book trực tuyến 2 vé khứ hồi bay cuối tuần của Vietnam Airlines giá gần 7 triệu đồng"
+    },
+    {
+        "text": "thẻ tín dụng VIB Premier Boundless",
+        "label": "ASSET",
+        "evidence": "nhờ chọn thẻ tín dụng VIB Premier Boundless - thẻ đồng thương hiệu của VIB và Vietnam Airlines"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "nhờ chọn thẻ tín dụng VIB Premier Boundless - thẻ đồng thương hiệu của VIB và Vietnam Airlines"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "nhờ chọn thẻ tín dụng VIB Premier Boundless - thẻ đồng thương hiệu của VIB và Vietnam Airlines"
+    },
+    {
+        "text": "được giảm ngay 10% giá vé nội địa",
+        "label": "EVENT",
+        "evidence": "nhập mã “VIBVNA10” nên được giảm ngay 10% giá vé nội địa."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "nhập mã “VIBVNA10” nên được giảm ngay 10% giá vé nội địa."
+    },
+    {
+        "text": "thẻ tín dụng VIB Premier Boundless",
+        "label": "ASSET",
+        "evidence": "Giao chỉ cần xuất trình thẻ tín dụng VIB Premier Boundless là được vào phòng chờ hạng thương gia"
+    },
+    {
+        "text": "được vào phòng chờ hạng thương gia",
+        "label": "EVENT",
+        "evidence": "Giao chỉ cần xuất trình thẻ tín dụng VIB Premier Boundless là được vào phòng chờ hạng thương gia"
+    },
+    {
+        "text": "Premier Boundless",
+        "label": "ASSET",
+        "evidence": "Với Premier Boundless, Giao được miễn phí sử dụng phòng chờ thương gia"
+    },
+    {
+        "text": "được miễn phí sử dụng phòng chờ thương gia",
+        "label": "EVENT",
+        "evidence": "Với Premier Boundless, Giao được miễn phí sử dụng phòng chờ thương gia"
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "Giao tách thành 2 lần thanh toán bằng thẻ tín dụng VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Giao tách thành 2 lần thanh toán bằng thẻ tín dụng VIB."
+    },
+    {
+        "text": "Mytour.vn",
+        "label": "ORG",
+        "evidence": "Một đêm ở Hà Nội đặt qua Mytour.vn và nhập mã \"MYTOUR9H23VIB\" được giảm liền 10%."
+    },
+    {
+        "text": "được giảm liền 10%",
+        "label": "EVENT",
+        "evidence": "Một đêm ở Hà Nội đặt qua Mytour.vn và nhập mã \"MYTOUR9H23VIB\" được giảm liền 10%."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Một đêm ở Hà Nội đặt qua Mytour.vn và nhập mã \"MYTOUR9H23VIB\" được giảm liền 10%."
+    },
+    {
+        "text": "2,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giá chỉ 2,5 triệu đồng khi đặt trên Klook"
+    },
+    {
+        "text": "Klook",
+        "label": "ORG",
+        "evidence": "giá chỉ 2,5 triệu đồng khi đặt trên Klook"
+    },
+    {
+        "text": "sẽ được giảm thêm 250.000 VNĐ",
+        "label": "EVENT",
+        "evidence": "khi nhập mã \"VIBKLOOK2023\" sẽ được giảm thêm 250.000 VNĐ."
+    },
+    {
+        "text": "250.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "khi nhập mã \"VIBKLOOK2023\" sẽ được giảm thêm 250.000 VNĐ."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tổng chi phí cho chuyến đi khoảng 10 triệu đồng"
+    },
+    {
+        "text": "hơn 1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giao tiết kiệm được hơn 1 triệu đồng nhờ thẻ VIB."
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "Giao tiết kiệm được hơn 1 triệu đồng nhờ thẻ VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Giao tiết kiệm được hơn 1 triệu đồng nhờ thẻ VIB."
+    },
+    {
+        "text": "quy đổi tất cả chi tiêu này thành dặm thưởng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng còn quy đổi tất cả chi tiêu này thành dặm thưởng"
+    },
+    {
+        "text": "30.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "1-2 dặm cho mỗi 30.000 VNĐ chi tiêu trong nước"
+    },
+    {
+        "text": "20.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "cho mỗi 20.000 VNĐ chi tiêu tại Vietnam Airlines"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "cho mỗi 20.000 VNĐ chi tiêu tại Vietnam Airlines"
+    },
+    {
+        "text": "Tiến Thành",
+        "label": "PERSON",
+        "evidence": "Anh Tiến Thành (40 tuổi, TP.HCM) quyết định sẽ đưa bà xã vi vu từ trời Á sang trời Âu"
+    },
+    {
+        "text": "VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "Sử dụng 2 thẻ VIB Travel Élite và VIB Super Card cho lịch trình du lịch"
+    },
+    {
+        "text": "VIB Super Card",
+        "label": "ASSET",
+        "evidence": "Sử dụng 2 thẻ VIB Travel Élite và VIB Super Card cho lịch trình du lịch"
+    },
+    {
+        "text": "VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "Với VIB Travel Élite, anh Thành dùng để đặt vé máy bay đi săn cực quang ở Đan Mạch – Iceland - Na Uy"
+    },
+    {
+        "text": "đượcgiảm thẳng 5% cho vé bay quốc tế",
+        "label": "EVENT",
+        "evidence": "đượcgiảm thẳng 5% cho vé bay quốc tếvà sử dụng miễn phí hơn 1.000 phòng chờ tại các sân bay trên toàn thế giới."
+    },
+    {
+        "text": "5%",
+        "label": "RATE",
+        "evidence": "đượcgiảm thẳng 5% cho vé bay quốc tếvà sử dụng miễn phí hơn 1.000 phòng chờ tại các sân bay trên toàn thế giới."
+    },
+    {
+        "text": "sử dụng miễn phí hơn 1.000 phòng chờ tại các sân bay trên toàn thế giới",
+        "label": "EVENT",
+        "evidence": "sử dụng miễn phí hơn 1.000 phòng chờ tại các sân bay trên toàn thế giới."
+    },
+    {
+        "text": "thẻ VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "anh tận dụng thẻ VIB Travel Élite để đặt phòng khách sạn trên Agoda"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "anh tận dụng thẻ VIB Travel Élite để đặt phòng khách sạn trên Agoda"
+    },
+    {
+        "text": "được giảm 12% qua thẻ",
+        "label": "EVENT",
+        "evidence": "để được giảm 12% qua thẻ, tiết kiệm được đáng kể chi phí khi lưu trú ở Châu Âu."
+    },
+    {
+        "text": "12%",
+        "label": "RATE",
+        "evidence": "để được giảm 12% qua thẻ, tiết kiệm được đáng kể chi phí khi lưu trú ở Châu Âu."
+    },
+    {
+        "text": "thẻ VIB Super Card",
+        "label": "ASSET",
+        "evidence": "thẻ VIB Super Card được vợ chồng anh Thành dùng để mua tour du lịch đi Nhật Bản tại Vietravel"
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "thẻ VIB Super Card được vợ chồng anh Thành dùng để mua tour du lịch đi Nhật Bản tại Vietravel"
+    },
+    {
+        "text": "được giảm ngay 800.000 đồng với tour có giá trị trên 20 triệu",
+        "label": "EVENT",
+        "evidence": "bởi được giảm ngay 800.000 đồng với tour có giá trị trên 20 triệu."
+    },
+    {
+        "text": "800.000 đồng",
+        "label": "MONEY",
+        "evidence": "bởi được giảm ngay 800.000 đồng với tour có giá trị trên 20 triệu."
+    },
+    {
+        "text": "20 triệu",
+        "label": "MONEY",
+        "evidence": "bởi được giảm ngay 800.000 đồng với tour có giá trị trên 20 triệu."
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "Cả anh và vợ đều có thẻ tín dụng VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Cả anh và vợ đều có thẻ tín dụng VIB"
+    },
+    {
+        "text": "1,6 triệu đồng",
+        "label": "MONEY",
+        "evidence": "số tiền được giảm tổng cộng là 1,6 triệu đồng."
+    },
+    {
+        "text": "được hoàn 10% cho mọi chi tiêu ở nước ngoài",
+        "label": "EVENT",
+        "evidence": "dòng thẻ trắng này được hoàn 10% cho mọi chi tiêu ở nước ngoài"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "dòng thẻ trắng này được hoàn 10% cho mọi chi tiêu ở nước ngoài"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 1 triệu đồng mỗi tháng."
+    },
+    {
+        "text": "thẻ VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "vợ anh Thành dùng thẻ VIB Travel Élite để được hưởng phí giao dịch ngoại tệ chỉ 0%"
+    },
+    {
+        "text": "được hưởng phí giao dịch ngoại tệ chỉ 0%",
+        "label": "EVENT",
+        "evidence": "vợ anh Thành dùng thẻ VIB Travel Élite để được hưởng phí giao dịch ngoại tệ chỉ 0%"
+    },
+    {
+        "text": "0%",
+        "label": "RATE",
+        "evidence": "vợ anh Thành dùng thẻ VIB Travel Élite để được hưởng phí giao dịch ngoại tệ chỉ 0%"
+    },
+    {
+        "text": "được tích thêm không giới hạn 3 dặm thưởng cho mỗi 25.000 VNĐ chi tiêu qua POS tại nước ngoài",
+        "label": "EVENT",
+        "evidence": "được tích thêm không giới hạn 3 dặm thưởng cho mỗi 25.000 VNĐ chi tiêu qua POS tại nước ngoài."
+    },
+    {
+        "text": "25.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "3 dặm thưởng cho mỗi 25.000 VNĐ chi tiêu qua POS tại nước ngoài."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "hàng trăm đối tác của VIB như Vietnam Airlines, Qatar Airways"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "hàng trăm đối tác của VIB như Vietnam Airlines, Qatar Airways"
+    },
+    {
+        "text": "Qatar Airways",
+        "label": "ORG",
+        "evidence": "hàng trăm đối tác của VIB như Vietnam Airlines, Qatar Airways"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "Booking.vn",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "iVIVU.com",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "Klook",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "Traveloka",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "Lửa Việt Tours",
+        "label": "ORG",
+        "evidence": "Agoda, Booking.vn, iVIVU.com, Klook, Traveloka, Lửa Việt Tours"
+    },
+    {
+        "text": "Mở thẻ VIB",
+        "label": "EVENT",
+        "evidence": "Mở thẻ VIBngay hôm nay để tối ưu chi phí cho các chuyến du lịch thôi!"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Mở thẻ VIBngay hôm nay để tối ưu chi phí cho các chuyến du lịch thôi!"
+    }
+]

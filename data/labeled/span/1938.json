@@ -1,0 +1,347 @@
+[
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FPT vừa trải qua một phiên giao dịch sôi động dưới sức ép lớn từ bên bán."
+    },
+    {
+        "text": "Cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu FPT vừa trải qua một phiên giao dịch sôi động dưới sức ép lớn từ bên bán."
+    },
+    {
+        "text": "hơn 16 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Khối lượng khớp lệnh đạt hơn 16 triệu cổ phiếu, xác lập kỷ lục kể từ khi niêm yết n ăm 2006."
+    },
+    {
+        "text": "năm 2006",
+        "label": "DATE",
+        "evidence": "Khối lượng khớp lệnh đạt hơn 16 triệu cổ phiếu, xác lập kỷ lục kể từ khi niêm yết n ăm 2006."
+    },
+    {
+        "text": "hơn 2.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị giao dịch lên đến hơn 2.100 tỷ đồng, lớn nhất sàn chứng khoán phiên 14/3."
+    },
+    {
+        "text": "phiên 14/3",
+        "label": "DATE",
+        "evidence": "Giá trị giao dịch lên đến hơn 2.100 tỷ đồng, lớn nhất sàn chứng khoán phiên 14/3."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "FPT giảm mạnh 3,7% phiên 14/3",
+        "label": "EVENT",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "3,7%",
+        "label": "RATE",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "phiên 14/3",
+        "label": "DATE",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "131.400 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Áp lực bán mạnh đẩy cổ phiếu FPT giảm mạnh 3,7% phiên 14/3, xuống mức 131.400 đồng/cp."
+    },
+    {
+        "text": "trung tuần tháng 1",
+        "label": "DATE",
+        "evidence": "So với đỉnh lịch sử đạt được hồi trung tuần tháng 1, FPT đã giảm khoảng 15% thị giá."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "So với đỉnh lịch sử đạt được hồi trung tuần tháng 1, FPT đã giảm khoảng 15% thị giá."
+    },
+    {
+        "text": "khoảng 15%",
+        "label": "RATE",
+        "evidence": "So với đỉnh lịch sử đạt được hồi trung tuần tháng 1, FPT đã giảm khoảng 15% thị giá."
+    },
+    {
+        "text": "193.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường tương ứng lùi xuống còn 193.000 tỷ đồng, đánh mất vị trí tập đoàn tư nhân lớn nhất Việt Nam vào tay Vingroup."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vốn hóa thị trường tương ứng lùi xuống còn 193.000 tỷ đồng, đánh mất vị trí tập đoàn tư nhân lớn nhất Việt Nam vào tay Vingroup."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Đáng chú ý, cổ phiếu FPT còn bị khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, cổ phiếu FPT còn bị khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, cổ phiếu FPT còn bị khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng."
+    },
+    {
+        "text": "phiên 14/3",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, cổ phiếu FPT còn bị khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng."
+    },
+    {
+        "text": "650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, cổ phiếu FPT còn bị khối ngoại xả mạnh nhất toàn sàn phiên 14/3 vừa qua với giá trị bán ròng lên đến 650 tỷ đồng."
+    },
+    {
+        "text": "Từ đầu tháng 3 đến nay",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 3 đến nay, khối ngoại chỉ mua ròng FPT duy nhất 1 phiên (4/3) với giá trị không đáng kể."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Từ đầu tháng 3 đến nay, khối ngoại chỉ mua ròng FPT duy nhất 1 phiên (4/3) với giá trị không đáng kể."
+    },
+    {
+        "text": "4/3",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 3 đến nay, khối ngoại chỉ mua ròng FPT duy nhất 1 phiên (4/3) với giá trị không đáng kể."
+    },
+    {
+        "text": "hơn 1.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá trị bán ròng luỹ kế trong 2 tuần qua lên đến hơn 1.300 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mặt khác, ban lãnh đạo FPT cho rằng sự ra đời của các mô hình AI giá rẻ như DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "DeepSeek",
+        "label": "ORG",
+        "evidence": "Mặt khác, ban lãnh đạo FPT cho rằng sự ra đời của các mô hình AI giá rẻ như DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "Mặt khác, ban lãnh đạo FPT cho rằng sự ra đời của các mô hình AI giá rẻ như DeepSeek có thể không ảnh hưởng đáng kể đến hiệu quả FPT AI Factory."
+    },
+    {
+        "text": "DeepSeek",
+        "label": "ORG",
+        "evidence": "Thậm chí, sự xuất hiện của các mô hình AI chi phí thấp tương tự như DeepSeek có thể thúc đẩy việc ứng dụng AI hơn trong các doanh nghiệp/tổ chức, cho thấy cơ hội của các công ty công nghệ, bao gồm lĩnh vực AI của FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Thậm chí, sự xuất hiện của các mô hình AI chi phí thấp tương tự như DeepSeek có thể thúc đẩy việc ứng dụng AI hơn trong các doanh nghiệp/tổ chức, cho thấy cơ hội của các công ty công nghệ, bao gồm lĩnh vực AI của FPT."
+    },
+    {
+        "text": "tháng 4 năm ngoái",
+        "label": "DATE",
+        "evidence": "Hồi tháng 4 năm ngoái, FPT công bố phát triển nhà máy AI thông qua chương trình hợp tác chiến lược toàn diện với “gã khổng lồ” ngành chip NVIDIA."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Hồi tháng 4 năm ngoái, FPT công bố phát triển nhà máy AI thông qua chương trình hợp tác chiến lược toàn diện với “gã khổng lồ” ngành chip NVIDIA."
+    },
+    {
+        "text": "FPT công bố phát triển nhà máy AI thông qua chương trình hợp tác chiến lược toàn diện với “gã khổng lồ” ngành chip NVIDIA",
+        "label": "EVENT",
+        "evidence": "Hồi tháng 4 năm ngoái, FPT công bố phát triển nhà máy AI thông qua chương trình hợp tác chiến lược toàn diện với “gã khổng lồ” ngành chip NVIDIA."
+    },
+    {
+        "text": "NVIDIA",
+        "label": "ORG",
+        "evidence": "Hồi tháng 4 năm ngoái, FPT công bố phát triển nhà máy AI thông qua chương trình hợp tác chiến lược toàn diện với “gã khổng lồ” ngành chip NVIDIA."
+    },
+    {
+        "text": "nhà máy AI tại Nhật Bản sẽ đi vào hoạt động vào cuối tháng 3/2025",
+        "label": "EVENT",
+        "evidence": "Dự kiến, nhà máy AI tại Nhật Bản sẽ đi vào hoạt động vào cuối tháng 3/2025, chậm hơn so với kế hoạch ban đầu."
+    },
+    {
+        "text": "cuối tháng 3/2025",
+        "label": "DATE",
+        "evidence": "Dự kiến, nhà máy AI tại Nhật Bản sẽ đi vào hoạt động vào cuối tháng 3/2025, chậm hơn so với kế hoạch ban đầu."
+    },
+    {
+        "text": "nhà máy AI tại Việt Nam vẫn triển khai đúng tiến độ và dự kiến bắt đầu tạo doanh thu trong quý 1",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, nhà máy AI tại Việt Nam vẫn triển khai đúng tiến độ và dự kiến bắt đầu tạo doanh thu trong quý 1 với mục tiêu đạt 40 triệu USD doanh thu từ hoạt động kinh doanh nhà máy AI/cho thuê GPU năm 2025."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Trong khi đó, nhà máy AI tại Việt Nam vẫn triển khai đúng tiến độ và dự kiến bắt đầu tạo doanh thu trong quý 1 với mục tiêu đạt 40 triệu USD doanh thu từ hoạt động kinh doanh nhà máy AI/cho thuê GPU năm 2025."
+    },
+    {
+        "text": "40 triệu USD",
+        "label": "MONEY",
+        "evidence": "với mục tiêu đạt 40 triệu USD doanh thu từ hoạt động kinh doanh nhà máy AI/cho thuê GPU năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "với mục tiêu đạt 40 triệu USD doanh thu từ hoạt động kinh doanh nhà máy AI/cho thuê GPU năm 2025."
+    },
+    {
+        "text": "Năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Năm 2025, FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%",
+        "label": "EVENT",
+        "evidence": "Năm 2025, FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "75.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "FPT đặt mục tiêu doanh thu 75.400 tỷ đồng, tăng 20% so với năm 2024 (so với cùng kỳ); lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "13.395 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "lợi nhuận trước thuế 13.395 tỷ đồng, tăng 21%."
+    },
+    {
+        "text": "20%/năm",
+        "label": "RATE",
+        "evidence": "và sẽ là năm thứ 5 liên tiếp tăng trưởng trên 20%/năm.﻿"
+    },
+    {
+        "text": "Chứng khoán ACB",
+        "label": "ORG",
+        "evidence": "Theo báo cáo phân tích mới đây, Chứng khoán ACB (ACBS) cho rằng, dịch vụ công nghệ thông tin (CNTT) thị trường nước ngoài vẫn là mảng hứa hẹn tăng trưởng tốt nhất trong bối cảnh Việt Nam được đánh giá là điểm đến hấp dẫn cho các dịch vụ CNTT, với lợi thế chi phí thấp."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Theo báo cáo phân tích mới đây, Chứng khoán ACB (ACBS) cho rằng, dịch vụ công nghệ thông tin (CNTT) thị trường nước ngoài vẫn là mảng hứa hẹn tăng trưởng tốt nhất trong bối cảnh Việt Nam được đánh giá là điểm đến hấp dẫn cho các dịch vụ CNTT, với lợi thế chi phí thấp."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "báo cáo của ACBS nhận định."
+    },
+    {
+        "text": "Hiệp hội phần mềm và dịch vụ CNTT Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo Hiệp hội phần mềm và dịch vụ CNTT Việt Nam (VINASA), dịch vụ được cung cấp từ các doanh nghiệp công nghệ Việt Nam không chỉ dừng lại ở phát triển, kiểm thử mà đã trở thành đối tác tư vấn, nghiên cứu, thiết kết, phát triển chuyển đổi số cho các đối tác toàn cầu."
+    },
+    {
+        "text": "VINASA",
+        "label": "ORG",
+        "evidence": "Theo Hiệp hội phần mềm và dịch vụ CNTT Việt Nam (VINASA), dịch vụ được cung cấp từ các doanh nghiệp công nghệ Việt Nam không chỉ dừng lại ở phát triển, kiểm thử mà đã trở thành đối tác tư vấn, nghiên cứu, thiết kết, phát triển chuyển đổi số cho các đối tác toàn cầu."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "Về mảng dịch vụ, ACBS đánh giá Dịch vụ chuyển đổi số (DX) tiếp tục có triển vọng tích cực vì vẫn được thúc đẩy trên toàn cầu."
+    },
+    {
+        "text": "International Data Corporation",
+        "label": "ORG",
+        "evidence": "Theo International Data Corporation (IDC), thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "IDC",
+        "label": "ORG",
+        "evidence": "Theo International Data Corporation (IDC), thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027",
+        "label": "EVENT",
+        "evidence": "Theo International Data Corporation (IDC), thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "16,2%",
+        "label": "RATE",
+        "evidence": "thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "4.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "2022-2027",
+        "label": "DATE",
+        "evidence": "thị trường DX được dự báo sẽ tăng trưởng với tốc độ CAGR là 16,2% lên gần 4.000 tỷ USD trong giai đoạn 2022-2027."
+    },
+    {
+        "text": "ACBS",
+        "label": "ORG",
+        "evidence": "ACBS kỳ vọng mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "ACBS kỳ vọng mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025."
+    },
+    {
+        "text": "mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025",
+        "label": "EVENT",
+        "evidence": "ACBS kỳ vọng mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025."
+    },
+    {
+        "text": "26,6%",
+        "label": "RATE",
+        "evidence": "ACBS kỳ vọng mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "ACBS kỳ vọng mảng dịch vụ CNTT thị trường nước ngoài của FPT có thể tăng trưởng doanh thu 26,6% svck trong 2025."
+    },
+    {
+        "text": "tăng trưởng doanh thu dự phóng 30%",
+        "label": "EVENT",
+        "evidence": "Nhật Bản và châu Á – Thái Bình Dương có thể vẫn là những thị trường nổi bật nhất với mức tăng trưởng doanh thu dự phóng 30% svck nhờ nhu cầu gia tăng chi tiêu cho CNTT, đặc biệt là chuyển đổi số và AI."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Nhật Bản và châu Á – Thái Bình Dương có thể vẫn là những thị trường nổi bật nhất với mức tăng trưởng doanh thu dự phóng 30% svck nhờ nhu cầu gia tăng chi tiêu cho CNTT, đặc biệt là chuyển đổi số và AI."
+    }
+]

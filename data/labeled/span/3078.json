@@ -1,0 +1,627 @@
+[
+    {
+        "text": "26/4",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch 26/4 diễn biến giằng co trong ngày giao dịch trước kỳ Nghỉ lễ 30/4 – 1/5."
+    },
+    {
+        "text": "30/4 – 1/5",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch 26/4 diễn biến giằng co trong ngày giao dịch trước kỳ Nghỉ lễ 30/4 – 1/5."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, chỉ số VN-Index tăng nhẹ 4,5 điểm lên 1.209 điểm."
+    },
+    {
+        "text": "4,5 điểm",
+        "label": "RATE",
+        "evidence": "Đóng cửa, chỉ số VN-Index tăng nhẹ 4,5 điểm lên 1.209 điểm."
+    },
+    {
+        "text": "1.209 điểm",
+        "label": "PRICE",
+        "evidence": "Đóng cửa, chỉ số VN-Index tăng nhẹ 4,5 điểm lên 1.209 điểm."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Dòng tiền tiếp tục thận trọng trước kỳ nghỉ lễ dài khi giá trị khớp lệnh trên HOSE chỉ đạt trên 14.000 tỷ đồng."
+    },
+    {
+        "text": "trên 14.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dòng tiền tiếp tục thận trọng trước kỳ nghỉ lễ dài khi giá trị khớp lệnh trên HOSE chỉ đạt trên 14.000 tỷ đồng."
+    },
+    {
+        "text": "trên 14.000 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Dòng tiền tiếp tục thận trọng trước kỳ nghỉ lễ dài khi giá trị khớp lệnh trên HOSE chỉ đạt trên 14.000 tỷ đồng."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index giảm nhẹ 0,33% xuống còn 226,82 điểm;"
+    },
+    {
+        "text": "0,33%",
+        "label": "RATE",
+        "evidence": "HNX-Index giảm nhẹ 0,33% xuống còn 226,82 điểm;"
+    },
+    {
+        "text": "226,82 điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Index giảm nhẹ 0,33% xuống còn 226,82 điểm;"
+    },
+    {
+        "text": "UPCoM – Index",
+        "label": "ASSET",
+        "evidence": "UPCoM – Index tăng lên 88,76 điểm."
+    },
+    {
+        "text": "88,76 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM – Index tăng lên 88,76 điểm."
+    },
+    {
+        "text": "tổ chức đại hội cổ đông thường niên 2024",
+        "label": "EVENT",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Trong đó, một số cổ phiếu biến động mạnh khi hôm nay có tới 6 ngân hàng cùng tổ chức đại hội cổ đông thường niên 2024, bao gồm Sacombank, HDBank, Eximbank, Kienlongbank, VietBank và VietABank."
+    },
+    {
+        "text": "cổ phiếu VBB",
+        "label": "ASSET",
+        "evidence": "Cụ thể, cổ phiếu VBB của VietBank bất ngờ tăng trần hơn 14,4% lên 11.100 đồng/cp."
+    },
+    {
+        "text": "VBB",
+        "label": "TICKER",
+        "evidence": "Cụ thể, cổ phiếu VBB của VietBank bất ngờ tăng trần hơn 14,4% lên 11.100 đồng/cp."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, cổ phiếu VBB của VietBank bất ngờ tăng trần hơn 14,4% lên 11.100 đồng/cp."
+    },
+    {
+        "text": "hơn 14,4%",
+        "label": "RATE",
+        "evidence": "Cụ thể, cổ phiếu VBB của VietBank bất ngờ tăng trần hơn 14,4% lên 11.100 đồng/cp."
+    },
+    {
+        "text": "11.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cụ thể, cổ phiếu VBB của VietBank bất ngờ tăng trần hơn 14,4% lên 11.100 đồng/cp."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu VietBank bật tăng mạnh khi ngân hàng này tổ chức Đại hội đồng cổ đông thường niên 2024 vào sáng nay."
+    },
+    {
+        "text": "Đại hội đồng cổ đông thường niên 2024",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu VietBank bật tăng mạnh khi ngân hàng này tổ chức Đại hội đồng cổ đông thường niên 2024 vào sáng nay."
+    },
+    {
+        "text": "sáng nay",
+        "label": "DATE",
+        "evidence": "Cổ phiếu VietBank bật tăng mạnh khi ngân hàng này tổ chức Đại hội đồng cổ đông thường niên 2024 vào sáng nay."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Tại đại hội, VietBank đã trình cổ đông thông qua kế hoạch chia cổ tức năm 2023 bằng cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "kế hoạch chia cổ tức năm 2023 bằng cổ phiếu với tỷ lệ 25%",
+        "label": "EVENT",
+        "evidence": "Tại đại hội, VietBank đã trình cổ đông thông qua kế hoạch chia cổ tức năm 2023 bằng cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tại đại hội, VietBank đã trình cổ đông thông qua kế hoạch chia cổ tức năm 2023 bằng cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Tại đại hội, VietBank đã trình cổ đông thông qua kế hoạch chia cổ tức năm 2023 bằng cổ phiếu với tỷ lệ 25%."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, VietBank cũng xin ý kiến cổ đông về một số vấn đề quan trọng khác như Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank, Báo cáo hoạt động của HĐQT, BKS, Ban Điều hành,…"
+    },
+    {
+        "text": "Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, VietBank cũng xin ý kiến cổ đông về một số vấn đề quan trọng khác như Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank, Báo cáo hoạt động của HĐQT, BKS, Ban Điều hành,…"
+    },
+    {
+        "text": "2021-2025",
+        "label": "DATE",
+        "evidence": "Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank"
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank"
+    },
+    {
+        "text": "Báo cáo hoạt động của HĐQT, BKS, Ban Điều hành",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, VietBank cũng xin ý kiến cổ đông về một số vấn đề quan trọng khác như Báo cáo xây dựng Phương án cơ cấu lại gắn với xử lý nợ xấu giai đoạn 2021-2025 của VietBank, Báo cáo hoạt động của HĐQT, BKS, Ban Điều hành,…"
+    },
+    {
+        "text": "Cổ phiếu HDB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "4,9%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "tổ chức ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "sáng nay 26/4",
+        "label": "DATE",
+        "evidence": "Cổ phiếu HDB của HDBank cũng bật tăng mạnh 4,9% khi ngân hàng này tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Tại đại hội, cổ đông HDBank đã thông qua kế hoạch chi trả cổ tức 30%, trong đó 10% bằng tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "kế hoạch chi trả cổ tức 30%",
+        "label": "EVENT",
+        "evidence": "Tại đại hội, cổ đông HDBank đã thông qua kế hoạch chi trả cổ tức 30%, trong đó 10% bằng tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông HDBank đã thông qua kế hoạch chi trả cổ tức 30%, trong đó 10% bằng tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "10% bằng tiền mặt",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông HDBank đã thông qua kế hoạch chi trả cổ tức 30%, trong đó 10% bằng tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "20% bằng cổ phiếu",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông HDBank đã thông qua kế hoạch chi trả cổ tức 30%, trong đó 10% bằng tiền mặt và 20% bằng cổ phiếu."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Với mức chi trả trên, HDBank là ngân hàng hiếm hoi duy trì được mức cổ tức cao liên tục nhiều năm liền."
+    },
+    {
+        "text": "quý đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Bên cạnh đó, ban lãnh đạo ngân hàng cũng tiết lộ kết quả kinh doanh quý đầu năm 2024 với lợi nhuận đạt hơn 4.000 tỷ, tăng mạnh so với cùng kỳ năm trước và đảm bảo đúng tiến độ đề ra và tạo niềm tin cho cổ đông."
+    },
+    {
+        "text": "hơn 4.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, ban lãnh đạo ngân hàng cũng tiết lộ kết quả kinh doanh quý đầu năm 2024 với lợi nhuận đạt hơn 4.000 tỷ, tăng mạnh so với cùng kỳ năm trước và đảm bảo đúng tiến độ đề ra và tạo niềm tin cho cổ đông."
+    },
+    {
+        "text": "ông Petri Deryng",
+        "label": "PERSON",
+        "evidence": "Phát biểu tại đại hội, ông Petri Deryng Giám đốc Quỹ đầu tư PYN Elite cho biết, quỹ của ông đầu tư vào nhiều HDBank, nhưng cổ phiếu ngân hàng đang chưa được định giá đúng với giá trị của nó, hiện vẫn ở mức thấp."
+    },
+    {
+        "text": "Giám đốc Quỹ đầu tư PYN Elite",
+        "label": "PERSON",
+        "evidence": "Phát biểu tại đại hội, ông Petri Deryng Giám đốc Quỹ đầu tư PYN Elite cho biết, quỹ của ông đầu tư vào nhiều HDBank, nhưng cổ phiếu ngân hàng đang chưa được định giá đúng với giá trị của nó, hiện vẫn ở mức thấp."
+    },
+    {
+        "text": "Quỹ đầu tư PYN Elite",
+        "label": "ORG",
+        "evidence": "Phát biểu tại đại hội, ông Petri Deryng Giám đốc Quỹ đầu tư PYN Elite cho biết, quỹ của ông đầu tư vào nhiều HDBank, nhưng cổ phiếu ngân hàng đang chưa được định giá đúng với giá trị của nó, hiện vẫn ở mức thấp."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Phát biểu tại đại hội, ông Petri Deryng Giám đốc Quỹ đầu tư PYN Elite cho biết, quỹ của ông đầu tư vào nhiều HDBank, nhưng cổ phiếu ngân hàng đang chưa được định giá đúng với giá trị của nó, hiện vẫn ở mức thấp."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Ông nói thêm rằng, giá trị thị trường chưa phản ánh đúng giá trị cổ phiếu như HDB, như những gì mà HDBank đang mang lại."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Ông nói thêm rằng, giá trị thị trường chưa phản ánh đúng giá trị cổ phiếu như HDB, như những gì mà HDBank đang mang lại."
+    },
+    {
+        "text": "Giám đốc Quỹ đầu tư PYN Elite",
+        "label": "PERSON",
+        "evidence": "Giám đốc Quỹ đầu tư PYN Elite nhận đinh cổ phiếu HDB còn rất nhiều tiềm năng tăng hơn nữa."
+    },
+    {
+        "text": "Quỹ đầu tư PYN Elite",
+        "label": "ORG",
+        "evidence": "Giám đốc Quỹ đầu tư PYN Elite nhận đinh cổ phiếu HDB còn rất nhiều tiềm năng tăng hơn nữa."
+    },
+    {
+        "text": "cổ phiếu HDB",
+        "label": "ASSET",
+        "evidence": "Giám đốc Quỹ đầu tư PYN Elite nhận đinh cổ phiếu HDB còn rất nhiều tiềm năng tăng hơn nữa."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "Giám đốc Quỹ đầu tư PYN Elite nhận đinh cổ phiếu HDB còn rất nhiều tiềm năng tăng hơn nữa."
+    },
+    {
+        "text": "Cổ phiếu VAB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "VAB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "KLB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "3,5%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "2,8%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "đại hội cổ đông",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu VAB của VietABank và KLB của Kienlongbank cũng bật tăng lần lượt 3,5% và 2,8% trong ngày tổ chức đại hội cổ đông."
+    },
+    {
+        "text": "cổ phiếu SGB",
+        "label": "ASSET",
+        "evidence": "Ngoài những mã kể trên, cổ phiếu SGB của Saigonbank cũng ghi nhận diễn biến tích cực khi xanh gần 5,3% lên 14.000 đồng/cp."
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "Ngoài những mã kể trên, cổ phiếu SGB của Saigonbank cũng ghi nhận diễn biến tích cực khi xanh gần 5,3% lên 14.000 đồng/cp."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Ngoài những mã kể trên, cổ phiếu SGB của Saigonbank cũng ghi nhận diễn biến tích cực khi xanh gần 5,3% lên 14.000 đồng/cp."
+    },
+    {
+        "text": "gần 5,3%",
+        "label": "RATE",
+        "evidence": "Ngoài những mã kể trên, cổ phiếu SGB của Saigonbank cũng ghi nhận diễn biến tích cực khi xanh gần 5,3% lên 14.000 đồng/cp."
+    },
+    {
+        "text": "14.000 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Ngoài những mã kể trên, cổ phiếu SGB của Saigonbank cũng ghi nhận diễn biến tích cực khi xanh gần 5,3% lên 14.000 đồng/cp."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Trước đó, Saigonbank đã tổ chức họp ĐHĐCĐ thường niên năm 2024 vào sáng qua 25/4."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Trước đó, Saigonbank đã tổ chức họp ĐHĐCĐ thường niên năm 2024 vào sáng qua 25/4."
+    },
+    {
+        "text": "sáng qua 25/4",
+        "label": "DATE",
+        "evidence": "Trước đó, Saigonbank đã tổ chức họp ĐHĐCĐ thường niên năm 2024 vào sáng qua 25/4."
+    },
+    {
+        "text": "ông Vũ Quang Lãm",
+        "label": "PERSON",
+        "evidence": "Tại đại hội, ông Vũ Quang Lãm, Chủ tịch HĐQT Saigonbank cho biết, ngân hàng sẽ trình cổ đông bất thường gần nhất quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%."
+    },
+    {
+        "text": "Chủ tịch HĐQT Saigonbank",
+        "label": "PERSON",
+        "evidence": "Tại đại hội, ông Vũ Quang Lãm, Chủ tịch HĐQT Saigonbank cho biết, ngân hàng sẽ trình cổ đông bất thường gần nhất quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Tại đại hội, ông Vũ Quang Lãm, Chủ tịch HĐQT Saigonbank cho biết, ngân hàng sẽ trình cổ đông bất thường gần nhất quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%."
+    },
+    {
+        "text": "quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%",
+        "label": "EVENT",
+        "evidence": "Tại đại hội, ông Vũ Quang Lãm, Chủ tịch HĐQT Saigonbank cho biết, ngân hàng sẽ trình cổ đông bất thường gần nhất quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "quyết định mức chia cổ tức bằng cổ phiếu, nếu không có gì thay đổi thì dự kiến mức chia là 8%"
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Mới đây, Saigonbank đã hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10% là ngày 25/4/2024."
+    },
+    {
+        "text": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Mới đây, Saigonbank đã hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10% là ngày 25/4/2024."
+    },
+    {
+        "text": "hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "Mới đây, Saigonbank đã hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10% là ngày 25/4/2024."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10%"
+    },
+    {
+        "text": "ngày 25/4/2024",
+        "label": "DATE",
+        "evidence": "Mới đây, Saigonbank đã hoàn tất thủ tục đăng ký với Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ngày đăng ký cuối cùng để thực hiện trả cổ tức bằng cổ phiếu với tỷ lệ 10% là ngày 25/4/2024."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "SHB phiên hôm nay cũng bật tăng ấn tượng, sau khi tổ chức họp ĐHĐCĐ thường niên vào hôm qua 25/4."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB phiên hôm nay cũng bật tăng ấn tượng, sau khi tổ chức họp ĐHĐCĐ thường niên vào hôm qua 25/4."
+    },
+    {
+        "text": "tổ chức họp ĐHĐCĐ thường niên",
+        "label": "EVENT",
+        "evidence": "SHB phiên hôm nay cũng bật tăng ấn tượng, sau khi tổ chức họp ĐHĐCĐ thường niên vào hôm qua 25/4."
+    },
+    {
+        "text": "hôm qua 25/4",
+        "label": "DATE",
+        "evidence": "SHB phiên hôm nay cũng bật tăng ấn tượng, sau khi tổ chức họp ĐHĐCĐ thường niên vào hôm qua 25/4."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "phương án trả cổ tức 2023 với tỷ lệ 16%",
+        "label": "EVENT",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "16%",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "5% bằng tiền mặt",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "11% bằng cổ phiếu",
+        "label": "RATE",
+        "evidence": "Tại đại hội, cổ đông SHB đã thông qua phương án trả cổ tức 2023 với tỷ lệ 16%, trong đó 5% bằng tiền mặt và 11% bằng cổ phiếu."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đây là lần đầu tiên sau hơn 10 năm SHB mới trả cổ tức tiền mặt cho cổ đông."
+    },
+    {
+        "text": "Tổng Giám đốc SHB Ngô Thu Hà",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "quý I năm 2024",
+        "label": "DATE",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "hơn 4.017 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "35%",
+        "label": "RATE",
+        "evidence": "Chia sẻ tại đại hội, Tổng Giám đốc SHB Ngô Thu Hà thông báo lợi nhuận trước thuế quý I năm 2024 đạt hơn 4.017 tỷ đồng, thực hiện 35% kế hoạch năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đây là mức lợi nhuận quý I cao nhất lịch sử hoạt động của SHB."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, ngân hàng này đặt mục tiêu lợi nhuận đạt 11.286 tỷ đồng, cao hơn 22% so với năm trước."
+    },
+    {
+        "text": "11.286 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, ngân hàng này đặt mục tiêu lợi nhuận đạt 11.286 tỷ đồng, cao hơn 22% so với năm trước."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Năm 2024, ngân hàng này đặt mục tiêu lợi nhuận đạt 11.286 tỷ đồng, cao hơn 22% so với năm trước."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "STB",
+        "label": "ORG",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "gần 0,9%",
+        "label": "RATE",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "tổ chức thành công ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "sáng nay 26/4",
+        "label": "DATE",
+        "evidence": "Ngược lại, STB giảm mạnh nhất ngành ngân hàng khi mất gần 0,9% giá trị trong bối cảnh ngân hàng này đã tổ chức thành công ĐHĐCĐ thường niên năm 2024 vào sáng nay 26/4."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "BID",
+        "label": "ORG",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "CTG",
+        "label": "ORG",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "0,8%",
+        "label": "RATE",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "0,6%",
+        "label": "RATE",
+        "evidence": "BID và CTG cũng giảm lần lượt 0,8% và 0,6%."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cả BIDV và VietinBank đều dự kiến tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng mai 27/4."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Cả BIDV và VietinBank đều dự kiến tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng mai 27/4."
+    },
+    {
+        "text": "dự kiến tổ chức ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Cả BIDV và VietinBank đều dự kiến tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng mai 27/4."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Cả BIDV và VietinBank đều dự kiến tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng mai 27/4."
+    },
+    {
+        "text": "sáng mai 27/4",
+        "label": "DATE",
+        "evidence": "Cả BIDV và VietinBank đều dự kiến tổ chức ĐHĐCĐ thường niên năm 2024 vào sáng mai 27/4."
+    }
+]

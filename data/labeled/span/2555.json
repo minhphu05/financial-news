@@ -1,0 +1,367 @@
+[
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "Theo thông tin được công bố chính thức tại sự kiện Apple 2023 diễn ra vào rạng sáng ngày 13/9"
+    },
+    {
+        "text": "sự kiện Apple 2023",
+        "label": "EVENT",
+        "evidence": "Theo thông tin được công bố chính thức tại sự kiện Apple 2023 diễn ra vào rạng sáng ngày 13/9"
+    },
+    {
+        "text": "ngày 13/9",
+        "label": "DATE",
+        "evidence": "diễn ra vào rạng sáng ngày 13/9"
+    },
+    {
+        "text": "iPhone 15",
+        "label": "ASSET",
+        "evidence": "dự đoán iPhone 15 sẽ chính thức bán ra tại Việt Nam vào khoảng thời gian cuối tháng 9"
+    },
+    {
+        "text": "iPhone 15 sẽ chính thức bán ra tại Việt Nam",
+        "label": "EVENT",
+        "evidence": "dự đoán iPhone 15 sẽ chính thức bán ra tại Việt Nam vào khoảng thời gian cuối tháng 9 với giá bán dự kiến chỉ từ 22,99 triệu đồng."
+    },
+    {
+        "text": "cuối tháng 9",
+        "label": "DATE",
+        "evidence": "vào khoảng thời gian cuối tháng 9"
+    },
+    {
+        "text": "22,99 triệu đồng",
+        "label": "MONEY",
+        "evidence": "với giá bán dự kiến chỉ từ 22,99 triệu đồng."
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "mùa ra mắt series mới của iPhone luôn là mùa mong đợi của các đại lý"
+    },
+    {
+        "text": "mùa ra mắt series mới của iPhone",
+        "label": "EVENT",
+        "evidence": "mùa ra mắt series mới của iPhone luôn là mùa mong đợi của các đại lý"
+    },
+    {
+        "text": "15-30%",
+        "label": "RATE",
+        "evidence": "doanh số đóng góp các năm lên đến 15-30% tổng doanh thu FRT Retail, Thế giới Di động."
+    },
+    {
+        "text": "FRT Retail",
+        "label": "ORG",
+        "evidence": "tổng doanh thu FRT Retail, Thế giới Di động."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "tổng doanh thu FRT Retail, Thế giới Di động."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "là đại lý ủy quyền cao cấp của Apple"
+    },
+    {
+        "text": "mùa iPhone mới",
+        "label": "EVENT",
+        "evidence": "doanh thu từ mùa iPhone mới hàng năm đóng góp đến 1/3 tổng doanh thu của FPT Retail (FRT)."
+    },
+    {
+        "text": "1/3",
+        "label": "RATE",
+        "evidence": "đóng góp đến 1/3 tổng doanh thu của FPT Retail (FRT)."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "tổng doanh thu của FPT Retail (FRT)."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "tổng doanh thu của FPT Retail (FRT)."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "năm 2021 tỷ lệ đóng góp khoảng 31% doanh thu Tập đoàn."
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "khoảng 31% doanh thu Tập đoàn."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Sang năm 2022 với sức nóng ngày càng tăng"
+    },
+    {
+        "text": "đợt chào bán iPhone 14 series",
+        "label": "EVENT",
+        "evidence": "doanh thu thu được từ đợt chào bán iPhone 14 series tiếp tục tăng vọt."
+    },
+    {
+        "text": "iPhone 14 series",
+        "label": "ASSET",
+        "evidence": "đợt chào bán iPhone 14 series tiếp tục tăng vọt."
+    },
+    {
+        "text": "Năm nay",
+        "label": "DATE",
+        "evidence": "Năm nay, đại diện hệ thống cũng kỳ vọng doanh số iPhone mới sẽ tăng trưởng 20% so với dòng sản phẩm iPhone 14 Series tiền nhiệm."
+    },
+    {
+        "text": "iPhone mới",
+        "label": "ASSET",
+        "evidence": "doanh số iPhone mới sẽ tăng trưởng 20% so với dòng sản phẩm iPhone 14 Series tiền nhiệm."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 20% so với dòng sản phẩm iPhone 14 Series tiền nhiệm."
+    },
+    {
+        "text": "iPhone 14 Series",
+        "label": "ASSET",
+        "evidence": "so với dòng sản phẩm iPhone 14 Series tiền nhiệm."
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "Ở Thế giới Di động, con số đóng góp từ iPhone 13 series cho năm 2021 là khoảng 10%"
+    },
+    {
+        "text": "iPhone 13 series",
+        "label": "ASSET",
+        "evidence": "con số đóng góp từ iPhone 13 series cho năm 2021"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "cho năm 2021 là khoảng 10%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "là khoảng 10%"
+    },
+    {
+        "text": "FPT shop",
+        "label": "ORG",
+        "evidence": "tính riêng cho chuỗi FPT shop là 37%"
+    },
+    {
+        "text": "37%",
+        "label": "RATE",
+        "evidence": "là 37%"
+    },
+    {
+        "text": "Thế giới Di động và Điện máy Xanh",
+        "label": "ORG",
+        "evidence": "và chuỗi Thế giới Di động và Điện máy Xanh là 11%."
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "và Điện máy Xanh là 11%."
+    },
+    {
+        "text": "Đoàn Văn Hiểu Em",
+        "label": "PERSON",
+        "evidence": "CEO Đoàn Văn Hiểu Em từng chia sẻ"
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "doanh thu sản phẩm Apple tại Thế Giới Di Động liên tục tăng mạnh"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "sản phẩm Apple tại Thế Giới Di Động liên tục tăng mạnh"
+    },
+    {
+        "text": "Năm 2020",
+        "label": "DATE",
+        "evidence": "Năm 2020 đạt khoảng 350 triệu USD"
+    },
+    {
+        "text": "350 triệu USD",
+        "label": "MONEY",
+        "evidence": "đạt khoảng 350 triệu USD"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "năm 2021 đạt 450 triệu USD."
+    },
+    {
+        "text": "450 triệu USD",
+        "label": "MONEY",
+        "evidence": "đạt 450 triệu USD."
+    },
+    {
+        "text": "Năm 2022",
+        "label": "DATE",
+        "evidence": "Năm 2022, MWG đã mở riêng cửa hàng TopZone"
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Năm 2022, MWG đã mở riêng cửa hàng TopZone"
+    },
+    {
+        "text": "mở riêng cửa hàng TopZone",
+        "label": "EVENT",
+        "evidence": "MWG đã mở riêng cửa hàng TopZone"
+    },
+    {
+        "text": "TopZone",
+        "label": "ORG",
+        "evidence": "mở riêng cửa hàng TopZone"
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "tiến sâu hơn vào thị trường Apple màu mỡ này."
+    },
+    {
+        "text": "750 triệu USD",
+        "label": "MONEY",
+        "evidence": "ước tăng mạnh lên khoảng 750 triệu USD"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "chiếm khoảng 40% thị phần của Apple tại Việt Nam."
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "thị phần của Apple tại Việt Nam."
+    },
+    {
+        "text": "iPhone 15 series",
+        "label": "ASSET",
+        "evidence": "iPhone 15 series ra mắt kỳ vọng là “cứu cánh” doanh số"
+    },
+    {
+        "text": "iPhone 15 series ra mắt",
+        "label": "EVENT",
+        "evidence": "iPhone 15 series ra mắt kỳ vọng là “cứu cánh” doanh số cho các đại lý"
+    },
+    {
+        "text": "tháng 4/2023",
+        "label": "DATE",
+        "evidence": "cuộc chiến giá rẻ kéo dài từ tháng 4/2023 đến nay."
+    },
+    {
+        "text": "mùa Apple 2023",
+        "label": "EVENT",
+        "evidence": "Nhận định về mùa Apple 2023"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "dấu hiệu tích cực trong quý 3"
+    },
+    {
+        "text": "2 quý đầu năm",
+        "label": "DATE",
+        "evidence": "so với 2 quý đầu năm."
+    },
+    {
+        "text": "MacBook",
+        "label": "ASSET",
+        "evidence": "sản phẩm máy tính (bao gồm MacBook) tăng cao"
+    },
+    {
+        "text": "iPhone 14 Series",
+        "label": "ASSET",
+        "evidence": "iPhone 14 Series cũng có sức bán rất tốt"
+    },
+    {
+        "text": "ra mắt sản phẩm mới",
+        "label": "EVENT",
+        "evidence": "giai đoạn chờ ra mắt sản phẩm mới."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "các đại lý như FPT Shop, Thế giới Di động"
+    },
+    {
+        "text": "Thế giới Di động",
+        "label": "ORG",
+        "evidence": "các đại lý như FPT Shop, Thế giới Di động"
+    },
+    {
+        "text": "iPhone mới ra mắt",
+        "label": "EVENT",
+        "evidence": "vào việc iPhone mới ra mắt chắc chắn vẫn có sức tiêu thụ tốt trên toàn thị trường."
+    },
+    {
+        "text": "iPhone mới",
+        "label": "ASSET",
+        "evidence": "dự đoán iPhone mới sẽ tiếp tục tạo nên ‘làn sóng mới’ cho thị trường công nghệ Việt."
+    },
+    {
+        "text": "Mùa iPhone mới",
+        "label": "EVENT",
+        "evidence": "“Mùa iPhone mới năm nay, chúng tôi dự đoán dòng Pro Max vẫn được ưa chuộng nhất ở Việt Nam"
+    },
+    {
+        "text": "Pro Max",
+        "label": "ASSET",
+        "evidence": "dự đoán dòng Pro Max vẫn được ưa chuộng nhất ở Việt Nam"
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "nhóm sản phẩm cao cấp nhất từ Apple"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "trung bình có đến 80% khách hàng chọn Pro Max"
+    },
+    {
+        "text": "Apple",
+        "label": "ORG",
+        "evidence": "sản phẩm mới nhất từ Apple”"
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "đại diện FPT Shop cho hay."
+    },
+    {
+        "text": "mở bán iPhone mới",
+        "label": "EVENT",
+        "evidence": "sau nhiều năm mở bán iPhone mới"
+    },
+    {
+        "text": "iPhone 14 Series",
+        "label": "ASSET",
+        "evidence": "dòng iPhone 14 Series sẽ ít bị ảnh hưởng từ việc ra mắt sản phẩm mới vì:"
+    },
+    {
+        "text": "ra mắt sản phẩm mới",
+        "label": "EVENT",
+        "evidence": "ít bị ảnh hưởng từ việc ra mắt sản phẩm mới vì:"
+    },
+    {
+        "text": "7 - 9 triệu",
+        "label": "MONEY",
+        "evidence": "có khoảng cách khá lớn từ khoảng 7 - 9 triệu"
+    },
+    {
+        "text": "iPhone 14 Series",
+        "label": "ASSET",
+        "evidence": "sản phẩm iPhone 14 Series vẫn vượt trội so với sự kỳ vọng về sản phẩm của khách hàng"
+    }
+]

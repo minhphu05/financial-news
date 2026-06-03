@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "khách hàng Vietcombank có thể thực hiện khóa thẻ thông qua 5 cách sau:"
+    },
+    {
+        "text": "thực hiện khóa thẻ",
+        "label": "EVENT",
+        "evidence": "khách hàng Vietcombank có thể thực hiện khóa thẻ thông qua 5 cách sau:"
+    },
+    {
+        "text": "Khóa thẻ trên ngân hàng số VCB Digibank",
+        "label": "EVENT",
+        "evidence": "Cách 1: Khóa thẻ trên ngân hàng số VCB Digibank"
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Cách 1: Khóa thẻ trên ngân hàng số VCB Digibank"
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Khóa thẻ."
+    },
+    {
+        "text": "Khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Khóa thẻ."
+    },
+    {
+        "text": "thực hiện khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Cú pháp tin nhắn để thực hiện khóa thẻ."
+    },
+    {
+        "text": "VCB",
+        "label": "ORG",
+        "evidence": "Trường hợp không nhớ cú pháp cụ thể, khách hàng soạn tin nhắn theo cú pháp VCB HELP và gửi đến tổng đài 6167 để được hướng dẫn."
+    },
+    {
+        "text": "khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Khách hàng khóa thẻ bằng cách gọi điện đến số 1900545413 >> Nhấn phím 1 >> 1 >> 1 và làm theo hướng dẫn."
+    },
+    {
+        "text": "yêu cầu khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Khách hàng kết nối với nhân viên hỗ trợ qua tổng đài 1900545413 và yêu cầu khóa thẻ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại điểm giao dịch của Vietcombank trên toàn quốc"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Khách hàng trực tiếp ra các điểm giao dịch của Vietcombank để yêu cầu khóa thẻ."
+    },
+    {
+        "text": "yêu cầu khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Khách hàng trực tiếp ra các điểm giao dịch của Vietcombank để yêu cầu khóa thẻ."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank khuyến khích khách hàng khóa thẻ qua Ngân hàng số VCB Digibank hoặc tin nhắn SMS để đảm bảo thẻ được khóa nhanh nhất."
+    },
+    {
+        "text": "khóa thẻ qua Ngân hàng số VCB Digibank hoặc tin nhắn SMS",
+        "label": "EVENT",
+        "evidence": "Vietcombank khuyến khích khách hàng khóa thẻ qua Ngân hàng số VCB Digibank hoặc tin nhắn SMS để đảm bảo thẻ được khóa nhanh nhất."
+    },
+    {
+        "text": "Ngân hàng số VCB Digibank",
+        "label": "ORG",
+        "evidence": "Vietcombank khuyến khích khách hàng khóa thẻ qua Ngân hàng số VCB Digibank hoặc tin nhắn SMS để đảm bảo thẻ được khóa nhanh nhất."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Vietcombank khuyến khích khách hàng khóa thẻ qua Ngân hàng số VCB Digibank hoặc tin nhắn SMS để đảm bảo thẻ được khóa nhanh nhất."
+    },
+    {
+        "text": "mở lại thẻ để sử dụng ngay trên VCB Digibank",
+        "label": "EVENT",
+        "evidence": "Sau khi xác định thẻ của mình đã an toàn, Quý khách có thể mở lại thẻ để sử dụng ngay trên VCB Digibank (bằng cách: Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Mở khóa thẻ) hoặc đến trực tiếp các điểm giao dịch của Vietcombank trên toàn quốc."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Sau khi xác định thẻ của mình đã an toàn, Quý khách có thể mở lại thẻ để sử dụng ngay trên VCB Digibank (bằng cách: Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Mở khóa thẻ) hoặc đến trực tiếp các điểm giao dịch của Vietcombank trên toàn quốc."
+    },
+    {
+        "text": "Mở khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Sau khi xác định thẻ của mình đã an toàn, Quý khách có thể mở lại thẻ để sử dụng ngay trên VCB Digibank (bằng cách: Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Mở khóa thẻ) hoặc đến trực tiếp các điểm giao dịch của Vietcombank trên toàn quốc."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau khi xác định thẻ của mình đã an toàn, Quý khách có thể mở lại thẻ để sử dụng ngay trên VCB Digibank (bằng cách: Đăng nhập vào VCB Digibank >> Quản lý dịch vụ thẻ >> Mở khóa thẻ) hoặc đến trực tiếp các điểm giao dịch của Vietcombank trên toàn quốc."
+    }
+]

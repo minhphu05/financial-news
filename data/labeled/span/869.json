@@ -1,0 +1,447 @@
+[
+    {
+        "text": "lãi suất tiết kiệm tại quầy",
+        "label": "ASSET",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy của 4 ngân hàng Big 4 không có sự điều chỉnh kể từ tháng 4 trở lại đây."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy của 4 ngân hàng Big 4 không có sự điều chỉnh kể từ tháng 4 trở lại đây."
+    },
+    {
+        "text": "Biểu lãi suất tiết kiệm tại quầy của 4 ngân hàng Big 4 không có sự điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy của 4 ngân hàng Big 4 không có sự điều chỉnh kể từ tháng 4 trở lại đây."
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiết kiệm tại quầy của 4 ngân hàng Big 4 không có sự điều chỉnh kể từ tháng 4 trở lại đây."
+    },
+    {
+        "text": "kỳ hạn 3 tháng",
+        "label": "DATE",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "2%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Agribank niêm yết ở mức 2%/năm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "2%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "Vietcombank giữ lãi suất 1,9%/năm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "1,9%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 3 tháng, lãi suất tiết kiệm của BIDV, VietinBank vẫn ở mức 2%/năm, Agribank niêm yết ở mức 2%/năm và Vietcombank giữ lãi suất 1,9%/năm."
+    },
+    {
+        "text": "kỳ hạn 6-9 tháng",
+        "label": "DATE",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 6-9 tháng, lãi suất tiết kiệm của BIDV, VietinBank, Agribank là 3%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank trả lãi ở mức 2,9%/năm."
+    },
+    {
+        "text": "Vietcombank trả lãi ở mức 2,9%/năm",
+        "label": "EVENT",
+        "evidence": "Vietcombank trả lãi ở mức 2,9%/năm."
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Vietcombank trả lãi ở mức 2,9%/năm."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank áp dụng mức lãi suất chỉ 4,6%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank áp dụng mức lãi suất chỉ 4,6%/năm."
+    },
+    {
+        "text": "Vietcombank áp dụng mức lãi suất chỉ 4,6%/năm",
+        "label": "EVENT",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank áp dụng mức lãi suất chỉ 4,6%/năm."
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 12 tháng, Vietcombank áp dụng mức lãi suất chỉ 4,6%/năm."
+    },
+    {
+        "text": "Ba ngân hàng còn lại trả lãi 4,7%/năm",
+        "label": "EVENT",
+        "evidence": "Ba ngân hàng còn lại trả lãi 4,7%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Ba ngân hàng còn lại trả lãi 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 24 tháng",
+        "label": "DATE",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm",
+        "label": "EVENT",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 24 tháng, lãi suất tiết kiệm của Agribank và Vietcombank đều niêm yết ở mức 4,7%/năm, tiếp đến BIDV là 4,9%/năm và VietinBank là 5%/năm."
+    },
+    {
+        "text": "lãi suất gửi tiết kiệm online",
+        "label": "ASSET",
+        "evidence": "Trong khi đó, lãi suất gửi tiết kiệm online có sự điều chỉnh đáng kể giữa các ngân hàng."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online",
+        "label": "EVENT",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "lãi suất tiết kiệm online",
+        "label": "ASSET",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "lãi suất tiết kiệm tại quầy",
+        "label": "ASSET",
+        "evidence": "3 ngân hàng Agribank, BIDV và VietinBank đều tăng lãi suất tiết kiệm online so với biểu lãi suất tiết kiệm tại quầy."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Riêng ngân hàng Vietcombank niêm yết lãi suất tiết kiệm online tương tự như hình thức gửi tại quầy."
+    },
+    {
+        "text": "Vietcombank niêm yết lãi suất tiết kiệm online tương tự như hình thức gửi tại quầy",
+        "label": "EVENT",
+        "evidence": "Riêng ngân hàng Vietcombank niêm yết lãi suất tiết kiệm online tương tự như hình thức gửi tại quầy."
+    },
+    {
+        "text": "lãi suất tiết kiệm online",
+        "label": "ASSET",
+        "evidence": "Riêng ngân hàng Vietcombank niêm yết lãi suất tiết kiệm online tương tự như hình thức gửi tại quầy."
+    },
+    {
+        "text": "kỳ hạn 3 tháng",
+        "label": "DATE",
+        "evidence": "Ở kỳ hạn 3 tháng, Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 3 tháng, Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm."
+    },
+    {
+        "text": "Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 3 tháng, Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm online",
+        "label": "ASSET",
+        "evidence": "Ở kỳ hạn 3 tháng, Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm."
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 3 tháng, Agribank điều chỉnh lãi suất tiết kiệm online lên mức 2,7%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV, VietinBank áp dụng lãi suất 2,3%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "BIDV, VietinBank áp dụng lãi suất 2,3%/năm."
+    },
+    {
+        "text": "BIDV, VietinBank áp dụng lãi suất 2,3%/năm",
+        "label": "EVENT",
+        "evidence": "BIDV, VietinBank áp dụng lãi suất 2,3%/năm."
+    },
+    {
+        "text": "2,3%/năm",
+        "label": "RATE",
+        "evidence": "BIDV, VietinBank áp dụng lãi suất 2,3%/năm."
+    },
+    {
+        "text": "kỳ hạn 6-9 tháng",
+        "label": "DATE",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "Agribank giữ lãi suất ở mức 3,5%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "3,5%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "3,3%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 6-9 tháng, Agribank giữ lãi suất ở mức 3,5%/năm còn BIDV và VietinBank niêm yết lãi suất ở kỳ hạn là 3,3%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Biểu lãi suất tiết kiệm của nhóm ngân hàng Big 4."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiết kiệm của nhóm ngân hàng Big 4."
+    },
+    {
+        "text": "kỳ hạn 12 tháng",
+        "label": "DATE",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "ngân hàng Agribank trả lãi 4,8%/năm",
+        "label": "EVENT",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "4,8%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm",
+        "label": "EVENT",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Tại kỳ hạn 12 tháng, ngân hàng Agribank trả lãi 4,8%/năm cho kỳ hạn này trong khi BIDV và VietinBank chỉ niêm yết lãi suất ở mức 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 24 tháng",
+        "label": "DATE",
+        "evidence": "Ở kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ở kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm."
+    },
+    {
+        "text": "Agribank và BIDV trả lãi 4,9%/năm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm."
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 24 tháng, Agribank và BIDV trả lãi 4,9%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Còn VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm",
+        "label": "EVENT",
+        "evidence": "Còn VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Còn VietinBank vẫn là ngân hàng trả lãi suất cao nhất cho tiền gửi ở kỳ hạn này, lên đến 5%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm online",
+        "label": "ASSET",
+        "evidence": "Dù sau điều chỉnh, lãi suất tiết kiệm online của một số ngân hàng trong nhóm Big 4 đã tăng mạnh."
+    },
+    {
+        "text": "Big 4",
+        "label": "ORG",
+        "evidence": "Dù sau điều chỉnh, lãi suất tiết kiệm online của một số ngân hàng trong nhóm Big 4 đã tăng mạnh."
+    },
+    {
+        "text": "lãi suất tiết kiệm online của một số ngân hàng trong nhóm Big 4 đã tăng mạnh",
+        "label": "EVENT",
+        "evidence": "Dù sau điều chỉnh, lãi suất tiết kiệm online của một số ngân hàng trong nhóm Big 4 đã tăng mạnh."
+    },
+    {
+        "text": "lãi suất tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, đây vẫn là nhóm ngân hàng trả lãi suất tiết kiệm ở mức thấp trên thị trường."
+    }
+]

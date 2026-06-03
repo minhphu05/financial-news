@@ -1,0 +1,717 @@
+[
+    {
+        "text": "chuỗi 10 phiên tăng liên tiếp",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán Việt Nam vừa có chuỗi 10 phiên tăng liên tiếp - chuỗi ngày tăng giá dài nhất kể từ năm 2021."
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán Việt Nam vừa có chuỗi 10 phiên tăng liên tiếp - chuỗi ngày tăng giá dài nhất kể từ năm 2021."
+    },
+    {
+        "text": "4/4",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch ngày 4/4, VN-Index điều chỉnh giảm nhẹ 0,83 điểm, đóng cửa tại 1.078,85 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Phiên giao dịch ngày 4/4, VN-Index điều chỉnh giảm nhẹ 0,83 điểm, đóng cửa tại 1.078,85 điểm."
+    },
+    {
+        "text": "0,83 điểm",
+        "label": "RATE",
+        "evidence": "Phiên giao dịch ngày 4/4, VN-Index điều chỉnh giảm nhẹ 0,83 điểm, đóng cửa tại 1.078,85 điểm."
+    },
+    {
+        "text": "1.078,85 điểm",
+        "label": "PRICE",
+        "evidence": "Phiên giao dịch ngày 4/4, VN-Index điều chỉnh giảm nhẹ 0,83 điểm, đóng cửa tại 1.078,85 điểm."
+    },
+    {
+        "text": "giá trị giao dịch đạt 13,6 nghìn tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Dù giảm nhẹ nhưng phiên này ghi nhận thanh khoản tích cực với giá trị giao dịch đạt 13,6 nghìn tỷ đồng, cao gấp rưỡi khối lượng bình quân của các phiên trong quý 1."
+    },
+    {
+        "text": "13,6 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dù giảm nhẹ nhưng phiên này ghi nhận thanh khoản tích cực với giá trị giao dịch đạt 13,6 nghìn tỷ đồng, cao gấp rưỡi khối lượng bình quân của các phiên trong quý 1."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Dù giảm nhẹ nhưng phiên này ghi nhận thanh khoản tích cực với giá trị giao dịch đạt 13,6 nghìn tỷ đồng, cao gấp rưỡi khối lượng bình quân của các phiên trong quý 1."
+    },
+    {
+        "text": "thanh khoản thị trường cũng cải thiện rõ rệt so với giai đoạn trước",
+        "label": "EVENT",
+        "evidence": "Các phiên gần đây, thanh khoản thị trường cũng cải thiện rõ rệt so với giai đoạn trước."
+    },
+    {
+        "text": "4/4",
+        "label": "DATE",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "nhóm cổ phiếu ngân hàng diễn biến tích cực",
+        "label": "EVENT",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "13 mã tăng",
+        "label": "EVENT",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "4 mã giữ tham chiếu",
+        "label": "EVENT",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "10 mã giảm",
+        "label": "EVENT",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "HSX",
+        "label": "ORG",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "2,7%",
+        "label": "RATE",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "khối lượng giao dịch đột biến trên 40 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "trên 40 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Riêng phiên 4/4, nhóm cổ phiếu ngân hàng diễn biến tích cực với 13 mã tăng, 4 mã giữ tham chiếu và 10 mã giảm, trong đó SHB dẫn đầu trên sàn HSX khi tăng mạnh 2,7% cùng khối lượng giao dịch đột biến trên 40 triệu đơn vị."
+    },
+    {
+        "text": "chuỗi ngày tăng giá tích cực",
+        "label": "EVENT",
+        "evidence": "Với chuỗi ngày tăng giá tích cực, thị trường chứng khoán đang được một số công ty chứng khoán nhận định là bước ngoặt chuyển đổi xu hướng hiện tại từ đi ngang thành tăng giá."
+    },
+    {
+        "text": "thị trường chứng khoán đang được một số công ty chứng khoán nhận định là bước ngoặt chuyển đổi xu hướng hiện tại từ đi ngang thành tăng giá",
+        "label": "EVENT",
+        "evidence": "Với chuỗi ngày tăng giá tích cực, thị trường chứng khoán đang được một số công ty chứng khoán nhận định là bước ngoặt chuyển đổi xu hướng hiện tại từ đi ngang thành tăng giá."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Trước đó trong các phiên cuối quý 1, ở nhóm ngân hàng, đa phần cổ phiếu ngành này diễn biến tương đối tích cực; đi cùng là hướng thu hút dòng tiền cả nhà đầu tư trong nước lẫn NĐTNN."
+    },
+    {
+        "text": "đa phần cổ phiếu ngành này diễn biến tương đối tích cực",
+        "label": "EVENT",
+        "evidence": "Trước đó trong các phiên cuối quý 1, ở nhóm ngân hàng, đa phần cổ phiếu ngành này diễn biến tương đối tích cực; đi cùng là hướng thu hút dòng tiền cả nhà đầu tư trong nước lẫn NĐTNN."
+    },
+    {
+        "text": "hướng thu hút dòng tiền cả nhà đầu tư trong nước lẫn NĐTNN",
+        "label": "EVENT",
+        "evidence": "Trước đó trong các phiên cuối quý 1, ở nhóm ngân hàng, đa phần cổ phiếu ngành này diễn biến tương đối tích cực; đi cùng là hướng thu hút dòng tiền cả nhà đầu tư trong nước lẫn NĐTNN."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "tháng 3/2023",
+        "label": "DATE",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "NĐTNN đã mua ròng trên 27 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "27 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "6,7%",
+        "label": "RATE",
+        "evidence": "Như tại cổ phiếu SHB, tính chung cả tháng 3/2023, NĐTNN đã mua ròng trên 27 triệu cổ phiếu, nâng số lượng nắm giữ số cổ phiếu SHB của khối ngoại tại đây lên 6,7%."
+    },
+    {
+        "text": "1/4/2023",
+        "label": "DATE",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "Công ty Chứng khoán Mirae Asset",
+        "label": "ORG",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "Mirae Asset",
+        "label": "ORG",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "VN-index",
+        "label": "ASSET",
+        "evidence": "Theo báo cáo ngày 1/4/2023, Công ty Chứng khoán Mirae Asset đánh giá SHB thuộc Top 14 cổ phiếu có sức mạnh ngành; theo đó, nhóm cổ phiếu nằm trong Top này kỳ vọng sẽ diễn biến tích cực hơn chỉ số VN-index trong ít nhất 1-2 tuần tới."
+    },
+    {
+        "text": "Mirae Asset Research",
+        "label": "ORG",
+        "evidence": "Điểm sức mạnh giá được Mirae Asset Research tính toán dựa trên các tiêu chí: (1) Tăng trưởng giá cổ phiếu trong 1, 4 và 12 tuần; (2) Khối lượng giao dịch được cải thiện tích cực; (3) Điểm kỹ thuật ngắn hạn từ 4 điểm trở lên. Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "1, 4 và 12 tuần",
+        "label": "DATE",
+        "evidence": "Điểm sức mạnh giá được Mirae Asset Research tính toán dựa trên các tiêu chí: (1) Tăng trưởng giá cổ phiếu trong 1, 4 và 12 tuần; (2) Khối lượng giao dịch được cải thiện tích cực; (3) Điểm kỹ thuật ngắn hạn từ 4 điểm trở lên. Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "Mirae Asset Research",
+        "label": "ORG",
+        "evidence": "Điểm sức mạnh giá được Mirae Asset Research tính toán dựa trên các tiêu chí: (1) Tăng trưởng giá cổ phiếu trong 1, 4 và 12 tuần; (2) Khối lượng giao dịch được cải thiện tích cực; (3) Điểm kỹ thuật ngắn hạn từ 4 điểm trở lên. Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Điểm sức mạnh giá được Mirae Asset Research tính toán dựa trên các tiêu chí: (1) Tăng trưởng giá cổ phiếu trong 1, 4 và 12 tuần; (2) Khối lượng giao dịch được cải thiện tích cực; (3) Điểm kỹ thuật ngắn hạn từ 4 điểm trở lên. Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Điểm sức mạnh giá được Mirae Asset Research tính toán dựa trên các tiêu chí: (1) Tăng trưởng giá cổ phiếu trong 1, 4 và 12 tuần; (2) Khối lượng giao dịch được cải thiện tích cực; (3) Điểm kỹ thuật ngắn hạn từ 4 điểm trở lên. Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "khối lượng trung bình trong 20 phiên đạt 17,2 triệu",
+        "label": "VOLUME",
+        "evidence": "Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "17,2 triệu",
+        "label": "VOLUME",
+        "evidence": "Mirae Asset Research cũng đánh giá SHB thuộc Top những mã giao dịch cao nhất trong tháng, với khối lượng trung bình trong 20 phiên đạt 17,2 triệu."
+    },
+    {
+        "text": "Công ty Chứng khoán Yuanta",
+        "label": "ORG",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "Yuanta",
+        "label": "ORG",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "trung bình 30 ngày đạt gần 16 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "16 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Còn theo báo cáo của Công ty Chứng khoán Yuanta, SHB là một trong những cổ phiếu được có khối lượng giao dịch nhiều nhất, trung bình 30 ngày đạt gần 16 triệu cổ phiếu."
+    },
+    {
+        "text": "3-6/3/2023",
+        "label": "DATE",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "Fubon FTSE Vietnam ETF",
+        "label": "ORG",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "DB x-trackers FTSE Vietnam ETF",
+        "label": "ORG",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "FTSE Russell",
+        "label": "ORG",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "đưa vào rổ chỉ số FTSE Vietnam Index",
+        "label": "EVENT",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "FTSE Vietnam Index",
+        "label": "ASSET",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "22 triệu cổ phiếu mua ròng",
+        "label": "VOLUME",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "22 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trước đó, từ ngày 3-6/3/2023, SHB được một số quỹ ETF như: Fubon FTSE Vietnam ETF, DB x-trackers FTSE Vietnam ETF, FTSE Russell và một số quỹ khác lựa chọn đưa vào rổ chỉ số FTSE Vietnam Index với số lượng ít nhất 22 triệu cổ phiếu mua ròng."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Việc SHB được các quỹ đưa vào danh mục FTSE Vietnam Index là do đáp ứng đủ các tiêu chí về thanh khoản, quy mô vốn hóa thị trường, tỷ lệ Free-Float, tiềm năng tăng trưởng..."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Việc SHB được các quỹ đưa vào danh mục FTSE Vietnam Index là do đáp ứng đủ các tiêu chí về thanh khoản, quy mô vốn hóa thị trường, tỷ lệ Free-Float, tiềm năng tăng trưởng..."
+    },
+    {
+        "text": "đưa vào danh mục FTSE Vietnam Index",
+        "label": "EVENT",
+        "evidence": "Việc SHB được các quỹ đưa vào danh mục FTSE Vietnam Index là do đáp ứng đủ các tiêu chí về thanh khoản, quy mô vốn hóa thị trường, tỷ lệ Free-Float, tiềm năng tăng trưởng..."
+    },
+    {
+        "text": "FTSE Vietnam Index",
+        "label": "ASSET",
+        "evidence": "Việc SHB được các quỹ đưa vào danh mục FTSE Vietnam Index là do đáp ứng đủ các tiêu chí về thanh khoản, quy mô vốn hóa thị trường, tỷ lệ Free-Float, tiềm năng tăng trưởng..."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Cơ hội nào cho SHB?"
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Cơ hội nào cho SHB?"
+    },
+    {
+        "text": "chuyển động thu hút dòng tiền khối ngoại",
+        "label": "EVENT",
+        "evidence": "Sau những chuyển động thu hút dòng tiền khối ngoại, cũng như quy mô giao dịch có xu hướng gia tăng mạnh lên, liệu cổ phiếu SHB có mở ra kỳ vọng diễn biến tích cực hơn chỉ số VN-Index trong thời gian tới?"
+    },
+    {
+        "text": "quy mô giao dịch có xu hướng gia tăng mạnh lên",
+        "label": "EVENT",
+        "evidence": "Sau những chuyển động thu hút dòng tiền khối ngoại, cũng như quy mô giao dịch có xu hướng gia tăng mạnh lên, liệu cổ phiếu SHB có mở ra kỳ vọng diễn biến tích cực hơn chỉ số VN-Index trong thời gian tới?"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Sau những chuyển động thu hút dòng tiền khối ngoại, cũng như quy mô giao dịch có xu hướng gia tăng mạnh lên, liệu cổ phiếu SHB có mở ra kỳ vọng diễn biến tích cực hơn chỉ số VN-Index trong thời gian tới?"
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Sau những chuyển động thu hút dòng tiền khối ngoại, cũng như quy mô giao dịch có xu hướng gia tăng mạnh lên, liệu cổ phiếu SHB có mở ra kỳ vọng diễn biến tích cực hơn chỉ số VN-Index trong thời gian tới?"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Sau những chuyển động thu hút dòng tiền khối ngoại, cũng như quy mô giao dịch có xu hướng gia tăng mạnh lên, liệu cổ phiếu SHB có mở ra kỳ vọng diễn biến tích cực hơn chỉ số VN-Index trong thời gian tới?"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Về phương diện kỹ thuật, xét dài hạn trên đồ thị tuần(hình 1), cổ phiếu SHB đã kết thúc một chu kỳ lớn kéo dài 2,5 năm qua."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Về phương diện kỹ thuật, xét dài hạn trên đồ thị tuần(hình 1), cổ phiếu SHB đã kết thúc một chu kỳ lớn kéo dài 2,5 năm qua."
+    },
+    {
+        "text": "một chu kỳ lớn kéo dài 2,5 năm qua",
+        "label": "EVENT",
+        "evidence": "Về phương diện kỹ thuật, xét dài hạn trên đồ thị tuần(hình 1), cổ phiếu SHB đã kết thúc một chu kỳ lớn kéo dài 2,5 năm qua."
+    },
+    {
+        "text": "tháng 3/2020",
+        "label": "DATE",
+        "evidence": "Mặc dù về mặt kỹ thuật điểm khởi đầu của chu kỳ có thể tính từ tháng 3/2020 quanh mức giá 3.000 - 4.000 đồng, nhưng đại đa số cổ phiếu trên thị trường hiện đều tích luỹ cao hơn mức đáy tháng 3/2020 giống nhau."
+    },
+    {
+        "text": "3.000 - 4.000 đồng",
+        "label": "MONEY",
+        "evidence": "Mặc dù về mặt kỹ thuật điểm khởi đầu của chu kỳ có thể tính từ tháng 3/2020 quanh mức giá 3.000 - 4.000 đồng, nhưng đại đa số cổ phiếu trên thị trường hiện đều tích luỹ cao hơn mức đáy tháng 3/2020 giống nhau."
+    },
+    {
+        "text": "mức đáy tháng 3/2020",
+        "label": "PRICE",
+        "evidence": "Mặc dù về mặt kỹ thuật điểm khởi đầu của chu kỳ có thể tính từ tháng 3/2020 quanh mức giá 3.000 - 4.000 đồng, nhưng đại đa số cổ phiếu trên thị trường hiện đều tích luỹ cao hơn mức đáy tháng 3/2020 giống nhau."
+    },
+    {
+        "text": "tháng 3/2020",
+        "label": "DATE",
+        "evidence": "Mặc dù về mặt kỹ thuật điểm khởi đầu của chu kỳ có thể tính từ tháng 3/2020 quanh mức giá 3.000 - 4.000 đồng, nhưng đại đa số cổ phiếu trên thị trường hiện đều tích luỹ cao hơn mức đáy tháng 3/2020 giống nhau."
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "evidence": "Đáy 2020 mang tính đặc thù vào thời điểm đại dịch Covid-19."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "đáy tháng 11/2022",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "tháng 11/2022",
+        "label": "DATE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "đáy tháng 1/2021",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "tháng 1/2021",
+        "label": "DATE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "mức dao động tối đa tương đương đáy tháng 7/2020",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "tháng 7/2020",
+        "label": "DATE",
+        "evidence": "Cổ phiếu SHB đã tạo đáy tháng 11/2022 tương đương đáy tháng 1/2021 và mức dao động tối đa tương đương đáy tháng 7/2020."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Kịch bản xác suất cao hơn là SHB đã tạo đáy dài hạn xong trong tháng 11/2022 và đang trong giai đoạn tích lũy tạo nền đáy."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Kịch bản xác suất cao hơn là SHB đã tạo đáy dài hạn xong trong tháng 11/2022 và đang trong giai đoạn tích lũy tạo nền đáy."
+    },
+    {
+        "text": "SHB đã tạo đáy dài hạn xong trong tháng 11/2022",
+        "label": "EVENT",
+        "evidence": "Kịch bản xác suất cao hơn là SHB đã tạo đáy dài hạn xong trong tháng 11/2022 và đang trong giai đoạn tích lũy tạo nền đáy."
+    },
+    {
+        "text": "tháng 11/2022",
+        "label": "DATE",
+        "evidence": "Kịch bản xác suất cao hơn là SHB đã tạo đáy dài hạn xong trong tháng 11/2022 và đang trong giai đoạn tích lũy tạo nền đáy."
+    },
+    {
+        "text": "giai đoạn tích lũy tạo nền đáy",
+        "label": "EVENT",
+        "evidence": "Kịch bản xác suất cao hơn là SHB đã tạo đáy dài hạn xong trong tháng 11/2022 và đang trong giai đoạn tích lũy tạo nền đáy."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Hiện SHB tính từ đáy tháng 11/2022 đã đi ngang 4 tháng."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Hiện SHB tính từ đáy tháng 11/2022 đã đi ngang 4 tháng."
+    },
+    {
+        "text": "đáy tháng 11/2022",
+        "label": "PRICE",
+        "evidence": "Hiện SHB tính từ đáy tháng 11/2022 đã đi ngang 4 tháng."
+    },
+    {
+        "text": "tháng 11/2022",
+        "label": "DATE",
+        "evidence": "Hiện SHB tính từ đáy tháng 11/2022 đã đi ngang 4 tháng."
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "Hiện SHB tính từ đáy tháng 11/2022 đã đi ngang 4 tháng."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "So với các cổ phiếu cùng ngành khác, diễn biến giá của SHB cũng tương đồng. Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "So với các cổ phiếu cùng ngành khác, diễn biến giá của SHB cũng tương đồng. Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "VCB",
+        "label": "ASSET",
+        "evidence": "Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "BID",
+        "label": "ASSET",
+        "evidence": "Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang",
+        "label": "EVENT",
+        "evidence": "Duy có VCB, BID là khác biệt, tăng mạnh trong thời gian phần lớn cổ phiếu khác trên thị trường và cổ phiếu cùng ngành đi ngang."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "(Đồ thị kỹ thuật cổ phiếu SHB trước phiên 4/4- Hình 2)"
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "(Đồ thị kỹ thuật cổ phiếu SHB trước phiên 4/4- Hình 2)"
+    },
+    {
+        "text": "4/4",
+        "label": "DATE",
+        "evidence": "(Đồ thị kỹ thuật cổ phiếu SHB trước phiên 4/4- Hình 2)"
+    },
+    {
+        "text": "tạo đáy tháng 11/2022",
+        "label": "EVENT",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "tháng 11/2022",
+        "label": "DATE",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "đạt đỉnh ngắn hạn",
+        "label": "EVENT",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "đi ngang trong những tháng đầu năm 2023",
+        "label": "EVENT",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Về ngắn hạn (hình 2), sau khi tạo đáy tháng 11/2022, SHB có nhịp tăng sau đó đạt đỉnh ngắn hạn và đi ngang trong những tháng đầu năm 2023."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "SHB hiện đang hình thành mô hình cờ đuôi nheo kéo hơi dài."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "SHB hiện đang hình thành mô hình cờ đuôi nheo kéo hơi dài."
+    },
+    {
+        "text": "mô hình cờ đuôi nheo kéo hơi dài",
+        "label": "EVENT",
+        "evidence": "SHB hiện đang hình thành mô hình cờ đuôi nheo kéo hơi dài."
+    },
+    {
+        "text": "14.000 đồng/CP",
+        "label": "PRICE",
+        "evidence": "Về lý thuyết, nếu tăng phá vỡ mô hình này thì có thể tăng lên đỉnh cũ gần nhất quanh 14.000 đồng/CP, nhưng cơ hội đó cần nhiều yếu tố hỗ trợ."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Thanh khoản của SHB trước khi gia tăng gần đây cũng đã trải qua khoảng giao dịch tương đối thấp, cho thấy có thể một đợt chốt lời đã xong."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Thanh khoản của SHB trước khi gia tăng gần đây cũng đã trải qua khoảng giao dịch tương đối thấp, cho thấy có thể một đợt chốt lời đã xong."
+    },
+    {
+        "text": "đợt chốt lời đã xong",
+        "label": "EVENT",
+        "evidence": "Thanh khoản của SHB trước khi gia tăng gần đây cũng đã trải qua khoảng giao dịch tương đối thấp, cho thấy có thể một đợt chốt lời đã xong."
+    },
+    {
+        "text": "4 tháng",
+        "label": "DATE",
+        "evidence": "Để phá vỡ mô hình đi ngang thì cần thanh khoản tăng liên tục vượt qua mức trung bình của các nhịp tăng trong vùng dao động 4 tháng qua."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Nếu giá SHB vượt qua được mốc 12.000 đồng/CP thì có thể duy trì vùng tích lũy cao hơn để test giá chiết khấu kết quả kinh doanh."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Nếu giá SHB vượt qua được mốc 12.000 đồng/CP thì có thể duy trì vùng tích lũy cao hơn để test giá chiết khấu kết quả kinh doanh."
+    },
+    {
+        "text": "12.000 đồng/CP",
+        "label": "PRICE",
+        "evidence": "Nếu giá SHB vượt qua được mốc 12.000 đồng/CP thì có thể duy trì vùng tích lũy cao hơn để test giá chiết khấu kết quả kinh doanh."
+    },
+    {
+        "text": "12.000 đồng/CP",
+        "label": "PRICE",
+        "evidence": "Nếu giữ được giá trên 12.000 đồng/CP thì có nhiều cơ hội đi lên."
+    },
+    {
+        "text": "3/4",
+        "label": "DATE",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "xu hướng gia tăng khối lượng giao dịch",
+        "label": "EVENT",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "63,7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị",
+        "label": "EVENT",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "0,5 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "SHB",
+        "label": "ASSET",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "phiên bứt phá mạnh mẽ",
+        "label": "EVENT",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "11.200 đồng/CP",
+        "label": "PRICE",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    },
+    {
+        "text": "4,19%",
+        "label": "RATE",
+        "evidence": "Trong phiên ngày 3/4 khởi đầu quý II, cổ phiếu SHB tiếp tục xu hướng gia tăng khối lượng giao dịch, khi đạt tới hơn 63,7 triệu đơn vị, trong đó khối NĐTNN tiếp tục mua vào gần 0,5 triệu đơn vị; giá cổ phiếu SHB có phiên bứt phá mạnh mẽ, chốt phiên ở 11.200 đồng/CP, ứng với mức tăng 4,19%."
+    }
+]

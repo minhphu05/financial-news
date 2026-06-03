@@ -1,0 +1,302 @@
+[
+    {
+        "text": "Tiền gửi Tiết kiệm oline",
+        "label": "ASSET",
+        "evidence": "sản phẩm có lãi suất huy động cao nhất là \"Tiền gửi Tiết kiệm oline\" lĩnh lãi cuối kỳ"
+    },
+    {
+        "text": "lãi suất áp dụng kỳ hạn 1 - 2 tháng giảm từ 2,25% xuống 1,95%",
+        "label": "EVENT",
+        "evidence": "lãi suất áp dụng kỳ hạn 1 - 2 tháng giảm từ 2,25% xuống 1,95%"
+    },
+    {
+        "text": "2,25%",
+        "label": "RATE",
+        "evidence": "giảm từ 2,25% xuống 1,95%"
+    },
+    {
+        "text": "1,95%",
+        "label": "RATE",
+        "evidence": "giảm từ 2,25% xuống 1,95%"
+    },
+    {
+        "text": "kỳ hạn 3 – 5 tháng giảm từ 2,55% xuống 2,25%",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 3 – 5 tháng giảm từ 2,55% xuống 2,25%"
+    },
+    {
+        "text": "2,55%",
+        "label": "RATE",
+        "evidence": "giảm từ 2,55% xuống 2,25%"
+    },
+    {
+        "text": "2,25%",
+        "label": "RATE",
+        "evidence": "giảm từ 2,55% xuống 2,25%"
+    },
+    {
+        "text": "kỳ hạn 6 - 8 - 11 tháng giảm từ 3,55% xuống 3,25%",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 6 - 8 - 11 tháng giảm từ 3,55% xuống 3,25%"
+    },
+    {
+        "text": "3,55%",
+        "label": "RATE",
+        "evidence": "giảm từ 3,55% xuống 3,25%"
+    },
+    {
+        "text": "3,25%",
+        "label": "RATE",
+        "evidence": "giảm từ 3,55% xuống 3,25%"
+    },
+    {
+        "text": "4,85%/năm",
+        "label": "RATE",
+        "evidence": "giữ nguyên ở mức 4,85%/năm"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "mức lãi suất cao nhất mà SCB đang áp dụng."
+    },
+    {
+        "text": "giảm lãi suất huy động thứ hai của SCB",
+        "label": "EVENT",
+        "evidence": "Đây là đợt giảm lãi suất huy động thứ hai của SCB trong chưa đầy nửa tháng qua."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "giảm lãi suất huy động thứ hai của SCB"
+    },
+    {
+        "text": "giảm mạnh 0,6 – 1,5 điểm % lãi suất huy động ở tất cả kỳ hạn gửi từ ngày 15/12",
+        "label": "EVENT",
+        "evidence": "ngân hàng này đã giảm mạnh 0,6 – 1,5 điểm % lãi suất huy động ở tất cả kỳ hạn gửi từ ngày 15/12."
+    },
+    {
+        "text": "0,6 – 1,5 điểm %",
+        "label": "RATE",
+        "evidence": "giảm mạnh 0,6 – 1,5 điểm % lãi suất huy động"
+    },
+    {
+        "text": "15/12",
+        "label": "DATE",
+        "evidence": "kỳ hạn gửi từ ngày 15/12."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Sau lần điều chỉnh này, SCB hiện có lãi suất huy động thấp hơn cả Agribank, VietinBank, BIDV"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "thấp hơn cả Agribank, VietinBank, BIDV"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Agribank, VietinBank, BIDV"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Agribank, VietinBank, BIDV"
+    },
+    {
+        "text": "2,2 - 5,3%",
+        "label": "RATE",
+        "evidence": "BIDV (dao động 2,2 - 5,3%)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "chỉ cao hơn Vietcombank"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "SCB từng áp dụng mức lãi suất lên tới gần 10%"
+    },
+    {
+        "text": "gần 10%",
+        "label": "RATE",
+        "evidence": "áp dụng mức lãi suất lên tới gần 10%"
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "vào cuối năm 2022"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "lãi suất trần của Ngân hàng Nhà nước đưa ra"
+    },
+    {
+        "text": "6%/năm",
+        "label": "RATE",
+        "evidence": "khi đó là 6%/năm"
+    },
+    {
+        "text": "9,9%/năm",
+        "label": "RATE",
+        "evidence": "cùng được hưởng mức lãi suất 9,9%/năm"
+    },
+    {
+        "text": "9,95%/năm",
+        "label": "RATE",
+        "evidence": "chào lãi suất lên tới 9,95%/năm"
+    },
+    {
+        "text": "triển khai chương trình tặng Coupon lãi suất 0,8%/năm",
+        "label": "EVENT",
+        "evidence": "ngân hàng này cũng triển khai chương trình tặng Coupon lãi suất 0,8%/năm cho khách hàng cá nhân tham gia giao dịch tiền gửi tại quầy"
+    },
+    {
+        "text": "Coupon lãi suất 0,8%/năm",
+        "label": "ASSET",
+        "evidence": "chương trình tặng Coupon lãi suất 0,8%/năm"
+    },
+    {
+        "text": "0,8%/năm",
+        "label": "RATE",
+        "evidence": "Coupon lãi suất 0,8%/năm"
+    },
+    {
+        "text": "ngày 02/11/2022",
+        "label": "DATE",
+        "evidence": "thời gian từ ngày 02/11/2022 đến hết ngày 31/12/2022"
+    },
+    {
+        "text": "ngày 31/12/2022",
+        "label": "DATE",
+        "evidence": "đến hết ngày 31/12/2022"
+    },
+    {
+        "text": "tiền gửi tiết kiệm",
+        "label": "ASSET",
+        "evidence": "khách hàng gửi mới các sản phẩm tiền gửi tiết kiệm và tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "tiền gửi có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "khách hàng gửi mới các sản phẩm tiền gửi tiết kiệm và tiền gửi có kỳ hạn"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "SCB đã có 12 lần giảm lãi suất huy động"
+    },
+    {
+        "text": "12 lần giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "SCB đã có 12 lần giảm lãi suất huy động với tổng mức giảm dao động trong khoảng 3,75 – 6,65 điểm %"
+    },
+    {
+        "text": "3,75 – 6,65 điểm %",
+        "label": "RATE",
+        "evidence": "tổng mức giảm dao động trong khoảng 3,75 – 6,65 điểm %"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Với mức giảm trên, SCB là một trong những ngân hàng giảm lãi suất huy động mạnh nhất hệ thống"
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "so với hồi đầu năm 2023."
+    },
+    {
+        "text": "ngày 15/10/2022",
+        "label": "DATE",
+        "evidence": "ngày 15/10/2022, Ngân hàng Nhà nước Việt Nam đã công bố quyết định kiểm soát đặc biệt Ngân hàng thương mại cổ phần Sài Gòn (SCB)"
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "ngày 15/10/2022, Ngân hàng Nhà nước Việt Nam đã công bố quyết định kiểm soát đặc biệt Ngân hàng thương mại cổ phần Sài Gòn (SCB)"
+    },
+    {
+        "text": "công bố quyết định kiểm soát đặc biệt Ngân hàng thương mại cổ phần Sài Gòn (SCB)",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước Việt Nam đã công bố quyết định kiểm soát đặc biệt Ngân hàng thương mại cổ phần Sài Gòn (SCB) để ổn định hoạt động của ngân hàng này."
+    },
+    {
+        "text": "Ngân hàng thương mại cổ phần Sài Gòn",
+        "label": "ORG",
+        "evidence": "quyết định kiểm soát đặc biệt Ngân hàng thương mại cổ phần Sài Gòn (SCB)"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Ngân hàng thương mại cổ phần Sài Gòn (SCB)"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Việc Ngân hàng Nhà nước kiểm soát đặc biệt một tổ chức tín dụng"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước cũng lựa chọn, chỉ định những cán bộ"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "các ngân hàng thương mại nhà nước (Vietcombank, BIDV, VietinBank, Agribank)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Vietcombank, BIDV, VietinBank, Agribank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Vietcombank, BIDV, VietinBank, Agribank"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Vietcombank, BIDV, VietinBank, Agribank"
+    },
+    {
+        "text": "Ngân hàng SCB",
+        "label": "ORG",
+        "evidence": "quản trị, điều hành Ngân hàng SCB."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Đại diện SCB cho biết"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "kiểm soát đặc biệt, SCB đã tích cực phối hợp"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Đến nay, SCB vẫn liên tục nhận được sự hỗ trợ"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "chỉ đạo kịp thời, sát sao từ Ngân hàng Nhà nước và các cơ quan chức năng"
+    },
+    {
+        "text": "xây dựng Đề án tái cơ cấu ngân hàng",
+        "label": "EVENT",
+        "evidence": "tập trung xây dựng Đề án tái cơ cấu ngân hàng"
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "và đưa SCB phát triển trong giai đoạn mới."
+    }
+]

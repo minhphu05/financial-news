@@ -1,0 +1,217 @@
+[
+    {
+        "text": "Công ty liên doanh khí hóa lỏng Thăng Long",
+        "label": "ORG",
+        "evidence": "Dây chuyền chiết nạp gas tại nhà máy của Công ty liên doanh khí hóa lỏng Thăng Long."
+    },
+    {
+        "text": "TTXVN",
+        "label": "ORG",
+        "evidence": "Ảnh tư liệu: Hà Thái/TTXVN"
+    },
+    {
+        "text": "ông Nghiêm Xuân Cường",
+        "label": "PERSON",
+        "evidence": "Theo ông Nghiêm Xuân Cường, Trưởng phòng Kinh doanh Gas dân dụng và Thương mại - Tổng Công ty Gas Petrolimex"
+    },
+    {
+        "text": "Tổng Công ty Gas Petrolimex",
+        "label": "ORG",
+        "evidence": "Trưởng phòng Kinh doanh Gas dân dụng và Thương mại - Tổng Công ty Gas Petrolimex"
+    },
+    {
+        "text": "giá gas bán lẻ trong nước tháng 7 không thay đổi",
+        "label": "EVENT",
+        "evidence": "giá gas bán lẻ trong nước tháng 7 không thay đổi là do hợp đồng giá gas thế giới bình quân tháng 7 ở mức 572,5 USD/tấn, không thay đổi so với giá tháng 6 nên Tổng Công ty Gas Petrolimex giữ nguyên mức giá tương ứng."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "giá gas bán lẻ trong nước tháng 7 không thay đổi"
+    },
+    {
+        "text": "hợp đồng giá gas thế giới bình quân tháng 7",
+        "label": "ASSET",
+        "evidence": "hợp đồng giá gas thế giới bình quân tháng 7 ở mức 572,5 USD/tấn"
+    },
+    {
+        "text": "572,5 USD/tấn",
+        "label": "PRICE",
+        "evidence": "ở mức 572,5 USD/tấn"
+    },
+    {
+        "text": "không thay đổi so với giá tháng 6",
+        "label": "RATE",
+        "evidence": "không thay đổi so với giá tháng 6"
+    },
+    {
+        "text": "tháng 6",
+        "label": "DATE",
+        "evidence": "không thay đổi so với giá tháng 6"
+    },
+    {
+        "text": "Tổng Công ty Gas Petrolimex giữ nguyên mức giá tương ứng",
+        "label": "EVENT",
+        "evidence": "nên Tổng Công ty Gas Petrolimex giữ nguyên mức giá tương ứng."
+    },
+    {
+        "text": "3 lần tăng",
+        "label": "EVENT",
+        "evidence": "giá gas trong nước có 3 lần tăng"
+    },
+    {
+        "text": "3 lần giảm giá",
+        "label": "EVENT",
+        "evidence": "3 lần giảm giá"
+    },
+    {
+        "text": "1 lần không thay đổi",
+        "label": "EVENT",
+        "evidence": "và 1 lần không thay đổi."
+    },
+    {
+        "text": "giá gas đảo chiều lao dốc hơn 3%",
+        "label": "EVENT",
+        "evidence": "giá gas đảo chiều lao dốc hơn 3% vào sáng cuối tuần 29/6."
+    },
+    {
+        "text": "hơn 3%",
+        "label": "RATE",
+        "evidence": "lao dốc hơn 3%"
+    },
+    {
+        "text": "29/6",
+        "label": "DATE",
+        "evidence": "sáng cuối tuần 29/6."
+    },
+    {
+        "text": "giảm 3,13%",
+        "label": "RATE",
+        "evidence": "giảm 3,13%"
+    },
+    {
+        "text": "2,6 USD/mmBTU",
+        "label": "PRICE",
+        "evidence": "xuống mức 2,6 USD/mmBTU"
+    },
+    {
+        "text": "hợp đồng khí gas tự nhiên giao tháng 8/2024",
+        "label": "ASSET",
+        "evidence": "đối với hợp đồng khí gas tự nhiên giao tháng 8/2024."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "hợp đồng khí gas tự nhiên giao tháng 8/2024."
+    },
+    {
+        "text": "Reuter",
+        "label": "ORG",
+        "evidence": "Theo Reuter, giá khí đốt bán buôn của Hà Lan và Anh giảm nhẹ vào thứ Sáu (28/6)"
+    },
+    {
+        "text": "giá khí đốt bán buôn của Hà Lan và Anh giảm nhẹ",
+        "label": "EVENT",
+        "evidence": "giá khí đốt bán buôn của Hà Lan và Anh giảm nhẹ vào thứ Sáu (28/6)"
+    },
+    {
+        "text": "thứ Sáu (28/6)",
+        "label": "DATE",
+        "evidence": "giảm nhẹ vào thứ Sáu (28/6)"
+    },
+    {
+        "text": "(28/6)",
+        "label": "DATE",
+        "evidence": "vào thứ Sáu (28/6)"
+    },
+    {
+        "text": "khả năng cắt nguồn cung cấp khí đốt của Nga sang châu Âu thông qua Ukraine",
+        "label": "EVENT",
+        "evidence": "lo ngại liên tục về khả năng cắt nguồn cung cấp khí đốt của Nga sang châu Âu thông qua Ukraine."
+    },
+    {
+        "text": "Công ty nghiên cứu thị trường năng lượng Energy Aspects",
+        "label": "ORG",
+        "evidence": "Các nhà phân tích tại Công ty nghiên cứu thị trường năng lượng Energy Aspects (trụ sở tại London, Anh) cho biết"
+    },
+    {
+        "text": "Energy Aspects",
+        "label": "ORG",
+        "evidence": "Công ty nghiên cứu thị trường năng lượng Energy Aspects"
+    },
+    {
+        "text": "lượng nhập khẩu qua đường ống của Nga sẽ bị cắt giảm",
+        "label": "EVENT",
+        "evidence": "khi lượng nhập khẩu qua đường ống của Nga sẽ bị cắt giảm trước cuối năm 2024"
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "trước cuối năm 2024"
+    },
+    {
+        "text": "EU",
+        "label": "ORG",
+        "evidence": "các công ty của Ba Lan và một số nước EU"
+    },
+    {
+        "text": "phán quyết trọng tài ngăn cản các công ty của Ba Lan và một số nước EU thanh toán các hợp đồng cung cấp khí đốt bằng đồng nội tệ ruble cho Tập đoàn Dầu khí Gazprom",
+        "label": "EVENT",
+        "evidence": "do các phán quyết trọng tài ngăn cản các công ty của Ba Lan và một số nước EU thanh toán các hợp đồng cung cấp khí đốt bằng đồng nội tệ ruble cho Tập đoàn Dầu khí Gazprom (doanh nghiệp năng lượng của Nga nắm trữ lượng khí đốt tự nhiên lớn nhất thế giới)."
+    },
+    {
+        "text": "ruble",
+        "label": "ASSET",
+        "evidence": "bằng đồng nội tệ ruble"
+    },
+    {
+        "text": "Tập đoàn Dầu khí Gazprom",
+        "label": "ORG",
+        "evidence": "cho Tập đoàn Dầu khí Gazprom"
+    },
+    {
+        "text": "Gazprom",
+        "label": "ORG",
+        "evidence": "Tập đoàn Dầu khí Gazprom"
+    },
+    {
+        "text": "Gazprom",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, Gazprom vẫn tiếp tục cung cấp khí đốt cho Hungary, Áo và Slovakia."
+    },
+    {
+        "text": "Hungary",
+        "label": "ORG",
+        "evidence": "cung cấp khí đốt cho Hungary, Áo và Slovakia."
+    },
+    {
+        "text": "Áo",
+        "label": "ORG",
+        "evidence": "cung cấp khí đốt cho Hungary, Áo và Slovakia."
+    },
+    {
+        "text": "Slovakia",
+        "label": "ORG",
+        "evidence": "cung cấp khí đốt cho Hungary, Áo và Slovakia."
+    },
+    {
+        "text": "Orlen",
+        "label": "ORG",
+        "evidence": "công ty năng lượng lớn nhất Ba Lan là Orlen cảnh báo rằng Orlen có thể giữ lại các khoản thanh toán cho Gazprom để nhập khẩu khí đốt tự nhiên"
+    },
+    {
+        "text": "Orlen",
+        "label": "ORG",
+        "evidence": "là Orlen cảnh báo rằng Orlen có thể giữ lại các khoản thanh toán cho Gazprom để nhập khẩu khí đốt tự nhiên"
+    },
+    {
+        "text": "Orlen có thể giữ lại các khoản thanh toán cho Gazprom để nhập khẩu khí đốt tự nhiên",
+        "label": "EVENT",
+        "evidence": "Orlen cảnh báo rằng Orlen có thể giữ lại các khoản thanh toán cho Gazprom để nhập khẩu khí đốt tự nhiên như một phần trong tuyên bố chống lại gã khổng lồ khí đốt Nga về những tổn thất mà nước này phải gánh chịu."
+    },
+    {
+        "text": "Gazprom",
+        "label": "ORG",
+        "evidence": "giữ lại các khoản thanh toán cho Gazprom để nhập khẩu khí đốt tự nhiên"
+    }
+]

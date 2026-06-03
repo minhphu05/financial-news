@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribankcho biết CIC là một trong 04 tổ chức được phép thực hiện dịch vụ thông tin tín dụng tại Việt Nam."
+    },
+    {
+        "text": "CIC",
+        "label": "ORG",
+        "evidence": "Agribankcho biết CIC là một trong 04 tổ chức được phép thực hiện dịch vụ thông tin tín dụng tại Việt Nam."
+    },
+    {
+        "text": "tài khoản tiền gửi",
+        "label": "ASSET",
+        "evidence": "Thông tin tín dụng do CIC thu thập theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "sổ tiết kiệm",
+        "label": "ASSET",
+        "evidence": "Thông tin tín dụng do CIC thu thập theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "tài khoản thanh toán",
+        "label": "ASSET",
+        "evidence": "Thông tin tín dụng do CIC thu thập theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "số thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Thông tin tín dụng do CIC thu thập theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "số thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thông tin tín dụng do CIC thu thập theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Một số hình thức lừa đảo có thể bao gồm: gọi điện, nhắn tin giả mạo để yêu cầu người dùng cung cấp thông tin cá nhân, thẻ tín dụng, mã xác thực CVV/CVC, mã bảo mật OTP, v.v…"
+    },
+    {
+        "text": "Agribank Plus",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng luôn truy cập vào các dịch vụ ngân hàng thông qua ứng dụng chính thức của Agribank (Agribank Plus, Agribank Retail, Agribank Corporate) hoặc tại website chính thức duy nhất của Agribank tại địa chỉ:https://www.agribank.com.vn"
+    },
+    {
+        "text": "Agribank Retail",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng luôn truy cập vào các dịch vụ ngân hàng thông qua ứng dụng chính thức của Agribank (Agribank Plus, Agribank Retail, Agribank Corporate) hoặc tại website chính thức duy nhất của Agribank tại địa chỉ:https://www.agribank.com.vn"
+    },
+    {
+        "text": "Agribank Corporate",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, khách hàng luôn truy cập vào các dịch vụ ngân hàng thông qua ứng dụng chính thức của Agribank (Agribank Plus, Agribank Retail, Agribank Corporate) hoặc tại website chính thức duy nhất của Agribank tại địa chỉ:https://www.agribank.com.vn"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombankcũng khẳng định thông tin tín dụng do CIC thu thập từ các ngân hàng thương mại theo quy định của pháp luật không bao gồm thông tin về: tài khoản tiền gửi, số dư tiền gửi, sổ tiết kiệm, tài khoản thanh toán, số thẻ ghi nợ, số thẻ tín dụng, mã số bảo mật (CVV/CVC), lịch sử giao dịch thanh toán của khách hàng."
+    },
+    {
+        "text": "Digibank",
+        "label": "ASSET",
+        "evidence": "- Thường xuyên theo dõi lịch sử giao dịch, số dư, kích hoạt dịch vụ cảnh báo số dư trên Digibank (OTT alert) để kịp thời phát hiện các bất thường."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBankkhẳng định không đưa vào hệ thống CIC các thông tin: Số dư và giao dịch tiền gửi, số thẻ, mã bảo mật (CVV/CVC) hay thông tin đăng nhập dịch vụ ngân hàng điện tử."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "VietinBankkhẳng định không đưa vào hệ thống CIC các thông tin: Số dư và giao dịch tiền gửi, số thẻ, mã bảo mật (CVV/CVC) hay thông tin đăng nhập dịch vụ ngân hàng điện tử."
+    },
+    {
+        "text": "iPay Mobile",
+        "label": "ASSET",
+        "evidence": "- Thường xuyên cập nhật kiến thức phòng chống lừa đảo trên website VietinBank hoặc ứng dụng iPay Mobile."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDVcho biết, hệ thống Công nghệ thông tin của BIDV độc lập với hệ thống công nghệ thông tin của CIC và hiện đang hoạt động bình thường."
+    },
+    {
+        "text": "BIDV SmartBanking",
+        "label": "ASSET",
+        "evidence": "- Không cung cấp số thẻ, ngày hết hạn, CVV/CVC, OTP, PIN; mật khẩu đăng nhập BIDV SmartBanking cho bất kỳ ai."
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "text": "VNeID",
+        "label": "ORG",
+        "evidence": "khách hàng đủ 15 tuổi chỉ cần định danh qua VNeID mức 2 để hoàn tất đăng ký và sử dụng Sacombank Pay, không cần quét chip thẻ CC/CCCD."
+    },
+    {
+        "text": "chỉ cần định danh qua VNeID mức 2 để hoàn tất đăng ký và sử dụng Sacombank Pay",
+        "label": "EVENT",
+        "evidence": "khách hàng đủ 15 tuổi chỉ cần định danh qua VNeID mức 2 để hoàn tất đăng ký và sử dụng Sacombank Pay, không cần quét chip thẻ CC/CCCD."
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ASSET",
+        "evidence": "khách hàng đủ 15 tuổi chỉ cần định danh qua VNeID mức 2 để hoàn tất đăng ký và sử dụng Sacombank Pay, không cần quét chip thẻ CC/CCCD."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đặc biệt, ngoài tài khoản thanh toán trực tuyến, Sacombank cũng tạo điều kiện cho học sinh từ đủ 15 tuổi gửi tiết kiệm có kỳ hạn trên Sacombank Pay với mức lãi suất cộng thêm đến 0,9%/năm, góp phần hình thành thói quen tiết kiệm và lập kế hoạch tài chính có trách nhiệm ngay từ tuổi học đường."
+    },
+    {
+        "text": "tài khoản thanh toán trực tuyến",
+        "label": "ASSET",
+        "evidence": "Đặc biệt, ngoài tài khoản thanh toán trực tuyến, Sacombank cũng tạo điều kiện cho học sinh từ đủ 15 tuổi gửi tiết kiệm có kỳ hạn trên Sacombank Pay với mức lãi suất cộng thêm đến 0,9%/năm, góp phần hình thành thói quen tiết kiệm và lập kế hoạch tài chính có trách nhiệm ngay từ tuổi học đường."
+    },
+    {
+        "text": "gửi tiết kiệm có kỳ hạn",
+        "label": "ASSET",
+        "evidence": "Sacombank cũng tạo điều kiện cho học sinh từ đủ 15 tuổi gửi tiết kiệm có kỳ hạn trên Sacombank Pay với mức lãi suất cộng thêm đến 0,9%/năm"
+    },
+    {
+        "text": "Sacombank cũng tạo điều kiện cho học sinh từ đủ 15 tuổi gửi tiết kiệm có kỳ hạn trên Sacombank Pay với mức lãi suất cộng thêm đến 0,9%/năm",
+        "label": "EVENT",
+        "evidence": "Sacombank cũng tạo điều kiện cho học sinh từ đủ 15 tuổi gửi tiết kiệm có kỳ hạn trên Sacombank Pay với mức lãi suất cộng thêm đến 0,9%/năm, góp phần hình thành thói quen tiết kiệm và lập kế hoạch tài chính có trách nhiệm ngay từ tuổi học đường."
+    },
+    {
+        "text": "0,9%/năm",
+        "label": "RATE",
+        "evidence": "mức lãi suất cộng thêm đến 0,9%/năm"
+    },
+    {
+        "text": "mở rộng độ tuổi mở tài khoản thanh toán trực tuyến trên Sacombank Pay",
+        "label": "EVENT",
+        "evidence": "“Việc mở rộng độ tuổi mở tài khoản thanh toán trực tuyến trên Sacombank Pay không chỉ thể hiện cam kết của ngân hàng trong việc đổi mới sản phẩm, mà còn đáp ứng định hướng của Chính phủ về thúc đẩy tài chính toàn diện và chuyển đổi số quốc gia."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "mà còn đáp ứng định hướng của Chính phủ về thúc đẩy tài chính toàn diện và chuyển đổi số quốc gia."
+    },
+    {
+        "text": "bổ sung tính năng sinh trắc học, chuyển tiền nhanh từ tin nhắn Zalo và chia sẻ báo có cho nhiều tài khoản",
+        "label": "EVENT",
+        "evidence": "Không chỉ mở rộng độ tuổi sử dụng từ 15 tuổi, phiên bản hiện nay còn bổ sung tính năng sinh trắc học, chuyển tiền nhanh từ tin nhắn Zalo và chia sẻ báo có cho nhiều tài khoản, mang lại trải nghiệm linh hoạt, thuận tiện."
+    }
+]

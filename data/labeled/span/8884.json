@@ -1,0 +1,522 @@
+[
+    {
+        "text": "Mở thẻ ngày đôi, miễn phí thường niên năm đầu chỉ với 1 chi tiêu từ 1 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Mở thẻ ngày đôi, miễn phí thường niên năm đầu chỉ với 1 chi tiêu từ 1 triệu đồng"
+    },
+    {
+        "text": "năm đầu",
+        "label": "DATE",
+        "evidence": "miễn phí thường niên năm đầu chỉ với 1 chi tiêu từ 1 triệu đồng"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chỉ với 1 chi tiêu từ 1 triệu đồng"
+    },
+    {
+        "text": "11/11",
+        "label": "DATE",
+        "evidence": "lễ hội mua sắm 11/11 (Ngày Độc thân)"
+    },
+    {
+        "text": "Ngày Đôi",
+        "label": "DATE",
+        "evidence": "siêu sale Ngày Đôi (Double Day) hàng tháng (1/1, 2/2…, 12/12)"
+    },
+    {
+        "text": "hàng tháng",
+        "label": "DATE",
+        "evidence": "Ngày Đôi (Double Day) hàng tháng (1/1, 2/2…, 12/12)"
+    },
+    {
+        "text": "1/1",
+        "label": "DATE",
+        "evidence": "hàng tháng (1/1, 2/2…, 12/12)"
+    },
+    {
+        "text": "2/2",
+        "label": "DATE",
+        "evidence": "hàng tháng (1/1, 2/2…, 12/12)"
+    },
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "hàng tháng (1/1, 2/2…, 12/12)"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB triển khai chương trình miễn phí thường niên trọn đời dành cho khách hàng đăng ký mở thẻ"
+    },
+    {
+        "text": "VIB triển khai chương trình miễn phí thường niên trọn đời dành cho khách hàng đăng ký mở thẻ vào ngày sinh nhật hoặc các ngày đôi hàng tháng chỉ với tối thiểu 01 giao dịch chi tiêu tối thiểu từ 1 triệu đồng trong 30 ngày từ ngày thẻ được kích hoạt nhưng không vượt quá 45 ngày từ ngày thẻ được phát hành và có hồ sơ được phê duyệt theo điều kiện nhận ưu đãi đặc biệt của chương trình",
+        "label": "EVENT",
+        "evidence": "VIB triển khai chương trình miễn phí thường niên trọn đời dành cho khách hàng đăng ký mở thẻ vào ngày sinh nhật hoặc các ngày đôi hàng tháng chỉ với tối thiểu 01 giao dịch chi tiêu tối thiểu từ 1 triệu đồng trong 30 ngày từ ngày thẻ được kích hoạt nhưng không vượt quá 45 ngày từ ngày thẻ được phát hành và có hồ sơ được phê duyệt theo điều kiện nhận ưu đãi đặc biệt của chương trình"
+    },
+    {
+        "text": "ngày sinh nhật",
+        "label": "DATE",
+        "evidence": "đăng ký mở thẻ vào ngày sinh nhật hoặc các ngày đôi hàng tháng"
+    },
+    {
+        "text": "các ngày đôi hàng tháng",
+        "label": "DATE",
+        "evidence": "ngày sinh nhật hoặc các ngày đôi hàng tháng"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chi tiêu tối thiểu từ 1 triệu đồng"
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "trong 30 ngày từ ngày thẻ được kích hoạt"
+    },
+    {
+        "text": "45 ngày",
+        "label": "DATE",
+        "evidence": "không vượt quá 45 ngày từ ngày thẻ được phát hành"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "đến chi nhánh VIB"
+    },
+    {
+        "text": "MyVIB",
+        "label": "ORG",
+        "evidence": "ứng dụng ngân hàng di động MyVIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "website VIB"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "ứng dụng Lazada để đăng ký mở và bắt đầu sử dụng thẻ"
+    },
+    {
+        "text": "15-30 phút",
+        "label": "DATE",
+        "evidence": "thời gian chỉ trong vòng 15-30 phút"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "nỗ lực liên tục của VIB trên hành trình khẳng định vị thế"
+    },
+    {
+        "text": "thẻ LazCard",
+        "label": "ASSET",
+        "evidence": "Với thẻ LazCard, ngay khi mở thẻ thành công"
+    },
+    {
+        "text": "lưu thông tin thẻ và chi tiêu từ 1 triệu đồng trên Lazada trong vòng 30 ngày kể từ ngày phát hành thẻ, khách hàng nhận ngay e-voucher Lazada 500.000 đồng",
+        "label": "EVENT",
+        "evidence": "lưu thông tin thẻ và chi tiêu từ 1 triệu đồng trên Lazada trong vòng 30 ngày kể từ ngày phát hành thẻ, khách hàng nhận ngay e-voucher Lazada 500.000 đồng"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "chi tiêu từ 1 triệu đồng trên Lazada"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "chi tiêu từ 1 triệu đồng trên Lazada"
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "trong vòng 30 ngày kể từ ngày phát hành thẻ"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "e-voucher Lazada 500.000 đồng"
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "e-voucher Lazada 500.000 đồng"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB tiếp tục tặng chủ thẻ e-voucher Lazada 100.000 đồng"
+    },
+    {
+        "text": "tặng chủ thẻ e-voucher Lazada 100.000 đồng vào ngày sinh nhật của khách hàng và 3 e-voucher freeship mỗi tháng chỉ dành riêng cho chủ thẻ LazCard",
+        "label": "EVENT",
+        "evidence": "tặng chủ thẻ e-voucher Lazada 100.000 đồng vào ngày sinh nhật của khách hàng và 3 e-voucher freeship mỗi tháng chỉ dành riêng cho chủ thẻ LazCard"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "e-voucher Lazada 100.000 đồng"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "e-voucher Lazada 100.000 đồng"
+    },
+    {
+        "text": "ngày sinh nhật",
+        "label": "DATE",
+        "evidence": "vào ngày sinh nhật của khách hàng"
+    },
+    {
+        "text": "thẻ LazCard",
+        "label": "ASSET",
+        "evidence": "chủ thẻ LazCard"
+    },
+    {
+        "text": "thẻ Online Plus 2in1",
+        "label": "ASSET",
+        "evidence": "Với thẻ Online Plus 2in1, chỉ với thao tác lưu thông tin thẻ"
+    },
+    {
+        "text": "thao tác lưu thông tin thẻ trên app hoặc website mua sắm trực tuyến, bạn sẽ được hoàn tiền 50.000 đồng mỗi lần lưu thành công",
+        "label": "EVENT",
+        "evidence": "thao tác lưu thông tin thẻ trên app hoặc website mua sắm trực tuyến, bạn sẽ được hoàn tiền 50.000 đồng mỗi lần lưu thành công"
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn tiền 50.000 đồng mỗi lần lưu thành công"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "nhân 3 lợi ích trên Lazada"
+    },
+    {
+        "text": "Online Plus 2in1",
+        "label": "ASSET",
+        "evidence": "hoàn tiền mức cao như Online Plus 2in1"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "hoàn đến 6% mọi chi tiêu trực tuyến"
+    },
+    {
+        "text": "LazCard",
+        "label": "ASSET",
+        "evidence": "hay LazCard hoàn đến 50% trên Lazada"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "hoàn đến 50% trên Lazada"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "trên Lazada"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB còn liên tục triển khai hàng loạt các ưu đãi hấp dẫn"
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "mọi chi tiêu của chủ thẻ tín dụng"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB đang tặng các chủ thẻ mã giảm 500.000 VNĐ"
+    },
+    {
+        "text": "tặng các chủ thẻ mã giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ vào các ngày đôi và ngày 20 hàng tháng trên Lazada",
+        "label": "EVENT",
+        "evidence": "VIB đang tặng các chủ thẻ mã giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ vào các ngày đôi và ngày 20 hàng tháng trên Lazada"
+    },
+    {
+        "text": "500.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "mã giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ"
+    },
+    {
+        "text": "3 triệu VNĐ",
+        "label": "MONEY",
+        "evidence": "cho đơn hàng từ 3 triệu VNĐ"
+    },
+    {
+        "text": "các ngày đôi",
+        "label": "DATE",
+        "evidence": "vào các ngày đôi và ngày 20 hàng tháng"
+    },
+    {
+        "text": "ngày 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "và ngày 20 hàng tháng trên Lazada"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "trên Lazada"
+    },
+    {
+        "text": "9h00 mỗi ngày",
+        "label": "DATE",
+        "evidence": "khung giờ 9h00 mỗi ngày"
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "chủ thẻ VIB dễ dàng nhân 3 lợi ích"
+    },
+    {
+        "text": "ngày đôi hàng tháng",
+        "label": "DATE",
+        "evidence": "mình trong ngày đôi hàng tháng"
+    },
+    {
+        "text": "thẻ tín dụng VIB",
+        "label": "ASSET",
+        "evidence": "Ngày thường cũng hóa đặc biệt với thẻ tín dụng VIB"
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "ngày đôi của chủ thẻ VIB cũng luôn đặc biệt"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "tiếp sức săn sale giữa tuần từ VIB"
+    },
+    {
+        "text": "Ngân hàng này có lịch tặng mã ưu đãi Lazada vào thứ 6 hàng tuần với các mã giảm 100.000 VNĐ cho đơn hàng từ 1 triệu VNĐ, giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ",
+        "label": "EVENT",
+        "evidence": "Ngân hàng này có lịch tặng mã ưu đãi Lazada vào thứ 6 hàng tuần với các mã giảm 100.000 VNĐ cho đơn hàng từ 1 triệu VNĐ, giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ"
+    },
+    {
+        "text": "Lazada",
+        "label": "ORG",
+        "evidence": "tặng mã ưu đãi Lazada vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "thứ 6 hàng tuần",
+        "label": "DATE",
+        "evidence": "tặng mã ưu đãi Lazada vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "100.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "các mã giảm 100.000 VNĐ cho đơn hàng từ 1 triệu VNĐ"
+    },
+    {
+        "text": "1 triệu VNĐ",
+        "label": "MONEY",
+        "evidence": "cho đơn hàng từ 1 triệu VNĐ"
+    },
+    {
+        "text": "500.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "giảm 500.000 VNĐ cho đơn hàng từ 3 triệu VNĐ"
+    },
+    {
+        "text": "3 triệu VNĐ",
+        "label": "MONEY",
+        "evidence": "cho đơn hàng từ 3 triệu VNĐ"
+    },
+    {
+        "text": "\"Ngày Hội Chi Tiêu\" 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "Đặc biệt, vào \"Ngày Hội Chi Tiêu\" 20 hàng tháng"
+    },
+    {
+        "text": "thẻ VIB",
+        "label": "ASSET",
+        "evidence": "chủ thẻ VIB được nhận sao đổi quà"
+    },
+    {
+        "text": "50.000 VNĐ",
+        "label": "MONEY",
+        "evidence": "voucher từ 50.000 VNĐ liền tay"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB tặng 10 triệu VNĐ cho 5 chủ thẻ chi tiêu mua sắm"
+    },
+    {
+        "text": "tặng 10 triệu VNĐ cho 5 chủ thẻ chi tiêu mua sắm qua 3 sàn cao nhất quý",
+        "label": "EVENT",
+        "evidence": "VIB tặng 10 triệu VNĐ cho 5 chủ thẻ chi tiêu mua sắm qua 3 sàn cao nhất quý"
+    },
+    {
+        "text": "10 triệu VNĐ",
+        "label": "MONEY",
+        "evidence": "tặng 10 triệu VNĐ cho 5 chủ thẻ"
+    },
+    {
+        "text": "quý",
+        "label": "DATE",
+        "evidence": "qua 3 sàn cao nhất quý"
+    },
+    {
+        "text": "100 triệu VNĐ cho chủ thẻ có tổng chi tiêu ngày 20 hàng tháng cao nhất năm",
+        "label": "EVENT",
+        "evidence": "và 100 triệu VNĐ cho chủ thẻ có tổng chi tiêu ngày 20 hàng tháng cao nhất năm"
+    },
+    {
+        "text": "100 triệu VNĐ",
+        "label": "MONEY",
+        "evidence": "100 triệu VNĐ cho chủ thẻ có tổng chi tiêu"
+    },
+    {
+        "text": "ngày 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "tổng chi tiêu ngày 20 hàng tháng cao nhất năm"
+    },
+    {
+        "text": "năm",
+        "label": "DATE",
+        "evidence": "cao nhất năm"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB còn thiết kế ưu đãi lớn dành riêng cho chủ thẻ"
+    },
+    {
+        "text": "giảm đến 30% tại các thương hiệu ẩm thực nổi tiếng như Hoàng Yến, Shang Palace, Cloud Nine, Moonlight Skybar, Le Petit, Lobster Bay, Miyen, Matsuri, các nhà hàng trong khách sạn New World Saigon, Sheraton Saigon, Intercontinental Saigon",
+        "label": "EVENT",
+        "evidence": "giảm đến 30% tại các thương hiệu ẩm thực nổi tiếng như Hoàng Yến, Shang Palace, Cloud Nine, Moonlight Skybar, Le Petit, Lobster Bay, Miyen, Matsuri, các nhà hàng trong khách sạn New World Saigon, Sheraton Saigon, Intercontinental Saigon"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm đến 30% tại các thương hiệu ẩm thực nổi tiếng"
+    },
+    {
+        "text": "Hoàng Yến",
+        "label": "ORG",
+        "evidence": "như Hoàng Yến, Shang Palace, Cloud Nine"
+    },
+    {
+        "text": "Shang Palace",
+        "label": "ORG",
+        "evidence": "Hoàng Yến, Shang Palace, Cloud Nine"
+    },
+    {
+        "text": "Cloud Nine",
+        "label": "ORG",
+        "evidence": "Shang Palace, Cloud Nine, Moonlight Skybar"
+    },
+    {
+        "text": "Moonlight Skybar",
+        "label": "ORG",
+        "evidence": "Cloud Nine, Moonlight Skybar, Le Petit"
+    },
+    {
+        "text": "Le Petit",
+        "label": "ORG",
+        "evidence": "Moonlight Skybar, Le Petit, Lobster Bay"
+    },
+    {
+        "text": "Lobster Bay",
+        "label": "ORG",
+        "evidence": "Le Petit, Lobster Bay, Miyen, Matsuri"
+    },
+    {
+        "text": "Miyen",
+        "label": "ORG",
+        "evidence": "Lobster Bay, Miyen, Matsuri"
+    },
+    {
+        "text": "Matsuri",
+        "label": "ORG",
+        "evidence": "Miyen, Matsuri, các nhà hàng trong khách sạn New World Saigon"
+    },
+    {
+        "text": "New World Saigon",
+        "label": "ORG",
+        "evidence": "khách sạn New World Saigon, Sheraton Saigon, Intercontinental Saigon"
+    },
+    {
+        "text": "Sheraton Saigon",
+        "label": "ORG",
+        "evidence": "New World Saigon, Sheraton Saigon, Intercontinental Saigon"
+    },
+    {
+        "text": "Intercontinental Saigon",
+        "label": "ORG",
+        "evidence": "Sheraton Saigon, Intercontinental Saigon"
+    },
+    {
+        "text": "giảm đến 20% khi đặt phòng khách sạn & tour (Agoda, Ivivu, Mytour, Booking, Trip.com…)",
+        "label": "EVENT",
+        "evidence": "giảm đến 20% khi đặt phòng khách sạn & tour (Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "giảm đến 20% khi đặt phòng khách sạn & tour"
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "(Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "Ivivu",
+        "label": "ORG",
+        "evidence": "(Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "Mytour",
+        "label": "ORG",
+        "evidence": "(Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "Booking",
+        "label": "ORG",
+        "evidence": "(Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "Trip.com",
+        "label": "ORG",
+        "evidence": "(Agoda, Ivivu, Mytour, Booking, Trip.com…)"
+    },
+    {
+        "text": "giảm đến 10% giá vé máy bay (Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)",
+        "label": "EVENT",
+        "evidence": "giảm đến 10% giá vé máy bay (Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm đến 10% giá vé máy bay"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "(Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)"
+    },
+    {
+        "text": "Qatar Airways",
+        "label": "ORG",
+        "evidence": "(Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)"
+    },
+    {
+        "text": "Malaysia Airlines",
+        "label": "ORG",
+        "evidence": "(Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)"
+    },
+    {
+        "text": "Qatar Airways",
+        "label": "ORG",
+        "evidence": "(Vietnam Airlines, Qatar Airways, Malaysia Airlines, Qatar Airways …)"
+    }
+]

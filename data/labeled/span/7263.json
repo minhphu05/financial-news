@@ -1,0 +1,412 @@
+[
+    {
+        "text": "Fubon ETF",
+        "label": "ORG",
+        "evidence": "Dòng vốn mới từ việc tăng quy mô của Fubon ETF và thay đổi chỉ số cơ sở của VanEck ETF"
+    },
+    {
+        "text": "VanEck ETF",
+        "label": "ORG",
+        "evidence": "Dòng vốn mới từ việc tăng quy mô của Fubon ETF và thay đổi chỉ số cơ sở của VanEck ETF"
+    },
+    {
+        "text": "tăng quy mô của Fubon ETF",
+        "label": "EVENT",
+        "evidence": "Dòng vốn mới từ việc tăng quy mô của Fubon ETF và thay đổi chỉ số cơ sở của VanEck ETF"
+    },
+    {
+        "text": "thay đổi chỉ số cơ sở của VanEck ETF",
+        "label": "EVENT",
+        "evidence": "Dòng vốn mới từ việc tăng quy mô của Fubon ETF và thay đổi chỉ số cơ sở của VanEck ETF"
+    },
+    {
+        "text": "Fubon FTSE Việt Nam",
+        "label": "ORG",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "được cấp phép huy động thêm 5 tỷ Đài tệ",
+        "label": "EVENT",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "5 tỷ Đài tệ",
+        "label": "MONEY",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "3.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "thị trường chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "tháng 3 này",
+        "label": "DATE",
+        "evidence": "Fubon FTSE Việt Nam, quỹ ETF lớn thứ 2 về giá trị tài sản ròng đã được cấp phép huy động thêm 5 tỷ Đài tệ (~3.800 tỷ đồng) và dòng vốn này có thể chảy vào thị trường chứng khoán Việt Nam trong tháng 3 này."
+    },
+    {
+        "text": "VanEck Vietnam ETF",
+        "label": "ORG",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "V.N.M ETF",
+        "label": "ORG",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN)",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "MVIS Vietnam Index",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "MVIS Vietnam Local Index",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "ngày 17/3/2023",
+        "label": "DATE",
+        "evidence": "Ngoài ra, VanEck Vietnam ETF (V.N.M ETF) sẽ thay đổi chỉ số tham chiếu từ MVIS Vietnam Index (với 80% là cổ phiếu Việt Nam) sang MVIS Vietnam Local Index (với 100% là cổ phiếu VN) kể từ ngày 17/3/2023 trở đi."
+    },
+    {
+        "text": "V.N.M ETF",
+        "label": "ORG",
+        "evidence": "Như vậy, V.N.M ETF có thể mua khoảng 2.300 tỷ đồng trên TTCK Việt Nam (~20% giá trị tài sản ròng hiện tại)."
+    },
+    {
+        "text": "2.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, V.N.M ETF có thể mua khoảng 2.300 tỷ đồng trên TTCK Việt Nam (~20% giá trị tài sản ròng hiện tại)."
+    },
+    {
+        "text": "TTCK Việt Nam",
+        "label": "ORG",
+        "evidence": "Như vậy, V.N.M ETF có thể mua khoảng 2.300 tỷ đồng trên TTCK Việt Nam (~20% giá trị tài sản ròng hiện tại)."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Như vậy, V.N.M ETF có thể mua khoảng 2.300 tỷ đồng trên TTCK Việt Nam (~20% giá trị tài sản ròng hiện tại)."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Tổng cộng, VNDirect ước tính dòng tiền khoảng 6.100 tỷ đồng sẽ chảy vào thị trường chứng khoán Việt Nam trong vài tuần tới, và có thể chấm dứt hoạt động bán ròng của khối ngoại."
+    },
+    {
+        "text": "6.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng cộng, VNDirect ước tính dòng tiền khoảng 6.100 tỷ đồng sẽ chảy vào thị trường chứng khoán Việt Nam trong vài tuần tới, và có thể chấm dứt hoạt động bán ròng của khối ngoại."
+    },
+    {
+        "text": "thị trường chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Tổng cộng, VNDirect ước tính dòng tiền khoảng 6.100 tỷ đồng sẽ chảy vào thị trường chứng khoán Việt Nam trong vài tuần tới, và có thể chấm dứt hoạt động bán ròng của khối ngoại."
+    },
+    {
+        "text": "vài tuần tới",
+        "label": "DATE",
+        "evidence": "Tổng cộng, VNDirect ước tính dòng tiền khoảng 6.100 tỷ đồng sẽ chảy vào thị trường chứng khoán Việt Nam trong vài tuần tới, và có thể chấm dứt hoạt động bán ròng của khối ngoại."
+    },
+    {
+        "text": "Xem xét định kỳ tháng 3/2023",
+        "label": "EVENT",
+        "evidence": "Xem xét định kỳ tháng 3/2023: HPG, VCB và VNM ước tính được mua mạnh"
+    },
+    {
+        "text": "tháng 3/2023",
+        "label": "DATE",
+        "evidence": "Xem xét định kỳ tháng 3/2023: HPG, VCB và VNM ước tính được mua mạnh"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Xem xét định kỳ tháng 3/2023: HPG, VCB và VNM ước tính được mua mạnh"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Xem xét định kỳ tháng 3/2023: HPG, VCB và VNM ước tính được mua mạnh"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Xem xét định kỳ tháng 3/2023: HPG, VCB và VNM ước tính được mua mạnh"
+    },
+    {
+        "text": "FTSE Vietnam Index",
+        "label": "ASSET",
+        "evidence": "FTSE Vietnam Index đã công bố kết quả xem xét định kỳ vào 3/3/2023, có hiệu lực từ ngày 17/3/2023."
+    },
+    {
+        "text": "công bố kết quả xem xét định kỳ",
+        "label": "EVENT",
+        "evidence": "FTSE Vietnam Index đã công bố kết quả xem xét định kỳ vào 3/3/2023, có hiệu lực từ ngày 17/3/2023."
+    },
+    {
+        "text": "3/3/2023",
+        "label": "DATE",
+        "evidence": "FTSE Vietnam Index đã công bố kết quả xem xét định kỳ vào 3/3/2023, có hiệu lực từ ngày 17/3/2023."
+    },
+    {
+        "text": "ngày 17/3/2023",
+        "label": "DATE",
+        "evidence": "FTSE Vietnam Index đã công bố kết quả xem xét định kỳ vào 3/3/2023, có hiệu lực từ ngày 17/3/2023."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "được thêm vào chỉ số",
+        "label": "EVENT",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "PDR",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "TCH",
+        "label": "TICKER",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "STB, PLX, PDR và TCH bị loại",
+        "label": "EVENT",
+        "evidence": "Theo đó, SHB và EIB sẽ được thêm vào chỉ số trong khi STB, PLX, PDR và TCH bị loại."
+    },
+    {
+        "text": "tái cân bằng quỹ ETF",
+        "label": "EVENT",
+        "evidence": "Quá trình tái cân bằng quỹ ETF sẽ được thực hiện trong giai đoạn từ 06-17/03/2023."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Quá trình tái cân bằng quỹ ETF sẽ được thực hiện trong giai đoạn từ 06-17/03/2023."
+    },
+    {
+        "text": "06-17/03/2023",
+        "label": "DATE",
+        "evidence": "Quá trình tái cân bằng quỹ ETF sẽ được thực hiện trong giai đoạn từ 06-17/03/2023."
+    },
+    {
+        "text": "MVIS Vietnam Local Index",
+        "label": "ASSET",
+        "evidence": "MVIS Vietnam Local Index (V.N.M ETF) sẽ công bố kết quả xem xét định kỳ vào ngày 10/03/2023, có hiệu lực từ 17/03/2023."
+    },
+    {
+        "text": "V.N.M ETF",
+        "label": "ORG",
+        "evidence": "MVIS Vietnam Local Index (V.N.M ETF) sẽ công bố kết quả xem xét định kỳ vào ngày 10/03/2023, có hiệu lực từ 17/03/2023."
+    },
+    {
+        "text": "công bố kết quả xem xét định kỳ",
+        "label": "EVENT",
+        "evidence": "MVIS Vietnam Local Index (V.N.M ETF) sẽ công bố kết quả xem xét định kỳ vào ngày 10/03/2023, có hiệu lực từ 17/03/2023."
+    },
+    {
+        "text": "ngày 10/03/2023",
+        "label": "DATE",
+        "evidence": "MVIS Vietnam Local Index (V.N.M ETF) sẽ công bố kết quả xem xét định kỳ vào ngày 10/03/2023, có hiệu lực từ 17/03/2023."
+    },
+    {
+        "text": "17/03/2023",
+        "label": "DATE",
+        "evidence": "MVIS Vietnam Local Index (V.N.M ETF) sẽ công bố kết quả xem xét định kỳ vào ngày 10/03/2023, có hiệu lực từ 17/03/2023."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "bị loại trong kỳ xem xét này",
+        "label": "EVENT",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "DCM",
+        "label": "TICKER",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "DXG",
+        "label": "TICKER",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "được thêm vào",
+        "label": "EVENT",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "MVIS VN Local Index",
+        "label": "ASSET",
+        "evidence": "Chúng tôi ước tính STB sẽ bị loại trong kỳ xem xét này do không đáp ứng yêu cầu về tỷ lệ sở hữu nước ngoài, trong khi DCM và DXG sẽ được thêm vào dựa trên cơ cấu danh mục của MVIS VN Local Index."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "624 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "547 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "476 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "tuần giao dịch 13-17/03/2023",
+        "label": "DATE",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "VNDirect ước tính ba quỹ ETF nước ngoài sẽ mua mạnh HPG (~624 tỷ đồng), VCB (~547 tỷ đồng) và VNM (~476 tỷ đồng) trong tuần giao dịch 13-17/03/2023, trước ngày hiệu lực danh mục mới của các quỹ ETF."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "153 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "bị loại khỏi các quỹ ETF",
+        "label": "EVENT",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "PLX",
+        "label": "TICKER",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ở chiều ngược lại, STB sẽ bị bán mạnh với giá trị 153 tỷ đồng sau khi bị loại khỏi các quỹ ETF này do không đủ điều kiện sở hữu nước ngoài, theo sau là PLX với giá trị 39 tỷ đồng."
+    },
+    {
+        "text": "10 ngày giao dịch gần nhất",
+        "label": "DATE",
+        "evidence": "Dựa trên dữ liệu 10 ngày giao dịch gần nhất, nhóm phân tích cho biết các cổ phiếu có số ngày giao dịch dài nhất của các quỹ ETF ngoại trong kỳ xem xét định kỳ này bao gồm: SAB (15,6 ngày); VJC (9,5 ngày) và VCB (7,9 ngày)."
+    },
+    {
+        "text": "ETF",
+        "label": "ASSET",
+        "evidence": "Dựa trên dữ liệu 10 ngày giao dịch gần nhất, nhóm phân tích cho biết các cổ phiếu có số ngày giao dịch dài nhất của các quỹ ETF ngoại trong kỳ xem xét định kỳ này bao gồm: SAB (15,6 ngày); VJC (9,5 ngày) và VCB (7,9 ngày)."
+    },
+    {
+        "text": "SAB",
+        "label": "TICKER",
+        "evidence": "Dựa trên dữ liệu 10 ngày giao dịch gần nhất, nhóm phân tích cho biết các cổ phiếu có số ngày giao dịch dài nhất của các quỹ ETF ngoại trong kỳ xem xét định kỳ này bao gồm: SAB (15,6 ngày); VJC (9,5 ngày) và VCB (7,9 ngày)."
+    },
+    {
+        "text": "VJC",
+        "label": "TICKER",
+        "evidence": "Dựa trên dữ liệu 10 ngày giao dịch gần nhất, nhóm phân tích cho biết các cổ phiếu có số ngày giao dịch dài nhất của các quỹ ETF ngoại trong kỳ xem xét định kỳ này bao gồm: SAB (15,6 ngày); VJC (9,5 ngày) và VCB (7,9 ngày)."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Dựa trên dữ liệu 10 ngày giao dịch gần nhất, nhóm phân tích cho biết các cổ phiếu có số ngày giao dịch dài nhất của các quỹ ETF ngoại trong kỳ xem xét định kỳ này bao gồm: SAB (15,6 ngày); VJC (9,5 ngày) và VCB (7,9 ngày)."
+    },
+    {
+        "text": "Fubon",
+        "label": "ORG",
+        "evidence": "Ước tính tổng mua/bán của 3 quỹ Fubon, FTSE, VNM ETF"
+    },
+    {
+        "text": "FTSE",
+        "label": "ORG",
+        "evidence": "Ước tính tổng mua/bán của 3 quỹ Fubon, FTSE, VNM ETF"
+    },
+    {
+        "text": "VNM ETF",
+        "label": "ORG",
+        "evidence": "Ước tính tổng mua/bán của 3 quỹ Fubon, FTSE, VNM ETF"
+    }
+]

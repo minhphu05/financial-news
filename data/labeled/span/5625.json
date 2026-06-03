@@ -1,0 +1,297 @@
+[
+    {
+        "text": "11/10",
+        "label": "DATE",
+        "evidence": "tối 11/10, trong khuôn khổ Chương trình trình diễn thời trang \"Bước chân Di sản\" của Lễ hội Văn hoá Thế giới tại Hà Nội đã diễn ra phiên đấu giá thiện nguyện để ủng hộ đồng bào chịu ảnh hưởng bởi mưa lũ vừa qua."
+    },
+    {
+        "text": "diễn ra phiên đấu giá thiện nguyện để ủng hộ đồng bào chịu ảnh hưởng bởi mưa lũ vừa qua",
+        "label": "EVENT",
+        "evidence": "tối 11/10, trong khuôn khổ Chương trình trình diễn thời trang \"Bước chân Di sản\" của Lễ hội Văn hoá Thế giới tại Hà Nội đã diễn ra phiên đấu giá thiện nguyện để ủng hộ đồng bào chịu ảnh hưởng bởi mưa lũ vừa qua."
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "Đại diện Ngân hàng SHB và Tập đoàn T&T Group đấu giá thành công bức tranh của họa sĩ Ngô Bá Hoàng với giá 1 tỷ đồng."
+    },
+    {
+        "text": "Tập đoàn T&T Group",
+        "label": "ORG",
+        "evidence": "Đại diện Ngân hàng SHB và Tập đoàn T&T Group đấu giá thành công bức tranh của họa sĩ Ngô Bá Hoàng với giá 1 tỷ đồng."
+    },
+    {
+        "text": "đấu giá thành công bức tranh của họa sĩ Ngô Bá Hoàng với giá 1 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Đại diện Ngân hàng SHB và Tập đoàn T&T Group đấu giá thành công bức tranh của họa sĩ Ngô Bá Hoàng với giá 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đại diện Ngân hàng SHB và Tập đoàn T&T Group đấu giá thành công bức tranh của họa sĩ Ngô Bá Hoàng với giá 1 tỷ đồng."
+    },
+    {
+        "text": "giá khởi điểm 150 triệu đồng",
+        "label": "PRICE",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "mua lại với giá 1 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bức tranh có giá khởi điểm 150 triệu đồng và được Ngân hàng SHB và T&T Group mua lại với giá 1 tỷ đồng."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB và T&T Group luôn đồng hành cùng cộng đồng không chỉ trong hoạt động tài chính, mà còn bằng sự sẻ chia và trách nhiệm xã hội"
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "SHB và T&T Group luôn đồng hành cùng cộng đồng không chỉ trong hoạt động tài chính, mà còn bằng sự sẻ chia và trách nhiệm xã hội"
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "đại diện Ngân hàng SHB và T&T Group chia sẻ."
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "đại diện Ngân hàng SHB và T&T Group chia sẻ."
+    },
+    {
+        "text": "một mạnh thường quân đấu giá thành công ở mức 555 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Cuối cùng, chiếc bình gốm\"Mẹ và con\"đã được một mạnh thường quân đấu giá thành công ở mức 555 triệu đồng, thể hiện tinh thần sẻ chia và lan tỏa yêu thương đúng như thông điệp của chương trình."
+    },
+    {
+        "text": "555 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cuối cùng, chiếc bình gốm\"Mẹ và con\"đã được một mạnh thường quân đấu giá thành công ở mức 555 triệu đồng, thể hiện tinh thần sẻ chia và lan tỏa yêu thương đúng như thông điệp của chương trình."
+    },
+    {
+        "text": "2,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chương trình đấu giá diễn ra thành công với tổng số tiền thu về là 2,5 tỷ đồng."
+    },
+    {
+        "text": "2,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Kết thúc chương trình, tổng số tiền thu được từ hoạt động đấu giá và sự ủng hộ của khán giả, các mạnh thường quân lên đến 2,5 tỷ đồng."
+    },
+    {
+        "text": "ngày 10/10 đến 12/10",
+        "label": "DATE",
+        "evidence": "Lễ hội Văn hóa thế giới lần thứ nhất tại Hà Nội diễn ra từ ngày 10/10 đến 12/10 tại Trung tâm di sản Hoàng thành Thăng Long."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Với mục tiêu tôn vinh giá trị đa dạng văn hóa và tăng cường giao lưu nhân dân, lễ hội là hoạt động đối ngoại văn hóa trọng điểm của Việt Nam năm 2025."
+    },
+    {
+        "text": "Ngân hàng SHB",
+        "label": "ORG",
+        "evidence": "Trong vai trò nhà tài trợ, Ngân hàng SHB và Tập đoàn T&T vinh dự đồng hành cùng sự kiện đặc biệt này, góp phần tôn vinh và lan tỏa tinh hoa văn hóa Việt."
+    },
+    {
+        "text": "Tập đoàn T&T",
+        "label": "ORG",
+        "evidence": "Trong vai trò nhà tài trợ, Ngân hàng SHB và Tập đoàn T&T vinh dự đồng hành cùng sự kiện đặc biệt này, góp phần tôn vinh và lan tỏa tinh hoa văn hóa Việt."
+    },
+    {
+        "text": "SHB và Tập đoàn T&T vinh dự đồng hành cùng sự kiện đặc biệt này",
+        "label": "EVENT",
+        "evidence": "Trong vai trò nhà tài trợ, Ngân hàng SHB và Tập đoàn T&T vinh dự đồng hành cùng sự kiện đặc biệt này, góp phần tôn vinh và lan tỏa tinh hoa văn hóa Việt."
+    },
+    {
+        "text": "32 năm",
+        "label": "DATE",
+        "evidence": "Trong suốt 32 năm phát triển, SHB và T&T không chỉ là hai doanh nghiệp mà còn là người bạn đồng hành mỗi khi đất nước, người dân cần."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Trong suốt 32 năm phát triển, SHB và T&T không chỉ là hai doanh nghiệp mà còn là người bạn đồng hành mỗi khi đất nước, người dân cần."
+    },
+    {
+        "text": "T&T",
+        "label": "ORG",
+        "evidence": "Trong suốt 32 năm phát triển, SHB và T&T không chỉ là hai doanh nghiệp mà còn là người bạn đồng hành mỗi khi đất nước, người dân cần."
+    },
+    {
+        "text": "SHB đã nhanh chóng hành động, cử đội cứu trợ khẩn cấp đến Thái Nguyên",
+        "label": "EVENT",
+        "evidence": "Mới đây, trước những thiệt hại nghiêm trọng do bão lũ gây ra, SHB đã nhanh chóng hành động, cử đội cứu trợ khẩn cấp đến Thái Nguyên - một trong những địa phương chịu ảnh hưởng nặng nề nhất."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đoàn cứu trợ khẩn cấp của SHB nhanh chóng có mặt tại Thái Nguyên để trao quà cho người dân."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Thời gian tới, SHB sẽ tiếp tục có những hoạt động thiết thực nhằm hỗ trợ bà con vùng lũ tái thiết cuộc sống, sớm vượt qua khó khăn."
+    },
+    {
+        "text": "SHB đã chủ động triển khai các gói tín dụng ưu đãi, cơ cấu nợ, miễn giảm lãi suất cho hàng trăm nghìn khách hàng",
+        "label": "EVENT",
+        "evidence": "Trước đó, trong đại dịch Covid-19, khi cả xã hội đối diện với khủng hoảng, SHB đã chủ động triển khai các gói tín dụng ưu đãi, cơ cấu nợ, miễn giảm lãi suất cho hàng trăm nghìn khách hàng."
+    },
+    {
+        "text": "SHB còn tổ chức hàng loạt hoạt động thiện nguyện, trao tặng vật tư y tế, lương thực",
+        "label": "EVENT",
+        "evidence": "Không những thế, SHB còn tổ chức hàng loạt hoạt động thiện nguyện, trao tặng vật tư y tế, lương thực, sát cánh cùng người dân vượt qua thời điểm khó khăn nhất."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Tổng số tiền mà SHB, T&T Group và các doanh nghiệp trong hệ sinh thái của doanh nhân Đỗ Quang Hiển ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "Tổng số tiền mà SHB, T&T Group và các doanh nghiệp trong hệ sinh thái của doanh nhân Đỗ Quang Hiển ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "Đỗ Quang Hiển",
+        "label": "PERSON",
+        "evidence": "Tổng số tiền mà SHB, T&T Group và các doanh nghiệp trong hệ sinh thái của doanh nhân Đỗ Quang Hiển ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tổng số tiền mà SHB, T&T Group và các doanh nghiệp trong hệ sinh thái của doanh nhân Đỗ Quang Hiển ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "hơn 1.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng số tiền mà SHB, T&T Group và các doanh nghiệp trong hệ sinh thái của doanh nhân Đỗ Quang Hiển ủng hộ, đóng góp cho công tác phòng chống dịch lên tới hơn 1.500 tỷ đồng."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Song hành với các hoạt động kinh doanh, SHB và T&T Group luôn tích cực tham gia các chương trình an sinh xã hội"
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "Song hành với các hoạt động kinh doanh, SHB và T&T Group luôn tích cực tham gia các chương trình an sinh xã hội"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đến năm 2024, khi bão Yagi gây ảnh hưởng nặng nề tại nhiều tỉnh thành, SHB tiếp tục là ngân hàng tiên phong phối hợp với Uỷ ban Mặt trận Tổ Quốc nhiều địa phương trực tiếp đi khảo sát, hỗ trợ tài chính và tinh thần, giúp người dân nhanh chóng ổn định cuộc sống."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đến năm 2024, khi bão Yagi gây ảnh hưởng nặng nề tại nhiều tỉnh thành, SHB tiếp tục là ngân hàng tiên phong phối hợp với Uỷ ban Mặt trận Tổ Quốc nhiều địa phương trực tiếp đi khảo sát, hỗ trợ tài chính và tinh thần, giúp người dân nhanh chóng ổn định cuộc sống."
+    },
+    {
+        "text": "Uỷ ban Mặt trận Tổ Quốc",
+        "label": "ORG",
+        "evidence": "Đến năm 2024, khi bão Yagi gây ảnh hưởng nặng nề tại nhiều tỉnh thành, SHB tiếp tục là ngân hàng tiên phong phối hợp với Uỷ ban Mặt trận Tổ Quốc nhiều địa phương trực tiếp đi khảo sát, hỗ trợ tài chính và tinh thần, giúp người dân nhanh chóng ổn định cuộc sống."
+    },
+    {
+        "text": "hỗ trợ tài chính và tinh thần",
+        "label": "EVENT",
+        "evidence": "SHB tiếp tục là ngân hàng tiên phong phối hợp với Uỷ ban Mặt trận Tổ Quốc nhiều địa phương trực tiếp đi khảo sát, hỗ trợ tài chính và tinh thần, giúp người dân nhanh chóng ổn định cuộc sống."
+    },
+    {
+        "text": "chương trình \"Mái ấm cho đồng bào tôi\"",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, trong chương trình \"Mái ấm cho đồng bào tôi\", hưởng ứng lời phát động của Thủ tướng Chính phủ, SHB đã trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn."
+    },
+    {
+        "text": "lời phát động của Thủ tướng Chính phủ",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, trong chương trình \"Mái ấm cho đồng bào tôi\", hưởng ứng lời phát động của Thủ tướng Chính phủ, SHB đã trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đặc biệt, trong chương trình \"Mái ấm cho đồng bào tôi\", hưởng ứng lời phát động của Thủ tướng Chính phủ, SHB đã trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn."
+    },
+    {
+        "text": "trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, trong chương trình \"Mái ấm cho đồng bào tôi\", hưởng ứng lời phát động của Thủ tướng Chính phủ, SHB đã trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, trong chương trình \"Mái ấm cho đồng bào tôi\", hưởng ứng lời phát động của Thủ tướng Chính phủ, SHB đã trao tặng 100 tỷ đồng cho tỉnh Sóc Trăng (nay là TP Cần Thơ), hỗ trợ xóa nhà tạm, nhà dột nát cho hộ nghèo và cận nghèo trên địa bàn."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB chung tay xóa nhà tạm, nhà dột nát."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, SHB và Tập đoàn T&T cũng đồng hành cùng Bộ Công an, triển khai chương trình xóa nhà tạm, hỗ trợ người nghèo trên khắp các tỉnh thành, bao gồm việc xây dựng 700 căn nhà cho người nghèo tỉnh Bạc Liêu (nay là tỉnh Cà Mau); 150 căn nhà cho người dân và 1 điểm trường cho con em đồng bào miền núi, tại các tỉnh bị ảnh hưởng nặng nề bởi bão lũ như: Sơn La, Tuyên Quang, Điện Biên, Thái Nguyên…"
+    },
+    {
+        "text": "Tập đoàn T&T",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, SHB và Tập đoàn T&T cũng đồng hành cùng Bộ Công an, triển khai chương trình xóa nhà tạm, hỗ trợ người nghèo trên khắp các tỉnh thành, bao gồm việc xây dựng 700 căn nhà cho người nghèo tỉnh Bạc Liêu (nay là tỉnh Cà Mau); 150 căn nhà cho người dân và 1 điểm trường cho con em đồng bào miền núi, tại các tỉnh bị ảnh hưởng nặng nề bởi bão lũ như: Sơn La, Tuyên Quang, Điện Biên, Thái Nguyên…"
+    },
+    {
+        "text": "Bộ Công an",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, SHB và Tập đoàn T&T cũng đồng hành cùng Bộ Công an, triển khai chương trình xóa nhà tạm, hỗ trợ người nghèo trên khắp các tỉnh thành, bao gồm việc xây dựng 700 căn nhà cho người nghèo tỉnh Bạc Liêu (nay là tỉnh Cà Mau); 150 căn nhà cho người dân và 1 điểm trường cho con em đồng bào miền núi, tại các tỉnh bị ảnh hưởng nặng nề bởi bão lũ như: Sơn La, Tuyên Quang, Điện Biên, Thái Nguyên…"
+    },
+    {
+        "text": "triển khai chương trình xóa nhà tạm, hỗ trợ người nghèo trên khắp các tỉnh thành, bao gồm việc xây dựng 700 căn nhà cho người nghèo tỉnh Bạc Liêu (nay là tỉnh Cà Mau); 150 căn nhà cho người dân và 1 điểm trường cho con em đồng bào miền núi, tại các tỉnh bị ảnh hưởng nặng nề bởi bão lũ như: Sơn La, Tuyên Quang, Điện Biên, Thái Nguyên…",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, SHB và Tập đoàn T&T cũng đồng hành cùng Bộ Công an, triển khai chương trình xóa nhà tạm, hỗ trợ người nghèo trên khắp các tỉnh thành, bao gồm việc xây dựng 700 căn nhà cho người nghèo tỉnh Bạc Liêu (nay là tỉnh Cà Mau); 150 căn nhà cho người dân và 1 điểm trường cho con em đồng bào miền núi, tại các tỉnh bị ảnh hưởng nặng nề bởi bão lũ như: Sơn La, Tuyên Quang, Điện Biên, Thái Nguyên…"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Vừa qua, SHB vinh dự nhận Bằng khen của Thủ tướng Chính phủ vì đã có thành tích tiêu biểu, xuất sắc trong Phong trào thi đua \"Cả nước chung tay xóa nhà tạm, nhà dột nát trong năm 2025\"."
+    },
+    {
+        "text": "nhận Bằng khen của Thủ tướng Chính phủ vì đã có thành tích tiêu biểu, xuất sắc trong Phong trào thi đua \"Cả nước chung tay xóa nhà tạm, nhà dột nát trong năm 2025\"",
+        "label": "EVENT",
+        "evidence": "Vừa qua, SHB vinh dự nhận Bằng khen của Thủ tướng Chính phủ vì đã có thành tích tiêu biểu, xuất sắc trong Phong trào thi đua \"Cả nước chung tay xóa nhà tạm, nhà dột nát trong năm 2025\"."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Vừa qua, SHB vinh dự nhận Bằng khen của Thủ tướng Chính phủ vì đã có thành tích tiêu biểu, xuất sắc trong Phong trào thi đua \"Cả nước chung tay xóa nhà tạm, nhà dột nát trong năm 2025\"."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Ở nơi đâu người dân cần, ở thời điểm nào đất nước gọi, SHB và T&T Group luôn hiện diện, không chỉ với nguồn lực tài chính, mà với cả trái tim sẻ chia và khát vọng đồng hành cùng một Việt Nam phát triển bền vững và thịnh vượng."
+    },
+    {
+        "text": "T&T Group",
+        "label": "ORG",
+        "evidence": "Ở nơi đâu người dân cần, ở thời điểm nào đất nước gọi, SHB và T&T Group luôn hiện diện, không chỉ với nguồn lực tài chính, mà với cả trái tim sẻ chia và khát vọng đồng hành cùng một Việt Nam phát triển bền vững và thịnh vượng."
+    }
+]

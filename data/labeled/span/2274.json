@@ -1,0 +1,352 @@
+[
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Hai cổ phiếu cùng họ FOX và FOC liên tục có những phiên tăng trần, tăng mạnh kể từ cuối tháng 4/2024 đến nay."
+    },
+    {
+        "text": "FOC",
+        "label": "TICKER",
+        "evidence": "Hai cổ phiếu cùng họ FOX và FOC liên tục có những phiên tăng trần, tăng mạnh kể từ cuối tháng 4/2024 đến nay."
+    },
+    {
+        "text": "cuối tháng 4/2024",
+        "label": "DATE",
+        "evidence": "Hai cổ phiếu cùng họ FOX và FOC liên tục có những phiên tăng trần, tăng mạnh kể từ cuối tháng 4/2024 đến nay."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Trong đó, FOX đóng cửa phiên 7/6 ở mức giá 106.900 đồng/cổ phiếu - cao nhất lịch sử, tăng gấp đôi giá trị chỉ trong vòng gần 2 tháng."
+    },
+    {
+        "text": "7/6",
+        "label": "DATE",
+        "evidence": "Trong đó, FOX đóng cửa phiên 7/6 ở mức giá 106.900 đồng/cổ phiếu - cao nhất lịch sử, tăng gấp đôi giá trị chỉ trong vòng gần 2 tháng."
+    },
+    {
+        "text": "106.900 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Trong đó, FOX đóng cửa phiên 7/6 ở mức giá 106.900 đồng/cổ phiếu - cao nhất lịch sử, tăng gấp đôi giá trị chỉ trong vòng gần 2 tháng."
+    },
+    {
+        "text": "tăng gấp đôi giá trị",
+        "label": "RATE",
+        "evidence": "Trong đó, FOX đóng cửa phiên 7/6 ở mức giá 106.900 đồng/cổ phiếu - cao nhất lịch sử, tăng gấp đôi giá trị chỉ trong vòng gần 2 tháng."
+    },
+    {
+        "text": "sáng 10/6",
+        "label": "DATE",
+        "evidence": "Cập nhật sáng 10/6, FOX điều chỉnh xuống mức 105.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Cập nhật sáng 10/6, FOX điều chỉnh xuống mức 105.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "105.200 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Cập nhật sáng 10/6, FOX điều chỉnh xuống mức 105.200 đồng/cổ phiếu."
+    },
+    {
+        "text": "FOC",
+        "label": "TICKER",
+        "evidence": "Còn FOC cũng tăng hơn 30% lên vùng giá 106.200 đồng/cổ phiếu (tới 10h sáng 10/6)."
+    },
+    {
+        "text": "hơn 30%",
+        "label": "RATE",
+        "evidence": "Còn FOC cũng tăng hơn 30% lên vùng giá 106.200 đồng/cổ phiếu (tới 10h sáng 10/6)."
+    },
+    {
+        "text": "106.200 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Còn FOC cũng tăng hơn 30% lên vùng giá 106.200 đồng/cổ phiếu (tới 10h sáng 10/6)."
+    },
+    {
+        "text": "10h sáng 10/6",
+        "label": "DATE",
+        "evidence": "Còn FOC cũng tăng hơn 30% lên vùng giá 106.200 đồng/cổ phiếu (tới 10h sáng 10/6)."
+    },
+    {
+        "text": "130.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Vùng đỉnh của cổ phiếu này là sát 130.000 đồng/cổ phiếu."
+    },
+    {
+        "text": "FOX",
+        "label": "TICKER",
+        "evidence": "Lý do của sự tăng trưởng trên được cho là FOX và FOC hưởng lợi sự bứt phá mạnh mẽ của \"anh cả\" FPT."
+    },
+    {
+        "text": "FOC",
+        "label": "TICKER",
+        "evidence": "Lý do của sự tăng trưởng trên được cho là FOX và FOC hưởng lợi sự bứt phá mạnh mẽ của \"anh cả\" FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Lý do của sự tăng trưởng trên được cho là FOX và FOC hưởng lợi sự bứt phá mạnh mẽ của \"anh cả\" FPT."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Tính từ đầu năm đến nay, cổ phiếu FPT của Tập đoàn FPT đã có 27 lần đóng cửa ở mức cao nhất lịch sử (tính theo giá điều chỉnh) trong khi mới giao dịch tổng cộng 105 phiên."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tính từ đầu năm đến nay, cổ phiếu FPT của Tập đoàn FPT đã có 27 lần đóng cửa ở mức cao nhất lịch sử (tính theo giá điều chỉnh) trong khi mới giao dịch tổng cộng 105 phiên."
+    },
+    {
+        "text": "27 lần đóng cửa ở mức cao nhất lịch sử",
+        "label": "EVENT",
+        "evidence": "Tính từ đầu năm đến nay, cổ phiếu FPT của Tập đoàn FPT đã có 27 lần đóng cửa ở mức cao nhất lịch sử (tính theo giá điều chỉnh) trong khi mới giao dịch tổng cộng 105 phiên."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Bốn cổ phiếu 'họ\" FPT vượt mốc 100.000 đồng/cổ phiếu"
+    },
+    {
+        "text": "100.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Bốn cổ phiếu 'họ\" FPT vượt mốc 100.000 đồng/cổ phiếu"
+    },
+    {
+        "text": "Cổ phiếu FPT lên đỉnh",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "142.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "7/6",
+        "label": "DATE",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "180.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "7,4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "gần 50%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Cổ phiếu FPT lên đỉnh (142.000 đồng/cổ phiếu - kết phiên 7/6), vốn hóa thị trường của FPT cũng lập kỷ lục mới trên 180.000 tỷ đồng (xấp xỉ 7,4 tỷ USD), cao hơn gần 50% so với đầu năm 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Đà bứt phá đưa FPT leo lên vị trí thứ 5 trong danh sách các công ty niêm yết lớn nhất thị trường chứng khoán Việt Nam."
+    },
+    {
+        "text": "10h sáng 10/6",
+        "label": "DATE",
+        "evidence": "Cập nhật tới 10h sáng 10/6,cổ phiếu FPTtiếp tục leo lên mức 143.400 đồng/cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Cập nhật tới 10h sáng 10/6,cổ phiếu FPTtiếp tục leo lên mức 143.400 đồng/cổ phiếu."
+    },
+    {
+        "text": "143.400 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Cập nhật tới 10h sáng 10/6,cổ phiếu FPTtiếp tục leo lên mức 143.400 đồng/cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Giới chuyên gia nhận định, giá cổ phiếu FPT đã tăng vọt từ khi tin tức về mối quan hệ hợp tác với Nvidia - Tập đoàn công nghệ đa quốc gia xuất hiện, với mức P/E hiện tại là 25,5x, cao nhất mọi thời đại."
+    },
+    {
+        "text": "mối quan hệ hợp tác với Nvidia",
+        "label": "EVENT",
+        "evidence": "Giới chuyên gia nhận định, giá cổ phiếu FPT đã tăng vọt từ khi tin tức về mối quan hệ hợp tác với Nvidia - Tập đoàn công nghệ đa quốc gia xuất hiện, với mức P/E hiện tại là 25,5x, cao nhất mọi thời đại."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Giới chuyên gia nhận định, giá cổ phiếu FPT đã tăng vọt từ khi tin tức về mối quan hệ hợp tác với Nvidia - Tập đoàn công nghệ đa quốc gia xuất hiện, với mức P/E hiện tại là 25,5x, cao nhất mọi thời đại."
+    },
+    {
+        "text": "25,5x",
+        "label": "RATE",
+        "evidence": "Giới chuyên gia nhận định, giá cổ phiếu FPT đã tăng vọt từ khi tin tức về mối quan hệ hợp tác với Nvidia - Tập đoàn công nghệ đa quốc gia xuất hiện, với mức P/E hiện tại là 25,5x, cao nhất mọi thời đại."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, FRT của CTCP Bán lẻ Kỹ thuật số FPT (FPT Retail) cũng diễn biến tích cực từ đầu năm 2024."
+    },
+    {
+        "text": "CTCP Bán lẻ Kỹ thuật số FPT",
+        "label": "ORG",
+        "evidence": "Trong khi đó, FRT của CTCP Bán lẻ Kỹ thuật số FPT (FPT Retail) cũng diễn biến tích cực từ đầu năm 2024."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Trong khi đó, FRT của CTCP Bán lẻ Kỹ thuật số FPT (FPT Retail) cũng diễn biến tích cực từ đầu năm 2024."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Trong khi đó, FRT của CTCP Bán lẻ Kỹ thuật số FPT (FPT Retail) cũng diễn biến tích cực từ đầu năm 2024."
+    },
+    {
+        "text": "10h sáng 10/6",
+        "label": "DATE",
+        "evidence": "Tới 10h sáng 10/6, cổ phiếu này đang giao dịch ở mức giá 170.900 đồng/cổ phiếu, là một trong những mã có giá trị cao nhất thị trường hiện nay."
+    },
+    {
+        "text": "170.900 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Tới 10h sáng 10/6, cổ phiếu này đang giao dịch ở mức giá 170.900 đồng/cổ phiếu, là một trong những mã có giá trị cao nhất thị trường hiện nay."
+    },
+    {
+        "text": "Cổ phiếu FRT",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu FRT tăng trưởng bất chấp doanh nghiệp này thua lỗ trong năm 2023 do thị trường bán lẻ tụt dốc."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Cổ phiếu FRT tăng trưởng bất chấp doanh nghiệp này thua lỗ trong năm 2023 do thị trường bán lẻ tụt dốc."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Dù vậy, FPT Retail vẫn được kỳ vọng có tiềm năng tăng trưởng lớn khi chuỗi dược phẩm FPT Long Châu liên tục mở rộng thời gian qua."
+    },
+    {
+        "text": "FPT Long Châu",
+        "label": "ORG",
+        "evidence": "Dù vậy, FPT Retail vẫn được kỳ vọng có tiềm năng tăng trưởng lớn khi chuỗi dược phẩm FPT Long Châu liên tục mở rộng thời gian qua."
+    },
+    {
+        "text": "FPT Long Châu liên tục mở rộng",
+        "label": "EVENT",
+        "evidence": "Dù vậy, FPT Retail vẫn được kỳ vọng có tiềm năng tăng trưởng lớn khi chuỗi dược phẩm FPT Long Châu liên tục mở rộng thời gian qua."
+    },
+    {
+        "text": "cuối quý I",
+        "label": "DATE",
+        "evidence": "Tại thời điểm cuối quý I, FPT Long Châu có 1.587 nhà thuốc, tăng 90 nhà thuốc so với đầu năm 2024."
+    },
+    {
+        "text": "FPT Long Châu",
+        "label": "ORG",
+        "evidence": "Tại thời điểm cuối quý I, FPT Long Châu có 1.587 nhà thuốc, tăng 90 nhà thuốc so với đầu năm 2024."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Tại thời điểm cuối quý I, FPT Long Châu có 1.587 nhà thuốc, tăng 90 nhà thuốc so với đầu năm 2024."
+    },
+    {
+        "text": "mở mới 41 trung tâm",
+        "label": "EVENT",
+        "evidence": "Công ty cũng phát triển mạng lưới trung tâm vaccine với 3 mô hình như shop in shop, side by side và cửa hàng độc lập, mở mới 41 trung tâm trong quý đầu năm 2024."
+    },
+    {
+        "text": "quý đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Công ty cũng phát triển mạng lưới trung tâm vaccine với 3 mô hình như shop in shop, side by side và cửa hàng độc lập, mở mới 41 trung tâm trong quý đầu năm 2024."
+    },
+    {
+        "text": "mở mới thêm 400 cửa hàng Long Châu",
+        "label": "EVENT",
+        "evidence": "Công ty đặt mục tiêu sẽ mở mới thêm 400 cửa hàng Long Châu trong năm nay để đưa tổng số lên khoảng 1.900 điểm bán; đồng thời dự kiến phát triển 100 trung tâm vắc xin mới để hình thành hệ sinh thái chăm sóc sức khỏe."
+    },
+    {
+        "text": "phát triển 100 trung tâm vắc xin mới",
+        "label": "EVENT",
+        "evidence": "Công ty đặt mục tiêu sẽ mở mới thêm 400 cửa hàng Long Châu trong năm nay để đưa tổng số lên khoảng 1.900 điểm bán; đồng thời dự kiến phát triển 100 trung tâm vắc xin mới để hình thành hệ sinh thái chăm sóc sức khỏe."
+    },
+    {
+        "text": "quý I/2024",
+        "label": "DATE",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "FPT Long Châu",
+        "label": "ORG",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "5.534 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "tăng 68%",
+        "label": "RATE",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "61%",
+        "label": "RATE",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "FPT Retail",
+        "label": "ORG",
+        "evidence": "Trong quý I/2024, FPT Long Châu đóng góp 5.534 tỷ đồng, tăng 68% và chiếm 61% tổng doanh thu của FPT Retail."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "89 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "gấp 45 lần",
+        "label": "RATE",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "61 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "gấp 30 lần",
+        "label": "RATE",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đây cũng là động lực chính giúp FRT lãi trước thuế 89 tỷ đồng, gấp 45 lần cùng kỳ năm 2023 và cao nhất trong 5 quý gần đây; lãi sau thuế 61 tỷ đồng, gấp 30 lần so với con số vỏn vẹn 2 tỷ đồng của cùng kỳ."
+    }
+]

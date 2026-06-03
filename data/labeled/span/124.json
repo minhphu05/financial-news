@@ -1,0 +1,107 @@
+[
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "hạn mức rút tiền tối đa trên mỗi giao dịch sẽ tăng lên 20 triệu đồng từ mức 5 - 10 triệu đồng trước đó."
+    },
+    {
+        "text": "5 - 10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "hạn mức rút tiền tối đa trên mỗi giao dịch sẽ tăng lên 20 triệu đồng từ mức 5 - 10 triệu đồng trước đó."
+    },
+    {
+        "text": "tăng lên 20 triệu đồng từ mức 5 - 10 triệu đồng",
+        "label": "EVENT",
+        "evidence": "hạn mức rút tiền tối đa trên mỗi giao dịch sẽ tăng lên 20 triệu đồng từ mức 5 - 10 triệu đồng trước đó."
+    },
+    {
+        "text": "Thông tư 18/2024/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "tuân thủ theo quy định tại Thông tư 18/2024/TT-NHNN của Ngân hàng nhà nước."
+    },
+    {
+        "text": "Ngân hàng nhà nước",
+        "label": "ORG",
+        "evidence": "tuân thủ theo quy định tại Thông tư 18/2024/TT-NHNN của Ngân hàng nhà nước."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, thẻ tín dụng cá nhân là 100 triệu đồng và thẻ ghi nợ lên tới 300 triệu đồng tùy từng loại thẻ."
+    },
+    {
+        "text": "300 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, thẻ tín dụng cá nhân là 100 triệu đồng và thẻ ghi nợ lên tới 300 triệu đồng tùy từng loại thẻ."
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "Từ tháng 1/2025, nhiều ngân hàng đã rục rịch điều chỉnh hạn mức rút tiền mặt qua thẻ ATM, mang đến sự linh hoạt hơn cho người dùng nhưng cũng đi kèm với những lưu ý về an toàn tài chính."
+    },
+    {
+        "text": "điều chỉnh hạn mức rút tiền mặt qua thẻ ATM",
+        "label": "EVENT",
+        "evidence": "Từ tháng 1/2025, nhiều ngân hàng đã rục rịch điều chỉnh hạn mức rút tiền mặt qua thẻ ATM, mang đến sự linh hoạt hơn cho người dùng nhưng cũng đi kèm với những lưu ý về an toàn tài chính."
+    },
+    {
+        "text": "Thông tư 18/2024/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "Những thay đổi này diễn ra trong bối cảnh Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước (có hiệu lực từ ngày 01/01/2025) trao quyền chủ động hơn cho các ngân hàng trong việc thiết lập hạn mức thẻ."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Những thay đổi này diễn ra trong bối cảnh Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước (có hiệu lực từ ngày 01/01/2025) trao quyền chủ động hơn cho các ngân hàng trong việc thiết lập hạn mức thẻ."
+    },
+    {
+        "text": "ngày 01/01/2025",
+        "label": "DATE",
+        "evidence": "Những thay đổi này diễn ra trong bối cảnh Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước (có hiệu lực từ ngày 01/01/2025) trao quyền chủ động hơn cho các ngân hàng trong việc thiết lập hạn mức thẻ."
+    },
+    {
+        "text": "trao quyền chủ động hơn cho các ngân hàng trong việc thiết lập hạn mức thẻ",
+        "label": "EVENT",
+        "evidence": "Những thay đổi này diễn ra trong bối cảnh Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước (có hiệu lực từ ngày 01/01/2025) trao quyền chủ động hơn cho các ngân hàng trong việc thiết lập hạn mức thẻ."
+    },
+    {
+        "text": "30 triệu đồng Việt Nam",
+        "label": "MONEY",
+        "evidence": "Một thẻ được rút tối đa tương đương 30 triệu đồng Việt Nam trong một ngày."
+    },
+    {
+        "text": "một ngày",
+        "label": "DATE",
+        "evidence": "Một thẻ được rút tối đa tương đương 30 triệu đồng Việt Nam trong một ngày."
+    },
+    {
+        "text": "100 triệu đồng Việt Nam",
+        "label": "MONEY",
+        "evidence": "Tổng hạn mức rút tiền mặt tối đa là 100 triệu đồng Việt Nam trong một tháng (tính theo mã tổ chức phát hành thẻ)."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Tổng hạn mức rút tiền mặt tối đa là 100 triệu đồng Việt Nam trong một tháng (tính theo mã tổ chức phát hành thẻ)."
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Số dư tối đa trên một thẻ trả trước vô danh không được vượt quá 5 triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tổng hạn mức giao dịch (bao gồm rút tiền, chuyển khoản, thanh toán) trên một thẻ trả trước định danh không được vượt quá 100 triệu đồng trong một tháng."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Tổng hạn mức giao dịch (bao gồm rút tiền, chuyển khoản, thanh toán) trên một thẻ trả trước định danh không được vượt quá 100 triệu đồng trong một tháng."
+    },
+    {
+        "text": "nâng hạn mức rút tiền tại ATM",
+        "label": "EVENT",
+        "evidence": "Việc nâng hạn mức rút tiền tại ATM mang lại nhiều lợi ích thiết thực cho người dùng."
+    }
+]

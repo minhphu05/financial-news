@@ -1,0 +1,397 @@
+[
+    {
+        "text": "phiên giao dịch đầu tuần",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán mở cửa phiên giao dịch đầu tuần diễn biến khá tích cực khi bật tăng tới 10 điểm."
+    },
+    {
+        "text": "10 điểm",
+        "label": "RATE",
+        "evidence": "Thị trường chứng khoán mở cửa phiên giao dịch đầu tuần diễn biến khá tích cực khi bật tăng tới 10 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Về cuối phiên, VN-Index giằng co quanh mốc tham chiếu, thậm chí có thời điểm đã đổi màu giảm nhẹ."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Song, những nỗ lực nâng đỡ chỉ số từ nhóm cổ phiếu trụ đã giúp VN-Index đóng cửa trong sắc xanh."
+    },
+    {
+        "text": "Kết phiên giao dịch",
+        "label": "EVENT",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng2,77điểm (+0,26%) lên1.054,21điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng2,77điểm (+0,26%) lên1.054,21điểm."
+    },
+    {
+        "text": "tăng2,77điểm",
+        "label": "RATE",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng2,77điểm (+0,26%) lên1.054,21điểm."
+    },
+    {
+        "text": "+0,26%",
+        "label": "RATE",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng2,77điểm (+0,26%) lên1.054,21điểm."
+    },
+    {
+        "text": "1.054,21điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên giao dịch, VN-Index tăng2,77điểm (+0,26%) lên1.054,21điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "giảm 0,98điểm",
+        "label": "RATE",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "209,67điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "giảm 0,04điểm",
+        "label": "RATE",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "72,71điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Indexgiảm 0,98điểmxuống209,67điểm và UPCoM-Indexgiảm 0,04điểmxuống72,71điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE bị “hụt hơi” với giá trị khớp lệnh đạt 6.514 tỷ đồng; tương ứng giảm tới 36% so với phiên trước."
+    },
+    {
+        "text": "giá trị khớp lệnh đạt 6.514 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản trên HoSE bị “hụt hơi” với giá trị khớp lệnh đạt 6.514 tỷ đồng; tương ứng giảm tới 36% so với phiên trước."
+    },
+    {
+        "text": "6.514 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản trên HoSE bị “hụt hơi” với giá trị khớp lệnh đạt 6.514 tỷ đồng; tương ứng giảm tới 36% so với phiên trước."
+    },
+    {
+        "text": "giảm tới 36%",
+        "label": "RATE",
+        "evidence": "Thanh khoản trên HoSE bị “hụt hơi” với giá trị khớp lệnh đạt 6.514 tỷ đồng; tương ứng giảm tới 36% so với phiên trước."
+    },
+    {
+        "text": "giao dịch khối ngoại",
+        "label": "EVENT",
+        "evidence": "Cùng chiều với đà tăng của thị trường chung,giao dịch khối ngoại tiếp tục là điểm sáng khi họ mua ròng với tổng giá trị 556tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "mua ròng với tổng giá trị 556tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Cùng chiều với đà tăng của thị trường chung,giao dịch khối ngoại tiếp tục là điểm sáng khi họ mua ròng với tổng giá trị 556tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "556tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cùng chiều với đà tăng của thị trường chung,giao dịch khối ngoại tiếp tục là điểm sáng khi họ mua ròng với tổng giá trị 556tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, CTG trong khi bán ròng BID, DGC."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, CTG trong khi bán ròng BID, DGC."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, CTG trong khi bán ròng BID, DGC."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, CTG trong khi bán ròng BID, DGC."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 538tỷ đồng"
+    },
+    {
+        "text": "mua ròng vớigiá trị xấp xỉ 538tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 538tỷ đồng"
+    },
+    {
+        "text": "538tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 538tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 88 tỷ đồng."
+    },
+    {
+        "text": "88 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 88 tỷ đồng."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, CTG xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 47 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, CTG xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 47 tỷ đồng."
+    },
+    {
+        "text": "47 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, CTG xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 47 tỷ đồng."
+    },
+    {
+        "text": "chứng chỉ quỹ",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, khối ngoại còn mua ròng 2 chứng chỉ quỹ là FUEVFVND và FUESSVFL với giá trị lần lượt 43 tỷ và 39 tỷ đồng."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại còn mua ròng 2 chứng chỉ quỹ là FUEVFVND và FUESSVFL với giá trị lần lượt 43 tỷ và 39 tỷ đồng."
+    },
+    {
+        "text": "FUESSVFL",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại còn mua ròng 2 chứng chỉ quỹ là FUEVFVND và FUESSVFL với giá trị lần lượt 43 tỷ và 39 tỷ đồng."
+    },
+    {
+        "text": "43 tỷ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại còn mua ròng 2 chứng chỉ quỹ là FUEVFVND và FUESSVFL với giá trị lần lượt 43 tỷ và 39 tỷ đồng."
+    },
+    {
+        "text": "39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại còn mua ròng 2 chứng chỉ quỹ là FUEVFVND và FUESSVFL với giá trị lần lượt 43 tỷ và 39 tỷ đồng."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "23 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "FRT",
+        "label": "TICKER",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "21",
+        "label": "MONEY",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "17 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, BID chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 23 tỷ đồng; theo sau DGC và FRT bị bán ròng lần lượt 21 và 17 tỷ đồng."
+    },
+    {
+        "text": "KDG",
+        "label": "TICKER",
+        "evidence": "Xếp tiếp theo danh sách bán ròng còn có KDG (-10 tỷ đồng), PVT (-7 tỷ đồng)."
+    },
+    {
+        "text": "-10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Xếp tiếp theo danh sách bán ròng còn có KDG (-10 tỷ đồng), PVT (-7 tỷ đồng)."
+    },
+    {
+        "text": "PVT",
+        "label": "TICKER",
+        "evidence": "Xếp tiếp theo danh sách bán ròng còn có KDG (-10 tỷ đồng), PVT (-7 tỷ đồng)."
+    },
+    {
+        "text": "-7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Xếp tiếp theo danh sách bán ròng còn có KDG (-10 tỷ đồng), PVT (-7 tỷ đồng)."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị gần 14 tỷ đồng"
+    },
+    {
+        "text": "mua ròng với giá trị gần 14 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị gần 14 tỷ đồng"
+    },
+    {
+        "text": "14 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị gần 14 tỷ đồng"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "1-3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "TNG được khối ngoại mua ròng mạnh nhất với 7 tỷ đồng, ngoài ra dòng vốn ngoại còn tìm tới CEO, IDC, PVS, SHS... với giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "IDV",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDV, ONE, THD, IPA,.... bị bán ròng mạnh nhất trên HNX, song giá trị chỉ khoảng vài triệu đến vài chục triệu đồng."
+    },
+    {
+        "text": "ONE",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDV, ONE, THD, IPA,.... bị bán ròng mạnh nhất trên HNX, song giá trị chỉ khoảng vài triệu đến vài chục triệu đồng."
+    },
+    {
+        "text": "THD",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDV, ONE, THD, IPA,.... bị bán ròng mạnh nhất trên HNX, song giá trị chỉ khoảng vài triệu đến vài chục triệu đồng."
+    },
+    {
+        "text": "IPA",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDV, ONE, THD, IPA,.... bị bán ròng mạnh nhất trên HNX, song giá trị chỉ khoảng vài triệu đến vài chục triệu đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Ngược lại, IDV, ONE, THD, IPA,.... bị bán ròng mạnh nhất trên HNX, song giá trị chỉ khoảng vài triệu đến vài chục triệu đồng."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài hôm nay mua ròng nhẹ 4 tỷ đồng"
+    },
+    {
+        "text": "mua ròng nhẹ 4 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài hôm nay mua ròng nhẹ 4 tỷ đồng"
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài hôm nay mua ròng nhẹ 4 tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "VOC",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 2 triệu đồng; ngoài ra họ cũng mua ròng tại ACV (1 tỷ đồng), MCH, VOC.... với giá trị không đáng kể."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    },
+    {
+        "text": "SWC",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    },
+    {
+        "text": "TCI",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    },
+    {
+        "text": "RIC",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    },
+    {
+        "text": "VAB",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu VTP bị bán mạnh nhất với giá trị 100 triệu đồng; theo sau SWC, TCI, RIC, VAB,... bị khối ngoại bán ròng mỗi mã vài chục triệu đồng."
+    }
+]

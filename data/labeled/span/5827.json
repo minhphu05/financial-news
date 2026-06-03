@@ -1,0 +1,357 @@
+[
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiết kiệm của ngân hàng SHB chính thức có hiệu lực từ 23/3/2024."
+    },
+    {
+        "text": "23/3/2024",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiết kiệm của ngân hàng SHB chính thức có hiệu lực từ 23/3/2024."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Theo biểulãi suất tiết kiệm trực tuyến mới nhất của SHB, lãi suất tiền gửi kỳ hạn 1 tháng tăng thêm 0,2 điểm % lên 2,8%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 1 tháng tăng thêm 0,2 điểm %",
+        "label": "EVENT",
+        "evidence": "Theo biểulãi suất tiết kiệm trực tuyến mới nhất của SHB, lãi suất tiền gửi kỳ hạn 1 tháng tăng thêm 0,2 điểm % lên 2,8%/năm."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi kỳ hạn 1 tháng tăng thêm 0,2 điểm % lên 2,8%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi kỳ hạn 1 tháng tăng thêm 0,2 điểm % lên 2,8%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm tăng 0,1 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "Đối với kỳ hạn 2 tháng, lãi suất tiết kiệm tăng 0,1 điểm phần trăm lên 2,8%/năm."
+    },
+    {
+        "text": "0,1 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 2 tháng, lãi suất tiết kiệm tăng 0,1 điểm phần trăm lên 2,8%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "Đối với kỳ hạn 2 tháng, lãi suất tiết kiệm tăng 0,1 điểm phần trăm lên 2,8%/năm."
+    },
+    {
+        "text": "lãi suất tiết kiệm cũng tăng 0,1 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "Ở kỳ hạn 12 tháng, lãi suất tiết kiệm cũng tăng 0,1 điểm phần trăm, lên 4,9%/năm;"
+    },
+    {
+        "text": "0,1 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "Ở kỳ hạn 12 tháng, lãi suất tiết kiệm cũng tăng 0,1 điểm phần trăm, lên 4,9%/năm;"
+    },
+    {
+        "text": "4,9%/năm",
+        "label": "RATE",
+        "evidence": "lên 4,9%/năm;"
+    },
+    {
+        "text": "kỳ hạn 13-15 tháng tăng 0,2 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 13-15 tháng tăng 0,2 điểm phần trăm, lên 5%/năm;"
+    },
+    {
+        "text": "0,2 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 13-15 tháng tăng 0,2 điểm phần trăm, lên 5%/năm;"
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "lên 5%/năm;"
+    },
+    {
+        "text": "kỳ hạn 18 tháng tăng 0,1 điểm phần trăm",
+        "label": "EVENT",
+        "evidence": "kỳ hạn 18 tháng tăng 0,1 điểm phần trăm, lên 5,2%/năm."
+    },
+    {
+        "text": "0,1 điểm phần trăm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 18 tháng tăng 0,1 điểm phần trăm, lên 5,2%/năm."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "lên 5,2%/năm."
+    },
+    {
+        "text": "giữ nguyên lãi suất tiết kiệm",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, ngân hàng này giữ nguyên lãi suất tiết kiệm với các kỳ hạn còn lại."
+    },
+    {
+        "text": "3%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất tiết kiệm là 3%/năm, kỳ hạn 4-5 tháng là 3,1%/năm, kỳ hạn 6 tháng là 4,2%/năm, kỳ hạn 7-8 tháng là 4,3%/năm, kỳ hạn 9-10 tháng là 4,4%/năm, kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "3,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 4-5 tháng là 3,1%/năm, kỳ hạn 6 tháng là 4,2%/năm, kỳ hạn 7-8 tháng là 4,3%/năm, kỳ hạn 9-10 tháng là 4,4%/năm, kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "4,2%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 tháng là 4,2%/năm, kỳ hạn 7-8 tháng là 4,3%/năm, kỳ hạn 9-10 tháng là 4,4%/năm, kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "4,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 7-8 tháng là 4,3%/năm, kỳ hạn 9-10 tháng là 4,4%/năm, kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "4,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 9-10 tháng là 4,4%/năm, kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 24 tháng là 5,5%/năm, kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "5,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 36 tháng, lãi suất là 5,8%/năm."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm online mới nhất tại ngân hàng SHB."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB cũng áp dung biểu lãi suất mới dành cho khách hàng lựa chọn hình thức theo hai hạn mức tiền gửi là dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "là dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "từ 2 tỷ đồng trở lên",
+        "label": "MONEY",
+        "evidence": "là dưới 2 tỷ đồng và từ 2 tỷ đồng trở lên."
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Theo đó, mức lãi suất tiết kiệm cao nhất mà ngân hàng này áp dụng tại kỳ hạn 36 tháng trở lên là 5,7%/năm, với hình thức trả lãi cuối kỳ cùng số tiền trên 2 tỷ."
+    },
+    {
+        "text": "2 tỷ",
+        "label": "MONEY",
+        "evidence": "cùng số tiền trên 2 tỷ."
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "BaoViet Bank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "PVCombank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Dong A Bank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Kienlongbank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "SCB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "ABBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "CBBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "OceanBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Kể từ đầu tháng 3, đã có 25 ngân hàng thương mại giảm lãi suất huy động gồm: PGBank, BVBank, BaoViet Bank, GPBank, ACB, Agribank, VPBank, PVCombank, Dong A Bank, MB, Techcombank, NCB, Kienlongbank, Agribank, SCB, Saigonbank, BIDV, Sacombank, ABBank, SeABank, CBBank, OceanBank, TPBank, VietinBank, VIB."
+    },
+    {
+        "text": "BaoViet Bank",
+        "label": "ORG",
+        "evidence": "Trong đó, BaoViet Bank, GPBank,  PGBank, Techcombank đã 2 lần giảm lãi suất huy động kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "Trong đó, BaoViet Bank, GPBank,  PGBank, Techcombank đã 2 lần giảm lãi suất huy động kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "PGBank",
+        "label": "ORG",
+        "evidence": "Trong đó, BaoViet Bank, GPBank,  PGBank, Techcombank đã 2 lần giảm lãi suất huy động kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong đó, BaoViet Bank, GPBank,  PGBank, Techcombank đã 2 lần giảm lãi suất huy động kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "đã 2 lần giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Trong đó, BaoViet Bank, GPBank,  PGBank, Techcombank đã 2 lần giảm lãi suất huy động kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "đầu tháng",
+        "label": "DATE",
+        "evidence": "kể từ đầu tháng trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "3 lần giảm lãi suất",
+        "label": "EVENT",
+        "evidence": "trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "trong khi BVBank có tới 3 lần giảm lãi suất trong tháng 3."
+    },
+    {
+        "text": "tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Một số ngân hàng tăng lãi suất huy động tại một số kỳ hạn là SHB, Saigonbank và Eximbank."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Một số ngân hàng tăng lãi suất huy động tại một số kỳ hạn là SHB, Saigonbank và Eximbank."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Một số ngân hàng tăng lãi suất huy động tại một số kỳ hạn là SHB, Saigonbank và Eximbank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Một số ngân hàng tăng lãi suất huy động tại một số kỳ hạn là SHB, Saigonbank và Eximbank."
+    }
+]

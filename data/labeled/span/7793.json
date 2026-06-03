@@ -1,0 +1,487 @@
+[
+    {
+        "text": "báo cáo tài chính quý I",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo tài chính quý I, lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Theo báo cáo tài chính quý I, lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Theo báo cáo tài chính quý I, lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "11.221 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "8.992 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "gần 13%",
+        "label": "RATE",
+        "evidence": "lợi nhuận hợp nhất trước thuế và sau thuế của Vietcombank đạt 11.221 tỷ đồng và 8.992 tỷ đồng, tăng gần 13% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "Đại hội cổ đông thường niên",
+        "label": "EVENT",
+        "evidence": "Tại Đại hội cổ đông thường niên vừa qua, cổ đông Vietcombank đã thông qua kế hoạch kinh doanh năm 2023 với mục tiêu lợi nhuận lợi nhuận trước thuế tăng tối thiểu 15% so với năm 2022."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại Đại hội cổ đông thường niên vừa qua, cổ đông Vietcombank đã thông qua kế hoạch kinh doanh năm 2023 với mục tiêu lợi nhuận lợi nhuận trước thuế tăng tối thiểu 15% so với năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Tại Đại hội cổ đông thường niên vừa qua, cổ đông Vietcombank đã thông qua kế hoạch kinh doanh năm 2023 với mục tiêu lợi nhuận lợi nhuận trước thuế tăng tối thiểu 15% so với năm 2022."
+    },
+    {
+        "text": "tối thiểu 15%",
+        "label": "RATE",
+        "evidence": "Tại Đại hội cổ đông thường niên vừa qua, cổ đông Vietcombank đã thông qua kế hoạch kinh doanh năm 2023 với mục tiêu lợi nhuận lợi nhuận trước thuế tăng tối thiểu 15% so với năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tại Đại hội cổ đông thường niên vừa qua, cổ đông Vietcombank đã thông qua kế hoạch kinh doanh năm 2023 với mục tiêu lợi nhuận lợi nhuận trước thuế tăng tối thiểu 15% so với năm 2022."
+    },
+    {
+        "text": "37.368 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trước đó, ngân hàng này ghi nhận mức lãi hợp nhất trước thuế 37.368 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Trước đó, ngân hàng này ghi nhận mức lãi hợp nhất trước thuế 37.368 tỷ đồng trong năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Như vậy, năm 2023, Vietcombank dự kiến lãi tối thiểu khoảng 43.000 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, năm 2023, Vietcombank dự kiến lãi tối thiểu khoảng 43.000 tỷ đồng."
+    },
+    {
+        "text": "khoảng 43.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, năm 2023, Vietcombank dự kiến lãi tối thiểu khoảng 43.000 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tăng trưởng lợi nhuận của Vietcombank trong quý I đến từ diễn biến tích cực của của hoạt động kinh doanh cốt lõi và việc cắt giảm chi phí dự phòng rủi ro tín dụng."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Tăng trưởng lợi nhuận của Vietcombank trong quý I đến từ diễn biến tích cực của của hoạt động kinh doanh cốt lõi và việc cắt giảm chi phí dự phòng rủi ro tín dụng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Cụ thể, trong kỳ vừa qua, thu nhập lãi thuần của Vietcombank đạt hơn 14.200 tỷ, tăng 18,6% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "hơn 14.200 tỷ",
+        "label": "MONEY",
+        "evidence": "Cụ thể, trong kỳ vừa qua, thu nhập lãi thuần của Vietcombank đạt hơn 14.200 tỷ, tăng 18,6% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "18,6%",
+        "label": "RATE",
+        "evidence": "Cụ thể, trong kỳ vừa qua, thu nhập lãi thuần của Vietcombank đạt hơn 14.200 tỷ, tăng 18,6% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Cụ thể, trong kỳ vừa qua, thu nhập lãi thuần của Vietcombank đạt hơn 14.200 tỷ, tăng 18,6% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "12,1%",
+        "label": "RATE",
+        "evidence": "Lãi thuần từ kinh doanh ngoại hối tăng 12,1%, đạt 1.706 tỷ đồng."
+    },
+    {
+        "text": "1.706 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi thuần từ kinh doanh ngoại hối tăng 12,1%, đạt 1.706 tỷ đồng."
+    },
+    {
+        "text": "1.083 tỷ",
+        "label": "MONEY",
+        "evidence": "Các hoạt động kinh doanh khác mang về cho ngân hàng 1.083 tỷ, gấp 2,2 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "2,2 lần",
+        "label": "RATE",
+        "evidence": "Các hoạt động kinh doanh khác mang về cho ngân hàng 1.083 tỷ, gấp 2,2 lần cùng kỳ năm trước."
+    },
+    {
+        "text": "hơn 46%",
+        "label": "RATE",
+        "evidence": "Trong khi đó, lãi thuần từ hoạt động dịch vụ bất ngở giảm mạnh hơn 46%, xuống còn 1.456 tỷ đồng."
+    },
+    {
+        "text": "1.456 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, lãi thuần từ hoạt động dịch vụ bất ngở giảm mạnh hơn 46%, xuống còn 1.456 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Kết quả kinh doanh Vietcombank trong quý I"
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Kết quả kinh doanh Vietcombank trong quý I"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tổng hợp các mảng kinh doanh, tổng thu nhập hoạt động của Vietcombank đạt 18.517 tỷ đồng, tăng 10,7% so với cùng kỳ 2022."
+    },
+    {
+        "text": "18.517 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng hợp các mảng kinh doanh, tổng thu nhập hoạt động của Vietcombank đạt 18.517 tỷ đồng, tăng 10,7% so với cùng kỳ 2022."
+    },
+    {
+        "text": "10,7%",
+        "label": "RATE",
+        "evidence": "Tổng hợp các mảng kinh doanh, tổng thu nhập hoạt động của Vietcombank đạt 18.517 tỷ đồng, tăng 10,7% so với cùng kỳ 2022."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "Tổng hợp các mảng kinh doanh, tổng thu nhập hoạt động của Vietcombank đạt 18.517 tỷ đồng, tăng 10,7% so với cùng kỳ 2022."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Trong khi chi phí hoạt động tăng 17% lên 5.274 tỷ đồng, với chi lương và phụ cấp cho nhân viên chiếm một nửa (2.626 tỷ đồng)."
+    },
+    {
+        "text": "5.274 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi chi phí hoạt động tăng 17% lên 5.274 tỷ đồng, với chi lương và phụ cấp cho nhân viên chiếm một nửa (2.626 tỷ đồng)."
+    },
+    {
+        "text": "2.626 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi chi phí hoạt động tăng 17% lên 5.274 tỷ đồng, với chi lương và phụ cấp cho nhân viên chiếm một nửa (2.626 tỷ đồng)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau khi khấu trừ chi phí hoạt động, lãi thuần của Vietcombank trong quý I đạt 13.243 tỷ đồng, tăng 8,3%."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Sau khi khấu trừ chi phí hoạt động, lãi thuần của Vietcombank trong quý I đạt 13.243 tỷ đồng, tăng 8,3%."
+    },
+    {
+        "text": "13.243 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau khi khấu trừ chi phí hoạt động, lãi thuần của Vietcombank trong quý I đạt 13.243 tỷ đồng, tăng 8,3%."
+    },
+    {
+        "text": "8,3%",
+        "label": "RATE",
+        "evidence": "Sau khi khấu trừ chi phí hoạt động, lãi thuần của Vietcombank trong quý I đạt 13.243 tỷ đồng, tăng 8,3%."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Đây là cầu phần chính giúp lợi nhuận trước thuế tăng trưởng trong quý I."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong kỳ vừa qua, Vietcombank đã trích 2.022 tỷ đồng để dự phòng rủi ro tín dụng, giảm hơn 11% so với quý I/2022."
+    },
+    {
+        "text": "2.022 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong kỳ vừa qua, Vietcombank đã trích 2.022 tỷ đồng để dự phòng rủi ro tín dụng, giảm hơn 11% so với quý I/2022."
+    },
+    {
+        "text": "hơn 11%",
+        "label": "RATE",
+        "evidence": "Trong kỳ vừa qua, Vietcombank đã trích 2.022 tỷ đồng để dự phòng rủi ro tín dụng, giảm hơn 11% so với quý I/2022."
+    },
+    {
+        "text": "quý I/2022",
+        "label": "DATE",
+        "evidence": "Trong kỳ vừa qua, Vietcombank đã trích 2.022 tỷ đồng để dự phòng rủi ro tín dụng, giảm hơn 11% so với quý I/2022."
+    },
+    {
+        "text": "252 tỷ",
+        "label": "MONEY",
+        "evidence": "Qua đó, đóng góp 252 tỷ trong 1.271 tỷ đồng lợi nhuận trước thuế tăng thêm của ngân hàng."
+    },
+    {
+        "text": "1.271 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Qua đó, đóng góp 252 tỷ trong 1.271 tỷ đồng lợi nhuận trước thuế tăng thêm của ngân hàng."
+    },
+    {
+        "text": "27%",
+        "label": "RATE",
+        "evidence": "Nợ xấu tăng 27%﻿"
+    },
+    {
+        "text": "cuối quý I",
+        "label": "DATE",
+        "evidence": "Tính đến cuối quý I, tổng tài sản của Vietcombank đạt hơn 1,846 triệu tỷ đồng, tăng 1,8% so với hồi đầu năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tính đến cuối quý I, tổng tài sản của Vietcombank đạt hơn 1,846 triệu tỷ đồng, tăng 1,8% so với hồi đầu năm."
+    },
+    {
+        "text": "hơn 1,846 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối quý I, tổng tài sản của Vietcombank đạt hơn 1,846 triệu tỷ đồng, tăng 1,8% so với hồi đầu năm."
+    },
+    {
+        "text": "1,8%",
+        "label": "RATE",
+        "evidence": "Tính đến cuối quý I, tổng tài sản của Vietcombank đạt hơn 1,846 triệu tỷ đồng, tăng 1,8% so với hồi đầu năm."
+    },
+    {
+        "text": "trên 1,174 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Dư nợ cho vay khách hàng đạt trên 1,174 triệu tỷ, tăng 2,5%."
+    },
+    {
+        "text": "2,5%",
+        "label": "RATE",
+        "evidence": "Dư nợ cho vay khách hàng đạt trên 1,174 triệu tỷ, tăng 2,5%."
+    },
+    {
+        "text": "27,1%",
+        "label": "RATE",
+        "evidence": "Trong đó, nợ xấu tăng 27,1% lên 9.942 tỷ đồng, tỷ lệ nợ xấu trên tổng dư nợ cho vay tăng từ 0,68% hồi đầu năm lên 0,85%."
+    },
+    {
+        "text": "9.942 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, nợ xấu tăng 27,1% lên 9.942 tỷ đồng, tỷ lệ nợ xấu trên tổng dư nợ cho vay tăng từ 0,68% hồi đầu năm lên 0,85%."
+    },
+    {
+        "text": "0,68%",
+        "label": "RATE",
+        "evidence": "Trong đó, nợ xấu tăng 27,1% lên 9.942 tỷ đồng, tỷ lệ nợ xấu trên tổng dư nợ cho vay tăng từ 0,68% hồi đầu năm lên 0,85%."
+    },
+    {
+        "text": "0,85%",
+        "label": "RATE",
+        "evidence": "Trong đó, nợ xấu tăng 27,1% lên 9.942 tỷ đồng, tỷ lệ nợ xấu trên tổng dư nợ cho vay tăng từ 0,68% hồi đầu năm lên 0,85%."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Như vậy, không nằm ngoài xu hướng chung của toàn ngành, nợ xấu của Vietcombank cũng tăng trong quý I."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Như vậy, không nằm ngoài xu hướng chung của toàn ngành, nợ xấu của Vietcombank cũng tăng trong quý I."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Các chỉ tiêu tài sản của Vietcombank"
+    },
+    {
+        "text": "2.524 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "6 lần",
+        "label": "RATE",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "25,2%",
+        "label": "RATE",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "gần 980 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "2,8%",
+        "label": "RATE",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "6.439 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đi sâu vào cấu phần nợ xấu, nợ nhóm 3 (nợ dưới tiêu chuẩn) tăng mạnh lên 2.524 tỷ đồng, gấp 6 lần hồi đầu năm; nợ nhóm 4 (nợ nghi ngờ) tăng 25,2% lên mức gần 980 tỷ đồng; nợ nhóm 5 (nợ có khả năng mất vốn) giảm 2,8% xuống 6.439 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngoài nợ xấu, nợ nhóm 2 (nợ cần chú ý) của Vietcombank cũng tăng thêm gần 85% lên mức 7.542 tỷ đồng."
+    },
+    {
+        "text": "gần 85%",
+        "label": "RATE",
+        "evidence": "Ngoài nợ xấu, nợ nhóm 2 (nợ cần chú ý) của Vietcombank cũng tăng thêm gần 85% lên mức 7.542 tỷ đồng."
+    },
+    {
+        "text": "7.542 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài nợ xấu, nợ nhóm 2 (nợ cần chú ý) của Vietcombank cũng tăng thêm gần 85% lên mức 7.542 tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tính chung, tổng nợ nhóm 2 – 5 của Vietcombank ở mức gần 17.485 tỷ đồng, tương đương 1,49% tổng dư nợ trong khi hồi đầu năm chỉ chiếm 1,04%."
+    },
+    {
+        "text": "gần 17.485 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính chung, tổng nợ nhóm 2 – 5 của Vietcombank ở mức gần 17.485 tỷ đồng, tương đương 1,49% tổng dư nợ trong khi hồi đầu năm chỉ chiếm 1,04%."
+    },
+    {
+        "text": "1,49%",
+        "label": "RATE",
+        "evidence": "Tính chung, tổng nợ nhóm 2 – 5 của Vietcombank ở mức gần 17.485 tỷ đồng, tương đương 1,49% tổng dư nợ trong khi hồi đầu năm chỉ chiếm 1,04%."
+    },
+    {
+        "text": "1,04%",
+        "label": "RATE",
+        "evidence": "Tính chung, tổng nợ nhóm 2 – 5 của Vietcombank ở mức gần 17.485 tỷ đồng, tương đương 1,49% tổng dư nợ trong khi hồi đầu năm chỉ chiếm 1,04%."
+    },
+    {
+        "text": "cuối tháng 3",
+        "label": "DATE",
+        "evidence": "Tại thời điểm cuối tháng 3, tỷ lệ bao phủ nợ xấu của Vietcombank đạt gần 321%, cao hơn mức 319% hồi đầu năm."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Tại thời điểm cuối tháng 3, tỷ lệ bao phủ nợ xấu của Vietcombank đạt gần 321%, cao hơn mức 319% hồi đầu năm."
+    },
+    {
+        "text": "gần 321%",
+        "label": "RATE",
+        "evidence": "Tại thời điểm cuối tháng 3, tỷ lệ bao phủ nợ xấu của Vietcombank đạt gần 321%, cao hơn mức 319% hồi đầu năm."
+    },
+    {
+        "text": "319%",
+        "label": "RATE",
+        "evidence": "Tại thời điểm cuối tháng 3, tỷ lệ bao phủ nợ xấu của Vietcombank đạt gần 321%, cao hơn mức 319% hồi đầu năm."
+    },
+    {
+        "text": "hơn 3,2 đồng",
+        "label": "MONEY",
+        "evidence": "Điều này có nghĩa, mỗi đồng nợ xấu của ngân hàng đang được trích lập dự phòng hơn 3,2 đồng – tiếp tục là ngân hàng có tỷ lệ bao phủ nợ xấu cao nhất hệ thống."
+    },
+    {
+        "text": "BCTC hợp nhất Vietcombank",
+        "label": "ORG",
+        "evidence": "Nguồn: BCTC hợp nhất Vietcombank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nguồn: BCTC hợp nhất Vietcombank"
+    },
+    {
+        "text": "cuối quý I",
+        "label": "DATE",
+        "evidence": "Vào cuối quý I,Vietcombankđang nắm giữ khối tài sản đảm bảo có giá trị hơn 2,139 triệu tỷ đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vào cuối quý I,Vietcombankđang nắm giữ khối tài sản đảm bảo có giá trị hơn 2,139 triệu tỷ đồng."
+    },
+    {
+        "text": "hơn 2,139 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vào cuối quý I,Vietcombankđang nắm giữ khối tài sản đảm bảo có giá trị hơn 2,139 triệu tỷ đồng."
+    },
+    {
+        "text": "1,587 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Trong đó, bất động sản thế chấp có giá trị 1,587 triệu tỷ, chiếm hơn 74%."
+    },
+    {
+        "text": "hơn 74%",
+        "label": "RATE",
+        "evidence": "Trong đó, bất động sản thế chấp có giá trị 1,587 triệu tỷ, chiếm hơn 74%."
+    },
+    {
+        "text": "quý I",
+        "label": "DATE",
+        "evidence": "Về nguồn vốn, tiền gửi khách hàng trong quý I tăng 3,1% lên mức hơn 1,281 triệu tỷ."
+    },
+    {
+        "text": "3,1%",
+        "label": "RATE",
+        "evidence": "Về nguồn vốn, tiền gửi khách hàng trong quý I tăng 3,1% lên mức hơn 1,281 triệu tỷ."
+    },
+    {
+        "text": "hơn 1,281 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Về nguồn vốn, tiền gửi khách hàng trong quý I tăng 3,1% lên mức hơn 1,281 triệu tỷ."
+    },
+    {
+        "text": "8,45%",
+        "label": "RATE",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 8,45% xuống còn 368.112 tỷ đồng; tiền gửi có kỳ hạn tăng 8,53% lên mức 891.784 tỷ đồng."
+    },
+    {
+        "text": "368.112 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 8,45% xuống còn 368.112 tỷ đồng; tiền gửi có kỳ hạn tăng 8,53% lên mức 891.784 tỷ đồng."
+    },
+    {
+        "text": "8,53%",
+        "label": "RATE",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 8,45% xuống còn 368.112 tỷ đồng; tiền gửi có kỳ hạn tăng 8,53% lên mức 891.784 tỷ đồng."
+    },
+    {
+        "text": "891.784 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, tiền gửi không kỳ hạn giảm 8,45% xuống còn 368.112 tỷ đồng; tiền gửi có kỳ hạn tăng 8,53% lên mức 891.784 tỷ đồng."
+    },
+    {
+        "text": "31/3",
+        "label": "DATE",
+        "evidence": "Vốn chủ sở hữu tại thời điểm 31/3 ở mức 144.658 tỷ đồng, tăng hơn 9.000 tỷ so với hồi đầu năm và tiếp tục dẫn đầu hệ thống ngân hàng."
+    },
+    {
+        "text": "144.658 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu tại thời điểm 31/3 ở mức 144.658 tỷ đồng, tăng hơn 9.000 tỷ so với hồi đầu năm và tiếp tục dẫn đầu hệ thống ngân hàng."
+    },
+    {
+        "text": "hơn 9.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Vốn chủ sở hữu tại thời điểm 31/3 ở mức 144.658 tỷ đồng, tăng hơn 9.000 tỷ so với hồi đầu năm và tiếp tục dẫn đầu hệ thống ngân hàng."
+    }
+]

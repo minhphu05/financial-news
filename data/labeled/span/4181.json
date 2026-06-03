@@ -1,0 +1,937 @@
+[
+    {
+        "text": "Công ty CP Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "công bố báo cáo tài chính quý III/2024",
+        "label": "EVENT",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "BVSC",
+        "label": "ORG",
+        "evidence": "Ngay sau khi Công ty CP Tập đoàn Masan (HoSE: MSN) công bố báo cáo tài chính quý III/2024, một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "đã đưa ra đánh giá về kết quả kinh doanh của Masan",
+        "label": "EVENT",
+        "evidence": "một số Công ty chứng khoán như Vietcap, BVSC đã đưa ra đánh giá về kết quả kinh doanh của Masan với từ khoá chính là \"vượt kỳ vọng\"."
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "Theo báo cáo tài chính quý III/2024, Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Theo báo cáo tài chính quý III/2024, Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "đạt doanh thu thuần 21.487 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "21.487 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "tăng 6,6%",
+        "label": "RATE",
+        "evidence": "Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "quý III năm ngoái",
+        "label": "DATE",
+        "evidence": "Masan đạt doanh thu thuần 21.487 tỷ đồng, tăng 6,6% so với quý III năm ngoái."
+    },
+    {
+        "text": "Lợi nhuận sau thuế sau phân bổ cổ đông thiểu số (NPAT Post-MI) đạt 701 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế sau phân bổ cổ đông thiểu số (NPAT Post-MI) đạt 701 tỷ đồng, tăng gần 1.350% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "701 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế sau phân bổ cổ đông thiểu số (NPAT Post-MI) đạt 701 tỷ đồng, tăng gần 1.350% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "tăng gần 1.350%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế sau phân bổ cổ đông thiểu số (NPAT Post-MI) đạt 701 tỷ đồng, tăng gần 1.350% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "chi phí lãi vay ròng giảm 277 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "còn đến từ việc chi phí lãi vay ròng giảm 277 tỷ đồng so với cùng kỳ và việc không phát sinh chi phí do biến động tỷ giá hối đoái."
+    },
+    {
+        "text": "277 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "còn đến từ việc chi phí lãi vay ròng giảm 277 tỷ đồng so với cùng kỳ và việc không phát sinh chi phí do biến động tỷ giá hối đoái."
+    },
+    {
+        "text": "không phát sinh chi phí do biến động tỷ giá hối đoái",
+        "label": "EVENT",
+        "evidence": "còn đến từ việc chi phí lãi vay ròng giảm 277 tỷ đồng so với cùng kỳ và việc không phát sinh chi phí do biến động tỷ giá hối đoái."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "Trong quý III, Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "Masan Consumer Corporation",
+        "label": "ORG",
+        "evidence": "Trong quý III, Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Trong quý III, Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "đạt mức doanh thu 7.987 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "7.987 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "tăng 10,4%",
+        "label": "RATE",
+        "evidence": "Masan Consumer Corporation (MCH) đạt mức doanh thu 7.987 tỷ đồng, tăng 10,4% so với cùng kỳ."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "MCH tiếp tục duy trì biên lợi nhuận gộp ở mức cao là 46,8%, cao hơn 0,2% so với quý III/2023."
+    },
+    {
+        "text": "46,8%",
+        "label": "RATE",
+        "evidence": "MCH tiếp tục duy trì biên lợi nhuận gộp ở mức cao là 46,8%, cao hơn 0,2% so với quý III/2023."
+    },
+    {
+        "text": "cao hơn 0,2%",
+        "label": "RATE",
+        "evidence": "MCH tiếp tục duy trì biên lợi nhuận gộp ở mức cao là 46,8%, cao hơn 0,2% so với quý III/2023."
+    },
+    {
+        "text": "quý III/2023",
+        "label": "DATE",
+        "evidence": "MCH tiếp tục duy trì biên lợi nhuận gộp ở mức cao là 46,8%, cao hơn 0,2% so với quý III/2023."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "WinCommerce (WCM) ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng, đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "WinCommerce (WCM) ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng, đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "WinCommerce (WCM) ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng, đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "9,1%",
+        "label": "RATE",
+        "evidence": "WinCommerce (WCM) ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng, đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "8.603 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "WinCommerce (WCM) ghi nhận doanh thu tăng trưởng 9,1% so với cùng kỳ năm ngoái, đạt 8.603 tỷ đồng, đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "WiN",
+        "label": "ORG",
+        "evidence": "đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "WinMart+ Rural",
+        "label": "ORG",
+        "evidence": "đóng góp chủ yếu bởi các mô hình cửa hàng mới WiN (phục vụ người mua sắm ở thành thị) và WinMart+ Rural (phục vụ cho người mua sắm ở nông thôn)."
+    },
+    {
+        "text": "Lợi nhuận sau thuế của WCM đạt 20 tỷ đồng trong quý III",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế của WCM đạt 20 tỷ đồng trong quý III và đây cũng là lần đầu tiên ghi nhận lãi dương kể từ thời kỳ COVID."
+    },
+    {
+        "text": "20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế của WCM đạt 20 tỷ đồng trong quý III và đây cũng là lần đầu tiên ghi nhận lãi dương kể từ thời kỳ COVID."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế của WCM đạt 20 tỷ đồng trong quý III và đây cũng là lần đầu tiên ghi nhận lãi dương kể từ thời kỳ COVID."
+    },
+    {
+        "text": "ghi nhận lãi dương kể từ thời kỳ COVID",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế của WCM đạt 20 tỷ đồng trong quý III và đây cũng là lần đầu tiên ghi nhận lãi dương kể từ thời kỳ COVID."
+    },
+    {
+        "text": "Masan MEATLife",
+        "label": "ORG",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "MML",
+        "label": "ORG",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái",
+        "label": "EVENT",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "43 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "105 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tương tự, Masan MEATLife (MML) ghi nhận EBIT tăng 43 tỷ đồng so với cùng kỳ năm ngoái và lợi nhuận sau thuế trước phân bổ cổ đông thiểu số tăng 105 tỷ đồng so với cùng kỳ."
+    },
+    {
+        "text": "doanh số mảng thịt chế biến tăng lên",
+        "label": "EVENT",
+        "evidence": "Kết quả này được thúc đẩy bởi doanh số mảng thịt chế biến tăng lên đồng thời được hưởng lợi từ giá thị trường thịt gà và thịt lợn cao hơn."
+    },
+    {
+        "text": "được hưởng lợi từ giá thị trường thịt gà và thịt lợn cao hơn",
+        "label": "EVENT",
+        "evidence": "Kết quả này được thúc đẩy bởi doanh số mảng thịt chế biến tăng lên đồng thời được hưởng lợi từ giá thị trường thịt gà và thịt lợn cao hơn."
+    },
+    {
+        "text": "Phúc Long Heritage",
+        "label": "ORG",
+        "evidence": "Với Phúc Long Heritage (PLH), doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng."
+    },
+    {
+        "text": "PLH",
+        "label": "ORG",
+        "evidence": "Với Phúc Long Heritage (PLH), doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng."
+    },
+    {
+        "text": "doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Với Phúc Long Heritage (PLH), doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng."
+    },
+    {
+        "text": "12,8%",
+        "label": "RATE",
+        "evidence": "Với Phúc Long Heritage (PLH), doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng."
+    },
+    {
+        "text": "425 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với Phúc Long Heritage (PLH), doanh thu đã tăng 12,8% so với cùng kỳ năm ngoái lên 425 tỷ đồng."
+    },
+    {
+        "text": "PLH",
+        "label": "ORG",
+        "evidence": "PLH hiện vận hành 174 cửa hàng trên toàn quốc."
+    },
+    {
+        "text": "vận hành 174 cửa hàng trên toàn quốc",
+        "label": "EVENT",
+        "evidence": "PLH hiện vận hành 174 cửa hàng trên toàn quốc."
+    },
+    {
+        "text": "Lũy kế 9 tháng",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI)",
+        "label": "EVENT",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "2.726 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số",
+        "label": "EVENT",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "1.308 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 9 tháng, Masan đạt 2.726 tỷ đồng lợi nhuận sau thuế trước phân bổ cổ đông thiểu số (NPAT Pre-MI) và 1.308 tỷ đồng lợi nhuận sau phân bổ cổ đông thiểu số."
+    },
+    {
+        "text": "sau 9 tháng",
+        "label": "DATE",
+        "evidence": "Như vậy, sau 9 tháng Masan đã hoàn thành 130,8% kế hoạch lợi nhuận sau thuế trước phân bổ cổ đông thiểu số theo kịch bản cơ sở đã được cổ đông phê duyệt vào đầu năm."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Như vậy, sau 9 tháng Masan đã hoàn thành 130,8% kế hoạch lợi nhuận sau thuế trước phân bổ cổ đông thiểu số theo kịch bản cơ sở đã được cổ đông phê duyệt vào đầu năm."
+    },
+    {
+        "text": "đã hoàn thành 130,8% kế hoạch lợi nhuận sau thuế trước phân bổ cổ đông thiểu số theo kịch bản cơ sở đã được cổ đông phê duyệt vào đầu năm",
+        "label": "EVENT",
+        "evidence": "Như vậy, sau 9 tháng Masan đã hoàn thành 130,8% kế hoạch lợi nhuận sau thuế trước phân bổ cổ đông thiểu số theo kịch bản cơ sở đã được cổ đông phê duyệt vào đầu năm."
+    },
+    {
+        "text": "130,8%",
+        "label": "RATE",
+        "evidence": "Như vậy, sau 9 tháng Masan đã hoàn thành 130,8% kế hoạch lợi nhuận sau thuế trước phân bổ cổ đông thiểu số theo kịch bản cơ sở đã được cổ đông phê duyệt vào đầu năm."
+    },
+    {
+        "text": "tiến gần hơn đến kế hoạch lợi nhuận sau phân bổ cổ đông thiểu số 2.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Và tiến gần hơn đến kế hoạch lợi nhuận sau phân bổ cổ đông thiểu số 2.000 tỷ đồng, theo kịch bản tích cực."
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Và tiến gần hơn đến kế hoạch lợi nhuận sau phân bổ cổ đông thiểu số 2.000 tỷ đồng, theo kịch bản tích cực."
+    },
+    {
+        "text": "Tiến sĩ Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Tiến sĩ Nguyễn Đăng Quang, Chủ tịch Tập đoàn Masan cho biết, Masan sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Tiến sĩ Nguyễn Đăng Quang, Chủ tịch Tập đoàn Masan cho biết, Masan sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Tiến sĩ Nguyễn Đăng Quang, Chủ tịch Tập đoàn Masan cho biết, Masan sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng."
+    },
+    {
+        "text": "sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tiến sĩ Nguyễn Đăng Quang, Chủ tịch Tập đoàn Masan cho biết, Masan sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng."
+    },
+    {
+        "text": "2.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tiến sĩ Nguyễn Đăng Quang, Chủ tịch Tập đoàn Masan cho biết, Masan sẽ tiến gần đến kế hoạch lợi nhuận sau thuế theo kịch bản tích cực là 2.000 tỷ đồng."
+    },
+    {
+        "text": "tập trung kết hợp toàn bộ nền tảng tiêu dùng bán lẻ của mình, hướng đến mức tăng trưởng doanh thu và lợi nhuận hợp nhất hai chữ số cho năm 2025",
+        "label": "EVENT",
+        "evidence": "\"Chúng tôi đã và đang tập trung kết hợp toàn bộ nền tảng tiêu dùng bán lẻ của mình, hướng đến mức tăng trưởng doanh thu và lợi nhuận hợp nhất hai chữ số cho năm 2025\", ông Quang nói."
+    },
+    {
+        "text": "hai chữ số",
+        "label": "RATE",
+        "evidence": "\"Chúng tôi đã và đang tập trung kết hợp toàn bộ nền tảng tiêu dùng bán lẻ của mình, hướng đến mức tăng trưởng doanh thu và lợi nhuận hợp nhất hai chữ số cho năm 2025\", ông Quang nói."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "\"Chúng tôi đã và đang tập trung kết hợp toàn bộ nền tảng tiêu dùng bán lẻ của mình, hướng đến mức tăng trưởng doanh thu và lợi nhuận hợp nhất hai chữ số cho năm 2025\", ông Quang nói."
+    },
+    {
+        "text": "ông Quang",
+        "label": "PERSON",
+        "evidence": "\"Chúng tôi đã và đang tập trung kết hợp toàn bộ nền tảng tiêu dùng bán lẻ của mình, hướng đến mức tăng trưởng doanh thu và lợi nhuận hợp nhất hai chữ số cho năm 2025\", ông Quang nói."
+    },
+    {
+        "text": "Kế hoạch trọng tâm trong quý cuối cùng của năm, Masan tiếp tục tập trung vào tăng trưởng lợi nhuận của mảng kinh doanh tiêu dùng bán lẻ cốt lõi thông qua tối ưu hóa chương trình Hội viên WIN, giảm nợ để cải thiện bảng cân đối kế toán và giảm chi phí tài chính",
+        "label": "EVENT",
+        "evidence": "Kế hoạch trọng tâm trong quý cuối cùng của năm, Masan tiếp tục tập trung vào tăng trưởng lợi nhuận của mảng kinh doanh tiêu dùng bán lẻ cốt lõi thông qua tối ưu hóa chương trình Hội viên WIN, giảm nợ để cải thiện bảng cân đối kế toán và giảm chi phí tài chính…"
+    },
+    {
+        "text": "quý cuối cùng của năm",
+        "label": "DATE",
+        "evidence": "Kế hoạch trọng tâm trong quý cuối cùng của năm, Masan tiếp tục tập trung vào tăng trưởng lợi nhuận của mảng kinh doanh tiêu dùng bán lẻ cốt lõi thông qua tối ưu hóa chương trình Hội viên WIN, giảm nợ để cải thiện bảng cân đối kế toán và giảm chi phí tài chính…"
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Kế hoạch trọng tâm trong quý cuối cùng của năm, Masan tiếp tục tập trung vào tăng trưởng lợi nhuận của mảng kinh doanh tiêu dùng bán lẻ cốt lõi thông qua tối ưu hóa chương trình Hội viên WIN, giảm nợ để cải thiện bảng cân đối kế toán và giảm chi phí tài chính…"
+    },
+    {
+        "text": "Hội viên WIN",
+        "label": "ORG",
+        "evidence": "tối ưu hóa chương trình Hội viên WIN, giảm nợ để cải thiện bảng cân đối kế toán và giảm chi phí tài chính…"
+    },
+    {
+        "text": "Chứng khoán Vietcap",
+        "label": "ORG",
+        "evidence": "Chuyên gia Chứng khoán Vietcap cho biết, vì lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng, Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Chuyên gia Chứng khoán Vietcap cho biết, vì lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng, Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng",
+        "label": "EVENT",
+        "evidence": "vì lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng, Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "vì lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng, Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "vì lợi nhuận sau thuế sau lợi ích cổ đông thiểu số 9 tháng đầu năm 2024 của Masan vượt kỳ vọng, Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan",
+        "label": "EVENT",
+        "evidence": "Vietcap nhận thấy khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "khả năng điều chỉnh tăng đối với dự báo lợi nhuận sau thuế sau lợi ích cổ đông thiểu số của Masan."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Cho cả năm 2024, Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Cho cả năm 2024, Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "85.185 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "4.609 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vietcap dự báo tổng doanh thu thuần Masan đạt được là 85.185 tỷ đồng, lợi nhuận sau thuế 4.609 tỷ đồng."
+    },
+    {
+        "text": "Chứng khoán Bảo Việt",
+        "label": "ORG",
+        "evidence": "Tương tự, Chứng khoán Bảo Việt (BVSC) cũng đưa ra nhận định \"Masan công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng\", với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "BVSC",
+        "label": "ORG",
+        "evidence": "Tương tự, Chứng khoán Bảo Việt (BVSC) cũng đưa ra nhận định \"Masan công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng\", với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Tương tự, Chứng khoán Bảo Việt (BVSC) cũng đưa ra nhận định \"Masan công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng\", với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng",
+        "label": "EVENT",
+        "evidence": "\"Masan công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng\", với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "\"Masan công bố kết quả kinh doanh quý III khả quan hơn kỳ vọng\", với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "701 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với khoản lợi nhuận sau thuế sau phân bổ cổ đông thiểu số 701 tỷ đồng, cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "dự phóng của BVSC trước đó là 650 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "BVSC",
+        "label": "ORG",
+        "evidence": "cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cao hơn dự phóng của BVSC trước đó là 650 tỷ đồng."
+    },
+    {
+        "text": "BVSC",
+        "label": "ORG",
+        "evidence": "BVSC đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng, tăng 11%, dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "BVSC đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng, tăng 11%, dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "BVSC đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng, tăng 11%, dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "86.840 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "BVSC đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng, tăng 11%, dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "tăng 11%",
+        "label": "RATE",
+        "evidence": "BVSC đã đưa dự báo doanh thu thuần cả năm của Masan lên 86.840 tỷ đồng, tăng 11%, dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV",
+        "label": "EVENT",
+        "evidence": "dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "2.766 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "quý IV",
+        "label": "DATE",
+        "evidence": "dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "dự phóng lợi nhuận sau thuế sau phân bổ cổ đông thiểu số lên 2.766 tỷ đồng, bao gồm các khoản bất thường trong quý IV, vượt kịch bản tích cực mà Masan đặt ra."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Những \"con gà đẻ trứng vàng\" của Masan"
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Mảng hàng tiêu dùng (Masan Consumer - MCH) và bán lẻ (WinCommerce - WCM) là hai lĩnh vực kinh doanh cốt lõi, chiếm gần 80% doanh thu và lợi nhuận của Tập đoàn Masan."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Mảng hàng tiêu dùng (Masan Consumer - MCH) và bán lẻ (WinCommerce - WCM) là hai lĩnh vực kinh doanh cốt lõi, chiếm gần 80% doanh thu và lợi nhuận của Tập đoàn Masan."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Mảng hàng tiêu dùng (Masan Consumer - MCH) và bán lẻ (WinCommerce - WCM) là hai lĩnh vực kinh doanh cốt lõi, chiếm gần 80% doanh thu và lợi nhuận của Tập đoàn Masan."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Mảng hàng tiêu dùng (Masan Consumer - MCH) và bán lẻ (WinCommerce - WCM) là hai lĩnh vực kinh doanh cốt lõi, chiếm gần 80% doanh thu và lợi nhuận của Tập đoàn Masan."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Mảng hàng tiêu dùng (Masan Consumer - MCH) và bán lẻ (WinCommerce - WCM) là hai lĩnh vực kinh doanh cốt lõi, chiếm gần 80% doanh thu và lợi nhuận của Tập đoàn Masan."
+    },
+    {
+        "text": "tháng 9 năm 2024",
+        "label": "DATE",
+        "evidence": "Tính đến tháng 9 năm 2024, WCM vận hành 3.733 cửa hàng WCM, mở ròng thêm 60 cửa hàng mới kể từ quý II/2024."
+    },
+    {
+        "text": "WCM",
+        "label": "ORG",
+        "evidence": "Tính đến tháng 9 năm 2024, WCM vận hành 3.733 cửa hàng WCM, mở ròng thêm 60 cửa hàng mới kể từ quý II/2024."
+    },
+    {
+        "text": "vận hành 3.733 cửa hàng WCM",
+        "label": "EVENT",
+        "evidence": "WCM vận hành 3.733 cửa hàng WCM, mở ròng thêm 60 cửa hàng mới kể từ quý II/2024."
+    },
+    {
+        "text": "mở ròng thêm 60 cửa hàng mới kể từ quý II/2024",
+        "label": "EVENT",
+        "evidence": "WCM vận hành 3.733 cửa hàng WCM, mở ròng thêm 60 cửa hàng mới kể từ quý II/2024."
+    },
+    {
+        "text": "quý II/2024",
+        "label": "DATE",
+        "evidence": "WCM vận hành 3.733 cửa hàng WCM, mở ròng thêm 60 cửa hàng mới kể từ quý II/2024."
+    },
+    {
+        "text": "giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart",
+        "label": "EVENT",
+        "evidence": "Với việc giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart, Winmart đã tạo ra sự khác biệt lớn, tăng sức cạnh tranh của sản phẩm so với các chuỗi bán lẻ khác như Bách Hóa Xanh, Co.opmart, AEON..."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Với việc giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart, Winmart đã tạo ra sự khác biệt lớn, tăng sức cạnh tranh của sản phẩm so với các chuỗi bán lẻ khác như Bách Hóa Xanh, Co.opmart, AEON..."
+    },
+    {
+        "text": "MEATDeli",
+        "label": "ORG",
+        "evidence": "giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart"
+    },
+    {
+        "text": "WinEco",
+        "label": "ORG",
+        "evidence": "giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart"
+    },
+    {
+        "text": "Winmart",
+        "label": "ORG",
+        "evidence": "giảm giá 20% cho thịt lợn, thịt gà MEATDeli, rau WinEco đối với khách hàng là hội viên Winmart"
+    },
+    {
+        "text": "Bách Hóa Xanh",
+        "label": "ORG",
+        "evidence": "so với các chuỗi bán lẻ khác như Bách Hóa Xanh, Co.opmart, AEON..."
+    },
+    {
+        "text": "Co.opmart",
+        "label": "ORG",
+        "evidence": "so với các chuỗi bán lẻ khác như Bách Hóa Xanh, Co.opmart, AEON..."
+    },
+    {
+        "text": "AEON",
+        "label": "ORG",
+        "evidence": "so với các chuỗi bán lẻ khác như Bách Hóa Xanh, Co.opmart, AEON..."
+    },
+    {
+        "text": "MCH",
+        "label": "ORG",
+        "evidence": "Trong khi đó, MCH tiếp tục duy trì biên lợi nhuận gộp ở mức cao, biên lợi nhuận sau thuế sau phân bổ cổ đông thiểu số ghi nhận 25,9%, tăng 90 điểm cơ bản so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "25,9%",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận sau thuế sau phân bổ cổ đông thiểu số ghi nhận 25,9%, tăng 90 điểm cơ bản so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "tăng 90 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "biên lợi nhuận sau thuế sau phân bổ cổ đông thiểu số ghi nhận 25,9%, tăng 90 điểm cơ bản so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan dự kiến IPO Masan Consumer vào năm 2025, song song với việc tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu."
+    },
+    {
+        "text": "dự kiến IPO Masan Consumer vào năm 2025",
+        "label": "EVENT",
+        "evidence": "Masan dự kiến IPO Masan Consumer vào năm 2025, song song với việc tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu."
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Masan dự kiến IPO Masan Consumer vào năm 2025, song song với việc tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Masan dự kiến IPO Masan Consumer vào năm 2025, song song với việc tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu."
+    },
+    {
+        "text": "tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu",
+        "label": "EVENT",
+        "evidence": "song song với việc tăng cường chiến lược Go Global, quảng bá hương vị Việt đến người tiêu dùng toàn cầu."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Mảng khoáng sản của Masan, Masan High-Tech Materials (MHT), ban lãnh đạo đã và đang tập trung vào việc bán lượng đồng tồn kho, tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "Masan High-Tech Materials",
+        "label": "ORG",
+        "evidence": "Mảng khoáng sản của Masan, Masan High-Tech Materials (MHT), ban lãnh đạo đã và đang tập trung vào việc bán lượng đồng tồn kho, tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "MHT",
+        "label": "ORG",
+        "evidence": "Mảng khoáng sản của Masan, Masan High-Tech Materials (MHT), ban lãnh đạo đã và đang tập trung vào việc bán lượng đồng tồn kho, tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "tập trung vào việc bán lượng đồng tồn kho",
+        "label": "EVENT",
+        "evidence": "ban lãnh đạo đã và đang tập trung vào việc bán lượng đồng tồn kho, tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024",
+        "label": "EVENT",
+        "evidence": "tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "quý IV/2024",
+        "label": "DATE",
+        "evidence": "tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "9 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "tổng doanh số bán đồng trong quý IV/2024 dự kiến nhiều hơn tổng doanh số bán trong 9 tháng đầu năm 2024."
+    },
+    {
+        "text": "Việc bán H.C. Starck cho Mitsubishi Materials Corporation với giá mua cổ phần là 134,5 triệu USD",
+        "label": "EVENT",
+        "evidence": "Việc bán H.C. Starck cho Mitsubishi Materials Corporation với giá mua cổ phần là 134,5 triệu USD dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "H.C. Starck",
+        "label": "ORG",
+        "evidence": "Việc bán H.C. Starck cho Mitsubishi Materials Corporation với giá mua cổ phần là 134,5 triệu USD dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "Mitsubishi Materials Corporation",
+        "label": "ORG",
+        "evidence": "Việc bán H.C. Starck cho Mitsubishi Materials Corporation với giá mua cổ phần là 134,5 triệu USD dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "134,5 triệu USD",
+        "label": "MONEY",
+        "evidence": "Việc bán H.C. Starck cho Mitsubishi Materials Corporation với giá mua cổ phần là 134,5 triệu USD dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "dự kiến ​​sẽ hoàn tất trước cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "dự kiến ​​sẽ hoàn tất trước cuối năm 2024."
+    },
+    {
+        "text": "MHT",
+        "label": "ORG",
+        "evidence": "Khi đó, MHT dự kiến ​​sẽ được hưởng lợi từ việc tăng lợi nhuận sau thuế trong dài hạn lên 20-30 triệu USD."
+    },
+    {
+        "text": "dự kiến ​​sẽ được hưởng lợi từ việc tăng lợi nhuận sau thuế trong dài hạn lên 20-30 triệu USD",
+        "label": "EVENT",
+        "evidence": "MHT dự kiến ​​sẽ được hưởng lợi từ việc tăng lợi nhuận sau thuế trong dài hạn lên 20-30 triệu USD."
+    },
+    {
+        "text": "20-30 triệu USD",
+        "label": "MONEY",
+        "evidence": "MHT dự kiến ​​sẽ được hưởng lợi từ việc tăng lợi nhuận sau thuế trong dài hạn lên 20-30 triệu USD."
+    },
+    {
+        "text": "Cơ quan Phát triển Xuất khẩu Canada",
+        "label": "ORG",
+        "evidence": "Mới đây, Cơ quan Phát triển Xuất khẩu Canada (EDC) – cơ quan chuyên về tín dụng xuất khẩu của Canada và Masan đã công bố ký kết Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "EDC",
+        "label": "ORG",
+        "evidence": "Mới đây, Cơ quan Phát triển Xuất khẩu Canada (EDC) – cơ quan chuyên về tín dụng xuất khẩu của Canada và Masan đã công bố ký kết Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Mới đây, Cơ quan Phát triển Xuất khẩu Canada (EDC) – cơ quan chuyên về tín dụng xuất khẩu của Canada và Masan đã công bố ký kết Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "đã công bố ký kết Bản ghi nhớ (MOU)",
+        "label": "EVENT",
+        "evidence": "Mới đây, Cơ quan Phát triển Xuất khẩu Canada (EDC) – cơ quan chuyên về tín dụng xuất khẩu của Canada và Masan đã công bố ký kết Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "Bản ghi nhớ (MOU)",
+        "label": "EVENT",
+        "evidence": "Mới đây, Cơ quan Phát triển Xuất khẩu Canada (EDC) – cơ quan chuyên về tín dụng xuất khẩu của Canada và Masan đã công bố ký kết Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "thúc đẩy quan hệ hợp tác",
+        "label": "EVENT",
+        "evidence": "Bản ghi nhớ (MOU) nhằm thúc đẩy quan hệ hợp tác, kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "thúc đẩy chiến lược \"Go Global\" của Masan",
+        "label": "EVENT",
+        "evidence": "kỳ vọng sẽ thúc đẩy chiến lược \"Go Global\" của Masan."
+    },
+    {
+        "text": "EDC",
+        "label": "ORG",
+        "evidence": "Sở hữu mạng lưới quốc tế sâu rộng và khả năng cung cấp các nguồn lực tài chính dài hạn, EDC sẽ hỗ trợ cho các doanh nghiệp trong hệ sinh thái của Masan, đặc biệt ở lĩnh vực khai thác và chế biến vonfram."
+    },
+    {
+        "text": "sẽ hỗ trợ cho các doanh nghiệp trong hệ sinh thái của Masan, đặc biệt ở lĩnh vực khai thác và chế biến vonfram",
+        "label": "EVENT",
+        "evidence": "EDC sẽ hỗ trợ cho các doanh nghiệp trong hệ sinh thái của Masan, đặc biệt ở lĩnh vực khai thác và chế biến vonfram."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "EDC sẽ hỗ trợ cho các doanh nghiệp trong hệ sinh thái của Masan, đặc biệt ở lĩnh vực khai thác và chế biến vonfram."
+    },
+    {
+        "text": "cổ phiếu MSN",
+        "label": "ASSET",
+        "evidence": "Trên thị trường chứng khoán, cổ phiếu MSN giao dịch quanh mốc 77.000 đồng/cổ phiếu, tăng 15% kể từ đầu năm, vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Trên thị trường chứng khoán, cổ phiếu MSN giao dịch quanh mốc 77.000 đồng/cổ phiếu, tăng 15% kể từ đầu năm, vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "77.000 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "cổ phiếu MSN giao dịch quanh mốc 77.000 đồng/cổ phiếu, tăng 15% kể từ đầu năm, vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "cổ phiếu MSN giao dịch quanh mốc 77.000 đồng/cổ phiếu, tăng 15% kể từ đầu năm, vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "cổ phiếu MSN giao dịch quanh mốc 77.000 đồng/cổ phiếu, tăng 15% kể từ đầu năm, vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "110.750 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn hoá thị trường hơn 110.750 tỷ đồng."
+    },
+    {
+        "text": "Nguyễn Yến Linh",
+        "label": "PERSON",
+        "evidence": "Nguyễn Yến Linh, con gái ông Nguyễn Đăng Quang, Chủ tịch HĐQT Masan mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "ông Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Nguyễn Yến Linh, con gái ông Nguyễn Đăng Quang, Chủ tịch HĐQT Masan mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Nguyễn Yến Linh, con gái ông Nguyễn Đăng Quang, Chủ tịch HĐQT Masan mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "mới đăng ký mua 10 triệu cổ phiếu MSN",
+        "label": "EVENT",
+        "evidence": "mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "10 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "nhằm mục đích tăng tỷ lệ sở hữu",
+        "label": "EVENT",
+        "evidence": "mới đăng ký mua 10 triệu cổ phiếu MSN nhằm mục đích tăng tỷ lệ sở hữu."
+    },
+    {
+        "text": "Giao dịch dự kiến được thực hiện theo phương thức thoả thuận và/hoặc khớp lệnh trong khoảng thời gian từ 29/10 đến 18/11/2024",
+        "label": "EVENT",
+        "evidence": "Giao dịch dự kiến được thực hiện theo phương thức thoả thuận và/hoặc khớp lệnh trong khoảng thời gian từ 29/10 đến 18/11/2024."
+    },
+    {
+        "text": "29/10",
+        "label": "DATE",
+        "evidence": "khoảng thời gian từ 29/10 đến 18/11/2024."
+    },
+    {
+        "text": "18/11/2024",
+        "label": "DATE",
+        "evidence": "khoảng thời gian từ 29/10 đến 18/11/2024."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "Nếu mua thành công, con gái tỷ phú Nguyễn Đăng Quang sẽ nâng tỷ lệ sở hữu tại Masan lên 0,66% vốn điều lệ."
+    },
+    {
+        "text": "nâng tỷ lệ sở hữu tại Masan lên 0,66% vốn điều lệ",
+        "label": "EVENT",
+        "evidence": "Nếu mua thành công, con gái tỷ phú Nguyễn Đăng Quang sẽ nâng tỷ lệ sở hữu tại Masan lên 0,66% vốn điều lệ."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "nâng tỷ lệ sở hữu tại Masan lên 0,66% vốn điều lệ."
+    },
+    {
+        "text": "0,66%",
+        "label": "RATE",
+        "evidence": "nâng tỷ lệ sở hữu tại Masan lên 0,66% vốn điều lệ."
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước Việt Nam, tính đến hết Quý 1 năm nay, tổng số lượng thẻ nội địa đang lưu hành khoảng trên 113 triệu, tổng số lượng thẻ quốc tế đang lưu hành khoảng 31,81 triệu thẻ."
+    },
+    {
+        "text": "Quý 1 năm nay",
+        "label": "DATE",
+        "evidence": "Theo thống kê của Ngân hàng Nhà nước Việt Nam, tính đến hết Quý 1 năm nay, tổng số lượng thẻ nội địa đang lưu hành khoảng trên 113 triệu, tổng số lượng thẻ quốc tế đang lưu hành khoảng 31,81 triệu thẻ."
+    },
+    {
+        "text": "trên 113 triệu",
+        "label": "VOLUME",
+        "evidence": "tổng số lượng thẻ nội địa đang lưu hành khoảng trên 113 triệu, tổng số lượng thẻ quốc tế đang lưu hành khoảng 31,81 triệu thẻ."
+    },
+    {
+        "text": "31,81 triệu thẻ",
+        "label": "VOLUME",
+        "evidence": "tổng số lượng thẻ quốc tế đang lưu hành khoảng 31,81 triệu thẻ."
+    },
+    {
+        "text": "gần 150 triệu thẻ",
+        "label": "VOLUME",
+        "evidence": "Do đó, hạ tầng thanh toán để đáp ứng cho gần 150 triệu thẻ như hiện nay là một khối lượng không hề nhỏ, trong đó có máy POS (máy chấp nhận thanh toán thẻ)."
+    },
+    {
+        "text": "máy POS",
+        "label": "ASSET",
+        "evidence": "trong đó có máy POS (máy chấp nhận thanh toán thẻ)."
+    },
+    {
+        "text": "SoftPOS",
+        "label": "ASSET",
+        "evidence": "Với giải pháp SoftPOS từ ngân hàng số VIB Checkout, chủ shop sẽ tiết kiệm hàng triệu đồng chi phí lắp đặt, đồng thời được miễn phí quản lý và giao dịch đến hết ngày 30/04/2023."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Với giải pháp SoftPOS từ ngân hàng số VIB Checkout, chủ shop sẽ tiết kiệm hàng triệu đồng chi phí lắp đặt, đồng thời được miễn phí quản lý và giao dịch đến hết ngày 30/04/2023."
+    },
+    {
+        "text": "miễn phí quản lý và giao dịch đến hết ngày 30/04/2023",
+        "label": "EVENT",
+        "evidence": "Với giải pháp SoftPOS từ ngân hàng số VIB Checkout, chủ shop sẽ tiết kiệm hàng triệu đồng chi phí lắp đặt, đồng thời được miễn phí quản lý và giao dịch đến hết ngày 30/04/2023."
+    },
+    {
+        "text": "30/04/2023",
+        "label": "DATE",
+        "evidence": "đồng thời được miễn phí quản lý và giao dịch đến hết ngày 30/04/2023."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Với VIB Checkout, ứng dụng ngân hàng số tích hợp công nghệ Soft POS đầu tiên trên thị trường, chiếc điện thoại sẽ thay thế chức năng của máy POS, giúp cửa hàng nhận thanh toán bằng hình thức quẹt thẻ của khách chỉ trong vài giây."
+    },
+    {
+        "text": "Soft POS",
+        "label": "ASSET",
+        "evidence": "Với VIB Checkout, ứng dụng ngân hàng số tích hợp công nghệ Soft POS đầu tiên trên thị trường, chiếc điện thoại sẽ thay thế chức năng của máy POS, giúp cửa hàng nhận thanh toán bằng hình thức quẹt thẻ của khách chỉ trong vài giây."
+    },
+    {
+        "text": "Bùi Hoàng Minh Anh",
+        "label": "PERSON",
+        "evidence": "Chị Bùi Hoàng Minh Anh, Nhà hàng Koh Yam, quận 3, TP. Hồ Chí Minh cho biết “Trước đây thì nhà hàng chúng tôi phải sử dụng máy POS, tốn nhiều chi phí, phải duy trì, bảo trì..."
+    },
+    {
+        "text": "Nhà hàng Koh Yam",
+        "label": "ORG",
+        "evidence": "Chị Bùi Hoàng Minh Anh, Nhà hàng Koh Yam, quận 3, TP. Hồ Chí Minh cho biết “Trước đây thì nhà hàng chúng tôi phải sử dụng máy POS, tốn nhiều chi phí, phải duy trì, bảo trì..."
+    },
+    {
+        "text": "Ngọc",
+        "label": "PERSON",
+        "evidence": "Chị Ngọc, kinh doanh quán cà phê tại quận 1, TP.HCM thì cho biết, khi phát triển thành chuỗi các cửa hàng, chi phí đầu tư ban đầu là rất lớn nên chị chủ trương tiết kiệm được khoản nào hay khoản đó."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Với ứng dụng VIB Checkout, chị Ngọc hầu như không phải mất đồng nào cho việc đầu tư thiết bị thanh toán cho các cửa hàng lại tiết kiệm được chi phí do ứng dụng đang được miễn phí quản lý và phí giao dịch."
+    },
+    {
+        "text": "QR Payment",
+        "label": "ASSET",
+        "evidence": "“Không chỉ là tiết kiệm chi phí của máy POS, mà còn có thể tiết kiệm được chi phí đầu tư cho những giải pháp thanh toán khác như QR Payment, Mobile Payment...Vì tất cả những cái đó đều đã tích hợp trên điện thoại di động rồi.”"
+    },
+    {
+        "text": "Mobile Payment",
+        "label": "ASSET",
+        "evidence": "“Không chỉ là tiết kiệm chi phí của máy POS, mà còn có thể tiết kiệm được chi phí đầu tư cho những giải pháp thanh toán khác như QR Payment, Mobile Payment...Vì tất cả những cái đó đều đã tích hợp trên điện thoại di động rồi.”"
+    },
+    {
+        "text": "Phạm Thu Hà",
+        "label": "PERSON",
+        "evidence": "bà Phạm Thu Hà, Giám đốc Trung tâm Chiến lược & Giải pháp ngân hàng số, VIB chia sẻ."
+    },
+    {
+        "text": "Giám đốc Trung tâm Chiến lược & Giải pháp ngân hàng số, VIB",
+        "label": "PERSON",
+        "evidence": "bà Phạm Thu Hà, Giám đốc Trung tâm Chiến lược & Giải pháp ngân hàng số, VIB chia sẻ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "bà Phạm Thu Hà, Giám đốc Trung tâm Chiến lược & Giải pháp ngân hàng số, VIB chia sẻ."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Cũng theo đại diện VIB, quản lý tài chính là một trong những vấn đề quan trọng nhưng cũng phức tạp nhất khi kinh doanh, nhất là kinh doanh nhỏ."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Không chỉ giải quyết vấn đề thanh toán cho chủ shop, VIB Checkout còn là ứng dụng giao dịch và quản lý tài chính toàn diện."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Ngoài tính năng trên, VIB Checkout còn mang đến nhiều tiện ích tài chính thông minh như: Phân quyền duyệt chi, sao kê dễ dàng, cung cấp đa dạng các phương thức chuyển tiền (chuyển tiền đơn, theo lô, bằng mã QR...)."
+    },
+    {
+        "text": "Nhân dịp ra mắt VIB Checkout cùng gói tài khoản cho khách hàng kinh doanh, từ nay đến hết ngày 31/10/2023, VIB dành tặng ưu đãi hoàn tiền cho khách hàng doanh nghiệp siêu nhỏ, hộ kinh doanh và cá nhân kinh doanh",
+        "label": "EVENT",
+        "evidence": "Nhân dịp ra mắt VIB Checkout cùng gói tài khoản cho khách hàng kinh doanh, từ nay đến hết ngày 31/10/2023, VIB dành tặng ưu đãi hoàn tiền cho khách hàng doanh nghiệp siêu nhỏ, hộ kinh doanh và cá nhân kinh doanh."
+    },
+    {
+        "text": "31/10/2023",
+        "label": "DATE",
+        "evidence": "từ nay đến hết ngày 31/10/2023, VIB dành tặng ưu đãi hoàn tiền cho khách hàng doanh nghiệp siêu nhỏ, hộ kinh doanh và cá nhân kinh doanh."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "từ nay đến hết ngày 31/10/2023, VIB dành tặng ưu đãi hoàn tiền cho khách hàng doanh nghiệp siêu nhỏ, hộ kinh doanh và cá nhân kinh doanh."
+    },
+    {
+        "text": "230 khách hàng",
+        "label": "VOLUME",
+        "evidence": "Theo đó, 230 khách hàng có ít nhất 10 giao dịch nhận tiền vào tài khoản với tổng giá trị giao dịch từ 1 tỷ đồng trở lên sẽ nhận quà tặng trị giá 3.900.000 đồng/ phần."
+    },
+    {
+        "text": "ít nhất 10 giao dịch",
+        "label": "VOLUME",
+        "evidence": "230 khách hàng có ít nhất 10 giao dịch nhận tiền vào tài khoản với tổng giá trị giao dịch từ 1 tỷ đồng trở lên sẽ nhận quà tặng trị giá 3.900.000 đồng/ phần."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với tổng giá trị giao dịch từ 1 tỷ đồng trở lên sẽ nhận quà tặng trị giá 3.900.000 đồng/ phần."
+    },
+    {
+        "text": "3.900.000 đồng/ phần",
+        "label": "MONEY",
+        "evidence": "sẽ nhận quà tặng trị giá 3.900.000 đồng/ phần."
+    },
+    {
+        "text": "ít nhất 50 giao dịch",
+        "label": "VOLUME",
+        "evidence": "Khách hàng đạt ít nhất 50 giao dịch nhận tiền sớm nhất vào tài khoản thanh toán mỗi tháng (mỗi giao dịch có giá trị từ 100.000 đồng trở lên) sẽ nhận quà tặng trị giá 680.000 đồng/ phần."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "(mỗi giao dịch có giá trị từ 100.000 đồng trở lên) sẽ nhận quà tặng trị giá 680.000 đồng/ phần."
+    },
+    {
+        "text": "680.000 đồng/ phần",
+        "label": "MONEY",
+        "evidence": "sẽ nhận quà tặng trị giá 680.000 đồng/ phần."
+    },
+    {
+        "text": "VIB Checkout",
+        "label": "ASSET",
+        "evidence": "Tham khảo thông tin về VIB Checkout và tận hưởng các tiện ích, ưu đãitại đây."
+    }
+]

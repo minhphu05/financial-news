@@ -1,0 +1,342 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Theo Biểu lãi suất huy động được VPBank công bố sáng nay, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm so với trước đó, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "sáng nay",
+        "label": "DATE",
+        "evidence": "Theo Biểu lãi suất huy động được VPBank công bố sáng nay, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm so với trước đó, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 1 tháng",
+        "label": "ASSET",
+        "evidence": "Theo Biểu lãi suất huy động được VPBank công bố sáng nay, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm so với trước đó, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm",
+        "label": "EVENT",
+        "evidence": "Theo Biểu lãi suất huy động được VPBank công bố sáng nay, lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm so với trước đó, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "0,1 %/năm",
+        "label": "RATE",
+        "evidence": "lãi suất tiền gửi kỳ hạn 1 tháng tăng nhẹ 0,1 %/năm so với trước đó, trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 2 - 36 tháng",
+        "label": "ASSET",
+        "evidence": "trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm",
+        "label": "EVENT",
+        "evidence": "trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "0,2%/năm",
+        "label": "RATE",
+        "evidence": "trong khi lãi suất tiền gửi kỳ hạn 2 - 36 tháng đồng loạt tăng 0,2%/năm."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, VPBank triển khai biểu lãi suất tương ứng theo 5 mức gửi tiền gồm: Dưới 1 tỷ đồng; Từ 1 tỷ đồng đến dưới 3 tỷ đồng; Từ 3 tỷ đồng đến dưới 10 tỷ đồng; Từ 10 tỷ đồng đến dưới 50 tỷ đồng; Từ 50 tỷ đồng trở lên"
+    },
+    {
+        "text": "VPBank triển khai biểu lãi suất",
+        "label": "EVENT",
+        "evidence": "Cụ thể, VPBank triển khai biểu lãi suất tương ứng theo 5 mức gửi tiền gồm: Dưới 1 tỷ đồng; Từ 1 tỷ đồng đến dưới 3 tỷ đồng; Từ 3 tỷ đồng đến dưới 10 tỷ đồng; Từ 10 tỷ đồng đến dưới 50 tỷ đồng; Từ 50 tỷ đồng trở lên"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dưới 1 tỷ đồng;"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 1 tỷ đồng đến dưới 3 tỷ đồng;"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 1 tỷ đồng đến dưới 3 tỷ đồng;"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 3 tỷ đồng đến dưới 10 tỷ đồng;"
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 3 tỷ đồng đến dưới 10 tỷ đồng;"
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 10 tỷ đồng đến dưới 50 tỷ đồng;"
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 10 tỷ đồng đến dưới 50 tỷ đồng;"
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Từ 50 tỷ đồng trở lên"
+    },
+    {
+        "text": "2,3 – 2,5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 1 tháng có lãi suất dao động trong khoảng 2,3 – 2,5%/năm;"
+    },
+    {
+        "text": "2,6 – 2,8%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 2  - 5 tháng có cùng mức lãi suất dao động trong khoảng 2,6 – 2,8%/năm;"
+    },
+    {
+        "text": "4,1 – 4,3%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 – 11 tháng là 4,1 – 4,3%/năm;"
+    },
+    {
+        "text": "4,4 – 4,6%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 – 18 tháng là 4,4 – 4,6%/năm;"
+    },
+    {
+        "text": "4,8 – 5%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 36 tháng là 4,8 – 5%/năm."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Nếu khách hàng gửi tiền theo hình thức online, lãi suất huy động cao hơn 0,1%/năm so với gửi tiền tại quầy."
+    },
+    {
+        "text": "2,4 – 2,6%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, kỳ hạn 1 tháng có lãi suất dao động trong khoảng 2,4 – 2,6%/năm;"
+    },
+    {
+        "text": "2,7 – 2,9%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 2  - 5 tháng có cùng mức lãi suất dao động trong khoảng 2,7 – 2,9%/năm;"
+    },
+    {
+        "text": "4,2 – 4,4%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 6 – 11 tháng là 4,2 – 4,4%/năm;"
+    },
+    {
+        "text": "4,5 – 4,7%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 12 – 18 tháng là 4,5 – 4,7%/năm;"
+    },
+    {
+        "text": "4,9 – 5,1%/năm",
+        "label": "RATE",
+        "evidence": "kỳ hạn 36 tháng là 4,9 – 5,1%/năm."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, VPBank áp dụng chính sách khách hàng ưu tiên với số dư tối thiểu 100 triệu đồng và gửi kỳ hạn tối thiểu 1 tháng sẽ được cộng thêm 0,1%/năm so với lãi suất niêm yết hiện hành."
+    },
+    {
+        "text": "VPBank áp dụng chính sách khách hàng ưu tiên",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, VPBank áp dụng chính sách khách hàng ưu tiên với số dư tối thiểu 100 triệu đồng và gửi kỳ hạn tối thiểu 1 tháng sẽ được cộng thêm 0,1%/năm so với lãi suất niêm yết hiện hành."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, VPBank áp dụng chính sách khách hàng ưu tiên với số dư tối thiểu 100 triệu đồng và gửi kỳ hạn tối thiểu 1 tháng sẽ được cộng thêm 0,1%/năm so với lãi suất niêm yết hiện hành."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "sẽ được cộng thêm 0,1%/năm so với lãi suất niêm yết hiện hành."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Như vậy, mức lãi suất huy động cao nhất tại VPBank có thể lên đến 5,2% nếu khách hàng gửi tiền online từ 50 tỷ đồng trở lên, kỳ hạn 24-36 tháng."
+    },
+    {
+        "text": "5,2%",
+        "label": "RATE",
+        "evidence": "Như vậy, mức lãi suất huy động cao nhất tại VPBank có thể lên đến 5,2% nếu khách hàng gửi tiền online từ 50 tỷ đồng trở lên, kỳ hạn 24-36 tháng."
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy, mức lãi suất huy động cao nhất tại VPBank có thể lên đến 5,2% nếu khách hàng gửi tiền online từ 50 tỷ đồng trở lên, kỳ hạn 24-36 tháng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "4 ngân hàng thương mại tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "19/3",
+        "label": "DATE",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "Trước VPBank, đã có 4 ngân hàng thương mại tăng lãi suất huy động (kể từ ngày 19/3) gồm Eximbank, SHB, Techcombank, Saigonbank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, khác với VPBank, 4 ngân hàng này chỉ tăng lãi suất ở một vài kỳ hạn tiền gửi."
+    },
+    {
+        "text": "tăng lãi suất ở một vài kỳ hạn tiền gửi",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, khác với VPBank, 4 ngân hàng này chỉ tăng lãi suất ở một vài kỳ hạn tiền gửi."
+    },
+    {
+        "text": "tăng lãi suất trở lại",
+        "label": "EVENT",
+        "evidence": "Dù một số ngân hàng đã bắt đầu tăng lãi suất trở lại nhằm thu hút thêm tiền gửi sau dịp Tết nguyên đán nhưng xu hướng giảm vẫn chiếm chủ đạo trong tháng 3."
+    },
+    {
+        "text": "tháng 3",
+        "label": "DATE",
+        "evidence": "Dù một số ngân hàng đã bắt đầu tăng lãi suất trở lại nhằm thu hút thêm tiền gửi sau dịp Tết nguyên đán nhưng xu hướng giảm vẫn chiếm chủ đạo trong tháng 3."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Mới nhất, VietinBank, BIDV và Agribank đều đã hạ lãi suất huy động xuống dưới 5%/năm - mức thấp nhất trong hàng chục năm trở lại đây."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Mới nhất, VietinBank, BIDV và Agribank đều đã hạ lãi suất huy động xuống dưới 5%/năm - mức thấp nhất trong hàng chục năm trở lại đây."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Mới nhất, VietinBank, BIDV và Agribank đều đã hạ lãi suất huy động xuống dưới 5%/năm - mức thấp nhất trong hàng chục năm trở lại đây."
+    },
+    {
+        "text": "hạ lãi suất huy động xuống dưới 5%/năm",
+        "label": "EVENT",
+        "evidence": "Mới nhất, VietinBank, BIDV và Agribank đều đã hạ lãi suất huy động xuống dưới 5%/năm - mức thấp nhất trong hàng chục năm trở lại đây."
+    },
+    {
+        "text": "5%/năm",
+        "label": "RATE",
+        "evidence": "Mới nhất, VietinBank, BIDV và Agribank đều đã hạ lãi suất huy động xuống dưới 5%/năm - mức thấp nhất trong hàng chục năm trở lại đây."
+    },
+    {
+        "text": "Big4",
+        "label": "ORG",
+        "evidence": "Với việc chiếm gần một nửa thị phần huy động tiền gửi toàn hệ thống, động thái của nhóm Big4 được kỳ vọng sẽ khiến mặt bằng lãi suất tiết kiệm khó có thể sớm tăng mạnh trở lại."
+    },
+    {
+        "text": "lãi suất huy động giảm",
+        "label": "EVENT",
+        "evidence": "Theo giới chuyên môn, mặc dù lãi suất huy động giảm nhiều nhưng lượng tiền gửi tại hệ thống ngân hàng vẫn ở mức cao kỷ lục."
+    },
+    {
+        "text": "tăng lãi suất huy động trở lại",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, do cầu tín dụng yếu do nhu cầu về sản xuất, tiêu thụ hàng hoá chưa được cải thiện nên hầu hết các ngân hàng chưa mặn mà với việc tăng lãi suất huy động trở lại để hút tiền gửi."
+    },
+    {
+        "text": "tăng trưởng tín dụng được dự báo phục hồi",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, tăng trưởng tín dụng được dự báo phục hồi trong quý 2 sẽ khiến thanh khoản hệ thống bớt dồi dào và có khả năng thúc đẩy các ngân hàng tăng lãi suất huy động."
+    },
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, tăng trưởng tín dụng được dự báo phục hồi trong quý 2 sẽ khiến thanh khoản hệ thống bớt dồi dào và có khả năng thúc đẩy các ngân hàng tăng lãi suất huy động."
+    },
+    {
+        "text": "tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, tăng trưởng tín dụng được dự báo phục hồi trong quý 2 sẽ khiến thanh khoản hệ thống bớt dồi dào và có khả năng thúc đẩy các ngân hàng tăng lãi suất huy động."
+    },
+    {
+        "text": "Chứng khoán MB",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích mới công bố, Chứng khoán MB (MBS) cho rằng lãi suất đầu vào có khả năng tạo đáy trong quý 1 và khó có khả năng giảm thêm chủ yếu do cầu tín dụng sẽ có xu hướng tăng lên trong năm 2024."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích mới công bố, Chứng khoán MB (MBS) cho rằng lãi suất đầu vào có khả năng tạo đáy trong quý 1 và khó có khả năng giảm thêm chủ yếu do cầu tín dụng sẽ có xu hướng tăng lên trong năm 2024."
+    },
+    {
+        "text": "lãi suất đầu vào có khả năng tạo đáy",
+        "label": "EVENT",
+        "evidence": "Trong báo cáo phân tích mới công bố, Chứng khoán MB (MBS) cho rằng lãi suất đầu vào có khả năng tạo đáy trong quý 1 và khó có khả năng giảm thêm chủ yếu do cầu tín dụng sẽ có xu hướng tăng lên trong năm 2024."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "Trong báo cáo phân tích mới công bố, Chứng khoán MB (MBS) cho rằng lãi suất đầu vào có khả năng tạo đáy trong quý 1 và khó có khả năng giảm thêm chủ yếu do cầu tín dụng sẽ có xu hướng tăng lên trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trong báo cáo phân tích mới công bố, Chứng khoán MB (MBS) cho rằng lãi suất đầu vào có khả năng tạo đáy trong quý 1 và khó có khả năng giảm thêm chủ yếu do cầu tín dụng sẽ có xu hướng tăng lên trong năm 2024."
+    },
+    {
+        "text": "lãi suất huy động kỳ hạn 12 tháng",
+        "label": "ASSET",
+        "evidence": "\"Chúng tôi dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM lớn sẽ có thể nhích thêm 25 – 50 điểm cơ bản, quay về mức 5,25% - 5,5% trong năm 2024\", MBS cho hay."
+    },
+    {
+        "text": "nhích thêm 25 – 50 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "\"Chúng tôi dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM lớn sẽ có thể nhích thêm 25 – 50 điểm cơ bản, quay về mức 5,25% - 5,5% trong năm 2024\", MBS cho hay."
+    },
+    {
+        "text": "5,25% - 5,5%",
+        "label": "RATE",
+        "evidence": "\"Chúng tôi dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM lớn sẽ có thể nhích thêm 25 – 50 điểm cơ bản, quay về mức 5,25% - 5,5% trong năm 2024\", MBS cho hay."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "\"Chúng tôi dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM lớn sẽ có thể nhích thêm 25 – 50 điểm cơ bản, quay về mức 5,25% - 5,5% trong năm 2024\", MBS cho hay."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "\"Chúng tôi dự báo lãi suất huy động kỳ hạn 12 tháng của các NHTM lớn sẽ có thể nhích thêm 25 – 50 điểm cơ bản, quay về mức 5,25% - 5,5% trong năm 2024\", MBS cho hay."
+    }
+]

@@ -1,0 +1,377 @@
+[
+    {
+        "text": "phiên chiều 7/9",
+        "label": "DATE",
+        "evidence": "Sau những nỗ lực tăng giá mạnh mẽ, thị trường chứng khoán bất ngờ quay đầu điều chỉnh vào phiên chiều 7/9."
+    },
+    {
+        "text": "quay đầu điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Sau những nỗ lực tăng giá mạnh mẽ, thị trường chứng khoán bất ngờ quay đầu điều chỉnh vào phiên chiều 7/9."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, VN-Index giảm nhẹ 2,36 điểm xuống mốc 1.243,14 điểm qua đó chấm dứt chuỗi tăng điểm 6 phiên liên tiếp."
+    },
+    {
+        "text": "2,36 điểm",
+        "label": "RATE",
+        "evidence": "Đóng cửa, VN-Index giảm nhẹ 2,36 điểm xuống mốc 1.243,14 điểm qua đó chấm dứt chuỗi tăng điểm 6 phiên liên tiếp."
+    },
+    {
+        "text": "1.243,14 điểm",
+        "label": "PRICE",
+        "evidence": "Đóng cửa, VN-Index giảm nhẹ 2,36 điểm xuống mốc 1.243,14 điểm qua đó chấm dứt chuỗi tăng điểm 6 phiên liên tiếp."
+    },
+    {
+        "text": "chấm dứt chuỗi tăng điểm 6 phiên liên tiếp",
+        "label": "EVENT",
+        "evidence": "Đóng cửa, VN-Index giảm nhẹ 2,36 điểm xuống mốc 1.243,14 điểm qua đó chấm dứt chuỗi tăng điểm 6 phiên liên tiếp."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Dù vậy, thanh khoản vẫn ở mức cao với giá trị khớp lệnh trên HoSE đạt xấp xỉ 23.896 tỷ đồng (~1 tỷ USD)."
+    },
+    {
+        "text": "23.896 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dù vậy, thanh khoản vẫn ở mức cao với giá trị khớp lệnh trên HoSE đạt xấp xỉ 23.896 tỷ đồng (~1 tỷ USD)."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Dù vậy, thanh khoản vẫn ở mức cao với giá trị khớp lệnh trên HoSE đạt xấp xỉ 23.896 tỷ đồng (~1 tỷ USD)."
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh đó, giao dịch khối ngoại lại trở nên ảm đạm khi bán ròng tay gần 895 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "895 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong bối cảnh đó, giao dịch khối ngoại lại trở nên ảm đạm khi bán ròng tay gần 895 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị xấp xỉ 888tỷ đồng"
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị xấp xỉ 888tỷ đồng"
+    },
+    {
+        "text": "888tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị xấp xỉ 888tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu quốc dân HPG chịu áp lực bán mạnh nhất của khối ngoại với giá trị 218 tỷ đồng"
+    },
+    {
+        "text": "218 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều bán, cổ phiếu quốc dân HPG chịu áp lực bán mạnh nhất của khối ngoại với giá trị 218 tỷ đồng"
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "theo sau SSI, FUEVFVND bị bán trên 90 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "theo sau SSI, FUEVFVND bị bán trên 90 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bị bán",
+        "label": "EVENT",
+        "evidence": "theo sau SSI, FUEVFVND bị bán trên 90 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "90 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "theo sau SSI, FUEVFVND bị bán trên 90 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "VIC và STB cũng bị bán ròng mạnh lần lượt 57 và 50 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "VIC và STB cũng bị bán ròng mạnh lần lượt 57 và 50 tỷ đồng."
+    },
+    {
+        "text": "bị bán ròng",
+        "label": "EVENT",
+        "evidence": "VIC và STB cũng bị bán ròng mạnh lần lượt 57 và 50 tỷ đồng."
+    },
+    {
+        "text": "57 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VIC và STB cũng bị bán ròng mạnh lần lượt 57 và 50 tỷ đồng."
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VIC và STB cũng bị bán ròng mạnh lần lượt 57 và 50 tỷ đồng."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, VNM và MWG được mua ròng mạnh nhất với giá trị khoảng 39-42 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, VNM và MWG được mua ròng mạnh nhất với giá trị khoảng 39-42 tỷ đồng."
+    },
+    {
+        "text": "được mua ròng",
+        "label": "EVENT",
+        "evidence": "Chiều ngược lại, VNM và MWG được mua ròng mạnh nhất với giá trị khoảng 39-42 tỷ đồng."
+    },
+    {
+        "text": "39-42 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều ngược lại, VNM và MWG được mua ròng mạnh nhất với giá trị khoảng 39-42 tỷ đồng."
+    },
+    {
+        "text": "PVD",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, PVD xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 21 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, PVD xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 21 tỷ đồng."
+    },
+    {
+        "text": "21 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, PVD xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 21 tỷ đồng."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng 15 tỷ đồng tại cổ phiếu FTS và GMD."
+    },
+    {
+        "text": "15 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng 15 tỷ đồng tại cổ phiếu FTS và GMD."
+    },
+    {
+        "text": "FTS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng 15 tỷ đồng tại cổ phiếu FTS và GMD."
+    },
+    {
+        "text": "GMD",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng 15 tỷ đồng tại cổ phiếu FTS và GMD."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng 5tỷ đồng"
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại mua ròng 5tỷ đồng"
+    },
+    {
+        "text": "5tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại mua ròng 5tỷ đồng"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 8 tỷ đồng."
+    },
+    {
+        "text": "được mua ròng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 8 tỷ đồng."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, PVS được mua ròng mạnh nhất với giá trị 8 tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo danh sách mua ròng mạnh trên HNX với 3 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo danh sách mua ròng mạnh trên HNX với 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, IDC xếp tiếp theo danh sách mua ròng mạnh trên HNX với 3 tỷ đồng."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng HUT và SHS với giá trị 1 tỷ đồng."
+    },
+    {
+        "text": "HUT",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng HUT và SHS với giá trị 1 tỷ đồng."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng HUT và SHS với giá trị 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng HUT và SHS với giá trị 1 tỷ đồng."
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "Ngược lại, NVB chịu áp lực bán ròng của khối ngoại với giá trị 1,4 tỷ đồng"
+    },
+    {
+        "text": "bán ròng của khối ngoại",
+        "label": "EVENT",
+        "evidence": "Ngược lại, NVB chịu áp lực bán ròng của khối ngoại với giá trị 1,4 tỷ đồng"
+    },
+    {
+        "text": "1,4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, NVB chịu áp lực bán ròng của khối ngoại với giá trị 1,4 tỷ đồng"
+    },
+    {
+        "text": "DTD",
+        "label": "TICKER",
+        "evidence": "theo sau DTD bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "bị bán",
+        "label": "EVENT",
+        "evidence": "theo sau DTD bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "0,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "theo sau DTD bị bán khoảng 0,5 tỷ đồng."
+    },
+    {
+        "text": "UPCOM",
+        "label": "ORG",
+        "evidence": "Trên UPCOM, khối ngoại bánròng khoảng12tỷ đồng"
+    },
+    {
+        "text": "bánròng",
+        "label": "EVENT",
+        "evidence": "Trên UPCOM, khối ngoại bánròng khoảng12tỷ đồng"
+    },
+    {
+        "text": "12tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCOM, khối ngoại bánròng khoảng12tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu BSR hôm nay được khối ngoại mua 12 tỷ đồng"
+    },
+    {
+        "text": "được khối ngoại mua",
+        "label": "EVENT",
+        "evidence": "Chiều mua, cổ phiếu BSR hôm nay được khối ngoại mua 12 tỷ đồng"
+    },
+    {
+        "text": "12 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều mua, cổ phiếu BSR hôm nay được khối ngoại mua 12 tỷ đồng"
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "tương tự, MCH, VGG, LCM,.. cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm tới 1 tỷ đồng."
+    },
+    {
+        "text": "VGG",
+        "label": "TICKER",
+        "evidence": "tương tự, MCH, VGG, LCM,.. cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm tới 1 tỷ đồng."
+    },
+    {
+        "text": "LCM",
+        "label": "TICKER",
+        "evidence": "tương tự, MCH, VGG, LCM,.. cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm tới 1 tỷ đồng."
+    },
+    {
+        "text": "mua ròng",
+        "label": "EVENT",
+        "evidence": "tương tự, MCH, VGG, LCM,.. cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm tới 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương tự, MCH, VGG, LCM,.. cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm tới 1 tỷ đồng."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "QNS hôm nay bị khối ngoại bán ròng mạnh khoảng 7 tỷ đồng"
+    },
+    {
+        "text": "bị khối ngoại bán ròng",
+        "label": "EVENT",
+        "evidence": "QNS hôm nay bị khối ngoại bán ròng mạnh khoảng 7 tỷ đồng"
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "QNS hôm nay bị khối ngoại bán ròng mạnh khoảng 7 tỷ đồng"
+    },
+    {
+        "text": "bán ròng",
+        "label": "EVENT",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "ABI",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "MPC",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "4-5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngoài ra họ cũng bán ròng tại ACV, ABI, LTG, MPC... khoảng 4-5 tỷ đồng mỗi mã."
+    }
+]

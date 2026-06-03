@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Ngân hàng TMCP Quân đội",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "MB vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TMCP Quân đội (MB) vừa có thông báo gửi đến khách hàng cảnh báo về một số hình thức lừa đảo mới nhằm nâng cao cảnh giác và bảo vệ thông tin tài khoản một cách an toàn."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Thậm chí, các đối tượng còn gửi đường link giả mạo các trang web để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng của nạn nhân."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Thậm chí, các đối tượng còn gửi đường link giả mạo các trang web để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng của nạn nhân."
+    },
+    {
+        "text": "50% trở lên",
+        "label": "RATE",
+        "evidence": "Khi khách hàng liên hệ, chúng yêu cầu chuyển khoản đặt cọc một phần tiền (thường từ 50% trở lên)."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Chúng thuyết phục nạn nhân mở thẻ tín dụng, cung cấp thông tin cá nhân và giao quyền kiểm soát máy tính cho chúng qua phần mềm hoặc ứng dụng từ xa."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Sau đó, chúng sử dụng thẻ tín dụng của nạn nhân để thực hiện các giao dịch thanh toán trái phép mà khách hàng không hề hay biết."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Tuy nhiên, trong quá trình tham gia khảo sát, nạn nhân sẽ bị dụ dỗ nhập thông tin thẻ tín dụng để thanh toán sản phẩm."
+    },
+    {
+        "text": "tiền ảo",
+        "label": "ASSET",
+        "evidence": "Kêu gọi đầu tư tài chính, tiền ảo với lợi nhuận cao"
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "Gửi mã QR dẫn đến trang web giả mạo ngân hàng, yêu cầu khách hàng nhập họ tên, thông tin giấy tờ tùy nhân, số thẻ, ngày hết hạn thẻ, mã OTP..."
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Gửi mã QR dẫn đến trang web giả mạo ngân hàng, yêu cầu khách hàng nhập họ tên, thông tin giấy tờ tùy nhân, số thẻ, ngày hết hạn thẻ, mã OTP..."
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Sau đó, sử dụng thông tin thẻ để chiếm đoạt tiền trong tài khoản"
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Yêu cầu cung cấp thông tin thẻ, mã CVV, ngày hết hạn, mã OTP: Dẫn dắt Khách hàng phát hành thẻ trên App, tra cứu và cung cấp thông tin thẻ để thực hiện giao dịch thanh toán online nhằm chiếm đoạt hạn mức thẻ của khách hàng"
+    },
+    {
+        "text": "hạn mức thẻ",
+        "label": "ASSET",
+        "evidence": "Yêu cầu cung cấp thông tin thẻ, mã CVV, ngày hết hạn, mã OTP: Dẫn dắt Khách hàng phát hành thẻ trên App, tra cứu và cung cấp thông tin thẻ để thực hiện giao dịch thanh toán online nhằm chiếm đoạt hạn mức thẻ của khách hàng"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB khuyến nghị khách hàng"
+    },
+    {
+        "text": "tài khoản ngân hàng cá nhân",
+        "label": "ASSET",
+        "evidence": "Không kết nối app lạ vào tài khoản ngân hàng cá nhân hoặc tài khoản của doanh nghiệp khi chưa được xác minh."
+    },
+    {
+        "text": "tài khoản của doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Không kết nối app lạ vào tài khoản ngân hàng cá nhân hoặc tài khoản của doanh nghiệp khi chưa được xác minh."
+    },
+    {
+        "text": "thông tin tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Không cung cấp thông tin tài khoản ngân hàng, mã OTP, thông tin thẻ, mã CVV."
+    },
+    {
+        "text": "thông tin thẻ",
+        "label": "ASSET",
+        "evidence": "Không cung cấp thông tin tài khoản ngân hàng, mã OTP, thông tin thẻ, mã CVV."
+    },
+    {
+        "text": "thông tin ngân hàng",
+        "label": "ASSET",
+        "evidence": "Không lưu thông tin ngân hàng trên ứng dụng, website không rõ nguồn gốc, thường xuyên cập nhật bảo mật."
+    }
+]

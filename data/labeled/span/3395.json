@@ -1,0 +1,327 @@
+[
+    {
+        "text": "phiên giao dịch giằng co quanh ngưỡng tham chiếu",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán có phiên giao dịch giằng co quanh ngưỡng tham chiếu, tuy nhiên áp lực bán mạnh mẽ hơn về cuối phiên khiến chỉ số VN-Index tiếp tục đóng cửa trong sắc đỏ."
+    },
+    {
+        "text": "áp lực bán mạnh mẽ hơn về cuối phiên",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán có phiên giao dịch giằng co quanh ngưỡng tham chiếu, tuy nhiên áp lực bán mạnh mẽ hơn về cuối phiên khiến chỉ số VN-Index tiếp tục đóng cửa trong sắc đỏ."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Thị trường chứng khoán có phiên giao dịch giằng co quanh ngưỡng tham chiếu, tuy nhiên áp lực bán mạnh mẽ hơn về cuối phiên khiến chỉ số VN-Index tiếp tục đóng cửa trong sắc đỏ."
+    },
+    {
+        "text": "VN-Index tiếp tục đóng cửa trong sắc đỏ",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán có phiên giao dịch giằng co quanh ngưỡng tham chiếu, tuy nhiên áp lực bán mạnh mẽ hơn về cuối phiên khiến chỉ số VN-Index tiếp tục đóng cửa trong sắc đỏ."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên, VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm."
+    },
+    {
+        "text": "giảm 5,15 điểm",
+        "label": "RATE",
+        "evidence": "Kết phiên, VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm."
+    },
+    {
+        "text": "-0,48 %",
+        "label": "RATE",
+        "evidence": "Kết phiên, VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm."
+    },
+    {
+        "text": "1.064,3 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên, VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm."
+    },
+    {
+        "text": "VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm",
+        "label": "EVENT",
+        "evidence": "Kết phiên, VN-Index giảm 5,15 điểm (-0,48 %) xuống 1.064,3 điểm."
+    },
+    {
+        "text": "bán ròng với tổng giá trị hơn 297 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Giao dịch khối ngoại tiếp tục là điểm trừ khi họ bán ròng với tổng giá trị hơn 297 tỷ đồng trên cả 3 sàn."
+    },
+    {
+        "text": "hơn 297 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch khối ngoại tiếp tục là điểm trừ khi họ bán ròng với tổng giá trị hơn 297 tỷ đồng trên cả 3 sàn."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Trong khi đó, tự doanh CTCK trởlại mua ròng hơn 24tỷ đồng trên cả 3 sàn."
+    },
+    {
+        "text": "mua ròng hơn 24 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, tự doanh CTCK trởlại mua ròng hơn 24tỷ đồng trên cả 3 sàn."
+    },
+    {
+        "text": "hơn 24 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi đó, tự doanh CTCK trởlại mua ròng hơn 24tỷ đồng trên cả 3 sàn."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "mua ròng 21 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "21 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "mua ròng 30 tỷ đồng trên kênh khớp lệnh",
+        "label": "EVENT",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "30 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "bán ròng gần 10 tỷ tại kênh thoả thuận",
+        "label": "EVENT",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "gần 10 tỷ",
+        "label": "MONEY",
+        "evidence": "Trên sàn HoSE, tự doanh CTCK ghinhận mua ròng 21 tỷ đồng, trong đómua ròng30tỷ đồng trên kênh khớp lệnh song bán ròng gần10tỷ tại kênh thoả thuận."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Cụ thể, giao dịch của các CTCK tập trung mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Cụ thể, giao dịch của các CTCK tập trung mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu DGC",
+        "label": "ASSET",
+        "evidence": "Cụ thể, giao dịch của các CTCK tập trung mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Cụ thể, giao dịch của các CTCK tập trung mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng."
+    },
+    {
+        "text": "gần 17 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, giao dịch của các CTCK tập trung mua ròng mạnh nhất tại cổ phiếu DGC với giá trị gần 17 tỷ đồng."
+    },
+    {
+        "text": "mua ròng nhiều tại cổ phiếu HPG và MWG",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu HPG",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "13 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, tự doanh còn mua ròng nhiều tại cổ phiếu HPG và MWG với giá trị lần lượt 13 tỷ đồng và 8 tỷ đồng."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "gần 8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "chứng chỉ quỹ FUEMAVND",
+        "label": "ASSET",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "FUEMAVND",
+        "label": "TICKER",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "bán ròng 4 tỷ đồng tại mỗi mã",
+        "label": "EVENT",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, nhóm CTCK bán ròng mạnh nhất tại VIC với gần 8 tỷ đồng; theo sau có PVS và chứng chỉ quỹ FUEMAVND cũng bị bán ròng 4 tỷ đồng tại mỗi mã"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "bán ròng gần 13 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "gần 13 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "bán ròng gần 12 tỷ tại cổ phiếu DDG",
+        "label": "EVENT",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "gần 12 tỷ",
+        "label": "MONEY",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "cổ phiếu DDG",
+        "label": "ASSET",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "DDG",
+        "label": "TICKER",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "bán ròng gần 5 tỷ tại cổ phiếu PVS",
+        "label": "EVENT",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "gần 5 tỷ",
+        "label": "MONEY",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "cổ phiếu PVS",
+        "label": "ASSET",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Trên HNX, tự doanh CTCK bán ròng gần13tỷ đồng, trong đó bán ròng gần 12 tỷ tại cổ phiếu DDG và bán ròng gần 5 tỷ tại cổ phiếu PVS."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "mua ròng tới gần 16 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "gần 16 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "mua ròng gần 13 tỷ tại C4G",
+        "label": "EVENT",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "gần 13 tỷ",
+        "label": "MONEY",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "C4G",
+        "label": "TICKER",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "mua ròng hơn 5 tỷ đồng tại BSR",
+        "label": "EVENT",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "hơn 5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Trên UPCoM, tự doanh CTCK ghi nhận mua ròng tới gần 16 tỷ đồngvới giao dịch mua ròng gần 13 tỷ tại C4G và hơn 5 tỷ đồng tại BSR."
+    }
+]

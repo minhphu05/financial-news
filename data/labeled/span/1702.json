@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "công bố kết quả kinh doanh 8 tháng đầu năm 2025",
+        "label": "EVENT",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "8 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "43.818 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "10,5%",
+        "label": "RATE",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Tập đoàn FPTvừa công bố kết quả kinh doanh 8 tháng đầu năm 2025 với doanh thu đạt 43.818 tỷ đồng, tăng 10,5% so với cùng kỳ 2024."
+    },
+    {
+        "text": "Lợi nhuận trước thuế (LNTT) đạt 8.315 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận trước thuế (LNTT) đạt 8.315 tỷ đồng, tăng 17,5% so với cùng kỳ."
+    },
+    {
+        "text": "8.315 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế (LNTT) đạt 8.315 tỷ đồng, tăng 17,5% so với cùng kỳ."
+    },
+    {
+        "text": "17,5%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận trước thuế (LNTT) đạt 8.315 tỷ đồng, tăng 17,5% so với cùng kỳ."
+    },
+    {
+        "text": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng, tăng 18,6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "8 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng, tăng 18,6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "7.148 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng, tăng 18,6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "18,6%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng, tăng 18,6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế 8 tháng đầu năm đạt 7.148 tỷ đồng, tăng 18,6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 5.939 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 5.939 tỷ đồng, tăng gần 19%."
+    },
+    {
+        "text": "5.939 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 5.939 tỷ đồng, tăng gần 19%."
+    },
+    {
+        "text": "gần 19%",
+        "label": "RATE",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 5.939 tỷ đồng, tăng gần 19%."
+    },
+    {
+        "text": "EPS tương ứng đạt 3.498 đồng",
+        "label": "EVENT",
+        "evidence": "EPS tương ứng đạt 3.498 đồng."
+    },
+    {
+        "text": "3.498 đồng",
+        "label": "MONEY",
+        "evidence": "EPS tương ứng đạt 3.498 đồng."
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "FPT đạt 5.727 tỷ đồng doanh thu",
+        "label": "EVENT",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "5.727 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Tính riêng trong tháng 8, FPT đạt 5.727 tỷ đồng doanh thu, tăng 6% so với cùng kỳ 2024."
+    },
+    {
+        "text": "Lợi nhuận sau thuế đạt 944 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế đạt 944 tỷ đồng, tăng 11% so với tháng 8/2024."
+    },
+    {
+        "text": "944 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế đạt 944 tỷ đồng, tăng 11% so với tháng 8/2024."
+    },
+    {
+        "text": "11%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế đạt 944 tỷ đồng, tăng 11% so với tháng 8/2024."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế đạt 944 tỷ đồng, tăng 11% so với tháng 8/2024."
+    },
+    {
+        "text": "Lãi ròng đạt 792 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lãi ròng đạt 792 tỷ đồng, tăng 10% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "792 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi ròng đạt 792 tỷ đồng, tăng 10% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Lãi ròng đạt 792 tỷ đồng, tăng 10% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "8 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Trong 8 tháng đầu năm, khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng, tăng gần 11% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "khối Công nghệ",
+        "label": "ORG",
+        "evidence": "Trong 8 tháng đầu năm, khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng, tăng gần 11% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong 8 tháng đầu năm, khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng, tăng gần 11% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "27.123 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong 8 tháng đầu năm, khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng, tăng gần 11% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "gần 11%",
+        "label": "RATE",
+        "evidence": "Trong 8 tháng đầu năm, khối Công nghệ (bao gồm Dịch vụ CNTT trong nước và Dịch vụ CNTT nước ngoài) ghi nhận doanh thu đạt 27.123 tỷ đồng, tăng gần 11% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "mảng Dịch vụ CNTT thị trường nước ngoài",
+        "label": "ORG",
+        "evidence": "Trong đó mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục duy trì đà tăng trưởng, đạt doanh thu 22.437 tỷ đồng, tương đương với mức tăng 12,6%."
+    },
+    {
+        "text": "mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục duy trì đà tăng trưởng, đạt doanh thu 22.437 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục duy trì đà tăng trưởng, đạt doanh thu 22.437 tỷ đồng, tương đương với mức tăng 12,6%."
+    },
+    {
+        "text": "22.437 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục duy trì đà tăng trưởng, đạt doanh thu 22.437 tỷ đồng, tương đương với mức tăng 12,6%."
+    },
+    {
+        "text": "12,6%",
+        "label": "RATE",
+        "evidence": "Trong đó mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục duy trì đà tăng trưởng, đạt doanh thu 22.437 tỷ đồng, tương đương với mức tăng 12,6%."
+    },
+    {
+        "text": "27,2%",
+        "label": "RATE",
+        "evidence": "Thị trường chính Nhật Bản tiếp tục giữ mức tăng trưởng 27,2%, đạt doanh thu 9.893 tỷ đồng."
+    },
+    {
+        "text": "9.893 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thị trường chính Nhật Bản tiếp tục giữ mức tăng trưởng 27,2%, đạt doanh thu 9.893 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT ghi nhận tâm lý tích cực hơn trong các cuộc trao đổi, hợp tác với khách hàng và kỳ vọng sẽ xuất hiện tín hiệu phục hồi trong nửa cuối năm 2025."
+    },
+    {
+        "text": "nửa cuối năm 2025",
+        "label": "DATE",
+        "evidence": "FPT ghi nhận tâm lý tích cực hơn trong các cuộc trao đổi, hợp tác với khách hàng và kỳ vọng sẽ xuất hiện tín hiệu phục hồi trong nửa cuối năm 2025."
+    },
+    {
+        "text": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 25.970 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 25.970 tỷ đồng, tăng 12,2%."
+    },
+    {
+        "text": "25.970 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 25.970 tỷ đồng, tăng 12,2%."
+    },
+    {
+        "text": "12,2%",
+        "label": "RATE",
+        "evidence": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 25.970 tỷ đồng, tăng 12,2%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mới đây, FPT đã ký thành công hợp đồng trị giá hơn 250 triệu USD với một tập đoàn năng lượng hàn﻿g đầu châu Á, đồng thời ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương với kỳ vọng mang lại cơ hội hợp tác hơn 30 triệu USD."
+    },
+    {
+        "text": "ký thành công hợp đồng trị giá hơn 250 triệu USD",
+        "label": "EVENT",
+        "evidence": "Mới đây, FPT đã ký thành công hợp đồng trị giá hơn 250 triệu USD với một tập đoàn năng lượng hàn﻿g đầu châu Á, đồng thời ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương với kỳ vọng mang lại cơ hội hợp tác hơn 30 triệu USD."
+    },
+    {
+        "text": "hơn 250 triệu USD",
+        "label": "MONEY",
+        "evidence": "Mới đây, FPT đã ký thành công hợp đồng trị giá hơn 250 triệu USD với một tập đoàn năng lượng hàn﻿g đầu châu Á, đồng thời ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương với kỳ vọng mang lại cơ hội hợp tác hơn 30 triệu USD."
+    },
+    {
+        "text": "ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương",
+        "label": "EVENT",
+        "evidence": "Mới đây, FPT đã ký thành công hợp đồng trị giá hơn 250 triệu USD với một tập đoàn năng lượng hàn﻿g đầu châu Á, đồng thời ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương với kỳ vọng mang lại cơ hội hợp tác hơn 30 triệu USD."
+    },
+    {
+        "text": "hơn 30 triệu USD",
+        "label": "MONEY",
+        "evidence": "Mới đây, FPT đã ký thành công hợp đồng trị giá hơn 250 triệu USD với một tập đoàn năng lượng hàn﻿g đầu châu Á, đồng thời ký thêm một thỏa thuận hợp tác tại khu vực Châu Á – Thái Bình Dương với kỳ vọng mang lại cơ hội hợp tác hơn 30 triệu USD."
+    },
+    {
+        "text": "Tập đoàn",
+        "label": "ORG",
+        "evidence": "Các thương vụ này khẳng định năng lực triển khai các dự án công nghệ quy mô lớn và củng cố vị thế của Tập đoàn trong chiến lược mở rộng hợp tác với các khách hàng toàn cầu."
+    },
+    {
+        "text": "mảng Dịch vụ Viễn thông",
+        "label": "ORG",
+        "evidence": "Nhờ đẩy mạnh hoạt động bán hàng và tối ưu hóa các gói dịch vụ internet, doanh thu và lợi nhuận trước thuế của mảng Dịch vụ Viễn thông đều ghi nhận mức tăng trưởng tích cực, lần lượt đạt 12,3% và 19,9%."
+    },
+    {
+        "text": "doanh thu và lợi nhuận trước thuế của mảng Dịch vụ Viễn thông đều ghi nhận mức tăng trưởng tích cực",
+        "label": "EVENT",
+        "evidence": "Nhờ đẩy mạnh hoạt động bán hàng và tối ưu hóa các gói dịch vụ internet, doanh thu và lợi nhuận trước thuế của mảng Dịch vụ Viễn thông đều ghi nhận mức tăng trưởng tích cực, lần lượt đạt 12,3% và 19,9%."
+    },
+    {
+        "text": "12,3%",
+        "label": "RATE",
+        "evidence": "Nhờ đẩy mạnh hoạt động bán hàng và tối ưu hóa các gói dịch vụ internet, doanh thu và lợi nhuận trước thuế của mảng Dịch vụ Viễn thông đều ghi nhận mức tăng trưởng tích cực, lần lượt đạt 12,3% và 19,9%."
+    },
+    {
+        "text": "19,9%",
+        "label": "RATE",
+        "evidence": "Nhờ đẩy mạnh hoạt động bán hàng và tối ưu hóa các gói dịch vụ internet, doanh thu và lợi nhuận trước thuế của mảng Dịch vụ Viễn thông đều ghi nhận mức tăng trưởng tích cực, lần lượt đạt 12,3% và 19,9%."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "cuộc họp nhà đầu tư",
+        "label": "EVENT",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "18%-19%",
+        "label": "RATE",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%",
+        "label": "EVENT",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Theo cập nhật của Vietcap từ cuộc họp nhà đầu tư mới đây, ban lãnh đạo FPT đưa ra kế hoạch theo kịch bản cơ sở mới với tăng trưởng doanh thu là 15% so với cùng kỳ và tăng trưởng lợi nhuận là 18%-19% so với cùng kỳ — thấp hơn so với mục tiêu tại ĐHĐCĐ là tăng trưởng doanh thu 20% và tăng trưởng LNTT 21%."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Trên thị trường,cổ phiếu FPTchốt phiên 15/9 đạt 101.900 đồng/cp."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Trên thị trường,cổ phiếu FPTchốt phiên 15/9 đạt 101.900 đồng/cp."
+    },
+    {
+        "text": "15/9",
+        "label": "DATE",
+        "evidence": "Trên thị trường,cổ phiếu FPTchốt phiên 15/9 đạt 101.900 đồng/cp."
+    },
+    {
+        "text": "101.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Trên thị trường,cổ phiếu FPTchốt phiên 15/9 đạt 101.900 đồng/cp."
+    }
+]

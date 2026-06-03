@@ -1,0 +1,342 @@
+[
+    {
+        "text": "ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Trên trang cá nhân, ông Đỗ Cao Bảo - Thành viên HĐQT của CTCP FPT vừa cho biết"
+    },
+    {
+        "text": "CTCP FPT",
+        "label": "ORG",
+        "evidence": "Thành viên HĐQT của CTCP FPT vừa cho biết"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "kế hoạch kinh doanh đã được lãnh đạo FPT phê duyệt"
+    },
+    {
+        "text": "Doanh thu xuất khẩu phần mềm năm 2023 của FPT Software dự kiến là 1 tỷ USD",
+        "label": "EVENT",
+        "evidence": "Doanh thu xuất khẩu phần mềm năm 2023 của FPT Software dự kiến là 1 tỷ USD."
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "Doanh thu xuất khẩu phần mềm năm 2023 của FPT Software dự kiến là 1 tỷ USD."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "FPT Software dự kiến là 1 tỷ USD."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Doanh thu xuất khẩu phần mềm năm 2023 của FPT Software dự kiến là 1 tỷ USD."
+    },
+    {
+        "text": "kế hoạch kinh doanh đã được lãnh đạo FPT phê duyệt",
+        "label": "EVENT",
+        "evidence": "Đấy là kế hoạch kinh doanh đã được lãnh đạo FPT phê duyệt"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "bởi năm 2022 này FPT Software đã đạt con số 1 tỷ USD tổng giá trị thắng thầu"
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "năm 2022 này FPT Software đã đạt con số 1 tỷ USD tổng giá trị thắng thầu"
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "FPT Software đã đạt con số 1 tỷ USD tổng giá trị thắng thầu"
+    },
+    {
+        "text": "800 triệu USD",
+        "label": "MONEY",
+        "evidence": "800 triệu USD doanh số"
+    },
+    {
+        "text": "26%",
+        "label": "RATE",
+        "evidence": "tốc độ tăng trưởng 26% trung bình 3 năm gần đây"
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "con số 1 tỷ USD năm 2023 là rất hiện thực"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "con số 1 tỷ USD năm 2023 là rất hiện thực"
+    },
+    {
+        "text": "Ông Đỗ Cao Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Đỗ Cao Bảo khẳng định."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "1 tỷ USD tương đương với 23.500 chiếc xe VinFast VF8 bán ở Mỹ"
+    },
+    {
+        "text": "VinFast VF8",
+        "label": "ASSET",
+        "evidence": "23.500 chiếc xe VinFast VF8 bán ở Mỹ"
+    },
+    {
+        "text": "giá 42.500 USD một xe",
+        "label": "PRICE",
+        "evidence": "với giá 42.500 USD một xe"
+    },
+    {
+        "text": "42.500 USD",
+        "label": "MONEY",
+        "evidence": "với giá 42.500 USD một xe"
+    },
+    {
+        "text": "VinFast VF8",
+        "label": "ASSET",
+        "evidence": "ô tô điện VinFast VF8 xuất cảng hôm 25/11/2022"
+    },
+    {
+        "text": "25/11/2022",
+        "label": "DATE",
+        "evidence": "xuất cảng hôm 25/11/2022 vừa qua ở Hải Phòng."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "1 tỷ USD là số tiền đủ để nhập khẩu 80% số điện thoại iPhone"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "nhập khẩu 80% số điện thoại iPhone"
+    },
+    {
+        "text": "iPhone",
+        "label": "ASSET",
+        "evidence": "80% số điện thoại iPhone"
+    },
+    {
+        "text": "115%",
+        "label": "RATE",
+        "evidence": "115% số điện thoại Samsung"
+    },
+    {
+        "text": "Samsung",
+        "label": "ASSET",
+        "evidence": "115% số điện thoại Samsung"
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "70% số ô tô con 7 chỗ trở xuống"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "toàn bộ thị trường Việt Nam trong năm 2021."
+    },
+    {
+        "text": "84%",
+        "label": "RATE",
+        "evidence": "lên đến 84%, cao gấp gần 4 lần giá trị gia tăng của nhóm hàng sản xuất hàng công nghiệp"
+    },
+    {
+        "text": "gấp gần 4 lần",
+        "label": "RATE",
+        "evidence": "cao gấp gần 4 lần giá trị gia tăng của nhóm hàng sản xuất hàng công nghiệp"
+    },
+    {
+        "text": "Nike",
+        "label": "ORG",
+        "evidence": "một đôi giầy Nike sản xuất ở Việt Nam"
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "phần Việt Nam chỉ có 22% thôi"
+    },
+    {
+        "text": "78%",
+        "label": "RATE",
+        "evidence": "phần của Mỹ là 78%"
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "1 tỷ USD xuất khẩu phần mềm tương đương với gần 4 tỷ USD xuất khẩu các mặt hàng máy tính"
+    },
+    {
+        "text": "gần 4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "tương đương với gần 4 tỷ USD xuất khẩu các mặt hàng máy tính, điện thoại, may mặc, giầy da, túi xách, máy móc, phụ tùng"
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo đánh giá."
+    },
+    {
+        "text": "1200 USD",
+        "label": "MONEY",
+        "evidence": "một chút bản quyền phần mềm cỡ 1200 USD"
+    },
+    {
+        "text": "240 USD",
+        "label": "MONEY",
+        "evidence": "mỗi năm 240 USD."
+    },
+    {
+        "text": "26% năm",
+        "label": "RATE",
+        "evidence": "tốc độ tăng trưởng đều đặn 26% năm"
+    },
+    {
+        "text": "sau 3 năm",
+        "label": "DATE",
+        "evidence": "sau 3 năm doanh số sẽ lớn gấp 2 lần"
+    },
+    {
+        "text": "gấp 2 lần",
+        "label": "RATE",
+        "evidence": "sau 3 năm doanh số sẽ lớn gấp 2 lần"
+    },
+    {
+        "text": "sau 6 năm",
+        "label": "DATE",
+        "evidence": "sau 6 năm sẽ lớn gấp 4 lần"
+    },
+    {
+        "text": "gấp 4 lần",
+        "label": "RATE",
+        "evidence": "sau 6 năm sẽ lớn gấp 4 lần"
+    },
+    {
+        "text": "sau 9 năm",
+        "label": "DATE",
+        "evidence": "sau 9 năm sẽ lớn gấp 8 lần"
+    },
+    {
+        "text": "gấp 8 lần",
+        "label": "RATE",
+        "evidence": "sau 9 năm sẽ lớn gấp 8 lần"
+    },
+    {
+        "text": "sau 12 năm",
+        "label": "DATE",
+        "evidence": "sau 12 năm sẽ lớn gấp 16 lần."
+    },
+    {
+        "text": "gấp 16 lần",
+        "label": "RATE",
+        "evidence": "sau 12 năm sẽ lớn gấp 16 lần."
+    },
+    {
+        "text": "26% năm",
+        "label": "RATE",
+        "evidence": "tốc độ tăng trưởng 26% năm như 5 năm qua"
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "doanh số của FPT Software đến năm 2026 là 2 tỷ USD"
+    },
+    {
+        "text": "năm 2026",
+        "label": "DATE",
+        "evidence": "đến năm 2026 là 2 tỷ USD"
+    },
+    {
+        "text": "2 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đến năm 2026 là 2 tỷ USD"
+    },
+    {
+        "text": "năm 2029",
+        "label": "DATE",
+        "evidence": "đến năm 2029 là 4 tỷ USD"
+    },
+    {
+        "text": "4 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đến năm 2029 là 4 tỷ USD"
+    },
+    {
+        "text": "năm 2032",
+        "label": "DATE",
+        "evidence": "đến năm 2032 là 8 tỷ USD"
+    },
+    {
+        "text": "8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đến năm 2032 là 8 tỷ USD"
+    },
+    {
+        "text": "năm 2035",
+        "label": "DATE",
+        "evidence": "đến năm 2035 là 16 tỷ USD."
+    },
+    {
+        "text": "16 tỷ USD",
+        "label": "MONEY",
+        "evidence": "đến năm 2035 là 16 tỷ USD."
+    },
+    {
+        "text": "năm 2035",
+        "label": "DATE",
+        "evidence": "đến năm 2035, giá trị mà FPT Software tạo ra"
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "giá trị mà FPT Software tạo ra sẽ tương đương với 64 tỷ USD nhóm hàng sản xuất công nghiệp"
+    },
+    {
+        "text": "64 tỷ USD",
+        "label": "MONEY",
+        "evidence": "sẽ tương đương với 64 tỷ USD nhóm hàng sản xuất công nghiệp"
+    },
+    {
+        "text": "Ông Bảo",
+        "label": "PERSON",
+        "evidence": "Ông Bảo tính toán dựa trên giả định FPT Software có thể giữ được tốc độ tăng trưởng đều đặn đến 2 chữ số."
+    },
+    {
+        "text": "2 chữ số",
+        "label": "RATE",
+        "evidence": "tốc độ tăng trưởng đều đặn đến 2 chữ số."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Xuất khẩu phần mềm, ngoài FPT ra còn có hàng trăm, hàng nghìn doanh nghiệp phần mềm khác"
+    },
+    {
+        "text": "ngành xuất khẩu phần mềm đã mang về 200 tỷ USD",
+        "label": "EVENT",
+        "evidence": "năm 2022 ngành xuất khẩu phần mềm đã mang về 200 tỷ USD cho đất nước họ"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "năm 2022 ngành xuất khẩu phần mềm đã mang về 200 tỷ USD"
+    },
+    {
+        "text": "200 tỷ USD",
+        "label": "MONEY",
+        "evidence": "mang về 200 tỷ USD cho đất nước họ"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "tương đương 50% GDP của Việt Nam."
+    }
+]

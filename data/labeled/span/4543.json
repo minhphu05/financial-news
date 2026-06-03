@@ -1,0 +1,367 @@
+[
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vẫn nuôi dưỡng giấc mơ đạt doanh thu 10 tỷ USD trong vài năm tới"
+    },
+    {
+        "text": "vài năm tới",
+        "label": "DATE",
+        "evidence": "Vẫn nuôi dưỡng giấc mơ đạt doanh thu 10 tỷ USD trong vài năm tới"
+    },
+    {
+        "text": "phiên họp nhà đầu tư quý III/2024",
+        "label": "EVENT",
+        "evidence": "Trong phiên họp nhà đầu tư quý III/2024 vừa diễn ra, Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "quý III/2024",
+        "label": "DATE",
+        "evidence": "Trong phiên họp nhà đầu tư quý III/2024 vừa diễn ra, Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "Công ty CP Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Trong phiên họp nhà đầu tư quý III/2024 vừa diễn ra, Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Trong phiên họp nhà đầu tư quý III/2024 vừa diễn ra, Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Trong phiên họp nhà đầu tư quý III/2024 vừa diễn ra, Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "hoạt động tái cấu trúc",
+        "label": "EVENT",
+        "evidence": "Chủ tịch HĐQT Công ty CP Đầu tư Thế Giới Di Động (mã MWG) Nguyễn Đức Tài cho biết hoạt động tái cấu trúc, giảm lượng tăng chất trong thời gian qua đã mang lại kết quả kinh doanh khả quan."
+    },
+    {
+        "text": "báo cáo kinh doanh quý III",
+        "label": "EVENT",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "doanh thu tăng trưởng 13% so với cùng kỳ",
+        "label": "EVENT",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "tăng trưởng 13%",
+        "label": "RATE",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "34.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thực tế, báo cáo kinh doanh quý III vừa qua của MWG cho thấy, doanh thu tăng trưởng 13% so với cùng kỳ lên mức kỷ lục hơn 34.100 tỷ đồng."
+    },
+    {
+        "text": "800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cũng đạt hơn 800 tỷ đồng, gấp gần 21 lần cùng kỳ."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Lũy kế 9 tháng, doanh thu thuần đạt gần 100.000 tỷ đồng, tăng 15% so với cùng kỳ và thực hiện được 80% kế hoạch."
+    },
+    {
+        "text": "100.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế 9 tháng, doanh thu thuần đạt gần 100.000 tỷ đồng, tăng 15% so với cùng kỳ và thực hiện được 80% kế hoạch."
+    },
+    {
+        "text": "tăng 15%",
+        "label": "RATE",
+        "evidence": "Lũy kế 9 tháng, doanh thu thuần đạt gần 100.000 tỷ đồng, tăng 15% so với cùng kỳ và thực hiện được 80% kế hoạch."
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "Lũy kế 9 tháng, doanh thu thuần đạt gần 100.000 tỷ đồng, tăng 15% so với cùng kỳ và thực hiện được 80% kế hoạch."
+    },
+    {
+        "text": "2.881 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi, lợi nhuận sau thuế đạt 2.881 tỷ đồng, gấp 37 lần cùng kỳ và đã vượt 20% mục tiêu cả năm."
+    },
+    {
+        "text": "vượt 20%",
+        "label": "RATE",
+        "evidence": "Trong khi, lợi nhuận sau thuế đạt 2.881 tỷ đồng, gấp 37 lần cùng kỳ và đã vượt 20% mục tiêu cả năm."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "Với kết quả kinh doanh tích cực, hiện, cổ phiếu MWG đã được đưa trở lại vào rổ chỉ số VNDiamond."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Với kết quả kinh doanh tích cực, hiện, cổ phiếu MWG đã được đưa trở lại vào rổ chỉ số VNDiamond."
+    },
+    {
+        "text": "được đưa trở lại vào rổ chỉ số VNDiamond",
+        "label": "EVENT",
+        "evidence": "Với kết quả kinh doanh tích cực, hiện, cổ phiếu MWG đã được đưa trở lại vào rổ chỉ số VNDiamond."
+    },
+    {
+        "text": "VNDiamond",
+        "label": "ASSET",
+        "evidence": "Với kết quả kinh doanh tích cực, hiện, cổ phiếu MWG đã được đưa trở lại vào rổ chỉ số VNDiamond."
+    },
+    {
+        "text": "Tài",
+        "label": "PERSON",
+        "evidence": "Nhìn lại về giai đoạn tái cấu trúc của doanh nghiệp, ông Tài cho rằng, bản chất đợt tái cấu trúc này rất thú vị, MWG phải cân nhắc chọn bỏ gì giữ gì."
+    },
+    {
+        "text": "đợt tái cấu trúc",
+        "label": "EVENT",
+        "evidence": "Nhìn lại về giai đoạn tái cấu trúc của doanh nghiệp, ông Tài cho rằng, bản chất đợt tái cấu trúc này rất thú vị, MWG phải cân nhắc chọn bỏ gì giữ gì."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Nhìn lại về giai đoạn tái cấu trúc của doanh nghiệp, ông Tài cho rằng, bản chất đợt tái cấu trúc này rất thú vị, MWG phải cân nhắc chọn bỏ gì giữ gì."
+    },
+    {
+        "text": "Chủ tịch MWG",
+        "label": "PERSON",
+        "evidence": "Sau tái cấu trúc, Chủ tịch MWG khẳng định, tập đoàn vẫn nuôi dưỡng những mục tiêu rất rõ ràng, trong đó có giấc mơ đạt doanh thu đạt 10 tỷ USD (hơn 250.000 tỷ đồng) trong vài năm tới."
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Sau tái cấu trúc, Chủ tịch MWG khẳng định, tập đoàn vẫn nuôi dưỡng những mục tiêu rất rõ ràng, trong đó có giấc mơ đạt doanh thu đạt 10 tỷ USD (hơn 250.000 tỷ đồng) trong vài năm tới."
+    },
+    {
+        "text": "250.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sau tái cấu trúc, Chủ tịch MWG khẳng định, tập đoàn vẫn nuôi dưỡng những mục tiêu rất rõ ràng, trong đó có giấc mơ đạt doanh thu đạt 10 tỷ USD (hơn 250.000 tỷ đồng) trong vài năm tới."
+    },
+    {
+        "text": "lãnh đạo MWG",
+        "label": "PERSON",
+        "evidence": "Tuy nhiên, lãnh đạo MWG thẳng thắn thừa nhận tiến độ đạt tới mục tiêu này đang chậm trễ so với dự định, do ảnh hưởng bởi đại dịch."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "MWG đã lỡ chuyến tàu này 3-4 năm rồi\", ông Tài nhấn mạnh."
+    },
+    {
+        "text": "3-4 năm",
+        "label": "DATE",
+        "evidence": "MWG đã lỡ chuyến tàu này 3-4 năm rồi\", ông Tài nhấn mạnh."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Thực tế, MWG đã đạt doanh thu vượt 100.000 tỷ đồng/năm từ năm 2019."
+    },
+    {
+        "text": "100.000 tỷ đồng/năm",
+        "label": "MONEY",
+        "evidence": "Thực tế, MWG đã đạt doanh thu vượt 100.000 tỷ đồng/năm từ năm 2019."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Thực tế, MWG đã đạt doanh thu vượt 100.000 tỷ đồng/năm từ năm 2019."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Nhưng đến năm 2023, doanh thu của công ty mới đạt 118.280 tỷ đồng và năm 2024 mục tiêu là đạt doanh thu 125.000 tỷ đồng (khoảng 5 tỷ USD)."
+    },
+    {
+        "text": "118.280 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhưng đến năm 2023, doanh thu của công ty mới đạt 118.280 tỷ đồng và năm 2024 mục tiêu là đạt doanh thu 125.000 tỷ đồng (khoảng 5 tỷ USD)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Nhưng đến năm 2023, doanh thu của công ty mới đạt 118.280 tỷ đồng và năm 2024 mục tiêu là đạt doanh thu 125.000 tỷ đồng (khoảng 5 tỷ USD)."
+    },
+    {
+        "text": "125.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Nhưng đến năm 2023, doanh thu của công ty mới đạt 118.280 tỷ đồng và năm 2024 mục tiêu là đạt doanh thu 125.000 tỷ đồng (khoảng 5 tỷ USD)."
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Điều này cho thấy để đạt mục tiêu doanh thu 10 tỷ USD trong những năm tới, thách thức với MWG là không nhỏ."
+    },
+    {
+        "text": "10 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Điều này cho thấy để đạt mục tiêu doanh thu 10 tỷ USD trong những năm tới, thách thức với MWG là không nhỏ."
+    },
+    {
+        "text": "những năm tới",
+        "label": "DATE",
+        "evidence": "Điều này cho thấy để đạt mục tiêu doanh thu 10 tỷ USD trong những năm tới, thách thức với MWG là không nhỏ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Điều này cho thấy để đạt mục tiêu doanh thu 10 tỷ USD trong những năm tới, thách thức với MWG là không nhỏ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Chia sẻ về định hướng tăng trưởng ngắn hạn của MWG, ông Nguyễn Đức Tài cho biết, trong quý IV này, doanh nghiệp sẽ tập trung tăng doanh thu và nâng cấp chuỗi bán hàng nhằm cải thiện chất lượng dịch vụ."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Chia sẻ về định hướng tăng trưởng ngắn hạn của MWG, ông Nguyễn Đức Tài cho biết, trong quý IV này, doanh nghiệp sẽ tập trung tăng doanh thu và nâng cấp chuỗi bán hàng nhằm cải thiện chất lượng dịch vụ."
+    },
+    {
+        "text": "quý IV",
+        "label": "DATE",
+        "evidence": "Chia sẻ về định hướng tăng trưởng ngắn hạn của MWG, ông Nguyễn Đức Tài cho biết, trong quý IV này, doanh nghiệp sẽ tập trung tăng doanh thu và nâng cấp chuỗi bán hàng nhằm cải thiện chất lượng dịch vụ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Trong thời gian khó khăn, MWG đã giữ nguồn lực để thực hiện các hoạt động này."
+    },
+    {
+        "text": "năm tới",
+        "label": "DATE",
+        "evidence": "Nếu thị trường ổn định trong năm tới, Chủ tịch MWG tin rằng doanh nghiệp sẽ tiếp tục tăng trưởng và không bị bão hòa như một số lo ngại."
+    },
+    {
+        "text": "Chủ tịch MWG",
+        "label": "PERSON",
+        "evidence": "Nếu thị trường ổn định trong năm tới, Chủ tịch MWG tin rằng doanh nghiệp sẽ tiếp tục tăng trưởng và không bị bão hòa như một số lo ngại."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Riêng với mặt hàng gia dụng, trong bối cảnh các nhà bán lẻ kinh doanh trên các sàn thương mại điện tử đều phải đóng thuế, MWG kỳ vọng sẽ được hưởng lợi nhờ môi trường cạnh tranh trở nên công bằng hơn."
+    },
+    {
+        "text": "vài triệu đồng",
+        "label": "MONEY",
+        "evidence": "mặc dù thị trường online giá rẻ hơn nhưng không ai sẵn sàng bỏ vài triệu đồng chỉ để tiết kiệm vài trăm cả."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Trong khi đó, ông Tài khẳng định điểm mạnh của MWG là hệ thống hàng nghìn nhân viên có thể lắp đặt và sửa chữa tận nơi cho khách hàng."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "“MWG luôn duy trì quyết tâm và tinh thần chiến đấu, không cho phép bản thân giảm tốc độ dù đang dẫn trước đối thủ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Cũng trong nỗ lực kích cầu tiêu dùng, MWG vừa công bố chính sách “mua trả chậm” để thay thế cho hình thức mua trả góp."
+    },
+    {
+        "text": "công bố chính sách “mua trả chậm”",
+        "label": "EVENT",
+        "evidence": "Cũng trong nỗ lực kích cầu tiêu dùng, MWG vừa công bố chính sách “mua trả chậm” để thay thế cho hình thức mua trả góp."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Với chính sách này, khách hàng của MWG sẽ không phải chịu lãi suất hay các chi phí ẩn như phí bảo hiểm và hồ sơ, thay vào đó, khách hàng chỉ cần chia nhỏ số tiền cần thanh toán thành nhiều kỳ."
+    },
+    {
+        "text": "MWG",
+        "label": "ORG",
+        "evidence": "Trước đó, trong giai đoạn mà cầu mua sắm sụt giảm, MWG cũng liên tục đưa ra nhiều chính sách bán hàng để kích cầu, chẳng hạn như “giá rẻ quá”, “giá bao chấp - hoàn tiền nếu có chênh lệch” và đã giành được thị phần lớn hơn."
+    },
+    {
+        "text": "đưa ra nhiều chính sách bán hàng để kích cầu",
+        "label": "EVENT",
+        "evidence": "Trước đó, trong giai đoạn mà cầu mua sắm sụt giảm, MWG cũng liên tục đưa ra nhiều chính sách bán hàng để kích cầu, chẳng hạn như “giá rẻ quá”, “giá bao chấp - hoàn tiền nếu có chênh lệch” và đã giành được thị phần lớn hơn."
+    },
+    {
+        "text": "phiên họp nhà đầu tư quý III",
+        "label": "EVENT",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "quý III",
+        "label": "DATE",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "bán tổng cộng 2 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Cũng tại phiên họp nhà đầu tư quý III, chia sẻ về các giao dịch bán tổng cộng 2 triệu cổ phiếu MWG trong thời gian gần đây, ông Nguyễn Đức Tài trấn an nhà đầu tư không nên lo lắng về những thông tin gây nhiễu."
+    },
+    {
+        "text": "bán ra cổ phiếu",
+        "label": "EVENT",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    },
+    {
+        "text": "2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    },
+    {
+        "text": "200 triệu cổ phiếu MWG",
+        "label": "VOLUME",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    },
+    {
+        "text": "cổ phiếu MWG",
+        "label": "ASSET",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    },
+    {
+        "text": "Tài",
+        "label": "PERSON",
+        "evidence": "“Việc bán ra cổ phiếu nhằm mục đích cá nhân và con số 2 triệu cổ phiếu không quá đáng kể so với hơn 200 triệucổ phiếu MWGmà tôi đang nắm giữ”, ông Tài khẳng định."
+    }
+]

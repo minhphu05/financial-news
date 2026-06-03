@@ -1,0 +1,97 @@
+[
+    {
+        "text": "Công an tỉnh Thanh Hoá",
+        "label": "ORG",
+        "evidence": "Công an tỉnh Thanh Hoá cho biết mới đây"
+    },
+    {
+        "text": "Công an thị trấn Thường Xuân",
+        "label": "ORG",
+        "evidence": "Công an thị trấn Thường Xuân đã nhận được trình báo của anh Cầm Bá Tùng"
+    },
+    {
+        "text": "Cầm Bá Tùng",
+        "label": "PERSON",
+        "evidence": "trình báo của anh Cầm Bá Tùng, sinh năm 1987"
+    },
+    {
+        "text": "sáng 21/3",
+        "label": "DATE",
+        "evidence": "sáng 21/3, tài khoản ngân hàng của anh đã nhận được số tiền 100 triệu đồng"
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "số tiền 100 triệu đồng do người khác chuyển khoản nhầm"
+    },
+    {
+        "text": "nhận được số tiền 100 triệu đồng do người khác chuyển khoản nhầm",
+        "label": "EVENT",
+        "evidence": "tài khoản ngân hàng của anh đã nhận được số tiền 100 triệu đồng do người khác chuyển khoản nhầm"
+    },
+    {
+        "text": "nhờ cơ quan Công an hỗ trợ tìm người đã chuyển khoản nhầm để trả lại số tiền trên",
+        "label": "EVENT",
+        "evidence": "và nhờ cơ quan Công an hỗ trợ tìm người đã chuyển khoản nhầm để trả lại số tiền trên."
+    },
+    {
+        "text": "Công an thị trấn Thường Xuân",
+        "label": "ORG",
+        "evidence": "Ngay sau khi nhận được tin báo, Công an thị trấn Thường Xuân đã hỗ trợ anh Tùng liên hệ"
+    },
+    {
+        "text": "anh Tùng",
+        "label": "PERSON",
+        "evidence": "đã hỗ trợ anh Tùng liên hệ với Ngân hàng Techcombank"
+    },
+    {
+        "text": "Ngân hàng Techcombank",
+        "label": "ORG",
+        "evidence": "liên hệ với Ngân hàng Techcombank để phối hợp kiểm tra"
+    },
+    {
+        "text": "hỗ trợ anh Tùng liên hệ với Ngân hàng Techcombank để phối hợp kiểm tra, xác minh và thực hiện các thủ tục nhằm chuyển trả lại tiền cho người chuyển nhầm",
+        "label": "EVENT",
+        "evidence": "Công an thị trấn Thường Xuân đã hỗ trợ anh Tùng liên hệ với Ngân hàng Techcombank để phối hợp kiểm tra, xác minh và thực hiện các thủ tục nhằm chuyển trả lại tiền cho người chuyển nhầm."
+    },
+    {
+        "text": "Nguyễn Văn Tuấn",
+        "label": "PERSON",
+        "evidence": "xác định được người chuyển khoản nhầm là anh Nguyễn Văn Tuấn, sinh năm 1996"
+    },
+    {
+        "text": "anh Cầm Bá Tùng",
+        "label": "PERSON",
+        "evidence": "anh Cầm Bá Tùng đã chuyển lại số tiền trên cho anh Tuấn"
+    },
+    {
+        "text": "anh Tuấn",
+        "label": "PERSON",
+        "evidence": "đã chuyển lại số tiền trên cho anh Tuấn dưới sự chứng kiến của Công an thị trấn Thường Xuân"
+    },
+    {
+        "text": "anh Cầm Bá Tùng đã chuyển lại số tiền trên cho anh Tuấn",
+        "label": "EVENT",
+        "evidence": "anh Cầm Bá Tùng đã chuyển lại số tiền trên cho anh Tuấn dưới sự chứng kiến của Công an thị trấn Thường Xuân và các đơn vị chức năng."
+    },
+    {
+        "text": "Công an thị trấn Thường Xuân",
+        "label": "ORG",
+        "evidence": "chứng kiến của Công an thị trấn Thường Xuân và các đơn vị chức năng."
+    },
+    {
+        "text": "Cầm Bá Tùng",
+        "label": "PERSON",
+        "evidence": "Hành động trung thực của anh Cầm Bá Tùng và sự phối hợp chặt chẽ giữa Công an thị trấn Thường Xuân"
+    },
+    {
+        "text": "Công an thị trấn Thường Xuân",
+        "label": "ORG",
+        "evidence": "giữa Công an thị trấn Thường Xuân với Ngân hàng Techcombank"
+    },
+    {
+        "text": "Ngân hàng Techcombank",
+        "label": "ORG",
+        "evidence": "với Ngân hàng Techcombank đã góp phần bảo vệ quyền lợi của người dân"
+    }
+]

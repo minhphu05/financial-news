@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Bốc thăm trúng ngay",
+        "label": "EVENT",
+        "evidence": "Chuỗi 4 chương trình gồm: Bốc thăm trúng ngay, Quay số trúng thưởng cuối kỳ, Ưu đãi giao dịch qua thẻ và Sacombank Pay - tất cả đều được thiết kế nhằm tri ân khách hàng cá nhân, mang lại những giá trị thiết thực và trải nghiệm mùa hè trọn vẹn hơn."
+    },
+    {
+        "text": "Quay số trúng thưởng cuối kỳ",
+        "label": "EVENT",
+        "evidence": "Chuỗi 4 chương trình gồm: Bốc thăm trúng ngay, Quay số trúng thưởng cuối kỳ, Ưu đãi giao dịch qua thẻ và Sacombank Pay - tất cả đều được thiết kế nhằm tri ân khách hàng cá nhân, mang lại những giá trị thiết thực và trải nghiệm mùa hè trọn vẹn hơn."
+    },
+    {
+        "text": "Ưu đãi giao dịch qua thẻ",
+        "label": "EVENT",
+        "evidence": "Chuỗi 4 chương trình gồm: Bốc thăm trúng ngay, Quay số trúng thưởng cuối kỳ, Ưu đãi giao dịch qua thẻ và Sacombank Pay - tất cả đều được thiết kế nhằm tri ân khách hàng cá nhân, mang lại những giá trị thiết thực và trải nghiệm mùa hè trọn vẹn hơn."
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ORG",
+        "evidence": "Chuỗi 4 chương trình gồm: Bốc thăm trúng ngay, Quay số trúng thưởng cuối kỳ, Ưu đãi giao dịch qua thẻ và Sacombank Pay - tất cả đều được thiết kế nhằm tri ân khách hàng cá nhân, mang lại những giá trị thiết thực và trải nghiệm mùa hè trọn vẹn hơn."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank khởi động chuỗi ưu đãi hè với chương trình ‘Bốc thăm trúng ngay’, dành cho khách hàng gửi tiết kiệm - mỗi giao dịch không chỉ sinh lời mà còn có cơ hội nhận quà liền tay."
+    },
+    {
+        "text": "Sacombank khởi động chuỗi ưu đãi hè với chương trình ‘Bốc thăm trúng ngay’",
+        "label": "EVENT",
+        "evidence": "Sacombank khởi động chuỗi ưu đãi hè với chương trình ‘Bốc thăm trúng ngay’, dành cho khách hàng gửi tiết kiệm - mỗi giao dịch không chỉ sinh lời mà còn có cơ hội nhận quà liền tay."
+    },
+    {
+        "text": "1 đến 6 tháng",
+        "label": "DATE",
+        "evidence": "Theo đó, các khách hàng gửi tiết kiệm có kỳ hạn từ 1 đến 6 tháng tại quầy, với mỗi 100 triệu đồng gửi mới hoặc tái tục sẽ tương ứng với 1 lượt bốc thăm, với tỷ lệ trúng thưởng lên đến 50%."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, các khách hàng gửi tiết kiệm có kỳ hạn từ 1 đến 6 tháng tại quầy, với mỗi 100 triệu đồng gửi mới hoặc tái tục sẽ tương ứng với 1 lượt bốc thăm, với tỷ lệ trúng thưởng lên đến 50%."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Theo đó, các khách hàng gửi tiết kiệm có kỳ hạn từ 1 đến 6 tháng tại quầy, với mỗi 100 triệu đồng gửi mới hoặc tái tục sẽ tương ứng với 1 lượt bốc thăm, với tỷ lệ trúng thưởng lên đến 50%."
+    },
+    {
+        "text": "hơn 8,9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng lên đến 90.000 phần quà, tổng trị giá hơn 8,9 tỷ đồng, bao gồm túi vải canvas, tiền mặt và eVoucher trị giá từ 100.000 đồng đến 1 triệu đồng."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng lên đến 90.000 phần quà, tổng trị giá hơn 8,9 tỷ đồng, bao gồm túi vải canvas, tiền mặt và eVoucher trị giá từ 100.000 đồng đến 1 triệu đồng."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cơ cấu giải thưởng lên đến 90.000 phần quà, tổng trị giá hơn 8,9 tỷ đồng, bao gồm túi vải canvas, tiền mặt và eVoucher trị giá từ 100.000 đồng đến 1 triệu đồng."
+    },
+    {
+        "text": "Quay số cuối kỳ’, Sacombank triển khai dành cho các khách hàng gửi tiết kiệm (tại quầy và trên Sacombank Pay), vay vốn, mở tài khoản thanh toán, giao dịch thẻ tín dụng hoặc tham gia bảo hiểm nhân thọ",
+        "label": "EVENT",
+        "evidence": "Với chương trình ‘Quay số cuối kỳ’, Sacombank triển khai dành cho các khách hàng gửi tiết kiệm (tại quầy và trên Sacombank Pay), vay vốn, mở tài khoản thanh toán, giao dịch thẻ tín dụng hoặc tham gia bảo hiểm nhân thọ."
+    },
+    {
+        "text": "5,3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "VinFast VF9 Eco",
+        "label": "ASSET",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "VinFast",
+        "label": "ORG",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giải thưởng quay số lên đến 5,3 tỷ đồng, với giải đặc biệt là xe ô tô điện VinFast VF9 Eco, cùng hàng trăm giải khác như voucher du lịch trong nước và quốc tế đến 100 triệu đồng, vé máy bay hạng thương gia Bamboo Airways và eVoucher 4 triệu đồng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trải nghiệm mùa hè với thẻ Sacombank"
+    },
+    {
+        "text": "Sacombank kết hợp với hàng trăm đối tác triển khai các ưu đãi lớn",
+        "label": "EVENT",
+        "evidence": "Sacombank kết hợp với hàng trăm đối tác triển khai các ưu đãi lớn, diễn ra mỗi ngày với ngân sách hàng chục tỷ đồng."
+    },
+    {
+        "text": "hàng chục tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Sacombank kết hợp với hàng trăm đối tác triển khai các ưu đãi lớn, diễn ra mỗi ngày với ngân sách hàng chục tỷ đồng."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Mỗi ngày, 100 khách hàng đầu tiên có giao dịch từ 1 triệu đồng bằng thẻ tín dụng Sacombank sẽ nhận được eVoucher trị giá 200.000 đồng."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "Mỗi ngày, 100 khách hàng đầu tiên có giao dịch từ 1 triệu đồng bằng thẻ tín dụng Sacombank sẽ nhận được eVoucher trị giá 200.000 đồng."
+    },
+    {
+        "text": "từ 18h đến 20h thứ Sáu, Bảy và Chủ nhật",
+        "label": "DATE",
+        "evidence": "Đặc biệt, vào khung \"giờ vàng\" mỗi tuần (từ 18h đến 20h thứ Sáu, Bảy và Chủ nhật), 100 chủ thẻ đầu tiên có giao dịch ăn uống từ 2 triệu đồng trở lên sẽ được tặng eVoucher 300.000 đồng."
+    },
+    {
+        "text": "2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, vào khung \"giờ vàng\" mỗi tuần (từ 18h đến 20h thứ Sáu, Bảy và Chủ nhật), 100 chủ thẻ đầu tiên có giao dịch ăn uống từ 2 triệu đồng trở lên sẽ được tặng eVoucher 300.000 đồng."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, vào khung \"giờ vàng\" mỗi tuần (từ 18h đến 20h thứ Sáu, Bảy và Chủ nhật), 100 chủ thẻ đầu tiên có giao dịch ăn uống từ 2 triệu đồng trở lên sẽ được tặng eVoucher 300.000 đồng."
+    },
+    {
+        "text": "7/7",
+        "label": "DATE",
+        "evidence": "Ngoài ra, vào các ngày đôi như 7/7, 8/8 và 9/9, 500 khách hàng chi tiêu từ 2 triệu đồng sẽ được nhận eVoucher 300.000 đồng và nhân đôi doanh số giao dịch để tăng cơ hội trúng thưởng trong chương trình quay số cuối kỳ."
+    },
+    {
+        "text": "8/8",
+        "label": "DATE",
+        "evidence": "Ngoài ra, vào các ngày đôi như 7/7, 8/8 và 9/9, 500 khách hàng chi tiêu từ 2 triệu đồng sẽ được nhận eVoucher 300.000 đồng và nhân đôi doanh số giao dịch để tăng cơ hội trúng thưởng trong chương trình quay số cuối kỳ."
+    },
+    {
+        "text": "9/9",
+        "label": "DATE",
+        "evidence": "Ngoài ra, vào các ngày đôi như 7/7, 8/8 và 9/9, 500 khách hàng chi tiêu từ 2 triệu đồng sẽ được nhận eVoucher 300.000 đồng và nhân đôi doanh số giao dịch để tăng cơ hội trúng thưởng trong chương trình quay số cuối kỳ."
+    },
+    {
+        "text": "2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, vào các ngày đôi như 7/7, 8/8 và 9/9, 500 khách hàng chi tiêu từ 2 triệu đồng sẽ được nhận eVoucher 300.000 đồng và nhân đôi doanh số giao dịch để tăng cơ hội trúng thưởng trong chương trình quay số cuối kỳ."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, vào các ngày đôi như 7/7, 8/8 và 9/9, 500 khách hàng chi tiêu từ 2 triệu đồng sẽ được nhận eVoucher 300.000 đồng và nhân đôi doanh số giao dịch để tăng cơ hội trúng thưởng trong chương trình quay số cuối kỳ."
+    },
+    {
+        "text": "hoàn tiền lên đến 300.000 đồng khi đặt vé máy bay trực tuyến qua Vietnam Airlines và Bamboo Airways với hóa đơn từ 3 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ sẽ được hoàn tiền lên đến 300.000 đồng khi đặt vé máy bay trực tuyến qua Vietnam Airlines và Bamboo Airways với hóa đơn từ 3 triệu đồng."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Chủ thẻ sẽ được hoàn tiền lên đến 300.000 đồng khi đặt vé máy bay trực tuyến qua Vietnam Airlines và Bamboo Airways với hóa đơn từ 3 triệu đồng."
+    },
+    {
+        "text": "3 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Chủ thẻ sẽ được hoàn tiền lên đến 300.000 đồng khi đặt vé máy bay trực tuyến qua Vietnam Airlines và Bamboo Airways với hóa đơn từ 3 triệu đồng."
+    },
+    {
+        "text": "giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda",
+        "label": "EVENT",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Vinpearl",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Jump Arena",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Traveloka",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Trip.com",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "Agoda",
+        "label": "ORG",
+        "evidence": "Đồng thời, khách hàng cũng được giảm đến 300.000 đồng hoặc đến 20% khi đặt tour du lịch, phòng khách sạn hoặc vé khu vui chơi tại Vietravel, Vinpearl, Jump Arena hay Traveloka, Trip.com, Agoda."
+    },
+    {
+        "text": "ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort",
+        "label": "EVENT",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Garrya Mù Cang Chải",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Le Jardin Hotel & Spa",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "InterContinental Phú Quốc",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Fusion Resort Cam Ranh",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Maia Resort Quy Nhơn",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Hyatt Regency Đà Nẵng",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "Azerai La Residence Huế",
+        "label": "ORG",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "Đặc biệt, Sacombank còn dành ưu đãi cho khách hàng khi đặt phòng tại hơn 30 khách sạn và resort trên khắp cả nước như Garrya Mù Cang Chải, Le Jardin Hotel & Spa, InterContinental Phú Quốc, Fusion Resort Cam Ranh, Maia Resort Quy Nhơn, Hyatt Regency Đà Nẵng, Azerai La Residence Huế,… với mức giảm đến 30%."
+    },
+    {
+        "text": "giảm đến 30% khi mua gói tập tại DHA Golfzon",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ tín dụng Sacombank được giảm đến 30% khi mua gói tập tại DHA Golfzon và giảm 25% tại FLC Golf Club."
+    },
+    {
+        "text": "DHA Golfzon",
+        "label": "ORG",
+        "evidence": "Chủ thẻ tín dụng Sacombank được giảm đến 30% khi mua gói tập tại DHA Golfzon và giảm 25% tại FLC Golf Club."
+    },
+    {
+        "text": "giảm 25% tại FLC Golf Club",
+        "label": "EVENT",
+        "evidence": "Chủ thẻ tín dụng Sacombank được giảm đến 30% khi mua gói tập tại DHA Golfzon và giảm 25% tại FLC Golf Club."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Chủ thẻ tín dụng Sacombank được giảm đến 30% khi mua gói tập tại DHA Golfzon và giảm 25% tại FLC Golf Club."
+    },
+    {
+        "text": "FLC Golf Club",
+        "label": "ORG",
+        "evidence": "Chủ thẻ tín dụng Sacombank được giảm đến 30% khi mua gói tập tại DHA Golfzon và giảm 25% tại FLC Golf Club."
+    },
+    {
+        "text": "giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "New World Saigon",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Vinpearl Landmark 81",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Thai Market",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Bếp Mẹ Ỉn",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Red Bean",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Prime Steak",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Lighthouse Sky Bar",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Moonlight Sky Bar",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "Aqua Sky Bar",
+        "label": "ORG",
+        "evidence": "Ngoài ra, còn được giảm 20% tại các chuỗi nhà hàng cao cấp như New World Saigon, Vinpearl Landmark 81, Thai Market, Bếp Mẹ Ỉn, Red Bean, Prime Steak,… và giảm 10% tại các quán bar nổi tiếng như Lighthouse Sky Bar, Moonlight Sky Bar hay Aqua Sky Bar."
+    },
+    {
+        "text": "giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic",
+        "label": "EVENT",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "350.000 đồng",
+        "label": "MONEY",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "Panasonic",
+        "label": "ORG",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "FPT Shop",
+        "label": "ORG",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "Nguyễn Kim",
+        "label": "ORG",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "8 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Với mua sắm và thương mại điện tử, chủ thẻ Sacombank được giảm đến 30% trên giá sản phẩm và giảm thêm đến 350.000 đồng trên hóa đơn tại Panasonic và giảm 300.000 đồng tại FPT Shop, Nguyễn Kim cho hóa đơn từ 8 triệu đồng."
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "Trên Shopee, mỗi ngày khách hàng được giảm 30.000 đồng cho đơn hàng từ 300.000 đồng, và đặc biệt được giảm đến 300.000 đồng vào các ngày siêu sale 7/7 và 8/8."
+    },
+    {
+        "text": "khách hàng được giảm 30.000 đồng cho đơn hàng từ 300.000 đồng",
+        "label": "EVENT",
+        "evidence": "Trên Shopee, mỗi ngày khách hàng được giảm 30.000 đồng cho đơn hàng từ 300.000 đồng, và đặc biệt được giảm đến 300.000 đồng vào các ngày siêu sale 7/7 và 8/8."
+    },
+    {
+        "text": "30.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trên Shopee, mỗi ngày khách hàng được giảm 30.000 đồng cho đơn hàng từ 300.000 đồng, và đặc biệt được giảm đến 300.000 đồng vào các ngày siêu sale 7/7 và 8/8."
+    },
+    {
+        "text": "giảm đến 300.000 đồng vào các ngày siêu sale 7/7 và 8/8",
+        "label": "EVENT",
+        "evidence": "Trên Shopee, mỗi ngày khách hàng được giảm 30.000 đồng cho đơn hàng từ 300.000 đồng, và đặc biệt được giảm đến 300.000 đồng vào các ngày siêu sale 7/7 và 8/8."
+    },
+    {
+        "text": "Xanh SM",
+        "label": "ORG",
+        "evidence": "Ngoài ra, khi sử dụng dịch vụ gọi xe trên Xanh SM hoặc đặt món ăn qua GrabFood, khách hàng cũng được ưu đãi giảm giá đến 30.000 đồng."
+    },
+    {
+        "text": "GrabFood",
+        "label": "ORG",
+        "evidence": "Ngoài ra, khi sử dụng dịch vụ gọi xe trên Xanh SM hoặc đặt món ăn qua GrabFood, khách hàng cũng được ưu đãi giảm giá đến 30.000 đồng."
+    },
+    {
+        "text": "ưu đãi giảm giá đến 30.000 đồng",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khi sử dụng dịch vụ gọi xe trên Xanh SM hoặc đặt món ăn qua GrabFood, khách hàng cũng được ưu đãi giảm giá đến 30.000 đồng."
+    },
+    {
+        "text": "giảm 200.000 đồng cho giao dịch thực hiện trong khung giờ từ 12h - 14h thứ sáu hàng tuần",
+        "label": "EVENT",
+        "evidence": "Với dịch vụ đặt vé máy bay và khách sạn, Sacombank dành tặng mức giảm 200.000 đồng cho giao dịch thực hiện trong khung giờ từ 12h - 14h thứ sáu hàng tuần."
+    },
+    {
+        "text": "từ 12h - 14h thứ sáu hàng tuần",
+        "label": "DATE",
+        "evidence": "Với dịch vụ đặt vé máy bay và khách sạn, Sacombank dành tặng mức giảm 200.000 đồng cho giao dịch thực hiện trong khung giờ từ 12h - 14h thứ sáu hàng tuần."
+    },
+    {
+        "text": "giảm 150.000 đồng cho các giao dịch tương tự",
+        "label": "EVENT",
+        "evidence": "Ngoài khung giờ vàng, khách hàng vẫn có cơ hội tiết kiệm với mức giảm 150.000 đồng cho các giao dịch tương tự."
+    },
+    {
+        "text": "150.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài khung giờ vàng, khách hàng vẫn có cơ hội tiết kiệm với mức giảm 150.000 đồng cho các giao dịch tương tự."
+    },
+    {
+        "text": "giảm 80.000 đồng khi mua sắm trực tuyến",
+        "label": "EVENT",
+        "evidence": "Song song đó, khách hàng cũng được giảm 80.000 đồng khi mua sắm trực tuyến hay giảm 50.000 đồng cho các giao dịch đặt vé tàu, xe khách thông qua ứng dụng Sacombank Pay."
+    },
+    {
+        "text": "80.000 đồng",
+        "label": "MONEY",
+        "evidence": "Song song đó, khách hàng cũng được giảm 80.000 đồng khi mua sắm trực tuyến hay giảm 50.000 đồng cho các giao dịch đặt vé tàu, xe khách thông qua ứng dụng Sacombank Pay."
+    },
+    {
+        "text": "giảm 50.000 đồng cho các giao dịch đặt vé tàu, xe khách thông qua ứng dụng Sacombank Pay",
+        "label": "EVENT",
+        "evidence": "Song song đó, khách hàng cũng được giảm 80.000 đồng khi mua sắm trực tuyến hay giảm 50.000 đồng cho các giao dịch đặt vé tàu, xe khách thông qua ứng dụng Sacombank Pay."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Song song đó, khách hàng cũng được giảm 80.000 đồng khi mua sắm trực tuyến hay giảm 50.000 đồng cho các giao dịch đặt vé tàu, xe khách thông qua ứng dụng Sacombank Pay."
+    },
+    {
+        "text": "hết 03/8/2025",
+        "label": "DATE",
+        "evidence": "Các ưu đãi diễn ra đến hết 03/8/2025."
+    }
+]

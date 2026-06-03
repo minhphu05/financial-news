@@ -1,0 +1,477 @@
+[
+    {
+        "text": "Telio",
+        "label": "ORG",
+        "evidence": "nhà sáng lập Bùi Sỹ Phong của startup thương mại điện tử B2B Telio đã xác nhận với họ rằng công ty đã đóng cửa vào cuối năm 2024."
+    },
+    {
+        "text": "đóng cửa",
+        "label": "EVENT",
+        "evidence": "Telio đóng cửa"
+    },
+    {
+        "text": "Tech in Asia",
+        "label": "ORG",
+        "evidence": "Tờ Tech in Asia vừa đưa tin, nhà sáng lập Bùi Sỹ Phong của startup thương mại điện tử B2B Telio đã xác nhận với họ rằng công ty đã đóng cửa vào cuối năm 2024."
+    },
+    {
+        "text": "Bùi Sỹ Phong",
+        "label": "PERSON",
+        "evidence": "nhà sáng lập Bùi Sỹ Phong của startup thương mại điện tử B2B Telio đã xác nhận với họ rằng công ty đã đóng cửa vào cuối năm 2024."
+    },
+    {
+        "text": "công ty đã đóng cửa vào cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "nhà sáng lập Bùi Sỹ Phong của startup thương mại điện tử B2B Telio đã xác nhận với họ rằng công ty đã đóng cửa vào cuối năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "công ty đã đóng cửa vào cuối năm 2024."
+    },
+    {
+        "text": "Telio không thể huy động thêm vốn hoặc tìm được bên mua lại",
+        "label": "EVENT",
+        "evidence": "Quyết định này được đưa ra sau khi Telio không thể huy động thêm vốn hoặc tìm được bên mua lại."
+    },
+    {
+        "text": "ông Bùi Sỹ Phong",
+        "label": "PERSON",
+        "evidence": "Theo ông Bùi Sỹ Phong, Telio đã ngừng hoạt động tại Việt Nam vào cuối tháng 11/2024 và giải thể pháp nhân tại quốc gia này vào tháng 12."
+    },
+    {
+        "text": "ngừng hoạt động tại Việt Nam vào cuối tháng 11/2024",
+        "label": "EVENT",
+        "evidence": "Telio đã ngừng hoạt động tại Việt Nam vào cuối tháng 11/2024 và giải thể pháp nhân tại quốc gia này vào tháng 12."
+    },
+    {
+        "text": "cuối tháng 11/2024",
+        "label": "DATE",
+        "evidence": "Telio đã ngừng hoạt động tại Việt Nam vào cuối tháng 11/2024"
+    },
+    {
+        "text": "giải thể pháp nhân tại quốc gia này vào tháng 12",
+        "label": "EVENT",
+        "evidence": "giải thể pháp nhân tại quốc gia này vào tháng 12."
+    },
+    {
+        "text": "tháng 12",
+        "label": "DATE",
+        "evidence": "giải thể pháp nhân tại quốc gia này vào tháng 12."
+    },
+    {
+        "text": "khoảng 400 nhân viên bị sa thải",
+        "label": "EVENT",
+        "evidence": "Hệ quả là khoảng 400 nhân viên bị sa thải, bao gồm cả đội ngũ nhân viên công nghệ tại Ấn Độ."
+    },
+    {
+        "text": "tháng 8/2024",
+        "label": "DATE",
+        "evidence": "Trong một cuộc phỏng vấn với Tech in Asia vào tháng 8/2024, ông Bùi Sỹ Phong cho biết Telio đã giảm lỗ hàng tháng xuống còn 280.000 USD – giảm 80% so với mức đỉnh điểm 1,4 triệu USD."
+    },
+    {
+        "text": "giảm lỗ hàng tháng xuống còn 280.000 USD",
+        "label": "EVENT",
+        "evidence": "ông Bùi Sỹ Phong cho biết Telio đã giảm lỗ hàng tháng xuống còn 280.000 USD – giảm 80% so với mức đỉnh điểm 1,4 triệu USD."
+    },
+    {
+        "text": "280.000 USD",
+        "label": "MONEY",
+        "evidence": "xuống còn 280.000 USD"
+    },
+    {
+        "text": "giảm 80%",
+        "label": "RATE",
+        "evidence": "giảm 80%"
+    },
+    {
+        "text": "1,4 triệu USD",
+        "label": "MONEY",
+        "evidence": "mức đỉnh điểm 1,4 triệu USD."
+    },
+    {
+        "text": "đặt mục tiêu đạt lợi nhuận EBITDA vào giữa năm 2026",
+        "label": "EVENT",
+        "evidence": "công ty đặt mục tiêu đạt lợi nhuận EBITDA vào giữa năm 2026"
+    },
+    {
+        "text": "giữa năm 2026",
+        "label": "DATE",
+        "evidence": "giữa năm 2026"
+    },
+    {
+        "text": "huy động được 10 - 15 triệu USD vào cuối năm 2024",
+        "label": "EVENT",
+        "evidence": "kỳ vọng huy động được 10 - 15 triệu USD vào cuối năm 2024."
+    },
+    {
+        "text": "10 - 15 triệu USD",
+        "label": "MONEY",
+        "evidence": "10 - 15 triệu USD"
+    },
+    {
+        "text": "nguồn vốn lẫn các cơ hội M&A (mua bán & sáp nhập) đều không thành hiện thực",
+        "label": "EVENT",
+        "evidence": "cả nguồn vốn lẫn các cơ hội M&A (mua bán & sáp nhập) đều không thành hiện thực."
+    },
+    {
+        "text": "M&A",
+        "label": "EVENT",
+        "evidence": "M&A (mua bán & sáp nhập)"
+    },
+    {
+        "text": "mua bán & sáp nhập",
+        "label": "EVENT",
+        "evidence": "mua bán & sáp nhập"
+    },
+    {
+        "text": "bắt đầu thực hiện các biện pháp cắt giảm quy mô hoạt động và chi phí từ giữa năm 2022",
+        "label": "EVENT",
+        "evidence": "Công ty bắt đầu thực hiện các biện pháp cắt giảm quy mô hoạt động và chi phí từ giữa năm 2022"
+    },
+    {
+        "text": "giữa năm 2022",
+        "label": "DATE",
+        "evidence": "từ giữa năm 2022"
+    },
+    {
+        "text": "tập trung vào tối ưu hoá và đa dạng hoá danh mục sản phẩm, tránh các mặt hàng có biên lợi nhuận thấp",
+        "label": "EVENT",
+        "evidence": "tập trung vào tối ưu hoá và đa dạng hoá danh mục sản phẩm, tránh các mặt hàng có biên lợi nhuận thấp."
+    },
+    {
+        "text": "doanh thu hàng tháng của Telio đạt khoảng 2,5 - 3 triệu USD",
+        "label": "EVENT",
+        "evidence": "Ông ước tính rằng vào thời điểm đóng cửa, doanh thu hàng tháng của Telio đạt khoảng 2,5 - 3 triệu USD."
+    },
+    {
+        "text": "2,5 - 3 triệu USD",
+        "label": "MONEY",
+        "evidence": "đạt khoảng 2,5 - 3 triệu USD."
+    },
+    {
+        "text": "công ty đã cạn kiệt dòng tiền",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, vì công ty đã cạn kiệt dòng tiền, nên không còn lựa chọn nào khác ngoài việc đóng cửa."
+    },
+    {
+        "text": "không còn lựa chọn nào khác ngoài việc đóng cửa",
+        "label": "EVENT",
+        "evidence": "nên không còn lựa chọn nào khác ngoài việc đóng cửa."
+    },
+    {
+        "text": "năm 1982",
+        "label": "DATE",
+        "evidence": "Ông Bùi Sỹ Phong sinh năm 1982."
+    },
+    {
+        "text": "Đại học Pierre và Marie Curie (Pháp)",
+        "label": "ORG",
+        "evidence": "tốt nghiệp Khoa Khoa học máy tính tại trường Đại học Pierre và Marie Curie (Pháp)."
+    },
+    {
+        "text": "Trường EPITA",
+        "label": "ORG",
+        "evidence": "học lên Thạc sỹ Quản trị mạng và Quản lý CNTT tại Trường EPITA"
+    },
+    {
+        "text": "IONIS Education Group",
+        "label": "ORG",
+        "evidence": "IONIS Education Group tại Pháp."
+    },
+    {
+        "text": "ông Phong",
+        "label": "PERSON",
+        "evidence": "Sau khi hoàn thành việc học, ông Phong bắt đầu làm việc tại phòng Giao diện người dùng tại HTC."
+    },
+    {
+        "text": "HTC",
+        "label": "ORG",
+        "evidence": "phòng Giao diện người dùng tại HTC."
+    },
+    {
+        "text": "tháng 6/2006",
+        "label": "DATE",
+        "evidence": "trong vòng 2 năm từ tháng 6/2006 đến tháng 8/2008."
+    },
+    {
+        "text": "tháng 8/2008",
+        "label": "DATE",
+        "evidence": "từ tháng 6/2006 đến tháng 8/2008."
+    },
+    {
+        "text": "Buongiorno",
+        "label": "ORG",
+        "evidence": "làm quản lý dự án tại phòng Cộng đồng của Buongiorno từ tháng 6/2008 đến tháng 11/2008"
+    },
+    {
+        "text": "tháng 6/2008",
+        "label": "DATE",
+        "evidence": "từ tháng 6/2008 đến tháng 11/2008"
+    },
+    {
+        "text": "tháng 11/2008",
+        "label": "DATE",
+        "evidence": "từ tháng 6/2008 đến tháng 11/2008"
+    },
+    {
+        "text": "tháng 12/2010",
+        "label": "DATE",
+        "evidence": "sau đó ông làm quản lý dự án B2O tại đây đến tháng 12/2010."
+    },
+    {
+        "text": "Ngân hàng Quốc Tế Việt Nam",
+        "label": "ORG",
+        "evidence": "Quản lý dự án tại Ngân hàng Quốc Tế Việt Nam (VIB) từ tháng 5 đến tháng 12/2011."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Quản lý dự án tại Ngân hàng Quốc Tế Việt Nam (VIB) từ tháng 5 đến tháng 12/2011."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "từ tháng 5 đến tháng 12/2011."
+    },
+    {
+        "text": "tháng 12/2011",
+        "label": "DATE",
+        "evidence": "đến tháng 12/2011."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trưởng phòng Chiến lược và quản lý dự án tại VPBank"
+    },
+    {
+        "text": "tháng 11/2013",
+        "label": "DATE",
+        "evidence": "Đến tháng 11/2013, ông chuyển qua làm Trưởng phòng dự án cao cấp - khu vực APAC của Finastra."
+    },
+    {
+        "text": "Finastra",
+        "label": "ORG",
+        "evidence": "của Finastra."
+    },
+    {
+        "text": "tháng 7/2014",
+        "label": "DATE",
+        "evidence": "Tháng 7/2014, ông Phong thành lập và làm Giám đốc điều hành của CTCP Dịch vụ Di động OnOnPay Việt Nam - Startup nạp tiền trên di động."
+    },
+    {
+        "text": "thành lập và làm Giám đốc điều hành của CTCP Dịch vụ Di động OnOnPay Việt Nam",
+        "label": "EVENT",
+        "evidence": "Tháng 7/2014, ông Phong thành lập và làm Giám đốc điều hành của CTCP Dịch vụ Di động OnOnPay Việt Nam - Startup nạp tiền trên di động."
+    },
+    {
+        "text": "CTCP Dịch vụ Di động OnOnPay Việt Nam",
+        "label": "ORG",
+        "evidence": "CTCP Dịch vụ Di động OnOnPay Việt Nam"
+    },
+    {
+        "text": "OnOnPay",
+        "label": "ORG",
+        "evidence": "OnOnPay đóng vai trò như một chiếc ví di động"
+    },
+    {
+        "text": "Uber",
+        "label": "ORG",
+        "evidence": "các đối tác như Uber, Grab..."
+    },
+    {
+        "text": "Grab",
+        "label": "ORG",
+        "evidence": "các đối tác như Uber, Grab..."
+    },
+    {
+        "text": "Năm 2016",
+        "label": "DATE",
+        "evidence": "Năm 2016, OnOnPay đã nhận được 800.000 USD từ quỹ ngoại Gobi Partners."
+    },
+    {
+        "text": "nhận được 800.000 USD từ quỹ ngoại Gobi Partners",
+        "label": "EVENT",
+        "evidence": "OnOnPay đã nhận được 800.000 USD từ quỹ ngoại Gobi Partners."
+    },
+    {
+        "text": "800.000 USD",
+        "label": "MONEY",
+        "evidence": "800.000 USD từ quỹ ngoại Gobi Partners."
+    },
+    {
+        "text": "Gobi Partners",
+        "label": "ORG",
+        "evidence": "quỹ ngoại Gobi Partners."
+    },
+    {
+        "text": "OnOnPay không đạt được thành công mong muốn, nền tảng này hiện không còn hoạt động",
+        "label": "EVENT",
+        "evidence": "Dù có tiềm năng, OnOnPay không đạt được thành công mong muốn, nền tảng này hiện không còn hoạt động."
+    },
+    {
+        "text": "tháng 1/2019",
+        "label": "DATE",
+        "evidence": "Đến tháng 1/2019, ông khởi nghiệp lại với việc sáng lập và làm Tổng giám đốc điều hành của Telio."
+    },
+    {
+        "text": "ông khởi nghiệp lại với việc sáng lập và làm Tổng giám đốc điều hành của Telio",
+        "label": "EVENT",
+        "evidence": "ông khởi nghiệp lại với việc sáng lập và làm Tổng giám đốc điều hành của Telio."
+    },
+    {
+        "text": "5 vòng gọi vốn",
+        "label": "EVENT",
+        "evidence": "Trong suốt 5 vòng gọi vốn, Telio huy động được khoảng 52,5 triệu USD từ các nhà đầu tư lớn như Tiger Global, Granite Asia, Peak XV và VNG."
+    },
+    {
+        "text": "Telio huy động được khoảng 52,5 triệu USD từ các nhà đầu tư lớn như Tiger Global, Granite Asia, Peak XV và VNG",
+        "label": "EVENT",
+        "evidence": "Telio huy động được khoảng 52,5 triệu USD từ các nhà đầu tư lớn như Tiger Global, Granite Asia, Peak XV và VNG."
+    },
+    {
+        "text": "52,5 triệu USD",
+        "label": "MONEY",
+        "evidence": "khoảng 52,5 triệu USD từ các nhà đầu tư lớn như Tiger Global, Granite Asia, Peak XV và VNG."
+    },
+    {
+        "text": "Tiger Global",
+        "label": "ORG",
+        "evidence": "như Tiger Global, Granite Asia, Peak XV và VNG."
+    },
+    {
+        "text": "Granite Asia",
+        "label": "ORG",
+        "evidence": "Granite Asia, Peak XV và VNG."
+    },
+    {
+        "text": "Peak XV",
+        "label": "ORG",
+        "evidence": "Peak XV và VNG."
+    },
+    {
+        "text": "VNG",
+        "label": "ORG",
+        "evidence": "Peak XV và VNG."
+    },
+    {
+        "text": "Thua kiện công ty cũ ở Singapore vì “không trung thực”",
+        "label": "EVENT",
+        "evidence": "Thua kiện công ty cũ ở Singapore vì “không trung thực”"
+    },
+    {
+        "text": "Năm 2021",
+        "label": "DATE",
+        "evidence": "Năm 2021, tờ Tech in Asia đưa tin, Tòa án cấp cao Singapore đã yêu cầu nhà sáng lập kiêm CEO Telio - ông Bùi Sỹ Phong, chuyển nhượng cổ phần tại Telio cho công ty cũ của ông là OnOnPay (OOPA)."
+    },
+    {
+        "text": "Tòa án cấp cao Singapore",
+        "label": "ORG",
+        "evidence": "Tòa án cấp cao Singapore đã yêu cầu nhà sáng lập kiêm CEO Telio - ông Bùi Sỹ Phong, chuyển nhượng cổ phần tại Telio cho công ty cũ của ông là OnOnPay (OOPA)."
+    },
+    {
+        "text": "chuyển nhượng cổ phần tại Telio cho công ty cũ của ông là OnOnPay (OOPA)",
+        "label": "EVENT",
+        "evidence": "chuyển nhượng cổ phần tại Telio cho công ty cũ của ông là OnOnPay (OOPA)."
+    },
+    {
+        "text": "OOPA",
+        "label": "ORG",
+        "evidence": "OnOnPay (OOPA)."
+    },
+    {
+        "text": "bồi thường cho OOPA số tiền 233.000 SGD",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, ông Phong phải bồi thường cho OOPA số tiền 233.000 SGD, tương đương 174.000 USD (khoảng 4 tỷ đồng)."
+    },
+    {
+        "text": "233.000 SGD",
+        "label": "MONEY",
+        "evidence": "số tiền 233.000 SGD"
+    },
+    {
+        "text": "174.000 USD",
+        "label": "MONEY",
+        "evidence": "tương đương 174.000 USD"
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "(khoảng 4 tỷ đồng)."
+    },
+    {
+        "text": "vụ kiện giữa ông Bùi Sỹ Phong và OOPA",
+        "label": "EVENT",
+        "evidence": "kết quả về vụ kiện giữa ông Bùi Sỹ Phong và OOPA."
+    },
+    {
+        "text": "HĐQT của OOPA",
+        "label": "ORG",
+        "evidence": "Theo đó, HĐQT của OOPA cáo buộc ông Phong chiếm đoạt các cơ hội kinh doanh và sử dụng các nguồn lực của công ty - bao gồm mạng lưới doanh nghiệp, nguồn nhân lực và tài sản trí tuệ - để phát triển Telio, dự án kinh doanh mới của ông."
+    },
+    {
+        "text": "chiếm đoạt các cơ hội kinh doanh và sử dụng các nguồn lực của công ty - bao gồm mạng lưới doanh nghiệp, nguồn nhân lực và tài sản trí tuệ - để phát triển Telio, dự án kinh doanh mới của ông",
+        "label": "EVENT",
+        "evidence": "ông Phong chiếm đoạt các cơ hội kinh doanh và sử dụng các nguồn lực của công ty - bao gồm mạng lưới doanh nghiệp, nguồn nhân lực và tài sản trí tuệ - để phát triển Telio, dự án kinh doanh mới của ông."
+    },
+    {
+        "text": "xin HĐQT của OOPA thành lập Telio",
+        "label": "EVENT",
+        "evidence": "ông Bùi Sỹ Phong xin HĐQT của OOPA thành lập Telio"
+    },
+    {
+        "text": "đề xuất chia cổ phần tại Telio cho các thành viên HĐQT OOPA",
+        "label": "EVENT",
+        "evidence": "đồng thời đề xuất chia cổ phần tại Telio cho các thành viên HĐQT OOPA."
+    },
+    {
+        "text": "liên hệ với các nhà đầu tư tiềm năng và giới thiệu rằng Telio là công ty con của OOPA",
+        "label": "EVENT",
+        "evidence": "Sau đó, ông Phong liên hệ với các nhà đầu tư tiềm năng và giới thiệu rằng Telio là công ty con của OOPA."
+    },
+    {
+        "text": "ông Phong không thông báo hoạt động gọi vốn cho các cổ đông của OOPA",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, ông Phong không thông báo hoạt động gọi vốn cho các cổ đông của OOPA."
+    },
+    {
+        "text": "Thẩm phán Singapore",
+        "label": "PERSON",
+        "evidence": "Thẩm phán Singapore khẳng định ông Phong thừa nhận không thông báo cho OOPA về thỏa thuận đầu tư vào ngày 19/3/2019 giữa Telio và Surge (đơn vị trực thuộc quỹ đầu tư mạo hiểm Sequoia India)."
+    },
+    {
+        "text": "không thông báo cho OOPA về thỏa thuận đầu tư vào ngày 19/3/2019 giữa Telio và Surge (đơn vị trực thuộc quỹ đầu tư mạo hiểm Sequoia India)",
+        "label": "EVENT",
+        "evidence": "ông Phong thừa nhận không thông báo cho OOPA về thỏa thuận đầu tư vào ngày 19/3/2019 giữa Telio và Surge (đơn vị trực thuộc quỹ đầu tư mạo hiểm Sequoia India)."
+    },
+    {
+        "text": "thỏa thuận đầu tư",
+        "label": "EVENT",
+        "evidence": "thỏa thuận đầu tư vào ngày 19/3/2019"
+    },
+    {
+        "text": "ngày 19/3/2019",
+        "label": "DATE",
+        "evidence": "ngày 19/3/2019"
+    },
+    {
+        "text": "Surge",
+        "label": "ORG",
+        "evidence": "Telio và Surge (đơn vị trực thuộc quỹ đầu tư mạo hiểm Sequoia India)."
+    },
+    {
+        "text": "quỹ đầu tư mạo hiểm Sequoia India",
+        "label": "ORG",
+        "evidence": "quỹ đầu tư mạo hiểm Sequoia India)."
+    },
+    {
+        "text": "Sequoia India",
+        "label": "ORG",
+        "evidence": "quỹ đầu tư mạo hiểm Sequoia India)."
+    },
+    {
+        "text": "OOPA được hưởng cổ phần của ông Bùi Sỹ Phong tại Telio vì công ty này được thành lập dưới \"sự tin tưởng của các nhà đầu tư dành cho OOPA\"",
+        "label": "EVENT",
+        "evidence": "thẩm phán cũng khẳng định OOPA được hưởng cổ phần của ông Bùi Sỹ Phong tại Telio vì công ty này được thành lập dưới \"sự tin tưởng của các nhà đầu tư dành cho OOPA\"."
+    }
+]

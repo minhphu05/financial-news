@@ -1,0 +1,572 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Vào ngày sinh nhật Sacombank 21/12/2023, khi khách hàng thanh toán bằng thẻ tín dụng Sacombank tại Vincom, Điện máy Chợ Lớn"
+    },
+    {
+        "text": "21/12/2023",
+        "label": "DATE",
+        "evidence": "Vào ngày sinh nhật Sacombank 21/12/2023, khi khách hàng thanh toán bằng thẻ tín dụng Sacombank tại Vincom, Điện máy Chợ Lớn"
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "khi khách hàng thanh toán bằng thẻ tín dụng Sacombank tại Vincom, Điện máy Chợ Lớn"
+    },
+    {
+        "text": "Vincom",
+        "label": "ORG",
+        "evidence": "thẻ tín dụng Sacombank tại Vincom, Điện máy Chợ Lớn"
+    },
+    {
+        "text": "Điện máy Chợ Lớn",
+        "label": "ORG",
+        "evidence": "thẻ tín dụng Sacombank tại Vincom, Điện máy Chợ Lớn"
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "chi tiêu trực tuyến qua Shopee, Tiki, GrabFood, ShopeeFood hay đặt vé máy bay Bamboo Airways"
+    },
+    {
+        "text": "Tiki",
+        "label": "ORG",
+        "evidence": "chi tiêu trực tuyến qua Shopee, Tiki, GrabFood, ShopeeFood hay đặt vé máy bay Bamboo Airways"
+    },
+    {
+        "text": "GrabFood",
+        "label": "ORG",
+        "evidence": "chi tiêu trực tuyến qua Shopee, Tiki, GrabFood, ShopeeFood hay đặt vé máy bay Bamboo Airways"
+    },
+    {
+        "text": "ShopeeFood",
+        "label": "ORG",
+        "evidence": "chi tiêu trực tuyến qua Shopee, Tiki, GrabFood, ShopeeFood hay đặt vé máy bay Bamboo Airways"
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "hay đặt vé máy bay Bamboo Airways sẽ được giảm/hoàn tiền đến 32% (tối đa 320.000 đồng) trên hóa đơn."
+    },
+    {
+        "text": "giảm/hoàn tiền đến 32%",
+        "label": "EVENT",
+        "evidence": "sẽ được giảm/hoàn tiền đến 32% (tối đa 320.000 đồng) trên hóa đơn."
+    },
+    {
+        "text": "32%",
+        "label": "RATE",
+        "evidence": "sẽ được giảm/hoàn tiền đến 32% (tối đa 320.000 đồng) trên hóa đơn."
+    },
+    {
+        "text": "320.000 đồng",
+        "label": "MONEY",
+        "evidence": "đến 32% (tối đa 320.000 đồng) trên hóa đơn."
+    },
+    {
+        "text": "mBanking",
+        "label": "ORG",
+        "evidence": "Với các khách hàng nạp tiền điện thoại qua mBanking/iBanking từ 100.000 đồng"
+    },
+    {
+        "text": "iBanking",
+        "label": "ORG",
+        "evidence": "Với các khách hàng nạp tiền điện thoại qua mBanking/iBanking từ 100.000 đồng"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "mBanking/iBanking từ 100.000 đồng sẽ được giảm ngay 32.000 đồng"
+    },
+    {
+        "text": "giảm ngay 32.000 đồng",
+        "label": "EVENT",
+        "evidence": "sẽ được giảm ngay 32.000 đồng, ưu đãi áp dụng cho các khách hàng giao dịch sớm nhất và không giới hạn số lần nhận ưu đãi."
+    },
+    {
+        "text": "32.000 đồng",
+        "label": "MONEY",
+        "evidence": "sẽ được giảm ngay 32.000 đồng, ưu đãi áp dụng cho các khách hàng giao dịch sớm nhất và không giới hạn số lần nhận ưu đãi."
+    },
+    {
+        "text": "23/12/2023 - 08/01/2024",
+        "label": "DATE",
+        "evidence": "Từ ngày 23/12/2023 - 08/01/2024, khách hàng mua sắm tại Điện máy Chợ Lớn và TTMS Nguyễn Kim sẽ tiếp tục được giảm 500.000 đồng cho các hóa đơn từ 10 triệu đồng chi tiêu qua thẻ tín dụng Sacombank."
+    },
+    {
+        "text": "Điện máy Chợ Lớn",
+        "label": "ORG",
+        "evidence": "khách hàng mua sắm tại Điện máy Chợ Lớn và TTMS Nguyễn Kim sẽ tiếp tục được giảm 500.000 đồng"
+    },
+    {
+        "text": "TTMS Nguyễn Kim",
+        "label": "ORG",
+        "evidence": "Điện máy Chợ Lớn và TTMS Nguyễn Kim sẽ tiếp tục được giảm 500.000 đồng"
+    },
+    {
+        "text": "giảm 500.000 đồng",
+        "label": "EVENT",
+        "evidence": "sẽ tiếp tục được giảm 500.000 đồng cho các hóa đơn từ 10 triệu đồng chi tiêu qua thẻ tín dụng Sacombank."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "sẽ tiếp tục được giảm 500.000 đồng cho các hóa đơn từ 10 triệu đồng chi tiêu qua thẻ tín dụng Sacombank."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "cho các hóa đơn từ 10 triệu đồng chi tiêu qua thẻ tín dụng Sacombank."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "10 triệu đồng chi tiêu qua thẻ tín dụng Sacombank."
+    },
+    {
+        "text": "Ưu đãi 200.000 đồng",
+        "label": "EVENT",
+        "evidence": "Ưu đãi 200.000 đồng khi mua sắm từ 2 triệu đồng trên Shopee hoặc khi mua vé máy bay Bamboo Airways."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "Ưu đãi 200.000 đồng khi mua sắm từ 2 triệu đồng trên Shopee hoặc khi mua vé máy bay Bamboo Airways."
+    },
+    {
+        "text": "2 triệu đồng",
+        "label": "MONEY",
+        "evidence": "khi mua sắm từ 2 triệu đồng trên Shopee hoặc khi mua vé máy bay Bamboo Airways."
+    },
+    {
+        "text": "Shopee",
+        "label": "ORG",
+        "evidence": "từ 2 triệu đồng trên Shopee hoặc khi mua vé máy bay Bamboo Airways."
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "trên Shopee hoặc khi mua vé máy bay Bamboo Airways."
+    },
+    {
+        "text": "Vincom",
+        "label": "ORG",
+        "evidence": "Với hóa đơn ăn uống tại Vincom từ 1,5 triệu đồng chủ thẻ tín dụng Sacombank được hoàn 300.000 đồng."
+    },
+    {
+        "text": "1,5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tại Vincom từ 1,5 triệu đồng chủ thẻ tín dụng Sacombank được hoàn 300.000 đồng."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "1,5 triệu đồng chủ thẻ tín dụng Sacombank được hoàn 300.000 đồng."
+    },
+    {
+        "text": "hoàn 300.000 đồng",
+        "label": "EVENT",
+        "evidence": "chủ thẻ tín dụng Sacombank được hoàn 300.000 đồng."
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "chủ thẻ tín dụng Sacombank được hoàn 300.000 đồng."
+    },
+    {
+        "text": "tháng cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Cũng trong tháng cuối năm 2023, khách hàng đăng ký mở mới thẻ tín dụng Sacombank sẽ được miễn phí phát hành, miễn phí thường niên trọn đời (theo doanh số giao dịch)."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank",
+        "label": "ASSET",
+        "evidence": "khách hàng đăng ký mở mới thẻ tín dụng Sacombank sẽ được miễn phí phát hành, miễn phí thường niên trọn đời (theo doanh số giao dịch)."
+    },
+    {
+        "text": "miễn phí phát hành",
+        "label": "EVENT",
+        "evidence": "sẽ được miễn phí phát hành, miễn phí thường niên trọn đời (theo doanh số giao dịch)."
+    },
+    {
+        "text": "miễn phí thường niên trọn đời",
+        "label": "EVENT",
+        "evidence": "miễn phí phát hành, miễn phí thường niên trọn đời (theo doanh số giao dịch)."
+    },
+    {
+        "text": "thẻ tín dụng Sacombank Visa",
+        "label": "ASSET",
+        "evidence": "Khi mở thẻ tín dụng Sacombank Visa, các chủ thẻ còn được hoàn tiền lên đến 500.000 đồng khi có tổng giá trị giao dịch phát sinh từ 1 triệu đồng."
+    },
+    {
+        "text": "hoàn tiền lên đến 500.000 đồng",
+        "label": "EVENT",
+        "evidence": "các chủ thẻ còn được hoàn tiền lên đến 500.000 đồng khi có tổng giá trị giao dịch phát sinh từ 1 triệu đồng."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn tiền lên đến 500.000 đồng khi có tổng giá trị giao dịch phát sinh từ 1 triệu đồng."
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giao dịch phát sinh từ 1 triệu đồng."
+    },
+    {
+        "text": "18-22/12/2023",
+        "label": "DATE",
+        "evidence": "tuần sinh nhật từ ngày 18-22/12/2023, khi khách hàng đăng ký Combo Đa Lợi Sacombank"
+    },
+    {
+        "text": "Combo Đa Lợi Sacombank",
+        "label": "ASSET",
+        "evidence": "khách hàng đăng ký Combo Đa Lợi Sacombank (gồm tài khoản thanh toán, thẻ thanh toán, dịch vụ Ngân hàng số (Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "tài khoản thanh toán",
+        "label": "ASSET",
+        "evidence": "gồm tài khoản thanh toán, thẻ thanh toán, dịch vụ Ngân hàng số (Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "tài khoản thanh toán, thẻ thanh toán, dịch vụ Ngân hàng số (Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "Ngân hàng số",
+        "label": "ORG",
+        "evidence": "dịch vụ Ngân hàng số (Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "Sacombank Pay",
+        "label": "ORG",
+        "evidence": "Ngân hàng số (Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "iBanking",
+        "label": "ORG",
+        "evidence": "Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "mBanking",
+        "label": "ORG",
+        "evidence": "Sacombank Pay, iBanking, mBanking)"
+    },
+    {
+        "text": "miễn phí định kỳ 6 tháng",
+        "label": "EVENT",
+        "evidence": "sẽ được miễn phí định kỳ 6 tháng, đồng thời giảm 50% phí mở tài khoản tự chọn tại quầy."
+    },
+    {
+        "text": "giảm 50% phí mở tài khoản tự chọn",
+        "label": "EVENT",
+        "evidence": "đồng thời giảm 50% phí mở tài khoản tự chọn tại quầy."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "đồng thời giảm 50% phí mở tài khoản tự chọn tại quầy."
+    },
+    {
+        "text": "20/12/2023",
+        "label": "DATE",
+        "evidence": "Đặc biệt từ 20/12/2023, Sacombank dành hơn 45.000 phần quà (ly giữ nhiệt, nón bảo hiểm) cho các khách hàng đến giao dịch (mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm) thỏa điều kiện tại tất cả 552 CN/PGD Sacombank trên cả nước."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đặc biệt từ 20/12/2023, Sacombank dành hơn 45.000 phần quà (ly giữ nhiệt, nón bảo hiểm) cho các khách hàng đến giao dịch (mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm) thỏa điều kiện tại tất cả 552 CN/PGD Sacombank trên cả nước."
+    },
+    {
+        "text": "mở tài khoản",
+        "label": "EVENT",
+        "evidence": "(mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm)"
+    },
+    {
+        "text": "mở thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "(mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm)"
+    },
+    {
+        "text": "gửi tiết kiệm",
+        "label": "EVENT",
+        "evidence": "(mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm)"
+    },
+    {
+        "text": "vay",
+        "label": "EVENT",
+        "evidence": "(mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm)"
+    },
+    {
+        "text": "mua bảo hiểm",
+        "label": "EVENT",
+        "evidence": "(mở tài khoản/mở thẻ tín dụng/gửi tiết kiệm/vay/mua bảo hiểm)"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "tại tất cả 552 CN/PGD Sacombank trên cả nước."
+    },
+    {
+        "text": "tháng sinh nhật Sacombank",
+        "label": "EVENT",
+        "evidence": "Trong tháng sinh nhật Sacombank từ ngày 01/12/2023 - 31/12/2023, khi khách hàng tham gia hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam tại Sacombank với mức phí năm đầu từ 15 triệu đồng trở lên sẽ được hoàn tiền từ 500.000 đồng đến tối đa 10 triệu đồng tùy theo từng mức phí."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong tháng sinh nhật Sacombank từ ngày 01/12/2023 - 31/12/2023"
+    },
+    {
+        "text": "01/12/2023 - 31/12/2023",
+        "label": "DATE",
+        "evidence": "từ ngày 01/12/2023 - 31/12/2023, khi khách hàng tham gia hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam tại Sacombank"
+    },
+    {
+        "text": "hợp đồng bảo hiểm nhân thọ",
+        "label": "ASSET",
+        "evidence": "khi khách hàng tham gia hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam tại Sacombank"
+    },
+    {
+        "text": "Dai-ichi Life Việt Nam",
+        "label": "ORG",
+        "evidence": "hợp đồng bảo hiểm nhân thọ Dai-ichi Life Việt Nam tại Sacombank"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Dai-ichi Life Việt Nam tại Sacombank với mức phí năm đầu từ 15 triệu đồng trở lên"
+    },
+    {
+        "text": "15 triệu đồng",
+        "label": "MONEY",
+        "evidence": "từ 15 triệu đồng trở lên sẽ được hoàn tiền từ 500.000 đồng đến tối đa 10 triệu đồng tùy theo từng mức phí."
+    },
+    {
+        "text": "hoàn tiền từ 500.000 đồng đến tối đa 10 triệu đồng",
+        "label": "EVENT",
+        "evidence": "sẽ được hoàn tiền từ 500.000 đồng đến tối đa 10 triệu đồng tùy theo từng mức phí."
+    },
+    {
+        "text": "500.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn tiền từ 500.000 đồng đến tối đa 10 triệu đồng tùy theo từng mức phí."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "từ 500.000 đồng đến tối đa 10 triệu đồng tùy theo từng mức phí."
+    },
+    {
+        "text": "quay số trúng thưởng theo CTKM “Đồng hành bình an - Quà sang bùng nổ”",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, khách hàng sẽ có cơ hội tham gia quay số trúng thưởng theo CTKM “Đồng hành bình an - Quà sang bùng nổ” với tổng giá trị gần 3 tỷ đồng"
+    },
+    {
+        "text": "gần 3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "“Đồng hành bình an - Quà sang bùng nổ” với tổng giá trị gần 3 tỷ đồng, gồm 01 giải đặc biệt là thẻ tiết kiệm 600 triệu đồng"
+    },
+    {
+        "text": "thẻ tiết kiệm 600 triệu đồng",
+        "label": "ASSET",
+        "evidence": "gồm 01 giải đặc biệt là thẻ tiết kiệm 600 triệu đồng, 18 giải nhất là voucher du lịch Úc trị giá 60 triệu đồng/giải"
+    },
+    {
+        "text": "600 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giải đặc biệt là thẻ tiết kiệm 600 triệu đồng, 18 giải nhất là voucher du lịch Úc trị giá 60 triệu đồng/giải"
+    },
+    {
+        "text": "60 triệu đồng/giải",
+        "label": "MONEY",
+        "evidence": "voucher du lịch Úc trị giá 60 triệu đồng/giải, 20 giải nhì là voucher du lịch Nhật Bản trị giá 35 triệu đồng/giải"
+    },
+    {
+        "text": "35 triệu đồng/giải",
+        "label": "MONEY",
+        "evidence": "voucher du lịch Nhật Bản trị giá 35 triệu đồng/giải và 27 giải ba là Combo Đa Lợi Sacombank với 20 triệu đồng trong tài khoản thanh toán."
+    },
+    {
+        "text": "Combo Đa Lợi Sacombank",
+        "label": "ASSET",
+        "evidence": "27 giải ba là Combo Đa Lợi Sacombank với 20 triệu đồng trong tài khoản thanh toán."
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Combo Đa Lợi Sacombank với 20 triệu đồng trong tài khoản thanh toán."
+    },
+    {
+        "text": "tài khoản thanh toán",
+        "label": "ASSET",
+        "evidence": "20 triệu đồng trong tài khoản thanh toán."
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, mỗi 20 triệu đồng phí bảo hiểm năm đầu, khách hàng sẽ nhận được 01 mã số dự thưởng"
+    },
+    {
+        "text": "đăng ký dịch vụ thu hộ tự động phí bảo hiểm (ủy thác thanh toán)",
+        "label": "EVENT",
+        "evidence": "khi đăng ký dịch vụ thu hộ tự động phí bảo hiểm (ủy thác thanh toán) hoặc tham gia thêm hợp đồng bảo hiểm trong thời gian khuyến mại."
+    },
+    {
+        "text": "tham gia thêm hợp đồng bảo hiểm",
+        "label": "EVENT",
+        "evidence": "hoặc tham gia thêm hợp đồng bảo hiểm trong thời gian khuyến mại."
+    },
+    {
+        "text": "hợp đồng bảo hiểm",
+        "label": "ASSET",
+        "evidence": "tham gia thêm hợp đồng bảo hiểm trong thời gian khuyến mại."
+    },
+    {
+        "text": "01/10/2023 đến 31/12/2023",
+        "label": "DATE",
+        "evidence": "Từ 01/10/2023 đến 31/12/2023, top 6 khách hàng doanh nghiệp (KHDN) có thẻ tín dụng doanh nghiệp"
+    },
+    {
+        "text": "thẻ tín dụng doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "có thẻ tín dụng doanh nghiệp phát sinh tổng doanh số giao dịch (DSGD) cao nhất"
+    },
+    {
+        "text": "tổng doanh số giao dịch (DSGD)",
+        "label": "VOLUME",
+        "evidence": "phát sinh tổng doanh số giao dịch (DSGD) cao nhất (tối thiểu 150 triệu đồng)"
+    },
+    {
+        "text": "150 triệu đồng",
+        "label": "MONEY",
+        "evidence": "cao nhất (tối thiểu 150 triệu đồng) và top 6 KHDN có thẻ thanh toán doanh nghiệp"
+    },
+    {
+        "text": "thẻ thanh toán doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "top 6 KHDN có thẻ thanh toán doanh nghiệp phát sinh tổng DSGD cao nhất"
+    },
+    {
+        "text": "tổng DSGD",
+        "label": "VOLUME",
+        "evidence": "thẻ thanh toán doanh nghiệp phát sinh tổng DSGD cao nhất (tối thiểu 120 triệu đồng)"
+    },
+    {
+        "text": "120 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tổng DSGD cao nhất (tối thiểu 120 triệu đồng) sẽ nhận ngay combo iPad Pro M2 & bàn phím Magic Keyboard trị giá 38 triệu đồng."
+    },
+    {
+        "text": "38 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Magic Keyboard trị giá 38 triệu đồng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, Sacombank miễn phí thường niên năm đầu tiên cho khách hàng mở mới thẻ doanh nghiệp"
+    },
+    {
+        "text": "miễn phí thường niên năm đầu tiên",
+        "label": "EVENT",
+        "evidence": "Sacombank miễn phí thường niên năm đầu tiên cho khách hàng mở mới thẻ doanh nghiệp"
+    },
+    {
+        "text": "mở mới thẻ doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "miễn phí thường niên năm đầu tiên cho khách hàng mở mới thẻ doanh nghiệp đồng thời tặng thêm ví namecard cao cấp dành cho tất cả chủ thẻ tín dụng doanh nghiệp mở mới và kích hoạt thẻ sớm nhất."
+    },
+    {
+        "text": "thẻ doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "cho khách hàng mở mới thẻ doanh nghiệp đồng thời tặng thêm ví namecard cao cấp dành cho tất cả chủ thẻ tín dụng doanh nghiệp mở mới và kích hoạt thẻ sớm nhất."
+    },
+    {
+        "text": "thẻ tín dụng doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "tất cả chủ thẻ tín dụng doanh nghiệp mở mới và kích hoạt thẻ sớm nhất."
+    },
+    {
+        "text": "thẻ tín dụng doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Với các thẻ tín dụng doanh nghiệp có phát sinh DSGD ít nhất 20 triệu đồng trong thời gian từ 01/06/2023 đến 31/12/2023"
+    },
+    {
+        "text": "DSGD",
+        "label": "VOLUME",
+        "evidence": "có phát sinh DSGD ít nhất 20 triệu đồng trong thời gian từ 01/06/2023 đến 31/12/2023"
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phát sinh DSGD ít nhất 20 triệu đồng trong thời gian từ 01/06/2023 đến 31/12/2023"
+    },
+    {
+        "text": "01/06/2023 đến 31/12/2023",
+        "label": "DATE",
+        "evidence": "trong thời gian từ 01/06/2023 đến 31/12/2023, Sacombank hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD)"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "31/12/2023, Sacombank hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD)"
+    },
+    {
+        "text": "hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD)",
+        "label": "EVENT",
+        "evidence": "Sacombank hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD), tối đa 1 triệu đồng/thẻ/kỳ TBGD, tổng tiền hoàn lên đến 5 triệu đồng/khách hàng."
+    },
+    {
+        "text": "1.5%",
+        "label": "RATE",
+        "evidence": "Sacombank hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD)"
+    },
+    {
+        "text": "tổng DSGD/thẻ",
+        "label": "VOLUME",
+        "evidence": "hoàn 1.5% tổng DSGD/thẻ phát sinh trong kỳ thông báo giao dịch (TBGD)"
+    },
+    {
+        "text": "TBGD",
+        "label": "VOLUME",
+        "evidence": "phát sinh trong kỳ thông báo giao dịch (TBGD), tối đa 1 triệu đồng/thẻ/kỳ TBGD"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tối đa 1 triệu đồng/thẻ/kỳ TBGD, tổng tiền hoàn lên đến 5 triệu đồng/khách hàng."
+    },
+    {
+        "text": "5 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tổng tiền hoàn lên đến 5 triệu đồng/khách hàng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, trong tuần sinh nhật ngân hàng, Sacombank sẽ tổ chức quay số để tìm ra các doanh nghiệp may mắn"
+    },
+    {
+        "text": "tổ chức quay số",
+        "label": "EVENT",
+        "evidence": "Sacombank sẽ tổ chức quay số để tìm ra các doanh nghiệp may mắn trúng xe Mercedes C200 và nhiều phần quà hấp dẫn khác như iPad Pro, máy in đa chức năng, bộ thiết bị họp trực tuyến Logitech."
+    },
+    {
+        "text": "chương trình “Trọn ưu đãi - Nối thành công”",
+        "label": "EVENT",
+        "evidence": "Đây là các giải thưởng nằm trong chương trình “Trọn ưu đãi - Nối thành công”, một trong những chương trình khuyến mại lớn nhằm tri ân các doanh nghiệp đã đồng hành cùng Sacombank trong suốt thời gian qua."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "tri ân các doanh nghiệp đã đồng hành cùng Sacombank trong suốt thời gian qua."
+    },
+    {
+        "text": "websitesacombank.com.vn",
+        "label": "ORG",
+        "evidence": "Hotline 1800 5858 88 hoặc truy cập websitesacombank.com.vn."
+    }
+]

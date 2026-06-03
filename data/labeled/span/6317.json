@@ -1,0 +1,392 @@
+[
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của HĐQT, ngân hàng đã hoàn thành kế hoạch kinh doanh năm 2024 được ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "hoàn thành kế hoạch kinh doanh năm 2024 được ĐHĐCĐ thông qua",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo của HĐQT, ngân hàng đã hoàn thành kế hoạch kinh doanh năm 2024 được ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo báo cáo của HĐQT, ngân hàng đã hoàn thành kế hoạch kinh doanh năm 2024 được ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của HĐQT, ngân hàng đã hoàn thành kế hoạch kinh doanh năm 2024 được ĐHĐCĐ thông qua."
+    },
+    {
+        "text": "lợi nhuận trước thuế đạt 12.720 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, lợi nhuận trước thuế đạt 12.720 tỷ đồng, hoàn thành 120%."
+    },
+    {
+        "text": "12.720 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, lợi nhuận trước thuế đạt 12.720 tỷ đồng, hoàn thành 120%."
+    },
+    {
+        "text": "120%",
+        "label": "RATE",
+        "evidence": "Trong đó, lợi nhuận trước thuế đạt 12.720 tỷ đồng, hoàn thành 120%."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Các chỉ số khác như tổng tài sản, nguồn vốn huy động, dư nợ tín dụng đều hoàn thành trên 100%."
+    },
+    {
+        "text": "2,08%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu ở mức 2,08% và các giới hạn, tỷ lệ bảo đảm an toàn trong hoạt động tuân thủ theo quy định của NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Tỷ lệ nợ xấu ở mức 2,08% và các giới hạn, tỷ lệ bảo đảm an toàn trong hoạt động tuân thủ theo quy định của NHNN."
+    },
+    {
+        "text": "thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, về công tác xử lý nợ xấu, ngân hàng đã thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua, nâng lũy kế lên 103.988 tỷ đồng, trong đó thuộc Đề án 76.695 tỷ đồng."
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, về công tác xử lý nợ xấu, ngân hàng đã thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua, nâng lũy kế lên 103.988 tỷ đồng, trong đó thuộc Đề án 76.695 tỷ đồng."
+    },
+    {
+        "text": "năm qua",
+        "label": "DATE",
+        "evidence": "Đáng chú ý, về công tác xử lý nợ xấu, ngân hàng đã thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua, nâng lũy kế lên 103.988 tỷ đồng, trong đó thuộc Đề án 76.695 tỷ đồng."
+    },
+    {
+        "text": "103.988 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, về công tác xử lý nợ xấu, ngân hàng đã thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua, nâng lũy kế lên 103.988 tỷ đồng, trong đó thuộc Đề án 76.695 tỷ đồng."
+    },
+    {
+        "text": "76.695 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, về công tác xử lý nợ xấu, ngân hàng đã thu hồi, xử lý gần 10.000 tỷ đồng nợ xấu và tài sản tồn đọng trong năm qua, nâng lũy kế lên 103.988 tỷ đồng, trong đó thuộc Đề án 76.695 tỷ đồng."
+    },
+    {
+        "text": "giảm 80,5%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, các khoản tồn đọng thuộc Đề án giảm 80,5% về quy mô và 25,7% về tỷ trọng so với thời điểm bắt đầu triển khai, hiện chỉ còn chiếm 2,4% tổng tài sản."
+    },
+    {
+        "text": "25,7%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, các khoản tồn đọng thuộc Đề án giảm 80,5% về quy mô và 25,7% về tỷ trọng so với thời điểm bắt đầu triển khai, hiện chỉ còn chiếm 2,4% tổng tài sản."
+    },
+    {
+        "text": "2,4%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, các khoản tồn đọng thuộc Đề án giảm 80,5% về quy mô và 25,7% về tỷ trọng so với thời điểm bắt đầu triển khai, hiện chỉ còn chiếm 2,4% tổng tài sản."
+    },
+    {
+        "text": "Khu công nghiệp Phong Phú",
+        "label": "ORG",
+        "evidence": "Trong đó, đối với các khoản nợ thuộc Khu công nghiệp Phong Phú, Sacombank đã bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng, cao hơn so với nghĩa vụ nợ của khách hàng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong đó, đối với các khoản nợ thuộc Khu công nghiệp Phong Phú, Sacombank đã bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng, cao hơn so với nghĩa vụ nợ của khách hàng."
+    },
+    {
+        "text": "bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, đối với các khoản nợ thuộc Khu công nghiệp Phong Phú, Sacombank đã bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng, cao hơn so với nghĩa vụ nợ của khách hàng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong đó, đối với các khoản nợ thuộc Khu công nghiệp Phong Phú, Sacombank đã bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng, cao hơn so với nghĩa vụ nợ của khách hàng."
+    },
+    {
+        "text": "7.934 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, đối với các khoản nợ thuộc Khu công nghiệp Phong Phú, Sacombank đã bán đấu giá thành công khoản nợ sau 18 phiên đấu giá trong năm 2023, với giá bán là 7.934 tỷ đồng, cao hơn so với nghĩa vụ nợ của khách hàng."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đến nay, Sacombank đã thực thu hồi 1.587 tỷ đồng và dự kiến sẽ thu hồi đầy đủ trong năm 2025."
+    },
+    {
+        "text": "thực thu hồi 1.587 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Đến nay, Sacombank đã thực thu hồi 1.587 tỷ đồng và dự kiến sẽ thu hồi đầy đủ trong năm 2025."
+    },
+    {
+        "text": "1.587 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến nay, Sacombank đã thực thu hồi 1.587 tỷ đồng và dự kiến sẽ thu hồi đầy đủ trong năm 2025."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Đến nay, Sacombank đã thực thu hồi 1.587 tỷ đồng và dự kiến sẽ thu hồi đầy đủ trong năm 2025."
+    },
+    {
+        "text": "cổ phiếu STB",
+        "label": "ASSET",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "ông Trầm Bê",
+        "label": "PERSON",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "trình các phương án xử lý",
+        "label": "EVENT",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "đang chờ sự phê duyệt từ NHNN",
+        "label": "EVENT",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đối với các khoản nợ đảm bảo bằng số cổ phiếu STB của ông Trầm Bê và người có liên quan, Sacombank đã trình các phương án xử lý và đang chờ sự phê duyệt từ NHNN."
+    },
+    {
+        "text": "trích lập dự phòng 100% đối với dư nợ gốc của khoản nợ xấu trên",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đã trích lập dự phòng 100% đối với dư nợ gốc của khoản nợ xấu trên, cũng như đã thoái hoàn toàn lãi dự thu từ cuối quý 2/2022."
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "Ngân hàng đã trích lập dự phòng 100% đối với dư nợ gốc của khoản nợ xấu trên, cũng như đã thoái hoàn toàn lãi dự thu từ cuối quý 2/2022."
+    },
+    {
+        "text": "thoái hoàn toàn lãi dự thu",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đã trích lập dự phòng 100% đối với dư nợ gốc của khoản nợ xấu trên, cũng như đã thoái hoàn toàn lãi dự thu từ cuối quý 2/2022."
+    },
+    {
+        "text": "cuối quý 2/2022",
+        "label": "DATE",
+        "evidence": "Ngân hàng đã trích lập dự phòng 100% đối với dư nợ gốc của khoản nợ xấu trên, cũng như đã thoái hoàn toàn lãi dự thu từ cuối quý 2/2022."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Việc xét duyệt để Sacombank xử lý lô cổ phiếu cũng như ghi nhận hoàn thành tái cơ cấu sẽ cần có thời gian."
+    },
+    {
+        "text": "xử lý lô cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Việc xét duyệt để Sacombank xử lý lô cổ phiếu cũng như ghi nhận hoàn thành tái cơ cấu sẽ cần có thời gian."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "Việc xét duyệt để Sacombank xử lý lô cổ phiếu cũng như ghi nhận hoàn thành tái cơ cấu sẽ cần có thời gian."
+    },
+    {
+        "text": "ghi nhận hoàn thành tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "Việc xét duyệt để Sacombank xử lý lô cổ phiếu cũng như ghi nhận hoàn thành tái cơ cấu sẽ cần có thời gian."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, với kết quả kinh doanh hiện tại, Sacombank tự tin có thể hoạt động hiệu quả và gia tăng giá trị cho cổ đông, nhà đầu tư, khách hàng và đối tác."
+    },
+    {
+        "text": "Ban điều hành Sacombank",
+        "label": "ORG",
+        "evidence": "Ban điều hành Sacombank cho biết, ngân hàng đạt được 5 kết quả nổi bật trong công tác điều hành năm qua."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ban điều hành Sacombank cho biết, ngân hàng đạt được 5 kết quả nổi bật trong công tác điều hành năm qua."
+    },
+    {
+        "text": "tái cấu trúc mô hình tổ chức, mạng lưới và quản lý nhân sự",
+        "label": "EVENT",
+        "evidence": "Trong đó, ngân hàng đã tái cấu trúc mô hình tổ chức, mạng lưới và quản lý nhân sự."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank đã triển khai tái cấu trúc mạnh mẽ, tinh gọn bộ máy theo hướng chọn lọc, giảm 6 điểm giao dịch và 426 nhân sự nhằm nâng cao hiệu suất."
+    },
+    {
+        "text": "giảm 6 điểm giao dịch",
+        "label": "EVENT",
+        "evidence": "Sacombank đã triển khai tái cấu trúc mạnh mẽ, tinh gọn bộ máy theo hướng chọn lọc, giảm 6 điểm giao dịch và 426 nhân sự nhằm nâng cao hiệu suất."
+    },
+    {
+        "text": "giảm 426 nhân sự",
+        "label": "EVENT",
+        "evidence": "Sacombank đã triển khai tái cấu trúc mạnh mẽ, tinh gọn bộ máy theo hướng chọn lọc, giảm 6 điểm giao dịch và 426 nhân sự nhằm nâng cao hiệu suất."
+    },
+    {
+        "text": "14.560 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Mục tiêu lợi nhuận 14.560 tỷ đồng, chưa chia cổ tức"
+    },
+    {
+        "text": "Năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024",
+        "label": "EVENT",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "819.800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2025, Sacombank lên kế hoạch tổng tài sản đạt 819.800 tỷ đồng, tăng 10% so với năm 2024."
+    },
+    {
+        "text": "nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "736.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "614.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dự kiến nguồn vốn huy động tăng 9% lên 736.300 tỷ đồng, dư nợ tín dụng tăng 14% lên 614.400 tỷ đồng."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "Tỷ lệ nợ xấu nội bảng kiểm soát dưới 2%."
+    },
+    {
+        "text": "đặt mục tiêu lợi nhuận trước thuế đạt 14.560 tỷ đồng, tăng 15%",
+        "label": "EVENT",
+        "evidence": "Ngân hàng đặt mục tiêu lợi nhuận trước thuế đạt 14.560 tỷ đồng, tăng 15%."
+    },
+    {
+        "text": "14.560 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngân hàng đặt mục tiêu lợi nhuận trước thuế đạt 14.560 tỷ đồng, tăng 15%."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "Ngân hàng đặt mục tiêu lợi nhuận trước thuế đạt 14.560 tỷ đồng, tăng 15%."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Lãnh đạo ngân hàng cho biết, đến thời điểm hiện tại, Sacombank chỉ còn nút thắt cuối cùng là chờ NHNN phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Lãnh đạo ngân hàng cho biết, đến thời điểm hiện tại, Sacombank chỉ còn nút thắt cuối cùng là chờ NHNN phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu."
+    },
+    {
+        "text": "phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu",
+        "label": "EVENT",
+        "evidence": "Lãnh đạo ngân hàng cho biết, đến thời điểm hiện tại, Sacombank chỉ còn nút thắt cuối cùng là chờ NHNN phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu."
+    },
+    {
+        "text": "cổ phiếuSTB",
+        "label": "ASSET",
+        "evidence": "Lãnh đạo ngân hàng cho biết, đến thời điểm hiện tại, Sacombank chỉ còn nút thắt cuối cùng là chờ NHNN phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Lãnh đạo ngân hàng cho biết, đến thời điểm hiện tại, Sacombank chỉ còn nút thắt cuối cùng là chờ NHNN phê duyệt phương án xử lý lô cổ phiếuSTBtheo Đề án tái cơ cấu."
+    },
+    {
+        "text": "Năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, ngân hàng tự tin sẽ hoàn thành kế hoạch kinh doanh đề ra và quyết tâm đẩy mạnh tiến trình làm việc với NHNN để chính thức công bố hoàn tất Đề án tái cơ cấu sau sáp nhập."
+    },
+    {
+        "text": "hoàn thành kế hoạch kinh doanh đề ra",
+        "label": "EVENT",
+        "evidence": "Năm 2025, ngân hàng tự tin sẽ hoàn thành kế hoạch kinh doanh đề ra và quyết tâm đẩy mạnh tiến trình làm việc với NHNN để chính thức công bố hoàn tất Đề án tái cơ cấu sau sáp nhập."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Năm 2025, ngân hàng tự tin sẽ hoàn thành kế hoạch kinh doanh đề ra và quyết tâm đẩy mạnh tiến trình làm việc với NHNN để chính thức công bố hoàn tất Đề án tái cơ cấu sau sáp nhập."
+    },
+    {
+        "text": "đẩy mạnh tiến trình làm việc với NHNN để chính thức công bố hoàn tất Đề án tái cơ cấu sau sáp nhập",
+        "label": "EVENT",
+        "evidence": "Năm 2025, ngân hàng tự tin sẽ hoàn thành kế hoạch kinh doanh đề ra và quyết tâm đẩy mạnh tiến trình làm việc với NHNN để chính thức công bố hoàn tất Đề án tái cơ cấu sau sáp nhập."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Hiện tại, Sacombank có lợi nhuận giữ lại lũy kế là 25.352 tỷ đồng."
+    },
+    {
+        "text": "25.352 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hiện tại, Sacombank có lợi nhuận giữ lại lũy kế là 25.352 tỷ đồng."
+    },
+    {
+        "text": "chưa có kế hoạch chia cổ tức",
+        "label": "EVENT",
+        "evidence": "Ngân hàng chưa có kế hoạch chia cổ tức do vẫn chưa hoàn thành Đề án tái cơ cấu."
+    }
+]

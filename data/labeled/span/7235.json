@@ -1,0 +1,207 @@
+[
+    {
+        "text": "ngày 1/8",
+        "label": "DATE",
+        "evidence": "Cụ thể, thông báo cho biết, từ ngày 1/8, theo yêu cầu của đối tác (về triển khai quy định tại Nghị định 119/2024/NĐ-CP ngày 15/12/2024 của Chính phủ về thanh toán điện tử giao thông đường bộ)"
+    },
+    {
+        "text": "Nghị định 119/2024/NĐ-CP ngày 15/12/2024 của Chính phủ về thanh toán điện tử giao thông đường bộ",
+        "label": "EVENT",
+        "evidence": "Cụ thể, thông báo cho biết, từ ngày 1/8, theo yêu cầu của đối tác (về triển khai quy định tại Nghị định 119/2024/NĐ-CP ngày 15/12/2024 của Chính phủ về thanh toán điện tử giao thông đường bộ)"
+    },
+    {
+        "text": "ngày 15/12/2024",
+        "label": "DATE",
+        "evidence": "Cụ thể, thông báo cho biết, từ ngày 1/8, theo yêu cầu của đối tác (về triển khai quy định tại Nghị định 119/2024/NĐ-CP ngày 15/12/2024 của Chính phủ về thanh toán điện tử giao thông đường bộ)"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ dừng triển khai các tính năng nạp tiền tài khoản giao thông VETC gồm:"
+    },
+    {
+        "text": "dừng triển khai các tính năng nạp tiền tài khoản giao thông VETC",
+        "label": "EVENT",
+        "evidence": "Vietcombank sẽ dừng triển khai các tính năng nạp tiền tài khoản giao thông VETC gồm:"
+    },
+    {
+        "text": "VETC",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ dừng triển khai các tính năng nạp tiền tài khoản giao thông VETC gồm:"
+    },
+    {
+        "text": "Nạp tiền tài khoản giao thông VETC trên VCB Digibank",
+        "label": "EVENT",
+        "evidence": "- Nạp tiền tài khoản giao thông VETC trên VCB Digibank"
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "- Nạp tiền tài khoản giao thông VETC trên VCB Digibank"
+    },
+    {
+        "text": "Đổi quà Nạp tiền giao thông VETC trên VCB Loyalty",
+        "label": "EVENT",
+        "evidence": "- Đổi quà Nạp tiền giao thông VETC trên VCB Loyalty"
+    },
+    {
+        "text": "VCB Loyalty",
+        "label": "ORG",
+        "evidence": "- Đổi quà Nạp tiền giao thông VETC trên VCB Loyalty"
+    },
+    {
+        "text": "Đăng ký nạp tiền tự động trên VCB Digibank",
+        "label": "EVENT",
+        "evidence": "Quý Khách hàng vẫn có thể sử dụng tính năng Đăng ký nạp tiền tự động trên VCB Digibank để trích nợ tự động từ tài khoản thanh toán của khách hàng và nạp tiền vào tài khoản giao thông VETC bằng cách:"
+    },
+    {
+        "text": "VETC",
+        "label": "ORG",
+        "evidence": "và nạp tiền vào tài khoản giao thông VETC bằng cách:"
+    },
+    {
+        "text": "VETC",
+        "label": "ORG",
+        "evidence": "Bước 2: Chọn Loại dịch vụ “Thu phí không dừng” -> Nhà cung cấp “VETC”"
+    },
+    {
+        "text": "Nạp tiền qua kênh chuyển khoản định danh VETC",
+        "label": "EVENT",
+        "evidence": "Nạp tiền qua kênh chuyển khoản định danh VETC"
+    },
+    {
+        "text": "Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng thụ hưởng: Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam (BIDV) Số tài khoản thụ hưởng: V3ETC + Biển số xe viết liền (Ví dụ: V3ETC30H12xxx)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ngân hàng thụ hưởng: Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam (BIDV) Số tài khoản thụ hưởng: V3ETC + Biển số xe viết liền (Ví dụ: V3ETC30H12xxx)"
+    },
+    {
+        "text": "Nạp tiền qua chuyển khoản 24/7",
+        "label": "EVENT",
+        "evidence": "Nạp tiền qua chuyển khoản 24/7"
+    },
+    {
+        "text": "Công ty TNHH Thu phí tự động VETC",
+        "label": "ORG",
+        "evidence": "Tên đơn vị thụ hưởng: Công ty TNHH Thu phí tự động VETC. Nội dung chuyển khoản: KH bắt buộc ghi biển số xe hoặc mã tài khoản giao thông."
+    },
+    {
+        "text": "Nạp tiền qua Ứng dụng VETC",
+        "label": "EVENT",
+        "evidence": "Nạp tiền qua Ứng dụng VETC"
+    },
+    {
+        "text": "Ứng dụng VETC",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua Ứng dụng VETC"
+    },
+    {
+        "text": "thẻ ATM",
+        "label": "ASSET",
+        "evidence": "Bước 2: Nhập số tiền cần nạp và chọn phương thức thanh toán qua ngân hàng/thẻ ATM/Thẻ tín dụng ghi nợ."
+    },
+    {
+        "text": "Thẻ tín dụng ghi nợ",
+        "label": "ASSET",
+        "evidence": "Bước 2: Nhập số tiền cần nạp và chọn phương thức thanh toán qua ngân hàng/thẻ ATM/Thẻ tín dụng ghi nợ."
+    },
+    {
+        "text": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB",
+        "label": "EVENT",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "Nam Á Bank",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "Viettinbank",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "TPB",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "LPB",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "Nạp tiền qua kênh thu hộ: Nam Á Bank, BIDV, Viettinbank, TPB, Sacombank, MB, LPB, MSB"
+    },
+    {
+        "text": "Trích nợ tự động từ tài khoản ngân hàng vào tài khoản giao thông VETC",
+        "label": "EVENT",
+        "evidence": "Trích nợ tự động từ tài khoản ngân hàng vào tài khoản giao thông VETC:"
+    },
+    {
+        "text": "VETC",
+        "label": "ORG",
+        "evidence": "vào tài khoản giao thông VETC:"
+    },
+    {
+        "text": "Đăng kí trích nợ tự động từ tài khoản ngân hàng vào TKGT VETC",
+        "label": "EVENT",
+        "evidence": "Bước 2: Đăng kí trích nợ tự động từ tài khoản ngân hàng vào TKGT VETC (thao tác này chỉ thực hiện lần đầu những lần nạp tiền tiếp theo không phải thao tác lại) Áp dụng với ngân hàng BIDV/Vietcombank/VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Áp dụng với ngân hàng BIDV/Vietcombank/VPBank."
+    },
+    {
+        "text": "Nạp tiền qua các ví điện tử khác",
+        "label": "EVENT",
+        "evidence": "Nạp tiền qua các ví điện tử khác:"
+    },
+    {
+        "text": "Momo",
+        "label": "ORG",
+        "evidence": "KH đăng nhập các ứng dụng Ví điện tử Momo, Vnpay, Zalopay, Viettel Money, VNPT Money chọn mục nạp tiền vào tài khoản giao thông, nhập biển số hoặc số tài khoản giao thông và số tiền và hoàn tất nạp tiền."
+    },
+    {
+        "text": "Vnpay",
+        "label": "ORG",
+        "evidence": "KH đăng nhập các ứng dụng Ví điện tử Momo, Vnpay, Zalopay, Viettel Money, VNPT Money chọn mục nạp tiền vào tài khoản giao thông, nhập biển số hoặc số tài khoản giao thông và số tiền và hoàn tất nạp tiền."
+    },
+    {
+        "text": "Zalopay",
+        "label": "ORG",
+        "evidence": "KH đăng nhập các ứng dụng Ví điện tử Momo, Vnpay, Zalopay, Viettel Money, VNPT Money chọn mục nạp tiền vào tài khoản giao thông, nhập biển số hoặc số tài khoản giao thông và số tiền và hoàn tất nạp tiền."
+    },
+    {
+        "text": "Viettel Money",
+        "label": "ORG",
+        "evidence": "KH đăng nhập các ứng dụng Ví điện tử Momo, Vnpay, Zalopay, Viettel Money, VNPT Money chọn mục nạp tiền vào tài khoản giao thông, nhập biển số hoặc số tài khoản giao thông và số tiền và hoàn tất nạp tiền."
+    },
+    {
+        "text": "VNPT Money",
+        "label": "ORG",
+        "evidence": "KH đăng nhập các ứng dụng Ví điện tử Momo, Vnpay, Zalopay, Viettel Money, VNPT Money chọn mục nạp tiền vào tài khoản giao thông, nhập biển số hoặc số tài khoản giao thông và số tiền và hoàn tất nạp tiền."
+    },
+    {
+        "text": "VETC",
+        "label": "ORG",
+        "evidence": "tổng đài hỗ trợ VETC 24/7 qua:"
+    }
+]

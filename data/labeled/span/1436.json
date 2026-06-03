@@ -1,0 +1,227 @@
+[
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, lãi suất cho vay bình quân của VietinBank hiện là 6,3%/năm."
+    },
+    {
+        "text": "6,3%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất cho vay bình quân của VietinBank hiện là 6,3%/năm."
+    },
+    {
+        "text": "Vietinbank",
+        "label": "ORG",
+        "evidence": "Vietinbank lưu ý đây là lãi suất cho vay bình quân, không phải lãi suất áp dụng với từng khoản vay."
+    },
+    {
+        "text": "2,45%/năm",
+        "label": "RATE",
+        "evidence": "Chênh lệch giữa lãi suất cho vay và lãi suất huy động bình quân là 2,45%/năm."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBank cho biết mức chênh lệch lãi suất này dùng để bù đắp cho các loại chi phí tuân thủ quy định của pháp luật như chi phí dự phòng rủi ro, chi phí vốn yêu cầu cho rủi ro tín dụng, chi phí hoạt động,…"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nguồn: VietinBank"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Được biết, VietinBank là một trong 4 ngân hàng có dư nợ cho vay khách hàng lớn nhất hệ thống."
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "hơn 1,473 triệu tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "1,778 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "1,552 triệu tỷ",
+        "label": "MONEY",
+        "evidence": "Tính đến cuối năm 2023, dư nợ cho vay khách hàng của ngân hàng này đạt hơn 1,473 triệu tỷ đồng, đứng thứ ba toàn hệ thống sau BIDV (1,778 triệu tỷ) và Agribank (1,552 triệu tỷ)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Đây là lần đầu tiên VietinBank công bố số liệu về lãi suất cho vay bình quân theo chỉ đạo của Thủ tướng và NHNN."
+    },
+    {
+        "text": "VietinBank công bố số liệu về lãi suất cho vay bình quân",
+        "label": "EVENT",
+        "evidence": "Đây là lần đầu tiên VietinBank công bố số liệu về lãi suất cho vay bình quân theo chỉ đạo của Thủ tướng và NHNN."
+    },
+    {
+        "text": "Thủ tướng",
+        "label": "ORG",
+        "evidence": "Đây là lần đầu tiên VietinBank công bố số liệu về lãi suất cho vay bình quân theo chỉ đạo của Thủ tướng và NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đây là lần đầu tiên VietinBank công bố số liệu về lãi suất cho vay bình quân theo chỉ đạo của Thủ tướng và NHNN."
+    },
+    {
+        "text": "Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024",
+        "label": "EVENT",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "5/3/2024",
+        "label": "DATE",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "Phạm Minh Chính",
+        "label": "PERSON",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Trước đó, tại Công điện số 18/CĐ-TTg ngày 5/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã yêu cầu Ngân hàng Nhà nước chỉ đạo các tổ chức tín dụng công bố công khai lãi suất cho vay bình quân để người dân, doanh nghiệp thuận lợi trong việc tiếp cận tín dụng, lựa chọn ngân hàng để vay vốn."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước cũng đã ban hành công văn số 1628/NHNN-CSTT về việc công bố lãi suất cho vay."
+    },
+    {
+        "text": "Ngân hàng Nhà nước ban hành công văn số 1628/NHNN-CSTT về việc công bố lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Nhà nước cũng đã ban hành công văn số 1628/NHNN-CSTT về việc công bố lãi suất cho vay."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tại công văn, Ngân hàng Nhà nước cho biết, các tổ chức tín dụng (TCTD) đã cơ bản công bố thông tin về lãi suất cho vay theo chỉ đạo của Thủ tướng Chính phủ và Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Tại công văn, Ngân hàng Nhà nước cho biết, các tổ chức tín dụng (TCTD) đã cơ bản công bố thông tin về lãi suất cho vay theo chỉ đạo của Thủ tướng Chính phủ và Ngân hàng Nhà nước."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Tại công văn, Ngân hàng Nhà nước cho biết, các tổ chức tín dụng (TCTD) đã cơ bản công bố thông tin về lãi suất cho vay theo chỉ đạo của Thủ tướng Chính phủ và Ngân hàng Nhà nước."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024",
+        "label": "EVENT",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "05/3/2024",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô",
+        "label": "EVENT",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "18/12/2023",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Công văn số 9759/NHNN-TD ngày 21/12/2023",
+        "label": "EVENT",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "21/12/2023",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Chỉ thị số 01/CT-NHNN ngày 15/01/2024",
+        "label": "EVENT",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "15/01/2024",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Công văn số 1117/NHNN-CSTT ngày 07/02/2024",
+        "label": "EVENT",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "07/02/2024",
+        "label": "DATE",
+        "evidence": "Theo đó, NHNN các TCTD tiếp tục thực hiện việc công bố lãi suất cho vay bình quân, chênh lệch lãi suất tiền gửi và cho vay bình quân, lãi suất cho vay các chương trình tín dụng, gói tín dụng và các loại lãi suất cho vay khác (nếu có) theo chỉ đạo của Thủ tướng Chính phủ tại Công điện số 18/CĐ-TTg ngày 05/3/2024 về điều hành tăng trưởng tín dụng năm 2024, Thông báo số 527/TB-VPCP ngày 18/12/2023 về kết luận của Thủ tướng Chính phủ tại Hội nghị giải pháp tháo gỡ khó khăn về tăng trưởng tín dụng cho sản xuất kinh doanh, thúc đẩy tăng trưởng và ổn định kinh tế vĩ mô, và của NHNN tại Công văn số 9759/NHNN-TD ngày 21/12/2023, Chỉ thị số 01/CT-NHNN ngày 15/01/2024, Công văn số 1117/NHNN-CSTT ngày 07/02/2024."
+    },
+    {
+        "text": "Thủ tướng Chính phủ",
+        "label": "ORG",
+        "evidence": "TCTD (Hội đồng quản trị, ban điều hành, ban kiểm soát, bộ phận tuân thủ, bộ phận kiểm toán nội bộ và các bộ phận chức năng có liên quan của TCTD) có trách nhiệm thường xuyên giám sát để đảm bảo thực hiện đúng các chỉ đạo của Thủ tướng Chính phủ và NHNN."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "TCTD (Hội đồng quản trị, ban điều hành, ban kiểm soát, bộ phận tuân thủ, bộ phận kiểm toán nội bộ và các bộ phận chức năng có liên quan của TCTD) có trách nhiệm thường xuyên giám sát để đảm bảo thực hiện đúng các chỉ đạo của Thủ tướng Chính phủ và NHNN."
+    }
+]

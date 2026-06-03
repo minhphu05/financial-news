@@ -1,0 +1,642 @@
+[
+    {
+        "text": "Trần Hương Mỹ",
+        "label": "PERSON",
+        "evidence": "bà Trần Hương Mỹ, Giám đốc Nghiên cứu, ngành Hàng tiêu dùng, Chứng khoán HSC"
+    },
+    {
+        "text": "Chứng khoán HSC",
+        "label": "ORG",
+        "evidence": "ngành Hàng tiêu dùng, Chứng khoán HSC cho biết"
+    },
+    {
+        "text": "tháng 5/2023",
+        "label": "DATE",
+        "evidence": "trong tháng 5/2023, Quốc hội đã có nghị quyết giảm thuế VAT 2% đến cuối năm nay"
+    },
+    {
+        "text": "Quốc hội",
+        "label": "ORG",
+        "evidence": "Quốc hội đã có nghị quyết giảm thuế VAT 2% đến cuối năm nay"
+    },
+    {
+        "text": "nghị quyết giảm thuế VAT 2%",
+        "label": "EVENT",
+        "evidence": "Quốc hội đã có nghị quyết giảm thuế VAT 2% đến cuối năm nay"
+    },
+    {
+        "text": "cuối năm nay",
+        "label": "DATE",
+        "evidence": "giảm thuế VAT 2% đến cuối năm nay"
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "dự kiến đóng góp 7% vào tăng trưởng GDP năm nay và năm sau"
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "dự kiến đóng góp 7% vào tăng trưởng GDP năm nay và năm sau"
+    },
+    {
+        "text": "năm sau",
+        "label": "DATE",
+        "evidence": "dự kiến đóng góp 7% vào tăng trưởng GDP năm nay và năm sau"
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "HSC dự báo khách du lịch quốc tế sẽ đạt 11,5 triệu người trong năm nay"
+    },
+    {
+        "text": "11,5 triệu người",
+        "label": "VOLUME",
+        "evidence": "sẽ đạt 11,5 triệu người trong năm nay"
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "11,5 triệu người trong năm nay"
+    },
+    {
+        "text": "220%",
+        "label": "RATE",
+        "evidence": "tăng 220% so với năm ngoái"
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "tăng 220% so với năm ngoái"
+    },
+    {
+        "text": "15 triệu người",
+        "label": "VOLUME",
+        "evidence": "và 15 triệu người vào năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "15 triệu người vào năm 2024"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "tăng 30% so với năm nay"
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "tăng 30% so với năm nay"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "tiêu dùng dịch vụ sẽ tăng khoảng 20% mỗi năm trong năm 2023 và 2024"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "mỗi năm trong năm 2023 và 2024"
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "năm 2023 và 2024"
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "HSC cho rằng, tiêu dùng lương thực thực phẩm vẫn có khả năng giữ mức tăng trưởng 10%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "khả năng giữ mức tăng trưởng 10%"
+    },
+    {
+        "text": "9 – 10%",
+        "label": "RATE",
+        "evidence": "các năm tới tăng trưởng sẽ ở mức 9 – 10%"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "ngành Hàng tiêu dùng nhanh tăng trưởng 10% trong 6 tháng đầu năm 2023"
+    },
+    {
+        "text": "6 tháng đầu năm 2023",
+        "label": "DATE",
+        "evidence": "10% trong 6 tháng đầu năm 2023"
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "HSC kỳ vọng mức tăng trưởng chung là 8% cho cả năm"
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "mức tăng trưởng chung là 8% cho cả năm"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "bật lên 10% vào năm sau"
+    },
+    {
+        "text": "năm sau",
+        "label": "DATE",
+        "evidence": "bật lên 10% vào năm sau"
+    },
+    {
+        "text": "giá bột sữa nguyên liệu giảm khoảng 25%",
+        "label": "EVENT",
+        "evidence": "giá bột sữa nguyên liệu giảm khoảng 25% so với năm ngoái"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "giảm khoảng 25% so với năm ngoái"
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "giảm khoảng 25% so với năm ngoái"
+    },
+    {
+        "text": "4 năm trở lại đây",
+        "label": "DATE",
+        "evidence": "mức thấp nhất 4 năm trở lại đây"
+    },
+    {
+        "text": "24 tháng qua",
+        "label": "DATE",
+        "evidence": "tốc độ lạm phát trong 24 tháng qua"
+    },
+    {
+        "text": "Trung Quốc",
+        "label": "ORG",
+        "evidence": "Trung Quốc – nhà nhập khẩu sữa nguyên liệu chiếm 40% sản lượng nhập khẩu từ New Zealand"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "chiếm 40% sản lượng nhập khẩu từ New Zealand"
+    },
+    {
+        "text": "New Zealand",
+        "label": "ORG",
+        "evidence": "nhập khẩu từ New Zealand (nhà xuất khẩu lớn nhất, chiếm 80% sữa bột nguyên kem toàn cầu)"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "chiếm 80% sữa bột nguyên kem toàn cầu"
+    },
+    {
+        "text": "Trần Hương Mỹ",
+        "label": "PERSON",
+        "evidence": "bà Trần Hương Mỹ nhận thấy tiêu thụ sữa bình quân đầu người Việt Nam chỉ là 21kg/người"
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "người Việt Nam chỉ là 21kg/người"
+    },
+    {
+        "text": "21kg/người",
+        "label": "VOLUME",
+        "evidence": "chỉ là 21kg/người"
+    },
+    {
+        "text": "Trung Quốc",
+        "label": "ORG",
+        "evidence": "thấp hơn Trung Quốc, Nhật Bản, Hàn Quốc..."
+    },
+    {
+        "text": "Nhật Bản",
+        "label": "ORG",
+        "evidence": "Trung Quốc, Nhật Bản, Hàn Quốc..."
+    },
+    {
+        "text": "Hàn Quốc",
+        "label": "ORG",
+        "evidence": "Nhật Bản, Hàn Quốc..."
+    },
+    {
+        "text": "5 – 10 năm tới",
+        "label": "DATE",
+        "evidence": "trong 5 – 10 năm tới, kỳ vọng Việt Nam có thể bắt kịp các nước từ việc tăng trưởng thu nhập bình quân đầu người sẽ là động lực tăng trưởng ngành sữa"
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "kỳ vọng Việt Nam có thể bắt kịp các nước"
+    },
+    {
+        "text": "Mỹ",
+        "label": "PERSON",
+        "evidence": "bà Mỹ đưa ra ba xu hướng nổi bật hiện nay"
+    },
+    {
+        "text": "năm 2015",
+        "label": "DATE",
+        "evidence": "so với năm 2015, tỷ lệ mua sắm trực tuyến hàng tiêu dùng nhanh năm 2021 tăng trưởng 20 lần"
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "hàng tiêu dùng nhanh năm 2021 tăng trưởng 20 lần"
+    },
+    {
+        "text": "20 lần",
+        "label": "RATE",
+        "evidence": "tăng trưởng 20 lần"
+    },
+    {
+        "text": "năm 2020",
+        "label": "DATE",
+        "evidence": "năm 2020, trung bình cứ 1 ngày đã có 27 sản phẩm mới được tung ra thị trường"
+    },
+    {
+        "text": "1 ngày",
+        "label": "DATE",
+        "evidence": "trung bình cứ 1 ngày đã có 27 sản phẩm mới được tung ra thị trường"
+    },
+    {
+        "text": "27 sản phẩm mới",
+        "label": "VOLUME",
+        "evidence": "đã có 27 sản phẩm mới được tung ra thị trường"
+    },
+    {
+        "text": "Đồng Quang Trung",
+        "label": "PERSON",
+        "evidence": "Ông Đồng Quang Trung, Trưởng ban Quan hệ Nhà đầu tư,CTCP Sữa Việt Nam– Vinamilk (VNM - sàn HOSE)"
+    },
+    {
+        "text": "CTCP Sữa Việt Nam",
+        "label": "ORG",
+        "evidence": "Trưởng ban Quan hệ Nhà đầu tư,CTCP Sữa Việt Nam– Vinamilk (VNM - sàn HOSE)"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "CTCP Sữa Việt Nam– Vinamilk (VNM - sàn HOSE)"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Vinamilk (VNM - sàn HOSE)"
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "VNM - sàn HOSE"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Vinamilk đã thực hiện việc thay đổi bộ nhận diện thương hiệu mới"
+    },
+    {
+        "text": "thay đổi bộ nhận diện thương hiệu mới",
+        "label": "EVENT",
+        "evidence": "Vinamilk đã thực hiện việc thay đổi bộ nhận diện thương hiệu mới"
+    },
+    {
+        "text": "Hương Mỹ",
+        "label": "PERSON",
+        "evidence": "Bà Hương Mỹ cho rằng, việc thay đổi logo như doanh nghiệp khoác lên mình chiếc áo mới phù hợp, ấn tượng hơn"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Lần đổi áo này của Vinamilk đã đi theo xu hướng hiện đại hơn"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "tăng trưởng là bài toán khó với Vinamilk do giá nguyên liệu tăng"
+    },
+    {
+        "text": "giá trị thương hiệu Vinamilk tăng lên 3 tỷ USD",
+        "label": "EVENT",
+        "evidence": "giá trị thương hiệu Vinamilk tăng lên 3 tỷ USD so với con số 2,8 tỷ USD năm trước"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "giá trị thương hiệu Vinamilk tăng lên 3 tỷ USD"
+    },
+    {
+        "text": "3 tỷ USD",
+        "label": "MONEY",
+        "evidence": "tăng lên 3 tỷ USD so với con số 2,8 tỷ USD năm trước"
+    },
+    {
+        "text": "2,8 tỷ USD",
+        "label": "MONEY",
+        "evidence": "so với con số 2,8 tỷ USD năm trước"
+    },
+    {
+        "text": "năm trước",
+        "label": "DATE",
+        "evidence": "con số 2,8 tỷ USD năm trước"
+    },
+    {
+        "text": "số 1",
+        "label": "RATE",
+        "evidence": "giữ vị trí số 1 trong số các thương hiệu thực phẩm Việt Nam"
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "các thương hiệu thực phẩm Việt Nam"
+    },
+    {
+        "text": "thứ 6",
+        "label": "RATE",
+        "evidence": "cũng là thương hiệu sữa đứng thứ 6 toàn cầu"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Bước đi quan trọng của Vinamilk diễn ra trong thời điểm thiên thời, địa lợi"
+    },
+    {
+        "text": "giá nguyên liệu sữa giảm giá",
+        "label": "EVENT",
+        "evidence": "thị trường nguyên liệu sữa giảm giá"
+    },
+    {
+        "text": "Mỹ",
+        "label": "PERSON",
+        "evidence": "bà Mỹ khẳng định"
+    },
+    {
+        "text": "Đồng Quang Trung",
+        "label": "PERSON",
+        "evidence": "ông Đồng Quang Trung cho biết đây là thế mạnh của Vinamilk"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "thế mạnh của Vinamilk"
+    },
+    {
+        "text": "Ban lãnh đạo Vinamilk",
+        "label": "ORG",
+        "evidence": "Ban lãnh đạo Vinamilk có rất nhiều kinh nghiệm"
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "HĐQT có đại diện cổ đông cả trong và ngoài nước"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "trong tương lai của VNM"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Vinamilk đang đẩy mạnh cải tiến thức ăn chăn nuôi"
+    },
+    {
+        "text": "Net Zero",
+        "label": "EVENT",
+        "evidence": "Vinamilk được biết là doanh nghiệp tích cực và tiên phong về Net Zero"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "còn chữ “S” (xã hội), VNM đã tham gia nhiều chương trình"
+    },
+    {
+        "text": "quỹ sữa Vươn cao Việt Nam",
+        "label": "EVENT",
+        "evidence": "chương trình quỹ sữa Vươn cao Việt Nam hay đồng hành cùng sữa học đường"
+    },
+    {
+        "text": "sữa học đường",
+        "label": "EVENT",
+        "evidence": "đồng hành cùng sữa học đường"
+    },
+    {
+        "text": "15-16 năm",
+        "label": "DATE",
+        "evidence": "đều được thực hiện trong suốt 15-16 năm"
+    },
+    {
+        "text": "Năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2023, đại diện VNM cho biết"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Năm 2023, đại diện VNM cho biết"
+    },
+    {
+        "text": "doanh thu hợp nhất đạt 63.400 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "mục tiêu doanh thu hợp nhất đạt 63.400 tỷ đồng"
+    },
+    {
+        "text": "63.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 63.400 tỷ đồng, tăng 5,5% so với cùng kỳ năm ngoái"
+    },
+    {
+        "text": "5,5%",
+        "label": "RATE",
+        "evidence": "tăng 5,5% so với cùng kỳ năm ngoái"
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "cùng kỳ năm ngoái"
+    },
+    {
+        "text": "lợi nhuận trước thuế hợp nhất đạt 10.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Mục tiêu lợi nhuận trước thuế hợp nhất đạt 10.500 tỷ đồng"
+    },
+    {
+        "text": "10.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 10.500 tỷ đồng, bằng với kết quả thực hiện năm 2022"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "kết quả thực hiện năm 2022"
+    },
+    {
+        "text": "quý II/2023",
+        "label": "DATE",
+        "evidence": "Trong quý II/2023, VNM ghi nhận tổng doanh thu đạt 15.213 tỷ đồng"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "quý II/2023, VNM ghi nhận tổng doanh thu đạt 15.213 tỷ đồng"
+    },
+    {
+        "text": "tổng doanh thu đạt 15.213 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VNM ghi nhận tổng doanh thu đạt 15.213 tỷ đồng"
+    },
+    {
+        "text": "15.213 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 15.213 tỷ đồng, tăng nhẹ so với cùng kỳ năm trước và tăng 9% so với quý trước"
+    },
+    {
+        "text": "9%",
+        "label": "RATE",
+        "evidence": "tăng 9% so với quý trước"
+    },
+    {
+        "text": "quý trước",
+        "label": "DATE",
+        "evidence": "tăng 9% so với quý trước"
+    },
+    {
+        "text": "Lợi nhuận ròng doanh nghiệp đạt 2.229 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận ròng doanh nghiệp đạt 2.229 tỷ đồng"
+    },
+    {
+        "text": "2.229 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 2.229 tỷ đồng, tăng 6% so với cùng kỳ và tăng 16,9% so với quý I/2023"
+    },
+    {
+        "text": "6%",
+        "label": "RATE",
+        "evidence": "tăng 6% so với cùng kỳ"
+    },
+    {
+        "text": "16,9%",
+        "label": "RATE",
+        "evidence": "tăng 16,9% so với quý I/2023"
+    },
+    {
+        "text": "quý I/2023",
+        "label": "DATE",
+        "evidence": "16,9% so với quý I/2023"
+    },
+    {
+        "text": "nửa đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Tính chung nửa đầu năm 2023, Vinamilk đạt 29.167 tỷ đồng doanh thu và 4.135 tỷ đồng lợi nhuận ròng"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "nửa đầu năm 2023, Vinamilk đạt 29.167 tỷ đồng doanh thu"
+    },
+    {
+        "text": "29.167 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 29.167 tỷ đồng doanh thu"
+    },
+    {
+        "text": "4.135 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 4.135 tỷ đồng lợi nhuận ròng"
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "hoàn thành 46% và 43% kế hoạch năm"
+    },
+    {
+        "text": "43%",
+        "label": "RATE",
+        "evidence": "và 43% kế hoạch năm"
+    },
+    {
+        "text": "Trung",
+        "label": "PERSON",
+        "evidence": "Tại hội thảo, ông Trung chia sẻ Vinamilk đang duy trì chính sách hàng tồn kho 3 tháng"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "ông Trung chia sẻ Vinamilk đang duy trì chính sách hàng tồn kho 3 tháng"
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "chính sách hàng tồn kho 3 tháng để đảm bảo nguyên liệu phục vụ sản xuất trong bất kỳ hoàn cảnh nào"
+    },
+    {
+        "text": "giá sữa bột nguyên liệu đang ở mức thấp",
+        "label": "PRICE",
+        "evidence": "Hiện tại, giá sữa bột nguyên liệu đang ở mức thấp"
+    },
+    {
+        "text": "Trung",
+        "label": "PERSON",
+        "evidence": "ông Trung cho rằng xu hướng này có thể diễn ra trong thời gian tương đối bởi 2 yếu tố quyết định"
+    },
+    {
+        "text": "New Zealand",
+        "label": "ORG",
+        "evidence": "nguồn cung nhập khẩu New Zealand ổn định"
+    },
+    {
+        "text": "Trung Quốc",
+        "label": "ORG",
+        "evidence": "trong khi nhu cầu tại Trung Quốc giảm mạnh"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Vinamilk cũng nhập khẩu sữa nên điều này có lợi"
+    },
+    {
+        "text": "giá sữa bột",
+        "label": "PRICE",
+        "evidence": "Công ty chưa thấy sự đảo chiều về giá sữa bột"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Bên cạnh nguyên liệu nhập khẩu, Vinamilk cũng sẽ cố gắng tự chủ những nguyên liệu có thể tự cung cấp để tránh bị ảnh hưởng bởi giá như sữa tươi"
+    },
+    {
+        "text": "cổ phiếu VNM",
+        "label": "ASSET",
+        "evidence": "Đánh giá về cổ phiếu VNM, bà Vũ Thị Thu Thủy"
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VNM, bà Vũ Thị Thu Thủy"
+    },
+    {
+        "text": "Vũ Thị Thu Thủy",
+        "label": "PERSON",
+        "evidence": "bà Vũ Thị Thu Thủy, Giám đốc Thông tin và Nhận định Thị trường, Khối KHCN HSC"
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "Khối KHCN HSC thông tin"
+    },
+    {
+        "text": "Việt Nam",
+        "label": "ORG",
+        "evidence": "nhà đầu tư nước ngoài khi vào Việt Nam đều mua cổ phiếu VNM"
+    },
+    {
+        "text": "cổ phiếu VNM",
+        "label": "ASSET",
+        "evidence": "đều mua cổ phiếu VNM vì họ không chỉ mua cổ phiếu mà còn tiếp cận cả ngành hàng tiêu dùng có triển vọng tươi sáng"
+    }
+]

@@ -1,0 +1,412 @@
+[
+    {
+        "text": "Ngân hàng MB",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm dành cho khách hàng cá nhân tại Ngân hàng MB tháng 6/2024"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với tiền gửi cá nhân thông thường, MB chia biểu lãi suất theo 4 mức tiền gửi là: Dưới 500 triệu đồng, từ 500 triệu đến dưới 1 tỷ đồng, từ 1 tỷ đồng dến dưới 3 tỷ đồng và từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "tháng 6/2024",
+        "label": "DATE",
+        "evidence": "Lãi suất tiết kiệm dành cho khách hàng cá nhân tại Ngân hàng MB tháng 6/2024"
+    },
+    {
+        "text": "Dưới 500 triệu đồng",
+        "label": "MONEY",
+        "evidence": "MB chia biểu lãi suất theo 4 mức tiền gửi là: Dưới 500 triệu đồng, từ 500 triệu đến dưới 1 tỷ đồng, từ 1 tỷ đồng dến dưới 3 tỷ đồng và từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "từ 500 triệu đến dưới 1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MB chia biểu lãi suất theo 4 mức tiền gửi là: Dưới 500 triệu đồng, từ 500 triệu đến dưới 1 tỷ đồng, từ 1 tỷ đồng dến dưới 3 tỷ đồng và từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "từ 1 tỷ đồng dến dưới 3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "MB chia biểu lãi suất theo 4 mức tiền gửi là: Dưới 500 triệu đồng, từ 500 triệu đến dưới 1 tỷ đồng, từ 1 tỷ đồng dến dưới 3 tỷ đồng và từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "từ 3 tỷ đồng trở lên",
+        "label": "MONEY",
+        "evidence": "MB chia biểu lãi suất theo 4 mức tiền gửi là: Dưới 500 triệu đồng, từ 500 triệu đến dưới 1 tỷ đồng, từ 1 tỷ đồng dến dưới 3 tỷ đồng và từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "dưới 500 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,3%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "cuối tháng 5",
+        "label": "DATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,0%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "2,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,1%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,6%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,9%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,8%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "3,9%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "4,7%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, với số tiền gửi dưới 500 triệu đồng, lãi suất huy động áp dụng cho kỳ hạn 1 tháng tăng từ 2,3%/năm hồi cuối tháng 5 lên 2,7%/năm, kỳ hạn 2 tháng tăng từ 2,5%/năm lên 2,8%/năm, kỳ hạn 3 - 4 tháng tăng từ 2,7%/năm lên cùng mức 3,0%/năm, kỳ hạn 5 tháng tăng từ 2,8%/năm lên 3,1%/năm, kỳ hạn 6 – 8 tháng tăng từ 3,6%/năm lên 3,8%/năm, kỳ hạn 9 – 10 tháng tăng từ 3,7%/năm lên 3,9%/năm, kỳ hạn 11 tháng tăng từ 3,8%/năm lên 3,9%/năm, kỳ hạn 12 – 18 tháng tăng từ 4,6%/năm lên 4,7%/năm."
+    },
+    {
+        "text": "5,6%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi đó, các kỳ hạn kỳ hạn 24 - 60 tháng tiếp tục được áp dụng mức lãi suất 5,6%/năm."
+    },
+    {
+        "text": "từ 500 triệu đến dưới 1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với số tiền gửi từ 500 triệu đến dưới 1 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,05 – 0,1 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với số tiền gửi từ 500 triệu đến dưới 1 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,05 – 0,1 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "0,05 – 0,1 điểm %",
+        "label": "RATE",
+        "evidence": "Với số tiền gửi từ 500 triệu đến dưới 1 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,05 – 0,1 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "dưới 500 triệu",
+        "label": "MONEY",
+        "evidence": "Với số tiền gửi từ 500 triệu đến dưới 1 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,05 – 0,1 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "từ 1 tỷ đồng dến dưới 3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Với số tiền gửi từ 1 tỷ đồng dến dưới 3 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,1 – 0,15 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với số tiền gửi từ 1 tỷ đồng dến dưới 3 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,1 – 0,15 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "0,1 – 0,15 điểm %",
+        "label": "RATE",
+        "evidence": "Với số tiền gửi từ 1 tỷ đồng dến dưới 3 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,1 – 0,15 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "dưới 500 triệu",
+        "label": "MONEY",
+        "evidence": "Với số tiền gửi từ 1 tỷ đồng dến dưới 3 tỷ đồng, MB áp dụng mức lãi suất cao hơn 0,1 – 0,15 điểm % so với mức gửi dưới 500 triệu ở các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "từ 3 tỷ đồng trở lên",
+        "label": "MONEY",
+        "evidence": "Với số tiền từ 3 tỷ đồng trở lên, MB áp dụng mức lãi suất cao hơn 0,1 – 0,2 điểm % so với mức gửi dưới 500 triệu tại các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Với số tiền từ 3 tỷ đồng trở lên, MB áp dụng mức lãi suất cao hơn 0,1 – 0,2 điểm % so với mức gửi dưới 500 triệu tại các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "0,1 – 0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Với số tiền từ 3 tỷ đồng trở lên, MB áp dụng mức lãi suất cao hơn 0,1 – 0,2 điểm % so với mức gửi dưới 500 triệu tại các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "dưới 500 triệu",
+        "label": "MONEY",
+        "evidence": "Với số tiền từ 3 tỷ đồng trở lên, MB áp dụng mức lãi suất cao hơn 0,1 – 0,2 điểm % so với mức gửi dưới 500 triệu tại các kỳ hạn 1 – 12 tháng và áp dụng mức lãi suất tương đương tại các kỳ hạn trên 12 tháng."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiền gửi dành cho khách hàng cá nhân tại MB tháng 6/2024"
+    },
+    {
+        "text": "tháng 6/2024",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiền gửi dành cho khách hàng cá nhân tại MB tháng 6/2024"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Nguồn: MB"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Ngoài ra, khách hàng cá nhân gửi tiền tại các chi nhánh thuộc Miền Trung và Miền Nam sẽ được MB áp dụng mức lãi suất cao hơn khách hàng khu vực khác khoảng 0,1%/năm (trừ các kỳ hạn ngắn dưới 1 tháng), khung lãi suất dao động từ 0,5 – 5,7%/năm đối với hình thức trả lãi cuối kỳ."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Ngoài ra, khách hàng cá nhân gửi tiền tại các chi nhánh thuộc Miền Trung và Miền Nam sẽ được MB áp dụng mức lãi suất cao hơn khách hàng khu vực khác khoảng 0,1%/năm (trừ các kỳ hạn ngắn dưới 1 tháng), khung lãi suất dao động từ 0,5 – 5,7%/năm đối với hình thức trả lãi cuối kỳ."
+    },
+    {
+        "text": "0,5 – 5,7%/năm",
+        "label": "RATE",
+        "evidence": "Ngoài ra, khách hàng cá nhân gửi tiền tại các chi nhánh thuộc Miền Trung và Miền Nam sẽ được MB áp dụng mức lãi suất cao hơn khách hàng khu vực khác khoảng 0,1%/năm (trừ các kỳ hạn ngắn dưới 1 tháng), khung lãi suất dao động từ 0,5 – 5,7%/năm đối với hình thức trả lãi cuối kỳ."
+    },
+    {
+        "text": "5,7%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, mức cao nhất là 5,7%/năm dành cho tiền gửi kỳ hạn 24 – 60 tháng."
+    },
+    {
+        "text": "Ngân hàng MB",
+        "label": "ORG",
+        "evidence": "Lãi suất tiết kiệm dành cho khách hàng doanh nghiệp tại Ngân hàng MB tháng 6/2024"
+    },
+    {
+        "text": "tháng 6/2024",
+        "label": "DATE",
+        "evidence": "Lãi suất tiết kiệm dành cho khách hàng doanh nghiệp tại Ngân hàng MB tháng 6/2024"
+    },
+    {
+        "text": "cuối tháng 6/2024",
+        "label": "DATE",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5",
+        "label": "EVENT",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "Ngân hàng MB",
+        "label": "ORG",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "0,5 – 5,4%/năm",
+        "label": "RATE",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "0,3 - 0,6%/năm",
+        "label": "RATE",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "cuối tháng 5",
+        "label": "DATE",
+        "evidence": "Trong cuối tháng 6/2024, lãi suất huy động Ngân hàng MB áp dụng cho khách hàng doanh nghiệp thông thường dao động trong khoảng 0,5 – 5,4%/năm đối với hình thức trả lãi cuối kỳ, tăng 0,3 - 0,6%/năm tại nhiều kỳ hạn so với cuối tháng 5."
+    },
+    {
+        "text": "lãi suất tiền gửi dành cho khách hàng tổ chức gửi tiền tại các kỳ hạn ngắn 1 tuần, 2 tuần, 3 tuần giữ nguyên ở mức 0,5%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, lãi suất tiền gửi dành cho khách hàng tổ chức gửi tiền tại các kỳ hạn ngắn 1 tuần, 2 tuần, 3 tuần giữ nguyên ở mức 0,5%/năm;"
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, lãi suất tiền gửi dành cho khách hàng tổ chức gửi tiền tại các kỳ hạn ngắn 1 tuần, 2 tuần, 3 tuần giữ nguyên ở mức 0,5%/năm;"
+    },
+    {
+        "text": "2,6%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "2,7%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "2,9%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "3,0%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "3,7%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "3,8%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "4,6%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "5,3%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất tại kỳ hạn 1 tháng là 2,6%/năm; 2 tháng là 2,7%/năm; 3 tháng là 2,9%/năm; 4 tháng là 2,9%/năm; 5 tháng là 3,0%/năm; kỳ hạn 6 – 10 tháng là 3,7%/năm; kỳ hạn 11 tháng là 3,8%/năm; kỳ hạn 12 - 13 tháng là 4,5%/năm; kỳ hạn 18 tháng là 4,6%/năm; kỳ hạn 24 tháng là 5,3%/năm;"
+    },
+    {
+        "text": "5,4%/năm",
+        "label": "RATE",
+        "evidence": "Các kỳ hạn dài từ 36 - 60 tháng có mức lãi suất cao nhất là 5,4%/năm, không thay đổi so với tháng 5."
+    },
+    {
+        "text": "tháng 5",
+        "label": "DATE",
+        "evidence": "Các kỳ hạn dài từ 36 - 60 tháng có mức lãi suất cao nhất là 5,4%/năm, không thay đổi so với tháng 5."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "Các khoản tiền gửi không kỳ hạn của khách hàng tổ chức ấn định mức thấp nhất là 0,1%/năm."
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Biểu lãi suất tiền gửi tối đa của khách hàng tổ chức tại MB tháng 6/2024"
+    },
+    {
+        "text": "tháng 6/2024",
+        "label": "DATE",
+        "evidence": "Biểu lãi suất tiền gửi tối đa của khách hàng tổ chức tại MB tháng 6/2024"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "Nguồn: MB"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "MB cũng triển khai khung lãi suất riêng dành cho khách hàng tổ chức tại khu vực thuộc Miền Trung và miền Nam (Ngoài TP Hồ Chí Minh), với lãi suất huy động cao hơn 0,1%/năm tại các kỳ hạn từ 6 tháng trở lên so với khách hàng thông thường."
+    },
+    {
+        "text": "0,1%/năm",
+        "label": "RATE",
+        "evidence": "MB cũng triển khai khung lãi suất riêng dành cho khách hàng tổ chức tại khu vực thuộc Miền Trung và miền Nam (Ngoài TP Hồ Chí Minh), với lãi suất huy động cao hơn 0,1%/năm tại các kỳ hạn từ 6 tháng trở lên so với khách hàng thông thường."
+    },
+    {
+        "text": "5,5%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất cao nhất 5,5%/năm dành cho khách hàng tổ chức gửi tiền kỳ hạn 36-60 tháng."
+    }
+]

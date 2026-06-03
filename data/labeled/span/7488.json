@@ -1,0 +1,157 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng."
+    },
+    {
+        "text": "gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "mở thẻ ghi nợ phi vật lý",
+        "label": "EVENT",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Khi nạn nhân nhận cuộc gọi, chúng phát ra thông điệp tự động với nội dung: \"Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Chúc mừng quý khách đã đủ điều kiện phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Vietcombank cảnh báo đến khách hàng một số số điện thoại được xác định có liên quan đến các vụ lừa đảo."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian sẽ gọi lại, tiếp tục giả danh nhân viên ngân hàng để yêu cầu cung cấp thông tin cá nhân và bảo mật như số thẻ, mã OTP hoặc mật khẩu dịch vụ ngân hàng số."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian sẽ gọi lại, tiếp tục giả danh nhân viên ngân hàng để yêu cầu cung cấp thông tin cá nhân và bảo mật như số thẻ, mã OTP hoặc mật khẩu dịch vụ ngân hàng số."
+    },
+    {
+        "text": "mật khẩu dịch vụ ngân hàng số",
+        "label": "ASSET",
+        "evidence": "Sau đó, kẻ gian sẽ gọi lại, tiếp tục giả danh nhân viên ngân hàng để yêu cầu cung cấp thông tin cá nhân và bảo mật như số thẻ, mã OTP hoặc mật khẩu dịch vụ ngân hàng số."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, một chiêu thức khác được ghi nhận là kẻ gian yêu cầu người dùng cung cấp thông tin thẻ để liên kết với ví điện tử, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "ví điện tử",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, một chiêu thức khác được ghi nhận là kẻ gian yêu cầu người dùng cung cấp thông tin thẻ để liên kết với ví điện tử, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Các thông tin thường bị yêu cầu bao gồm hình ảnh thẻ, dãy số in trên thẻ, tên trên thẻ và mã OTP được gửi qua tin nhắn."
+    },
+    {
+        "text": "dãy số in trên thẻ",
+        "label": "ASSET",
+        "evidence": "Các thông tin thường bị yêu cầu bao gồm hình ảnh thẻ, dãy số in trên thẻ, tên trên thẻ và mã OTP được gửi qua tin nhắn."
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Các thông tin thường bị yêu cầu bao gồm hình ảnh thẻ, dãy số in trên thẻ, tên trên thẻ và mã OTP được gửi qua tin nhắn."
+    },
+    {
+        "text": "chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "thanh toán phí hồ sơ",
+        "label": "EVENT",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "thanh toán phí phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Không chỉ Vietcombank, BIDV cũng ghi nhận nhiều trường hợp người dùng bị lừa đảo qua hình thức mạo danh shipper."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Không chỉ Vietcombank, BIDV cũng ghi nhận nhiều trường hợp người dùng bị lừa đảo qua hình thức mạo danh shipper."
+    },
+    {
+        "text": "chuyển khoản",
+        "label": "EVENT",
+        "evidence": "Kẻ gian thường giả làm nhân viên giao hàng từ các đơn vị quen thuộc, gọi điện thông báo về đơn hàng sắp giao hoặc tạo áp lực yêu cầu chuyển khoản trước để tránh bị hủy đơn."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Khi người bị hại làm theo, toàn bộ thông tin cá nhân và tài khoản ngân hàng sẽ bị đánh cắp."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV khuyến cáo người dùng không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "BIDV khuyến cáo người dùng không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    }
+]

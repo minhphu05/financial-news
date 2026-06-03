@@ -1,0 +1,307 @@
+[
+    {
+        "text": "thị trường chứng khoán gặp áp lực điều chỉnh",
+        "label": "EVENT",
+        "evidence": "Dứt chuỗi tăng điểm liên tiếp, thị trường chứng khoán gặp áp lực điều chỉnh trong phiên 29/6."
+    },
+    {
+        "text": "29/6",
+        "label": "DATE",
+        "evidence": "Dứt chuỗi tăng điểm liên tiếp, thị trường chứng khoán gặp áp lực điều chỉnh trong phiên 29/6."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index kết phiên với mức giảm gần 13 điểm (tương đương (1,14%) xuống 1.125 điểm."
+    },
+    {
+        "text": "gần 13 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index kết phiên với mức giảm gần 13 điểm (tương đương (1,14%) xuống 1.125 điểm."
+    },
+    {
+        "text": "1,14%",
+        "label": "RATE",
+        "evidence": "VN-Index kết phiên với mức giảm gần 13 điểm (tương đương (1,14%) xuống 1.125 điểm."
+    },
+    {
+        "text": "1.125 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index kết phiên với mức giảm gần 13 điểm (tương đương (1,14%) xuống 1.125 điểm."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản vẫn duy trì mức cao với giá trị giao dịch trên HOSE vượt 17.300 tỷ đồng, giảm nhẹ so với phiên hôm trước."
+    },
+    {
+        "text": "17.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản vẫn duy trì mức cao với giá trị giao dịch trên HOSE vượt 17.300 tỷ đồng, giảm nhẹ so với phiên hôm trước."
+    },
+    {
+        "text": "mua ròng 106 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thị trường ảm đạm, giao dịch khối ngoại lại khởi sắc khi họ mua ròng 106 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "106 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thị trường ảm đạm, giao dịch khối ngoại lại khởi sắc khi họ mua ròng 106 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ113tỷ đồng"
+    },
+    {
+        "text": "mua ròng với giá trị xấp xỉ113tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ113tỷ đồng"
+    },
+    {
+        "text": "113tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ113tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 181 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất với giá trị 181 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 181 tỷ đồng."
+    },
+    {
+        "text": "181 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 181 tỷ đồng."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, VNM xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 82 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, VNM xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 82 tỷ đồng."
+    },
+    {
+        "text": "82 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, VNM xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 82 tỷ đồng."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng VHM với giá trị là 38 tỷ đồng."
+    },
+    {
+        "text": "38 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng VHM với giá trị là 38 tỷ đồng."
+    },
+    {
+        "text": "DGC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "56 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "NLG",
+        "label": "TICKER",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bị bán khoảng 39 và 27 tỷ đồng mỗi mã",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "27 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, DGC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 56 tỷ đồng; theo sau VND, NLG bị bán khoảng 39 và 27 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại bán ròng6tỷ đồng"
+    },
+    {
+        "text": "bán ròng6tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HNX, khối ngoại bán ròng6tỷ đồng"
+    },
+    {
+        "text": "6tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại bán ròng6tỷ đồng"
+    },
+    {
+        "text": "DTD",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, DTD được mua ròng mạnh nhất với giá trị 2,5 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất với giá trị 2,5 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại chiều mua, DTD được mua ròng mạnh nhất với giá trị 2,5 tỷ đồng."
+    },
+    {
+        "text": "2,5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, DTD được mua ròng mạnh nhất với giá trị 2,5 tỷ đồng."
+    },
+    {
+        "text": "VCS",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, VCS xếp tiếp theo danh sách mua ròng mạnh trên HNX với 1,8 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, VCS xếp tiếp theo danh sách mua ròng mạnh trên HNX với 1,8 tỷ đồng."
+    },
+    {
+        "text": "1,8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, VCS xếp tiếp theo danh sách mua ròng mạnh trên HNX với 1,8 tỷ đồng."
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng TNG và CEO với giá trị là vài trăm triệu đến vài tỷ đồng mỗi mã."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng TNG và CEO với giá trị là vài trăm triệu đến vài tỷ đồng mỗi mã."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "bán ròng của khối ngoại với giá trị 8 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "bị bán khoảng 1 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, IDC chịu áp lực bán ròng của khối ngoại với giá trị 8 tỷ đồng; theo sau SHS bị bán khoảng 1 tỷ đồng."
+    },
+    {
+        "text": "UPCOM",
+        "label": "ORG",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng0,4tỷ đồng"
+    },
+    {
+        "text": "bán ròng0,4tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng0,4tỷ đồng"
+    },
+    {
+        "text": "0,4tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên UPCOM, khối ngoại bán ròng0,4tỷ đồng"
+    },
+    {
+        "text": "VGT",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "mua 2 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "MPC",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "VGG",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu VGT hôm nay được khối ngoại mua 2 tỷ đồng, tương tự, LTG, MPC, VGG cũng đồng loạt mua ròng mỗi cổ phiếu từ vài trăm triệu đồng."
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    },
+    {
+        "text": "bán ròng mạnh khoảng gần 4 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "ACV hôm nay bị khối ngoại bán ròng mạnh khoảng gần 4 tỷ đồng; ngoài ra họ cũng bán ròng tại VTP, VEA, QNS,..."
+    }
+]

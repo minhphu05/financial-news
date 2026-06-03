@@ -1,0 +1,357 @@
+[
+    {
+        "text": "17/1",
+        "label": "DATE",
+        "evidence": "phiên giao dịch 17/1"
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "VN-Index đóng cửa phiên bứt phá hơn 21 điểm."
+    },
+    {
+        "text": "hơn 21 điểm",
+        "label": "RATE",
+        "evidence": "bứt phá hơn 21 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 21,61điểm(+2,03%)lên1.088,29điểm."
+    },
+    {
+        "text": "21,61 điểm",
+        "label": "RATE",
+        "evidence": "VN-Indextăng 21,61điểm(+2,03%)lên1.088,29điểm."
+    },
+    {
+        "text": "+2,03%",
+        "label": "RATE",
+        "evidence": "VN-Indextăng 21,61điểm(+2,03%)lên1.088,29điểm."
+    },
+    {
+        "text": "1.088,29 điểm",
+        "label": "PRICE",
+        "evidence": "lên1.088,29điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "TICKER",
+        "evidence": "HNX-Indextăng 4,27điểmlên215,15điểm"
+    },
+    {
+        "text": "4,27 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Indextăng 4,27điểmlên215,15điểm"
+    },
+    {
+        "text": "215,15 điểm",
+        "label": "PRICE",
+        "evidence": "lên215,15điểm"
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "TICKER",
+        "evidence": "UPCoM-Indextăng 0,75điểmlên72,97điểm."
+    },
+    {
+        "text": "0,75 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Indextăng 0,75điểmlên72,97điểm."
+    },
+    {
+        "text": "72,97 điểm",
+        "label": "PRICE",
+        "evidence": "lên72,97điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE bật tăng 51% so với phiên trước với giá trị khớp lệnh đạt 10.169 tỷ đồng"
+    },
+    {
+        "text": "51%",
+        "label": "RATE",
+        "evidence": "bật tăng 51%"
+    },
+    {
+        "text": "10.169 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị khớp lệnh đạt 10.169 tỷ đồng"
+    },
+    {
+        "text": "11.753 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tổng giá trị giao dịch trên HoSE đạt 11.753 tỷ đồng."
+    },
+    {
+        "text": "818 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tổng giá trị lên tới 818tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "giải ngân vào HPG, STB"
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "giải ngân vào HPG, STB"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "bán ròng VHM, BMP."
+    },
+    {
+        "text": "BMP",
+        "label": "TICKER",
+        "evidence": "bán ròng VHM, BMP."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 796tỷ đồng"
+    },
+    {
+        "text": "796 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị xấp xỉ 796tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "HPG được mua ròng mạnh nhất với giá trị 166 tỷ đồng."
+    },
+    {
+        "text": "166 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị 166 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 62 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "trên HoSE với 62 tỷ đồng."
+    },
+    {
+        "text": "62 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "với 62 tỷ đồng."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "SSI và VND với cùng giá trị là 53 tỷ đồng."
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "SSI và VND với cùng giá trị là 53 tỷ đồng."
+    },
+    {
+        "text": "53 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị là 53 tỷ đồng."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 13 tỷ đồng"
+    },
+    {
+        "text": "13 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị 13 tỷ đồng"
+    },
+    {
+        "text": "BMP",
+        "label": "TICKER",
+        "evidence": "theo sau BMP và EIB bị bán ròng lần lượt 11 và 6 tỷ đồng."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "theo sau BMP và EIB bị bán ròng lần lượt 11 và 6 tỷ đồng."
+    },
+    {
+        "text": "11 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bị bán ròng lần lượt 11 và 6 tỷ đồng."
+    },
+    {
+        "text": "6 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bị bán ròng lần lượt 11 và 6 tỷ đồng."
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "còn có HDB (-5 tỷ đồng)"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "HDB (-5 tỷ đồng)"
+    },
+    {
+        "text": "KDC",
+        "label": "TICKER",
+        "evidence": "KDC (-5 tỷ đồng)"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "KDC (-5 tỷ đồng)"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị hơn 22 tỷ đồng"
+    },
+    {
+        "text": "22 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị hơn 22 tỷ đồng"
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "IDC được khối ngoại mua ròng mạnh nhất với 13 tỷ đồng"
+    },
+    {
+        "text": "13 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "với 13 tỷ đồng"
+    },
+    {
+        "text": "PVI",
+        "label": "TICKER",
+        "evidence": "tìm tới PVI, PVS, SHS, HUT..."
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "tìm tới PVI, PVS, SHS, HUT..."
+    },
+    {
+        "text": "SHS",
+        "label": "TICKER",
+        "evidence": "tìm tới PVI, PVS, SHS, HUT..."
+    },
+    {
+        "text": "HUT",
+        "label": "TICKER",
+        "evidence": "tìm tới PVI, PVS, SHS, HUT..."
+    },
+    {
+        "text": "1-3 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị mua ròng mỗi mã gần 1-3 tỷ đồng."
+    },
+    {
+        "text": "THD",
+        "label": "TICKER",
+        "evidence": "THD, LHC, DXP, MBS...."
+    },
+    {
+        "text": "LHC",
+        "label": "TICKER",
+        "evidence": "THD, LHC, DXP, MBS...."
+    },
+    {
+        "text": "DXP",
+        "label": "TICKER",
+        "evidence": "THD, LHC, DXP, MBS...."
+    },
+    {
+        "text": "MBS",
+        "label": "TICKER",
+        "evidence": "THD, LHC, DXP, MBS...."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "bán ròng mạnh nhất trên HNX"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài hôm nay bán ròng nhẹ hơn 500 triệu đồng"
+    },
+    {
+        "text": "500 triệu đồng",
+        "label": "VOLUME",
+        "evidence": "nhẹ hơn 500 triệu đồng"
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VTP bị bán mạnh nhất với giá trị 3 tỷ đồng"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị 3 tỷ đồng"
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "ACV, VEA, TTD..."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "ACV, VEA, TTD..."
+    },
+    {
+        "text": "TTD",
+        "label": "TICKER",
+        "evidence": "ACV, VEA, TTD..."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "QNS được khối ngoại mua ròng mạnh nhất 3 tỷ đồng"
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "mạnh nhất 3 tỷ đồng"
+    },
+    {
+        "text": "ABI",
+        "label": "TICKER",
+        "evidence": "ABI (1 tỷ đồng)"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "ABI (1 tỷ đồng)"
+    },
+    {
+        "text": "OIL",
+        "label": "TICKER",
+        "evidence": "OIL, TCW, MCH...."
+    },
+    {
+        "text": "TCW",
+        "label": "TICKER",
+        "evidence": "OIL, TCW, MCH...."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "OIL, TCW, MCH...."
+    },
+    {
+        "text": "200 triệu đồng",
+        "label": "VOLUME",
+        "evidence": "giá trị mỗi mã 200 triệu đồng."
+    }
+]

@@ -1,0 +1,217 @@
+[
+    {
+        "text": "6-18 tháng",
+        "label": "DATE",
+        "evidence": "Nhiều ngân hàng sẽ tự động khóa thẻ hoặc đóng tài khoản nếu không phát sinh giao dịch trong 6-18 tháng khi số dư về 0."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Đơn cử như tại Agribank, nhà băng này sẽ đóng tài khoản thanh toán ở trạng thái không hoạt động vượt quá 36 tháng."
+    },
+    {
+        "text": "đóng tài khoản thanh toán ở trạng thái không hoạt động vượt quá 36 tháng",
+        "label": "EVENT",
+        "evidence": "Đơn cử như tại Agribank, nhà băng này sẽ đóng tài khoản thanh toán ở trạng thái không hoạt động vượt quá 36 tháng."
+    },
+    {
+        "text": "36 tháng",
+        "label": "DATE",
+        "evidence": "Đơn cử như tại Agribank, nhà băng này sẽ đóng tài khoản thanh toán ở trạng thái không hoạt động vượt quá 36 tháng."
+    },
+    {
+        "text": "50.000 VND",
+        "label": "MONEY",
+        "evidence": "(đối với khách hàng cá nhân là 50.000 VND và ngoại tệ là 10 đơn vị tiền tệ; đối với khách hàng tổ chức là 1.000.000 VND và ngoại tệ là 100 đơn vị tiền tệ)."
+    },
+    {
+        "text": "1.000.000 VND",
+        "label": "MONEY",
+        "evidence": "(đối với khách hàng cá nhân là 50.000 VND và ngoại tệ là 10 đơn vị tiền tệ; đối với khách hàng tổ chức là 1.000.000 VND và ngoại tệ là 100 đơn vị tiền tệ)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "nộp tiền vào tài khoản của khách hàng tại bất kỳ điểm giao dịch nào của Agribank trong vòng 30 ngày kể từ ngày Agribank đăng tải thông tin trên website của Agribank."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "nộp tiền vào tài khoản của khách hàng tại bất kỳ điểm giao dịch nào của Agribank trong vòng 30 ngày kể từ ngày Agribank đăng tải thông tin trên website của Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "trong vòng 30 ngày kể từ ngày Agribank đăng tải thông tin trên website của Agribank."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "Trường hợp khách hàng không thực hiện bất kỳ phản hồi nào trong vòng 30 ngày kể từ ngày Agribank đăng tải thông tin trên website của Agribank, Agribank hiểu rằng khách hàng không còn nhu cầu sử dụng tài khoản thanh toán mở tại Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "trong vòng 30 ngày kể từ ngày Agribank đăng tải thông tin trên website của Agribank, Agribank hiểu rằng khách hàng không còn nhu cầu sử dụng tài khoản thanh toán mở tại Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "website của Agribank, Agribank hiểu rằng khách hàng không còn nhu cầu sử dụng tài khoản thanh toán mở tại Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "tài khoản thanh toán mở tại Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank sẽ tiến hành đóng tài khoản thanh toán cùng các sản phẩm dịch vụ đi kèm tài khoản này (dịch vụ SMS banking; dịch vụ Agribank E-Mobile Banking…) của khách hàng (nếu có) theo quy định sau 30 ngày kể từ ngày thông báo này."
+    },
+    {
+        "text": "đóng tài khoản thanh toán cùng các sản phẩm dịch vụ đi kèm tài khoản này (dịch vụ SMS banking; dịch vụ Agribank E-Mobile Banking…) của khách hàng",
+        "label": "EVENT",
+        "evidence": "Agribank sẽ tiến hành đóng tài khoản thanh toán cùng các sản phẩm dịch vụ đi kèm tài khoản này (dịch vụ SMS banking; dịch vụ Agribank E-Mobile Banking…) của khách hàng (nếu có) theo quy định sau 30 ngày kể từ ngày thông báo này."
+    },
+    {
+        "text": "30 ngày",
+        "label": "DATE",
+        "evidence": "theo quy định sau 30 ngày kể từ ngày thông báo này."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nếu khách hàng có nhu cầu sử dụng tài khoản, vui lòng liên hệ với Agribank để được mở tài khoản mới."
+    },
+    {
+        "text": "ngày 01 tháng 01",
+        "label": "DATE",
+        "evidence": "Ngoài ra, định kỳ từ ngày 01 tháng 01 đến trước ngày 31 tháng 01 hằng năm, Agribank nơi mở tài khoản sẽ thực hiện đối chiếu số dư tài khoản thanh toán của khách hàng tại quầy giao dịch (nếu khách hàng có nhu cầu)."
+    },
+    {
+        "text": "ngày 31 tháng 01",
+        "label": "DATE",
+        "evidence": "Ngoài ra, định kỳ từ ngày 01 tháng 01 đến trước ngày 31 tháng 01 hằng năm, Agribank nơi mở tài khoản sẽ thực hiện đối chiếu số dư tài khoản thanh toán của khách hàng tại quầy giao dịch (nếu khách hàng có nhu cầu)."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "hằng năm, Agribank nơi mở tài khoản sẽ thực hiện đối chiếu số dư tài khoản thanh toán của khách hàng tại quầy giao dịch (nếu khách hàng có nhu cầu)."
+    },
+    {
+        "text": "thực hiện đối chiếu số dư tài khoản thanh toán của khách hàng",
+        "label": "EVENT",
+        "evidence": "Agribank nơi mở tài khoản sẽ thực hiện đối chiếu số dư tài khoản thanh toán của khách hàng tại quầy giao dịch (nếu khách hàng có nhu cầu)."
+    },
+    {
+        "text": "ngày 31/12",
+        "label": "DATE",
+        "evidence": "tài khoản thanh toán tại thời điểm ngày 31/12 năm trước liền kề thời điểm đối chiếu của khách hàng tại Agribank."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "thời điểm đối chiếu của khách hàng tại Agribank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, ngân hàng Vietcombank cũng sẽ thực hiện đóng tài khoản của khách hàng trong các trường hợp khi tài khoản có số dư bằng 0 trong thời gian trên 12 tháng liên tục."
+    },
+    {
+        "text": "thực hiện đóng tài khoản của khách hàng trong các trường hợp khi tài khoản có số dư bằng 0 trong thời gian trên 12 tháng liên tục",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, ngân hàng Vietcombank cũng sẽ thực hiện đóng tài khoản của khách hàng trong các trường hợp khi tài khoản có số dư bằng 0 trong thời gian trên 12 tháng liên tục."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "thực hiện đóng tài khoản của khách hàng trong các trường hợp khi tài khoản có số dư bằng 0 trong thời gian trên 12 tháng liên tục."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Sau khi đóng tài khoản, khách hàng phải làm thủ tục để mở tài khoản mới trong trường hợp khách hàng muốn sử dụng các dịch vụ về tài khoản của Vietcombank."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Tại BIDV, tài khoản không duy trì số dư (hay có số dư 0 đồng) sẽ bị khóa khi không đạt mức số dư tối thiểu và không phát sinh giao dịch trong liên tục 6 tháng."
+    },
+    {
+        "text": "tài khoản không duy trì số dư (hay có số dư 0 đồng) sẽ bị khóa khi không đạt mức số dư tối thiểu và không phát sinh giao dịch trong liên tục 6 tháng",
+        "label": "EVENT",
+        "evidence": "Tại BIDV, tài khoản không duy trì số dư (hay có số dư 0 đồng) sẽ bị khóa khi không đạt mức số dư tối thiểu và không phát sinh giao dịch trong liên tục 6 tháng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "không phát sinh giao dịch trong liên tục 6 tháng."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Để tài khoản không bị khóa, khách hàng cần chuyển thêm tiền để số dư tài khoản bằng hoặc cao hơn 50.000 đồng."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Sau khi đóng tài khoản tại BIDV, khách hàng có nhu cầu muốn tiếp tục sử dụng tài khoản cần làm thủ tục đăng ký mở tài khoản mới theo quy định của ngân hàng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Còn tại VPBank, tài khoản thanh toán sẽ bị đóng sau 360 ngày kể từ thời điểm tài khoản được xác định đang ở trạng thái không hoạt động và có số dư bằng 0."
+    },
+    {
+        "text": "tài khoản thanh toán sẽ bị đóng sau 360 ngày kể từ thời điểm tài khoản được xác định đang ở trạng thái không hoạt động và có số dư bằng 0",
+        "label": "EVENT",
+        "evidence": "Còn tại VPBank, tài khoản thanh toán sẽ bị đóng sau 360 ngày kể từ thời điểm tài khoản được xác định đang ở trạng thái không hoạt động và có số dư bằng 0."
+    },
+    {
+        "text": "360 ngày",
+        "label": "DATE",
+        "evidence": "tài khoản thanh toán sẽ bị đóng sau 360 ngày kể từ thời điểm tài khoản được xác định đang ở trạng thái không hoạt động và có số dư bằng 0."
+    },
+    {
+        "text": "7 ngày",
+        "label": "DATE",
+        "evidence": "Hệ thống sẽ gửi tin nhắn cảnh báo đến chủ tài khoản thanh toán trong vòng 7 ngày trước thời điểm tài khoản có dấu hiệu sẽ bị chuyển sang trạng thái ngủ quên."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Tương tự, ngân hàng Techcombank cũng sẽ đóng các tài khoản thanh toán không phát sinh giao dịch chủ động trong thời gian liên tục tối thiểu từ 12 tháng trở lên, đồng thời có số dư còn lại (sau khi đã thanh toán các loại phí) nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR theo quy định của Techcombank."
+    },
+    {
+        "text": "đóng các tài khoản thanh toán không phát sinh giao dịch chủ động trong thời gian liên tục tối thiểu từ 12 tháng trở lên, đồng thời có số dư còn lại (sau khi đã thanh toán các loại phí) nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR",
+        "label": "EVENT",
+        "evidence": "Tương tự, ngân hàng Techcombank cũng sẽ đóng các tài khoản thanh toán không phát sinh giao dịch chủ động trong thời gian liên tục tối thiểu từ 12 tháng trở lên, đồng thời có số dư còn lại (sau khi đã thanh toán các loại phí) nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR theo quy định của Techcombank."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "không phát sinh giao dịch chủ động trong thời gian liên tục tối thiểu từ 12 tháng trở lên"
+    },
+    {
+        "text": "50.000 VND",
+        "label": "MONEY",
+        "evidence": "nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR theo quy định của Techcombank."
+    },
+    {
+        "text": "5 USD",
+        "label": "MONEY",
+        "evidence": "nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR theo quy định của Techcombank."
+    },
+    {
+        "text": "5 EUR",
+        "label": "MONEY",
+        "evidence": "nhỏ hơn số dư tối thiểu là 50.000 VND/ 5 USD/ 5 EUR theo quy định của Techcombank."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "5 USD/ 5 EUR theo quy định của Techcombank."
+    }
+]

@@ -1,0 +1,397 @@
+[
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "nhóm quỹ Dragon Capital đã báo cáo bán ra hơn 4,1 triệu cổ phiếu MWGcủa Công ty cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "báo cáo bán ra hơn 4,1 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "nhóm quỹ Dragon Capital đã báo cáo bán ra hơn 4,1 triệu cổ phiếu MWGcủa Công ty cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "4,1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "bán ra hơn 4,1 triệu cổ phiếu MWGcủa Công ty cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "hơn 4,1 triệu cổ phiếu MWGcủa Công ty cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "Công ty cổ phần Đầu tư Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "hơn 4,1 triệu cổ phiếu MWGcủa Công ty cổ phần Đầu tư Thế Giới Di Động."
+    },
+    {
+        "text": "CTBC Vietnam Equity Fund",
+        "label": "ORG",
+        "evidence": "Cụ thể, quỹ CTBC Vietnam Equity Fund bán ra 1,5 triệu cổ phiếu, DC Developing Markets Strategies Public Limited Company bán ra 2 triệu cổ phiếu, Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu, Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu."
+    },
+    {
+        "text": "bán ra 1,5 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "quỹ CTBC Vietnam Equity Fund bán ra 1,5 triệu cổ phiếu"
+    },
+    {
+        "text": "1,5 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "CTBC Vietnam Equity Fund bán ra 1,5 triệu cổ phiếu"
+    },
+    {
+        "text": "DC Developing Markets Strategies Public Limited Company",
+        "label": "ORG",
+        "evidence": "CTBC Vietnam Equity Fund bán ra 1,5 triệu cổ phiếu, DC Developing Markets Strategies Public Limited Company bán ra 2 triệu cổ phiếu, Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu, Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu."
+    },
+    {
+        "text": "bán ra 2 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "DC Developing Markets Strategies Public Limited Company bán ra 2 triệu cổ phiếu"
+    },
+    {
+        "text": "2 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "DC Developing Markets Strategies Public Limited Company bán ra 2 triệu cổ phiếu"
+    },
+    {
+        "text": "Hanoi Investments Holdings Limited",
+        "label": "ORG",
+        "evidence": "DC Developing Markets Strategies Public Limited Company bán ra 2 triệu cổ phiếu, Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu, Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu."
+    },
+    {
+        "text": "bán 1 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu"
+    },
+    {
+        "text": "1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu"
+    },
+    {
+        "text": "Samsung Vietnam Securities Master Investment Trust",
+        "label": "ORG",
+        "evidence": "Hanoi Investments Holdings Limited bán 1 triệu cổ phiếu, Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu."
+    },
+    {
+        "text": "bán gần 138 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu"
+    },
+    {
+        "text": "138 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Samsung Vietnam Securities Master Investment Trust bán gần 138 nghìn cổ phiếu"
+    },
+    {
+        "text": "Amersham Industries Limited",
+        "label": "ORG",
+        "evidence": "Ngược lại, Amersham Industries Limited mua vào 500 nghìn cổ phiếu."
+    },
+    {
+        "text": "mua vào 500 nghìn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Amersham Industries Limited mua vào 500 nghìn cổ phiếu."
+    },
+    {
+        "text": "500 nghìn cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Amersham Industries Limited mua vào 500 nghìn cổ phiếu."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Tổng cộng, sở hữu của nhóm Dragon Capital giảm từ 7,19% vốn (105 triệu cổ phiếu) xuống 6,9% vốn (101 triệu cổ phiếu)."
+    },
+    {
+        "text": "sở hữu của nhóm Dragon Capital giảm từ 7,19% vốn (105 triệu cổ phiếu) xuống 6,9% vốn (101 triệu cổ phiếu)",
+        "label": "EVENT",
+        "evidence": "Tổng cộng, sở hữu của nhóm Dragon Capital giảm từ 7,19% vốn (105 triệu cổ phiếu) xuống 6,9% vốn (101 triệu cổ phiếu)."
+    },
+    {
+        "text": "7,19%",
+        "label": "RATE",
+        "evidence": "giảm từ 7,19% vốn (105 triệu cổ phiếu)"
+    },
+    {
+        "text": "105 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "vốn (105 triệu cổ phiếu)"
+    },
+    {
+        "text": "6,9%",
+        "label": "RATE",
+        "evidence": "xuống 6,9% vốn (101 triệu cổ phiếu)"
+    },
+    {
+        "text": "101 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "vốn (101 triệu cổ phiếu)"
+    },
+    {
+        "text": "1/11",
+        "label": "DATE",
+        "evidence": "Giao dịch được thực hiện trong phiên 1/11."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Tạm tính theo giá đóng cửa cùng phiên của MWG 35.100 đồng/cp"
+    },
+    {
+        "text": "35.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "cùng phiên của MWG 35.100 đồng/cp"
+    },
+    {
+        "text": "giảm sàn",
+        "label": "EVENT",
+        "evidence": "đồng/cp (giảm sàn xuống mức thấp nhất trong gần 3 năm)"
+    },
+    {
+        "text": "144 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhóm quỹ ngoại thu về khoảng 144 tỷ đồng."
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Động thái bán ròng của Dragon Capital càng nới rộng đà bán ròng của khối ngoại tại cổ phiếu đầu ngành bán lẻ này."
+    },
+    {
+        "text": "bán ròng của Dragon Capital",
+        "label": "EVENT",
+        "evidence": "Động thái bán ròng của Dragon Capital"
+    },
+    {
+        "text": "đầu tháng 10",
+        "label": "DATE",
+        "evidence": "Tính từ đầu tháng 10, khối ngoại đã bán ròng tổng cộng gần 24 triệu cổ phiếu MWG, tương đương giá trị bán ròng lên đến hơn 1.100 tỷ đồng."
+    },
+    {
+        "text": "bán ròng tổng cộng gần 24 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "khối ngoại đã bán ròng tổng cộng gần 24 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "24 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "tổng cộng gần 24 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "24 triệu cổ phiếu MWG"
+    },
+    {
+        "text": "1.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị bán ròng lên đến hơn 1.100 tỷ đồng."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Điều này khiếnMWG“hở” room ngoại khoảng 2%."
+    },
+    {
+        "text": "hở” room ngoại khoảng 2%",
+        "label": "EVENT",
+        "evidence": "khiếnMWG“hở” room ngoại khoảng 2%."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "room ngoại khoảng 2%."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "ông Nguyễn Đức Tài, Chủ tịch Hội đồng quản trị MWG đã đăng ký mua vào 1 triệu cổ phiếu MWG."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Chủ tịch Hội đồng quản trị MWG đã đăng ký mua vào 1 triệu cổ phiếu MWG."
+    },
+    {
+        "text": "đã đăng ký mua vào 1 triệu cổ phiếu MWG",
+        "label": "EVENT",
+        "evidence": "ông Nguyễn Đức Tài, Chủ tịch Hội đồng quản trị MWG đã đăng ký mua vào 1 triệu cổ phiếu MWG."
+    },
+    {
+        "text": "1 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "đăng ký mua vào 1 triệu cổ phiếu MWG."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "1 triệu cổ phiếu MWG."
+    },
+    {
+        "text": "8/11",
+        "label": "DATE",
+        "evidence": "Thời gian giao dịch dự kiến trong khoảng từ 8/11 đến 7/12 với mục đích tăng tỷ lệ sở hữu.﻿"
+    },
+    {
+        "text": "7/12",
+        "label": "DATE",
+        "evidence": "trong khoảng từ 8/11 đến 7/12 với mục đích tăng tỷ lệ sở hữu.﻿"
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "Nếu giao dịch thành công, ông Nguyễn Đức Tài sẽ nâng lượng cổ phiếu nắm giữ lên 36,13 triệu đơn vị, tỷ lệ 2,469%.﻿"
+    },
+    {
+        "text": "nâng lượng cổ phiếu nắm giữ lên 36,13 triệu đơn vị, tỷ lệ 2,469%",
+        "label": "EVENT",
+        "evidence": "ông Nguyễn Đức Tài sẽ nâng lượng cổ phiếu nắm giữ lên 36,13 triệu đơn vị, tỷ lệ 2,469%.﻿"
+    },
+    {
+        "text": "36,13 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "36,13 triệu đơn vị"
+    },
+    {
+        "text": "2,469%",
+        "label": "RATE",
+        "evidence": "tỷ lệ 2,469%.﻿"
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Chủ tịch Thế Giới Di Động đăng ký mua cổ phiếu trong bối cảnh MWG trong quãng chỉnh mạnh và vừa chỉ hồi phục đôi chút trong phiên cuối tuần."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "trong bối cảnh MWG trong quãng chỉnh mạnh và vừa chỉ hồi phục đôi chút trong phiên cuối tuần."
+    },
+    {
+        "text": "3/11",
+        "label": "DATE",
+        "evidence": "Chốt phiên 3/11, thị giá MWG đạt 38.950 đồng/cổ phiếu."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "thị giá MWG đạt 38.950 đồng/cổ phiếu."
+    },
+    {
+        "text": "38.950 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "thị giá MWG đạt 38.950 đồng/cổ phiếu."
+    },
+    {
+        "text": "Nguyễn Đức Tài",
+        "label": "PERSON",
+        "evidence": "số tiền ông Nguyễn Đức Tài cần chi để mua cổ phiếu khoảng 39 tỷ đồng."
+    },
+    {
+        "text": "39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cổ phiếu khoảng 39 tỷ đồng."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "quý 3 vừa qua, Thế Giới Di Động tiếp tục ghi nhận kết quả kinh doanh tăng trưởng âm so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "quý 3 vừa qua, Thế Giới Di Động tiếp tục ghi nhận kết quả kinh doanh tăng trưởng âm so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "ghi nhận kết quả kinh doanh tăng trưởng âm so với cùng kỳ năm ngoái",
+        "label": "EVENT",
+        "evidence": "Thế Giới Di Động tiếp tục ghi nhận kết quả kinh doanh tăng trưởng âm so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "doanh thu quý 3 đạt 30.287 tỷ đồng, giảm nhẹ 5,5% so với cùng kỳ 2022",
+        "label": "EVENT",
+        "evidence": "doanh thu quý 3 đạt 30.287 tỷ đồng, giảm nhẹ 5,5% so với cùng kỳ 2022."
+    },
+    {
+        "text": "30.287 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu quý 3 đạt 30.287 tỷ đồng"
+    },
+    {
+        "text": "5,5%",
+        "label": "RATE",
+        "evidence": "giảm nhẹ 5,5% so với cùng kỳ 2022."
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "cùng kỳ 2022."
+    },
+    {
+        "text": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng, giảm đến 96% so với quý 3/2022",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng, giảm đến 96% so với quý 3/2022."
+    },
+    {
+        "text": "39 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế chỉ đạt gần 39 tỷ đồng"
+    },
+    {
+        "text": "96%",
+        "label": "RATE",
+        "evidence": "giảm đến 96% so với quý 3/2022."
+    },
+    {
+        "text": "quý 3/2022",
+        "label": "DATE",
+        "evidence": "so với quý 3/2022."
+    },
+    {
+        "text": "9 tháng",
+        "label": "DATE",
+        "evidence": "Luỹ kế 9 tháng, Thế Giới Di Động ghi nhận doanh thu đạt gần 87.000 tỷ đồng và lợi nhuận sau thuế 78 tỷ đồng, lần lượt giảm 15,5% và 97% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Luỹ kế 9 tháng, Thế Giới Di Động ghi nhận doanh thu đạt gần 87.000 tỷ đồng và lợi nhuận sau thuế 78 tỷ đồng, lần lượt giảm 15,5% và 97% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "ghi nhận doanh thu đạt gần 87.000 tỷ đồng và lợi nhuận sau thuế 78 tỷ đồng, lần lượt giảm 15,5% và 97% so với cùng kỳ năm ngoái",
+        "label": "EVENT",
+        "evidence": "Thế Giới Di Động ghi nhận doanh thu đạt gần 87.000 tỷ đồng và lợi nhuận sau thuế 78 tỷ đồng, lần lượt giảm 15,5% và 97% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "87.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu đạt gần 87.000 tỷ đồng"
+    },
+    {
+        "text": "78 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận sau thuế 78 tỷ đồng"
+    },
+    {
+        "text": "15,5%",
+        "label": "RATE",
+        "evidence": "lần lượt giảm 15,5% và 97% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "97%",
+        "label": "RATE",
+        "evidence": "giảm 15,5% và 97% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "mới thực hiện vỏn vẹn chưa đến 2% mục tiêu lợi nhuận cả năm 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "mục tiêu lợi nhuận cả năm 2023 đề ra"
+    }
+]

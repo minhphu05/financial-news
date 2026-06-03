@@ -1,0 +1,397 @@
+[
+    {
+        "text": "7/11",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán phiên 7/11 ghi nhận diễn biến kém sắc"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "thanh khoản bán gia tăng khiến VN-Index phần lớn chìm trong sắc đỏ"
+    },
+    {
+        "text": "Chỉ số đóng cửa giảm điểm về khu vực 1.080 điểm",
+        "label": "EVENT",
+        "evidence": "Chỉ số đóng cửa giảm điểm về khu vực 1.080 điểm."
+    },
+    {
+        "text": "1.080 điểm",
+        "label": "PRICE",
+        "evidence": "về khu vực 1.080 điểm"
+    },
+    {
+        "text": "bán ròng gần 196 tỷ đồng trên toàn thị trường",
+        "label": "EVENT",
+        "evidence": "bán ròng gần 196 tỷ đồng trên toàn thị trường"
+    },
+    {
+        "text": "196 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gần 196 tỷ đồng"
+    },
+    {
+        "text": "bán ròng gần 196 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng gần 196 tỷ đồng trên toàn thị trường"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK quay đầu bán ròng mạnh"
+    },
+    {
+        "text": "tự doanh CTCK quay đầu bán ròng mạnh",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK quay đầu bán ròng mạnh, giá trị lên tới hơn 827 tỷ đồng."
+    },
+    {
+        "text": "hơn 827 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên tới hơn 827 tỷ đồng"
+    },
+    {
+        "text": "bán ròng mạnh, giá trị lên tới hơn 827 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tự doanh CTCK quay đầu bán ròng mạnh, giá trị lên tới hơn 827 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên sàn HoSE"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK ghi nhận bán ròng 852 tỷ đồng"
+    },
+    {
+        "text": "tự doanh CTCK ghi nhận bán ròng 852 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK ghi nhận bán ròng 852 tỷ đồng"
+    },
+    {
+        "text": "852 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng 852 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 852 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tự doanh CTCK ghi nhận bán ròng 852 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 18 tỷ đồng trên kênh khớp lệnh",
+        "label": "EVENT",
+        "evidence": "bán ròng 18 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "18 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng 18 tỷ đồng"
+    },
+    {
+        "text": "bán ròng 18 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng 18 tỷ đồng trên kênh khớp lệnh"
+    },
+    {
+        "text": "bán ròng lên tới 834 tỷ đồng tại kênh thoả thuận",
+        "label": "EVENT",
+        "evidence": "bán ròng lên tới 834 tỷ đồng tại kênh thoả thuận"
+    },
+    {
+        "text": "834 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên tới 834 tỷ đồng"
+    },
+    {
+        "text": "bán ròng lên tới 834 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng lên tới 834 tỷ đồng tại kênh thoả thuận"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "giao dịch của các CTCK tập trung bán ròng thỏa thuận"
+    },
+    {
+        "text": "VRE",
+        "label": "TICKER",
+        "evidence": "tại VRE"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "HDB"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "MSB"
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "và TCB"
+    },
+    {
+        "text": "bán ròng thỏa thuận tại VRE",
+        "label": "EVENT",
+        "evidence": "giao dịch của các CTCK tập trung bán ròng thỏa thuận tại VRE, HDB, MSB và TCB"
+    },
+    {
+        "text": "213 tỷ",
+        "label": "MONEY",
+        "evidence": "lần lượt là 213 tỷ"
+    },
+    {
+        "text": "bán ròng thỏa thuận tại HDB",
+        "label": "EVENT",
+        "evidence": "giao dịch của các CTCK tập trung bán ròng thỏa thuận tại VRE, HDB, MSB và TCB"
+    },
+    {
+        "text": "186 tỷ",
+        "label": "MONEY",
+        "evidence": "186 tỷ"
+    },
+    {
+        "text": "bán ròng thỏa thuận tại MSB",
+        "label": "EVENT",
+        "evidence": "giao dịch của các CTCK tập trung bán ròng thỏa thuận tại VRE, HDB, MSB và TCB"
+    },
+    {
+        "text": "179 tỷ",
+        "label": "MONEY",
+        "evidence": "179 tỷ"
+    },
+    {
+        "text": "bán ròng thỏa thuận tại TCB",
+        "label": "EVENT",
+        "evidence": "giao dịch của các CTCK tập trung bán ròng thỏa thuận tại VRE, HDB, MSB và TCB"
+    },
+    {
+        "text": "147 tỷ",
+        "label": "MONEY",
+        "evidence": "147 tỷ"
+    },
+    {
+        "text": "GMD",
+        "label": "TICKER",
+        "evidence": "GMD"
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "MWG"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "HPG"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "nhóm CTCK mua ròng mạnh nhất"
+    },
+    {
+        "text": "nhóm CTCK mua ròng mạnh nhất tại chứng chỉ quỹ FUESSVFL với giá trị 60 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "nhóm CTCK mua ròng mạnh nhất tại chứng chỉ quỹ FUESSVFL với giá trị 60 tỷ đồng."
+    },
+    {
+        "text": "chứng chỉ quỹ FUESSVFL",
+        "label": "ASSET",
+        "evidence": "tại chứng chỉ quỹ FUESSVFL"
+    },
+    {
+        "text": "FUESSVFL",
+        "label": "TICKER",
+        "evidence": "tại chứng chỉ quỹ FUESSVFL"
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 60 tỷ đồng"
+    },
+    {
+        "text": "mua ròng mạnh nhất tại chứng chỉ quỹ FUESSVFL với giá trị 60 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "nhóm CTCK mua ròng mạnh nhất tại chứng chỉ quỹ FUESSVFL với giá trị 60 tỷ đồng."
+    },
+    {
+        "text": "VND",
+        "label": "TICKER",
+        "evidence": "VND"
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "và FPT"
+    },
+    {
+        "text": "được mua ròng 14 tỷ",
+        "label": "EVENT",
+        "evidence": "VND và FPT lần lượt được mua ròng 14 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "14 tỷ",
+        "label": "MONEY",
+        "evidence": "14 tỷ"
+    },
+    {
+        "text": "được mua ròng 14 tỷ",
+        "label": "VOLUME",
+        "evidence": "VND và FPT lần lượt được mua ròng 14 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "được mua ròng 12 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VND và FPT lần lượt được mua ròng 14 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "12 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "12 tỷ đồng"
+    },
+    {
+        "text": "được mua ròng 12 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "VND và FPT lần lượt được mua ròng 14 tỷ và 12 tỷ đồng."
+    },
+    {
+        "text": "EVF",
+        "label": "TICKER",
+        "evidence": "EVF"
+    },
+    {
+        "text": "GEX",
+        "label": "TICKER",
+        "evidence": "GEX"
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "MBB"
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "SSI"
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK bán ròng gần 7 tỷ đồng"
+    },
+    {
+        "text": "tự doanh CTCK bán ròng gần 7 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK bán ròng gần 7 tỷ đồng"
+    },
+    {
+        "text": "7 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gần 7 tỷ đồng"
+    },
+    {
+        "text": "bán ròng gần 7 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tự doanh CTCK bán ròng gần 7 tỷ đồng"
+    },
+    {
+        "text": "bán ròng hơn 4 tỷ đồng tại HUT",
+        "label": "EVENT",
+        "evidence": "bán ròng hơn 4 tỷ đồng tại HUT"
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 4 tỷ đồng"
+    },
+    {
+        "text": "bán ròng hơn 4 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "bán ròng hơn 4 tỷ đồng tại HUT"
+    },
+    {
+        "text": "HUT",
+        "label": "TICKER",
+        "evidence": "tại HUT"
+    },
+    {
+        "text": "bán ròng hơn 2 tỷ tại PVS",
+        "label": "EVENT",
+        "evidence": "hơn 2 tỷ tại PVS"
+    },
+    {
+        "text": "2 tỷ",
+        "label": "MONEY",
+        "evidence": "hơn 2 tỷ"
+    },
+    {
+        "text": "bán ròng hơn 2 tỷ",
+        "label": "VOLUME",
+        "evidence": "hơn 2 tỷ tại PVS"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "tại PVS"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên UPCoM"
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "tự doanh CTCK mua ròng hơn 32 tỷ đồng"
+    },
+    {
+        "text": "tự doanh CTCK mua ròng hơn 32 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tự doanh CTCK mua ròng hơn 32 tỷ đồng"
+    },
+    {
+        "text": "32 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 32 tỷ đồng"
+    },
+    {
+        "text": "mua ròng hơn 32 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "tự doanh CTCK mua ròng hơn 32 tỷ đồng"
+    },
+    {
+        "text": "GEE",
+        "label": "TICKER",
+        "evidence": "tại GEE"
+    },
+    {
+        "text": "được mua ròng gần 35 tỷ",
+        "label": "EVENT",
+        "evidence": "khi được mua ròng gần 35 tỷ"
+    },
+    {
+        "text": "35 tỷ",
+        "label": "MONEY",
+        "evidence": "gần 35 tỷ"
+    },
+    {
+        "text": "được mua ròng gần 35 tỷ",
+        "label": "VOLUME",
+        "evidence": "khi được mua ròng gần 35 tỷ"
+    }
+]

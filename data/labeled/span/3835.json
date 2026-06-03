@@ -1,0 +1,212 @@
+[
+    {
+        "text": "CNN",
+        "label": "ORG",
+        "evidence": "CNN ngày 10/3 cho biết, đoạn phim do quân đội Argentina chia sẻ vào cuối tháng 2 cho thấy quy mô áp đảo của một đội tàu gần vùng đặc quyền kinh tế EEZ của quốc gia Nam Mỹ này."
+    },
+    {
+        "text": "ngày 10/3",
+        "label": "DATE",
+        "evidence": "CNN ngày 10/3 cho biết, đoạn phim do quân đội Argentina chia sẻ vào cuối tháng 2 cho thấy quy mô áp đảo của một đội tàu gần vùng đặc quyền kinh tế EEZ của quốc gia Nam Mỹ này."
+    },
+    {
+        "text": "quân đội Argentina",
+        "label": "ORG",
+        "evidence": "CNN ngày 10/3 cho biết, đoạn phim do quân đội Argentina chia sẻ vào cuối tháng 2 cho thấy quy mô áp đảo của một đội tàu gần vùng đặc quyền kinh tế EEZ của quốc gia Nam Mỹ này."
+    },
+    {
+        "text": "cuối tháng 2",
+        "label": "DATE",
+        "evidence": "CNN ngày 10/3 cho biết, đoạn phim do quân đội Argentina chia sẻ vào cuối tháng 2 cho thấy quy mô áp đảo của một đội tàu gần vùng đặc quyền kinh tế EEZ của quốc gia Nam Mỹ này."
+    },
+    {
+        "text": "Hải quân Argentina",
+        "label": "ORG",
+        "evidence": "Theo Hải quân Argentina, khu vực này, cách bờ biển phía nam Argentina khoảng 200 hải lý, nổi tiếng với hoạt động đánh bắt cá bất hợp pháp và không được quản lý dẫn tới những lo ngại xâm phạm vào vùng EEZ của nước này."
+    },
+    {
+        "text": "hoạt động đánh bắt cá bất hợp pháp và không được quản lý",
+        "label": "EVENT",
+        "evidence": "Theo Hải quân Argentina, khu vực này, cách bờ biển phía nam Argentina khoảng 200 hải lý, nổi tiếng với hoạt động đánh bắt cá bất hợp pháp và không được quản lý dẫn tới những lo ngại xâm phạm vào vùng EEZ của nước này."
+    },
+    {
+        "text": "Quân đội Argentina",
+        "label": "ORG",
+        "evidence": "Quân đội Argentina hiện đang tăng cường nỗ lực ra quân giám sát nhằm ngăn chặn các hoạt động đánh bắt cá trái phép này."
+    },
+    {
+        "text": "tăng cường nỗ lực ra quân giám sát nhằm ngăn chặn các hoạt động đánh bắt cá trái phép này",
+        "label": "EVENT",
+        "evidence": "Quân đội Argentina hiện đang tăng cường nỗ lực ra quân giám sát nhằm ngăn chặn các hoạt động đánh bắt cá trái phép này."
+    },
+    {
+        "text": "Global Fishing Watch",
+        "label": "ORG",
+        "evidence": "Bằng cách phân tích dữ liệu nguồn mở từ tổ chức giám sát phi lợi nhuận Global Fishing Watch vài ngày sau khi quân đội Argentina đăng tải video về nhiệm vụ giám sát, CNN đã xác định được 198 tàu cá được nêu tên trong khu vực vào cuối tháng 2."
+    },
+    {
+        "text": "CNN",
+        "label": "ORG",
+        "evidence": "Bằng cách phân tích dữ liệu nguồn mở từ tổ chức giám sát phi lợi nhuận Global Fishing Watch vài ngày sau khi quân đội Argentina đăng tải video về nhiệm vụ giám sát, CNN đã xác định được 198 tàu cá được nêu tên trong khu vực vào cuối tháng 2."
+    },
+    {
+        "text": "198 tàu cá",
+        "label": "VOLUME",
+        "evidence": "Bằng cách phân tích dữ liệu nguồn mở từ tổ chức giám sát phi lợi nhuận Global Fishing Watch vài ngày sau khi quân đội Argentina đăng tải video về nhiệm vụ giám sát, CNN đã xác định được 198 tàu cá được nêu tên trong khu vực vào cuối tháng 2."
+    },
+    {
+        "text": "ngày 20/2",
+        "label": "DATE",
+        "evidence": "Các tàu đánh cá ngoài khơi bờ biển Argentina, được nhìn thấy vào ngày 20/2."
+    },
+    {
+        "text": "Bộ Quốc phòng Argentina",
+        "label": "ORG",
+        "evidence": "Ảnh: Bộ Quốc phòng Argentina"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "Hơn 80% trong số 198 tàu được CNN xác định đang di chuyển dưới cờ Trung Quốc."
+    },
+    {
+        "text": "198 tàu",
+        "label": "VOLUME",
+        "evidence": "Hơn 80% trong số 198 tàu được CNN xác định đang di chuyển dưới cờ Trung Quốc."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "Gần 10% tàu là của Tây Ban Nha và 5,5% khác được đăng ký tại Vương quốc Anh hoặc Quần đảo Malvinas/Falkland."
+    },
+    {
+        "text": "5,5%",
+        "label": "RATE",
+        "evidence": "Gần 10% tàu là của Tây Ban Nha và 5,5% khác được đăng ký tại Vương quốc Anh hoặc Quần đảo Malvinas/Falkland."
+    },
+    {
+        "text": "hoạt động đánh bắt cá bất hợp pháp",
+        "label": "EVENT",
+        "evidence": "Nhóm tàu ​​thuyền, trải dài hơn 200km từ bắc xuống nam, đã làm dấy lên mối lo ngại về hoạt động đánh bắt cá bất hợp pháp."
+    },
+    {
+        "text": "khoảng 500 trường hợp",
+        "label": "VOLUME",
+        "evidence": "Trong số khoảng 500 trường hợp các tàu cá này tắt hệ thống theo dõi trong năm qua, CNN phát hiện rằng hơn 92% liên quan đến tàu treo cờ Trung Quốc."
+    },
+    {
+        "text": "trong năm qua",
+        "label": "DATE",
+        "evidence": "Trong số khoảng 500 trường hợp các tàu cá này tắt hệ thống theo dõi trong năm qua, CNN phát hiện rằng hơn 92% liên quan đến tàu treo cờ Trung Quốc."
+    },
+    {
+        "text": "92%",
+        "label": "RATE",
+        "evidence": "Trong số khoảng 500 trường hợp các tàu cá này tắt hệ thống theo dõi trong năm qua, CNN phát hiện rằng hơn 92% liên quan đến tàu treo cờ Trung Quốc."
+    },
+    {
+        "text": "đánh bắt cá trái phép",
+        "label": "EVENT",
+        "evidence": "Các chuyên gia cho biết tình trạng đánh bắt cá trái phép đã hoành hành ở vùng ven biển Argentina trong nhiều thập kỷ, trong đó Hải quân Argentina cho biết các tàu Trung Quốc thường xuyên vi phạm vùng đặc quyền kinh tế."
+    },
+    {
+        "text": "Milko Schvartzman",
+        "label": "PERSON",
+        "evidence": "Theo chuyên gia về đánh bắt cá bất hợp pháp kiêm nhà bảo tồn Milko Schvartzman, mực ống, mục tiêu chính của các tàu đánh cá trong khu vực, đóng vai trò quan trọng trong chuỗi thức ăn ở vùng biển Argentina,"
+    },
+    {
+        "text": "Liên Hợp Quốc",
+        "label": "ORG",
+        "evidence": "Theo Liên Hợp Quốc, hoạt động đánh bắt cá bất hợp pháp, không báo cáo và không được quản lý có thể làm suy yếu những nỗ lực \"quản lý nghề cá bền vững và bảo tồn đa dạng sinh học biển\"."
+    },
+    {
+        "text": "hoạt động đánh bắt cá bất hợp pháp, không báo cáo và không được quản lý",
+        "label": "EVENT",
+        "evidence": "Theo Liên Hợp Quốc, hoạt động đánh bắt cá bất hợp pháp, không báo cáo và không được quản lý có thể làm suy yếu những nỗ lực \"quản lý nghề cá bền vững và bảo tồn đa dạng sinh học biển\"."
+    },
+    {
+        "text": "nguồn tài nguyên đánh bắt cá trong nước cạn kiệt, các đội tàu của Trung Quốc đã được phát hiện ngoài khơi bờ biển Tây Phi, Nam Mỹ",
+        "label": "EVENT",
+        "evidence": "CNN cho biết, hiện nay khi nguồn tài nguyên đánh bắt cá trong nước cạn kiệt, các đội tàu của Trung Quốc đã được phát hiện ngoài khơi bờ biển Tây Phi, Nam Mỹ...."
+    },
+    {
+        "text": "Planet Labs",
+        "label": "ORG",
+        "evidence": "Hình ảnh vệ tinh thu được từ Planet Labs cho thấy Ning Tai 52, một tàu cá treo cờ Trung Quốc, đang hoạt động vào ngày 28/2."
+    },
+    {
+        "text": "ngày 28/2",
+        "label": "DATE",
+        "evidence": "Hình ảnh vệ tinh thu được từ Planet Labs cho thấy Ning Tai 52, một tàu cá treo cờ Trung Quốc, đang hoạt động vào ngày 28/2."
+    },
+    {
+        "text": "nhu cầu về hải sản cũng tăng vọt",
+        "label": "EVENT",
+        "evidence": "Khi Trung Quốc ngày càng giàu có, nhu cầu về hải sản cũng tăng vọt."
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "Quốc gia này hiện là nước tiêu thụ hải sản lớn nhất thế giới và theo một ước tính, dự kiến ​​sẽ thúc đẩy 40% mức tăng trưởng tiêu thụ hải sản của thế giới vào năm 2030."
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "Quốc gia này hiện là nước tiêu thụ hải sản lớn nhất thế giới và theo một ước tính, dự kiến ​​sẽ thúc đẩy 40% mức tăng trưởng tiêu thụ hải sản của thế giới vào năm 2030."
+    },
+    {
+        "text": "Chính quyền Argentina",
+        "label": "ORG",
+        "evidence": "Chính quyền Argentina cho biết đội tàu đánh cá xa bờ của Trung Quốc thường xuyên di chuyển hàng ngàn km để tìm kiếm các loài cá có giá trị thương mại."
+    },
+    {
+        "text": "Schvartzman",
+        "label": "PERSON",
+        "evidence": "Chuyên gia Schvartzman nói rằng việc tiếp cận đội tàu đánh cá vào ban đêm cũng giống như ngắm bình minh."
+    },
+    {
+        "text": "Hiệp hội chủ sở hữu đồ câu mực Argentina",
+        "label": "ORG",
+        "evidence": "Theo Giám đốc điều hành Hiệp hội chủ sở hữu đồ câu mực Argentina Darío Sócrate, để so sánh, đội tàu của Argentina được phép đánh bắt bên trong EEZ chỉ có khoảng 70 đến 75 tàu, trong khi số tàu nước ngoài ở vùng biển ngoài EEZ là 550 tàu."
+    },
+    {
+        "text": "Darío Sócrate",
+        "label": "PERSON",
+        "evidence": "Theo Giám đốc điều hành Hiệp hội chủ sở hữu đồ câu mực Argentina Darío Sócrate, để so sánh, đội tàu của Argentina được phép đánh bắt bên trong EEZ chỉ có khoảng 70 đến 75 tàu, trong khi số tàu nước ngoài ở vùng biển ngoài EEZ là 550 tàu."
+    },
+    {
+        "text": "khoảng 70 đến 75 tàu",
+        "label": "VOLUME",
+        "evidence": "Theo Giám đốc điều hành Hiệp hội chủ sở hữu đồ câu mực Argentina Darío Sócrate, để so sánh, đội tàu của Argentina được phép đánh bắt bên trong EEZ chỉ có khoảng 70 đến 75 tàu, trong khi số tàu nước ngoài ở vùng biển ngoài EEZ là 550 tàu."
+    },
+    {
+        "text": "550 tàu",
+        "label": "VOLUME",
+        "evidence": "Theo Giám đốc điều hành Hiệp hội chủ sở hữu đồ câu mực Argentina Darío Sócrate, để so sánh, đội tàu của Argentina được phép đánh bắt bên trong EEZ chỉ có khoảng 70 đến 75 tàu, trong khi số tàu nước ngoài ở vùng biển ngoài EEZ là 550 tàu."
+    },
+    {
+        "text": "Sócrate",
+        "label": "PERSON",
+        "evidence": "Sự mất cân bằng này gây hại cho ngư dân Argentina, ông Sócrate nói."
+    },
+    {
+        "text": "hơn 550 tàu",
+        "label": "VOLUME",
+        "evidence": "\"Không có nơi nào trên thế giới mà trong một dải đại dương ngắn, bạn có hơn 550 tàu đánh cá mà không có bất kỳ quy định nào\", chuyên gia Schvartzman nói thêm."
+    },
+    {
+        "text": "Bộ Ngoại giao Trung Quốc",
+        "label": "ORG",
+        "evidence": "Bộ Ngoại giao Trung Quốc cho biết trong một tuyên bố với CNN rằng Trung Quốc là một \"quốc gia đánh bắt cá có trách nhiệm\", \"tuân thủ nghiêm ngặt các quy định đánh bắt cá trên biển và vùng đặc quyền kinh tế của các quốc gia ven biển\", đồng thời \"không khoan nhượng với hành vi đánh bắt cá bất hợp pháp và kiên quyết trấn áp mạnh tay\"."
+    },
+    {
+        "text": "Trung Quốc là một \"quốc gia đánh bắt cá có trách nhiệm\", \"tuân thủ nghiêm ngặt các quy định đánh bắt cá trên biển và vùng đặc quyền kinh tế của các quốc gia ven biển\", đồng thời \"không khoan nhượng với hành vi đánh bắt cá bất hợp pháp và kiên quyết trấn áp mạnh tay\"",
+        "label": "EVENT",
+        "evidence": "Bộ Ngoại giao Trung Quốc cho biết trong một tuyên bố với CNN rằng Trung Quốc là một \"quốc gia đánh bắt cá có trách nhiệm\", \"tuân thủ nghiêm ngặt các quy định đánh bắt cá trên biển và vùng đặc quyền kinh tế của các quốc gia ven biển\", đồng thời \"không khoan nhượng với hành vi đánh bắt cá bất hợp pháp và kiên quyết trấn áp mạnh tay\"."
+    },
+    {
+        "text": "Trung Quốc đã \"tích cực tham gia vào việc xây dựng các quy tắc quốc tế liên quan đến trợ cấp nghề cá\"",
+        "label": "EVENT",
+        "evidence": "Báo cáo cũng cho biết thêm rằng Trung Quốc đã \"tích cực tham gia vào việc xây dựng các quy tắc quốc tế liên quan đến trợ cấp nghề cá\", đã \"góp phần bảo tồn và sử dụng bền vững nguồn lợi thủy sản cũng như duy trì trật tự hàng hải quốc tế công bằng và hợp lý\"."
+    }
+]

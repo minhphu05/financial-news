@@ -1,0 +1,242 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV và MBgần đây cho biết"
+    },
+    {
+        "text": "MB",
+        "label": "ORG",
+        "evidence": "BIDV và MBgần đây cho biết"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "hoạt động mua bán vàng"
+    },
+    {
+        "text": "mua bán vàng",
+        "label": "EVENT",
+        "evidence": "hoạt động mua bán vàng"
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước Việt Nam và các cơ quan chức năng"
+    },
+    {
+        "text": "cảnh báo từ Ngân hàng Nhà nước Việt Nam",
+        "label": "EVENT",
+        "evidence": "Theo cảnh báo từ Ngân hàng Nhà nước Việt Nam và các cơ quan chức năng, thời gian qua, các đối tượng mạo danh thương hiệu một số doanh nghiệp kinh doanh mua, bán vàng thực hiện các thủ đoạn lừa đảo như:"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "doanh nghiệp kinh doanh mua, bán vàng"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "doanh nghiệp kinh doanh vàng lớn"
+    },
+    {
+        "text": "giá vàng/bạc",
+        "label": "PRICE",
+        "evidence": "thông tin giả mạo về giá vàng/bạc"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "giá vàng/bạc"
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "giá vàng/bạc"
+    },
+    {
+        "text": "chiết khấu cao",
+        "label": "RATE",
+        "evidence": "các chương trình khuyến mãi, chiết khấu cao, tặng thưởng lớn"
+    },
+    {
+        "text": "mua bán vàng online",
+        "label": "EVENT",
+        "evidence": "Mời gọi giao dịch mua bán vàng online"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "mua bán vàng online"
+    },
+    {
+        "text": "lợi nhuận cao",
+        "label": "RATE",
+        "evidence": "cam kết lợi nhuận cao"
+    },
+    {
+        "text": "trả lãi theo ngày hoặc tuần",
+        "label": "RATE",
+        "evidence": "trả lãi theo ngày hoặc tuần"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "công ty vàng/bạc"
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "công ty vàng/bạc"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "nhân viên công ty vàng/bạc"
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "nhân viên công ty vàng/bạc"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "cơ sở kinh doanh vàng được cấp giấy phép"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "\"Địa điểm được NHNN cấp phép kinh doanh mua, bán vàng miếng\""
+    },
+    {
+        "text": "kinh doanh mua, bán vàng miếng",
+        "label": "EVENT",
+        "evidence": "\"Địa điểm được NHNN cấp phép kinh doanh mua, bán vàng miếng\""
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "kinh doanh mua, bán vàng miếng"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHBcũng cho biết"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "thương hiệu kinh doanh vàng uy tín"
+    },
+    {
+        "text": "SJC",
+        "label": "ORG",
+        "evidence": "SJC, DOJI, Bảo Tín Minh Châu, Phú Quý"
+    },
+    {
+        "text": "DOJI",
+        "label": "ORG",
+        "evidence": "SJC, DOJI, Bảo Tín Minh Châu, Phú Quý"
+    },
+    {
+        "text": "Bảo Tín Minh Châu",
+        "label": "ORG",
+        "evidence": "SJC, DOJI, Bảo Tín Minh Châu, Phú Quý"
+    },
+    {
+        "text": "Phú Quý",
+        "label": "ORG",
+        "evidence": "SJC, DOJI, Bảo Tín Minh Châu, Phú Quý"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "các tổ chức tín dụng được cấp phép như SHB"
+    },
+    {
+        "text": "giá vàng/bạc",
+        "label": "PRICE",
+        "evidence": "tung tin giả về giá vàng/bạc"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "giá vàng/bạc"
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "giá vàng/bạc"
+    },
+    {
+        "text": "chiết khấu cao",
+        "label": "RATE",
+        "evidence": "quảng bá các chương trình khuyến mãi, chiết khấu cao"
+    },
+    {
+        "text": "đầu tư online",
+        "label": "EVENT",
+        "evidence": "mời gọi đầu tư online"
+    },
+    {
+        "text": "lãi cao",
+        "label": "RATE",
+        "evidence": "cam kết lãi cao"
+    },
+    {
+        "text": "trả lãi theo ngày/tuần",
+        "label": "RATE",
+        "evidence": "trả lãi theo ngày/tuần"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "nhân viên công ty vàng"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "Đại diện SHB cảnh báo khách hàng"
+    },
+    {
+        "text": "giao dịch vàng/bạc",
+        "label": "EVENT",
+        "evidence": "KHÔNG giao dịch vàng/bạc qua các kênh không chính thống"
+    },
+    {
+        "text": "vàng",
+        "label": "ASSET",
+        "evidence": "giao dịch vàng/bạc"
+    },
+    {
+        "text": "bạc",
+        "label": "ASSET",
+        "evidence": "giao dịch vàng/bạc"
+    },
+    {
+        "text": "đầu tư sinh lời cao",
+        "label": "EVENT",
+        "evidence": "lời mời chào đầu tư sinh lời cao"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB nhấn mạnh"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "SHB khẳng định không yêu cầu khách hàng cung cấp thông tin cá nhân"
+    },
+    {
+        "text": "giao dịch mua, bán vàng miếng",
+        "label": "EVENT",
+        "evidence": "thực hiện giao dịch mua, bán vàng miếng trực tiếp"
+    },
+    {
+        "text": "vàng miếng",
+        "label": "ASSET",
+        "evidence": "giao dịch mua, bán vàng miếng"
+    }
+]

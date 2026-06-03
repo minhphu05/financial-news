@@ -1,0 +1,127 @@
+[
+    {
+        "text": "Cập nhật quy tắc đặt mật khẩu",
+        "label": "EVENT",
+        "evidence": "Trong đó bao gồm: Cập nhật quy tắc đặt mật khẩu; Cảnh báo thời hạn hiệu lực của mật khẩu và smart OTP trước ngày hết hạn, Facepay bảo mật."
+    },
+    {
+        "text": "Cảnh báo thời hạn hiệu lực của mật khẩu và smart OTP trước ngày hết hạn",
+        "label": "EVENT",
+        "evidence": "Trong đó bao gồm: Cập nhật quy tắc đặt mật khẩu; Cảnh báo thời hạn hiệu lực của mật khẩu và smart OTP trước ngày hết hạn, Facepay bảo mật."
+    },
+    {
+        "text": "smart OTP",
+        "label": "ASSET",
+        "evidence": "Cảnh báo thời hạn hiệu lực của mật khẩu và smart OTP trước ngày hết hạn, Facepay bảo mật."
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "Cảnh báo thời hạn hiệu lực của mật khẩu và smart OTP trước ngày hết hạn, Facepay bảo mật."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Đối với mật khẩu đăng nhập VCB Digibank và VCB DigiBiz, độ dài phải tối thiểu 8 ký tự."
+    },
+    {
+        "text": "VCB DigiBiz",
+        "label": "ASSET",
+        "evidence": "Đối với mật khẩu đăng nhập VCB Digibank và VCB DigiBiz, độ dài phải tối thiểu 8 ký tự."
+    },
+    {
+        "text": "Smart OTP",
+        "label": "ASSET",
+        "evidence": "Khi thay đổi mật khẩu, khách hàng cần xác thực giao dịch bằng SMS OTP hoặc Smart OTP."
+    },
+    {
+        "text": "Smart OTP",
+        "label": "ASSET",
+        "evidence": "Thời hạn hiệu lực mã PIN của Smart OTP tối đa là 12 tháng (365 ngày)."
+    },
+    {
+        "text": "12 tháng (365 ngày)",
+        "label": "DATE",
+        "evidence": "Thời hạn hiệu lực mã PIN của Smart OTP tối đa là 12 tháng (365 ngày)."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank sẽ có cảnh báo cho khách hàng trong vòng 10 ngày trước ngày hết hạn mật khẩu."
+    },
+    {
+        "text": "10 ngày",
+        "label": "DATE",
+        "evidence": "Vietcombank sẽ có cảnh báo cho khách hàng trong vòng 10 ngày trước ngày hết hạn mật khẩu."
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "Với tính năng Facepay, ngân hàng sẽ khóa xác thực bằng sinh trắc học (Facepay) khi khách hàng thực hiện xác thực Facepay không thành công 10 lần liên tiếp."
+    },
+    {
+        "text": "khóa xác thực bằng sinh trắc học (Facepay)",
+        "label": "EVENT",
+        "evidence": "Với tính năng Facepay, ngân hàng sẽ khóa xác thực bằng sinh trắc học (Facepay) khi khách hàng thực hiện xác thực Facepay không thành công 10 lần liên tiếp."
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "khách hàng thực hiện xác thực Facepay không thành công 10 lần liên tiếp."
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "Để mở khóa Facepay, khách hàng thực hiện thu thập lại dữ liệu sinh trắc học theo các quy trình hiện hành của Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Để mở khóa Facepay, khách hàng thực hiện thu thập lại dữ liệu sinh trắc học theo các quy trình hiện hành của Vietcombank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank lưu ý, khách hàng cần cập nhật ngay VCB Digibank & VCB DigiBiz phiên bản mới nhất."
+    },
+    {
+        "text": "cập nhật ngay VCB Digibank & VCB DigiBiz phiên bản mới nhất",
+        "label": "EVENT",
+        "evidence": "Vietcombank lưu ý, khách hàng cần cập nhật ngay VCB Digibank & VCB DigiBiz phiên bản mới nhất."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ASSET",
+        "evidence": "Vietcombank lưu ý, khách hàng cần cập nhật ngay VCB Digibank & VCB DigiBiz phiên bản mới nhất."
+    },
+    {
+        "text": "VCB DigiBiz",
+        "label": "ASSET",
+        "evidence": "Vietcombank lưu ý, khách hàng cần cập nhật ngay VCB Digibank & VCB DigiBiz phiên bản mới nhất."
+    },
+    {
+        "text": "Smart OTP",
+        "label": "ASSET",
+        "evidence": "Đồng thời, khách hàng kiểm tra lại mật khẩu, mã PIN Smart OTP & tính năng Facepay để đảm bảo giao dịch an toàn."
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "Đồng thời, khách hàng kiểm tra lại mật khẩu, mã PIN Smart OTP & tính năng Facepay để đảm bảo giao dịch an toàn."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, ngân hàng khuyến cáo luôn cảnh giác với các email/cuộc gọi giả mạo và Vietcombank khẳng định KHÔNG gửi link yêu cầu cung cấp thông tin cá nhân!"
+    },
+    {
+        "text": "smart OTP",
+        "label": "ASSET",
+        "evidence": "- Thiết lập mật khẩu, mã PIN smart OTP (mã PIN) theo đúng hướng dẫn khi đăng ký dịch vụ;không nên sử dụng thông tin cá nhân dễ đoán để làm mật khẩu;thay đổi mật khẩu, mã PIN thường xuyên (tối thiểu 12 tháng/lần); bảo vệ mật khẩu, mã PIN và không chia sẻ thiết bị lưu trữ các thông tin này."
+    },
+    {
+        "text": "12 tháng/lần",
+        "label": "DATE",
+        "evidence": "- Thiết lập mật khẩu, mã PIN smart OTP (mã PIN) theo đúng hướng dẫn khi đăng ký dịch vụ;không nên sử dụng thông tin cá nhân dễ đoán để làm mật khẩu;thay đổi mật khẩu, mã PIN thường xuyên (tối thiểu 12 tháng/lần); bảo vệ mật khẩu, mã PIN và không chia sẻ thiết bị lưu trữ các thông tin này."
+    }
+]

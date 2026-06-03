@@ -1,0 +1,26 @@
+# -------------------------------
+# Vocabulary & Embedding
+# -------------------------------
+vocab_size: 50000        # sẽ được overwrite khi load vocab
+embedding_dim: 300       # = embedding_dim trong model
+padding_idx: 0
+
+# -------------------------------
+# CNN Parameters
+# -------------------------------
+filter_size:             # các n-gram sizes
+  - 3
+  - 5
+  - 7
+
+n_filters: 100            # số filters cho MỖI kernel size
+
+# -------------------------------
+# Classification Head
+# -------------------------------
+num_tags: 9               # số nhãn output (VD: NER tags hoặc classes)
+
+# -------------------------------
+# Regularization
+# -------------------------------
+dropout: 0.3

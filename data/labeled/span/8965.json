@@ -1,0 +1,432 @@
+[
+    {
+        "text": "17/8",
+        "label": "DATE",
+        "evidence": "Thị trường chứng khoán Việt Nam chịu áp lực bán khá mạnh từ nhóm cổ phiếu vốn hóa lớn trong phiên 17/8."
+    },
+    {
+        "text": "chịu áp lực bán khá mạnh từ nhóm cổ phiếu vốn hóa lớn",
+        "label": "EVENT",
+        "evidence": "Thị trường chứng khoán Việt Nam chịu áp lực bán khá mạnh từ nhóm cổ phiếu vốn hóa lớn trong phiên 17/8."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "VN-Index đóng cửa ở mốc thấp nhất, đánh mất toàn bộ thành quả phiên tăng giá liền trước."
+    },
+    {
+        "text": "đóng cửa ở mốc thấp nhất, đánh mất toàn bộ thành quả phiên tăng giá liền trước",
+        "label": "EVENT",
+        "evidence": "VN-Index đóng cửa ở mốc thấp nhất, đánh mất toàn bộ thành quả phiên tăng giá liền trước."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "giảm 9,78 điểm (-0,79%)",
+        "label": "EVENT",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "-0,79%",
+        "label": "RATE",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "1.233,48 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "HNX-Index",
+        "label": "TICKER",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "giảm 2,59 điểm",
+        "label": "EVENT",
+        "evidence": "Kết phiên, VN-Index giảm 2,59 điểm xuống 249,97 điểm;"
+    },
+    {
+        "text": "249,97 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "TICKER",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "giảm 0,93 điểm",
+        "label": "EVENT",
+        "evidence": "UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "92,74 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên, VN-Index giảm 9,78 điểm (-0,79%) xuống 1.233,48 điểm; HNX-Index giảm 2,59 điểm xuống 249,97 điểm; UPCoM-Index giảm 0,93 điểm xuống 92,74 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước với giá trị khớp lệnh đạt hơn 23.700 tỷ đồng (xấp xỉ 1 tỷ USD)."
+    },
+    {
+        "text": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước",
+        "label": "EVENT",
+        "evidence": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước với giá trị khớp lệnh đạt hơn 23.700 tỷ đồng (xấp xỉ 1 tỷ USD)."
+    },
+    {
+        "text": "giá trị khớp lệnh đạt hơn 23.700 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước với giá trị khớp lệnh đạt hơn 23.700 tỷ đồng (xấp xỉ 1 tỷ USD)."
+    },
+    {
+        "text": "23.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước với giá trị khớp lệnh đạt hơn 23.700 tỷ đồng (xấp xỉ 1 tỷ USD)."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Thanh khoản trên HoSE bật tăng mạnh so với phiên trước với giá trị khớp lệnh đạt hơn 23.700 tỷ đồng (xấp xỉ 1 tỷ USD)."
+    },
+    {
+        "text": "mua ròng﻿ xấp xỉ 52 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong bối cảnh đó, giao dịch khối ngoại khá cân bằng khi mua ròng﻿ xấp xỉ 52 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "52 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong bối cảnh đó, giao dịch khối ngoại khá cân bằng khi mua ròng﻿ xấp xỉ 52 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ 110 tỷ đồng"
+    },
+    {
+        "text": "mua ròng với giá trị xấp xỉ 110 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ 110 tỷ đồng"
+    },
+    {
+        "text": "110 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HOSE, khối ngoại mua ròng với giá trị xấp xỉ 110 tỷ đồng"
+    },
+    {
+        "text": "cổ phiếu ngân hàng CTG",
+        "label": "ASSET",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "được mua ròng mạnh nhất với giá trị 193 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "193 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "134 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 193 tỷ đồng; VIC xếp thứ 2 danh sách mua ròng mạnh với 134 tỷ đồng."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, HPG, SSI và VNM cũng được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, HPG, SSI và VNM cũng được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "VNM",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, HPG, SSI và VNM cũng được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, HPG, SSI và VNM cũng được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "49-99 tỷ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, HPG, SSI và VNM cũng được mua ròng mạnh từ 49-99 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, MSN, MWG và VPB bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "MWG",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, MSN, MWG và VPB bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, MSN, MWG và VPB bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã",
+        "label": "EVENT",
+        "evidence": "Chiều ngược lại, MSN, MWG và VPB bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "50 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều ngược lại, MSN, MWG và VPB bị bán mạnh nhất với giá trị trên 50 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "CCQ E1VFVN30",
+        "label": "ASSET",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "E1VFVN30",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "PVT",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "39",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "20 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, CCQ E1VFVN30 và PVT xếp tiếp theo danh sách bán ròng mạnh với giá trị bán lần lượt là 39 và 20 tỷ đồng."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại bán ròng mạnh 67 tỷ đồng"
+    },
+    {
+        "text": "bán ròng mạnh 67 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại bán ròng mạnh 67 tỷ đồng"
+    },
+    {
+        "text": "67 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại bán ròng mạnh 67 tỷ đồng"
+    },
+    {
+        "text": "PVS",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "57 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "DTD",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "PVI",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, khối ngoại bán ròng mạnh nhất tại PVS khoảng 57 tỷ đồng, theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "bị bán từ 2-15 tỷ đồng mỗi cổ phiếu",
+        "label": "EVENT",
+        "evidence": "theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "2-15 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "theo sau TNG, DTD, NVB, PVI bị bán từ 2-15 tỷ đồng mỗi cổ phiếu."
+    },
+    {
+        "text": "cổ phiếu BVS",
+        "label": "ASSET",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "BVS",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "được khối ngoại mua 8 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "8 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "TIG",
+        "label": "TICKER",
+        "evidence": "Chiều mua, cổ phiếu BVS hôm nay được khối ngoại mua 8 tỷ đồng, tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "cũng đồng loạt được mua ròng vài tỷ đồng",
+        "label": "EVENT",
+        "evidence": "tương tự, IDC, TIG cũng đồng loạt được mua ròng vài tỷ đồng."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "T﻿rên UPCoM, khối ngoại mua ròng xấp xỉ 9 tỷ đồng"
+    },
+    {
+        "text": "mua ròng xấp xỉ 9 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "T﻿rên UPCoM, khối ngoại mua ròng xấp xỉ 9 tỷ đồng"
+    },
+    {
+        "text": "9 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "T﻿rên UPCoM, khối ngoại mua ròng xấp xỉ 9 tỷ đồng"
+    },
+    {
+        "text": "Cổ phiếu LTG",
+        "label": "ASSET",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "được khối ngoại mua ròng 4 tỷ",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "4 tỷ",
+        "label": "MONEY",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "được mua ròng mỗi mã 2 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "2 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Cổ phiếu LTG được khối ngoại mua ròng 4 tỷ, theo sau QNS, VTP, BSR đều được mua ròng mỗi mã 2 tỷ đồng trên UPCoM."
+    },
+    {
+        "text": "MPC",
+        "label": "TICKER",
+        "evidence": "Chiều ngược lại, MPC bị xả 3 tỷ đồng, xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "bị xả 3 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Chiều ngược lại, MPC bị xả 3 tỷ đồng, xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chiều ngược lại, MPC bị xả 3 tỷ đồng, xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "TCI",
+        "label": "TICKER",
+        "evidence": "xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "RIC",
+        "label": "TICKER",
+        "evidence": "xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "ACE",
+        "label": "TICKER",
+        "evidence": "xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    },
+    {
+        "text": "bị bán ròng với giá trị vài trăm triệu đồng",
+        "label": "EVENT",
+        "evidence": "xếp tiếp theo TCI, RIC, ACE,.. cũng bị bán ròng với giá trị vài trăm triệu đồng."
+    }
+]

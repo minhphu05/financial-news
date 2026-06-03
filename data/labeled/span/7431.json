@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank vừa phát đi cảnh báo thủ đoạn mạo danh nhân viên Vietcombank chào mời mở thẻ tín dụng."
+    },
+    {
+        "text": "phát đi cảnh báo thủ đoạn mạo danh nhân viên Vietcombank chào mời mở thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Vietcombank vừa phát đi cảnh báo thủ đoạn mạo danh nhân viên Vietcombank chào mời mở thẻ tín dụng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Vietcombank vừa phát đi cảnh báo thủ đoạn mạo danh nhân viên Vietcombank chào mời mở thẻ tín dụng."
+    },
+    {
+        "text": "phát hành thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng cho biết, thời gian vừa qua tiếp tục xuất hiện và gia tăng hình thức lừa đảo mạo danh nhân viên/tổng đài Vietcombank liên hệ mời phát hành thẻ tín dụng."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "mở thẻ ghi nợ phi vật lý",
+        "label": "EVENT",
+        "evidence": "Kẻ gian tự nhận là nhân viên ngân hàng gọi điện, gửi tin nhắn (SMS, Zalo, messenger…) thuyết phục khách hàng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "đăng ký phát hành thẻ ghi nợ",
+        "label": "EVENT",
+        "evidence": "Kẻ gian yêu cầu khách hàng đăng ký phát hành thẻ ghi nợ, cung cấp thông tin thẻ ghi nợ mới phát hành, và dùng các thông tin thẻ đó để thực hiện liên kết thẻ của khách hàng với Ví điện tử của chúng hoặc sử dụng thẻ thanh toán trực tuyến trên các trang thương mại điện tử (mua các mặt hàng có giá trị cao như iPhone, MacBook …), từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ ghi nợ",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng đăng ký phát hành thẻ ghi nợ, cung cấp thông tin thẻ ghi nợ mới phát hành, và dùng các thông tin thẻ đó để thực hiện liên kết thẻ của khách hàng với Ví điện tử của chúng hoặc sử dụng thẻ thanh toán trực tuyến trên các trang thương mại điện tử (mua các mặt hàng có giá trị cao như iPhone, MacBook …), từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "Ví điện tử",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng đăng ký phát hành thẻ ghi nợ, cung cấp thông tin thẻ ghi nợ mới phát hành, và dùng các thông tin thẻ đó để thực hiện liên kết thẻ của khách hàng với Ví điện tử của chúng hoặc sử dụng thẻ thanh toán trực tuyến trên các trang thương mại điện tử (mua các mặt hàng có giá trị cao như iPhone, MacBook …), từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ thanh toán",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng đăng ký phát hành thẻ ghi nợ, cung cấp thông tin thẻ ghi nợ mới phát hành, và dùng các thông tin thẻ đó để thực hiện liên kết thẻ của khách hàng với Ví điện tử của chúng hoặc sử dụng thẻ thanh toán trực tuyến trên các trang thương mại điện tử (mua các mặt hàng có giá trị cao như iPhone, MacBook …), từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng đăng ký phát hành thẻ ghi nợ, cung cấp thông tin thẻ ghi nợ mới phát hành, và dùng các thông tin thẻ đó để thực hiện liên kết thẻ của khách hàng với Ví điện tử của chúng hoặc sử dụng thẻ thanh toán trực tuyến trên các trang thương mại điện tử (mua các mặt hàng có giá trị cao như iPhone, MacBook …), từ đó chiếm đoạt tiền trong thẻ của khách hàng."
+    },
+    {
+        "text": "VCB Digibank",
+        "label": "ORG",
+        "evidence": "Các thông tin mà đối tượng yêu cầu cung cấp thường bao gồm: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trên VCB Digibank; mã OTP…"
+    },
+    {
+        "text": "mã OTP",
+        "label": "ASSET",
+        "evidence": "Các thông tin mà đối tượng yêu cầu cung cấp thường bao gồm: Hình ảnh thẻ; dãy số in trên thẻ; tên trên thẻ; màn hình hiển thị số thẻ đầy đủ trên VCB Digibank; mã OTP…"
+    },
+    {
+        "text": "số tài khoản",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng cung cấp thông tin số tài khoản, thông tin cá nhân (CCCD, hình ảnh sinh trắc học…), thông tin bảo mật dịch vụ (mật khẩu, OTP …) để đăng nhập ứng dụng ngân hàng và chiếm đoạt tài sản của khách hàng."
+    },
+    {
+        "text": "OTP",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng cung cấp thông tin số tài khoản, thông tin cá nhân (CCCD, hình ảnh sinh trắc học…), thông tin bảo mật dịch vụ (mật khẩu, OTP …) để đăng nhập ứng dụng ngân hàng và chiếm đoạt tài sản của khách hàng."
+    },
+    {
+        "text": "chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Kẻ gian yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "tài khoản",
+        "label": "ASSET",
+        "evidence": "Kẻ gian yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Kẻ gian yêu cầu khách hàng chuyển tiền đến tài khoản của chúng hoặc một tài khoản khác với mục đích \"nâng điểm tín dụng để có đủ điều kiện phát hành thẻ\", từ đó chiếm đoạt tiền của khách hàng."
+    },
+    {
+        "text": "chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "Trong quá trình lừa đảo, kẻ gian có thể yêu cầu khách hàng chuyển tiền thanh toán phí hồ sơ, phí phát hành thẻ…."
+    },
+    {
+        "text": "Facebook Vietcombank",
+        "label": "ORG",
+        "evidence": "Tài khoản Facebook Vietcombank có dấu tích xanh do Facebook xác nhận"
+    },
+    {
+        "text": "Facebook",
+        "label": "ORG",
+        "evidence": "Tài khoản Facebook Vietcombank có dấu tích xanh do Facebook xác nhận"
+    }
+]

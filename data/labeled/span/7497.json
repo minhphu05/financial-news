@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng."
+    },
+    {
+        "text": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "Vietcombank vừa gửi email cảnh báo về tình trạng kẻ gian mạo danh nhân viên ngân hàng để lừa đảo, đặc biệt là trong việc mở thẻ tín dụng."
+    },
+    {
+        "text": "thẻ ghi nợ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "Theo nội dung cảnh báo, các đối tượng lừa đảo thường tự xưng là nhân viên ngân hàng, liên hệ qua điện thoại, tin nhắn SMS, Zalo hoặc Messenger để thuyết phục người dùng chủ động mở thẻ ghi nợ phi vật lý hoặc làm hồ sơ phát hành thẻ tín dụng tại ngân hàng."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, một chiêu thức khác được ghi nhận là kẻ gian yêu cầu người dùng cung cấp thông tin thẻ để liên kết với ví điện tử, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "ví điện tử",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, một chiêu thức khác được ghi nhận là kẻ gian yêu cầu người dùng cung cấp thông tin thẻ để liên kết với ví điện tử, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "tiền trong thẻ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, một chiêu thức khác được ghi nhận là kẻ gian yêu cầu người dùng cung cấp thông tin thẻ để liên kết với ví điện tử, từ đó chiếm đoạt tiền trong thẻ."
+    },
+    {
+        "text": "phí hồ sơ",
+        "label": "MONEY",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "phí phát hành thẻ",
+        "label": "MONEY",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "số tiền này",
+        "label": "MONEY",
+        "evidence": "Trong một số trường hợp, kẻ lừa đảo còn yêu cầu chuyển tiền để thanh toán phí hồ sơ hoặc phí phát hành thẻ, rồi nhanh chóng chiếm đoạt số tiền này."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Không chỉ Vietcombank, BIDV cũng ghi nhận nhiều trường hợp người dùng bị lừa đảo qua hình thức mạo danh shipper."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Không chỉ Vietcombank, BIDV cũng ghi nhận nhiều trường hợp người dùng bị lừa đảo qua hình thức mạo danh shipper."
+    },
+    {
+        "text": "tiền",
+        "label": "MONEY",
+        "evidence": "Sau khi nhận tiền, kẻ gian sẽ cắt đứt liên lạc hoặc thông báo khách hàng đã chuyển nhầm tài khoản và hướng dẫn truy cập vào các đường link giả mạo để kích hoạt dịch vụ."
+    },
+    {
+        "text": "tài khoản",
+        "label": "ASSET",
+        "evidence": "Sau khi nhận tiền, kẻ gian sẽ cắt đứt liên lạc hoặc thông báo khách hàng đã chuyển nhầm tài khoản và hướng dẫn truy cập vào các đường link giả mạo để kích hoạt dịch vụ."
+    },
+    {
+        "text": "tài khoản ngân hàng",
+        "label": "ASSET",
+        "evidence": "Khi người bị hại làm theo, toàn bộ thông tin cá nhân và tài khoản ngân hàng sẽ bị đánh cắp."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    },
+    {
+        "text": "khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email",
+        "label": "EVENT",
+        "evidence": "Do đó, cả Vietcombank và BIDV đều khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân và thông tin thẻ cho bất kỳ ai qua điện thoại, tin nhắn hay email."
+    }
+]

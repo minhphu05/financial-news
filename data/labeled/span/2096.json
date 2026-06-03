@@ -1,0 +1,572 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT sẽ đặt cược tương lai và sinh mệnh vào AI"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mới đây, FPT vừa vượt qua các doanh nghiệp Ấn Độ để thắng hợp đồng trị giá 200 triệu USD cho một khách hàng ở thị trường Mỹ."
+    },
+    {
+        "text": "EVENT: thắng hợp đồng trị giá 200 triệu USD cho một khách hàng ở thị trường Mỹ",
+        "label": "EVENT",
+        "evidence": "FPT vừa vượt qua các doanh nghiệp Ấn Độ để thắng hợp đồng trị giá 200 triệu USD cho một khách hàng ở thị trường Mỹ."
+    },
+    {
+        "text": "200 triệu USD",
+        "label": "MONEY",
+        "evidence": "thắng hợp đồng trị giá 200 triệu USD cho một khách hàng ở thị trường Mỹ."
+    },
+    {
+        "text": "Nguyễn Văn Khoa",
+        "label": "PERSON",
+        "evidence": "ôngNguyễn Văn Khoa – Tổng Giám đốc FPTtiết lộ trong sự kiện công bố FPT Techday 2024 với chủ đề Future Now."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "ôngNguyễn Văn Khoa – Tổng Giám đốc FPTtiết lộ trong sự kiện công bố FPT Techday 2024 với chủ đề Future Now."
+    },
+    {
+        "text": "EVENT: công bố FPT Techday 2024 với chủ đề Future Now",
+        "label": "EVENT",
+        "evidence": "tiết lộ trong sự kiện công bố FPT Techday 2024 với chủ đề Future Now."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT từng bị giới chuyên môn đánh giá là ‘giỏi làm thợ hơn giỏi làm thầy’;"
+    },
+    {
+        "text": "95%",
+        "label": "RATE",
+        "evidence": "doanh thu từ xuất khẩu phần mềm chiếm 95% tổng doanh thu toàn Tập đoàn"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "mảng này chỉ còn chiếm 30%."
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Theo Báo cáo tài chính của Tập đoàn FPT"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "năm 2023, họ có doanh thu 52.818 tỷ đồng và lợi nhuận trước thuế 9.203 tỷ đồng."
+    },
+    {
+        "text": "52.818 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu 52.818 tỷ đồng và lợi nhuận trước thuế 9.203 tỷ đồng."
+    },
+    {
+        "text": "9.203 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế 9.203 tỷ đồng."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "đóng góp 60% doanh thu và 45% lợi nhuận"
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "đóng góp 60% doanh thu và 45% lợi nhuận"
+    },
+    {
+        "text": "31.449 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương ứng 31.449 tỷ đồng và 4.161 tỷ đồng."
+    },
+    {
+        "text": "4.161 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương ứng 31.449 tỷ đồng và 4.161 tỷ đồng."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Doanh thu từ Dịch vụ CNTT tại nước ngoài chính thức vượt mốc 1 tỷ USD."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Doanh thu từ chuyển đổi số từ thị trường nước ngoài trong năm 2023 đạt 10.425 tỷ đồng"
+    },
+    {
+        "text": "10.425 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 10.425 tỷ đồng, tăng trưởng 42% so với cùng kỳ"
+    },
+    {
+        "text": "42%",
+        "label": "RATE",
+        "evidence": "tăng trưởng 42% so với cùng kỳ"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đang tìm kiếm cơ hội cạnh tranh từ nhiều lĩnh vực trong ngành công nghệ thông tin."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT sẽ tập trung phát triển lĩnh vực Trí tuệ nhân tạo (AI), Bán dẫn, Công nghệ ô tô."
+    },
+    {
+        "text": "Trí tuệ nhân tạo (AI)",
+        "label": "ASSET",
+        "evidence": "FPT sẽ tập trung phát triển lĩnh vực Trí tuệ nhân tạo (AI), Bán dẫn, Công nghệ ô tô."
+    },
+    {
+        "text": "Bán dẫn",
+        "label": "ASSET",
+        "evidence": "FPT sẽ tập trung phát triển lĩnh vực Trí tuệ nhân tạo (AI), Bán dẫn, Công nghệ ô tô."
+    },
+    {
+        "text": "Công nghệ ô tô",
+        "label": "ASSET",
+        "evidence": "FPT sẽ tập trung phát triển lĩnh vực Trí tuệ nhân tạo (AI), Bán dẫn, Công nghệ ô tô."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "là công nghệ lõi để FPT có thể cạnh tranh với các đối thủ khác trong lĩnh vực Công nghệ ô tô, Chuyển đổi số và Chuyển đổi xanh."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "sự phát triển của FPT trong các lĩnh vực mới như bán dẫn hay AI chính là nguồn nhân lực."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "mục tiêu lớn nữa trong tương lai của FPT chính là cung cấp đủ nhân lực chất lượng cao"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "20 năm trước, khi FPT đề cập đến việc xuất khẩu phần mềm"
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "Tới năm 2030, FPT đặt mục tiêu doanh số 5 tỷ USD từ dịch vụ CNTT cho thị trường nước ngoài"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tới năm 2030, FPT đặt mục tiêu doanh số 5 tỷ USD từ dịch vụ CNTT cho thị trường nước ngoài"
+    },
+    {
+        "text": "5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "mục tiêu doanh số 5 tỷ USD từ dịch vụ CNTT cho thị trường nước ngoài"
+    },
+    {
+        "text": "FPT Automotive",
+        "label": "ORG",
+        "evidence": "công ty con 1 tuổi FPT Automotive sẽ đóng góp 1 tỷ USD."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "FPT Automotive sẽ đóng góp 1 tỷ USD."
+    },
+    {
+        "text": "năm 2030",
+        "label": "DATE",
+        "evidence": "đến năm 2030, Việt Namcần 3 triệu nhân lực số chất lượng cao"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "\"lò đào tạo\" FPT sẽ phấn đấu đạt 1 triệu nhân sự và đào tạo 10.000 kỹ sư bán dẫn."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã chuẩn bị được gì cho câu chuyện \"đặt cược\" ở lĩnh vực AI và Công nghệ ô tô?"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "FPT đã chuẩn bị được gì cho câu chuyện \"đặt cược\" ở lĩnh vực AI và Công nghệ ô tô?"
+    },
+    {
+        "text": "Công nghệ ô tô",
+        "label": "ASSET",
+        "evidence": "FPT đã chuẩn bị được gì cho câu chuyện \"đặt cược\" ở lĩnh vực AI và Công nghệ ô tô?"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đặt cược vào AI và trong lịch sử chưa lần chúng tôi nào dám đặt cược lớn như vậy."
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "FPT đặt cược vào AI và trong lịch sử chưa lần chúng tôi nào dám đặt cược lớn như vậy."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "đây là lần đầu tiên FPT đặt cược lớn với hàng trăm triệu USD cho một lĩnh vực mới"
+    },
+    {
+        "text": "công nghệ ô tô",
+        "label": "ASSET",
+        "evidence": "mảng công nghệ ô tô của chúng tôi đang tăng trưởng nhanh và ngày càng đi sâu hơn vào các sản phẩm cụ thể như phần mềm xe hơi."
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "đều có sử dụng công nghệ AI, chính là cơ sở để chúng tôi đặt niềm tin vào quyết định lớn này”"
+    },
+    {
+        "text": "Vũ Anh Tú",
+        "label": "PERSON",
+        "evidence": "ôngVũ Anh Tú – CTO của FPTkhẳng định."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "ôngVũ Anh Tú – CTO của FPTkhẳng định."
+    },
+    {
+        "text": "năm 2050",
+        "label": "DATE",
+        "evidence": "Dự báo đến năm 2050, AI sẽ tạo ra giá trị khoảng 19.000 tỷ USD"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "AI sẽ tạo ra giá trị khoảng 19.000 tỷ USD"
+    },
+    {
+        "text": "19.000 tỷ USD",
+        "label": "MONEY",
+        "evidence": "AI sẽ tạo ra giá trị khoảng 19.000 tỷ USD"
+    },
+    {
+        "text": "năm 2032",
+        "label": "DATE",
+        "evidence": "Đến năm 2032, thị trường của GenAI tầm 1.200 tỷ USD."
+    },
+    {
+        "text": "GenAI",
+        "label": "ASSET",
+        "evidence": "thị trường của GenAI tầm 1.200 tỷ USD."
+    },
+    {
+        "text": "1.200 tỷ USD",
+        "label": "MONEY",
+        "evidence": "thị trường của GenAI tầm 1.200 tỷ USD."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã hợp tác với Nvidia đầu tư 200 triệu USD xây dựng AI Factory."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "FPT đã hợp tác với Nvidia đầu tư 200 triệu USD xây dựng AI Factory."
+    },
+    {
+        "text": "EVENT: FPT đã hợp tác với Nvidia đầu tư 200 triệu USD xây dựng AI Factory",
+        "label": "EVENT",
+        "evidence": "FPT đã hợp tác với Nvidia đầu tư 200 triệu USD xây dựng AI Factory."
+    },
+    {
+        "text": "200 triệu USD",
+        "label": "MONEY",
+        "evidence": "đầu tư 200 triệu USD xây dựng AI Factory."
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "AI của Việt Nam cần phản ánh được thế mạnh cạnh tranh của đất nước"
+    },
+    {
+        "text": "AI Factory",
+        "label": "ORG",
+        "evidence": "tất cả đều có ở 'AI Factory' của FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "tất cả đều có ở 'AI Factory' của FPT."
+    },
+    {
+        "text": "AI Factory",
+        "label": "ORG",
+        "evidence": "AI Factory sẽ mang đến cho FPT hạ tầng tính toán tốt nhất"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "AI Factory sẽ mang đến cho FPT hạ tầng tính toán tốt nhất"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "tạo ra các mô hình AI ưu việt, khác biệt"
+    },
+    {
+        "text": "AI Factory",
+        "label": "ORG",
+        "evidence": "chương trình đào tạo vào AI Factory này"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "để có thể tạo ra những mô hình AI có giá trị”"
+    },
+    {
+        "text": "Lê Hồng Việt",
+        "label": "PERSON",
+        "evidence": "ôngLê Hồng Việt – Tổng Giám đốc FPT Smart Cloudgiải thích."
+    },
+    {
+        "text": "FPT Smart Cloud",
+        "label": "ORG",
+        "evidence": "ôngLê Hồng Việt – Tổng Giám đốc FPT Smart Cloudgiải thích."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT cũng hợp tác với các công ty, tổ chức nghiên cứu hàng đầu thế giới"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "đưa các mô hình - thuật toán AI tốt nhất trên thế giới về Việt Nam."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Hiện FPT cũng đã hình thành được hệ sinh thái AI với 40 sản phẩm, giải pháp"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "hệ sinh thái AI với 40 sản phẩm, giải pháp"
+    },
+    {
+        "text": "Tập đoàn FPT",
+        "label": "ORG",
+        "evidence": "Các lãnh đạo cấp cao củaTập đoàn FPT"
+    },
+    {
+        "text": "FPT Automotive",
+        "label": "ORG",
+        "evidence": "doanh số của FPT Automotive năm 2024 (tính đến hết tháng 9) đã tăng 40%"
+    },
+    {
+        "text": "năm 2024 (tính đến hết tháng 9)",
+        "label": "DATE",
+        "evidence": "doanh số của FPT Automotive năm 2024 (tính đến hết tháng 9) đã tăng 40%"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "đã tăng 40% và dự kiến cuối năm sẽ giữ nguyên tốc độ tăng trưởng này."
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "các hợp đồng với các OEM tăng 60% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đang tiến dần vào các hệ thống cốt lõi của các hãng xe lớn trên thế giới."
+    },
+    {
+        "text": "FPT Automotive",
+        "label": "ORG",
+        "evidence": "FPT Automotive có khoảng 150 khách hàng là các hãng xe hơi"
+    },
+    {
+        "text": "60%",
+        "label": "RATE",
+        "evidence": "mức tăng trưởng gần 60% của FPT Automotive tại Hàn Quốc và Nhật Bản."
+    },
+    {
+        "text": "FPT Automotive",
+        "label": "ORG",
+        "evidence": "mức tăng trưởng gần 60% của FPT Automotive tại Hàn Quốc và Nhật Bản."
+    },
+    {
+        "text": "1 tỷ USD",
+        "label": "MONEY",
+        "evidence": "mục tiêu 1 tỷ USD mảng công nghệ ô tô vào 2030"
+    },
+    {
+        "text": "công nghệ ô tô",
+        "label": "ASSET",
+        "evidence": "mục tiêu 1 tỷ USD mảng công nghệ ô tô vào 2030"
+    },
+    {
+        "text": "2030",
+        "label": "DATE",
+        "evidence": "mục tiêu 1 tỷ USD mảng công nghệ ô tô vào 2030"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT sẽ duy trì tốc độ tăng trưởng doanh thu từ 30-35% qua từng năm."
+    },
+    {
+        "text": "30-35%",
+        "label": "RATE",
+        "evidence": "FPT sẽ duy trì tốc độ tăng trưởng doanh thu từ 30-35% qua từng năm."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT cũng chú trọng phát triển nguồn lực chuyên gia về công nghệ ô tô"
+    },
+    {
+        "text": "FPT Automotive",
+        "label": "ORG",
+        "evidence": "FPT Automotive có hơn 50 chuyên gia hàng đầu ở các nước khác nhau"
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "các tập đoàn công nghệ hàng đầu thế giới như Microsoft, Bosch, Nvidia…"
+    },
+    {
+        "text": "Bosch",
+        "label": "ORG",
+        "evidence": "các tập đoàn công nghệ hàng đầu thế giới như Microsoft, Bosch, Nvidia…"
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "các tập đoàn công nghệ hàng đầu thế giới như Microsoft, Bosch, Nvidia…"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Nếu FPT có dự định sẽ phát triển trong ngành này từ dịch vụ tư vấn đến triển khai toàn diện"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã và đang mở hàng loạt trường học các cấp để đào tạo nhân lực bán dẫn và AI"
+    },
+    {
+        "text": "bán dẫn",
+        "label": "ASSET",
+        "evidence": "đào tạo nhân lực bán dẫn và AI"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "đào tạo nhân lực bán dẫn và AI"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tổng Giám đốc FPT, hiện hệ thống trường học của họ không chỉ có cấp Đại học hay Cao Đẳng"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã xây thêm các trường Cao đẳng cũng như ra mắt các khoa mới trong hệ thống trường Đại học của mình."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Các trường Đại học - Cao đẳng của FPT đang có khoảng 2.000 tân sinh viên ngành Bán dẫn."
+    },
+    {
+        "text": "Bán dẫn",
+        "label": "ASSET",
+        "evidence": "2.000 tân sinh viên ngành Bán dẫn."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "thiết kế và kiểm thử chip bán dẫn của FPT ở các năm đầu tiên trong đời sinh viên."
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "đào tạo 12.000 sinh viên chuyên ngành AI."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Với việc hợp tác cùng Nvidia và Microsoft, chúng tôi tin rằng mình sẽ nhanh chóng đào tạo được nhân sự tốt cho ngành bán dẫn."
+    },
+    {
+        "text": "Microsoft",
+        "label": "ORG",
+        "evidence": "Với việc hợp tác cùng Nvidia và Microsoft, chúng tôi tin rằng mình sẽ nhanh chóng đào tạo được nhân sự tốt cho ngành bán dẫn."
+    },
+    {
+        "text": "bán dẫn",
+        "label": "ASSET",
+        "evidence": "nhanh chóng đào tạo được nhân sự tốt cho ngành bán dẫn."
+    },
+    {
+        "text": "Trương Gia Bình",
+        "label": "PERSON",
+        "evidence": "có bạn sinh viên trùng tên với anhTrương Gia Bình"
+    },
+    {
+        "text": "50 triệu đồng",
+        "label": "MONEY",
+        "evidence": "mức lương 50 triệu đồngtháng."
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "Về đào tạo nhân lực AI, chúng tôi đã chọn hợp tác với LandingAI, Mila."
+    },
+    {
+        "text": "LandingAI",
+        "label": "ORG",
+        "evidence": "chọn hợp tác với LandingAI, Mila."
+    },
+    {
+        "text": "Mila",
+        "label": "ORG",
+        "evidence": "chọn hợp tác với LandingAI, Mila."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "CTO của FPT thông tin thêm."
+    },
+    {
+        "text": "Nguyễn Văn Khoa",
+        "label": "PERSON",
+        "evidence": "CEO Nguyễn Văn Khoa cũng tiếp lời"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ví dụ nhân viên của FPT không chỉ biết về AI"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "nhân viên của FPT không chỉ biết về AI mà phải ứng dụng AI vào công việc của bản thân"
+    },
+    {
+        "text": "AI",
+        "label": "ASSET",
+        "evidence": "với sự phát triển của AI, ngôn ngữ (tiếng Anh) từng là rào cản của nhiều tài năng công nghệ Việt"
+    }
+]

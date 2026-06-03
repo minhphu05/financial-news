@@ -1,0 +1,452 @@
+[
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "các hoạt động phát hành, tăng vốn của doanh nghiệp cũng \"nóng\" dần lên."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "các hoạt động phát hành, tăng vốn của doanh nghiệp cũng \"nóng\" dần lên."
+    },
+    {
+        "text": "phát hành thêm",
+        "label": "EVENT",
+        "evidence": "15 cái tên trên sàn chứng khoán đang có kế hoạch phát hành thêm tổng cộng gần 8,5 tỷ cổ phiếu."
+    },
+    {
+        "text": "gần 8,5 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "15 cái tên trên sàn chứng khoán đang có kế hoạch phát hành thêm tổng cộng gần 8,5 tỷ cổ phiếu."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Càng gần mùa Đại hội cổ đông, các kế hoạch phát hành, tăng vốn lại càng xuất hiện nhiều."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Càng gần mùa Đại hội cổ đông, các kế hoạch phát hành, tăng vốn lại càng xuất hiện nhiều."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2024",
+        "label": "EVENT",
+        "evidence": "Mới nhất, trong tài liệu họp ĐHĐCĐ thường niên 2024 tới đây, HĐQT Hòa Phát đề xuất phương án thưởng cổ phiếu cho cổ đông với tỷ lệ 10%, tương ứng công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "HĐQT Hòa Phát đề xuất phương án thưởng cổ phiếu cho cổ đông với tỷ lệ 10%, tương ứng công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "HĐQT Hòa Phát đề xuất phương án thưởng cổ phiếu cho cổ đông với tỷ lệ 10%, tương ứng công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "thưởng cổ phiếu cho cổ đông với tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "HĐQT Hòa Phát đề xuất phương án thưởng cổ phiếu cho cổ đông với tỷ lệ 10%, tương ứng công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "HĐQT Hòa Phát đề xuất phương án thưởng cổ phiếu cho cổ đông với tỷ lệ 10%, tương ứng công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "phát hành hơn 581 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "hơn 581 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "công ty sẽ phát hành hơn 581 triệu cổ phiếu, nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "tăng vốn điều lệ lên mức 63.962 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "63.962 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhằm tăng vốn điều lệ lên mức 63.962 tỷ đồng."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Tương tự, 2 công ty chứng khoán là Vietcap, FPTS cũng có tờ trình tăng vốn trong tài liệu ĐHĐCĐ thường niên 2024 sắp diễn ra."
+    },
+    {
+        "text": "FPTS",
+        "label": "ORG",
+        "evidence": "Tương tự, 2 công ty chứng khoán là Vietcap, FPTS cũng có tờ trình tăng vốn trong tài liệu ĐHĐCĐ thường niên 2024 sắp diễn ra."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "cũng có tờ trình tăng vốn trong tài liệu ĐHĐCĐ thường niên 2024 sắp diễn ra."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2024",
+        "label": "EVENT",
+        "evidence": "cũng có tờ trình tăng vốn trong tài liệu ĐHĐCĐ thường niên 2024 sắp diễn ra."
+    },
+    {
+        "text": "HSC",
+        "label": "ORG",
+        "evidence": "Một số trường hợp khác đang triển khai có thể kể đến như HSC phát hành 69 triệu cổ phiếu trả cổ tức và chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu; HAGL chào bán riêng lẻ 130 triệu cổ phiếu."
+    },
+    {
+        "text": "phát hành 69 triệu cổ phiếu trả cổ tức",
+        "label": "EVENT",
+        "evidence": "HSC phát hành 69 triệu cổ phiếu trả cổ tức và chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "69 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "HSC phát hành 69 triệu cổ phiếu trả cổ tức và chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "228,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "chào bán 228,6 triệu cổ phiếu cho cổ đông hiện hữu"
+    },
+    {
+        "text": "HAGL",
+        "label": "ORG",
+        "evidence": "HAGL chào bán riêng lẻ 130 triệu cổ phiếu."
+    },
+    {
+        "text": "chào bán riêng lẻ 130 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "HAGL chào bán riêng lẻ 130 triệu cổ phiếu."
+    },
+    {
+        "text": "130 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "HAGL chào bán riêng lẻ 130 triệu cổ phiếu."
+    },
+    {
+        "text": "ĐHĐCĐ",
+        "label": "ORG",
+        "evidence": "đa phần các kế hoạch đã được ĐHĐCĐ, HĐQT thông qua trước đó"
+    },
+    {
+        "text": "HĐQT",
+        "label": "ORG",
+        "evidence": "đa phần các kế hoạch đã được ĐHĐCĐ, HĐQT thông qua trước đó"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "2 \"ông lớn\" ngành ngân hàng là Vietcombank và VietinBank đều dự kiến sẽ dùng toàn bộ lợi nhuận còn lại sau khi trích quỹ của năm 2022 để chia cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "2 \"ông lớn\" ngành ngân hàng là Vietcombank và VietinBank đều dự kiến sẽ dùng toàn bộ lợi nhuận còn lại sau khi trích quỹ của năm 2022 để chia cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "toàn bộ lợi nhuận còn lại sau khi trích quỹ của năm 2022 để chia cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "chia cổ tức bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "để chia cổ tức bằng cổ phiếu."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank dự kiến sẽ phát hành thêm 2,17 tỷ cổ phiếu"
+    },
+    {
+        "text": "phát hành thêm 2,17 tỷ cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Vietcombank dự kiến sẽ phát hành thêm 2,17 tỷ cổ phiếu"
+    },
+    {
+        "text": "2,17 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Vietcombank dự kiến sẽ phát hành thêm 2,17 tỷ cổ phiếu"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "trong khi VietinBank sẽ phát hành 1,16 tỷ cổ phiếu mới."
+    },
+    {
+        "text": "phát hành 1,16 tỷ cổ phiếu mới",
+        "label": "EVENT",
+        "evidence": "VietinBank sẽ phát hành 1,16 tỷ cổ phiếu mới."
+    },
+    {
+        "text": "1,16 tỷ cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "VietinBank sẽ phát hành 1,16 tỷ cổ phiếu mới."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "\"Bộ đôi\" đầu ngành chứng khoán là SSI và VNDirect cũng có kế hoạch tăng vốn \"khủng\" thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "\"Bộ đôi\" đầu ngành chứng khoán là SSI và VNDirect cũng có kế hoạch tăng vốn \"khủng\" thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "cũng có kế hoạch tăng vốn \"khủng\" thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "thưởng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "chào bán cho cổ đông hiện hữu",
+        "label": "EVENT",
+        "evidence": "thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "chào bán riêng lẻ",
+        "label": "EVENT",
+        "evidence": "thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "ESOP",
+        "label": "EVENT",
+        "evidence": "thông qua thưởng cổ phiếu, chào bán cho cổ đông hiện hữu, chào bán riêng lẻ, ESOP."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Trong đó, SSI đã được cổ đông \"bật đèn xanh\" thông qua bằng văn bản cuối năm ngoái"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "còn kế hoạch của VNDirect đã được ĐHĐCĐ thường niên 2023 thông qua."
+    },
+    {
+        "text": "ĐHĐCĐ thường niên 2023",
+        "label": "EVENT",
+        "evidence": "kế hoạch của VNDirect đã được ĐHĐCĐ thường niên 2023 thông qua."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Các công ty chứng khoán cần liên tục tăng vốn để mở rộng quy mô hoạt động"
+    },
+    {
+        "text": "trái phiếu doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, còn cả câu chuyện liên quan đến trái phiếu doanh nghiệp."
+    },
+    {
+        "text": "Đề án cơ cấu lại hệ thống các tổ chức tín dụng gắn với xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "Theo Đề án cơ cấu lại hệ thống các tổ chức tín dụng gắn với xử lý nợ xấu đến năm 2025, ngành ngân hàng phấn đấu đạt tỷ lệ an toàn vốn tối thiểu 11-12%."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Đề án cơ cấu lại hệ thống các tổ chức tín dụng gắn với xử lý nợ xấu đến năm 2025"
+    },
+    {
+        "text": "tỷ lệ an toàn vốn tối thiểu 11-12%",
+        "label": "RATE",
+        "evidence": "ngành ngân hàng phấn đấu đạt tỷ lệ an toàn vốn tối thiểu 11-12%."
+    },
+    {
+        "text": "11-12%",
+        "label": "RATE",
+        "evidence": "ngành ngân hàng phấn đấu đạt tỷ lệ an toàn vốn tối thiểu 11-12%."
+    },
+    {
+        "text": "Fitch Ratings",
+        "label": "ORG",
+        "evidence": "Fitch Ratings dự báo hệ thống ngân hàng cần bổ sung tới 10,7 tỷ USD vốn."
+    },
+    {
+        "text": "10,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Fitch Ratings dự báo hệ thống ngân hàng cần bổ sung tới 10,7 tỷ USD vốn."
+    },
+    {
+        "text": "chia tách cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Các hoạt động chia tách cổ phiếu, tăng vốn diễn ra phổ biến là một trong những nguyên nhân khiến thị giá cổ phiếu khó duy trì ở mức cao."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Các hoạt động chia tách cổ phiếu, tăng vốn diễn ra phổ biến là một trong những nguyên nhân khiến thị giá cổ phiếu khó duy trì ở mức cao."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Trong nhóm phi tài chính, Hòa Phát hiện là doanh nghiệp có vốn điều lệ lớn nhất với hơn 58.000 tỷ đồng."
+    },
+    {
+        "text": "hơn 58.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hòa Phát hiện là doanh nghiệp có vốn điều lệ lớn nhất với hơn 58.000 tỷ đồng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Con số này chỉ kém duy nhất VPBank tính trên phương diện toàn sàn chứng khoán."
+    },
+    {
+        "text": "GVR",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "BSR",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "PV Power",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "PV Gas",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "VEAM",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Sabeco",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Vinalines",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "EVNGENCO 3",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Becamex IDC",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "PV Oil",
+        "label": "ORG",
+        "evidence": "Theo sau là một loạt tên tuổi \"đình đám\" có vốn Nhà nước như GVR, BSR, Viettel Global, PV Power, PV Gas, Vietnam Airlines, ACV, Vinamilk, VEAM, Sabeco, Petrolimex, Vinalines, EVNGENCO 3, Becamex IDC, PV Oil."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Vincom Retai",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Novaland",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Thế Giới Di Động",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "Masan Resources",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "HAGL Agrico",
+        "label": "ORG",
+        "evidence": "Ngoài Hòa Phát, nhóm doanh nghiệp tư nhân có vốn điều lệ trên vạn tỷ chỉ đếm trên đầu ngón tay, gồm Vingroup, Vinhomes, Vincom Retai, Novaland, Thế Giới Di Động, Masan, Masan Resources, FPT, HAGL Agrico."
+    },
+    {
+        "text": "chia tách cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Nhìn chung, chia tách cổ phiếu, phát hành, tăng vốn là hoạt động chính đáng của mỗi doanh nghiệp."
+    },
+    {
+        "text": "phát hành",
+        "label": "EVENT",
+        "evidence": "Nhìn chung, chia tách cổ phiếu, phát hành, tăng vốn là hoạt động chính đáng của mỗi doanh nghiệp."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "Nhìn chung, chia tách cổ phiếu, phát hành, tăng vốn là hoạt động chính đáng của mỗi doanh nghiệp."
+    }
+]

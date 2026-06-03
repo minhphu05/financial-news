@@ -1,0 +1,492 @@
+[
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "Phiên giao dịch 12/12, thị trường chứng khoán Việt Nam không mấy sôi động, tiếp tục biến động quanh mức 1.125 điểm."
+    },
+    {
+        "text": "thị trường chứng khoán Việt Nam",
+        "label": "ORG",
+        "evidence": "Phiên giao dịch 12/12, thị trường chứng khoán Việt Nam không mấy sôi động, tiếp tục biến động quanh mức 1.125 điểm."
+    },
+    {
+        "text": "1.125 điểm",
+        "label": "PRICE",
+        "evidence": "Phiên giao dịch 12/12, thị trường chứng khoán Việt Nam không mấy sôi động, tiếp tục biến động quanh mức 1.125 điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết phiên, VN-Index tăng 2,13 điểm, tương đương tăng 0,19% lên 1.127,63 điểm."
+    },
+    {
+        "text": "tăng 2,13 điểm",
+        "label": "RATE",
+        "evidence": "Kết phiên, VN-Index tăng 2,13 điểm, tương đương tăng 0,19% lên 1.127,63 điểm."
+    },
+    {
+        "text": "tăng 0,19%",
+        "label": "RATE",
+        "evidence": "Kết phiên, VN-Index tăng 2,13 điểm, tương đương tăng 0,19% lên 1.127,63 điểm."
+    },
+    {
+        "text": "1.127,63 điểm",
+        "label": "PRICE",
+        "evidence": "Kết phiên, VN-Index tăng 2,13 điểm, tương đương tăng 0,19% lên 1.127,63 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản thị trường cũng ở mức thấp, giá trị khớp lệnh trên sàn HoSE chỉ đạt gần 14.000 tỷ đồng."
+    },
+    {
+        "text": "14.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản thị trường cũng ở mức thấp, giá trị khớp lệnh trên sàn HoSE chỉ đạt gần 14.000 tỷ đồng."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "Cổ phiếu ngân hàng biến động cũng trong biên độ hẹp phiên hôm nay."
+    },
+    {
+        "text": "tăng đến 2%",
+        "label": "RATE",
+        "evidence": "Đóng cửa ghi nhận có 10/27 mã tăng giá, nhưng không mã nào tăng đến 2%."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "Cổ phiếu ngân hàng tăng mạnh nhất hôm nay là BID của BIDV, đóng cửa ở mức 41.900 đồng/cp (+1,21%)."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu ngân hàng tăng mạnh nhất hôm nay là BID của BIDV, đóng cửa ở mức 41.900 đồng/cp (+1,21%)."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Cổ phiếu ngân hàng tăng mạnh nhất hôm nay là BID của BIDV, đóng cửa ở mức 41.900 đồng/cp (+1,21%)."
+    },
+    {
+        "text": "41.900 đồng/cp",
+        "label": "PRICE",
+        "evidence": "Cổ phiếu ngân hàng tăng mạnh nhất hôm nay là BID của BIDV, đóng cửa ở mức 41.900 đồng/cp (+1,21%)."
+    },
+    {
+        "text": "+1,21%",
+        "label": "RATE",
+        "evidence": "Cổ phiếu ngân hàng tăng mạnh nhất hôm nay là BID của BIDV, đóng cửa ở mức 41.900 đồng/cp (+1,21%)."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "BID cũng là một trong 2 mã tăng mạnh nhất ngành trong tuần trước (6,3%)."
+    },
+    {
+        "text": "tuần trước",
+        "label": "DATE",
+        "evidence": "BID cũng là một trong 2 mã tăng mạnh nhất ngành trong tuần trước (6,3%)."
+    },
+    {
+        "text": "6,3%",
+        "label": "RATE",
+        "evidence": "BID cũng là một trong 2 mã tăng mạnh nhất ngành trong tuần trước (6,3%)."
+    },
+    {
+        "text": "BID",
+        "label": "TICKER",
+        "evidence": "Thanh khoản BID có xu hướng giảm 2 phiên đầu tuần này, chỉ bằng một nửa so với các phiên giao dịch cuối tuần trước."
+    },
+    {
+        "text": "2 phiên đầu tuần này",
+        "label": "DATE",
+        "evidence": "Thanh khoản BID có xu hướng giảm 2 phiên đầu tuần này, chỉ bằng một nửa so với các phiên giao dịch cuối tuần trước."
+    },
+    {
+        "text": "cuối tuần trước",
+        "label": "DATE",
+        "evidence": "Thanh khoản BID có xu hướng giảm 2 phiên đầu tuần này, chỉ bằng một nửa so với các phiên giao dịch cuối tuần trước."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "0,65%",
+        "label": "RATE",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "0,56%",
+        "label": "RATE",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "TCB của Techcombank và CTG của VietinBank cũng tăng lần lượt 0,65% và 0,56% trong phiên hôm nay."
+    },
+    {
+        "text": "MBB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh 3 cổ phiếu trên, cổ phiếu MBB, VPB, ACB cũng góp mặt vào 10 mã có ảnh hưởng tích cực nhất lên VNIndex phiên 12/12."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh 3 cổ phiếu trên, cổ phiếu MBB, VPB, ACB cũng góp mặt vào 10 mã có ảnh hưởng tích cực nhất lên VNIndex phiên 12/12."
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh 3 cổ phiếu trên, cổ phiếu MBB, VPB, ACB cũng góp mặt vào 10 mã có ảnh hưởng tích cực nhất lên VNIndex phiên 12/12."
+    },
+    {
+        "text": "VNIndex",
+        "label": "ASSET",
+        "evidence": "Bên cạnh 3 cổ phiếu trên, cổ phiếu MBB, VPB, ACB cũng góp mặt vào 10 mã có ảnh hưởng tích cực nhất lên VNIndex phiên 12/12."
+    },
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "Bên cạnh 3 cổ phiếu trên, cổ phiếu MBB, VPB, ACB cũng góp mặt vào 10 mã có ảnh hưởng tích cực nhất lên VNIndex phiên 12/12."
+    },
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "OCB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "SSB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "SeABank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "TPB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hàng loạt cổ phiếu ngân hàng đóng cửa ở giá tham chiếu phiên 12/12 như EIB của Eximbank, MSB, OCB, SSB của SeABank, TPB của TPBank, VCB của Vietcombank,…"
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "-0,45%",
+        "label": "RATE",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "LPB",
+        "label": "TICKER",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "-0,93%",
+        "label": "RATE",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "-0,93%",
+        "label": "RATE",
+        "evidence": "Chỉ một số mã đóng cửa trong sắc đỏ như SHB (-0,45%), LPB (-0,93%), NVB (-0,93%),…"
+    },
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 12/12 chỉ đạt hơn 1.600 tỷ đồng, giảm mạnh so với bình quân 2.700 tỷ đồng/phiên của tuần trước."
+    },
+    {
+        "text": "1.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 12/12 chỉ đạt hơn 1.600 tỷ đồng, giảm mạnh so với bình quân 2.700 tỷ đồng/phiên của tuần trước."
+    },
+    {
+        "text": "2.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 12/12 chỉ đạt hơn 1.600 tỷ đồng, giảm mạnh so với bình quân 2.700 tỷ đồng/phiên của tuần trước."
+    },
+    {
+        "text": "tuần trước",
+        "label": "DATE",
+        "evidence": "Thanh khoản khớp lệnh toàn ngành phiên 12/12 chỉ đạt hơn 1.600 tỷ đồng, giảm mạnh so với bình quân 2.700 tỷ đồng/phiên của tuần trước."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Chẳng hạn như STB chỉ ghi nhận gần 7 triệu đơn vị được giao dịch với giá trị 194 tỷ đồng, chỉ bằng một nửa so với phiên hôm qua."
+    },
+    {
+        "text": "7 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Chẳng hạn như STB chỉ ghi nhận gần 7 triệu đơn vị được giao dịch với giá trị 194 tỷ đồng, chỉ bằng một nửa so với phiên hôm qua."
+    },
+    {
+        "text": "194 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Chẳng hạn như STB chỉ ghi nhận gần 7 triệu đơn vị được giao dịch với giá trị 194 tỷ đồng, chỉ bằng một nửa so với phiên hôm qua."
+    },
+    {
+        "text": "hôm qua",
+        "label": "DATE",
+        "evidence": "Chẳng hạn như STB chỉ ghi nhận gần 7 triệu đơn vị được giao dịch với giá trị 194 tỷ đồng, chỉ bằng một nửa so với phiên hôm qua."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Hàng loạt mã có giá trị giao dịch thỏa thuận hàng triệu đơn vị, trị giá trên 100 tỷ đồng như SHB, EIB, MSB, TCB."
+    },
+    {
+        "text": "SHB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt mã có giá trị giao dịch thỏa thuận hàng triệu đơn vị, trị giá trên 100 tỷ đồng như SHB, EIB, MSB, TCB."
+    },
+    {
+        "text": "EIB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt mã có giá trị giao dịch thỏa thuận hàng triệu đơn vị, trị giá trên 100 tỷ đồng như SHB, EIB, MSB, TCB."
+    },
+    {
+        "text": "MSB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt mã có giá trị giao dịch thỏa thuận hàng triệu đơn vị, trị giá trên 100 tỷ đồng như SHB, EIB, MSB, TCB."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Hàng loạt mã có giá trị giao dịch thỏa thuận hàng triệu đơn vị, trị giá trên 100 tỷ đồng như SHB, EIB, MSB, TCB."
+    },
+    {
+        "text": "36 triệu cổ phiếu TCB",
+        "label": "VOLUME",
+        "evidence": "Trong đó, hơn 36 triệu cổ phiếu TCB của Techcombank được trao tay giữa các nhà đầu tư với giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Trong đó, hơn 36 triệu cổ phiếu TCB của Techcombank được trao tay giữa các nhà đầu tư với giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong đó, hơn 36 triệu cổ phiếu TCB của Techcombank được trao tay giữa các nhà đầu tư với giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, hơn 36 triệu cổ phiếu TCB của Techcombank được trao tay giữa các nhà đầu tư với giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "TCB",
+        "label": "TICKER",
+        "evidence": "Trong diễn biến liên quan tới TCB, người nhà của Chủ tịch Techcombank Hồ Hùng Anh đã đăng ký giao dịch lượng lớn cổ phiếu thời gian gần đây."
+    },
+    {
+        "text": "người nhà của Chủ tịch Techcombank Hồ Hùng Anh đã đăng ký giao dịch lượng lớn cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Trong diễn biến liên quan tới TCB, người nhà của Chủ tịch Techcombank Hồ Hùng Anh đã đăng ký giao dịch lượng lớn cổ phiếu thời gian gần đây."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong diễn biến liên quan tới TCB, người nhà của Chủ tịch Techcombank Hồ Hùng Anh đã đăng ký giao dịch lượng lớn cổ phiếu thời gian gần đây."
+    },
+    {
+        "text": "Hồ Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Trong diễn biến liên quan tới TCB, người nhà của Chủ tịch Techcombank Hồ Hùng Anh đã đăng ký giao dịch lượng lớn cổ phiếu thời gian gần đây."
+    },
+    {
+        "text": "Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "Hồ Minh Anh",
+        "label": "PERSON",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "Hồ Thủy Anh",
+        "label": "PERSON",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "Hồ Anh Minh",
+        "label": "PERSON",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB",
+        "label": "EVENT",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "72 triệu",
+        "label": "VOLUME",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "67 triệu",
+        "label": "VOLUME",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "34 triệu cổ phiếu TCB",
+        "label": "VOLUME",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "cổ phiếu TCB",
+        "label": "ASSET",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "28/11-21/12/2023",
+        "label": "DATE",
+        "evidence": "Cụ thể, 3 người con của ông Hùng Anh: Hồ Minh Anh, Hồ Thủy Anh, Hồ Anh Minh lần lượt đăng ký mua 72 triệu, 67 triệu và 34 triệu cổ phiếu TCB từ ngày 28/11-21/12/2023."
+    },
+    {
+        "text": "Nguyễn Thị Thanh Tâm",
+        "label": "PERSON",
+        "evidence": "Trong khi đó, bà Nguyễn Thị Thanh Tâm, mẹ đẻ ông Hùng Anh đăng ký bán toàn bộ hơn 174 triệu cổ phiếu."
+    },
+    {
+        "text": "Hùng Anh",
+        "label": "PERSON",
+        "evidence": "Trong khi đó, bà Nguyễn Thị Thanh Tâm, mẹ đẻ ông Hùng Anh đăng ký bán toàn bộ hơn 174 triệu cổ phiếu."
+    },
+    {
+        "text": "đăng ký bán toàn bộ hơn 174 triệu cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, bà Nguyễn Thị Thanh Tâm, mẹ đẻ ông Hùng Anh đăng ký bán toàn bộ hơn 174 triệu cổ phiếu."
+    },
+    {
+        "text": "174 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, bà Nguyễn Thị Thanh Tâm, mẹ đẻ ông Hùng Anh đăng ký bán toàn bộ hơn 174 triệu cổ phiếu."
+    },
+    {
+        "text": "giao dịch chuyển nhượng cổ phần từ bà nội cho các cháu",
+        "label": "EVENT",
+        "evidence": "Như vậy, nhiều khả năng, đây là giao dịch chuyển nhượng cổ phần từ bà nội cho các cháu."
+    },
+    {
+        "text": "hiện nay",
+        "label": "DATE",
+        "evidence": "Giá trị giao dịch theo thị giá hiện nay ước tính đạt hơn 5.300 tỷ đồng."
+    },
+    {
+        "text": "5.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Giá trị giao dịch theo thị giá hiện nay ước tính đạt hơn 5.300 tỷ đồng."
+    },
+    {
+        "text": "bán ròng cổ phiếu ngân hàng",
+        "label": "EVENT",
+        "evidence": "Về giao dịch của khối ngoại, nhà đầu tư nước ngoài chủ yếu bán ròng cổ phiếu ngân hàng trong phiên hôm nay."
+    },
+    {
+        "text": "hôm nay",
+        "label": "DATE",
+        "evidence": "Về giao dịch của khối ngoại, nhà đầu tư nước ngoài chủ yếu bán ròng cổ phiếu ngân hàng trong phiên hôm nay."
+    },
+    {
+        "text": "VCB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "bị bán mạnh nhất hơn 41 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "41 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "33 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, VCB bị bán mạnh nhất hơn 41 tỷ đồng, tiếp đến là VPB (33 tỷ đồng), STB (19 tỷ đồng)."
+    }
+]

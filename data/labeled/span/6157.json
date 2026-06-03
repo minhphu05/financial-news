@@ -1,0 +1,222 @@
+[
+    {
+        "text": "quý 2",
+        "label": "DATE",
+        "evidence": "Trong quý 2 và quý 3 tới đây, trái phiếu doanh nghiệp bất động sản ghi nhận giá trị đáo hạn lớn."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Trong quý 2 và quý 3 tới đây, trái phiếu doanh nghiệp bất động sản ghi nhận giá trị đáo hạn lớn."
+    },
+    {
+        "text": "trái phiếu doanh nghiệp bất động sản",
+        "label": "ASSET",
+        "evidence": "Trong quý 2 và quý 3 tới đây, trái phiếu doanh nghiệp bất động sản ghi nhận giá trị đáo hạn lớn."
+    },
+    {
+        "text": "Mr. X30 Phạm Lưu Hưng",
+        "label": "PERSON",
+        "evidence": "Chia sẻ tại chương trình Bí mật đồng tiền,Mr. X30 Phạm Lưu Hưng, Kinh tế trưởng kiêm Trưởng ban Đào tạo và Phát triển, Chứng khoán SSInhận định: \"Thực tế, nhiều khi lượng TPDN đáo hạn là những trái phiếu không trả được nợ."
+    },
+    {
+        "text": "Chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Chia sẻ tại chương trình Bí mật đồng tiền,Mr. X30 Phạm Lưu Hưng, Kinh tế trưởng kiêm Trưởng ban Đào tạo và Phát triển, Chứng khoán SSInhận định: \"Thực tế, nhiều khi lượng TPDN đáo hạn là những trái phiếu không trả được nợ."
+    },
+    {
+        "text": "ông Hưng",
+        "label": "PERSON",
+        "evidence": "Theo quan điểm của ông Hưng, việc đáo hạn trái phiếu phụ thuộc nhiều vào khả năng đàm phán của các trái chủ để có thể kéo dài thời gian trả nợ."
+    },
+    {
+        "text": "cuối tháng 4",
+        "label": "DATE",
+        "evidence": "﻿Đồng thời, cuối tháng 4 sẽ đón nhận một số chính sách mới được ban hành, đến lúc này mới có thể đánh giá được."
+    },
+    {
+        "text": "đón nhận một số chính sách mới được ban hành",
+        "label": "EVENT",
+        "evidence": "﻿Đồng thời, cuối tháng 4 sẽ đón nhận một số chính sách mới được ban hành, đến lúc này mới có thể đánh giá được."
+    },
+    {
+        "text": "bàNguyễn Thị Thu Dung",
+        "label": "PERSON",
+        "evidence": "Dưới góc nhìn đầu tư chứng khoán, bàNguyễn Thị Thu Dung, Giám đốc Kinh doanh Hội sở, Chứng khoán SSI﻿cho biết bản thân nhìn nhận 3 câu chuyện về chính sách như sau:"
+    },
+    {
+        "text": "Chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Dưới góc nhìn đầu tư chứng khoán, bàNguyễn Thị Thu Dung, Giám đốc Kinh doanh Hội sở, Chứng khoán SSI﻿cho biết bản thân nhìn nhận 3 câu chuyện về chính sách như sau:"
+    },
+    {
+        "text": "Thông tư 26",
+        "label": "EVENT",
+        "evidence": "Thứ nhất, chính sách tiền tệ tác động nhanh tới thị trường như Thông tư 26 về việc điều chỉnh cách tính LDR: Dư nợ tín dụng/ Vốn huy động."
+    },
+    {
+        "text": "điều chỉnh cách tính LDR",
+        "label": "EVENT",
+        "evidence": "Thứ nhất, chính sách tiền tệ tác động nhanh tới thị trường như Thông tư 26 về việc điều chỉnh cách tính LDR: Dư nợ tín dụng/ Vốn huy động."
+    },
+    {
+        "text": "KBNN",
+        "label": "ORG",
+        "evidence": "Tổng số tiền gửi có kỳ hạn ở KBNN được phân bổ theo từng giai đoạn được tính vào tổng huy động."
+    },
+    {
+        "text": "150.000 tỷ",
+        "label": "MONEY",
+        "evidence": "Chính sách này ít nhất đã bơm thêm 150.000 tỷ cho các ngân hàng để có thể tạo ra thanh khoản tốt nhất cho các nhà băng, cho vay trong thời gian tới."
+    },
+    {
+        "text": "cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Khi chính sách được công bố hồi cuối năm 2022, nhiều cổ phiếu ngân hàng lớn đã có mức tăng trưởng giá tốt."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Thứ hai,chính sách tác động chậm: NHNN đã 2 lần công bố giảm lãi suất điều hành tháng 3 vừa qua."
+    },
+    {
+        "text": "2 lần công bố giảm lãi suất điều hành",
+        "label": "EVENT",
+        "evidence": "NHNN đã 2 lần công bố giảm lãi suất điều hành tháng 3 vừa qua."
+    },
+    {
+        "text": "tháng 3 vừa qua",
+        "label": "DATE",
+        "evidence": "NHNN đã 2 lần công bố giảm lãi suất điều hành tháng 3 vừa qua."
+    },
+    {
+        "text": "giảm lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Động thái này tác động sâu rộng về sau với mục tiêu là giảm lãi suất huy động, giảm lãi suất cho vay và qua đó tiết giảm chi phí các doanh nghiệp."
+    },
+    {
+        "text": "giảm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "Động thái này tác động sâu rộng về sau với mục tiêu là giảm lãi suất huy động, giảm lãi suất cho vay và qua đó tiết giảm chi phí các doanh nghiệp."
+    },
+    {
+        "text": "TTCK",
+        "label": "ORG",
+        "evidence": "Thực tế, khi chính sách được công bố, dòng tiền trên TTCK đã quay trở lại và nhóm chứng khoán lập tức được hưởng lợi."
+    },
+    {
+        "text": "Nghị định 12",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, một số chính sách khác có thể tác động sâu tới nền kinh tế như Nghị định 12 của Chính phủ giúp gia hạn thời gian đóng thuế VAT, thuế TNDN, thuế TNCN thêm 6 tháng﻿ và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "Chính phủ",
+        "label": "ORG",
+        "evidence": "Ngoài ra, một số chính sách khác có thể tác động sâu tới nền kinh tế như Nghị định 12 của Chính phủ giúp gia hạn thời gian đóng thuế VAT, thuế TNDN, thuế TNCN thêm 6 tháng﻿ và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "gia hạn thời gian đóng thuế VAT, thuế TNDN, thuế TNCN thêm 6 tháng",
+        "label": "EVENT",
+        "evidence": "Nghị định 12 của Chính phủ giúp gia hạn thời gian đóng thuế VAT, thuế TNDN, thuế TNCN thêm 6 tháng﻿ và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "Nghị định 12 của Chính phủ giúp gia hạn thời gian đóng thuế VAT, thuế TNDN, thuế TNCN thêm 6 tháng﻿ và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "gia hạn 50% tiền thuế đất thêm 3 tháng",
+        "label": "EVENT",
+        "evidence": "﻿ và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "3 tháng",
+        "label": "DATE",
+        "evidence": "và gia hạn 50% tiền thuế đất thêm 3 tháng."
+    },
+    {
+        "text": "giảm thuế VAT",
+        "label": "EVENT",
+        "evidence": "\"Hay việc giảm thuế VAT cũng sẽ giúp tác động sâu rộng, kích thích nhu cầu trở lại thị trường của doanh nghiệp﻿."
+    },
+    {
+        "text": "bà Dung",
+        "label": "PERSON",
+        "evidence": "Những chính sách \"thẩm thấu\" chậm hơn sẽ mang lại hiệu quả thực sự\", bà Dung cho hay."
+    },
+    {
+        "text": "thời gian thanh toán trái phiếu được giãn tới 2 năm",
+        "label": "EVENT",
+        "evidence": "Thứ ba, các chính sách hành lang cũng sẽ đem đến một phản ứng khác, ví dụ như thời gian thanh toán trái phiếu được giãn tới 2 năm."
+    },
+    {
+        "text": "2 năm",
+        "label": "DATE",
+        "evidence": "ví dụ như thời gian thanh toán trái phiếu được giãn tới 2 năm."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Mặt khác, đánh giá về dòng tiền, Giám đốc kinh doanh Hội sở SSI nhận định thanh khoản trên thị trường chứng khoán khá thấp gần đây, nguyên nhân do báo cáo KQKD chưa được công bố, nhà đầu tư đang theo dự phóng và kỳ vọng của bản thân để tham gia thị trường."
+    },
+    {
+        "text": "báo cáo KQKD chưa được công bố",
+        "label": "EVENT",
+        "evidence": "nguyên nhân do báo cáo KQKD chưa được công bố, nhà đầu tư đang theo dự phóng và kỳ vọng của bản thân để tham gia thị trường."
+    },
+    {
+        "text": "bà Dung",
+        "label": "PERSON",
+        "evidence": "﻿Đồng thời, bà Dung cũng chỉ ra một điểm tích cực thời điểm hiện tại là thanh khoản trên thị trường chứng khoán phái sinh đang liên tục sụt giảm thời gian gần đây."
+    },
+    {
+        "text": "thị trường chứng khoán phái sinh",
+        "label": "ASSET",
+        "evidence": "﻿Đồng thời, bà Dung cũng chỉ ra một điểm tích cực thời điểm hiện tại là thanh khoản trên thị trường chứng khoán phái sinh đang liên tục sụt giảm thời gian gần đây."
+    },
+    {
+        "text": "đầu tháng 4",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 4, thanh khoản CKPS chỉ bằng một nửa so với ngày 20/3 trở đi, thanh khoản trên thị trường cơ sở ngược lại có sự gia tăng."
+    },
+    {
+        "text": "CKPS",
+        "label": "ASSET",
+        "evidence": "Từ đầu tháng 4, thanh khoản CKPS chỉ bằng một nửa so với ngày 20/3 trở đi, thanh khoản trên thị trường cơ sở ngược lại có sự gia tăng."
+    },
+    {
+        "text": "ngày 20/3",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 4, thanh khoản CKPS chỉ bằng một nửa so với ngày 20/3 trở đi, thanh khoản trên thị trường cơ sở ngược lại có sự gia tăng."
+    },
+    {
+        "text": "phái sinh",
+        "label": "ASSET",
+        "evidence": "﻿Có thể thấy rằng, nhà đầu tư tham gia phái sinh trong các giai đoạn trước do thị trường cơ sở khó kiếm lợi nhuận."
+    },
+    {
+        "text": "kênh phái sinh",
+        "label": "ASSET",
+        "evidence": "Họ lựa chọn kênh phái sinh có thể giao dịch T0 và kiếm lời kể cả khi thị trường giảm."
+    },
+    {
+        "text": "chính sách tiền tệ được nới lỏng",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, chính sách tiền tệ được nới lỏng, thanh khoản hệ thống tích cực hơn, nhà đầu tư đã thay đổi tư duy và dịch chuyển dòng tiền vào thị trường cơ sở."
+    },
+    {
+        "text": "khối ngoại bán ròng",
+        "label": "EVENT",
+        "evidence": "\"Rõ ràng, bất chấp những giai đoạn khối ngoại bán ròng, nhưng thanh khoản trên thị trường vẫn có thể \"chống đỡ\"."
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Thị trường giao dịch với thanh khoản thấp phù hợp với những yếu tố trên, ít nhất vẫn xuất hiện nhiều tín hiệu tích cực\",﻿ Giám đốc kinh doanh SSI nêu rõ."
+    }
+]

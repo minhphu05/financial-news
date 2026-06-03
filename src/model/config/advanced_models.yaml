@@ -1,0 +1,75 @@
+# ============================================================
+# Advanced Transformer-based NER Model Configurations
+# ============================================================
+# Configurations for Vietnamese Financial NER advanced models.
+# Use with train_advanced.py:
+#   python train_advanced.py --model <model_name> [--config configs/advanced.yaml]
+
+# ----- XLM-RoBERTa + BiLSTM + CRF -----
+xlmr_bilstm_crf:
+  model_name: "xlm-roberta-base"
+  lstm_hidden_size: 256
+  lstm_num_layers: 1
+  dropout: 0.3
+  lr: 3e-5
+  batch_size: 16
+  max_len: 128
+  epochs: 30
+  patience: 5
+
+# ----- XLM-RoBERTa + Multi-Head Attention + CRF -----
+xlmr_multihead_attn_crf:
+  model_name: "xlm-roberta-base"
+  num_attn_heads: 8
+  attn_dropout: 0.1
+  classifier_dropout: 0.3
+  max_relative_position: 64
+  lr: 3e-5
+  batch_size: 16
+  max_len: 128
+  epochs: 30
+  patience: 5
+
+# ----- XLM-RoBERTa + Adaptive Layer Fusion + CRF -----
+xlmr_adaptive_fusion_crf:
+  model_name: "xlm-roberta-base"
+  dropout: 0.3
+  lr: 3e-5
+  batch_size: 16
+  max_len: 128
+  epochs: 30
+  patience: 5
+
+# ----- Focal Loss + CRF + XLM-RoBERTa -----
+focal_crf_xlmr:
+  model_name: "xlm-roberta-base"
+  focal_gamma: 2.0
+  crf_weight: 0.5
+  dropout: 0.3
+  lr: 3e-5
+  batch_size: 16
+  max_len: 128
+  epochs: 30
+  patience: 5
+
+# ----- Dice Loss + CRF + XLM-RoBERTa -----
+dice_loss_xlmr:
+  model_name: "xlm-roberta-base"
+  dice_smooth: 1.0
+  crf_weight: 0.5
+  dropout: 0.3
+  lr: 3e-5
+  batch_size: 16
+  max_len: 128
+  epochs: 30
+  patience: 5
+
+# ----- PhoBERT + CRF -----
+phobert_crf:
+  model_name: "vinai/phobert-base-v2"
+  dropout: 0.1
+  lr: 2e-5
+  batch_size: 16
+  max_len: 256
+  epochs: 30
+  patience: 5

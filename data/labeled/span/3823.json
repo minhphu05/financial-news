@@ -1,0 +1,102 @@
+[
+    {
+        "text": "Bộ Quốc phòng",
+        "label": "ORG",
+        "evidence": "Bộ Quốc phòng ban hành Quyết định 1285 về quy chế tiền thưởng đột xuất đối với các đối tượng hưởng lương từ ngân sách nhà nước thuộc phạm vi quản lý của Bộ Quốc phòng."
+    },
+    {
+        "text": "ban hành Quyết định 1285 về quy chế tiền thưởng đột xuất",
+        "label": "EVENT",
+        "evidence": "Bộ Quốc phòng ban hành Quyết định 1285 về quy chế tiền thưởng đột xuất đối với các đối tượng hưởng lương từ ngân sách nhà nước thuộc phạm vi quản lý của Bộ Quốc phòng."
+    },
+    {
+        "text": "Ban Cơ yếu chính phủ",
+        "label": "ORG",
+        "evidence": "người làm công tác cơ yếu, người làm công tác khác trong tổ chức cơ yếu tại Ban Cơ yếu chính phủ; các cơ quan, đơn vị, tổ chức và cá nhân có liên quan."
+    },
+    {
+        "text": "Quân nhạc Việt Nam",
+        "label": "ORG",
+        "evidence": "Khối nữ Quân nhạc Việt Nam tham gia buổi hợp luyện diễu binh, diễu hành lễ kỷ niệm 50 năm thống nhất đất nước."
+    },
+    {
+        "text": "xét thưởng",
+        "label": "EVENT",
+        "evidence": "Cá nhân được xét thưởng là người có thành tích công tác đột xuất, nếu đồng thời đạt được các tiêu chí sau: chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, kỷ luật của quân đội và các quy định, quy chế, nội quy của đơn vị; hoàn thành xuất sắc nhiệm vụ, đặc biệt xuất sắc nhiệm vụ trong hoàn cảnh không được dự báo trước, diễn ra ngoài kế hoạch hoặc ngoài nhiệm vụ thường xuyên mà cá nhân được giao đảm nhiệm; được thủ trưởng đơn vị cấp Trung đoàn và tương đương trở lên đánh giá, ghi nhận và biểu dương."
+    },
+    {
+        "text": "Đảng",
+        "label": "ORG",
+        "evidence": "chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, kỷ luật của quân đội và các quy định, quy chế, nội quy của đơn vị;"
+    },
+    {
+        "text": "Nhà nước",
+        "label": "ORG",
+        "evidence": "chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, kỷ luật của quân đội và các quy định, quy chế, nội quy của đơn vị;"
+    },
+    {
+        "text": "quân đội",
+        "label": "ORG",
+        "evidence": "chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, kỷ luật của quân đội và các quy định, quy chế, nội quy của đơn vị;"
+    },
+    {
+        "text": "Bộ trưởng Bộ Quốc phòng",
+        "label": "PERSON",
+        "evidence": "Đặc biệt, quyết định nêu, mức tiền thưởng đối với cá nhân có thành tích công tác đột xuất đặc biệt xuất sắc do Bộ trưởng Bộ Quốc phòng xem xét, quyết định nhưng không thấp hơn 16 lần mức lương cơ sở."
+    },
+    {
+        "text": "16 lần mức lương cơ sở",
+        "label": "MONEY",
+        "evidence": "Đặc biệt, quyết định nêu, mức tiền thưởng đối với cá nhân có thành tích công tác đột xuất đặc biệt xuất sắc do Bộ trưởng Bộ Quốc phòng xem xét, quyết định nhưng không thấp hơn 16 lần mức lương cơ sở."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "tổng số cá nhân được thưởng đột xuất trong 1 năm không vượt quá tỷ lệ 4% đối với mức 1;"
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "tổng số cá nhân được thưởng đột xuất trong 1 năm không vượt quá tỷ lệ 4% đối với mức 1;"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "không vượt 3% đối với mức 2;"
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "không vượt quá 2% đối với Mức 3"
+    },
+    {
+        "text": "1%",
+        "label": "RATE",
+        "evidence": "và 1% đối với mức 4, so với tổng quân số hưởng lương từ ngân sách nhà nước của đơn vị."
+    },
+    {
+        "text": "thưởng tiền",
+        "label": "EVENT",
+        "evidence": "Mỗi thành tích công tác đột xuất chỉ thưởng tiền một lần ở một mức thưởng tương ứng với thành tích cá nhân đạt được."
+    },
+    {
+        "text": "xét thưởng đột xuất",
+        "label": "EVENT",
+        "evidence": "có vấn đề về tham nhũng, lãng phí, tiêu cực đang được xác minh làm rõ thì chưa được xét thưởng đột xuất."
+    },
+    {
+        "text": "chi thưởng bổ sung",
+        "label": "EVENT",
+        "evidence": "Trường hợp cơ quan có thẩm quyền xác định cá nhân không có vi phạm, việc xét thưởng, chi thưởng bổ sung được thực hiện ngay sau thời điểm có kết luận của cơ quan có thẩm quyền."
+    },
+    {
+        "text": "Quân đội",
+        "label": "ORG",
+        "evidence": "Trực tiếp tham gia các hoạt động diễu binh, diễu hành trong dịp kỷ niệm các ngày lễ lớn của Nhà nước và Quân đội."
+    },
+    {
+        "text": "Thủ trưởng Bộ Quốc phòng",
+        "label": "PERSON",
+        "evidence": "Thành tích công tác đột xuất đặc biệt xuất sắc là thành tích công tác đột xuất được Thủ trưởng Bộ Quốc phòng đánh giá hoàn thành ở mức đặc biệt xuất sắc."
+    }
+]

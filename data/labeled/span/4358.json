@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Highlands Coffee",
+        "label": "ORG",
+        "evidence": "Mô hình xe đẩy đã được nhiều thương hiệu lớn nhỏ như Highlands Coffee, Ông Bầu, Vinacafe,… thử nghiệm."
+    },
+    {
+        "text": "Ông Bầu",
+        "label": "ORG",
+        "evidence": "Mô hình xe đẩy đã được nhiều thương hiệu lớn nhỏ như Highlands Coffee, Ông Bầu, Vinacafe,… thử nghiệm."
+    },
+    {
+        "text": "Vinacafe",
+        "label": "ORG",
+        "evidence": "Mô hình xe đẩy đã được nhiều thương hiệu lớn nhỏ như Highlands Coffee, Ông Bầu, Vinacafe,… thử nghiệm."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Một trong những ông lớn “nổ phát súng” đầu tiên, khơi mào cho mô hình kiosk tại Việt Nam phải nói đến Phúc Long."
+    },
+    {
+        "text": "Giữa tháng 1/2021",
+        "label": "DATE",
+        "evidence": "Giữa tháng 1/2021, trước khi chính thức gia nhập hệ sinh thái của Masan, Phúc Long đã khai trương kiosk tích hợp trong siêu thị Vinmart đầu tiên tại Tp.HCM."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Giữa tháng 1/2021, trước khi chính thức gia nhập hệ sinh thái của Masan, Phúc Long đã khai trương kiosk tích hợp trong siêu thị Vinmart đầu tiên tại Tp.HCM."
+    },
+    {
+        "text": "khai trương kiosk tích hợp trong siêu thị Vinmart đầu tiên tại Tp.HCM",
+        "label": "EVENT",
+        "evidence": "Giữa tháng 1/2021, trước khi chính thức gia nhập hệ sinh thái của Masan, Phúc Long đã khai trương kiosk tích hợp trong siêu thị Vinmart đầu tiên tại Tp.HCM."
+    },
+    {
+        "text": "Vinmart",
+        "label": "ORG",
+        "evidence": "Giữa tháng 1/2021, trước khi chính thức gia nhập hệ sinh thái của Masan, Phúc Long đã khai trương kiosk tích hợp trong siêu thị Vinmart đầu tiên tại Tp.HCM."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Kiosk Phúc Long tại Winmart"
+    },
+    {
+        "text": "Winmart",
+        "label": "ORG",
+        "evidence": "Kiosk Phúc Long tại Winmart"
+    },
+    {
+        "text": "Tháng 5/2021",
+        "label": "DATE",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "15 triệu USD",
+        "label": "MONEY",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "cổ phần chuỗi Phúc Long",
+        "label": "ASSET",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long",
+        "label": "EVENT",
+        "evidence": "Tháng 5/2021, Masan công bố chi 15 triệu USD để mua 20% cổ phần chuỗi Phúc Long."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Cũng từ thời điểm này, Masan bắt đầu cho thấy những động thái rõ ràng hơn trong chiến lược mở kiosk."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Chỉ chưa đầy 2 tháng kể từ ngày rót vốn lần đầu tiên vào Phúc Long, Masan đã mở 41 kiosk tại các cửa hàng Winmart+."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Chỉ chưa đầy 2 tháng kể từ ngày rót vốn lần đầu tiên vào Phúc Long, Masan đã mở 41 kiosk tại các cửa hàng Winmart+."
+    },
+    {
+        "text": "41 kiosk",
+        "label": "VOLUME",
+        "evidence": "Chỉ chưa đầy 2 tháng kể từ ngày rót vốn lần đầu tiên vào Phúc Long, Masan đã mở 41 kiosk tại các cửa hàng Winmart+."
+    },
+    {
+        "text": "Winmart+",
+        "label": "ORG",
+        "evidence": "Chỉ chưa đầy 2 tháng kể từ ngày rót vốn lần đầu tiên vào Phúc Long, Masan đã mở 41 kiosk tại các cửa hàng Winmart+."
+    },
+    {
+        "text": "báo cáo KQKD",
+        "label": "ASSET",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "nửa đầu năm 2021",
+        "label": "DATE",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "1.000 kiosk",
+        "label": "VOLUME",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "WinMart",
+        "label": "ORG",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "WinMart+",
+        "label": "ORG",
+        "evidence": "Trong báo cáo KQKD nửa đầu năm 2021, Masan cho biết đặt mục tiêu chạm mốc1.000 kiosk Phúc Longtại các điểm bán của WinCommerce (bao gồm WinMart và WinMart+)."
+    },
+    {
+        "text": "cuối năm 2021",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "500 điểm bán",
+        "label": "VOLUME",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "400 điểm bán",
+        "label": "VOLUME",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "2.500-3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đến cuối năm 2021, số kiosk Phúc Long đã tăng phi mã, đạt mốc 500 điểm bán và có kế hoạch mở mới thêm 400 điểm bán trong năm 2022, doanh thu 2.500-3.000 tỷ đồng."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "đầu tháng 1",
+        "label": "DATE",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "cổ phần của Phúc Long",
+        "label": "ASSET",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "51%",
+        "label": "RATE",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%",
+        "label": "EVENT",
+        "evidence": "Bước sang năm 2022, ngay đầu tháng 1, Masan mua thêm 31% cổ phần của Phúc Long, nâng tỷ lệ sở hữu lên 51%, qua đó nắm quyền chi phối thương hiệu đồ uống này."
+    },
+    {
+        "text": "760 cửa hàng",
+        "label": "VOLUME",
+        "evidence": "Cùng với đó, mô hình kiosk cũng tiếp tục đà bành chướng quy mô,chạm mốc 760 cửa hàng."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Phúc Long cũng không hề đơn độc trong hành trình này khi mà cuộc chơi còn in dấu chân của The Coffee House."
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "Phúc Long cũng không hề đơn độc trong hành trình này khi mà cuộc chơi còn in dấu chân của The Coffee House."
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, The Coffee House có phần dè dặt hơn trong những bước đi của mình khi đến cuối tháng 10/2021 mới khai trương kiosk đầu tiên, đặt trong siêu thị Kingfood Mart (cùng thuộc hệ sinh thái Seedcom)."
+    },
+    {
+        "text": "cuối tháng 10/2021",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, The Coffee House có phần dè dặt hơn trong những bước đi của mình khi đến cuối tháng 10/2021 mới khai trương kiosk đầu tiên, đặt trong siêu thị Kingfood Mart (cùng thuộc hệ sinh thái Seedcom)."
+    },
+    {
+        "text": "khai trương kiosk đầu tiên",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, The Coffee House có phần dè dặt hơn trong những bước đi của mình khi đến cuối tháng 10/2021 mới khai trương kiosk đầu tiên, đặt trong siêu thị Kingfood Mart (cùng thuộc hệ sinh thái Seedcom)."
+    },
+    {
+        "text": "Kingfood Mart",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, The Coffee House có phần dè dặt hơn trong những bước đi của mình khi đến cuối tháng 10/2021 mới khai trương kiosk đầu tiên, đặt trong siêu thị Kingfood Mart (cùng thuộc hệ sinh thái Seedcom)."
+    },
+    {
+        "text": "Seedcom",
+        "label": "ORG",
+        "evidence": "Tuy nhiên, The Coffee House có phần dè dặt hơn trong những bước đi của mình khi đến cuối tháng 10/2021 mới khai trương kiosk đầu tiên, đặt trong siêu thị Kingfood Mart (cùng thuộc hệ sinh thái Seedcom)."
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "Một tuần sau đó, The Coffee House cấp tập mở thêm 8 kiosk (bao gồm xe đẩy, kiosk độc lập và kiosk tích hợp trong siêu thị)."
+    },
+    {
+        "text": "8 kiosk",
+        "label": "VOLUME",
+        "evidence": "Một tuần sau đó, The Coffee House cấp tập mở thêm 8 kiosk (bao gồm xe đẩy, kiosk độc lập và kiosk tích hợp trong siêu thị)."
+    },
+    {
+        "text": "Chuk Chuk",
+        "label": "ORG",
+        "evidence": "Hay chuỗi Chuk Chuk (khi ấy còn do KIDO điều hành) cũng có động thái tương tự."
+    },
+    {
+        "text": "KIDO",
+        "label": "ORG",
+        "evidence": "Hay chuỗi Chuk Chuk (khi ấy còn do KIDO điều hành) cũng có động thái tương tự."
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "Kiosk The Coffee House tại siêu thị Kingfood Mart"
+    },
+    {
+        "text": "Kingfood Mart",
+        "label": "ORG",
+        "evidence": "Kiosk The Coffee House tại siêu thị Kingfood Mart"
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "The Coffee House dù mở liên tiếp 8 kiosk mới trong tuần đầu tiên nhưng sau đó, không có động thái nào cho thấy mô hình này tiếp tục được nhân rộng thêm."
+    },
+    {
+        "text": "8 kiosk",
+        "label": "VOLUME",
+        "evidence": "The Coffee House dù mở liên tiếp 8 kiosk mới trong tuần đầu tiên nhưng sau đó, không có động thái nào cho thấy mô hình này tiếp tục được nhân rộng thêm."
+    },
+    {
+        "text": "mở lại cửa hàng flagship",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, thương hiệu này cũng vừa mở lại cửa hàng flagship sau một năm đóng cửa."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Phúc Long – sau khi đã có đến 760 điểm kiosk, lại “quay xe” thu hẹp."
+    },
+    {
+        "text": "760 điểm kiosk",
+        "label": "VOLUME",
+        "evidence": "Trong khi đó, Phúc Long – sau khi đã có đến 760 điểm kiosk, lại “quay xe” thu hẹp."
+    },
+    {
+        "text": "nửa cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Từ nửa cuối năm 2022, Masan bắt đầu đóng các kiosk không hiệu quả."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Từ nửa cuối năm 2022, Masan bắt đầu đóng các kiosk không hiệu quả."
+    },
+    {
+        "text": "Masan bắt đầu đóng các kiosk không hiệu quả",
+        "label": "EVENT",
+        "evidence": "Từ nửa cuối năm 2022, Masan bắt đầu đóng các kiosk không hiệu quả."
+    },
+    {
+        "text": "44 cửa hàng",
+        "label": "VOLUME",
+        "evidence": "Thay vào đó, chuỗi này lại trở về với mô hình flagship (mô hình cửa hàng lớn, hiện đại), mở mới 44 cửa hàng."
+    },
+    {
+        "text": "mở mới 44 cửa hàng",
+        "label": "EVENT",
+        "evidence": "Thay vào đó, chuỗi này lại trở về với mô hình flagship (mô hình cửa hàng lớn, hiện đại), mở mới 44 cửa hàng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan cho biếtcác cửa hàng flagship đem lại biên lợi nhuận EBITDA cấp cửa hàng lên tới 26%, dẫn đầu về tỷ suất lợi nhuận trong ngành."
+    },
+    {
+        "text": "26%",
+        "label": "RATE",
+        "evidence": "Masan cho biếtcác cửa hàng flagship đem lại biên lợi nhuận EBITDA cấp cửa hàng lên tới 26%, dẫn đầu về tỷ suất lợi nhuận trong ngành."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Phúc Long mở mới 44 cửa hàng flagship, chủ yếu trong nửa cuối năm 2022"
+    },
+    {
+        "text": "44 cửa hàng",
+        "label": "VOLUME",
+        "evidence": "Phúc Long mở mới 44 cửa hàng flagship, chủ yếu trong nửa cuối năm 2022"
+    },
+    {
+        "text": "Phúc Long mở mới 44 cửa hàng flagship",
+        "label": "EVENT",
+        "evidence": "Phúc Long mở mới 44 cửa hàng flagship, chủ yếu trong nửa cuối năm 2022"
+    },
+    {
+        "text": "nửa cuối năm 2022",
+        "label": "DATE",
+        "evidence": "Phúc Long mở mới 44 cửa hàng flagship, chủ yếu trong nửa cuối năm 2022"
+    },
+    {
+        "text": "Báo cáo KQKD",
+        "label": "ASSET",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "cả năm 2022",
+        "label": "DATE",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "1.579 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "2.500-3.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Báo cáo KQKD cả năm 2022, Masan cho biết Phúc Long đạt 1.579 tỷ đồng doanh thu, không đạt kế hoạch 2.500-3.000 tỷ đồng đề ra."
+    },
+    {
+        "text": "1.153 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng nói, phần lớn kết quả đến từ các cửa hàng flagship hoạt động hiệu quả, với doanh thu 1.153 tỷ đồng và 332 tỷ đồng EBITDA."
+    },
+    {
+        "text": "332 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đáng nói, phần lớn kết quả đến từ các cửa hàng flagship hoạt động hiệu quả, với doanh thu 1.153 tỷ đồng và 332 tỷ đồng EBITDA."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Như vậy,vài trăm kiosk được Phúc Long ồ ạt mở ra trong nửa đầu năm 2022 chỉ đem lại vỏn vẹn 426 tỷ đồng doanh thu."
+    },
+    {
+        "text": "nửa đầu năm 2022",
+        "label": "DATE",
+        "evidence": "Như vậy,vài trăm kiosk được Phúc Long ồ ạt mở ra trong nửa đầu năm 2022 chỉ đem lại vỏn vẹn 426 tỷ đồng doanh thu."
+    },
+    {
+        "text": "426 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Như vậy,vài trăm kiosk được Phúc Long ồ ạt mở ra trong nửa đầu năm 2022 chỉ đem lại vỏn vẹn 426 tỷ đồng doanh thu."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Thậm chí, việc đóng cửa các kiosk còn khiến Phúc Long tốn thêm 42 tỷ đồng chi phí."
+    },
+    {
+        "text": "42 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thậm chí, việc đóng cửa các kiosk còn khiến Phúc Long tốn thêm 42 tỷ đồng chi phí."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan cũng chưa cho biết kế hoạch mở rộng cụ thể đổi với mô hình kiosk và flagship mà vẫn “đang tiến hành đánh giá toàn diện trong Quý 1/2023 nhằm xác định mô hình hoạt động tối ưu trước khi tiếp tục nhân rộng”."
+    },
+    {
+        "text": "Quý 1/2023",
+        "label": "DATE",
+        "evidence": "Masan cũng chưa cho biết kế hoạch mở rộng cụ thể đổi với mô hình kiosk và flagship mà vẫn “đang tiến hành đánh giá toàn diện trong Quý 1/2023 nhằm xác định mô hình hoạt động tối ưu trước khi tiếp tục nhân rộng”."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Việc phải chiết khấu cho các ứng dụng giao hàng đến 25% doanh thu đơn hàng là một trong những nguyên nhân bào mòn lợi nhuận của những mô hình như kiosk."
+    },
+    {
+        "text": "Phúc Long",
+        "label": "ORG",
+        "evidence": "Dường như, Phúc Long hay The Coffee House vẫn chưa tạo ra một lý do, động lực đủ mạnh để khách hàng thường xuyên lui tới các mô hình kiosk."
+    },
+    {
+        "text": "The Coffee House",
+        "label": "ORG",
+        "evidence": "Dường như, Phúc Long hay The Coffee House vẫn chưa tạo ra một lý do, động lực đủ mạnh để khách hàng thường xuyên lui tới các mô hình kiosk."
+    }
+]

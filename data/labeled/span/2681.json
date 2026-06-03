@@ -1,0 +1,252 @@
+[
+    {
+        "text": "Hoàng Nam Tiến",
+        "label": "PERSON",
+        "evidence": "ông Hoàng Nam Tiến chia sẻ với một bạn sinh viên trong tọa đàm Gen Z hỏi, các Sếp trả lời."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tập đoàn chúng tôi (FPT) có60.000 người, nhưng tại trên tập đoàn chỉ có6 kế toán."
+    },
+    {
+        "text": "60.000 người",
+        "label": "VOLUME",
+        "evidence": "Tập đoàn chúng tôi (FPT) có60.000 người, nhưng tại trên tập đoàn chỉ có6 kế toán."
+    },
+    {
+        "text": "6 kế toán",
+        "label": "VOLUME",
+        "evidence": "Tập đoàn chúng tôi (FPT) có60.000 người, nhưng tại trên tập đoàn chỉ có6 kế toán."
+    },
+    {
+        "text": "200 kế toán",
+        "label": "VOLUME",
+        "evidence": "Nếu bình thường các công ty khác cần 200 kế toán, còn đây (FPT) hệ thống tự động chạy hết."
+    },
+    {
+        "text": "tọa đàm Gen Z hỏi, các Sếp trả lời",
+        "label": "EVENT",
+        "evidence": "ông Hoàng Nam Tiến chia sẻ với một bạn sinh viên trong tọa đàm Gen Z hỏi, các Sếp trả lời."
+    },
+    {
+        "text": "ông Hoàng Nam Tiến",
+        "label": "PERSON",
+        "evidence": "Nhận định của ông Hoàng Nam Tiến khá tương đồng với thông tin tờ Wall Street Journal dẫn một nghiên cứu mới đưa ra:Kế toán là một trong những nghề đối mặt nguy cơ nhiều nhất từ năng lực của trí tuệ nhân tạo(AI) phổ quát."
+    },
+    {
+        "text": "Wall Street Journal",
+        "label": "ORG",
+        "evidence": "Nhận định của ông Hoàng Nam Tiến khá tương đồng với thông tin tờ Wall Street Journal dẫn một nghiên cứu mới đưa ra:Kế toán là một trong những nghề đối mặt nguy cơ nhiều nhất từ năng lực của trí tuệ nhân tạo(AI) phổ quát."
+    },
+    {
+        "text": "Kế toán là một trong những nghề đối mặt nguy cơ nhiều nhất từ năng lực của trí tuệ nhân tạo(AI) phổ quát",
+        "label": "EVENT",
+        "evidence": "tờ Wall Street Journal dẫn một nghiên cứu mới đưa ra:Kế toán là một trong những nghề đối mặt nguy cơ nhiều nhất từ năng lực của trí tuệ nhân tạo(AI) phổ quát."
+    },
+    {
+        "text": "Đại học Pennsylvania",
+        "label": "ORG",
+        "evidence": "Nghiên cứu này được thực hiện bởi Đại học Pennsylvania và OpenAI - công ty tạo ra công cụ AI đình đám có tên ChatGPT."
+    },
+    {
+        "text": "OpenAI",
+        "label": "ORG",
+        "evidence": "Nghiên cứu này được thực hiện bởi Đại học Pennsylvania và OpenAI - công ty tạo ra công cụ AI đình đám có tên ChatGPT."
+    },
+    {
+        "text": "ChatGPT",
+        "label": "ASSET",
+        "evidence": "Nghiên cứu này được thực hiện bởi Đại học Pennsylvania và OpenAI - công ty tạo ra công cụ AI đình đám có tên ChatGPT."
+    },
+    {
+        "text": "ít nhất một nửa nhiệm vụ kế toán có thể được hoàn thành nhanh hơn nhiều nếu dùng công nghệ này",
+        "label": "EVENT",
+        "evidence": "Theo nhóm tác giả thực hiện nghiên cứu, ít nhất một nửa nhiệm vụ kế toán có thể được hoàn thành nhanh hơn nhiều nếu dùng công nghệ này."
+    },
+    {
+        "text": "ChatGPT",
+        "label": "ASSET",
+        "evidence": "Trên thực tế, không phải mới gần đây khi ChatGPT nổi lên như một hiện tượng, nghề kế toán mới có nguy cơ bị \"đe dọa\" bởi sự phát triển của cuộc cách mạng công nghệ 4.0."
+    },
+    {
+        "text": "cuộc cách mạng công nghệ 4.0",
+        "label": "EVENT",
+        "evidence": "nghề kế toán mới có nguy cơ bị \"đe dọa\" bởi sự phát triển của cuộc cách mạng công nghệ 4.0."
+    },
+    {
+        "text": "cuối 2017",
+        "label": "DATE",
+        "evidence": "Từ cuối 2017, IBM và một số doanh nghiệp đã ứng dụng công nghệ Robot Automation để thực hiện các bút toán lặp đi lặp lại, việc mà nhân viên kế toán làm mất nhiều thời gian nhưng robot automation thì lại hỗ trợ rất hiệu quả."
+    },
+    {
+        "text": "IBM",
+        "label": "ORG",
+        "evidence": "Từ cuối 2017, IBM và một số doanh nghiệp đã ứng dụng công nghệ Robot Automation để thực hiện các bút toán lặp đi lặp lại, việc mà nhân viên kế toán làm mất nhiều thời gian nhưng robot automation thì lại hỗ trợ rất hiệu quả."
+    },
+    {
+        "text": "Robot Automation",
+        "label": "ASSET",
+        "evidence": "Từ cuối 2017, IBM và một số doanh nghiệp đã ứng dụng công nghệ Robot Automation để thực hiện các bút toán lặp đi lặp lại, việc mà nhân viên kế toán làm mất nhiều thời gian nhưng robot automation thì lại hỗ trợ rất hiệu quả."
+    },
+    {
+        "text": "ứng dụng công nghệ Robot Automation để thực hiện các bút toán lặp đi lặp lại",
+        "label": "EVENT",
+        "evidence": "Từ cuối 2017, IBM và một số doanh nghiệp đã ứng dụng công nghệ Robot Automation để thực hiện các bút toán lặp đi lặp lại, việc mà nhân viên kế toán làm mất nhiều thời gian nhưng robot automation thì lại hỗ trợ rất hiệu quả."
+    },
+    {
+        "text": "Từ năm 2017 đến nay",
+        "label": "DATE",
+        "evidence": "Từ năm 2017 đến nay, Robot tự động hóa đã được ứng dụng tại IBM Malaysia, IBM Slovakia,…; máy tính IBM Watson hỗ trợ công việc kiểm toán, tư vấn thuế, hỗ trợ khách hàng,… tại KPMG International; ứng dụng trí tuệ nhân tạo tại Deloitte; người máy Watson của IBM hỗ trợ các bác sỹ trong việc chuẩn đoán Ung thư tại Việt Nam, Bệnh viện đa khoa Phú Thọ…"
+    },
+    {
+        "text": "IBM Malaysia",
+        "label": "ORG",
+        "evidence": "Từ năm 2017 đến nay, Robot tự động hóa đã được ứng dụng tại IBM Malaysia, IBM Slovakia,…"
+    },
+    {
+        "text": "IBM Slovakia",
+        "label": "ORG",
+        "evidence": "Từ năm 2017 đến nay, Robot tự động hóa đã được ứng dụng tại IBM Malaysia, IBM Slovakia,…"
+    },
+    {
+        "text": "máy tính IBM Watson",
+        "label": "ASSET",
+        "evidence": "máy tính IBM Watson hỗ trợ công việc kiểm toán, tư vấn thuế, hỗ trợ khách hàng,… tại KPMG International"
+    },
+    {
+        "text": "KPMG International",
+        "label": "ORG",
+        "evidence": "máy tính IBM Watson hỗ trợ công việc kiểm toán, tư vấn thuế, hỗ trợ khách hàng,… tại KPMG International"
+    },
+    {
+        "text": "Deloitte",
+        "label": "ORG",
+        "evidence": "ứng dụng trí tuệ nhân tạo tại Deloitte"
+    },
+    {
+        "text": "người máy Watson của IBM",
+        "label": "ASSET",
+        "evidence": "người máy Watson của IBM hỗ trợ các bác sỹ trong việc chuẩn đoán Ung thư tại Việt Nam, Bệnh viện đa khoa Phú Thọ…"
+    },
+    {
+        "text": "Bệnh viện đa khoa Phú Thọ",
+        "label": "ORG",
+        "evidence": "người máy Watson của IBM hỗ trợ các bác sỹ trong việc chuẩn đoán Ung thư tại Việt Nam, Bệnh viện đa khoa Phú Thọ…"
+    },
+    {
+        "text": "Cuộc Cách mạng công nghệ 4.0",
+        "label": "EVENT",
+        "evidence": "Cuộc Cách mạng công nghệ 4.0 là cuộc cách mạng về sản xuất thông minh, dựa trên việc sử dụng internet kết nối vạn vật để chuyển hóa toàn bộ thế giới thực thành thế giới số."
+    },
+    {
+        "text": "Giai đoạn khởi phát của cuộc Cách mạng công nghệ 4.0 sẽ tạo ra cấu trúc mới cho nền kinh tế",
+        "label": "EVENT",
+        "evidence": "Giai đoạn khởi phát của cuộc Cách mạng công nghệ 4.0 sẽ tạo ra cấu trúc mới cho nền kinh tế, đó là dựa trên ứng dụng công nghệ cao, mạng lưới internet kết nối vạn vật, trí tuệ nhân tạo, robot thông minh, công nghệ blockchain, điện toán đám mây..."
+    },
+    {
+        "text": "cuộc Cách mạng công nghệ 4.0",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, cuộc Cách mạng công nghệ 4.0 còn dựa trên nền tảng công nghệ số, tích hợp các công nghệ thông minh để tối ưu hóa quy trình sản xuất, quy trình kinh doanh, quy trình nghiệp vụ, phương thức sản xuất, trong đó có quy trình xử lý, cung cấp thông tin cho bộ phận kế toán - tài chính."
+    },
+    {
+        "text": "WSJ",
+        "label": "ORG",
+        "evidence": "Nguồn: WSJ."
+    },
+    {
+        "text": "Luật Kế toán Việt Nam",
+        "label": "EVENT",
+        "evidence": "Theo Luật Kế toán Việt Nam, bất kỳ tổ chức kinh tế, đơn vị sự nghiệp nào cũng phải thành lập bộ máy kế toán."
+    },
+    {
+        "text": "cuối năm 2020",
+        "label": "DATE",
+        "evidence": "Theo thống kê, đến cuối năm 2020, Việt Nam có khoảng 683 nghìn doanh nghiệp đang hoạt động."
+    },
+    {
+        "text": "683 nghìn doanh nghiệp",
+        "label": "VOLUME",
+        "evidence": "Theo thống kê, đến cuối năm 2020, Việt Nam có khoảng 683 nghìn doanh nghiệp đang hoạt động."
+    },
+    {
+        "text": "tăng trưởng đầu tư nước ngoài",
+        "label": "EVENT",
+        "evidence": "lĩnh vực Kế toán - Tài chính Việt Nam còn cơ hội phát triển sôi động và tăng trưởng mạnh mẽ bởi những dự báo khả quan về tăng trưởng đầu tư nước ngoài, các thương vụ mua bán sáp nhập, cổ phần hóa doanh nghiệp nhà nước, kế hoạch tái cấu trúc của các doanh nghiệp"
+    },
+    {
+        "text": "các thương vụ mua bán sáp nhập",
+        "label": "EVENT",
+        "evidence": "lĩnh vực Kế toán - Tài chính Việt Nam còn cơ hội phát triển sôi động và tăng trưởng mạnh mẽ bởi những dự báo khả quan về tăng trưởng đầu tư nước ngoài, các thương vụ mua bán sáp nhập, cổ phần hóa doanh nghiệp nhà nước, kế hoạch tái cấu trúc của các doanh nghiệp"
+    },
+    {
+        "text": "cổ phần hóa doanh nghiệp nhà nước",
+        "label": "EVENT",
+        "evidence": "lĩnh vực Kế toán - Tài chính Việt Nam còn cơ hội phát triển sôi động và tăng trưởng mạnh mẽ bởi những dự báo khả quan về tăng trưởng đầu tư nước ngoài, các thương vụ mua bán sáp nhập, cổ phần hóa doanh nghiệp nhà nước, kế hoạch tái cấu trúc của các doanh nghiệp"
+    },
+    {
+        "text": "kế hoạch tái cấu trúc của các doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "lĩnh vực Kế toán - Tài chính Việt Nam còn cơ hội phát triển sôi động và tăng trưởng mạnh mẽ bởi những dự báo khả quan về tăng trưởng đầu tư nước ngoài, các thương vụ mua bán sáp nhập, cổ phần hóa doanh nghiệp nhà nước, kế hoạch tái cấu trúc của các doanh nghiệp"
+    },
+    {
+        "text": "áp dụng Chuẩn mực Báo cáo tài chính Quốc tế (IFRS - International Financial Reporting Standard )",
+        "label": "EVENT",
+        "evidence": "Thời gian tới, việc áp dụng Chuẩn mực Báo cáo tài chính Quốc tế (IFRS - International Financial Reporting Standard ) sẽ mở ra tiền đề cho sự phát triển mạnh mẽ lĩnh vực kế toán - tài chính của Việt Nam trong các năm tiếp theo, tạo động lực hội nhập sâu rộng vào khu vực và thế giới."
+    },
+    {
+        "text": "Bộ Tài chính",
+        "label": "ORG",
+        "evidence": "Theo lộ trình được Bộ Tài chính công bố, từ sau năm 2025, giai đoạn 3 – giai đoạn bắt buộc áp dụng IFRS, các công ty bắt buộc phải lập báo cáo tài chính hợp nhất theo IFRS bao gồm tất cả các công ty mẹ của các tập đoàn kinh tế nhà nước, tất cả các công ty niêm yết, tất cả các công ty đại chúng có quy mô lớn là công ty mẹ chưa niêm yết."
+    },
+    {
+        "text": "sau năm 2025",
+        "label": "DATE",
+        "evidence": "Theo lộ trình được Bộ Tài chính công bố, từ sau năm 2025, giai đoạn 3 – giai đoạn bắt buộc áp dụng IFRS, các công ty bắt buộc phải lập báo cáo tài chính hợp nhất theo IFRS bao gồm tất cả các công ty mẹ của các tập đoàn kinh tế nhà nước, tất cả các công ty niêm yết, tất cả các công ty đại chúng có quy mô lớn là công ty mẹ chưa niêm yết."
+    },
+    {
+        "text": "giai đoạn 3 – giai đoạn bắt buộc áp dụng IFRS",
+        "label": "EVENT",
+        "evidence": "từ sau năm 2025, giai đoạn 3 – giai đoạn bắt buộc áp dụng IFRS, các công ty bắt buộc phải lập báo cáo tài chính hợp nhất theo IFRS bao gồm tất cả các công ty mẹ của các tập đoàn kinh tế nhà nước, tất cả các công ty niêm yết, tất cả các công ty đại chúng có quy mô lớn là công ty mẹ chưa niêm yết."
+    },
+    {
+        "text": "bắt buộc phải lập báo cáo tài chính hợp nhất theo IFRS",
+        "label": "EVENT",
+        "evidence": "giai đoạn 3 – giai đoạn bắt buộc áp dụng IFRS, các công ty bắt buộc phải lập báo cáo tài chính hợp nhất theo IFRS bao gồm tất cả các công ty mẹ của các tập đoàn kinh tế nhà nước, tất cả các công ty niêm yết, tất cả các công ty đại chúng có quy mô lớn là công ty mẹ chưa niêm yết."
+    },
+    {
+        "text": "Học viện Tài chính",
+        "label": "ORG",
+        "evidence": "Trong một sự kiện của Học viện Tài chính tổ chức từ năm 2019, với vai trò là kế toán trưởng công ty IBM Việt Nam, bà Nguyễn Thị Thuỷ ( thành viên ACCA), có lời khuyên với các bạn sinh viên: Người làm công tác tài chính - kế toán nếu không nhận biết được sự thay đổi của công nghệ, không nỗ lực học tập nâng cao trình độ nghiệp vụ, có kiến thức sâu về quản trị doanh nghiệp thì sẽ thua thiệt."
+    },
+    {
+        "text": "năm 2019",
+        "label": "DATE",
+        "evidence": "Trong một sự kiện của Học viện Tài chính tổ chức từ năm 2019, với vai trò là kế toán trưởng công ty IBM Việt Nam, bà Nguyễn Thị Thuỷ ( thành viên ACCA), có lời khuyên với các bạn sinh viên: Người làm công tác tài chính - kế toán nếu không nhận biết được sự thay đổi của công nghệ, không nỗ lực học tập nâng cao trình độ nghiệp vụ, có kiến thức sâu về quản trị doanh nghiệp thì sẽ thua thiệt."
+    },
+    {
+        "text": "IBM Việt Nam",
+        "label": "ORG",
+        "evidence": "với vai trò là kế toán trưởng công ty IBM Việt Nam, bà Nguyễn Thị Thuỷ ( thành viên ACCA), có lời khuyên với các bạn sinh viên:"
+    },
+    {
+        "text": "bà Nguyễn Thị Thuỷ",
+        "label": "PERSON",
+        "evidence": "với vai trò là kế toán trưởng công ty IBM Việt Nam, bà Nguyễn Thị Thuỷ ( thành viên ACCA), có lời khuyên với các bạn sinh viên:"
+    },
+    {
+        "text": "ACCA",
+        "label": "ORG",
+        "evidence": "bà Nguyễn Thị Thuỷ ( thành viên ACCA), có lời khuyên với các bạn sinh viên:"
+    },
+    {
+        "text": "ông Hoàng Nam Tiến",
+        "label": "PERSON",
+        "evidence": "Còn ông Hoàng Nam Tiến trong sự kiện mới đây cũng chia sẻ thẳng thắn với Gen Z \"Nếu các bạn không có khả năng tư duy độc lập thì các bạn chỉ là những người bình thường và nhanh chóng trở thành người tầm thường."
+    },
+    {
+        "text": "ChatGPT",
+        "label": "ASSET",
+        "evidence": "Còn nếu các bạn là người xuất sắc thì không có ChatGPT nào thay thế được các bạn.\""
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Theo đó, Techcombank đã tăng lãi suất huy động ở các kỳ hạn 1-2 tháng thêm 0,2%."
+    },
+    {
+        "text": "Techcombank đã tăng lãi suất huy động ở các kỳ hạn 1-2 tháng thêm 0,2%",
+        "label": "EVENT",
+        "evidence": "Theo đó, Techcombank đã tăng lãi suất huy động ở các kỳ hạn 1-2 tháng thêm 0,2%."
+    },
+    {
+        "text": "0,2%",
+        "label": "RATE",
+        "evidence": "Theo đó, Techcombank đã tăng lãi suất huy động ở các kỳ hạn 1-2 tháng thêm 0,2%."
+    },
+    {
+        "text": "lãi suất kỳ hạn 1 tháng, 2 tháng tăng từ 2,75-3,2%/năm lên 2,95-3,4%/năm",
+        "label": "EVENT",
+        "evidence": "Cụ thể, đối với gửi tiết kiệm tại quầy, lãi suất kỳ hạn 1 tháng, 2 tháng tăng từ 2,75-3,2%/năm lên 2,95-3,4%/năm."
+    },
+    {
+        "text": "2,75-3,2%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, đối với gửi tiết kiệm tại quầy, lãi suất kỳ hạn 1 tháng, 2 tháng tăng từ 2,75-3,2%/năm lên 2,95-3,4%/năm."
+    },
+    {
+        "text": "2,95-3,4%/năm",
+        "label": "RATE",
+        "evidence": "Cụ thể, đối với gửi tiết kiệm tại quầy, lãi suất kỳ hạn 1 tháng, 2 tháng tăng từ 2,75-3,2%/năm lên 2,95-3,4%/năm."
+    },
+    {
+        "text": "3,4%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất 3,4%/năm áp dụng cho khách hàng Private gửi từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, lãi suất 3,4%/năm áp dụng cho khách hàng Private gửi từ 3 tỷ đồng trở lên."
+    },
+    {
+        "text": "3,15-3,6%/năm",
+        "label": "RATE",
+        "evidence": "Trong đó, lãi suất kỳ hạn 3-5 tháng là 3,15-3,6%/năm."
+    },
+    {
+        "text": "4,15-4,5%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 6 tháng là 4,15-4,5%/năm."
+    },
+    {
+        "text": "4,85-5,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất kỳ hạn 12 tháng – 36 tháng là 4,85-5,2%/năm."
+    },
+    {
+        "text": "3,05%/năm",
+        "label": "RATE",
+        "evidence": "Đối với gửi tiết kiệm online, lãi suất thấp nhất là 3,05%/năm (áp dụng cho khách hàng thường, tiền gửi dưới 1 tỷ đồng)."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Đối với gửi tiết kiệm online, lãi suất thấp nhất là 3,05%/năm (áp dụng cho khách hàng thường, tiền gửi dưới 1 tỷ đồng)."
+    },
+    {
+        "text": "5,2%/năm",
+        "label": "RATE",
+        "evidence": "Lãi suất cao nhất là 5,2%/năm (áp dụng cho khách hàng gửi tiền từ 12 tháng trở lên, số tiền từ 3 tỷ đồng và là khách hàng Private)."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lãi suất cao nhất là 5,2%/năm (áp dụng cho khách hàng gửi tiền từ 12 tháng trở lên, số tiền từ 3 tỷ đồng và là khách hàng Private)."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tuần trước cũng đã có 3 ngân hàng tăng lãi suất tiết kiệm là VPBank, DongABank, CB."
+    },
+    {
+        "text": "DongABank",
+        "label": "ORG",
+        "evidence": "Tuần trước cũng đã có 3 ngân hàng tăng lãi suất tiết kiệm là VPBank, DongABank, CB."
+    },
+    {
+        "text": "CB",
+        "label": "ORG",
+        "evidence": "Tuần trước cũng đã có 3 ngân hàng tăng lãi suất tiết kiệm là VPBank, DongABank, CB."
+    },
+    {
+        "text": "tăng lãi suất tiết kiệm",
+        "label": "EVENT",
+        "evidence": "Tuần trước cũng đã có 3 ngân hàng tăng lãi suất tiết kiệm là VPBank, DongABank, CB."
+    },
+    {
+        "text": "VPBank tăng thêm 0,5 điểm % đối với các kỳ hạn 1 tháng và 0,2 điểm % đối với các kỳ hạn còn lại",
+        "label": "EVENT",
+        "evidence": "Trong đó, VPBank tăng thêm 0,5 điểm % đối với các kỳ hạn 1 tháng và 0,2 điểm % đối với các kỳ hạn còn lại."
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "Trong đó, VPBank tăng thêm 0,5 điểm % đối với các kỳ hạn 1 tháng và 0,2 điểm % đối với các kỳ hạn còn lại."
+    },
+    {
+        "text": "0,2 điểm %",
+        "label": "RATE",
+        "evidence": "Trong đó, VPBank tăng thêm 0,5 điểm % đối với các kỳ hạn 1 tháng và 0,2 điểm % đối với các kỳ hạn còn lại."
+    },
+    {
+        "text": "DongABank cũng tăng 0,5 điểm % ở các kỳ hạn 1-11 tháng",
+        "label": "EVENT",
+        "evidence": "DongABank cũng tăng 0,5 điểm % ở các kỳ hạn 1-11 tháng."
+    },
+    {
+        "text": "0,5 điểm %",
+        "label": "RATE",
+        "evidence": "DongABank cũng tăng 0,5 điểm % ở các kỳ hạn 1-11 tháng."
+    },
+    {
+        "text": "CB tăng 0,4 điểm % đối với kỳ hạn 1-12 tháng và 0,3 điểm % kỳ hạn từ 13 tháng trở lên",
+        "label": "EVENT",
+        "evidence": "CB tăng 0,4 điểm % đối với kỳ hạn 1-12 tháng và 0,3 điểm % kỳ hạn từ 13 tháng trở lên."
+    },
+    {
+        "text": "0,4 điểm %",
+        "label": "RATE",
+        "evidence": "CB tăng 0,4 điểm % đối với kỳ hạn 1-12 tháng và 0,3 điểm % kỳ hạn từ 13 tháng trở lên."
+    },
+    {
+        "text": "0,3 điểm %",
+        "label": "RATE",
+        "evidence": "CB tăng 0,4 điểm % đối với kỳ hạn 1-12 tháng và 0,3 điểm % kỳ hạn từ 13 tháng trở lên."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ở nhóm ngân hàng quốc doanh, VietinBank, BIDV, Agribank cũng đã có điều chỉnh tăng trong những tháng qua, chỉ còn Vietcombank vẫn giữ nguyên."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Ở nhóm ngân hàng quốc doanh, VietinBank, BIDV, Agribank cũng đã có điều chỉnh tăng trong những tháng qua, chỉ còn Vietcombank vẫn giữ nguyên."
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Ở nhóm ngân hàng quốc doanh, VietinBank, BIDV, Agribank cũng đã có điều chỉnh tăng trong những tháng qua, chỉ còn Vietcombank vẫn giữ nguyên."
+    },
+    {
+        "text": "điều chỉnh tăng",
+        "label": "EVENT",
+        "evidence": "Ở nhóm ngân hàng quốc doanh, VietinBank, BIDV, Agribank cũng đã có điều chỉnh tăng trong những tháng qua, chỉ còn Vietcombank vẫn giữ nguyên."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Ở nhóm ngân hàng quốc doanh, VietinBank, BIDV, Agribank cũng đã có điều chỉnh tăng trong những tháng qua, chỉ còn Vietcombank vẫn giữ nguyên."
+    },
+    {
+        "text": "Công ty chứng khoán MBS",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích gần đây, các chuyên gia của Công ty chứng khoán MBS cho biết, ở một vài ngân hàng đã vượt mốc 6%/năm, trong bối cảnh tăng trưởng tín dụng đang tăng nhanh gấp 3 lần so với tốc độ tăng của huy động vốn."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Trong báo cáo phân tích gần đây, các chuyên gia của Công ty chứng khoán MBS cho biết, ở một vài ngân hàng đã vượt mốc 6%/năm, trong bối cảnh tăng trưởng tín dụng đang tăng nhanh gấp 3 lần so với tốc độ tăng của huy động vốn."
+    },
+    {
+        "text": "6%/năm",
+        "label": "RATE",
+        "evidence": "Trong báo cáo phân tích gần đây, các chuyên gia của Công ty chứng khoán MBS cho biết, ở một vài ngân hàng đã vượt mốc 6%/năm, trong bối cảnh tăng trưởng tín dụng đang tăng nhanh gấp 3 lần so với tốc độ tăng của huy động vốn."
+    },
+    {
+        "text": "tăng lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "Điều này đã khiến các ngân hàng ráo riết tăng lãi suất huy động nhằm nâng cao tính cạnh tranh của kênh tiết kiệm so với các kênh đầu tư khác trên thị trường."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "MBS cho rằng cầu tín dụng sẽ tiếp tục xu hướng tăng lên mạnh hơn từ giữa năm 2024 khi sản xuất và đầu tư tăng tốc mạnh hơn trong những tháng cuối năm."
+    },
+    {
+        "text": "giữa năm 2024",
+        "label": "DATE",
+        "evidence": "MBS cho rằng cầu tín dụng sẽ tiếp tục xu hướng tăng lên mạnh hơn từ giữa năm 2024 khi sản xuất và đầu tư tăng tốc mạnh hơn trong những tháng cuối năm."
+    },
+    {
+        "text": "những tháng cuối năm",
+        "label": "DATE",
+        "evidence": "MBS cho rằng cầu tín dụng sẽ tiếp tục xu hướng tăng lên mạnh hơn từ giữa năm 2024 khi sản xuất và đầu tư tăng tốc mạnh hơn trong những tháng cuối năm."
+    },
+    {
+        "text": "50 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "Theo đó, dự báo lãi suất huy động kỳ hạn 12 tháng của các ngân hàng lớn sẽ có thể nhích thêm 50 điểm cơ bản, quay về mức 5,2% - 5,5% vào cuối năm 2024."
+    },
+    {
+        "text": "5,2% - 5,5%",
+        "label": "RATE",
+        "evidence": "Theo đó, dự báo lãi suất huy động kỳ hạn 12 tháng của các ngân hàng lớn sẽ có thể nhích thêm 50 điểm cơ bản, quay về mức 5,2% - 5,5% vào cuối năm 2024."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Theo đó, dự báo lãi suất huy động kỳ hạn 12 tháng của các ngân hàng lớn sẽ có thể nhích thêm 50 điểm cơ bản, quay về mức 5,2% - 5,5% vào cuối năm 2024."
+    }
+]

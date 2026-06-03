@@ -1,0 +1,157 @@
+[
+    {
+        "text": "Sở GDCK TP.HCM",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở GDCK TP.HCM"
+    },
+    {
+        "text": "Ngân hàng TMCP Phát triển TPHCM",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TPHCM (HDBank, HDB) vừa công bố"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Phát triển TPHCM (HDBank, HDB)"
+    },
+    {
+        "text": "HDB",
+        "label": "TICKER",
+        "evidence": "(HDBank, HDB)"
+    },
+    {
+        "text": "công bố nghị quyết của HĐQT chấp thuận ngày 20/7 là đăng ký cuối cùng lập danh sách cổ đông hưởng quyền nhận cổ tức năm 2022 bằng cổ phiếu",
+        "label": "EVENT",
+        "evidence": "HDB) vừa công bố nghị quyết của HĐQT chấp thuận ngày 20/7 là đăng ký cuối cùng lập danh sách cổ đông hưởng quyền nhận cổ tức năm 2022 bằng cổ phiếu."
+    },
+    {
+        "text": "20/7",
+        "label": "DATE",
+        "evidence": "chấp thuận ngày 20/7"
+    },
+    {
+        "text": "cổ tức năm 2022 bằng cổ phiếu",
+        "label": "ASSET",
+        "evidence": "hưởng quyền nhận cổ tức năm 2022 bằng cổ phiếu."
+    },
+    {
+        "text": "Ngày giao dịch không hưởng quyền là 19/7",
+        "label": "EVENT",
+        "evidence": "Ngày giao dịch không hưởng quyền là 19/7."
+    },
+    {
+        "text": "19/7",
+        "label": "DATE",
+        "evidence": "Ngày giao dịch không hưởng quyền là 19/7."
+    },
+    {
+        "text": "100 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mỗi cổ đông sở hữu 100 cổ phiếu"
+    },
+    {
+        "text": "15 cổ phiếu mới",
+        "label": "VOLUME",
+        "evidence": "nhận 15 cổ phiếu mới."
+    },
+    {
+        "text": "cổ phiếu",
+        "label": "ASSET",
+        "evidence": "mỗi cổ đông sở hữu 100 cổ phiếu nhận 15 cổ phiếu mới."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "lợi nhuận sau thuế chưa phân phối năm 2022"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "Vốn điều lệ của HDBank"
+    },
+    {
+        "text": "25.303 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng từ 25.303 tỷ đồng"
+    },
+    {
+        "text": "29.076 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên trên 29.076 tỷ đồng."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "cổ đông của HDBank"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "tổng tỷ lệ 25%."
+    },
+    {
+        "text": "12/6",
+        "label": "DATE",
+        "evidence": "hôm 12/6"
+    },
+    {
+        "text": "cổ tức tiền mặt",
+        "label": "ASSET",
+        "evidence": "nhận được cổ tức tiền mặt"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "với tỷ lệ 10%."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "HDBank thuộc nhóm các ngân hàng"
+    },
+    {
+        "text": "ROE",
+        "label": "ASSET",
+        "evidence": "tỷ lệ ROE luôn đạt khoảng 22-24%."
+    },
+    {
+        "text": "22-24%",
+        "label": "RATE",
+        "evidence": "luôn đạt khoảng 22-24%."
+    },
+    {
+        "text": "chương trình Esop cho cán bộ nhân viên",
+        "label": "EVENT",
+        "evidence": "Bên cạnh chương trình Esop cho cán bộ nhân viên"
+    },
+    {
+        "text": "chia cổ tức đều đặn, lên đến 25% trong các năm 2021 và 2022 và 65% trong năm 2020",
+        "label": "EVENT",
+        "evidence": "nhà băng này có truyền thống chia cổ tức đều đặn, lên đến 25% trong các năm 2021 và 2022 và 65% trong năm 2020"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "lên đến 25% trong các năm 2021 và 2022"
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "evidence": "trong các năm 2021"
+    },
+    {
+        "text": "2022",
+        "label": "DATE",
+        "evidence": "và 2022"
+    },
+    {
+        "text": "65%",
+        "label": "RATE",
+        "evidence": "và 65% trong năm 2020"
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "evidence": "trong năm 2020"
+    }
+]

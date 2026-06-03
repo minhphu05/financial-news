@@ -1,0 +1,167 @@
+[
+    {
+        "text": "Ngân hàng TMCP Công Thương Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo Ngân hàng TMCP Công Thương Việt Nam (VietinBank), hiện nay, tình hình rủi ro từ thẻ ngân hàng có diễn biến ngày càng phức tạp và khó lường."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Theo Ngân hàng TMCP Công Thương Việt Nam (VietinBank), hiện nay, tình hình rủi ro từ thẻ ngân hàng có diễn biến ngày càng phức tạp và khó lường."
+    },
+    {
+        "text": "thẻ ngân hàng",
+        "label": "ASSET",
+        "evidence": "Theo Ngân hàng TMCP Công Thương Việt Nam (VietinBank), hiện nay, tình hình rủi ro từ thẻ ngân hàng có diễn biến ngày càng phức tạp và khó lường."
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Điển hình là rủi ro từ ATM skimming - thủ đoạn lắp đặt thiết bị ăn cắp dữ liệu thẻ khi khách hàng (KH) giao dịch tại ATM; sau đó kẻ gian làm thẻ giả để thực hiện giao dịch gian lận, gây thiệt hại cho KH."
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Điển hình là rủi ro từ ATM skimming - thủ đoạn lắp đặt thiết bị ăn cắp dữ liệu thẻ khi khách hàng (KH) giao dịch tại ATM; sau đó kẻ gian làm thẻ giả để thực hiện giao dịch gian lận, gây thiệt hại cho KH."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Trước trình trạng trên, VietinBank khuyến nghị KH thực hiện các biện pháp phòng ngừa như sau:"
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "Trước khi thực hiện thao tác rút tiền:"
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "Khách hàng cần quan sát xung quanh để đảm bảo việc rút tiền được thực hiện riêng tư."
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Lưu ý, KH tuyệt đối không thực hiện giao dịch khi phát hiện các thiết bị lạ được dán/ốp/kết nối bất thường với ATM hoặc ATM ở tình trạng không nguyên vẹn."
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "Khi thực hiện thao tác rút tiền:"
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "KH cần nắm bắt, cập nhật thông tin về hạn mức giao dịch thẻ khi thực hiện giao dịch tại ATM trên tài liệu hướng dẫn sử dụng khi phát hành thẻ và website của VietinBank."
+    },
+    {
+        "text": "phát hành thẻ",
+        "label": "EVENT",
+        "evidence": "KH cần nắm bắt, cập nhật thông tin về hạn mức giao dịch thẻ khi thực hiện giao dịch tại ATM trên tài liệu hướng dẫn sử dụng khi phát hành thẻ và website của VietinBank."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "KH cần nắm bắt, cập nhật thông tin về hạn mức giao dịch thẻ khi thực hiện giao dịch tại ATM trên tài liệu hướng dẫn sử dụng khi phát hành thẻ và website của VietinBank."
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Khi giao dịch, KH che bàn phím khi nhập số PIN để đảm bảo tính bảo mật."
+    },
+    {
+        "text": "VietinBank iPay",
+        "label": "ORG",
+        "evidence": "Chú ý không nhập sai PIN quá 3 lần, chủ động cài đặt lại mã PIN trên VietinBank iPay."
+    },
+    {
+        "text": "tài khoản",
+        "label": "ASSET",
+        "evidence": "Đồng thời, KH nên đảm bảo tài khoản đủ số dư khi thực hiện giao dịch"
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Đồng thời, KH nên đảm bảo tài khoản đủ số dư khi thực hiện giao dịch"
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "Sau khi thực hiện thao tác rút tiền:"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "KH nhận tiền ngay sau khi ATM trả tiền và kiểm đếm số tiền ATM trả ra, đồng thời lấy lại thẻ sau khi thực hiện giao dịch"
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "KH nhận tiền ngay sau khi ATM trả tiền và kiểm đếm số tiền ATM trả ra, đồng thời lấy lại thẻ sau khi thực hiện giao dịch"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, VietinBank khuyến nghị KH đăng ký các dịch vụ:"
+    },
+    {
+        "text": "Bảo hiểm toàn diện thẻ",
+        "label": "ASSET",
+        "evidence": "- Bảo hiểm toàn diện thẻ để được bảo vệ khi có rủi ro xảy ra."
+    },
+    {
+        "text": "VietinBank iPay",
+        "label": "ORG",
+        "evidence": "- Thông báo biến động số dư hoặc theo dõi biến động số dư trên ứng dụng VietinBank iPay thông qua tin nhắn OTT để chủ động ứng xử khi có rủi ro."
+    },
+    {
+        "text": "khóa thẻ",
+        "label": "EVENT",
+        "evidence": "Khi có tình huống rủi ro phát sinh, KH cần thực hiện khóa thẻ qua VietinBank iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh và yêu cầu khiếu nại, tra soát qua iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh."
+    },
+    {
+        "text": "VietinBank iPay",
+        "label": "ORG",
+        "evidence": "Khi có tình huống rủi ro phát sinh, KH cần thực hiện khóa thẻ qua VietinBank iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh và yêu cầu khiếu nại, tra soát qua iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh."
+    },
+    {
+        "text": "tổng đài VietinBank",
+        "label": "ORG",
+        "evidence": "Khi có tình huống rủi ro phát sinh, KH cần thực hiện khóa thẻ qua VietinBank iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh và yêu cầu khiếu nại, tra soát qua iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh."
+    },
+    {
+        "text": "khiếu nại, tra soát",
+        "label": "EVENT",
+        "evidence": "Khi có tình huống rủi ro phát sinh, KH cần thực hiện khóa thẻ qua VietinBank iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh và yêu cầu khiếu nại, tra soát qua iPay hoặc tổng đài VietinBank (1900 558 868) hoặc tại chi nhánh."
+    },
+    {
+        "text": "thẻ ATM",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, để đảm bảo an toàn cho thẻ ATM của KH, VietinBank có thể thực hiện đổi trạng thái thẻ sang trạng thái VIP."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, để đảm bảo an toàn cho thẻ ATM của KH, VietinBank có thể thực hiện đổi trạng thái thẻ sang trạng thái VIP."
+    },
+    {
+        "text": "đổi trạng thái thẻ sang trạng thái VIP",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, để đảm bảo an toàn cho thẻ ATM của KH, VietinBank có thể thực hiện đổi trạng thái thẻ sang trạng thái VIP."
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "Theo đó, khi màn hình hiển thị thẻ của KH ở trạng thái VIP, KH cần đổi PIN mới để đảm bảo an toàn giao dịch, phòng ngừa lộ thông tin, dẫn đến bị kẻ gian lợi dụng."
+    },
+    {
+        "text": "đổi PIN mới",
+        "label": "EVENT",
+        "evidence": "Theo đó, khi màn hình hiển thị thẻ của KH ở trạng thái VIP, KH cần đổi PIN mới để đảm bảo an toàn giao dịch, phòng ngừa lộ thông tin, dẫn đến bị kẻ gian lợi dụng."
+    },
+    {
+        "text": "giao dịch",
+        "label": "EVENT",
+        "evidence": "Theo đó, khi màn hình hiển thị thẻ của KH ở trạng thái VIP, KH cần đổi PIN mới để đảm bảo an toàn giao dịch, phòng ngừa lộ thông tin, dẫn đến bị kẻ gian lợi dụng."
+    }
+]

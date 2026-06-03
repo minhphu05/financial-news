@@ -1,0 +1,127 @@
+[
+    {
+        "text": "08 giờ 30 phút ngày 04/4/2025",
+        "label": "DATE",
+        "evidence": "vào lúc 08 giờ 30 phút ngày 04/4/2025"
+    },
+    {
+        "text": "20.000.000đ (hai mươi triệu đồng)",
+        "label": "MONEY",
+        "evidence": "bị mất 20.000.000đ (hai mươi triệu đồng) trong tài khoản ngân hàng"
+    },
+    {
+        "text": "bị mất 20.000.000đ (hai mươi triệu đồng) trong tài khoản ngân hàng",
+        "label": "EVENT",
+        "evidence": "trình báo về việc bị mất 20.000.000đ (hai mươi triệu đồng) trong tài khoản ngân hàng."
+    },
+    {
+        "text": "08 giờ cùng ngày",
+        "label": "DATE",
+        "evidence": "vào lúc 08 giờ cùng ngày"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "ứng dụng tài khoản ngân hàng Vietcombank trên điện thoại của mình"
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "tài khoản bị mất số tiền 20 triệu đồng."
+    },
+    {
+        "text": "thẻ ATM",
+        "label": "ASSET",
+        "evidence": "kiểm tra túi xách thường dùng để cất giữ thẻ ATM của mình"
+    },
+    {
+        "text": "12 giờ 15 phút ngày 04/4/2025",
+        "label": "DATE",
+        "evidence": "Đến khoảng 12 giờ 15 phút ngày 04/4/2025"
+    },
+    {
+        "text": "Trần Quốc Linh",
+        "label": "PERSON",
+        "evidence": "xác định đối tượng nghi vấn trên tên là Trần Quốc Linh"
+    },
+    {
+        "text": "12 giờ 00 phút ngày 03/4/2025",
+        "label": "DATE",
+        "evidence": "vào khoảng 12 giờ 00 phút ngày 03/4/2025"
+    },
+    {
+        "text": "02 thẻ ATM",
+        "label": "ASSET",
+        "evidence": "thấy trong túi xách có 02 thẻ ATM"
+    },
+    {
+        "text": "MB Bank",
+        "label": "ORG",
+        "evidence": "một thẻ ngân hàng MB Bank"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "một thẻ ngân hàng Vietcombank"
+    },
+    {
+        "text": "thẻ ngân hàng MB Bank",
+        "label": "ASSET",
+        "evidence": "một thẻ ngân hàng MB Bank"
+    },
+    {
+        "text": "thẻ ngân hàng Vietcombank",
+        "label": "ASSET",
+        "evidence": "một thẻ ngân hàng Vietcombank"
+    },
+    {
+        "text": "ngân hàng Vietcombank",
+        "label": "ORG",
+        "evidence": "đến trụ ATM ngân hàng Vietcombank (tại thị trấn Nam Phước, huyện Duy Xuyên) để thử rút tiền."
+    },
+    {
+        "text": "Linh đã sử dụng thẻ ATM ngân hàng Vietcombank cùng dãy số trên và rút thành công nhiều lần, với tổng số tiền rút được là 20.000.000đ (hai mươi triệu đồng)",
+        "label": "EVENT",
+        "evidence": "Linh đã sử dụng thẻ ATM ngân hàng Vietcombank cùng dãy số trên và rút thành công nhiều lần, với tổng số tiền rút được là 20.000.000đ (hai mươi triệu đồng)."
+    },
+    {
+        "text": "20.000.000đ (hai mươi triệu đồng)",
+        "label": "MONEY",
+        "evidence": "tổng số tiền rút được là 20.000.000đ (hai mươi triệu đồng)."
+    },
+    {
+        "text": "02 thẻ ATM",
+        "label": "ASSET",
+        "evidence": "bên trong có 02 thẻ ATM và 01 căn cước công dân tại một bụi cây ven đường rồi về nhà."
+    },
+    {
+        "text": "trưa ngày 04/4/2025",
+        "label": "DATE",
+        "evidence": "Đến trưa ngày 04/4/2025"
+    },
+    {
+        "text": "Trần Quốc Linh",
+        "label": "PERSON",
+        "evidence": "Đối tượng Trần Quốc Linh và số tiền trộm cắp"
+    },
+    {
+        "text": "Cơ quan Công an đã thu giữ các tang vật liên quan gồm toàn bộ số tiền 20 triệu đồng",
+        "label": "EVENT",
+        "evidence": "Cơ quan Công an đã thu giữ các tang vật liên quan gồm toàn bộ số tiền 20 triệu đồng đã được Trần Quốc Linh rút từ trụ ATM"
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "toàn bộ số tiền 20 triệu đồng đã được Trần Quốc Linh rút từ trụ ATM"
+    },
+    {
+        "text": "Cơ quan Cảnh sát điều tra Công an tỉnh Quảng Nam đã tiến hành giữ người trong trường hợp khẩn cấp đối với Trần Quốc Linh về hành vi “Trộm cắp tài sản”",
+        "label": "EVENT",
+        "evidence": "Hiện nay, Cơ quan Cảnh sát điều tra Công an tỉnh Quảng Nam đã tiến hành giữ người trong trường hợp khẩn cấp đối với Trần Quốc Linh về hành vi “Trộm cắp tài sản” và tiếp tục điều tra, làm rõ."
+    },
+    {
+        "text": "chiều ngày 04/4/2025",
+        "label": "DATE",
+        "evidence": "vào chiều ngày 04/4/2025"
+    }
+]

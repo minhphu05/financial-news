@@ -1,0 +1,407 @@
+[
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "cổ phiếuTập đoàn Masan (mã: MSN)do ông Nguyễn Đăng Quang làm Chủ tịch HĐQT bất ngờ tăng kịch trần, thậm chí “trắng bên bán” qua đó leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "cổ phiếuTập đoàn Masan (mã: MSN)do ông Nguyễn Đăng Quang làm Chủ tịch HĐQT bất ngờ tăng kịch trần, thậm chí “trắng bên bán” qua đó leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "Nguyễn Đăng Quang",
+        "label": "PERSON",
+        "evidence": "cổ phiếuTập đoàn Masan (mã: MSN)do ông Nguyễn Đăng Quang làm Chủ tịch HĐQT bất ngờ tăng kịch trần, thậm chí “trắng bên bán” qua đó leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "cổ phiếuTập đoàn Masan (mã: MSN)do ông Nguyễn Đăng Quang làm Chủ tịch HĐQT bất ngờ tăng kịch trần, thậm chí “trắng bên bán”",
+        "label": "EVENT",
+        "evidence": "cổ phiếuTập đoàn Masan (mã: MSN)do ông Nguyễn Đăng Quang làm Chủ tịch HĐQT bất ngờ tăng kịch trần, thậm chí “trắng bên bán” qua đó leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "88.200 đồng/cp",
+        "label": "PRICE",
+        "evidence": "leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "leo lên mức giá 88.200 đồng/cp",
+        "label": "EVENT",
+        "evidence": "qua đó leo lên mức giá 88.200 đồng/cp."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Thanh khoản tại cổ phiếu MSN cũng tăng cao đột biến với hơn 13 triệu đơn vị được “sang tay” (tính đến 10h phiên 16/10)."
+    },
+    {
+        "text": "hơn 13 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản tại cổ phiếu MSN cũng tăng cao đột biến với hơn 13 triệu đơn vị được “sang tay” (tính đến 10h phiên 16/10)."
+    },
+    {
+        "text": "10h phiên 16/10",
+        "label": "DATE",
+        "evidence": "Thanh khoản tại cổ phiếu MSN cũng tăng cao đột biến với hơn 13 triệu đơn vị được “sang tay” (tính đến 10h phiên 16/10)."
+    },
+    {
+        "text": "UBS Investment Bank",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ UBS Investment Bank, SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "SK Invest VINA II Pte. Ltd",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ UBS Investment Bank, SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "khoảng 42,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "khoảng 127 triệu USD",
+        "label": "MONEY",
+        "evidence": "SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận",
+        "label": "EVENT",
+        "evidence": "SK Invest VINA II Pte. Ltd đang thực hiện chào bán khoảng 42,6 triệu cổ phiếu MSN (trị giá khoảng 127 triệu USD) thuộc sở hữu của tập đoàn này theo phương thức thỏa thuận."
+    },
+    {
+        "text": "78.000–79.300 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "Giao dịch được chốt với giá chào bán từ 78.000–79.300 đồng/cổ phiếu, tương ứng mức chiết khấu 3,9–5,5% so với giá đóng cửa 82.500 đồng/cổ phiếu của MSN trong phiên 15/10."
+    },
+    {
+        "text": "3,9–5,5%",
+        "label": "RATE",
+        "evidence": "tương ứng mức chiết khấu 3,9–5,5% so với giá đóng cửa 82.500 đồng/cổ phiếu của MSN trong phiên 15/10."
+    },
+    {
+        "text": "82.500 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "giá đóng cửa 82.500 đồng/cổ phiếu của MSN trong phiên 15/10."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "giá đóng cửa 82.500 đồng/cổ phiếu của MSN trong phiên 15/10."
+    },
+    {
+        "text": "phiên 15/10",
+        "label": "DATE",
+        "evidence": "giá đóng cửa 82.500 đồng/cổ phiếu của MSN trong phiên 15/10."
+    },
+    {
+        "text": "khoảng 127 triệu USD",
+        "label": "MONEY",
+        "evidence": "Tổng giá trị thương vụ ước tính khoảng 127 triệu USD."
+    },
+    {
+        "text": "ngày 15-16/10/2025",
+        "label": "DATE",
+        "evidence": "Việc đăng ký, định giá và phân bổ sẽ diễn ra từ ngày 15-16/10/2025."
+    },
+    {
+        "text": "Việc đăng ký, định giá và phân bổ sẽ diễn ra từ ngày 15-16/10/2025",
+        "label": "EVENT",
+        "evidence": "Việc đăng ký, định giá và phân bổ sẽ diễn ra từ ngày 15-16/10/2025."
+    },
+    {
+        "text": "20/10/2025",
+        "label": "DATE",
+        "evidence": "Ngày thanh toán dự kiến là 20/10/2025."
+    },
+    {
+        "text": "Ngày thanh toán dự kiến là 20/10/2025",
+        "label": "EVENT",
+        "evidence": "Ngày thanh toán dự kiến là 20/10/2025."
+    },
+    {
+        "text": "SK",
+        "label": "ORG",
+        "evidence": "Sau giao dịch, SK gần như thoái toàn bộ vốn khỏi Masan, chỉ còn nắm giữ 1.000 cổ phiếu."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Sau giao dịch, SK gần như thoái toàn bộ vốn khỏi Masan, chỉ còn nắm giữ 1.000 cổ phiếu."
+    },
+    {
+        "text": "1.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "chỉ còn nắm giữ 1.000 cổ phiếu."
+    },
+    {
+        "text": "SK gần như thoái toàn bộ vốn khỏi Masan",
+        "label": "EVENT",
+        "evidence": "Sau giao dịch, SK gần như thoái toàn bộ vốn khỏi Masan, chỉ còn nắm giữ 1.000 cổ phiếu."
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "Được biết, SK Group là tập đoàn đa ngành lớn thứ hai tại Hàn Quốc, sở hữu khoảng 200 công ty con và đã đầu tư hơn 3,5 tỷ USD tại Việt Nam."
+    },
+    {
+        "text": "hơn 3,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "sở hữu khoảng 200 công ty con và đã đầu tư hơn 3,5 tỷ USD tại Việt Nam."
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "SK Group đã trở thành cổ đông lớn của Masan vào năm 2018 sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "SK Group đã trở thành cổ đông lớn của Masan vào năm 2018 sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "năm 2018",
+        "label": "DATE",
+        "evidence": "SK Group đã trở thành cổ đông lớn của Masan vào năm 2018 sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "530 tỷ won",
+        "label": "MONEY",
+        "evidence": "sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "gần 11.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "9,5%",
+        "label": "RATE",
+        "evidence": "để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "quyền chọn bán cổ phần",
+        "label": "ASSET",
+        "evidence": "và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "SK Group đã trở thành cổ đông lớn của Masan vào năm 2018 sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group",
+        "label": "EVENT",
+        "evidence": "SK Group đã trở thành cổ đông lớn của Masan vào năm 2018 sau khi chi ra 530 tỷ won (khoảng gần 11.000 tỷ đồng) để mua 9,5% vốn của Masan Group và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024",
+        "label": "EVENT",
+        "evidence": "và nắm giữ quyền chọn bán cổ phần cho Masan vào năm 2024."
+    },
+    {
+        "text": "Đầu tháng 9/2024",
+        "label": "DATE",
+        "evidence": "Đầu tháng 9/2024, SK Group và Masan Group đã công bố thống nhất gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "Đầu tháng 9/2024, SK Group và Masan Group đã công bố thống nhất gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "Đầu tháng 9/2024, SK Group và Masan Group đã công bố thống nhất gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "thêm tối đa 5 năm",
+        "label": "DATE",
+        "evidence": "gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "SK Group và Masan Group đã công bố thống nhất gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm",
+        "label": "EVENT",
+        "evidence": "Đầu tháng 9/2024, SK Group và Masan Group đã công bố thống nhất gia hạn thời gian thực hiện quyền chọn bán của SK Group với cổ phiếu MSN thêm tối đa 5 năm."
+    },
+    {
+        "text": "Chae Rhan Chun",
+        "label": "PERSON",
+        "evidence": "Cùng thời điểm, bà Chae Rhan Chun - đại diện cho SK Investment Vina I đã rút khỏi HĐQT của Masan group."
+    },
+    {
+        "text": "SK Investment Vina I",
+        "label": "ORG",
+        "evidence": "bà Chae Rhan Chun - đại diện cho SK Investment Vina I đã rút khỏi HĐQT của Masan group."
+    },
+    {
+        "text": "Masan group",
+        "label": "ORG",
+        "evidence": "đã rút khỏi HĐQT của Masan group."
+    },
+    {
+        "text": "bà Chae Rhan Chun - đại diện cho SK Investment Vina I đã rút khỏi HĐQT của Masan group",
+        "label": "EVENT",
+        "evidence": "Cùng thời điểm, bà Chae Rhan Chun - đại diện cho SK Investment Vina I đã rút khỏi HĐQT của Masan group."
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "Thực tế, việc SK Group thoái vốn tại Masan không phải là động thái bất ngờ, mà đã được “bật đèn xanh” từ trước."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Thực tế, việc SK Group thoái vốn tại Masan không phải là động thái bất ngờ, mà đã được “bật đèn xanh” từ trước."
+    },
+    {
+        "text": "SK Group thoái vốn tại Masan",
+        "label": "EVENT",
+        "evidence": "Thực tế, việc SK Group thoái vốn tại Masan không phải là động thái bất ngờ, mà đã được “bật đèn xanh” từ trước."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Theo báo cáo tài chính hợp nhất năm 2024, tập đoàn Hàn Quốc này đã chuyển khoản đầu tư tại Masan (MSN) sang mục “tài sản chờ để bán”﻿."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "đã chuyển khoản đầu tư tại Masan (MSN) sang mục “tài sản chờ để bán”﻿."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "đã chuyển khoản đầu tư tại Masan (MSN) sang mục “tài sản chờ để bán”﻿."
+    },
+    {
+        "text": "chuyển khoản đầu tư tại Masan (MSN) sang mục “tài sản chờ để bán”",
+        "label": "EVENT",
+        "evidence": "tập đoàn Hàn Quốc này đã chuyển khoản đầu tư tại Masan (MSN) sang mục “tài sản chờ để bán”﻿."
+    },
+    {
+        "text": "cuối năm 2024",
+        "label": "DATE",
+        "evidence": "Dù ở thời điểm cuối năm 2024, SK Group vẫn sở hữu cổ phần tại Masan, nhưng thay vì xác định sẽ nắm giữ trung và dài hạn như một công ty liên kết, công ty này lên kế hoạch sẵn sàng thoái vốn trong tương lai."
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "Dù ở thời điểm cuối năm 2024, SK Group vẫn sở hữu cổ phần tại Masan, nhưng thay vì xác định sẽ nắm giữ trung và dài hạn như một công ty liên kết, công ty này lên kế hoạch sẵn sàng thoái vốn trong tương lai."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Dù ở thời điểm cuối năm 2024, SK Group vẫn sở hữu cổ phần tại Masan, nhưng thay vì xác định sẽ nắm giữ trung và dài hạn như một công ty liên kết, công ty này lên kế hoạch sẵn sàng thoái vốn trong tương lai."
+    },
+    {
+        "text": "lên kế hoạch sẵn sàng thoái vốn",
+        "label": "EVENT",
+        "evidence": "công ty này lên kế hoạch sẵn sàng thoái vốn trong tương lai."
+    },
+    {
+        "text": "Tập đoàn Masan",
+        "label": "ORG",
+        "evidence": "Về kết quả kinh doanh, Tập đoàn Masan ghi nhận lợi nhuận sau thuế trong quý 2 và 6 tháng đầu năm 2025 lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng."
+    },
+    {
+        "text": "quý 2 và 6 tháng đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Tập đoàn Masan ghi nhận lợi nhuận sau thuế trong quý 2 và 6 tháng đầu năm 2025 lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng."
+    },
+    {
+        "text": "1.619 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng."
+    },
+    {
+        "text": "2.602 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng."
+    },
+    {
+        "text": "Tập đoàn Masan ghi nhận lợi nhuận sau thuế trong quý 2 và 6 tháng đầu năm 2025 lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Về kết quả kinh doanh, Tập đoàn Masan ghi nhận lợi nhuận sau thuế trong quý 2 và 6 tháng đầu năm 2025 lần lượt đạt 1.619 tỷ đồng và 2.602 tỷ đồng."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Sau 6 tháng, Masan đã vượt mốc 50% kế hoạch cả năm."
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "Masan đã vượt mốc 50% kế hoạch cả năm."
+    },
+    {
+        "text": "WinCommerce",
+        "label": "ORG",
+        "evidence": "Tăng trưởng chủ yếu đến từ sự đóng góp tại WinCommerce (WCM) và Masan MEATLife (MML), cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "WCM",
+        "label": "TICKER",
+        "evidence": "Tăng trưởng chủ yếu đến từ sự đóng góp tại WinCommerce (WCM) và Masan MEATLife (MML), cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "Masan MEATLife",
+        "label": "ORG",
+        "evidence": "và Masan MEATLife (MML), cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "MML",
+        "label": "TICKER",
+        "evidence": "và Masan MEATLife (MML), cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "H.C. Starck",
+        "label": "ORG",
+        "evidence": "cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "HCS",
+        "label": "TICKER",
+        "evidence": "cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "thoái hợp nhất H.C. Starck (HCS)",
+        "label": "EVENT",
+        "evidence": "cùng lợi nhuận từ việc thoái hợp nhất H.C. Starck (HCS)."
+    },
+    {
+        "text": "Masan Consumer",
+        "label": "ORG",
+        "evidence": "Trong khi đó, Masan Consumer (MCH) suy giảm do sự gián đoạn tạm thời kênh bán hàng truyền thống (GT), bị ảnh hưởng bởi việc áp dụng các quy định thuế mới đối với hộ kinh doanh cá thể."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "Trong khi đó, Masan Consumer (MCH) suy giảm do sự gián đoạn tạm thời kênh bán hàng truyền thống (GT), bị ảnh hưởng bởi việc áp dụng các quy định thuế mới đối với hộ kinh doanh cá thể."
+    },
+    {
+        "text": "Masan Consumer (MCH) suy giảm do sự gián đoạn tạm thời kênh bán hàng truyền thống (GT), bị ảnh hưởng bởi việc áp dụng các quy định thuế mới đối với hộ kinh doanh cá thể",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, Masan Consumer (MCH) suy giảm do sự gián đoạn tạm thời kênh bán hàng truyền thống (GT), bị ảnh hưởng bởi việc áp dụng các quy định thuế mới đối với hộ kinh doanh cá thể."
+    }
+]

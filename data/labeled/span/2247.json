@@ -1,0 +1,432 @@
+[
+    {
+        "text": "bán ròng cổ phiếu FPT",
+        "label": "EVENT",
+        "evidence": "khối ngoại bán ròng cổ phiếu FPT đã trở nên quen thuộc với giới đầu tư thời gian gần đây."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "khối ngoại bán ròng cổ phiếu FPT đã trở nên quen thuộc với giới đầu tư thời gian gần đây."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "khối ngoại bán ròng cổ phiếu FPT đã trở nên quen thuộc với giới đầu tư thời gian gần đây."
+    },
+    {
+        "text": "trung tuần tháng 5",
+        "label": "DATE",
+        "evidence": "Động thái \"xả hàng\" của khối ngoại bắt đầu từ trung tuần tháng 5, đến nay vẫn chưa có dấu hiệu dừng lại."
+    },
+    {
+        "text": "2 tháng",
+        "label": "DATE",
+        "evidence": "Chỉ trong vòng chưa đầy 2 tháng, khối ngoại đã bán ròng tổng cộng 29 triệu cổ phiếu FPT, tương ứng giá trị gần 3.900 tỷ đồng."
+    },
+    {
+        "text": "29 triệu cổ phiếu FPT",
+        "label": "VOLUME",
+        "evidence": "Chỉ trong vòng chưa đầy 2 tháng, khối ngoại đã bán ròng tổng cộng 29 triệu cổ phiếu FPT, tương ứng giá trị gần 3.900 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đây có lẽ là điều chưa từng xảy ra trong lịch sử niêm yết của FPT bởi cổ phiếu này đã có thời gian rất dài kín room ngoại, gần như chỉ hở room do phát hành ESOP nhưng sẽ ngay lập tức được lấp đầy."
+    },
+    {
+        "text": "gần 3.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại đã bán ròng tổng cộng 29 triệu cổ phiếu FPT, tương ứng giá trị gần 3.900 tỷ đồng."
+    },
+    {
+        "text": "phát hành ESOP",
+        "label": "EVENT",
+        "evidence": "gần như chỉ hở room do phát hành ESOP nhưng sẽ ngay lập tức được lấp đầy."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Thực tế, FPT là một trong những cái tên được khối ngoại săn đón nhiều nhất trên thị trường chứng khoán Việt Nam."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Hiện tại, khối ngoại nếu muốn có thể thoải mái mua FPT thông qua khớp lệnh trên sàn do cổ phiếu này đang hở room hơn 22 triệu đơn vị, tương đương khoảng 1,5%."
+    },
+    {
+        "text": "hở room hơn 22 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "cổ phiếu này đang hở room hơn 22 triệu đơn vị, tương đương khoảng 1,5%."
+    },
+    {
+        "text": "khoảng 1,5%",
+        "label": "RATE",
+        "evidence": "tương đương khoảng 1,5%."
+    },
+    {
+        "text": "bán ròng liên tục",
+        "label": "EVENT",
+        "evidence": "Tình hình đã thay đổi sau giai đoạn bán ròng liên tục vừa qua."
+    },
+    {
+        "text": "chốt lời mạnh tay của khối ngoại",
+        "label": "EVENT",
+        "evidence": "Động thái chốt lời mạnh tay của khối ngoại diễn ra trong bối cảnh cổ phiếu FPT liên tục tăng nóng thời gian qua."
+    },
+    {
+        "text": "cổ phiếu FPT liên tục tăng nóng",
+        "label": "EVENT",
+        "evidence": "bối cảnh cổ phiếu FPT liên tục tăng nóng thời gian qua."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "áp lực lớn chưa từng có từ nhà đầu tư nước ngoài cũng không cản được đà bứt phá của FPT."
+    },
+    {
+        "text": "lần thứ 32 vượt đỉnh",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu này vừa có lần thứ 32 vượt đỉnh kể từ đầu năm 2024 qua đó leo lên mức 136.100 đồng/cp, ghi nhận mức tăng 64% sau gần 6 tháng."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "kể từ đầu năm 2024 qua đó leo lên mức 136.100 đồng/cp, ghi nhận mức tăng 64% sau gần 6 tháng."
+    },
+    {
+        "text": "136.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "leo lên mức 136.100 đồng/cp"
+    },
+    {
+        "text": "tăng 64%",
+        "label": "RATE",
+        "evidence": "ghi nhận mức tăng 64%"
+    },
+    {
+        "text": "gần 6 tháng",
+        "label": "DATE",
+        "evidence": "sau gần 6 tháng."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "vốn hóa của FPT cũng theo đó lập kỷ lục xấp xỉ 200.000 tỷ đồng, xếp thứ 3 trong danh sách các công ty niêm yết lớn nhất Việt Nam, chỉ sau Vietcombank và BIDV."
+    },
+    {
+        "text": "xấp xỉ 200.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vốn hóa của FPT cũng theo đó lập kỷ lục xấp xỉ 200.000 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "chỉ sau Vietcombank và BIDV."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "và BIDV."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Tính cả các công ty đại chúng chưa niêm yết trên UPCoM, chỉ có thêm 2 \"gã khổng lồ\" do Nhà nước chi phối là Viettel Global và ACV có vốn hóa cao hơn FPT."
+    },
+    {
+        "text": "Viettel Global",
+        "label": "ORG",
+        "evidence": "do Nhà nước chi phối là Viettel Global và ACV có vốn hóa cao hơn FPT."
+    },
+    {
+        "text": "ACV",
+        "label": "ORG",
+        "evidence": "và ACV có vốn hóa cao hơn FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "có vốn hóa cao hơn FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Với vốn hóa hiện tại, FPT là tập đoàn tư nhân lớn nhất sàn chứng khoán Việt Nam, vượt qua các tên tuổi như Vingroup, Hòa Phát, Techcombank, VPBank, Vianmilk, Masan."
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "vượt qua các tên tuổi như Vingroup, Hòa Phát, Techcombank, VPBank, Vianmilk, Masan."
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "Hòa Phát, Techcombank, VPBank, Vianmilk, Masan."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank, VPBank, Vianmilk, Masan."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank, Vianmilk, Masan."
+    },
+    {
+        "text": "Vianmilk",
+        "label": "ORG",
+        "evidence": "Vianmilk, Masan."
+    },
+    {
+        "text": "Masan",
+        "label": "ORG",
+        "evidence": "Masan."
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "trong đó có một số nhà băng tầm trung như TPBank, Eximbank, OCB, MSB,…"
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "Eximbank, OCB, MSB,…"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCB, MSB,…"
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "MSB,…"
+    },
+    {
+        "text": "5 tháng đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Về kết quả kinh doanh 5 tháng đầu năm 2024, FPT ghi nhận doanh thu đạt 23.916 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 4.313 tỷ đồng, lần lượt tăng 19,9% và 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "FPT ghi nhận doanh thu đạt 23.916 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "FPT ghi nhận doanh thu đạt 23.916 tỷ đồng và lợi nhuận trước thuế (LNTT) đạt 4.313 tỷ đồng, lần lượt tăng 19,9% và 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "23.916 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "FPT ghi nhận doanh thu đạt 23.916 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận trước thuế (LNTT) đạt 4.313 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "và lợi nhuận trước thuế (LNTT) đạt 4.313 tỷ đồng, lần lượt tăng 19,9% và 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "4.313 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và lợi nhuận trước thuế (LNTT) đạt 4.313 tỷ đồng"
+    },
+    {
+        "text": "tăng 19,9%",
+        "label": "RATE",
+        "evidence": "lần lượt tăng 19,9% và 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "19,5%",
+        "label": "RATE",
+        "evidence": "và 19,5% so với cùng kỳ."
+    },
+    {
+        "text": "Lợi nhuận sau thuế cho cổ đông công ty mẹ cũng tăng 21,2% lên 3.052 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ cũng tăng 21,2% lên 3.052 tỷ đồng, tương ứng EPS ở mức 2.403 đồng/cổ phiếu."
+    },
+    {
+        "text": "21,2%",
+        "label": "RATE",
+        "evidence": "cũng tăng 21,2% lên 3.052 tỷ đồng"
+    },
+    {
+        "text": "3.052 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 3.052 tỷ đồng"
+    },
+    {
+        "text": "2.403 đồng/cổ phiếu",
+        "label": "MONEY",
+        "evidence": "tương ứng EPS ở mức 2.403 đồng/cổ phiếu."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "61.850 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "doanh thu 61.850 tỷ đồng"
+    },
+    {
+        "text": "~2,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": " (~2,5 tỷ USD)"
+    },
+    {
+        "text": "10.875 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và lợi nhuận trước thuế 10.875 tỷ đồng"
+    },
+    {
+        "text": "tăng khoảng 18%",
+        "label": "RATE",
+        "evidence": "đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "5 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Với kết quả đạt được sau 5 tháng đầu năm, tập đoàn đã thực hiện 39% kế hoạch doanh thu và 40% mục tiêu lợi nhuận đề ra."
+    },
+    {
+        "text": "39%",
+        "label": "RATE",
+        "evidence": "đã thực hiện 39% kế hoạch doanh thu"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "và 40% mục tiêu lợi nhuận đề ra."
+    },
+    {
+        "text": "Dịch vụ CNTT thị trường nước ngoài tiếp tục đà tăng trưởng ấn tượng, đạt doanh thu 11.998 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Mảng Dịch vụ CNTT thị trường nước ngoài tiếp tục đà tăng trưởng ấn tượng, đạt doanh thu 11.998 tỷ đồng, tương đương với mức tăng 29,8%, dẫn dắt bởi sức tăng đến từ cả 4 thị trường."
+    },
+    {
+        "text": "11.998 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt doanh thu 11.998 tỷ đồng"
+    },
+    {
+        "text": "tăng 29,8%",
+        "label": "RATE",
+        "evidence": "tương đương với mức tăng 29,8%"
+    },
+    {
+        "text": "34,2%",
+        "label": "RATE",
+        "evidence": "tăng lần lượt 34,2% (tương đương tăng trưởng 43% theo Yên Nhật) và 31,1%."
+    },
+    {
+        "text": "43%",
+        "label": "RATE",
+        "evidence": "(tương đương tăng trưởng 43% theo Yên Nhật)"
+    },
+    {
+        "text": "31,1%",
+        "label": "RATE",
+        "evidence": "và 31,1%."
+    },
+    {
+        "text": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 16.341 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Khối lượng đơn hàng ký mới tại thị trường nước ngoài đạt 16.341 tỷ đồng, tăng 17,2% chủ yếu do FPT đẩy sớm việc ký mới ngay trong tháng 12/2023."
+    },
+    {
+        "text": "16.341 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 16.341 tỷ đồng"
+    },
+    {
+        "text": "tăng 17,2%",
+        "label": "RATE",
+        "evidence": "tăng 17,2% chủ yếu do FPT đẩy sớm việc ký mới ngay trong tháng 12/2023."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "ký mới ngay trong tháng 12/2023."
+    },
+    {
+        "text": "tháng 5/2024",
+        "label": "DATE",
+        "evidence": "Riêng trong tháng 5/2024, FPT đã thắng thầu thêm 6 dự án lớn với quy mô trên 5 triệu USD/dự án, đưa tổng số dự án đã thắng từ đầu năm đến nay lên 26 dự án."
+    },
+    {
+        "text": "FPT đã thắng thầu thêm 6 dự án lớn với quy mô trên 5 triệu USD/dự án",
+        "label": "EVENT",
+        "evidence": "Riêng trong tháng 5/2024, FPT đã thắng thầu thêm 6 dự án lớn với quy mô trên 5 triệu USD/dự án, đưa tổng số dự án đã thắng từ đầu năm đến nay lên 26 dự án."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT đã thắng thầu thêm 6 dự án lớn với quy mô trên 5 triệu USD/dự án"
+    },
+    {
+        "text": "trên 5 triệu USD",
+        "label": "MONEY",
+        "evidence": "với quy mô trên 5 triệu USD/dự án"
+    },
+    {
+        "text": "FPT và JAL Information Technology (JIT) thuộc Tập đoàn Japan Airlines (JAL), đã ký biên bản ghi nhớ hợp tác",
+        "label": "EVENT",
+        "evidence": "Mới đây, FPT và JAL Information Technology (JIT) thuộc Tập đoàn Japan Airlines (JAL), đã ký biên bản ghi nhớ hợp tác tạo ra giá trị mới trong việc phát triển hệ thống CNTT cho lĩnh vực hàng không và phi hàng không tại thị trường Nhật Bản."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "FPT và JAL Information Technology (JIT) thuộc Tập đoàn Japan Airlines (JAL), đã ký biên bản ghi nhớ hợp tác tạo ra giá trị mới trong việc phát triển hệ thống CNTT cho lĩnh vực hàng không và phi hàng không tại thị trường Nhật Bản."
+    },
+    {
+        "text": "JAL Information Technology",
+        "label": "ORG",
+        "evidence": "FPT và JAL Information Technology (JIT) thuộc Tập đoàn Japan Airlines (JAL), đã ký biên bản ghi nhớ hợp tác tạo ra giá trị mới trong việc phát triển hệ thống CNTT cho lĩnh vực hàng không và phi hàng không tại thị trường Nhật Bản."
+    },
+    {
+        "text": "JIT",
+        "label": "ORG",
+        "evidence": "JAL Information Technology (JIT)"
+    },
+    {
+        "text": "Tập đoàn Japan Airlines",
+        "label": "ORG",
+        "evidence": "thuộc Tập đoàn Japan Airlines (JAL)"
+    },
+    {
+        "text": "JAL",
+        "label": "ORG",
+        "evidence": "Tập đoàn Japan Airlines (JAL)"
+    },
+    {
+        "text": "FPT Software cũng đã trở thành Nhà tích hợp hệ thống toàn cầu của Creatio",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, FPT Software cũng đã trở thành Nhà tích hợp hệ thống toàn cầu của Creatio – công ty cung cấp dịch vụ no-code (nền tảng lập trình không cần viết code) có trụ sở tại Hoa Kỳ."
+    },
+    {
+        "text": "FPT Software",
+        "label": "ORG",
+        "evidence": "FPT Software cũng đã trở thành Nhà tích hợp hệ thống toàn cầu của Creatio"
+    },
+    {
+        "text": "Creatio",
+        "label": "ORG",
+        "evidence": "của Creatio"
+    }
+]

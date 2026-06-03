@@ -1,0 +1,137 @@
+[
+    {
+        "text": "VIB Business",
+        "label": "ORG",
+        "evidence": "ngay trên ứng dụng VIB Business."
+    },
+    {
+        "text": "Nguyễn Văn Cường",
+        "label": "PERSON",
+        "evidence": "Anh Nguyễn Văn Cường, chủ một cơ sở sản xuất bánh mứt tại Hà Nội, chia sẻ:\"Tôi là khán giả của chuỗi talkshow 'Nâng tầm doanh nghiệp Việt' do CafeF phối hợp cùng VIB tổ chức gần đây."
+    },
+    {
+        "text": "chuỗi talkshow 'Nâng tầm doanh nghiệp Việt' do CafeF phối hợp cùng VIB tổ chức",
+        "label": "EVENT",
+        "evidence": "Tôi là khán giả của chuỗi talkshow 'Nâng tầm doanh nghiệp Việt' do CafeF phối hợp cùng VIB tổ chức gần đây."
+    },
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "do CafeF phối hợp cùng VIB tổ chức gần đây."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "do CafeF phối hợp cùng VIB tổ chức gần đây."
+    },
+    {
+        "text": "tài khoản thanh toán online",
+        "label": "ASSET",
+        "evidence": "Tôi quyết định bắt đầu bằng việc mở một tài khoản thanh toán online trên ứng dụng VIB Business."
+    },
+    {
+        "text": "tài khoản Siêu Lợi Suất",
+        "label": "ASSET",
+        "evidence": "Chúng tôi cũng kích hoạt luôn tính năng để sử dụng tài khoản Siêu Lợi Suất vì lợi tức được hưởng mỗi ngày đến 4,5%/năm cho dòng vốn chưa dùng đến\"."
+    },
+    {
+        "text": "4,5%/năm",
+        "label": "RATE",
+        "evidence": "lợi tức được hưởng mỗi ngày đến 4,5%/năm cho dòng vốn chưa dùng đến\"."
+    },
+    {
+        "text": "Apple Store",
+        "label": "ORG",
+        "evidence": "Tải ứng dụng VIB Business từ Apple Store hoặc Play Store, đăng ký thông tin doanh nghiệp và người đại diện theo pháp luật, lựa chọn số tài khoản đẹp theo nhu cầu, xác thực chữ ký số."
+    },
+    {
+        "text": "Play Store",
+        "label": "ORG",
+        "evidence": "Tải ứng dụng VIB Business từ Apple Store hoặc Play Store, đăng ký thông tin doanh nghiệp và người đại diện theo pháp luật, lựa chọn số tài khoản đẹp theo nhu cầu, xác thực chữ ký số."
+    },
+    {
+        "text": "Thẻ tín dụng VIB Business Card",
+        "label": "ASSET",
+        "evidence": "Thẻ tín dụng VIB Business Card với khả năng miễn lãi đến 58 ngày, hoàn tiền không giới hạn cho mọi chi tiêu, đồng thời cũng là nguồn vốn tín chấp ngắn hạn lên đến 1 tỷ đồng;"
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nguồn vốn tín chấp ngắn hạn lên đến 1 tỷ đồng;"
+    },
+    {
+        "text": "Gói vay bổ sung vốn lưu động",
+        "label": "ASSET",
+        "evidence": "Gói vay bổ sung vốn lưu động lên đến 150 tỷ đồng, giải ngân trong 24 giờ, tỷ lệ vay tới 90% tài sản bảo đảm, lãi suất từ 6,7%/năm;"
+    },
+    {
+        "text": "150 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Gói vay bổ sung vốn lưu động lên đến 150 tỷ đồng, giải ngân trong 24 giờ, tỷ lệ vay tới 90% tài sản bảo đảm, lãi suất từ 6,7%/năm;"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "tỷ lệ vay tới 90% tài sản bảo đảm, lãi suất từ 6,7%/năm;"
+    },
+    {
+        "text": "6,7%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất từ 6,7%/năm;"
+    },
+    {
+        "text": "SoftPOS",
+        "label": "ASSET",
+        "evidence": "Công nghệ quản lý tài chính hiện đại SoftPOS (biến điện thoại thành máy POS), QR Merchant, Voice Alert, hóa đơn điện tử (VNPAY Invoice), hợp đồng số (VNeDOC), và hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "QR Merchant",
+        "label": "ASSET",
+        "evidence": "QR Merchant, Voice Alert, hóa đơn điện tử (VNPAY Invoice), hợp đồng số (VNeDOC), và hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "Voice Alert",
+        "label": "ASSET",
+        "evidence": "Voice Alert, hóa đơn điện tử (VNPAY Invoice), hợp đồng số (VNeDOC), và hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "hóa đơn điện tử (VNPAY Invoice)",
+        "label": "ASSET",
+        "evidence": "hóa đơn điện tử (VNPAY Invoice), hợp đồng số (VNeDOC), và hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "VNPAY Invoice",
+        "label": "ASSET",
+        "evidence": "hóa đơn điện tử (VNPAY Invoice)"
+    },
+    {
+        "text": "hợp đồng số (VNeDOC)",
+        "label": "ASSET",
+        "evidence": "hợp đồng số (VNeDOC), và hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "VNeDOC",
+        "label": "ASSET",
+        "evidence": "hợp đồng số (VNeDOC)"
+    },
+    {
+        "text": "hệ thống thanh toán B2B (VNPAYB2B)",
+        "label": "ASSET",
+        "evidence": "hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "VNPAYB2B",
+        "label": "ASSET",
+        "evidence": "hệ thống thanh toán B2B (VNPAYB2B)."
+    },
+    {
+        "text": "Trần Hồng Minh",
+        "label": "PERSON",
+        "evidence": "Chị Trần Hồng Minh, giám đốc một công ty thiết kế và thi công nội thất tại Đà Nẵng, cho biết:\"Chúng tôi thường có các khoản tiền chờ thanh toán cho đối tác hoặc chuẩn bị cho dự án mới."
+    },
+    {
+        "text": "Tường Nguyễn",
+        "label": "PERSON",
+        "evidence": "Đại diện VIB, bà Tường Nguyễn – Phó Tổng Giám đốc nhấn mạnh:\"Chúng tôi phát triển tài khoản Siêu Lợi Suất cho hộ kinh doanh, doanh nghiệp với mong muốn tạo ra một sản phẩm tài chính thế hệ mới, nơi mỗi đồng vốn nhàn rỗi mà hộ kinh doanh, doanh nghiệp đang nắm giữ đều có cơ hội sinh lời."
+    }
+]

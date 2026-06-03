@@ -1,0 +1,107 @@
+[
+    {
+        "text": "Thông tư 18/2024/TT-NHNN",
+        "label": "EVENT",
+        "evidence": "Thực hiện Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Thông tư 18/2024/TT-NHNN của Ngân hàng Nhà nước"
+    },
+    {
+        "text": "ngày 19/03/2025",
+        "label": "DATE",
+        "evidence": "từ ngày 19/03/2025"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "ngân hàng Techcombank sẽ tạm dừng phát hành và ngừng cung cấp dịch vụ thanh toán, rút, chuyển tiền đối với thẻ thanh toán Napas công nghệ từ."
+    },
+    {
+        "text": "tạm dừng phát hành và ngừng cung cấp dịch vụ thanh toán, rút, chuyển tiền đối với thẻ thanh toán Napas công nghệ từ",
+        "label": "EVENT",
+        "evidence": "ngân hàng Techcombank sẽ tạm dừng phát hành và ngừng cung cấp dịch vụ thanh toán, rút, chuyển tiền đối với thẻ thanh toán Napas công nghệ từ."
+    },
+    {
+        "text": "thẻ thanh toán Napas công nghệ từ",
+        "label": "ASSET",
+        "evidence": "dịch vụ thanh toán, rút, chuyển tiền đối với thẻ thanh toán Napas công nghệ từ."
+    },
+    {
+        "text": "Napas",
+        "label": "ORG",
+        "evidence": "thẻ thanh toán Napas công nghệ từ"
+    },
+    {
+        "text": "thẻ công nghệ chip",
+        "label": "ASSET",
+        "evidence": "sẽ chỉ cung cấp dịch vụ giao dịch với các thẻ công nghệ chip."
+    },
+    {
+        "text": "tạm dừng và ngừng cung cấp dịch vụ đối với các thẻ công nghệ từ do Techcombank phát hành ngay khi phát hiện giao dịch gian lận",
+        "label": "EVENT",
+        "evidence": "Techcombank sẽ tạm dừng và ngừng cung cấp dịch vụ đối với các thẻ công nghệ từ do Techcombank phát hành ngay khi phát hiện giao dịch gian lận."
+    },
+    {
+        "text": "thẻ công nghệ từ",
+        "label": "ASSET",
+        "evidence": "dịch vụ đối với các thẻ công nghệ từ do Techcombank phát hành ngay khi phát hiện giao dịch gian lận."
+    },
+    {
+        "text": "ngày 19/3",
+        "label": "DATE",
+        "evidence": "thẻ chip trước ngày 19/3 để tránh gián đoạn giao dịch."
+    },
+    {
+        "text": "chuyển đổi thẻ công nghệ từ sang thẻ công nghệ chip hoàn toàn miễn phí",
+        "label": "EVENT",
+        "evidence": "Để chuyển đổi thẻ công nghệ từ sang thẻ công nghệ chip hoàn toàn miễn phí, khách hàng có thể lựa chọn một trong 3 cách sau:"
+    },
+    {
+        "text": "Techcombank Mobile",
+        "label": "ASSET",
+        "evidence": "Chuyển đổi trên ứng dụng Techcombank Mobile."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Đăng nhập vào ứng dụngTechcombank, Tại mục thẻ và tài khoản, chọn tài khoản gắn với thẻ từ cần chuyển đổi, nhấn Đăng ký."
+    },
+    {
+        "text": "thẻ từ",
+        "label": "ASSET",
+        "evidence": "chọn tài khoản gắn với thẻ từ cần chuyển đổi, nhấn Đăng ký."
+    },
+    {
+        "text": "hỗ trợ chuyển đổi thẻ công nghệ từ sang thẻ công nghệ chip qua 3 phương thức trên và hoàn toàn miễn phí",
+        "label": "EVENT",
+        "evidence": "ngân hàng chỉ hỗ trợ chuyển đổi thẻ công nghệ từ sang thẻ công nghệ chip qua 3 phương thức trên và hoàn toàn miễn phí."
+    },
+    {
+        "text": "Techombank",
+        "label": "ORG",
+        "evidence": "Theo thông tin cung cấp từ Techombank, thẻ từ là thẻ có chứa dải băng từ với nhiệm vụ lưu trữ thông tin đã được mã hóa của khách hàng."
+    },
+    {
+        "text": "thẻ băng từ",
+        "label": "ASSET",
+        "evidence": "sự khác biệt cơ bản giữa thẻ chip và thẻ băng từ."
+    },
+    {
+        "text": "thẻ chip nội địa",
+        "label": "ASSET",
+        "evidence": "Ưu điểm của thẻ thẻ chip nội địa là đáp ứng đầy đủ các yếu tố kỹ thuật về an toàn, bảo mật theo bộ tiêu chuẩn VCCS tiên tiến nhất."
+    },
+    {
+        "text": "thiết bị POS",
+        "label": "ASSET",
+        "evidence": "chỉ cần thao tác chạm nhẹ vào thiết bị POS để thực hiện giao dịch mà không cần quẹt hay đưa chip vào đầu đọc thẻ."
+    },
+    {
+        "text": "Thẻ chip không tiếp xúc",
+        "label": "ASSET",
+        "evidence": "Thẻ chip không tiếp xúc giúp đẩy nhanh tốc độ xử lý giao dịch thanh toán, tiện lợi hơn thanh toán bằng tiền mặt truyền thống."
+    }
+]

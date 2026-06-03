@@ -1,0 +1,142 @@
+[
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TPBank thông báo, ngân hàng đã nắm được sự cố và có ghi nhận gián đoạn giao dịch trên các kênh."
+    },
+    {
+        "text": "Ngân hàng TPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng TPBank thông báo, ngân hàng đã nắm được sự cố và có ghi nhận gián đoạn giao dịch trên các kênh."
+    },
+    {
+        "text": "gián đoạn giao dịch trên các kênh",
+        "label": "EVENT",
+        "evidence": "Ngân hàng TPBank thông báo, ngân hàng đã nắm được sự cố và có ghi nhận gián đoạn giao dịch trên các kênh."
+    },
+    {
+        "text": "nâng cấp cập nhật hệ thống",
+        "label": "EVENT",
+        "evidence": "Nguyên nhân là ngân hàng đang thực hiện nâng cấp cập nhật hệ thống vào rạng sáng ngày 12/12."
+    },
+    {
+        "text": "rạng sáng ngày 12/12",
+        "label": "DATE",
+        "evidence": "Nguyên nhân là ngân hàng đang thực hiện nâng cấp cập nhật hệ thống vào rạng sáng ngày 12/12."
+    },
+    {
+        "text": "12/12",
+        "label": "DATE",
+        "evidence": "Nguyên nhân là ngân hàng đang thực hiện nâng cấp cập nhật hệ thống vào rạng sáng ngày 12/12."
+    },
+    {
+        "text": "Nguyễn Thị Hoàn Vinh",
+        "label": "PERSON",
+        "evidence": "Chị Nguyễn Thị Hoàn Vinh (Cầu Giấy, Hà Nội) một khách hàng củaTPBankcho biết, từ 21h tối qua (11/12) chị không thể thực hiện giao dịch chuyển tiền trên hệ thống Mobile Banking của ngân hàng."
+    },
+    {
+        "text": "21h tối qua (11/12)",
+        "label": "DATE",
+        "evidence": "Chị Nguyễn Thị Hoàn Vinh (Cầu Giấy, Hà Nội) một khách hàng củaTPBankcho biết, từ 21h tối qua (11/12) chị không thể thực hiện giao dịch chuyển tiền trên hệ thống Mobile Banking của ngân hàng."
+    },
+    {
+        "text": "11/12",
+        "label": "DATE",
+        "evidence": "Chị Nguyễn Thị Hoàn Vinh (Cầu Giấy, Hà Nội) một khách hàng củaTPBankcho biết, từ 21h tối qua (11/12) chị không thể thực hiện giao dịch chuyển tiền trên hệ thống Mobile Banking của ngân hàng."
+    },
+    {
+        "text": "không thể thực hiện giao dịch chuyển tiền trên hệ thống Mobile Banking",
+        "label": "EVENT",
+        "evidence": "từ 21h tối qua (11/12) chị không thể thực hiện giao dịch chuyển tiền trên hệ thống Mobile Banking của ngân hàng."
+    },
+    {
+        "text": "tạm thời gián đoạn dịch vụ",
+        "label": "EVENT",
+        "evidence": "Khi tôi đăng nhập app mobile của TPBank để giao dịch thì màn hình hiện lên thông báo tạm thời gián đoạn dịch vụ."
+    },
+    {
+        "text": "khắc phục sự cố kỹ thuật gây gián đoạn",
+        "label": "EVENT",
+        "evidence": "TPBank đang khẩn trương khắc phục sự cố kỹ thuật gây gián đoạn."
+    },
+    {
+        "text": "10h sáng nay",
+        "label": "DATE",
+        "evidence": "Đến 10h sáng nay khi tôi vào lại app thì được thông báo không thể đăng nhập do không kết nối internet trong khi tôi dùng 5G”, chị Vinh cho biết."
+    },
+    {
+        "text": "Vinh",
+        "label": "PERSON",
+        "evidence": "Đến 10h sáng nay khi tôi vào lại app thì được thông báo không thể đăng nhập do không kết nối internet trong khi tôi dùng 5G”, chị Vinh cho biết."
+    },
+    {
+        "text": "không thể đăng nhập",
+        "label": "EVENT",
+        "evidence": "thì được thông báo không thể đăng nhập do không kết nối internet trong khi tôi dùng 5G”, chị Vinh cho biết."
+    },
+    {
+        "text": "không vào được app TPBank để giao dịch chuyển khoản",
+        "label": "EVENT",
+        "evidence": "Nhiều khách hàng không vào được app TPBank để giao dịch chuyển khoản (ảnh: N.M)."
+    },
+    {
+        "text": "không thể thực hiện chuyển tiền nhanh do ứng dụng chuyển tiền online báo lỗi",
+        "label": "EVENT",
+        "evidence": "nhiều khách hàng TPBank cũng đang phản ánh không thể thực hiện chuyển tiền nhanh do ứng dụng chuyển tiền online báo lỗi."
+    },
+    {
+        "text": "lỗi gián đoạn giao dịch",
+        "label": "EVENT",
+        "evidence": "“Tôi bị quá nhiều lần gặp lỗi gián đoạn giao dịch với ngân hàng này”, chị Vinh nói."
+    },
+    {
+        "text": "Thanh Hương",
+        "label": "PERSON",
+        "evidence": "Chị Thanh Hương (Tây Hồ, Hà Nội) cho biết: \"Từ tối qua, tôi không vào được app TPBank giao dịch chuyển tiền, gọi lên chuyên viên chăm sóc khách hàng nhưng chỉ nhận được câu trả lời: Chờ\"."
+    },
+    {
+        "text": "tối qua",
+        "label": "DATE",
+        "evidence": "Chị Thanh Hương (Tây Hồ, Hà Nội) cho biết: \"Từ tối qua, tôi không vào được app TPBank giao dịch chuyển tiền, gọi lên chuyên viên chăm sóc khách hàng nhưng chỉ nhận được câu trả lời: Chờ\"."
+    },
+    {
+        "text": "không vào được app TPBank giao dịch chuyển tiền",
+        "label": "EVENT",
+        "evidence": "tôi không vào được app TPBank giao dịch chuyển tiền, gọi lên chuyên viên chăm sóc khách hàng nhưng chỉ nhận được câu trả lời: Chờ\"."
+    },
+    {
+        "text": "10h sáng 12/12",
+        "label": "DATE",
+        "evidence": "Theo ghi nhận của PV lúc 10h sáng 12/12, dịch vụ của TPBank bị lỗi cả ứng dụng trên di động và ngân hàng số tại website."
+    },
+    {
+        "text": "dịch vụ của TPBank bị lỗi cả ứng dụng trên di động và ngân hàng số tại website",
+        "label": "EVENT",
+        "evidence": "dịch vụ của TPBank bị lỗi cả ứng dụng trên di động và ngân hàng số tại website."
+    },
+    {
+        "text": "khắc phục sự cố kỹ thuật gây gián đoạn dịch vụ",
+        "label": "EVENT",
+        "evidence": "TPBank đang khẩn trương khắc phục sự cố kỹ thuật gây gián đoạn dịch vụ."
+    },
+    {
+        "text": "gián đoạn dịch vụ",
+        "label": "EVENT",
+        "evidence": "khắc phục sự cố kỹ thuật gây gián đoạn dịch vụ."
+    },
+    {
+        "text": "khắc phục sự cố",
+        "label": "EVENT",
+        "evidence": "Các thông báo của TPBank không nói rõ thời gian dự kiến sẽ hoàn thành việc khắc phục sự cố."
+    },
+    {
+        "text": "hệ thống của ngân hàng này đã trở lại hoạt động phục vụ khách hàng",
+        "label": "EVENT",
+        "evidence": "hệ thống của ngân hàng này đã trở lại hoạt động phục vụ khách hàng từ 14h30 chiều nay."
+    },
+    {
+        "text": "14h30 chiều nay",
+        "label": "DATE",
+        "evidence": "hệ thống của ngân hàng này đã trở lại hoạt động phục vụ khách hàng từ 14h30 chiều nay."
+    }
+]

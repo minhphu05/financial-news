@@ -1,0 +1,347 @@
+[
+    {
+        "text": "cổ phiếu Vinhomes",
+        "label": "ASSET",
+        "evidence": "dòng tiền \"khủng\" đến từ khối ngoại đổ vàocổ phiếu Vinhomes(mã VHM)."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "dòng tiền \"khủng\" đến từ khối ngoại đổ vàocổ phiếu Vinhomes(mã VHM)."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "dòng tiền \"khủng\" đến từ khối ngoại đổ vàocổ phiếu Vinhomes(mã VHM)."
+    },
+    {
+        "text": "dòng tiền \"khủng\" đến từ khối ngoại đổ vàocổ phiếu Vinhomes",
+        "label": "EVENT",
+        "evidence": "bất ngờ xuất hiện dòng tiền \"khủng\" đến từ khối ngoại đổ vàocổ phiếu Vinhomes(mã VHM)."
+    },
+    {
+        "text": "nhà đầu tư nước ngoài mua ròng đến 18,7 triệu cổ phiếu VHM",
+        "label": "EVENT",
+        "evidence": "Theo thống kê, nhà đầu tư nước ngoài mua ròng đến 18,7 triệu cổ phiếu VHM, tương đương giá trị xấp xỉ 800 tỷ đồng, lớn nhất toàn sàn trong phiên 20/10."
+    },
+    {
+        "text": "18,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "nhà đầu tư nước ngoài mua ròng đến 18,7 triệu cổ phiếu VHM"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "nhà đầu tư nước ngoài mua ròng đến 18,7 triệu cổ phiếu VHM"
+    },
+    {
+        "text": "800 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương đương giá trị xấp xỉ 800 tỷ đồng"
+    },
+    {
+        "text": "20/10",
+        "label": "DATE",
+        "evidence": "lớn nhất toàn sàn trong phiên 20/10."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Cùng ngày, cổ phiếu VHM cũng có nhiều giao dịch thoả thuận tại mức giá tham chiếu (42.500 đồng/cp)"
+    },
+    {
+        "text": "nhiều giao dịch thoả thuận tại mức giá tham chiếu (42.500 đồng/cp) với tổng khối lượng lên đến 19,2 triệu đơn vị",
+        "label": "EVENT",
+        "evidence": "cổ phiếu VHM cũng có nhiều giao dịch thoả thuận tại mức giá tham chiếu (42.500 đồng/cp) với tổng khối lượng lên đến 19,2 triệu đơn vị trong khi giá trị khớp lệnh chỉ 3,2 triệu đơn vị."
+    },
+    {
+        "text": "42.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "tại mức giá tham chiếu (42.500 đồng/cp)"
+    },
+    {
+        "text": "19,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "tổng khối lượng lên đến 19,2 triệu đơn vị"
+    },
+    {
+        "text": "3,2 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "giá trị khớp lệnh chỉ 3,2 triệu đơn vị"
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "lên diễn biến cổ phiếu VHM trên sàn."
+    },
+    {
+        "text": "cổ phiếu này nhanh chóng quay đầu bứt phá mạnh và đóng cửa phiên tại 44.500 đồng/cp, ghi nhận mức tăng 4,71%",
+        "label": "EVENT",
+        "evidence": "cổ phiếu này nhanh chóng quay đầu bứt phá mạnh và đóng cửa phiên tại 44.500 đồng/cp, ghi nhận mức tăng 4,71% qua đó trở thành cái tên đóng góp lớn nhất vào VN-Index."
+    },
+    {
+        "text": "44.500 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đóng cửa phiên tại 44.500 đồng/cp"
+    },
+    {
+        "text": "4,71%",
+        "label": "RATE",
+        "evidence": "ghi nhận mức tăng 4,71%"
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "đóng góp lớn nhất vào VN-Index."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Cú bứt phá ngoạn mục đưa VHM trở thành đầu tàu dẫn dắt thị trường hồi phục."
+    },
+    {
+        "text": "chấm dứt chuỗi 4 phiên giảm liên tiếp",
+        "label": "EVENT",
+        "evidence": "giúp thị trường đảo chiều, chấm dứt chuỗi 4 phiên giảm liên tiếp."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Đánh giá về Vinhomes nói riêng và nhóm bất động sản nói chung"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect trong báo cáo mới đây vẫn duy trì quan điểm thận trọng"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "thời gian còn lại của năm 2023"
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Theo VNDirect, doanh thu Vinhomes sẽ giảm tốc trong nửa cuối năm"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "doanh thu Vinhomes sẽ giảm tốc trong nửa cuối năm"
+    },
+    {
+        "text": "nửa cuối 2022",
+        "label": "DATE",
+        "evidence": "đà tăng trưởng mạnh mẽ trong nửa cuối 2022 – nửa đầu 2023."
+    },
+    {
+        "text": "nửa đầu 2023",
+        "label": "DATE",
+        "evidence": "nửa cuối 2022 – nửa đầu 2023."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "doanh thu của Vinhomes cả năm 2023 vẫn được dự báo sẽ tăng gần 70% lên mức 105.900 tỷ đồng."
+    },
+    {
+        "text": "doanh thu của Vinhomes cả năm 2023 vẫn được dự báo sẽ tăng gần 70% lên mức 105.900 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "doanh thu của Vinhomes cả năm 2023 vẫn được dự báo sẽ tăng gần 70% lên mức 105.900 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "doanh thu của Vinhomes cả năm 2023"
+    },
+    {
+        "text": "tăng gần 70%",
+        "label": "RATE",
+        "evidence": "sẽ tăng gần 70%"
+    },
+    {
+        "text": "105.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên mức 105.900 tỷ đồng."
+    },
+    {
+        "text": "Lợi nhuận ròng dự phóng năm 2023 sẽ tăng 26,8% so với cùng kỳ lên mức 36.500 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận ròng dự phóng năm 2023 sẽ tăng 26,8% so với cùng kỳ lên mức 36.500 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Lợi nhuận ròng dự phóng năm 2023"
+    },
+    {
+        "text": "tăng 26,8%",
+        "label": "RATE",
+        "evidence": "sẽ tăng 26,8%"
+    },
+    {
+        "text": "36.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên mức 36.500 tỷ đồng."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect cho rằng, các điều kiện thuận lợi hơn cho thị trường trong giai đoạn 2024-25"
+    },
+    {
+        "text": "2024-25",
+        "label": "DATE",
+        "evidence": "trong giai đoạn 2024-25"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "sẽ hỗ trợ Vinhomes triển khai các dự án đúng tiến độ theo kế hoạch."
+    },
+    {
+        "text": "Vinhomes triển khai các dự án đúng tiến độ theo kế hoạch",
+        "label": "EVENT",
+        "evidence": "sẽ hỗ trợ Vinhomes triển khai các dự án đúng tiến độ theo kế hoạch."
+    },
+    {
+        "text": "CTCK",
+        "label": "ORG",
+        "evidence": "CTCK này ước tính doanh thu bán trước của Vinhomes"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "doanh thu bán trước của Vinhomes sẽ đạt 103.200 tỷ đồng"
+    },
+    {
+        "text": "doanh thu bán trước của Vinhomes sẽ đạt 103.200 tỷ đồng (+8,0% so với cùng kỳ) trong năm 2024",
+        "label": "EVENT",
+        "evidence": "doanh thu bán trước của Vinhomes sẽ đạt 103.200 tỷ đồng (+8,0% so với cùng kỳ) trong năm 2024 và 150.200 tỷ đồng (+45,5% so với cùng kỳ) trong năm 2025."
+    },
+    {
+        "text": "103.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "sẽ đạt 103.200 tỷ đồng"
+    },
+    {
+        "text": "+8,0%",
+        "label": "RATE",
+        "evidence": "(+8,0% so với cùng kỳ)"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "trong năm 2024"
+    },
+    {
+        "text": "doanh thu bán trước của Vinhomes sẽ đạt 150.200 tỷ đồng (+45,5% so với cùng kỳ) trong năm 2025",
+        "label": "EVENT",
+        "evidence": "doanh thu bán trước của Vinhomes sẽ đạt 103.200 tỷ đồng (+8,0% so với cùng kỳ) trong năm 2024 và 150.200 tỷ đồng (+45,5% so với cùng kỳ) trong năm 2025."
+    },
+    {
+        "text": "150.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 150.200 tỷ đồng"
+    },
+    {
+        "text": "+45,5%",
+        "label": "RATE",
+        "evidence": "(+45,5% so với cùng kỳ)"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "trong năm 2025."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "sẽ giúp Vinhomes cải thiện biên lợi nhuận ròng."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "Do đó, VNDirect dự báo lợi nhuận ròng của doanh nghiệp"
+    },
+    {
+        "text": "lợi nhuận ròng của doanh nghiệp sẽ tăng trưởng lần lượt 14,6%/32,9% so với cùng kỳ trong năm 2024-25, đạt 41.900 tỷ đồng và 55.700 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận ròng của doanh nghiệp sẽ tăng trưởng lần lượt 14,6%/32,9% so với cùng kỳ trong năm 2024-25, đạt 41.900 tỷ đồng và 55.700 tỷ đồng."
+    },
+    {
+        "text": "14,6%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lần lượt 14,6%/32,9%"
+    },
+    {
+        "text": "32,9%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lần lượt 14,6%/32,9%"
+    },
+    {
+        "text": "năm 2024-25",
+        "label": "DATE",
+        "evidence": "trong năm 2024-25"
+    },
+    {
+        "text": "41.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 41.900 tỷ đồng"
+    },
+    {
+        "text": "55.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 55.700 tỷ đồng."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vinhomes dự kiến mở bán các dự án Nhà ở xã hội (NOXH)"
+    },
+    {
+        "text": "Vinhomes dự kiến mở bán các dự án Nhà ở xã hội (NOXH) bao gồm dự án ở khu công nghiệp Nam Tràng Cát (Hải An, Hải Phòng), dự án được xây trên một phần diện tích của Vinhomes Star City (Thanh Hóa) và dự án ở Đông Hà (Quảng Trị)",
+        "label": "EVENT",
+        "evidence": "Vinhomes dự kiến mở bán các dự án Nhà ở xã hội (NOXH) bao gồm dự án ở khu công nghiệp Nam Tràng Cát (Hải An, Hải Phòng), dự án được xây trên một phần diện tích của Vinhomes Star City (Thanh Hóa) và dự án ở Đông Hà (Quảng Trị) trong nửa cuối năm 2023."
+    },
+    {
+        "text": "Nhà ở xã hội",
+        "label": "ASSET",
+        "evidence": "các dự án Nhà ở xã hội (NOXH)"
+    },
+    {
+        "text": "NOXH",
+        "label": "ASSET",
+        "evidence": "Nhà ở xã hội (NOXH)"
+    },
+    {
+        "text": "Vinhomes Star City",
+        "label": "ORG",
+        "evidence": "một phần diện tích của Vinhomes Star City (Thanh Hóa)"
+    },
+    {
+        "text": "nửa cuối năm 2023",
+        "label": "DATE",
+        "evidence": "trong nửa cuối năm 2023."
+    },
+    {
+        "text": "VNDirect",
+        "label": "ORG",
+        "evidence": "VNDirect ước tính ba dự án trên sẽ mang lại khoảng 2.200 tỷ đồng"
+    },
+    {
+        "text": "ba dự án trên sẽ mang lại khoảng 2.200 tỷ đồng giá trị hợp đồng ký mới trong giai đoạn 2024-25",
+        "label": "EVENT",
+        "evidence": "VNDirect ước tính ba dự án trên sẽ mang lại khoảng 2.200 tỷ đồng giá trị hợp đồng ký mới trong giai đoạn 2024-25."
+    },
+    {
+        "text": "2.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 2.200 tỷ đồng"
+    },
+    {
+        "text": "2024-25",
+        "label": "DATE",
+        "evidence": "trong giai đoạn 2024-25."
+    }
+]

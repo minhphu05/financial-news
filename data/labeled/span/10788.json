@@ -1,0 +1,582 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong dự thảo tờ trình Đại hội đồng cổ đông của VPBank vừa được gửi tới các cổ đông để xin ý kiến, ngân hàng này đưa mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023, tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023",
+        "label": "EVENT",
+        "evidence": "ngân hàng này đưa mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023, tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "ngân hàng này đưa mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023, tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "114%",
+        "label": "RATE",
+        "evidence": "ngân hàng này đưa mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023, tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "ngân hàng này đưa mục tiêu lợi nhuận hợp nhất trước thuế năm 2024 tăng 114% so với năm 2023, tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "23.165 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tương đương 23.165 tỷ đồng."
+    },
+    {
+        "text": "ngân hàng mẹ",
+        "label": "ORG",
+        "evidence": "Trong đó, riêng ngân hàng mẹ dự kiến đóng góp 20.709 tỷ đồng, công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "20.709 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, riêng ngân hàng mẹ dự kiến đóng góp 20.709 tỷ đồng, công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "công ty chứng khoán VPBankS",
+        "label": "ORG",
+        "evidence": "Trong đó, riêng ngân hàng mẹ dự kiến đóng góp 20.709 tỷ đồng, công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "VPBankS",
+        "label": "ORG",
+        "evidence": "Trong đó, riêng ngân hàng mẹ dự kiến đóng góp 20.709 tỷ đồng, công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "1.902 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "công ty bảo hiểm OPES",
+        "label": "ORG",
+        "evidence": "công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "OPES",
+        "label": "ORG",
+        "evidence": "công ty chứng khoán VPBankS góp 1.902 tỷ đồng và công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "873 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "công ty bảo hiểm OPES đóng góp 873 tỷ đồng vào tổng lợi nhuận."
+    },
+    {
+        "text": "Công ty tài chính tiêu dùng FE CREDIT",
+        "label": "ORG",
+        "evidence": "Công ty tài chính tiêu dùng FE CREDIT cũng sẽ được kỳ vọng có sự trở lại mạnh mẽ sau hai năm liền thua lỗ, với mức lợi nhuận hợp nhất trước thuế dự kiến là 1.200 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "FE CREDIT",
+        "label": "ORG",
+        "evidence": "Công ty tài chính tiêu dùng FE CREDIT cũng sẽ được kỳ vọng có sự trở lại mạnh mẽ sau hai năm liền thua lỗ, với mức lợi nhuận hợp nhất trước thuế dự kiến là 1.200 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "1.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với mức lợi nhuận hợp nhất trước thuế dự kiến là 1.200 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "với mức lợi nhuận hợp nhất trước thuế dự kiến là 1.200 tỷ đồng trong năm 2024."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Dựa vào kế hoạch trên, có thể hiểu rằng VPBank cùng cổ đông chiến lược SMBC đã hoàn tất quá trình tái cấu trúc lại mô hình kinh doanh, vận hành của FE CREDIT, đưa công ty này vượt qua khó khăn để bước vào chu kỳ tăng trưởng mới."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Dựa vào kế hoạch trên, có thể hiểu rằng VPBank cùng cổ đông chiến lược SMBC đã hoàn tất quá trình tái cấu trúc lại mô hình kinh doanh, vận hành của FE CREDIT, đưa công ty này vượt qua khó khăn để bước vào chu kỳ tăng trưởng mới."
+    },
+    {
+        "text": "tái cấu trúc lại mô hình kinh doanh, vận hành của FE CREDIT",
+        "label": "EVENT",
+        "evidence": "đã hoàn tất quá trình tái cấu trúc lại mô hình kinh doanh, vận hành của FE CREDIT, đưa công ty này vượt qua khó khăn để bước vào chu kỳ tăng trưởng mới."
+    },
+    {
+        "text": "FE CREDIT",
+        "label": "ORG",
+        "evidence": "Dựa vào kế hoạch trên, có thể hiểu rằng VPBank cùng cổ đông chiến lược SMBC đã hoàn tất quá trình tái cấu trúc lại mô hình kinh doanh, vận hành của FE CREDIT, đưa công ty này vượt qua khó khăn để bước vào chu kỳ tăng trưởng mới."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Để đạt được kế hoạch trên, VPBank dự kiến tăng trưởng tín dụng và huy động lần lượt ở mức 25% và 22% so với năm trước."
+    },
+    {
+        "text": "tăng trưởng tín dụng và huy động lần lượt ở mức 25% và 22% so với năm trước",
+        "label": "EVENT",
+        "evidence": "VPBank dự kiến tăng trưởng tín dụng và huy động lần lượt ở mức 25% và 22% so với năm trước."
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "Để đạt được kế hoạch trên, VPBank dự kiến tăng trưởng tín dụng và huy động lần lượt ở mức 25% và 22% so với năm trước."
+    },
+    {
+        "text": "22%",
+        "label": "RATE",
+        "evidence": "Để đạt được kế hoạch trên, VPBank dự kiến tăng trưởng tín dụng và huy động lần lượt ở mức 25% và 22% so với năm trước."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Bên cạnh một mục tiêu tham vọng,VPBankcũng xin ý kiến cổ đông về việc sử dụng nguồn lợi nhuận chưa phân phối."
+    },
+    {
+        "text": "quý II",
+        "label": "DATE",
+        "evidence": "Theo đó, trong quý II hoặc quý III năm nay, ngân hàng dự kiến sẽ chia cổ tức bằng tiền mặt với tỷ lệ 10% cho các cổ đông."
+    },
+    {
+        "text": "quý III năm nay",
+        "label": "DATE",
+        "evidence": "Theo đó, trong quý II hoặc quý III năm nay, ngân hàng dự kiến sẽ chia cổ tức bằng tiền mặt với tỷ lệ 10% cho các cổ đông."
+    },
+    {
+        "text": "chia cổ tức bằng tiền mặt với tỷ lệ 10%",
+        "label": "EVENT",
+        "evidence": "ngân hàng dự kiến sẽ chia cổ tức bằng tiền mặt với tỷ lệ 10% cho các cổ đông."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "ngân hàng dự kiến sẽ chia cổ tức bằng tiền mặt với tỷ lệ 10% cho các cổ đông."
+    },
+    {
+        "text": "1.000 đồng",
+        "label": "MONEY",
+        "evidence": "Mỗi một cổ phiếu cổ đông sẽ nhận được 1.000 đồng tiền cổ tức."
+    },
+    {
+        "text": "hơn 7.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng số lợi nhuận dự kiến được sử dụng để chia cổ tức là hơn 7.900 tỷ đồng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Đây là năm thứ hai liên tiếp VPBank thực hiện chia cổ tức bằng tiền mặt, sau khi ngân hàng đã hoàn tất các kế hoạch tăng vốn, củng cố nền tảng tài chính đảm bảo cho sự phát triển trong tương lai."
+    },
+    {
+        "text": "thực hiện chia cổ tức bằng tiền mặt",
+        "label": "EVENT",
+        "evidence": "Đây là năm thứ hai liên tiếp VPBank thực hiện chia cổ tức bằng tiền mặt, sau khi ngân hàng đã hoàn tất các kế hoạch tăng vốn, củng cố nền tảng tài chính đảm bảo cho sự phát triển trong tương lai."
+    },
+    {
+        "text": "tăng vốn",
+        "label": "EVENT",
+        "evidence": "sau khi ngân hàng đã hoàn tất các kế hoạch tăng vốn, củng cố nền tảng tài chính đảm bảo cho sự phát triển trong tương lai."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Tại đại hội đồng cổ đông năm ngoái, Chủ tịch HĐQT VPBank, ông Ngô Chí Dũng, cam kết ngân hàng sẽ chia cổ tức bằng tiền mặt trong 5 năm liên tiếp."
+    },
+    {
+        "text": "Ngô Chí Dũng",
+        "label": "PERSON",
+        "evidence": "Tại đại hội đồng cổ đông năm ngoái, Chủ tịch HĐQT VPBank, ông Ngô Chí Dũng, cam kết ngân hàng sẽ chia cổ tức bằng tiền mặt trong 5 năm liên tiếp."
+    },
+    {
+        "text": "cam kết ngân hàng sẽ chia cổ tức bằng tiền mặt trong 5 năm liên tiếp",
+        "label": "EVENT",
+        "evidence": "ông Ngô Chí Dũng, cam kết ngân hàng sẽ chia cổ tức bằng tiền mặt trong 5 năm liên tiếp."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Động lực nào để VPBank bứt phá?"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong tài liệu gửi các cổ đông, VPBank giải thích: \"Các chỉ tiêu kế hoạch trên đây dựa trên các giả định/phân tích kịch bản tăng trưởng của nền kinh tế nói chung và năng lực thực tế của ngân hàng.\""
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Điều này cho thấy VPBank hiểu rõ được những lợi thế đang có để đạt ra các mục tiêu kinh doanh có phần tham vọng."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Ngân hàng này hiện đang có một nền tảng vốn lớn, đối tác chiến lược là 1 trong những ngân hàng lớn nhất Nhật Bản SMBC, biên lãi ròng (NIM) cải thiện, hạn mức tăng trưởng tín dụng cao từ Ngân hàng Nhà nước (NHNN) và sự phục hồi dần rõ nét của cánh tay tài chính tiêu dùng nối dài."
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng này hiện đang có một nền tảng vốn lớn, đối tác chiến lược là 1 trong những ngân hàng lớn nhất Nhật Bản SMBC, biên lãi ròng (NIM) cải thiện, hạn mức tăng trưởng tín dụng cao từ Ngân hàng Nhà nước (NHNN) và sự phục hồi dần rõ nét của cánh tay tài chính tiêu dùng nối dài."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "hạn mức tăng trưởng tín dụng cao từ Ngân hàng Nhà nước (NHNN) và sự phục hồi dần rõ nét của cánh tay tài chính tiêu dùng nối dài."
+    },
+    {
+        "text": "3 tháng cuối năm 2023",
+        "label": "DATE",
+        "evidence": "Các lợi thế nói trên đã chuyển hóa thành những con số biết nói của ngân hàng này trong 3 tháng cuối năm 2023."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Lợi nhuận trước thuế hợp nhất quý 4 của VPBank đạt 2.708 tỷ đồng, tăng tới 96% so với cùng kỳ năm 2022, là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Lợi nhuận trước thuế hợp nhất quý 4 của VPBank đạt 2.708 tỷ đồng, tăng tới 96% so với cùng kỳ năm 2022, là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "2.708 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận trước thuế hợp nhất quý 4 của VPBank đạt 2.708 tỷ đồng, tăng tới 96% so với cùng kỳ năm 2022, là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "96%",
+        "label": "RATE",
+        "evidence": "tăng tới 96% so với cùng kỳ năm 2022, là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "tăng tới 96% so với cùng kỳ năm 2022, là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "quý cuối cùng của năm 2023",
+        "label": "DATE",
+        "evidence": "là một trong những ngân hàng có tăng trưởng cao nhất trong quý cuối cùng của năm 2023."
+    },
+    {
+        "text": "giảm từ 6,4% xuống 5,6%",
+        "label": "EVENT",
+        "evidence": "Chi phí vốn (COF) giảm từ 6,4% xuống 5,6% trong quý 4, theo đó, đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "6,4%",
+        "label": "RATE",
+        "evidence": "Chi phí vốn (COF) giảm từ 6,4% xuống 5,6% trong quý 4, theo đó, đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "5,6%",
+        "label": "RATE",
+        "evidence": "Chi phí vốn (COF) giảm từ 6,4% xuống 5,6% trong quý 4, theo đó, đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Chi phí vốn (COF) giảm từ 6,4% xuống 5,6% trong quý 4, theo đó, đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6%",
+        "label": "EVENT",
+        "evidence": "đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "6,2%",
+        "label": "RATE",
+        "evidence": "đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "5,6%",
+        "label": "RATE",
+        "evidence": "đã hỗ trợ cải thiện NIM của ngân hàng lên 6,2% từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "2 quý liền trước",
+        "label": "DATE",
+        "evidence": "từ mức 5,6% của 2 quý liền trước."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "COF của VPBank được dự báo sẽ tiếp tục đi xuống trong năm 2023 trong bối cảnh mặt bằng lãi suất huy động đã phá đáy của giai đoạn Covid-19."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "COF của VPBank được dự báo sẽ tiếp tục đi xuống trong năm 2023 trong bối cảnh mặt bằng lãi suất huy động đã phá đáy của giai đoạn Covid-19."
+    },
+    {
+        "text": "Công ty chứng khoán MBS",
+        "label": "ORG",
+        "evidence": "Công ty chứng khoán MBS mới đây đã đưa ra dự báo mảng cho vay khách hàng cá nhân và cho vay tiêu dùng của VPBank sẽ tăng trưởng trở lại từ nửa sau của năm 2024, giúp lợi suất tài sản của ngân hàng gia tăng."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "Công ty chứng khoán MBS mới đây đã đưa ra dự báo mảng cho vay khách hàng cá nhân và cho vay tiêu dùng của VPBank sẽ tăng trưởng trở lại từ nửa sau của năm 2024, giúp lợi suất tài sản của ngân hàng gia tăng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Công ty chứng khoán MBS mới đây đã đưa ra dự báo mảng cho vay khách hàng cá nhân và cho vay tiêu dùng của VPBank sẽ tăng trưởng trở lại từ nửa sau của năm 2024, giúp lợi suất tài sản của ngân hàng gia tăng."
+    },
+    {
+        "text": "nửa sau của năm 2024",
+        "label": "DATE",
+        "evidence": "sẽ tăng trưởng trở lại từ nửa sau của năm 2024, giúp lợi suất tài sản của ngân hàng gia tăng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "\"Chúng tôi dự báo NIM cả năm 2024 của VPBank sẽ đạt 6,4%, tăng 87 điểm cơ bản so với năm 2023 với kỳ vọng lợi suất của tài sản sẽ đi ngang và chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "\"Chúng tôi dự báo NIM cả năm 2024 của VPBank sẽ đạt 6,4%, tăng 87 điểm cơ bản so với năm 2023 với kỳ vọng lợi suất của tài sản sẽ đi ngang và chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "6,4%",
+        "label": "RATE",
+        "evidence": "\"Chúng tôi dự báo NIM cả năm 2024 của VPBank sẽ đạt 6,4%, tăng 87 điểm cơ bản so với năm 2023 với kỳ vọng lợi suất của tài sản sẽ đi ngang và chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "tăng 87 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "tăng 87 điểm cơ bản so với năm 2023 với kỳ vọng lợi suất của tài sản sẽ đi ngang và chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "\"Chúng tôi dự báo NIM cả năm 2024 của VPBank sẽ đạt 6,4%, tăng 87 điểm cơ bản so với năm 2023 với kỳ vọng lợi suất của tài sản sẽ đi ngang và chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "giảm 110 điểm cơ bản",
+        "label": "RATE",
+        "evidence": "chi phí vốn sẽ giảm 110 điểm cơ bản so với cùng kỳ\" MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "MBS",
+        "label": "ORG",
+        "evidence": "MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "MBS viết trong báo cáo phát hành đầu tháng 3."
+    },
+    {
+        "text": "bán vốn của ngân hàng cho SMBC",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, sự kiện bán vốn của ngân hàng cho SMBC trong năm vừa qua đã mang tới cho VPBank nhiều hơn một nền tảng vốn chủ sở hữu đồ sộ (đạt gần 140 nghìn tỷ đồng tại thời điểm 31/12/2023)."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Trong khi đó, sự kiện bán vốn của ngân hàng cho SMBC trong năm vừa qua đã mang tới cho VPBank nhiều hơn một nền tảng vốn chủ sở hữu đồ sộ (đạt gần 140 nghìn tỷ đồng tại thời điểm 31/12/2023)."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong khi đó, sự kiện bán vốn của ngân hàng cho SMBC trong năm vừa qua đã mang tới cho VPBank nhiều hơn một nền tảng vốn chủ sở hữu đồ sộ (đạt gần 140 nghìn tỷ đồng tại thời điểm 31/12/2023)."
+    },
+    {
+        "text": "gần 140 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 140 nghìn tỷ đồng tại thời điểm 31/12/2023)."
+    },
+    {
+        "text": "31/12/2023",
+        "label": "DATE",
+        "evidence": "đạt gần 140 nghìn tỷ đồng tại thời điểm 31/12/2023)."
+    },
+    {
+        "text": "củng cố tỷ lệ an toàn vốn (CAR) của ngân hàng lên 17%",
+        "label": "EVENT",
+        "evidence": "Quy mô vốn chủ sở hữu đứng thứ 2 hệ thống đã góp phần củng cố tỷ lệ an toàn vốn (CAR) của ngân hàng lên 17% - cao nhất trong hệ thống ngân hàng và mở ra nhiều cơ hội đầu tư và kinh doanh mới."
+    },
+    {
+        "text": "17%",
+        "label": "RATE",
+        "evidence": "Quy mô vốn chủ sở hữu đứng thứ 2 hệ thống đã góp phần củng cố tỷ lệ an toàn vốn (CAR) của ngân hàng lên 17% - cao nhất trong hệ thống ngân hàng và mở ra nhiều cơ hội đầu tư và kinh doanh mới."
+    },
+    {
+        "text": "tháng 2 vừa qua",
+        "label": "DATE",
+        "evidence": "Dù không nêu con số cụ thể, theo chia sẻ của lãnh đạo ngân hàng trong buổi trao đổi với nhà đầu tư hồi tháng 2 vừa qua, VPBank là một trong những ngân hàng được phân bổ hạn mức tín dụng cao ngay từ đầu năm dựa trên tỷ lệ CAR vượt trội."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Dù không nêu con số cụ thể, theo chia sẻ của lãnh đạo ngân hàng trong buổi trao đổi với nhà đầu tư hồi tháng 2 vừa qua, VPBank là một trong những ngân hàng được phân bổ hạn mức tín dụng cao ngay từ đầu năm dựa trên tỷ lệ CAR vượt trội."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đây chính là cơ sở để ngân hàng đặt ra mục tiêu tăng trưởng tín dụng trong năm 2024."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Mối quan hệ chiến lược với SMBC, theo nhận định của công ty chứng khoán Vietcap, giúp làm giàu mô hình kinh doanh của VPBank."
+    },
+    {
+        "text": "công ty chứng khoán Vietcap",
+        "label": "ORG",
+        "evidence": "Mối quan hệ chiến lược với SMBC, theo nhận định của công ty chứng khoán Vietcap, giúp làm giàu mô hình kinh doanh của VPBank."
+    },
+    {
+        "text": "Vietcap",
+        "label": "ORG",
+        "evidence": "Mối quan hệ chiến lược với SMBC, theo nhận định của công ty chứng khoán Vietcap, giúp làm giàu mô hình kinh doanh của VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Mối quan hệ chiến lược với SMBC, theo nhận định của công ty chứng khoán Vietcap, giúp làm giàu mô hình kinh doanh của VPBank."
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "Cụ thể, mối quan hệ này mang lại các cơ hội tiếp cận nguồn vốn vay chi phí hợp lý từ hệ sinh thái SMBC toàn cầu, đồng thời đem tới nguồn khách hàng FDI phong phú của chính tập đoàn cho VPBank trong những năm tới đây."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Cụ thể, mối quan hệ này mang lại các cơ hội tiếp cận nguồn vốn vay chi phí hợp lý từ hệ sinh thái SMBC toàn cầu, đồng thời đem tới nguồn khách hàng FDI phong phú của chính tập đoàn cho VPBank trong những năm tới đây."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong năm 2023, VPBank đã chính thức đưa vào hoạt động mảng kinh doanh FDI nhằm tận dụng làn sóng đầu tư từ các tập đoàn đa quốc gia."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Trong năm 2023, VPBank đã chính thức đưa vào hoạt động mảng kinh doanh FDI nhằm tận dụng làn sóng đầu tư từ các tập đoàn đa quốc gia."
+    },
+    {
+        "text": "chính thức đưa vào hoạt động mảng kinh doanh FDI",
+        "label": "EVENT",
+        "evidence": "Trong năm 2023, VPBank đã chính thức đưa vào hoạt động mảng kinh doanh FDI nhằm tận dụng làn sóng đầu tư từ các tập đoàn đa quốc gia."
+    },
+    {
+        "text": "Tài trợ chuỗi cung ứng",
+        "label": "ASSET",
+        "evidence": "Thành tựu nổi bật của phân khúc mới chính là việc thu hút được hơn 250 khách hàng doanh nghiệp FDI chỉ sau 1 năm thành lập với bộ sản phẩm Tài trợ chuỗi cung ứng dẫn vốn tới nhà cung cấp và nhà phân phối của các doanh nghiệp FDI."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Mục tiêu tăng trưởng bứt tốc của VPBank sẽ không thể thiếu sự góp mặt của \"gà đẻ trứng vàng\" FE CREDIT, khi ngân hàng mẹ kỳ vọng sự phục hồi của công ty con sẽ dần vững chắc hơn trong năm 2024 với mục tiêu PBT ở mức 1.200 tỷ đồng."
+    },
+    {
+        "text": "FE CREDIT",
+        "label": "ORG",
+        "evidence": "Mục tiêu tăng trưởng bứt tốc của VPBank sẽ không thể thiếu sự góp mặt của \"gà đẻ trứng vàng\" FE CREDIT, khi ngân hàng mẹ kỳ vọng sự phục hồi của công ty con sẽ dần vững chắc hơn trong năm 2024 với mục tiêu PBT ở mức 1.200 tỷ đồng."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "khi ngân hàng mẹ kỳ vọng sự phục hồi của công ty con sẽ dần vững chắc hơn trong năm 2024 với mục tiêu PBT ở mức 1.200 tỷ đồng."
+    },
+    {
+        "text": "1.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với mục tiêu PBT ở mức 1.200 tỷ đồng."
+    },
+    {
+        "text": "tái cơ cấu tại cánh tay tài chính tiêu dùng trong năm 2023",
+        "label": "EVENT",
+        "evidence": "Hoạt động tái cơ cấu tại cánh tay tài chính tiêu dùng trong năm 2023 đã bước đầu cho quả ngọt khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Hoạt động tái cơ cấu tại cánh tay tài chính tiêu dùng trong năm 2023 đã bước đầu cho quả ngọt khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "FE CREDIT",
+        "label": "ORG",
+        "evidence": "khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "tăng nhẹ 0,6%",
+        "label": "RATE",
+        "evidence": "khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "khi thu nhập hoạt động trong quý 4 của FE CREDIT tăng nhẹ 0,6% so với quý 3, cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "giảm 15,4%",
+        "label": "RATE",
+        "evidence": "cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "27,1%",
+        "label": "RATE",
+        "evidence": "cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "quý liền trước",
+        "label": "DATE",
+        "evidence": "cải thiện đáng kể so với mức giảm 15,4% và 27,1% của quý liền trước."
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Chi phí hoạt động trong quý 4 cũng ghi nhận giảm 10,2% so với quý 3 và giảm 32,8% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "giảm 10,2%",
+        "label": "RATE",
+        "evidence": "Chi phí hoạt động trong quý 4 cũng ghi nhận giảm 10,2% so với quý 3 và giảm 32,8% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "Chi phí hoạt động trong quý 4 cũng ghi nhận giảm 10,2% so với quý 3 và giảm 32,8% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "giảm 32,8%",
+        "label": "RATE",
+        "evidence": "và giảm 32,8% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "và giảm 32,8% so với cùng kỳ năm 2022."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Trong buổi trao đổi cập nhật kết quả kinh doanh năm 2023 với nhà đầu tư hồi đầu tháng 2, lãnh đạo VPBank đã đưa ra các thông điệp khá rõ ràng về lộ trình phát triển của FE CREDIT, trong đó nhấn mạnh sẽ tiếp tục tập trung cải thiện mô hình kinh doanh, kiểm soát tốt rủi ro cho khách hàng hiện hữu và khác hàng mới, tăng cường quản trị, đẩy mạnh tự động hóa…"
+    },
+    {
+        "text": "đầu tháng 2",
+        "label": "DATE",
+        "evidence": "Trong buổi trao đổi cập nhật kết quả kinh doanh năm 2023 với nhà đầu tư hồi đầu tháng 2, lãnh đạo VPBank đã đưa ra các thông điệp khá rõ ràng về lộ trình phát triển của FE CREDIT, trong đó nhấn mạnh sẽ tiếp tục tập trung cải thiện mô hình kinh doanh, kiểm soát tốt rủi ro cho khách hàng hiện hữu và khác hàng mới, tăng cường quản trị, đẩy mạnh tự động hóa…"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "lãnh đạo VPBank đã đưa ra các thông điệp khá rõ ràng về lộ trình phát triển của FE CREDIT, trong đó nhấn mạnh sẽ tiếp tục tập trung cải thiện mô hình kinh doanh, kiểm soát tốt rủi ro cho khách hàng hiện hữu và khác hàng mới, tăng cường quản trị, đẩy mạnh tự động hóa…"
+    },
+    {
+        "text": "FE CREDIT",
+        "label": "ORG",
+        "evidence": "lãnh đạo VPBank đã đưa ra các thông điệp khá rõ ràng về lộ trình phát triển của FE CREDIT, trong đó nhấn mạnh sẽ tiếp tục tập trung cải thiện mô hình kinh doanh, kiểm soát tốt rủi ro cho khách hàng hiện hữu và khác hàng mới, tăng cường quản trị, đẩy mạnh tự động hóa…"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombankmới đây đã có thông báo điều chỉnh biểu phí sản phẩm thẻ tại ngân hàng kể từ ngày 1/7/2023."
+    },
+    {
+        "text": "thông báo điều chỉnh biểu phí sản phẩm thẻ",
+        "label": "EVENT",
+        "evidence": "Vietcombankmới đây đã có thông báo điều chỉnh biểu phí sản phẩm thẻ tại ngân hàng kể từ ngày 1/7/2023."
+    },
+    {
+        "text": "1/7/2023",
+        "label": "DATE",
+        "evidence": "Vietcombankmới đây đã có thông báo điều chỉnh biểu phí sản phẩm thẻ tại ngân hàng kể từ ngày 1/7/2023."
+    },
+    {
+        "text": "1/7",
+        "label": "DATE",
+        "evidence": "Cụ thể, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "thu phí 20.000 đồng/thẻ",
+        "label": "EVENT",
+        "evidence": "Cụ thể, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "Cụ thể, toàn bộ sản phẩm thẻ cá nhân trước đây được miễn phí kích hoạt thẻ tại quầy và phí gửi thẻ trực tiếp, thì sau ngày 1/7 sẽ thu phí 20.000 đồng/thẻ (chưa gồm VAT)."
+    },
+    {
+        "text": "thẻ tín dụng quốc tế",
+        "label": "ASSET",
+        "evidence": "Đối với thẻ tín dụng quốc tế, Vietcombank cũng tăng 2 loại phí."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đối với thẻ tín dụng quốc tế, Vietcombank cũng tăng 2 loại phí."
+    },
+    {
+        "text": "tăng 2 loại phí",
+        "label": "EVENT",
+        "evidence": "Đối với thẻ tín dụng quốc tế, Vietcombank cũng tăng 2 loại phí."
+    },
+    {
+        "text": "phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng",
+        "label": "EVENT",
+        "evidence": "Trong đó, phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, phí chấm dứt sử dụng thẻ tín dụng quốc tế vật lý tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%",
+        "label": "EVENT",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng",
+        "label": "EVENT",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "Phí không thanh toán đủ số tiền thanh toán tối thiểu vẫn là 3%, tuy nhiên mức phí tối thiểu tăng từ 50.000 đồng lên 100.000 đồng."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Hiện Vietcombank không thu phí duy trì thẻ ghi nợ công nghệ từ, phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thẻ ghi nợ công nghệ từ",
+        "label": "ASSET",
+        "evidence": "Hiện Vietcombank không thu phí duy trì thẻ ghi nợ công nghệ từ, phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế vật lý",
+        "label": "ASSET",
+        "evidence": "Hiện Vietcombank không thu phí duy trì thẻ ghi nợ công nghệ từ, phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "1/7/2023",
+        "label": "DATE",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ",
+        "label": "EVENT",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thẻ ghi nợ công nghệ từ",
+        "label": "ASSET",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý",
+        "label": "EVENT",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "thẻ ghi nợ quốc tế vật lý",
+        "label": "ASSET",
+        "evidence": "Nhưng từ sau 1/7/2023, ngân hàng sẽ thu phí 10.000 đồng/tháng đối với thẻ ghi nợ công nghệ từ, thu phí 50.000 đồng với phí chấm dứt sử dụng thẻ ghi nợ quốc tế vật lý."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombank cũng lưu ý, quy định này không áp dụng với thẻ phi vật lý và trường hợp khách hàng chấm dứt sử dụng thẻ từ để chuyển sang thẻ chip."
+    },
+    {
+        "text": "thẻ phi vật lý",
+        "label": "ASSET",
+        "evidence": "Vietcombank cũng lưu ý, quy định này không áp dụng với thẻ phi vật lý và trường hợp khách hàng chấm dứt sử dụng thẻ từ để chuyển sang thẻ chip."
+    },
+    {
+        "text": "thẻ từ",
+        "label": "ASSET",
+        "evidence": "Vietcombank cũng lưu ý, quy định này không áp dụng với thẻ phi vật lý và trường hợp khách hàng chấm dứt sử dụng thẻ từ để chuyển sang thẻ chip."
+    },
+    {
+        "text": "thẻ chip",
+        "label": "ASSET",
+        "evidence": "Vietcombank cũng lưu ý, quy định này không áp dụng với thẻ phi vật lý và trường hợp khách hàng chấm dứt sử dụng thẻ từ để chuyển sang thẻ chip."
+    },
+    {
+        "text": "quy định thu phí này",
+        "label": "EVENT",
+        "evidence": "Có thể hiểu, quy định thu phí này nhằm khuyến khích khách hàng sớm chuyển đổi thẻ từ sang thẻ chip."
+    },
+    {
+        "text": "chuyển đổi thẻ từ sang thẻ chip",
+        "label": "EVENT",
+        "evidence": "Có thể hiểu, quy định thu phí này nhằm khuyến khích khách hàng sớm chuyển đổi thẻ từ sang thẻ chip."
+    },
+    {
+        "text": "thẻ từ",
+        "label": "ASSET",
+        "evidence": "Có thể hiểu, quy định thu phí này nhằm khuyến khích khách hàng sớm chuyển đổi thẻ từ sang thẻ chip."
+    },
+    {
+        "text": "thẻ chip",
+        "label": "ASSET",
+        "evidence": "Có thể hiểu, quy định thu phí này nhằm khuyến khích khách hàng sớm chuyển đổi thẻ từ sang thẻ chip."
+    },
+    {
+        "text": "miễn phí bồi hoàn đối với thẻ ghi nợ nội địa",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, ngân hàng lại miễn phí bồi hoàn đối với thẻ ghi nợ nội địa, thay vì áp dụng mức 45.454 đồng/giao dịch như trước."
+    },
+    {
+        "text": "thẻ ghi nợ nội địa",
+        "label": "ASSET",
+        "evidence": "Đáng chú ý, ngân hàng lại miễn phí bồi hoàn đối với thẻ ghi nợ nội địa, thay vì áp dụng mức 45.454 đồng/giao dịch như trước."
+    },
+    {
+        "text": "45.454 đồng",
+        "label": "MONEY",
+        "evidence": "Đáng chú ý, ngân hàng lại miễn phí bồi hoàn đối với thẻ ghi nợ nội địa, thay vì áp dụng mức 45.454 đồng/giao dịch như trước."
+    },
+    {
+        "text": "tăng phí dịch vụ",
+        "label": "EVENT",
+        "evidence": "Đây là lần tăng phí dịch vụ hiếm thấy của Vietcombank trong vài năm gần đây."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Đây là lần tăng phí dịch vụ hiếm thấy của Vietcombank trong vài năm gần đây."
+    },
+    {
+        "text": "miễn nhiều loại phí dịch vụ",
+        "label": "EVENT",
+        "evidence": "Thời gian qua, ngân hàng này miễn nhiều loại phí dịch vụ, đặc biệt là dịch vụ trên ngân hàng số như mở tài khoản, duy trì tài khoản, chuyển tiền,…để thu hút người dùng."
+    },
+    {
+        "text": "mở tài khoản",
+        "label": "EVENT",
+        "evidence": "Thời gian qua, ngân hàng này miễn nhiều loại phí dịch vụ, đặc biệt là dịch vụ trên ngân hàng số như mở tài khoản, duy trì tài khoản, chuyển tiền,…để thu hút người dùng."
+    },
+    {
+        "text": "duy trì tài khoản",
+        "label": "EVENT",
+        "evidence": "Thời gian qua, ngân hàng này miễn nhiều loại phí dịch vụ, đặc biệt là dịch vụ trên ngân hàng số như mở tài khoản, duy trì tài khoản, chuyển tiền,…để thu hút người dùng."
+    },
+    {
+        "text": "chuyển tiền",
+        "label": "EVENT",
+        "evidence": "Thời gian qua, ngân hàng này miễn nhiều loại phí dịch vụ, đặc biệt là dịch vụ trên ngân hàng số như mở tài khoản, duy trì tài khoản, chuyển tiền,…để thu hút người dùng."
+    }
+]

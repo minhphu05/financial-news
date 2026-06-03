@@ -1,0 +1,152 @@
+[
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "ngân hàng BIDV đã cập nhật thêm các hình thức giả mạo, lừa đảo đến người dùng"
+    },
+    {
+        "text": "BIDV đã cập nhật thêm các hình thức giả mạo, lừa đảo đến người dùng",
+        "label": "EVENT",
+        "evidence": "ngân hàng BIDV đã cập nhật thêm các hình thức giả mạo, lừa đảo đến người dùng"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "tổng đài chăm sóc khách hàng của BIDV"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "các nghiệp vụ ngân hàng như thẻ, tài khoản, SmartBanking, liên kết ví"
+    },
+    {
+        "text": "tài khoản",
+        "label": "ASSET",
+        "evidence": "các nghiệp vụ ngân hàng như thẻ, tài khoản, SmartBanking, liên kết ví"
+    },
+    {
+        "text": "SmartBanking",
+        "label": "ASSET",
+        "evidence": "các nghiệp vụ ngân hàng như thẻ, tài khoản, SmartBanking, liên kết ví"
+    },
+    {
+        "text": "liên kết ví",
+        "label": "ASSET",
+        "evidence": "các nghiệp vụ ngân hàng như thẻ, tài khoản, SmartBanking, liên kết ví"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "(Ảnh: BIDV)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV khẳng định"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "thông tin thẻ (số thẻ, ngày hết hạn, mã bảo mật CVV)"
+    },
+    {
+        "text": "dịch vụ ngân hàng điện tử",
+        "label": "ASSET",
+        "evidence": "thông tin dịch vụ ngân hàng điện tử (tên đăng nhập, mật khẩu, OTP…)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV đề nghị người dùng"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "BIDV khuyến cáo đến khách hàng"
+    },
+    {
+        "text": "BIDV khuyến cáo đến khách hàng",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không nhấn vào/mở các đường link được gởi từ các đối tượng lạ/không quen biết trên tất cả nền tảng, bao gồm mạng xã hội hoặc ứng dụng nhắn tin\", BIDV khuyến cáo đến khách hàng."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng số Cake by VPBank cũng vừa cảnh báo thủ đoạn giả mạo thương hiệu của ngân hàng này để lừa đảo và chiếm đoạt tài sản của người dùng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng số Cake by VPBank cũng vừa cảnh báo thủ đoạn giả mạo thương hiệu của ngân hàng này để lừa đảo và chiếm đoạt tài sản của người dùng."
+    },
+    {
+        "text": "Cake by VPBank cũng vừa cảnh báo thủ đoạn giả mạo thương hiệu của ngân hàng này để lừa đảo và chiếm đoạt tài sản của người dùng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng số Cake by VPBank cũng vừa cảnh báo thủ đoạn giả mạo thương hiệu của ngân hàng này để lừa đảo và chiếm đoạt tài sản của người dùng."
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Cake by VPBank cho biết đã nhận phản ánh của khách hàng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Cake by VPBank cho biết đã nhận phản ánh của khách hàng"
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "có thể lên tới 100 triệu đồng"
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "Nội dung email mạo danh Cake by VPBank"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Nội dung email mạo danh Cake by VPBank"
+    },
+    {
+        "text": "Cake by VPBank",
+        "label": "ORG",
+        "evidence": "(Ảnh: Cake by VPBank)"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "(Ảnh: Cake by VPBank)"
+    },
+    {
+        "text": "thẻ thanh toán ảo",
+        "label": "ASSET",
+        "evidence": "mở thẻ thanh toán ảo"
+    },
+    {
+        "text": "Cake",
+        "label": "ORG",
+        "evidence": "ngân hàng số Cake khuyến nghị"
+    },
+    {
+        "text": "ngân hàng số Cake khuyến nghị",
+        "label": "EVENT",
+        "evidence": "Cake có chính sách phê duyệt, nâng hạn mức tự động hoàn toàn và không gọi điện thẩm định, không yêu cầu khách hàng cung cấp thông tin tài khoản, thông tin số thẻ để thẩm định\", ngân hàng số Cake khuyến nghị."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "đại diện Sacombank nói."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Một số thủ đoạn được Sacombank cảnh báo là kẻ gian có thể giả danh cán bộ nhân viên ngân hàng"
+    },
+    {
+        "text": "Sacombank cảnh báo",
+        "label": "EVENT",
+        "evidence": "Một số thủ đoạn được Sacombank cảnh báo là kẻ gian có thể giả danh cán bộ nhân viên ngân hàng"
+    }
+]

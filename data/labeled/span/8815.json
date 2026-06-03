@@ -1,0 +1,522 @@
+[
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Khi mở thẻ trong dịpsinh nhật VIBtừ ngày 18/09 - 22/09, chỉ cần phát sinh một giao dịch chi tiêu bất kỳ từ 1 triệu đồng trong vòng 30 ngày, chủ thẻ sẽ được hoàn phí thường niên năm đầu tiên."
+    },
+    {
+        "text": "dịpsinh nhật VIBtừ ngày 18/09 - 22/09",
+        "label": "EVENT",
+        "evidence": "Khi mở thẻ trong dịpsinh nhật VIBtừ ngày 18/09 - 22/09, chỉ cần phát sinh một giao dịch chi tiêu bất kỳ từ 1 triệu đồng trong vòng 30 ngày, chủ thẻ sẽ được hoàn phí thường niên năm đầu tiên."
+    },
+    {
+        "text": "ngày 18/09 - 22/09",
+        "label": "DATE",
+        "evidence": "dịpsinh nhật VIBtừ ngày 18/09 - 22/09"
+    },
+    {
+        "text": "1 triệu đồng",
+        "label": "MONEY",
+        "evidence": "phát sinh một giao dịch chi tiêu bất kỳ từ 1 triệu đồng trong vòng 30 ngày"
+    },
+    {
+        "text": "hoàn phí thường niên năm đầu tiên",
+        "label": "EVENT",
+        "evidence": "chủ thẻ sẽ được hoàn phí thường niên năm đầu tiên."
+    },
+    {
+        "text": "hoàn phí thường niên trọn đời",
+        "label": "EVENT",
+        "evidence": "Đồng thời còn được tùy chọn hoàn phí thường niên trọn đời và hoàn tiền giao dịch đầu tiên khi có giao dịch giá trị lớn."
+    },
+    {
+        "text": "hoàn tiền giao dịch đầu tiên",
+        "label": "EVENT",
+        "evidence": "và hoàn tiền giao dịch đầu tiên khi có giao dịch giá trị lớn."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "hệ thống thẻ của VIB để hưởng ưu đãi."
+    },
+    {
+        "text": "200.000 đồng",
+        "label": "MONEY",
+        "evidence": "với mỗi chi tiêu có giá trị 200.000 đồng"
+    },
+    {
+        "text": "50.000 đồng",
+        "label": "MONEY",
+        "evidence": "tích lũy đủ 50 sao sẽ đổi lấy evoucher 50.000 đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Xuyên suốt tuần sinh nhật, VIB mở rộng Ngày Hội Chi Tiêu với cơ hội tích lũy đến 100 sao mỗi ngày."
+    },
+    {
+        "text": "mở rộng Ngày Hội Chi Tiêu",
+        "label": "EVENT",
+        "evidence": "VIB mở rộng Ngày Hội Chi Tiêu với cơ hội tích lũy đến 100 sao mỗi ngày."
+    },
+    {
+        "text": "5 ngày",
+        "label": "DATE",
+        "evidence": "chương trình Ngày Hội Chi Tiêu được mở rộng trong suốt 5 ngày thay vì chỉ vào ngày 20 hàng tháng."
+    },
+    {
+        "text": "ngày 20 hàng tháng",
+        "label": "DATE",
+        "evidence": "thay vì chỉ vào ngày 20 hàng tháng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ thẻ VIB còn được tận hưởng các chương trình khuyến mãi đang áp dụng như: giảm 30% trên tổng hóa đơn (tối đa 300.000 đồng) tại Manwah, Kichi-Kichi, K-Pub, Hutong, chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần; giảm 30% tại The Pizza Company; giảm 20% tại Miyen Japanese Fusion Cuisine; giảm 15% tại Sushi Way, Korean Grill, Buzza Pizza…"
+    },
+    {
+        "text": "giảm 30%",
+        "label": "RATE",
+        "evidence": "giảm 30% trên tổng hóa đơn (tối đa 300.000 đồng) tại Manwah"
+    },
+    {
+        "text": "300.000 đồng",
+        "label": "MONEY",
+        "evidence": "(tối đa 300.000 đồng) tại Manwah"
+    },
+    {
+        "text": "Manwah",
+        "label": "ORG",
+        "evidence": "tại Manwah, Kichi-Kichi, K-Pub, Hutong, chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Kichi-Kichi",
+        "label": "ORG",
+        "evidence": "tại Manwah, Kichi-Kichi, K-Pub, Hutong, chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "K-Pub",
+        "label": "ORG",
+        "evidence": "tại Manwah, Kichi-Kichi, K-Pub, Hutong, chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Hutong",
+        "label": "ORG",
+        "evidence": "tại Manwah, Kichi-Kichi, K-Pub, Hutong, chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Hoàng Yến",
+        "label": "ORG",
+        "evidence": "chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Trống Cơm",
+        "label": "ORG",
+        "evidence": "chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Chảo Cá",
+        "label": "ORG",
+        "evidence": "chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "Stix",
+        "label": "ORG",
+        "evidence": "chuỗi buffet Hoàng Yến, Trống Cơm, Chảo Cá, Stix vào thứ 6 hàng tuần"
+    },
+    {
+        "text": "thứ 6 hàng tuần",
+        "label": "DATE",
+        "evidence": "Stix vào thứ 6 hàng tuần; giảm 30% tại The Pizza Company"
+    },
+    {
+        "text": "giảm 30%",
+        "label": "RATE",
+        "evidence": "giảm 30% tại The Pizza Company"
+    },
+    {
+        "text": "The Pizza Company",
+        "label": "ORG",
+        "evidence": "giảm 30% tại The Pizza Company; giảm 20% tại Miyen Japanese Fusion Cuisine"
+    },
+    {
+        "text": "giảm 20%",
+        "label": "RATE",
+        "evidence": "giảm 20% tại Miyen Japanese Fusion Cuisine"
+    },
+    {
+        "text": "Miyen Japanese Fusion Cuisine",
+        "label": "ORG",
+        "evidence": "giảm 20% tại Miyen Japanese Fusion Cuisine; giảm 15% tại Sushi Way"
+    },
+    {
+        "text": "giảm 15%",
+        "label": "RATE",
+        "evidence": "giảm 15% tại Sushi Way, Korean Grill, Buzza Pizza…"
+    },
+    {
+        "text": "Sushi Way",
+        "label": "ORG",
+        "evidence": "giảm 15% tại Sushi Way, Korean Grill, Buzza Pizza…"
+    },
+    {
+        "text": "Korean Grill",
+        "label": "ORG",
+        "evidence": "giảm 15% tại Sushi Way, Korean Grill, Buzza Pizza…"
+    },
+    {
+        "text": "Buzza Pizza",
+        "label": "ORG",
+        "evidence": "giảm 15% tại Sushi Way, Korean Grill, Buzza Pizza…"
+    },
+    {
+        "text": "New World Saigon Hotel",
+        "label": "ORG",
+        "evidence": "như New World Saigon Hotel (Black Vinegar, Parkview, Whisper)"
+    },
+    {
+        "text": "InterContinental Saigon Hotel",
+        "label": "ORG",
+        "evidence": "InterContinental Saigon Hotel (Basilico, Yu chu, Market 39)"
+    },
+    {
+        "text": "Park Hyatt Saigon",
+        "label": "ORG",
+        "evidence": "Park Hyatt Saigon (Square One, Opera)"
+    },
+    {
+        "text": "Renaissance Riverside Saigon Hotel",
+        "label": "ORG",
+        "evidence": "Renaissance Riverside Saigon Hotel (Viet Kitchen, Kabin, Liquid Sky Bar, Rbar)…"
+    },
+    {
+        "text": "25%",
+        "label": "RATE",
+        "evidence": "nhận ưu đãi đến 25% trên hóa đơn mà không giới hạn số tiền giảm."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "áp dụng ưu đãi dành cho chủ thẻ VIB. Chỉ cần scan mã QR sau thẻ tín dụng VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "scan mã QR sau thẻ tín dụng VIB hoặc mở app MyVIB 2.0"
+    },
+    {
+        "text": "MyVIB 2.0",
+        "label": "ASSET",
+        "evidence": "mở app MyVIB 2.0, bạn đã có sự giúp sức từ Trợ lý ảo Vie cho hành trình khám phá ẩm thực mọi miền."
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "ưu đãi lên đến 30%sẽ theo chân người dùng suốt hành trình sử dụng thẻ VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "sẽ theo chân người dùng suốt hành trình sử dụng thẻ VIB cho các nhu cầu thông dụng khác"
+    },
+    {
+        "text": "Vietnam Airlines",
+        "label": "ORG",
+        "evidence": "mua vé máy bay Vietnam Airlines qua thẻ VIB sẽ có giá tốt hơn đến 10%."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "mua vé máy bay Vietnam Airlines qua thẻ VIB sẽ có giá tốt hơn đến 10%."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giá tốt hơn đến 10%."
+    },
+    {
+        "text": "giảm 30%",
+        "label": "RATE",
+        "evidence": "giảm 30% khi đặt khách sạn online tại Booking.com"
+    },
+    {
+        "text": "Booking.com",
+        "label": "ORG",
+        "evidence": "đặt khách sạn online tại Booking.com, giảm 1 triệu cho giao dịch từ 10 triệu tại iVIVU"
+    },
+    {
+        "text": "1 triệu",
+        "label": "MONEY",
+        "evidence": "giảm 1 triệu cho giao dịch từ 10 triệu tại iVIVU"
+    },
+    {
+        "text": "10 triệu",
+        "label": "MONEY",
+        "evidence": "giao dịch từ 10 triệu tại iVIVU"
+    },
+    {
+        "text": "iVIVU",
+        "label": "ORG",
+        "evidence": "tại iVIVU, giảm 800.000 đồng cho tour từ 20 triệu tại Vietravel"
+    },
+    {
+        "text": "800.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 800.000 đồng cho tour từ 20 triệu tại Vietravel"
+    },
+    {
+        "text": "20 triệu",
+        "label": "MONEY",
+        "evidence": "tour từ 20 triệu tại Vietravel"
+    },
+    {
+        "text": "Vietravel",
+        "label": "ORG",
+        "evidence": "tại Vietravel, giảm 400.000 đồng cho giao dịch từ 4 triệu đồng tại Traveloka"
+    },
+    {
+        "text": "400.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm 400.000 đồng cho giao dịch từ 4 triệu đồng tại Traveloka"
+    },
+    {
+        "text": "4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "giao dịch từ 4 triệu đồng tại Traveloka"
+    },
+    {
+        "text": "Traveloka",
+        "label": "ORG",
+        "evidence": "tại Traveloka, giảm thêm 20.000 đồng cho mỗi chuyến đi Grab, Be…"
+    },
+    {
+        "text": "20.000 đồng",
+        "label": "MONEY",
+        "evidence": "giảm thêm 20.000 đồng cho mỗi chuyến đi Grab, Be…"
+    },
+    {
+        "text": "Grab",
+        "label": "ORG",
+        "evidence": "cho mỗi chuyến đi Grab, Be…"
+    },
+    {
+        "text": "Be",
+        "label": "ORG",
+        "evidence": "cho mỗi chuyến đi Grab, Be…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chi tiêu cùng thẻ VIB giúp tiết kiệm đến 40% dịch vụ lưu trú"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "giúp tiết kiệm đến 40% dịch vụ lưu trú"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "10% ẩm thực và spa tại Pullman Phú Quốc Beach Resort"
+    },
+    {
+        "text": "Pullman Phú Quốc Beach Resort",
+        "label": "ORG",
+        "evidence": "ẩm thực và spa tại Pullman Phú Quốc Beach Resort; giảm đến 30% dịch vụ golf tại FLC Golf Course"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm đến 30% dịch vụ golf tại FLC Golf Course"
+    },
+    {
+        "text": "FLC Golf Course",
+        "label": "ORG",
+        "evidence": "dịch vụ golf tại FLC Golf Course; giảm 30% khi lưu trú 2 đêm trở lên và 10% ẩm thực tại Wyndham Grand KN Paradise Cam Ranh…"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "giảm 30% khi lưu trú 2 đêm trở lên"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "10% ẩm thực tại Wyndham Grand KN Paradise Cam Ranh…"
+    },
+    {
+        "text": "Wyndham Grand KN Paradise Cam Ranh",
+        "label": "ORG",
+        "evidence": "10% ẩm thực tại Wyndham Grand KN Paradise Cam Ranh…"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB mang đến nhiều deal hấp dẫn nhân dịp sinh nhật"
+    },
+    {
+        "text": "giảm 50%",
+        "label": "RATE",
+        "evidence": "giảm 50% dịch vụ chăm sóc da"
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "20% cho các dịch vụ khác tại Peony Chill & Spa"
+    },
+    {
+        "text": "Peony Chill & Spa",
+        "label": "ORG",
+        "evidence": "20% cho các dịch vụ khác tại Peony Chill & Spa; giảm đến 40% khi chăm sóc da tại Shynh House"
+    },
+    {
+        "text": "40%",
+        "label": "RATE",
+        "evidence": "giảm đến 40% khi chăm sóc da tại Shynh House, Oracle Clinic, Unique Skincare"
+    },
+    {
+        "text": "Shynh House",
+        "label": "ORG",
+        "evidence": "chăm sóc da tại Shynh House, Oracle Clinic, Unique Skincare"
+    },
+    {
+        "text": "Oracle Clinic",
+        "label": "ORG",
+        "evidence": "Shynh House, Oracle Clinic, Unique Skincare"
+    },
+    {
+        "text": "Unique Skincare",
+        "label": "ORG",
+        "evidence": "Oracle Clinic, Unique Skincare; giảm 15% tại Menard Spa…"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "giảm 15% tại Menard Spa…"
+    },
+    {
+        "text": "Menard Spa",
+        "label": "ORG",
+        "evidence": "giảm 15% tại Menard Spa…"
+    },
+    {
+        "text": "Nha khoa Otis",
+        "label": "ORG",
+        "evidence": "tại Nha khoa Otis, Peace Dentistry, Be Dental…"
+    },
+    {
+        "text": "Peace Dentistry",
+        "label": "ORG",
+        "evidence": "Nha khoa Otis, Peace Dentistry, Be Dental…"
+    },
+    {
+        "text": "Be Dental",
+        "label": "ORG",
+        "evidence": "Peace Dentistry, Be Dental… cũng được ưu đãi đến 50%"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "ưu đãi đến 50% khi thanh toán bằng thẻ tín dụng VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "thanh toán bằng thẻ tín dụng VIB."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "VIB ra mắt cácdòng thẻcó tỷ lệ hoàn tiền và tích điểm cạnh tranh hàng đầu thị trường"
+    },
+    {
+        "text": "ra mắt cácdòng thẻcó tỷ lệ hoàn tiền và tích điểm cạnh tranh hàng đầu thị trường",
+        "label": "EVENT",
+        "evidence": "VIB ra mắt cácdòng thẻcó tỷ lệ hoàn tiền và tích điểm cạnh tranh hàng đầu thị trường, nhờ đó chiếm được thị phần ấn tượng về chi tiêu thẻ."
+    },
+    {
+        "text": "Thẻ trắng Super Card",
+        "label": "ASSET",
+        "evidence": "Thẻ trắng Super Card là dòng thẻ mới nhất từ VIB, mang đến trải nghiệm toàn quyền làm chủ tính năng thẻ cho người dùng."
+    },
+    {
+        "text": "Super Card",
+        "label": "ASSET",
+        "evidence": "Thẻ trắng Super Card là dòng thẻ mới nhất từ VIB, mang đến trải nghiệm toàn quyền làm chủ tính năng thẻ cho người dùng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Thẻ trắng Super Card là dòng thẻ mới nhất từ VIB, mang đến trải nghiệm toàn quyền làm chủ tính năng thẻ cho người dùng."
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "chọn hoàn tiền hoặc tích điểm đến 15% cho mọi chi tiêu"
+    },
+    {
+        "text": "12 triệu đồng/năm",
+        "label": "MONEY",
+        "evidence": "mức hoàn tối đa 12 triệu đồng/năm, Super Card đang gây sốt với tốc độ phát hành kỷ lục"
+    },
+    {
+        "text": "Super Card",
+        "label": "ASSET",
+        "evidence": "12 triệu đồng/năm, Super Card đang gây sốt với tốc độ phát hành kỷ lục - gần 3.000 thẻ sau chưa đầy 1 tháng ra mắt."
+    },
+    {
+        "text": "phát hành kỷ lục - gần 3.000 thẻ",
+        "label": "EVENT",
+        "evidence": "tốc độ phát hành kỷ lục - gần 3.000 thẻ sau chưa đầy 1 tháng ra mắt."
+    },
+    {
+        "text": "gần 3.000 thẻ",
+        "label": "VOLUME",
+        "evidence": "phát hành kỷ lục - gần 3.000 thẻ sau chưa đầy 1 tháng ra mắt."
+    },
+    {
+        "text": "chưa đầy 1 tháng",
+        "label": "DATE",
+        "evidence": "sau chưa đầy 1 tháng ra mắt."
+    },
+    {
+        "text": "VIB Cash Back",
+        "label": "ASSET",
+        "evidence": "Riêng VIB Cash Back, hoàn tiền theo danh mục chi tiêu 10% với tổng mức hoàn lên đến 24 triệu đồng/năm, là dòng thẻ được yêu thích và đánh giá cao bởi những chủ thẻ chi tiêu nhiều."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "hoàn tiền theo danh mục chi tiêu 10% với tổng mức hoàn lên đến 24 triệu đồng/năm"
+    },
+    {
+        "text": "24 triệu đồng/năm",
+        "label": "MONEY",
+        "evidence": "tổng mức hoàn lên đến 24 triệu đồng/năm, là dòng thẻ được yêu thích"
+    },
+    {
+        "text": "VIB Premier Boundless",
+        "label": "ASSET",
+        "evidence": "2 dòng thẻ VIB Premier Boundless và VIB Travel Élite mang đến các ưu đãi vượt trội"
+    },
+    {
+        "text": "VIB Travel Élite",
+        "label": "ASSET",
+        "evidence": "VIB Premier Boundless và VIB Travel Élite mang đến các ưu đãi vượt trội"
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Luôn dẫn đầu xu thế thẻ, VIB liên tục ra mắt các sản phẩm thẻ độc đáo, chất lượng cao"
+    },
+    {
+        "text": "ra mắt các sản phẩm thẻ độc đáo, chất lượng cao",
+        "label": "EVENT",
+        "evidence": "VIB liên tục ra mắt các sản phẩm thẻ độc đáo, chất lượng cao, tiên phong mang đến trải nghiệm số cho người dùng với những ưu đãi vượt trội."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Các dòng thẻ sáng tạo của VIB đều được ứng dụng công nghệ thực tế ảo (VR) và thực tế ảo tăng cường (AR)"
+    }
+]

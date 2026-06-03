@@ -1,0 +1,332 @@
+[
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Bạn có 20 triệu đồng trong tài khoản thanh toán, đủ để chi tiêu hàng tháng nhưng không đủ lớn để gửi tiết kiệm dài hạn."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Và hình dung số tiền lời sau 1 năm có thể đạt 1,6 triệu đồng, đủ để chi trả cho một chuyến đi chơi cuối tuần mà không làm gì thêm."
+    },
+    {
+        "text": "1,6 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Và hình dung số tiền lời sau 1 năm có thể đạt 1,6 triệu đồng, đủ để chi trả cho một chuyến đi chơi cuối tuần mà không làm gì thêm."
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Nếu số dư lớn hơn là 100 triệu đồng, con số đó sẽ lên tới 4 triệu đồng sau 1 năm."
+    },
+    {
+        "text": "4 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Nếu số dư lớn hơn là 100 triệu đồng, con số đó sẽ lên tới 4 triệu đồng sau 1 năm."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Nếu số dư lớn hơn là 100 triệu đồng, con số đó sẽ lên tới 4 triệu đồng sau 1 năm."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Đó chính là điều Techcombank đã làm được với \"Techcombank Sinh Lời Tự Động\" – một sản phẩm ra mắt vào tháng 1/2024, sau 1 năm đã thu hút hơn 3,3 triệu người dùng."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Đó chính là điều Techcombank đã làm được với \"Techcombank Sinh Lời Tự Động\" – một sản phẩm ra mắt vào tháng 1/2024, sau 1 năm đã thu hút hơn 3,3 triệu người dùng."
+    },
+    {
+        "text": "ra mắt vào tháng 1/2024",
+        "label": "EVENT",
+        "evidence": "Đó chính là điều Techcombank đã làm được với \"Techcombank Sinh Lời Tự Động\" – một sản phẩm ra mắt vào tháng 1/2024, sau 1 năm đã thu hút hơn 3,3 triệu người dùng."
+    },
+    {
+        "text": "1 năm",
+        "label": "DATE",
+        "evidence": "Đó chính là điều Techcombank đã làm được với \"Techcombank Sinh Lời Tự Động\" – một sản phẩm ra mắt vào tháng 1/2024, sau 1 năm đã thu hút hơn 3,3 triệu người dùng."
+    },
+    {
+        "text": "hơn 3,3 triệu người dùng",
+        "label": "VOLUME",
+        "evidence": "Đó chính là điều Techcombank đã làm được với \"Techcombank Sinh Lời Tự Động\" – một sản phẩm ra mắt vào tháng 1/2024, sau 1 năm đã thu hút hơn 3,3 triệu người dùng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong một ngành ngân hàng nơi \"lấy khách hàng làm trọng tâm\" là câu nói quen thuộc, Techcombank chứng minh triết lý này không chỉ là lời hứa, mà là hành động cụ thể."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Vậy, điều gì khiến \"Techcombank Sinh Lời Tự Động\" khác biệt, và tại sao Techcombank được xem là người dẫn đầu trong câu chuyện này?"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Vậy, điều gì khiến \"Techcombank Sinh Lời Tự Động\" khác biệt, và tại sao Techcombank được xem là người dẫn đầu trong câu chuyện này?"
+    },
+    {
+        "text": "Chị Lan Anh",
+        "label": "PERSON",
+        "evidence": "Chị Lan Anh, một chủ cửa hàng thời trang ở TP.HCM, từng nghĩ rằng số dư vài triệu đồng trong tài khoản chỉ là \"tiền lẻ\" để chi tiêu."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Mọi thứ thay đổi khi chị thử kích hoạt \"Techcombank Sinh Lời Tự Động\" trên ứng dụng Techcombank Mobile."
+    },
+    {
+        "text": "Techcombank Mobile",
+        "label": "ASSET",
+        "evidence": "Mọi thứ thay đổi khi chị thử kích hoạt \"Techcombank Sinh Lời Tự Động\" trên ứng dụng Techcombank Mobile."
+    },
+    {
+        "text": "một tháng",
+        "label": "DATE",
+        "evidence": "Chỉ sau một tháng, số dư 10 triệu đồng của chị đã sinh ra thêm vài chục nghìn đồng – không nhiều, nhưng đủ để chị cảm thấy tiền của mình \"đang làm việc\"."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Chỉ sau một tháng, số dư 10 triệu đồng của chị đã sinh ra thêm vài chục nghìn đồng – không nhiều, nhưng đủ để chị cảm thấy tiền của mình \"đang làm việc\"."
+    },
+    {
+        "text": "hơn 3,3 triệu người dùng",
+        "label": "VOLUME",
+        "evidence": "Với hơn 3,3 triệu người dùng, \"Techcombank Sinh Lời Tự Động\" đã chạm đến nhu cầu thực tế: làm sao để tiền nhàn rỗi sinh lời mà không cần cam kết kỳ hạn hay số dư tối thiểu."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Với hơn 3,3 triệu người dùng, \"Techcombank Sinh Lời Tự Động\" đã chạm đến nhu cầu thực tế: làm sao để tiền nhàn rỗi sinh lời mà không cần cam kết kỳ hạn hay số dư tối thiểu."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi nhiều ngân hàng yêu cầu số dư từ 10 triệu đồng trở lên để hưởng lãi, Techcombank cho phép mọi số dư – dù chỉ 1 đồng – được hưởng lợi suất lên đến 4%/năm, gấp 80 lần so với tài khoản không kỳ hạn thông thường."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Trong khi nhiều ngân hàng yêu cầu số dư từ 10 triệu đồng trở lên để hưởng lãi, Techcombank cho phép mọi số dư – dù chỉ 1 đồng – được hưởng lợi suất lên đến 4%/năm, gấp 80 lần so với tài khoản không kỳ hạn thông thường."
+    },
+    {
+        "text": "1 đồng",
+        "label": "MONEY",
+        "evidence": "Trong khi nhiều ngân hàng yêu cầu số dư từ 10 triệu đồng trở lên để hưởng lãi, Techcombank cho phép mọi số dư – dù chỉ 1 đồng – được hưởng lợi suất lên đến 4%/năm, gấp 80 lần so với tài khoản không kỳ hạn thông thường."
+    },
+    {
+        "text": "4%/năm",
+        "label": "RATE",
+        "evidence": "Trong khi nhiều ngân hàng yêu cầu số dư từ 10 triệu đồng trở lên để hưởng lãi, Techcombank cho phép mọi số dư – dù chỉ 1 đồng – được hưởng lợi suất lên đến 4%/năm, gấp 80 lần so với tài khoản không kỳ hạn thông thường."
+    },
+    {
+        "text": "tài khoản không kỳ hạn thông thường",
+        "label": "ASSET",
+        "evidence": "Trong khi nhiều ngân hàng yêu cầu số dư từ 10 triệu đồng trở lên để hưởng lãi, Techcombank cho phép mọi số dư – dù chỉ 1 đồng – được hưởng lợi suất lên đến 4%/năm, gấp 80 lần so với tài khoản không kỳ hạn thông thường."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Khi sản phẩm \"Techcombank Sinh Lời Tự Động\" ra mắt vào đầu năm 2024, Techcombank đã đi trước một bước so với nhiều ngân hàng khác tại Việt Nam."
+    },
+    {
+        "text": "đầu năm 2024",
+        "label": "DATE",
+        "evidence": "Khi sản phẩm \"Techcombank Sinh Lời Tự Động\" ra mắt vào đầu năm 2024, Techcombank đã đi trước một bước so với nhiều ngân hàng khác tại Việt Nam."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Khi sản phẩm \"Techcombank Sinh Lời Tự Động\" ra mắt vào đầu năm 2024, Techcombank đã đi trước một bước so với nhiều ngân hàng khác tại Việt Nam."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Các sản phẩm tương tự từ các nhà băng chỉ xuất hiện sau đó, cho thấy Techcombank không chỉ nhạy bén với xu hướng mà còn sẵn sàng đầu tư để dẫn đầu."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank là ngân hàng hiếm hoi công khai con số đầu tư cho công nghệ, khoản đầu tư lên tới 300 triệu USD từ 2016-2020 và kế hoạch chi thêm 500 triệu USD từ 2021-2025."
+    },
+    {
+        "text": "300 triệu USD",
+        "label": "MONEY",
+        "evidence": "Techcombank là ngân hàng hiếm hoi công khai con số đầu tư cho công nghệ, khoản đầu tư lên tới 300 triệu USD từ 2016-2020 và kế hoạch chi thêm 500 triệu USD từ 2021-2025."
+    },
+    {
+        "text": "2016-2020",
+        "label": "DATE",
+        "evidence": "Techcombank là ngân hàng hiếm hoi công khai con số đầu tư cho công nghệ, khoản đầu tư lên tới 300 triệu USD từ 2016-2020 và kế hoạch chi thêm 500 triệu USD từ 2021-2025."
+    },
+    {
+        "text": "500 triệu USD",
+        "label": "MONEY",
+        "evidence": "Techcombank là ngân hàng hiếm hoi công khai con số đầu tư cho công nghệ, khoản đầu tư lên tới 300 triệu USD từ 2016-2020 và kế hoạch chi thêm 500 triệu USD từ 2021-2025."
+    },
+    {
+        "text": "2021-2025",
+        "label": "DATE",
+        "evidence": "Techcombank là ngân hàng hiếm hoi công khai con số đầu tư cho công nghệ, khoản đầu tư lên tới 300 triệu USD từ 2016-2020 và kế hoạch chi thêm 500 triệu USD từ 2021-2025."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Một nền tảng hạ tầng công nghệ mạnh mẽ, hiện đại giúp Techcombank vận hành hệ thống mượt mà, triển khai các tính năng mới nhanh chóng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Một điểm đáng chú ý là Techcombank không chỉ dừng ở việc cung cấp sản phẩm."
+    },
+    {
+        "text": "18 tháng",
+        "label": "DATE",
+        "evidence": "Ngân hàng đã dành 18 tháng thử nghiệm để hoàn thiện \"Techcombank Sinh Lời Tự Động\", đảm bảo tính năng này không chỉ tiện lợi mà còn đáng tin cậy."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Ngân hàng đã dành 18 tháng thử nghiệm để hoàn thiện \"Techcombank Sinh Lời Tự Động\", đảm bảo tính năng này không chỉ tiện lợi mà còn đáng tin cậy."
+    },
+    {
+        "text": "Techcombank Mobile",
+        "label": "ASSET",
+        "evidence": "Kết quả là một ứng dụng Techcombank Mobile với tốc độ xử lý giao dịch chỉ trong 1 giây, cho phép khách hàng kích hoạt tính năng, kiểm tra lợi nhuận và chi tiêu mà không gặp bất kỳ trở ngại nào."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank cũng tiên phong trong việc ứng dụng AI và dữ liệu lớn."
+    },
+    {
+        "text": "Databricks",
+        "label": "ORG",
+        "evidence": "Với hơn 45 mô hình máy học tiên tiến trên nền tảng Databricks, ngân hàng phân tích hành vi khách hàng để đưa ra các gợi ý tài chính cá nhân hóa, như chương trình \"Lead Allocation Curated Engine (LACE)\" giúp tối ưu hóa phân bổ khách hàng tiềm năng."
+    },
+    {
+        "text": "Lead Allocation Curated Engine (LACE)",
+        "label": "ASSET",
+        "evidence": "Với hơn 45 mô hình máy học tiên tiến trên nền tảng Databricks, ngân hàng phân tích hành vi khách hàng để đưa ra các gợi ý tài chính cá nhân hóa, như chương trình \"Lead Allocation Curated Engine (LACE)\" giúp tối ưu hóa phân bổ khách hàng tiềm năng."
+    },
+    {
+        "text": "LACE",
+        "label": "ASSET",
+        "evidence": "Với hơn 45 mô hình máy học tiên tiến trên nền tảng Databricks, ngân hàng phân tích hành vi khách hàng để đưa ra các gợi ý tài chính cá nhân hóa, như chương trình \"Lead Allocation Curated Engine (LACE)\" giúp tối ưu hóa phân bổ khách hàng tiềm năng."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "\"Techcombank Sinh Lời Tự Động\" không chỉ là một sản phẩm tài chính, mà còn là một cách đểTechcombankkhuyến khích người Việt quản lý tiền thông minh hơn."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Techcombank Sinh Lời Tự Động\" không chỉ là một sản phẩm tài chính, mà còn là một cách đểTechcombankkhuyến khích người Việt quản lý tiền thông minh hơn."
+    },
+    {
+        "text": "5 năm qua",
+        "label": "DATE",
+        "evidence": "Trong vòng 5 năm qua, số dư tiền gửi thanh toán của cá nhân đã tăng 2,7 lần và đạt gần 1,2 triệu tỷ đồng, trong khi số tài khoản thanh toán cũng tăng 2,3 lần lên gần 200 triệu tài khoản."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Sau Techcombank, hàng loạt nhà băng khác cũng đã triển khai sản phẩm tương tự, cho thấy hiệu ứng lan tỏa mạnh mẽ."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Rõ ràng \"Techcombank Sinh Lời Tự Động\" đã tạo được dấu ấn, không chỉ với khách hàng của riêng Techcombank mà còn với cả ngành ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Rõ ràng \"Techcombank Sinh Lời Tự Động\" đã tạo được dấu ấn, không chỉ với khách hàng của riêng Techcombank mà còn với cả ngành ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Làn sóng này cũng khiến nhiều người nghĩ đến hiệu ứng mà Techcombank từng tạo ra cách đây gần 10 năm."
+    },
+    {
+        "text": "Cuối năm 2016",
+        "label": "DATE",
+        "evidence": "Cuối năm 2016 khi triển khai \"Zero Fee\", miễn phí hầu hết giao dịch trực tuyến như chuyển khoản, thanh toán hóa đơn,…, Techcombank đã thay đổi hoàn toàn quan niệm giá cả, chi phí khi sử dụng dịch vụ ngân hàng."
+    },
+    {
+        "text": "triển khai \"Zero Fee\"",
+        "label": "EVENT",
+        "evidence": "Cuối năm 2016 khi triển khai \"Zero Fee\", miễn phí hầu hết giao dịch trực tuyến như chuyển khoản, thanh toán hóa đơn,…, Techcombank đã thay đổi hoàn toàn quan niệm giá cả, chi phí khi sử dụng dịch vụ ngân hàng."
+    },
+    {
+        "text": "miễn phí hầu hết giao dịch trực tuyến như chuyển khoản, thanh toán hóa đơn",
+        "label": "EVENT",
+        "evidence": "Cuối năm 2016 khi triển khai \"Zero Fee\", miễn phí hầu hết giao dịch trực tuyến như chuyển khoản, thanh toán hóa đơn,…, Techcombank đã thay đổi hoàn toàn quan niệm giá cả, chi phí khi sử dụng dịch vụ ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Cuối năm 2016 khi triển khai \"Zero Fee\", miễn phí hầu hết giao dịch trực tuyến như chuyển khoản, thanh toán hóa đơn,…, Techcombank đã thay đổi hoàn toàn quan niệm giá cả, chi phí khi sử dụng dịch vụ ngân hàng."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Thành công của Techcombank trong chương trình này đã tạo ra hiệu ứng lan tỏa, khiến nhiều ngân hàng khác trên thị trường cũng triển khai miễn phí dịch vụ để cân bằng cạnh tranh."
+    },
+    {
+        "text": "10 năm",
+        "label": "DATE",
+        "evidence": "Và cho đến nay, bạn có lẽ sẽ rất khó để bắt gặp ứng dụng ngân hàng nào thu tiền giao dịch chuyển khoản như cách đây 10 năm."
+    },
+    {
+        "text": "Techcombank Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "\"Techcombank Sinh Lời Tự Động\" là minh chứng cho thấy triết lý \"lấy khách hàng làm trọng tâm\" của Techcombank không chỉ là khẩu hiệu."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Techcombank Sinh Lời Tự Động\" là minh chứng cho thấy triết lý \"lấy khách hàng làm trọng tâm\" của Techcombank không chỉ là khẩu hiệu."
+    },
+    {
+        "text": "Sinh Lời Tự Động",
+        "label": "ASSET",
+        "evidence": "Với một thao tác duy nhất là bật \"Sinh Lời Tự Động\", bất kỳ ai cũng có thể bắt đầu để tiền \"tự làm việc\"."
+    },
+    {
+        "text": "Giải mã làn sóng Sinh Lời Tự Động - chương trình hợp tác giữa Techcombank và CafeF",
+        "label": "EVENT",
+        "evidence": "\"Giải mã làn sóng Sinh Lời Tự Động\" - chương trình hợp tác giữa Techcombank và CafeF, là nơi những câu chuyện tài chính chân thực được bật mí."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "\"Giải mã làn sóng Sinh Lời Tự Động\" - chương trình hợp tác giữa Techcombank và CafeF, là nơi những câu chuyện tài chính chân thực được bật mí."
+    },
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "\"Giải mã làn sóng Sinh Lời Tự Động\" - chương trình hợp tác giữa Techcombank và CafeF, là nơi những câu chuyện tài chính chân thực được bật mí."
+    },
+    {
+        "text": "CafeF.vn",
+        "label": "ORG",
+        "evidence": "Chuỗi Podcast được phát sóng 5 phút mỗi ngày vào lúc 10h00 trênCafeF.vn, Fanpage CafeF và Tiktok CafeF."
+    },
+    {
+        "text": "Fanpage CafeF",
+        "label": "ORG",
+        "evidence": "Chuỗi Podcast được phát sóng 5 phút mỗi ngày vào lúc 10h00 trênCafeF.vn, Fanpage CafeF và Tiktok CafeF."
+    },
+    {
+        "text": "Tiktok CafeF",
+        "label": "ORG",
+        "evidence": "Chuỗi Podcast được phát sóng 5 phút mỗi ngày vào lúc 10h00 trênCafeF.vn, Fanpage CafeF và Tiktok CafeF."
+    }
+]

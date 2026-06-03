@@ -1,0 +1,112 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "thẻ Sacombank Visa Infinite"
+    },
+    {
+        "text": "Visa Infinite",
+        "label": "ASSET",
+        "evidence": "thẻ Sacombank Visa Infinite"
+    },
+    {
+        "text": "Visa Platinum",
+        "label": "ASSET",
+        "evidence": "Visa Platinum"
+    },
+    {
+        "text": "Visa Signature",
+        "label": "ASSET",
+        "evidence": "Visa Signature"
+    },
+    {
+        "text": "Visa Imperial Signature",
+        "label": "ASSET",
+        "evidence": "Visa Imperial Signature"
+    },
+    {
+        "text": "World Mastercard",
+        "label": "ASSET",
+        "evidence": "World Mastercard"
+    },
+    {
+        "text": "Bamboo Airways Platinum",
+        "label": "ASSET",
+        "evidence": "Bamboo Airways Platinum để sử dụng phòng chờ."
+    },
+    {
+        "text": "sử dụng phòng chờ",
+        "label": "EVENT",
+        "evidence": "Bamboo Airways Platinum để sử dụng phòng chờ."
+    },
+    {
+        "text": "Visa Infinite",
+        "label": "ASSET",
+        "evidence": "số lượt của chủ thẻ Visa Infinite"
+    },
+    {
+        "text": "Visa Platinum Corporate",
+        "label": "ASSET",
+        "evidence": "thẻ Visa Platinum Corporate"
+    },
+    {
+        "text": "Mastercard World Business Digital",
+        "label": "ASSET",
+        "evidence": "Mastercard World Business Digital"
+    },
+    {
+        "text": "Mastercard World Business Travel",
+        "label": "ASSET",
+        "evidence": "Mastercard World Business Travel"
+    },
+    {
+        "text": "sử dụng phòng chờ với số lượt miễn phí theo chính sách ưu đãi từng loại thẻ",
+        "label": "EVENT",
+        "evidence": "Mastercard World Business Travel sử dụng phòng chờ với số lượt miễn phí theo chính sách ưu đãi từng loại thẻ."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "thẻ tín dụng liên kết Sacombank Bamboo Airways Platinum"
+    },
+    {
+        "text": "Bamboo Airways Platinum",
+        "label": "ASSET",
+        "evidence": "thẻ tín dụng liên kết Sacombank Bamboo Airways Platinum"
+    },
+    {
+        "text": "ưu đãi phí thường niên",
+        "label": "EVENT",
+        "evidence": "như chính sách về ưu đãi phí thường niên"
+    },
+    {
+        "text": "chương trình điểm thưởng hấp dẫn với các phần thưởng quy đổi có giá trị khi bay cùng Bamboo Airways",
+        "label": "EVENT",
+        "evidence": "chương trình điểm thưởng hấp dẫn với các phần thưởng quy đổi có giá trị khi bay cùng Bamboo Airways"
+    },
+    {
+        "text": "Bamboo Airways",
+        "label": "ORG",
+        "evidence": "khi bay cùng Bamboo Airways"
+    },
+    {
+        "text": "hoàn tiền đến 600.000 đồng khi mở và chi tiêu thẻ",
+        "label": "EVENT",
+        "evidence": "hoàn tiền đến 600.000 đồng khi mở và chi tiêu thẻ"
+    },
+    {
+        "text": "600.000 đồng",
+        "label": "MONEY",
+        "evidence": "hoàn tiền đến 600.000 đồng khi mở và chi tiêu thẻ"
+    },
+    {
+        "text": "giảm giá đến 50% các dịch vụ ăn uống, mua sắm, du lịch",
+        "label": "EVENT",
+        "evidence": "giảm giá đến 50% các dịch vụ ăn uống, mua sắm, du lịch"
+    },
+    {
+        "text": "50%",
+        "label": "RATE",
+        "evidence": "giảm giá đến 50% các dịch vụ ăn uống, mua sắm, du lịch"
+    }
+]

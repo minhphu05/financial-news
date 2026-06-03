@@ -1,0 +1,97 @@
+[
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank đã cảnh báo tới khách hàng một số phương thức lừa đảo trong thời gian gần đây."
+    },
+    {
+        "text": "cảnh báo tới khách hàng một số phương thức lừa đảo",
+        "label": "EVENT",
+        "evidence": "Techcombank đã cảnh báo tới khách hàng một số phương thức lừa đảo trong thời gian gần đây."
+    },
+    {
+        "text": "thẻ giao dịch",
+        "label": "ASSET",
+        "evidence": "lắp đặt thiết bị skimming ăn cắp dữ liệu thẻ giao dịch tại ATM/ CDM để làm thẻ giả và tiến hành rút tiền của nạn nhân."
+    },
+    {
+        "text": "thẻ giả",
+        "label": "ASSET",
+        "evidence": "lắp đặt thiết bị skimming ăn cắp dữ liệu thẻ giao dịch tại ATM/ CDM để làm thẻ giả và tiến hành rút tiền của nạn nhân."
+    },
+    {
+        "text": "rút tiền",
+        "label": "EVENT",
+        "evidence": "làm thẻ giả và tiến hành rút tiền của nạn nhân."
+    },
+    {
+        "text": "Lừa đảo khách hàng qua hình thức giả mạo văn bản của ngân hàng",
+        "label": "EVENT",
+        "evidence": "Lừa đảo khách hàng qua hình thức giả mạo văn bản của ngân hàng"
+    },
+    {
+        "text": "hoàn phí thường niên",
+        "label": "EVENT",
+        "evidence": "hỗ trợ gián đoạn giao dịch dịp nghỉ lễ, hoàn phí thường niên, mở/ đóng/ nâng hạn mức/ gia hạn thẻ tín dụng"
+    },
+    {
+        "text": "mở/ đóng/ nâng hạn mức/ gia hạn thẻ tín dụng",
+        "label": "EVENT",
+        "evidence": "hoàn phí thường niên, mở/ đóng/ nâng hạn mức/ gia hạn thẻ tín dụng… đối tượng lừa nạn nhân truy cập link giả hoặc cung cấp thông tin, từ đó, chiếm đoạt tiền trong tài khoản của nạn nhân."
+    },
+    {
+        "text": "thẻ tín dụng",
+        "label": "ASSET",
+        "evidence": "mở/ đóng/ nâng hạn mức/ gia hạn thẻ tín dụng… đối tượng lừa nạn nhân truy cập link giả hoặc cung cấp thông tin, từ đó, chiếm đoạt tiền trong tài khoản của nạn nhân."
+    },
+    {
+        "text": "chiếm đoạt tiền",
+        "label": "EVENT",
+        "evidence": "chiếm đoạt tiền trong tài khoản của nạn nhân."
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Techcombank khuyến cáo khách hàng:"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "Chỉ sử dụng các sản phẩm, dịch vụ của Techcombank được giới thiệu qua các kênh chính thức."
+    },
+    {
+        "text": "số dư tài khoản",
+        "label": "ASSET",
+        "evidence": "Chủ động theo dõi biến động số dư tài khoản và liên hệ các kênh chính thức của ngân hàng ngay lập tức nếu phát hiện giao dịch bất thường hoặc nghi ngờ bị lừa đảo."
+    },
+    {
+        "text": "giao dịch bất thường",
+        "label": "EVENT",
+        "evidence": "nếu phát hiện giao dịch bất thường hoặc nghi ngờ bị lừa đảo."
+    },
+    {
+        "text": "tài khoản ngân hàng điện tử",
+        "label": "ASSET",
+        "evidence": "Không cung cấp thông tin tài khoản ngân hàng điện tử, mã OTP, số thẻ, mã CVV, ngày hết hạn thẻ… cho bất kỳ ai, dưới bất kỳ hình thức nào, kể cả người xưng là nhân viên ngân hàng."
+    },
+    {
+        "text": "số thẻ",
+        "label": "ASSET",
+        "evidence": "mã OTP, số thẻ, mã CVV, ngày hết hạn thẻ"
+    },
+    {
+        "text": "mã CVV",
+        "label": "ASSET",
+        "evidence": "số thẻ, mã CVV, ngày hết hạn thẻ"
+    },
+    {
+        "text": "thẻ",
+        "label": "ASSET",
+        "evidence": "ngày hết hạn thẻ… cho bất kỳ ai"
+    },
+    {
+        "text": "thực hiện giao dịch",
+        "label": "EVENT",
+        "evidence": "Tuyệt đối không thực hiện giao dịch khi phát hiện các thiết bị lạ (camera siêu nhỏ, bàn phím giả lắp trên bàn phím thật…) được dán/ốp/kết nối bất thường với ATM/CDM hoặc ATM/CDM ở tình trạng không nguyên vẹn."
+    }
+]

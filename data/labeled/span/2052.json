@@ -1,0 +1,382 @@
+[
+    {
+        "text": "VnExpress",
+        "label": "ORG",
+        "evidence": "Theo nguồn tin của VnExpress, ông Jensen Huang đến Việt Nam trưa 4/12 và tham dự một số sự kiện về khoa học công nghệ."
+    },
+    {
+        "text": "Jensen Huang",
+        "label": "PERSON",
+        "evidence": "Theo nguồn tin của VnExpress, ông Jensen Huang đến Việt Nam trưa 4/12 và tham dự một số sự kiện về khoa học công nghệ."
+    },
+    {
+        "text": "4/12",
+        "label": "DATE",
+        "evidence": "Theo nguồn tin của VnExpress, ông Jensen Huang đến Việt Nam trưa 4/12 và tham dự một số sự kiện về khoa học công nghệ."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Ngoài ra, CEO Nvidia sẽ thực hiện một số ký kết quan trọng liên quan đến lĩnh vực AI."
+    },
+    {
+        "text": "Huang",
+        "label": "PERSON",
+        "evidence": "Đây là lần thứ hai ông Huang đến Việt Nam, sau lần đầu vào tháng 12/2023 cùng cam kết “biến Việt Nam thành quê hương thứ hai của Nvidia”."
+    },
+    {
+        "text": "tháng 12/2023",
+        "label": "DATE",
+        "evidence": "Đây là lần thứ hai ông Huang đến Việt Nam, sau lần đầu vào tháng 12/2023 cùng cam kết “biến Việt Nam thành quê hương thứ hai của Nvidia”."
+    },
+    {
+        "text": "cam kết “biến Việt Nam thành quê hương thứ hai của Nvidia”",
+        "label": "EVENT",
+        "evidence": "Đây là lần thứ hai ông Huang đến Việt Nam, sau lần đầu vào tháng 12/2023 cùng cam kết “biến Việt Nam thành quê hương thứ hai của Nvidia”."
+    },
+    {
+        "text": "Huang",
+        "label": "PERSON",
+        "evidence": "Ông Huang trở lại Việt Nam trong bối cảnh đối tác của Nvidia là FPT đang bứt phá mạnh mẽ, lập nên những kỷ lục “vô tiền khoáng hậu”."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Ông Huang trở lại Việt Nam trong bối cảnh đối tác của Nvidia là FPT đang bứt phá mạnh mẽ, lập nên những kỷ lục “vô tiền khoáng hậu”."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ông Huang trở lại Việt Nam trong bối cảnh đối tác của Nvidia là FPT đang bứt phá mạnh mẽ, lập nên những kỷ lục “vô tiền khoáng hậu”."
+    },
+    {
+        "text": "Từ đầu năm 2024 đến nay",
+        "label": "DATE",
+        "evidence": "Từ đầu năm 2024 đến nay, cổ phiếu FPT đã có 38 lần vượt đỉnh, cùng mức tăng 80%."
+    },
+    {
+        "text": "cổ phiếu FPT",
+        "label": "ASSET",
+        "evidence": "Từ đầu năm 2024 đến nay, cổ phiếu FPT đã có 38 lần vượt đỉnh, cùng mức tăng 80%."
+    },
+    {
+        "text": "38 lần vượt đỉnh",
+        "label": "EVENT",
+        "evidence": "Từ đầu năm 2024 đến nay, cổ phiếu FPT đã có 38 lần vượt đỉnh, cùng mức tăng 80%."
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "Từ đầu năm 2024 đến nay, cổ phiếu FPT đã có 38 lần vượt đỉnh, cùng mức tăng 80%."
+    },
+    {
+        "text": "hơn 218.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục hơn 218.000 tỷ đồng (8,7 tỷ USD), giữ vững vị trí tập đoàn tư nhất lớn nhất sàn chứng khoán Việt Nam."
+    },
+    {
+        "text": "8,7 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Vốn hóa thị trường cũng theo đó lập kỷ lục hơn 218.000 tỷ đồng (8,7 tỷ USD), giữ vững vị trí tập đoàn tư nhất lớn nhất sàn chứng khoán Việt Nam."
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Câu chuyện AI có lẽ là gạch nối quan trọng nhất giữa Nvidia và FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Câu chuyện AI có lẽ là gạch nối quan trọng nhất giữa Nvidia và FPT."
+    },
+    {
+        "text": "tháng 4",
+        "label": "DATE",
+        "evidence": "Hồi tháng 4, gã khổng lồ ngành chip thế giới và FPT thỏa thuận đầu tư 200 triệu USD để thành lập nhà máy AI Factory đầu tiên, với hệ thống siêu máy tính sử dụng GPU H100."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Hồi tháng 4, gã khổng lồ ngành chip thế giới và FPT thỏa thuận đầu tư 200 triệu USD để thành lập nhà máy AI Factory đầu tiên, với hệ thống siêu máy tính sử dụng GPU H100."
+    },
+    {
+        "text": "thỏa thuận đầu tư 200 triệu USD để thành lập nhà máy AI Factory đầu tiên, với hệ thống siêu máy tính sử dụng GPU H100",
+        "label": "EVENT",
+        "evidence": "Hồi tháng 4, gã khổng lồ ngành chip thế giới và FPT thỏa thuận đầu tư 200 triệu USD để thành lập nhà máy AI Factory đầu tiên, với hệ thống siêu máy tính sử dụng GPU H100."
+    },
+    {
+        "text": "200 triệu USD",
+        "label": "MONEY",
+        "evidence": "Hồi tháng 4, gã khổng lồ ngành chip thế giới và FPT thỏa thuận đầu tư 200 triệu USD để thành lập nhà máy AI Factory đầu tiên, với hệ thống siêu máy tính sử dụng GPU H100."
+    },
+    {
+        "text": "Tháng trước",
+        "label": "DATE",
+        "evidence": "Tháng trước, hai bên mở thêm một nhà máy AI tại Nhật Bản và dự kiến có những nhà máy mới trong thời gian tới."
+    },
+    {
+        "text": "hai bên mở thêm một nhà máy AI tại Nhật Bản",
+        "label": "EVENT",
+        "evidence": "Tháng trước, hai bên mở thêm một nhà máy AI tại Nhật Bản và dự kiến có những nhà máy mới trong thời gian tới."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Mới nhất, FPT đã thành lập công ty FPT Smart Cloud Japan, trụ sở tại Tokyo, Nhật Bản."
+    },
+    {
+        "text": "thành lập công ty FPT Smart Cloud Japan",
+        "label": "EVENT",
+        "evidence": "Mới nhất, FPT đã thành lập công ty FPT Smart Cloud Japan, trụ sở tại Tokyo, Nhật Bản."
+    },
+    {
+        "text": "FPT Smart Cloud Japan",
+        "label": "ORG",
+        "evidence": "Mới nhất, FPT đã thành lập công ty FPT Smart Cloud Japan, trụ sở tại Tokyo, Nhật Bản."
+    },
+    {
+        "text": "việc thành lập công ty chuyên mảng AI, Cloud tại Nhật Bản là bước tiếp theo trong kế hoạch dài hạn của FPT",
+        "label": "EVENT",
+        "evidence": "Theo giới thiệu, việc thành lập công ty chuyên mảng AI, Cloud tại Nhật Bản là bước tiếp theo trong kế hoạch dài hạn của FPT."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo giới thiệu, việc thành lập công ty chuyên mảng AI, Cloud tại Nhật Bản là bước tiếp theo trong kế hoạch dài hạn của FPT."
+    },
+    {
+        "text": "IDC",
+        "label": "ORG",
+        "evidence": "Theo báo cáo của IDC, thị trường AI của Nhật Bản dự kiến đạt giá trị 5,9 tỷ USD trong năm nay, tăng trưởng 31,2%."
+    },
+    {
+        "text": "5,9 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo báo cáo của IDC, thị trường AI của Nhật Bản dự kiến đạt giá trị 5,9 tỷ USD trong năm nay, tăng trưởng 31,2%."
+    },
+    {
+        "text": "năm nay",
+        "label": "DATE",
+        "evidence": "Theo báo cáo của IDC, thị trường AI của Nhật Bản dự kiến đạt giá trị 5,9 tỷ USD trong năm nay, tăng trưởng 31,2%."
+    },
+    {
+        "text": "31,2%",
+        "label": "RATE",
+        "evidence": "Theo báo cáo của IDC, thị trường AI của Nhật Bản dự kiến đạt giá trị 5,9 tỷ USD trong năm nay, tăng trưởng 31,2%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Do đó, tập đoàn nhận định đây là dư địa để FPT hợp tác với các tổ chức Nhật Bản tiếp cận và ứng dụng công nghệ cao.‏‏"
+    },
+    {
+        "text": "Nvidia",
+        "label": "ORG",
+        "evidence": "Chúng tôi đang hợp tác chặt chẽ với các đối tác chiến lược để phát triển cơ sở hạ tầng đám mây thiết yếu cho các ứng dụng AI trên toàn thế giới, đặc biệt là tại Nhật Bản, theo sáng kiến toàn cầu của Nvidia”, ông Trương Gia Bình, Chủ tịchFPTkhẳng định."
+    },
+    {
+        "text": "Trương Gia Bình",
+        "label": "PERSON",
+        "evidence": "Chúng tôi đang hợp tác chặt chẽ với các đối tác chiến lược để phát triển cơ sở hạ tầng đám mây thiết yếu cho các ứng dụng AI trên toàn thế giới, đặc biệt là tại Nhật Bản, theo sáng kiến toàn cầu của Nvidia”, ông Trương Gia Bình, Chủ tịchFPTkhẳng định."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Chúng tôi đang hợp tác chặt chẽ với các đối tác chiến lược để phát triển cơ sở hạ tầng đám mây thiết yếu cho các ứng dụng AI trên toàn thế giới, đặc biệt là tại Nhật Bản, theo sáng kiến toàn cầu của Nvidia”, ông Trương Gia Bình, Chủ tịchFPTkhẳng định."
+    },
+    {
+        "text": "10 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023. Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái.",
+        "label": "EVENT",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023. Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "50.796 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "9.226 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "19,6%",
+        "label": "RATE",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "cùng kỳ 2023",
+        "label": "DATE",
+        "evidence": "Về kết quả kinh doanh 10 tháng đầu năm, FPT ghi nhận doanh thu đạt 50.796 tỷ đồng và lợi nhuận trước thuế đạt 9.226 tỷ đồng, lần lượt tăng 19,6% và 20% so với cùng kỳ 2023."
+    },
+    {
+        "text": "6.566 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "4.494 đồng/cổ phiếu",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "cùng kỳ năm ngoái",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế cho cổ đông công ty mẹ và EPS lần lượt đạt 6.566 tỷ đồng và 4.494 đồng/cổ phiếu, tăng khoảng 21% so với cùng kỳ năm ngoái."
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023",
+        "label": "EVENT",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "61.850 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "~2,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "10.875 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "18%",
+        "label": "RATE",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "Năm 2024, FPT lên kế hoạch kinh doanh cao kỷ lục với doanh thu 61.850 tỷ đồng (~2,5 tỷ USD) và lợi nhuận trước thuế 10.875 tỷ đồng, đều tăng khoảng 18% so với kết quả thực hiện năm 2023."
+    },
+    {
+        "text": "10 tháng đầu năm",
+        "label": "DATE",
+        "evidence": "Với kết quả đạt được sau 10 tháng đầu năm, tập đoàn đã thực hiện 82% kế hoạch doanh thu và 85% mục tiêu lợi nhuận đề ra."
+    },
+    {
+        "text": "82%",
+        "label": "RATE",
+        "evidence": "Với kết quả đạt được sau 10 tháng đầu năm, tập đoàn đã thực hiện 82% kế hoạch doanh thu và 85% mục tiêu lợi nhuận đề ra."
+    },
+    {
+        "text": "85%",
+        "label": "RATE",
+        "evidence": "Với kết quả đạt được sau 10 tháng đầu năm, tập đoàn đã thực hiện 82% kế hoạch doanh thu và 85% mục tiêu lợi nhuận đề ra."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Trong một báo cáo mới đây, SSI Research đánh giá mảng công nghệ thông tin (CNTT) nước ngoài sẽ tiếp tục là động lực tăng trưởng của FPT trong thời gian tới."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Trong một báo cáo mới đây, SSI Research đánh giá mảng công nghệ thông tin (CNTT) nước ngoài sẽ tiếp tục là động lực tăng trưởng của FPT trong thời gian tới."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Bộ phận phân tích này dự báo LNTT của FPT năm 2025 có thể đạt gần 13.700 tỷ đồng."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Bộ phận phân tích này dự báo LNTT của FPT năm 2025 có thể đạt gần 13.700 tỷ đồng."
+    },
+    {
+        "text": "gần 13.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bộ phận phân tích này dự báo LNTT của FPT năm 2025 có thể đạt gần 13.700 tỷ đồng."
+    },
+    {
+        "text": "29%",
+        "label": "RATE",
+        "evidence": "Trong đó, doanh thu và LNTT mảng CNTT nước ngoài được dự báo tăng trưởng lần lượt đạt 29% và 31%."
+    },
+    {
+        "text": "31%",
+        "label": "RATE",
+        "evidence": "Trong đó, doanh thu và LNTT mảng CNTT nước ngoài được dự báo tăng trưởng lần lượt đạt 29% và 31%."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "33%",
+        "label": "RATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "FPT AI Factory",
+        "label": "ORG",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "20-25%",
+        "label": "RATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "7%",
+        "label": "RATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "4%",
+        "label": "RATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Đối với mảng CNTT trong nước, SSI Research dự báo doanh thu của FPT có thể tăng 33% nhờ ra mắt FPT AI Factory, chiếm khoảng 20-25% doanh thu CNTT trong nước và biên LNTT cải thiện đáng kể lên 7% (từ 4% trong năm 2024) do biên LNTT của FPT AI Factory tương đối cao (khoảng 20%)."
+    }
+]

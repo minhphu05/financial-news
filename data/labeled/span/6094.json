@@ -1,0 +1,272 @@
+[
+    {
+        "text": "Chứng khoán SSI",
+        "label": "ORG",
+        "evidence": "Trong báo cáo chiến lược mới cập nhật, Chứng khoán SSI đánh giá rằng thị trường chứng khoán Việt Nam tiếp tục vận động trong xu hướng tích cực."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Tương tự diễn biến ở tháng 7 và tháng 8, VN-Index hồi phục nhanh sau nhịp biến động giảm gần 52 điểm trong 2 tuần đầu tháng do tác động từ TTCK Mỹ và trong nước là lo ngại do cơn bão Yagi."
+    },
+    {
+        "text": "tháng 8",
+        "label": "DATE",
+        "evidence": "Tương tự diễn biến ở tháng 7 và tháng 8, VN-Index hồi phục nhanh sau nhịp biến động giảm gần 52 điểm trong 2 tuần đầu tháng do tác động từ TTCK Mỹ và trong nước là lo ngại do cơn bão Yagi."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Tương tự diễn biến ở tháng 7 và tháng 8, VN-Index hồi phục nhanh sau nhịp biến động giảm gần 52 điểm trong 2 tuần đầu tháng do tác động từ TTCK Mỹ và trong nước là lo ngại do cơn bão Yagi."
+    },
+    {
+        "text": "giảm gần 52 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index hồi phục nhanh sau nhịp biến động giảm gần 52 điểm trong 2 tuần đầu tháng do tác động từ TTCK Mỹ và trong nước là lo ngại do cơn bão Yagi."
+    },
+    {
+        "text": "2 tuần đầu tháng",
+        "label": "DATE",
+        "evidence": "VN-Index hồi phục nhanh sau nhịp biến động giảm gần 52 điểm trong 2 tuần đầu tháng do tác động từ TTCK Mỹ và trong nước là lo ngại do cơn bão Yagi."
+    },
+    {
+        "text": "30/9",
+        "label": "DATE",
+        "evidence": "VN-Index đóng cửa phiên 30/9 tại 1.287,9 điểm, tăng 4 điểm (+0,3%) và cao hơn 4% từ mức điểm thấp nhất."
+    },
+    {
+        "text": "1.287,9 điểm",
+        "label": "PRICE",
+        "evidence": "VN-Index đóng cửa phiên 30/9 tại 1.287,9 điểm, tăng 4 điểm (+0,3%) và cao hơn 4% từ mức điểm thấp nhất."
+    },
+    {
+        "text": "tăng 4 điểm",
+        "label": "RATE",
+        "evidence": "VN-Index đóng cửa phiên 30/9 tại 1.287,9 điểm, tăng 4 điểm (+0,3%) và cao hơn 4% từ mức điểm thấp nhất."
+    },
+    {
+        "text": "+0,3%",
+        "label": "RATE",
+        "evidence": "VN-Index đóng cửa phiên 30/9 tại 1.287,9 điểm, tăng 4 điểm (+0,3%) và cao hơn 4% từ mức điểm thấp nhất."
+    },
+    {
+        "text": "cao hơn 4%",
+        "label": "RATE",
+        "evidence": "VN-Index đóng cửa phiên 30/9 tại 1.287,9 điểm, tăng 4 điểm (+0,3%) và cao hơn 4% từ mức điểm thấp nhất."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, kỳ vọng nền kinh tế tiếp tục phục hồi và dòng vốn đầu tư trên TTCK sẽ cải thiện sau khi FED dần nới lỏng lãi suất và chuyển biến tích cực trong quá trình nâng hạng là các yếu tố nền tảng giúp TTCK Việt Nam liên tục trụ vững sau các nhịp biến động và đạt mức tăng trưởng 13,9% từ đầu năm."
+    },
+    {
+        "text": "FED",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, kỳ vọng nền kinh tế tiếp tục phục hồi và dòng vốn đầu tư trên TTCK sẽ cải thiện sau khi FED dần nới lỏng lãi suất và chuyển biến tích cực trong quá trình nâng hạng là các yếu tố nền tảng giúp TTCK Việt Nam liên tục trụ vững sau các nhịp biến động và đạt mức tăng trưởng 13,9% từ đầu năm."
+    },
+    {
+        "text": "nới lỏng lãi suất",
+        "label": "EVENT",
+        "evidence": "FED dần nới lỏng lãi suất"
+    },
+    {
+        "text": "nâng hạng",
+        "label": "EVENT",
+        "evidence": "chuyển biến tích cực trong quá trình nâng hạng"
+    },
+    {
+        "text": "tăng trưởng 13,9%",
+        "label": "RATE",
+        "evidence": "đạt mức tăng trưởng 13,9% từ đầu năm."
+    },
+    {
+        "text": "từ đầu năm",
+        "label": "DATE",
+        "evidence": "đạt mức tăng trưởng 13,9% từ đầu năm."
+    },
+    {
+        "text": "+3,1%",
+        "label": "RATE",
+        "evidence": "Trụ cột nâng đỡ đến từ 2 nhóm Ngân hàng (+3,1%) và Chứng khoán (+3,1%) đều bật tăng mạnh hơn thị trường chung và dẫn dắt VN30 +1,6% thiết lập đỉnh mới kể từ giữa tháng 5/2022."
+    },
+    {
+        "text": "VN30",
+        "label": "ASSET",
+        "evidence": "dẫn dắt VN30 +1,6% thiết lập đỉnh mới kể từ giữa tháng 5/2022."
+    },
+    {
+        "text": "+1,6%",
+        "label": "RATE",
+        "evidence": "dẫn dắt VN30 +1,6% thiết lập đỉnh mới kể từ giữa tháng 5/2022."
+    },
+    {
+        "text": "thiết lập đỉnh mới",
+        "label": "EVENT",
+        "evidence": "VN30 +1,6% thiết lập đỉnh mới kể từ giữa tháng 5/2022."
+    },
+    {
+        "text": "giữa tháng 5/2022",
+        "label": "DATE",
+        "evidence": "thiết lập đỉnh mới kể từ giữa tháng 5/2022."
+    },
+    {
+        "text": "vấn đề “Pre-funding” được giải quyết",
+        "label": "EVENT",
+        "evidence": "Đặc biệt là nhóm Chứng khoán với hưởng ứng của dòng vốn ngoại khi vấn đề “Pre-funding” được giải quyết."
+    },
+    {
+        "text": "bán ròng 2.100 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "nhóm này tiếp tục bán ròng 2.100 tỷ đồng trên HoSE trong tháng 9, chủ yếu do ảnh hưởng từ giao dịch thỏa thuận đột biến tại VIB chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "nhóm này tiếp tục bán ròng 2.100 tỷ đồng trên HoSE trong tháng 9, chủ yếu do ảnh hưởng từ giao dịch thỏa thuận đột biến tại VIB chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "tháng 9",
+        "label": "DATE",
+        "evidence": "nhóm này tiếp tục bán ròng 2.100 tỷ đồng trên HoSE trong tháng 9, chủ yếu do ảnh hưởng từ giao dịch thỏa thuận đột biến tại VIB chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "giao dịch thỏa thuận đột biến tại VIB",
+        "label": "EVENT",
+        "evidence": "chủ yếu do ảnh hưởng từ giao dịch thỏa thuận đột biến tại VIB chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "chủ yếu do ảnh hưởng từ giao dịch thỏa thuận đột biến tại VIB chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "gần 2.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "chiếm gần 2.700 tỷ đồng."
+    },
+    {
+        "text": "hơn 66.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế từ đầu năm, giá trị rút ròng đạt hơn 66.000 tỷ đồng."
+    },
+    {
+        "text": "mua ròng hơn 1.000 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "dòng tiền từ khối ngoại lại đảo chiều mua ròng hơn 1.000 tỷ đồng qua kênh khớp lệnh,đánh dấu tháng mua ròng khớp lệnh tốt nhất kể từ tháng 4/2023."
+    },
+    {
+        "text": "tháng 4/2023",
+        "label": "DATE",
+        "evidence": "đánh dấu tháng mua ròng khớp lệnh tốt nhất kể từ tháng 4/2023."
+    },
+    {
+        "text": "chu kỳ nới lỏng",
+        "label": "EVENT",
+        "evidence": "FED tiến dần đến chu kỳ nới lỏng"
+    },
+    {
+        "text": "các nút thắt giao dịch cho NĐT ngoại trong quá trình nâng hạng dần được tháo gỡ",
+        "label": "EVENT",
+        "evidence": "khi các nút thắt giao dịch cho NĐT ngoại trong quá trình nâng hạng dần được tháo gỡ."
+    },
+    {
+        "text": "gần 14%",
+        "label": "RATE",
+        "evidence": "Tỷ trọng giao dịch của khối ngoại cũng tăng lên gần 14% trên HOSE, cao nhất trong cùng giai đoạn”"
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Tỷ trọng giao dịch của khối ngoại cũng tăng lên gần 14% trên HOSE, cao nhất trong cùng giai đoạn”"
+    },
+    {
+        "text": "SSI",
+        "label": "ORG",
+        "evidence": "Tỷ trọng giao dịch của khối ngoại cũng tăng lên gần 14% trên HOSE, cao nhất trong cùng giai đoạn”, SSI nhận định."
+    },
+    {
+        "text": "tăng 15,5%",
+        "label": "RATE",
+        "evidence": "SSI dự phóng lợi nhuận của các công ty niêm yết trong danh sách theo dõi dự báo tăng 15,5% trong năm 2024 và tiếp tục tăng 19,6% trong 2025."
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "tăng 15,5% trong năm 2024 và tiếp tục tăng 19,6% trong 2025."
+    },
+    {
+        "text": "tăng 19,6%",
+        "label": "RATE",
+        "evidence": "và tiếp tục tăng 19,6% trong 2025."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "và tiếp tục tăng 19,6% trong 2025."
+    },
+    {
+        "text": "21,7%",
+        "label": "RATE",
+        "evidence": "tăng trưởng lợi nhuận so với cùng kỳ có thể đạt mức 21,7% trong 6 tháng cuối năm; tăng tốc đáng kể so với mức chỉ 6,2% trong nửa đầu năm."
+    },
+    {
+        "text": "6 tháng cuối năm",
+        "label": "DATE",
+        "evidence": "có thể đạt mức 21,7% trong 6 tháng cuối năm; tăng tốc đáng kể so với mức chỉ 6,2% trong nửa đầu năm."
+    },
+    {
+        "text": "6,2%",
+        "label": "RATE",
+        "evidence": "tăng tốc đáng kể so với mức chỉ 6,2% trong nửa đầu năm."
+    },
+    {
+        "text": "nửa đầu năm",
+        "label": "DATE",
+        "evidence": "so với mức chỉ 6,2% trong nửa đầu năm."
+    },
+    {
+        "text": "bắt đầu chu kỳ nới lỏng lãi suất",
+        "label": "EVENT",
+        "evidence": "FED bắt đầu chu kỳ nới lỏng lãi suất"
+    },
+    {
+        "text": "tăng lên 12 lần",
+        "label": "RATE",
+        "evidence": "P/E ước tính 1 năm của VN-Index tăng lên 12 lần vào ngày 04/10/2024, cao nhất từ cuối tháng 1/2024; phản ánh kỳ vọng tăng trưởng LN cho giai đoạn nửa cuối 2024 và năm 2025."
+    },
+    {
+        "text": "ngày 04/10/2024",
+        "label": "DATE",
+        "evidence": "tăng lên 12 lần vào ngày 04/10/2024, cao nhất từ cuối tháng 1/2024; phản ánh kỳ vọng tăng trưởng LN cho giai đoạn nửa cuối 2024 và năm 2025."
+    },
+    {
+        "text": "cuối tháng 1/2024",
+        "label": "DATE",
+        "evidence": "cao nhất từ cuối tháng 1/2024; phản ánh kỳ vọng tăng trưởng LN cho giai đoạn nửa cuối 2024 và năm 2025."
+    },
+    {
+        "text": "nửa cuối 2024",
+        "label": "DATE",
+        "evidence": "phản ánh kỳ vọng tăng trưởng LN cho giai đoạn nửa cuối 2024 và năm 2025."
+    },
+    {
+        "text": "quý 4/2024",
+        "label": "DATE",
+        "evidence": "SSI đánh giá TTCK Việt Nam đang có điều kiện thuận lợi để tiếp tục đi lên trong quý 4/2024 và năm 2025."
+    },
+    {
+        "text": "Việt Nam được hạng lên thị trường mới nổi (EM) bởi FTSE Russell",
+        "label": "EVENT",
+        "evidence": "kỳ vọng Việt Nam được hạng lên thị trường mới nổi (EM) bởi FTSE Russell sẽ thúc đẩy dòng vốn mạnh mẽ hơn từ cả nhà đầu tư trong nước và nước ngoài."
+    },
+    {
+        "text": "FTSE Russell",
+        "label": "ORG",
+        "evidence": "kỳ vọng Việt Nam được hạng lên thị trường mới nổi (EM) bởi FTSE Russell sẽ thúc đẩy dòng vốn mạnh mẽ hơn từ cả nhà đầu tư trong nước và nước ngoài."
+    },
+    {
+        "text": "8 tháng",
+        "label": "DATE",
+        "evidence": "P/E ước tính 1 năm của VN-Index lên cao nhất trong 8 tháng có thể khiến thị trường cần có nhịp giao dịch tích lũy trở lại."
+    }
+]

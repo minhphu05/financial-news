@@ -1,0 +1,252 @@
+[
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "quy mô tín dụng hợp nhất của VPBank cán mốc 710 nghìn tỷ đồng"
+    },
+    {
+        "text": "710 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "quy mô tín dụng hợp nhất của VPBank cán mốc 710 nghìn tỷ đồng"
+    },
+    {
+        "text": "hơn 20 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế (PBT) hợp nhất trong năm đạt hơn 20 nghìn tỷ đồng"
+    },
+    {
+        "text": "quý cuối năm",
+        "label": "DATE",
+        "evidence": "trong quý cuối năm, quy mô tín dụng hợp nhất của VPBank cán mốc 710 nghìn tỷ đồng"
+    },
+    {
+        "text": "quý 4",
+        "label": "DATE",
+        "evidence": "Tính riêng quý 4, lợi nhuận hợp nhất của VPBank đạt hơn 6.100 tỷ đồng"
+    },
+    {
+        "text": "hơn 6.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận hợp nhất của VPBank đạt hơn 6.100 tỷ đồng"
+    },
+    {
+        "text": "tăng gấp 2,4 lần",
+        "label": "RATE",
+        "evidence": "tăng gấp 2,4 lần so với cùng kỳ"
+    },
+    {
+        "text": "gần 18.300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận trước thuế đạt gần 18.300 tỷ đồng"
+    },
+    {
+        "text": "tăng 36%",
+        "label": "RATE",
+        "evidence": "tăng 36% so với năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "tăng 36% so với năm 2023"
+    },
+    {
+        "text": "FE Credit",
+        "label": "ORG",
+        "evidence": "sự trở lại mạnh mẽ của FE Credit sau quá trình tái cấu trúc toàn diện"
+    },
+    {
+        "text": "tái cấu trúc toàn diện",
+        "label": "EVENT",
+        "evidence": "sau quá trình tái cấu trúc toàn diện"
+    },
+    {
+        "text": "3 quý gần nhất",
+        "label": "DATE",
+        "evidence": "báo lãi liên tiếp trong 3 quý gần nhất"
+    },
+    {
+        "text": "500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 500 tỷ đồng lợi nhuận cả năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "lợi nhuận cả năm 2024"
+    },
+    {
+        "text": "tăng 8,21%",
+        "label": "RATE",
+        "evidence": "tăng 8,21% trong quý 4"
+    },
+    {
+        "text": "7,38%",
+        "label": "RATE",
+        "evidence": "7,38% cho cả năm 2024"
+    },
+    {
+        "text": "Tổng cục Thống kê",
+        "label": "ORG",
+        "evidence": "theo số liệu của Tổng cục Thống kê"
+    },
+    {
+        "text": "hơn 629 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân hàng mẹ đạt hơn 629 nghìn tỷ đồng"
+    },
+    {
+        "text": "tăng 19,4%",
+        "label": "RATE",
+        "evidence": "tăng 19,4% so với đầu năm"
+    },
+    {
+        "text": "15%",
+        "label": "RATE",
+        "evidence": "cao hơn so với trung bình ngành 15%"
+    },
+    {
+        "text": "tăng 8,2%",
+        "label": "RATE",
+        "evidence": "tín dụng của ngân hàng mẹ tăng 8,2% so với quý liền trước"
+    },
+    {
+        "text": "tăng gần 7%",
+        "label": "RATE",
+        "evidence": "tín dụng tăng gần 7% so với quý 3"
+    },
+    {
+        "text": "quý 3",
+        "label": "DATE",
+        "evidence": "tín dụng tăng gần 7% so với quý 3"
+    },
+    {
+        "text": "tăng 10,3%",
+        "label": "RATE",
+        "evidence": "quy mô tín dụng của FE Credit tăng 10,3%"
+    },
+    {
+        "text": "tăng 40%",
+        "label": "RATE",
+        "evidence": "doanh số giải ngân cả năm 2024 tăng 40% so với 2023"
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "evidence": "tăng 40% so với 2023"
+    },
+    {
+        "text": "SMBC",
+        "label": "ORG",
+        "evidence": "cổ đông chiến lược SMBC"
+    },
+    {
+        "text": "tăng trưởng gấp ba lần",
+        "label": "RATE",
+        "evidence": "dư nợ tín dụng tăng trưởng gấp ba lần so với 2023"
+    },
+    {
+        "text": "4,3%",
+        "label": "RATE",
+        "evidence": "chi phí vốn của ngân hàng riêng lẻ nằm ở mức 4,3%"
+    },
+    {
+        "text": "giảm gần 2%",
+        "label": "RATE",
+        "evidence": "giảm gần 2% so với cả năm 2023"
+    },
+    {
+        "text": "81,6%",
+        "label": "RATE",
+        "evidence": "LDR (81,6%)"
+    },
+    {
+        "text": "27,3%",
+        "label": "RATE",
+        "evidence": "vốn ngắn hạn cho vay trung-dài hạn (27,3%)"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "quy định của Ngân hàng Nhà nước (NHNN)"
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "quy định của Ngân hàng Nhà nước (NHNN)"
+    },
+    {
+        "text": "15,4%",
+        "label": "RATE",
+        "evidence": "ngân hàng hợp nhất đạt 15,4%"
+    },
+    {
+        "text": "5,6 nghìn tỷ đồng",
+        "label": "MONEY",
+        "evidence": "năm 2024 đạt 5,6 nghìn tỷ đồng"
+    },
+    {
+        "text": "cao gấp 2,3 lần",
+        "label": "RATE",
+        "evidence": "cao gấp 2,3 lần so với năm 2023"
+    },
+    {
+        "text": "xử lý nợ xấu",
+        "label": "EVENT",
+        "evidence": "tiếp tục áp dụng đa dạng các biện pháp xử lý nợ xấu"
+    },
+    {
+        "text": "3%",
+        "label": "RATE",
+        "evidence": "được kiểm soát dưới ngưỡng 3% theo quy định của NHNN"
+    },
+    {
+        "text": "ba quý liền kề",
+        "label": "DATE",
+        "evidence": "khi giảm trong ba quý liền kề"
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "sự gia nhập của GPBank vào hệ sinh thái VPBank"
+    },
+    {
+        "text": "gia nhập của GPBank vào hệ sinh thái VPBank",
+        "label": "EVENT",
+        "evidence": "sự gia nhập của GPBank vào hệ sinh thái VPBank mở rộng mới đây"
+    },
+    {
+        "text": "hoàn tất chuyển giao GPBank",
+        "label": "EVENT",
+        "evidence": "Sau khi hoàn tất chuyển giao GPBank"
+    },
+    {
+        "text": "Ngân hàng Hợp tác Quốc tế Nhật Bản",
+        "label": "ORG",
+        "evidence": "ký kết với Ngân hàng Hợp tác Quốc tế Nhật Bản (JBIC)"
+    },
+    {
+        "text": "JBIC",
+        "label": "ORG",
+        "evidence": "ký kết với Ngân hàng Hợp tác Quốc tế Nhật Bản (JBIC)"
+    },
+    {
+        "text": "150 triệu USD",
+        "label": "MONEY",
+        "evidence": "trị giá tới 150 triệu USD"
+    },
+    {
+        "text": "hợp đồng tín dụng được ngân hàng ký kết với Ngân hàng Hợp tác Quốc tế Nhật Bản (JBIC)",
+        "label": "EVENT",
+        "evidence": "hợp đồng tín dụng được ngân hàng ký kết với Ngân hàng Hợp tác Quốc tế Nhật Bản (JBIC) trị giá tới 150 triệu USD"
+    },
+    {
+        "text": "năm 2050",
+        "label": "DATE",
+        "evidence": "mục tiêu quốc gia về phát thải ròng bằng 0 tới năm 2050"
+    },
+    {
+        "text": "ứng dụng công nghệ trí tuệ nhân tạo (AI) trong hoạt động vận hành",
+        "label": "EVENT",
+        "evidence": "ngân hàng bước đầu ứng dụng công nghệ trí tuệ nhân tạo (AI) trong hoạt động vận hành"
+    }
+]

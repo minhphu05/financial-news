@@ -1,0 +1,482 @@
+[
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Thị trường chứng khoán Việt Nam đang chứng kiến sự lạc nhịp của nhóm cổ phiếu công nghệ với 2 đại diện tiêu biểu là FPT và CMC Corp (mã CMG)."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Thị trường chứng khoán Việt Nam đang chứng kiến sự lạc nhịp của nhóm cổ phiếu công nghệ với 2 đại diện tiêu biểu là FPT và CMC Corp (mã CMG)."
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "Thị trường chứng khoán Việt Nam đang chứng kiến sự lạc nhịp của nhóm cổ phiếu công nghệ với 2 đại diện tiêu biểu là FPT và CMC Corp (mã CMG)."
+    },
+    {
+        "text": "FPT giảm khoảng 28%",
+        "label": "EVENT",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "28%",
+        "label": "RATE",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "CMG mất hơn 34% thị giá",
+        "label": "EVENT",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "34%",
+        "label": "RATE",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm",
+        "label": "EVENT",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "thời điểm đầu năm",
+        "label": "DATE",
+        "evidence": "FPT giảm khoảng 28% còn CMG mất hơn 34% thị giá trong khi VN-Index chỉ còn thấp hơn 2% so với thời điểm đầu năm."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "FPT",
+        "label": "TICKER",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại",
+        "label": "EVENT",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "hở room hơn 114 triệu đơn vị",
+        "label": "EVENT",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "114 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "8%",
+        "label": "RATE",
+        "evidence": "Với riêng FPT, cổ phiếu này chịu áp lực bán rất mạnh từ khối ngoại thời gian qua dẫn đến hở room hơn 114 triệu đơn vị (khoảng 8%)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đáng chú ý, FPT và CMG giảm sâu trong bối cảnh lợi nhuận tăng trưởng cao, thậm chí lập kỷ lục."
+    },
+    {
+        "text": "CMG",
+        "label": "TICKER",
+        "evidence": "Đáng chú ý, FPT và CMG giảm sâu trong bối cảnh lợi nhuận tăng trưởng cao, thậm chí lập kỷ lục."
+    },
+    {
+        "text": "FPT và CMG giảm sâu trong bối cảnh lợi nhuận tăng trưởng cao, thậm chí lập kỷ lục",
+        "label": "EVENT",
+        "evidence": "Đáng chú ý, FPT và CMG giảm sâu trong bối cảnh lợi nhuận tăng trưởng cao, thậm chí lập kỷ lục."
+    },
+    {
+        "text": "Quý 1/2025",
+        "label": "DATE",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái",
+        "label": "EVENT",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "3.025 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "19,4%",
+        "label": "RATE",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "quý đầu năm ngoái",
+        "label": "DATE",
+        "evidence": "Quý 1/2025, FPT ghi nhận lợi nhuận trước thuế ước đạt 3.025 tỷ đồng, tăng 19,4% so với quý đầu năm ngoái."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đây là mức lợi nhuận cao nhất trong một quý FPT từng đạt được kể từ khi thành lập."
+    },
+    {
+        "text": "Lợi nhuận sau thuế tăng 20% so với cùng kỳ 2024, đạt 2.596 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế tăng 20% so với cùng kỳ 2024, đạt 2.596 tỷ đồng."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế tăng 20% so với cùng kỳ 2024, đạt 2.596 tỷ đồng."
+    },
+    {
+        "text": "cùng kỳ 2024",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế tăng 20% so với cùng kỳ 2024, đạt 2.596 tỷ đồng."
+    },
+    {
+        "text": "2.596 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế tăng 20% so với cùng kỳ 2024, đạt 2.596 tỷ đồng."
+    },
+    {
+        "text": "lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 2.174 tỷ đồng, tăng 21% so với quý 1/2024",
+        "label": "EVENT",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 2.174 tỷ đồng, tăng 21% so với quý 1/2024."
+    },
+    {
+        "text": "2.174 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 2.174 tỷ đồng, tăng 21% so với quý 1/2024."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 2.174 tỷ đồng, tăng 21% so với quý 1/2024."
+    },
+    {
+        "text": "quý 1/2024",
+        "label": "DATE",
+        "evidence": "Trong đó, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt 2.174 tỷ đồng, tăng 21% so với quý 1/2024."
+    },
+    {
+        "text": "đầu năm 2023",
+        "label": "DATE",
+        "evidence": "Kể từ đầu năm 2023 đến nay, tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý, lợi nhuận quý sau cao hơn quý trước và tăng đều đặn khoảng 20% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý",
+        "label": "EVENT",
+        "evidence": "Kể từ đầu năm 2023 đến nay, tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý, lợi nhuận quý sau cao hơn quý trước và tăng đều đặn khoảng 20% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "lợi nhuận quý sau cao hơn quý trước",
+        "label": "EVENT",
+        "evidence": "Kể từ đầu năm 2023 đến nay, tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý, lợi nhuận quý sau cao hơn quý trước và tăng đều đặn khoảng 20% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "tăng đều đặn khoảng 20% so với cùng kỳ năm trước",
+        "label": "EVENT",
+        "evidence": "Kể từ đầu năm 2023 đến nay, tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý, lợi nhuận quý sau cao hơn quý trước và tăng đều đặn khoảng 20% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Kể từ đầu năm 2023 đến nay, tập đoàn công nghệ này đã liên tục phá kỷ lục lợi nhuận mỗi quý, lợi nhuận quý sau cao hơn quý trước và tăng đều đặn khoảng 20% so với cùng kỳ năm trước."
+    },
+    {
+        "text": "lợi nhuận hàng năm của FPT cũng duy trì mức tăng trưởng “đều như vắt tranh” ở mức quanh 20%",
+        "label": "EVENT",
+        "evidence": "Nhờ đó, lợi nhuận hàng năm của FPT cũng duy trì mức tăng trưởng “đều như vắt tranh” ở mức quanh 20%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Nhờ đó, lợi nhuận hàng năm của FPT cũng duy trì mức tăng trưởng “đều như vắt tranh” ở mức quanh 20%."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Nhờ đó, lợi nhuận hàng năm của FPT cũng duy trì mức tăng trưởng “đều như vắt tranh” ở mức quanh 20%."
+    },
+    {
+        "text": "Năm 2025",
+        "label": "DATE",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024",
+        "label": "EVENT",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "75.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "13.395 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "20%",
+        "label": "RATE",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "21%",
+        "label": "RATE",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "evidence": "Năm 2025, FPT lên kế hoạch kinh doanh cao kỷ lục với mục tiêu doanh thu đạt 75.400 tỷ đồng và lợi nhuận trước thuế 13.395 tỷ đồng, lần lượt tăng 20% và 21% so với thực hiện 2024."
+    },
+    {
+        "text": "tập đoàn công nghệ hàng đầu Việt Nam sẽ có năm thứ 5 liên tiếp tăng trưởng trên 20%",
+        "label": "EVENT",
+        "evidence": "Nếu hoàn thành kế hoạch đề ra, tập đoàn công nghệ hàng đầu Việt Nam sẽ có năm thứ 5 liên tiếp tăng trưởng trên 20%."
+    },
+    {
+        "text": "trên 20%",
+        "label": "RATE",
+        "evidence": "Nếu hoàn thành kế hoạch đề ra, tập đoàn công nghệ hàng đầu Việt Nam sẽ có năm thứ 5 liên tiếp tăng trưởng trên 20%."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Đánh giá về khả năng hoàn thành kế hoạch này, ban lãnh đạo FPT cho rằng 2025 là một năm đầy thách thức nhưng cũng có không ít cơ hội và tập đoàn vẫn quyết tâm về đích."
+    },
+    {
+        "text": "2025",
+        "label": "DATE",
+        "evidence": "Đánh giá về khả năng hoàn thành kế hoạch này, ban lãnh đạo FPT cho rằng 2025 là một năm đầy thách thức nhưng cũng có không ít cơ hội và tập đoàn vẫn quyết tâm về đích."
+    },
+    {
+        "text": "FPTvẫn để ngỏ khả năng điều chỉnh kế hoạch kinh doanh",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên,FPTvẫn để ngỏ khả năng điều chỉnh kế hoạch kinh doanh phù hợp với tình hình thế giới trong trường hợp cần thiết."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Tuy nhiên,FPTvẫn để ngỏ khả năng điều chỉnh kế hoạch kinh doanh phù hợp với tình hình thế giới trong trường hợp cần thiết."
+    },
+    {
+        "text": "CMC Corp",
+        "label": "ORG",
+        "evidence": "Trong khi đó, CMC Corp vừa có thêm một quý lãi lớn để khép lại năm tài chính 2024-25 (1/4/2024-31/3/2025) với mức lợi nhuận cao kỷ lục."
+    },
+    {
+        "text": "CMC Corp vừa có thêm một quý lãi lớn để khép lại năm tài chính 2024-25 (1/4/2024-31/3/2025) với mức lợi nhuận cao kỷ lục",
+        "label": "EVENT",
+        "evidence": "Trong khi đó, CMC Corp vừa có thêm một quý lãi lớn để khép lại năm tài chính 2024-25 (1/4/2024-31/3/2025) với mức lợi nhuận cao kỷ lục."
+    },
+    {
+        "text": "năm tài chính 2024-25",
+        "label": "DATE",
+        "evidence": "Trong khi đó, CMC Corp vừa có thêm một quý lãi lớn để khép lại năm tài chính 2024-25 (1/4/2024-31/3/2025) với mức lợi nhuận cao kỷ lục."
+    },
+    {
+        "text": "1/4/2024-31/3/2025",
+        "label": "DATE",
+        "evidence": "Trong khi đó, CMC Corp vừa có thêm một quý lãi lớn để khép lại năm tài chính 2024-25 (1/4/2024-31/3/2025) với mức lợi nhuận cao kỷ lục."
+    },
+    {
+        "text": "lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước",
+        "label": "EVENT",
+        "evidence": "Theo đó, lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước."
+    },
+    {
+        "text": "quý 4 NĐTC 2024-25",
+        "label": "DATE",
+        "evidence": "Theo đó, lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước."
+    },
+    {
+        "text": "104 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo đó, lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước."
+    },
+    {
+        "text": "46%",
+        "label": "RATE",
+        "evidence": "Theo đó, lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước."
+    },
+    {
+        "text": "cùng kỳ niên độ trước",
+        "label": "DATE",
+        "evidence": "Theo đó, lợi nhuận sau thuế quý 4 NĐTC 2024-25 đạt hơn 104 tỷ đồng, tăng 46% so với cùng kỳ niên độ trước."
+    },
+    {
+        "text": "Lợi nhuận sau thuế toàn niên độ đạt 428 tỷ đồng, tăng khoảng 6,5% so với niên độ 2023-24",
+        "label": "EVENT",
+        "evidence": "Lợi nhuận sau thuế toàn niên độ đạt 428 tỷ đồng, tăng khoảng 6,5% so với niên độ 2023-24 và là mức cao nhất kể từ khi hoạt động."
+    },
+    {
+        "text": "428 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế toàn niên độ đạt 428 tỷ đồng, tăng khoảng 6,5% so với niên độ 2023-24 và là mức cao nhất kể từ khi hoạt động."
+    },
+    {
+        "text": "6,5%",
+        "label": "RATE",
+        "evidence": "Lợi nhuận sau thuế toàn niên độ đạt 428 tỷ đồng, tăng khoảng 6,5% so với niên độ 2023-24 và là mức cao nhất kể từ khi hoạt động."
+    },
+    {
+        "text": "niên độ 2023-24",
+        "label": "DATE",
+        "evidence": "Lợi nhuận sau thuế toàn niên độ đạt 428 tỷ đồng, tăng khoảng 6,5% so với niên độ 2023-24 và là mức cao nhất kể từ khi hoạt động."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Trong báo cáo gần đây, SSI Research đã chỉ ra lo ngại về việc tốc độ tăng trưởng doanh thu của FPT đang có dấu hiệu chậm lại, chủ yếu đến từ mảng CNTT nước ngoài."
+    },
+    {
+        "text": "tốc độ tăng trưởng doanh thu của FPT đang có dấu hiệu chậm lại",
+        "label": "EVENT",
+        "evidence": "Trong báo cáo gần đây, SSI Research đã chỉ ra lo ngại về việc tốc độ tăng trưởng doanh thu của FPT đang có dấu hiệu chậm lại, chủ yếu đến từ mảng CNTT nước ngoài."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Trong báo cáo gần đây, SSI Research đã chỉ ra lo ngại về việc tốc độ tăng trưởng doanh thu của FPT đang có dấu hiệu chậm lại, chủ yếu đến từ mảng CNTT nước ngoài."
+    },
+    {
+        "text": "Quý đầu năm 2025",
+        "label": "DATE",
+        "evidence": "Quý đầu năm 2025, doanh thu của FPT tăng 14% so với cùng kỳ 2024."
+    },
+    {
+        "text": "doanh thu của FPT tăng 14% so với cùng kỳ 2024",
+        "label": "EVENT",
+        "evidence": "Quý đầu năm 2025, doanh thu của FPT tăng 14% so với cùng kỳ 2024."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Quý đầu năm 2025, doanh thu của FPT tăng 14% so với cùng kỳ 2024."
+    },
+    {
+        "text": "14%",
+        "label": "RATE",
+        "evidence": "Quý đầu năm 2025, doanh thu của FPT tăng 14% so với cùng kỳ 2024."
+    },
+    {
+        "text": "cùng kỳ 2024",
+        "label": "DATE",
+        "evidence": "Quý đầu năm 2025, doanh thu của FPT tăng 14% so với cùng kỳ 2024."
+    },
+    {
+        "text": "thị trường châu Mỹ chỉ ghi nhận mức tăng trưởng doanh thu dưới 10% trong năm ngoái",
+        "label": "EVENT",
+        "evidence": "Trong năm ngoái, thị trường châu Mỹ chỉ ghi nhận mức tăng trưởng doanh thu dưới 10% trong năm ngoái, chủ yếu do căng thẳng địa chính trị và điều kiện vĩ mô kém thuận lợi tại Hoa Kỳ, khiến các doanh nghiệp nước này cắt giảm chi tiêu cho CNTT."
+    },
+    {
+        "text": "dưới 10%",
+        "label": "RATE",
+        "evidence": "Trong năm ngoái, thị trường châu Mỹ chỉ ghi nhận mức tăng trưởng doanh thu dưới 10% trong năm ngoái, chủ yếu do căng thẳng địa chính trị và điều kiện vĩ mô kém thuận lợi tại Hoa Kỳ, khiến các doanh nghiệp nước này cắt giảm chi tiêu cho CNTT."
+    },
+    {
+        "text": "năm ngoái",
+        "label": "DATE",
+        "evidence": "Trong năm ngoái, thị trường châu Mỹ chỉ ghi nhận mức tăng trưởng doanh thu dưới 10% trong năm ngoái, chủ yếu do căng thẳng địa chính trị và điều kiện vĩ mô kém thuận lợi tại Hoa Kỳ, khiến các doanh nghiệp nước này cắt giảm chi tiêu cho CNTT."
+    },
+    {
+        "text": "doanh nghiệp nước này cắt giảm chi tiêu cho CNTT",
+        "label": "EVENT",
+        "evidence": "Trong năm ngoái, thị trường châu Mỹ chỉ ghi nhận mức tăng trưởng doanh thu dưới 10% trong năm ngoái, chủ yếu do căng thẳng địa chính trị và điều kiện vĩ mô kém thuận lợi tại Hoa Kỳ, khiến các doanh nghiệp nước này cắt giảm chi tiêu cho CNTT."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "SSI Research từng kỳ vọng tình hình sẽ cải thiện dưới thời chính quyền Tổng thống Trump."
+    },
+    {
+        "text": "Tổng thống Trump",
+        "label": "PERSON",
+        "evidence": "SSI Research từng kỳ vọng tình hình sẽ cải thiện dưới thời chính quyền Tổng thống Trump."
+    },
+    {
+        "text": "đầu năm nay",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, từ đầu năm nay vẫn chưa có sự thay đổi đáng kể nào, các doanh nghiệp Hoa Kỳ tiếp tục duy trì quan điểm thận trọng trong việc chi tiêu CNTT."
+    },
+    {
+        "text": "SSI Research",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "từ năm 2024",
+        "label": "DATE",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm",
+        "label": "EVENT",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "13%-14%",
+        "label": "RATE",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "30%-40%",
+        "label": "RATE",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "giai đoạn 2022-2023",
+        "label": "DATE",
+        "evidence": "Theo SSI Research, từ năm 2024, giá trị hợp đồng ký mới/doanh thu ký mới của FPT đã có dấu hiệu tăng trưởng chậm lại, chỉ đạt khoảng 13%-14% mỗi năm (so với mức 30%-40% mỗi năm trong giai đoạn 2022-2023)."
+    },
+    {
+        "text": "triển vọng tăng trưởng lợi nhuận trong năm 2025 vẫn sẽ tích cực",
+        "label": "EVENT",
+        "evidence": "Tuy nhiên, bộ phận phân tích này tin rằng triển vọng tăng trưởng lợi nhuận trong năm 2025 vẫn sẽ tích cực."
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "Tuy nhiên, bộ phận phân tích này tin rằng triển vọng tăng trưởng lợi nhuận trong năm 2025 vẫn sẽ tích cực."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Ngoài FPT, gần như không có công ty nào đủ khả năng để đón dòng tiền lớn."
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "Chính FPT dù liên tục tăng trưởng cao cũng chưa lọt vào top 10 công ty lãi lớn nhất sàn chứng khoán."
+    }
+]

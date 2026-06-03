@@ -1,0 +1,137 @@
+[
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Sacombank Sapphire–Đẳngcấp giúp doanh nghiệp dẫn đầu xu thế"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Theo chính sách Sacombank Sapphire, ngoài những quyền lợi trực tiếp gắn với sản phẩm, dịch vụ, KHDN đạt hạng Siêu VIP, VIP hoặc Khách hàng thân thiết còn được áp dụng các ưu đãi đặc quyền về tín dụng như: tỷ lệ cấp tín dụng lên đến 100% trên trị giá tài sản đảm bảo; giải tỏa tiền tạm ứng đối với bảo lãnh tiền tạm ứng lên đến 95%; giảm đến 10% tỷ lệ ký quỹ/ đảm bảo tối thiểu khi phát hành L/C so với quy định hiện hành, cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN,..."
+    },
+    {
+        "text": "tỷ lệ cấp tín dụng lên đến 100% trên trị giá tài sản đảm bảo",
+        "label": "EVENT",
+        "evidence": "KHDN đạt hạng Siêu VIP, VIP hoặc Khách hàng thân thiết còn được áp dụng các ưu đãi đặc quyền về tín dụng như: tỷ lệ cấp tín dụng lên đến 100% trên trị giá tài sản đảm bảo;"
+    },
+    {
+        "text": "100%",
+        "label": "RATE",
+        "evidence": "tỷ lệ cấp tín dụng lên đến 100% trên trị giá tài sản đảm bảo;"
+    },
+    {
+        "text": "giải tỏa tiền tạm ứng đối với bảo lãnh tiền tạm ứng lên đến 95%",
+        "label": "EVENT",
+        "evidence": "giải tỏa tiền tạm ứng đối với bảo lãnh tiền tạm ứng lên đến 95%;"
+    },
+    {
+        "text": "95%",
+        "label": "RATE",
+        "evidence": "giải tỏa tiền tạm ứng đối với bảo lãnh tiền tạm ứng lên đến 95%;"
+    },
+    {
+        "text": "giảm đến 10% tỷ lệ ký quỹ/ đảm bảo tối thiểu khi phát hành L/C so với quy định hiện hành",
+        "label": "EVENT",
+        "evidence": "giảm đến 10% tỷ lệ ký quỹ/ đảm bảo tối thiểu khi phát hành L/C so với quy định hiện hành, cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN,..."
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "giảm đến 10% tỷ lệ ký quỹ/ đảm bảo tối thiểu khi phát hành L/C so với quy định hiện hành,"
+    },
+    {
+        "text": "cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN",
+        "label": "EVENT",
+        "evidence": "cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN,..."
+    },
+    {
+        "text": "thẻ tín dụng doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN,..."
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "cấp hạn mức thẻ tín dụng doanh nghiệp lên tới 5 tỷ đồng/KHDN,..."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Ngoài ra, bên cạnh các ưu đãi về tín dụng, Sacombank Sapphire còn đưa ra hàng loạt nội dung ưu đãi về phí cực hấp dẫn."
+    },
+    {
+        "text": "miễn phí hoàn toàn phí đăng ký, sử dụng dịch vụ, phí giao dịch thanh toán, chuyển tiền trong nước trên ebanking và phí thường niên thẻ doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Cụ thể, miễn phí hoàn toàn phí đăng ký, sử dụng dịch vụ, phí giao dịch thanh toán, chuyển tiền trong nước trên ebanking và phí thường niên thẻ doanh nghiệp."
+    },
+    {
+        "text": "thẻ doanh nghiệp",
+        "label": "ASSET",
+        "evidence": "phí thường niên thẻ doanh nghiệp."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Với các giao dịch chuyển tiền, thanh toán trong và ngoài nước tại quầy, Sacombank ưu đãi lên đến 70% mức phí so với quy định hiện hành."
+    },
+    {
+        "text": "ưu đãi lên đến 70% mức phí so với quy định hiện hành",
+        "label": "EVENT",
+        "evidence": "Sacombank ưu đãi lên đến 70% mức phí so với quy định hiện hành."
+    },
+    {
+        "text": "70%",
+        "label": "RATE",
+        "evidence": "Sacombank ưu đãi lên đến 70% mức phí so với quy định hiện hành."
+    },
+    {
+        "text": "áp dụng ưu đãi tỷ giá mua bán ngoại tệ",
+        "label": "EVENT",
+        "evidence": "ngân hàng cũng áp dụng ưu đãi tỷ giá mua bán ngoại tệ, giảm lãi suất cho vay so với quy định hiện hành từ 0,3-0,5%/năm."
+    },
+    {
+        "text": "giảm lãi suất cho vay so với quy định hiện hành từ 0,3-0,5%/năm",
+        "label": "EVENT",
+        "evidence": "giảm lãi suất cho vay so với quy định hiện hành từ 0,3-0,5%/năm."
+    },
+    {
+        "text": "0,3-0,5%/năm",
+        "label": "RATE",
+        "evidence": "giảm lãi suất cho vay so với quy định hiện hành từ 0,3-0,5%/năm."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Song song với chương trình ưu đãi về tín dụng và giá, chính sách Sacombank Sapphire cũng đem đến các trải nghiệm đặc quyền dành riêng cho khách hàng doanh nghiệp Siêu VIP và VIP như: quà tặng tri ân vào các sự kiện đặc biệt, tham gia hệ sinh thái ưu đãi, tham dự sự kiện VIP do Sacombank tổ chức,…"
+    },
+    {
+        "text": "được cấp thẻ Infinite – thẻ đen cao cấp nhất của Sacombank",
+        "label": "EVENT",
+        "evidence": "của các doanh nghiệp Siêu VIP và VIP còn được hưởng những đặc quyền đẳng cấp như được cấp thẻ Infinite – thẻ đen cao cấp nhất của Sacombank, tặng không giới hạn lượt phòng chờ sân bay VIP trên toàn cầu, tặng thêm lượt chơi Golf hoặc trải nghiệm dịch vụ Spa,…"
+    },
+    {
+        "text": "thẻ Infinite",
+        "label": "ASSET",
+        "evidence": "được cấp thẻ Infinite – thẻ đen cao cấp nhất của Sacombank, tặng không giới hạn lượt phòng chờ sân bay VIP trên toàn cầu, tặng thêm lượt chơi Golf hoặc trải nghiệm dịch vụ Spa,…"
+    },
+    {
+        "text": "thẻ đen",
+        "label": "ASSET",
+        "evidence": "được cấp thẻ Infinite – thẻ đen cao cấp nhất của Sacombank, tặng không giới hạn lượt phòng chờ sân bay VIP trên toàn cầu, tặng thêm lượt chơi Golf hoặc trải nghiệm dịch vụ Spa,…"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "được cấp thẻ Infinite – thẻ đen cao cấp nhất của Sacombank, tặng không giới hạn lượt phòng chờ sân bay VIP trên toàn cầu, tặng thêm lượt chơi Golf hoặc trải nghiệm dịch vụ Spa,…"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Có thể thấy, chính sách Sacombank Sapphire không chỉ đem đến cho KHDN những ưu đãi hấp dẫn về tín dụng và phí mà còn giúp gia tăng trải nghiệm vượt trội, nâng tầm đẳng cấp cho chủ doanh nghiệp trong thời đại hiện nay."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Trong thời gian tới, Sacombank sẽ tiếp tục phát huy tính sáng tạo, chủ động phát triển thêm các sản phẩm tiện ích đa dạng, nâng cao chất lượng phục vụ giúp khách hàng tiếp cận được các sản phẩm, dịch vụ ngân hàng tiên tiến một cách dễ dàng."
+    }
+]

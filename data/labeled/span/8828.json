@@ -1,0 +1,812 @@
+[
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "NCB",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "MSB",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "Eximbank",
+        "label": "ORG",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank…."
+    },
+    {
+        "text": "thay đổi biểu lãi suất huy động",
+        "label": "EVENT",
+        "evidence": "một loạt ngân hàng như ACB, NCB, HDBank, SHB, MSB, Eximbank….đã thay đổi biểu lãi suất huy động."
+    },
+    {
+        "text": "giảm 0,1-0,3 điểm %",
+        "label": "RATE",
+        "evidence": "Phần lớn các ngân hàng tiếp tục điều chỉnh giảm 0,1-0,3 điểm % so với trước."
+    },
+    {
+        "text": "DongABank",
+        "label": "ORG",
+        "evidence": "Hiện DongABank là ngân hàng niêm yết lãi suất cao nhất hệ thống, tới 8,3%/năm dành cho kỳ hạn 13 tháng với số tiền gửi trên 1 tỷ đồng."
+    },
+    {
+        "text": "8,3%/năm",
+        "label": "RATE",
+        "evidence": "tới 8,3%/năm dành cho kỳ hạn 13 tháng với số tiền gửi trên 1 tỷ đồng."
+    },
+    {
+        "text": "13 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 13 tháng"
+    },
+    {
+        "text": "trên 1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "số tiền gửi trên 1 tỷ đồng."
+    },
+    {
+        "text": "6 tháng",
+        "label": "DATE",
+        "evidence": "kỳ hạn 6 tháng"
+    },
+    {
+        "text": "7,55%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất cao nhất 7,55%/năm"
+    },
+    {
+        "text": "7%/năm",
+        "label": "RATE",
+        "evidence": "những ngân hàng cao tiếp theo chỉ quanh mức 7%/năm."
+    },
+    {
+        "text": "Bảo Việt Bank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "VietABank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "GPBank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "VietBank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "NamABank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "BacABank",
+        "label": "ORG",
+        "evidence": "có thể kể đến Bảo Việt Bank, BVBank, VietABank, NCB, GPBank, VietBank, NamABank, BacABank."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Nhóm Big4 (Vietcombank, VietinBank, Agribank, BIDV)"
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "Nhóm Big4 (Vietcombank, VietinBank, Agribank, BIDV)"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Nhóm Big4 (Vietcombank, VietinBank, Agribank, BIDV)"
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Nhóm Big4 (Vietcombank, VietinBank, Agribank, BIDV)"
+    },
+    {
+        "text": "6,3%/năm",
+        "label": "RATE",
+        "evidence": "Các ngân hàng này  vẫn giữ nguyên mức cao nhất là 6,3%/năm, áp dụng cho kỳ hạn 12 tháng."
+    },
+    {
+        "text": "12 tháng",
+        "label": "DATE",
+        "evidence": "áp dụng cho kỳ hạn 12 tháng."
+    },
+    {
+        "text": "giảm thêm lãi suất cho vay hoặc tung các gói vay ưu đãi quy mô lớn",
+        "label": "EVENT",
+        "evidence": "một loạt ngân hàng cũng đã công bố giảm thêm lãi suất cho vay hoặc tung các gói vay ưu đãi quy mô lớn."
+    },
+    {
+        "text": "Vietcombankthông báo tiếp tục giảm lãi suất cho vay với mức giảm tới 0,5%/năm lãi suất cho vay VND cho toàn bộ khoản vay của khách hàng cá nhân và doanh nghiệp",
+        "label": "EVENT",
+        "evidence": "Vietcombankthông báo tiếp tục giảm lãi suất cho vay với mức giảm tới 0,5%/năm lãi suất cho vay VND cho toàn bộ khoản vay của khách hàng cá nhân và doanh nghiệp với thời gian áp dụng trong 5 tháng từ ngày 1/8/2023 đến hết ngày 31/12/2023."
+    },
+    {
+        "text": "0,5%/năm",
+        "label": "RATE",
+        "evidence": "mức giảm tới 0,5%/năm lãi suất cho vay VND"
+    },
+    {
+        "text": "5 tháng",
+        "label": "DATE",
+        "evidence": "thời gian áp dụng trong 5 tháng"
+    },
+    {
+        "text": "ngày 1/8/2023",
+        "label": "DATE",
+        "evidence": "từ ngày 1/8/2023"
+    },
+    {
+        "text": "31/12/2023",
+        "label": "DATE",
+        "evidence": "đến hết ngày 31/12/2023."
+    },
+    {
+        "text": "Agribankcũng mới triển khai chương trình tín dụng ưu đãi dành cho các khách hàng xuất, nhập khẩu với quy mô lên tới 25.000 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Agribankcũng mới triển khai chương trình tín dụng ưu đãi dành cho các khách hàng xuất, nhập khẩu với quy mô lên tới 25.000 tỷ đồng."
+    },
+    {
+        "text": "25.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "quy mô lên tới 25.000 tỷ đồng."
+    },
+    {
+        "text": "thấp hơn đến 1%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất ưu đãi thấp hơn đến 1%/năm"
+    },
+    {
+        "text": "tăng quy mô gói ưu đãi lãi suất SME UP lên 15.000 tỷ đồng và giảm thêm lãi suất cho vay",
+        "label": "EVENT",
+        "evidence": "VietinBank, ngân hàng này vừa tăng quy mô gói ưu đãi lãi suất SME UP lên 15.000 tỷ đồng và giảm thêm lãi suất cho vay với mức lãi suất ưu đãi mới chỉ từ 6,8%/năm."
+    },
+    {
+        "text": "SME UP",
+        "label": "ASSET",
+        "evidence": "gói ưu đãi lãi suất SME UP"
+    },
+    {
+        "text": "15.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 15.000 tỷ đồng"
+    },
+    {
+        "text": "6,8%/năm",
+        "label": "RATE",
+        "evidence": "mức lãi suất ưu đãi mới chỉ từ 6,8%/năm."
+    },
+    {
+        "text": "MSBvừa thông báo chương trình giảm thêm 2% lãi suất vay thế chấp dành cho khách hàng cá nhân",
+        "label": "EVENT",
+        "evidence": "MSBvừa thông báo chương trình giảm thêm 2% lãi suất vay thế chấp dành cho khách hàng cá nhân."
+    },
+    {
+        "text": "2%",
+        "label": "RATE",
+        "evidence": "giảm thêm 2% lãi suất"
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "Mới đây,Sacombankcũng thông báo triển khai gói tín dụng 30.000 tỷ đồng dành cho khách hàng cá nhân"
+    },
+    {
+        "text": "Sacombankcũng thông báo triển khai gói tín dụng 30.000 tỷ đồng dành cho khách hàng cá nhân",
+        "label": "EVENT",
+        "evidence": "Sacombankcũng thông báo triển khai gói tín dụng 30.000 tỷ đồng dành cho khách hàng cá nhân nhằm tiếp sức hỗ trợ người dân, kích thích hoạt động sản xuất kinh doanh và tiêu dùng phục vụ đời sống từ nay đến cuối năm 2023."
+    },
+    {
+        "text": "30.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gói tín dụng 30.000 tỷ đồng"
+    },
+    {
+        "text": "cuối năm 2023",
+        "label": "DATE",
+        "evidence": "từ nay đến cuối năm 2023."
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "OCBvừa triển khai gói cho vay ưu đãi lãi suất"
+    },
+    {
+        "text": "OCBvừa triển khai gói cho vay ưu đãi lãi suất",
+        "label": "EVENT",
+        "evidence": "OCBvừa triển khai gói cho vay ưu đãi lãi suất áp dụng cho khách hàng có nhu cầu sản xuất kinh doanh ngắn hạn, mua nhà đất và ô tô với hạn mức 5.000 tỉ đồng."
+    },
+    {
+        "text": "5.000 tỉ đồng",
+        "label": "MONEY",
+        "evidence": "hạn mức 5.000 tỉ đồng."
+    },
+    {
+        "text": "từ tháng 8",
+        "label": "DATE",
+        "evidence": "từ tháng 8"
+    },
+    {
+        "text": "7,5%",
+        "label": "RATE",
+        "evidence": "áp dụng lãi suất ưu đãi từ 7,5%."
+    },
+    {
+        "text": "8,5% một năm",
+        "label": "RATE",
+        "evidence": "lãi suất 8,5% một năm."
+    },
+    {
+        "text": "Ngân hàng Bản Việt",
+        "label": "ORG",
+        "evidence": "Ngân hàng Bản Việt (BVBank)cũng đã triển khai gói vay 7.000 tỷ đồng"
+    },
+    {
+        "text": "BVBank",
+        "label": "ORG",
+        "evidence": "Ngân hàng Bản Việt (BVBank)"
+    },
+    {
+        "text": "Ngân hàng Bản Việt (BVBank)cũng đã triển khai gói vay 7.000 tỷ đồng kích cầu tiêu dùng",
+        "label": "EVENT",
+        "evidence": "Ngân hàng Bản Việt (BVBank)cũng đã triển khai gói vay 7.000 tỷ đồng kích cầu tiêu dùng với lãi suất chỉ từ 8,8%/năm, giảm đến 2%/năm so với lãi suất thông thường."
+    },
+    {
+        "text": "7.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gói vay 7.000 tỷ đồng"
+    },
+    {
+        "text": "8,8%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất chỉ từ 8,8%/năm"
+    },
+    {
+        "text": "giảm đến 2%/năm",
+        "label": "RATE",
+        "evidence": "giảm đến 2%/năm"
+    },
+    {
+        "text": "ngày 04/8 - 31/12/2023",
+        "label": "DATE",
+        "evidence": "Thời gian áp dụng từ ngày 04/8 - 31/12/2023."
+    },
+    {
+        "text": "Diễn đàn Cấp cao Cố vấn tài chính Việt Nam 2023",
+        "label": "EVENT",
+        "evidence": "Chia sẻ tại Diễn đàn Cấp cao Cố vấn tài chính Việt Nam 2023 (VWAS)"
+    },
+    {
+        "text": "VWAS",
+        "label": "EVENT",
+        "evidence": "Diễn đàn Cấp cao Cố vấn tài chính Việt Nam 2023 (VWAS)"
+    },
+    {
+        "text": "Báo Đầu tư",
+        "label": "ORG",
+        "evidence": "do Báo Đầu tư và Cộng đồng Cố vấn tài chính Việt Nam (VWA) tổ chức ngày 8/8"
+    },
+    {
+        "text": "Cộng đồng Cố vấn tài chính Việt Nam",
+        "label": "ORG",
+        "evidence": "Cộng đồng Cố vấn tài chính Việt Nam (VWA)"
+    },
+    {
+        "text": "VWA",
+        "label": "ORG",
+        "evidence": "Cộng đồng Cố vấn tài chính Việt Nam (VWA)"
+    },
+    {
+        "text": "ngày 8/8",
+        "label": "DATE",
+        "evidence": "tổ chức ngày 8/8"
+    },
+    {
+        "text": "TS. Lê Xuân Nghĩa",
+        "label": "PERSON",
+        "evidence": "TS. Lê Xuân Nghĩa, chuyên gia kinh tế cho rằng"
+    },
+    {
+        "text": "Ngân hàng Nhà nước",
+        "label": "ORG",
+        "evidence": "Ngân hàng Nhà nước đã nỗ lực giảm lãi suất điều hành."
+    },
+    {
+        "text": "17%/năm",
+        "label": "RATE",
+        "evidence": "lãi suất đi vay lên tới 17%/năm"
+    },
+    {
+        "text": "14%/năm",
+        "label": "RATE",
+        "evidence": "giảm xuống 14%/năm"
+    },
+    {
+        "text": "tháng 9 này",
+        "label": "DATE",
+        "evidence": "vào tháng 9 này"
+    },
+    {
+        "text": "4% lạm phát",
+        "label": "RATE",
+        "evidence": "trừ 4% lạm phát"
+    },
+    {
+        "text": "10%",
+        "label": "RATE",
+        "evidence": "lãi suất thực là 10%"
+    },
+    {
+        "text": "USD",
+        "label": "ASSET",
+        "evidence": "tỷ giá năm nay dự báo sẽ ổn định, USD khó “sốt” trở lại."
+    },
+    {
+        "text": "cuối năm nay",
+        "label": "DATE",
+        "evidence": "nhiều khả năng cuối năm nay Fed dừng tăng lãi suất"
+    },
+    {
+        "text": "Fed",
+        "label": "ORG",
+        "evidence": "cuối năm nay Fed dừng tăng lãi suất"
+    },
+    {
+        "text": "dừng tăng lãi suất",
+        "label": "EVENT",
+        "evidence": "Fed dừng tăng lãi suất"
+    },
+    {
+        "text": "cuối năm sau",
+        "label": "DATE",
+        "evidence": "giảm lãi suất từ cuối năm sau."
+    },
+    {
+        "text": "Châu Âu cũng có thể dừng tăng lãi suất",
+        "label": "EVENT",
+        "evidence": "Châu Âu cũng có thể dừng tăng lãi suất từ cuối năm nay do lạm phát giảm nhanh hơn dự đoán."
+    },
+    {
+        "text": "NHNN",
+        "label": "ORG",
+        "evidence": "Đây là cơ hội để NHNN giảm thêm lãi suất, hỗ trợ nền kinh tế."
+    },
+    {
+        "text": "giảm thêm lãi suất",
+        "label": "EVENT",
+        "evidence": "NHNN giảm thêm lãi suất"
+    },
+    {
+        "text": "Dragon Capital",
+        "label": "ORG",
+        "evidence": "Dragon Capital bán rònghơn 120 triệu cổ phiếu ACB"
+    },
+    {
+        "text": "bán rònghơn 120 triệu cổ phiếu ACB",
+        "label": "EVENT",
+        "evidence": "Dragon Capital bán rònghơn 120 triệu cổ phiếu ACB"
+    },
+    {
+        "text": "Dragon Financial Holdings Limited",
+        "label": "ORG",
+        "evidence": "Dragon Financial Holdings Limited - quỹ ngoại thuộc sở hữu của Vietnam Enterprise Investment Limited (VEIL - thành viên do Dragon Capital quản lý)"
+    },
+    {
+        "text": "Vietnam Enterprise Investment Limited",
+        "label": "ORG",
+        "evidence": "Vietnam Enterprise Investment Limited (VEIL - thành viên do Dragon Capital quản lý)"
+    },
+    {
+        "text": "VEIL",
+        "label": "ORG",
+        "evidence": "Vietnam Enterprise Investment Limited (VEIL"
+    },
+    {
+        "text": "bán ra 120,98 triệu cổ phiếu của Ngân hàng TMCP Á Châu (mã ACB)",
+        "label": "EVENT",
+        "evidence": "thông báo đã bán ra 120,98 triệu cổ phiếu của Ngân hàng TMCP Á Châu (mã ACB) trong ngày 7/8."
+    },
+    {
+        "text": "120,98 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "bán ra 120,98 triệu cổ phiếu"
+    },
+    {
+        "text": "Ngân hàng TMCP Á Châu",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (mã ACB)"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "Ngân hàng TMCP Á Châu (mã ACB)"
+    },
+    {
+        "text": "ACB",
+        "label": "TICKER",
+        "evidence": "mã ACB"
+    },
+    {
+        "text": "ngày 7/8",
+        "label": "DATE",
+        "evidence": "trong ngày 7/8."
+    },
+    {
+        "text": "6,92%",
+        "label": "RATE",
+        "evidence": "tỷ lệ sở hữu của quỹ ngoại này đã giảm từ 6,92% xuống còn 3,8%"
+    },
+    {
+        "text": "3,8%",
+        "label": "RATE",
+        "evidence": "giảm từ 6,92% xuống còn 3,8%"
+    },
+    {
+        "text": "147,77 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "lượng nắm giữ còn lại 147,77 triệu đơn vị."
+    },
+    {
+        "text": "KB Vietnam Focus Balanced Fund",
+        "label": "ORG",
+        "evidence": "KB Vietnam Focus Balanced Fund và Samsung Vietnam Securities Master Investment Trust [Equity]"
+    },
+    {
+        "text": "Samsung Vietnam Securities Master Investment Trust [Equity]",
+        "label": "ORG",
+        "evidence": "Samsung Vietnam Securities Master Investment Trust [Equity]"
+    },
+    {
+        "text": "mua vào lần lượt 150.000 và 587.000 cổ phiếu ACB",
+        "label": "EVENT",
+        "evidence": "đã mua vào lần lượt 150.000 và 587.000 cổ phiếu ACB."
+    },
+    {
+        "text": "150.000",
+        "label": "VOLUME",
+        "evidence": "mua vào lần lượt 150.000"
+    },
+    {
+        "text": "587.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "và 587.000 cổ phiếu ACB."
+    },
+    {
+        "text": "bán ròng 120,24 triệu cổ phiếu ACB",
+        "label": "EVENT",
+        "evidence": "nhóm Dragon Capital đã bán ròng 120,24 triệu cổ phiếu ACB qua đó giảm tỷ lệ sở hữu từ 8,26% xuống còn 5,16%."
+    },
+    {
+        "text": "120,24 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "bán ròng 120,24 triệu cổ phiếu"
+    },
+    {
+        "text": "giảm tỷ lệ sở hữu từ 8,26% xuống còn 5,16%",
+        "label": "EVENT",
+        "evidence": "giảm tỷ lệ sở hữu từ 8,26% xuống còn 5,16%."
+    },
+    {
+        "text": "8,26%",
+        "label": "RATE",
+        "evidence": "tỷ lệ sở hữu từ 8,26%"
+    },
+    {
+        "text": "5,16%",
+        "label": "RATE",
+        "evidence": "xuống còn 5,16%."
+    },
+    {
+        "text": "giao dịch thoả thuận khủng trên cổ phiếu ACB với tổng khối lượng 122,67 triệu đơn vị",
+        "label": "EVENT",
+        "evidence": "thị trường cũng xuất hiện giao dịch thoả thuận khủng trên cổ phiếu ACB với tổng khối lượng 122,67 triệu đơn vị."
+    },
+    {
+        "text": "122,67 triệu đơn vị",
+        "label": "VOLUME",
+        "evidence": "tổng khối lượng 122,67 triệu đơn vị."
+    },
+    {
+        "text": "hơn 3.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tổng giá trị giao dịch lên đến hơn 3.200 tỷ đồng"
+    },
+    {
+        "text": "26.100 đồng/cp",
+        "label": "PRICE",
+        "evidence": "giá thoả thuận bình quân 26.100 đồng/cp."
+    },
+    {
+        "text": "hơn 3.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "thu về hơn 3.100 tỷ đồng"
+    },
+    {
+        "text": "phiên giao dịch (8/8)",
+        "label": "DATE",
+        "evidence": "Trong phiên giao dịch (8/8)"
+    },
+    {
+        "text": "8/8",
+        "label": "DATE",
+        "evidence": "Trong phiên giao dịch (8/8)"
+    },
+    {
+        "text": "hơn 58 triệu cổ phiếu SGB của Saigonbank đã được trao tay giữa các nhà đầu tư theo phương thức thỏa thuận",
+        "label": "EVENT",
+        "evidence": "hơn 58 triệu cổ phiếu SGB của Saigonbank đã được trao tay giữa các nhà đầu tư theo phương thức thỏa thuận, giá trị hơn 1.400 tỷ đồng và chiếm gần 19% vốn cổ phần ngân hàng."
+    },
+    {
+        "text": "58 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 58 triệu cổ phiếu SGB"
+    },
+    {
+        "text": "SGB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu SGB của Saigonbank"
+    },
+    {
+        "text": "Saigonbank",
+        "label": "ORG",
+        "evidence": "cổ phiếu SGB của Saigonbank"
+    },
+    {
+        "text": "hơn 1.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị hơn 1.400 tỷ đồng"
+    },
+    {
+        "text": "gần 19% vốn cổ phần ngân hàng",
+        "label": "RATE",
+        "evidence": "chiếm gần 19% vốn cổ phần ngân hàng."
+    },
+    {
+        "text": "nhà đầu tư nước ngoài đã mua ròng 44 triệu cổ phiếu SGB",
+        "label": "EVENT",
+        "evidence": "nhà đầu tư nước ngoài đã mua ròng 44 triệu cổ phiếu SGB, giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "44 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "mua ròng 44 triệu cổ phiếu SGB"
+    },
+    {
+        "text": "hơn 1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị hơn 1.000 tỷ đồng."
+    },
+    {
+        "text": "14,3% vốn Saigonbank",
+        "label": "RATE",
+        "evidence": "Số cổ phiếu mà khối ngoại mua vào trong phiên hôm nay chiếm 14,3% vốn Saigonbank."
+    },
+    {
+        "text": "khối ngoại nâng sở hữu tại ngân hàng này lên 14,8%",
+        "label": "EVENT",
+        "evidence": "khối ngoại nâng sở hữu tại ngân hàng này lên 14,8%."
+    },
+    {
+        "text": "14,8%",
+        "label": "RATE",
+        "evidence": "lên 14,8%."
+    },
+    {
+        "text": "phiên 1/8",
+        "label": "DATE",
+        "evidence": "Trước đó, phiên 1/8 cũng có hơn 58,7 triệu cổ phiếu SGB được giao dịch thỏa thuận, với giá trị 863 tỷ đồng."
+    },
+    {
+        "text": "hơn 58,7 triệu cổ phiếu SGB được giao dịch thỏa thuận",
+        "label": "EVENT",
+        "evidence": "phiên 1/8 cũng có hơn 58,7 triệu cổ phiếu SGB được giao dịch thỏa thuận, với giá trị 863 tỷ đồng."
+    },
+    {
+        "text": "58,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 58,7 triệu cổ phiếu SGB"
+    },
+    {
+        "text": "863 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 863 tỷ đồng."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "SGB của Saigonbank là cổ phiếu nhỏ đang giao dịch trên UPCoM"
+    },
+    {
+        "text": "6.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Vốn hóa Saigonbank khoảng 6.100 tỷ đồng."
+    },
+    {
+        "text": "chuỗi 8 phiên tăng giá liên tục",
+        "label": "EVENT",
+        "evidence": "ghi nhận chuỗi 8 phiên tăng giá liên tục"
+    },
+    {
+        "text": "8 phiên",
+        "label": "DATE",
+        "evidence": "chuỗi 8 phiên"
+    },
+    {
+        "text": "tăng tổng cộng 56%",
+        "label": "RATE",
+        "evidence": "tăng tổng cộng 56%"
+    },
+    {
+        "text": "ngày 27/7",
+        "label": "DATE",
+        "evidence": "từ ngày 27/7"
+    },
+    {
+        "text": "quay đầu giảm",
+        "label": "EVENT",
+        "evidence": "cổ phiếu này đã quay đầu giảm trong tuần qua"
+    },
+    {
+        "text": "17.300 đồng/cp",
+        "label": "PRICE",
+        "evidence": "đóng cửa ở mức 17.300 đồng/cp"
+    },
+    {
+        "text": "giảm 12,6%",
+        "label": "RATE",
+        "evidence": "giảm 12,6%."
+    },
+    {
+        "text": "Ông Đặng Quang Tuấn",
+        "label": "PERSON",
+        "evidence": "Ông Đặng Quang Tuấn, con trai Chủ tịch VIB Đặng Khắc Vỹ, đã bán hết hơn 124,7 triệu cổ phiếu VIB đang sở hữu, hoàn thành 100% lượng đăng ký."
+    },
+    {
+        "text": "VIB",
+        "label": "ORG",
+        "evidence": "Chủ tịch VIB Đặng Khắc Vỹ"
+    },
+    {
+        "text": "Đặng Khắc Vỹ",
+        "label": "PERSON",
+        "evidence": "Chủ tịch VIB Đặng Khắc Vỹ"
+    },
+    {
+        "text": "bán hết hơn 124,7 triệu cổ phiếu VIB",
+        "label": "EVENT",
+        "evidence": "Ông Đặng Quang Tuấn, con trai Chủ tịch VIB Đặng Khắc Vỹ, đã bán hết hơn 124,7 triệu cổ phiếu VIB đang sở hữu, hoàn thành 100% lượng đăng ký."
+    },
+    {
+        "text": "124,7 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 124,7 triệu cổ phiếu VIB"
+    },
+    {
+        "text": "VIB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VIB"
+    },
+    {
+        "text": "21/7 - 9/8",
+        "label": "DATE",
+        "evidence": "Giao dịch được thực hiện trong thời gian 21/7 - 9/8 theo phương thức thỏa thuận."
+    },
+    {
+        "text": "gần 2.600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "có giá trị gần 2.600 tỷ đồng."
+    },
+    {
+        "text": "tháng 7",
+        "label": "DATE",
+        "evidence": "Trước đó hồi tháng 7"
+    },
+    {
+        "text": "đăng ký bán toàn bộ hơn 124,7 triệu cổ phiếu VIB",
+        "label": "EVENT",
+        "evidence": "con trai ông Đặng Khắc Vỹ đã đăng ký bán toàn bộ hơn 124,7 triệu cổ phiếu VIB sở hữu trong thời gian 21/7 - 21/8."
+    },
+    {
+        "text": "21/7 - 21/8",
+        "label": "DATE",
+        "evidence": "thời gian 21/7 - 21/8."
+    },
+    {
+        "text": "CTCP Funderra",
+        "label": "ORG",
+        "evidence": "CTCP Funderra, tổ chức có liên quan đến ông Đặng Khắc Vỹ, đã đăng ký mua 124,7 triệu cổ phiếu VIB để đầu tư."
+    },
+    {
+        "text": "đăng ký mua 124,7 triệu cổ phiếu VIB",
+        "label": "EVENT",
+        "evidence": "đã đăng ký mua 124,7 triệu cổ phiếu VIB để đầu tư."
+    },
+    {
+        "text": "10 ngày cuối tháng 7",
+        "label": "DATE",
+        "evidence": "Liên tiếp trong 10 ngày cuối tháng 7"
+    },
+    {
+        "text": "4-9/8",
+        "label": "DATE",
+        "evidence": "và từ 4-9/8"
+    },
+    {
+        "text": "cổ phiếu VIB ghi nhận các phiên có giao dịch thỏa thuận khối lượng lớn",
+        "label": "EVENT",
+        "evidence": "cổ phiếu VIB ghi nhận các phiên có giao dịch thỏa thuận khối lượng lớn."
+    },
+    {
+        "text": "Ngày 21/7",
+        "label": "DATE",
+        "evidence": "Ngày 21/7"
+    },
+    {
+        "text": "hơn 31 triệu cổ phiếu được sang tay",
+        "label": "EVENT",
+        "evidence": "hơn 31 triệu cổ phiếu được sang tay với giá trị hơn 650 tỷ đồng."
+    },
+    {
+        "text": "31 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 31 triệu cổ phiếu"
+    },
+    {
+        "text": "hơn 650 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị hơn 650 tỷ đồng."
+    },
+    {
+        "text": "Ngày 25, 27 và 31/7",
+        "label": "DATE",
+        "evidence": "Ngày 25, 27 và 31/7"
+    },
+    {
+        "text": "mỗi phiên ghi nhận hơn 21 triệu cổ phiếu VIB được thỏa thuận",
+        "label": "EVENT",
+        "evidence": "mỗi phiên ghi nhận hơn 21 triệu cổ phiếu VIB được thỏa thuận với quy mô đều trên 400 tỷ đồng."
+    },
+    {
+        "text": "21 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "hơn 21 triệu cổ phiếu VIB"
+    },
+    {
+        "text": "trên 400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "quy mô đều trên 400 tỷ đồng."
+    },
+    {
+        "text": "Đầu tháng 8",
+        "label": "DATE",
+        "evidence": "Đầu tháng 8"
+    }
+]

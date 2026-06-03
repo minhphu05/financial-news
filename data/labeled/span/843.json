@@ -1,0 +1,167 @@
+[
+    {
+        "text": "Báo Người Lao Động",
+        "label": "ORG",
+        "evidence": "Sau khiBáo Người Lao Độngđăng bài \"Khách hàng \"tá hoả\" vì phí SMS Banking tăng vọt\", các ý kiến tiếp tục phản ánh không chỉ BIDV mà nhiều ngân hàng khác cũng điều chỉnh phí thông báo biến động số dư (SMS Banking) thời gian qua."
+    },
+    {
+        "text": "BIDV",
+        "label": "ORG",
+        "evidence": "Sau khiBáo Người Lao Độngđăng bài \"Khách hàng \"tá hoả\" vì phí SMS Banking tăng vọt\", các ý kiến tiếp tục phản ánh không chỉ BIDV mà nhiều ngân hàng khác cũng điều chỉnh phí thông báo biến động số dư (SMS Banking) thời gian qua."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "anh nhận được thông báo phí SMS Banking từ tài khoản mở tại VietinBank là 220.000 đồng."
+    },
+    {
+        "text": "tháng 10 vừa qua",
+        "label": "DATE",
+        "evidence": "cho biết tháng 10 vừa qua, anh nhận được thông báo phí SMS Banking từ tài khoản mở tại VietinBank là 220.000 đồng."
+    },
+    {
+        "text": "220.000 đồng",
+        "label": "MONEY",
+        "evidence": "anh nhận được thông báo phí SMS Banking từ tài khoản mở tại VietinBank là 220.000 đồng."
+    },
+    {
+        "text": "Từ đầu tháng 10-2024",
+        "label": "DATE",
+        "evidence": "Từ đầu tháng 10-2024, BIDV đã điều chỉnh biểu phí dịch vụ thông báo biến động số dư tài khoản (BSMS) đối với khách hàng phổ thông là 10.000 đồng/thuê bao/tháng dưới 15 tin nhắn."
+    },
+    {
+        "text": "BIDV đã điều chỉnh biểu phí dịch vụ thông báo biến động số dư tài khoản (BSMS) đối với khách hàng phổ thông là 10.000 đồng/thuê bao/tháng dưới 15 tin nhắn",
+        "label": "EVENT",
+        "evidence": "Từ đầu tháng 10-2024, BIDV đã điều chỉnh biểu phí dịch vụ thông báo biến động số dư tài khoản (BSMS) đối với khách hàng phổ thông là 10.000 đồng/thuê bao/tháng dưới 15 tin nhắn."
+    },
+    {
+        "text": "10.000 đồng/thuê bao/tháng",
+        "label": "MONEY",
+        "evidence": "đối với khách hàng phổ thông là 10.000 đồng/thuê bao/tháng dưới 15 tin nhắn."
+    },
+    {
+        "text": "700 đồng/tin nhắn SMS",
+        "label": "MONEY",
+        "evidence": "phát sinh thực tế là 700 đồng/tin nhắn SMS."
+    },
+    {
+        "text": "BIDV SmartBanking",
+        "label": "ORG",
+        "evidence": "số BIDV SmartBanking (tin nhắn OTT) hoàn toàn miễn phí."
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "Vietcombankáp dụng cơ chế tính phí và mức phí duy trì dịch vụ SMS chủ động là 10.000 đồng/tháng/thuê bao nếu khách phát sinh dưới 20 tin nhắn/tháng."
+    },
+    {
+        "text": "Vietcombank áp dụng cơ chế tính phí và mức phí duy trì dịch vụ SMS chủ động là 10.000 đồng/tháng/thuê bao nếu khách phát sinh dưới 20 tin nhắn/tháng",
+        "label": "EVENT",
+        "evidence": "Vietcombankáp dụng cơ chế tính phí và mức phí duy trì dịch vụ SMS chủ động là 10.000 đồng/tháng/thuê bao nếu khách phát sinh dưới 20 tin nhắn/tháng."
+    },
+    {
+        "text": "10.000 đồng/tháng/thuê bao",
+        "label": "MONEY",
+        "evidence": "dịch vụ SMS chủ động là 10.000 đồng/tháng/thuê bao nếu khách phát sinh dưới 20 tin nhắn/tháng."
+    },
+    {
+        "text": "700 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "ngân hàng này tính phí thực tế là 700 đồng/tin nhắn."
+    },
+    {
+        "text": "Từ ngày 1-11",
+        "label": "DATE",
+        "evidence": "Từ ngày 1-11, Vietcombank cũng ngừng cung cấp dịch vụ SMS chủ động đối với khách hàng chưa hoàn thành nghĩa vụ thanh toán phí dịch vụ trong vòng 3 tháng liên tiếp gần nhất."
+    },
+    {
+        "text": "Vietcombank cũng ngừng cung cấp dịch vụ SMS chủ động đối với khách hàng chưa hoàn thành nghĩa vụ thanh toán phí dịch vụ trong vòng 3 tháng liên tiếp gần nhất",
+        "label": "EVENT",
+        "evidence": "Từ ngày 1-11, Vietcombank cũng ngừng cung cấp dịch vụ SMS chủ động đối với khách hàng chưa hoàn thành nghĩa vụ thanh toán phí dịch vụ trong vòng 3 tháng liên tiếp gần nhất."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "VietinBankcũng áp dụng cách tính phí SMS Banking là 11.000 đồng/tháng/thuê bao nếu số lượng tin nhắn dưới 14 tin nhắn."
+    },
+    {
+        "text": "VietinBank cũng áp dụng cách tính phí SMS Banking là 11.000 đồng/tháng/thuê bao nếu số lượng tin nhắn dưới 14 tin nhắn",
+        "label": "EVENT",
+        "evidence": "VietinBankcũng áp dụng cách tính phí SMS Banking là 11.000 đồng/tháng/thuê bao nếu số lượng tin nhắn dưới 14 tin nhắn."
+    },
+    {
+        "text": "11.000 đồng/tháng/thuê bao",
+        "label": "MONEY",
+        "evidence": "tính phí SMS Banking là 11.000 đồng/tháng/thuê bao nếu số lượng tin nhắn dưới 14 tin nhắn."
+    },
+    {
+        "text": "800 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "phát sinh thực tế sẽ là 800 đồng/tin nhắn."
+    },
+    {
+        "text": "Sacombank",
+        "label": "ORG",
+        "evidence": "TạiSacombank, khách hàng sử dụng dịch vụ SMS Banking sẽ phải trả phí 15.000 đồng/tháng/thuê bao khi số lượng tin nhắn nhận được dưới 30 tin nhắn."
+    },
+    {
+        "text": "khách hàng sử dụng dịch vụ SMS Banking sẽ phải trả phí 15.000 đồng/tháng/thuê bao khi số lượng tin nhắn nhận được dưới 30 tin nhắn",
+        "label": "EVENT",
+        "evidence": "TạiSacombank, khách hàng sử dụng dịch vụ SMS Banking sẽ phải trả phí 15.000 đồng/tháng/thuê bao khi số lượng tin nhắn nhận được dưới 30 tin nhắn."
+    },
+    {
+        "text": "15.000 đồng/tháng/thuê bao",
+        "label": "MONEY",
+        "evidence": "trả phí 15.000 đồng/tháng/thuê bao khi số lượng tin nhắn nhận được dưới 30 tin nhắn."
+    },
+    {
+        "text": "700 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "mức phí phải trả thêm sẽ là 700 đồng/tin nhắn."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBankcũng là một trong những ngân hàng thay đổi biểu phí dịch vụ SMS Banking gần đây, theo hướng áp dụng phí cố định sử dụng gói 100.000 đồng/tài khoản thanh toán/thuê bao/tháng và phí theo số lượng tin nhắn thực tế."
+    },
+    {
+        "text": "VPBank cũng là một trong những ngân hàng thay đổi biểu phí dịch vụ SMS Banking gần đây, theo hướng áp dụng phí cố định sử dụng gói 100.000 đồng/tài khoản thanh toán/thuê bao/tháng và phí theo số lượng tin nhắn thực tế",
+        "label": "EVENT",
+        "evidence": "VPBankcũng là một trong những ngân hàng thay đổi biểu phí dịch vụ SMS Banking gần đây, theo hướng áp dụng phí cố định sử dụng gói 100.000 đồng/tài khoản thanh toán/thuê bao/tháng và phí theo số lượng tin nhắn thực tế."
+    },
+    {
+        "text": "100.000 đồng/tài khoản thanh toán/thuê bao/tháng",
+        "label": "MONEY",
+        "evidence": "phí cố định sử dụng gói 100.000 đồng/tài khoản thanh toán/thuê bao/tháng và phí theo số lượng tin nhắn thực tế."
+    },
+    {
+        "text": "10.000 đồng",
+        "label": "MONEY",
+        "evidence": "dưới 15 tin nhắn là 10.000 đồng;"
+    },
+    {
+        "text": "20.000 đồng/tháng/thuê bao",
+        "label": "MONEY",
+        "evidence": "từ 16-30 tin nhắn là 20.000 đồng/tháng/thuê bao…"
+    },
+    {
+        "text": "100.000 đồng",
+        "label": "MONEY",
+        "evidence": "phí sẽ là 100.000 đồng và 700 đồng/tin nhắn đối với tin nhắn từ 101 trở lên."
+    },
+    {
+        "text": "700 đồng/tin nhắn",
+        "label": "MONEY",
+        "evidence": "100.000 đồng và 700 đồng/tin nhắn đối với tin nhắn từ 101 trở lên."
+    },
+    {
+        "text": "Hiệp hội Ngân hàng Việt Nam",
+        "label": "ORG",
+        "evidence": "Thời gian qua, Hiệp hội Ngân hàng Việt Nam và các ngân hàng đã nhiều lần kiến nghị các nhà mạng giảm cước phí tin nhắn dịch vụ - đang được tính cao gấp khoảng 3 lần so với phí tin nhắn bình thường."
+    },
+    {
+        "text": "Hiệp hội Ngân hàng Việt Nam và các ngân hàng đã nhiều lần kiến nghị các nhà mạng giảm cước phí tin nhắn dịch vụ",
+        "label": "EVENT",
+        "evidence": "Thời gian qua, Hiệp hội Ngân hàng Việt Nam và các ngân hàng đã nhiều lần kiến nghị các nhà mạng giảm cước phí tin nhắn dịch vụ - đang được tính cao gấp khoảng 3 lần so với phí tin nhắn bình thường."
+    }
+]

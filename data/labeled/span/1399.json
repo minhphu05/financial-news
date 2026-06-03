@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước Việt Nam",
+        "label": "EVENT",
+        "evidence": "Theo Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước Việt Nam, từ ngày 1/7/2024, khách hàng của các ngân hàng khi thực hiện một số giao dịch trực tuyến sẽ bắt buộc xác thực bằng sinh trắc học khuôn mặt khớp đúng với dữ liệu được lưu trữ trong chip của căn cước công dân (CCCD)."
+    },
+    {
+        "text": "Ngân hàng Nhà nước Việt Nam",
+        "label": "ORG",
+        "evidence": "Theo Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước Việt Nam, từ ngày 1/7/2024, khách hàng của các ngân hàng khi thực hiện một số giao dịch trực tuyến sẽ bắt buộc xác thực bằng sinh trắc học khuôn mặt khớp đúng với dữ liệu được lưu trữ trong chip của căn cước công dân (CCCD)."
+    },
+    {
+        "text": "1/7/2024",
+        "label": "DATE",
+        "evidence": "Theo Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước Việt Nam, từ ngày 1/7/2024, khách hàng của các ngân hàng khi thực hiện một số giao dịch trực tuyến sẽ bắt buộc xác thực bằng sinh trắc học khuôn mặt khớp đúng với dữ liệu được lưu trữ trong chip của căn cước công dân (CCCD)."
+    },
+    {
+        "text": "khách hàng của các ngân hàng khi thực hiện một số giao dịch trực tuyến sẽ bắt buộc xác thực bằng sinh trắc học khuôn mặt khớp đúng với dữ liệu được lưu trữ trong chip của căn cước công dân (CCCD)",
+        "label": "EVENT",
+        "evidence": "Theo Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước Việt Nam, từ ngày 1/7/2024, khách hàng của các ngân hàng khi thực hiện một số giao dịch trực tuyến sẽ bắt buộc xác thực bằng sinh trắc học khuôn mặt khớp đúng với dữ liệu được lưu trữ trong chip của căn cước công dân (CCCD)."
+    },
+    {
+        "text": "VietinBank",
+        "label": "ORG",
+        "evidence": "TạiVietinBank, ngân hàng này cho biết các giao dịch bắt buộc phải xác thực sinh trắc học khuôn mặt theo quy định của Ngân hàng Nhà nước Việt Nam, gồm: Giao dịch      chuyển tiền giá trị từ 10 triệu đồng/lần; Giao dịch      chuyển tiền cộng dồn có giá trị từ 20 triệu đồng/ngày;  Giao dịch      thanh toán cộng dồn có giá trị 100 triệu đồng/ngày;  Giao dịch      lần đầu trên VietinBank iPay Mobile;  Chuyển      đổi thiết bị điện thoại sử dụng VietinBank iPay Mobile."
+    },
+    {
+        "text": "các giao dịch bắt buộc phải xác thực sinh trắc học khuôn mặt theo quy định của Ngân hàng Nhà nước Việt Nam, gồm: Giao dịch      chuyển tiền giá trị từ 10 triệu đồng/lần; Giao dịch      chuyển tiền cộng dồn có giá trị từ 20 triệu đồng/ngày;  Giao dịch      thanh toán cộng dồn có giá trị 100 triệu đồng/ngày;  Giao dịch      lần đầu trên VietinBank iPay Mobile;  Chuyển      đổi thiết bị điện thoại sử dụng VietinBank iPay Mobile.",
+        "label": "EVENT",
+        "evidence": "TạiVietinBank, ngân hàng này cho biết các giao dịch bắt buộc phải xác thực sinh trắc học khuôn mặt theo quy định của Ngân hàng Nhà nước Việt Nam, gồm: Giao dịch      chuyển tiền giá trị từ 10 triệu đồng/lần; Giao dịch      chuyển tiền cộng dồn có giá trị từ 20 triệu đồng/ngày;  Giao dịch      thanh toán cộng dồn có giá trị 100 triệu đồng/ngày;  Giao dịch      lần đầu trên VietinBank iPay Mobile;  Chuyển      đổi thiết bị điện thoại sử dụng VietinBank iPay Mobile."
+    },
+    {
+        "text": "10 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch      chuyển tiền giá trị từ 10 triệu đồng/lần;"
+    },
+    {
+        "text": "20 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch      chuyển tiền cộng dồn có giá trị từ 20 triệu đồng/ngày;"
+    },
+    {
+        "text": "100 triệu đồng",
+        "label": "MONEY",
+        "evidence": "Giao dịch      thanh toán cộng dồn có giá trị 100 triệu đồng/ngày;"
+    },
+    {
+        "text": "VietinBank iPay Mobile",
+        "label": "ASSET",
+        "evidence": "Giao dịch      lần đầu trên VietinBank iPay Mobile;"
+    },
+    {
+        "text": "Facepay",
+        "label": "ASSET",
+        "evidence": "Bước 3:Chọn \"Cài đặt Facepay\"."
+    }
+]

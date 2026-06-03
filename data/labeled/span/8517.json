@@ -1,0 +1,247 @@
+[
+    {
+        "text": "Reuters",
+        "label": "ORG",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "Tập đoàn CapitaLand",
+        "label": "ORG",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes",
+        "label": "EVENT",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "1,5 tỷ USD",
+        "label": "MONEY",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Theo nguồn tin của Reuters, Tập đoàn CapitaLand đang đàm phán mua tài sản trị giá khoảng 1,5 tỷ USD từ Vinhomes (mã:VHM)."
+    },
+    {
+        "text": "Reuters",
+        "label": "ORG",
+        "evidence": "Nguồn tin của Reuters cho biết CapitaLand đang xem xét mua một phần dự án Ocean Park 3 của Vinhomes ở Hà Nội hoặc một dự án khác ở phía bắc TP Hải Phòng."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Nguồn tin của Reuters cho biết CapitaLand đang xem xét mua một phần dự án Ocean Park 3 của Vinhomes ở Hà Nội hoặc một dự án khác ở phía bắc TP Hải Phòng."
+    },
+    {
+        "text": "dự án Ocean Park 3",
+        "label": "ASSET",
+        "evidence": "Nguồn tin của Reuters cho biết CapitaLand đang xem xét mua một phần dự án Ocean Park 3 của Vinhomes ở Hà Nội hoặc một dự án khác ở phía bắc TP Hải Phòng."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Nguồn tin của Reuters cho biết CapitaLand đang xem xét mua một phần dự án Ocean Park 3 của Vinhomes ở Hà Nội hoặc một dự án khác ở phía bắc TP Hải Phòng."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Trước khi có thông tin CapitaLand đang đàm phán mua bất động sản từ Vinhomes, ở Việt Nam, Tập đoàn này đang sở hữu trung tâm thương mại The Oxygen tại Quận 2, TP.HCM."
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Trước khi có thông tin CapitaLand đang đàm phán mua bất động sản từ Vinhomes, ở Việt Nam, Tập đoàn này đang sở hữu trung tâm thương mại The Oxygen tại Quận 2, TP.HCM."
+    },
+    {
+        "text": "The Oxygen",
+        "label": "ASSET",
+        "evidence": "Trước khi có thông tin CapitaLand đang đàm phán mua bất động sản từ Vinhomes, ở Việt Nam, Tập đoàn này đang sở hữu trung tâm thương mại The Oxygen tại Quận 2, TP.HCM."
+    },
+    {
+        "text": "The Vista",
+        "label": "ASSET",
+        "evidence": "Đây là khu phức hợp mua sắm ba tầng với tổng diện tích rộng rãi hơn 8.000 m2 tại khu vực thương mại của tòa nhà cao cấp The Vista."
+    },
+    {
+        "text": "Somerset Vista Hồ Chí Minh",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, 100 căn tại Somerset Vista Hồ Chí Minh, được quản lý bởi Ascott Limited, cũng nằm trong dự án này."
+    },
+    {
+        "text": "Ascott Limited",
+        "label": "ORG",
+        "evidence": "Ngoài ra, 100 căn tại Somerset Vista Hồ Chí Minh, được quản lý bởi Ascott Limited, cũng nằm trong dự án này."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "ZENITY",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "DEFINE",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "De La Sol",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "D2eight",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "d'Edge Thao Dien",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "D1MENSION",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "Feliz en Vista",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "Vista Verde",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "The Vista",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "The Krista",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "Kris Vue",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "PARCSpring",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "Heritage WestLake",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "Seasons Avenue",
+        "label": "ASSET",
+        "evidence": "Trong lĩnh vực nhà ở, ﻿CapitaLand đang là chủ đầu tư của 14 dự án chung cư ở cả Hà Nội và TP.HCM, trong đó tại TP.HCM có 12 dự án gồm ZENITY (Quận 1), DEFINE (phường Thạch Mỹ Lợi), De La Sol (Quận 4), D2eight (Quận 2), d'Edge Thao Dien (Quận 2), D1MENSION (Quận 1), Feliz en Vista (Quận 2), Vista Verde (Quận 2), The Vista (Quận 2), The Krista (Quận 2), Kris Vue (Quận 2), PARCSpring (Quận 2) và Hà Nội có Heritage WestLake (Phú Thượng, Tây Hồ), Seasons Avenue (Mộ Lao, Hà Đông)."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Một số dự án của CapitaLand tại Việt Nam."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Về CapitaLand, đây là một trong những tập đoàn bất động sản đa dạng lớn nhất Châu Á với trụ sở chính tại Singapore."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "CapitaLand hiện sở hữu 1.272 bất động sản tại 269 thành phố và 41 quốc gia trên toàn cầu, trong đó hai thị trường chính là Singapore và Trung Quốc với việc sở hữu lần lượt 187 và 303 bất động sản tại 2 quốc gia này."
+    },
+    {
+        "text": "1.272 bất động sản",
+        "label": "VOLUME",
+        "evidence": "CapitaLand hiện sở hữu 1.272 bất động sản tại 269 thành phố và 41 quốc gia trên toàn cầu, trong đó hai thị trường chính là Singapore và Trung Quốc với việc sở hữu lần lượt 187 và 303 bất động sản tại 2 quốc gia này."
+    },
+    {
+        "text": "187 bất động sản",
+        "label": "VOLUME",
+        "evidence": "CapitaLand hiện sở hữu 1.272 bất động sản tại 269 thành phố và 41 quốc gia trên toàn cầu, trong đó hai thị trường chính là Singapore và Trung Quốc với việc sở hữu lần lượt 187 và 303 bất động sản tại 2 quốc gia này."
+    },
+    {
+        "text": "303 bất động sản",
+        "label": "VOLUME",
+        "evidence": "CapitaLand hiện sở hữu 1.272 bất động sản tại 269 thành phố và 41 quốc gia trên toàn cầu, trong đó hai thị trường chính là Singapore và Trung Quốc với việc sở hữu lần lượt 187 và 303 bất động sản tại 2 quốc gia này."
+    },
+    {
+        "text": "Ascott Limited",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, họ cũng tham gia vào thị trường nhà nghỉ, khách sạn và khu nghỉ dưỡng thông qua công ty con là Ascott Limited."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Với lĩnh vực nhà ở, CapitaLand đầu tư vào hàng loạt các dự án lớn ở Singapore, Trung Quốc, Việt Nam và Indonesia."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Hiện tại, CapitaLand tách thành hai nhánh công ty độc lập là CapitaLand Investment - chuyên về quản lý đầu tư bất động sản và CapitaLand Development - chuyên về mảng phát triển bất động sản được tư nhân hóa."
+    },
+    {
+        "text": "CapitaLand tách thành hai nhánh công ty độc lập là CapitaLand Investment - chuyên về quản lý đầu tư bất động sản và CapitaLand Development - chuyên về mảng phát triển bất động sản được tư nhân hóa",
+        "label": "EVENT",
+        "evidence": "Hiện tại, CapitaLand tách thành hai nhánh công ty độc lập là CapitaLand Investment - chuyên về quản lý đầu tư bất động sản và CapitaLand Development - chuyên về mảng phát triển bất động sản được tư nhân hóa."
+    },
+    {
+        "text": "CapitaLand Investment",
+        "label": "ORG",
+        "evidence": "Hiện tại, CapitaLand tách thành hai nhánh công ty độc lập là CapitaLand Investment - chuyên về quản lý đầu tư bất động sản và CapitaLand Development - chuyên về mảng phát triển bất động sản được tư nhân hóa."
+    },
+    {
+        "text": "CapitaLand Development",
+        "label": "ORG",
+        "evidence": "Hiện tại, CapitaLand tách thành hai nhánh công ty độc lập là CapitaLand Investment - chuyên về quản lý đầu tư bất động sản và CapitaLand Development - chuyên về mảng phát triển bất động sản được tư nhân hóa."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Về tình hình kinh doanh năm 2022, doanh thu CapitaLand tăng 25% so với cùng kỳ lên 2,87 tỷ đô la Singapore."
+    },
+    {
+        "text": "CapitaLand",
+        "label": "ORG",
+        "evidence": "Về tình hình kinh doanh năm 2022, doanh thu CapitaLand tăng 25% so với cùng kỳ lên 2,87 tỷ đô la Singapore."
+    },
+    {
+        "text": "tăng 25%",
+        "label": "RATE",
+        "evidence": "Về tình hình kinh doanh năm 2022, doanh thu CapitaLand tăng 25% so với cùng kỳ lên 2,87 tỷ đô la Singapore."
+    },
+    {
+        "text": "2,87 tỷ đô la Singapore",
+        "label": "MONEY",
+        "evidence": "Về tình hình kinh doanh năm 2022, doanh thu CapitaLand tăng 25% so với cùng kỳ lên 2,87 tỷ đô la Singapore."
+    },
+    {
+        "text": "giảm 36%",
+        "label": "RATE",
+        "evidence": "Song, lợi nhuận ròng ghi nhận giảm 36%, xuống 861 triệu đô la Singapore do lãi từ bán bất động sản ở Trung Quốc suy giảm."
+    },
+    {
+        "text": "861 triệu đô la Singapore",
+        "label": "MONEY",
+        "evidence": "Song, lợi nhuận ròng ghi nhận giảm 36%, xuống 861 triệu đô la Singapore do lãi từ bán bất động sản ở Trung Quốc suy giảm."
+    }
+]

@@ -1,0 +1,427 @@
+[
+    {
+        "text": "phiên giảm mạnh bất ngờ",
+        "label": "EVENT",
+        "evidence": "Sau phiên giảm mạnh bất ngờ đầu tháng 2, chứng khoán Việt Nam phiên 2/2 ghi nhận những rung lắc gần như toàn bộ thời gian giao dịch."
+    },
+    {
+        "text": "đầu tháng 2",
+        "label": "DATE",
+        "evidence": "Sau phiên giảm mạnh bất ngờ đầu tháng 2, chứng khoán Việt Nam phiên 2/2 ghi nhận những rung lắc gần như toàn bộ thời gian giao dịch."
+    },
+    {
+        "text": "phiên 2/2",
+        "label": "DATE",
+        "evidence": "Sau phiên giảm mạnh bất ngờ đầu tháng 2, chứng khoán Việt Nam phiên 2/2 ghi nhận những rung lắc gần như toàn bộ thời gian giao dịch."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "VN-Index không dưới 5 lần đổi sắc xanh đỏ, tâm lý thận trọng của nhà đầu tư khiến thanh khoản trở nên “hụt hơi” đáng kể so với phiên trước."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "VN-Index không dưới 5 lần đổi sắc xanh đỏ, tâm lý thận trọng của nhà đầu tư khiến thanh khoản trở nên “hụt hơi” đáng kể so với phiên trước."
+    },
+    {
+        "text": "phiên giao dịch",
+        "label": "EVENT",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "TICKER",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "tăng 1,62 điểm",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "+0,15%",
+        "label": "RATE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "1.077,59 điểm",
+        "label": "PRICE",
+        "evidence": "Kết thúc phiên giao dịch, VN-Indextăng 1,62điểm(+0,15%)lên1.077,59điểm."
+    },
+    {
+        "text": "Thanh khoản trên HoSE giảm 37%",
+        "label": "EVENT",
+        "evidence": "Thanh khoản trên HoSE giảm 37% với tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng; trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE giảm 37% với tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng; trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "giảm 37%",
+        "label": "RATE",
+        "evidence": "Thanh khoản trên HoSE giảm 37% với tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng; trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Thanh khoản trên HoSE giảm 37% với tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng; trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "11.053 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Thanh khoản trên HoSE giảm 37% với tổng giá trị giao dịch trên HoSE đạt 11.053 tỷ đồng; trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "9.923 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "trong đó giá trị khớp lệnh đạt vỏn vẹn 9.923 tỷ đồng."
+    },
+    {
+        "text": "mua ròng phiên thứ 2 liên tiếp",
+        "label": "EVENT",
+        "evidence": "nhà đầu tư ngoại trở lại mua ròng phiên thứ 2 liên tiếp với tổng giá trị lên tới 494tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "tổng giá trị lên tới 494 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "nhà đầu tư ngoại trở lại mua ròng phiên thứ 2 liên tiếp với tổng giá trị lên tới 494tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "494 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nhà đầu tư ngoại trở lại mua ròng phiên thứ 2 liên tiếp với tổng giá trị lên tới 494tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, STB trong khi bán ròng KBC, VHM."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, STB trong khi bán ròng KBC, VHM."
+    },
+    {
+        "text": "bán ròng KBC, VHM",
+        "label": "EVENT",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, STB trong khi bán ròng KBC, VHM."
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, STB trong khi bán ròng KBC, VHM."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "Lực mua của nhà đầu tư ngoại tập trung giải ngân vào HPG, STB trong khi bán ròng KBC, VHM."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 432tỷ đồng"
+    },
+    {
+        "text": "khối ngoại mua ròng",
+        "label": "EVENT",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 432tỷ đồng"
+    },
+    {
+        "text": "giá trị xấp xỉ 432 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 432tỷ đồng"
+    },
+    {
+        "text": "432 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HoSE, khối ngoại mua ròng vớigiá trị xấp xỉ 432tỷ đồng"
+    },
+    {
+        "text": "HPG",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 136 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất với giá trị 136 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 136 tỷ đồng."
+    },
+    {
+        "text": "giá trị 136 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 136 tỷ đồng."
+    },
+    {
+        "text": "136 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, HPG được mua ròng mạnh nhất với giá trị 136 tỷ đồng."
+    },
+    {
+        "text": "STB",
+        "label": "TICKER",
+        "evidence": "Bên cạnh đó, STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 100 tỷ đồng."
+    },
+    {
+        "text": "mua ròng mạnh trên HoSE với 100 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Bên cạnh đó, STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 100 tỷ đồng."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Bên cạnh đó, STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 100 tỷ đồng."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Bên cạnh đó, STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 100 tỷ đồng."
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Bên cạnh đó, STB xếp tiếp theo danh sách mua ròng mạnh trên HoSE với 100 tỷ đồng."
+    },
+    {
+        "text": "mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "chứng chỉ quỹ là FUEVFVND",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "FUEVFVND",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "giá trị lần lượt 38 tỷ và 35 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "38 tỷ",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "35 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngoài ra, khối ngoại cũng mua ròng chứng chỉ quỹ là FUEVFVND và cổ phiếu VIC với giá trị lần lượt 38 tỷ và 35 tỷ đồng."
+    },
+    {
+        "text": "KBC",
+        "label": "TICKER",
+        "evidence": "Ngược lại, KBC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 47 tỷ đồng; VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "bán ròng mạnh nhất của khối ngoại với giá trị 47 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Ngược lại, KBC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 47 tỷ đồng; VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "giá trị 47 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Ngược lại, KBC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 47 tỷ đồng; VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "47 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Ngược lại, KBC chịu áp lực bán ròng mạnh nhất của khối ngoại với giá trị 47 tỷ đồng; VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "VHM",
+        "label": "TICKER",
+        "evidence": "VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "bán ròng 30 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "30 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "30 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "VHM bị bán ròng 30 tỷ đồng."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "Theo sau VHM, MSN bị bán khoảng 10 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "bán khoảng 10 tỷ đồng mỗi mã",
+        "label": "EVENT",
+        "evidence": "Theo sau VHM, MSN bị bán khoảng 10 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "khoảng 10 tỷ đồng mỗi mã",
+        "label": "VOLUME",
+        "evidence": "Theo sau VHM, MSN bị bán khoảng 10 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Theo sau VHM, MSN bị bán khoảng 10 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị khoảng 42 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại mua ròng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị khoảng 42 tỷ đồng"
+    },
+    {
+        "text": "giá trị khoảng 42 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị khoảng 42 tỷ đồng"
+    },
+    {
+        "text": "42 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên HNX, khối ngoại mua ròng với giá trị khoảng 42 tỷ đồng"
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài mua ròng gần 21 tỷ đồng"
+    },
+    {
+        "text": "nhà đầu tư nước ngoài mua ròng",
+        "label": "EVENT",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài mua ròng gần 21 tỷ đồng"
+    },
+    {
+        "text": "gần 21 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài mua ròng gần 21 tỷ đồng"
+    },
+    {
+        "text": "21 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Trên sàn UPCoM, nhà đầu tư nước ngoài mua ròng gần 21 tỷ đồng"
+    },
+    {
+        "text": "BSR",
+        "label": "TICKER",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 18 tỷ đồng; ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "mua ròng mạnh nhất 18 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 18 tỷ đồng; ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "18 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 18 tỷ đồng; ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "18 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Tại chiều mua, BSR được khối ngoại mua ròng mạnh nhất 18 tỷ đồng; ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG",
+        "label": "EVENT",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "VOLUME",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "1 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "ngoài ra họ cũng mua ròng tại MCH (1 tỷ đồng), VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "mua ròng với giá trị mỗi mã vài trăm triệu đồng",
+        "label": "EVENT",
+        "evidence": "VEA, VTP, LTG,... cũng được mua ròng với giá trị mỗi mã vài trăm triệu đồng."
+    },
+    {
+        "text": "cổ phiếu SIP",
+        "label": "ASSET",
+        "evidence": "Tại chiều bán, cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    },
+    {
+        "text": "SIP",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    },
+    {
+        "text": "SWC",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    },
+    {
+        "text": "HU4",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    },
+    {
+        "text": "VGG",
+        "label": "TICKER",
+        "evidence": "Tại chiều bán, cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    },
+    {
+        "text": "bị bán mạnh",
+        "label": "EVENT",
+        "evidence": "cổ phiếu SIP, SWC, HU4, VGG,.. bị bán mạnh với giá trị không nhiều."
+    }
+]

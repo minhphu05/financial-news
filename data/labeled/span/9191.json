@@ -1,0 +1,782 @@
+[
+    {
+        "text": "PRIVATE 100",
+        "label": "EVENT",
+        "evidence": "Nối tiếp danh sách PRIVATE 100 được công bố cách đây một tuần"
+    },
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "CafeF tiếp tục công bố danh sách VNTAX 200"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "CafeF tiếp tục công bố danh sách VNTAX 200"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "lớn nhất Việt Nam năm 2025 (dựa trên số thực nộp của năm 2024)"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "lớn nhất Việt Nam năm 2025 (dựa trên số thực nộp của năm 2024)"
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "EVENT",
+        "evidence": "PRIVATE 100 cùng với VNTAX 200 nằm trong hệ thống vinh danh CafeF Lists"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "PRIVATE 100 cùng với VNTAX 200 nằm trong hệ thống vinh danh CafeF Lists"
+    },
+    {
+        "text": "CafeF Lists",
+        "label": "ORG",
+        "evidence": "PRIVATE 100 cùng với VNTAX 200 nằm trong hệ thống vinh danh CafeF Lists"
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "EVENT",
+        "evidence": "PRIVATE 100 là danh sách vinh danh riêng cho khối doanh nghiệp tư nhân với mức nộp ngân sách từ 100 tỷ đồng trở lên"
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nộp ngân sách từ 100 tỷ đồng trở lên"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "VNTAX 200 là danh sách quy tụ tất cả các doanh nghiệp có mức nộp ngân sách trong năm tài chính từ 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "nộp ngân sách trong năm tài chính từ 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "mức nộp ngân sách tối thiểu để vào danh sách chung của VNTAX 200 cũng như các danh sách ngành liên quan ở mức tối thiểu 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mức tối thiểu 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Danh sách công bố năm 2024 được thống kê theo số liệu thực nộp trong niên độ tài chính (12 tháng) kết thúc vào các thời điểm trong khoảng thời gian từ 30/6/2024 đến 31/3/2025."
+    },
+    {
+        "text": "30/6/2024",
+        "label": "DATE",
+        "evidence": "khoảng thời gian từ 30/6/2024 đến 31/3/2025"
+    },
+    {
+        "text": "31/3/2025",
+        "label": "DATE",
+        "evidence": "khoảng thời gian từ 30/6/2024 đến 31/3/2025"
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gần 50 doanh nghiệp nộp ngân sách trên 1.000 tỷ đồng"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "ở VNTAX 200, hiện đã có 125 doanh nghiệp"
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "17 công ty nộp trên 10.000 tỷ đồng"
+    },
+    {
+        "text": "VNTAX200",
+        "label": "EVENT",
+        "evidence": "Tổng nộp ngân sách của 200 doanh nghiệp trong danh sách VNTAX200 đạt 794.000 tỷ đồng"
+    },
+    {
+        "text": "794.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 794.000 tỷ đồng, tăng 109.000 tỷ so với danh sách năm ngoái"
+    },
+    {
+        "text": "109.000 tỷ",
+        "label": "MONEY",
+        "evidence": "tăng 109.000 tỷ so với danh sách năm ngoái"
+    },
+    {
+        "text": "723.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Top 100 doanh nghiệp dẫn đầu nộp 723.000 tỷ đồng"
+    },
+    {
+        "text": "244.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mức nộp 244.000 tỷ đồng của Top 100 doanh nghiệp tư nhân"
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "EVENT",
+        "evidence": "thuộc danh sách PRIVATE 100"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "số 100 doanh nghiệp lớn nhất của VNTAX 200"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "như Vinhomes (công ty con của Vingroup)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vinhomes (công ty con của Vingroup)"
+    },
+    {
+        "text": "PVEP",
+        "label": "ORG",
+        "evidence": "hay PVEP, BSR, PV GAS… (công ty con của PVN)"
+    },
+    {
+        "text": "BSR",
+        "label": "ORG",
+        "evidence": "PVEP, BSR, PV GAS… (công ty con của PVN)"
+    },
+    {
+        "text": "PV GAS",
+        "label": "ORG",
+        "evidence": "PVEP, BSR, PV GAS… (công ty con của PVN)"
+    },
+    {
+        "text": "PVN",
+        "label": "ORG",
+        "evidence": "PVEP, BSR, PV GAS… (công ty con của PVN)"
+    },
+    {
+        "text": "PVN",
+        "label": "ORG",
+        "evidence": "bao gồm 4 tập đoàn nhà nước (PVN, Viettel, Petrolimex và Vinacomin)"
+    },
+    {
+        "text": "Viettel",
+        "label": "ORG",
+        "evidence": "bao gồm 4 tập đoàn nhà nước (PVN, Viettel, Petrolimex và Vinacomin)"
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "bao gồm 4 tập đoàn nhà nước (PVN, Viettel, Petrolimex và Vinacomin)"
+    },
+    {
+        "text": "Vinacomin",
+        "label": "ORG",
+        "evidence": "bao gồm 4 tập đoàn nhà nước (PVN, Viettel, Petrolimex và Vinacomin)"
+    },
+    {
+        "text": "Heineken",
+        "label": "ORG",
+        "evidence": "4 doanh nghiệp FDI (Heineken, NSRP, Toyota và Vietsovpetro)"
+    },
+    {
+        "text": "NSRP",
+        "label": "ORG",
+        "evidence": "4 doanh nghiệp FDI (Heineken, NSRP, Toyota và Vietsovpetro)"
+    },
+    {
+        "text": "Toyota",
+        "label": "ORG",
+        "evidence": "4 doanh nghiệp FDI (Heineken, NSRP, Toyota và Vietsovpetro)"
+    },
+    {
+        "text": "Vietsovpetro",
+        "label": "ORG",
+        "evidence": "4 doanh nghiệp FDI (Heineken, NSRP, Toyota và Vietsovpetro)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "2 doanh nghiệp tư nhân là Vingroup và THACO"
+    },
+    {
+        "text": "THACO",
+        "label": "ORG",
+        "evidence": "2 doanh nghiệp tư nhân là Vingroup và THACO"
+    },
+    {
+        "text": "20.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mức nộp ngân sách trên 20.000 tỷ đồng"
+    },
+    {
+        "text": "362.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "10 doanh nghiệp dẫn đầu đã nộp 362.000 tỷ đồng"
+    },
+    {
+        "text": "45%",
+        "label": "RATE",
+        "evidence": "chiếm 45% tổng nộp của Top 200 doanh nghiệp"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup đã bứt phá ngoạn mục lên vị trí thứ 2"
+    },
+    {
+        "text": "Tập đoàn Công nghiệp – Năng lượng quốc gia Việt Nam",
+        "label": "ORG",
+        "evidence": "chỉ sau tập đoàn Công nghiệp – Năng lượng quốc gia Việt Nam (PetroVietnam)"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "Tập đoàn Công nghiệp – Năng lượng quốc gia Việt Nam (PetroVietnam)"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Mức nộp của Vingroup đã tăng gần 25.300 tỷ so với năm 2023"
+    },
+    {
+        "text": "25.300 tỷ",
+        "label": "MONEY",
+        "evidence": "đã tăng gần 25.300 tỷ so với năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "so với năm 2023 lên 56.200 tỷ đồng"
+    },
+    {
+        "text": "56.200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 56.200 tỷ đồng"
+    },
+    {
+        "text": "Vinhomes",
+        "label": "ORG",
+        "evidence": "Vinhomes (bao gồm số nộp từ dự án Vinhomes Global Gate)"
+    },
+    {
+        "text": "Vinhomes Global Gate",
+        "label": "ASSET",
+        "evidence": "dự án Vinhomes Global Gate"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "công ty thành viên của Vingroup trong lĩnh vực phát triển bất động sản"
+    },
+    {
+        "text": "40.100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đã nộp 40.100 tỷ đồng trong năm ngoái"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "PetroVietnam vẫn tiếp tục là đơn vị đóng góp lớn nhất vào ngân sách với 77.400 tỷ đồng"
+    },
+    {
+        "text": "77.400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với 77.400 tỷ đồng"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "Mức nộp của PetroVietnam thậm chí còn lớn hơn"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "số nộp của PetroVietnam và các công ty con"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "hệ thống PetroVietnam lên đến 165.000 tỷ đồng"
+    },
+    {
+        "text": "165.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên đến 165.000 tỷ đồng"
+    },
+    {
+        "text": "EVN",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "Vinataba",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "TC Group",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "Hòa Phát",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "Sabeco",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "như EVN, Vinataba, TC Group, Hòa Phát, Sabeco, Vietcombank, Agribank…"
+    },
+    {
+        "text": "PetroVietnam",
+        "label": "ORG",
+        "evidence": "bao gồm PetroVietnam cùng 2 đơn vị liên doanh Lọc hóa dầu Nghi Sơn (NSRP)"
+    },
+    {
+        "text": "Lọc hóa dầu Nghi Sơn",
+        "label": "ORG",
+        "evidence": "2 đơn vị liên doanh Lọc hóa dầu Nghi Sơn (NSRP)"
+    },
+    {
+        "text": "NSRP",
+        "label": "ORG",
+        "evidence": "Lọc hóa dầu Nghi Sơn (NSRP)"
+    },
+    {
+        "text": "Vietsovpetro",
+        "label": "ORG",
+        "evidence": "Vietsovpetro và Tập đoàn Xăng dầu Việt Nam (Petrolimex)"
+    },
+    {
+        "text": "Tập đoàn Xăng dầu Việt Nam",
+        "label": "ORG",
+        "evidence": "Tập đoàn Xăng dầu Việt Nam (Petrolimex)"
+    },
+    {
+        "text": "Petrolimex",
+        "label": "ORG",
+        "evidence": "Tập đoàn Xăng dầu Việt Nam (Petrolimex)"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "Agribank nộp ngân sách xấp xỉ 9.000 tỷ đồng"
+    },
+    {
+        "text": "9.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "xấp xỉ 9.000 tỷ đồng"
+    },
+    {
+        "text": "80%",
+        "label": "RATE",
+        "evidence": "tăng gần 80% so với năm 2023"
+    },
+    {
+        "text": "năm 2023",
+        "label": "DATE",
+        "evidence": "tăng gần 80% so với năm 2023"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "LPBank, SHB, TPBank cũng đang vươn lên"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "LPBank, SHB, TPBank cũng đang vươn lên"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "LPBank, SHB, TPBank cũng đang vươn lên"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "LPBank đã ghi dấu ấn với mức nộp ngân sách cao và ổn định"
+    },
+    {
+        "text": "Năm 2024",
+        "label": "DATE",
+        "evidence": "Năm 2024, lợi nhuận của LPBank và SHB đều bứt phá"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "lợi nhuận của LPBank và SHB đều bứt phá"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "lợi nhuận của LPBank và SHB đều bứt phá"
+    },
+    {
+        "text": "12.200 tỷ",
+        "label": "MONEY",
+        "evidence": "đạt lần lượt là gần 12.200 tỷ và 11.500 tỷ đồng"
+    },
+    {
+        "text": "11.500 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "và 11.500 tỷ đồng"
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "vượt qua cột mốc 10.000 tỷ đồng"
+    },
+    {
+        "text": "Nửa đầu 2025",
+        "label": "DATE",
+        "evidence": "Nửa đầu 2025, lợi nhuận của SHB tiếp tục tăng 30% lên 8.900 tỷ đồng"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "lợi nhuận của SHB tiếp tục tăng 30% lên 8.900 tỷ đồng"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "tiếp tục tăng 30% lên 8.900 tỷ đồng"
+    },
+    {
+        "text": "8.900 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên 8.900 tỷ đồng"
+    },
+    {
+        "text": "AIA Việt Nam",
+        "label": "ORG",
+        "evidence": "AIA Việt Nam, một thành viên của Tập đoàn AIA"
+    },
+    {
+        "text": "Tập đoàn AIA",
+        "label": "ORG",
+        "evidence": "thành viên của Tập đoàn AIA"
+    },
+    {
+        "text": "AIA",
+        "label": "ORG",
+        "evidence": "AIA đều nộp ngân sách nhà nước hơn 600 tỷ đồng mỗi năm"
+    },
+    {
+        "text": "600 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 600 tỷ đồng mỗi năm"
+    },
+    {
+        "text": "Viettel",
+        "label": "ORG",
+        "evidence": "tập đoàn nhà nước như Viettel, VNPT"
+    },
+    {
+        "text": "VNPT",
+        "label": "ORG",
+        "evidence": "tập đoàn nhà nước như Viettel, VNPT"
+    },
+    {
+        "text": "FPT",
+        "label": "ORG",
+        "evidence": "doanh nghiệp tư nhân như FPT, VNG Group hay MoMo"
+    },
+    {
+        "text": "VNG Group",
+        "label": "ORG",
+        "evidence": "doanh nghiệp tư nhân như FPT, VNG Group hay MoMo"
+    },
+    {
+        "text": "MoMo",
+        "label": "ORG",
+        "evidence": "doanh nghiệp tư nhân như FPT, VNG Group hay MoMo"
+    },
+    {
+        "text": "VNG Group",
+        "label": "ORG",
+        "evidence": "Bên cạnh VNG Group tiên phong với chiến lược AI mang tầm quốc tế"
+    },
+    {
+        "text": "MoMo",
+        "label": "ORG",
+        "evidence": "MoMo được đánh giá là một đại diện nổi bật với vai trò là nền tảng fintech dẫn đầu thị trường"
+    },
+    {
+        "text": "1.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mức nộp trên 1.000 tỷ đồng"
+    },
+    {
+        "text": "Công ty Cổ phần Xây dựng Coteccons",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Xây dựng Coteccons cũng đã nộp ngân sách gần 300 tỷ đồng"
+    },
+    {
+        "text": "Coteccons",
+        "label": "ORG",
+        "evidence": "Công ty Cổ phần Xây dựng Coteccons cũng đã nộp ngân sách gần 300 tỷ đồng"
+    },
+    {
+        "text": "300 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "gần 300 tỷ đồng"
+    },
+    {
+        "text": "30/6/2024",
+        "label": "DATE",
+        "evidence": "năm tài chính kết thúc ngày 30/6/2024"
+    },
+    {
+        "text": "quý IV năm tài chính 2025",
+        "label": "DATE",
+        "evidence": "kết quả kinh doanh quý IV năm tài chính 2025 vừa được công bố mới đây"
+    },
+    {
+        "text": "Coteccons",
+        "label": "ORG",
+        "evidence": "Coteccons đã ghi nhận kết quả kinh doanh ấn tượng"
+    },
+    {
+        "text": "doanh thu thuần quý IV đạt gần 8.351 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "doanh thu thuần quý IV đạt gần 8.351 tỷ đồng"
+    },
+    {
+        "text": "8.351 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt gần 8.351 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận sau thuế quý IV năm tài chính 2025 đạt 196 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận sau thuế quý IV năm tài chính 2025 đạt 196 tỷ đồng"
+    },
+    {
+        "text": "196 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 196 tỷ đồng"
+    },
+    {
+        "text": "2,8 lần",
+        "label": "RATE",
+        "evidence": "gấp 2,8 lần cùng kỳ năm trước"
+    },
+    {
+        "text": "454 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lũy kế cả năm ước đạt 454 tỷ đồng"
+    },
+    {
+        "text": "46,6%",
+        "label": "RATE",
+        "evidence": "tăng 46,6% so với năm trước"
+    },
+    {
+        "text": "Coteccons",
+        "label": "ORG",
+        "evidence": "mức nộp ngân sách của Coteccons cũng đã tăng hơn 30%"
+    },
+    {
+        "text": "30%",
+        "label": "RATE",
+        "evidence": "tăng hơn 30% lên gần 400 tỷ đồng"
+    },
+    {
+        "text": "400 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lên gần 400 tỷ đồng"
+    },
+    {
+        "text": "CafeF Lists 2025",
+        "label": "EVENT",
+        "evidence": "CafeF Lists 2025 đánh dấu sự trở lại với 2 bảng vinh danh uy tín"
+    },
+    {
+        "text": "PRIVATE 100",
+        "label": "EVENT",
+        "evidence": "PRIVATE 100 – Top doanh nghiệp tư nhân nộp ngân sách từ 100 tỷ đồng trở lên"
+    },
+    {
+        "text": "100 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ngân sách từ 100 tỷ đồng trở lên"
+    },
+    {
+        "text": "VNTAX 200",
+        "label": "EVENT",
+        "evidence": "VNTAX 200 – Top doanh nghiệp có mức nộp ngân sách trong năm tài chính từ 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "200 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tài chính từ 200 tỷ đồng trở lên"
+    },
+    {
+        "text": "CafeF",
+        "label": "ORG",
+        "evidence": "danh sách được CafeF thu thập từ những nguồn công khai"
+    },
+    {
+        "text": "năm 2025",
+        "label": "DATE",
+        "evidence": "danh sách năm 2025, thể hiện số thực nộp của năm tài chính 2024"
+    },
+    {
+        "text": "năm tài chính 2024",
+        "label": "DATE",
+        "evidence": "thể hiện số thực nộp của năm tài chính 2024"
+    },
+    {
+        "text": "Agribank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "ACB",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "AIA",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "BIM Group",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Coteccons",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "HDBank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "LPBank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "LOF",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Masan Group",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "MoMo",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "OCB",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "PNJ",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "SHB",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Tasco",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Tập đoàn DOJI",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Tập đoàn Nam Long",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Tập đoàn Hoa Sen",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "TCBS",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Techcombank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "TPBank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "Vinamilk",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "VNG Group",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "VPS",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    },
+    {
+        "text": "VIMID",
+        "label": "ORG",
+        "evidence": "như Agribank; ACB; AIA; BIM Group; Coteccons; HDBank; LPBank; LOF; Masan Group; MoMo; OCB; PNJ; SHB; Tasco; Tập đoàn DOJI; Tập đoàn Nam Long; Tập đoàn Hoa Sen; TCBS; Techcombank; TPBank; Vingroup; VPBank; Vinamilk; VNG Group; VPS; VIMID"
+    }
+]

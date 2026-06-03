@@ -1,0 +1,392 @@
+[
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Nhiều cổ phiếu vốn hóa lớn suy yếu, trong đó cóVICkhiến VN-Index thiếu đi động lực tăng điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Nhiều cổ phiếu vốn hóa lớn suy yếu, trong đó cóVICkhiến VN-Index thiếu đi động lực tăng điểm."
+    },
+    {
+        "text": "VN-Index",
+        "label": "ASSET",
+        "evidence": "Đóng cửa, VN-Index giảm 2,79 điểm (-0,23%) xuống 1.234,05 điểm"
+    },
+    {
+        "text": "giảm 2,79 điểm",
+        "label": "RATE",
+        "evidence": "Đóng cửa, VN-Index giảm 2,79 điểm (-0,23%) xuống 1.234,05 điểm"
+    },
+    {
+        "text": "-0,23%",
+        "label": "RATE",
+        "evidence": "Đóng cửa, VN-Index giảm 2,79 điểm (-0,23%) xuống 1.234,05 điểm"
+    },
+    {
+        "text": "1.234,05 điểm",
+        "label": "PRICE",
+        "evidence": "Đóng cửa, VN-Index giảm 2,79 điểm (-0,23%) xuống 1.234,05 điểm"
+    },
+    {
+        "text": "HNX-Index",
+        "label": "ASSET",
+        "evidence": "HNX-Index tăng 1,01 điểm lên 251,45 điểm"
+    },
+    {
+        "text": "tăng 1,01 điểm",
+        "label": "RATE",
+        "evidence": "HNX-Index tăng 1,01 điểm lên 251,45 điểm"
+    },
+    {
+        "text": "251,45 điểm",
+        "label": "PRICE",
+        "evidence": "HNX-Index tăng 1,01 điểm lên 251,45 điểm"
+    },
+    {
+        "text": "UPCoM-Index",
+        "label": "ASSET",
+        "evidence": "UPCoM-Index tăng 0,03 điểm lên 93,49 điểm."
+    },
+    {
+        "text": "tăng 0,03 điểm",
+        "label": "RATE",
+        "evidence": "UPCoM-Index tăng 0,03 điểm lên 93,49 điểm."
+    },
+    {
+        "text": "93,49 điểm",
+        "label": "PRICE",
+        "evidence": "UPCoM-Index tăng 0,03 điểm lên 93,49 điểm."
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Thanh khoản trên HoSE sụt giảm gần 20% so với phiên liền trước"
+    },
+    {
+        "text": "giảm gần 20%",
+        "label": "RATE",
+        "evidence": "Thanh khoản trên HoSE sụt giảm gần 20% so với phiên liền trước"
+    },
+    {
+        "text": "17.708 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị khớp lệnh còn 17.708 tỷ đồng."
+    },
+    {
+        "text": "khối ngoại tiếp đà bán ròng mạnh tay gần 564 tỷ đồng trên toàn thị trường",
+        "label": "EVENT",
+        "evidence": "khối ngoại tiếp đà bán ròng﻿ mạnh tay gần 564 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "564 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại tiếp đà bán ròng﻿ mạnh tay gần 564 tỷ đồng trên toàn thị trường."
+    },
+    {
+        "text": "HOSE",
+        "label": "ORG",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị khoảng 540 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng với giá trị khoảng 540 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HOSE, khối ngoại bán ròng với giá trị khoảng 540 tỷ đồng"
+    },
+    {
+        "text": "540 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại bán ròng với giá trị khoảng 540 tỷ đồng"
+    },
+    {
+        "text": "CTG",
+        "label": "TICKER",
+        "evidence": "cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 78 tỷ đồng"
+    },
+    {
+        "text": "CTG được mua ròng mạnh nhất với giá trị 78 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu ngân hàng CTG được mua ròng mạnh nhất với giá trị 78 tỷ đồng"
+    },
+    {
+        "text": "78 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị 78 tỷ đồng"
+    },
+    {
+        "text": "HSG",
+        "label": "TICKER",
+        "evidence": "HSG xếp thứ 2 danh sách mua ròng mạnh với 60 tỷ đồng."
+    },
+    {
+        "text": "HSG xếp thứ 2 danh sách mua ròng mạnh với 60 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "HSG xếp thứ 2 danh sách mua ròng mạnh với 60 tỷ đồng."
+    },
+    {
+        "text": "60 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng mạnh với 60 tỷ đồng."
+    },
+    {
+        "text": "DIG",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, DIG, VGC và NVL cũng được mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "VGC",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, DIG, VGC và NVL cũng được mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "NVL",
+        "label": "TICKER",
+        "evidence": "Ngoài ra, DIG, VGC và NVL cũng được mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "DIG, VGC và NVL cũng được mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu",
+        "label": "EVENT",
+        "evidence": "Ngoài ra, DIG, VGC và NVL cũng được mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "27-42 tỷ",
+        "label": "MONEY",
+        "evidence": "mua ròng mạnh từ 27-42 tỷ mỗi cổ phiếu."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "cổ phiếu VPB bị bán mạnh nhất với giá trị trên 132 tỷ đồng"
+    },
+    {
+        "text": "VPB bị bán mạnh nhất với giá trị trên 132 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu VPB bị bán mạnh nhất với giá trị trên 132 tỷ đồng"
+    },
+    {
+        "text": "132 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị trên 132 tỷ đồng"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "VIC cũng nằm trong danh sách bán ròng mạnh khoảng 108 tỷ đồng."
+    },
+    {
+        "text": "VIC cũng nằm trong danh sách bán ròng mạnh khoảng 108 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "VIC cũng nằm trong danh sách bán ròng mạnh khoảng 108 tỷ đồng."
+    },
+    {
+        "text": "108 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng mạnh khoảng 108 tỷ đồng."
+    },
+    {
+        "text": "MSN",
+        "label": "TICKER",
+        "evidence": "MSN, BCM, SSI xếp tiếp theo danh sách với giá trị bán trên 67 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "BCM",
+        "label": "TICKER",
+        "evidence": "MSN, BCM, SSI xếp tiếp theo danh sách với giá trị bán trên 67 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "SSI",
+        "label": "TICKER",
+        "evidence": "MSN, BCM, SSI xếp tiếp theo danh sách với giá trị bán trên 67 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "MSN, BCM, SSI xếp tiếp theo danh sách với giá trị bán trên 67 tỷ đồng mỗi mã",
+        "label": "EVENT",
+        "evidence": "MSN, BCM, SSI xếp tiếp theo danh sách với giá trị bán trên 67 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "67 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị bán trên 67 tỷ đồng mỗi mã."
+    },
+    {
+        "text": "HNX",
+        "label": "ORG",
+        "evidence": "Trên HNX, khối ngoại bán ròng 19 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng 19 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "Trên HNX, khối ngoại bán ròng 19 tỷ đồng"
+    },
+    {
+        "text": "19 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại bán ròng 19 tỷ đồng"
+    },
+    {
+        "text": "TNG",
+        "label": "TICKER",
+        "evidence": "khối ngoại bán ròng mạnh tại TNG khoảng 17 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng mạnh tại TNG khoảng 17 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "khối ngoại bán ròng mạnh tại TNG khoảng 17 tỷ đồng"
+    },
+    {
+        "text": "17 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khối ngoại bán ròng mạnh tại TNG khoảng 17 tỷ đồng"
+    },
+    {
+        "text": "DTD",
+        "label": "TICKER",
+        "evidence": "theo sau DTD, CEO, NVB,... bị bán một vài tỷ đồng."
+    },
+    {
+        "text": "CEO",
+        "label": "TICKER",
+        "evidence": "theo sau DTD, CEO, NVB,... bị bán một vài tỷ đồng."
+    },
+    {
+        "text": "NVB",
+        "label": "TICKER",
+        "evidence": "theo sau DTD, CEO, NVB,... bị bán một vài tỷ đồng."
+    },
+    {
+        "text": "DTD, CEO, NVB,... bị bán một vài tỷ đồng",
+        "label": "EVENT",
+        "evidence": "theo sau DTD, CEO, NVB,... bị bán một vài tỷ đồng."
+    },
+    {
+        "text": "BVS",
+        "label": "TICKER",
+        "evidence": "cổ phiếu BVS hôm nay được khối ngoại mua 10 tỷ đồng"
+    },
+    {
+        "text": "BVS hôm nay được khối ngoại mua 10 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "cổ phiếu BVS hôm nay được khối ngoại mua 10 tỷ đồng"
+    },
+    {
+        "text": "10 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua 10 tỷ đồng"
+    },
+    {
+        "text": "IDC",
+        "label": "TICKER",
+        "evidence": "IDC và TIG cũng được mua ròng 3 tỷ đồng."
+    },
+    {
+        "text": "TIG",
+        "label": "TICKER",
+        "evidence": "IDC và TIG cũng được mua ròng 3 tỷ đồng."
+    },
+    {
+        "text": "IDC và TIG cũng được mua ròng 3 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "IDC và TIG cũng được mua ròng 3 tỷ đồng."
+    },
+    {
+        "text": "3 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "mua ròng 3 tỷ đồng."
+    },
+    {
+        "text": "UPCoM",
+        "label": "ORG",
+        "evidence": "T﻿rên UPCoM, khối ngoại bán ròng xấp xỉ 4 tỷ đồng"
+    },
+    {
+        "text": "khối ngoại bán ròng xấp xỉ 4 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "T﻿rên UPCoM, khối ngoại bán ròng xấp xỉ 4 tỷ đồng"
+    },
+    {
+        "text": "4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "bán ròng xấp xỉ 4 tỷ đồng"
+    },
+    {
+        "text": "QNS",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu QNS, VGG và VTP được khối ngoại mua ròng 2-7 tỷ mỗi mã"
+    },
+    {
+        "text": "VGG",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu QNS, VGG và VTP được khối ngoại mua ròng 2-7 tỷ mỗi mã"
+    },
+    {
+        "text": "VTP",
+        "label": "TICKER",
+        "evidence": "Cổ phiếu QNS, VGG và VTP được khối ngoại mua ròng 2-7 tỷ mỗi mã"
+    },
+    {
+        "text": "QNS, VGG và VTP được khối ngoại mua ròng 2-7 tỷ mỗi mã",
+        "label": "EVENT",
+        "evidence": "Cổ phiếu QNS, VGG và VTP được khối ngoại mua ròng 2-7 tỷ mỗi mã"
+    },
+    {
+        "text": "2-7 tỷ",
+        "label": "MONEY",
+        "evidence": "mua ròng 2-7 tỷ mỗi mã"
+    },
+    {
+        "text": "DNW",
+        "label": "TICKER",
+        "evidence": "theo sau DNW, MCH,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "MCH",
+        "label": "TICKER",
+        "evidence": "theo sau DNW, MCH,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "DNW, MCH,... cũng được khối ngoại mua ròng trên UPCoM",
+        "label": "EVENT",
+        "evidence": "theo sau DNW, MCH,... cũng được khối ngoại mua ròng trên UPCoM."
+    },
+    {
+        "text": "LTG",
+        "label": "TICKER",
+        "evidence": "LTG, ACV và VEA bị bán mạnh với giá trị khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "ACV",
+        "label": "TICKER",
+        "evidence": "LTG, ACV và VEA bị bán mạnh với giá trị khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "VEA",
+        "label": "TICKER",
+        "evidence": "LTG, ACV và VEA bị bán mạnh với giá trị khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "LTG, ACV và VEA bị bán mạnh với giá trị khoảng 5 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "LTG, ACV và VEA bị bán mạnh với giá trị khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "5 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "giá trị khoảng 5 tỷ đồng"
+    },
+    {
+        "text": "QPH",
+        "label": "TICKER",
+        "evidence": "xếp tiếp theo QPH và RIC cũng bị bán ròng vài trăm triệu đồng."
+    },
+    {
+        "text": "RIC",
+        "label": "TICKER",
+        "evidence": "xếp tiếp theo QPH và RIC cũng bị bán ròng vài trăm triệu đồng."
+    },
+    {
+        "text": "QPH và RIC cũng bị bán ròng vài trăm triệu đồng",
+        "label": "EVENT",
+        "evidence": "xếp tiếp theo QPH và RIC cũng bị bán ròng vài trăm triệu đồng."
+    }
+]

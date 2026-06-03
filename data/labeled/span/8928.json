@@ -1,0 +1,312 @@
+[
+    {
+        "text": "57%",
+        "label": "RATE",
+        "evidence": "Sau chuỗi tăng ấn tượng lên tới 57% kể từ đầu tháng 3"
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "Sau chuỗi tăng ấn tượng lên tới 57% kể từ đầu tháng 3"
+    },
+    {
+        "text": "18/4",
+        "label": "DATE",
+        "evidence": "phiên 18/4, cổ phiếu VIC giảm về 66.100 đồng/cổ phiếu"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "phiên 18/4, cổ phiếu VIC giảm về 66.100 đồng/cổ phiếu"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "phiên 18/4, cổ phiếu VIC giảm về 66.100 đồng/cổ phiếu"
+    },
+    {
+        "text": "66.100 đồng/cổ phiếu",
+        "label": "PRICE",
+        "evidence": "cổ phiếu VIC giảm về 66.100 đồng/cổ phiếu"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "Tổng khối lượngcổ phiếu VICđược giao dịch là gần 10,6 triệu cổ phiếu"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Tổng khối lượngcổ phiếu VICđược giao dịch là gần 10,6 triệu cổ phiếu"
+    },
+    {
+        "text": "gần 10,6 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Tổng khối lượngcổ phiếu VICđược giao dịch là gần 10,6 triệu cổ phiếu"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "sau khi VIC đã ghi nhận mức tăng ấn tượng lên tới 57% kể từ đầu tháng 3"
+    },
+    {
+        "text": "57%",
+        "label": "RATE",
+        "evidence": "ghi nhận mức tăng ấn tượng lên tới 57% kể từ đầu tháng 3"
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "ghi nhận mức tăng ấn tượng lên tới 57% kể từ đầu tháng 3"
+    },
+    {
+        "text": "Mỹ",
+        "label": "ORG",
+        "evidence": "chính sách thuế quan của Mỹ"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "vốn hoá Vingroup ở mức hơn 252.700 tỷ đồng"
+    },
+    {
+        "text": "hơn 252.700 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "hơn 252.700 tỷ đồng"
+    },
+    {
+        "text": "Vietcombank",
+        "label": "ORG",
+        "evidence": "chỉ sau Vietcombank"
+    },
+    {
+        "text": "Ngày 17/4",
+        "label": "DATE",
+        "evidence": "Ngày 17/4, VIC xuất hiện giao dịch thoả thuận được nhận định là từ SK với giá trị 4.446 tỷ đồng"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "Ngày 17/4, VIC xuất hiện giao dịch thoả thuận được nhận định là từ SK với giá trị 4.446 tỷ đồng"
+    },
+    {
+        "text": "giao dịch thoả thuận",
+        "label": "EVENT",
+        "evidence": "VIC xuất hiện giao dịch thoả thuận được nhận định là từ SK với giá trị 4.446 tỷ đồng"
+    },
+    {
+        "text": "SK",
+        "label": "ORG",
+        "evidence": "được nhận định là từ SK với giá trị 4.446 tỷ đồng"
+    },
+    {
+        "text": "4.446 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với giá trị 4.446 tỷ đồng"
+    },
+    {
+        "text": "báo cáo thường niên năm 2024",
+        "label": "EVENT",
+        "evidence": "Theo báo cáo thường niên năm 2024, Tập đoàn SK (chaebol lớn thứ 3 Hàn Quốc) đang phân loại khoản đầu tư vào cổ phiếu Vingroup vào khoản mục tài sản nắm giữ chờ bán"
+    },
+    {
+        "text": "Tập đoàn SK",
+        "label": "ORG",
+        "evidence": "Tập đoàn SK (chaebol lớn thứ 3 Hàn Quốc) đang phân loại khoản đầu tư vào cổ phiếu Vingroup vào khoản mục tài sản nắm giữ chờ bán"
+    },
+    {
+        "text": "Hàn Quốc",
+        "label": "ORG",
+        "evidence": "Tập đoàn SK (chaebol lớn thứ 3 Hàn Quốc) đang phân loại khoản đầu tư vào cổ phiếu Vingroup vào khoản mục tài sản nắm giữ chờ bán"
+    },
+    {
+        "text": "cổ phiếu Vingroup",
+        "label": "ASSET",
+        "evidence": "khoản đầu tư vào cổ phiếu Vingroup"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "khoản đầu tư vào cổ phiếu Vingroup"
+    },
+    {
+        "text": "phân loại khoản đầu tư vào cổ phiếu Vingroup vào khoản mục tài sản nắm giữ chờ bán",
+        "label": "EVENT",
+        "evidence": "đang phân loại khoản đầu tư vào cổ phiếu Vingroup vào khoản mục tài sản nắm giữ chờ bán"
+    },
+    {
+        "text": "tái cơ cấu danh mục đầu tư quốc tế của SK",
+        "label": "EVENT",
+        "evidence": "Động thái này nằm trong kế hoạch tái cơ cấu danh mục đầu tư quốc tế của SK"
+    },
+    {
+        "text": "SK",
+        "label": "ORG",
+        "evidence": "kế hoạch tái cơ cấu danh mục đầu tư quốc tế của SK"
+    },
+    {
+        "text": "tháng 1/2025",
+        "label": "DATE",
+        "evidence": "Trước đó vào tháng 1/2025, SK Investment Vina II - quỹ thành viên của SK Group đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "SK Investment Vina II",
+        "label": "ORG",
+        "evidence": "SK Investment Vina II - quỹ thành viên của SK Group đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "SK Group",
+        "label": "ORG",
+        "evidence": "quỹ thành viên của SK Group đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "bán gần 51 triệu cổ phiếu VIC",
+        "label": "EVENT",
+        "evidence": "đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "gần 51 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "đã bán gần 51 triệu cổ phiếu VIC"
+    },
+    {
+        "text": "180,61 triệu cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "giảm sở hữu xuống còn 180,61 triệu cổ phiếu"
+    },
+    {
+        "text": "4,72%",
+        "label": "RATE",
+        "evidence": "tương ứng tỷ lệ 4,72%"
+    },
+    {
+        "text": "SK",
+        "label": "ORG",
+        "evidence": "Các giao dịch của SK sẽ không còn thuộc diện công bố thông tin do không còn là cổ đông lớn tại Vingroup"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "không còn là cổ đông lớn tại Vingroup"
+    },
+    {
+        "text": "SK",
+        "label": "ORG",
+        "evidence": "Việc SK quyết định thoái vốn cho thấy đơn vị này đã tìm được nhà đầu tư mua lại cổ phiếu VIC"
+    },
+    {
+        "text": "thoái vốn",
+        "label": "EVENT",
+        "evidence": "SK quyết định thoái vốn"
+    },
+    {
+        "text": "cổ phiếu VIC",
+        "label": "ASSET",
+        "evidence": "mua lại cổ phiếu VIC"
+    },
+    {
+        "text": "VIC",
+        "label": "TICKER",
+        "evidence": "mua lại cổ phiếu VIC"
+    },
+    {
+        "text": "Ngày 24/4 tới",
+        "label": "DATE",
+        "evidence": "Ngày 24/4 tới, tập đoàn sẽ tổ chức ĐHĐCĐ thường niên 2025 tại Hà Nội"
+    },
+    {
+        "text": "tổ chức ĐHĐCĐ thường niên 2025",
+        "label": "EVENT",
+        "evidence": "tập đoàn sẽ tổ chức ĐHĐCĐ thường niên 2025 tại Hà Nội"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Vingroup đặt mục tiêu doanh thu thuần từ hoạt động sản xuất kinh doanh khoảng 300.000 tỷ đồng và lợi nhuận sau thuế 10.000 tỷ đồng"
+    },
+    {
+        "text": "300.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "khoảng 300.000 tỷ đồng"
+    },
+    {
+        "text": "10.000 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận sau thuế 10.000 tỷ đồng"
+    },
+    {
+        "text": "56%",
+        "label": "RATE",
+        "evidence": "lần lượt tăng 56% và 90%"
+    },
+    {
+        "text": "90%",
+        "label": "RATE",
+        "evidence": "lần lượt tăng 56% và 90%"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "so với thực hiện năm 2024"
+    },
+    {
+        "text": "năm 2024",
+        "label": "DATE",
+        "evidence": "Trong năm 2024 trước đó, Vingroup ghi nhận tổng doanh thu thuần hợp nhất đạt 192.159 tỷ đồng"
+    },
+    {
+        "text": "Vingroup",
+        "label": "ORG",
+        "evidence": "Trong năm 2024 trước đó, Vingroup ghi nhận tổng doanh thu thuần hợp nhất đạt 192.159 tỷ đồng"
+    },
+    {
+        "text": "192.159 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "đạt 192.159 tỷ đồng"
+    },
+    {
+        "text": "19%",
+        "label": "RATE",
+        "evidence": "tăng 19% so với năm trước"
+    },
+    {
+        "text": "5251 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Lợi nhuận sau thuế đạt 5251 tỷ đồng"
+    },
+    {
+        "text": "155%",
+        "label": "RATE",
+        "evidence": "tăng 155% so với cùng kỳ"
+    },
+    {
+        "text": "Ngày 19/4/2025 tới đây",
+        "label": "DATE",
+        "evidence": "Ngày 19/4/2025 tới đây, Tập đoàn Vingroup dự kiến tổ chức lễ khởi công dự án khu đô thị du lịch lấn biển Cần Giờ tại xã Long Hòa và thị trấn Cần Thạnh (huyện Cần Giờ)"
+    },
+    {
+        "text": "Tập đoàn Vingroup",
+        "label": "ORG",
+        "evidence": "Tập đoàn Vingroup dự kiến tổ chức lễ khởi công dự án khu đô thị du lịch lấn biển Cần Giờ tại xã Long Hòa và thị trấn Cần Thạnh (huyện Cần Giờ)"
+    },
+    {
+        "text": "tổ chức lễ khởi công dự án khu đô thị du lịch lấn biển Cần Giờ",
+        "label": "EVENT",
+        "evidence": "Tập đoàn Vingroup dự kiến tổ chức lễ khởi công dự án khu đô thị du lịch lấn biển Cần Giờ tại xã Long Hòa và thị trấn Cần Thạnh (huyện Cần Giờ)"
+    },
+    {
+        "text": "UBND Tp.HCM",
+        "label": "ORG",
+        "evidence": "Dự án vừa được UBND Tp.HCM phê duyệt vào tháng 3 vừa qua"
+    },
+    {
+        "text": "tháng 3 vừa qua",
+        "label": "DATE",
+        "evidence": "phê duyệt vào tháng 3 vừa qua"
+    }
+]

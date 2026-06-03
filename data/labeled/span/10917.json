@@ -1,0 +1,242 @@
+[
+    {
+        "text": "Sở Giao dịch Chứng khoán TP. HCM",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP. HCM (HoSE)"
+    },
+    {
+        "text": "HoSE",
+        "label": "ORG",
+        "evidence": "Theo thông tin từ Sở Giao dịch Chứng khoán TP. HCM (HoSE)"
+    },
+    {
+        "text": "Nguyễn Thanh Bình",
+        "label": "PERSON",
+        "evidence": "ông Nguyễn Thanh Bình, Phó Tổng Giám đốc Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)"
+    },
+    {
+        "text": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+        "label": "ORG",
+        "evidence": "ông Nguyễn Thanh Bình, Phó Tổng Giám đốc Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "ông Nguyễn Thanh Bình, Phó Tổng Giám đốc Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)"
+    },
+    {
+        "text": "đăng ký mua vào 350.000 cổ phiếu VPB",
+        "label": "EVENT",
+        "evidence": "đã đăng ký mua vào 350.000 cổ phiếu VPB phục vụ nhu cầu tài chính."
+    },
+    {
+        "text": "350.000 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "đã đăng ký mua vào 350.000 cổ phiếu VPB phục vụ nhu cầu tài chính."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "đã đăng ký mua vào 350.000 cổ phiếu VPB phục vụ nhu cầu tài chính."
+    },
+    {
+        "text": "27/3",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến được thực hiện theo phương thức khớp lệnh từ ngày 27/3 đến ngày 25/4/2023."
+    },
+    {
+        "text": "25/4/2023",
+        "label": "DATE",
+        "evidence": "Giao dịch dự kiến được thực hiện theo phương thức khớp lệnh từ ngày 27/3 đến ngày 25/4/2023."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Phó Tổng Giám đốc VPBank sẽ nâng lượng cổ phiếu VPB nắm giữ từ 572.364 lên 922.364 cổ phiếu"
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Phó Tổng Giám đốc VPBank sẽ nâng lượng cổ phiếu VPB nắm giữ từ 572.364 lên 922.364 cổ phiếu"
+    },
+    {
+        "text": "572.364 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Phó Tổng Giám đốc VPBank sẽ nâng lượng cổ phiếu VPB nắm giữ từ 572.364 lên 922.364 cổ phiếu"
+    },
+    {
+        "text": "922.364 cổ phiếu",
+        "label": "VOLUME",
+        "evidence": "Phó Tổng Giám đốc VPBank sẽ nâng lượng cổ phiếu VPB nắm giữ từ 572.364 lên 922.364 cổ phiếu"
+    },
+    {
+        "text": "0,01368%",
+        "label": "RATE",
+        "evidence": "tương ứng tỷ lệ sở hữu 0,01368%."
+    },
+    {
+        "text": "23/3",
+        "label": "DATE",
+        "evidence": "Đóng cửa phiên giao dịch 23/3, cổ phiếu VPB dừng ở mức 21.050 đồng."
+    },
+    {
+        "text": "VPB",
+        "label": "TICKER",
+        "evidence": "Đóng cửa phiên giao dịch 23/3, cổ phiếu VPB dừng ở mức 21.050 đồng."
+    },
+    {
+        "text": "21.050 đồng",
+        "label": "PRICE",
+        "evidence": "Đóng cửa phiên giao dịch 23/3, cổ phiếu VPB dừng ở mức 21.050 đồng."
+    },
+    {
+        "text": "ông Bình",
+        "label": "PERSON",
+        "evidence": "Ước tính theo mức giá này, ông Bình sẽ phải chi ra khoảng 7,4 tỷ đồng để mua cổ phiếu VPBank."
+    },
+    {
+        "text": "7,4 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "ông Bình sẽ phải chi ra khoảng 7,4 tỷ đồng để mua cổ phiếu VPBank."
+    },
+    {
+        "text": "cổ phiếu VPBank",
+        "label": "ASSET",
+        "evidence": "ông Bình sẽ phải chi ra khoảng 7,4 tỷ đồng để mua cổ phiếu VPBank."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Động thái mua vào của \"sếp\" VPBank diễn ra trong bối cảnh cổ phiếu ngân hàng này đã tăng mạnh trong những phiên gần đây."
+    },
+    {
+        "text": "đầu tháng 3",
+        "label": "DATE",
+        "evidence": "Tính từ đầu tháng 3 đến nay, cổ phiếu của VPBank đã tăng tổng cộng hơn 23%."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "cổ phiếu của VPBank đã tăng tổng cộng hơn 23%."
+    },
+    {
+        "text": "hơn 23%",
+        "label": "RATE",
+        "evidence": "cổ phiếu của VPBank đã tăng tổng cộng hơn 23%."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank kết thúc năm 2022 với lợi nhuận hợp nhất trước thuế đạt 21.219 tỷ đồng"
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "VPBank kết thúc năm 2022 với lợi nhuận hợp nhất trước thuế đạt 21.219 tỷ đồng"
+    },
+    {
+        "text": "lợi nhuận hợp nhất trước thuế đạt 21.219 tỷ đồng",
+        "label": "EVENT",
+        "evidence": "lợi nhuận hợp nhất trước thuế đạt 21.219 tỷ đồng, lọt Top 5 ngân hàng có lãi cao nhất."
+    },
+    {
+        "text": "21.219 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "lợi nhuận hợp nhất trước thuế đạt 21.219 tỷ đồng, lọt Top 5 ngân hàng có lãi cao nhất."
+    },
+    {
+        "text": "quý 1",
+        "label": "DATE",
+        "evidence": "đặc biệt là trong quý 1 ngân hàng có lợi nhuận đột biến nhờ thỏa thuận độc quyền bancassurance."
+    },
+    {
+        "text": "thỏa thuận độc quyền bancassurance",
+        "label": "EVENT",
+        "evidence": "ngân hàng có lợi nhuận đột biến nhờ thỏa thuận độc quyền bancassurance."
+    },
+    {
+        "text": "năm 2022",
+        "label": "DATE",
+        "evidence": "Tính đến cuối năm 2022, tổng tài sản VPBank đạt 631.074 tỷ đồng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "tổng tài sản VPBank đạt 631.074 tỷ đồng, tăng 15,3% so với năm 2021."
+    },
+    {
+        "text": "631.074 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tổng tài sản VPBank đạt 631.074 tỷ đồng, tăng 15,3% so với năm 2021."
+    },
+    {
+        "text": "15,3%",
+        "label": "RATE",
+        "evidence": "tăng 15,3% so với năm 2021."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "tăng 15,3% so với năm 2021."
+    },
+    {
+        "text": "23,4%",
+        "label": "RATE",
+        "evidence": "Dư nợ cho vay khách hàng tăng 23,4% lên 438.338 tỷ đồng."
+    },
+    {
+        "text": "438.338 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "Dư nợ cho vay khách hàng tăng 23,4% lên 438.338 tỷ đồng."
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "VPBank thuộc nhóm những ngân hàng có tăng trưởng tiền gửi khách hàng mạnh mẽ nhất trong năm qua"
+    },
+    {
+        "text": "25,4%",
+        "label": "RATE",
+        "evidence": "với mức tăng trưởng tới 25,4%, số dư đạt 303.151 tỷ đồng."
+    },
+    {
+        "text": "303.151 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "với mức tăng trưởng tới 25,4%, số dư đạt 303.151 tỷ đồng."
+    },
+    {
+        "text": "47,3%",
+        "label": "RATE",
+        "evidence": "tăng 47,3% lên 168.798 tỷ đồng"
+    },
+    {
+        "text": "168.798 tỷ đồng",
+        "label": "MONEY",
+        "evidence": "tăng 47,3% lên 168.798 tỷ đồng"
+    },
+    {
+        "text": "VPBank",
+        "label": "ORG",
+        "evidence": "Nợ xấu củaVPBankhợp nhất (bao gồm công ty tài chính) là 4,73%."
+    },
+    {
+        "text": "4,73%",
+        "label": "RATE",
+        "evidence": "Nợ xấu củaVPBankhợp nhất (bao gồm công ty tài chính) là 4,73%."
+    },
+    {
+        "text": "1,98%",
+        "label": "RATE",
+        "evidence": "rỷ lệ này tăng nhẹ từ 1,98% năm 2021 lên 2,19%."
+    },
+    {
+        "text": "năm 2021",
+        "label": "DATE",
+        "evidence": "rỷ lệ này tăng nhẹ từ 1,98% năm 2021 lên 2,19%."
+    },
+    {
+        "text": "2,19%",
+        "label": "RATE",
+        "evidence": "rỷ lệ này tăng nhẹ từ 1,98% năm 2021 lên 2,19%."
+    }
+]
