@@ -1,0 +1,28 @@
+2026-06-28 16:32:48 - src.scraper - INFO - [94mPlain log        : /Users/kittnguyen/Documents/Project/financial-news/logs/scraper/scrape_20260628T163248_ACB.log[0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mJSON log         : /Users/kittnguyen/Documents/Project/financial-news/logs/scraper/scrape_20260628T163248_ACB.json.log[0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mSources          : all[0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-28 16:32:48 - src.scraper - INFO - [94mMax pages/keyword: 1[0m
+2026-06-28 16:32:48 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-28 16:32:48 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to ADLS filesystem 'financialnews-datalake'.[0m
+2026-06-28 16:32:49 - src.scraper.engine.pipeline - INFO - [94mLoaded 5 keyword(s) for 1 source(s).[0m
+2026-06-28 16:32:49 - src.scraper.engine.pipeline - INFO - [94mCrawl job ed1892ac-287a-4c7b-90d6-e9731369c60f started.[0m
+2026-06-28 16:32:49 - src.scraper.engine.pipeline - INFO - [94m=== Source: cafef ===[0m
+2026-06-28 16:33:31 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB' [cafef:ACB] -> 20 new, 0 skipped, 1 pages[0m
+2026-06-28 16:33:34 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng Á Châu' [cafef:ACB] -> 3 new, 0 skipped, 1 pages[0m
+2026-06-28 16:33:34 - src.scraper.engine.crawler - INFO - [94mKeyword 'Asia Commercial Bank' exhausted at page 1.[0m
+2026-06-28 16:33:34 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Asia Commercial Bank' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-28 16:33:35 - src.scraper.engine.crawler - INFO - [94mKeyword 'ACB Bank' exhausted at page 1.[0m
+2026-06-28 16:33:35 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB Bank' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-28 16:33:59 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng ACB' [cafef:ACB] -> 16 new, 4 skipped, 1 pages[0m
+2026-06-28 16:33:59 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['cafef']
+  keywords processed  : 5
+  articles found      : 43
+  articles persisted  : 39
+  articles skipped    : 4
+  pages crawled       : 3
+  errors              : 0[0m
+2026-06-28 16:33:59 - src.scraper - INFO - [94mTotal elapsed: 71.2s[0m

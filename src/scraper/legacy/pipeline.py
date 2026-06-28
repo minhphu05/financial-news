@@ -24,11 +24,11 @@ from typing import Iterable, List
 
 import pandas as pd
 
-from src.scraper.config import ScraperSettings
+from src.scraper.legacy.config import ScraperSettings
 from src.scraper.http_client import HttpClient
 from src.scraper.metrics import push_scraper_metrics
-from src.scraper.page_scraper import KeywordContext, scrape_keyword
-from src.scraper.storage import StorageManager
+from src.scraper.legacy.page_scraper import KeywordContext, scrape_keyword
+from src.scraper.legacy.storage import StorageManager
 from src.utils.logger import get_logger, set_log_context, clear_log_context
 
 logger = get_logger(__name__)

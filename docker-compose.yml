@@ -10,18 +10,18 @@
 # ==============================================================================================================
 
 services:
-  mongodb:
-    image: mongodb/mongodb-community-server:8.0-ubi8
-    container_name: financial-mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER:-admin}
-      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD:-admin}
-    volumes:
-      - mongo_data:/data/db
-    restart: unless-stopped
-    ports:
-      - "27018:27017"   
-    networks: [financial-net]
+  # mongodb:
+  #   image: mongodb/mongodb-community-server:8.0-ubi8
+  #   container_name: financial-mongo
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER:-admin}
+  #     - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD:-admin}
+  #   volumes:
+  #     - mongo_data:/data/db
+  #   restart: unless-stopped
+  #   ports:
+  #     - "27018:27017"   
+  #   networks: [financial-net]
 
   postgresql-prefect:
     image: postgres:14

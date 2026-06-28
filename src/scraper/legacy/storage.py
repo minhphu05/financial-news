@@ -28,8 +28,8 @@ from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session, sessionmaker
 
-from src.scraper.config import ScraperSettings
-from src.scraper.models import Base, NewsArticle, ScrapeProgress, ScrapeRun
+from src.scraper.legacy.config import ScraperSettings
+from src.scraper.legacy.models import Base, NewsArticle, ScrapeProgress, ScrapeRun
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)

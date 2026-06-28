@@ -19,7 +19,7 @@ from prefect import flow, get_run_logger, task
 
 from src.rag.ingestion.pipeline_logger import PipelineRunLogger
 from src.scraper.config import get_settings as get_scraper_settings
-from src.scraper.pipeline import run_pipeline as run_scraper_pipeline
+from src.scraper.engine.pipeline import run_pipeline as run_scraper_pipeline
 
 
 @task(retries=2, retry_delay_seconds=30)

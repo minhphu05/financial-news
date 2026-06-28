@@ -22,6 +22,9 @@ voyageai>=0.3
 # --- MongoDB -----------------------------------------------------------------
 pymongo==4.15
 
+# --- Azure Data Lake Storage Gen2 (raw article content) ---------------------
+azure-storage-file-datalake>=12.14
+
 # --- Qdrant (vector store) ---------------------------------------------------
 qdrant-client>=1.9
 

@@ -9,7 +9,7 @@ from __future__ import annotations
 from typing import Optional
 
 from src.scraper.http_client import HttpClient
-from src.scraper.parsers import ArticleDetail, parse_detail_page
+from src.scraper.legacy.parsers import ArticleDetail, parse_detail_page
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)

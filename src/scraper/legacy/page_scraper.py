@@ -17,11 +17,11 @@ from typing import Optional
 
 from tqdm import tqdm
 
-from src.scraper.config import ScraperSettings
-from src.scraper.detail_scraper import scrape_article_detail
+from src.scraper.legacy.config import ScraperSettings
+from src.scraper.legacy.detail_scraper import scrape_article_detail
 from src.scraper.http_client import HttpClient
-from src.scraper.parsers import is_listing_exhausted, parse_listing_page
-from src.scraper.storage import ScrapedArticle, StorageManager
+from src.scraper.legacy.parsers import is_listing_exhausted, parse_listing_page
+from src.scraper.legacy.storage import ScrapedArticle, StorageManager
 from src.utils.logger import get_logger, set_log_context
 
 logger = get_logger(__name__)
