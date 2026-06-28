@@ -5,9 +5,9 @@ All tunable knobs are sourced from the project ``.env`` (loaded via
 ``python-dotenv``). Business-logic modules never read ``os.environ`` directly;
 everything flows through :class:`ScraperSettings`.
 
-Note: source-specific values (base URL, search-URL template) live inside the
-individual parser classes under :mod:`src.scraper.sources`, not here, so the
-core stays site-agnostic.
+Note: source-specific values (base URL, search-URL template) live inside each
+source package's ``{source}_scraper.py`` module, not here, so the core stays
+site-agnostic.
 """
 from __future__ import annotations
 

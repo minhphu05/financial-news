@@ -1,8 +1,8 @@
 """
-CafeF (https://cafef.vn) parser.
+CafeF (https://cafef.vn) scraper.
 
 Ports the original CafeF DOM logic into the reusable :class:`BaseParser`
-interface. Pure parsing only — no network or database access.
+interface. Pure parsing only; no network or database access.
 """
 from __future__ import annotations
 

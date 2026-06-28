@@ -4,7 +4,7 @@ Source parser registry.
 Maps a source name to its :class:`~src.scraper.base_parser.BaseParser`
 implementation. Only fully-implemented sources are registered; the remaining
 financial-news sites (vnexpress, baomoi, thanhnien, tuoitre) plug in here once
-their parser modules are written under their own package.
+their ``{source}_scraper.py`` modules are written under their own package.
 """
 from __future__ import annotations
 

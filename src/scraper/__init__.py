@@ -14,7 +14,7 @@ Package layout
 * :mod:`storage`        - Persistence:
     ``models``, ``repository``, ``inputs`` (Postgres) + ``adls_writer`` (ADLS).
 * ``cafef`` / ``baomoi`` / ``thanhnien`` / ``tuoitre`` / ``vnexpress``
-                        - Per-site parser packages.
+                        - Per-site packages with ``{source}_scraper.py``.
 
 The original CafeF-only implementation is archived under :mod:`src.scraper.legacy`.
 """

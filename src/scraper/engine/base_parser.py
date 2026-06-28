@@ -5,8 +5,9 @@ A parser is the *only* place that knows the DOM layout and URL conventions of
 a given news site. Everything else in the scraper (HTTP, crawl loop, storage)
 is site-agnostic and drives parsers through this interface.
 
-To onboard a new source, subclass :class:`BaseParser`, implement the four
-abstract methods, and register the class in :mod:`src.scraper.sources`.
+To onboard a new source, create ``src/scraper/{source}/{source}_scraper.py``,
+subclass :class:`BaseParser`, implement the four abstract methods, and register
+the class in :mod:`src.scraper.engine.registry`.
 """
 from __future__ import annotations
 
