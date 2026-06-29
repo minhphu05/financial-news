@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Check Docker Prefect deployments",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"& \"$env:LOCALAPPDATA\\Programs\\DockerDesktop\\resources\\bin\\docker.exe\" ps -a --format \"{{.Names}} {{.Image}} {{.Status}}\"; Invoke-RestMethod -Uri http://127.0.0.1:4201/api/deployments/filter -Method Post -ContentType 'application/json' -Body '{}' | ConvertTo-Json -Depth 8"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Kill hanging docker cli",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"taskkill /F /IM docker.exe"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Clear stuck terminal processes",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-Command",
+				"Get-Process docker,taskkill,cmd,powershell -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -like '*Check Docker Prefect deployments*' -or $_.ProcessName -eq 'docker' -or $_.ProcessName -eq 'taskkill' } | Stop-Process -Force -ErrorAction SilentlyContinue; 'cleared'"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

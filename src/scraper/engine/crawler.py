@@ -10,7 +10,6 @@ articles appear in a row, the crawl stops — daily runs finish fast.
 """
 from __future__ import annotations
 
-import hashlib
 import os
 import re
 from dataclasses import asdict, dataclass
@@ -20,7 +19,7 @@ from urllib.parse import urlsplit
 
 from tqdm import tqdm
 
-from src.scraper.storage.adls_writer import ADLSContentWriter, ContentDocument
+from src.scraper.storage.adls_writer import ContentDocument
 from src.scraper.engine.base_parser import BaseParser
 from src.scraper.config import ScraperSettings
 from src.scraper.http_client import HttpClient
@@ -40,16 +39,10 @@ class _CrawlContext:
     settings: ScraperSettings
     client: HttpClient
     repository: MetadataRepository
-    adls: ADLSContentWriter
+    adls: object
     source_id: str
     crawl_job_id: str
     seen_ids: Set[str]
-
-
-def _checksum(text: str | None) -> str | None:
-    if not text:
-        return None
-    return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def crawl_keyword(
@@ -59,7 +52,7 @@ def crawl_keyword(
     settings: ScraperSettings,
     client: HttpClient,
     repository: MetadataRepository,
-    adls: ADLSContentWriter,
+    adls: object,
     source_id: str,
     crawl_job_id: str,
     seen_ids: Set[str],
@@ -205,14 +198,8 @@ def _scrape_and_persist(
         url_hash=url_hash,
         title=title,
         summary=summary,
-        tag=detail.tag,
-        type_=detail.type,
-        author=detail.author,
-        language=language,
         published_at=detail.published_at,
         json_path=json_path,
-        content_checksum=_checksum(content),
-        has_content=has_content,
         status="CONTENT_DONE" if has_content else "METADATA_ONLY",
     )
 

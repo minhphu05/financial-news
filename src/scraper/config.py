@@ -12,7 +12,7 @@ site-agnostic.
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from functools import lru_cache
 from pathlib import Path
 
@@ -50,9 +50,26 @@ def _get_float(key: str, default: float) -> float:
     return float(raw) if raw not in (None, "") else default
 
 
+def _get_bool(key: str, default: bool = False) -> bool:
+    raw = os.getenv(key)
+    if raw in (None, ""):
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
 def _resolve_path(raw: str) -> Path:
     p = Path(raw).expanduser()
     return p if p.is_absolute() else (PROJECT_ROOT / p).resolve()
+
+
+def normalize_content_storage_backend(raw: str) -> str:
+    """Normalize content storage backend aliases to either ``adls`` or ``minio``."""
+    backend = raw.strip().lower()
+    if backend in {"adls", "azure", "azure-adls", "azure_adls"}:
+        return "adls"
+    if backend in {"minio", "s3"}:
+        return "minio"
+    raise ValueError("content_storage_backend must be either 'adls' or 'minio'.")
 
 
 # ---------------------------------------------------------------------------
@@ -93,12 +110,32 @@ class ScraperSettings:
     adls_filesystem: str
     adls_root_prefix: str
 
+    # ---- Content storage backend --------------------------------------
+    content_storage_backend: str
+
+    # ---- MinIO/S3-compatible local content lake -----------------------
+    minio_endpoint: str
+    minio_access_key: str
+    minio_secret_key: str
+    minio_bucket: str
+    minio_secure: bool
+    minio_root_prefix: str
+
     @property
     def postgres_dsn(self) -> str:
         """SQLAlchemy-compatible PostgreSQL DSN."""
         return (
             f"postgresql+psycopg2://{self.pg_user}:{self.pg_password}"
             f"@{self.pg_host}:{self.pg_port}/{self.pg_database}"
+        )
+
+    def with_content_storage_backend(self, backend: str | None) -> "ScraperSettings":
+        """Return settings with an optional per-run content backend override."""
+        if backend in (None, ""):
+            return self
+        return replace(
+            self,
+            content_storage_backend=normalize_content_storage_backend(backend),
         )
 
 
@@ -138,6 +175,15 @@ def get_settings() -> ScraperSettings:
         adls_account_key=_get("ADLS_ACCOUNT_KEY", ""),
         adls_filesystem=_get("ADLS_FILESYSTEM", "financialnews-datalake"),
         adls_root_prefix=_get("ADLS_ROOT_PREFIX", "raw"),
+        # Content backend selection. Keep ADLS as the production default;
+        # MinIO is only for local testing via CONTENT_STORAGE_BACKEND=minio.
+        content_storage_backend=normalize_content_storage_backend(_get("CONTENT_STORAGE_BACKEND", "adls")),
+        minio_endpoint=_get("MINIO_ENDPOINT", "localhost:9000"),
+        minio_access_key=_get("MINIO_ACCESS_KEY", "minioadmin"),
+        minio_secret_key=_get("MINIO_SECRET_KEY", "minioadmin"),
+        minio_bucket=_get("MINIO_BUCKET", "financialnews-datalake"),
+        minio_secure=_get_bool("MINIO_SECURE", False),
+        minio_root_prefix=_get("MINIO_ROOT_PREFIX", _get("ADLS_ROOT_PREFIX", "raw")),
     )
 
     settings.logs_dir.mkdir(parents=True, exist_ok=True)

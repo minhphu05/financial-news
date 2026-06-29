@@ -4,6 +4,7 @@
 # =============================================================================
 
 COMPOSE ?= docker compose
+LOCAL_COMPOSE ?= $(COMPOSE) -f docker-compose.local.yml
 
 .PHONY: help up down logs build rebuild ps \
         scrape ingest ask deploy lint \
@@ -12,6 +13,9 @@ COMPOSE ?= docker compose
 help:
 	@echo "Available targets:"
 	@echo "  make up          - Start the full ViFinNER stack."
+	@echo "  make local-up    - Start local PostgreSQL + Prefect + MinIO only."
+	@echo "  make local-down  - Stop the local infra stack."
+	@echo "  make local-logs  - Tail local infra logs."
 	@echo "  make down        - Stop and remove containers."
 	@echo "  make build       - Build all Docker images."
 	@echo "  make rebuild     - Rebuild images without cache."
@@ -27,6 +31,15 @@ up:
 
 down:
 	$(COMPOSE) down
+
+local-up:
+	$(LOCAL_COMPOSE) up -d --build
+
+local-down:
+	$(LOCAL_COMPOSE) down
+
+local-logs:
+	$(LOCAL_COMPOSE) logs -f --tail=200
 
 build:
 	$(COMPOSE) build

@@ -4,7 +4,7 @@ Keyword input providers.
 The crawler is fed ``(stock, keyword)`` pairs through a small abstraction so
 the *source of truth* for keywords can change without touching crawl logic.
 
-Currently the active provider reads the ``stock`` + ``keyword`` tables in
+Currently the active provider reads ``core.stocks`` + ``scraping.keywords`` in
 PostgreSQL (:class:`PostgresKeywordProvider`). The Excel sheet is loaded into
 those tables once via ``scripts/seed_scraper_db.py``.
 """

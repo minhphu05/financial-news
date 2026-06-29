@@ -1,10 +1,10 @@
 """Prefect flow that runs the canonical financial-news scraper pipeline.
 
-This flow delegates to :func:`src.scraper.pipeline.run_pipeline`, which is
+This flow delegates to :func:`src.scraper.engine.pipeline.run_pipeline`, which is
 the authoritative scrape implementation that writes:
 
 1. metadata to PostgreSQL, and
-2. article content to MongoDB.
+2. article JSON content to the configured content backend (ADLS by default).
 
 Using this path keeps Prefect-triggered runs consistent with the CLI entry
 point (``python -m src.scraper.run``).
@@ -24,8 +24,11 @@ from src.scraper.engine.pipeline import run_pipeline as run_scraper_pipeline
 
 @task(retries=2, retry_delay_seconds=30)
 def scrape_task(
-    keywords: Optional[List[str]],
+    tickers: Optional[List[str]] = None,
     run_id: Optional[str] = None,
+    source_filter: Optional[str] = None,
+    keywords: Optional[List[str]] = None,
+    content_storage_backend: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Run a single scrape pass and return a JSON-friendly report.
 
@@ -34,8 +37,8 @@ def scrape_task(
 
     Parameters
     ----------
-    keywords : Optional[List[str]]
-        Optional list of keywords passed to :class:`DailyCafefScraper`.
+    tickers : Optional[List[str]]
+        Optional ticker whitelist. ``None`` means all active ticker keywords.
     run_id : Optional[str]
         Shared run identifier for correlating events across stages.
         Defaults to a new UUID if not supplied.
@@ -47,27 +50,27 @@ def scrape_task(
     """
     logger = get_run_logger()
     effective_run_id = run_id or str(uuid.uuid4())
+    effective_tickers = tickers if tickers is not None else keywords
     run_log = PipelineRunLogger(run_id=effective_run_id)
-    settings = get_scraper_settings()
+    settings = get_scraper_settings().with_content_storage_backend(content_storage_backend)
 
-    # ``keywords`` is kept for backward compatibility with the previous flow
-    # signature, but operationally we treat it as an optional ticker whitelist.
     summary = run_scraper_pipeline(
         settings,
-        only_tickers=keywords,
+        tickers=effective_tickers,
+        source_filter=source_filter,
         triggered_by="prefect",
     )
 
     logger.info("Scrape summary: %s", summary.render())
 
-    effective_keywords = keywords or ["(all)"]
-    for kw in effective_keywords:
+    logged_tickers = effective_tickers or ["(all)"]
+    for ticker in logged_tickers:
         run_log.scrape(
             articles_found=summary.articles_found,
             articles_persisted=summary.articles_persisted,
             duration_s=0.0,
             source="cafef",
-            keyword=kw,
+            keyword=ticker,
         )
 
     return {
@@ -76,21 +79,25 @@ def scrape_task(
         "articles_persisted": summary.articles_persisted,
         "articles_skipped": summary.articles_skipped,
         "pages_crawled": summary.pages_crawled,
-        "errors_count": summary.errors_count,
-        "tickers_processed": summary.tickers_processed,
         "keywords_processed": summary.keywords_processed,
-        "failed_keywords": summary.failed_keywords,
-        "persisted_ids": summary.persisted_ids,
+        "persisted_ids": summary.persisted_article_ids,
+        "errors_count": summary.errors,
+        "failed": summary.failed,
+        "content_storage_backend": settings.content_storage_backend,
     }
 
 @flow(name="financial-news-scrape", log_prints=True)
-def scrape_flow(keywords: Optional[List[str]] = None) -> Dict[str, Any]:
+def scrape_flow(
+    tickers: Optional[List[str]] = None,
+    source_filter: Optional[str] = None,
+    content_storage_backend: Optional[str] = None,
+) -> Dict[str, Any]:
     """Daily CafeF scrape flow.
 
     Parameters
     ----------
-    keywords : Optional[List[str]]
-        Keywords to scrape; ``None`` uses the configured default list.
+    tickers : Optional[List[str]]
+        Optional ticker whitelist; ``None`` scrapes all active ticker keywords.
 
     Returns
     -------
@@ -98,4 +105,9 @@ def scrape_flow(keywords: Optional[List[str]] = None) -> Dict[str, Any]:
         Serialised scrape report (includes ``run_id`` for downstream flows).
     """
     run_id = str(uuid.uuid4())
-    return scrape_task(keywords=keywords, run_id=run_id)
+    return scrape_task(
+        tickers=tickers,
+        source_filter=source_filter,
+        run_id=run_id,
+        content_storage_backend=content_storage_backend,
+    )

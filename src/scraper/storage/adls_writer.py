@@ -21,11 +21,13 @@ from __future__ import annotations
 
 import json
 import re
+from io import BytesIO
+from importlib import import_module
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
-from src.scraper.config import ScraperSettings
+from src.scraper.config import ScraperSettings, normalize_content_storage_backend
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -209,3 +211,112 @@ class ADLSContentWriter:
             "ADLS credentials missing. Set ADLS_CONNECTION_STRING, or both "
             "ADLS_ACCOUNT_NAME and ADLS_ACCOUNT_KEY in .env."
         )
+
+
+class MinIOContentWriter:
+    """Uploads article content JSON blobs to a local MinIO bucket.
+
+    This is intentionally S3-compatible and opt-in only. It mirrors the ADLS
+    object layout so local MinIO tests can be promoted to ADLS without changing
+    downstream path assumptions.
+    """
+
+    def __init__(self, settings: ScraperSettings) -> None:
+        self._settings = settings
+        self._client = None
+
+    def connect(self) -> None:
+        try:
+            minio_module = import_module("minio")
+        except ImportError as exc:  # pragma: no cover - optional dependency
+            raise RuntimeError(
+                "minio is not installed. Add it to requirements and `pip install` "
+                "before using CONTENT_STORAGE_BACKEND=minio."
+            ) from exc
+
+        self._client = minio_module.Minio(
+            self._settings.minio_endpoint,
+            access_key=self._settings.minio_access_key,
+            secret_key=self._settings.minio_secret_key,
+            secure=self._settings.minio_secure,
+        )
+        if not self._client.bucket_exists(self._settings.minio_bucket):
+            self._client.make_bucket(self._settings.minio_bucket)
+            logger.info("Created MinIO bucket '%s'.", self._settings.minio_bucket)
+        logger.success("Connected to MinIO bucket '%s'.", self._settings.minio_bucket)
+
+    def close(self) -> None:
+        self._client = None
+
+    def __enter__(self) -> "MinIOContentWriter":
+        self.connect()
+        return self
+
+    def __exit__(self, *_exc_info: object) -> None:
+        self.close()
+
+    def build_paths(
+        self,
+        source: str,
+        ticker: str,
+        external_id: Optional[str],
+        url_hash: str,
+        published_at: Optional[datetime],
+    ) -> ArticlePaths:
+        stamp = published_at or datetime.now(timezone.utc)
+        article_id = ADLSContentWriter._sanitize(external_id) or url_hash[:16]
+        ticker_seg = ADLSContentWriter._sanitize(ticker) or "UNKNOWN"
+        stem = f"{stamp:%Y%m%d%H%M%S}-{article_id}"
+        folder = (
+            f"{self._settings.minio_root_prefix}/{source}/"
+            f"{stamp:%Y}/{ticker_seg}/{stem}"
+        )
+        return ArticlePaths(folder=folder, stem=stem)
+
+    def upload_document(self, paths: ArticlePaths, document: ContentDocument) -> str:
+        assert self._client is not None, "MinIOContentWriter not connected"
+        payload = document.to_json().encode("utf-8")
+        self._client.put_object(
+            self._settings.minio_bucket,
+            paths.json_path,
+            BytesIO(payload),
+            length=len(payload),
+            content_type="application/json; charset=utf-8",
+        )
+        logger.debug("Uploaded content to MinIO: %s/%s", self._settings.minio_bucket, paths.json_path)
+        return paths.json_path
+
+    def upload_image(self, paths: ArticlePaths, filename: str, data: bytes) -> str:
+        assert self._client is not None, "MinIOContentWriter not connected"
+        path = paths.image_path(filename)
+        self._client.put_object(
+            self._settings.minio_bucket,
+            path,
+            BytesIO(data),
+            length=len(data),
+        )
+        logger.debug("Uploaded image to MinIO: %s/%s", self._settings.minio_bucket, path)
+        return path
+
+    def upload(self, document: ContentDocument, published_at: Optional[datetime]) -> str:
+        paths = self.build_paths(
+            document.source,
+            document.ticker,
+            document.id,
+            document.url_hash,
+            published_at,
+        )
+        return self.upload_document(paths, document)
+
+
+def create_content_writer(settings: ScraperSettings):
+    """Create the configured content writer.
+
+    Defaults to ADLS. Use ``CONTENT_STORAGE_BACKEND=minio`` only for local tests.
+    """
+    backend = normalize_content_storage_backend(settings.content_storage_backend)
+    if backend == "adls":
+        return ADLSContentWriter(settings)
+    if backend == "minio":
+        return MinIOContentWriter(settings)
+    raise ValueError("content_storage_backend must be either 'adls' or 'minio'.")

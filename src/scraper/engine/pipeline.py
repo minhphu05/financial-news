@@ -4,10 +4,10 @@ End-to-end scrape orchestration.
 Flow per run:
 
 1. Open PostgreSQL (metadata) and ADLS (content) connections.
-2. Register a ``crawl_job`` row.
+2. Register a ``scraping.crawl_jobs`` row.
 3. Load ``(stock, keyword)`` pairs from the input provider (PostgreSQL).
 4. For every selected source x keyword, run the generic crawler.
-5. Record a ``crawl_log`` row per keyword and finalize the ``crawl_job``.
+5. Record a ``scraping.crawl_logs`` row per keyword and finalize the crawl job.
 
 Handles Ctrl+C gracefully — the crawl job is always finalized.
 """
@@ -17,7 +17,7 @@ import time
 from dataclasses import dataclass, field
 from typing import List, Optional, Sequence
 
-from src.scraper.storage.adls_writer import ADLSContentWriter
+from src.scraper.storage.adls_writer import create_content_writer
 from src.scraper.config import ScraperSettings
 from src.scraper.engine.crawler import crawl_keyword
 from src.scraper.http_client import HttpClient
@@ -38,6 +38,7 @@ class RunSummary:
     articles_found: int = 0
     articles_persisted: int = 0
     articles_skipped: int = 0
+    persisted_article_ids: List[str] = field(default_factory=list)
     pages_crawled: int = 0
     errors: int = 0
     failed: List[str] = field(default_factory=list)
@@ -69,12 +70,27 @@ def run_pipeline(
 
     with MetadataRepository(settings) as repo, \
             HttpClient(settings) as client, \
-            ADLSContentWriter(settings) as adls:
+            create_content_writer(settings) as adls:
 
         provider = PostgresKeywordProvider(repo.session_factory)
         records = provider.iter_keywords(tickers)
         logger.info(
             "Loaded %s keyword(s) for %s source(s).", len(records), len(source_names)
+        )
+
+        parsers_by_source = {}
+        source_ids_by_source = {}
+        for source_name in source_names:
+            parser = get_parser(source_name)
+            parsers_by_source[source_name] = parser
+            source_ids_by_source[source_name] = repo.ensure_source(
+                parser.name,
+                base_url=parser.base_url,
+                language=parser.default_language,
+            )
+
+        job_source_id = (
+            source_ids_by_source[source_names[0]] if len(source_names) == 1 else None
         )
 
         job_note = (
@@ -83,19 +99,19 @@ def run_pipeline(
             f"tickers={list(tickers) if tickers else 'all'}"
         )
         job_id = repo.create_crawl_job(
-            crawler_version=settings.crawler_version, note=job_note
+            crawler_version=settings.crawler_version,
+            note=job_note,
+            job_name="financial-news scrape",
+            job_type="NEWS",
+            source_id=job_source_id,
         )
         logger.info("Crawl job %s started.", job_id)
 
         final_status = "SUCCESS"
         try:
             for source_name in source_names:
-                parser = get_parser(source_name)
-                source_id = repo.ensure_source(
-                    parser.name,
-                    base_url=parser.base_url,
-                    language=parser.default_language,
-                )
+                parser = parsers_by_source[source_name]
+                source_id = source_ids_by_source[source_name]
                 logger.info("=== Source: %s ===", source_name)
 
                 # One shared id-set per ticker: keywords of the same ticker must
@@ -104,6 +120,7 @@ def run_pipeline(
 
                 for record in records:
                     seen_ids = seen_ids_by_ticker.setdefault(record.ticker, set())
+                    target_url = parser.build_search_url(record.keyword, settings.start_page)
                     started = time.monotonic()
                     try:
                         result = crawl_keyword(
@@ -121,14 +138,13 @@ def run_pipeline(
                         summary.articles_found += result.found
                         summary.articles_persisted += result.persisted
                         summary.articles_skipped += result.skipped
+                        summary.persisted_article_ids.extend(result.persisted_article_ids)
                         summary.pages_crawled += result.pages
                         repo.write_crawl_log(
                             job_id=job_id,
-                            source_id=source_id,
-                            keyword_id=record.keyword_id,
-                            status="SUCCESS",
-                            duration_ms=int((time.monotonic() - started) * 1000),
-                            article_found=result.found,
+                            target_url=target_url,
+                            response_time_ms=int((time.monotonic() - started) * 1000),
+                            is_success=True,
                         )
                     except Exception as exc:
                         logger.exception(
@@ -142,11 +158,10 @@ def run_pipeline(
                         summary.failed.append(f"{source_name}:{record.ticker}:{record.keyword}")
                         repo.write_crawl_log(
                             job_id=job_id,
-                            source_id=source_id,
-                            keyword_id=record.keyword_id,
-                            status="FAILED",
-                            duration_ms=int((time.monotonic() - started) * 1000),
-                            article_found=0,
+                            target_url=target_url,
+                            response_time_ms=int((time.monotonic() - started) * 1000),
+                            is_success=False,
+                            error_category="PARSE_ERROR",
                             error_message=str(exc),
                         )
         except KeyboardInterrupt:
@@ -157,7 +172,15 @@ def run_pipeline(
             final_status = "FAILED"
             summary.errors += 1
         finally:
-            repo.finish_crawl_job(job_id, status=final_status, note=job_note)
+            repo.finish_crawl_job(
+                job_id,
+                status=final_status,
+                note=job_note,
+                total_requests=summary.keywords_processed + summary.errors,
+                success_requests=summary.keywords_processed,
+                failed_requests=summary.errors,
+                items_extracted=summary.articles_persisted,
+            )
 
     clear_log_context()
     logger.success(summary.render())

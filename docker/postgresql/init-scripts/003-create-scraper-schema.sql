@@ -1,165 +1,287 @@
 -- =============================================================================
--- Financial News Scraper — normalized metadata schema
+-- Financial News Scraper - core + scraping schemas
 -- =============================================================================
 -- Target database : ${METADATA_POSTGRES_DB}  (default: financial_metadata)
--- Schema          : public
+-- Schemas         : core, scraping
 --
--- This script is idempotent: it can be applied to a fresh volume (picked up
--- automatically by the postgres entrypoint) OR run manually against a running
--- container, e.g.:
---
---   docker compose exec -T postgresql \
---     psql -U "$METADATA_POSTGRES_USER" -d "$METADATA_POSTGRES_DB" \
---     < docker/postgresql/init-scripts/003-create-scraper-schema.sql
---
--- Article *content* lives as JSON files in ADLS (financialnews-datalake);
--- only metadata is stored here. `article_metadata.json_path` points to the
--- raw JSON blob.
+-- This script is idempotent for fresh container initialization and manual
+-- re-application. It only creates/updates scraper-oriented schemas and does not
+-- touch the existing rag_metadata schema or other application schemas.
 -- =============================================================================
 
--- gen_random_uuid() lives in pgcrypto.
+SET client_encoding = 'UTF8';
+SET timezone = 'UTC';
+
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
--- -----------------------------------------------------------------------------
--- stock — VN30 universe
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS stock (
+CREATE SCHEMA IF NOT EXISTS core;
+CREATE SCHEMA IF NOT EXISTS scraping;
+
+GRANT ALL PRIVILEGES ON SCHEMA core TO :POSTGRES_USER;
+GRANT ALL PRIVILEGES ON SCHEMA scraping TO :POSTGRES_USER;
+
+-- =============================================================================
+-- SCHEMA: CORE (refined business data for RAG/chatbot use)
+-- =============================================================================
+
+CREATE TABLE IF NOT EXISTS core.stocks (
     stock_id     UUID         PRIMARY KEY DEFAULT gen_random_uuid(),
     ticker       VARCHAR(16)  NOT NULL UNIQUE,
     company_name VARCHAR(512) NOT NULL,
-    exchange     VARCHAR(16),                       -- HOSE, HNX, UPCOM
+    exchange     VARCHAR(16),
     sector       VARCHAR(128),
     is_active    BOOLEAN      NOT NULL DEFAULT TRUE,
     created_at   TIMESTAMPTZ  NOT NULL DEFAULT now()
 );
 
--- -----------------------------------------------------------------------------
--- keyword — search terms mapped to a stock
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS keyword (
+COMMENT ON TABLE core.stocks IS 'Refined stock universe used by scraper, RAG, and downstream analytics.';
+COMMENT ON COLUMN core.stocks.ticker IS 'Stock ticker, e.g. ACB, FPT, VCB.';
+COMMENT ON COLUMN core.stocks.exchange IS 'HOSE, HNX, UPCOM.';
+COMMENT ON COLUMN core.stocks.sector IS 'Business sector.';
+
+CREATE TABLE IF NOT EXISTS core.index_memberships (
+    id         UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    stock_id   UUID        NOT NULL REFERENCES core.stocks (stock_id) ON DELETE CASCADE,
+    index_name VARCHAR(32) NOT NULL,
+    joined_at  DATE        NOT NULL,
+    left_at    DATE,
+    is_active  BOOLEAN     NOT NULL DEFAULT TRUE
+);
+
+COMMENT ON COLUMN core.index_memberships.index_name IS 'Index basket name, e.g. VN30, HNX30.';
+COMMENT ON COLUMN core.index_memberships.joined_at IS 'Date the stock joined the index basket.';
+COMMENT ON COLUMN core.index_memberships.left_at IS 'Null means the stock is currently still in the basket.';
+
+CREATE INDEX IF NOT EXISTS ix_core_index_memberships_stock_id ON core.index_memberships (stock_id);
+CREATE INDEX IF NOT EXISTS ix_core_index_memberships_active ON core.index_memberships (index_name, is_active);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_core_index_memberships_active
+    ON core.index_memberships (stock_id, index_name)
+    WHERE left_at IS NULL;
+
+CREATE TABLE IF NOT EXISTS core.stock_metrics (
+    id                 UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    stock_id           UUID        NOT NULL REFERENCES core.stocks (stock_id) ON DELETE CASCADE,
+
+    trading_date       DATE        NOT NULL,
+    snapshot_timestamp TIMESTAMPTZ NOT NULL,
+    is_eod             BOOLEAN     NOT NULL DEFAULT FALSE,
+    session_note       VARCHAR(32),
+
+    reference_price    NUMERIC(18, 4),
+    ceiling_price      NUMERIC(18, 4),
+    floor_price        NUMERIC(18, 4),
+
+    bid_price_3        NUMERIC(18, 4),
+    bid_volume_3       BIGINT,
+    bid_price_2        NUMERIC(18, 4),
+    bid_volume_2       BIGINT,
+    bid_price_1        NUMERIC(18, 4),
+    bid_volume_1       BIGINT,
+
+    matched_price      NUMERIC(18, 4),
+    matched_volume     BIGINT,
+    change             NUMERIC(18, 4),
+    change_percent     NUMERIC(12, 6),
+
+    ask_price_1        NUMERIC(18, 4),
+    ask_volume_1       BIGINT,
+    ask_price_2        NUMERIC(18, 4),
+    ask_volume_2       BIGINT,
+    ask_price_3        NUMERIC(18, 4),
+    ask_volume_3       BIGINT,
+
+    total_volume       BIGINT,
+    total_value        NUMERIC(24, 4),
+    high_price         NUMERIC(18, 4),
+    low_price          NUMERIC(18, 4),
+    average_price      NUMERIC(18, 4),
+
+    foreign_buy_volume  BIGINT,
+    foreign_sell_volume BIGINT,
+
+    created_at         TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+COMMENT ON TABLE core.stock_metrics IS 'Stock price-board snapshots scraped from market data sources such as Vietstock.';
+COMMENT ON COLUMN core.stock_metrics.trading_date IS 'Trading date.';
+COMMENT ON COLUMN core.stock_metrics.snapshot_timestamp IS 'Scrape timestamp, e.g. 12:00:00 or 17:00:00.';
+COMMENT ON COLUMN core.stock_metrics.is_eod IS 'True when this snapshot is the final end-of-day value.';
+COMMENT ON COLUMN core.stock_metrics.session_note IS 'MORNING, AFTERNOON, EOD.';
+COMMENT ON COLUMN core.stock_metrics.reference_price IS 'Reference price.';
+COMMENT ON COLUMN core.stock_metrics.ceiling_price IS 'Ceiling price.';
+COMMENT ON COLUMN core.stock_metrics.floor_price IS 'Floor price.';
+COMMENT ON COLUMN core.stock_metrics.matched_price IS 'Latest matched price.';
+COMMENT ON COLUMN core.stock_metrics.matched_volume IS 'Latest matched volume.';
+COMMENT ON COLUMN core.stock_metrics.change IS 'Price change.';
+COMMENT ON COLUMN core.stock_metrics.change_percent IS 'Price change percentage.';
+COMMENT ON COLUMN core.stock_metrics.total_volume IS 'Total trading volume.';
+COMMENT ON COLUMN core.stock_metrics.total_value IS 'Total trading value.';
+COMMENT ON COLUMN core.stock_metrics.high_price IS 'Session high price.';
+COMMENT ON COLUMN core.stock_metrics.low_price IS 'Session low price.';
+COMMENT ON COLUMN core.stock_metrics.average_price IS 'Average price.';
+COMMENT ON COLUMN core.stock_metrics.foreign_buy_volume IS 'Foreign investor buy volume.';
+COMMENT ON COLUMN core.stock_metrics.foreign_sell_volume IS 'Foreign investor sell volume.';
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_core_stock_snapshot ON core.stock_metrics (stock_id, snapshot_timestamp);
+CREATE INDEX IF NOT EXISTS idx_core_stock_date ON core.stock_metrics (stock_id, trading_date);
+
+-- =============================================================================
+-- SCHEMA: SCRAPING (operational data and logs for scraping pipelines)
+-- =============================================================================
+
+CREATE TABLE IF NOT EXISTS scraping.sources (
+    id        UUID         PRIMARY KEY DEFAULT gen_random_uuid(),
+    name      VARCHAR(64)  NOT NULL UNIQUE,
+    base_url  VARCHAR(512),
+    language  VARCHAR(16)  DEFAULT 'vi',
+    is_active BOOLEAN      NOT NULL DEFAULT TRUE
+);
+
+COMMENT ON COLUMN scraping.sources.name IS 'Source name, e.g. baomoi, thanhnien, cafef, vnexpress, tuoitre, vietstock.';
+
+CREATE TABLE IF NOT EXISTS scraping.proxies (
+    id           UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    ip_address   VARCHAR(64) NOT NULL,
+    port         INTEGER     NOT NULL,
+    protocol     VARCHAR(16),
+    is_active    BOOLEAN     NOT NULL DEFAULT TRUE,
+    fail_count   INTEGER     NOT NULL DEFAULT 0,
+    last_used_at TIMESTAMPTZ,
+    created_at   TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+COMMENT ON COLUMN scraping.proxies.protocol IS 'HTTP, HTTPS, SOCKS5.';
+
+CREATE TABLE IF NOT EXISTS scraping.crawl_jobs (
+    id               UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    job_name         VARCHAR(256),
+    job_type         VARCHAR(32),
+    source_id        UUID        REFERENCES scraping.sources (id),
+
+    started_at       TIMESTAMPTZ,
+    finished_at      TIMESTAMPTZ,
+    status           VARCHAR(16),
+
+    total_requests   INTEGER     NOT NULL DEFAULT 0,
+    success_requests INTEGER     NOT NULL DEFAULT 0,
+    failed_requests  INTEGER     NOT NULL DEFAULT 0,
+    items_extracted  INTEGER     NOT NULL DEFAULT 0,
+
+    crawler_version  VARCHAR(32),
+    note             TEXT,
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+COMMENT ON COLUMN scraping.crawl_jobs.job_name IS 'Example: CafeF scrape at 12:00.';
+COMMENT ON COLUMN scraping.crawl_jobs.job_type IS 'NEWS, STOCK_METRICS.';
+COMMENT ON COLUMN scraping.crawl_jobs.source_id IS 'Null for source-agnostic metric scraping jobs.';
+COMMENT ON COLUMN scraping.crawl_jobs.status IS 'PENDING, RUNNING, SUCCESS, FAILED.';
+
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_jobs_source_id ON scraping.crawl_jobs (source_id);
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_jobs_status ON scraping.crawl_jobs (status);
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_jobs_started_at ON scraping.crawl_jobs (started_at DESC);
+
+CREATE TABLE IF NOT EXISTS scraping.keywords (
     id         UUID         PRIMARY KEY DEFAULT gen_random_uuid(),
-    stock_id   UUID         NOT NULL REFERENCES stock (stock_id) ON DELETE CASCADE,
+    stock_id   UUID         NOT NULL REFERENCES core.stocks (stock_id) ON DELETE CASCADE,
     keyword    VARCHAR(512) NOT NULL,
     priority   INTEGER      NOT NULL DEFAULT 1,
     is_active  BOOLEAN      NOT NULL DEFAULT TRUE,
     created_at TIMESTAMPTZ  NOT NULL DEFAULT now(),
-    CONSTRAINT uq_keyword_stock UNIQUE (stock_id, keyword)
+    CONSTRAINT uq_scraping_keywords_stock_keyword UNIQUE (stock_id, keyword)
 );
 
-CREATE INDEX IF NOT EXISTS ix_keyword_stock_id ON keyword (stock_id);
+COMMENT ON COLUMN scraping.keywords.stock_id IS 'Reference to core.stocks.';
+COMMENT ON COLUMN scraping.keywords.keyword IS 'Expanded keyword for news scraping.';
 
--- -----------------------------------------------------------------------------
--- source — news websites being crawled
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS source (
-    id        UUID         PRIMARY KEY DEFAULT gen_random_uuid(),
-    name      VARCHAR(64)  NOT NULL UNIQUE,
-    base_url  VARCHAR(512),
-    country   VARCHAR(64),
-    language  VARCHAR(16),
-    is_active BOOLEAN      NOT NULL DEFAULT TRUE
+CREATE INDEX IF NOT EXISTS ix_scraping_keywords_stock_id ON scraping.keywords (stock_id);
+CREATE INDEX IF NOT EXISTS ix_scraping_keywords_active ON scraping.keywords (is_active, priority DESC);
+
+CREATE TABLE IF NOT EXISTS core.article_metadata (
+    id           UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    source_id    UUID        NOT NULL REFERENCES scraping.sources (id),
+    crawl_job_id UUID        NOT NULL REFERENCES scraping.crawl_jobs (id),
+
+    url          TEXT        NOT NULL,
+    url_hash     VARCHAR(64) NOT NULL UNIQUE,
+    title        TEXT        NOT NULL,
+    summary      TEXT,
+
+    published_at TIMESTAMPTZ,
+    scraped_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+
+    json_path    TEXT        NOT NULL,
+    status       VARCHAR(16),
+
+    created_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at   TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
--- -----------------------------------------------------------------------------
--- crawl_job — one row per pipeline execution
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS crawl_job (
-    id              UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
-    started_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
-    finished_at     TIMESTAMPTZ,
-    status          VARCHAR(16) NOT NULL DEFAULT 'RUNNING',   -- RUNNING, SUCCESS, FAILED
-    crawler_version VARCHAR(32),
-    note            TEXT
-);
+COMMENT ON COLUMN core.article_metadata.source_id IS 'Reference to scraping.sources.';
+COMMENT ON COLUMN core.article_metadata.crawl_job_id IS 'Reference to scraping.crawl_jobs.';
+COMMENT ON COLUMN core.article_metadata.json_path IS 'Path to the article JSON file on ADLS.';
+COMMENT ON COLUMN core.article_metadata.status IS 'METADATA_ONLY, CONTENT_DONE, FAILED.';
 
--- -----------------------------------------------------------------------------
--- article_metadata — one row per scraped article
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS article_metadata (
-    id               UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+CREATE INDEX IF NOT EXISTS ix_core_article_metadata_source_id ON core.article_metadata (source_id);
+CREATE INDEX IF NOT EXISTS ix_core_article_metadata_crawl_job_id ON core.article_metadata (crawl_job_id);
+CREATE INDEX IF NOT EXISTS ix_core_article_metadata_published_at ON core.article_metadata (published_at);
+CREATE INDEX IF NOT EXISTS ix_core_article_metadata_status ON core.article_metadata (status);
 
-    source_id        UUID        NOT NULL REFERENCES source (id),
-    crawl_job_id     UUID        NOT NULL REFERENCES crawl_job (id),
-
-    url              TEXT        NOT NULL,
-    url_hash         VARCHAR(64) NOT NULL UNIQUE,             -- sha256 of canonical URL
-
-    title            TEXT        NOT NULL,
-    summary          TEXT,
-
-    tag              VARCHAR(128),
-    type             VARCHAR(128),
-
-    author           VARCHAR(256),
-    language         VARCHAR(16),
-
-    published_at     TIMESTAMPTZ,
-    scraped_at       TIMESTAMPTZ NOT NULL DEFAULT now(),
-
-    json_path        TEXT,                                    -- ADLS path to raw JSON
-
-    has_content      BOOLEAN     NOT NULL DEFAULT FALSE,
-
-    content_checksum VARCHAR(64),                             -- sha256 of content body
-    content_version  INTEGER     NOT NULL DEFAULT 1,
-
-    status           VARCHAR(16) NOT NULL DEFAULT 'METADATA_ONLY',  -- METADATA_ONLY, CONTENT_DONE, FAILED
-
-    created_at       TIMESTAMPTZ NOT NULL DEFAULT now(),
-    updated_at       TIMESTAMPTZ NOT NULL DEFAULT now()
-);
-
-CREATE INDEX IF NOT EXISTS ix_article_metadata_source_id    ON article_metadata (source_id);
-CREATE INDEX IF NOT EXISTS ix_article_metadata_crawl_job_id ON article_metadata (crawl_job_id);
-CREATE INDEX IF NOT EXISTS ix_article_metadata_published_at ON article_metadata (published_at);
-CREATE INDEX IF NOT EXISTS ix_article_metadata_status       ON article_metadata (status);
-
--- -----------------------------------------------------------------------------
--- article_stock — bridge between articles and stocks
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS article_stock (
-    article_id      UUID         NOT NULL REFERENCES article_metadata (id) ON DELETE CASCADE,
-    stock_id        UUID         NOT NULL REFERENCES stock (stock_id) ON DELETE CASCADE,
+CREATE TABLE IF NOT EXISTS core.article_stock_mapping (
+    article_id      UUID          NOT NULL REFERENCES core.article_metadata (id) ON DELETE CASCADE,
+    stock_id        UUID          NOT NULL REFERENCES core.stocks (stock_id) ON DELETE CASCADE,
     matched_keyword VARCHAR(512),
     confidence      NUMERIC(5, 4),
     PRIMARY KEY (article_id, stock_id)
 );
 
-CREATE INDEX IF NOT EXISTS ix_article_stock_stock_id ON article_stock (stock_id);
+CREATE INDEX IF NOT EXISTS ix_core_article_stock_mapping_stock_id ON core.article_stock_mapping (stock_id);
 
--- -----------------------------------------------------------------------------
--- crawl_log — per (job, source, keyword) crawl outcome
--- -----------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS crawl_log (
-    id            UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+CREATE TABLE IF NOT EXISTS scraping.crawl_logs (
+    id               UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    job_id           UUID        NOT NULL REFERENCES scraping.crawl_jobs (id) ON DELETE CASCADE,
+    proxy_id         UUID        REFERENCES scraping.proxies (id),
 
-    job_id        UUID        REFERENCES crawl_job (id) ON DELETE CASCADE,
-    source_id     UUID        REFERENCES source (id),
-    keyword_id    UUID        REFERENCES keyword (id),
+    target_url       TEXT        NOT NULL,
+    method           VARCHAR(16) NOT NULL DEFAULT 'GET',
 
-    status        VARCHAR(16) NOT NULL,                       -- SUCCESS, FAILED
+    status_code      INTEGER,
+    response_time_ms INTEGER,
 
-    duration_ms   INTEGER,
-    article_found INTEGER     NOT NULL DEFAULT 0,
-    error_message TEXT,
+    is_success       BOOLEAN,
+    error_category   VARCHAR(32),
+    error_message    TEXT,
 
-    created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
+    raw_response_path TEXT,
+
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX IF NOT EXISTS ix_crawl_log_job_id ON crawl_log (job_id);
+COMMENT ON COLUMN scraping.crawl_logs.error_category IS 'TIMEOUT, CAPTCHA, PARSE_ERROR, NETWORK, RATE_LIMIT.';
+COMMENT ON COLUMN scraping.crawl_logs.raw_response_path IS 'ADLS path to failed raw HTML for debugging.';
+
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_job_id ON scraping.crawl_logs (job_id);
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_proxy_id ON scraping.crawl_logs (proxy_id);
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_created_at ON scraping.crawl_logs (created_at DESC);
+CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_success ON scraping.crawl_logs (is_success);
 
 -- -----------------------------------------------------------------------------
--- updated_at trigger for article_metadata
+-- updated_at trigger for core.article_metadata
 -- -----------------------------------------------------------------------------
-CREATE OR REPLACE FUNCTION set_updated_at() RETURNS TRIGGER AS $$
+CREATE OR REPLACE FUNCTION core.set_updated_at() RETURNS TRIGGER AS $$
 BEGIN
     NEW.updated_at = now();
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
-DROP TRIGGER IF EXISTS trg_article_metadata_updated_at ON article_metadata;
+DROP TRIGGER IF EXISTS trg_article_metadata_updated_at ON core.article_metadata;
 CREATE TRIGGER trg_article_metadata_updated_at
-    BEFORE UPDATE ON article_metadata
+    BEFORE UPDATE ON core.article_metadata
     FOR EACH ROW
-    EXECUTE FUNCTION set_updated_at();
+    EXECUTE FUNCTION core.set_updated_at();
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA core TO :POSTGRES_USER;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA scraping TO :POSTGRES_USER;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA core TO :POSTGRES_USER;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA scraping TO :POSTGRES_USER;

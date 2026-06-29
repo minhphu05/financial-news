@@ -36,7 +36,7 @@ from src.utils.logger import get_logger
 def _build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="src.scraper.run",
-        description="Scrape financial-news sites for VN30 tickers into ADLS + PostgreSQL.",
+        description="Scrape financial-news sites for VN30 tickers into PostgreSQL plus the configured content backend.",
     )
     parser.add_argument(
         "--ticket",
@@ -64,6 +64,12 @@ def _build_arg_parser() -> argparse.ArgumentParser:
         choices=["manual", "cron", "prefect"],
         help="How this run was triggered (recorded on the crawl job).",
     )
+    parser.add_argument(
+        "--content-storage-backend",
+        default=None,
+        choices=["adls", "minio"],
+        help="Override the content backend for this run. Defaults to CONTENT_STORAGE_BACKEND, which defaults to adls.",
+    )
     return parser
 
 
@@ -87,7 +93,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     if args.max_pages is not None:
         os.environ["SCRAPER_MAX_PAGES"] = str(args.max_pages)
 
-    settings: ScraperSettings = get_settings()
+    settings: ScraperSettings = get_settings().with_content_storage_backend(args.content_storage_backend)
     tickers = _parse_tickets(args.ticket)
 
     log_stem = _build_log_stem(settings.logs_dir, tickers)
@@ -98,7 +104,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     logger.info("Plain log        : %s", plain_log)
     logger.info("JSON log         : %s", json_log)
     logger.info("PostgreSQL       : %s:%s/%s", settings.pg_host, settings.pg_port, settings.pg_database)
+    logger.info("Content backend  : %s", settings.content_storage_backend)
     logger.info("ADLS filesystem  : %s", settings.adls_filesystem)
+    logger.info("MinIO bucket     : %s", settings.minio_bucket)
     logger.info("Sources          : %s", args.source)
     logger.info("Tickers          : %s", tickers or "all")
     logger.info("Max pages/keyword: %s", settings.max_pages)

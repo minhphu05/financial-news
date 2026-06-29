@@ -1,0 +1,188 @@
+# Minimal local infrastructure for scraper development.
+#
+# Starts only:
+# - PostgreSQL for Prefect metadata
+# - PostgreSQL for financial metadata
+# - Redis used by Prefect messaging
+# - Prefect server/services/worker
+# - MinIO as a temporary local ADLS substitute
+
+services:
+  postgresql-prefect:
+    image: postgres:16
+    container_name: financial-local-prefect-psql
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PF_POSTGRES_USER:-prefect}
+      POSTGRES_PASSWORD: ${PF_POSTGRES_PASSWORD:-prefect}
+      POSTGRES_DB: ${PF_POSTGRES_DB:-prefectdb}
+    ports:
+      - "${PF_POSTGRES_EXTERNAL_PORT:-5433}:5432"
+    volumes:
+      - prefect_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PF_POSTGRES_USER:-prefect} -d ${PF_POSTGRES_DB:-prefectdb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [financial-local-net]
+
+  redis-prefect:
+    image: redis:7-alpine
+    container_name: financial-local-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "${REDIS_EXTERNAL_PORT:-6380}:6379"
+    volumes:
+      - prefect_redis_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [financial-local-net]
+
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    container_name: financial-local-pf-server
+    restart: unless-stopped
+    depends_on:
+      postgresql-prefect:
+        condition: service_healthy
+      redis-prefect:
+        condition: service_healthy
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER:-prefect}:${PF_POSTGRES_PASSWORD:-prefect}@postgresql-prefect:5432/${PF_POSTGRES_DB:-prefectdb}
+      PREFECT_SERVER_API_HOST: 0.0.0.0
+      PREFECT_SERVER_UI_API_URL: http://localhost:${PREFECT_SERVER_PORT:-4201}/api
+      PREFECT_MESSAGING_BROKER: prefect_redis.messaging
+      PREFECT_MESSAGING_CACHE: prefect_redis.messaging
+      PREFECT_REDIS_MESSAGING_HOST: redis-prefect
+      PREFECT_REDIS_MESSAGING_PORT: 6379
+      PREFECT_REDIS_MESSAGING_DB: 0
+    command: prefect server start --no-services
+    ports:
+      - "${PREFECT_SERVER_PORT:-4201}:4200"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:4200/api/health', timeout=1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks: [financial-local-net]
+
+  prefect-services:
+    image: prefecthq/prefect:3-latest
+    container_name: financial-local-pf-services
+    restart: unless-stopped
+    depends_on:
+      prefect-server:
+        condition: service_healthy
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER:-prefect}:${PF_POSTGRES_PASSWORD:-prefect}@postgresql-prefect:5432/${PF_POSTGRES_DB:-prefectdb}
+      PREFECT_MESSAGING_BROKER: prefect_redis.messaging
+      PREFECT_MESSAGING_CACHE: prefect_redis.messaging
+      PREFECT_REDIS_MESSAGING_HOST: redis-prefect
+      PREFECT_REDIS_MESSAGING_PORT: 6379
+      PREFECT_REDIS_MESSAGING_DB: 0
+    command: prefect server services start
+    networks: [financial-local-net]
+
+  postgresql:
+    image: postgres:16
+    container_name: financial-local-metadata-psql
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+      POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+      POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+      POSTGRES_INITDB_ARGS: >-
+        -c shared_buffers=${METADATA_POSTGRES_SHARED_BUFFERS:-64MB}
+        -c effective_cache_size=${METADATA_POSTGRES_EFFECTIVE_CACHE_SIZE:-256MB}
+        -c work_mem=${METADATA_POSTGRES_WORK_MEM:-4MB}
+        -c maintenance_work_mem=${METADATA_POSTGRES_MAINTENANCE_WORK_MEM:-64MB}
+        -c max_connections=${METADATA_POSTGRES_MAX_CONNECTIONS:-100}
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      - "${METADATA_POSTGRES_EXTERNAL_PORT:-5434}:5432"
+    volumes:
+      - metadata_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${METADATA_POSTGRES_USER:-metadata_user} -d ${METADATA_POSTGRES_DB:-financial_metadata}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks: [financial-local-net]
+
+  minio:
+    image: minio/minio:latest
+    container_name: financial-local-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-minioadmin}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio_data:/data
+    networks: [financial-local-net]
+
+  prefect-worker:
+    image: financial-news-prefect-worker:local
+    build:
+      context: .
+      dockerfile: docker/ingestion/Dockerfile
+    container_name: financial-local-pf-worker
+    restart: unless-stopped
+    depends_on:
+      prefect-server:
+        condition: service_healthy
+      postgresql:
+        condition: service_healthy
+      minio:
+        condition: service_started
+    environment:
+      PREFECT_API_URL: http://prefect-server:4200/api
+      HTTP_PROXY: ""
+      HTTPS_PROXY: ""
+      ALL_PROXY: ""
+      http_proxy: ""
+      https_proxy: ""
+      all_proxy: ""
+      NO_PROXY: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
+      no_proxy: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
+      METADATA_POSTGRES_HOST_EXTERNAL: postgresql
+      METADATA_POSTGRES_EXTERNAL_PORT: 5432
+      METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+      METADATA_POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+      METADATA_POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+      CONTENT_STORAGE_BACKEND: ${CONTENT_STORAGE_BACKEND:-minio}
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_BUCKET: ${MINIO_BUCKET:-financialnews-datalake}
+      MINIO_SECURE: "false"
+      MINIO_ROOT_PREFIX: ${MINIO_ROOT_PREFIX:-datascraping}
+      ADLS_ROOT_PREFIX: ${ADLS_ROOT_PREFIX:-datascraping}
+      LOGS_DIR: /app/logs/scraper
+      PIPELINE_LOG_DIR: /app/logs/pipeline
+    command: python -m src.flows.deploy
+    volumes:
+      - ./src:/app/src
+      - ./logs:/app/logs
+      - ./data:/app/data
+    networks: [financial-local-net]
+
+networks:
+  financial-local-net:
+    driver: bridge
+
+volumes:
+  prefect_postgres_data:
+  prefect_redis_data:
+  metadata_postgres_data:
+  minio_data:

@@ -81,7 +81,7 @@ services:
       redis-prefect:
         condition: service_healthy
     environment:
-      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER}:${PF_POSTGRES_PASSWORD}@postgresql-prefect:5432/${PF_POSTGRES_DB}
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER:-prefect}:${PF_POSTGRES_PASSWORD:-prefect}@postgresql-prefect:5432/${PF_POSTGRES_DB:-prefectdb}
       PREFECT_SERVER_API_HOST: 0.0.0.0
       PREFECT_SERVER_UI_API_URL: http://localhost:4200/api
       PREFECT_MESSAGING_BROKER: prefect_redis.messaging
@@ -108,7 +108,7 @@ services:
       prefect-server:
         condition: service_healthy
     environment:
-      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER}:${PF_POSTGRES_PASSWORD}@postgresql-prefect:5432/${PF_POSTGRES_DB}
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://${PF_POSTGRES_USER:-prefect}:${PF_POSTGRES_PASSWORD:-prefect}@postgresql-prefect:5432/${PF_POSTGRES_DB:-prefectdb}
       PREFECT_MESSAGING_BROKER: prefect_redis.messaging
       PREFECT_MESSAGING_CACHE: prefect_redis.messaging
       PREFECT_REDIS_MESSAGING_HOST: redis-prefect

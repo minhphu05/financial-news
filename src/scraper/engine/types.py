@@ -73,14 +73,8 @@ class ArticleRecord:
     url_hash: str
     title: str
     summary: Optional[str]
-    tag: Optional[str]
-    type_: Optional[str]
-    author: Optional[str]
-    language: Optional[str]
     published_at: Optional[datetime]
     json_path: Optional[str]
-    content_checksum: Optional[str]
-    has_content: bool
     status: str
 
 

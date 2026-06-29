@@ -132,6 +132,9 @@ docker-compose up -d
 | `SCRAPER_TIMEOUT` | 30 | Request timeout (seconds) | `30`, `60` |
 | `SCRAPER_MAX_RETRIES` | 3 | Retry attempts | `3`, `5` |
 | `SCRAPER_DELAY` | 1 | Delay between requests (seconds) | `1`, `5` |
+| `CONTENT_STORAGE_BACKEND` | adls | Article content backend: `adls` for production, `minio` for local-only testing | `adls`, `minio` |
+| `MINIO_ENDPOINT` | localhost:9000 | MinIO endpoint for host-side local scraper tests | `localhost:9000` |
+| `MINIO_BUCKET` | financialnews-datalake | Local MinIO bucket mirroring the ADLS filesystem/container name | `financialnews-datalake` |
 | `INGESTION_BATCH_SIZE` | 100 | Batch processing size | `50`, `100`, `500` |
 | `INGESTION_WORKERS` | 4 | Worker threads | `2`, `4`, `8` |
 | `INGESTION_LOG_DIR` | ./logs/ingestion | Log directory | `./logs/ingestion` |
