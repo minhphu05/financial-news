@@ -1,0 +1,27 @@
+2026-06-30 16:05:08 - src.scraper - INFO - [94mPlain log        : C:\projects\financial-news\logs\scraper\scrape_20260630T160508_ACB.log[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mJSON log         : C:\projects\financial-news\logs\scraper\scrape_20260630T160508_ACB.json.log[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mContent backend  : minio[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mMinIO bucket     : financialnews-datalake[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mSources          : tuoitre[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mMax pages/keyword: 1[0m
+2026-06-30 16:05:08 - src.scraper - INFO - [94mMax keywords/ticker: 1[0m
+2026-06-30 16:05:09 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-30 16:05:09 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to MinIO bucket 'financialnews-datalake'.[0m
+2026-06-30 16:05:09 - src.scraper.engine.pipeline - INFO - [94mLoaded 1 keyword(s) for 1 source(s).[0m
+2026-06-30 16:05:09 - src.scraper.engine.pipeline - INFO - [94mCrawl job 876e6f03-4277-4dd2-836e-b29909916c82 started.[0m
+2026-06-30 16:05:09 - src.scraper.engine.pipeline - INFO - [94m=== Source: tuoitre ===[0m
+2026-06-30 16:05:09 - src.scraper.tuoitre.tuoitre_scraper - INFO - [94mRendering Tuoi Tre search: https://tuoitre.vn/tim-kiem.htm?keywords=ACB[0m
+2026-06-30 16:05:11 - src.scraper.tuoitre.tuoitre_scraper - INFO - [94mTuoi Tre keyword 'ACB': parsed 3/1128 listing result(s).[0m
+2026-06-30 16:05:40 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB' [tuoitre:ACB] -> 3 new, 0 skipped, 1 pages[0m
+2026-06-30 16:05:40 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['tuoitre']
+  keywords processed  : 1
+  articles found      : 3
+  articles persisted  : 3
+  articles skipped    : 0
+  pages crawled       : 1
+  errors              : 0[0m
+2026-06-30 16:05:40 - src.scraper - INFO - [94mTotal elapsed: 31.3s[0m

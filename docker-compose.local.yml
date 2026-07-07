@@ -108,6 +108,7 @@ services:
       - "${METADATA_POSTGRES_EXTERNAL_PORT:-5434}:5432"
     volumes:
       - metadata_postgres_data:/var/lib/postgresql/data
+      - ./docker/postgresql/init-scripts/001-create-scraper-schema.sql:/docker-entrypoint-initdb.d/001-create-scraper-schema.sql:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${METADATA_POSTGRES_USER:-metadata_user} -d ${METADATA_POSTGRES_DB:-financial_metadata}"]
       interval: 10s
@@ -131,6 +132,27 @@ services:
       - minio_data:/data
     networks: [financial-local-net]
 
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: financial-local-pgadmin
+    restart: unless-stopped
+    depends_on:
+      postgresql:
+        condition: service_healthy
+      postgresql-prefect:
+        condition: service_healthy
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-admin@example.com}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    ports:
+      - "${PGADMIN_PORT:-5050}:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./docker/pgadmin/servers.json:/pgadmin4/servers.json:ro
+    networks: [financial-local-net]
+
   prefect-worker:
     image: financial-news-prefect-worker:local
     build:
@@ -147,14 +169,14 @@ services:
         condition: service_started
     environment:
       PREFECT_API_URL: http://prefect-server:4200/api
-      HTTP_PROXY: ""
-      HTTPS_PROXY: ""
-      ALL_PROXY: ""
-      http_proxy: ""
-      https_proxy: ""
-      all_proxy: ""
-      NO_PROXY: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
-      no_proxy: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
+      HTTP_PROXY: ${HTTP_PROXY:-${http_proxy:-}}
+      HTTPS_PROXY: ${HTTPS_PROXY:-${https_proxy:-}}
+      ALL_PROXY: ${ALL_PROXY:-${all_proxy:-}}
+      http_proxy: ${http_proxy:-${HTTP_PROXY:-}}
+      https_proxy: ${https_proxy:-${HTTPS_PROXY:-}}
+      all_proxy: ${all_proxy:-${ALL_PROXY:-}}
+      NO_PROXY: ${NO_PROXY:-${no_proxy:-localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio}}
+      no_proxy: ${no_proxy:-${NO_PROXY:-localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio}}
       METADATA_POSTGRES_HOST_EXTERNAL: postgresql
       METADATA_POSTGRES_EXTERNAL_PORT: 5432
       METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
@@ -186,3 +208,4 @@ volumes:
   prefect_redis_data:
   metadata_postgres_data:
   minio_data:
+  pgadmin_data:

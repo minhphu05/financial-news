@@ -1,0 +1,22 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Financial Metadata PostgreSQL",
+      "Group": "Financial News Local",
+      "Host": "postgresql",
+      "Port": 5432,
+      "MaintenanceDB": "financial_metadata",
+      "Username": "metadata_user",
+      "SSLMode": "prefer"
+    },
+    "2": {
+      "Name": "Prefect PostgreSQL",
+      "Group": "Financial News Local",
+      "Host": "postgresql-prefect",
+      "Port": 5432,
+      "MaintenanceDB": "prefectdb",
+      "Username": "prefect",
+      "SSLMode": "prefer"
+    }
+  }
+}

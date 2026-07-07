@@ -12,6 +12,8 @@ COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip  \
     && pip install --no-cache-dir -r requirements.txt
 
+RUN python -m playwright install --with-deps chromium
+
 COPY src ./src
 COPY scripts ./scripts
 

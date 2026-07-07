@@ -1,21 +1,16 @@
-"""Prefect flows that orchestrate the ViFinNER data pipeline.
+"""Active Prefect flows for the local Financial News scraper.
 
-Flows
------
-* :mod:`scrape_flow`        - daily CafeF scrape into MongoDB.
-* :mod:`ingest_flow`        - cleaning + embedding pipeline.
-* :mod:`full_pipeline_flow` - composed flow (scrape → chunk → embed).
-* :mod:`eval_flow`          - RAG evaluation harness.
+Inactive RAG/ingestion/evaluation flows kept for later reuse live in
+:mod:`src.flows.future_use`.
 """
 
 from importlib import import_module
 
 
 _FLOW_EXPORTS = {
-    "full_pipeline_flow": "src.flows.full_pipeline_flow",
-    "ingest_flow": "src.flows.ingest_flow",
-    "rag_eval_flow": "src.flows.eval_flow",
+    "market_data_flow": "src.flows.standard_scraper_flow",
     "scrape_flow": "src.flows.scrape_flow",
+    "standard_scraper_flow": "src.flows.standard_scraper_flow",
 }
 
 
@@ -28,8 +23,7 @@ def __getattr__(name: str):
     return value
 
 __all__ = [
-    "full_pipeline_flow",
-    "ingest_flow",
-    "rag_eval_flow",
+    "market_data_flow",
     "scrape_flow",
+    "standard_scraper_flow",
 ]

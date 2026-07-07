@@ -1,0 +1,62 @@
+2026-06-30 00:27:33 - src.scraper - INFO - [94mPlain log        : C:\projects\financial-news\logs\scraper\scrape_20260630T002733_ACB.log[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mJSON log         : C:\projects\financial-news\logs\scraper\scrape_20260630T002733_ACB.json.log[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mContent backend  : minio[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mMinIO bucket     : financialnews-datalake[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mSources          : thanhnien[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mMax pages/keyword: 200[0m
+2026-06-30 00:27:33 - src.scraper - INFO - [94mMax keywords/ticker: 5[0m
+2026-06-30 00:27:33 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-30 00:27:33 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to MinIO bucket 'financialnews-datalake'.[0m
+2026-06-30 00:27:33 - src.scraper.engine.pipeline - INFO - [94mLoaded 5 keyword(s) for 1 source(s).[0m
+2026-06-30 00:27:34 - src.scraper.engine.pipeline - INFO - [94mCrawl job 03db5f07-85fb-4b9b-8334-a26eda4ffad0 started.[0m
+2026-06-30 00:27:34 - src.scraper.engine.pipeline - INFO - [94m=== Source: thanhnien ===[0m
+2026-06-30 00:27:34 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mRendering Thanh Nien search: https://thanhnien.vn/tim-kiem.htm?keywords=ACB[0m
+2026-06-30 00:28:05 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mThanh Nien keyword 'ACB': parsed 20/708 listing result(s).[0m
+2026-06-30 00:30:25 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB' [thanhnien:ACB] -> 20 new, 0 skipped, 1 pages[0m
+2026-06-30 00:30:25 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mRendering Thanh Nien search: https://thanhnien.vn/tim-kiem.htm?keywords=Ng%C3%A2n+h%C3%A0ng+%C3%81+Ch%C3%A2u[0m
+2026-06-30 00:31:10 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mThanh Nien keyword 'Ngân hàng Á Châu': parsed 60/223 listing result(s).[0m
+2026-06-30 00:34:12 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.vn/ngan-hang-acb-se-chi-10000-ti-dong-mua-lai-trai-phieu-truoc-han-185230614105827253.htm failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='thanhnien.vn', port=443): Max retries exceeded with url: /ngan-hang-acb-se-chi-10000-ti-dong-mua-lai-trai-phieu-truoc-han-185230614105827253.htm (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) - retrying in 0.5s[0m
+2026-06-30 00:35:16 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/Ảnh failed (attempt 1/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/%E1%BA%A2nh - retrying in 0.5s[0m
+2026-06-30 00:35:17 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/Ảnh failed (attempt 2/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/%E1%BA%A2nh - retrying in 1.0s[0m
+2026-06-30 00:35:18 - src.scraper.http_client - ERROR - [31mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/Ảnh gave up after 2 retries: HTTPError('404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/%E1%BA%A2nh')[0m
+2026-06-30 00:35:18 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://images2.thanhnien.vn/zoom/237_148/Uploaded/xuanvu/Ảnh[0m
+2026-06-30 00:35:48 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg failed (attempt 1/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg - retrying in 0.5s[0m
+2026-06-30 00:35:49 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg failed (attempt 2/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg - retrying in 1.0s[0m
+2026-06-30 00:35:50 - src.scraper.http_client - ERROR - [31mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg gave up after 2 retries: HTTPError('404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg')[0m
+2026-06-30 00:35:50 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh1_nguyencongthanh_PAYI.jpg[0m
+2026-06-30 00:35:50 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689 failed (attempt 1/2): HTTPError: 404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689 - retrying in 0.5s[0m
+2026-06-30 00:35:50 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689 failed (attempt 2/2): HTTPError: 404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689 - retrying in 1.0s[0m
+2026-06-30 00:35:51 - src.scraper.http_client - ERROR - [31mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689 gave up after 2 retries: HTTPError('404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689')[0m
+2026-06-30 00:35:51 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_vosylan_PDAU.jpg?width=689[0m
+2026-06-30 00:35:56 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg failed (attempt 1/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg - retrying in 0.5s[0m
+2026-06-30 00:35:57 - src.scraper.http_client - WARNING - [33mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg failed (attempt 2/2): HTTPError: 404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg - retrying in 1.0s[0m
+2026-06-30 00:35:58 - src.scraper.http_client - ERROR - [31mGET https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg gave up after 2 retries: HTTPError('404 Client Error: NOT FOUND for url: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg')[0m
+2026-06-30 00:35:58 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://images2.thanhnien.vn/zoom/237_148/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/anh2_bicaothanh_UTCG.jpg[0m
+2026-06-30 00:35:58 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg failed (attempt 1/2): HTTPError: 404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg - retrying in 0.5s[0m
+2026-06-30 00:35:59 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg failed (attempt 2/2): HTTPError: 404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg - retrying in 1.0s[0m
+2026-06-30 00:36:00 - src.scraper.http_client - ERROR - [31mGET https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg gave up after 2 retries: HTTPError('404 Client Error: NOT FOUND for url: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg')[0m
+2026-06-30 00:36:00 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://thanhnien.mediacdn.vn/Uploaded/GiangPhuong/Nam%202017/thang%208/Ngan%20hang%20ACB%20Long%20Hoa/img_4955_KWQT.jpg[0m
+2026-06-30 00:36:11 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng Á Châu' [thanhnien:ACB] -> 56 new, 4 skipped, 1 pages[0m
+2026-06-30 00:36:11 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mRendering Thanh Nien search: https://thanhnien.vn/tim-kiem.htm?keywords=Asia+Commercial+Bank[0m
+2026-06-30 00:36:37 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mThanh Nien keyword 'Asia Commercial Bank': parsed 0/0 listing result(s).[0m
+2026-06-30 00:36:37 - src.scraper.engine.crawler - INFO - [94mNo items for 'Asia Commercial Bank'; stopping.[0m
+2026-06-30 00:36:37 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Asia Commercial Bank' [thanhnien:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 00:36:37 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mRendering Thanh Nien search: https://thanhnien.vn/tim-kiem.htm?keywords=ACB+Bank[0m
+2026-06-30 00:36:40 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mThanh Nien keyword 'ACB Bank': parsed 2/2 listing result(s).[0m
+2026-06-30 00:36:50 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB Bank' [thanhnien:ACB] -> 2 new, 0 skipped, 1 pages[0m
+2026-06-30 00:36:50 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mRendering Thanh Nien search: https://thanhnien.vn/tim-kiem.htm?keywords=Ng%C3%A2n+h%C3%A0ng+ACB[0m
+2026-06-30 00:37:16 - src.scraper.thanhnien.thanhnien_scraper - INFO - [94mThanh Nien keyword 'Ngân hàng ACB': parsed 40/151 listing result(s).[0m
+2026-06-30 00:40:07 - src.scraper.http_client - WARNING - [33mGET https://thanhnien.vn/vu-an-dia-oc-alibaba-hoan-tat-cao-trang-truy-to-nguyen-thai-luyen-va-dong-pham-voi-nhung-con-so-khung-1851442453.htm failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='thanhnien.vn', port=443): Max retries exceeded with url: /vu-an-dia-oc-alibaba-hoan-tat-cao-trang-truy-to-nguyen-thai-luyen-va-dong-pham-voi-nhung-con-so-khung-1851442453.htm (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))) - retrying in 0.5s[0m
+2026-06-30 00:40:43 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng ACB' [thanhnien:ACB] -> 33 new, 7 skipped, 1 pages[0m
+2026-06-30 00:40:43 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['thanhnien']
+  keywords processed  : 5
+  articles found      : 122
+  articles persisted  : 111
+  articles skipped    : 11
+  pages crawled       : 4
+  errors              : 0[0m
+2026-06-30 00:40:43 - src.scraper - INFO - [94mTotal elapsed: 790.1s[0m

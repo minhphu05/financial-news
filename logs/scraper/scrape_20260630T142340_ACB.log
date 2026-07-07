@@ -1,0 +1,29 @@
+2026-06-30 14:23:40 - src.scraper - INFO - [94mPlain log        : C:\projects\financial-news\logs\scraper\scrape_20260630T142340_ACB.log[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mJSON log         : C:\projects\financial-news\logs\scraper\scrape_20260630T142340_ACB.json.log[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mContent backend  : minio[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mMinIO bucket     : financialnews-datalake[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mSources          : vnexpress[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mMax pages/keyword: 1[0m
+2026-06-30 14:23:40 - src.scraper - INFO - [94mMax keywords/ticker: 1[0m
+2026-06-30 14:23:40 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-30 14:23:41 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to MinIO bucket 'financialnews-datalake'.[0m
+2026-06-30 14:23:41 - src.scraper.engine.pipeline - INFO - [94mLoaded 1 keyword(s) for 1 source(s).[0m
+2026-06-30 14:23:41 - src.scraper.engine.pipeline - INFO - [94mCrawl job af17ca49-42e8-49d6-b3b8-d2105fbec9ba started.[0m
+2026-06-30 14:23:41 - src.scraper.engine.pipeline - INFO - [94m=== Source: vnexpress ===[0m
+2026-06-30 14:23:42 - src.scraper.vnexpress.vnexpress_scraper - INFO - [94mRendering VnExpress search for keyword 'ACB'.[0m
+2026-06-30 14:24:00 - src.scraper.vnexpress.vnexpress_scraper - INFO - [94mVnExpress keyword 'ACB': parsed 3 listing result(s).[0m
+2026-06-30 14:25:45 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://vcdn1-kinhdoanh.vnecdn.net/2026/05/09/ACB-1-1778285382-4784-1778285497.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=VvZzEsRH8XXkZE6XyZIemQ&vnetimestamp=1782804251343[0m
+2026-06-30 14:26:47 - src.scraper.engine.crawler - WARNING - [33mImage fetch failed: https://vcdn1-kinhdoanh.vnecdn.net/2026/05/09/ACB-2-1778285352-5632-1778285497.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=xIvovlvEgWIMViJuVHoKMQ[0m
+2026-06-30 14:26:47 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB' [vnexpress:ACB] -> 1 new, 2 skipped, 1 pages[0m
+2026-06-30 14:26:47 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['vnexpress']
+  keywords processed  : 1
+  articles found      : 3
+  articles persisted  : 1
+  articles skipped    : 2
+  pages crawled       : 1
+  errors              : 0[0m
+2026-06-30 14:26:47 - src.scraper - INFO - [94mTotal elapsed: 186.9s[0m

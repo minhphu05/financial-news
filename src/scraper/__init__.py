@@ -18,8 +18,6 @@ Package layout
 
 The original CafeF-only implementation is archived under :mod:`src.scraper.legacy`.
 """
-from src.scraper.config import ScraperSettings, get_settings
-from src.scraper.engine import RunSummary, available_sources, run_pipeline
 
 __all__ = [
     "ScraperSettings",
@@ -28,3 +26,19 @@ __all__ = [
     "available_sources",
     "run_pipeline",
 ]
+
+
+def __getattr__(name: str):
+    if name in {"ScraperSettings", "get_settings"}:
+        from src.scraper.config import ScraperSettings, get_settings
+
+        return {"ScraperSettings": ScraperSettings, "get_settings": get_settings}[name]
+    if name in {"RunSummary", "available_sources", "run_pipeline"}:
+        from src.scraper.engine import RunSummary, available_sources, run_pipeline
+
+        return {
+            "RunSummary": RunSummary,
+            "available_sources": available_sources,
+            "run_pipeline": run_pipeline,
+        }[name]
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")

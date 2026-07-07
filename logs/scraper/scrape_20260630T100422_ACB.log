@@ -1,0 +1,50 @@
+2026-06-30 10:04:22 - src.scraper - INFO - [94mPlain log        : C:\projects\financial-news\logs\scraper\scrape_20260630T100422_ACB.log[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mJSON log         : C:\projects\financial-news\logs\scraper\scrape_20260630T100422_ACB.json.log[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mContent backend  : minio[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mMinIO bucket     : financialnews-datalake[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mSources          : cafef[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mMax pages/keyword: 1[0m
+2026-06-30 10:04:22 - src.scraper - INFO - [94mMax keywords/ticker: 5[0m
+2026-06-30 10:04:22 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-30 10:04:23 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to MinIO bucket 'financialnews-datalake'.[0m
+2026-06-30 10:04:24 - src.scraper.engine.pipeline - INFO - [94mLoaded 5 keyword(s) for 1 source(s).[0m
+2026-06-30 10:04:24 - src.scraper.engine.pipeline - INFO - [94mCrawl job 8e5c2c94-c986-4935-8e6d-71523d7b6370 started.[0m
+2026-06-30 10:04:24 - src.scraper.engine.pipeline - INFO - [94m=== Source: cafef ===[0m
+2026-06-30 10:04:24 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 0.5s[0m
+2026-06-30 10:04:25 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB failed (attempt 2/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 1.0s[0m
+2026-06-30 10:04:26 - src.scraper.http_client - ERROR - [31mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB gave up after 2 retries: ProxyError(MaxRetryError("HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))"))[0m
+2026-06-30 10:04:26 - src.scraper.engine.crawler - WARNING - [33mListing unreachable; stopping at page 1.[0m
+2026-06-30 10:04:26 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 10:04:26 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng Á Châu failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20%C3%81%20Ch%C3%A2u (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 0.5s[0m
+2026-06-30 10:04:27 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng Á Châu failed (attempt 2/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20%C3%81%20Ch%C3%A2u (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 1.0s[0m
+2026-06-30 10:04:28 - src.scraper.http_client - ERROR - [31mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng Á Châu gave up after 2 retries: ProxyError(MaxRetryError("HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20%C3%81%20Ch%C3%A2u (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))"))[0m
+2026-06-30 10:04:28 - src.scraper.engine.crawler - WARNING - [33mListing unreachable; stopping at page 1.[0m
+2026-06-30 10:04:28 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng Á Châu' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 10:04:28 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Asia Commercial Bank failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Asia%20Commercial%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 0.5s[0m
+2026-06-30 10:04:28 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Asia Commercial Bank failed (attempt 2/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Asia%20Commercial%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 1.0s[0m
+2026-06-30 10:04:29 - src.scraper.http_client - ERROR - [31mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Asia Commercial Bank gave up after 2 retries: ProxyError(MaxRetryError("HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Asia%20Commercial%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))"))[0m
+2026-06-30 10:04:29 - src.scraper.engine.crawler - WARNING - [33mListing unreachable; stopping at page 1.[0m
+2026-06-30 10:04:29 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Asia Commercial Bank' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 10:04:29 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB Bank failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 0.5s[0m
+2026-06-30 10:04:30 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB Bank failed (attempt 2/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 1.0s[0m
+2026-06-30 10:04:31 - src.scraper.http_client - ERROR - [31mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=ACB Bank gave up after 2 retries: ProxyError(MaxRetryError("HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=ACB%20Bank (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))"))[0m
+2026-06-30 10:04:31 - src.scraper.engine.crawler - WARNING - [33mListing unreachable; stopping at page 1.[0m
+2026-06-30 10:04:31 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'ACB Bank' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 10:04:31 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng ACB failed (attempt 1/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 0.5s[0m
+2026-06-30 10:04:32 - src.scraper.http_client - WARNING - [33mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng ACB failed (attempt 2/2): ProxyError: HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required'))) - retrying in 1.0s[0m
+2026-06-30 10:04:33 - src.scraper.http_client - ERROR - [31mGET https://cafef.vn/tim-kiem/trang-1.chn?keywords=Ngân hàng ACB gave up after 2 retries: ProxyError(MaxRetryError("HTTPSConnectionPool(host='cafef.vn', port=443): Max retries exceeded with url: /tim-kiem/trang-1.chn?keywords=Ng%C3%A2n%20h%C3%A0ng%20ACB (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))"))[0m
+2026-06-30 10:04:33 - src.scraper.engine.crawler - WARNING - [33mListing unreachable; stopping at page 1.[0m
+2026-06-30 10:04:33 - src.scraper.engine.crawler - SUCCESS - [32mKeyword 'Ngân hàng ACB' [cafef:ACB] -> 0 new, 0 skipped, 0 pages[0m
+2026-06-30 10:04:33 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['cafef']
+  keywords processed  : 5
+  articles found      : 0
+  articles persisted  : 0
+  articles skipped    : 0
+  pages crawled       : 0
+  errors              : 5
+  failed -> ['cafef:ACB:ACB:LISTING_UNREACHABLE', 'cafef:ACB:Ngân hàng Á Châu:LISTING_UNREACHABLE', 'cafef:ACB:Asia Commercial Bank:LISTING_UNREACHABLE', 'cafef:ACB:ACB Bank:LISTING_UNREACHABLE', 'cafef:ACB:Ngân hàng ACB:LISTING_UNREACHABLE'][0m
+2026-06-30 10:04:33 - src.scraper - INFO - [94mTotal elapsed: 11.1s[0m

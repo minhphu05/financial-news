@@ -63,6 +63,7 @@ def run_pipeline(
     tickers: Optional[Sequence[str]] = None,
     source_filter: Optional[str] = None,
     triggered_by: str = "manual",
+    max_keywords_per_ticker: Optional[int] = None,
 ) -> RunSummary:
     """Execute the full scrape across selected sources and tickers."""
     source_names = resolve_sources(source_filter)
@@ -74,6 +75,8 @@ def run_pipeline(
 
         provider = PostgresKeywordProvider(repo.session_factory)
         records = provider.iter_keywords(tickers)
+        if max_keywords_per_ticker is not None:
+            records = _limit_keywords_per_ticker(records, max_keywords_per_ticker)
         logger.info(
             "Loaded %s keyword(s) for %s source(s).", len(records), len(source_names)
         )
@@ -96,7 +99,8 @@ def run_pipeline(
         job_note = (
             f"triggered_by={triggered_by}; "
             f"sources={source_names}; "
-            f"tickers={list(tickers) if tickers else 'all'}"
+            f"tickers={list(tickers) if tickers else 'all'}; "
+            f"max_keywords_per_ticker={max_keywords_per_ticker or 'all'}"
         )
         job_id = repo.create_crawl_job(
             crawler_version=settings.crawler_version,
@@ -140,11 +144,16 @@ def run_pipeline(
                         summary.articles_skipped += result.skipped
                         summary.persisted_article_ids.extend(result.persisted_article_ids)
                         summary.pages_crawled += result.pages
+                        if result.error is not None:
+                            summary.errors += 1
+                            summary.failed.append(f"{source_name}:{record.ticker}:{record.keyword}:{result.error}")
                         repo.write_crawl_log(
                             job_id=job_id,
                             target_url=target_url,
                             response_time_ms=int((time.monotonic() - started) * 1000),
-                            is_success=True,
+                            is_success=result.error is None,
+                            error_category=result.error,
+                            error_message=result.error,
                         )
                     except Exception as exc:
                         logger.exception(
@@ -154,6 +163,7 @@ def run_pipeline(
                             record.keyword,
                             exc,
                         )
+                        summary.keywords_processed += 1
                         summary.errors += 1
                         summary.failed.append(f"{source_name}:{record.ticker}:{record.keyword}")
                         repo.write_crawl_log(
@@ -172,12 +182,14 @@ def run_pipeline(
             final_status = "FAILED"
             summary.errors += 1
         finally:
+            if summary.errors and final_status == "SUCCESS":
+                final_status = "FAILED"
             repo.finish_crawl_job(
                 job_id,
                 status=final_status,
                 note=job_note,
-                total_requests=summary.keywords_processed + summary.errors,
-                success_requests=summary.keywords_processed,
+                total_requests=summary.keywords_processed,
+                success_requests=max(0, summary.keywords_processed - summary.errors),
                 failed_requests=summary.errors,
                 items_extracted=summary.articles_persisted,
             )
@@ -185,3 +197,20 @@ def run_pipeline(
     clear_log_context()
     logger.success(summary.render())
     return summary
+
+
+def _limit_keywords_per_ticker(records, max_keywords_per_ticker: int):
+    """Keep only the first N active keywords for each ticker, preserving order."""
+    if max_keywords_per_ticker < 1:
+        raise ValueError("max_keywords_per_ticker must be greater than zero.")
+
+    counts: dict[str, int] = {}
+    limited = []
+    for record in records:
+        ticker = record.ticker.upper()
+        count = counts.get(ticker, 0)
+        if count >= max_keywords_per_ticker:
+            continue
+        limited.append(record)
+        counts[ticker] = count + 1
+    return limited

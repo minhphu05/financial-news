@@ -6,6 +6,7 @@ the same timeout / retry / pacing policy without copy-pasting boilerplate.
 """
 from __future__ import annotations
 
+import os
 import random
 import time
 from typing import Optional
@@ -32,6 +33,12 @@ class HttpClient:
 
     def __init__(self, settings: ScraperSettings) -> None:
         self._settings = settings
+        self._verify_tls = os.getenv("SCRAPER_VERIFY_TLS", "true").strip().lower() not in {
+            "0",
+            "false",
+            "no",
+            "off",
+        }
         self._session = requests.Session()
         self._session.headers.update(
             {
@@ -58,7 +65,9 @@ class HttpClient:
         for attempt in range(1, self._settings.max_retries + 1):
             try:
                 response = self._session.get(
-                    url, timeout=self._settings.request_timeout
+                    url,
+                    timeout=self._settings.request_timeout,
+                    verify=self._verify_tls,
                 )
                 response.raise_for_status()
                 self._sleep_polite()

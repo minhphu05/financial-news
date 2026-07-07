@@ -2,20 +2,26 @@
 Source parser registry.
 
 Maps a source name to its :class:`~src.scraper.base_parser.BaseParser`
-implementation. Only fully-implemented sources are registered; the remaining
-financial-news sites (vnexpress, baomoi, thanhnien, tuoitre) plug in here once
-their ``{source}_scraper.py`` modules are written under their own package.
+implementation. Only fully-implemented sources are registered here.
 """
 from __future__ import annotations
 
 from typing import Dict, List, Type
 
 from src.scraper.engine.base_parser import BaseParser
+from src.scraper.baomoi import BaomoiParser
 from src.scraper.cafef import CafefParser
+from src.scraper.thanhnien import ThanhnienParser
+from src.scraper.tuoitre import TuoitreParser
+from src.scraper.vnexpress import VnexpressParser
 
 # name -> parser class
 _REGISTRY: Dict[str, Type[BaseParser]] = {
+    BaomoiParser.name: BaomoiParser,
     CafefParser.name: CafefParser,
+    ThanhnienParser.name: ThanhnienParser,
+    TuoitreParser.name: TuoitreParser,
+    VnexpressParser.name: VnexpressParser,
 }
 
 

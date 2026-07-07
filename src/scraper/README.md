@@ -8,13 +8,19 @@
 - `config.py`: environment-driven scraper settings.
 - `engine/`: generic orchestration for crawling any registered news source.
 - `storage/`: PostgreSQL metadata repository plus ADLS/MinIO content writers.
+- `baomoi/`: implemented Bao Moi parser with Playwright paginated search.
 - `cafef/`: implemented CafeF parser.
+- `thanhnien/`: implemented Thanh Nien parser with Playwright search scrolling.
+- `tuoitre/`: implemented Tuoi Tre parser with Playwright search scrolling.
+- `vnexpress/`: implemented VnExpress parser with Selenium-rendered search/detail/image fetching.
 - `vietstock/`: market data scraper for HOSE/HNX metrics and VN30/HNX30 memberships.
 - `keyword_generation/`: Gemini keyword generation for tickers missing active keywords.
 - `legacy/`: older scraper implementation kept for reference/migration only.
 - `notebook/`: exploratory notebooks.
 
 Prefect orchestration is outside this package in `src/flows`. The scraper package is the execution engine; Prefect decides when and with which parameters to call it.
+
+For the full operator runbook, see `docs/SCRAPER_PIPELINE_RUNBOOK.md`.
 
 ## Data Flow
 
@@ -112,10 +118,58 @@ Run all active tickers on all registered sources:
 python -m src.scraper.run --ticket all --content-storage-backend minio
 ```
 
-Run one ticker:
+Run one ticker on CafeF:
 
 ```bash
 python -m src.scraper.run --ticket ACB --source cafef --max-pages 2 --content-storage-backend minio
+```
+
+Run one ticker on Bao Moi:
+
+```bash
+python -m src.scraper.run --ticket ACB --source baomoi --max-pages 2 --content-storage-backend minio
+```
+
+For bounded Bao Moi smoke tests, use `BAOMOI_MAX_ITEMS`:
+
+```powershell
+$env:BAOMOI_MAX_ITEMS='3'; .\.venv\Scripts\python.exe -m src.scraper.run --ticket ACB --source baomoi --max-keywords 1 --max-pages 2 --content-storage-backend minio
+```
+
+Run one ticker on Thanh Nien:
+
+```bash
+python -m src.scraper.run --ticket ACB --source thanhnien --content-storage-backend minio
+```
+
+Run one ticker on Tuoi Tre:
+
+```bash
+python -m src.scraper.run --ticket ACB --source tuoitre --content-storage-backend minio
+```
+
+For bounded Tuoi Tre smoke tests, use `TUOITRE_MAX_ITEMS`:
+
+```powershell
+$env:TUOITRE_MAX_ITEMS='3'; .\.venv\Scripts\python.exe -m src.scraper.run --ticket ACB --source tuoitre --max-keywords 1 --max-pages 1 --content-storage-backend minio
+```
+
+Run one ticker on VnExpress:
+
+```bash
+python -m src.scraper.run --ticket ACB --source vnexpress --max-pages 1 --content-storage-backend minio
+```
+
+For bounded Selenium smoke tests, use `VNEXPRESS_MAX_ITEMS` and `VNEXPRESS_IMAGE_TIMEOUT`:
+
+```powershell
+$env:VNEXPRESS_MAX_ITEMS='3'; $env:VNEXPRESS_IMAGE_TIMEOUT='5'; .\.venv\Scripts\python.exe -m src.scraper.run --ticket ACB --source vnexpress --max-keywords 1 --max-pages 1 --content-storage-backend minio
+```
+
+Run one ticker on both CafeF and Thanh Nien:
+
+```bash
+python -m src.scraper.run --ticket ACB --source cafef,thanhnien --content-storage-backend minio
 ```
 
 Run several tickers:
@@ -140,7 +194,7 @@ Check status:
 
 ## Adding A New Source
 
-Yes: create a new source folder and a `{source}_scraper.py` parser.
+Almost yes: create a new source folder and a `{source}_scraper.py` parser.
 
 Minimum pattern for `thanhnien`:
 
@@ -159,5 +213,7 @@ The parser must subclass `BaseParser` and implement:
 - `parse_detail`
 
 Then register it in `src/scraper/engine/registry.py`.
+
+Without the registry step, the source will not be discovered by either CLI or Prefect.
 
 See `SOURCE_ONBOARDING.md` for the full checklist.

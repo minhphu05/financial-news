@@ -4,7 +4,7 @@ This guide describes how to add a new news source such as `thanhnien`, `tuoitre`
 
 ## Short Answer
 
-Yes. For a new source, create a folder and a `{source}_scraper.py` file:
+Almost yes. For a new source, create a folder and a `{source}_scraper.py` file:
 
 ```text
 src/scraper/{source}/
@@ -14,6 +14,15 @@ src/scraper/{source}/
 ```
 
 Then register the parser in `src/scraper/engine/registry.py`.
+
+So the real answer is:
+
+- create the source folder,
+- implement the parser script,
+- add the instruction markdown,
+- register the parser.
+
+You do not need to modify Prefect flows for a standard source.
 
 ## Required Parser Contract
 

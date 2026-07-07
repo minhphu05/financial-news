@@ -59,6 +59,12 @@ def _build_arg_parser() -> argparse.ArgumentParser:
         help="Override SCRAPER_MAX_PAGES for this run (per keyword).",
     )
     parser.add_argument(
+        "--max-keywords",
+        type=int,
+        default=None,
+        help="Limit active keywords processed per ticker for bounded test runs.",
+    )
+    parser.add_argument(
         "--triggered-by",
         default="manual",
         choices=["manual", "cron", "prefect"],
@@ -110,6 +116,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     logger.info("Sources          : %s", args.source)
     logger.info("Tickers          : %s", tickers or "all")
     logger.info("Max pages/keyword: %s", settings.max_pages)
+    logger.info("Max keywords/ticker: %s", args.max_keywords or "all")
 
     started_at = datetime.now()
     try:
@@ -118,6 +125,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             tickers=tickers,
             source_filter=args.source,
             triggered_by=args.triggered_by,
+            max_keywords_per_ticker=args.max_keywords,
         )
     except KeyboardInterrupt:
         logger.warning("Interrupted by user (Ctrl-C). Partial progress is saved.")

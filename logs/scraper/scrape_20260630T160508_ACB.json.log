@@ -1,0 +1,20 @@
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Plain log        : C:\\projects\\financial-news\\logs\\scraper\\scrape_20260630T160508_ACB.log", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "JSON log         : C:\\projects\\financial-news\\logs\\scraper\\scrape_20260630T160508_ACB.json.log", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "PostgreSQL       : localhost:5434/financial_metadata", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Content backend  : minio", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "ADLS filesystem  : financialnews-datalake", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "MinIO bucket     : financialnews-datalake", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Sources          : tuoitre", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Tickers          : ['ACB']", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Max pages/keyword: 1", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:08.997Z", "level": "INFO", "logger": "src.scraper", "message": "Max keywords/ticker: 1", "asctime": "2026-06-30 16:05:08"}
+{"timestamp": "2026-06-30T09:05:09.022Z", "level": "SUCCESS", "logger": "src.scraper.storage.repository", "message": "Connected to PostgreSQL localhost:5434/financial_metadata", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:09.167Z", "level": "SUCCESS", "logger": "src.scraper.storage.adls_writer", "message": "Connected to MinIO bucket 'financialnews-datalake'.", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:09.234Z", "level": "INFO", "logger": "src.scraper.engine.pipeline", "message": "Loaded 1 keyword(s) for 1 source(s).", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:09.284Z", "level": "INFO", "logger": "src.scraper.engine.pipeline", "message": "Crawl job 876e6f03-4277-4dd2-836e-b29909916c82 started.", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:09.284Z", "level": "INFO", "logger": "src.scraper.engine.pipeline", "message": "=== Source: tuoitre ===", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:09.367Z", "level": "INFO", "logger": "src.scraper.tuoitre.tuoitre_scraper", "message": "Rendering Tuoi Tre search: https://tuoitre.vn/tim-kiem.htm?keywords=ACB", "source_name": "tuoitre", "ticker_symbol": "ACB", "keyword": "ACB", "asctime": "2026-06-30 16:05:09"}
+{"timestamp": "2026-06-30T09:05:11.625Z", "level": "INFO", "logger": "src.scraper.tuoitre.tuoitre_scraper", "message": "Tuoi Tre keyword 'ACB': parsed 3/1128 listing result(s).", "source_name": "tuoitre", "ticker_symbol": "ACB", "keyword": "ACB", "asctime": "2026-06-30 16:05:11"}
+{"timestamp": "2026-06-30T09:05:40.303Z", "level": "SUCCESS", "logger": "src.scraper.engine.crawler", "message": "Keyword 'ACB' [tuoitre:ACB] -> 3 new, 0 skipped, 1 pages", "source_name": "tuoitre", "ticker_symbol": "ACB", "keyword": "ACB", "asctime": "2026-06-30 16:05:40"}
+{"timestamp": "2026-06-30T09:05:40.339Z", "level": "SUCCESS", "logger": "src.scraper.engine.pipeline", "message": "Run summary\n  sources             : ['tuoitre']\n  keywords processed  : 1\n  articles found      : 3\n  articles persisted  : 3\n  articles skipped    : 0\n  pages crawled       : 1\n  errors              : 0", "asctime": "2026-06-30 16:05:40"}
+{"timestamp": "2026-06-30T09:05:40.339Z", "level": "INFO", "logger": "src.scraper", "message": "Total elapsed: 31.3s", "asctime": "2026-06-30 16:05:40"}

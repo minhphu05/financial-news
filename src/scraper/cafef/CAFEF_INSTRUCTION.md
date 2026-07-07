@@ -13,6 +13,34 @@ parser     : src.scraper.cafef.cafef_scraper.CafefParser
 
 CafeF is currently the only news source registered in `src/scraper/engine/registry.py`.
 
+## When To Use This Instruction
+
+Use this document when you need to:
+
+- debug CafeF selectors,
+- run CafeF manually from CLI,
+- run CafeF from Prefect UI,
+- onboard another engineer to the CafeF parser,
+- compare CafeF behavior before and after parser edits.
+
+## Input Data Required
+
+CafeF scraping does not read keywords from a file at runtime. It reads active
+keywords from PostgreSQL through `PostgresKeywordProvider`:
+
+```text
+core.stocks
+scraping.keywords
+```
+
+For a ticker to be scraped, both conditions must be true:
+
+- `core.stocks.is_active = true`
+- `scraping.keywords.is_active = true`
+
+The CLI `--ticket` argument only filters existing active keyword rows. If a
+ticker has no active keywords, the scraper has nothing to search for.
+
 ## Search URL
 
 Default template:
@@ -101,6 +129,25 @@ The crawler stores these blocks in the article JSON payload in ADLS or MinIO.
 
 ## Run Commands
 
+Use `minio` for local runs unless you intentionally want to write article JSON
+to ADLS.
+
+### Fastest Local Debug Run
+
+Use this first when changing selectors:
+
+```bash
+python -m src.scraper.run --ticket ACB --source cafef --max-pages 1 --content-storage-backend minio
+```
+
+Why this command is the default debug command:
+
+- one ticker,
+- one source,
+- one page,
+- local object storage only,
+- fastest path to confirm the parser still works.
+
 Run all active tickers on CafeF:
 
 ```bash
@@ -118,6 +165,51 @@ Run multiple tickers:
 ```bash
 python -m src.scraper.run --ticket ACB,FPT,VCB --source cafef --max-pages 2 --content-storage-backend minio
 ```
+
+Run CafeF while recording the run as a cron-style trigger in the crawl job note:
+
+```bash
+python -m src.scraper.run --ticket all --source cafef --triggered-by cron --content-storage-backend minio
+```
+
+### Manual Prefect UI Run For CafeF
+
+Open Prefect UI:
+
+```text
+http://localhost:4201
+```
+
+Choose deployment:
+
+```text
+financial-news-standard-scraper/manual
+```
+
+Then use one of these parameter sets.
+
+## What A CafeF Run Writes
+
+Metadata is written to PostgreSQL:
+
+```text
+scraping.sources
+scraping.crawl_jobs
+scraping.crawl_logs
+core.article_metadata
+core.article_stock_mapping
+```
+
+Full article payloads are written to the configured content backend:
+
+```text
+CONTENT_STORAGE_BACKEND=minio  -> MinIO bucket
+CONTENT_STORAGE_BACKEND=adls   -> ADLS filesystem
+```
+
+Each JSON payload contains article metadata plus ordered content blocks. Text
+blocks preserve reading order; image blocks preserve image URL and caption when
+available.
 
 ## Prefect UI Manual Parameters
 
@@ -139,6 +231,34 @@ All tickers on CafeF:
 }
 ```
 
+If you want the full standard flow before CafeF scraping, set both skips to
+`false`. That will scrape market data first and generate missing keywords before
+the news stage:
+
+```json
+{
+  "tickers": null,
+  "source_filter": "cafef",
+  "skip_market_data": false,
+  "skip_keyword_generation": false,
+  "content_storage_backend": "minio"
+}
+```
+
+## Automation Schedule
+
+CafeF participates in the scheduled news deployment:
+
+```text
+financial-news-standard-scraper/daily
+```
+
+That deployment runs daily at 16:00 ICT and uses `source_filter=null`, which
+means every source registered in `src/scraper/engine/registry.py`. Today that is
+only `cafef`.
+
+The dedicated market-data deployments run separately at 12:00 and 15:00 ICT.
+
 Single ticker on CafeF:
 
 ```json
@@ -150,6 +270,38 @@ Single ticker on CafeF:
   "content_storage_backend": "minio"
 }
 ```
+
+### Full Manual Standard Flow Ending In CafeF
+
+Use this when you want the whole standard orchestration before the CafeF stage:
+
+```json
+{
+  "tickers": null,
+  "source_filter": "cafef",
+  "skip_market_data": false,
+  "skip_keyword_generation": false,
+  "content_storage_backend": "minio"
+}
+```
+
+Effect:
+
+1. Vietstock market data runs.
+2. Missing ticker keywords are generated if needed.
+3. CafeF scraping runs last.
+
+### What CafeF Needs To Work
+
+Minimum runtime requirements:
+
+- metadata Postgres reachable,
+- active ticker rows in `core.stocks`,
+- active keyword rows in `scraping.keywords`,
+- MinIO or ADLS configured,
+- network access to `https://cafef.vn`.
+
+If any of these are missing, the parser may be correct but the run still produces no articles.
 
 ## Known Risks
 
@@ -164,3 +316,29 @@ Single ticker on CafeF:
 2. Update selectors in `CafefParser` only.
 3. Keep parser pure: no HTTP, DB, Prefect, ADLS, or MinIO logic.
 4. Test with `--max-pages 1` and `--content-storage-backend minio`.
+
+## Parser Maintenance Checklist
+
+Before changing behavior, verify these parser methods still match CafeF:
+
+1. `build_search_url("ACB", 1)` returns a valid CafeF search page.
+2. `is_listing_exhausted(html)` detects an empty search result page.
+3. `parse_listing(html)` returns absolute article URLs and stable `external_id` values.
+4. `parse_detail(html)` returns title, content, date, category, author when present, and ordered blocks.
+5. A CLI run with `--ticket ACB --source cafef --max-pages 1 --content-storage-backend minio` completes.
+
+If only CafeF changes, do not edit the generic crawler, storage repository, or
+Prefect flow unless the parser contract itself needs to change.
+
+## CafeF Change Boundary
+
+Only edit `cafef_scraper.py` when the issue is:
+
+- search URL shape,
+- listing selectors,
+- detail selectors,
+- date parsing,
+- body or image extraction,
+- CafeF-specific DOM changes.
+
+Do not edit Prefect flow files for normal CafeF selector maintenance.

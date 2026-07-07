@@ -115,9 +115,22 @@ def _fetch_listing(
     ctx: _CrawlContext, page: int, result: KeywordResult
 ) -> list[ListingEntry] | None:
     """Return parsed listing entries, or ``None`` to stop the crawl."""
+    browser_fetcher = getattr(ctx.parser, "fetch_listing_entries", None)
+    if callable(browser_fetcher):
+        if page != ctx.settings.start_page:
+            result.is_exhausted = True
+            return None
+        entries = browser_fetcher(ctx.record.keyword, ctx.settings)
+        if not entries:
+            logger.info("No items for '%s'; stopping.", ctx.record.keyword)
+            result.is_exhausted = True
+            return None
+        return entries
+
     response = ctx.client.get(ctx.parser.build_search_url(ctx.record.keyword, page))
     if response is None:
         logger.warning("Listing unreachable; stopping at page %s.", page)
+        result.error = "LISTING_UNREACHABLE"
         return None
     if ctx.parser.is_listing_exhausted(response.text):
         logger.info("Keyword '%s' exhausted at page %s.", ctx.record.keyword, page)
@@ -173,11 +186,11 @@ def _scrape_and_persist(
     ctx: _CrawlContext, entry: ListingEntry, url_hash: str
 ) -> str | None:
     """Fetch the detail page, upload content to ADLS, and write metadata."""
-    detail_response = ctx.client.get(entry.url)
-    if detail_response is None:
+    detail_html = _fetch_detail_html(ctx, entry.url)
+    if detail_html is None:
         logger.error("Detail fetch failed: %s", entry.url)
         return None
-    detail = ctx.parser.parse_detail(detail_response.text)
+    detail = ctx.parser.parse_detail(detail_html)
 
     title = detail.title or entry.title or "(untitled)"
     summary = entry.summary or detail.summary
@@ -215,6 +228,15 @@ def _scrape_and_persist(
     except Exception as exc:
         logger.exception("Failed to persist metadata for %s: %s", entry.url, exc)
         return None
+
+
+def _fetch_detail_html(ctx: _CrawlContext, url: str) -> str | None:
+    rendered_fetcher = getattr(ctx.parser, "fetch_detail_html", None)
+    if callable(rendered_fetcher):
+        return rendered_fetcher(url, ctx.settings)
+
+    response = ctx.client.get(url)
+    return response.text if response is not None else None
 
 
 def _upload_content(
@@ -279,15 +301,26 @@ def _store_images(
     """Download every image (cover + in-body) and upload it next to the JSON."""
     urls = _collect_image_urls(entry, detail)
     for index, image_url in enumerate(urls):
-        response = ctx.client.get(image_url)
-        if response is None or not response.content:
+        image_data, content_type = _fetch_image_bytes(ctx, image_url, entry.url)
+        if not image_data:
             logger.warning("Image fetch failed: %s", image_url)
             continue
-        filename = _image_filename(index, image_url, response.headers.get("Content-Type"))
+        filename = _image_filename(index, image_url, content_type)
         try:
-            ctx.adls.upload_image(paths, filename, response.content)
+            ctx.adls.upload_image(paths, filename, image_data)
         except Exception as exc:  # pragma: no cover - network/permission dependent
             logger.warning("Image upload failed (%s): %s", image_url, exc)
+
+
+def _fetch_image_bytes(ctx: _CrawlContext, url: str, referer: str | None = None) -> tuple[bytes | None, str | None]:
+    binary_fetcher = getattr(ctx.parser, "fetch_binary", None)
+    if callable(binary_fetcher):
+        return binary_fetcher(url, ctx.settings, referer=referer)
+
+    response = ctx.client.get(url)
+    if response is None or not response.content:
+        return None, None
+    return response.content, response.headers.get("Content-Type")
 
 
 def _collect_image_urls(entry: ListingEntry, detail: ArticleDetail) -> List[str]:

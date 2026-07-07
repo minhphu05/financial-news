@@ -1,0 +1,61 @@
+2026-06-30 17:58:39 - src.scraper - INFO - [94mPlain log        : C:\projects\financial-news\logs\scraper\scrape_20260630T175839_ACB.log[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mJSON log         : C:\projects\financial-news\logs\scraper\scrape_20260630T175839_ACB.json.log[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mPostgreSQL       : localhost:5434/financial_metadata[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mContent backend  : minio[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mADLS filesystem  : financialnews-datalake[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mMinIO bucket     : financialnews-datalake[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mSources          : baomoi[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mTickers          : ['ACB'][0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mMax pages/keyword: 2[0m
+2026-06-30 17:58:39 - src.scraper - INFO - [94mMax keywords/ticker: 1[0m
+2026-06-30 17:58:40 - src.scraper.storage.repository - SUCCESS - [32mConnected to PostgreSQL localhost:5434/financial_metadata[0m
+2026-06-30 17:58:40 - src.scraper.storage.adls_writer - SUCCESS - [32mConnected to MinIO bucket 'financialnews-datalake'.[0m
+2026-06-30 17:58:40 - src.scraper.engine.pipeline - INFO - [94mLoaded 1 keyword(s) for 1 source(s).[0m
+2026-06-30 17:58:40 - src.scraper.engine.pipeline - INFO - [94mCrawl job 40607da4-327b-41ac-8654-927b0a5bc567 started.[0m
+2026-06-30 17:58:40 - src.scraper.engine.pipeline - INFO - [94m=== Source: baomoi ===[0m
+2026-06-30 17:58:40 - src.scraper.baomoi.baomoi_scraper - INFO - [94mRendering Bao Moi search for keyword 'ACB'.[0m
+2026-06-30 17:58:43 - src.scraper.engine.pipeline - ERROR - [31m[baomoi:ACB] keyword 'ACB' failed: Page.wait_for_selector: Unexpected token "=" while parsing css selector "div.bm-card, text=Không tìm thấy kết quả phù hợp!". Did you mean to CSS.escape it?
+Call log:
+  - waiting for div.bm-card, text=Không tìm thấy kết quả phù hợp! to be visible
+[0m
+Traceback (most recent call last):
+  File "C:\projects\financial-news\src\scraper\engine\pipeline.py", line 130, in run_pipeline
+    result = crawl_keyword(
+             ^^^^^^^^^^^^^^
+  File "C:\projects\financial-news\src\scraper\engine\crawler.py", line 91, in crawl_keyword
+    entries = _fetch_listing(ctx, page, result)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\financial-news\src\scraper\engine\crawler.py", line 123, in _fetch_listing
+    entries = browser_fetcher(ctx.record.keyword, ctx.settings)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\financial-news\src\scraper\baomoi\baomoi_scraper.py", line 89, in fetch_listing_entries
+    page.wait_for_selector(
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8928, in wait_for_selector
+    self._sync(
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\_impl\_page.py", line 427, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\financial-news\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: Unexpected token "=" while parsing css selector "div.bm-card, text=Không tìm thấy kết quả phù hợp!". Did you mean to CSS.escape it?
+Call log:
+  - waiting for div.bm-card, text=Không tìm thấy kết quả phù hợp! to be visible
+
+2026-06-30 17:58:43 - src.scraper.engine.pipeline - SUCCESS - [32mRun summary
+  sources             : ['baomoi']
+  keywords processed  : 1
+  articles found      : 0
+  articles persisted  : 0
+  articles skipped    : 0
+  pages crawled       : 0
+  errors              : 1
+  failed -> ['baomoi:ACB:ACB'][0m
+2026-06-30 17:58:43 - src.scraper - INFO - [94mTotal elapsed: 3.5s[0m
