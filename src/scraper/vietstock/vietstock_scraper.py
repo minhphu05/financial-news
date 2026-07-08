@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import importlib.util
+import os
 import re
 import time
 from decimal import Decimal, InvalidOperation
@@ -184,7 +185,10 @@ def scrape_exchange_with_browser(
     """Render, wait, scroll to the bottom, and collect board rows along the way."""
     engine = browser_engine.lower().strip()
     if engine == "auto":
-        if importlib.util.find_spec("selenium") is not None:
+        env_engine = os.environ.get("SCRAPER_BROWSER_ENGINE", "").lower().strip()
+        if env_engine in {"selenium", "playwright"}:
+            engine = env_engine
+        elif importlib.util.find_spec("selenium") is not None:
             engine = "selenium"
         elif importlib.util.find_spec("playwright") is not None:
             engine = "playwright"

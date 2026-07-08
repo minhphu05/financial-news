@@ -1,3 +1,4 @@
+# src/flows/deploy.py
 """Register Prefect deployments for the Financial News pipeline.
 
 Run from inside the orchestrator container::
@@ -18,7 +19,7 @@ from prefect import serve
 from prefect.client.schemas.schedules import CronSchedule
 
 from src.flows.standard_scraper_flow import market_data_flow, standard_scraper_flow
-from src.rag.utils import get_logger
+from src.utils import get_logger
 
 logger = get_logger(__name__)
 
@@ -26,7 +27,8 @@ ICT_TIMEZONE = "Asia/Ho_Chi_Minh"
 
 
 def deploy() -> None:
-    """Register Prefect deployments for the Financial News pipeline.
+    """
+    Register Prefect deployments for the Financial News pipeline.
 
     Prefect acts only as a scheduler/trigger. Two deployments are registered:
 

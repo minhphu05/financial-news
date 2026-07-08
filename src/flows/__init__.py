@@ -1,4 +1,6 @@
-"""Active Prefect flows for the local Financial News scraper.
+# src/flows/__init__.py
+"""
+Active Prefect flows for the local Financial News scraper.
 
 Inactive RAG/ingestion/evaluation flows kept for later reuse live in
 :mod:`src.flows.future_use`.

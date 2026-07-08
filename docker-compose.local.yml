@@ -169,14 +169,14 @@ services:
         condition: service_started
     environment:
       PREFECT_API_URL: http://prefect-server:4200/api
-      HTTP_PROXY: ${HTTP_PROXY:-${http_proxy:-}}
-      HTTPS_PROXY: ${HTTPS_PROXY:-${https_proxy:-}}
-      ALL_PROXY: ${ALL_PROXY:-${all_proxy:-}}
-      http_proxy: ${http_proxy:-${HTTP_PROXY:-}}
-      https_proxy: ${https_proxy:-${HTTPS_PROXY:-}}
-      all_proxy: ${all_proxy:-${ALL_PROXY:-}}
-      NO_PROXY: ${NO_PROXY:-${no_proxy:-localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio}}
-      no_proxy: ${no_proxy:-${NO_PROXY:-localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio}}
+      HTTP_PROXY: ""
+      HTTPS_PROXY: ""
+      ALL_PROXY: ""
+      http_proxy: ""
+      https_proxy: ""
+      all_proxy: ""
+      NO_PROXY: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
+      no_proxy: localhost,127.0.0.1,prefect-server,prefect-services,postgresql-prefect,postgresql,redis-prefect,minio
       METADATA_POSTGRES_HOST_EXTERNAL: postgresql
       METADATA_POSTGRES_EXTERNAL_PORT: 5432
       METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
@@ -190,6 +190,7 @@ services:
       MINIO_SECURE: "false"
       MINIO_ROOT_PREFIX: ${MINIO_ROOT_PREFIX:-datascraping}
       ADLS_ROOT_PREFIX: ${ADLS_ROOT_PREFIX:-datascraping}
+      SCRAPER_BROWSER_ENGINE: ${SCRAPER_BROWSER_ENGINE:-playwright}
       LOGS_DIR: /app/logs/scraper
       PIPELINE_LOG_DIR: /app/logs/pipeline
     command: python -m src.flows.deploy
