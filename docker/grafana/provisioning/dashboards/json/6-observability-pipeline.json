@@ -1,0 +1,126 @@
+{
+  "title": "6 - Observability Pipeline",
+  "uid": "observability-pipeline",
+  "editable": true,
+  "graphTooltip": 1,
+  "refresh": "5s",
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["financial-news", "observability", "loki", "prometheus", "fluent-bit"],
+  "time": { "from": "now-1h", "to": "now" },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Scrape Targets Up",
+      "id": 1,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none", "textMode": "value_and_name" },
+      "fieldConfig": { "defaults": { "unit": "short", "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "red" }, { "value": 1, "color": "green" }] } } },
+      "targets": [{ "expr": "sum(up{job=~\"prometheus|pushgateway|fluent-bit|loki|grafana|cadvisor|node-exporter\"})", "legendFormat": "up", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Pushgateway Freshness",
+      "id": 2,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 5, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "s", "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 300, "color": "yellow" }, { "value": 900, "color": "red" }] } } },
+      "targets": [{ "expr": "time() - max(scraper_last_run_timestamp_seconds)", "legendFormat": "seconds since scraper push", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Fluent Bit Output Errors",
+      "id": 3,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 10, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "ops", "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "red" }] } } },
+      "targets": [{ "expr": "sum(rate(fluentbit_output_errors_total[5m]))", "legendFormat": "errors/s", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Prometheus Samples",
+      "id": 4,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 15, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "unit": "ops", "color": { "mode": "palette-classic" } } },
+      "targets": [{ "expr": "rate(prometheus_tsdb_head_samples_appended_total[1m])", "legendFormat": "samples/s", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Log Streams",
+      "id": 5,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 4, "x": 20, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "palette-classic" } } },
+      "targets": [{ "expr": "sum(loki_ingester_memory_streams)", "legendFormat": "streams", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Prometheus Target Health",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "short", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "never" } } },
+      "targets": [{ "expr": "up{job=~\"prometheus|pushgateway|fluent-bit|loki|grafana|cadvisor|node-exporter\"}", "legendFormat": "{{job}} / {{instance}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Scrape Duration",
+      "id": 7,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi", "sort": "desc" } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "auto" } } },
+      "targets": [{ "expr": "scrape_duration_seconds{job=~\"prometheus|pushgateway|fluent-bit|loki|grafana|cadvisor|node-exporter\"}", "legendFormat": "{{job}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Fluent Bit Records In / Out",
+      "id": 8,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 11 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "ops", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 18 } } },
+      "targets": [
+        { "expr": "sum(rate(fluentbit_input_records_total[1m]))", "legendFormat": "input records/s", "refId": "A" },
+        { "expr": "sum(rate(fluentbit_output_proc_records_total[1m]))", "legendFormat": "output records/s", "refId": "B" }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Loki Request Volume",
+      "id": 9,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 11 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "reqps", "custom": { "drawStyle": "bars", "lineWidth": 1, "fillOpacity": 35 } } },
+      "targets": [{ "expr": "sum by (route, status_code) (rate(loki_request_duration_seconds_count[1m]))", "legendFormat": "{{route}} {{status_code}}", "refId": "A" }]
+    },
+    {
+      "type": "table",
+      "title": "Prometheus Target Table",
+      "id": 10,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 10, "x": 0, "y": 18 },
+      "options": { "showHeader": true },
+      "fieldConfig": { "defaults": { "custom": { "align": "auto" }, "mappings": [{ "type": "value", "options": { "1": { "text": "UP", "color": "green" }, "0": { "text": "DOWN", "color": "red" } } }] } },
+      "targets": [{ "expr": "up{job=~\"prometheus|pushgateway|fluent-bit|loki|grafana|cadvisor|node-exporter\"}", "format": "table", "instant": true, "refId": "A" }],
+      "transformations": [{ "id": "organize", "options": { "excludeByName": { "Time": true, "__name__": true }, "renameByName": { "Value": "state" } } }]
+    },
+    {
+      "type": "logs",
+      "title": "Observability Logs",
+      "id": 11,
+      "datasource": { "type": "loki", "uid": "loki-main" },
+      "gridPos": { "h": 8, "w": 14, "x": 10, "y": 18 },
+      "options": { "dedupStrategy": "none", "enableLogDetails": true, "prettifyLogMessage": true, "showLabels": true, "showTime": true, "sortOrder": "Descending", "wrapLogMessage": true },
+      "targets": [{ "expr": "{job=~\"scraper|ingestion-pipeline\"} | json | line_format \"{{.level}} {{.stage}} {{.source_name}} {{.ticker_symbol}} | {{.message}}\"", "refId": "A" }]
+    }
+  ]
+}

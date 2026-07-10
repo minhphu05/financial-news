@@ -20,8 +20,13 @@ Python Scraper
          │
     Prometheus        ← scrapes Pushgateway + Fluent Bit /metrics
          ▲
-    Pushgateway       ← batch scraper metrics
+    Pushgateway       ← scraper run + per-keyword progress metrics
 ```
+
+  The canonical scraper now pushes Prometheus progress after each processed keyword, not only after the full run finishes. Grafana refreshes the scraping dashboard every 5 seconds and combines:
+
+  - Prometheus metrics for run state, keyword progress, articles, duration, errors, and container health.
+  - Loki logs for live scraper events, warnings, and errors.
 
 ---
 
@@ -34,6 +39,8 @@ Python Scraper
 | Prometheus | http://localhost:9090 | — |
 | Pushgateway | http://localhost:9091 | — |
 | Fluent Bit metrics | http://localhost:2020/metrics | — |
+
+For the local stack, start `docker-compose.local.yml`; it includes Grafana, Loki, Fluent Bit, Prometheus, Pushgateway, cAdvisor, and Node Exporter alongside Prefect, PostgreSQL, and MinIO.
 
 ---
 
@@ -104,7 +111,7 @@ Context is stored in a `threading.local()` object — safe in multi-threaded use
 
 ### What It Does
 
-Fluent Bit watches the `logs/scraper/` directory for `*.json.log` files, parses each line as JSON, and forwards the structured records to Loki.
+Fluent Bit watches the `logs/scraper/` directory for `*.json.log` files, parses each line as JSON, and forwards the structured records to Loki. The local configuration flushes every second and checks for new log lines every second so Grafana logs panels stay close to live during scraping.
 
 ### Configuration Files
 

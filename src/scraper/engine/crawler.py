@@ -14,7 +14,7 @@ import os
 import re
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
-from typing import List, Set
+from typing import Callable, List, Set
 from urllib.parse import urlsplit
 
 from tqdm import tqdm
@@ -56,6 +56,8 @@ def crawl_keyword(
     source_id: str,
     crawl_job_id: str,
     seen_ids: Set[str],
+    start_page: int | None = None,
+    on_page_complete: Callable[[int, KeywordResult], None] | None = None,
 ) -> KeywordResult:
     """Crawl every listing page for one keyword on one source.
 
@@ -80,8 +82,10 @@ def crawl_keyword(
     result = KeywordResult()
     consecutive_known = 0
 
+    first_page = max(settings.start_page, start_page or settings.start_page)
+
     pages = tqdm(
-        range(settings.start_page, settings.max_pages + 1),
+        range(first_page, settings.max_pages + 1),
         desc=f"[{parser.name}:{record.ticker}] {record.keyword}",
         unit="page",
         leave=False,
@@ -95,6 +99,8 @@ def crawl_keyword(
         result.pages += 1
         result.found += len(entries)
         consecutive_known = _process_entries(ctx, entries, result, consecutive_known)
+        if on_page_complete is not None:
+            on_page_complete(page, result)
         if result.early_stopped:
             break
 

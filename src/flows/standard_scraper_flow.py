@@ -131,6 +131,8 @@ def standard_scraper_flow(
     skip_market_data: bool = False,
     skip_keyword_generation: bool = False,
     content_storage_backend: Optional[str] = None,
+    resume_from_checkpoint: bool = True,
+    checkpoint_key: Optional[str] = None,
 ) -> Dict[str, Any]:
     logger = get_run_logger()
     run_id = str(uuid.uuid4())
@@ -149,6 +151,8 @@ def standard_scraper_flow(
         source_filter=source_filter,
         run_id=run_id,
         content_storage_backend=content_storage_backend,
+        resume_from_checkpoint=resume_from_checkpoint,
+        checkpoint_key=checkpoint_key,
     )
     return {
         "run_id": run_id,

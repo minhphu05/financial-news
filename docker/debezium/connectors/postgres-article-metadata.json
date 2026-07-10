@@ -1,0 +1,28 @@
+{
+  "name": "postgres-article-metadata",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "postgresql",
+    "database.port": "5432",
+    "database.user": "metadata_user",
+    "database.password": "metadata_password",
+    "database.dbname": "financial_metadata",
+    "topic.prefix": "financial_metadata",
+    "plugin.name": "pgoutput",
+    "slot.name": "financial_article_metadata_slot",
+    "publication.name": "financial_article_metadata_pub",
+    "publication.autocreate.mode": "filtered",
+    "schema.include.list": "core",
+    "table.include.list": "core.article_metadata",
+    "tombstones.on.delete": "false",
+    "decimal.handling.mode": "string",
+    "time.precision.mode": "adaptive_time_microseconds",
+    "heartbeat.interval.ms": "10000",
+    "include.schema.changes": "false",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false"
+  }
+}

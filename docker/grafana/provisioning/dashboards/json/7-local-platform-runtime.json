@@ -1,0 +1,135 @@
+{
+  "title": "7 - Local Platform Runtime",
+  "uid": "local-platform-runtime",
+  "editable": true,
+  "graphTooltip": 1,
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["financial-news", "runtime", "docker", "prefect", "postgres", "minio"],
+  "time": { "from": "now-1h", "to": "now" },
+  "templating": {
+    "list": [
+      {
+        "name": "container",
+        "label": "Container",
+        "type": "query",
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "query": "label_values(container_memory_working_set_bytes{container_label_com_docker_compose_project=~\"financial-news|.*\", name!~\"\"}, name)",
+        "refresh": 2,
+        "includeAll": true,
+        "multi": true,
+        "current": { "selected": true, "text": "All", "value": "$__all" }
+      }
+    ]
+  },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Tracked Containers",
+      "id": 1,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "palette-classic" } } },
+      "targets": [{ "expr": "count(count by (name) (container_last_seen{name=~\"financial-.*|financial-local-.*\"}))", "legendFormat": "containers", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Host CPU Busy",
+      "id": 2,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 5, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "min": 0, "max": 1, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 0.65, "color": "yellow" }, { "value": 0.85, "color": "red" }] } } },
+      "targets": [{ "expr": "1 - avg(rate(node_cpu_seconds_total{mode=\"idle\"}[1m]))", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Host Memory Used",
+      "id": 3,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 10, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "min": 0, "max": 1, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 0.75, "color": "yellow" }, { "value": 0.9, "color": "red" }] } } },
+      "targets": [{ "expr": "1 - (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Filesystem Used",
+      "id": 4,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 5, "x": 15, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["max"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "min": 0, "max": 1, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 0.75, "color": "yellow" }, { "value": 0.9, "color": "red" }] } } },
+      "targets": [{ "expr": "max(1 - (node_filesystem_avail_bytes{fstype!~\"tmpfs|overlay|squashfs\"} / node_filesystem_size_bytes{fstype!~\"tmpfs|overlay|squashfs\"}))", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Container CPU Total",
+      "id": 5,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 4, "x": 20, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 2, "color": "yellow" }, { "value": 4, "color": "red" }] } } },
+      "targets": [{ "expr": "sum(rate(container_cpu_usage_seconds_total{name=~\"financial-.*|financial-local-.*\", image!=\"\"}[1m]))", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Container CPU by Service",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi", "sort": "desc" } },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "never" } } },
+      "targets": [{ "expr": "sum by (name) (rate(container_cpu_usage_seconds_total{name=~\"$container\", image!=\"\"}[1m]))", "legendFormat": "{{name}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Container Memory by Service",
+      "id": 7,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi", "sort": "desc" } },
+      "fieldConfig": { "defaults": { "unit": "bytes", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "never" } } },
+      "targets": [{ "expr": "sum by (name) (container_memory_working_set_bytes{name=~\"$container\", image!=\"\"})", "legendFormat": "{{name}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Container Network RX / TX",
+      "id": 8,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 12 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "Bps", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [
+        { "expr": "sum by (name) (rate(container_network_receive_bytes_total{name=~\"$container\"}[1m]))", "legendFormat": "{{name}} rx", "refId": "A" },
+        { "expr": "sum by (name) (rate(container_network_transmit_bytes_total{name=~\"$container\"}[1m]))", "legendFormat": "{{name}} tx", "refId": "B" }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Host Filesystem Free",
+      "id": 9,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 12 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "bytes", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{ "expr": "node_filesystem_avail_bytes{fstype!~\"tmpfs|overlay|squashfs\"}", "legendFormat": "{{mountpoint}}", "refId": "A" }]
+    },
+    {
+      "type": "table",
+      "title": "Service Resource Snapshot",
+      "id": 10,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 19 },
+      "options": { "showHeader": true },
+      "fieldConfig": { "defaults": { "custom": { "align": "auto" } }, "overrides": [{ "matcher": { "id": "byName", "options": "Value #A" }, "properties": [{ "id": "unit", "value": "bytes" }] }, { "matcher": { "id": "byName", "options": "Value #B" }, "properties": [{ "id": "unit", "value": "percentunit" }] }] },
+      "targets": [
+        { "expr": "sum by (name) (container_memory_working_set_bytes{name=~\"financial-.*|financial-local-.*\", image!=\"\"})", "format": "table", "instant": true, "legendFormat": "memory", "refId": "A" },
+        { "expr": "sum by (name) (rate(container_cpu_usage_seconds_total{name=~\"financial-.*|financial-local-.*\", image!=\"\"}[1m]))", "format": "table", "instant": true, "legendFormat": "cpu", "refId": "B" }
+      ],
+      "transformations": [{ "id": "joinByField", "options": { "byField": "name", "mode": "outer" } }, { "id": "organize", "options": { "excludeByName": { "Time": true, "Time 1": true, "Time 2": true, "__name__": true, "job": true, "instance": true, "id": true, "image": true }, "renameByName": { "Value #A": "memory", "Value #B": "cpu" } } }]
+    }
+  ]
+}

@@ -40,6 +40,7 @@ Local infrastructure should provide:
 - PostgreSQL metadata database on `METADATA_POSTGRES_HOST_EXTERNAL` and `METADATA_POSTGRES_EXTERNAL_PORT`.
 - Prefect server on `http://localhost:4201` for UI/API operation.
 - MinIO for local article JSON storage when `CONTENT_STORAGE_BACKEND=minio`.
+- Grafana on `http://localhost:3000`, Prometheus on `http://localhost:9090`, Pushgateway on `http://localhost:9091`, Loki on `http://localhost:3100`, and Fluent Bit metrics on `http://localhost:2020`.
 - Active rows in `core.stocks` and `scraping.keywords`.
 
 The PostgreSQL schema is created by `docker/postgresql/init-scripts/001-create-scraper-schema.sql` when the metadata Postgres container initializes a fresh data volume.
@@ -63,6 +64,7 @@ MINIO_SECURE=false
 SCRAPER_MAX_PAGES=200
 SCRAPER_CONSECUTIVE_KNOWN_THRESHOLD=100
 LOGS_DIR=./logs/scraper
+PUSHGATEWAY_URL=localhost:9091
 ```
 
 Use `CONTENT_STORAGE_BACKEND=minio` for local testing. Use `adls` only when the Azure storage settings are configured and you intentionally want to write to ADLS.
@@ -251,10 +253,76 @@ For each scraper run:
 - `scraping.sources`: source registration such as `cafef`.
 - `scraping.crawl_jobs`: one row for the run.
 - `scraping.crawl_logs`: one row per source/keyword attempt.
+- `scraping.scrape_checkpoints`: per source/ticker/keyword resume state for failed or interrupted scraper runs.
 - `core.article_metadata`: article metadata and content path.
 - `core.article_stock_mapping`: article to ticker mappings.
 - ADLS or MinIO: full article JSON payload with text/image blocks.
 - `logs/scraper`: plain text and JSON logs for local inspection/Fluent Bit.
+- Prometheus Pushgateway: live source-level progress is pushed before the source starts, after each keyword finishes, and when the source completes. Grafana dashboard `1 - Scraping Realtime Operations` refreshes every 5 seconds.
+
+## Checkpoints and Resume
+
+News scraping resumes from checkpoints by default. The checkpoint key defaults to the current UTC date plus run shape (`sources`, `tickers`, `max_keywords`, `max_pages`). This lets an operator retry a failed run on the same day without reprocessing completed source/ticker/keyword units.
+
+Manual CLI retry with an explicit key:
+
+```powershell
+python -m src.scraper.run --ticket ACB,FPT --source cafef --max-pages 5 --checkpoint-key manual-2026-07-10-cafef --content-storage-backend minio
+```
+
+Force a clean recrawl from the configured start page:
+
+```powershell
+python -m src.scraper.run --ticket ACB --source cafef --no-resume --content-storage-backend minio
+```
+
+Manual Prefect parameters can include:
+
+```json
+{
+  "tickers": ["ACB"],
+  "source_filter": "cafef",
+  "skip_market_data": true,
+  "skip_keyword_generation": true,
+  "content_storage_backend": "minio",
+  "resume_from_checkpoint": true,
+  "checkpoint_key": "manual-2026-07-10-cafef"
+}
+```
+
+Full details, SQL inspection queries, and reset commands are in `docs/SCRAPER_CHECKPOINTS.md`.
+
+## Downstream CDC Medallion Processing
+
+After the scraper writes a row to `core.article_metadata`, Debezium can emit a CDC event for downstream RAG ingestion. The local CDC pipeline is:
+
+```text
+core.article_metadata
+  -> Debezium
+  -> Redpanda topic financial_metadata.core.article_metadata
+  -> src.rag.cdc.worker
+  -> MinIO/ADLS JSON
+  -> bronze/silver/gold checkpoints
+  -> Qdrant
+```
+
+Start the CDC dependencies after local metadata DB and MinIO are available:
+
+```powershell
+docker compose -f docker-compose.local.yml up -d --build redpanda debezium qdrant cdc-medallion-worker
+python scripts/register_debezium_connector.py
+```
+
+Track downstream processing status:
+
+```sql
+SELECT status, count(*) AS total
+FROM rag.cdc_file_processing_checkpoints
+GROUP BY status
+ORDER BY status;
+```
+
+Detailed setup, retry, reset, and extension notes are in `docs/CDC_MEDALLION_PIPELINE.md`.
 
 ## Troubleshooting
 

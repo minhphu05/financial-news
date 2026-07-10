@@ -21,6 +21,7 @@
 Prefect orchestration is outside this package in `src/flows`. The scraper package is the execution engine; Prefect decides when and with which parameters to call it.
 
 For the full operator runbook, see `docs/SCRAPER_PIPELINE_RUNBOOK.md`.
+For retry/resume behavior, see `docs/SCRAPER_CHECKPOINTS.md`.
 
 ## Data Flow
 
@@ -122,6 +123,18 @@ Run one ticker on CafeF:
 
 ```bash
 python -m src.scraper.run --ticket ACB --source cafef --max-pages 2 --content-storage-backend minio
+```
+
+Resume is enabled by default. To reuse the same checkpoint across manual retries, pass a stable key:
+
+```bash
+python -m src.scraper.run --ticket ACB --source cafef --max-pages 2 --checkpoint-key manual-acb-cafef --content-storage-backend minio
+```
+
+To ignore checkpoints and crawl from the configured start page:
+
+```bash
+python -m src.scraper.run --ticket ACB --source cafef --no-resume --content-storage-backend minio
 ```
 
 Run one ticker on Bao Moi:

@@ -30,6 +30,8 @@ def scrape_task(
     source_filter: Optional[str] = None,
     keywords: Optional[List[str]] = None,
     content_storage_backend: Optional[str] = None,
+    resume_from_checkpoint: bool = True,
+    checkpoint_key: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Run a single scrape pass and return a JSON-friendly report.
 
@@ -60,6 +62,8 @@ def scrape_task(
         tickers=effective_tickers,
         source_filter=source_filter,
         triggered_by="prefect",
+        resume_from_checkpoint=resume_from_checkpoint,
+        checkpoint_key=checkpoint_key,
     )
 
     logger.info("Scrape summary: %s", summary.render())
@@ -85,6 +89,8 @@ def scrape_task(
         "errors_count": summary.errors,
         "failed": summary.failed,
         "content_storage_backend": settings.content_storage_backend,
+        "resume_from_checkpoint": resume_from_checkpoint,
+        "checkpoint_key": checkpoint_key,
     }
 
 @flow(name="financial-news-scrape", log_prints=True)
@@ -92,6 +98,8 @@ def scrape_flow(
     tickers: Optional[List[str]] = None,
     source_filter: Optional[str] = None,
     content_storage_backend: Optional[str] = None,
+    resume_from_checkpoint: bool = True,
+    checkpoint_key: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Daily CafeF scrape flow.
 
@@ -111,4 +119,6 @@ def scrape_flow(
         source_filter=source_filter,
         run_id=run_id,
         content_storage_backend=content_storage_backend,
+        resume_from_checkpoint=resume_from_checkpoint,
+        checkpoint_key=checkpoint_key,
     )

@@ -1,210 +1,241 @@
 {
-  "title": "1 - Scraping & Data Ingestion",
+  "title": "1 - Scraping Realtime Operations",
   "uid": "scraping-data-ingestion",
   "editable": true,
   "graphTooltip": 1,
-  "refresh": "30s",
-  "time": { "from": "now-24h", "to": "now" },
+  "refresh": "5s",
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["financial-news", "scraper", "realtime"],
+  "time": { "from": "now-3h", "to": "now" },
+  "templating": {
+    "list": [
+      {
+        "name": "source",
+        "label": "Source",
+        "type": "query",
+        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+        "query": "label_values(scraper_run_active, source)",
+        "refresh": 2,
+        "includeAll": true,
+        "multi": true,
+        "current": { "selected": true, "text": "All", "value": "$__all" }
+      },
+      {
+        "name": "ticker",
+        "label": "Ticker",
+        "type": "query",
+        "datasource": { "type": "loki", "uid": "loki-main" },
+        "query": "label_values({job=\"scraper\"}, ticker_symbol)",
+        "refresh": 2,
+        "includeAll": true,
+        "multi": true,
+        "current": { "selected": true, "text": "All", "value": "$__all" }
+      }
+    ]
+  },
   "panels": [
     {
       "type": "stat",
-      "title": "Scraping Job Status",
+      "title": "Run State",
       "id": 1,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 5, "w": 6, "x": 0, "y": 0 },
-      "options": {
-        "reduceOptions": { "calcs": ["lastNotNull"] },
-        "colorMode": "background",
-        "graphMode": "none",
-        "textMode": "value_and_name"
-      },
+      "gridPos": { "h": 4, "w": 4, "x": 0, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none", "textMode": "value" },
       "fieldConfig": {
         "defaults": {
           "mappings": [
-            { "type": "value", "options": { "1": { "text": "SUCCESS", "color": "green" }, "0": { "text": "FAILED", "color": "red" } } }
+            { "type": "value", "options": { "1": { "text": "RUNNING", "color": "blue" }, "0": { "text": "IDLE", "color": "green" } } }
           ],
-          "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "red" }, { "value": 1, "color": "green" }] }
+          "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "blue" }] }
         }
       },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_job_success{source=\"cafef\"}",
-        "legendFormat": "Last Run",
-        "refId": "A"
-      }]
+      "targets": [{ "expr": "max(scraper_run_active{source=~\"$source\"})", "refId": "A" }]
     },
     {
-      "type": "stat",
-      "title": "Total Articles Scraped (Last Run)",
+      "type": "gauge",
+      "title": "Keyword Progress",
       "id": 2,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 5, "w": 6, "x": 6, "y": 0 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
-      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "blue" }, { "value": 10, "color": "green" }] } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_persisted_total{source=\"cafef\"}",
-        "legendFormat": "New Articles",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 4, "w": 5, "x": 4, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "showThresholdLabels": false, "showThresholdMarkers": true },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percent",
+          "min": 0,
+          "max": 100,
+          "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "red" }, { "value": 40, "color": "yellow" }, { "value": 80, "color": "green" }] }
+        }
+      },
+      "targets": [{ "expr": "100 * sum(scraper_keywords_processed_total{source=~\"$source\"}) / clamp_min(sum(scraper_keywords_total{source=~\"$source\"}), 1)", "refId": "A" }]
     },
     {
       "type": "stat",
-      "title": "Scrape Duration",
+      "title": "Keywords Done / Total",
       "id": 3,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 5, "w": 6, "x": 12, "y": 0 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
-      "fieldConfig": { "defaults": { "unit": "s", "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 300, "color": "yellow" }, { "value": 600, "color": "red" }] } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_run_duration_seconds{source=\"cafef\"}",
-        "legendFormat": "Duration",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 4, "w": 5, "x": 9, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area", "textMode": "value_and_name" },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "palette-classic" } } },
+      "targets": [
+        { "expr": "sum(scraper_keywords_processed_total{source=~\"$source\"})", "legendFormat": "done", "refId": "A" },
+        { "expr": "sum(scraper_keywords_total{source=~\"$source\"})", "legendFormat": "total", "refId": "B" }
+      ]
     },
     {
       "type": "stat",
-      "title": "Total Errors",
+      "title": "New Articles",
       "id": 4,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 5, "w": 6, "x": 18, "y": 0 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
-      "fieldConfig": { "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "yellow" }, { "value": 10, "color": "red" }] } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_errors_total{source=\"cafef\"}",
-        "legendFormat": "Errors",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 4, "w": 4, "x": 14, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "blue" }, { "value": 1, "color": "green" }] } } },
+      "targets": [{ "expr": "sum(scraper_articles_persisted_total{source=~\"$source\"})", "legendFormat": "persisted", "refId": "A" }]
     },
     {
-      "type": "bargauge",
-      "title": "Total Documents Scraped by Source",
+      "type": "stat",
+      "title": "Errors",
       "id": 5,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 5 },
-      "options": { "displayMode": "gradient", "orientation": "horizontal", "reduceOptions": { "calcs": ["lastNotNull"] } },
-      "fieldConfig": { "defaults": { "color": { "mode": "palette-classic" }, "unit": "short" } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_found_total",
-        "legendFormat": "{{source}} - Found",
-        "refId": "A"
-      },
-      {
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_persisted_total",
-        "legendFormat": "{{source}} - Persisted",
-        "refId": "B"
-      },
-      {
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_skipped_total",
-        "legendFormat": "{{source}} - Skipped",
-        "refId": "C"
-      }]
+      "gridPos": { "h": 4, "w": 3, "x": 18, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "background", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "short", "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 1, "color": "yellow" }, { "value": 5, "color": "red" }] } } },
+      "targets": [{ "expr": "sum(scraper_errors_total{source=~\"$source\"})", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Elapsed",
+      "id": 6,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 4, "w": 3, "x": 21, "y": 0 },
+      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
+      "fieldConfig": { "defaults": { "unit": "s", "thresholds": { "mode": "absolute", "steps": [{ "value": null, "color": "green" }, { "value": 300, "color": "yellow" }, { "value": 900, "color": "red" }] } } },
+      "targets": [{ "expr": "max(scraper_run_duration_seconds{source=~\"$source\"})", "refId": "A" }]
     },
     {
       "type": "timeseries",
-      "title": "Scrape Duration per Source (Time-series)",
-      "id": 6,
-      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 5 },
-      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
-      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_run_duration_seconds",
-        "legendFormat": "{{source}}",
-        "refId": "A"
-      }]
-    },
-    {
-      "type": "table",
-      "title": "Error Breakdown",
+      "title": "Articles Found / Persisted / Skipped",
       "id": 7,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 12 },
-      "options": { "showHeader": true },
-      "fieldConfig": { "defaults": { "custom": { "align": "auto" } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_errors_by_type",
-        "legendFormat": "{{source}} / {{error_type}}",
-        "refId": "A",
-        "format": "table",
-        "instant": true
-      }],
-      "transformations": [
-        { "id": "organize", "options": { "excludeByName": { "Time": true, "__name__": true, "instance": true, "job": true } } }
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi", "sort": "desc" } },
+      "fieldConfig": { "defaults": { "unit": "short", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 12, "showPoints": "never" } } },
+      "targets": [
+        { "expr": "sum by (source) (scraper_articles_found_total{source=~\"$source\"})", "legendFormat": "{{source}} found", "refId": "A" },
+        { "expr": "sum by (source) (scraper_articles_persisted_total{source=~\"$source\"})", "legendFormat": "{{source}} persisted", "refId": "B" },
+        { "expr": "sum by (source) (scraper_articles_skipped_total{source=~\"$source\"})", "legendFormat": "{{source}} skipped", "refId": "C" }
       ]
     },
     {
       "type": "timeseries",
-      "title": "Data Volume Ingested (Bytes)",
+      "title": "Keyword Progress Over Time",
       "id": 8,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 12 },
-      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
-      "fieldConfig": { "defaults": { "unit": "decbytes", "custom": { "lineWidth": 2, "fillOpacity": 30, "drawStyle": "line", "gradientMode": "scheme" } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_data_volume_bytes",
-        "legendFormat": "{{source}}",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 4 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "short", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "auto" } } },
+      "targets": [
+        { "expr": "sum by (source) (scraper_keywords_processed_total{source=~\"$source\"})", "legendFormat": "{{source}} processed", "refId": "A" },
+        { "expr": "sum by (source) (scraper_keywords_remaining{source=~\"$source\"})", "legendFormat": "{{source}} remaining", "refId": "B" }
+      ]
     },
     {
-      "type": "stat",
-      "title": "Pages Crawled",
+      "type": "bargauge",
+      "title": "Latest Keyword Result",
       "id": 9,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 4, "w": 8, "x": 0, "y": 19 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "area" },
-      "fieldConfig": { "defaults": { "color": { "fixedColor": "purple", "mode": "fixed" } } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_pages_crawled_total{source=\"cafef\"}",
-        "legendFormat": "Pages",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 6, "w": 8, "x": 0, "y": 12 },
+      "options": { "displayMode": "gradient", "orientation": "horizontal", "reduceOptions": { "calcs": ["lastNotNull"] }, "showUnfilled": true },
+      "fieldConfig": { "defaults": { "unit": "short", "color": { "mode": "palette-classic" } } },
+      "targets": [
+        { "expr": "sum(scraper_keyword_articles_found_total{source=~\"$source\"})", "legendFormat": "found", "refId": "A" },
+        { "expr": "sum(scraper_keyword_articles_persisted_total{source=~\"$source\"})", "legendFormat": "persisted", "refId": "B" },
+        { "expr": "sum(scraper_keyword_articles_skipped_total{source=~\"$source\"})", "legendFormat": "skipped", "refId": "C" },
+        { "expr": "sum(scraper_keyword_pages_crawled_total{source=~\"$source\"})", "legendFormat": "pages", "refId": "D" }
+      ]
     },
     {
-      "type": "stat",
-      "title": "Articles Found vs Persisted",
+      "type": "timeseries",
+      "title": "Latest Keyword Duration",
       "id": 10,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 4, "w": 8, "x": 8, "y": 19 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
-      "fieldConfig": { "defaults": { "unit": "short" } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_found_total{source=\"cafef\"}",
-        "legendFormat": "Found",
-        "refId": "A"
-      },
-      {
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_articles_persisted_total{source=\"cafef\"}",
-        "legendFormat": "Persisted",
-        "refId": "B"
-      }]
+      "gridPos": { "h": 6, "w": 8, "x": 8, "y": 12 },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom", "showLegend": true } },
+      "fieldConfig": { "defaults": { "unit": "s", "custom": { "lineWidth": 2, "fillOpacity": 18, "showPoints": "auto" } } },
+      "targets": [{ "expr": "scraper_keyword_duration_seconds{source=~\"$source\"}", "legendFormat": "{{ticker}} / {{keyword}} / {{status}}", "refId": "A" }]
     },
     {
-      "type": "stat",
-      "title": "Last Run Timestamp",
+      "type": "table",
+      "title": "Error Breakdown",
       "id": 11,
       "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-      "gridPos": { "h": 4, "w": 8, "x": 16, "y": 19 },
-      "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "colorMode": "value", "graphMode": "none" },
-      "fieldConfig": { "defaults": { "unit": "dateTimeFromNow" } },
-      "targets": [{
-        "datasource": { "type": "prometheus", "uid": "prometheus-main" },
-        "expr": "scraper_last_run_timestamp_seconds{source=\"cafef\"} * 1000",
-        "legendFormat": "Last Run",
-        "refId": "A"
-      }]
+      "gridPos": { "h": 6, "w": 8, "x": 16, "y": 12 },
+      "options": { "showHeader": true },
+      "fieldConfig": { "defaults": { "custom": { "align": "auto" } } },
+      "targets": [{ "expr": "scraper_errors_by_type{source=~\"$source\"}", "legendFormat": "{{source}} / {{error_type}}", "format": "table", "instant": true, "refId": "A" }],
+      "transformations": [{ "id": "organize", "options": { "excludeByName": { "Time": true, "__name__": true, "instance": true, "job": true } } }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Log Throughput by Level",
+      "id": 12,
+      "datasource": { "type": "loki", "uid": "loki-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 18 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "ops", "custom": { "drawStyle": "bars", "lineWidth": 1, "fillOpacity": 35 } } },
+      "targets": [{ "expr": "sum by (level) (count_over_time({job=\"scraper\", ticker_symbol=~\"$ticker\"}[$__interval]))", "legendFormat": "{{level}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Observability Pipeline Health",
+      "id": 13,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 18 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "short", "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [
+        { "expr": "sum(rate(fluentbit_input_records_total[1m]))", "legendFormat": "fluent-bit input records/s", "refId": "A" },
+        { "expr": "sum(rate(fluentbit_output_proc_records_total[1m]))", "legendFormat": "fluent-bit output records/s", "refId": "B" },
+        { "expr": "sum(rate(fluentbit_output_errors_total[1m]))", "legendFormat": "fluent-bit output errors/s", "refId": "C" }
+      ]
+    },
+    {
+      "type": "logs",
+      "title": "Live Scraper Events",
+      "id": 14,
+      "datasource": { "type": "loki", "uid": "loki-main" },
+      "gridPos": { "h": 9, "w": 16, "x": 0, "y": 25 },
+      "options": { "dedupStrategy": "none", "enableLogDetails": true, "prettifyLogMessage": true, "showCommonLabels": false, "showLabels": true, "showTime": true, "sortOrder": "Descending", "wrapLogMessage": true },
+      "targets": [{ "expr": "{job=\"scraper\", ticker_symbol=~\"$ticker\"} | json | line_format \"{{.level}} {{.source_name}} {{.ticker_symbol}} {{.keyword}} | {{.message}}\"", "refId": "A" }]
+    },
+    {
+      "type": "logs",
+      "title": "Warnings and Errors",
+      "id": 15,
+      "datasource": { "type": "loki", "uid": "loki-main" },
+      "gridPos": { "h": 9, "w": 8, "x": 16, "y": 25 },
+      "options": { "dedupStrategy": "none", "enableLogDetails": true, "prettifyLogMessage": true, "showLabels": true, "showTime": true, "sortOrder": "Descending", "wrapLogMessage": true },
+      "targets": [{ "expr": "{job=\"scraper\", level=~\"WARNING|ERROR|CRITICAL\", ticker_symbol=~\"$ticker\"} | json | line_format \"{{.level}} {{.ticker_symbol}} {{.keyword}} | {{.message}}\"", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Scraper Container CPU",
+      "id": 16,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 34 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{ "expr": "sum by (name) (rate(container_cpu_usage_seconds_total{name=~\"financial-local-pf-worker|financial-pf-worker|financial-local-fluent-bit|financial-fluent-bit\", image!=\"\"}[1m]))", "legendFormat": "{{name}}", "refId": "A" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Scraper Container Memory",
+      "id": 17,
+      "datasource": { "type": "prometheus", "uid": "prometheus-main" },
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 34 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "multi" } },
+      "fieldConfig": { "defaults": { "unit": "bytes", "custom": { "lineWidth": 2, "fillOpacity": 10 } } },
+      "targets": [{ "expr": "sum by (name) (container_memory_working_set_bytes{name=~\"financial-local-pf-worker|financial-pf-worker|financial-local-fluent-bit|financial-fluent-bit\", image!=\"\"})", "legendFormat": "{{name}}", "refId": "A" }]
     }
   ]
 }

@@ -2,7 +2,7 @@
 -- Financial News Scraper - core + scraping schemas
 -- =============================================================================
 -- Target database : ${METADATA_POSTGRES_DB}  (default: financial_metadata)
--- Schemas         : core, scraping
+-- Schemas         : core, scraping, rag
 --
 -- This script is idempotent for fresh container initialization and manual
 -- re-application. It only creates/updates scraper-oriented schemas and does not
@@ -16,11 +16,13 @@ CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 CREATE SCHEMA IF NOT EXISTS core;
 CREATE SCHEMA IF NOT EXISTS scraping;
+CREATE SCHEMA IF NOT EXISTS rag;
 
 DO $$
 BEGIN
     EXECUTE format('GRANT ALL PRIVILEGES ON SCHEMA core TO %I', current_user);
     EXECUTE format('GRANT ALL PRIVILEGES ON SCHEMA scraping TO %I', current_user);
+    EXECUTE format('GRANT ALL PRIVILEGES ON SCHEMA rag TO %I', current_user);
 END
 $$;
 
@@ -269,6 +271,75 @@ CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_proxy_id ON scraping.crawl_log
 CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_created_at ON scraping.crawl_logs (created_at DESC);
 CREATE INDEX IF NOT EXISTS ix_scraping_crawl_logs_success ON scraping.crawl_logs (is_success);
 
+CREATE TABLE IF NOT EXISTS scraping.scrape_checkpoints (
+    id                  UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+    source_name         VARCHAR(64) NOT NULL,
+    ticker              VARCHAR(16) NOT NULL,
+    keyword             TEXT        NOT NULL,
+    keyword_id          UUID,
+    run_key             TEXT        NOT NULL,
+    status              VARCHAR(16) NOT NULL DEFAULT 'PENDING',
+    last_page_completed INTEGER     NOT NULL DEFAULT 0,
+    pages_crawled       INTEGER     NOT NULL DEFAULT 0,
+    articles_found      INTEGER     NOT NULL DEFAULT 0,
+    articles_persisted  INTEGER     NOT NULL DEFAULT 0,
+    articles_skipped    INTEGER     NOT NULL DEFAULT 0,
+    errors_count        INTEGER     NOT NULL DEFAULT 0,
+    last_error_category VARCHAR(64),
+    last_error_message  TEXT,
+    last_started_at     TIMESTAMPTZ,
+    last_completed_at   TIMESTAMPTZ,
+    created_at          TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at          TIMESTAMPTZ NOT NULL DEFAULT now(),
+    CONSTRAINT uq_scrape_checkpoints_natural UNIQUE (source_name, ticker, keyword, run_key)
+);
+
+COMMENT ON TABLE scraping.scrape_checkpoints IS 'Per source/ticker/keyword resume state for scraper retries.';
+COMMENT ON COLUMN scraping.scrape_checkpoints.run_key IS 'Deterministic resume scope. Defaults to current date plus run shape unless explicitly overridden.';
+COMMENT ON COLUMN scraping.scrape_checkpoints.status IS 'PENDING, RUNNING, COMPLETED, FAILED.';
+COMMENT ON COLUMN scraping.scrape_checkpoints.last_page_completed IS 'Deepest listing page fully processed for this source/ticker/keyword/run_key.';
+
+CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_run_key ON scraping.scrape_checkpoints (run_key);
+CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_status ON scraping.scrape_checkpoints (status);
+CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_updated_at ON scraping.scrape_checkpoints (updated_at DESC);
+
+-- =============================================================================
+-- SCHEMA: RAG (CDC medallion processing checkpoints)
+-- =============================================================================
+
+CREATE TABLE IF NOT EXISTS rag.cdc_file_processing_checkpoints (
+    article_id          UUID        PRIMARY KEY,
+    event_key           TEXT        NOT NULL,
+    source_id           UUID,
+    crawl_job_id        UUID,
+    url                 TEXT        NOT NULL,
+    url_hash            VARCHAR(64),
+    json_path           TEXT        NOT NULL,
+    status              VARCHAR(32) NOT NULL DEFAULT 'RECEIVED',
+    bronze_document     JSONB,
+    silver_document     JSONB,
+    qdrant_points       INTEGER     NOT NULL DEFAULT 0,
+    attempts            INTEGER     NOT NULL DEFAULT 0,
+    last_error          TEXT,
+    received_at         TIMESTAMPTZ NOT NULL DEFAULT now(),
+    started_at          TIMESTAMPTZ,
+    bronze_completed_at TIMESTAMPTZ,
+    silver_completed_at TIMESTAMPTZ,
+    gold_completed_at   TIMESTAMPTZ,
+    failed_at           TIMESTAMPTZ,
+    updated_at          TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+COMMENT ON TABLE rag.cdc_file_processing_checkpoints IS 'Per article file CDC medallion state from Debezium event to Qdrant upsert.';
+COMMENT ON COLUMN rag.cdc_file_processing_checkpoints.status IS 'RECEIVED, PROCESSING, BRONZE_DONE, SILVER_DONE, GOLD_DONE, FAILED.';
+COMMENT ON COLUMN rag.cdc_file_processing_checkpoints.bronze_document IS 'Raw normalized article document read from MinIO or ADLS.';
+COMMENT ON COLUMN rag.cdc_file_processing_checkpoints.silver_document IS 'Cleaned article document after text normalization and quality checks.';
+COMMENT ON COLUMN rag.cdc_file_processing_checkpoints.qdrant_points IS 'Number of vector chunks successfully upserted into Qdrant.';
+
+CREATE INDEX IF NOT EXISTS ix_cdc_file_processing_status ON rag.cdc_file_processing_checkpoints (status);
+CREATE INDEX IF NOT EXISTS ix_cdc_file_processing_updated_at ON rag.cdc_file_processing_checkpoints (updated_at DESC);
+CREATE INDEX IF NOT EXISTS ix_cdc_file_processing_json_path ON rag.cdc_file_processing_checkpoints (json_path);
+
 -- -----------------------------------------------------------------------------
 -- updated_at trigger for core.article_metadata
 -- -----------------------------------------------------------------------------
@@ -289,7 +360,9 @@ DO $$
 BEGIN
     EXECUTE format('GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA core TO %I', current_user);
     EXECUTE format('GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA scraping TO %I', current_user);
+    EXECUTE format('GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA rag TO %I', current_user);
     EXECUTE format('GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA core TO %I', current_user);
     EXECUTE format('GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA scraping TO %I', current_user);
+    EXECUTE format('GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA rag TO %I', current_user);
 END
 $$;

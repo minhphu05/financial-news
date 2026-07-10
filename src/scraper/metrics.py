@@ -38,6 +38,17 @@ def push_scraper_metrics(
     source: str = "cafef",
     data_volume_bytes: int = 0,
     error_breakdown: Optional[Dict[str, int]] = None,
+    run_active: int = 0,
+    keywords_total: Optional[int] = None,
+    keywords_processed: Optional[int] = None,
+    current_ticker: Optional[str] = None,
+    current_keyword: Optional[str] = None,
+    last_keyword_status: Optional[str] = None,
+    last_keyword_duration_seconds: Optional[float] = None,
+    last_keyword_articles_found: Optional[int] = None,
+    last_keyword_articles_persisted: Optional[int] = None,
+    last_keyword_articles_skipped: Optional[int] = None,
+    last_keyword_pages_crawled: Optional[int] = None,
     pushgateway_url: Optional[str] = None,
 ) -> None:
     """Push scraper run metrics to Prometheus Pushgateway.
@@ -140,6 +151,116 @@ def push_scraper_metrics(
         labels,
         registry=registry,
     )
+    g_run_active = Gauge(
+        "scraper_run_active",
+        "1 while a scrape run is active, 0 after completion",
+        labels,
+        registry=registry,
+    )
+
+    if keywords_total is not None:
+        g_keywords_total = Gauge(
+            "scraper_keywords_total",
+            "Total keywords planned for the active scrape run",
+            labels,
+            registry=registry,
+        )
+        g_keywords_total.labels(source=source).set(keywords_total)
+
+    if keywords_processed is not None:
+        g_keywords_processed = Gauge(
+            "scraper_keywords_processed_total",
+            "Keywords processed so far in the active scrape run",
+            labels,
+            registry=registry,
+        )
+        g_keywords_remaining = Gauge(
+            "scraper_keywords_remaining",
+            "Keywords remaining in the active scrape run",
+            labels,
+            registry=registry,
+        )
+        g_keywords_processed.labels(source=source).set(keywords_processed)
+        if keywords_total is not None:
+            g_keywords_remaining.labels(source=source).set(
+                max(0, keywords_total - keywords_processed)
+            )
+
+    if current_ticker and current_keyword:
+        g_current_keyword = Gauge(
+            "scraper_current_keyword_info",
+            "Current or most recently processed keyword labeled by ticker and keyword",
+            ["source", "ticker", "keyword"],
+            registry=registry,
+        )
+        g_current_keyword.labels(
+            source=source,
+            ticker=current_ticker,
+            keyword=current_keyword,
+        ).set(1)
+
+    if last_keyword_status is not None:
+        keyword_labels = ["source", "ticker", "keyword", "status"]
+        ticker = current_ticker or "unknown"
+        keyword = current_keyword or "unknown"
+        status = last_keyword_status or "unknown"
+        g_last_keyword_ts = Gauge(
+            "scraper_keyword_last_processed_timestamp_seconds",
+            "Unix timestamp when the last keyword finished processing",
+            keyword_labels,
+            registry=registry,
+        )
+        g_last_keyword_ts.labels(
+            source=source,
+            ticker=ticker,
+            keyword=keyword,
+            status=status,
+        ).set(time.time())
+        if last_keyword_duration_seconds is not None:
+            g_last_keyword_duration = Gauge(
+                "scraper_keyword_duration_seconds",
+                "Duration of the most recently processed keyword",
+                keyword_labels,
+                registry=registry,
+            )
+            g_last_keyword_duration.labels(
+                source=source,
+                ticker=ticker,
+                keyword=keyword,
+                status=status,
+            ).set(last_keyword_duration_seconds)
+        keyword_value_specs = [
+            (
+                "scraper_keyword_articles_found_total",
+                "Articles found for the most recently processed keyword",
+                last_keyword_articles_found,
+            ),
+            (
+                "scraper_keyword_articles_persisted_total",
+                "Articles persisted for the most recently processed keyword",
+                last_keyword_articles_persisted,
+            ),
+            (
+                "scraper_keyword_articles_skipped_total",
+                "Articles skipped for the most recently processed keyword",
+                last_keyword_articles_skipped,
+            ),
+            (
+                "scraper_keyword_pages_crawled_total",
+                "Pages crawled for the most recently processed keyword",
+                last_keyword_pages_crawled,
+            ),
+        ]
+        for metric_name, description, value in keyword_value_specs:
+            if value is None:
+                continue
+            gauge = Gauge(metric_name, description, keyword_labels, registry=registry)
+            gauge.labels(
+                source=source,
+                ticker=ticker,
+                keyword=keyword,
+                status=status,
+            ).set(value)
 
     # Set main metrics
     g_found.labels(source=source).set(articles_found)
@@ -151,6 +272,7 @@ def push_scraper_metrics(
     g_volume.labels(source=source).set(data_volume_bytes)
     g_job_success.labels(source=source).set(1 if errors_count == 0 else 0)
     g_last_run_ts.labels(source=source).set(time.time())
+    g_run_active.labels(source=source).set(run_active)
 
     # Error breakdown by type (http_429, timeout, duplicate, parse_error, etc.)
     if error_breakdown:

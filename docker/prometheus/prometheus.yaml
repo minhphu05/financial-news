@@ -4,8 +4,8 @@
 # and Node Exporter + Fluent Bit internal metrics + RAG API live metrics.
 # =============================================================================
 global:
-  scrape_interval: 15s
-  evaluation_interval: 15s
+  scrape_interval: 5s
+  evaluation_interval: 5s
 
 scrape_configs:
   # ---- Prometheus self-monitoring ----------------------------------------
@@ -16,6 +16,7 @@ scrape_configs:
   # ---- Pushgateway (scraper + ingestion batch metrics) --------------------
   - job_name: "pushgateway"
     honor_labels: true
+    scrape_interval: 5s
     static_configs:
       - targets: ["pushgateway:9091"]
 
@@ -29,8 +30,23 @@ scrape_configs:
   # ---- Fluent Bit internal metrics ----------------------------------------
   - job_name: "fluent-bit"
     metrics_path: "/api/v1/metrics/prometheus"
+    scrape_interval: 5s
     static_configs:
       - targets: ["fluent-bit:2020"]
+
+  # ---- Loki internal metrics ----------------------------------------------
+  - job_name: "loki"
+    metrics_path: "/metrics"
+    scrape_interval: 5s
+    static_configs:
+      - targets: ["loki:3100"]
+
+  # ---- Grafana internal metrics -------------------------------------------
+  - job_name: "grafana"
+    metrics_path: "/metrics"
+    scrape_interval: 5s
+    static_configs:
+      - targets: ["grafana:3000"]
 
   # ---- cAdvisor (container CPU, RAM, network) -----------------------------
   - job_name: "cadvisor"

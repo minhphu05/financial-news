@@ -13,7 +13,7 @@ import uuid
 from datetime import date, datetime, timezone
 from typing import Optional, Sequence
 
-from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, select, text
 from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session, sessionmaker
@@ -50,6 +50,7 @@ class MetadataRepository:
             self._settings.postgres_dsn, pool_pre_ping=True, future=True
         )
         self._session_factory = sessionmaker(bind=self._engine, expire_on_commit=False)
+        self._ensure_checkpoint_table()
         logger.success(
             "Connected to PostgreSQL %s:%s/%s",
             self._settings.pg_host,
@@ -74,6 +75,43 @@ class MetadataRepository:
     def session_factory(self) -> sessionmaker[Session]:
         assert self._session_factory is not None, "MetadataRepository not connected"
         return self._session_factory
+
+    def _ensure_checkpoint_table(self) -> None:
+        """Create the scraper checkpoint table for existing local databases."""
+        assert self._engine is not None, "MetadataRepository not connected"
+        ddl = """
+        CREATE TABLE IF NOT EXISTS scraping.scrape_checkpoints (
+            id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+            source_name VARCHAR(64) NOT NULL,
+            ticker VARCHAR(16) NOT NULL,
+            keyword TEXT NOT NULL,
+            keyword_id UUID,
+            run_key TEXT NOT NULL,
+            status VARCHAR(16) NOT NULL DEFAULT 'PENDING',
+            last_page_completed INTEGER NOT NULL DEFAULT 0,
+            pages_crawled INTEGER NOT NULL DEFAULT 0,
+            articles_found INTEGER NOT NULL DEFAULT 0,
+            articles_persisted INTEGER NOT NULL DEFAULT 0,
+            articles_skipped INTEGER NOT NULL DEFAULT 0,
+            errors_count INTEGER NOT NULL DEFAULT 0,
+            last_error_category VARCHAR(64),
+            last_error_message TEXT,
+            last_started_at TIMESTAMPTZ,
+            last_completed_at TIMESTAMPTZ,
+            created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+            updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+            CONSTRAINT uq_scrape_checkpoints_natural
+                UNIQUE (source_name, ticker, keyword, run_key)
+        );
+        CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_run_key
+            ON scraping.scrape_checkpoints (run_key);
+        CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_status
+            ON scraping.scrape_checkpoints (status);
+        CREATE INDEX IF NOT EXISTS ix_scrape_checkpoints_updated_at
+            ON scraping.scrape_checkpoints (updated_at DESC);
+        """
+        with self._engine.begin() as connection:
+            connection.execute(text(ddl))
 
     # -- Stocks ----------------------------------------------------------
     def ensure_stock(
@@ -425,4 +463,230 @@ class MetadataRepository:
         )
         with self.session_factory() as session:
             session.add(row)
+            session.commit()
+
+    # -- Checkpoints -----------------------------------------------------
+    def get_scrape_checkpoint(
+        self,
+        *,
+        source_name: str,
+        ticker: str,
+        keyword: str,
+        run_key: str,
+    ) -> Optional[dict]:
+        stmt = text(
+            """
+            SELECT source_name, ticker, keyword, keyword_id, run_key, status,
+                   last_page_completed, pages_crawled, articles_found,
+                   articles_persisted, articles_skipped, errors_count,
+                   last_error_category, last_error_message, last_started_at,
+                   last_completed_at, created_at, updated_at
+            FROM scraping.scrape_checkpoints
+            WHERE source_name = :source_name
+              AND ticker = :ticker
+              AND keyword = :keyword
+              AND run_key = :run_key
+            """
+        )
+        with self.session_factory() as session:
+            row = session.execute(
+                stmt,
+                {
+                    "source_name": source_name,
+                    "ticker": ticker.upper(),
+                    "keyword": keyword,
+                    "run_key": run_key,
+                },
+            ).mappings().first()
+        return dict(row) if row else None
+
+    def start_scrape_checkpoint(
+        self,
+        *,
+        source_name: str,
+        ticker: str,
+        keyword: str,
+        keyword_id: Optional[str],
+        run_key: str,
+    ) -> None:
+        stmt = text(
+            """
+            INSERT INTO scraping.scrape_checkpoints (
+                source_name, ticker, keyword, keyword_id, run_key, status,
+                last_started_at, updated_at
+            ) VALUES (
+                :source_name, :ticker, :keyword, :keyword_id, :run_key, 'RUNNING',
+                now(), now()
+            )
+            ON CONFLICT (source_name, ticker, keyword, run_key)
+            DO UPDATE SET
+                keyword_id = EXCLUDED.keyword_id,
+                status = 'RUNNING',
+                last_started_at = now(),
+                last_error_category = NULL,
+                last_error_message = NULL,
+                updated_at = now()
+            """
+        )
+        with self.session_factory() as session:
+            session.execute(
+                stmt,
+                {
+                    "source_name": source_name,
+                    "ticker": ticker.upper(),
+                    "keyword": keyword,
+                    "keyword_id": uuid.UUID(keyword_id) if keyword_id else None,
+                    "run_key": run_key,
+                },
+            )
+            session.commit()
+
+    def update_scrape_checkpoint_progress(
+        self,
+        *,
+        source_name: str,
+        ticker: str,
+        keyword: str,
+        run_key: str,
+        last_page_completed: int,
+        pages_crawled: int,
+        articles_found: int,
+        articles_persisted: int,
+        articles_skipped: int,
+    ) -> None:
+        stmt = text(
+            """
+            UPDATE scraping.scrape_checkpoints
+            SET status = 'RUNNING',
+                last_page_completed = GREATEST(last_page_completed, :last_page_completed),
+                pages_crawled = :pages_crawled,
+                articles_found = :articles_found,
+                articles_persisted = :articles_persisted,
+                articles_skipped = :articles_skipped,
+                updated_at = now()
+            WHERE source_name = :source_name
+              AND ticker = :ticker
+              AND keyword = :keyword
+              AND run_key = :run_key
+            """
+        )
+        with self.session_factory() as session:
+            session.execute(
+                stmt,
+                {
+                    "source_name": source_name,
+                    "ticker": ticker.upper(),
+                    "keyword": keyword,
+                    "run_key": run_key,
+                    "last_page_completed": last_page_completed,
+                    "pages_crawled": pages_crawled,
+                    "articles_found": articles_found,
+                    "articles_persisted": articles_persisted,
+                    "articles_skipped": articles_skipped,
+                },
+            )
+            session.commit()
+
+    def complete_scrape_checkpoint(
+        self,
+        *,
+        source_name: str,
+        ticker: str,
+        keyword: str,
+        run_key: str,
+        last_page_completed: int,
+        pages_crawled: int,
+        articles_found: int,
+        articles_persisted: int,
+        articles_skipped: int,
+    ) -> None:
+        stmt = text(
+            """
+            UPDATE scraping.scrape_checkpoints
+            SET status = 'COMPLETED',
+                last_page_completed = GREATEST(last_page_completed, :last_page_completed),
+                pages_crawled = :pages_crawled,
+                articles_found = :articles_found,
+                articles_persisted = :articles_persisted,
+                articles_skipped = :articles_skipped,
+                last_error_category = NULL,
+                last_error_message = NULL,
+                last_completed_at = now(),
+                updated_at = now()
+            WHERE source_name = :source_name
+              AND ticker = :ticker
+              AND keyword = :keyword
+              AND run_key = :run_key
+            """
+        )
+        with self.session_factory() as session:
+            session.execute(
+                stmt,
+                {
+                    "source_name": source_name,
+                    "ticker": ticker.upper(),
+                    "keyword": keyword,
+                    "run_key": run_key,
+                    "last_page_completed": last_page_completed,
+                    "pages_crawled": pages_crawled,
+                    "articles_found": articles_found,
+                    "articles_persisted": articles_persisted,
+                    "articles_skipped": articles_skipped,
+                },
+            )
+            session.commit()
+
+    def fail_scrape_checkpoint(
+        self,
+        *,
+        source_name: str,
+        ticker: str,
+        keyword: str,
+        run_key: str,
+        error_category: str,
+        error_message: Optional[str],
+        errors_count: int,
+        last_page_completed: int = 0,
+        pages_crawled: int = 0,
+        articles_found: int = 0,
+        articles_persisted: int = 0,
+        articles_skipped: int = 0,
+    ) -> None:
+        stmt = text(
+            """
+            UPDATE scraping.scrape_checkpoints
+            SET status = 'FAILED',
+                last_page_completed = GREATEST(last_page_completed, :last_page_completed),
+                pages_crawled = :pages_crawled,
+                articles_found = :articles_found,
+                articles_persisted = :articles_persisted,
+                articles_skipped = :articles_skipped,
+                errors_count = :errors_count,
+                last_error_category = :error_category,
+                last_error_message = :error_message,
+                updated_at = now()
+            WHERE source_name = :source_name
+              AND ticker = :ticker
+              AND keyword = :keyword
+              AND run_key = :run_key
+            """
+        )
+        with self.session_factory() as session:
+            session.execute(
+                stmt,
+                {
+                    "source_name": source_name,
+                    "ticker": ticker.upper(),
+                    "keyword": keyword,
+                    "run_key": run_key,
+                    "error_category": error_category,
+                    "error_message": error_message,
+                    "errors_count": errors_count,
+                    "last_page_completed": last_page_completed,
+                    "pages_crawled": pages_crawled,
+                    "articles_found": articles_found,
+                    "articles_persisted": articles_persisted,
+                    "articles_skipped": articles_skipped,
+                },
+            )
             session.commit()

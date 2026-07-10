@@ -22,4 +22,4 @@ datasources:
     url: http://prometheus:9090
     editable: true
     jsonData:
-      timeInterval: "15s"
+      timeInterval: "5s"

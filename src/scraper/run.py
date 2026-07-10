@@ -76,6 +76,16 @@ def _build_arg_parser() -> argparse.ArgumentParser:
         choices=["adls", "minio"],
         help="Override the content backend for this run. Defaults to CONTENT_STORAGE_BACKEND, which defaults to adls.",
     )
+    parser.add_argument(
+        "--no-resume",
+        action="store_true",
+        help="Ignore scraper checkpoints and crawl from the configured start page.",
+    )
+    parser.add_argument(
+        "--checkpoint-key",
+        default=None,
+        help="Optional explicit checkpoint scope. Reuse the same value to resume a failed run across days.",
+    )
     return parser
 
 
@@ -117,6 +127,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     logger.info("Tickers          : %s", tickers or "all")
     logger.info("Max pages/keyword: %s", settings.max_pages)
     logger.info("Max keywords/ticker: %s", args.max_keywords or "all")
+    logger.info("Resume checkpoints: %s", not args.no_resume)
+    logger.info("Checkpoint key   : %s", args.checkpoint_key or "auto")
 
     started_at = datetime.now()
     try:
@@ -126,6 +138,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             source_filter=args.source,
             triggered_by=args.triggered_by,
             max_keywords_per_ticker=args.max_keywords,
+            resume_from_checkpoint=not args.no_resume,
+            checkpoint_key=args.checkpoint_key,
         )
     except KeyboardInterrupt:
         logger.warning("Interrupted by user (Ctrl-C). Partial progress is saved.")

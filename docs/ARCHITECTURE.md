@@ -80,6 +80,10 @@ This document describes the full system architecture of the **Financial News RAG
 | `financial-fluent-bit` | fluent/fluent-bit:3.1 | 2020 | Log shipper |
 | `financial-prometheus` | prom/prometheus:2.53 | **9090** | Metrics storage |
 | `financial-pushgateway` | prom/pushgateway:1.9 | **9091** | Batch metrics relay |
+| `financial-local-redpanda` | redpandadata/redpanda:v24.2.7 | **19092** | Kafka-compatible CDC event bus |
+| `financial-local-debezium` | debezium/connect:2.7.3.Final | **8083** | PostgreSQL logical replication connector |
+| `financial-local-qdrant` | qdrant/qdrant:v1.12.1 | **6333/6334** | Vector store for article chunks |
+| `financial-local-cdc-medallion-worker` | custom (ingestion) | — | Consumes CDC events and writes Qdrant embeddings |
 
 ---
 
@@ -164,6 +168,29 @@ Scraper script
                      (time series panels)
 ```
 
+### 4. CDC Medallion Flow
+
+```text
+core.article_metadata insert/update
+  │
+  └── PostgreSQL logical WAL
+          │
+       Debezium
+          │
+          ▼
+Redpanda topic: financial_metadata.core.article_metadata
+          │
+          ▼
+cdc-medallion-worker
+  ├── checkpoint state → rag.cdc_file_processing_checkpoints
+  ├── read article JSON → MinIO or ADLS
+  ├── bronze → raw normalized document
+  ├── silver → cleaned article text
+  └── gold → chunks + Voyage embeddings → Qdrant
+```
+
+The CDC worker is idempotent at two levels: `article_id` is the checkpoint primary key, and Qdrant point IDs are deterministic UUID5 values from `article_link#chunk_index`. Detailed operations are documented in `CDC_MEDALLION_PIPELINE.md`.
+
 ---
 
 ## Source Code Layout
@@ -198,5 +225,7 @@ src/
 | Metrics | Prometheus + Pushgateway | Industry standard; Pushgateway suits batch/cron jobs |
 | Orchestration | Prefect 3 | Python-native, supports async flows, good local dev experience |
 | Experiment tracking | MLflow | Future ML model training; artifact versioning |
+| CDC event bus | Debezium + Redpanda | PostgreSQL WAL events decouple scraping from downstream RAG processing |
+| Vector store | Qdrant | Local/dev vector database with deterministic idempotent upserts |
 </content>
 </invoke>
