@@ -1,1 +1,1 @@
-"""Financial News project test suite."""
+"""Pipeline test helpers."""

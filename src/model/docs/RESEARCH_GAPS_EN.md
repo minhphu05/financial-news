@@ -1,5 +1,7 @@
 # Research Gap Analysis: Vietnamese Financial NER
 
+> The F1/recall gains below are **research hypotheses**, not measured results from this repository. The model documents' 10 proposed entity types also differ from the thesis proposal's eight and the final BIO splits' seven; see the [thesis alignment review](../../../docs/THESIS_ALIGNMENT.md).
+
 ## 1. Literature Review Summary
 
 ### 1.1 Existing Approaches for Vietnamese NER
@@ -80,7 +82,7 @@ B-VOLUME: ~0.3%
 ...
 ```
 
-**Our Solution**: 
+**Our Solution**:
 1. **Focal Loss**: Down-weights easy O-tokens (γ=2.0), focuses on hard entity boundaries
 2. **Dice Loss**: Directly optimizes per-class F1 overlap metric
 

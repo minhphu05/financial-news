@@ -1,0 +1,156 @@
+{
+  "evaluated_at": "2026-09-20T11:34:02.322083+00:00",
+  "collection": "news_chunks_local_v1",
+  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "indexed_chunk_count": 96,
+  "fixture_index_limit": 96,
+  "top_k": 5,
+  "passed_queries": 3,
+  "total_queries": 3,
+  "results": [
+    {
+      "query": "ACB hỗ trợ doanh nghiệp tiết kiệm chi phí vận hành tiền điện nước và phí ngân hàng",
+      "expected_article_id": "00016d4513a2fbdd452892b11560d0db260d9153b6548cf13eed719a72c8c0f6",
+      "expected_title": "ACB hỗ trợ doanh nghiệp tiết kiệm 1% chi phí vận hành để vượt qua thách thức",
+      "expected_in_top_k": true,
+      "retrieved_top_k": [
+        {
+          "rank": 1,
+          "score": 0.651512,
+          "chunk_id": "dd1615334263113f0ea311cec85c98485fc0e7ab71d5ad3cded7c897a773ff2f",
+          "article_id": "00016d4513a2fbdd452892b11560d0db260d9153b6548cf13eed719a72c8c0f6",
+          "title": "ACB hỗ trợ doanh nghiệp tiết kiệm 1% chi phí vận hành để vượt qua thách thức",
+          "source_url": "https://cafef.vn/acb-ho-tro-doanh-nghiep-tiet-kiem-1-chi-phi-van-hanh-de-vuot-qua-thach-thuc-188231221081114371.chn"
+        },
+        {
+          "rank": 2,
+          "score": 0.577683,
+          "chunk_id": "2e9505ea6da4a25ef0dc889b34eaec38856817d45be96bfa7e9c65af6ad9bc37",
+          "article_id": "00016d4513a2fbdd452892b11560d0db260d9153b6548cf13eed719a72c8c0f6",
+          "title": "ACB hỗ trợ doanh nghiệp tiết kiệm 1% chi phí vận hành để vượt qua thách thức",
+          "source_url": "https://cafef.vn/acb-ho-tro-doanh-nghiep-tiet-kiem-1-chi-phi-van-hanh-de-vuot-qua-thach-thuc-188231221081114371.chn"
+        },
+        {
+          "rank": 3,
+          "score": 0.557033,
+          "chunk_id": "542be83879fdba910b3254b00b75056edeb41b2b53cec0eeccadb7c3a1718253",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        },
+        {
+          "rank": 4,
+          "score": 0.550499,
+          "chunk_id": "ab1ee08ebf95ae5fefc440fd1cf688a856d9ee13b071fe2e419125fcaa90027e",
+          "article_id": "00016d4513a2fbdd452892b11560d0db260d9153b6548cf13eed719a72c8c0f6",
+          "title": "ACB hỗ trợ doanh nghiệp tiết kiệm 1% chi phí vận hành để vượt qua thách thức",
+          "source_url": "https://cafef.vn/acb-ho-tro-doanh-nghiep-tiet-kiem-1-chi-phi-van-hanh-de-vuot-qua-thach-thuc-188231221081114371.chn"
+        },
+        {
+          "rank": 5,
+          "score": 0.5414,
+          "chunk_id": "a2a65fb22a28e4de856084325715a36cf0bdd3897947ba68934430604f645860",
+          "article_id": "0081a73886237bfd60c33e7569b80bdcc0357f58864585d7629527c58d03cc21",
+          "title": "ACB: Kiên định mục tiêu tăng trưởng tín dụng 16% trong năm 2025",
+          "source_url": "https://cafef.vn/acb-kien-dinh-muc-tieu-tang-truong-tin-dung-16-trong-nam-2025-188250408150808588.chn"
+        }
+      ]
+    },
+    {
+      "query": "Masan sử dụng dòng vốn hiệu quả khai thác đa dạng kênh dẫn vốn",
+      "expected_article_id": "0005ed1618b3f6476a123f8c83a0a7e7e6fed148d4d9a0087e1692387f2a5178",
+      "expected_title": "Masan sử dụng dòng vốn hiệu quả, khai thác đa dạng kênh dẫn vốn",
+      "expected_in_top_k": true,
+      "retrieved_top_k": [
+        {
+          "rank": 1,
+          "score": 0.594757,
+          "chunk_id": "6f49322755bcb483764e2fdbe3aeab105d79a49d1f4ffb319e33c7a731065aa5",
+          "article_id": "0005ed1618b3f6476a123f8c83a0a7e7e6fed148d4d9a0087e1692387f2a5178",
+          "title": "Masan sử dụng dòng vốn hiệu quả, khai thác đa dạng kênh dẫn vốn",
+          "source_url": "https://cafef.vn/masan-su-dung-dong-von-hieu-qua-khai-thac-da-dang-kenh-dan-von-20221123114720723.chn"
+        },
+        {
+          "rank": 2,
+          "score": 0.479853,
+          "chunk_id": "03e4e236580bfc0f40d97c0263b0b00487a83aeaace8596aee79534b0a5dffba",
+          "article_id": "0005ed1618b3f6476a123f8c83a0a7e7e6fed148d4d9a0087e1692387f2a5178",
+          "title": "Masan sử dụng dòng vốn hiệu quả, khai thác đa dạng kênh dẫn vốn",
+          "source_url": "https://cafef.vn/masan-su-dung-dong-von-hieu-qua-khai-thac-da-dang-kenh-dan-von-20221123114720723.chn"
+        },
+        {
+          "rank": 3,
+          "score": 0.463231,
+          "chunk_id": "babf3495e5457332d0f80cfd4e988f0340401a561252276f25ca7733cb9732ea",
+          "article_id": "00697d711d5f2f6447a14425054b311dbf6297e065f0134efd26f196c05c1e38",
+          "title": "Sắp có nguồn vốn khổng lồ bơm ra thị trường: SSI vừa ký hợp đồng vay hạn mức 10.000 tỷ từ một ngân hàng",
+          "source_url": "https://cafef.vn/sap-co-nguon-margin-khong-lo-bom-ra-thi-truong-ssi-vua-ky-hop-dong-vay-han-muc-10000-ty-tu-vietinbank-20220214142658349.chn"
+        },
+        {
+          "rank": 4,
+          "score": 0.445324,
+          "chunk_id": "be2a15b909015a7323a00a5885707ef625b4c49299842a314ac55e3fb0a14ab4",
+          "article_id": "0005ed1618b3f6476a123f8c83a0a7e7e6fed148d4d9a0087e1692387f2a5178",
+          "title": "Masan sử dụng dòng vốn hiệu quả, khai thác đa dạng kênh dẫn vốn",
+          "source_url": "https://cafef.vn/masan-su-dung-dong-von-hieu-qua-khai-thac-da-dang-kenh-dan-von-20221123114720723.chn"
+        },
+        {
+          "rank": 5,
+          "score": 0.428186,
+          "chunk_id": "6513d9912907c83b66832c94558842fc077b9b13448718f1c7e26f19f0c81a64",
+          "article_id": "00697d711d5f2f6447a14425054b311dbf6297e065f0134efd26f196c05c1e38",
+          "title": "Sắp có nguồn vốn khổng lồ bơm ra thị trường: SSI vừa ký hợp đồng vay hạn mức 10.000 tỷ từ một ngân hàng",
+          "source_url": "https://cafef.vn/sap-co-nguon-margin-khong-lo-bom-ra-thi-truong-ssi-vua-ky-hop-dong-vay-han-muc-10000-ty-tu-vietinbank-20220214142658349.chn"
+        }
+      ]
+    },
+    {
+      "query": "ACB ngăn chặn giao dịch tài khoản nghi ngờ gian lận lừa đảo",
+      "expected_article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+      "expected_title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+      "expected_in_top_k": true,
+      "retrieved_top_k": [
+        {
+          "rank": 1,
+          "score": 0.780781,
+          "chunk_id": "e66c5e113ea6f4da4ab83c7f04bb4b9cbb36ff1e065730ad03203edb8f61a14c",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        },
+        {
+          "rank": 2,
+          "score": 0.727414,
+          "chunk_id": "8a5fc2e833fffae51b0765c5ee305f5c1c919cc52501e1a91c296f5486febd25",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        },
+        {
+          "rank": 3,
+          "score": 0.721365,
+          "chunk_id": "542be83879fdba910b3254b00b75056edeb41b2b53cec0eeccadb7c3a1718253",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        },
+        {
+          "rank": 4,
+          "score": 0.696386,
+          "chunk_id": "3c38ef8127e0c0f44a30ca615edd44e1f439e1705866ed31c6054809b6ff7b37",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        },
+        {
+          "rank": 5,
+          "score": 0.680984,
+          "chunk_id": "fdb3c55c335eaaa73054f52ddf781c1f122dd483d66d35aa61a33de92ae8dcda",
+          "article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+          "title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh",
+          "source_url": "https://cafef.vn/acb-ngan-chan-giao-dich-den-10000-tai-khoan-nghi-ngo-gian-lan-so-vu-lua-dao-giam-manh-188241101073305462.chn"
+        }
+      ]
+    }
+  ]
+}

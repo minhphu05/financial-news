@@ -30,6 +30,8 @@ App: <http://localhost:5173>
 * `src/pages/`      — Home, News, StockNews, Chat.
 * `src/lib/utils.ts` — `cn`, `formatDate`, `formatRelative`, `truncate`.
 
-See [`docs/en/12_frontend.md`](../docs/en/12_frontend.md) (or
-[`docs/vi/12_giao_dien.md`](../docs/vi/12_giao_dien.md)) for the long
-form.
+For the current feature status and the thesis requirements, see
+[Project Status](../docs/PROJECT_STATUS.md) and
+[Thesis Alignment](../docs/THESIS_ALIGNMENT.md). The current UI links to
+the original CafeF article for full text; an in-app article detail page
+and stock-price dashboard are not yet implemented.

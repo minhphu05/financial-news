@@ -1,5 +1,7 @@
 # Phân tích Khoảng trống Nghiên cứu: NER Tài chính Tiếng Việt
 
+> Các mức cải thiện F1/recall bên dưới là **dự kiến trong thiết kế nghiên cứu**, không phải kết quả thực nghiệm của repository. Phạm vi 10 loại thực thể trong tài liệu model cũng khác đề cương khóa luận (8 loại) và tập BIO cuối (7 loại); xem [đối chiếu đề cương](../../../docs/THESIS_ALIGNMENT.md).
+
 ## 1. Tổng quan Tài liệu Tham khảo
 
 ### 1.1 Các Phương pháp Hiện có cho NER Tiếng Việt

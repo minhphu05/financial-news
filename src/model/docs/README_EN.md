@@ -1,10 +1,12 @@
 # Vietnamese Financial Named Entity Recognition (ViFinNER)
 
+> **Label scope note (2026-09-20):** The 10 entity types described below are a broader model design. The thesis proposal `CQUI_DECUONGKLTN_23520782_23521183.md` reports eight types, while the committed `final_{train,dev,test}_vifinner.jsonl` datasets contain seven types and no `EVENT`, `TICKER`, or `PRICE` labels. Results for absent labels cannot be claimed from these final splits. See the [thesis alignment review](../../../docs/THESIS_ALIGNMENT.md) before training or reporting results.
+
 ## Model Architecture Documentation
 
 ### Overview
 
-This project implements Named Entity Recognition (NER) for Vietnamese financial news text, targeting **10 entity types** organized in a BIO tagging scheme (15 tags total):
+This project implements Named Entity Recognition (NER) for Vietnamese financial news text. The table below describes **10 proposed entity types**; the committed final train/dev/test splits currently contain **seven types and 15 BIO/O tags**:
 
 | Entity Type | Description | Example |
 |-------------|-------------|---------|

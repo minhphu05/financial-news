@@ -1,10 +1,12 @@
 # Nhận dạng Thực thể có Tên trong Tin tức Tài chính Việt Nam (ViFinNER)
 
+> **Lưu ý về phạm vi nhãn (20/09/2026):** Danh sách 10 loại dưới đây mô tả hướng thiết kế mô hình rộng hơn. Đề cương khóa luận `CQUI_DECUONGKLTN_23520782_23521183.md` báo cáo 8 loại (`ORG`, `PERSON`, `ASSET`, `EVENT`, `MONEY`, `RATE`, `VOLUME`, `DATE`). Ba tập `data/labeled/ner/syllables/final_{train,dev,test}_vifinner.jsonl` hiện chỉ có 7 loại, thiếu `EVENT`; `TICKER` và `PRICE` cũng không có trong tập cuối. Chưa thể dùng các loại thiếu nhãn để tuyên bố kết quả đánh giá của bộ dữ liệu hiện tại. Xem [đối chiếu đề cương](../../../docs/THESIS_ALIGNMENT.md) trước khi huấn luyện hoặc báo cáo.
+
 ## Tài liệu Kiến trúc Mô hình
 
 ### Tổng quan
 
-Dự án này triển khai bài toán Nhận dạng Thực thể có Tên (NER) cho văn bản tin tức tài chính tiếng Việt, nhắm tới **10 loại thực thể** được tổ chức theo lược đồ gán nhãn BIO (tổng cộng 15 nhãn):
+Dự án này triển khai bài toán Nhận dạng Thực thể có Tên (NER) cho văn bản tin tức tài chính tiếng Việt. Bảng dưới mô tả **10 loại thực thể được đề xuất**; tập train/dev/test cuối hiện chỉ có **7 loại và 15 nhãn BIO/O**:
 
 | Loại Thực thể | Mô tả | Ví dụ |
 |---------------|--------|-------|

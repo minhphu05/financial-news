@@ -10,6 +10,65 @@
 # ==============================================================================================================
 
 services:
+  minio:
+    image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
+    command: server /data --console-address ':9001'
+    environment:
+      MINIO_ROOT_USER: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
+    ports:
+      - '${NEWS_MINIO_PORT:-9000}:9000'
+      - '${NEWS_MINIO_CONSOLE_PORT:-9001}:9001'
+    volumes:
+      - news_minio_data:/data
+    networks: [financial-net]
+
+  news-pipeline:
+    profiles: [local-pipeline]
+    build:
+      context: .
+      dockerfile: docker/news-pipeline/Dockerfile
+    working_dir: /app
+    environment:
+      PYTHONPATH: /app
+      PYSPARK_PYTHON: python3
+      SPARK_LOCAL_IP: 127.0.0.1
+      NEWS_STORAGE_ENDPOINT: ${NEWS_STORAGE_ENDPOINT:-http://minio:9000}
+      NEWS_STORAGE_ACCESS_KEY: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
+      NEWS_STORAGE_SECRET_KEY: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
+      NEWS_STORAGE_BUCKET: ${NEWS_STORAGE_BUCKET:-financial-news}
+      NEWS_SOURCE_FILE: ${NEWS_SOURCE_FILE:-/app/data/raw/cafef_news_raw_final.json}
+      NEWS_PROCESSING_VERSION: ${NEWS_PROCESSING_VERSION:-cafef-v1.1}
+      NEWS_SPARK_MASTER: ${NEWS_SPARK_MASTER:-local[2]}
+      NEWS_SOURCE_INGESTION_ID: ${NEWS_SOURCE_INGESTION_ID:-}
+      NEWS_SILVER_ARTICLES_URI: ${NEWS_SILVER_ARTICLES_URI:-}
+      NEWS_SILVER_MENTIONS_URI: ${NEWS_SILVER_MENTIONS_URI:-}
+      NEWS_GOLD_RAG_PREFIX: ${NEWS_GOLD_RAG_PREFIX:-}
+      NEWS_GOLD_ANALYTICS_PREFIX: ${NEWS_GOLD_ANALYTICS_PREFIX:-}
+      NEWS_CHUNK_SIZE: ${NEWS_CHUNK_SIZE:-900}
+      NEWS_CHUNK_OVERLAP: ${NEWS_CHUNK_OVERLAP:-120}
+      NEWS_EMBEDDING_PROVIDER: ${NEWS_EMBEDDING_PROVIDER:-fastembed}
+      NEWS_EMBEDDING_MODEL: ${NEWS_EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      NEWS_EMBEDDING_DIMENSION: ${NEWS_EMBEDDING_DIMENSION:-384}
+      NEWS_MODEL_CACHE_DIR: /opt/news-models
+      HF_HOME: /opt/news-models/huggingface
+      XDG_CACHE_HOME: /opt/news-models/cache
+      NEWS_QDRANT_URL: ${NEWS_QDRANT_URL:-http://qdrant:6333}
+      NEWS_QDRANT_COLLECTION: ${NEWS_QDRANT_COLLECTION:-news_chunks_local_v1}
+      NEWS_INDEX_LIMIT: ${NEWS_INDEX_LIMIT:-0}
+      NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
+      NEWS_DUCKDB_PATH: ${NEWS_DUCKDB_PATH:-/app/local/analytics.duckdb}
+    volumes:
+      - ./src:/app/src:ro
+      - ./data:/app/data:ro
+      - ./tests:/app/tests:ro
+      - ./data/local:/app/local
+      - news_spark_ivy:/opt/news-ivy
+      - news_model_cache:/opt/news-models
+    depends_on:
+      - minio
+    networks: [financial-net]
+
   mongodb:
     image: mongodb/mongodb-community-server:8.0-ubi8
     container_name: financial-mongo
@@ -363,6 +422,12 @@ networks:
     driver: bridge
 
 volumes:
+  news_minio_data:
+    driver: local
+  news_spark_ivy:
+    driver: local
+  news_model_cache:
+    driver: local
   mongo_data:
     driver: local
   postgres_data:
@@ -383,4 +448,3 @@ volumes:
     driver: local
   qdrant_data:
     driver: local
-      

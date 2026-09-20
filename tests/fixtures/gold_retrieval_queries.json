@@ -1,0 +1,22 @@
+{
+  "description": "Manual queries from actual CafeF Gold articles; evaluate against the first 96 chunks in deterministic article_id/chunk_index order.",
+  "index_limit": 96,
+  "top_k": 5,
+  "queries": [
+    {
+      "query": "ACB hỗ trợ doanh nghiệp tiết kiệm chi phí vận hành tiền điện nước và phí ngân hàng",
+      "expected_article_id": "00016d4513a2fbdd452892b11560d0db260d9153b6548cf13eed719a72c8c0f6",
+      "expected_title": "ACB hỗ trợ doanh nghiệp tiết kiệm 1% chi phí vận hành để vượt qua thách thức"
+    },
+    {
+      "query": "Masan sử dụng dòng vốn hiệu quả khai thác đa dạng kênh dẫn vốn",
+      "expected_article_id": "0005ed1618b3f6476a123f8c83a0a7e7e6fed148d4d9a0087e1692387f2a5178",
+      "expected_title": "Masan sử dụng dòng vốn hiệu quả, khai thác đa dạng kênh dẫn vốn"
+    },
+    {
+      "query": "ACB ngăn chặn giao dịch tài khoản nghi ngờ gian lận lừa đảo",
+      "expected_article_id": "0007b493ed64027fc7064fc7e562b7e0c7e39e1f342cc696c25ec30601988514",
+      "expected_title": "ACB ngăn chặn giao dịch đến 10.000 tài khoản nghi ngờ gian lận, số vụ lừa đảo giảm mạnh"
+    }
+  ]
+}

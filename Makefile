@@ -7,7 +7,9 @@ COMPOSE ?= docker compose
 
 .PHONY: help up down logs build rebuild ps \
         scrape ingest ask deploy lint \
-        frontend-dev frontend-build
+        frontend-dev frontend-build data-contracts data-contracts-check \
+        infra-up bronze-ingest silver-build test-pipeline \
+        gold-build analytics-build analytics-query qdrant-index semantic-search retrieval-smoke test-gold serving-up
 
 help:
 	@echo "Available targets:"
@@ -21,6 +23,66 @@ help:
 	@echo "  make ingest      - Run the ingestion pipeline once (host Python)."
 	@echo "  make ask Q='...' - Ask the chatbot a question."
 	@echo "  make deploy      - Register Prefect deployments inside the worker."
+	@echo "  make data-contracts       - Regenerate observed data profile and contract sections."
+	@echo "  make data-contracts-check - Report source schema drift without writing files."
+	@echo "  make infra-up            - Start local MinIO."
+	@echo "  make bronze-ingest       - Upload the selected sample snapshot."
+	@echo "  make silver-build        - Build Silver Delta tables with PySpark."
+	@echo "  make test-pipeline       - Run unit and sample integration tests."
+	@echo "  make gold-build          - Build durable Gold documents and chunks."
+	@echo "  make analytics-build     - Build Gold analytics and local DuckDB."
+	@echo "  make qdrant-index INDEX_LIMIT=0 - Embed and index Gold chunks."
+	@echo "  make semantic-search QUERY='...' - Retrieve top chunks without an LLM."
+	@echo "  make analytics-query QUERY='SELECT ...' - Query local DuckDB."
+	@echo "  make retrieval-smoke     - Evaluate documented sample queries."
+	@echo "  make test-gold           - Run Phase 02 unit and integration tests."
+
+SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
+SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
+INDEX_LIMIT ?= 0
+export NEWS_SEARCH_QUERY = $(QUERY)
+export NEWS_ANALYTICS_SQL = $(QUERY)
+
+infra-up:
+	$(COMPOSE) up -d minio
+
+bronze-ingest: infra-up
+	$(COMPOSE) run --rm news-pipeline python3 -m src.news_pipeline.bronze
+
+silver-build: infra-up
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/silver.py
+
+test-pipeline: infra-up
+	$(COMPOSE) run --rm news-pipeline python3 -m unittest discover -s tests -p 'test_news_pipeline_unit.py' -v
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_pipeline_integration.py
+
+serving-up: infra-up
+	$(COMPOSE) up -d qdrant
+
+gold-build: infra-up
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/gold_rag.py
+
+analytics-build: infra-up
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/analytics.py
+	$(COMPOSE) run --rm --user 0 news-pipeline python3 -m src.news_pipeline.duckdb_serving build
+
+analytics-query:
+	$(COMPOSE) run --rm -e NEWS_ANALYTICS_SQL news-pipeline python3 -m src.news_pipeline.duckdb_serving query
+
+qdrant-index: serving-up
+	$(COMPOSE) run --rm -e NEWS_INDEX_LIMIT=$(INDEX_LIMIT) news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/qdrant_index.py
+
+semantic-search: serving-up
+	$(COMPOSE) run --rm -e NEWS_SEARCH_QUERY news-pipeline python3 -m src.news_pipeline.semantic_search
+
+retrieval-smoke: serving-up
+	$(COMPOSE) run --rm --user 0 news-pipeline python3 -m src.news_pipeline.retrieval_smoke
+	cp data/local/gold-retrieval-smoke-results.json artifacts/gold-retrieval-smoke-results.json
+
+test-gold: serving-up
+	$(COMPOSE) run --rm news-pipeline python3 -m unittest discover -s tests -p 'test_news_gold_unit.py' -v
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_gold_spark_unit.py
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_gold_integration.py
 
 up:
 	$(COMPOSE) up -d
@@ -71,3 +133,9 @@ frontend-dev:
 
 frontend-build:
 	cd frontend && npm install && npm run build
+
+data-contracts:
+	python3 tools/generate_data_contracts.py
+
+data-contracts-check:
+	python3 tools/generate_data_contracts.py --check

@@ -1,6 +1,6 @@
 # Architecture Overview
 
-This document describes the full system architecture of the **Financial News RAG Stack** — from raw web scraping through storage, log aggregation, and observability.
+This document focuses on the **scraper, storage, and observability** portion of the Financial News stack. It does not cover the thesis's stock-price streaming/Power BI output, which is not yet implemented in this repository. For the current codebase and its differences from the thesis proposal, see [Project Status](PROJECT_STATUS.md) and [Thesis Alignment](THESIS_ALIGNMENT.md).
 
 ---
 
