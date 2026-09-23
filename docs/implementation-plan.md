@@ -1,6 +1,6 @@
 # Local financial-news pipeline implementation plan
 
-**Status:** proposal only. No code, Compose service, crawler, or data store was changed during this audit. The evidence and component disposition are in [repo-audit.md](repo-audit.md); the intended contracts are in [local-architecture.md](local-architecture.md).
+**Status (23/09/2026):** the original audit proposal has now been implemented through Phase 03 for the local financial-news slice. Phase 01 provides Bronze/Silver, Phase 02 provides Gold/Qdrant/DuckDB, and Phase 03 provides Airflow orchestration while preserving every standalone job. See [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), and [airflow-local.md](airflow-local.md) for measured evidence. PostgreSQL domain run registry/CDC remains deferred; the current PostgreSQL instance added in Phase 03 stores Airflow metadata only.
 
 ## Scope and sequencing
 

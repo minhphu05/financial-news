@@ -9,7 +9,9 @@ COMPOSE ?= docker compose
         scrape ingest ask deploy lint \
         frontend-dev frontend-build data-contracts data-contracts-check \
         infra-up bronze-ingest silver-build test-pipeline \
-        gold-build analytics-build analytics-query qdrant-index semantic-search retrieval-smoke test-gold serving-up
+        gold-build analytics-build analytics-query qdrant-index semantic-search retrieval-smoke test-gold serving-up \
+        airflow-build airflow-init airflow-up airflow-down airflow-logs airflow-dags \
+        airflow-test airflow-test-silver airflow-test-gold pipeline-run
 
 help:
 	@echo "Available targets:"
@@ -36,6 +38,14 @@ help:
 	@echo "  make analytics-query QUERY='SELECT ...' - Query local DuckDB."
 	@echo "  make retrieval-smoke     - Evaluate documented sample queries."
 	@echo "  make test-gold           - Run Phase 02 unit and integration tests."
+	@echo "  make airflow-up          - Initialize and start local Airflow on port 8088."
+	@echo "  make airflow-down        - Stop local Airflow services (keep volumes)."
+	@echo "  make airflow-logs        - Follow scheduler and webserver logs."
+	@echo "  make airflow-dags        - List DAGs and import errors."
+	@echo "  make airflow-test        - Run DAG import and structure tests."
+	@echo "  make airflow-test-silver - Test Silver DAG; waits for triggered Gold DAG."
+	@echo "  make airflow-test-gold   - Test the Gold DAG directly."
+	@echo "  make pipeline-run        - Run the Airflow end-to-end local smoke path."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -83,6 +93,37 @@ test-gold: serving-up
 	$(COMPOSE) run --rm news-pipeline python3 -m unittest discover -s tests -p 'test_news_gold_unit.py' -v
 	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_gold_spark_unit.py
 	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_gold_integration.py
+
+airflow-build:
+	$(COMPOSE) build airflow-init
+
+airflow-init: airflow-build
+	$(COMPOSE) up airflow-init
+
+airflow-up: serving-up airflow-init
+	$(COMPOSE) up -d airflow-scheduler airflow-webserver
+
+airflow-down:
+	$(COMPOSE) stop airflow-scheduler airflow-webserver airflow-postgres
+
+airflow-logs:
+	$(COMPOSE) logs -f --tail=200 airflow-scheduler airflow-webserver
+
+airflow-dags: airflow-init
+	$(COMPOSE) run --rm airflow-cli airflow dags list
+	$(COMPOSE) run --rm airflow-cli airflow dags list-import-errors
+
+airflow-test: airflow-init
+	$(COMPOSE) run --rm airflow-cli python3 -m unittest tests.test_airflow_dags -v
+	$(COMPOSE) run --rm airflow-cli airflow dags list-import-errors
+
+airflow-test-silver: airflow-up
+	$(COMPOSE) run --rm airflow-cli python3 /app/tools/airflow_smoke.py news_silver_pipeline
+
+airflow-test-gold: airflow-up
+	$(COMPOSE) run --rm airflow-cli python3 /app/tools/airflow_smoke.py news_gold_pipeline
+
+pipeline-run: airflow-test-silver
 
 up:
 	$(COMPOSE) up -d

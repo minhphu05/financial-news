@@ -4,6 +4,8 @@
 
 **Nguồn đối chiếu:** `CQUI_DECUONGKLTN_23520782_23521183.md` do nhóm cung cấp (bản ngày 05/09/2026), đặc biệt các mục 1, 4, 6, 7 và 8. Tài liệu này ghi lại những gì có thể kiểm tra từ mã và dữ liệu trong repository. Các kết quả nghiên cứu được **đề cương báo cáo** được giữ riêng với các kết quả **có thể kiểm chứng trong repository**.
 
+> **Cập nhật 23/09/2026:** khoảng cách Spark/Airflow nêu trong bản rà soát ngày 20/09 đã được xử lý cho riêng pipeline tin tức local: Bronze → Spark Silver → Gold → Qdrant/DuckDB chạy độc lập và qua hai DAG Airflow. Xem [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), và [airflow-local.md](airflow-local.md). Các nhận định bên dưới về NER, website/cá nhân hóa, dữ liệu giá, Kafka/Flink và Power BI vẫn là phạm vi của lần rà soát gốc và chưa được Phase 01–03 thay đổi.
+
 ## Kết luận ngắn
 
 **Dự án đúng hướng về bài toán tin tức và RAG, nhưng chưa bám sát toàn bộ đề cương đã nộp.** Trong ba đầu ra, website/RAG có nhiều thành phần đã viết; NER có dữ liệu và mã huấn luyện nhưng thiếu chuỗi bằng chứng thực nghiệm đầy đủ trong repo; pipeline giá cổ phiếu và Power BI chưa thấy triển khai. Hai thay đổi công nghệ lớn là **Prefect thay Airflow** và **Python/Polars thay Spark**. Đây là khác biệt so với phương pháp được nêu đích danh trong đề cương, không chỉ là cách đặt tên khác.

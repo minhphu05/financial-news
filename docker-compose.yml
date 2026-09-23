@@ -9,6 +9,67 @@
 # * pref
 # ==============================================================================================================
 
+x-airflow-common: &airflow-common
+  build:
+    context: .
+    dockerfile: docker/airflow/Dockerfile
+  image: financial-news-airflow:2.11.2
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
+    AIRFLOW__CORE__DAG_RUN_CONF_OVERRIDES_PARAMS: 'true'
+    AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session
+    AIRFLOW__CORE__PARALLELISM: ${AIRFLOW_PARALLELISM:-4}
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${AIRFLOW_DB_USER:-airflow}:${AIRFLOW_DB_PASSWORD:-airflow}@airflow-postgres:5432/${AIRFLOW_DB_NAME:-airflow}
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW_WEBSERVER_SECRET_KEY:-local-airflow-webserver-key}
+    AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY:-}
+    AIRFLOW_ADMIN_USERNAME: ${AIRFLOW_ADMIN_USERNAME:-airflow}
+    AIRFLOW_ADMIN_PASSWORD: ${AIRFLOW_ADMIN_PASSWORD:-airflow}
+    AIRFLOW_API_BASE_URL: http://airflow-webserver:8080
+    PYTHONPATH: /app:/opt/airflow/dags
+    PYSPARK_PYTHON: python3
+    SPARK_LOCAL_IP: 127.0.0.1
+    NEWS_STORAGE_ENDPOINT: ${NEWS_STORAGE_ENDPOINT:-http://minio:9000}
+    NEWS_STORAGE_ACCESS_KEY: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
+    NEWS_STORAGE_SECRET_KEY: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
+    NEWS_STORAGE_BUCKET: ${NEWS_STORAGE_BUCKET:-financial-news}
+    NEWS_SOURCE_FILE: ${NEWS_SOURCE_FILE:-/app/data/raw/cafef_news_raw_final.json}
+    NEWS_SOURCE: ${NEWS_SOURCE:-cafef.vn}
+    NEWS_PROCESSING_VERSION: ${NEWS_PROCESSING_VERSION:-cafef-v1.1}
+    NEWS_SPARK_MASTER: ${NEWS_SPARK_MASTER:-local[2]}
+    NEWS_SOURCE_INGESTION_ID: ${NEWS_SOURCE_INGESTION_ID:-}
+    NEWS_SILVER_ARTICLES_URI: ${NEWS_SILVER_ARTICLES_URI:-}
+    NEWS_SILVER_MENTIONS_URI: ${NEWS_SILVER_MENTIONS_URI:-}
+    NEWS_GOLD_RAG_PREFIX: ${NEWS_GOLD_RAG_PREFIX:-}
+    NEWS_GOLD_ANALYTICS_PREFIX: ${NEWS_GOLD_ANALYTICS_PREFIX:-}
+    NEWS_CHUNK_SIZE: ${NEWS_CHUNK_SIZE:-900}
+    NEWS_CHUNK_OVERLAP: ${NEWS_CHUNK_OVERLAP:-120}
+    NEWS_EMBEDDING_PROVIDER: ${NEWS_EMBEDDING_PROVIDER:-fastembed}
+    NEWS_EMBEDDING_MODEL: ${NEWS_EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+    NEWS_EMBEDDING_DIMENSION: ${NEWS_EMBEDDING_DIMENSION:-384}
+    NEWS_MODEL_CACHE_DIR: /opt/news-models
+    HF_HOME: /opt/news-models/huggingface
+    XDG_CACHE_HOME: /opt/news-models/cache
+    NEWS_QDRANT_URL: ${NEWS_QDRANT_URL:-http://qdrant:6333}
+    NEWS_QDRANT_COLLECTION: ${NEWS_QDRANT_COLLECTION:-news_chunks_local_v1}
+    NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
+    AIRFLOW_NEWS_INDEX_LIMIT: ${AIRFLOW_NEWS_INDEX_LIMIT:-96}
+    NEWS_DUCKDB_PATH: /opt/airflow/local/analytics.duckdb
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags:ro
+    - ./airflow/plugins:/opt/airflow/plugins:ro
+    - ./src:/app/src:ro
+    - ./data:/app/data:ro
+    - ./tests:/app/tests:ro
+    - ./tools:/app/tools:ro
+    - airflow_logs:/opt/airflow/logs
+    - airflow_spark_ivy:/opt/news-ivy
+    - airflow_model_cache:/opt/news-models
+    - airflow_duckdb:/opt/airflow/local
+  networks: [financial-net]
+
 services:
   minio:
     image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
@@ -22,6 +83,87 @@ services:
     volumes:
       - news_minio_data:/data
     networks: [financial-net]
+
+  airflow-postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${AIRFLOW_DB_USER:-airflow}
+      POSTGRES_PASSWORD: ${AIRFLOW_DB_PASSWORD:-airflow}
+      POSTGRES_DB: ${AIRFLOW_DB_NAME:-airflow}
+    volumes:
+      - airflow_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${AIRFLOW_DB_USER:-airflow} -d ${AIRFLOW_DB_NAME:-airflow}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks: [financial-net]
+
+  airflow-init:
+    <<: *airflow-common
+    command: version
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${AIRFLOW_ADMIN_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${AIRFLOW_ADMIN_PASSWORD:-airflow}
+      _AIRFLOW_WWW_USER_FIRSTNAME: ${AIRFLOW_ADMIN_FIRSTNAME:-Local}
+      _AIRFLOW_WWW_USER_LASTNAME: ${AIRFLOW_ADMIN_LASTNAME:-Admin}
+      _AIRFLOW_WWW_USER_EMAIL: ${AIRFLOW_ADMIN_EMAIL:-airflow@example.local}
+      _AIRFLOW_WWW_USER_ROLE: Admin
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: unless-stopped
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+      minio:
+        condition: service_started
+      qdrant:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    restart: unless-stopped
+    ports:
+      - '${AIRFLOW_WEB_PORT:-8088}:8080'
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  airflow-cli:
+    <<: *airflow-common
+    profiles: [airflow-cli]
+    entrypoint: []
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    command: bash
 
   news-pipeline:
     profiles: [local-pipeline]
@@ -427,6 +569,16 @@ volumes:
   news_spark_ivy:
     driver: local
   news_model_cache:
+    driver: local
+  airflow_postgres_data:
+    driver: local
+  airflow_logs:
+    driver: local
+  airflow_spark_ivy:
+    driver: local
+  airflow_model_cache:
+    driver: local
+  airflow_duckdb:
     driver: local
   mongo_data:
     driver: local

@@ -1,15 +1,20 @@
 # Local financial-news data architecture
 
-This document describes the local target and records which parts are now implemented. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable Phase 02 slice is described in [silver-gold-local.md](silver-gold-local.md). The thesis/cloud diagram remains a long-term target: Azure Data Lake Gen2 can replace MinIO and Kubernetes can replace Docker Compose later. The news transformation rules and dataset contracts must not depend on either deployment choice.
+This document describes the local target and records which parts are now implemented. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md). The thesis/cloud diagram remains a long-term target: Azure Data Lake Gen2 can replace MinIO and Kubernetes can replace Docker Compose later. The news transformation rules and dataset contracts do not depend on either deployment choice.
 
 ## Current implemented slice
 
-The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the existing persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest to a local file. Each job has an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. PostgreSQL run metadata and Airflow orchestration remain future target elements, so the diagram and tables below include planned interfaces beyond the runnable slice.
+The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 now runs these same entrypoints through Airflow 2.11.2 with LocalExecutor and a dedicated PostgreSQL metadata database.
 
 ## End-to-end path
 
 ```mermaid
 flowchart LR
+    AF[Airflow control layer] --> B
+    AF --> D
+    AF --> G
+    AF --> I
+    AF --> J
     A[Existing data/raw CafeF snapshot] --> B[Seed job]
     B --> C[MinIO Bronze: immutable source file + manifest]
     C --> D[Spark: parse, validate, normalize, deduplicate]
@@ -19,14 +24,10 @@ flowchart LR
     G --> H[MinIO Gold: Delta articles + chunks + analytics extracts]
     H --> I[Embedding / Qdrant index job]
     H --> J[DuckDB serving build: local file]
-    K[PostgreSQL: run and publication metadata] -.-> B
-    K -.-> D
-    K -.-> G
-    K -.-> I
-    K -.-> J
+    AP[(Airflow PostgreSQL metadata)] --> AF
 ```
 
-Run the seed, Silver, Gold, Qdrant, and DuckDB jobs as independent commands with explicit input/output locations. PostgreSQL tracks job runs, dataset versions, counts, and publication state; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. No crawler, Airflow, Kafka, Kubernetes, or cloud service is required for this path. Airflow comes after each job independently passes its own tests and a full local replay.
+Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. No crawler, Kafka, Kubernetes, or cloud service is required for this path.
 
 ## Storage and execution choices
 
@@ -39,6 +40,7 @@ Run the seed, Silver, Gold, Qdrant, and DuckDB jobs as independent commands with
 | Semantic search | Local Docker Qdrant | Remote Qdrant endpoint/credentials. |
 | Analytical serving | One local `.duckdb` file and published views/tables | New analytical adapter, without changing Gold computation. |
 | Containers | Docker Compose, using a minimal pipeline subset/profile | Kubernetes manifests later, without changing job entry points. |
+| Orchestration | Airflow 2.11.2, LocalExecutor, dedicated PostgreSQL metadata DB | Managed/cloud Airflow later; the same standalone job entrypoints remain. |
 
 MinIO endpoint, bucket, path prefix, credentials, TLS/path-style settings; Spark master and Delta/S3 connector settings; PostgreSQL DSN; Qdrant endpoint/collection; and DuckDB file path are **configuration**, not constants in transformation code. Validate exact Spark/Delta/S3A dependency compatibility during implementation before fixing versions. The DuckDB builder should read **published Gold Parquet exports or a verified Delta reader**; do not assume a direct Delta read works in the selected DuckDB version. Ensure the export corresponds to one committed Gold version before publishing a DuckDB file.
 
@@ -95,6 +97,6 @@ Spark transformations consume DataFrames and contracts, not MinIO client objects
 3. Run Spark Silver and validate schema, counts, deduplication, mention preservation, and rejections.
 4. Run passthrough enrichment, chunking, and Gold independently; verify Delta history and replay behavior.
 5. Build the DuckDB file from a pinned Gold version. Index Qdrant if an embedding provider is configured; confirm retrieval points map back to Gold chunks.
-6. Only after a full replay succeeds, introduce Airflow to call the same job entry points. Existing Prefect flows remain historical until migration is deliberately planned.
+6. Start Airflow and run the scheduler-managed smoke path; confirm the Silver quality gate triggers Gold and both serving branches pass. Existing Prefect flows remain historical and unused for this medallion slice.
 
 The specific implementation milestones and evidence gates are in [implementation-plan.md](implementation-plan.md).

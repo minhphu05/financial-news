@@ -75,6 +75,6 @@ The RAG metrics record Silver article count, Gold document/chunk counts, average
 
 - The provided snapshot contains only CafeF articles. The default local collection currently demonstrates a bounded index; Gold contains all accepted sample chunks.
 - Source publication strings that Phase 01 cannot parse remain null. Daily analytics excludes those articles while source and publication-status totals include them.
-- No production NER, confirmed entity extraction, category dimension, LLM answer generation, Airflow, or cloud deployment is included in this phase.
+- No production NER, confirmed entity extraction, category dimension, LLM answer generation, or cloud deployment is included in this phase. Phase 03 now orchestrates these unchanged jobs through [local Airflow](airflow-local.md).
 - A collection belongs to one Gold chunk/model projection. The index job reconciles that whole collection; use a separate collection for another dataset or model.
 - Run Gold builds, index updates, and DuckDB publication serially for now; a job registry and concurrent publish locking are outside Phase 02.
