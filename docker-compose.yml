@@ -70,6 +70,35 @@ x-airflow-common: &airflow-common
     - airflow_duckdb:/opt/airflow/local
   networks: [financial-net]
 
+x-metadata-tools-common: &metadata-tools-common
+  build:
+    context: .
+    dockerfile: docker/metadata-tools/Dockerfile
+  image: financial-news-metadata-tools:phase04
+  environment: &metadata-tools-env
+    METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
+    METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
+    METADATA_POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+    METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+    METADATA_POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+    METADATA_CDC_USER: ${METADATA_CDC_USER:-metadata_cdc}
+    METADATA_CDC_PASSWORD: ${METADATA_CDC_PASSWORD:?Set METADATA_CDC_PASSWORD in .env}
+    METADATA_CONTROL_SCHEMA: ${METADATA_CONTROL_SCHEMA:-control_metadata}
+    METADATA_CDC_PUBLICATION: ${METADATA_CDC_PUBLICATION:-metadata_cdc_publication}
+    METADATA_CDC_SLOT: ${METADATA_CDC_SLOT:-metadata_cdc_slot}
+    METADATA_CDC_TOPIC_PREFIX: ${METADATA_CDC_TOPIC_PREFIX:-platform}
+    METADATA_CONSUMER_GROUP: ${METADATA_CONSUMER_GROUP:-metadata-inspector}
+    KAFKA_BOOTSTRAP_SERVERS: ${KAFKA_BOOTSTRAP_SERVERS:-kafka:9092}
+    DEBEZIUM_CONNECT_URL: ${DEBEZIUM_CONNECT_URL:-http://debezium:8083}
+    DEBEZIUM_CONNECTOR_NAME: ${DEBEZIUM_CONNECTOR_NAME:-metadata-control-plane}
+    METADATA_MIGRATIONS_DIR: /app/metadata/migrations
+  volumes:
+    - ./src:/app/src:ro
+    - ./metadata:/app/metadata:ro
+    - ./tests:/app/tests:ro
+    - ./artifacts:/app/artifacts
+  networks: [financial-net]
+
 services:
   minio:
     image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
@@ -366,6 +395,17 @@ services:
       
       # Additional PostgreSQL configuration
       POSTGRES_HOST_AUTH_METHOD: md5
+
+    command:
+      - postgres
+      - -c
+      - wal_level=logical
+      - -c
+      - max_replication_slots=${METADATA_POSTGRES_MAX_REPLICATION_SLOTS:-10}
+      - -c
+      - max_wal_senders=${METADATA_POSTGRES_MAX_WAL_SENDERS:-10}
+      - -c
+      - max_slot_wal_keep_size=${METADATA_POSTGRES_MAX_SLOT_WAL_KEEP_SIZE:-1GB}
     
     ports:
       - "${METADATA_POSTGRES_EXTERNAL_PORT:-5434}:${METADATA_POSTGRES_INTERNAL_PORT:-5432}"
@@ -385,6 +425,74 @@ services:
       start_period: ${HEALTH_CHECK_START_PERIOD:-10}s
     
     networks: [financial-net]
+
+  kafka:
+    image: apache/kafka:4.1.0
+    restart: unless-stopped
+    ports:
+      - "${KAFKA_EXTERNAL_PORT:-29092}:29092"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: INTERNAL://:9092,CONTROLLER://:9093,EXTERNAL://:29092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9092,EXTERNAL://${KAFKA_ADVERTISED_HOST:-localhost}:${KAFKA_EXTERNAL_PORT:-29092}
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_NUM_PARTITIONS: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 10s
+      retries: 18
+      start_period: 30s
+    networks: [financial-net]
+
+  debezium:
+    image: quay.io/debezium/connect:3.3.2.Final
+    restart: unless-stopped
+    ports:
+      - "${DEBEZIUM_CONNECT_EXTERNAL_PORT:-8083}:8083"
+    environment:
+      BOOTSTRAP_SERVERS: kafka:9092
+      GROUP_ID: metadata-connect
+      CONFIG_STORAGE_TOPIC: metadata.connect.configs
+      OFFSET_STORAGE_TOPIC: metadata.connect.offsets
+      STATUS_STORAGE_TOPIC: metadata.connect.status
+      CONFIG_STORAGE_REPLICATION_FACTOR: 1
+      OFFSET_STORAGE_REPLICATION_FACTOR: 1
+      STATUS_STORAGE_REPLICATION_FACTOR: 1
+      REST_ADVERTISED_HOST_NAME: debezium
+    depends_on:
+      kafka:
+        condition: service_healthy
+      postgresql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'exec 3<>/dev/tcp/127.0.0.1/8083'"]
+      interval: 10s
+      timeout: 5s
+      retries: 18
+      start_period: 30s
+    networks: [financial-net]
+
+  metadata-tools:
+    <<: *metadata-tools-common
+    profiles: [metadata-tools]
+    depends_on:
+      postgresql:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
 
   # ===========================================================================
   # Observability Stack: Loki + Grafana + Fluent Bit + Prometheus + Pushgateway
@@ -585,6 +693,8 @@ volumes:
   postgres_data:
     driver: local
   metadata_postgres_data:
+    driver: local
+  kafka_data:
     driver: local
   redis_data:
     driver: local

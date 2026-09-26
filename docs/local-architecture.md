@@ -1,33 +1,43 @@
 # Local financial-news data architecture
 
-This document describes the local target and records which parts are now implemented. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md). The thesis/cloud diagram remains a long-term target: Azure Data Lake Gen2 can replace MinIO and Kubernetes can replace Docker Compose later. The news transformation rules and dataset contracts do not depend on either deployment choice.
+This document describes the local target and records which parts are now implemented. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md); and Phase 04 control metadata CDC is documented in [metadata-control-plane.md](metadata-control-plane.md). The thesis/cloud diagram remains a long-term target: Azure Data Lake Gen2 can replace MinIO and Kubernetes can replace Docker Compose later. The news transformation rules and dataset contracts do not depend on either deployment choice.
 
 ## Current implemented slice
 
-The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 now runs these same entrypoints through Airflow 2.11.2 with LocalExecutor and a dedicated PostgreSQL metadata database.
+The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 runs these entrypoints through Airflow 2.11.2. Phase 04 adds a separate control plane in which PostgreSQL metadata changes flow through Debezium to compacted Kafka topics.
 
 ## End-to-end path
 
 ```mermaid
-flowchart LR
-    AF[Airflow control layer] --> B
+flowchart TB
+    subgraph CP[Control plane]
+        MPG[(PostgreSQL control_metadata)] --> WAL[WAL / pgoutput]
+        WAL --> DBZ[Debezium Kafka Connect]
+        DBZ --> KF[Kafka metadata CDC topics]
+        KF --> MC[Inspector / future metadata consumers]
+    end
+    subgraph OR[Orchestration]
+        AP[(Airflow PostgreSQL metadata)] --> AF[Airflow control layer]
+    end
+    subgraph DP[News data plane]
+        A[Existing data/raw CafeF snapshot] --> B[Seed job]
+        B --> C[MinIO Bronze: immutable source file + manifest]
+        C --> D[Spark: parse, validate, normalize, deduplicate]
+        D --> E[MinIO Silver: Delta articles + article mentions + rejects]
+        E --> F[Enrichment hook: passthrough initially]
+        F --> G[Deterministic chunking]
+        G --> H[MinIO Gold: Delta articles + chunks + analytics extracts]
+        H --> I[Embedding / Qdrant index job]
+        H --> J[DuckDB serving build: local file]
+    end
+    AF --> B
     AF --> D
     AF --> G
     AF --> I
     AF --> J
-    A[Existing data/raw CafeF snapshot] --> B[Seed job]
-    B --> C[MinIO Bronze: immutable source file + manifest]
-    C --> D[Spark: parse, validate, normalize, deduplicate]
-    D --> E[MinIO Silver: Delta articles + article mentions + rejects]
-    E --> F[Enrichment hook: passthrough initially]
-    F --> G[Deterministic chunking]
-    G --> H[MinIO Gold: Delta articles + chunks + analytics extracts]
-    H --> I[Embedding / Qdrant index job]
-    H --> J[DuckDB serving build: local file]
-    AP[(Airflow PostgreSQL metadata)] --> AF
 ```
 
-Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. No crawler, Kafka, Kubernetes, or cloud service is required for this path.
+Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. Kafka carries only source/pipeline metadata and is not part of the news article data path. No crawler, stock stream, Kubernetes, or cloud service is required for this path.
 
 ## Storage and execution choices
 
@@ -36,7 +46,8 @@ Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or thro
 | Raw object storage | MinIO using S3 API; immutable `bronze/{source}/{batch_id}/...` objects and manifest | Azure Data Lake Gen2 adapter / URI configuration. |
 | Batch processing | Spark local or standalone Docker container; one job per stage | Different Spark deploy mode, same transformation code and contracts. |
 | Curated tables | Delta Lake under MinIO, with `_delta_log` stored alongside data | Cloud object URI and credentials; same Delta semantics. |
-| Operational metadata | Local Docker PostgreSQL | Managed PostgreSQL with the same small control schema. |
+| Control metadata | PostgreSQL 17 schema `control_metadata`; WAL publication restricted to two tables | Managed PostgreSQL with the same small control schema. |
+| Metadata CDC | Debezium 3.3.2.Final and one Kafka 4.1.0 KRaft broker | Managed Kafka/Connect or equivalent CDC runtime; same event contract. |
 | Semantic search | Local Docker Qdrant | Remote Qdrant endpoint/credentials. |
 | Analytical serving | One local `.duckdb` file and published views/tables | New analytical adapter, without changing Gold computation. |
 | Containers | Docker Compose, using a minimal pipeline subset/profile | Kubernetes manifests later, without changing job entry points. |
@@ -98,5 +109,6 @@ Spark transformations consume DataFrames and contracts, not MinIO client objects
 4. Run passthrough enrichment, chunking, and Gold independently; verify Delta history and replay behavior.
 5. Build the DuckDB file from a pinned Gold version. Index Qdrant if an embedding provider is configured; confirm retrieval points map back to Gold chunks.
 6. Start Airflow and run the scheduler-managed smoke path; confirm the Silver quality gate triggers Gold and both serving branches pass. Existing Prefect flows remain historical and unused for this medallion slice.
+7. Start the metadata control plane, inspect the publication/slot/topics, and run the CDC lifecycle plus restart smoke test. Keep these events separate from news articles and future stock-market topics.
 
 The specific implementation milestones and evidence gates are in [implementation-plan.md](implementation-plan.md).

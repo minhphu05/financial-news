@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "mode": "kafka-outage-recovery",
+  "verified_at": "2026-09-23T04:39:35.993724+00:00",
+  "database_commit_during_outage": {
+    "status": "database-committed-kafka-unavailable",
+    "source_id": "cdc-kafka-outage-018776f349b3",
+    "committed_at": "2026-09-23T04:39:25.838300+00:00"
+  },
+  "connector": {
+    "name": "metadata-control-plane",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "172.19.0.9:8083",
+      "version": "3.3.2.Final"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "172.19.0.9:8083",
+        "version": "3.3.2.Final"
+      }
+    ],
+    "type": "source"
+  },
+  "database": {
+    "wal_level": "logical",
+    "publication": {
+      "name": "metadata_cdc_publication",
+      "insert": true,
+      "update": true,
+      "delete": true,
+      "truncate": true,
+      "tables": [
+        "control_metadata.news_sources",
+        "control_metadata.pipeline_configs"
+      ]
+    },
+    "replication_slot": {
+      "name": "metadata_cdc_slot",
+      "plugin": "pgoutput",
+      "type": "logical",
+      "active": true,
+      "database": "financial_metadata"
+    }
+  },
+  "events": [
+    {
+      "topic": "platform.control_metadata.news_sources",
+      "partition": 0,
+      "offset": 39,
+      "key": {
+        "source_id": "cdc-kafka-outage-018776f349b3"
+      },
+      "operation": "insert",
+      "entity": "news_sources",
+      "changed_fields": [
+        "base_url",
+        "config",
+        "created_at",
+        "description",
+        "enabled",
+        "source_id",
+        "source_name",
+        "source_type",
+        "updated_at"
+      ],
+      "before": null,
+      "after": {
+        "source_id": "cdc-kafka-outage-018776f349b3",
+        "source_name": "Kafka outage CDC proof",
+        "source_type": "snapshot",
+        "enabled": true,
+        "base_url": null,
+        "description": "Committed while Kafka was stopped",
+        "config": "{}",
+        "created_at": "2026-09-23T04:39:25.828787Z",
+        "updated_at": "2026-09-23T04:39:25.828787Z"
+      },
+      "event_timestamp": 1790138366239
+    },
+    {
+      "topic": "platform.control_metadata.news_sources",
+      "partition": 0,
+      "offset": 40,
+      "key": {
+        "source_id": "cdc-kafka-outage-018776f349b3"
+      },
+      "operation": "delete",
+      "entity": "news_sources",
+      "changed_fields": [
+        "base_url",
+        "config",
+        "created_at",
+        "description",
+        "enabled",
+        "source_id",
+        "source_name",
+        "source_type",
+        "updated_at"
+      ],
+      "before": {
+        "source_id": "cdc-kafka-outage-018776f349b3",
+        "source_name": "Kafka outage CDC proof",
+        "source_type": "snapshot",
+        "enabled": true,
+        "base_url": null,
+        "description": "Committed while Kafka was stopped",
+        "config": "{}",
+        "created_at": "2026-09-23T04:39:25.828787Z",
+        "updated_at": "2026-09-23T04:39:25.828787Z"
+      },
+      "after": null,
+      "event_timestamp": 1790138375601
+    },
+    {
+      "topic": "platform.control_metadata.news_sources",
+      "partition": 0,
+      "offset": 41,
+      "key": {
+        "source_id": "cdc-kafka-outage-018776f349b3"
+      },
+      "operation": "tombstone",
+      "entity": "news_sources",
+      "changed_fields": [],
+      "before": null,
+      "after": null,
+      "event_timestamp": null
+    }
+  ],
+  "events_scanned": 43
+}

@@ -11,7 +11,10 @@ COMPOSE ?= docker compose
         infra-up bronze-ingest silver-build test-pipeline \
         gold-build analytics-build analytics-query qdrant-index semantic-search retrieval-smoke test-gold serving-up \
         airflow-build airflow-init airflow-up airflow-down airflow-logs airflow-dags \
-        airflow-test airflow-test-silver airflow-test-gold pipeline-run
+        airflow-test airflow-test-silver airflow-test-gold pipeline-run \
+        metadata-infra-up metadata-up metadata-down metadata-migrate metadata-migrate-down \
+        metadata-seed metadata-db-status kafka-topics debezium-register debezium-status \
+        metadata-consume metadata-cdc-test test-metadata
 
 help:
 	@echo "Available targets:"
@@ -46,6 +49,18 @@ help:
 	@echo "  make airflow-test-silver - Test Silver DAG; waits for triggered Gold DAG."
 	@echo "  make airflow-test-gold   - Test the Gold DAG directly."
 	@echo "  make pipeline-run        - Run the Airflow end-to-end local smoke path."
+	@echo "  make metadata-up         - Start and configure the local metadata CDC control plane."
+	@echo "  make metadata-down       - Stop metadata PostgreSQL, Kafka, and Debezium."
+	@echo "  make metadata-migrate    - Apply control-plane PostgreSQL migrations."
+	@echo "  make metadata-migrate-down - Revert the latest control-plane migration."
+	@echo "  make metadata-seed       - Upsert deterministic CafeF development metadata."
+	@echo "  make metadata-db-status  - Inspect WAL, publication, and replication slot."
+	@echo "  make kafka-topics        - Ensure and list compacted metadata CDC topics."
+	@echo "  make debezium-register   - Register/update the PostgreSQL Debezium connector."
+	@echo "  make debezium-status     - Show connector and task status."
+	@echo "  make metadata-consume    - Inspect bounded metadata CDC event summaries."
+	@echo "  make metadata-cdc-test   - Run CDC lifecycle plus Connect/Kafka/PostgreSQL recovery tests."
+	@echo "  make test-metadata       - Run Phase 04 unit tests."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -124,6 +139,60 @@ airflow-test-gold: airflow-up
 	$(COMPOSE) run --rm airflow-cli python3 /app/tools/airflow_smoke.py news_gold_pipeline
 
 pipeline-run: airflow-test-silver
+
+metadata-infra-up:
+	$(COMPOSE) up -d postgresql kafka
+
+metadata-migrate: metadata-infra-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.migrations up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.database provision
+
+metadata-migrate-down: metadata-infra-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.migrations down
+
+metadata-seed: metadata-migrate
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.seed
+
+kafka-topics: metadata-infra-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.topics ensure
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.topics list
+
+debezium-register: metadata-seed kafka-topics
+	$(COMPOSE) up -d debezium
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector register
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector wait
+
+metadata-up: debezium-register
+
+metadata-down:
+	$(COMPOSE) stop debezium kafka postgresql
+
+metadata-db-status: metadata-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.database inspect
+
+debezium-status: metadata-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector status
+
+metadata-consume: metadata-up
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.consumer --from-beginning
+
+test-metadata:
+	python3 -m unittest tests.test_metadata_control -v
+
+metadata-cdc-test: metadata-up test-metadata
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.smoke --mode lifecycle --output /app/artifacts/metadata-cdc-smoke.json
+	$(COMPOSE) restart debezium
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector wait
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.smoke --mode recovery --output /app/artifacts/metadata-cdc-recovery.json
+	$(COMPOSE) stop kafka
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.metadata_control.kafka_outage write --output /app/artifacts/metadata-cdc-kafka-recovery.json
+	$(COMPOSE) up -d --wait kafka
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector wait --timeout 180
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.kafka_outage verify --output /app/artifacts/metadata-cdc-kafka-recovery.json
+	$(COMPOSE) restart postgresql
+	$(COMPOSE) up -d --wait postgresql
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector wait --timeout 180
+	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.smoke --mode postgres-recovery --output /app/artifacts/metadata-cdc-postgres-recovery.json
 
 up:
 	$(COMPOSE) up -d

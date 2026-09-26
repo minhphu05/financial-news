@@ -6,6 +6,8 @@
 
 > **Cập nhật 23/09/2026:** khoảng cách Spark/Airflow nêu trong bản rà soát ngày 20/09 đã được xử lý cho riêng pipeline tin tức local: Bronze → Spark Silver → Gold → Qdrant/DuckDB chạy độc lập và qua hai DAG Airflow. Xem [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), và [airflow-local.md](airflow-local.md). Các nhận định bên dưới về NER, website/cá nhân hóa, dữ liệu giá, Kafka/Flink và Power BI vẫn là phạm vi của lần rà soát gốc và chưa được Phase 01–03 thay đổi.
 
+> **Cập nhật Phase 04, 23/09/2026:** repository nay có PostgreSQL → Debezium → Kafka cho **metadata/configuration control plane**. Luồng này chỉ phát thay đổi của `news_sources` và `pipeline_configs`; nó không phải pipeline giá cổ phiếu Kafka/Flink được đề cương yêu cầu. Xem [metadata-control-plane.md](metadata-control-plane.md).
+
 ## Kết luận ngắn
 
 **Dự án đúng hướng về bài toán tin tức và RAG, nhưng chưa bám sát toàn bộ đề cương đã nộp.** Trong ba đầu ra, website/RAG có nhiều thành phần đã viết; NER có dữ liệu và mã huấn luyện nhưng thiếu chuỗi bằng chứng thực nghiệm đầy đủ trong repo; pipeline giá cổ phiếu và Power BI chưa thấy triển khai. Hai thay đổi công nghệ lớn là **Prefect thay Airflow** và **Python/Polars thay Spark**. Đây là khác biệt so với phương pháp được nêu đích danh trong đề cương, không chỉ là cách đặt tên khác.

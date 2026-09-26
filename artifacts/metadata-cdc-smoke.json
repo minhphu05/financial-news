@@ -1,0 +1,171 @@
+{
+  "status": "success",
+  "mode": "lifecycle",
+  "verified_at": "2026-09-23T04:39:06.058053+00:00",
+  "connector": {
+    "name": "metadata-control-plane",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "172.19.0.9:8083",
+      "version": "3.3.2.Final"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "172.19.0.9:8083",
+        "version": "3.3.2.Final"
+      }
+    ],
+    "type": "source"
+  },
+  "database": {
+    "wal_level": "logical",
+    "publication": {
+      "name": "metadata_cdc_publication",
+      "insert": true,
+      "update": true,
+      "delete": true,
+      "truncate": true,
+      "tables": [
+        "control_metadata.news_sources",
+        "control_metadata.pipeline_configs"
+      ]
+    },
+    "replication_slot": {
+      "name": "metadata_cdc_slot",
+      "plugin": "pgoutput",
+      "type": "logical",
+      "active": true,
+      "database": "financial_metadata"
+    }
+  },
+  "database_before_events": {
+    "wal_level": "logical",
+    "publication": {
+      "name": "metadata_cdc_publication",
+      "insert": true,
+      "update": true,
+      "delete": true,
+      "truncate": true,
+      "tables": [
+        "control_metadata.news_sources",
+        "control_metadata.pipeline_configs"
+      ]
+    },
+    "replication_slot": {
+      "name": "metadata_cdc_slot",
+      "plugin": "pgoutput",
+      "type": "logical",
+      "active": true,
+      "database": "financial_metadata"
+    }
+  },
+  "database_constraints": {
+    "rejected_invalid_cases": [
+      "blank_source_name",
+      "nonpositive_config_version"
+    ]
+  },
+  "topics": [
+    "platform.control_metadata.news_sources",
+    "platform.control_metadata.pipeline_configs"
+  ],
+  "snapshot_events": [
+    {
+      "topic": "platform.control_metadata.pipeline_configs",
+      "partition": 0,
+      "offset": 0,
+      "key": {
+        "config_id": "financial-news-local-v1"
+      },
+      "operation": "snapshot",
+      "entity": "pipeline_configs",
+      "changed_fields": [
+        "config_id",
+        "config_version",
+        "created_at",
+        "enabled",
+        "parameters",
+        "pipeline_name",
+        "source_id",
+        "updated_at"
+      ],
+      "before": null,
+      "after": {
+        "config_id": "financial-news-local-v1",
+        "pipeline_name": "financial-news-medallion",
+        "source_id": "cafef.vn",
+        "enabled": true,
+        "config_version": 1,
+        "parameters": "{\"chunk_size\": 900, \"chunk_overlap\": 120, \"processing_mode\": \"local-snapshot\", \"processing_version\": \"cafef-v1.1\"}",
+        "created_at": "2026-09-23T04:11:16.105576Z",
+        "updated_at": "2026-09-23T04:16:29.439192Z"
+      },
+      "event_timestamp": 1790137071791
+    },
+    {
+      "topic": "platform.control_metadata.news_sources",
+      "partition": 0,
+      "offset": 0,
+      "key": {
+        "source_id": "cafef.vn"
+      },
+      "operation": "snapshot",
+      "entity": "news_sources",
+      "changed_fields": [
+        "base_url",
+        "config",
+        "created_at",
+        "description",
+        "enabled",
+        "source_id",
+        "source_name",
+        "source_type",
+        "updated_at"
+      ],
+      "before": null,
+      "after": {
+        "source_id": "cafef.vn",
+        "source_name": "CafeF sample snapshot",
+        "source_type": "snapshot",
+        "enabled": true,
+        "base_url": "https://cafef.vn",
+        "description": "Checked-in CafeF news snapshot used by the local financial-news pipeline.",
+        "config": "{\"input_path\": \"data/raw/cafef_news_raw_final.json\"}",
+        "created_at": "2026-09-23T04:11:16.105576Z",
+        "updated_at": "2026-09-23T04:16:29.439192Z"
+      },
+      "event_timestamp": 1790137071785
+    }
+  ],
+  "lifecycle": {
+    "source_id": "cdc-lifecycle-d6496b125bcb",
+    "stable_key": {
+      "source_id": "cdc-lifecycle-d6496b125bcb"
+    },
+    "operations": [
+      "insert",
+      "update",
+      "update",
+      "delete",
+      "tombstone"
+    ],
+    "offsets": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "update_enabled": [
+      true,
+      false
+    ],
+    "reenable_enabled": [
+      false,
+      true
+    ]
+  },
+  "events_scanned": 35
+}

@@ -1,6 +1,6 @@
 # Local financial-news pipeline implementation plan
 
-**Status (23/09/2026):** the original audit proposal has now been implemented through Phase 03 for the local financial-news slice. Phase 01 provides Bronze/Silver, Phase 02 provides Gold/Qdrant/DuckDB, and Phase 03 provides Airflow orchestration while preserving every standalone job. See [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), and [airflow-local.md](airflow-local.md) for measured evidence. PostgreSQL domain run registry/CDC remains deferred; the current PostgreSQL instance added in Phase 03 stores Airflow metadata only.
+**Status (23/09/2026):** the original audit proposal has now been implemented through Phase 04 for the local financial-news slice. Phase 01 provides Bronze/Silver, Phase 02 provides Gold/Qdrant/DuckDB, Phase 03 provides Airflow orchestration, and Phase 04 provides a separate PostgreSQL → Debezium → Kafka metadata control plane. See [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), [airflow-local.md](airflow-local.md), and [metadata-control-plane.md](metadata-control-plane.md) for measured evidence. The Phase 04 Kafka topics contain control metadata only; stock-market streaming remains future work.
 
 ## Scope and sequencing
 

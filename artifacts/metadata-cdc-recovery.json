@@ -1,0 +1,104 @@
+{
+  "status": "success",
+  "mode": "recovery",
+  "verified_at": "2026-09-23T04:39:24.060012+00:00",
+  "connector": {
+    "name": "metadata-control-plane",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "172.19.0.9:8083",
+      "version": "3.3.2.Final"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "172.19.0.9:8083",
+        "version": "3.3.2.Final"
+      }
+    ],
+    "type": "source"
+  },
+  "database": {
+    "wal_level": "logical",
+    "publication": {
+      "name": "metadata_cdc_publication",
+      "insert": true,
+      "update": true,
+      "delete": true,
+      "truncate": true,
+      "tables": [
+        "control_metadata.news_sources",
+        "control_metadata.pipeline_configs"
+      ]
+    },
+    "replication_slot": {
+      "name": "metadata_cdc_slot",
+      "plugin": "pgoutput",
+      "type": "logical",
+      "active": true,
+      "database": "financial_metadata"
+    }
+  },
+  "database_before_events": {
+    "wal_level": "logical",
+    "publication": {
+      "name": "metadata_cdc_publication",
+      "insert": true,
+      "update": true,
+      "delete": true,
+      "truncate": true,
+      "tables": [
+        "control_metadata.news_sources",
+        "control_metadata.pipeline_configs"
+      ]
+    },
+    "replication_slot": {
+      "name": "metadata_cdc_slot",
+      "plugin": "pgoutput",
+      "type": "logical",
+      "active": true,
+      "database": "financial_metadata"
+    }
+  },
+  "database_constraints": {
+    "rejected_invalid_cases": [
+      "blank_source_name",
+      "nonpositive_config_version"
+    ]
+  },
+  "topics": [
+    "platform.control_metadata.news_sources",
+    "platform.control_metadata.pipeline_configs"
+  ],
+  "snapshot_events": [],
+  "lifecycle": {
+    "source_id": "cdc-recovery-d24f1961fce4",
+    "stable_key": {
+      "source_id": "cdc-recovery-d24f1961fce4"
+    },
+    "operations": [
+      "insert",
+      "update",
+      "update",
+      "delete",
+      "tombstone"
+    ],
+    "offsets": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "update_enabled": [
+      true,
+      false
+    ],
+    "reenable_enabled": [
+      false,
+      true
+    ]
+  },
+  "events_scanned": 40
+}
