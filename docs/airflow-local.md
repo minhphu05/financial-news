@@ -134,6 +134,26 @@ The DAG files do not contain hostnames, credentials, bucket names, or transforma
 
 `AIRFLOW_NEWS_INDEX_LIMIT` defaults to 96 for a bounded local real-model smoke run. Set it to `0` to index all 66,260 current chunks. Object storage is already behind `ObjectStore`/configuration, and every job receives URIs and endpoints at startup, preserving the later MinIO-to-ADLS migration boundary.
 
+## Phase 05 incremental DAG
+
+`news_incremental_pipeline` is the hardened path for new development. It keeps the Phase 03 DAGs available for regression and demonstration, while calling `src/news_pipeline/pipeline_runner.py` through the thin `airflow_runner.py` adapter. Its single Spark task accepts `incremental`, `backfill`, `reprocess`, or `resume`, records durable stage state in PostgreSQL, and reconciles Silver, Gold, Qdrant, and DuckDB before advancing a checkpoint. `max_active_runs=1` and the PostgreSQL partition lock protect overlapping writes.
+
+The default schedule is disabled. The repository contains static sample data, so an automatic daily run would otherwise request a partition file that does not exist. Enable scheduling only when dated fixtures are available:
+
+```bash
+AIRFLOW_NEWS_INCREMENTAL_SCHEDULE='@daily' make airflow-up
+```
+
+Manual smoke example:
+
+```bash
+docker compose run --rm airflow-cli python3 /app/tools/airflow_smoke.py \
+  news_incremental_pipeline --timeout 900 \
+  --conf '{"mode":"incremental","processing_date":"2026-07-01","source_file":"/app/data/partitions/2026-07-01.json","pipeline_run_id":"airflow-demo-20260701"}'
+```
+
+Airflow retries the task once. A retry with the same application run ID reuses successful stages and starts at the first incomplete stage. See [pipeline-operations.md](pipeline-operations.md) for backfill/reprocess parameters, checkpoint semantics, and recovery commands.
+
 ## Data and status locations
 
 For the canonical snapshot, `<ingestion_id>` is `e374c2b68641e6695fe87227c654bac6ad483d03238ff118d9741976c9642d07`.
@@ -193,5 +213,5 @@ Reruns retained the same Bronze ingestion ID, Silver counts, Gold chunk IDs/coun
 - Airflow uses local Docker credentials and basic API auth for the smoke helper. Production secret management and remote logging are future deployment work.
 - The Airflow DuckDB file is in a Docker volume; the standalone Phase 02 command continues to publish `data/local/analytics.duckdb`.
 - FastEmbed model and Spark Ivy caches are separate Airflow volumes on first use.
-- PostgreSQL is currently Airflow metadata only. Domain run registry/CDC through PostgreSQL, Debezium, and Kafka belongs to Phase 04.
+- Airflow metadata remains in its dedicated database. Phase 05 pipeline run state uses `financial_metadata.pipeline_operations`; those tables are intentionally excluded from Phase 04 Debezium CDC.
 - Airflow 2.11 reports deprecation notices for the future Airflow 3 migration; they do not affect this local Phase 03 slice.

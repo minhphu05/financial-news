@@ -81,3 +81,21 @@ class GoldSettings:
 
     def analytics_uri(self, dataset: str) -> str:
         return self.news.s3a(f"{self.analytics_prefix}/{dataset}")
+
+    def for_current_tables(self) -> "GoldSettings":
+        """Point serving jobs at the durable, merged current-state tables."""
+        from dataclasses import replace
+
+        current_silver = f"silver/current/{self.news.source}/{self.news.processing_version}"
+        current_rag = (
+            f"gold/current/rag/{self.news.source}/{self.news.processing_version}/"
+            f"{self.chunker_version}"
+        )
+        current_analytics = f"gold/current/analytics/{self.news.source}/{self.news.processing_version}"
+        return replace(
+            self,
+            silver_articles_uri=self.news.s3a(f"{current_silver}/articles"),
+            silver_mentions_uri=self.news.s3a(f"{current_silver}/article_mentions"),
+            rag_prefix=current_rag,
+            analytics_prefix=current_analytics,
+        )

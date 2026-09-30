@@ -30,7 +30,7 @@ def ingest(settings: Settings, store: ObjectStore) -> dict:
         manifest = json.loads(store.get_bytes(manifest_key))
         if manifest["source_file_sha256"] != checksum or not store.exists(raw_key):
             raise RuntimeError("Bronze manifest does not match its raw object")
-        return manifest
+        return _publish_partition_reference(settings, store, manifest)
 
     # The source JSON is an array. The exported row order is retained in raw.json.
     with path.open("r", encoding="utf-8") as handle:
@@ -56,7 +56,36 @@ def ingest(settings: Settings, store: ObjectStore) -> dict:
     else:
         store.upload_file(str(path), raw_key)
     store.put_bytes(manifest_key, json.dumps(manifest, ensure_ascii=False, indent=2).encode(), "application/json")
-    return manifest
+    return _publish_partition_reference(settings, store, manifest)
+
+
+def _publish_partition_reference(settings: Settings, store: ObjectStore, manifest: dict) -> dict:
+    """Associate immutable Bronze bytes with an explicit logical partition."""
+    processing_date = settings.processing_date or manifest["ingestion_date"]
+    try:
+        datetime.strptime(processing_date, "%Y-%m-%d")
+    except ValueError as exc:
+        raise ValueError("NEWS_PROCESSING_DATE must use YYYY-MM-DD") from exc
+    reference_key = (
+        f"bronze/partitions/source={settings.source}/processing_date={processing_date}/"
+        f"{manifest['ingestion_id']}.json"
+    )
+    reference = {
+        "source": settings.source,
+        "processing_date": processing_date,
+        "ingestion_id": manifest["ingestion_id"],
+        "manifest_key": f"bronze/{settings.source}/{manifest['ingestion_id']}/manifest.json",
+        "raw_key": manifest["raw_key"],
+        "source_file_sha256": manifest["source_file_sha256"],
+        "record_count": manifest["record_count"],
+    }
+    encoded = json.dumps(reference, ensure_ascii=False, indent=2, sort_keys=True).encode()
+    if store.exists(reference_key):
+        if store.get_bytes(reference_key) != encoded:
+            raise RuntimeError(f"Bronze partition reference conflict: {reference_key}")
+    else:
+        store.put_bytes(reference_key, encoded, "application/json")
+    return {**manifest, "processing_date": processing_date, "partition_reference_key": reference_key}
 
 
 def main() -> None:

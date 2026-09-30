@@ -1,0 +1,443 @@
+{
+  "status": "PASS",
+  "scenario_id": "63c3e3de51",
+  "source": "phase05-it.local",
+  "processing_version": "phase05-it-63c3e3de51",
+  "qdrant_collection": "phase05_it_63c3e3de51",
+  "first_ingestion_id": "1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e",
+  "idempotent_reprocess_affected": 0,
+  "incremental_new_affected": 1,
+  "content_update_affected": 1,
+  "mention_update_affected": 1,
+  "final_counts": {
+    "silver_articles": 3,
+    "silver_duplicate_ids": 0,
+    "gold_documents": 3,
+    "gold_duplicate_ids": 0,
+    "gold_chunks": 3,
+    "chunk_duplicate_ids": 0,
+    "missing_gold_documents": 0,
+    "orphan_gold_documents": 0,
+    "orphan_chunks": 0,
+    "qdrant_points": 3,
+    "qdrant_missing_points": 0,
+    "qdrant_stale_points": 0,
+    "duckdb_articles": 3,
+    "analytics_manifest_articles": 3
+  },
+  "intentional_missing_output_detected": true,
+  "checkpoint_not_advanced_on_failure": true,
+  "overlap_lock_rejected": true,
+  "timings": [
+    {
+      "processing_date": "2026-09-01",
+      "duration_seconds": 36.405,
+      "silver": {
+        "source_ingestion_id": "1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e",
+        "processing_version": "phase05-it-63c3e3de51",
+        "processing_date": "2026-09-01",
+        "input_count": 2,
+        "output_count": 2,
+        "invalid_count": 0,
+        "duplicate_count": 0,
+        "shared_content_hash_group_count": 0,
+        "article_mentions_count": 2,
+        "processing_duration_seconds": 21.478,
+        "completed_at": "2026-09-30T03:00:42.286618+00:00",
+        "silver_prefix": "silver/phase05-it.local/1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e/phase05-it-63c3e3de51",
+        "inserted_article_count": 2,
+        "updated_article_count": 0,
+        "unchanged_article_count": 0,
+        "affected_article_count": 2,
+        "current_article_count": 2,
+        "current_mentions_count": 2,
+        "current_silver_prefix": "silver/current/phase05-it.local/phase05-it-63c3e3de51",
+        "current_articles_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/articles",
+        "current_mentions_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/article_mentions",
+        "affected_article_ids_key": "silver/operations/source=phase05-it.local/processing_version=phase05-it-63c3e3de51/processing_date=2026-09-01/run_id=63c3e3de51-2026-09-01-0/affected_articles.json"
+      },
+      "gold": {
+        "source_ingestion_id": "1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e",
+        "silver_processing_version": "phase05-it-63c3e3de51",
+        "gold_processing_version": "phase05-it-63c3e3de51+sentence-v1-120-20",
+        "affected_article_count": 2,
+        "silver_articles_read": 2,
+        "gold_documents_produced": 2,
+        "gold_chunks_produced": 2,
+        "run_documents_produced": 2,
+        "run_chunks_produced": 2,
+        "replaced_chunk_count": 0,
+        "average_chunks_per_article": 1.0,
+        "empty_rejected_chunk_count": 0,
+        "processing_duration_seconds": 7.301,
+        "completed_at": "2026-09-30T03:00:49.606912+00:00",
+        "documents_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/documents",
+        "chunks_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/chunks"
+      },
+      "analytics": {
+        "input_article_count": 2,
+        "output_aggregation_rows": {
+          "news_daily": 1,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 5.97,
+        "completed_at": "2026-09-30T03:00:55.588283+00:00",
+        "manifest_key": "gold/current/analytics/phase05-it.local/phase05-it-63c3e3de51/manifest.json"
+      },
+      "duckdb": {
+        "input_article_count": 2,
+        "duckdb_rows": {
+          "news_daily": 1,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 0.06,
+        "completed_at": "2026-09-30T03:00:55.689067+00:00",
+        "duckdb_path": "/app/local/phase05-it-63c3e3de51.duckdb"
+      },
+      "qdrant": {
+        "affected_article_count": 2,
+        "input_chunk_count": 2,
+        "embedded_chunk_count": 2,
+        "indexed_chunk_count": 2,
+        "failed_chunk_count": 0,
+        "stale_points_deleted": 0,
+        "collection_point_count": 2,
+        "processing_duration_seconds": 1.483,
+        "completed_at": "2026-09-30T03:00:57.176211+00:00",
+        "collection": "phase05_it_63c3e3de51",
+        "embedding_model": "fastembed-0.8.0:phase05-deterministic-model",
+        "embedding_dimension": 384,
+        "index_limit": 0,
+        "mode": "incremental"
+      }
+    },
+    {
+      "processing_date": "2026-09-01",
+      "duration_seconds": 22.537,
+      "silver": {
+        "source_ingestion_id": "1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e",
+        "processing_version": "phase05-it-63c3e3de51",
+        "processing_date": "2026-09-01",
+        "input_count": 2,
+        "output_count": 2,
+        "invalid_count": 0,
+        "duplicate_count": 0,
+        "shared_content_hash_group_count": 0,
+        "article_mentions_count": 2,
+        "processing_duration_seconds": 15.908,
+        "completed_at": "2026-09-30T03:01:15.006100+00:00",
+        "silver_prefix": "silver/phase05-it.local/1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e/phase05-it-63c3e3de51",
+        "inserted_article_count": 0,
+        "updated_article_count": 0,
+        "unchanged_article_count": 2,
+        "affected_article_count": 0,
+        "current_article_count": 2,
+        "current_mentions_count": 2,
+        "current_silver_prefix": "silver/current/phase05-it.local/phase05-it-63c3e3de51",
+        "current_articles_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/articles",
+        "current_mentions_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/article_mentions",
+        "affected_article_ids_key": "silver/operations/source=phase05-it.local/processing_version=phase05-it-63c3e3de51/processing_date=2026-09-01/run_id=63c3e3de51-2026-09-01-1/affected_articles.json"
+      },
+      "gold": {
+        "source_ingestion_id": "1c0c272371575afb7a97db8bfab39110e54ff2a17fb041c1fef9cec51ec3ef2e",
+        "silver_processing_version": "phase05-it-63c3e3de51",
+        "gold_processing_version": "phase05-it-63c3e3de51+sentence-v1-120-20",
+        "affected_article_count": 0,
+        "silver_articles_read": 2,
+        "gold_documents_produced": 2,
+        "gold_chunks_produced": 2,
+        "run_documents_produced": 0,
+        "run_chunks_produced": 0,
+        "replaced_chunk_count": 0,
+        "average_chunks_per_article": 1.0,
+        "empty_rejected_chunk_count": 0,
+        "processing_duration_seconds": 2.61,
+        "completed_at": "2026-09-30T03:01:17.630420+00:00",
+        "documents_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/documents",
+        "chunks_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/chunks"
+      },
+      "analytics": {
+        "input_article_count": 2,
+        "output_aggregation_rows": {
+          "news_daily": 1,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 3.908,
+        "completed_at": "2026-09-30T03:01:21.550819+00:00",
+        "manifest_key": "gold/current/analytics/phase05-it.local/phase05-it-63c3e3de51/manifest.json"
+      },
+      "duckdb": {
+        "input_article_count": 2,
+        "duckdb_rows": {
+          "news_daily": 1,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 0.038,
+        "completed_at": "2026-09-30T03:01:21.594391+00:00",
+        "duckdb_path": "/app/local/phase05-it-63c3e3de51.duckdb"
+      },
+      "qdrant": {
+        "affected_article_count": 0,
+        "indexed_chunk_count": 0
+      }
+    },
+    {
+      "processing_date": "2026-09-02",
+      "duration_seconds": 21.603,
+      "silver": {
+        "source_ingestion_id": "b469e5d5a40ee1047aa29cc2595dfb64a560b2c496b14154ed8736787e30a888",
+        "processing_version": "phase05-it-63c3e3de51",
+        "processing_date": "2026-09-02",
+        "input_count": 2,
+        "output_count": 2,
+        "invalid_count": 0,
+        "duplicate_count": 0,
+        "shared_content_hash_group_count": 0,
+        "article_mentions_count": 2,
+        "processing_duration_seconds": 10.28,
+        "completed_at": "2026-09-30T03:01:32.884558+00:00",
+        "silver_prefix": "silver/phase05-it.local/b469e5d5a40ee1047aa29cc2595dfb64a560b2c496b14154ed8736787e30a888/phase05-it-63c3e3de51",
+        "inserted_article_count": 1,
+        "updated_article_count": 0,
+        "unchanged_article_count": 1,
+        "affected_article_count": 1,
+        "current_article_count": 3,
+        "current_mentions_count": 3,
+        "current_silver_prefix": "silver/current/phase05-it.local/phase05-it-63c3e3de51",
+        "current_articles_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/articles",
+        "current_mentions_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/article_mentions",
+        "affected_article_ids_key": "silver/operations/source=phase05-it.local/processing_version=phase05-it-63c3e3de51/processing_date=2026-09-02/run_id=63c3e3de51-2026-09-02-2/affected_articles.json"
+      },
+      "gold": {
+        "source_ingestion_id": "b469e5d5a40ee1047aa29cc2595dfb64a560b2c496b14154ed8736787e30a888",
+        "silver_processing_version": "phase05-it-63c3e3de51",
+        "gold_processing_version": "phase05-it-63c3e3de51+sentence-v1-120-20",
+        "affected_article_count": 1,
+        "silver_articles_read": 3,
+        "gold_documents_produced": 3,
+        "gold_chunks_produced": 3,
+        "run_documents_produced": 1,
+        "run_chunks_produced": 1,
+        "replaced_chunk_count": 0,
+        "average_chunks_per_article": 1.0,
+        "empty_rejected_chunk_count": 0,
+        "processing_duration_seconds": 6.5,
+        "completed_at": "2026-09-30T03:01:39.395804+00:00",
+        "documents_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/documents",
+        "chunks_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/chunks"
+      },
+      "analytics": {
+        "input_article_count": 3,
+        "output_aggregation_rows": {
+          "news_daily": 2,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 3.448,
+        "completed_at": "2026-09-30T03:01:42.851042+00:00",
+        "manifest_key": "gold/current/analytics/phase05-it.local/phase05-it-63c3e3de51/manifest.json"
+      },
+      "duckdb": {
+        "input_article_count": 3,
+        "duckdb_rows": {
+          "news_daily": 2,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 0.039,
+        "completed_at": "2026-09-30T03:01:42.894785+00:00",
+        "duckdb_path": "/app/local/phase05-it-63c3e3de51.duckdb"
+      },
+      "qdrant": {
+        "affected_article_count": 1,
+        "input_chunk_count": 1,
+        "embedded_chunk_count": 1,
+        "indexed_chunk_count": 1,
+        "failed_chunk_count": 0,
+        "stale_points_deleted": 0,
+        "collection_point_count": 3,
+        "processing_duration_seconds": 1.281,
+        "completed_at": "2026-09-30T03:01:44.179885+00:00",
+        "collection": "phase05_it_63c3e3de51",
+        "embedding_model": "fastembed-0.8.0:phase05-deterministic-model",
+        "embedding_dimension": 384,
+        "index_limit": 0,
+        "mode": "incremental"
+      }
+    },
+    {
+      "processing_date": "2026-09-03",
+      "duration_seconds": 21.376,
+      "silver": {
+        "source_ingestion_id": "ac8b83dcf57ef3c189f485ab56755dffa787701afcae5a7f3b96b00bde18a2eb",
+        "processing_version": "phase05-it-63c3e3de51",
+        "processing_date": "2026-09-03",
+        "input_count": 1,
+        "output_count": 1,
+        "invalid_count": 0,
+        "duplicate_count": 0,
+        "shared_content_hash_group_count": 0,
+        "article_mentions_count": 1,
+        "processing_duration_seconds": 10.097,
+        "completed_at": "2026-09-30T03:01:56.346971+00:00",
+        "silver_prefix": "silver/phase05-it.local/ac8b83dcf57ef3c189f485ab56755dffa787701afcae5a7f3b96b00bde18a2eb/phase05-it-63c3e3de51",
+        "inserted_article_count": 0,
+        "updated_article_count": 1,
+        "unchanged_article_count": 0,
+        "affected_article_count": 1,
+        "current_article_count": 3,
+        "current_mentions_count": 3,
+        "current_silver_prefix": "silver/current/phase05-it.local/phase05-it-63c3e3de51",
+        "current_articles_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/articles",
+        "current_mentions_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/article_mentions",
+        "affected_article_ids_key": "silver/operations/source=phase05-it.local/processing_version=phase05-it-63c3e3de51/processing_date=2026-09-03/run_id=63c3e3de51-2026-09-03-3/affected_articles.json"
+      },
+      "gold": {
+        "source_ingestion_id": "ac8b83dcf57ef3c189f485ab56755dffa787701afcae5a7f3b96b00bde18a2eb",
+        "silver_processing_version": "phase05-it-63c3e3de51",
+        "gold_processing_version": "phase05-it-63c3e3de51+sentence-v1-120-20",
+        "affected_article_count": 1,
+        "silver_articles_read": 3,
+        "gold_documents_produced": 3,
+        "gold_chunks_produced": 3,
+        "run_documents_produced": 1,
+        "run_chunks_produced": 1,
+        "replaced_chunk_count": 1,
+        "average_chunks_per_article": 1.0,
+        "empty_rejected_chunk_count": 0,
+        "processing_duration_seconds": 6.689,
+        "completed_at": "2026-09-30T03:02:03.048515+00:00",
+        "documents_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/documents",
+        "chunks_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/chunks"
+      },
+      "analytics": {
+        "input_article_count": 3,
+        "output_aggregation_rows": {
+          "news_daily": 3,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 3.306,
+        "completed_at": "2026-09-30T03:02:06.361940+00:00",
+        "manifest_key": "gold/current/analytics/phase05-it.local/phase05-it-63c3e3de51/manifest.json"
+      },
+      "duckdb": {
+        "input_article_count": 3,
+        "duckdb_rows": {
+          "news_daily": 3,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 0.049,
+        "completed_at": "2026-09-30T03:02:06.416879+00:00",
+        "duckdb_path": "/app/local/phase05-it-63c3e3de51.duckdb"
+      },
+      "qdrant": {
+        "affected_article_count": 1,
+        "input_chunk_count": 1,
+        "embedded_chunk_count": 1,
+        "indexed_chunk_count": 1,
+        "failed_chunk_count": 0,
+        "stale_points_deleted": 1,
+        "collection_point_count": 3,
+        "processing_duration_seconds": 1.169,
+        "completed_at": "2026-09-30T03:02:07.591196+00:00",
+        "collection": "phase05_it_63c3e3de51",
+        "embedding_model": "fastembed-0.8.0:phase05-deterministic-model",
+        "embedding_dimension": 384,
+        "index_limit": 0,
+        "mode": "incremental"
+      }
+    },
+    {
+      "processing_date": "2026-09-04",
+      "duration_seconds": 20.239,
+      "silver": {
+        "source_ingestion_id": "af96280bf387ccde54b7d12289423f1b23ab7c1bd1f8710b852c2405fc60c7e2",
+        "processing_version": "phase05-it-63c3e3de51",
+        "processing_date": "2026-09-04",
+        "input_count": 1,
+        "output_count": 1,
+        "invalid_count": 0,
+        "duplicate_count": 0,
+        "shared_content_hash_group_count": 0,
+        "article_mentions_count": 1,
+        "processing_duration_seconds": 9.23,
+        "completed_at": "2026-09-30T03:02:20.437099+00:00",
+        "silver_prefix": "silver/phase05-it.local/af96280bf387ccde54b7d12289423f1b23ab7c1bd1f8710b852c2405fc60c7e2/phase05-it-63c3e3de51",
+        "inserted_article_count": 0,
+        "updated_article_count": 0,
+        "unchanged_article_count": 1,
+        "affected_article_count": 1,
+        "current_article_count": 3,
+        "current_mentions_count": 4,
+        "current_silver_prefix": "silver/current/phase05-it.local/phase05-it-63c3e3de51",
+        "current_articles_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/articles",
+        "current_mentions_uri": "s3a://financial-news/silver/current/phase05-it.local/phase05-it-63c3e3de51/article_mentions",
+        "affected_article_ids_key": "silver/operations/source=phase05-it.local/processing_version=phase05-it-63c3e3de51/processing_date=2026-09-04/run_id=63c3e3de51-2026-09-04-4/affected_articles.json"
+      },
+      "gold": {
+        "source_ingestion_id": "af96280bf387ccde54b7d12289423f1b23ab7c1bd1f8710b852c2405fc60c7e2",
+        "silver_processing_version": "phase05-it-63c3e3de51",
+        "gold_processing_version": "phase05-it-63c3e3de51+sentence-v1-120-20",
+        "affected_article_count": 1,
+        "silver_articles_read": 3,
+        "gold_documents_produced": 3,
+        "gold_chunks_produced": 3,
+        "run_documents_produced": 1,
+        "run_chunks_produced": 1,
+        "replaced_chunk_count": 1,
+        "average_chunks_per_article": 1.0,
+        "empty_rejected_chunk_count": 0,
+        "processing_duration_seconds": 6.211,
+        "completed_at": "2026-09-30T03:02:26.660229+00:00",
+        "documents_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/documents",
+        "chunks_uri": "s3a://financial-news/gold/current/rag/phase05-it.local/phase05-it-63c3e3de51/sentence-v1-120-20/chunks"
+      },
+      "analytics": {
+        "input_article_count": 3,
+        "output_aggregation_rows": {
+          "news_daily": 3,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 3.516,
+        "completed_at": "2026-09-30T03:02:30.184127+00:00",
+        "manifest_key": "gold/current/analytics/phase05-it.local/phase05-it-63c3e3de51/manifest.json"
+      },
+      "duckdb": {
+        "input_article_count": 3,
+        "duckdb_rows": {
+          "news_daily": 3,
+          "news_by_source": 1,
+          "news_publication_status": 1
+        },
+        "processing_duration_seconds": 0.053,
+        "completed_at": "2026-09-30T03:02:30.245537+00:00",
+        "duckdb_path": "/app/local/phase05-it-63c3e3de51.duckdb"
+      },
+      "qdrant": {
+        "affected_article_count": 1,
+        "input_chunk_count": 1,
+        "embedded_chunk_count": 1,
+        "indexed_chunk_count": 1,
+        "failed_chunk_count": 0,
+        "stale_points_deleted": 0,
+        "collection_point_count": 3,
+        "processing_duration_seconds": 1.145,
+        "completed_at": "2026-09-30T03:02:31.398008+00:00",
+        "collection": "phase05_it_63c3e3de51",
+        "embedding_model": "fastembed-0.8.0:phase05-deterministic-model",
+        "embedding_dimension": 384,
+        "index_limit": 0,
+        "mode": "incremental"
+      }
+    }
+  ],
+  "total_duration_seconds": 142.974,
+  "completed_at": "2026-09-30T03:02:43.750594+00:00"
+}

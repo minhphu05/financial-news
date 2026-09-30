@@ -1,0 +1,81 @@
+{
+  "status": "RECORDED",
+  "measured_at": "2026-09-30T03:02:43.750594+00:00",
+  "scope": "local thesis development baseline; not a production capacity claim",
+  "environment": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+    "logical_cpus": 20,
+    "physical_cores": 14,
+    "memory_bytes": 16450965504,
+    "docker_engine": "29.8.1",
+    "spark": "3.5.3",
+    "scala": "2.12.18",
+    "java": "17.0.12",
+    "spark_master": "local[2]",
+    "spark_driver_memory_observed_bytes": 455501414,
+    "storage": "MinIO via local Docker volume"
+  },
+  "canonical_sample": {
+    "source_file": "data/raw/cafef_news_raw_final.json",
+    "raw_records": 15457,
+    "raw_bytes": 83333360,
+    "bronze_first_write_wall_seconds": 2.75,
+    "bronze_idempotent_rerun_wall_seconds": 1.1,
+    "silver": {
+      "input_records": 15457,
+      "output_articles": 12673,
+      "invalid_records": 25,
+      "duplicate_records": 2759,
+      "article_mentions": 15431,
+      "processing_seconds": 42.292
+    },
+    "gold_rag": {
+      "documents": 12673,
+      "chunks": 66260,
+      "chunking_seconds": 30.258
+    },
+    "qdrant_index_smoke": {
+      "indexed_chunks": 96,
+      "available_chunks": 66260,
+      "embedding_and_indexing_seconds": 26.1,
+      "note": "Bounded Phase 02 retrieval smoke. This is not a full 66,260-vector throughput result."
+    },
+    "analytics": {
+      "daily_rows": 1391,
+      "by_source_rows": 1,
+      "publication_status_rows": 2,
+      "spark_processing_seconds": 19.821,
+      "duckdb_publish_seconds": 0.084
+    },
+    "observed_sequential_seconds_with_bounded_qdrant": 121.305,
+    "timing_note": "Sum of separately observed warm local commands; container startup and a bounded 96-vector Qdrant step are included, so this is not a full cold end-to-end benchmark."
+  },
+  "phase05_isolated_vertical_slice": {
+    "scenario_id": "63c3e3de51",
+    "initial_two_articles_seconds": 36.405,
+    "identical_partition_rerun_seconds": 22.537,
+    "one_new_article_partition_seconds": 21.603,
+    "one_changed_article_partition_seconds": 21.376,
+    "mention_metadata_only_partition_seconds": 20.239,
+    "total_test_seconds": 142.974,
+    "final_silver_articles": 3,
+    "final_gold_chunks": 3,
+    "final_qdrant_points": 3,
+    "artifact": "artifacts/phase5-integration-results.json"
+  },
+  "recovery_suite": {
+    "scenario_id": "c62f09bb61",
+    "backfill_range": [
+      "2026-08-01",
+      "2026-08-03"
+    ],
+    "duration_seconds": 363.626,
+    "artifact": "artifacts/phase5-recovery-results.json"
+  },
+  "measurement_limits": [
+    "Runs shared a developer laptop with other Docker services.",
+    "JARs and embedding model were already cached.",
+    "The canonical Qdrant measurement indexed only the 96-point retrieval fixture.",
+    "The isolated Phase 05 fixture is for correctness and startup overhead dominates its timings."
+  ]
+}

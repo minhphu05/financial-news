@@ -18,8 +18,10 @@ USER airflow
 RUN python3 -m pip install --no-cache-dir \
         apache-airflow==2.11.2 \
         'chardet<6' \
+        confluent-kafka==2.8.2 \
         duckdb==1.4.1 \
         fastembed==0.8.0 \
+        psycopg[binary]==3.2.6 \
         qdrant-client==1.13.1
 
 WORKDIR /app

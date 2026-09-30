@@ -14,6 +14,8 @@ class Settings:
     source: str = "cafef.vn"
     processing_version: str = "cafef-v1.1"
     spark_master: str = "local[2]"
+    processing_date: str | None = None
+    run_id: str | None = None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -26,6 +28,8 @@ class Settings:
             source=os.getenv("NEWS_SOURCE", cls.source),
             processing_version=os.getenv("NEWS_PROCESSING_VERSION", cls.processing_version),
             spark_master=os.getenv("NEWS_SPARK_MASTER", cls.spark_master),
+            processing_date=os.getenv("NEWS_PROCESSING_DATE") or None,
+            run_id=os.getenv("NEWS_PIPELINE_RUN_ID") or None,
         )
 
     def s3a(self, key: str) -> str:

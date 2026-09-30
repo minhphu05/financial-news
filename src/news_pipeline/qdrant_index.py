@@ -95,6 +95,53 @@ class QdrantChunkIndex:
             )
         return len(stale)
 
+    def reconcile_articles(self, article_ids: set[str], expected_ids: set[str]) -> int:
+        """Delete stale points only inside articles being reprocessed."""
+        from qdrant_client import models
+
+        if not article_ids:
+            return 0
+        stale = []
+        offset = None
+        while True:
+            points, offset = self.client.scroll(
+                collection_name=self.collection,
+                offset=offset,
+                limit=256,
+                with_payload=["article_id"],
+                with_vectors=False,
+            )
+            stale.extend(
+                point.id for point in points
+                if (point.payload or {}).get("article_id") in article_ids
+                and str(point.id) not in expected_ids
+            )
+            if offset is None:
+                break
+        for start in range(0, len(stale), 256):
+            self.client.delete(
+                collection_name=self.collection,
+                points_selector=models.PointIdsList(points=stale[start:start + 256]),
+                wait=True,
+            )
+        return len(stale)
+
+    def point_ids(self) -> set[str]:
+        result: set[str] = set()
+        offset = None
+        while True:
+            points, offset = self.client.scroll(
+                collection_name=self.collection,
+                offset=offset,
+                limit=256,
+                with_payload=False,
+                with_vectors=False,
+            )
+            result.update(str(point.id) for point in points)
+            if offset is None:
+                break
+        return result
+
     def search(self, vector: list[float], top_k: int) -> list[dict]:
         response = self.client.query_points(
             collection_name=self.collection, query=vector, limit=top_k, with_payload=True,
@@ -173,6 +220,89 @@ def index_chunks(settings: GoldSettings, provider: EmbeddingProvider, store: Obj
     finally:
         index.close()
         spark.stop()
+
+
+def index_affected(
+    settings: GoldSettings,
+    provider: EmbeddingProvider,
+    store: ObjectStore,
+    affected_article_ids: list[str],
+    spark=None,
+) -> dict:
+    """Upsert only changed articles and remove their superseded chunk points."""
+    from src.news_pipeline.gold_rag import CHUNK_FIELDS
+    from src.news_pipeline.silver import create_spark
+
+    started = time.monotonic()
+    current = settings.for_current_tables()
+    owns_spark = spark is None
+    spark = spark or create_spark(current.news)
+    index = QdrantChunkIndex(current.qdrant_url, current.qdrant_collection, provider.dimension)
+    try:
+        chunks = spark.read.format("delta").load(current.chunks_uri)
+        if chunks.columns != [field.name for field in CHUNK_FIELDS]:
+            raise ValueError("Gold chunk Delta schema does not match the expected contract")
+        ids = spark.createDataFrame(
+            [(value,) for value in sorted(set(affected_article_ids))], "article_id string"
+        )
+        selected = chunks.join(ids, "article_id", "inner").orderBy("article_id", "chunk_index")
+        if current.index_limit:
+            selected = selected.limit(current.index_limit)
+        input_count = selected.count()
+        index.ensure_collection()
+        expected_ids: set[str] = set()
+        batch: list[dict] = []
+        embedded_count = indexed_count = failed_count = 0
+
+        def flush() -> None:
+            nonlocal embedded_count, indexed_count, failed_count, batch
+            if not batch:
+                return
+            try:
+                vectors = provider.embed_documents([row["text"] for row in batch])
+                if len(vectors) != len(batch):
+                    raise RuntimeError("Embedding provider returned the wrong number of vectors")
+                embedded_count += len(vectors)
+                point_ids = index.upsert(batch, vectors, provider.model_id)
+                indexed_count += len(point_ids)
+                expected_ids.update(point_ids)
+            except Exception:
+                failed_count += len(batch)
+                raise
+            finally:
+                batch = []
+
+        for row in selected.toLocalIterator():
+            batch.append(row.asDict(recursive=True))
+            if len(batch) >= current.index_batch_size:
+                flush()
+        flush()
+        stale_deleted = index.reconcile_articles(set(affected_article_ids), expected_ids)
+        metrics = {
+            "affected_article_count": len(set(affected_article_ids)),
+            "input_chunk_count": input_count,
+            "embedded_chunk_count": embedded_count,
+            "indexed_chunk_count": indexed_count,
+            "failed_chunk_count": failed_count,
+            "stale_points_deleted": stale_deleted,
+            "collection_point_count": index.count(),
+            "processing_duration_seconds": round(time.monotonic() - started, 3),
+            "completed_at": datetime.now(timezone.utc).isoformat(),
+            "collection": current.qdrant_collection,
+            "embedding_model": provider.model_id,
+            "embedding_dimension": provider.dimension,
+            "index_limit": current.index_limit,
+            "mode": "incremental",
+        }
+        store.put_bytes(
+            f"{current.rag_prefix}/qdrant_metrics.json",
+            json.dumps(metrics, ensure_ascii=False, indent=2).encode(),
+        )
+        return metrics
+    finally:
+        index.close()
+        if owns_spark:
+            spark.stop()
 
 
 def main() -> None:

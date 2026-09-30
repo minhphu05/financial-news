@@ -469,7 +469,13 @@ def scan_data(data_root: Path, scan_timestamp: str | None = None) -> dict[str, A
         raise FileNotFoundError(data_root)
     datasets: dict[str, DatasetStats] = {}
     formats: Counter[str] = Counter()
-    files = sorted(path for path in data_root.rglob("*") if path.is_file())
+    # data/local contains derived serving artefacts (DuckDB files and smoke
+    # output). They are runtime products, not source datasets, and must not
+    # be allowed to create false source-schema drift.
+    files = sorted(
+        path for path in data_root.rglob("*")
+        if path.is_file() and "local" not in path.relative_to(data_root).parts
+    )
     for path in files:
         relative = "data/" + path.relative_to(data_root).as_posix()
         fmt = detect_format(path)
@@ -518,7 +524,7 @@ def scan_data(data_root: Path, scan_timestamp: str | None = None) -> dict[str, A
     result = {
         "profile_version": PROFILE_VERSION,
         "scan_timestamp": scan_timestamp or datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "paths_scanned": ["data/**/*"],
+        "paths_scanned": ["data/**/*", "exclude:data/local/**/*"],
         "scanned_files": ["data/" + path.relative_to(data_root).as_posix() for path in files],
         "file_count": len(files),
         "total_bytes": sum(path.stat().st_size for path in files),

@@ -56,11 +56,22 @@ x-airflow-common: &airflow-common
     NEWS_QDRANT_COLLECTION: ${NEWS_QDRANT_COLLECTION:-news_chunks_local_v1}
     NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
     AIRFLOW_NEWS_INDEX_LIMIT: ${AIRFLOW_NEWS_INDEX_LIMIT:-96}
+    AIRFLOW_NEWS_INCREMENTAL_SCHEDULE: ${AIRFLOW_NEWS_INCREMENTAL_SCHEDULE:-}
     NEWS_DUCKDB_PATH: /opt/airflow/local/analytics.duckdb
+    METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
+    METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
+    METADATA_POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+    METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+    METADATA_POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+    PIPELINE_OPERATIONS_SCHEMA: ${PIPELINE_OPERATIONS_SCHEMA:-pipeline_operations}
+    KAFKA_BOOTSTRAP_SERVERS: ${KAFKA_BOOTSTRAP_SERVERS:-kafka:9092}
+    DEBEZIUM_CONNECT_URL: ${DEBEZIUM_CONNECT_URL:-http://debezium:8083}
+    DEBEZIUM_CONNECTOR_NAME: ${DEBEZIUM_CONNECTOR_NAME:-metadata-control-plane}
   volumes:
     - ./airflow/dags:/opt/airflow/dags:ro
     - ./airflow/plugins:/opt/airflow/plugins:ro
     - ./src:/app/src:ro
+    - ./operations:/app/operations:ro
     - ./data:/app/data:ro
     - ./tests:/app/tests:ro
     - ./tools:/app/tools:ro
@@ -82,7 +93,7 @@ x-metadata-tools-common: &metadata-tools-common
     METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
     METADATA_POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
     METADATA_CDC_USER: ${METADATA_CDC_USER:-metadata_cdc}
-    METADATA_CDC_PASSWORD: ${METADATA_CDC_PASSWORD:?Set METADATA_CDC_PASSWORD in .env}
+    METADATA_CDC_PASSWORD: ${METADATA_CDC_PASSWORD:-}
     METADATA_CONTROL_SCHEMA: ${METADATA_CONTROL_SCHEMA:-control_metadata}
     METADATA_CDC_PUBLICATION: ${METADATA_CDC_PUBLICATION:-metadata_cdc_publication}
     METADATA_CDC_SLOT: ${METADATA_CDC_SLOT:-metadata_cdc_slot}
@@ -92,9 +103,11 @@ x-metadata-tools-common: &metadata-tools-common
     DEBEZIUM_CONNECT_URL: ${DEBEZIUM_CONNECT_URL:-http://debezium:8083}
     DEBEZIUM_CONNECTOR_NAME: ${DEBEZIUM_CONNECTOR_NAME:-metadata-control-plane}
     METADATA_MIGRATIONS_DIR: /app/metadata/migrations
+    PIPELINE_OPERATIONS_MIGRATIONS_DIR: /app/operations/migrations
   volumes:
     - ./src:/app/src:ro
     - ./metadata:/app/metadata:ro
+    - ./operations:/app/operations:ro
     - ./tests:/app/tests:ro
     - ./artifacts:/app/artifacts
   networks: [financial-net]
@@ -208,6 +221,7 @@ services:
       NEWS_STORAGE_ACCESS_KEY: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
       NEWS_STORAGE_SECRET_KEY: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
       NEWS_STORAGE_BUCKET: ${NEWS_STORAGE_BUCKET:-financial-news}
+      NEWS_SOURCE: ${NEWS_SOURCE:-cafef.vn}
       NEWS_SOURCE_FILE: ${NEWS_SOURCE_FILE:-/app/data/raw/cafef_news_raw_final.json}
       NEWS_PROCESSING_VERSION: ${NEWS_PROCESSING_VERSION:-cafef-v1.1}
       NEWS_SPARK_MASTER: ${NEWS_SPARK_MASTER:-local[2]}
@@ -229,8 +243,20 @@ services:
       NEWS_INDEX_LIMIT: ${NEWS_INDEX_LIMIT:-0}
       NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
       NEWS_DUCKDB_PATH: ${NEWS_DUCKDB_PATH:-/app/local/analytics.duckdb}
+      METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
+      METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
+      METADATA_POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
+      METADATA_POSTGRES_USER: ${METADATA_POSTGRES_USER:-metadata_user}
+      METADATA_POSTGRES_PASSWORD: ${METADATA_POSTGRES_PASSWORD:-metadata_password}
+      PIPELINE_OPERATIONS_SCHEMA: ${PIPELINE_OPERATIONS_SCHEMA:-pipeline_operations}
+      KAFKA_BOOTSTRAP_SERVERS: ${KAFKA_BOOTSTRAP_SERVERS:-kafka:9092}
+      DEBEZIUM_CONNECT_URL: ${DEBEZIUM_CONNECT_URL:-http://debezium:8083}
+      DEBEZIUM_CONNECTOR_NAME: ${DEBEZIUM_CONNECTOR_NAME:-metadata-control-plane}
+      AIRFLOW_API_BASE_URL: ${AIRFLOW_API_BASE_URL:-http://airflow-webserver:8080}
     volumes:
       - ./src:/app/src:ro
+      - ./operations:/app/operations:ro
+      - ./docs:/app/docs:ro
       - ./data:/app/data:ro
       - ./tests:/app/tests:ro
       - ./data/local:/app/local
@@ -607,6 +633,10 @@ services:
     image: qdrant/qdrant:v1.13.1
     container_name: financial-qdrant
     restart: unless-stopped
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     ports:
       - "${QDRANT_EXTERNAL_PORT:-6333}:6333"
       - "${QDRANT_GRPC_PORT:-6334}:6334"

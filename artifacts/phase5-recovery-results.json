@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scenario_id": "c62f09bb61",
+  "run_ids": {
+    "backfill": "recovery-backfill-c62f09bb61",
+    "backfill_repeat": "recovery-backfill-repeat-c62f09bb61",
+    "reprocess": "recovery-reprocess-c62f09bb61",
+    "qdrant_failure": "recovery-qdrant-failure-c62f09bb61",
+    "schema_drift": "recovery-schema-drift-c62f09bb61"
+  },
+  "backfill_range": [
+    "2026-08-01",
+    "2026-08-03"
+  ],
+  "repeat_backfill_silver_affected": [
+    0,
+    0,
+    0
+  ],
+  "reprocess_force_required": true,
+  "qdrant_failure_recorded": true,
+  "gold_documents_durable_during_qdrant_failure": 5,
+  "checkpoint_before_retry": null,
+  "checkpoint_after_retry": {
+    "pipeline_name": "financial_news_incremental:d0b07d22d5bd",
+    "source": "phase05-recovery.local",
+    "last_successful_partition": "2026-08-04",
+    "last_successful_run_id": "recovery-qdrant-failure-c62f09bb61",
+    "updated_at": "2026-09-30 03:16:17.866191+00:00"
+  },
+  "qdrant_attempts": 2,
+  "upstream_successful_stage_attempts": {
+    "2026-08-04:bronze_ingest": 1,
+    "2026-08-04:duckdb_publish": 1,
+    "2026-08-04:gold_analytics_refresh": 1,
+    "2026-08-04:gold_rag_merge": 1,
+    "2026-08-04:schema_validation": 1,
+    "2026-08-04:silver_merge": 1
+  },
+  "schema_drift_failed_before_bronze": true,
+  "duration_seconds": 363.626,
+  "completed_at": "2026-09-30T03:16:25.229679+00:00"
+}

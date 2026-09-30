@@ -25,6 +25,7 @@ class AirflowDagTest(unittest.TestCase):
         self.assertEqual(self.bag.import_errors, {})
         self.assertIn("news_silver_pipeline", self.bag.dags)
         self.assertIn("news_gold_pipeline", self.bag.dags)
+        self.assertIn("news_incremental_pipeline", self.bag.dags)
 
     def test_silver_dag_structure_and_gold_trigger(self):
         dag = self.bag.get_dag("news_silver_pipeline")
@@ -80,6 +81,18 @@ class AirflowDagTest(unittest.TestCase):
             for task in dag.tasks:
                 if hasattr(task, "bash_command"):
                     self.assertFalse(task.do_xcom_push)
+
+
+    def test_incremental_dag_is_thin_scheduled_and_serial(self):
+        dag = self.bag.get_dag("news_incremental_pipeline")
+        self.assertEqual(dag.task_ids, ["run_incremental_pipeline"])
+        self.assertEqual(dag.max_active_runs, 1)
+        self.assertFalse(dag.catchup)
+        self.assertIsNone(dag.schedule_interval)
+        task = dag.get_task("run_incremental_pipeline")
+        self.assertIn("/app/src/news_pipeline/airflow_runner.py", task.bash_command)
+        self.assertFalse(task.do_xcom_push)
+        self.assertEqual(task.retries, 1)
 
     def test_missing_required_configuration_fails_clearly(self):
         required = ("NEWS_STORAGE_ENDPOINT", "NEWS_STORAGE_BUCKET", "NEWS_SOURCE_FILE", "NEWS_QDRANT_URL")

@@ -14,7 +14,11 @@ COMPOSE ?= docker compose
         airflow-test airflow-test-silver airflow-test-gold pipeline-run \
         metadata-infra-up metadata-up metadata-down metadata-migrate metadata-migrate-down \
         metadata-seed metadata-db-status kafka-topics debezium-register debezium-status \
-        metadata-consume metadata-cdc-test test-metadata
+        metadata-consume metadata-cdc-test test-metadata \
+        hardening-build operations-migrate operations-status pipeline-services-up \
+        pipeline-incremental pipeline-backfill pipeline-reprocess pipeline-resume \
+        pipeline-status pipeline-reconcile pipeline-health qdrant-rebuild analytics-rebuild \
+        test-hardening test-recovery test-idempotency test-incremental test-backfill phase5-test
 
 help:
 	@echo "Available targets:"
@@ -61,6 +65,17 @@ help:
 	@echo "  make metadata-consume    - Inspect bounded metadata CDC event summaries."
 	@echo "  make metadata-cdc-test   - Run CDC lifecycle plus Connect/Kafka/PostgreSQL recovery tests."
 	@echo "  make test-metadata       - Run Phase 04 unit tests."
+	@echo "  make pipeline-incremental PROCESSING_DATE=YYYY-MM-DD - Process one logical partition."
+	@echo "  make pipeline-backfill FROM_DATE=... TO_DATE=... - Backfill explicit fixture partitions."
+	@echo "  make pipeline-reprocess PROCESSING_DATE=... - Explicitly reprocess one partition."
+	@echo "  make pipeline-resume RUN_ID=... - Resume a failed run from its first failed stage."
+	@echo "  make pipeline-status     - Show run history, checkpoint, and active locks."
+	@echo "  make pipeline-reconcile  - Compare Silver, Gold, Qdrant, and DuckDB."
+	@echo "  make pipeline-health     - Concise health check for local services and outputs."
+	@echo "  make qdrant-rebuild      - Explicit full rebuild of the current Qdrant projection."
+	@echo "  make analytics-rebuild   - Rebuild current Gold analytics and atomically refresh DuckDB."
+	@echo "  make test-hardening      - Run Phase 05 unit and local integration tests."
+	@echo "  make phase5-test         - Run all Phase 05 validation targets."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -193,6 +208,78 @@ metadata-cdc-test: metadata-up test-metadata
 	$(COMPOSE) up -d --wait postgresql
 	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.connector wait --timeout 180
 	$(COMPOSE) run --rm metadata-tools python3 -m src.metadata_control.smoke --mode postgres-recovery --output /app/artifacts/metadata-cdc-postgres-recovery.json
+
+
+# Phase 05: hardened incremental batch pipeline.
+DATE ?=
+FROM ?=
+TO ?=
+PROCESSING_DATE ?= $(if $(DATE),$(DATE),$(shell date +%F))
+FROM_DATE ?= $(FROM)
+TO_DATE ?= $(TO)
+PARTITION_DIR ?= /app/data/partitions
+PARTITION_PATTERN ?= {date}.json
+SOURCE_FILE ?= /app/data/raw/cafef_news_raw_final.json
+RUN_ID ?=
+
+hardening-build:
+	$(COMPOSE) build news-pipeline metadata-tools airflow-init
+
+operations-migrate:
+	$(COMPOSE) up -d postgresql
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.pipeline_operations.migrations up
+
+operations-status: operations-migrate
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.pipeline_operations.migrations status
+
+pipeline-services-up: serving-up operations-migrate
+
+pipeline-incremental: pipeline-services-up
+	$(COMPOSE) run --rm --user 0 -e NEWS_SOURCE_FILE=$(SOURCE_FILE) -e NEWS_PROCESSING_DATE=$(PROCESSING_DATE) news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/pipeline_runner.py incremental --date $(PROCESSING_DATE) --source-file $(SOURCE_FILE) $(if $(RUN_ID),--run-id $(RUN_ID),)
+
+pipeline-backfill: pipeline-services-up
+	@test -n "$(FROM_DATE)" -a -n "$(TO_DATE)" || (echo "Usage: make pipeline-backfill FROM_DATE=YYYY-MM-DD TO_DATE=YYYY-MM-DD PARTITION_DIR=/app/data/partitions"; exit 2)
+	$(COMPOSE) run --rm --user 0 news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/pipeline_runner.py backfill --from-date $(FROM_DATE) --to-date $(TO_DATE) --partition-dir $(PARTITION_DIR) --file-pattern '$(PARTITION_PATTERN)' $(if $(RUN_ID),--run-id $(RUN_ID),)
+
+pipeline-reprocess: pipeline-services-up
+	$(COMPOSE) run --rm --user 0 -e NEWS_SOURCE_FILE=$(SOURCE_FILE) -e NEWS_PROCESSING_DATE=$(PROCESSING_DATE) news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/pipeline_runner.py reprocess --date $(PROCESSING_DATE) --source-file $(SOURCE_FILE) --force-reprocess $(if $(RUN_ID),--run-id $(RUN_ID),)
+
+pipeline-resume: pipeline-services-up
+	@test -n "$(RUN_ID)" || (echo "Usage: make pipeline-resume RUN_ID=<failed-run-id>"; exit 2)
+	$(COMPOSE) run --rm --user 0 news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/pipeline_runner.py resume --run-id $(RUN_ID)
+
+pipeline-status: operations-migrate
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m src.pipeline_operations.cli status
+
+pipeline-reconcile: pipeline-services-up
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/reconciliation.py --run-id $${RUN_ID:-manual-$$(date +%s)}
+
+qdrant-rebuild: serving-up
+	$(COMPOSE) run --rm -e NEWS_INDEX_LIMIT=$(INDEX_LIMIT) news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/qdrant_rebuild.py
+
+analytics-rebuild: infra-up
+	$(COMPOSE) run --rm --user 0 news-pipeline $(SPARK_SUBMIT) /app/src/news_pipeline/analytics_rebuild.py
+
+pipeline-health:
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m src.news_pipeline.health --compact
+
+test-hardening: pipeline-services-up
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m unittest tests.test_pipeline_hardening -v
+	$(COMPOSE) run --rm --user 0 news-pipeline $(SPARK_SUBMIT) /app/tests/test_pipeline_hardening_integration.py
+	cp data/local/phase5-integration-results.json artifacts/phase5-integration-results.json
+
+
+test-recovery: pipeline-services-up
+	$(COMPOSE) run --rm --user 0 news-pipeline python3 /app/tests/test_pipeline_runner_recovery.py
+	cp data/local/phase5-recovery-results.json artifacts/phase5-recovery-results.json
+
+test-idempotency: test-hardening
+
+test-incremental: test-hardening
+
+test-backfill: test-recovery
+
+phase5-test: data-contracts-check test-hardening test-recovery airflow-test
 
 up:
 	$(COMPOSE) up -d
