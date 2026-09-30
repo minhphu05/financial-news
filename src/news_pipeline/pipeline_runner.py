@@ -20,7 +20,7 @@ from src.news_pipeline.embedding import FastEmbedProvider
 from src.news_pipeline.gold_config import GoldSettings
 from src.news_pipeline.qdrant_index import QdrantChunkIndex, index_affected
 from src.news_pipeline.source_schema import validate_source_file
-from src.news_pipeline.storage import S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 from src.news_pipeline.structured_log import event
 from src.pipeline_operations.config import OperationsSettings
 from src.pipeline_operations.repository import OperationsRepository
@@ -115,7 +115,7 @@ def _run_stage(
         raise
 
 
-def _read_affected(store: S3ObjectStore, key: str) -> list[str]:
+def _read_affected(store: ObjectStore, key: str) -> list[str]:
     payload = json.loads(store.get_bytes(key))
     values = payload.get("article_ids")
     if not isinstance(values, list) or any(not isinstance(value, str) for value in values):
@@ -169,7 +169,7 @@ def run_partition(
         processing_date=partition,
         run_id=run_id,
     )
-    store = S3ObjectStore(news)
+    store = create_object_store(news)
     prefix = f"{partition}:"
     repository.acquire_partition(pipeline_name, news.source, processing_date, run_id)
     event(

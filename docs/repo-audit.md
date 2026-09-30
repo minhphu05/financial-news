@@ -123,3 +123,28 @@ Compose service disposition, stated individually so the proposed minimal stack i
 5. External embedding credentials may be unavailable locally. Gold articles/chunks and DuckDB analytics must work without embeddings; Qdrant indexing can then run as a separate optional job.
 
 See [local-architecture.md](local-architecture.md) for the local target and [implementation-plan.md](implementation-plan.md) for the staged work. No pipeline code or crawling was performed for this audit.
+
+## Phase 06 release re-audit — 2026-09-30
+
+The original section above is retained as historical baseline. Phases 01–05 have
+since implemented the missing pipeline, and Phase 06 re-audited the actual
+runtime before changing it.
+
+| Occurrence | Classification | Phase 06 action |
+|---|---|---|
+| `localhost` and `127.0.0.1` in host URLs, container health checks, and local Spark binding | VALID LOCAL DEFAULT | Retained and documented |
+| Docker DNS names such as `minio`, `qdrant`, `postgresql`, `kafka`, and `debezium` | VALID LOCAL DEFAULT | Retained as local profile values |
+| `/app`, `/opt/spark`, and `/opt/airflow` paths inside images | VALID LOCAL DEFAULT | Retained; paths are container contracts rather than developer paths |
+| `/Users/kittnguyen/...` in NER notebooks and one legacy training script | UNUSED FOR NOW | Excluded from the Phase 01–06 release runtime; recorded as ViFinNER research debt |
+| S3A settings inside `silver.create_spark()` | CONFIGURATION BUG | Moved to `spark_storage.configure_storage()` |
+| Direct `S3ObjectStore` construction in runtime entrypoints | CONFIGURATION BUG | Replaced by `create_object_store()`; transformations keep the `ObjectStore` port |
+| Fixed Airflow model/DuckDB paths in Compose | CONFIGURATION BUG | Made configurable with local container defaults |
+| Missing MinIO readiness check | CONFIGURATION BUG | Added the MinIO `/minio/health/ready` health check |
+| Tracked `.env` containing likely credentials | CONFIGURATION BUG | Removed from the next Git tree and ignored; history rotation/remediation remains a release blocker |
+| Stable acceptance JSON under `tests/fixtures/local_release` | TEST FIXTURE | Retained and isolated by source, Qdrant collection, and DuckDB file |
+| Local/cloud examples in docs and environment templates | DOCUMENTATION ONLY | Retained; the cloud template is syntax checked and never connected |
+
+The generated `artifacts/local-release-audit.json` scans the Phase 01–06
+runtime/configuration scope for developer paths, static container IPs, and common
+credential patterns. It reports names only for historical sensitive variables
+and never emits values.

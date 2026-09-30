@@ -10,7 +10,7 @@ import urllib.request
 
 from src.news_pipeline.gold_config import GoldSettings
 from src.news_pipeline.qdrant_index import QdrantChunkIndex
-from src.news_pipeline.storage import S3ObjectStore
+from src.news_pipeline.storage import create_object_store
 from src.pipeline_operations.config import OperationsSettings
 
 
@@ -32,7 +32,7 @@ def main() -> None:
     parser.add_argument("--compact", action="store_true")
     args = parser.parse_args()
     settings = GoldSettings.from_env().for_current_tables()
-    store = S3ObjectStore(settings.news)
+    store = create_object_store(settings.news)
     operations = OperationsSettings.from_env()
 
     def minio():
@@ -40,7 +40,7 @@ def main() -> None:
         return {"bucket": settings.news.bucket}
 
     def delta():
-        prefix = settings.silver_articles_uri.split(f"/{settings.news.bucket}/", 1)[-1]
+        prefix = settings.news.object_key(settings.silver_articles_uri)
         logs = [key for key in store.list_keys(f"{prefix}/_delta_log/") if key.endswith(".json")]
         if not logs:
             raise RuntimeError("current Silver Delta log is missing")

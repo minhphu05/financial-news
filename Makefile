@@ -18,7 +18,10 @@ COMPOSE ?= docker compose
         hardening-build operations-migrate operations-status pipeline-services-up \
         pipeline-incremental pipeline-backfill pipeline-reprocess pipeline-resume \
         pipeline-status pipeline-reconcile pipeline-health qdrant-rebuild analytics-rebuild \
-        test-hardening test-recovery test-idempotency test-incremental test-backfill phase5-test
+        test-hardening test-recovery test-idempotency test-incremental test-backfill phase5-test \
+        release-prerequisites release-config-check release-runtime-check release-audit bootstrap local-stop \
+        reset-derived local-reset-destructive test-release e2e-local ci-test \
+        phase6-health phase6-report phase6-acceptance
 
 help:
 	@echo "Available targets:"
@@ -76,6 +79,13 @@ help:
 	@echo "  make analytics-rebuild   - Rebuild current Gold analytics and atomically refresh DuckDB."
 	@echo "  make test-hardening      - Run Phase 05 unit and local integration tests."
 	@echo "  make phase5-test         - Run all Phase 05 validation targets."
+	@echo "  make bootstrap           - Idempotently initialize the Phase 01-06 local platform."
+	@echo "  make local-stop          - Stop local release services without deleting volumes."
+	@echo "  make reset-derived       - Delete only configured Qdrant and DuckDB serving state."
+	@echo "  make local-reset-destructive CONFIRM=DELETE_LOCAL_RELEASE_DATA - Delete release data."
+	@echo "  make e2e-local           - Run isolated Bronze-to-serving and rebuild acceptance."
+	@echo "  make ci-test             - Run the CI-friendly contract/unit/DAG test selection."
+	@echo "  make phase6-acceptance   - Run the final local release gate and write its report."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -280,6 +290,74 @@ test-incremental: test-hardening
 test-backfill: test-recovery
 
 phase5-test: data-contracts-check test-hardening test-recovery airflow-test
+
+# Phase 06: reproducible local release and cloud-readiness gate.
+release-prerequisites:
+	python3 tools/local_release.py prerequisites
+
+release-config-check:
+	python3 tools/local_release.py validate-profile config/environments/local.env.example
+	python3 tools/local_release.py validate-profile config/environments/test.env
+	python3 tools/local_release.py validate-profile config/environments/future-cloud.env.example
+	$(COMPOSE) config --quiet
+
+release-runtime-check:
+	python3 tools/local_release.py validate-runtime
+
+release-audit:
+	python3 tools/local_release.py audit
+
+bootstrap: release-prerequisites release-config-check release-runtime-check hardening-build
+	mkdir -p data/local artifacts
+	$(COMPOSE) up -d --wait minio qdrant postgresql kafka
+	$(COMPOSE) run --rm news-pipeline python3 -m src.news_pipeline.release bootstrap-storage
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.pipeline_operations.migrations up
+	$(MAKE) metadata-up
+	$(COMPOSE) up airflow-init
+	$(COMPOSE) up -d --wait airflow-scheduler airflow-webserver
+	python3 tools/local_release.py bootstrap-status
+
+local-stop:
+	$(COMPOSE) stop airflow-webserver airflow-scheduler debezium kafka postgresql qdrant minio airflow-postgres
+
+reset-derived: serving-up
+	$(COMPOSE) run --rm --user 0 news-pipeline python3 -m src.news_pipeline.release reset-derived
+
+local-reset-destructive:
+	python3 tools/local_release.py destructive-reset --confirm '$(CONFIRM)'
+
+test-release:
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m unittest tests.test_local_release_unit -v
+
+e2e-local: serving-up
+	$(COMPOSE) run --rm --user 0 news-pipeline $(SPARK_SUBMIT) /app/tests/test_local_release_e2e.py
+	cp data/local/local-release-e2e.json artifacts/local-release-e2e.json
+
+ci-test: data-contracts-check infra-up
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m unittest \
+		tests.test_news_pipeline_unit tests.test_news_gold_unit tests.test_pipeline_hardening \
+		tests.test_local_release_unit -v
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_pipeline_integration.py
+	$(COMPOSE) run --rm news-pipeline $(SPARK_SUBMIT) /app/tests/test_news_gold_spark_unit.py
+	$(MAKE) test-metadata
+	$(MAKE) airflow-test
+	python3 tools/local_release.py mark ci
+
+phase6-health:
+	$(COMPOSE) run --rm --no-deps \
+		-e NEWS_SOURCE=local-release.test \
+		-e NEWS_PROCESSING_VERSION=local-rc1-acceptance \
+		-e NEWS_EMBEDDING_MODEL=local-release-token-hash-v1 \
+		-e NEWS_EMBEDDING_DIMENSION=32 \
+		-e NEWS_QDRANT_COLLECTION=local_release_acceptance_v1 \
+		-e NEWS_DUCKDB_PATH=/app/local/local-release-acceptance.duckdb \
+		news-pipeline python3 -m src.news_pipeline.health --compact
+
+phase6-report:
+	python3 tools/local_release.py report
+
+phase6-acceptance: release-config-check release-audit ci-test e2e-local test-recovery metadata-cdc-test phase6-health
+	$(MAKE) phase6-report
 
 up:
 	$(COMPOSE) up -d

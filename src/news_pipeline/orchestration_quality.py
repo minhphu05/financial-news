@@ -17,7 +17,7 @@ from src.news_pipeline.config import Settings
 from src.news_pipeline.duckdb_serving import query as query_duckdb
 from src.news_pipeline.gold_config import ANALYTICS_DATASETS, GoldSettings
 from src.news_pipeline.qdrant_index import QdrantChunkIndex
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 def _load_json(store: ObjectStore, key: str) -> dict:
@@ -235,7 +235,7 @@ def publish_status(stage: str, settings: GoldSettings, store: ObjectStore) -> di
 def main() -> None:
     command = sys.argv[1] if len(sys.argv) > 1 else ""
     settings = GoldSettings.from_env()
-    store = S3ObjectStore(settings.news)
+    store = create_object_store(settings.news)
     commands = {
         "source": lambda: validate_source(settings.news),
         "bronze": lambda: validate_bronze(settings.news, store),

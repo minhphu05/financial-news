@@ -15,7 +15,8 @@ from pyspark.sql import DataFrame, SparkSession, Window, functions as F, types a
 from src.news_pipeline.bronze import file_sha256
 from src.news_pipeline.config import Settings
 from src.news_pipeline.normalize import normalize_observation
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.spark_storage import configure_storage
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 ARTICLE_FIELDS = [
@@ -84,22 +85,13 @@ class SilverFrames:
 
 
 def create_spark(settings: Settings) -> SparkSession:
-    endpoint = settings.endpoint.removesuffix("/")
-    spark = (SparkSession.builder.appName("financial-news-bronze-silver")
+    builder = (SparkSession.builder.appName("financial-news-bronze-silver")
         .master(settings.spark_master)
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
         .config("spark.sql.session.timeZone", "UTC")
-        .config("spark.sql.shuffle.partitions", "8")
-        .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
-        .config("spark.hadoop.fs.s3a.endpoint", endpoint)
-        .config("spark.hadoop.fs.s3a.access.key", settings.access_key)
-        .config("spark.hadoop.fs.s3a.secret.key", settings.secret_key)
-        .config("spark.hadoop.fs.s3a.path.style.access", "true")
-        .config("spark.hadoop.fs.s3a.connection.ssl.enabled", str(endpoint.startswith("https://")).lower())
-        .config("spark.hadoop.fs.s3a.aws.credentials.provider", "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
-        .config("spark.delta.logStore.class", "io.delta.storage.S3SingleDriverLogStore")
-        .getOrCreate())
+        .config("spark.sql.shuffle.partitions", "8"))
+    spark = configure_storage(builder, settings).getOrCreate()
     spark.sparkContext.setLogLevel("WARN")
     return spark
 
@@ -178,11 +170,11 @@ def transform(settings: Settings, store: ObjectStore, spark: SparkSession) -> Si
 def _write_partition(settings: Settings, frames: SilverFrames) -> str:
     prefix = f"silver/{settings.source}/{frames.ingestion_id}/{settings.processing_version}"
     (frames.articles.write.format("delta").mode("overwrite").option("overwriteSchema", "true")
-        .save(settings.s3a(f"{prefix}/articles")))
+        .save(settings.object_uri(f"{prefix}/articles")))
     (frames.mentions.write.format("delta").mode("overwrite").option("overwriteSchema", "true")
-        .save(settings.s3a(f"{prefix}/article_mentions")))
+        .save(settings.object_uri(f"{prefix}/article_mentions")))
     (frames.rejects.write.format("delta").mode("overwrite").option("overwriteSchema", "true")
-        .save(settings.s3a(f"{prefix}/rejects")))
+        .save(settings.object_uri(f"{prefix}/rejects")))
     return prefix
 
 
@@ -233,9 +225,9 @@ def _merge_current(
     from delta.tables import DeltaTable
 
     current_prefix = f"silver/current/{settings.source}/{settings.processing_version}"
-    articles_uri = settings.s3a(f"{current_prefix}/articles")
-    mentions_uri = settings.s3a(f"{current_prefix}/article_mentions")
-    rejects_uri = settings.s3a(f"{current_prefix}/rejects")
+    articles_uri = settings.object_uri(f"{current_prefix}/articles")
+    mentions_uri = settings.object_uri(f"{current_prefix}/article_mentions")
+    rejects_uri = settings.object_uri(f"{current_prefix}/rejects")
 
     if DeltaTable.isDeltaTable(spark, articles_uri):
         existing = spark.read.format("delta").load(articles_uri).persist(StorageLevel.MEMORY_AND_DISK)
@@ -373,7 +365,7 @@ def main() -> None:
     spark = create_spark(settings)
     try:
         operation = build_incremental if settings.processing_date else build
-        print(json.dumps(operation(settings, S3ObjectStore(settings), spark), ensure_ascii=False, indent=2))
+        print(json.dumps(operation(settings, create_object_store(settings), spark), ensure_ascii=False, indent=2))
     finally:
         spark.stop()
 

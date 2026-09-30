@@ -10,7 +10,7 @@ import time
 import uuid
 
 from src.news_pipeline.gold_config import ANALYTICS_DATASETS, GoldSettings
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 def publish(settings: GoldSettings, store: ObjectStore, record_metrics: bool = True) -> dict:
@@ -73,7 +73,7 @@ def query(settings: GoldSettings, sql: str) -> list[tuple]:
 def main() -> None:
     settings = GoldSettings.from_env()
     if len(sys.argv) == 1 or sys.argv[1] == "build":
-        print(json.dumps(publish(settings, S3ObjectStore(settings.news)), ensure_ascii=False, indent=2))
+        print(json.dumps(publish(settings, create_object_store(settings.news)), ensure_ascii=False, indent=2))
     elif sys.argv[1] == "query":
         sql = sys.argv[2] if len(sys.argv) > 2 else os.getenv("NEWS_ANALYTICS_SQL") or "SELECT * FROM vw_news_by_source ORDER BY article_count DESC"
         for row in query(settings, sql):

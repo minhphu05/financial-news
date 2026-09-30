@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .config import Settings
-from .storage import ObjectStore, S3ObjectStore
+from .storage import ObjectStore, create_object_store
 
 
 def file_sha256(path: Path) -> str:
@@ -90,7 +90,7 @@ def _publish_partition_reference(settings: Settings, store: ObjectStore, manifes
 
 def main() -> None:
     settings = Settings.from_env()
-    print(json.dumps(ingest(settings, S3ObjectStore(settings)), ensure_ascii=False, indent=2))
+    print(json.dumps(ingest(settings, create_object_store(settings)), ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

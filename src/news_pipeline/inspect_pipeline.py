@@ -5,14 +5,14 @@ import sys
 
 from src.news_pipeline.bronze import file_sha256
 from src.news_pipeline.config import Settings
-from src.news_pipeline.storage import S3ObjectStore
+from src.news_pipeline.storage import create_object_store
 
 
 def main() -> None:
     if len(sys.argv) != 2 or sys.argv[1] not in ("bronze", "silver", "metrics"):
         raise SystemExit("Usage: inspect_pipeline.py bronze|silver|metrics")
     settings = Settings.from_env()
-    store = S3ObjectStore(settings)
+    store = create_object_store(settings)
     ingestion_id = file_sha256(Path(settings.source_file))
     prefix = f"silver/{settings.source}/{ingestion_id}/{settings.processing_version}"
     if sys.argv[1] == "bronze":
@@ -26,7 +26,7 @@ def main() -> None:
         spark = create_spark(settings)
         try:
             for table in ("articles", "article_mentions", "rejects"):
-                frame = spark.read.format("delta").load(settings.s3a(f"{prefix}/{table}"))
+                frame = spark.read.format("delta").load(settings.object_uri(f"{prefix}/{table}"))
                 print(f"{table}: {frame.count()} rows; columns={frame.columns}")
                 frame.show(2, truncate=80)
         finally:

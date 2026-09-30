@@ -48,7 +48,14 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 | 03 | Airflow orchestration | Hoàn thành |
 | 04 | PostgreSQL metadata → WAL → Debezium → Kafka | Hoàn thành |
 | 05 | Incremental, idempotency, backfill, recovery, reconciliation, observability | Hoàn thành |
-| 06 | Cloud/Kubernetes migration | Chưa triển khai |
+| 06 | Local release candidate và cloud-readiness | Kỹ thuật hoàn thành; release gate `NOT READY` |
+
+Cloud/Azure/Kubernetes migration chưa được thực hiện. Phase 06 chỉ tạo release
+local tái lập được, kiểm chứng adapter/config boundary và lập migration manifest.
+Release gate hiện chưa đạt vì `.env` có khả năng chứa credential đã từng được
+commit. File đã được bỏ khỏi cây Git mới, nhưng chủ repository vẫn phải
+revoke/rotate credential và xử lý lịch sử Git trước khi đổi verdict thành
+`READY FOR CLOUD MIGRATION`.
 
 Trạng thái chi tiết và bằng chứng kiểm thử nằm trong [docs/agent_tasks/CURRENT_STATUS.md](docs/agent_tasks/CURRENT_STATUS.md).
 
@@ -151,7 +158,8 @@ make --version
 cp .env.example .env
 ```
 
-Đổi ít nhất `METADATA_CDC_PASSWORD` khỏi giá trị mẫu trước khi chạy CDC. Không commit file `.env`.
+Đổi mọi password `change-me-*`, đặc biệt `METADATA_CDC_PASSWORD`, trước khi
+chạy. `.env` đã được bỏ khỏi Git và bị ignore.
 
 Kiểm tra Compose:
 
@@ -159,15 +167,31 @@ Kiểm tra Compose:
 docker compose config --quiet
 ```
 
-### 2. Build image cho data platform
+### 2. Bootstrap toàn bộ local platform
 
 ```bash
-make hardening-build
+make bootstrap
 ```
 
-Lần build/chạy đầu tiên có thể mất thời gian vì Spark tải Delta/Hadoop JAR và FastEmbed tải model vào Docker volume cache.
+Bootstrap kiểm tra dependency/cấu hình, build image, chờ health thật, tạo bucket,
+chạy migration, seed metadata, tạo topic, đăng ký Debezium và khởi tạo Airflow.
+Lệnh an toàn khi chạy lại. Lần đầu có thể lâu vì tải image và Spark JAR.
 
-### 3. Chạy vertical slice Bronze → Gold
+### 3. Chạy release acceptance
+
+```bash
+make phase6-acceptance
+```
+
+Kết quả tổng hợp ở `artifacts/local-release-report.json`. Dataset acceptance
+cô lập không ghi đè collection/DuckDB mặc định. Hướng dẫn đầy đủ:
+[docs/local-release.md](docs/local-release.md).
+
+Lệnh trả exit code khác 0 nếu bất kỳ release gate nào chưa đạt. Với trạng thái
+hiện tại, các test chức năng đều PASS nhưng report là FAIL do credential còn
+trong lịch sử Git; đây là hành vi mong đợi cho đến khi blocker được xử lý.
+
+### 4. Chạy vertical slice CafeF thủ công
 
 ```bash
 make infra-up
@@ -461,9 +485,23 @@ make test-recovery
 
 # Tổng hợp Phase 05
 make phase5-test
+
+# Phase 06 configuration/unit boundary
+make test-release
+
+# CI-friendly selection
+make ci-test
+
+# Isolated Bronze -> serving plus disaster/rebuild
+make e2e-local
+
+# Final local release gate
+make phase6-acceptance
 ```
 
-Các integration test khởi động Spark và service Docker thật nên có thể chạy vài phút. `make phase5-test` chạy lại nhiều vertical slice; dùng khi cần acceptance gate đầy đủ.
+Các integration/recovery test khởi động Spark và service Docker thật nên có thể
+chạy vài phút. `make ci-test` là selection ngắn hơn; `make phase6-acceptance` là
+release gate đầy đủ và có thể mất hơn 10 phút trên máy baseline.
 
 ### Artifact bằng chứng
 
@@ -472,6 +510,8 @@ Các integration test khởi động Spark và service Docker thật nên có th
 - `artifacts/phase5-performance-baseline.json`
 - `artifacts/metadata-cdc-*.json`
 - `artifacts/gold-retrieval-smoke-results.json`
+- `artifacts/local-release-e2e.json` (generated, ignored)
+- `artifacts/local-release-report.json` (generated, ignored)
 
 ## Cấu hình
 
@@ -479,6 +519,7 @@ Các giá trị local có default trong Compose và có thể override bằng sh
 
 | Nhóm | Biến chính |
 |---|---|
+| Environment/storage adapter | `ENVIRONMENT`, `OBJECT_STORAGE_PROVIDER`, `OBJECT_STORAGE_SCHEME` |
 | MinIO | `NEWS_STORAGE_ENDPOINT`, `NEWS_STORAGE_ACCESS_KEY`, `NEWS_STORAGE_SECRET_KEY`, `NEWS_STORAGE_BUCKET` |
 | Source | `NEWS_SOURCE`, `NEWS_SOURCE_FILE`, `NEWS_PROCESSING_VERSION`, `NEWS_PROCESSING_DATE` |
 | Spark | `NEWS_SPARK_MASTER` |
@@ -515,6 +556,7 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 .
 ├── airflow/dags/               # DAG Phase 03/05
 ├── artifacts/                  # Kết quả smoke, recovery, performance
+├── config/                     # Local/test/future-cloud profiles + version manifest
 ├── data/
 │   ├── raw/                    # CafeF snapshots + VN30 lookup
 │   ├── labeled/                # ViFinNER/NER research data
@@ -532,8 +574,8 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 │   ├── scraper/                # Crawler ngoài scope hiện tại
 │   ├── rag/                    # RAG/API modules có từ trước
 │   └── flows/                  # Prefect flows có từ trước
-├── tests/                      # Unit/integration/recovery/DAG tests
-├── tools/                      # Contract profiler và Airflow smoke helper
+├── tests/                      # Unit/integration/recovery/DAG/release tests + fixtures
+├── tools/                      # Contract, Airflow smoke và local release helpers
 ├── docker-compose.yml
 └── Makefile
 ```
@@ -567,28 +609,41 @@ Phase 05 đã chứng minh:
 - Schema drift bị chặn trước Bronze.
 - Health check đạt 8/8 thành phần.
 
+Phase 06 đã chứng minh trên fixture ổn định:
+
+- 4 raw rows ngày đầu → 2 Silver articles, 1 reject và 1 duplicate.
+- Replay cùng byte tạo 0 affected article; batch kế tiếp chỉ thêm 1 article.
+- Reconciliation cuối đạt 3 Silver / 3 Gold documents / 3 Gold chunks / 3 Qdrant points / 3 DuckDB articles.
+- Gold được dựng lại từ Silver, Qdrant từ Gold RAG, DuckDB từ Gold Analytics.
+- Future-cloud template tạo URI ABFSS hợp lệ nhưng không kết nối Azure.
+- Audit runtime không có developer path, static container IP hay credential pattern.
+- Release audit phát hiện bốn tên biến credential trong `.env` đã commit trước
+  đây; giá trị không được in ra log và release gate giữ trạng thái `NOT READY`.
+
 Performance và giới hạn phép đo: [artifacts/phase5-performance-baseline.json](artifacts/phase5-performance-baseline.json).
 
 ## Dừng và dọn môi trường
 
-Dừng Airflow hoặc metadata control plane nhưng giữ volume:
+Dừng toàn bộ service của local release nhưng giữ volume:
 
 ```bash
-make airflow-down
-make metadata-down
+make local-stop
 ```
 
-Dừng toàn bộ service Compose:
+Xóa riêng Qdrant collection và DuckDB mặc định, giữ Bronze/Silver/Gold:
 
 ```bash
-make down
+make reset-derived
 ```
 
-Xóa volume sẽ xóa MinIO, PostgreSQL, Kafka, Qdrant, Airflow metadata và cache tương ứng. Chỉ dùng khi chủ động muốn reset hoàn toàn:
+Reset đầy đủ chỉ xóa dữ liệu/service Phase 01–06 và yêu cầu chuỗi xác nhận:
 
 ```bash
-docker compose down --volumes
+make local-reset-destructive CONFIRM=DELETE_LOCAL_RELEASE_DATA
 ```
+
+Lệnh này không xóa volume của các stack cũ như MongoDB/Prefect/MLflow và giữ
+Spark/model cache. Chạy lại `make bootstrap` sau reset.
 
 ## Xử lý sự cố thường gặp
 
@@ -646,7 +701,10 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 - Qdrant và DuckDB là derived serving stores, có thể tạm thời chậm hơn durable Gold khi service lỗi.
 - Chưa có production secret management, TLS, backup, alert routing, Delta retention/VACUUM hay cloud deployment.
 - ViFinNER enrichment có interface nhưng chưa bị buộc vào pipeline runtime.
-- Crawler, stock streaming, Flink, Kubernetes, Power BI, frontend integration và LLM generation không thuộc Phase 05.
+- ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang Phase 07.
+- `.env` cũ vẫn tồn tại trong lịch sử Git. Cần revoke/rotate các credential liên
+  quan và quyết định history rewrite hoặc tạo lịch sử sạch trước cloud migration.
+- Crawler, stock streaming, Flink, Kubernetes, Terraform, Helm, Power BI, frontend integration và LLM generation không thuộc Phase 06.
 
 ## Tài liệu
 
@@ -658,8 +716,13 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 4. [docs/pipeline-operations.md](docs/pipeline-operations.md) — incremental, backfill, recovery, reconciliation và health.
 5. [docs/airflow-local.md](docs/airflow-local.md) — Airflow setup, DAG và smoke test.
 6. [docs/metadata-control-plane.md](docs/metadata-control-plane.md) — PostgreSQL/Debezium/Kafka CDC.
-7. [docs/THESIS_ALIGNMENT.md](docs/THESIS_ALIGNMENT.md) — đối chiếu với đề cương khóa luận.
-8. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
+7. [docs/local-release.md](docs/local-release.md) — bootstrap, reset, acceptance, fixture và baseline.
+8. [docs/cloud-migration-plan.md](docs/cloud-migration-plan.md) — mapping, ADLS và Kubernetes readiness.
+9. [docs/cloud-migration-manifest.md](docs/cloud-migration-manifest.md) — dữ liệu/config/validation/rollback theo component.
+10. [docs/local-release-checklist.md](docs/local-release-checklist.md) — release gate `local-rc1`.
+11. [docs/decisions.md](docs/decisions.md) — các quyết định kiến trúc.
+12. [docs/THESIS_ALIGNMENT.md](docs/THESIS_ALIGNMENT.md) — đối chiếu với đề cương khóa luận.
+13. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
 
 Xem toàn bộ command đang hỗ trợ:
 

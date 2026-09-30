@@ -1,6 +1,18 @@
 # Local financial-news data architecture
 
-This document describes the local target and records which parts are now implemented. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md); Phase 04 control metadata CDC is documented in [metadata-control-plane.md](metadata-control-plane.md); and Phase 05 incremental operations are documented in [pipeline-operations.md](pipeline-operations.md). The thesis/cloud diagram remains a long-term target: Azure Data Lake Gen2 can replace MinIO and Kubernetes can replace Docker Compose later. The news transformation rules and dataset contracts do not depend on either deployment choice.
+This document describes the implemented local release and labels future targets separately. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md); Phase 04 control metadata CDC is documented in [metadata-control-plane.md](metadata-control-plane.md); Phase 05 incremental operations are documented in [pipeline-operations.md](pipeline-operations.md); and Phase 06 release operation is documented in [local-release.md](local-release.md).
+
+## Status boundary
+
+**IMPLEMENTED LOCAL (`local-rc1`):** Docker Compose, MinIO/S3A, Spark 3.5.3,
+Delta 3.2.1, Airflow LocalExecutor, PostgreSQL, Debezium, one Kafka broker,
+Qdrant, DuckDB, bootstrap/reset tooling, deterministic acceptance fixtures, and
+derived-store rebuild tests.
+
+**FUTURE CLOUD TARGET:** ADLS Gen2 or approved storage, scalable Spark, managed
+or Kubernetes Airflow/PostgreSQL/Kafka/Qdrant, workload identity, and Kubernetes
+deployment. No Azure resource, Kubernetes manifest, Terraform, Helm, or cloud
+credential exists in Phase 06. See [cloud-migration-plan.md](cloud-migration-plan.md).
 
 ## Current implemented slice
 
@@ -59,7 +71,7 @@ Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or thro
 | Containers | Docker Compose, using a minimal pipeline subset/profile | Kubernetes manifests later, without changing job entry points. |
 | Orchestration | Airflow 2.11.2, LocalExecutor, dedicated PostgreSQL metadata DB | Managed/cloud Airflow later; the same standalone job entrypoints remain. |
 
-MinIO endpoint, bucket, path prefix, credentials, TLS/path-style settings; Spark master and Delta/S3 connector settings; PostgreSQL DSN; Qdrant endpoint/collection; and DuckDB file path are **configuration**, not constants in transformation code. Validate exact Spark/Delta/S3A dependency compatibility during implementation before fixing versions. The DuckDB builder should read **published Gold Parquet exports or a verified Delta reader**; do not assume a direct Delta read works in the selected DuckDB version. Ensure the export corresponds to one committed Gold version before publishing a DuckDB file.
+MinIO endpoint, bucket, credentials, provider/scheme; Spark master and provider-specific filesystem settings; PostgreSQL DSN; Qdrant endpoint/collection; and DuckDB file path are **configuration**, not constants in transformation code. `Settings.object_uri()` resolves logical keys, `create_object_store()` selects byte access, and `configure_storage()` selects Spark filesystem settings. Spark 3.5.3, Delta 3.2.1, and Hadoop AWS 3.3.4 are pinned and regression tested. The DuckDB builder reads only the exact Parquet objects in a committed Gold Analytics manifest before atomic publication.
 
 ## Data contracts and identity
 
@@ -67,7 +79,7 @@ The first Bronze import uses `data/raw/cafef_news_raw_final.json` once. A manife
 
 **Raw observation** is one JSON array element. Preserve its source row position, original `_id`, original `post date`, nested export `metadata`, keyword, and ticker fields as lineage. The source adapter maps `ticket symbol` → `ticker_symbol`, `ticket name` → `ticker_name`, and `post date` → `published_at_raw`. It derives `source` from the URL host under an allowlist and canonicalizes URLs without losing the original URL. The meaning of export `metadata.Date`/`Time` is unverified; it is not used as article publication time.
 
-Silver cleaning includes schema and quality validation, conservative HTML/text cleanup, Unicode NFC and whitespace normalization, timestamp normalization, source/ticker metadata normalization, URL normalization, content hashing, and deduplication. Define fixture-based checks for each rule before translating existing Python behavior to Spark. Proposed Silver tables (Delta under MinIO):
+Silver cleaning includes schema and quality validation, conservative HTML/text cleanup, Unicode NFC and whitespace normalization, timestamp normalization, source/ticker metadata normalization, URL normalization, content hashing, and deduplication. Fixture tests cover the transformation rules. Implemented Silver tables (Delta under MinIO):
 
 | Table | Grain / key | Core fields |
 |---|---|---|
@@ -79,7 +91,7 @@ The 15,457 raw observations are expected to yield **at most** 12,698 URL-level a
 
 The enrichment hook accepts a versioned Silver article contract and returns structured attributes plus `enrichment_status`, `enricher_name`, and `enricher_version`. The initial adapter is **passthrough** and creates no NER dependency. A future ViFinNER adapter can be attached without rewriting ingestion, Silver, or chunking. Failures should be recorded per article without losing the cleaned article.
 
-Proposed Gold tables (Delta under MinIO):
+Implemented/serving Gold datasets under MinIO:
 
 | Table | Grain / key | Core fields |
 |---|---|---|

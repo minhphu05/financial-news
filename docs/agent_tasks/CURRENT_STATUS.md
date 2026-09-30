@@ -1,195 +1,307 @@
 # Current implementation status
 
-Verified on 2026-09-30 from base commit `0eede5d` plus the current Phase 05 working tree.
+Verified on 2026-09-30 at base commit `f43107b` plus the current Phase 06
+working tree. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git
+commit, or push was created.
+
+## Release verdict
+
+**`NOT READY FOR CLOUD MIGRATION`**
+
+The Phase 06 implementation and every functional local test pass. The release
+gate remains closed because `.env` was committed in the first repository commit
+and contains four values with credential shapes. The current tree removes the
+file from tracking and ignores future `.env` files, but deletion from the next
+commit does not remove the values from Git history.
+
+Affected credential names, with values intentionally omitted:
+
+- `API_TOKEN`
+- `JWT_SECRET_KEY`
+- `OPENROUTER_API_KEY`
+- `VOYAGE_API_KEY`
+
+Required owner action before changing the verdict: revoke or rotate the exposed
+credentials, choose a coordinated history rewrite or clean repository migration,
+then scan a fresh clone and rerun `make phase6-acceptance`.
 
 ## Phase status
 
-| Phase | Status | Verification |
+| Phase | Implementation | Latest verification |
 |---|---|---|
-| 01 — Bronze/Silver | COMPLETE | Four unit tests and one Spark/Delta integration test passed. The canonical 15,457-record sample produced 12,673 Silver articles, 25 rejects, 2,759 duplicate inputs, and 15,431 article mentions. |
-| 02 — Silver/Gold | COMPLETE | Four unit tests, one Spark unit test, and one Spark integration test passed. Gold RAG, bounded Qdrant indexing/retrieval, Gold Analytics, and DuckDB publishing passed. |
-| 03 — Airflow | COMPLETE | Seven DAG tests passed with zero import errors. The original DAG remains valid, and the Phase 05 incremental DAG completed an actual Airflow retry/resume smoke run. |
-| 04 — Metadata CDC | COMPLETE | Seven unit tests and the full PostgreSQL → WAL → Debezium → Kafka lifecycle/recovery suite passed again after Phase 05. |
-| 05 — Pipeline hardening | COMPLETE | Nine unit tests, the isolated incremental integration suite, the three-partition backfill/reprocess/recovery suite, reconciliation, rebuild, health, and Airflow smoke checks passed. |
+| 01 — Bronze/Silver | COMPLETE | Four unit tests and the real Spark/Delta integration passed. The post-change CI integration also passed. |
+| 02 — Silver/Gold | COMPLETE | Four unit tests, one Spark unit test, and the full MinIO/Delta/Qdrant/DuckDB integration passed after Phase 06 changes. |
+| 03 — Airflow | COMPLETE | Seven DAG tests passed; all DAGs import with zero errors. Bootstrap starts healthy scheduler and webserver instances. |
+| 04 — Metadata CDC | COMPLETE | Seven unit tests plus snapshot, lifecycle, Connect restart, Kafka outage, and PostgreSQL restart tests passed. |
+| 05 — Pipeline hardening | COMPLETE | Nine unit tests, the full incremental integration, and the full recovery/backfill suite passed after Phase 06 changes. |
+| 06 — Local release/cloud readiness | IMPLEMENTED; RELEASE BLOCKED | Clean bootstrap, configuration profiles, E2E, rebuilds, health, and regression checks passed. Security audit keeps the aggregate report at FAIL. |
 
-Phase 06 has not started.
-
-## Phase 01–04 regression evidence
-
-The following existing gates passed against the actual local services:
-
-```bash
-make test-pipeline test-gold
-make airflow-test
-METADATA_CDC_PASSWORD=phase05-validation-only make metadata-cdc-test
-```
-
-Results:
-
-- Phase 01: 4 unit tests and 1 Spark/Delta integration test passed.
-- Phase 02: 4 unit tests, 1 Spark unit test, and 1 integration test passed.
-- Airflow: 7 tests passed; all DAG files imported without error.
-- Phase 04: 7 unit tests passed; snapshot, INSERT/UPDATE/DELETE/tombstone, Connect restart, Kafka outage recovery, and PostgreSQL restart all passed.
-- The Phase 04 publication is still restricted to `control_metadata.news_sources` and `control_metadata.pipeline_configs`. Phase 05 operational tables are not captured by Debezium.
-
-The established Phase 04 control-plane identifiers remain unchanged:
-
-- PostgreSQL database/schema: `financial_metadata.control_metadata`
-- Publication: `metadata_cdc_publication`
-- Replication slot: `metadata_cdc_slot`
-- Connector: `metadata-control-plane`
-- Topics: `platform.control_metadata.news_sources`, `platform.control_metadata.pipeline_configs`
-
-No article content is published to Kafka.
-
-## Phase 05 implemented local slice
-
-The hardened data plane is:
+## Verified local architecture
 
 ```text
-Date-partitioned input
-  -> immutable content-addressed Bronze object and logical partition reference
-  -> Delta MERGE into current Silver articles/mentions/rejects
-  -> affected-article manifest
-  -> Delta MERGE into current Gold documents/chunks
-  -> deterministic Gold Analytics refresh
-  -> atomic DuckDB replacement
-  -> targeted Qdrant upsert/delete
-  -> cross-system reconciliation
-  -> checkpoint advance after the complete publish boundary
+Existing dated news data
+  -> MinIO Bronze (immutable bytes + manifest)
+  -> Spark cleaning/validation/deduplication
+  -> Delta Silver
+  -> enrichment hook
+  -> Gold RAG documents/chunks -> Qdrant
+  -> Gold Analytics           -> DuckDB
+
+Airflow -> standalone job commands
+
+PostgreSQL control_metadata
+  -> WAL / pgoutput
+  -> Debezium metadata-control-plane
+  -> Kafka platform.control_metadata.*
 ```
 
-The application runner supports:
+Bronze, Silver, and Gold remain the durable hierarchy. Qdrant and DuckDB are
+derived serving systems and were proven rebuildable. Kafka carries only control
+metadata; news article content is not sent through Kafka.
+
+## Phase 01–05 verification
+
+The full pre-change baseline passed with the original phase commands. The
+following post-change regression evidence covers every modified execution path:
+
+- Phase 01: four unit tests and one Spark/Delta integration test passed.
+- Phase 02: four unit tests, one Spark unit test, and one full integration test
+  passed. The only warning was Python `ResourceWarning` output for Spark test
+  sockets after the successful test.
+- Phase 03: seven DAG structure/import tests passed; `airflow dags
+  list-import-errors` returned no rows.
+- Phase 04: seven unit tests passed. The connector and task were `RUNNING` on
+  Debezium `3.3.2.Final` after each recovery case.
+- Phase 05 incremental integration scenario `4e9e2939c2` passed in 133.284 s:
+  final state was 3 Silver articles, 3 Gold documents, 3 chunks, 3 Qdrant
+  points, and 3 DuckDB articles; duplicates, missing outputs, orphan outputs,
+  and stale points were all zero.
+- Phase 05 recovery scenario `64a7ceeca9` passed in 334.200 s: repeated backfill
+  affected counts were `[0, 0, 0]`, Qdrant required two attempts, upstream
+  successful stages remained at one attempt, and schema drift failed before
+  Bronze.
+
+The canonical CafeF snapshot results remain unchanged: 15,457 raw records,
+12,673 Silver articles, 25 rejects, 2,759 duplicate inputs, 15,431 mentions,
+12,673 Gold documents, and 66,260 chunks.
+
+## Phase 06 implementation
+
+### Configuration and storage boundaries
+
+- `Settings` now validates environment, provider, scheme, source, processing
+  version, and provider-specific authority before network or Spark work.
+- Transformation modules resolve logical keys through `object_uri()` and obtain
+  byte storage through `create_object_store()`.
+- Provider-specific Spark filesystem configuration lives in
+  `spark_storage.configure_storage()`.
+- The local provider remains MinIO/S3A. The future-cloud profile can express a
+  valid ABFSS authority but fails clearly before execution because the ADLS byte
+  adapter, Hadoop ABFS connector, and cloud identity belong to Phase 07.
+- Local, test, and future-cloud profiles validate successfully.
+- Service endpoints, ports, model paths, Qdrant collection, DuckDB path, and
+  credentials are externalized through environment variables and Compose.
+
+### Bootstrap and reset
+
+A controlled destructive reset removed only Phase 01–06 containers, their
+persistent data volumes, and generated `data/local` files. From that state:
 
 ```bash
-make pipeline-incremental DATE=YYYY-MM-DD
-make pipeline-backfill FROM=YYYY-MM-DD TO=YYYY-MM-DD
-make pipeline-reprocess DATE=YYYY-MM-DD
-make pipeline-resume RUN_ID=<existing-run-id>
-make pipeline-status
-make pipeline-reconcile
-make pipeline-health
+METADATA_CDC_PASSWORD=phase06-bootstrap-local-only make bootstrap
 ```
 
-`reprocess` requires the explicit `--force-reprocess` guard. Backfill and reprocess runs do not advance the normal incremental checkpoint.
+passed and initialized MinIO, Qdrant, PostgreSQL, Kafka, Debezium, Airflow,
+migrations, metadata seed, topics, connector, and storage. Running the same
+bootstrap command a second time also passed, proving practical idempotency.
 
-### Identity and state
+Eight long-running release services were running and healthy after bootstrap:
+MinIO, Qdrant, metadata PostgreSQL, Kafka, Debezium, Airflow PostgreSQL,
+Airflow scheduler, and Airflow webserver.
 
-- Application `run_id` is accepted independently of Airflow and reused on resume.
-- Processing identity contains pipeline name/config hash, source, partition date, trigger type, processing version, chunker version, and embedding settings where relevant.
-- Current Silver paths use `silver/current/{source}/{processing_version}/...`.
-- Current Gold paths use `gold/current/rag/{source}/{processing_version}/{chunker_version}/...` and `gold/current/analytics/{source}/{processing_version}/...`.
-- Bronze raw objects remain immutable and content-addressed. Logical references use `bronze/partitions/source={source}/processing_date={date}/{ingestion_id}.json`.
-- Silver writes an immutable per-run affected-article manifest below `silver/operations/...`.
-- Stable `article_id`, `content_hash`, `chunk_id`, and Qdrant UUID point-ID rules are preserved.
+`make local-stop`, `make reset-derived`, and the guarded
+`make local-reset-destructive CONFIRM=DELETE_LOCAL_RELEASE_DATA` provide soft
+stop, derived-state reset, and controlled destructive reset paths.
 
-### Operational PostgreSQL schema
+### E2E and rebuildability
 
-Migration `operations/migrations/0001_pipeline_operations.up.sql` creates schema `pipeline_operations` and:
+`make e2e-local` passed in 100.911 s using two stable, isolated fixture files:
 
-- `pipeline_runs`
-- `pipeline_stage_runs`
-- `pipeline_checkpoints`
-- `pipeline_partition_locks`
+- initial 4 raw observations produced 2 valid Silver articles, 1 reject, and 1
+  duplicate;
+- exact replay produced zero affected articles;
+- the next partition produced 1 new and 1 unchanged article;
+- final reconciliation found 3 Silver articles, 3 Gold documents, 3 chunks, 3
+  Qdrant points, and 3 DuckDB articles with no duplicate, missing, orphan, or
+  stale records;
+- semantic retrieval returned the expected article;
+- analytical query returned 3 articles;
+- current Gold was deleted and rebuilt from Silver;
+- the isolated Qdrant collection was deleted and rebuilt from Gold RAG;
+- the isolated DuckDB file was deleted and rebuilt directly from Gold Analytics.
 
-The tables record run/stage status, timings, counters, failures, checkpoints, and concurrency locks. They are outside the Phase 04 Debezium publication.
+No recrawl or external paid API was needed.
 
-### Incremental and recovery semantics
+### Metadata CDC evidence
 
-- Silver Delta MERGE inserts new articles and updates changed articles by `article_id`.
-- An unchanged partition produces zero affected articles.
-- A metadata-only mention change marks its article affected so Gold/Qdrant metadata is refreshed while stable content/chunk/point IDs are retained.
-- Gold RAG only rebuilds affected articles unless configuration identity requires a full bootstrap.
-- Gold Analytics currently performs a full deterministic refresh because the local dataset is small and aggregate correctness is clearer than partial aggregate repair.
-- DuckDB is published through a temporary file followed by atomic replacement; a failed build preserves the last good database and manifest.
-- Qdrant applies targeted upserts and stale-point deletion for affected articles. A model/dimension identity mismatch requires a full current-state rebuild.
-- Checkpoints advance only after all publish stages and reconciliation succeed.
-- Resume skips previously successful stages and retries failed/incomplete stages using the same run ID.
-- Resume rejects a changed source or data-shaping processing/chunking/embedding configuration before changing the stored run status; service endpoints may still change for outage recovery.
-- Partition locking rejects overlap from another active run and allows the owning run to resume.
+- database/schema: `financial_metadata.control_metadata`
+- captured tables: `control_metadata.news_sources`,
+  `control_metadata.pipeline_configs`
+- publication: `metadata_cdc_publication`
+- replication slot: `metadata_cdc_slot`
+- connector: `metadata-control-plane`
+- topics: `platform.control_metadata.news_sources`,
+  `platform.control_metadata.pipeline_configs`
+- snapshot mode: `initial`
+- event keys: table primary keys (`source_id` and `config_id`)
+- delete strategy: Debezium delete event followed by a tombstone
 
-## Phase 05 test evidence
+The acceptance run observed the initial snapshot and stable keys, UPDATE
+before/after images, DELETE/tombstone, connector restart recovery, an event
+committed while Kafka was unavailable, and CDC resumption after PostgreSQL
+restart.
 
-### Incremental/idempotency integration
+## Full Phase 06 acceptance
 
-`make test-hardening` passed the Spark/MinIO/Delta/Qdrant/DuckDB integration scenario `63c3e3de51`. The final fast unit suite contains nine tests and also passed:
+Command:
 
-- initial load: 2 affected articles
-- identical replay: 0 affected articles
-- one new article: 1 affected article
-- one content change: 1 affected article
-- one mention-only metadata change: 1 affected article
-- final current state: 3 Silver articles, 3 Gold documents, 3 Gold chunks, 3 Qdrant points, and 3 DuckDB articles
-- duplicate IDs, missing outputs, orphan outputs, and stale Qdrant points: all 0
-- a deliberately removed Qdrant point was detected and repaired
-- a simulated failure did not advance the checkpoint
-- an overlapping partition lock was rejected
+```bash
+METADATA_CDC_PASSWORD=phase06-bootstrap-local-only make phase6-acceptance
+```
 
-Evidence: `artifacts/phase5-integration-results.json`.
+Functional results:
 
-### Backfill/reprocess/recovery
+| Check | Result |
+|---|---|
+| Local/test/future-cloud profile validation | PASS |
+| Compose validation | PASS |
+| Data contract drift check | PASS |
+| Combined Phase 01/02/05/06 unit selection | PASS — 22 tests |
+| Phase 01 Spark integration | PASS |
+| Phase 02 Spark unit | PASS |
+| Phase 04 unit tests | PASS — 7 tests |
+| Airflow DAG tests/imports | PASS — 7 tests, zero import errors |
+| Isolated E2E and all rebuild checks | PASS |
+| Phase 05 backfill/recovery/schema drift | PASS |
+| CDC lifecycle and all restart/outage tests | PASS |
+| MinIO/Silver/Qdrant/DuckDB/PostgreSQL/Kafka/Debezium/Airflow health | PASS — 8/8 |
+| Configuration/security audit | FAIL — historical credentials |
+| Aggregate `artifacts/local-release-report.json` | FAIL, as required by the security gate |
 
-`make test-recovery` passed scenario `c62f09bb61`:
+The `make` command exits with code 2 only because `phase6-report` refuses to
+mark the release ready while the security audit is failing. The functional
+subcommands completed successfully.
 
-- explicit backfill range: 2026-08-01 through 2026-08-03
-- identical backfill replay affected counts: `[0, 0, 0]`
-- forced reprocess succeeded without advancing the normal checkpoint
-- simulated Qdrant outage occurred after Gold/Analytics/DuckDB had committed 5 documents
-- checkpoint remained absent while the run was failed
-- resume reused the same run ID, attempted Qdrant twice, and kept every successful upstream stage at one attempt
-- checkpoint advanced to 2026-08-04 only after recovery and reconciliation
-- unapproved source schema drift failed at `schema_validation` before Bronze
+## Machine coupling and secret audit
 
-Evidence: `artifacts/phase5-recovery-results.json`.
+The Phase 01–06 runtime/configuration scan found:
 
-### Airflow orchestration
+- zero developer-specific absolute paths;
+- zero static container IP dependencies;
+- zero current credential-pattern matches;
+- Docker DNS names, `/app` container paths, and host `localhost` endpoints only
+  where they are explicit local defaults;
+- 61 legacy NER notebook/script files with developer paths, classified
+  `UNUSED FOR NOW` because they do not participate in the released data pipeline.
 
-The thin `news_incremental_pipeline` DAG delegates to the standalone runner and contains no transformation logic. It supports normal, backfill, reprocess, and resume configuration, uses `max_active_runs=1`, and does not depend on XCom for data movement.
+`.env` is staged for removal from Git and `.gitignore` excludes `.env` variants
+while retaining `.env.example`. Placeholder templates contain no real cloud
+credentials. Historical secret values are never printed by the audit or report.
 
-Actual smoke evidence:
+The release Dockerfiles also passed a dependency sanity review. Their direct
+runtime packages are pinned, shared Kafka/PostgreSQL client versions agree, and
+the Airflow package matches its base image. The broader root/API/frontend
+dependency sets serve legacy application modules outside the Phase 01–06
+runtime, so Phase 06 did not perform an unrelated upgrade or removal.
 
-- first Airflow run: `smoke__20260929T163136689292Z__008d4d00` failed at Qdrant due to the container's inherited `nofile=1024` limit
-- Compose was corrected to give Qdrant a `nofile` soft/hard limit of 65,536
-- retry Airflow run: `smoke__20260929T164021686332Z__f237736e` succeeded
-- application run ID reused for recovery: `phase05-airflow-smoke-v1`
+## Local baseline
 
-The DAG schedule defaults to disabled because the checked-in sample is static; `AIRFLOW_NEWS_INCREMENTAL_SCHEDULE` enables an explicit local schedule.
+Verification host:
 
-### Rebuild and health evidence
+- 20 logical CPUs
+- 15.32 GiB RAM
+- Spark `local[2]`
+- two acceptance fixture files, 2,930 bytes total
+- Docker `29.8.1`
+- Phase 06 E2E: 100.911 s
+- Phase 05 incremental integration: 133.284 s
+- Phase 05 recovery/backfill: 334.200 s
 
-- `make qdrant-rebuild` rebuilt a current-state four-chunk recovery fixture to four Qdrant points with zero failures.
-- `make analytics-rebuild` rebuilt its analytics datasets and DuckDB file from four current Silver articles.
-- `make pipeline-health` passed 8/8 checks for MinIO, Silver Delta, Qdrant, DuckDB, PostgreSQL, Kafka, Debezium, and Airflow using the isolated recovery configuration.
+These measurements include local Docker/Spark startup overhead and warm caches.
+They are reproducibility observations, not production capacity claims.
 
-## Performance baseline
+## Cloud migration readiness
 
-The local baseline is recorded in `artifacts/phase5-performance-baseline.json` with hardware/runtime context and limitations.
+The mapping and migration manifest are documented in:
 
-Canonical sample observations:
+- `docs/cloud-migration-plan.md`
+- `docs/cloud-migration-manifest.md`
+- `docs/local-release-checklist.md`
+- `docs/decisions.md`
 
-- Bronze first write: 2.750 s; identical rerun: 1.100 s
-- Silver: 42.292 s for 15,457 inputs and 12,673 outputs
-- Gold chunking: 30.258 s for 66,260 chunks
-- Gold Analytics: 19.821 s
-- DuckDB publish: 0.084 s
-- Qdrant: 26.100 s for the bounded 96-point retrieval fixture; this is not a 66,260-point throughput claim
+MinIO can be replaced at the configuration, object-store adapter, Spark
+filesystem adapter, and deployment layers without rewriting cleaning,
+normalization, deduplication, chunking, or aggregation logic. Phase 07 still
+must add an ADLS byte adapter, compatible Hadoop ABFS dependencies, Azure
+identity, and nonproduction integration tests.
 
-The latest isolated Phase 05 correctness run took 142.974 s. The three-partition recovery suite took 363.626 s. These are developer-laptop measurements with warm dependency caches and startup overhead, not production capacity results.
+Kubernetes readiness is documented as a workload/state/readiness inventory.
+No manifests exist yet. The inventory records jobs, control processes, stateful
+services, persistent state, health signals, and configuration concerns so a
+later deployment can preserve the tested CLI boundaries.
 
-## Documentation and operator entry points
+## Exact clean reproduction
 
-- `docs/pipeline-operations.md` — runbook, identity/state rules, recovery, reconciliation, health, metrics, rebuilds, and limitations
-- `docs/local-architecture.md` — Phase 05 current-state architecture
-- `docs/airflow-local.md` — incremental DAG configuration and smoke procedure
-- `make help` — executable command list
+```bash
+git clone <repository-url>
+cd financial-news
+cp .env.example .env
+# Replace every change-me-* value with a local development secret.
+make local-reset-destructive CONFIRM=DELETE_LOCAL_RELEASE_DATA
+make bootstrap
+make phase6-acceptance
+```
 
-## Current limits and Phase 06 recommendation
+Until Git history remediation is complete, expect the last command to finish
+its functional tests and then return nonzero with the security audit as the sole
+failed gate. Regenerate the ignored evidence at any time with
+`make phase6-report`.
 
-- Gold Analytics deliberately refreshes the full small current dataset; partition-aware aggregate repair can be evaluated when scale justifies the added state model.
-- Silver mentions are cumulative for observed source metadata. A future explicit source-deletion contract is needed before safe hard-delete propagation.
-- Local Kafka is a single plaintext broker and Kafka Connect REST has no authentication.
-- Airflow's schedule remains opt-in while only static sample partitions exist.
-- Delta retention/VACUUM policy, production secrets, backups, alert routing, managed cloud adapters, and Kubernetes remain future work.
-- The next recommended phase is cloud/readiness hardening around storage adapters, retention, secrets, and deployment packaging while preserving the tested transformation contracts.
+## Required blocker decision
 
-Crawler, stock streaming, Flink, event-triggered Airflow, dynamic DAG generation, UI, Power BI, LLM generation, chatbot, and recommendation features remain outside the implemented scope.
+Root cause: `.env` was tracked in commit `9f56478`; adding `.gitignore` now does
+not remove earlier objects from Git history.
+
+Realistic options:
+
+1. Revoke/rotate the credentials and coordinate a `git filter-repo` history
+   rewrite plus force push. This preserves most repository history but every
+   collaborator must re-clone or carefully reset. **Recommended.**
+2. Revoke/rotate credentials and retain history. This minimizes repository
+   disruption, but the release cannot satisfy the no-secret-history gate.
+3. Revoke/rotate credentials and create a new clean repository from the current
+   tree. This gives the cleanest boundary but loses normal commit ancestry.
+
+After the owner completes option 1, scan a fresh clone and rerun the complete
+acceptance command. Do not tag `local-rc1` until the report is PASS.
+
+## Recommended Phase 07 sequence
+
+1. Resolve the credential/history blocker and make the Phase 06 report PASS.
+2. Approve cloud provider, region, network, identity, and analytical serving
+   choices.
+3. Create a nonproduction landing zone outside this Phase 06 change.
+4. Implement the ADLS byte adapter and ABFS Spark adapter at the existing
+   boundaries; run the same fixture contracts against a temporary container.
+5. Deploy and migrate PostgreSQL, then verify logical replication support.
+6. Deploy Kafka/Debezium and replay the metadata lifecycle and recovery tests.
+7. Deploy Spark execution and Airflow while retaining standalone job commands.
+8. Copy Bronze/Silver/Gold using the migration manifest; validate hashes,
+   counts, partitions, and Delta history.
+9. Rebuild Qdrant and the selected analytical serving projection from Gold.
+10. Run the full cloud acceptance gate before cutover and keep MinIO available
+    until rollback criteria expire.
+
+Crawler, frontend, LLM chatbot, Power BI, stock streaming, Flink, Azure
+provisioning, ADLS migration, Kubernetes, Terraform, and Helm remain outside
+Phase 06.

@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "release-a-short",
+    "context": "Ngân hàng ABC báo lãi.",
+    "index": 1,
+    "keyword": "lợi nhuận",
+    "link": "https://local-release.test/ngan-hang-abc.chn",
+    "metadata": {"Date": "01-09-2026", "Time": "08:00"},
+    "page": 1,
+    "post date": "01-09-2026 - 08:00 AM",
+    "summary": "Kết quả kinh doanh ngân hàng ABC.",
+    "ticket name": "Ngân hàng ABC",
+    "ticket symbol": "ABC",
+    "title": "Ngân hàng ABC công bố lợi nhuận"
+  },
+  {
+    "_id": "release-a-complete",
+    "context": "Ngân hàng ABC công bố lợi nhuận quý ba tăng mạnh nhờ thu nhập lãi thuần.",
+    "index": 2,
+    "keyword": "lợi nhuận",
+    "link": "https://local-release.test/ngan-hang-abc.chn",
+    "metadata": {"Date": "01-09-2026", "Time": "08:01"},
+    "page": 1,
+    "post date": "01-09-2026 - 08:01 AM",
+    "summary": "Kết quả kinh doanh ngân hàng ABC.",
+    "ticket name": "Ngân hàng ABC",
+    "ticket symbol": "ABC",
+    "title": "Ngân hàng ABC công bố lợi nhuận"
+  },
+  {
+    "_id": "release-b",
+    "context": "Thị trường chứng khoán tăng điểm, thanh khoản cải thiện trong phiên chiều.",
+    "index": 3,
+    "keyword": "chứng khoán",
+    "link": "https://local-release.test/thi-truong-tang.chn",
+    "metadata": {"Date": "01-09-2026", "Time": "09:00"},
+    "page": 1,
+    "post date": "01-09-2026 - 09:00 AM",
+    "summary": "Diễn biến thị trường.",
+    "ticket name": "VN-Index",
+    "ticket symbol": "VNINDEX",
+    "title": "Thị trường chứng khoán tăng điểm"
+  },
+  {
+    "_id": "release-malformed",
+    "context": "",
+    "index": 4,
+    "keyword": "malformed",
+    "link": "",
+    "metadata": {},
+    "page": 1,
+    "post date": "not-a-date",
+    "summary": "",
+    "ticket name": "",
+    "ticket symbol": "",
+    "title": ""
+  }
+]

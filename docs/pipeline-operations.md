@@ -2,6 +2,10 @@
 
 This document describes the hardened local financial-news batch pipeline. The implementation remains a batch and incremental batch system. Kafka is still restricted to Phase 04 control metadata; article bodies and chunks do not pass through Kafka.
 
+For Phase 06 clean bootstrap, reset, release acceptance, and rebuild commands,
+see [local-release.md](local-release.md). The Phase 05 commands below remain the
+standalone operational interfaces used by Airflow and the release gate.
+
 ## Architecture and normal processing
 
 ```mermaid

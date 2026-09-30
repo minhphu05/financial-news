@@ -14,7 +14,7 @@ from src.news_pipeline.enrichment import ArticleEnricher, NoOpEnricher
 from src.news_pipeline.gold_config import GoldSettings
 from src.news_pipeline.silver import ARTICLE_FIELDS, create_spark
 from src.news_pipeline.silver_reader import SilverArticleRepository
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 ENTITY_TYPE = T.ArrayType(T.MapType(T.StringType(), T.StringType()))
@@ -110,7 +110,7 @@ def build(
             raise ValueError("Silver rows do not match configured ingestion ID")
         chunk_count = chunks.count()
         (documents.write.format("delta").mode("overwrite").option("overwriteSchema", "true")
-            .save(settings.news.s3a(f"{settings.rag_prefix}/documents")))
+            .save(settings.news.object_uri(f"{settings.rag_prefix}/documents")))
         (chunks.write.format("delta").mode("overwrite").option("overwriteSchema", "true")
             .save(settings.chunks_uri))
         metrics = _metrics(
@@ -156,7 +156,7 @@ def _metrics(
         "empty_rejected_chunk_count": zero_chunk_articles,
         "processing_duration_seconds": round(time.monotonic() - started, 3),
         "completed_at": datetime.now(timezone.utc).isoformat(),
-        "documents_uri": settings.news.s3a(f"{settings.rag_prefix}/documents"),
+        "documents_uri": settings.news.object_uri(f"{settings.rag_prefix}/documents"),
         "chunks_uri": settings.chunks_uri,
     }
 
@@ -177,7 +177,7 @@ def build_incremental(
 
     started = time.monotonic()
     settings = settings.for_current_tables()
-    documents_uri = settings.news.s3a(f"{settings.rag_prefix}/documents")
+    documents_uri = settings.news.object_uri(f"{settings.rag_prefix}/documents")
     documents, chunks, zero_chunk_articles = _materialize(
         settings, spark, enricher or NoOpEnricher(), affected_article_ids
     )
@@ -246,7 +246,7 @@ def main() -> None:
     settings = GoldSettings.from_env()
     spark = create_spark(settings.news)
     try:
-        print(json.dumps(build(settings, spark, S3ObjectStore(settings.news)), ensure_ascii=False, indent=2))
+        print(json.dumps(build(settings, spark, create_object_store(settings.news)), ensure_ascii=False, indent=2))
     finally:
         spark.stop()
 

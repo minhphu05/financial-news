@@ -7,7 +7,7 @@ import uuid
 
 from src.news_pipeline.embedding import EmbeddingProvider, FastEmbedProvider
 from src.news_pipeline.gold_config import GoldSettings
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 def point_id(chunk_id: str, model_id: str) -> str:
@@ -308,7 +308,7 @@ def index_affected(
 def main() -> None:
     settings = GoldSettings.from_env()
     provider = FastEmbedProvider(settings)
-    print(json.dumps(index_chunks(settings, provider, S3ObjectStore(settings.news)), ensure_ascii=False, indent=2))
+    print(json.dumps(index_chunks(settings, provider, create_object_store(settings.news)), ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

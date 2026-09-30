@@ -31,6 +31,11 @@ x-airflow-common: &airflow-common
     PYTHONPATH: /app:/opt/airflow/dags
     PYSPARK_PYTHON: python3
     SPARK_LOCAL_IP: 127.0.0.1
+    ENVIRONMENT: ${ENVIRONMENT:-local}
+    OBJECT_STORAGE_PROVIDER: ${OBJECT_STORAGE_PROVIDER:-s3}
+    OBJECT_STORAGE_SCHEME: ${OBJECT_STORAGE_SCHEME:-s3a}
+    AZURE_STORAGE_ACCOUNT: ${AZURE_STORAGE_ACCOUNT:-}
+    AZURE_STORAGE_CONTAINER: ${AZURE_STORAGE_CONTAINER:-}
     NEWS_STORAGE_ENDPOINT: ${NEWS_STORAGE_ENDPOINT:-http://minio:9000}
     NEWS_STORAGE_ACCESS_KEY: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
     NEWS_STORAGE_SECRET_KEY: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
@@ -49,7 +54,7 @@ x-airflow-common: &airflow-common
     NEWS_EMBEDDING_PROVIDER: ${NEWS_EMBEDDING_PROVIDER:-fastembed}
     NEWS_EMBEDDING_MODEL: ${NEWS_EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
     NEWS_EMBEDDING_DIMENSION: ${NEWS_EMBEDDING_DIMENSION:-384}
-    NEWS_MODEL_CACHE_DIR: /opt/news-models
+    NEWS_MODEL_CACHE_DIR: ${NEWS_MODEL_CACHE_DIR:-/opt/news-models}
     HF_HOME: /opt/news-models/huggingface
     XDG_CACHE_HOME: /opt/news-models/cache
     NEWS_QDRANT_URL: ${NEWS_QDRANT_URL:-http://qdrant:6333}
@@ -57,7 +62,7 @@ x-airflow-common: &airflow-common
     NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
     AIRFLOW_NEWS_INDEX_LIMIT: ${AIRFLOW_NEWS_INDEX_LIMIT:-96}
     AIRFLOW_NEWS_INCREMENTAL_SCHEDULE: ${AIRFLOW_NEWS_INCREMENTAL_SCHEDULE:-}
-    NEWS_DUCKDB_PATH: /opt/airflow/local/analytics.duckdb
+    NEWS_DUCKDB_PATH: ${AIRFLOW_NEWS_DUCKDB_PATH:-/opt/airflow/local/analytics.duckdb}
     METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
     METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
     METADATA_POSTGRES_DB: ${METADATA_POSTGRES_DB:-financial_metadata}
@@ -124,6 +129,12 @@ services:
       - '${NEWS_MINIO_CONSOLE_PORT:-9001}:9001'
     volumes:
       - news_minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:9000/minio/health/ready"]
+      interval: 5s
+      timeout: 5s
+      retries: 18
+      start_period: 10s
     networks: [financial-net]
 
   airflow-postgres:
@@ -217,6 +228,11 @@ services:
       PYTHONPATH: /app
       PYSPARK_PYTHON: python3
       SPARK_LOCAL_IP: 127.0.0.1
+      ENVIRONMENT: ${ENVIRONMENT:-local}
+      OBJECT_STORAGE_PROVIDER: ${OBJECT_STORAGE_PROVIDER:-s3}
+      OBJECT_STORAGE_SCHEME: ${OBJECT_STORAGE_SCHEME:-s3a}
+      AZURE_STORAGE_ACCOUNT: ${AZURE_STORAGE_ACCOUNT:-}
+      AZURE_STORAGE_CONTAINER: ${AZURE_STORAGE_CONTAINER:-}
       NEWS_STORAGE_ENDPOINT: ${NEWS_STORAGE_ENDPOINT:-http://minio:9000}
       NEWS_STORAGE_ACCESS_KEY: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
       NEWS_STORAGE_SECRET_KEY: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
@@ -235,7 +251,7 @@ services:
       NEWS_EMBEDDING_PROVIDER: ${NEWS_EMBEDDING_PROVIDER:-fastembed}
       NEWS_EMBEDDING_MODEL: ${NEWS_EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
       NEWS_EMBEDDING_DIMENSION: ${NEWS_EMBEDDING_DIMENSION:-384}
-      NEWS_MODEL_CACHE_DIR: /opt/news-models
+      NEWS_MODEL_CACHE_DIR: ${NEWS_MODEL_CACHE_DIR:-/opt/news-models}
       HF_HOME: /opt/news-models/huggingface
       XDG_CACHE_HOME: /opt/news-models/cache
       NEWS_QDRANT_URL: ${NEWS_QDRANT_URL:-http://qdrant:6333}
@@ -255,6 +271,10 @@ services:
       AIRFLOW_API_BASE_URL: ${AIRFLOW_API_BASE_URL:-http://airflow-webserver:8080}
     volumes:
       - ./src:/app/src:ro
+      - ./config:/app/config:ro
+      - ./docker:/app/docker:ro
+      - ./docker-compose.yml:/app/docker-compose.yml:ro
+      - ./Makefile:/app/Makefile:ro
       - ./operations:/app/operations:ro
       - ./docs:/app/docs:ro
       - ./data:/app/data:ro
@@ -263,7 +283,8 @@ services:
       - news_spark_ivy:/opt/news-ivy
       - news_model_cache:/opt/news-models
     depends_on:
-      - minio
+      minio:
+        condition: service_healthy
     networks: [financial-net]
 
   mongodb:

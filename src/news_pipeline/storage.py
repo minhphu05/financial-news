@@ -16,6 +16,11 @@ class ObjectStore(Protocol):
 
 class S3ObjectStore:
     def __init__(self, settings: Settings):
+        if settings.storage_provider != "s3":
+            raise ValueError(
+                "The installed object-store adapter supports OBJECT_STORAGE_PROVIDER=s3 only; "
+                "ADLS requires the Phase 07 adapter"
+            )
         import boto3
         from botocore.config import Config
 
@@ -63,3 +68,26 @@ class S3ObjectStore:
         paginator = self.client.get_paginator("list_objects_v2")
         return [item["Key"] for page in paginator.paginate(Bucket=self.bucket, Prefix=prefix)
                 for item in page.get("Contents", [])]
+
+    def delete_prefix(self, prefix: str) -> int:
+        """Delete one explicitly scoped prefix; used by isolated release tests/reset tooling."""
+        keys = self.list_keys(prefix)
+        for start in range(0, len(keys), 1000):
+            batch = keys[start:start + 1000]
+            if batch:
+                self.client.delete_objects(
+                    Bucket=self.bucket,
+                    Delete={"Objects": [{"Key": key} for key in batch], "Quiet": True},
+                )
+        return len(keys)
+
+
+def create_object_store(settings: Settings) -> ObjectStore:
+    """Return the configured byte/object adapter and fail before any network work."""
+    settings.validate()
+    if settings.storage_provider == "s3":
+        return S3ObjectStore(settings)
+    raise ValueError(
+        "OBJECT_STORAGE_PROVIDER=adls is a validated future-cloud profile, but its byte "
+        "adapter is intentionally deferred to Phase 07"
+    )

@@ -52,7 +52,7 @@ def reconcile(
     started = time.monotonic()
     current = settings.for_current_tables()
     silver = spark.read.format("delta").load(current.silver_articles_uri).persist()
-    documents_uri = current.news.s3a(f"{current.rag_prefix}/documents")
+    documents_uri = current.news.object_uri(f"{current.rag_prefix}/documents")
     documents = spark.read.format("delta").load(documents_uri).persist()
     chunks = spark.read.format("delta").load(current.chunks_uri).persist()
     index = QdrantChunkIndex(
@@ -121,7 +121,7 @@ def reconcile(
 def main() -> None:
     import argparse
     from src.news_pipeline.silver import create_spark
-    from src.news_pipeline.storage import S3ObjectStore
+    from src.news_pipeline.storage import create_object_store
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-id", required=True)
@@ -130,7 +130,7 @@ def main() -> None:
     spark = create_spark(settings.news)
     try:
         print(json.dumps(
-            reconcile(settings, spark, S3ObjectStore(settings.news), run_id=args.run_id),
+            reconcile(settings, spark, create_object_store(settings.news), run_id=args.run_id),
             indent=2,
         ))
     finally:

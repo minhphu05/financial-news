@@ -50,8 +50,8 @@ class GoldSettings:
         return cls(
             news=news,
             source_ingestion_id=ingestion_id,
-            silver_articles_uri=os.getenv("NEWS_SILVER_ARTICLES_URI") or news.s3a(f"{silver_prefix}/articles"),
-            silver_mentions_uri=os.getenv("NEWS_SILVER_MENTIONS_URI") or news.s3a(f"{silver_prefix}/article_mentions"),
+            silver_articles_uri=os.getenv("NEWS_SILVER_ARTICLES_URI") or news.object_uri(f"{silver_prefix}/articles"),
+            silver_mentions_uri=os.getenv("NEWS_SILVER_MENTIONS_URI") or news.object_uri(f"{silver_prefix}/article_mentions"),
             rag_prefix=rag_prefix.strip("/"),
             analytics_prefix=analytics_prefix.strip("/"),
             chunk_size=size,
@@ -77,10 +77,10 @@ class GoldSettings:
 
     @property
     def chunks_uri(self) -> str:
-        return self.news.s3a(f"{self.rag_prefix}/chunks")
+        return self.news.object_uri(f"{self.rag_prefix}/chunks")
 
     def analytics_uri(self, dataset: str) -> str:
-        return self.news.s3a(f"{self.analytics_prefix}/{dataset}")
+        return self.news.object_uri(f"{self.analytics_prefix}/{dataset}")
 
     def for_current_tables(self) -> "GoldSettings":
         """Point serving jobs at the durable, merged current-state tables."""
@@ -94,8 +94,8 @@ class GoldSettings:
         current_analytics = f"gold/current/analytics/{self.news.source}/{self.news.processing_version}"
         return replace(
             self,
-            silver_articles_uri=self.news.s3a(f"{current_silver}/articles"),
-            silver_mentions_uri=self.news.s3a(f"{current_silver}/article_mentions"),
+            silver_articles_uri=self.news.object_uri(f"{current_silver}/articles"),
+            silver_mentions_uri=self.news.object_uri(f"{current_silver}/article_mentions"),
             rag_prefix=current_rag,
             analytics_prefix=current_analytics,
         )

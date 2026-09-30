@@ -9,7 +9,7 @@ from pyspark.sql import DataFrame, SparkSession, functions as F
 from src.news_pipeline.gold_config import ANALYTICS_DATASETS, GoldSettings
 from src.news_pipeline.silver import create_spark
 from src.news_pipeline.silver_reader import SilverArticleRepository
-from src.news_pipeline.storage import ObjectStore, S3ObjectStore
+from src.news_pipeline.storage import ObjectStore, create_object_store
 
 
 def analytical_frames(articles: DataFrame) -> dict[str, DataFrame]:
@@ -74,7 +74,7 @@ def main() -> None:
     settings = GoldSettings.from_env()
     spark = create_spark(settings.news)
     try:
-        print(json.dumps(build(settings, spark, S3ObjectStore(settings.news)), ensure_ascii=False, indent=2))
+        print(json.dumps(build(settings, spark, create_object_store(settings.news)), ensure_ascii=False, indent=2))
     finally:
         spark.stop()
 

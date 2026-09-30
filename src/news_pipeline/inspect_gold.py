@@ -4,12 +4,12 @@ import json
 import sys
 
 from src.news_pipeline.gold_config import ANALYTICS_DATASETS, GoldSettings
-from src.news_pipeline.storage import S3ObjectStore
+from src.news_pipeline.storage import create_object_store
 
 
 def main() -> None:
     settings = GoldSettings.from_env()
-    store = S3ObjectStore(settings.news)
+    store = create_object_store(settings.news)
     mode = sys.argv[1] if len(sys.argv) > 1 else "rag"
     if mode == "metrics":
         for key in (
@@ -28,7 +28,7 @@ def main() -> None:
     try:
         if mode == "rag":
             for name in ("documents", "chunks"):
-                frame = spark.read.format("delta").load(settings.news.s3a(f"{settings.rag_prefix}/{name}"))
+                frame = spark.read.format("delta").load(settings.news.object_uri(f"{settings.rag_prefix}/{name}"))
                 print(f"{name}: {frame.count()} rows; columns={frame.columns}")
             chunks = spark.read.format("delta").load(settings.chunks_uri)
             for row in chunks.orderBy("article_id", "chunk_index").select("article_id", "chunk_id", "title", "text").limit(20).collect():
