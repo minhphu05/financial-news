@@ -14,7 +14,7 @@ Existing CafeF data
   -> Qdrant + DuckDB
 ```
 
-Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka tạo control plane cho metadata cấu hình. Pipeline hỗ trợ incremental processing, backfill, reprocess, resume, checkpoint, reconciliation và health check.
+Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka tạo control plane cho metadata cấu hình. Prometheus, Grafana và các exporter cung cấp metrics, dashboard và alert local. Pipeline hỗ trợ incremental processing, backfill, reprocess, resume, checkpoint, reconciliation và health check.
 
 > Crawler không thuộc luồng triển khai hiện tại. Kafka Phase 04 chỉ truyền metadata điều khiển; nội dung bài báo không đi qua Kafka.
 
@@ -29,6 +29,7 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 - [Incremental, backfill và recovery](#incremental-backfill-và-recovery)
 - [Airflow](#airflow)
 - [Metadata CDC](#metadata-cdc)
+- [Monitoring và observability](#monitoring-và-observability)
 - [Kiểm thử](#kiểm-thử)
 - [Cấu hình](#cấu-hình)
 - [Cấu trúc repository](#cấu-trúc-repository)
@@ -47,8 +48,9 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 | 02 | Silver → Gold RAG/Qdrant và Gold Analytics/DuckDB | Hoàn thành |
 | 03 | Airflow orchestration | Hoàn thành |
 | 04 | PostgreSQL metadata → WAL → Debezium → Kafka | Hoàn thành |
-| 05 | Incremental, idempotency, backfill, recovery, reconciliation, observability | Hoàn thành |
+| 05 | Incremental, idempotency, backfill, recovery và reconciliation | Hoàn thành |
 | 06 | Local release candidate và cloud-readiness | Kỹ thuật hoàn thành; release gate `NOT READY` |
+| 07 | Local monitoring, dashboard, alert và failure observability | Hoàn thành |
 
 Cloud/Azure/Kubernetes migration chưa được thực hiện. Phase 06 chỉ tạo release
 local tái lập được, kiểm chứng adapter/config boundary và lập migration manifest.
@@ -99,10 +101,20 @@ flowchart TB
         GA --> DU[(DuckDB)]
     end
 
+    subgraph OBS[Observability]
+        EXP[Native metrics + exporters] --> PROM[Prometheus]
+        PROM --> GRAF[Grafana dashboards]
+        PROM --> ALERTS[Alert rules]
+    end
+
     AF --> SRC
     AF --> BR
     OPG -. run state / checkpoint .-> DP
     CP -. configuration events only .-> AF
+    OPG --> EXP
+    AF --> EXP
+    CP --> EXP
+    DP --> EXP
 ```
 
 ### Nguyên tắc chính
@@ -113,6 +125,7 @@ flowchart TB
 - **Airflow chỉ điều phối:** transformation nằm trong các CLI/job độc lập.
 - **Kafka là control plane:** không chứa bài báo, chunk hay embedding trong Phase 04/05.
 - **Local/cloud tách qua cấu hình:** local dùng MinIO, Docker Compose, PostgreSQL, Qdrant, DuckDB và Spark standalone.
+- **Monitoring đọc trạng thái hiện có:** exporter pipeline chỉ đọc PostgreSQL; metrics không thay đổi logic transformation.
 
 ## Dữ liệu hiện có
 
@@ -457,6 +470,41 @@ Test chứng minh initial snapshot, INSERT, UPDATE before/after, DELETE, tombsto
 
 Chi tiết: [docs/metadata-control-plane.md](docs/metadata-control-plane.md).
 
+## Monitoring và observability
+
+Phase 07 thêm monitoring plane đọc trạng thái từ Phase 01–06:
+
+```text
+native metrics + PostgreSQL pipeline_operations
+  -> pipeline/postgres/kafka/Airflow exporters
+  -> Prometheus
+  -> Grafana dashboards + Prometheus alert rules
+```
+
+Khởi động và kiểm tra:
+
+```bash
+make monitoring-up
+make monitoring-health
+make monitoring-test
+```
+
+Mở Prometheus tại <http://localhost:9090> và Grafana tại
+<http://localhost:3000>. Sáu dashboard được provision tự động cho overview,
+pipeline operations, data quality, freshness, metadata CDC và tài nguyên local.
+
+Chạy acceptance có failure injection Qdrant, Debezium và data quality:
+
+```bash
+make phase7-acceptance
+```
+
+Acceptance dùng source, object prefix, Qdrant collection và DuckDB file riêng,
+nhưng sẽ dừng Qdrant và pause connector Debezium trong thời gian ngắn rồi phục
+hồi chúng. Hướng dẫn metrics, alert, bảo mật và troubleshooting:
+[docs/monitoring-observability.md](docs/monitoring-observability.md). Baseline:
+[docs/local-monitoring-baseline.md](docs/local-monitoring-baseline.md).
+
 ## Kiểm thử
 
 ### Theo từng phase
@@ -497,6 +545,10 @@ make e2e-local
 
 # Final local release gate
 make phase6-acceptance
+
+# Phase 07 monitoring smoke/failure/recovery gate
+make monitoring-test
+make phase7-acceptance
 ```
 
 Các integration/recovery test khởi động Spark và service Docker thật nên có thể
@@ -512,6 +564,8 @@ release gate đầy đủ và có thể mất hơn 10 phút trên máy baseline.
 - `artifacts/gold-retrieval-smoke-results.json`
 - `artifacts/local-release-e2e.json` (generated, ignored)
 - `artifacts/local-release-report.json` (generated, ignored)
+- `artifacts/phase7-monitoring-baseline.json` (generated, ignored)
+- `artifacts/phase7-acceptance.json` (generated, ignored)
 
 ## Cấu hình
 
@@ -531,6 +585,7 @@ Các giá trị local có default trong Compose và có thể override bằng sh
 | CDC | `METADATA_CDC_USER`, `METADATA_CDC_PASSWORD`, `METADATA_CDC_PUBLICATION`, `METADATA_CDC_SLOT` |
 | Kafka/Debezium | `KAFKA_BOOTSTRAP_SERVERS`, `DEBEZIUM_CONNECT_URL`, `DEBEZIUM_CONNECTOR_NAME` |
 | Airflow | `AIRFLOW_ADMIN_*`, `AIRFLOW_DB_*`, `AIRFLOW_WEB_PORT`, `AIRFLOW_NEWS_INCREMENTAL_SCHEDULE` |
+| Monitoring | `PROMETHEUS_RETENTION`, `PROMETHEUS_EXTERNAL_PORT`, `GRAFANA_ADMIN_*`, `MONITORING_POSTGRES_*`, `MONITORING_*_ALLOWLIST` |
 
 Không hardcode `localhost` trong logic chạy container. Service trong Docker network dùng tên như `minio`, `qdrant`, `postgresql`, `kafka`, `debezium`; `localhost` chỉ dùng từ host qua cổng publish.
 
@@ -549,6 +604,8 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 | FastAPI cũ | `http://localhost:8000` |
 | Frontend cũ | `http://localhost:3002` |
 | Grafana | `http://localhost:3000` |
+| Prometheus | `http://localhost:9090` |
+| Pipeline metrics exporter | `http://localhost:9108` |
 
 ## Cấu trúc repository
 
@@ -565,11 +622,13 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 ├── docker/                     # Dockerfiles và service configuration
 ├── docs/                       # Architecture, contracts, runbooks, phase tasks
 ├── metadata/migrations/        # PostgreSQL control_metadata migrations
+├── monitoring/                 # Prometheus, alerts, Grafana dashboards, exporter config
 ├── operations/migrations/      # PostgreSQL pipeline_operations migrations
 ├── src/
 │   ├── news_pipeline/          # Bronze, Silver, Gold, serving, hardened runner
 │   ├── pipeline_operations/    # Run/stage/checkpoint/lock repository
 │   ├── metadata_control/       # PostgreSQL/Debezium/Kafka control plane
+│   ├── monitoring/             # Read-only Phase 07 metrics exporter
 │   ├── model/                  # ViFinNER research
 │   ├── scraper/                # Crawler ngoài scope hiện tại
 │   ├── rag/                    # RAG/API modules có từ trước
@@ -621,6 +680,22 @@ Phase 06 đã chứng minh trên fixture ổn định:
   đây; giá trị không được in ra log và release gate giữ trạng thái `NOT READY`.
 
 Performance và giới hạn phép đo: [artifacts/phase5-performance-baseline.json](artifacts/phase5-performance-baseline.json).
+
+Phase 07 đã chứng minh:
+
+- Prometheus scrape đủ pipeline, PostgreSQL, Kafka, Airflow, MinIO, Qdrant và
+  host metrics; exporter pipeline collection thành công.
+- Grafana tự provision 6 dashboard và Prometheus nạp 12 alert rule.
+- Hai normal run thành công; malformed fixture ghi nhận 1 invalid record và
+  làm data-quality alert firing.
+- Khi Qdrant dừng, pipeline failure và service alert được quan sát; resume cùng
+  run thành công sau khi Qdrant phục hồi.
+- Khi Debezium connector pause, connector alert firing trong khi Kafka và
+  PostgreSQL vẫn healthy; resume làm alert resolved.
+- Cardinality audit không tìm thấy label bị cấm.
+
+Baseline đo được trên máy local nằm tại
+[docs/local-monitoring-baseline.md](docs/local-monitoring-baseline.md).
 
 ## Dừng và dọn môi trường
 
@@ -701,10 +776,13 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 - Qdrant và DuckDB là derived serving stores, có thể tạm thời chậm hơn durable Gold khi service lỗi.
 - Chưa có production secret management, TLS, backup, alert routing, Delta retention/VACUUM hay cloud deployment.
 - ViFinNER enrichment có interface nhưng chưa bị buộc vào pipeline runtime.
-- ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang Phase 07.
+- cAdvisor trên Docker/cgroup-v2 của máy baseline không cung cấp Compose
+  container-name label ổn định; resource dashboard hiện dùng host metrics.
+- Ngưỡng alert Phase 07 là default cho local development, chưa phải production SLA.
+- ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang Phase 08.
 - `.env` cũ vẫn tồn tại trong lịch sử Git. Cần revoke/rotate các credential liên
   quan và quyết định history rewrite hoặc tạo lịch sử sạch trước cloud migration.
-- Crawler, stock streaming, Flink, Kubernetes, Terraform, Helm, Power BI, frontend integration và LLM generation không thuộc Phase 06.
+- Crawler, stock streaming, Flink, Kubernetes, Terraform, Helm, Power BI, frontend integration và LLM generation không thuộc pipeline local Phase 01–07.
 
 ## Tài liệu
 
@@ -717,12 +795,14 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 5. [docs/airflow-local.md](docs/airflow-local.md) — Airflow setup, DAG và smoke test.
 6. [docs/metadata-control-plane.md](docs/metadata-control-plane.md) — PostgreSQL/Debezium/Kafka CDC.
 7. [docs/local-release.md](docs/local-release.md) — bootstrap, reset, acceptance, fixture và baseline.
-8. [docs/cloud-migration-plan.md](docs/cloud-migration-plan.md) — mapping, ADLS và Kubernetes readiness.
-9. [docs/cloud-migration-manifest.md](docs/cloud-migration-manifest.md) — dữ liệu/config/validation/rollback theo component.
-10. [docs/local-release-checklist.md](docs/local-release-checklist.md) — release gate `local-rc1`.
-11. [docs/decisions.md](docs/decisions.md) — các quyết định kiến trúc.
-12. [docs/THESIS_ALIGNMENT.md](docs/THESIS_ALIGNMENT.md) — đối chiếu với đề cương khóa luận.
-13. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
+8. [docs/monitoring-observability.md](docs/monitoring-observability.md) — metrics, dashboard, alert và failure demo.
+9. [docs/local-monitoring-baseline.md](docs/local-monitoring-baseline.md) — baseline Phase 07 và giới hạn phép đo.
+10. [docs/cloud-migration-plan.md](docs/cloud-migration-plan.md) — mapping, ADLS và Kubernetes readiness.
+11. [docs/cloud-migration-manifest.md](docs/cloud-migration-manifest.md) — dữ liệu/config/validation/rollback theo component.
+12. [docs/local-release-checklist.md](docs/local-release-checklist.md) — release gate `local-rc1`.
+13. [docs/decisions.md](docs/decisions.md) — các quyết định kiến trúc.
+14. [docs/THESIS_ALIGNMENT.md](docs/THESIS_ALIGNMENT.md) — đối chiếu với đề cương khóa luận.
+15. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
 
 Xem toàn bộ command đang hỗ trợ:
 

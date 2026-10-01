@@ -1,0 +1,4 @@
+# Unmatched StatsD names are exported with dots converted to underscores.
+# Airflow DAG/task names are bounded by the checked-in DAG set; run IDs are not
+# turned into Prometheus labels.
+mappings: []

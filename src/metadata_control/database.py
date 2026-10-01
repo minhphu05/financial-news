@@ -49,6 +49,59 @@ def provision(settings: MetadataSettings) -> dict:
                     sql.Identifier(settings.schema), role
                 )
             )
+            # The metrics exporter gets a separate login.  It has PostgreSQL's
+            # read-only monitoring role plus SELECT on the two application
+            # schemas; it cannot mutate pipeline or control-plane state.
+            cursor.execute(
+                "SELECT 1 FROM pg_roles WHERE rolname = %s",
+                (settings.monitoring_user,),
+            )
+            monitoring_role = sql.Identifier(settings.monitoring_user)
+            monitoring_password = sql.Literal(settings.monitoring_password)
+            if cursor.fetchone() is None:
+                cursor.execute(
+                    sql.SQL(
+                        "CREATE ROLE {} WITH LOGIN NOSUPERUSER NOCREATEDB "
+                        "NOCREATEROLE NOREPLICATION PASSWORD {}"
+                    ).format(monitoring_role, monitoring_password)
+                )
+            else:
+                cursor.execute(
+                    sql.SQL(
+                        "ALTER ROLE {} WITH LOGIN NOSUPERUSER NOCREATEDB "
+                        "NOCREATEROLE NOREPLICATION PASSWORD {}"
+                    ).format(monitoring_role, monitoring_password)
+                )
+            cursor.execute(sql.SQL("GRANT pg_monitor TO {}").format(monitoring_role))
+            cursor.execute(
+                sql.SQL("GRANT CONNECT ON DATABASE {} TO {}").format(
+                    sql.Identifier(settings.database), monitoring_role
+                )
+            )
+            for readable_schema in (settings.schema, "pipeline_operations"):
+                cursor.execute(
+                    "SELECT 1 FROM pg_namespace WHERE nspname = %s",
+                    (readable_schema,),
+                )
+                if cursor.fetchone() is None:
+                    continue
+                schema_id = sql.Identifier(readable_schema)
+                cursor.execute(
+                    sql.SQL("GRANT USAGE ON SCHEMA {} TO {}").format(
+                        schema_id, monitoring_role
+                    )
+                )
+                cursor.execute(
+                    sql.SQL("GRANT SELECT ON ALL TABLES IN SCHEMA {} TO {}").format(
+                        schema_id, monitoring_role
+                    )
+                )
+                cursor.execute(
+                    sql.SQL(
+                        "ALTER DEFAULT PRIVILEGES IN SCHEMA {} "
+                        "GRANT SELECT ON TABLES TO {}"
+                    ).format(schema_id, monitoring_role)
+                )
             cursor.execute("SELECT 1 FROM pg_publication WHERE pubname = %s", (settings.publication,))
             if cursor.fetchone() is None:
                 cursor.execute(
@@ -62,6 +115,8 @@ def provision(settings: MetadataSettings) -> dict:
         "cdc_user": settings.cdc_user,
         "publication": settings.publication,
         "captured_tables": list(settings.captured_tables),
+        "monitoring_user": settings.monitoring_user,
+        "monitoring_access": "pg_monitor plus read-only SELECT",
     }
     print(json.dumps(result, indent=2))
     return result

@@ -22,6 +22,7 @@ RUN python3 -m pip install --no-cache-dir \
         duckdb==1.4.1 \
         fastembed==0.8.0 \
         psycopg[binary]==3.2.6 \
-        qdrant-client==1.13.1
+        qdrant-client==1.13.1 \
+        statsd==4.0.1
 
 WORKDIR /app

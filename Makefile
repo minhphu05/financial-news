@@ -21,7 +21,9 @@ COMPOSE ?= docker compose
         test-hardening test-recovery test-idempotency test-incremental test-backfill phase5-test \
         release-prerequisites release-config-check release-runtime-check release-audit bootstrap local-stop \
         reset-derived local-reset-destructive test-release e2e-local ci-test \
-        phase6-health phase6-report phase6-acceptance
+        phase6-health phase6-report phase6-acceptance \
+        monitoring-up monitoring-down monitoring-logs monitoring-health monitoring-test \
+        monitoring-baseline test-monitoring phase7-acceptance
 
 help:
 	@echo "Available targets:"
@@ -86,6 +88,13 @@ help:
 	@echo "  make e2e-local           - Run isolated Bronze-to-serving and rebuild acceptance."
 	@echo "  make ci-test             - Run the CI-friendly contract/unit/DAG test selection."
 	@echo "  make phase6-acceptance   - Run the final local release gate and write its report."
+	@echo "  make monitoring-up      - Start the Phase 07 Prometheus/Grafana observability plane."
+	@echo "  make monitoring-down    - Stop monitoring services without deleting volumes."
+	@echo "  make monitoring-logs    - Follow Prometheus, Grafana, and exporter logs."
+	@echo "  make monitoring-health  - Check services through metrics and native health signals."
+	@echo "  make monitoring-test    - Run monitoring unit and smoke tests."
+	@echo "  make monitoring-baseline - Run two isolated pipeline samples and capture a baseline."
+	@echo "  make phase7-acceptance  - Run normal, quality, failure, recovery, CDC, and regression checks."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -358,6 +367,48 @@ phase6-report:
 
 phase6-acceptance: release-config-check release-audit ci-test e2e-local test-recovery metadata-cdc-test phase6-health
 	$(MAKE) phase6-report
+
+# Phase 07: local metrics, dashboards, alerts, and failure observability.
+MONITORING_SERVICES = platform-metrics-exporter postgres-exporter kafka-exporter \
+	airflow-statsd-exporter cadvisor node-exporter prometheus grafana
+
+monitoring-up: hardening-build
+	mkdir -p artifacts data/local
+	$(COMPOSE) up -d --wait minio qdrant postgresql kafka
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.pipeline_operations.migrations up
+	$(MAKE) metadata-up
+	$(COMPOSE) up -d airflow-statsd-exporter
+	$(COMPOSE) up airflow-init
+	$(COMPOSE) up -d --wait airflow-scheduler airflow-webserver
+	$(COMPOSE) up -d --wait $(MONITORING_SERVICES)
+
+monitoring-down:
+	$(COMPOSE) stop grafana prometheus node-exporter cadvisor airflow-statsd-exporter \
+		kafka-exporter postgres-exporter platform-metrics-exporter
+
+monitoring-logs:
+	$(COMPOSE) logs -f --tail=200 grafana prometheus platform-metrics-exporter \
+		postgres-exporter kafka-exporter airflow-statsd-exporter
+
+test-monitoring:
+	$(COMPOSE) build metadata-tools
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m unittest tests.test_monitoring -v
+	python3 -m json.tool monitoring/grafana/provisioning/dashboards/json/1-financial-news-overview.json >/dev/null
+	$(COMPOSE) config --quiet
+
+monitoring-health: monitoring-up
+	python3 tools/monitoring.py health
+
+monitoring-test: monitoring-up test-monitoring
+	python3 tools/monitoring.py smoke
+
+monitoring-baseline: monitoring-up
+	python3 tools/phase7_acceptance.py --mode baseline
+
+phase7-acceptance: monitoring-up test-monitoring
+	python3 tools/phase7_acceptance.py --mode acceptance
+	$(MAKE) ci-test
+	$(MAKE) phase6-health
 
 up:
 	$(COMPOSE) up -d

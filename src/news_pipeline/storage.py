@@ -19,7 +19,7 @@ class S3ObjectStore:
         if settings.storage_provider != "s3":
             raise ValueError(
                 "The installed object-store adapter supports OBJECT_STORAGE_PROVIDER=s3 only; "
-                "ADLS requires the Phase 07 adapter"
+                "ADLS requires the Phase 08 adapter"
             )
         import boto3
         from botocore.config import Config
@@ -89,5 +89,5 @@ def create_object_store(settings: Settings) -> ObjectStore:
         return S3ObjectStore(settings)
     raise ValueError(
         "OBJECT_STORAGE_PROVIDER=adls is a validated future-cloud profile, but its byte "
-        "adapter is intentionally deferred to Phase 07"
+        "adapter is intentionally deferred to Phase 08"
     )

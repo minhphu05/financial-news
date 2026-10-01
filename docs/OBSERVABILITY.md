@@ -1,5 +1,10 @@
 # Observability — Logs, Metrics, and Dashboards
 
+> **Legacy scraper/application stack — UNUSED FOR NOW.** This file describes
+> the earlier Loki/Fluent Bit path. The implemented Phase 07 financial-news
+> pipeline monitoring plane is documented in
+> [monitoring-observability.md](monitoring-observability.md).
+
 This document explains the full observability stack: JSON structured logging, FluentBit log shipping, Loki log storage, Prometheus metrics, and Grafana dashboards.
 
 ---

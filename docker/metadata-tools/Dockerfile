@@ -2,6 +2,7 @@ FROM python:3.12-slim
 
 RUN pip install --no-cache-dir \
     confluent-kafka==2.8.2 \
+    prometheus-client==0.21.1 \
     psycopg[binary]==3.2.6
 
 WORKDIR /app

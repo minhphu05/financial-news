@@ -12,7 +12,7 @@ def configure_storage(builder, settings: Settings):
     settings.validate()
     if settings.storage_provider != "s3":
         raise ValueError(
-            "Spark ADLS execution is not installed in the local release. Phase 07 must add "
+            "Spark ADLS execution is not installed in the local release. Phase 08 must add "
             "the Hadoop Azure connector and authentication adapter."
         )
     endpoint = settings.endpoint.removesuffix("/")

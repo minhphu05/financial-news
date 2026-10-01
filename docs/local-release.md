@@ -47,7 +47,7 @@ The canonical user-facing contract is `.env.example`. `Settings` validates the
 environment, provider, scheme, authority, source, and processing version before
 network or Spark work begins. Local data access uses `create_object_store()` and
 `configure_storage()` boundaries. ADLS execution deliberately fails with a
-Phase 07 message because its byte adapter, Hadoop ABFS connector, and identity
+Phase 08 message because its byte adapter, Hadoop ABFS connector, and identity
 configuration are not installed in this release.
 
 ## Reset and rebuild
@@ -145,7 +145,7 @@ a local reproducibility baseline and do not predict cloud throughput.
 - The deterministic Phase 06 fixture embedding verifies retrieval mechanics;
   Phase 02 tests separately verify the pinned FastEmbed adapter.
 - ADLS, Azure identity, Kubernetes resources, and production secret management
-  are deferred to Phase 07.
+  are deferred to Phase 08.
 - The current tree removes the formerly tracked `.env`, but likely credentials
   remain in Git history. Revoke/rotate them and choose a coordinated history
   rewrite or clean-repository migration before the release verdict can become

@@ -23,6 +23,10 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__PARALLELISM: ${AIRFLOW_PARALLELISM:-4}
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${AIRFLOW_DB_USER:-airflow}:${AIRFLOW_DB_PASSWORD:-airflow}@airflow-postgres:5432/${AIRFLOW_DB_NAME:-airflow}
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    AIRFLOW__METRICS__STATSD_ON: 'true'
+    AIRFLOW__METRICS__STATSD_HOST: airflow-statsd-exporter
+    AIRFLOW__METRICS__STATSD_PORT: 9125
+    AIRFLOW__METRICS__STATSD_PREFIX: airflow
     AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW_WEBSERVER_SECRET_KEY:-local-airflow-webserver-key}
     AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY:-}
     AIRFLOW_ADMIN_USERNAME: ${AIRFLOW_ADMIN_USERNAME:-airflow}
@@ -102,6 +106,8 @@ x-metadata-tools-common: &metadata-tools-common
     METADATA_CONTROL_SCHEMA: ${METADATA_CONTROL_SCHEMA:-control_metadata}
     METADATA_CDC_PUBLICATION: ${METADATA_CDC_PUBLICATION:-metadata_cdc_publication}
     METADATA_CDC_SLOT: ${METADATA_CDC_SLOT:-metadata_cdc_slot}
+    MONITORING_POSTGRES_USER: ${MONITORING_POSTGRES_USER:-monitoring_exporter}
+    MONITORING_POSTGRES_PASSWORD: ${MONITORING_POSTGRES_PASSWORD:-monitoring_password}
     METADATA_CDC_TOPIC_PREFIX: ${METADATA_CDC_TOPIC_PREFIX:-platform}
     METADATA_CONSUMER_GROUP: ${METADATA_CONSUMER_GROUP:-metadata-inspector}
     KAFKA_BOOTSTRAP_SERVERS: ${KAFKA_BOOTSTRAP_SERVERS:-kafka:9092}
@@ -124,6 +130,7 @@ services:
     environment:
       MINIO_ROOT_USER: ${NEWS_STORAGE_ACCESS_KEY:-minioadmin}
       MINIO_ROOT_PASSWORD: ${NEWS_STORAGE_SECRET_KEY:-minioadmin}
+      MINIO_PROMETHEUS_AUTH_TYPE: ${MINIO_PROMETHEUS_AUTH_TYPE:-public}
     ports:
       - '${NEWS_MINIO_PORT:-9000}:9000'
       - '${NEWS_MINIO_CONSOLE_PORT:-9001}:9001'
@@ -279,6 +286,7 @@ services:
       - ./docs:/app/docs:ro
       - ./data:/app/data:ro
       - ./tests:/app/tests:ro
+      - ./tools:/app/tools:ro
       - ./data/local:/app/local
       - news_spark_ivy:/opt/news-ivy
       - news_model_cache:/opt/news-models
@@ -532,6 +540,72 @@ services:
       start_period: 30s
     networks: [financial-net]
 
+  platform-metrics-exporter:
+    <<: *metadata-tools-common
+    command: python3 -m src.monitoring.exporter
+    restart: unless-stopped
+    environment:
+      <<: *metadata-tools-env
+      MONITORING_PIPELINE_EXPORTER_PORT: 9108
+      MONITORING_PIPELINE_ALLOWLIST: ${MONITORING_PIPELINE_ALLOWLIST:-financial_news_incremental,phase05_integration,local_release_e2e}
+      MONITORING_SOURCE_ALLOWLIST: ${MONITORING_SOURCE_ALLOWLIST:-cafef.vn,local-release.test,phase05-it.local,phase05-recovery.local,phase07-monitoring.local}
+      AIRFLOW_HEALTH_URL: ${AIRFLOW_HEALTH_URL:-http://airflow-webserver:8080/health}
+    ports:
+      - "${MONITORING_PIPELINE_EXPORTER_EXTERNAL_PORT:-9108}:9108"
+    depends_on:
+      postgresql:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+      debezium:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request as u; u.urlopen('http://localhost:9108/health', timeout=2)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter:v0.16.0
+    restart: unless-stopped
+    environment:
+      DATA_SOURCE_NAME: postgresql://${MONITORING_POSTGRES_USER:-monitoring_exporter}:${MONITORING_POSTGRES_PASSWORD:-monitoring_password}@postgresql:5432/${METADATA_POSTGRES_DB:-financial_metadata}?sslmode=disable
+    ports:
+      - "${POSTGRES_EXPORTER_EXTERNAL_PORT:-9187}:9187"
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    networks: [financial-net]
+
+  kafka-exporter:
+    image: danielqsj/kafka-exporter:v1.9.0
+    restart: unless-stopped
+    command:
+      - --kafka.server=kafka:9092
+      - --topic.filter=platform\\.control_metadata\\..*
+      - --group.filter=metadata-.*|phase07-.*
+      - --log.level=warn
+    ports:
+      - "${KAFKA_EXPORTER_EXTERNAL_PORT:-9308}:9308"
+    depends_on:
+      kafka:
+        condition: service_healthy
+    networks: [financial-net]
+
+  airflow-statsd-exporter:
+    image: prom/statsd-exporter:v0.28.0
+    restart: unless-stopped
+    command:
+      - --statsd.listen-udp=:9125
+      - --web.listen-address=:9102
+      - --statsd.mapping-config=/etc/statsd-exporter/mapping.yaml
+    ports:
+      - "${AIRFLOW_STATSD_EXPORTER_EXTERNAL_PORT:-9102}:9102"
+    volumes:
+      - ./monitoring/airflow/statsd-mapping.yaml:/etc/statsd-exporter/mapping.yaml:ro
+    networks: [financial-net]
+
   metadata-tools:
     <<: *metadata-tools-common
     profiles: [metadata-tools]
@@ -568,17 +642,25 @@ services:
     container_name: financial-grafana
     restart: unless-stopped
     depends_on:
-      loki:
+      prometheus:
         condition: service_healthy
     environment:
       GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
       GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
       GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
     ports:
       - "${GRAFANA_EXTERNAL_PORT:-3000}:3000"
     volumes:
-      - ./docker/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
       - grafana_data:/var/lib/grafana
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
     networks: [financial-net]
 
   fluent-bit:
@@ -602,14 +684,30 @@ services:
     container_name: financial-prometheus
     restart: unless-stopped
     command:
-      - "--config.file=/etc/prometheus/prometheus.yaml"
+      - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.path=/prometheus"
-      - "--storage.tsdb.retention.time=30d"
+      - "--storage.tsdb.retention.time=${PROMETHEUS_RETENTION:-7d}"
     ports:
       - "${PROMETHEUS_EXTERNAL_PORT:-9090}:9090"
     volumes:
-      - ./docker/prometheus/prometheus.yaml:/etc/prometheus/prometheus.yaml:ro
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./monitoring/prometheus/rules:/etc/prometheus/rules:ro
       - prometheus_data:/prometheus
+    depends_on:
+      platform-metrics-exporter:
+        condition: service_healthy
+      postgres-exporter:
+        condition: service_started
+      kafka-exporter:
+        condition: service_started
+      airflow-statsd-exporter:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "promtool", "check", "healthy"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 15s
     networks: [financial-net]
 
   pushgateway:

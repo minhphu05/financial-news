@@ -10,6 +10,7 @@ from unittest.mock import patch
 from src.news_pipeline.config import Settings
 from src.news_pipeline.spark_storage import configure_storage
 from src.news_pipeline.storage import create_object_store
+from tools.local_release import credential_shaped_env_names
 
 
 class FakeBuilder:
@@ -60,8 +61,16 @@ class LocalReleaseUnitTest(unittest.TestCase):
             settings.object_uri("silver/articles"),
             "abfss://financial-news@thesisstore.dfs.core.windows.net/silver/articles",
         )
-        with self.assertRaisesRegex(ValueError, "Phase 07"):
+        with self.assertRaisesRegex(ValueError, "Phase 08"):
             create_object_store(settings)
+
+    def test_release_audit_reports_only_historical_secret_names(self):
+        names = credential_shaped_env_names(
+            "REAL_API_TOKEN=" + ("x" * 32) + "\n"
+            "PLACEHOLDER_SECRET=change-me-for-local\n"
+            "ORDINARY_VALUE=" + ("y" * 40) + "\n"
+        )
+        self.assertEqual(names, {"REAL_API_TOKEN"})
 
     def test_runtime_modules_do_not_call_legacy_s3a_helper(self):
         root = Path("/app/src/news_pipeline") if Path("/app").exists() else Path("src/news_pipeline")

@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "phase07-quality-valid",
+    "context": "Công ty CCC ghi nhận một bản tin tài chính hợp lệ cho bài kiểm tra chất lượng.",
+    "index": 3,
+    "keyword": "chất lượng",
+    "link": "https://phase07-monitoring.local/article-3.chn",
+    "metadata": {"Date": "08-09-2026", "Time": "09:00"},
+    "page": 1,
+    "post date": "08-09-2026 - 09:00 AM",
+    "summary": "Bản ghi hợp lệ có kiểm soát.",
+    "ticket name": "Công ty CCC",
+    "ticket symbol": "CCC",
+    "title": "Bản ghi kiểm thử chất lượng hợp lệ"
+  },
+  {
+    "_id": "phase07-quality-invalid",
+    "context": "",
+    "index": 4,
+    "keyword": "chất lượng",
+    "link": "https://phase07-monitoring.local/article-invalid.chn",
+    "metadata": {"Date": "08-09-2026", "Time": "09:05"},
+    "page": 1,
+    "post date": "08-09-2026 - 09:05 AM",
+    "summary": "Bản ghi cố ý thiếu nội dung để kiểm tra reject.",
+    "ticket name": "Công ty DDD",
+    "ticket symbol": "DDD",
+    "title": "Bản ghi kiểm thử chất lượng không hợp lệ"
+  }
+]

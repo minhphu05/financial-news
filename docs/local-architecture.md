@@ -1,13 +1,14 @@
 # Local financial-news data architecture
 
-This document describes the implemented local release and labels future targets separately. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md); Phase 04 control metadata CDC is documented in [metadata-control-plane.md](metadata-control-plane.md); Phase 05 incremental operations are documented in [pipeline-operations.md](pipeline-operations.md); and Phase 06 release operation is documented in [local-release.md](local-release.md).
+This document describes the implemented local release and labels future targets separately. The repository baseline is audited in [repo-audit.md](repo-audit.md); the runnable data jobs are described in [bronze-silver-local.md](bronze-silver-local.md) and [silver-gold-local.md](silver-gold-local.md); Phase 03 orchestration is documented in [airflow-local.md](airflow-local.md); Phase 04 control metadata CDC is documented in [metadata-control-plane.md](metadata-control-plane.md); Phase 05 incremental operations are documented in [pipeline-operations.md](pipeline-operations.md); Phase 06 release operation is documented in [local-release.md](local-release.md); and Phase 07 monitoring is documented in [monitoring-observability.md](monitoring-observability.md).
 
 ## Status boundary
 
 **IMPLEMENTED LOCAL (`local-rc1`):** Docker Compose, MinIO/S3A, Spark 3.5.3,
 Delta 3.2.1, Airflow LocalExecutor, PostgreSQL, Debezium, one Kafka broker,
-Qdrant, DuckDB, bootstrap/reset tooling, deterministic acceptance fixtures, and
-derived-store rebuild tests.
+Qdrant, DuckDB, bootstrap/reset tooling, deterministic acceptance fixtures,
+derived-store rebuild tests, Prometheus, provisioned Grafana dashboards, and
+read-only/native metrics exporters.
 
 **FUTURE CLOUD TARGET:** ADLS Gen2 or approved storage, scalable Spark, managed
 or Kubernetes Airflow/PostgreSQL/Kafka/Qdrant, workload identity, and Kubernetes
@@ -16,7 +17,7 @@ credential exists in Phase 06. See [cloud-migration-plan.md](cloud-migration-pla
 
 ## Current implemented slice
 
-The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 runs these entrypoints through Airflow 2.11.2. Phase 04 adds a separate control plane in which PostgreSQL metadata changes flow through Debezium to compacted Kafka topics. Phase 05 adds current-state Silver/Gold Delta tables, affected-record merges, PostgreSQL run/checkpoint/lock state, restartable CLI and Airflow execution, reconciliation, and health checks.
+The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 runs these entrypoints through Airflow 2.11.2. Phase 04 adds a separate control plane in which PostgreSQL metadata changes flow through Debezium to compacted Kafka topics. Phase 05 adds current-state Silver/Gold Delta tables, affected-record merges, PostgreSQL run/checkpoint/lock state, restartable CLI and Airflow execution, reconciliation, and health checks. Phase 07 reads those operational records and native service endpoints into Prometheus, provisions six Grafana dashboards, and evaluates 12 local alert rules without changing transformation behavior.
 
 ## End-to-end path
 
@@ -44,6 +45,11 @@ flowchart TB
         H --> I[Embedding / Qdrant index job]
         H --> J[DuckDB serving build: local file]
     end
+    subgraph OB[Observability]
+        EX[Pipeline + service exporters] --> PM[Prometheus]
+        PM --> GF[Grafana dashboards]
+        PM --> AR[Alert rules]
+    end
     AF --> B
     AF --> D
     AF --> G
@@ -52,6 +58,13 @@ flowchart TB
     I --> RC[Reconciliation]
     J --> RC
     RC --> CK
+    CK --> EX
+    AF --> EX
+    MPG --> EX
+    DBZ --> EX
+    KF --> EX
+    C --> EX
+    I --> EX
 ```
 
 Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. Kafka carries only source/pipeline metadata and is not part of the news article data path. No crawler, stock stream, Kubernetes, or cloud service is required for this path.
@@ -70,6 +83,7 @@ Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or thro
 | Analytical serving | One local `.duckdb` file and published views/tables | New analytical adapter, without changing Gold computation. |
 | Containers | Docker Compose, using a minimal pipeline subset/profile | Kubernetes manifests later, without changing job entry points. |
 | Orchestration | Airflow 2.11.2, LocalExecutor, dedicated PostgreSQL metadata DB | Managed/cloud Airflow later; the same standalone job entrypoints remain. |
+| Observability | Prometheus, provisioned Grafana, pipeline/postgres/Kafka/Airflow exporters, native MinIO/Qdrant metrics and host metrics | Managed or clustered metric services with the same low-cardinality operational contract. |
 
 MinIO endpoint, bucket, credentials, provider/scheme; Spark master and provider-specific filesystem settings; PostgreSQL DSN; Qdrant endpoint/collection; and DuckDB file path are **configuration**, not constants in transformation code. `Settings.object_uri()` resolves logical keys, `create_object_store()` selects byte access, and `configure_storage()` selects Spark filesystem settings. Spark 3.5.3, Delta 3.2.1, and Hadoop AWS 3.3.4 are pinned and regression tested. The DuckDB builder reads only the exact Parquet objects in a committed Gold Analytics manifest before atomic publication.
 
@@ -129,5 +143,6 @@ Spark transformations consume DataFrames and contracts, not MinIO client objects
 6. Start Airflow and run the scheduler-managed smoke path; confirm the Silver quality gate triggers Gold and both serving branches pass. Existing Prefect flows remain historical and unused for this medallion slice.
 7. Start the metadata control plane, inspect the publication/slot/topics, and run the CDC lifecycle plus restart smoke test. Keep these events separate from news articles and future stock-market topics.
 8. Run the Phase 05 incremental CLI or DAG for an explicit `(source, processing_date)`, inspect PostgreSQL stage state, and require reconciliation before its checkpoint advances. Use `make pipeline-health` for the full local slice.
+9. Run `make monitoring-up`, then `make monitoring-test`. Inspect the provisioned overview, operations, data-quality, freshness, CDC, and resource dashboards. Use `make phase7-acceptance` to demonstrate Qdrant, data-quality, and Debezium failure/recovery behavior.
 
 The specific implementation milestones and evidence gates are in [implementation-plan.md](implementation-plan.md).

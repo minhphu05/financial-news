@@ -6,7 +6,7 @@
 Spark filesystem settings behind configuration/adapters.  
 **Reason:** it exercises remote object storage and Delta locally without an
 Azure dependency.  
-**Consequence:** an ADLS adapter and ABFS connector remain Phase 07 work.
+**Consequence:** an ADLS adapter and ABFS connector remain Phase 08 work.
 
 ## ADR-002 — Bronze, Silver, and Gold are durable
 
@@ -44,5 +44,5 @@ reconciliation.
 **Decision:** complete reproducible Docker Compose acceptance before provisioning
 Azure or Kubernetes. `local-rc1` is the proposed baseline; no tag is created
 automatically.  
-**Consequence:** Phase 07 begins with approved cloud decisions and repeats the
+**Consequence:** Phase 08 begins with approved cloud decisions and repeats the
 same contracts/fixture tests on cloud adapters.

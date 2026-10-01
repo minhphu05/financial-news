@@ -40,6 +40,8 @@ class MetadataSettings:
     connector_name: str
     topic_prefix: str
     consumer_group: str
+    monitoring_user: str = "monitoring_exporter"
+    monitoring_password: str = "monitoring_password"
 
     @property
     def captured_tables(self) -> tuple[str, str]:
@@ -66,6 +68,10 @@ class MetadataSettings:
         )
         slot = _identifier("METADATA_CDC_SLOT", os.getenv("METADATA_CDC_SLOT", "metadata_cdc_slot"))
         cdc_user = _identifier("METADATA_CDC_USER", os.getenv("METADATA_CDC_USER", "metadata_cdc"))
+        monitoring_user = _identifier(
+            "MONITORING_POSTGRES_USER",
+            os.getenv("MONITORING_POSTGRES_USER", "monitoring_exporter"),
+        )
         return cls(
             postgres_host=os.getenv("METADATA_POSTGRES_HOST", "postgresql"),
             postgres_port=port,
@@ -82,4 +88,8 @@ class MetadataSettings:
             connector_name=os.getenv("DEBEZIUM_CONNECTOR_NAME", "metadata-control-plane"),
             topic_prefix=os.getenv("METADATA_CDC_TOPIC_PREFIX", "platform"),
             consumer_group=os.getenv("METADATA_CONSUMER_GROUP", "metadata-inspector"),
+            monitoring_user=monitoring_user,
+            monitoring_password=os.getenv(
+                "MONITORING_POSTGRES_PASSWORD", "monitoring_password"
+            ),
         )

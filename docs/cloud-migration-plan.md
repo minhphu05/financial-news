@@ -61,7 +61,7 @@ Every service needs configuration through ConfigMaps/environment and secrets
 through the chosen secret facility. Stateful components require persistent
 volume and disruption/backup decisions. Jobs retain their current CLI entrypoints.
 
-## Suggested Phase 07 sequence
+## Suggested Phase 08 sequence
 
 1. Approve cloud providers, regions, network boundaries, identity model, and the
    analytical serving target.

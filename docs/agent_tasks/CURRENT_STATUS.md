@@ -1,6 +1,6 @@
 # Current implementation status
 
-Verified on 2026-09-30 at base commit `f43107b` plus the current Phase 06
+Verified on 2026-10-01 at base commit `ef544ec` plus the current Phase 07
 working tree. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git
 commit, or push was created.
 
@@ -35,6 +35,7 @@ then scan a fresh clone and rerun `make phase6-acceptance`.
 | 04 — Metadata CDC | COMPLETE | Seven unit tests plus snapshot, lifecycle, Connect restart, Kafka outage, and PostgreSQL restart tests passed. |
 | 05 — Pipeline hardening | COMPLETE | Nine unit tests, the full incremental integration, and the full recovery/backfill suite passed after Phase 06 changes. |
 | 06 — Local release/cloud readiness | IMPLEMENTED; RELEASE BLOCKED | Clean bootstrap, configuration profiles, E2E, rebuilds, health, and regression checks passed. Security audit keeps the aggregate report at FAIL. |
+| 07 — Local monitoring/observability | COMPLETE | Prometheus, Grafana, exporters, 6 dashboards, 12 alert rules, smoke/cardinality checks, and all three failure/recovery scenarios passed. |
 
 ## Verified local architecture
 
@@ -53,6 +54,10 @@ PostgreSQL control_metadata
   -> WAL / pgoutput
   -> Debezium metadata-control-plane
   -> Kafka platform.control_metadata.*
+
+Pipeline/service/native metrics
+  -> Prometheus
+  -> Grafana dashboards + local alert rules
 ```
 
 Bronze, Silver, and Gold remain the durable hierarchy. Qdrant and DuckDB are
@@ -97,7 +102,7 @@ The canonical CafeF snapshot results remain unchanged: 15,457 raw records,
   `spark_storage.configure_storage()`.
 - The local provider remains MinIO/S3A. The future-cloud profile can express a
   valid ABFSS authority but fails clearly before execution because the ADLS byte
-  adapter, Hadoop ABFS connector, and cloud identity belong to Phase 07.
+  adapter, Hadoop ABFS connector, and cloud identity belong to Phase 08.
 - Local, test, and future-cloud profiles validate successfully.
 - Service endpoints, ports, model paths, Qdrant collection, DuckDB path, and
   credentials are externalized through environment variables and Compose.
@@ -194,7 +199,7 @@ subcommands completed successfully.
 
 ## Machine coupling and secret audit
 
-The Phase 01–06 runtime/configuration scan found:
+The Phase 01–07 runtime/configuration scan found:
 
 - zero developer-specific absolute paths;
 - zero static container IP dependencies;
@@ -211,7 +216,7 @@ credentials. Historical secret values are never printed by the audit or report.
 The release Dockerfiles also passed a dependency sanity review. Their direct
 runtime packages are pinned, shared Kafka/PostgreSQL client versions agree, and
 the Airflow package matches its base image. The broader root/API/frontend
-dependency sets serve legacy application modules outside the Phase 01–06
+dependency sets serve legacy application modules outside the Phase 01–07
 runtime, so Phase 06 did not perform an unrelated upgrade or removal.
 
 ## Local baseline
@@ -223,7 +228,7 @@ Verification host:
 - Spark `local[2]`
 - two acceptance fixture files, 2,930 bytes total
 - Docker `29.8.1`
-- Phase 06 E2E: 100.911 s
+- Latest Phase 06 E2E rerun: 102.832 s
 - Phase 05 incremental integration: 133.284 s
 - Phase 05 recovery/backfill: 334.200 s
 
@@ -241,7 +246,7 @@ The mapping and migration manifest are documented in:
 
 MinIO can be replaced at the configuration, object-store adapter, Spark
 filesystem adapter, and deployment layers without rewriting cleaning,
-normalization, deduplication, chunking, or aggregation logic. Phase 07 still
+normalization, deduplication, chunking, or aggregation logic. Phase 08 still
 must add an ADLS byte adapter, compatible Hadoop ABFS dependencies, Azure
 identity, and nonproduction integration tests.
 
@@ -249,6 +254,66 @@ Kubernetes readiness is documented as a workload/state/readiness inventory.
 No manifests exist yet. The inventory records jobs, control processes, stateful
 services, persistent state, health signals, and configuration concerns so a
 later deployment can preserve the tested CLI boundaries.
+
+## Phase 07 monitoring and observability
+
+The Phase 07 monitoring plane is metrics-first and observes the existing local
+release without copying transformation logic:
+
+- Prometheus `2.53.0` persists seven days by default and scrapes the pipeline
+  exporter, PostgreSQL, Kafka, Airflow StatsD, MinIO, Qdrant, cAdvisor and node
+  exporter.
+- Grafana `11.1.0` provisions its Prometheus datasource and six dashboards from
+  repository JSON: platform overview, operations, data quality, freshness,
+  metadata CDC and local resources.
+- The read-only pipeline exporter derives run, stage, record, quality,
+  reconciliation, freshness, DuckDB, Debezium and CDC slot metrics from Phase
+  05 operational state and structured service APIs.
+- The PostgreSQL monitoring role is `NOSUPERUSER`, `NOCREATEDB`, `NOCREATEROLE`
+  and `NOREPLICATION`; it has `pg_monitor` plus read access to
+  `control_metadata` and `pipeline_operations`.
+- Twelve Prometheus rules cover service/Qdrant/connector availability, Kafka
+  lag, pipeline failure/no recent success, Silver/Gold staleness, Qdrant stage
+  failure, data quality, reconciliation and CDC slot state.
+- Metrics use bounded pipeline/source/stage values. The acceptance audit found
+  no `run_id`, article/chunk ID, URL, error text, stack, SQL or credential
+  labels.
+
+### Phase 07 acceptance evidence
+
+`artifacts/phase7-acceptance.json` finished `PASS`:
+
+- critical targets were healthy, all required metric categories were present,
+  six dashboards were visible through the Grafana API, and 12 rules loaded;
+- two explicit normal runs completed in 45.508 s and 51.460 s;
+- an isolated malformed fixture recorded one invalid row and fired
+  `DataQualityGateFailed` while valid data followed the Phase 05 reject policy;
+- stopping Qdrant produced a failed downstream run in 52.516 s, increased the
+  failed-stage total from 2 to 3 and fired the failure alert; restarting Qdrant
+  and resuming the same run completed in 29.197 s and resolved service health;
+- pausing Debezium made connector health fail and its alert fire while Kafka
+  and PostgreSQL stayed healthy; resuming restored the connector and resolved
+  the alert;
+- final monitoring health was 8/8: Prometheus, Grafana, pipeline exporter,
+  PostgreSQL, Kafka metrics, Debezium, MinIO metrics and Qdrant metrics.
+
+Post-change regression also passed: data-contract drift was empty, 23 combined
+unit tests passed, Phase 01 Spark integration passed, Phase 02 Spark test passed,
+seven Phase 04 tests passed, seven Airflow tests passed with zero DAG import
+errors, the isolated Phase 06 E2E/rebuild path passed in 102.832 s, and Phase 06
+health remained 8/8.
+
+The baseline contains eight Phase 07 successful operational runs: 39.129 s
+minimum, 44.147 s mean and 47.058 s maximum. Mean Silver merge was 25.590 s,
+Gold RAG 5.412 s, Gold Analytics 4.161 s, Qdrant 1.729 s, DuckDB 1.305 s and
+reconciliation 2.325 s. These are descriptive local observations. On this
+Docker/cgroup-v2 host, cAdvisor lacks stable Compose container-name labels, so
+the resource dashboard reports honest host-level node-exporter observations
+rather than claiming per-service measurements.
+
+Implementation and reproduction details are in
+`docs/monitoring-observability.md`; measurement context is in
+`docs/local-monitoring-baseline.md`.
 
 ## Exact clean reproduction
 
@@ -260,11 +325,15 @@ cp .env.example .env
 make local-reset-destructive CONFIRM=DELETE_LOCAL_RELEASE_DATA
 make bootstrap
 make phase6-acceptance
+make monitoring-up
+make monitoring-test
+make phase7-acceptance
 ```
 
-Until Git history remediation is complete, expect the last command to finish
-its functional tests and then return nonzero with the security audit as the sole
-failed gate. Regenerate the ignored evidence at any time with
+Until Git history remediation is complete, expect `make phase6-acceptance` to
+finish its functional tests and then return nonzero with the security audit as
+the sole failed gate. Run the monitoring commands separately after that expected
+release-gate result. Regenerate ignored Phase 06 evidence at any time with
 `make phase6-report`.
 
 ## Required blocker decision
@@ -285,12 +354,12 @@ Realistic options:
 After the owner completes option 1, scan a fresh clone and rerun the complete
 acceptance command. Do not tag `local-rc1` until the report is PASS.
 
-## Recommended Phase 07 sequence
+## Recommended Phase 08 sequence
 
 1. Resolve the credential/history blocker and make the Phase 06 report PASS.
 2. Approve cloud provider, region, network, identity, and analytical serving
    choices.
-3. Create a nonproduction landing zone outside this Phase 06 change.
+3. Create a nonproduction landing zone outside the Phase 01–07 local release.
 4. Implement the ADLS byte adapter and ABFS Spark adapter at the existing
    boundaries; run the same fixture contracts against a temporary container.
 5. Deploy and migrate PostgreSQL, then verify logical replication support.
@@ -304,4 +373,4 @@ acceptance command. Do not tag `local-rc1` until the report is PASS.
 
 Crawler, frontend, LLM chatbot, Power BI, stock streaming, Flink, Azure
 provisioning, ADLS migration, Kubernetes, Terraform, and Helm remain outside
-Phase 06.
+Phase 07.

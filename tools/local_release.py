@@ -171,6 +171,7 @@ def tracked_release_files() -> list[Path]:
     )
     allowed = (
         "src/news_pipeline/", "src/pipeline_operations/", "src/metadata_control/",
+        "src/monitoring/", "monitoring/",
         "airflow/", "docker/news-pipeline/", "docker/airflow/",
         "docker/metadata-tools/", "docker/postgresql/", "config/",
     )
@@ -179,6 +180,51 @@ def tracked_release_files() -> list[Path]:
         ROOT / value for value in output.splitlines()
         if value in exact or value.startswith(allowed)
     ]
+
+
+def credential_shaped_env_names(text: str) -> set[str]:
+    """Return only sensitive variable names; never return or log their values."""
+    names: set[str] = set()
+    for line in text.splitlines():
+        if "=" not in line or line.lstrip().startswith("#"):
+            continue
+        name, value = line.split("=", 1)
+        name, value = name.strip(), value.strip()
+        if not value or not any(
+            token in name.upper() for token in ("KEY", "TOKEN", "SECRET")
+        ):
+            continue
+        lowered = value.lower()
+        placeholder = (
+            any(
+                token in lowered
+                for token in (
+                    "change", "replace", "example", "your_", "your-", "dummy",
+                    "test-only",
+                )
+            )
+            or value.startswith("${")
+        )
+        credential_shape = value.startswith(
+            ("sk-", "ghp_", "github_pat_", "xox", "AIza", "pa-")
+        ) or len(value) >= 32
+        if credential_shape and not placeholder:
+            names.add(name)
+    return names
+
+
+def historical_env_secret_key_names() -> list[str]:
+    """Inspect every historical .env blob while exposing variable names only."""
+    revisions = run(
+        "git", "rev-list", "--all", "--", ".env", capture=True, check=False
+    ).splitlines()
+    names: set[str] = set()
+    for revision in revisions:
+        previous_env = run(
+            "git", "show", f"{revision}:.env", capture=True, check=False
+        )
+        names.update(credential_shaped_env_names(previous_env))
+    return sorted(names)
 
 
 def release_audit() -> dict:
@@ -225,44 +271,21 @@ def release_audit() -> dict:
         "src/model", "*.ipynb", capture=True, check=False,
     )
     classification_counts["UNUSED FOR NOW"] = len(set(legacy_paths.splitlines()))
-    # Inspect the formerly tracked .env from HEAD without logging values. Its
-    # staged deletion fixes the next tree; rotation/history remediation remains
-    # an explicit repository-owner action.
-    previous_env = run("git", "show", "HEAD:.env", capture=True, check=False)
-    for line in previous_env.splitlines():
-        if "=" not in line or line.lstrip().startswith("#"):
-            continue
-        name, value = line.split("=", 1)
-        name, value = name.strip(), value.strip()
-        if not value or not any(token in name.upper() for token in ("KEY", "TOKEN", "SECRET")):
-            continue
-        lowered = value.lower()
-        placeholder = (
-            any(token in lowered for token in (
-                "change", "replace", "example", "your_", "your-", "dummy", "test-only"
-            ))
-            or value.startswith("${")
-        )
-        credential_shape = value.startswith(
-            ("sk-", "ghp_", "github_pat_", "xox", "AIza", "pa-")
-        ) or len(value) >= 32
-        if credential_shape and not placeholder:
-            findings["historical_secret_key_names"].append(name)
-    findings["historical_secret_key_names"] = sorted(
-        set(findings["historical_secret_key_names"])
-    )
+    # Inspect every historical .env blob. Only variable names enter the report;
+    # credential values never leave this process.
+    findings["historical_secret_key_names"] = historical_env_secret_key_names()
     problem_count = sum(len(values) for values in findings.values())
     classification_counts["CONFIGURATION BUG"] = problem_count
     result = {
         "status": "PASS" if problem_count == 0 else "FAIL",
         "checked_at": datetime.now(timezone.utc).isoformat(),
-        "scope": "Phase 01-06 runtime/configuration files",
+        "scope": "Phase 01-07 runtime/configuration files",
         "classifications": classification_counts,
         "findings": findings,
         "notes": [
             "localhost, 127.0.0.1, Docker DNS names, and /app paths are valid explicit local/container defaults.",
             "Legacy NER notebooks/scripts with developer paths are outside the released data-pipeline runtime.",
-            "The next Git tree removes .env, but likely credentials remain in existing Git history.",
+            "The current Git tree excludes .env, but likely credentials remain in existing Git history.",
             "Credential values are never emitted by this audit.",
         ],
     }
@@ -351,7 +374,7 @@ def release_report() -> dict:
         },
         "known_warnings": [
             "Local timings are a reproducibility baseline, not a production capacity benchmark.",
-            "The ADLS byte adapter, Hadoop ABFS connector, Azure identity, and deployment are Phase 07 work.",
+            "The ADLS byte adapter, Hadoop ABFS connector, Azure identity, and deployment are Phase 08 work.",
             "The local Kafka broker, Airflow LocalExecutor, and local Spark master are single-node configurations.",
             "Historical .env credentials require revoke/rotation and an explicit Git history remediation decision.",
         ],
