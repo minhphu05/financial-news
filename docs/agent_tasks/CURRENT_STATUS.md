@@ -481,8 +481,13 @@ historical, with links to the current path. No contracts, runtime code, services
 or release verdict changed; previous test evidence above remains the recorded
 execution result, not a newly executed acceptance run.
 
-Documentation validation: all 19 changed Markdown files passed local link/linked
+Documentation validation: all 21 reviewed Markdown files passed local link/linked
 heading and fenced-block checks. Static checks matched the documented DAG/source
 defaults, migration table names, Make targets and recorded live/acceptance JSON.
 `git diff --check` passed after fixing Markdown trailing whitespace. No runtime
 test suite was rerun for this documentation-only change.
+
+A second consistency review also updated the README repository tree/main
+verification summary, the local architecture's primary diagram and the monitoring
+runbook's primary inventory (seven dashboards/15 rules). The legacy application
+environment guide is now labeled separately from the active platform setup.

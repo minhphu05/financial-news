@@ -34,11 +34,16 @@ flowchart TB
     subgraph OP[Operations and orchestration]
         AP[(Airflow PostgreSQL metadata)] --> AF[Airflow control layer]
         AF --> PR[(PostgreSQL pipeline_operations)]
+        AF --> CR[(PostgreSQL crawler_operations)]
         PR --> CK[Runs / stages / checkpoints / locks]
     end
     subgraph DP[News data plane]
         A[Existing data/raw CafeF snapshot] --> B[Seed job]
         B --> C[MinIO Bronze: immutable source file + manifest]
+        NEWS[Five public news sources] --> HTTP[Bounded HTTP crawler]
+        HTTP --> LAND[MinIO Landing: HTML + envelopes]
+        LAND --> ADAPT[Source parsers + adapters]
+        ADAPT --> C
         C --> D[Spark: parse, validate, normalize, deduplicate]
         D --> E[MinIO Silver: current Delta MERGE + immutable snapshots]
         E --> F[Enrichment hook: passthrough initially]
@@ -53,6 +58,9 @@ flowchart TB
         PM --> AR[Alert rules]
     end
     AF --> B
+    AF --> HTTP
+    MPG -. source configuration .-> HTTP
+    CR -. frontier / hashes / pending batches .-> HTTP
     AF --> D
     AF --> G
     AF --> I
@@ -61,6 +69,7 @@ flowchart TB
     J --> RC
     RC --> CK
     CK --> EX
+    CR --> EX
     AF --> EX
     MPG --> EX
     DBZ --> EX
@@ -69,7 +78,7 @@ flowchart TB
     I --> EX
 ```
 
-Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables and immutable Bronze objects hold the data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. Kafka carries only source/pipeline metadata and is not part of the news article data path. No crawler, stock stream, Kubernetes, or cloud service is required for this path.
+Run the seed or crawler input jobs, Silver, Gold, Qdrant, and DuckDB jobs either independently or through Airflow with explicit input/output locations. Airflow PostgreSQL tracks orchestration state, while small status artifacts in MinIO link run IDs to existing metrics; **Delta tables, immutable Bronze objects and crawler Landing hold the durable data**. Qdrant and DuckDB are rebuildable serving projections of a recorded Gold version. Kafka carries only source/pipeline configuration metadata and is not part of the news article data path. The original sample path remains runnable without crawling; the Phase08 live path uses the integrated crawler. Neither path requires stock streaming, Kubernetes or cloud services.
 
 ## Storage and execution choices
 
@@ -80,9 +89,10 @@ Run the seed, Silver, Gold, Qdrant, and DuckDB jobs either independently or thro
 | Curated tables | Delta Lake under MinIO, with `_delta_log` stored alongside data | Cloud object URI and credentials; same Delta semantics. |
 | Control metadata | PostgreSQL 17 schema `control_metadata`; WAL publication restricted to two tables | Managed PostgreSQL with the same small control schema. |
 | Pipeline operations | Separate PostgreSQL schema `pipeline_operations` for runs, stage attempts, checkpoints, and partition locks; excluded from metadata CDC | Managed PostgreSQL or another transactional run registry behind the same repository boundary. |
+| Crawler evidence/state | Immutable MinIO Landing and PostgreSQL `crawler_operations` frontier/hash/cooldown/outbox; excluded from metadata CDC | Migrate evidence and state together; retain standalone jobs, configure storage/service deployment. |
 | Metadata CDC | Debezium 3.3.2.Final and one Kafka 4.1.0 KRaft broker | Managed Kafka/Connect or equivalent CDC runtime; same event contract. |
 | Semantic search | Local Docker Qdrant | Remote Qdrant endpoint/credentials. |
-| Analytical serving | One local `.duckdb` file and published views/tables | New analytical adapter, without changing Gold computation. |
+| Analytical serving | Baseline local `.duckdb` file plus source-scoped crawler files and published views/tables | New analytical adapter, without changing Gold computation. |
 | Containers | Docker Compose, using a minimal pipeline subset/profile | Kubernetes manifests later, without changing job entry points. |
 | Orchestration | Airflow 2.11.2, LocalExecutor, dedicated PostgreSQL metadata DB | Managed/cloud Airflow later; the same standalone job entrypoints remain. |
 | Observability | Prometheus, provisioned Grafana, pipeline/postgres/Kafka/Airflow exporters, native MinIO/Qdrant metrics and host metrics | Managed or clustered metric services with the same low-cardinality operational contract. |

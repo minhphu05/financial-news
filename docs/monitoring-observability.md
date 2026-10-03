@@ -1,8 +1,10 @@
 # Local monitoring and observability
 
 This runbook describes the Phase 07 monitoring plane for the local financial-news
-platform. It observes the existing Phase 01–06 data and control planes without
-moving transformation logic into monitoring services.
+platform, extended in Phase08 for crawler metrics. It observes the existing
+data and control planes without moving transformation logic into monitoring
+services. Current configuration has seven dashboards and 15 alert rules;
+the original Phase07 acceptance evidence remains a six-dashboard/12-rule baseline.
 
 ## Architecture
 
@@ -11,6 +13,7 @@ flowchart LR
     subgraph Platform[Existing local platform]
         AF[Airflow]
         OPS[(PostgreSQL pipeline_operations)]
+        COPS[(PostgreSQL crawler_operations)]
         PG[(PostgreSQL control_metadata)]
         DBZ[Debezium]
         KF[Kafka]
@@ -20,6 +23,7 @@ flowchart LR
     end
 
     OPS --> PE[Pipeline metrics exporter]
+    COPS --> PE
     PG --> PGE[postgres_exporter]
     KF --> KFE[kafka_exporter]
     AF --> AS[StatsD exporter]
@@ -116,13 +120,16 @@ dashboards are provisioned from `monitoring/grafana/provisioning/`.
 | Financial News Pipeline — Freshness | Bronze through serving publication timestamps and age |
 | Metadata Control Plane — CDC | Kafka, metadata topics, Debezium, CDC timestamps and PostgreSQL slot |
 | Local Infrastructure — Resources | host CPU, memory, filesystem and network from node exporter |
+| Financial News — Multisource Crawling | per-source runs, HTTP/parser failures, frontier, freshness and pending publication batches |
 
 The CDC dashboard covers only PostgreSQL metadata control events. Financial-news
 article content is not transported through Kafka.
 
 ## Alert rules
 
-The repository provisions 12 local rules:
+The repository provisions 15 local rules: the original 12 below plus
+`CrawlerSourceBlocked`, `CrawlerParserFailures` and `CrawlerDownstreamBacklog`
+described in [Phase08 crawler observability](#phase08-crawler-observability).
 
 | Rule | Local condition |
 |---|---|
