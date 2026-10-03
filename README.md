@@ -5,6 +5,8 @@ Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa 
 **Bắt đầu đọc tài liệu:** [Documentation guide](docs/DOCUMENTATION_GUIDE.md)
 giải thích từng document và thứ tự đọc theo nhu cầu. Để biết nguồn/chuyên mục,
 cơ chế và số liệu đã crawl, xem [News sources](docs/news-sources.md).
+Kịch bản thuyết trình và demo nằm tại
+[Báo cáo tiến độ và demo](docs/present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md).
 
 Luồng chính hiện tại:
 
