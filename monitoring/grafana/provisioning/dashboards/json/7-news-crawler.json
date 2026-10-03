@@ -1,0 +1,163 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": false,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "id": 1,
+      "title": "Crawl runs",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_runs_total",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fetched / changed / rejected",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_articles_total",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Frontier eligibility states",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_frontier_urls",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Durable batches awaiting downstream",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 8
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_pending_batches",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Latest batch duration",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 16
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_last_duration_seconds",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Last successful live crawl age",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 16
+      },
+      "targets": [
+        {
+          "expr": "time() - financial_news_crawler_last_success_timestamp_seconds{data_kind=\"live\"}",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
+        }
+      ]
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "tags": [
+    "phase07",
+    "overview"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Financial News \u2014 Multisource Crawling",
+  "uid": "news-crawler",
+  "version": 1
+}

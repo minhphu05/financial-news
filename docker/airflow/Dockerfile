@@ -18,6 +18,7 @@ USER airflow
 RUN python3 -m pip install --no-cache-dir \
         apache-airflow==2.11.2 \
         'chardet<6' \
+        beautifulsoup4==4.13.4 \
         confluent-kafka==2.8.2 \
         duckdb==1.4.1 \
         fastembed==0.8.0 \

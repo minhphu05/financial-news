@@ -392,7 +392,7 @@ monitoring-logs:
 
 test-monitoring:
 	$(COMPOSE) build metadata-tools
-	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m unittest tests.test_monitoring -v
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m unittest tests.test_monitoring tests.test_crawler_metrics -v
 	python3 -m json.tool monitoring/grafana/provisioning/dashboards/json/1-financial-news-overview.json >/dev/null
 	$(COMPOSE) config --quiet
 
@@ -465,3 +465,45 @@ data-contracts:
 
 data-contracts-check:
 	python3 tools/generate_data_contracts.py --check
+
+# Phase08: public HTTP is opt-in; fixture acceptance is network independent.
+CRAWLER_SOURCE ?= all
+CRAWLER_LIMIT ?= 1
+crawler-build:
+	$(COMPOSE) build news-pipeline airflow-init
+
+crawler-init: crawler-build
+	$(COMPOSE) up -d --wait minio qdrant postgresql
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m src.pipeline_operations.migrations up
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m src.crawling.cli seed
+	$(COMPOSE) up -d --wait airflow-scheduler airflow-webserver
+	$(COMPOSE) up -d --no-deps --force-recreate platform-metrics-exporter prometheus grafana
+
+crawler-status:
+	$(COMPOSE) run --rm --no-deps news-pipeline python3 -m src.crawling.cli status
+
+test-crawler:
+	$(COMPOSE) run --rm --no-deps -e CRAWLER_DB_TESTS=1 news-pipeline python3 -m unittest tests.test_crawling_parsers tests.test_crawling_state -v
+
+crawler-live-smoke:
+	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline python3 -m src.crawling.cli live-smoke --source $(CRAWLER_SOURCE) --limit $(CRAWLER_LIMIT) --allow-live
+
+crawler-crawl:
+	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline python3 -m src.crawling.cli crawl --source $(CRAWLER_SOURCE) --limit $(CRAWLER_LIMIT) --allow-live
+
+crawler-publish:
+	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline $(SPARK_SUBMIT) /app/src/crawling/publish_runner.py --source $(CRAWLER_SOURCE)
+
+crawler-demo:
+	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline $(SPARK_SUBMIT) /app/tests/test_crawling_e2e.py
+
+crawler-airflow-smoke:
+	$(COMPOSE) exec -T airflow-scheduler python3 /app/tools/airflow_smoke.py news_crawling_pipeline --timeout 900 --conf '{"fixture_mode":true,"limit":1}'
+
+crawler-monitoring-smoke:
+	$(COMPOSE) run --rm --no-deps metadata-tools python3 -m unittest tests.test_crawling_observability -v
+
+phase8-acceptance: test-crawler crawler-demo airflow-test test-monitoring crawler-airflow-smoke crawler-monitoring-smoke
+	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline python3 /app/tools/phase8_report.py
+	cp data/local/phase8-acceptance.json artifacts/phase8-acceptance.json
+	cp data/local/phase8-e2e.json artifacts/phase8-fixture-e2e.json

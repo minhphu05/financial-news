@@ -1,0 +1,47 @@
+{
+  "source_id": "baomoi",
+  "host": "baomoi.com",
+  "observed_at": "2026-10-03",
+  "status": "HTTP_ACCESSIBLE",
+  "fetch_strategy": "public_http",
+  "browser_required": false,
+  "raw_schema_version": "baomoi-raw-v1",
+  "sample": {
+    "url": "https://baomoi.com/tang-truong-gdp-cai-thien-qua-tung-quy-9-thang-tang-9-01-c56187189.epi",
+    "final_url": "https://baomoi.com/tang-truong-gdp-cai-thien-qua-tung-quy-9-thang-tang-9-01-c56187189.epi",
+    "status": 200
+  },
+  "html_sha256": "bf825d87bc3b0a93c810c37f5dd6987f2c181f68e6016df4b04c8262c25a9297",
+  "observed_selectors": {
+    "title": "article.content-main h1",
+    "body": "div.content-body"
+  },
+  "title_node_count": 1,
+  "body_node_count": 1,
+  "body_paragraph_count": 10,
+  "discovery_url": "https://baomoi.com/kinh-te.epi",
+  "robots_url": "https://baomoi.com/robots.txt",
+  "robots_evidence": "User-agent: *\nAllow: /\nDisallow: /*?date=\nDisallow: /tim-kiem/\nDisallow: /search/\nDisallow: /*?s=\nDisallow: /*?q=\nDisallow: /?\n\nSitemap: https://baomoi.com/sitemaps/sitemap.xml\nSitemap: https://baomoi.com/sitemaps/tien-ich/sitemap.xml\nSitemap: https://baomoi.com/sitemaps/bong-da/sitemap.xml\n",
+  "limitations": [
+    "One page observed; layout variants need additional evidence.",
+    "HTTP access does not grant redistribution rights."
+  ],
+  "discovery_status": 200,
+  "raw_payload_field_types": {
+    "headline": "str",
+    "sapo": "str",
+    "content_html": "str",
+    "aggregation_time": "str",
+    "author": "NoneType",
+    "json_ld": "list",
+    "image_urls": "list",
+    "category": "str",
+    "observed_canonical_url": "str",
+    "original_publisher": "str",
+    "original_url": "str"
+  },
+  "discovered_article_count": 57,
+  "parser_validation": "one_observed_article_passed",
+  "parser_status": "OBSERVED_ARTICLE_AND_OFFLINE_FIXTURE_PASS",
+  "payload_origin": "Project-owned parser keys derived from observed DOM/meta nodes; not a claimed official API schema"
+}

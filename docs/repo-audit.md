@@ -1,5 +1,11 @@
 # Financial-news pipeline repository audit
 
+> **Historical pre-implementation audit.** Findings below refer to the dated
+> commit in the scope line, before the medallion pipeline was built. For the
+> implemented Phase01–08 architecture and evidence, read
+> [current status](agent_tasks/CURRENT_STATUS.md) and
+> [local architecture](local-architecture.md).
+
 **Audit date:** 2026-09-20. **Scope:** repository at `development` / `037038a`, including the existing sample data, application code, Docker configuration, tests, and documentation. This is a static audit plus read-only data profiling and `docker compose config --quiet`; it does not claim that a pipeline or container has run successfully. Existing working-tree changes were left alone.
 
 ## What exists today

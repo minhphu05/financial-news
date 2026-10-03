@@ -1,11 +1,12 @@
 # Financial News Data Platform / ViFinNER
 
-Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa luận, với pipeline lakehouse chạy local đã được kiểm chứng từ dữ liệu CafeF có sẵn trong repository.
+Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa luận, với pipeline lakehouse chạy local đã được kiểm chứng từ dữ liệu CafeF có sẵn và các batch crawl nhỏ từ 5 nguồn.
 
 Luồng chính hiện tại:
 
 ```text
-Existing CafeF data
+Existing CafeF data ---------------------------+
+5-source crawler -> Landing -> source adapter -+
   -> MinIO Bronze
   -> Spark cleaning / normalization / deduplication
   -> Delta Lake Silver
@@ -16,7 +17,7 @@ Existing CafeF data
 
 Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka tạo control plane cho metadata cấu hình. Prometheus, Grafana và các exporter cung cấp metrics, dashboard và alert local. Pipeline hỗ trợ incremental processing, backfill, reprocess, resume, checkpoint, reconciliation và health check.
 
-> Crawler không thuộc luồng triển khai hiện tại. Kafka Phase 04 chỉ truyền metadata điều khiển; nội dung bài báo không đi qua Kafka.
+> Phase 08 đã tích hợp crawler CafeF, VnExpress, Tuổi Trẻ, Thanh Niên và Báo Mới. Lịch crawl tự động mặc định tắt; live smoke đã kiểm chứng 1 bài/nguồn. Kafka chỉ truyền metadata điều khiển; nội dung bài báo không đi qua Kafka.
 
 ## Mục lục
 
@@ -28,6 +29,7 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 - [Chạy pipeline độc lập](#chạy-pipeline-độc-lập)
 - [Incremental, backfill và recovery](#incremental-backfill-và-recovery)
 - [Airflow](#airflow)
+- [Crawler đa nguồn](#phase08-local-multisource-crawling)
 - [Metadata CDC](#metadata-cdc)
 - [Monitoring và observability](#monitoring-và-observability)
 - [Kiểm thử](#kiểm-thử)
@@ -51,6 +53,7 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 | 05 | Incremental, idempotency, backfill, recovery và reconciliation | Hoàn thành |
 | 06 | Local release candidate và cloud-readiness | Kỹ thuật hoàn thành; release gate `NOT READY` |
 | 07 | Local monitoring, dashboard, alert và failure observability | Hoàn thành |
+| 08 | Crawler 5 nguồn → Landing → pipeline hiện có | Hoàn thành local; 5 bài thật / 39 chunks được kiểm chứng |
 
 Cloud/Azure/Kubernetes migration chưa được thực hiện. Phase 06 chỉ tạo release
 local tái lập được, kiểm chứng adapter/config boundary và lập migration manifest.
@@ -71,7 +74,7 @@ Repository còn chứa các hướng nghiên cứu và ứng dụng có từ tr�
 - `src/rag/api/` và `frontend/`: FastAPI/React cho ứng dụng tin tức và chatbot.
 - `docker-compose.yml`: chứa cả data platform hiện tại và các service ứng dụng/quan sát cũ.
 
-Luồng được kiểm chứng và dùng cho phần data engineering của khóa luận nằm trong `src/news_pipeline/`, `src/pipeline_operations/`, `src/metadata_control/`, `airflow/dags/`, `metadata/` và `operations/`.
+Luồng được kiểm chứng và dùng cho phần data engineering của khóa luận nằm trong `src/crawling/`, `src/news_pipeline/`, `src/pipeline_operations/`, `src/metadata_control/`, `airflow/dags/`, `metadata/` và `operations/`.
 
 Chưa triển khai stock-market streaming, Flink, Power BI, cloud deployment, Kubernetes hay LLM answer generation trong pipeline này.
 
@@ -88,11 +91,17 @@ flowchart TB
     subgraph ORCH[Orchestration and operations]
         AF[Airflow]
         OPG[(PostgreSQL<br/>pipeline_operations)]
+        CPG[(PostgreSQL<br/>crawler_operations)]
         AF --> OPG
+        AF --> CPG
     end
 
     subgraph DP[News data plane]
         SRC[Existing dated news files] --> BR[MinIO Bronze<br/>immutable raw]
+        WEB[5 public news sources] --> CRAWL[Bounded HTTP crawler]
+        CRAWL --> LAND[MinIO Landing<br/>HTML + envelopes]
+        LAND --> ADAPT[Source parsers + adapters]
+        ADAPT --> BR
         BR --> SI[Delta Silver<br/>Spark MERGE]
         SI --> ENR[Enrichment hook]
         ENR --> GR[Gold RAG<br/>documents + chunks]
@@ -108,7 +117,10 @@ flowchart TB
     end
 
     AF --> SRC
+    AF --> CRAWL
     AF --> BR
+    PGCFG -. source config .-> CRAWL
+    CPG -. frontier / hashes / pending batches .-> CRAWL
     OPG -. run state / checkpoint .-> DP
     CP -. configuration events only .-> AF
     OPG --> EXP
@@ -393,8 +405,9 @@ Các DAG:
 | `news_silver_pipeline` | Bronze/Silver và quality gate; trigger Gold sau khi thành công |
 | `news_gold_pipeline` | Gold RAG/Qdrant và Gold Analytics/DuckDB |
 | `news_incremental_pipeline` | Incremental/backfill/reprocess/resume qua standalone runner Phase 05 |
+| `news_crawling_pipeline` | 5 nhóm `crawl → publish`, dùng lại Phase 05; live schedule opt-in |
 
-DAG incremental mặc định không có schedule vì repository chỉ chứa static sample. Chỉ bật lịch khi đã có fixture theo ngày:
+DAG `news_incremental_pipeline` mặc định không có schedule vì đường input của DAG này cần file theo ngày. Chỉ bật lịch khi đã có fixture theo ngày; batch crawler được xử lý bởi `news_crawling_pipeline`, không cần bật thêm lịch DAG này:
 
 ```bash
 AIRFLOW_NEWS_INCREMENTAL_SCHEDULE='@daily' make airflow-up
@@ -768,10 +781,10 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 
 ## Giới hạn hiện tại
 
-- Nguồn news local duy nhất là CafeF.
+- Static sample trong `data/raw/` là CafeF; crawler Phase 08 hỗ trợ thêm VnExpress, Tuổi Trẻ, Thanh Niên và Báo Mới. Live E2E mới kiểm chứng 1 bài/nguồn, chưa phải coverage diện rộng.
 - Chưa có upstream deletion/tombstone contract cho article; bài đã thấy không bị xóa chỉ vì vắng mặt trong batch sau.
 - Gold Analytics đang full refresh có chủ đích vì dataset local còn nhỏ.
-- Airflow incremental schedule mặc định tắt cho đến khi có nguồn tạo fixture theo ngày.
+- DAG dated-file incremental mặc định tắt đến khi có file theo ngày. DAG crawler có schedule riêng, mặc định tắt và chỉ 1 bài/nguồn/lần chạy; chưa chứng minh thu thập đủ bài hằng ngày.
 - Kafka local là một plaintext broker; Kafka Connect REST không có authentication.
 - Qdrant và DuckDB là derived serving stores, có thể tạm thời chậm hơn durable Gold khi service lỗi.
 - Chưa có production secret management, TLS, backup, alert routing, Delta retention/VACUUM hay cloud deployment.
@@ -779,7 +792,7 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 - cAdvisor trên Docker/cgroup-v2 của máy baseline không cung cấp Compose
   container-name label ổn định; resource dashboard hiện dùng host metrics.
 - Ngưỡng alert Phase 07 là default cho local development, chưa phải production SLA.
-- ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang Phase 08.
+- ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang một giai đoạn cloud được phê duyệt riêng; Phase 08 hiện là crawling local.
 - `.env` cũ vẫn tồn tại trong lịch sử Git. Cần revoke/rotate các credential liên
   quan và quyết định history rewrite hoặc tạo lịch sử sạch trước cloud migration.
 - Crawler, stock streaming, Flink, Kubernetes, Terraform, Helm, Power BI, frontend integration và LLM generation không thuộc pipeline local Phase 01–07.
@@ -803,9 +816,46 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 13. [docs/decisions.md](docs/decisions.md) — các quyết định kiến trúc.
 14. [docs/THESIS_ALIGNMENT.md](docs/THESIS_ALIGNMENT.md) — đối chiếu với đề cương khóa luận.
 15. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
+16. [docs/crawler-operations.md](docs/crawler-operations.md) — crawler 5 nguồn, schedule hằng ngày, incremental và recovery.
+17. [docs/crawling-architecture.md](docs/crawling-architecture.md) — tích hợp crawler vào Phase 01–07 và state cần giữ khi migration.
 
 Xem toàn bộ command đang hỗ trợ:
 
 ```bash
 make help
 ```
+
+## Phase08: local multisource crawling
+
+Five verified public HTTP source parsers feed source-specific Landing envelopes and explicit adapters into the existing Bronze/Silver/Gold pipeline. Crawling is bounded and live requests are opt-in; the sample-data path remains supported.
+
+```sh
+make crawler-init
+make phase8-acceptance        # offline website fixtures; real local services
+make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1  # explicit tiny live smoke
+make crawler-publish CRAWLER_SOURCE=all
+make crawler-status
+```
+
+Start with [crawler operations](docs/crawler-operations.md), [architecture](docs/crawling-architecture.md), [source mappings](docs/source-mapping-matrix.md) and [current status](docs/agent_tasks/CURRENT_STATUS.md). Airflow DAG: `news_crawling_pipeline`, manual fixture mode by default. Dashboard: **Financial News — Multisource Crawling**. No cloud deployment, article Kafka queue or crawler bypass is implemented.
+
+### Schedule hằng ngày và incremental
+
+Ví dụ cấu hình cho 06:00 giờ Việt Nam trong `.env` (chưa bật sẵn):
+
+```dotenv
+AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"
+AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true
+```
+
+```sh
+docker compose up -d --force-recreate airflow-scheduler airflow-webserver
+docker compose exec -T airflow-scheduler airflow dags list-import-errors
+docker compose exec -T airflow-scheduler airflow dags unpause news_crawling_pipeline
+```
+
+DAG dùng `Asia/Ho_Chi_Minh`, `catchup=False`, mặc định **1 bài/nguồn/lần chạy**. Tham số của một manual run không thay đổi default của những scheduled run sau; `max_articles` trong metadata không ghi đè giới hạn Airflow truyền vào.
+
+Incremental dựa trên frontier/hash PostgreSQL: URL mới được xử lý, bài đã biết được kiểm tra lại khi đủ điều kiện, observation không đổi không tạo batch mới, batch downstream lỗi có thể publish lại mà không crawl lại. Gold Analytics vẫn full refresh. Discovery hiện chỉ dùng listing đã cấu hình; không đảm bảo thu đủ mọi bài xuất bản trong ngày.
+
+Xem [hướng dẫn vận hành chi tiết](docs/crawler-operations.md#daily-live-scheduling-operator-opt-in) để điều chỉnh quy mô có kiểm chứng, dừng lịch và xử lý backlog. Khi lên cloud phải giữ Landing/Bronze/Silver/Gold **cùng trạng thái PostgreSQL**, không chỉ copy lake data; [migration manifest](docs/cloud-migration-manifest.md) ghi rõ checkpoint và rollback.

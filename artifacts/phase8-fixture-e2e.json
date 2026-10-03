@@ -1,0 +1,1138 @@
+{
+  "data_kind": "FIXTURE",
+  "scenario": "e80c7ccb",
+  "sources": {
+    "cafef": {
+      "crawl": {
+        "source": "cafef",
+        "crawl_run_id": "crawl-cafef-4e2679ab4a4e4d038d307c8489dc58cc",
+        "status": "SUCCESS",
+        "error": null,
+        "discovered": 1,
+        "fetched": 1,
+        "changed": 1,
+        "unchanged": 0,
+        "failed": 0,
+        "parser_failures": 0,
+        "http_429": 0,
+        "http_403": 0,
+        "retry_count": 0,
+        "batch_ids": [
+          "crawl-cafef-f5262a758cf914b7ee7f0148b8502027"
+        ],
+        "bronze_ingestion_id": "f0e96482538f9e0d701a145f1e3acd9ee237bcd9b9f2568e27328b509a032b30",
+        "request_count": 2,
+        "duration_seconds": 0.218
+      },
+      "publish": {
+        "source": "cafef",
+        "published_batches": 1,
+        "results": [
+          {
+            "run_id": "pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027",
+            "status": "SUCCESS",
+            "trigger_type": "MANUAL",
+            "partition_start": "2026-10-03",
+            "partition_end": "2026-10-03",
+            "partitions": [
+              {
+                "processing_date": "2026-10-03",
+                "source_file": "/app/local/crawler/crawl-cafef-f5262a758cf914b7ee7f0148b8502027.json",
+                "ingestion_id": "f0e96482538f9e0d701a145f1e3acd9ee237bcd9b9f2568e27328b509a032b30",
+                "silver_affected_article_count": 0,
+                "gold_affected_article_count": 0,
+                "qdrant_affected_article_count": 0,
+                "silver": {
+                  "source_ingestion_id": "f0e96482538f9e0d701a145f1e3acd9ee237bcd9b9f2568e27328b509a032b30",
+                  "processing_version": "fixture-crawl-v1",
+                  "processing_date": "2026-10-03",
+                  "input_count": 1,
+                  "output_count": 1,
+                  "invalid_count": 0,
+                  "duplicate_count": 0,
+                  "shared_content_hash_group_count": 0,
+                  "article_mentions_count": 1,
+                  "processing_duration_seconds": 20.514,
+                  "completed_at": "2026-10-03T06:11:11.404009+00:00",
+                  "silver_prefix": "silver/cafef.vn/f0e96482538f9e0d701a145f1e3acd9ee237bcd9b9f2568e27328b509a032b30/fixture-crawl-v1",
+                  "inserted_article_count": 0,
+                  "updated_article_count": 0,
+                  "unchanged_article_count": 1,
+                  "affected_article_count": 0,
+                  "current_article_count": 1,
+                  "current_mentions_count": 1,
+                  "current_silver_prefix": "silver/current/cafef.vn/fixture-crawl-v1",
+                  "current_articles_uri": "s3a://financial-news/silver/current/cafef.vn/fixture-crawl-v1/articles",
+                  "current_mentions_uri": "s3a://financial-news/silver/current/cafef.vn/fixture-crawl-v1/article_mentions",
+                  "affected_article_ids_key": "silver/operations/source=cafef.vn/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027/affected_articles.json",
+                  "stage_duration_seconds": 20.522
+                },
+                "gold": {
+                  "source_ingestion_id": "f0e96482538f9e0d701a145f1e3acd9ee237bcd9b9f2568e27328b509a032b30",
+                  "silver_processing_version": "fixture-crawl-v1",
+                  "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+                  "affected_article_count": 0,
+                  "silver_articles_read": 1,
+                  "gold_documents_produced": 1,
+                  "gold_chunks_produced": 1,
+                  "run_documents_produced": 0,
+                  "run_chunks_produced": 0,
+                  "replaced_chunk_count": 0,
+                  "average_chunks_per_article": 1.0,
+                  "empty_rejected_chunk_count": 0,
+                  "processing_duration_seconds": 3.593,
+                  "completed_at": "2026-10-03T06:11:15.025030+00:00",
+                  "documents_uri": "s3a://financial-news/gold/current/rag/cafef.vn/fixture-crawl-v1/sentence-v1-900-120/documents",
+                  "chunks_uri": "s3a://financial-news/gold/current/rag/cafef.vn/fixture-crawl-v1/sentence-v1-900-120/chunks",
+                  "affected_article_ids_key": "gold/operations/pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027/processing_date=2026-10-03/affected_articles.json",
+                  "refresh_reason": "silver_change",
+                  "stage_duration_seconds": 3.598
+                },
+                "analytics": {
+                  "input_article_count": 1,
+                  "output_aggregation_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 2.696,
+                  "completed_at": "2026-10-03T06:11:17.729791+00:00",
+                  "manifest_key": "gold/current/analytics/cafef.vn/fixture-crawl-v1/manifest.json",
+                  "stage_duration_seconds": 2.7
+                },
+                "duckdb": {
+                  "input_article_count": 1,
+                  "duckdb_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 0.03,
+                  "completed_at": "2026-10-03T06:11:18.785591+00:00",
+                  "duckdb_path": "/app/local/crawler/fixture-cafef.duckdb",
+                  "stage_duration_seconds": 1.052
+                },
+                "qdrant": {
+                  "affected_article_count": 0,
+                  "input_chunk_count": 0,
+                  "embedded_chunk_count": 0,
+                  "indexed_chunk_count": 0,
+                  "failed_chunk_count": 0,
+                  "stale_points_deleted": 0,
+                  "collection_point_count": 1,
+                  "collection": "fixture_crawler_cafef_v1",
+                  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "embedding_dimension": 384,
+                  "mode": "incremental_noop",
+                  "stage_duration_seconds": 0.68
+                },
+                "reconciliation": {
+                  "status": "PASS",
+                  "checks": {
+                    "silver_article_ids_unique": true,
+                    "gold_document_ids_unique": true,
+                    "gold_chunk_ids_unique": true,
+                    "silver_gold_documents_match": true,
+                    "chunks_reference_documents": true,
+                    "qdrant_matches_gold_chunks": true,
+                    "duckdb_matches_analytics_manifest": true
+                  },
+                  "counts": {
+                    "silver_articles": 1,
+                    "silver_duplicate_ids": 0,
+                    "gold_documents": 1,
+                    "gold_duplicate_ids": 0,
+                    "gold_chunks": 1,
+                    "chunk_duplicate_ids": 0,
+                    "missing_gold_documents": 0,
+                    "orphan_gold_documents": 0,
+                    "orphan_chunks": 0,
+                    "qdrant_points": 1,
+                    "qdrant_missing_points": 0,
+                    "qdrant_stale_points": 0,
+                    "duckdb_articles": 1,
+                    "analytics_manifest_articles": 1
+                  },
+                  "run_id": "pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027-2026-10-03",
+                  "source": "cafef.vn",
+                  "processing_version": "fixture-crawl-v1",
+                  "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "completed_at": "2026-10-03T06:11:20.985370+00:00",
+                  "duration_seconds": 1.509,
+                  "report_key": "operations/reconciliation/pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027-2026-10-03.json",
+                  "stage_duration_seconds": 1.516
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "vnexpress": {
+      "crawl": {
+        "source": "vnexpress",
+        "crawl_run_id": "crawl-vnexpress-37f810d715c34f98b0fbed9ef1427726",
+        "status": "SUCCESS",
+        "error": null,
+        "discovered": 1,
+        "fetched": 1,
+        "changed": 1,
+        "unchanged": 0,
+        "failed": 0,
+        "parser_failures": 0,
+        "http_429": 0,
+        "http_403": 0,
+        "retry_count": 0,
+        "batch_ids": [
+          "crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b"
+        ],
+        "bronze_ingestion_id": "e35d59da9b2e244a2fdf3721c352977d8c1d7cf0b7e778c21640a5c2f380f13d",
+        "request_count": 2,
+        "duration_seconds": 0.043
+      },
+      "publish": {
+        "source": "vnexpress",
+        "published_batches": 1,
+        "results": [
+          {
+            "run_id": "pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b",
+            "status": "SUCCESS",
+            "trigger_type": "MANUAL",
+            "partition_start": "2026-10-03",
+            "partition_end": "2026-10-03",
+            "partitions": [
+              {
+                "processing_date": "2026-10-03",
+                "source_file": "/app/local/crawler/crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b.json",
+                "ingestion_id": "e35d59da9b2e244a2fdf3721c352977d8c1d7cf0b7e778c21640a5c2f380f13d",
+                "silver_affected_article_count": 0,
+                "gold_affected_article_count": 0,
+                "qdrant_affected_article_count": 0,
+                "silver": {
+                  "source_ingestion_id": "e35d59da9b2e244a2fdf3721c352977d8c1d7cf0b7e778c21640a5c2f380f13d",
+                  "processing_version": "fixture-crawl-v1",
+                  "processing_date": "2026-10-03",
+                  "input_count": 1,
+                  "output_count": 1,
+                  "invalid_count": 0,
+                  "duplicate_count": 0,
+                  "shared_content_hash_group_count": 0,
+                  "article_mentions_count": 1,
+                  "processing_duration_seconds": 12.488,
+                  "completed_at": "2026-10-03T06:11:34.875417+00:00",
+                  "silver_prefix": "silver/vnexpress.net/e35d59da9b2e244a2fdf3721c352977d8c1d7cf0b7e778c21640a5c2f380f13d/fixture-crawl-v1",
+                  "inserted_article_count": 0,
+                  "updated_article_count": 0,
+                  "unchanged_article_count": 1,
+                  "affected_article_count": 0,
+                  "current_article_count": 1,
+                  "current_mentions_count": 1,
+                  "current_silver_prefix": "silver/current/vnexpress.net/fixture-crawl-v1",
+                  "current_articles_uri": "s3a://financial-news/silver/current/vnexpress.net/fixture-crawl-v1/articles",
+                  "current_mentions_uri": "s3a://financial-news/silver/current/vnexpress.net/fixture-crawl-v1/article_mentions",
+                  "affected_article_ids_key": "silver/operations/source=vnexpress.net/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b/affected_articles.json",
+                  "stage_duration_seconds": 12.495
+                },
+                "gold": {
+                  "source_ingestion_id": "e35d59da9b2e244a2fdf3721c352977d8c1d7cf0b7e778c21640a5c2f380f13d",
+                  "silver_processing_version": "fixture-crawl-v1",
+                  "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+                  "affected_article_count": 0,
+                  "silver_articles_read": 1,
+                  "gold_documents_produced": 1,
+                  "gold_chunks_produced": 1,
+                  "run_documents_produced": 0,
+                  "run_chunks_produced": 0,
+                  "replaced_chunk_count": 0,
+                  "average_chunks_per_article": 1.0,
+                  "empty_rejected_chunk_count": 0,
+                  "processing_duration_seconds": 3.096,
+                  "completed_at": "2026-10-03T06:11:37.991543+00:00",
+                  "documents_uri": "s3a://financial-news/gold/current/rag/vnexpress.net/fixture-crawl-v1/sentence-v1-900-120/documents",
+                  "chunks_uri": "s3a://financial-news/gold/current/rag/vnexpress.net/fixture-crawl-v1/sentence-v1-900-120/chunks",
+                  "affected_article_ids_key": "gold/operations/pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b/processing_date=2026-10-03/affected_articles.json",
+                  "refresh_reason": "silver_change",
+                  "stage_duration_seconds": 3.104
+                },
+                "analytics": {
+                  "input_article_count": 1,
+                  "output_aggregation_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 2.407,
+                  "completed_at": "2026-10-03T06:11:40.410907+00:00",
+                  "manifest_key": "gold/current/analytics/vnexpress.net/fixture-crawl-v1/manifest.json",
+                  "stage_duration_seconds": 2.411
+                },
+                "duckdb": {
+                  "input_article_count": 1,
+                  "duckdb_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 0.027,
+                  "completed_at": "2026-10-03T06:11:40.444476+00:00",
+                  "duckdb_path": "/app/local/crawler/fixture-vnexpress.duckdb",
+                  "stage_duration_seconds": 0.031
+                },
+                "qdrant": {
+                  "affected_article_count": 0,
+                  "input_chunk_count": 0,
+                  "embedded_chunk_count": 0,
+                  "indexed_chunk_count": 0,
+                  "failed_chunk_count": 0,
+                  "stale_points_deleted": 0,
+                  "collection_point_count": 1,
+                  "collection": "fixture_crawler_vnexpress_v1",
+                  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "embedding_dimension": 384,
+                  "mode": "incremental_noop",
+                  "stage_duration_seconds": 1.047
+                },
+                "reconciliation": {
+                  "status": "PASS",
+                  "checks": {
+                    "silver_article_ids_unique": true,
+                    "gold_document_ids_unique": true,
+                    "gold_chunk_ids_unique": true,
+                    "silver_gold_documents_match": true,
+                    "chunks_reference_documents": true,
+                    "qdrant_matches_gold_chunks": true,
+                    "duckdb_matches_analytics_manifest": true
+                  },
+                  "counts": {
+                    "silver_articles": 1,
+                    "silver_duplicate_ids": 0,
+                    "gold_documents": 1,
+                    "gold_duplicate_ids": 0,
+                    "gold_chunks": 1,
+                    "chunk_duplicate_ids": 0,
+                    "missing_gold_documents": 0,
+                    "orphan_gold_documents": 0,
+                    "orphan_chunks": 0,
+                    "qdrant_points": 1,
+                    "qdrant_missing_points": 0,
+                    "qdrant_stale_points": 0,
+                    "duckdb_articles": 1,
+                    "analytics_manifest_articles": 1
+                  },
+                  "run_id": "pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b-2026-10-03",
+                  "source": "vnexpress.net",
+                  "processing_version": "fixture-crawl-v1",
+                  "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "completed_at": "2026-10-03T06:11:43.011432+00:00",
+                  "duration_seconds": 1.509,
+                  "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b-2026-10-03.json",
+                  "stage_duration_seconds": 1.517
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "tuoitre": {
+      "crawl": {
+        "source": "tuoitre",
+        "crawl_run_id": "crawl-tuoitre-529a7c49b83d429c8aa9627d921762fb",
+        "status": "SUCCESS",
+        "error": null,
+        "discovered": 1,
+        "fetched": 1,
+        "changed": 1,
+        "unchanged": 0,
+        "failed": 0,
+        "parser_failures": 0,
+        "http_429": 0,
+        "http_403": 0,
+        "retry_count": 0,
+        "batch_ids": [
+          "crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1"
+        ],
+        "bronze_ingestion_id": "4f6669db950a5c3db79f5dfb1d2fc283ca0cf7ed8b7611d280eb4fd5e98d9bf4",
+        "request_count": 2,
+        "duration_seconds": 0.043
+      },
+      "publish": {
+        "source": "tuoitre",
+        "published_batches": 1,
+        "results": [
+          {
+            "run_id": "pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1",
+            "status": "SUCCESS",
+            "trigger_type": "MANUAL",
+            "partition_start": "2026-10-03",
+            "partition_end": "2026-10-03",
+            "partitions": [
+              {
+                "processing_date": "2026-10-03",
+                "source_file": "/app/local/crawler/crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1.json",
+                "ingestion_id": "4f6669db950a5c3db79f5dfb1d2fc283ca0cf7ed8b7611d280eb4fd5e98d9bf4",
+                "silver_affected_article_count": 0,
+                "gold_affected_article_count": 0,
+                "qdrant_affected_article_count": 0,
+                "silver": {
+                  "source_ingestion_id": "4f6669db950a5c3db79f5dfb1d2fc283ca0cf7ed8b7611d280eb4fd5e98d9bf4",
+                  "processing_version": "fixture-crawl-v1",
+                  "processing_date": "2026-10-03",
+                  "input_count": 1,
+                  "output_count": 1,
+                  "invalid_count": 0,
+                  "duplicate_count": 0,
+                  "shared_content_hash_group_count": 0,
+                  "article_mentions_count": 1,
+                  "processing_duration_seconds": 11.817,
+                  "completed_at": "2026-10-03T06:11:56.488608+00:00",
+                  "silver_prefix": "silver/tuoitre.vn/4f6669db950a5c3db79f5dfb1d2fc283ca0cf7ed8b7611d280eb4fd5e98d9bf4/fixture-crawl-v1",
+                  "inserted_article_count": 0,
+                  "updated_article_count": 0,
+                  "unchanged_article_count": 1,
+                  "affected_article_count": 0,
+                  "current_article_count": 1,
+                  "current_mentions_count": 1,
+                  "current_silver_prefix": "silver/current/tuoitre.vn/fixture-crawl-v1",
+                  "current_articles_uri": "s3a://financial-news/silver/current/tuoitre.vn/fixture-crawl-v1/articles",
+                  "current_mentions_uri": "s3a://financial-news/silver/current/tuoitre.vn/fixture-crawl-v1/article_mentions",
+                  "affected_article_ids_key": "silver/operations/source=tuoitre.vn/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1/affected_articles.json",
+                  "stage_duration_seconds": 11.826
+                },
+                "gold": {
+                  "source_ingestion_id": "4f6669db950a5c3db79f5dfb1d2fc283ca0cf7ed8b7611d280eb4fd5e98d9bf4",
+                  "silver_processing_version": "fixture-crawl-v1",
+                  "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+                  "affected_article_count": 0,
+                  "silver_articles_read": 1,
+                  "gold_documents_produced": 1,
+                  "gold_chunks_produced": 1,
+                  "run_documents_produced": 0,
+                  "run_chunks_produced": 0,
+                  "replaced_chunk_count": 0,
+                  "average_chunks_per_article": 1.0,
+                  "empty_rejected_chunk_count": 0,
+                  "processing_duration_seconds": 3.124,
+                  "completed_at": "2026-10-03T06:11:59.638538+00:00",
+                  "documents_uri": "s3a://financial-news/gold/current/rag/tuoitre.vn/fixture-crawl-v1/sentence-v1-900-120/documents",
+                  "chunks_uri": "s3a://financial-news/gold/current/rag/tuoitre.vn/fixture-crawl-v1/sentence-v1-900-120/chunks",
+                  "affected_article_ids_key": "gold/operations/pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1/processing_date=2026-10-03/affected_articles.json",
+                  "refresh_reason": "silver_change",
+                  "stage_duration_seconds": 3.132
+                },
+                "analytics": {
+                  "input_article_count": 1,
+                  "output_aggregation_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 2.436,
+                  "completed_at": "2026-10-03T06:12:02.087520+00:00",
+                  "manifest_key": "gold/current/analytics/tuoitre.vn/fixture-crawl-v1/manifest.json",
+                  "stage_duration_seconds": 2.44
+                },
+                "duckdb": {
+                  "input_article_count": 1,
+                  "duckdb_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 0.027,
+                  "completed_at": "2026-10-03T06:12:02.120650+00:00",
+                  "duckdb_path": "/app/local/crawler/fixture-tuoitre.duckdb",
+                  "stage_duration_seconds": 0.03
+                },
+                "qdrant": {
+                  "affected_article_count": 0,
+                  "input_chunk_count": 0,
+                  "embedded_chunk_count": 0,
+                  "indexed_chunk_count": 0,
+                  "failed_chunk_count": 0,
+                  "stale_points_deleted": 0,
+                  "collection_point_count": 1,
+                  "collection": "fixture_crawler_tuoitre_v1",
+                  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "embedding_dimension": 384,
+                  "mode": "incremental_noop",
+                  "stage_duration_seconds": 1.086
+                },
+                "reconciliation": {
+                  "status": "PASS",
+                  "checks": {
+                    "silver_article_ids_unique": true,
+                    "gold_document_ids_unique": true,
+                    "gold_chunk_ids_unique": true,
+                    "silver_gold_documents_match": true,
+                    "chunks_reference_documents": true,
+                    "qdrant_matches_gold_chunks": true,
+                    "duckdb_matches_analytics_manifest": true
+                  },
+                  "counts": {
+                    "silver_articles": 1,
+                    "silver_duplicate_ids": 0,
+                    "gold_documents": 1,
+                    "gold_duplicate_ids": 0,
+                    "gold_chunks": 1,
+                    "chunk_duplicate_ids": 0,
+                    "missing_gold_documents": 0,
+                    "orphan_gold_documents": 0,
+                    "orphan_chunks": 0,
+                    "qdrant_points": 1,
+                    "qdrant_missing_points": 0,
+                    "qdrant_stale_points": 0,
+                    "duckdb_articles": 1,
+                    "analytics_manifest_articles": 1
+                  },
+                  "run_id": "pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1-2026-10-03",
+                  "source": "tuoitre.vn",
+                  "processing_version": "fixture-crawl-v1",
+                  "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "completed_at": "2026-10-03T06:12:04.591797+00:00",
+                  "duration_seconds": 1.373,
+                  "report_key": "operations/reconciliation/pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1-2026-10-03.json",
+                  "stage_duration_seconds": 1.379
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "thanhnien": {
+      "crawl": {
+        "source": "thanhnien",
+        "crawl_run_id": "crawl-thanhnien-2911bee7af274743a78ae72eddacaf93",
+        "status": "SUCCESS",
+        "error": null,
+        "discovered": 1,
+        "fetched": 1,
+        "changed": 1,
+        "unchanged": 0,
+        "failed": 0,
+        "parser_failures": 0,
+        "http_429": 0,
+        "http_403": 0,
+        "retry_count": 0,
+        "batch_ids": [
+          "crawl-thanhnien-4fd53897e437d3103c38768d8552410d"
+        ],
+        "bronze_ingestion_id": "d02462733221b7317e10a156535aabe8ebb471de1b384048dfb3f334e231ffb7",
+        "request_count": 2,
+        "duration_seconds": 0.044
+      },
+      "publish": {
+        "source": "thanhnien",
+        "published_batches": 1,
+        "results": [
+          {
+            "run_id": "pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d",
+            "status": "SUCCESS",
+            "trigger_type": "MANUAL",
+            "partition_start": "2026-10-03",
+            "partition_end": "2026-10-03",
+            "partitions": [
+              {
+                "processing_date": "2026-10-03",
+                "source_file": "/app/local/crawler/crawl-thanhnien-4fd53897e437d3103c38768d8552410d.json",
+                "ingestion_id": "d02462733221b7317e10a156535aabe8ebb471de1b384048dfb3f334e231ffb7",
+                "silver_affected_article_count": 0,
+                "gold_affected_article_count": 0,
+                "qdrant_affected_article_count": 0,
+                "silver": {
+                  "source_ingestion_id": "d02462733221b7317e10a156535aabe8ebb471de1b384048dfb3f334e231ffb7",
+                  "processing_version": "fixture-crawl-v1",
+                  "processing_date": "2026-10-03",
+                  "input_count": 1,
+                  "output_count": 1,
+                  "invalid_count": 0,
+                  "duplicate_count": 0,
+                  "shared_content_hash_group_count": 0,
+                  "article_mentions_count": 1,
+                  "processing_duration_seconds": 11.818,
+                  "completed_at": "2026-10-03T06:12:18.014226+00:00",
+                  "silver_prefix": "silver/thanhnien.vn/d02462733221b7317e10a156535aabe8ebb471de1b384048dfb3f334e231ffb7/fixture-crawl-v1",
+                  "inserted_article_count": 0,
+                  "updated_article_count": 0,
+                  "unchanged_article_count": 1,
+                  "affected_article_count": 0,
+                  "current_article_count": 1,
+                  "current_mentions_count": 1,
+                  "current_silver_prefix": "silver/current/thanhnien.vn/fixture-crawl-v1",
+                  "current_articles_uri": "s3a://financial-news/silver/current/thanhnien.vn/fixture-crawl-v1/articles",
+                  "current_mentions_uri": "s3a://financial-news/silver/current/thanhnien.vn/fixture-crawl-v1/article_mentions",
+                  "affected_article_ids_key": "silver/operations/source=thanhnien.vn/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d/affected_articles.json",
+                  "stage_duration_seconds": 11.828
+                },
+                "gold": {
+                  "source_ingestion_id": "d02462733221b7317e10a156535aabe8ebb471de1b384048dfb3f334e231ffb7",
+                  "silver_processing_version": "fixture-crawl-v1",
+                  "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+                  "affected_article_count": 0,
+                  "silver_articles_read": 1,
+                  "gold_documents_produced": 1,
+                  "gold_chunks_produced": 1,
+                  "run_documents_produced": 0,
+                  "run_chunks_produced": 0,
+                  "replaced_chunk_count": 0,
+                  "average_chunks_per_article": 1.0,
+                  "empty_rejected_chunk_count": 0,
+                  "processing_duration_seconds": 3.082,
+                  "completed_at": "2026-10-03T06:12:21.117616+00:00",
+                  "documents_uri": "s3a://financial-news/gold/current/rag/thanhnien.vn/fixture-crawl-v1/sentence-v1-900-120/documents",
+                  "chunks_uri": "s3a://financial-news/gold/current/rag/thanhnien.vn/fixture-crawl-v1/sentence-v1-900-120/chunks",
+                  "affected_article_ids_key": "gold/operations/pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d/processing_date=2026-10-03/affected_articles.json",
+                  "refresh_reason": "silver_change",
+                  "stage_duration_seconds": 3.088
+                },
+                "analytics": {
+                  "input_article_count": 1,
+                  "output_aggregation_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 2.309,
+                  "completed_at": "2026-10-03T06:12:23.436776+00:00",
+                  "manifest_key": "gold/current/analytics/thanhnien.vn/fixture-crawl-v1/manifest.json",
+                  "stage_duration_seconds": 2.314
+                },
+                "duckdb": {
+                  "input_article_count": 1,
+                  "duckdb_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 0.031,
+                  "completed_at": "2026-10-03T06:12:23.475649+00:00",
+                  "duckdb_path": "/app/local/crawler/fixture-thanhnien.duckdb",
+                  "stage_duration_seconds": 0.035
+                },
+                "qdrant": {
+                  "affected_article_count": 0,
+                  "input_chunk_count": 0,
+                  "embedded_chunk_count": 0,
+                  "indexed_chunk_count": 0,
+                  "failed_chunk_count": 0,
+                  "stale_points_deleted": 0,
+                  "collection_point_count": 1,
+                  "collection": "fixture_crawler_thanhnien_v1",
+                  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "embedding_dimension": 384,
+                  "mode": "incremental_noop",
+                  "stage_duration_seconds": 1.102
+                },
+                "reconciliation": {
+                  "status": "PASS",
+                  "checks": {
+                    "silver_article_ids_unique": true,
+                    "gold_document_ids_unique": true,
+                    "gold_chunk_ids_unique": true,
+                    "silver_gold_documents_match": true,
+                    "chunks_reference_documents": true,
+                    "qdrant_matches_gold_chunks": true,
+                    "duckdb_matches_analytics_manifest": true
+                  },
+                  "counts": {
+                    "silver_articles": 1,
+                    "silver_duplicate_ids": 0,
+                    "gold_documents": 1,
+                    "gold_duplicate_ids": 0,
+                    "gold_chunks": 1,
+                    "chunk_duplicate_ids": 0,
+                    "missing_gold_documents": 0,
+                    "orphan_gold_documents": 0,
+                    "orphan_chunks": 0,
+                    "qdrant_points": 1,
+                    "qdrant_missing_points": 0,
+                    "qdrant_stale_points": 0,
+                    "duckdb_articles": 1,
+                    "analytics_manifest_articles": 1
+                  },
+                  "run_id": "pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d-2026-10-03",
+                  "source": "thanhnien.vn",
+                  "processing_version": "fixture-crawl-v1",
+                  "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "completed_at": "2026-10-03T06:12:26.069096+00:00",
+                  "duration_seconds": 1.48,
+                  "report_key": "operations/reconciliation/pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d-2026-10-03.json",
+                  "stage_duration_seconds": 1.487
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "baomoi": {
+      "crawl": {
+        "source": "baomoi",
+        "crawl_run_id": "crawl-baomoi-98f66cba558740e8aeae4622b19a58c4",
+        "status": "SUCCESS",
+        "error": null,
+        "discovered": 1,
+        "fetched": 1,
+        "changed": 1,
+        "unchanged": 0,
+        "failed": 0,
+        "parser_failures": 0,
+        "http_429": 0,
+        "http_403": 0,
+        "retry_count": 0,
+        "batch_ids": [
+          "crawl-baomoi-ce00be9cc8e03998e1337503d7110950"
+        ],
+        "bronze_ingestion_id": "c03c1cf87e62c6fbf92245b1f4023475b180baf29f7fa8ef37ee057095b4936b",
+        "request_count": 2,
+        "duration_seconds": 0.066
+      },
+      "publish": {
+        "source": "baomoi",
+        "published_batches": 1,
+        "results": [
+          {
+            "run_id": "pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950",
+            "status": "SUCCESS",
+            "trigger_type": "MANUAL",
+            "partition_start": "2026-10-03",
+            "partition_end": "2026-10-03",
+            "partitions": [
+              {
+                "processing_date": "2026-10-03",
+                "source_file": "/app/local/crawler/crawl-baomoi-ce00be9cc8e03998e1337503d7110950.json",
+                "ingestion_id": "c03c1cf87e62c6fbf92245b1f4023475b180baf29f7fa8ef37ee057095b4936b",
+                "silver_affected_article_count": 0,
+                "gold_affected_article_count": 0,
+                "qdrant_affected_article_count": 0,
+                "silver": {
+                  "source_ingestion_id": "c03c1cf87e62c6fbf92245b1f4023475b180baf29f7fa8ef37ee057095b4936b",
+                  "processing_version": "fixture-crawl-v1",
+                  "processing_date": "2026-10-03",
+                  "input_count": 1,
+                  "output_count": 1,
+                  "invalid_count": 0,
+                  "duplicate_count": 0,
+                  "shared_content_hash_group_count": 0,
+                  "article_mentions_count": 1,
+                  "processing_duration_seconds": 11.926,
+                  "completed_at": "2026-10-03T06:12:39.725905+00:00",
+                  "silver_prefix": "silver/baomoi.com/c03c1cf87e62c6fbf92245b1f4023475b180baf29f7fa8ef37ee057095b4936b/fixture-crawl-v1",
+                  "inserted_article_count": 0,
+                  "updated_article_count": 0,
+                  "unchanged_article_count": 1,
+                  "affected_article_count": 0,
+                  "current_article_count": 1,
+                  "current_mentions_count": 1,
+                  "current_silver_prefix": "silver/current/baomoi.com/fixture-crawl-v1",
+                  "current_articles_uri": "s3a://financial-news/silver/current/baomoi.com/fixture-crawl-v1/articles",
+                  "current_mentions_uri": "s3a://financial-news/silver/current/baomoi.com/fixture-crawl-v1/article_mentions",
+                  "affected_article_ids_key": "silver/operations/source=baomoi.com/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950/affected_articles.json",
+                  "stage_duration_seconds": 11.933
+                },
+                "gold": {
+                  "source_ingestion_id": "c03c1cf87e62c6fbf92245b1f4023475b180baf29f7fa8ef37ee057095b4936b",
+                  "silver_processing_version": "fixture-crawl-v1",
+                  "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+                  "affected_article_count": 0,
+                  "silver_articles_read": 1,
+                  "gold_documents_produced": 1,
+                  "gold_chunks_produced": 1,
+                  "run_documents_produced": 0,
+                  "run_chunks_produced": 0,
+                  "replaced_chunk_count": 0,
+                  "average_chunks_per_article": 1.0,
+                  "empty_rejected_chunk_count": 0,
+                  "processing_duration_seconds": 3.045,
+                  "completed_at": "2026-10-03T06:12:42.788169+00:00",
+                  "documents_uri": "s3a://financial-news/gold/current/rag/baomoi.com/fixture-crawl-v1/sentence-v1-900-120/documents",
+                  "chunks_uri": "s3a://financial-news/gold/current/rag/baomoi.com/fixture-crawl-v1/sentence-v1-900-120/chunks",
+                  "affected_article_ids_key": "gold/operations/pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950/processing_date=2026-10-03/affected_articles.json",
+                  "refresh_reason": "silver_change",
+                  "stage_duration_seconds": 3.051
+                },
+                "analytics": {
+                  "input_article_count": 1,
+                  "output_aggregation_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 2.489,
+                  "completed_at": "2026-10-03T06:12:45.288330+00:00",
+                  "manifest_key": "gold/current/analytics/baomoi.com/fixture-crawl-v1/manifest.json",
+                  "stage_duration_seconds": 2.495
+                },
+                "duckdb": {
+                  "input_article_count": 1,
+                  "duckdb_rows": {
+                    "news_daily": 1,
+                    "news_by_source": 1,
+                    "news_publication_status": 1
+                  },
+                  "processing_duration_seconds": 0.032,
+                  "completed_at": "2026-10-03T06:12:45.328921+00:00",
+                  "duckdb_path": "/app/local/crawler/fixture-baomoi.duckdb",
+                  "stage_duration_seconds": 0.035
+                },
+                "qdrant": {
+                  "affected_article_count": 0,
+                  "input_chunk_count": 0,
+                  "embedded_chunk_count": 0,
+                  "indexed_chunk_count": 0,
+                  "failed_chunk_count": 0,
+                  "stale_points_deleted": 0,
+                  "collection_point_count": 1,
+                  "collection": "fixture_crawler_baomoi_v1",
+                  "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "embedding_dimension": 384,
+                  "mode": "incremental_noop",
+                  "stage_duration_seconds": 0.936
+                },
+                "reconciliation": {
+                  "status": "PASS",
+                  "checks": {
+                    "silver_article_ids_unique": true,
+                    "gold_document_ids_unique": true,
+                    "gold_chunk_ids_unique": true,
+                    "silver_gold_documents_match": true,
+                    "chunks_reference_documents": true,
+                    "qdrant_matches_gold_chunks": true,
+                    "duckdb_matches_analytics_manifest": true
+                  },
+                  "counts": {
+                    "silver_articles": 1,
+                    "silver_duplicate_ids": 0,
+                    "gold_documents": 1,
+                    "gold_duplicate_ids": 0,
+                    "gold_chunks": 1,
+                    "chunk_duplicate_ids": 0,
+                    "missing_gold_documents": 0,
+                    "orphan_gold_documents": 0,
+                    "orphan_chunks": 0,
+                    "qdrant_points": 1,
+                    "qdrant_missing_points": 0,
+                    "qdrant_stale_points": 0,
+                    "duckdb_articles": 1,
+                    "analytics_manifest_articles": 1
+                  },
+                  "run_id": "pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950-2026-10-03",
+                  "source": "baomoi.com",
+                  "processing_version": "fixture-crawl-v1",
+                  "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+                  "completed_at": "2026-10-03T06:12:47.656151+00:00",
+                  "duration_seconds": 1.379,
+                  "report_key": "operations/reconciliation/pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950-2026-10-03.json",
+                  "stage_duration_seconds": 1.388
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "checks": {
+    "all_five_fixture_sources": true,
+    "repeat_discovery_fetches_no_known_ineligible_articles": true,
+    "unchanged_recheck_no_batch": true,
+    "changed_content_updates_existing_silver_gold_serving": true,
+    "durable_outbox_publisher_retry_no_refetch": true
+  },
+  "changed_publish": {
+    "source": "cafef",
+    "published_batches": 1,
+    "results": [
+      {
+        "run_id": "pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10",
+        "status": "SUCCESS",
+        "trigger_type": "MANUAL",
+        "partition_start": "2026-10-03",
+        "partition_end": "2026-10-03",
+        "partitions": [
+          {
+            "processing_date": "2026-10-03",
+            "source_file": "/app/local/crawler/crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10.json",
+            "ingestion_id": "c11f90baa02aafe4ac7821f33becbe3bb0bd0353a17423c727d1af8c480670d2",
+            "silver_affected_article_count": 1,
+            "gold_affected_article_count": 1,
+            "qdrant_affected_article_count": 1,
+            "silver": {
+              "source_ingestion_id": "c11f90baa02aafe4ac7821f33becbe3bb0bd0353a17423c727d1af8c480670d2",
+              "processing_version": "fixture-crawl-v1",
+              "processing_date": "2026-10-03",
+              "input_count": 1,
+              "output_count": 1,
+              "invalid_count": 0,
+              "duplicate_count": 0,
+              "shared_content_hash_group_count": 0,
+              "article_mentions_count": 1,
+              "processing_duration_seconds": 12.374,
+              "completed_at": "2026-10-03T06:13:01.709867+00:00",
+              "silver_prefix": "silver/cafef.vn/c11f90baa02aafe4ac7821f33becbe3bb0bd0353a17423c727d1af8c480670d2/fixture-crawl-v1",
+              "inserted_article_count": 0,
+              "updated_article_count": 1,
+              "unchanged_article_count": 0,
+              "affected_article_count": 1,
+              "current_article_count": 1,
+              "current_mentions_count": 1,
+              "current_silver_prefix": "silver/current/cafef.vn/fixture-crawl-v1",
+              "current_articles_uri": "s3a://financial-news/silver/current/cafef.vn/fixture-crawl-v1/articles",
+              "current_mentions_uri": "s3a://financial-news/silver/current/cafef.vn/fixture-crawl-v1/article_mentions",
+              "affected_article_ids_key": "silver/operations/source=cafef.vn/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10/affected_articles.json",
+              "stage_duration_seconds": 12.381
+            },
+            "gold": {
+              "source_ingestion_id": "c11f90baa02aafe4ac7821f33becbe3bb0bd0353a17423c727d1af8c480670d2",
+              "silver_processing_version": "fixture-crawl-v1",
+              "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+              "affected_article_count": 1,
+              "silver_articles_read": 1,
+              "gold_documents_produced": 1,
+              "gold_chunks_produced": 1,
+              "run_documents_produced": 1,
+              "run_chunks_produced": 1,
+              "replaced_chunk_count": 1,
+              "average_chunks_per_article": 1.0,
+              "empty_rejected_chunk_count": 0,
+              "processing_duration_seconds": 6.137,
+              "completed_at": "2026-10-03T06:13:07.864138+00:00",
+              "documents_uri": "s3a://financial-news/gold/current/rag/cafef.vn/fixture-crawl-v1/sentence-v1-900-120/documents",
+              "chunks_uri": "s3a://financial-news/gold/current/rag/cafef.vn/fixture-crawl-v1/sentence-v1-900-120/chunks",
+              "affected_article_ids_key": "gold/operations/pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10/processing_date=2026-10-03/affected_articles.json",
+              "refresh_reason": "silver_change",
+              "stage_duration_seconds": 6.145
+            },
+            "analytics": {
+              "input_article_count": 1,
+              "output_aggregation_rows": {
+                "news_daily": 1,
+                "news_by_source": 1,
+                "news_publication_status": 1
+              },
+              "processing_duration_seconds": 2.54,
+              "completed_at": "2026-10-03T06:13:10.417922+00:00",
+              "manifest_key": "gold/current/analytics/cafef.vn/fixture-crawl-v1/manifest.json",
+              "stage_duration_seconds": 2.545
+            },
+            "duckdb": {
+              "input_article_count": 1,
+              "duckdb_rows": {
+                "news_daily": 1,
+                "news_by_source": 1,
+                "news_publication_status": 1
+              },
+              "processing_duration_seconds": 0.03,
+              "completed_at": "2026-10-03T06:13:10.455998+00:00",
+              "duckdb_path": "/app/local/crawler/fixture-cafef.duckdb",
+              "stage_duration_seconds": 0.034
+            },
+            "qdrant": {
+              "affected_article_count": 1,
+              "input_chunk_count": 1,
+              "embedded_chunk_count": 1,
+              "indexed_chunk_count": 1,
+              "failed_chunk_count": 0,
+              "stale_points_deleted": 1,
+              "collection_point_count": 1,
+              "processing_duration_seconds": 1.989,
+              "completed_at": "2026-10-03T06:13:13.340704+00:00",
+              "collection": "fixture_crawler_cafef_v1",
+              "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "embedding_dimension": 384,
+              "index_limit": 0,
+              "mode": "incremental",
+              "stage_duration_seconds": 3.017
+            },
+            "reconciliation": {
+              "status": "PASS",
+              "checks": {
+                "silver_article_ids_unique": true,
+                "gold_document_ids_unique": true,
+                "gold_chunk_ids_unique": true,
+                "silver_gold_documents_match": true,
+                "chunks_reference_documents": true,
+                "qdrant_matches_gold_chunks": true,
+                "duckdb_matches_analytics_manifest": true
+              },
+              "counts": {
+                "silver_articles": 1,
+                "silver_duplicate_ids": 0,
+                "gold_documents": 1,
+                "gold_duplicate_ids": 0,
+                "gold_chunks": 1,
+                "chunk_duplicate_ids": 0,
+                "missing_gold_documents": 0,
+                "orphan_gold_documents": 0,
+                "orphan_chunks": 0,
+                "qdrant_points": 1,
+                "qdrant_missing_points": 0,
+                "qdrant_stale_points": 0,
+                "duckdb_articles": 1,
+                "analytics_manifest_articles": 1
+              },
+              "run_id": "pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10-2026-10-03",
+              "source": "cafef.vn",
+              "processing_version": "fixture-crawl-v1",
+              "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "completed_at": "2026-10-03T06:13:15.338005+00:00",
+              "duration_seconds": 1.853,
+              "report_key": "operations/reconciliation/pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10-2026-10-03.json",
+              "stage_duration_seconds": 1.858
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "recovery": {
+    "source": "vnexpress",
+    "published_batches": 1,
+    "results": [
+      {
+        "run_id": "pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf",
+        "status": "SUCCESS",
+        "trigger_type": "MANUAL",
+        "partition_start": "2026-10-03",
+        "partition_end": "2026-10-03",
+        "partitions": [
+          {
+            "processing_date": "2026-10-03",
+            "source_file": "/app/local/crawler/crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf.json",
+            "ingestion_id": "83fd2ed986e023348de3f563fad3f74a3e2efbe65030934633350a5aceca9196",
+            "silver_affected_article_count": 1,
+            "gold_affected_article_count": 1,
+            "qdrant_affected_article_count": 1,
+            "silver": {
+              "source_ingestion_id": "83fd2ed986e023348de3f563fad3f74a3e2efbe65030934633350a5aceca9196",
+              "processing_version": "fixture-crawl-v1",
+              "processing_date": "2026-10-03",
+              "input_count": 1,
+              "output_count": 1,
+              "invalid_count": 0,
+              "duplicate_count": 0,
+              "shared_content_hash_group_count": 0,
+              "article_mentions_count": 1,
+              "processing_duration_seconds": 12.275,
+              "completed_at": "2026-10-03T06:13:29.334205+00:00",
+              "silver_prefix": "silver/vnexpress.net/83fd2ed986e023348de3f563fad3f74a3e2efbe65030934633350a5aceca9196/fixture-crawl-v1",
+              "inserted_article_count": 0,
+              "updated_article_count": 1,
+              "unchanged_article_count": 0,
+              "affected_article_count": 1,
+              "current_article_count": 1,
+              "current_mentions_count": 1,
+              "current_silver_prefix": "silver/current/vnexpress.net/fixture-crawl-v1",
+              "current_articles_uri": "s3a://financial-news/silver/current/vnexpress.net/fixture-crawl-v1/articles",
+              "current_mentions_uri": "s3a://financial-news/silver/current/vnexpress.net/fixture-crawl-v1/article_mentions",
+              "affected_article_ids_key": "silver/operations/source=vnexpress.net/processing_version=fixture-crawl-v1/processing_date=2026-10-03/run_id=pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf/affected_articles.json",
+              "stage_duration_seconds": 12.284
+            },
+            "gold": {
+              "source_ingestion_id": "83fd2ed986e023348de3f563fad3f74a3e2efbe65030934633350a5aceca9196",
+              "silver_processing_version": "fixture-crawl-v1",
+              "gold_processing_version": "fixture-crawl-v1+sentence-v1-900-120",
+              "affected_article_count": 1,
+              "silver_articles_read": 1,
+              "gold_documents_produced": 1,
+              "gold_chunks_produced": 1,
+              "run_documents_produced": 1,
+              "run_chunks_produced": 1,
+              "replaced_chunk_count": 1,
+              "average_chunks_per_article": 1.0,
+              "empty_rejected_chunk_count": 0,
+              "processing_duration_seconds": 6.083,
+              "completed_at": "2026-10-03T06:13:35.437543+00:00",
+              "documents_uri": "s3a://financial-news/gold/current/rag/vnexpress.net/fixture-crawl-v1/sentence-v1-900-120/documents",
+              "chunks_uri": "s3a://financial-news/gold/current/rag/vnexpress.net/fixture-crawl-v1/sentence-v1-900-120/chunks",
+              "affected_article_ids_key": "gold/operations/pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf/processing_date=2026-10-03/affected_articles.json",
+              "refresh_reason": "silver_change",
+              "stage_duration_seconds": 6.093
+            },
+            "analytics": {
+              "input_article_count": 1,
+              "output_aggregation_rows": {
+                "news_daily": 1,
+                "news_by_source": 1,
+                "news_publication_status": 1
+              },
+              "processing_duration_seconds": 2.43,
+              "completed_at": "2026-10-03T06:13:37.884295+00:00",
+              "manifest_key": "gold/current/analytics/vnexpress.net/fixture-crawl-v1/manifest.json",
+              "stage_duration_seconds": 2.434
+            },
+            "duckdb": {
+              "input_article_count": 1,
+              "duckdb_rows": {
+                "news_daily": 1,
+                "news_by_source": 1,
+                "news_publication_status": 1
+              },
+              "processing_duration_seconds": 0.027,
+              "completed_at": "2026-10-03T06:13:37.917992+00:00",
+              "duckdb_path": "/app/local/crawler/fixture-vnexpress.duckdb",
+              "stage_duration_seconds": 0.031
+            },
+            "qdrant": {
+              "affected_article_count": 1,
+              "input_chunk_count": 1,
+              "embedded_chunk_count": 1,
+              "indexed_chunk_count": 1,
+              "failed_chunk_count": 0,
+              "stale_points_deleted": 1,
+              "collection_point_count": 1,
+              "processing_duration_seconds": 1.793,
+              "completed_at": "2026-10-03T06:13:40.354427+00:00",
+              "collection": "fixture_crawler_vnexpress_v1",
+              "embedding_model": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "embedding_dimension": 384,
+              "index_limit": 0,
+              "mode": "incremental",
+              "stage_duration_seconds": 2.551
+            },
+            "reconciliation": {
+              "status": "PASS",
+              "checks": {
+                "silver_article_ids_unique": true,
+                "gold_document_ids_unique": true,
+                "gold_chunk_ids_unique": true,
+                "silver_gold_documents_match": true,
+                "chunks_reference_documents": true,
+                "qdrant_matches_gold_chunks": true,
+                "duckdb_matches_analytics_manifest": true
+              },
+              "counts": {
+                "silver_articles": 1,
+                "silver_duplicate_ids": 0,
+                "gold_documents": 1,
+                "gold_duplicate_ids": 0,
+                "gold_chunks": 1,
+                "chunk_duplicate_ids": 0,
+                "missing_gold_documents": 0,
+                "orphan_gold_documents": 0,
+                "orphan_chunks": 0,
+                "qdrant_points": 1,
+                "qdrant_missing_points": 0,
+                "qdrant_stale_points": 0,
+                "duckdb_articles": 1,
+                "analytics_manifest_articles": 1
+              },
+              "run_id": "pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf-2026-10-03",
+              "source": "vnexpress.net",
+              "processing_version": "fixture-crawl-v1",
+              "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "completed_at": "2026-10-03T06:13:42.238376+00:00",
+              "duration_seconds": 1.758,
+              "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf-2026-10-03.json",
+              "stage_duration_seconds": 1.766
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "status": "PASS",
+  "duration_seconds": 229.472,
+  "completed_at": "2026-10-03T06:14:37.016821+00:00"
+}

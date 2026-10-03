@@ -1,5 +1,10 @@
 # Scraper — How It Works
 
+> **Legacy `src/scraper` documentation — UNUSED FOR NOW in the medallion pipeline.**
+> Phase08 uses `src/crawling`, immutable Landing and the existing Bronze/Silver/Gold
+> jobs. See [crawler operations](crawler-operations.md) and
+> [source mappings](source-mapping-matrix.md) for the current five-source path.
+
 This document covers the full scraper pipeline: from reading the keyword spreadsheet to persisting articles in PostgreSQL and MongoDB.
 
 ---

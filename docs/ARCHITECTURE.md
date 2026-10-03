@@ -1,5 +1,10 @@
 # Architecture Overview
 
+> **Historical scraper/application architecture.** This page describes the
+> legacy stack, not the current Phase01–08 data plane. Start with
+> [local architecture](local-architecture.md), [crawler architecture](crawling-architecture.md)
+> and [current status](agent_tasks/CURRENT_STATUS.md) for the implemented pipeline.
+
 This document focuses on the **scraper, storage, and observability** portion of the Financial News stack. It does not cover the thesis's stock-price streaming/Power BI output, which is not yet implemented in this repository. For the current codebase and its differences from the thesis proposal, see [Project Status](PROJECT_STATUS.md) and [Thesis Alignment](THESIS_ALIGNMENT.md).
 
 ---

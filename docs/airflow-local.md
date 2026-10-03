@@ -138,7 +138,7 @@ The DAG files do not contain hostnames, credentials, bucket names, or transforma
 
 `news_incremental_pipeline` is the hardened path for new development. It keeps the Phase 03 DAGs available for regression and demonstration, while calling `src/news_pipeline/pipeline_runner.py` through the thin `airflow_runner.py` adapter. Its single Spark task accepts `incremental`, `backfill`, `reprocess`, or `resume`, records durable stage state in PostgreSQL, and reconciles Silver, Gold, Qdrant, and DuckDB before advancing a checkpoint. `max_active_runs=1` and the PostgreSQL partition lock protect overlapping writes.
 
-The default schedule is disabled. The repository contains static sample data, so an automatic daily run would otherwise request a partition file that does not exist. Enable scheduling only when dated fixtures are available:
+The default schedule of `news_incremental_pipeline` is disabled. This DAG reads dated files, so an automatic daily run would otherwise request a partition file that does not exist. Enable its scheduling only when dated fixtures are available. Phase08 live inputs use the separate `news_crawling_pipeline` described below:
 
 ```bash
 AIRFLOW_NEWS_INCREMENTAL_SCHEDULE='@daily' make airflow-up
@@ -215,3 +215,28 @@ Reruns retained the same Bronze ingestion ID, Silver counts, Gold chunk IDs/coun
 - FastEmbed model and Spark Ivy caches are separate Airflow volumes on first use.
 - Airflow metadata remains in its dedicated database. Phase 05 pipeline run state uses `financial_metadata.pipeline_operations`; those tables are intentionally excluded from Phase 04 Debezium CDC.
 - Airflow 2.11 reports deprecation notices for the future Airflow 3 migration; they do not affect this local Phase 03 slice.
+
+## Phase08 integrated crawler DAG
+
+`news_crawling_pipeline` is an additional DAG with five static source groups,
+each `crawl -> publish`. It calls `src.crawling.airflow_jobs`; the publisher
+reuses the existing Phase05 runner and reconciles the source's outputs. No
+parsing/transformation logic or per-article tasks are placed in the DAG, and it
+does not trigger the dated-file `news_incremental_pipeline`.
+
+Default settings are `schedule=None`, fixture mode, `catchup=False`, one active
+run/task and `limit=1` per source. For a daily live schedule, the operator must
+set both `AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"` and
+`AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true`, recreate scheduler/webserver,
+check imports and unpause the DAG. Its timezone is `Asia/Ho_Chi_Minh`.
+Manual trigger conf affects that run only; the metadata batch limit does not
+override the explicit Airflow limit. Scheduled capacity changes require an
+explicit default-parameter change and verification with the current code.
+
+Persistent PostgreSQL frontier/hash/outbox state governs incremental work, not
+the DAG's data interval. No complete daily or archive coverage has been proved.
+See [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in)
+for exact commands, current limits, disabling the schedule and replaying pending
+batches. The Phase03 evidence/limits above describe the original snapshot DAGs;
+Phase08 fixture scheduler and tiny live evidence are recorded separately in
+[CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md).

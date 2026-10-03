@@ -1,5 +1,11 @@
 # Local financial-news pipeline implementation plan
 
+> **Original local-batch implementation plan.** This plan predates completion of
+> Phase01–08; its numbered milestones are not the current agent phase numbers.
+> Crawling was excluded from that original milestone and was later explicitly
+> authorized/implemented in Phase08. Use [current status](agent_tasks/CURRENT_STATUS.md)
+> and [crawler operations](crawler-operations.md) for the current checkpoint.
+
 **Status (23/09/2026):** the original audit proposal has now been implemented through Phase 04 for the local financial-news slice. Phase 01 provides Bronze/Silver, Phase 02 provides Gold/Qdrant/DuckDB, Phase 03 provides Airflow orchestration, and Phase 04 provides a separate PostgreSQL → Debezium → Kafka metadata control plane. See [bronze-silver-local.md](bronze-silver-local.md), [silver-gold-local.md](silver-gold-local.md), [airflow-local.md](airflow-local.md), and [metadata-control-plane.md](metadata-control-plane.md) for measured evidence. The Phase 04 Kafka topics contain control metadata only; stock-market streaming remains future work.
 
 ## Scope and sequencing

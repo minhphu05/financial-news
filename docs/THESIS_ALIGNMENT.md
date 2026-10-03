@@ -10,6 +10,16 @@
 
 ## Kết luận ngắn
 
+> **Checkpoint Phase08, 03/10/2026:** pipeline tin tức local đã có Spark/Delta,
+> Airflow, metadata CDC và monitoring; crawler CafeF, VnExpress, Tuổi Trẻ,
+> Thanh Niên, Báo Mới đã tích hợp vào Bronze/Silver/Gold. Live E2E kiểm chứng
+> 1 bài/nguồn, tổng 5 bài và 39 chunks/points. Schedule live mặc định tắt; cloud
+> chưa triển khai. Xem [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md) và
+> [crawler operations](crawler-operations.md). Kết luận/ma trận bên dưới là
+> bản đối chiếu lịch sử ngày 20/09; phần nhận định thiếu Spark/Airflow không
+> còn mô tả pipeline tin tức hiện tại. Các đầu ra NER, streaming giá và Power BI
+> không được coi là hoàn thành bởi checkpoint này.
+
 **Dự án đúng hướng về bài toán tin tức và RAG, nhưng chưa bám sát toàn bộ đề cương đã nộp.** Trong ba đầu ra, website/RAG có nhiều thành phần đã viết; NER có dữ liệu và mã huấn luyện nhưng thiếu chuỗi bằng chứng thực nghiệm đầy đủ trong repo; pipeline giá cổ phiếu và Power BI chưa thấy triển khai. Hai thay đổi công nghệ lớn là **Prefect thay Airflow** và **Python/Polars thay Spark**. Đây là khác biệt so với phương pháp được nêu đích danh trong đề cương, không chỉ là cách đặt tên khác.
 
 Nếu đề cương là cam kết kỹ thuật phải giữ, nhóm cần triển khai/đánh giá Airflow và Spark theo phạm vi đã ghi, hoặc thống nhất chỉnh đề cương với giảng viên hướng dẫn. Không thể chỉ đổi tên Prefect thành Airflow hay Polars thành Spark trong báo cáo.

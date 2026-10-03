@@ -1,0 +1,1 @@
+Synthetic article text inside DOM nodes observed through ordinary public HTTP on 2026-10-03. These are fixture records, not market/news evidence. URLs and markup provenance are in source profiles. Full observed HTML is excluded from Git under data/local/source-recon.

@@ -8,7 +8,9 @@ This document describes the implemented local release and labels future targets 
 Delta 3.2.1, Airflow LocalExecutor, PostgreSQL, Debezium, one Kafka broker,
 Qdrant, DuckDB, bootstrap/reset tooling, deterministic acceptance fixtures,
 derived-store rebuild tests, Prometheus, provisioned Grafana dashboards, and
-read-only/native metrics exporters.
+read-only/native metrics exporters. Phase08 adds five bounded public HTTP source
+crawlers, immutable Landing and persistent crawler state, with a default-manual
+Airflow DAG; it does not deploy cloud services.
 
 **FUTURE CLOUD TARGET:** ADLS Gen2 or approved storage, scalable Spark, managed
 or Kubernetes Airflow/PostgreSQL/Kafka/Qdrant, workload identity, and Kubernetes
@@ -146,3 +148,13 @@ Spark transformations consume DataFrames and contracts, not MinIO client objects
 9. Run `make monitoring-up`, then `make monitoring-test`. Inspect the provisioned overview, operations, data-quality, freshness, CDC, and resource dashboards. Use `make phase7-acceptance` to demonstrate Qdrant, data-quality, and Debezium failure/recovery behavior.
 
 The specific implementation milestones and evidence gates are in [implementation-plan.md](implementation-plan.md).
+
+## Phase08 multisource input extension
+
+Verified source-specific crawlers for CafeF, VnExpress, Tuổi Trẻ, Thanh Niên and Báo Mới feed immutable MinIO Landing. Source adapters emit the existing JSON-array Bronze boundary. The existing Spark/Delta Silver, enrichment hooks, Gold and serving jobs are reused. See [crawler architecture](crawling-architecture.md), [operations](crawler-operations.md) and [mapping matrix](source-mapping-matrix.md).
+
+Crawler state is in `crawler_operations`; configuration is in the existing `control_metadata.news_sources.config`. Kafka remains metadata-only. Airflow DAG `news_crawling_pipeline` uses source-level `crawl -> publish` groups, default manual fixture mode and no schedule. Optional live scheduling requires an explicit environment flag. Live and fixture processing versions/serving are separate; each source has its own Qdrant collection and DuckDB file to match existing reconciliation semantics. No cloud implementation was introduced.
+
+Daily scheduling can use `0 6 * * *` in the DAG's `Asia/Ho_Chi_Minh` timezone after explicit live opt-in. Current scheduled capacity is one article per source per run; cadence does not guarantee complete listing/archive coverage. The frontier decides new/retry/recheck work, observation hashes suppress unchanged downstream batches, and pending batches resume through the Phase05 runner. Gold Analytics remains full refresh. Phase08 adds one dashboard/three rules to the Phase07 baseline, giving seven dashboards/15 rules. See [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in) for exact commands and parameter behavior.
+
+Future migration must preserve Landing and `crawler_operations` alongside Bronze/Silver/Gold, `control_metadata` and `pipeline_operations`. See [migration manifest](cloud-migration-manifest.md) for a consistent cutover checkpoint. ADLS adapter/runtime/identity work remains unimplemented and the historical credential release gate stays `NOT READY`.

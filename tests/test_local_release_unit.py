@@ -67,10 +67,12 @@ class LocalReleaseUnitTest(unittest.TestCase):
     def test_release_audit_reports_only_historical_secret_names(self):
         names = credential_shaped_env_names(
             "REAL_API_TOKEN=" + ("x" * 32) + "\n"
+            "GEMINI_API_KEY=AIza" + ("z" * 35) + "\n"
             "PLACEHOLDER_SECRET=change-me-for-local\n"
             "ORDINARY_VALUE=" + ("y" * 40) + "\n"
+            '{"chunk_key": "' + ("q" * 40) + '"}\n'
         )
-        self.assertEqual(names, {"REAL_API_TOKEN"})
+        self.assertEqual(names, {"GEMINI_API_KEY", "REAL_API_TOKEN"})
 
     def test_runtime_modules_do_not_call_legacy_s3a_helper(self):
         root = Path("/app/src/news_pipeline") if Path("/app").exists() else Path("src/news_pipeline")

@@ -1,0 +1,45 @@
+{
+  "source_id": "tuoitre",
+  "host": "tuoitre.vn",
+  "observed_at": "2026-10-03",
+  "status": "HTTP_ACCESSIBLE",
+  "fetch_strategy": "public_http",
+  "browser_required": false,
+  "raw_schema_version": "tuoitre-raw-v1",
+  "sample": {
+    "url": "https://tuoitre.vn/phuc-loi-cho-nguoi-gia-10026100114085356.htm",
+    "final_url": "https://tuoitre.vn/phuc-loi-cho-nguoi-gia-10026100114085356.htm",
+    "status": 200
+  },
+  "html_sha256": "da08b902deac6437b76f79b7476b8f492d38daa18613a68c32540c47f0712035",
+  "observed_selectors": {
+    "title": "h1.detail-title",
+    "body": "div.afcbc-body"
+  },
+  "title_node_count": 1,
+  "body_node_count": 1,
+  "body_paragraph_count": 21,
+  "discovery_url": "https://tuoitre.vn/kinh-doanh.htm",
+  "robots_url": "https://tuoitre.vn/robots.txt",
+  "robots_evidence": "User-agent: *\nAllow: /\nSitemap: https://tuoitre.vn/sitemaps/index.rss\nSitemap: https://tuoitre.vn/sitemaps/latest-news.rss\nDisallow: /tim-kiem.htm\nDisallow: /print/\nDisallow: /web_js/login/login_sso.js\nDisallow: /web_js/livesport-signal.js\nDisallow: /mob_js/login/login_sso.js\nDisallow: /mob_js/livesport-signal.js\nDisallow: /ImageView.aspx\nDisallow: /ajax-box-mua-sam/  ",
+  "limitations": [
+    "One page observed; layout variants need additional evidence.",
+    "HTTP access does not grant redistribution rights."
+  ],
+  "discovery_status": 200,
+  "raw_payload_field_types": {
+    "detail_title": "str",
+    "sapo": "str",
+    "article_body_html": "str",
+    "published_time": "str",
+    "author": "NoneType",
+    "json_ld": "list",
+    "image_urls": "list",
+    "category": "NoneType",
+    "observed_canonical_url": "str"
+  },
+  "discovered_article_count": 16,
+  "parser_validation": "one_observed_article_passed",
+  "parser_status": "OBSERVED_ARTICLE_AND_OFFLINE_FIXTURE_PASS",
+  "payload_origin": "Project-owned parser keys derived from observed DOM/meta nodes; not a claimed official API schema"
+}

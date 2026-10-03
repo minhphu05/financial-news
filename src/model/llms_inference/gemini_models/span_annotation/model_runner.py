@@ -9,10 +9,9 @@ from google.genai import types
 from prompts import build_en_prompt
 from parser import extract_json
 
-load_dotenv(
-    dotenv_path="/Users/kittnguyen/Documents/DS201_Finance/src/llms_inference/gemini_models/config/.env",
-    override=True
-)
+# Load the repository-level ignored .env when present. An already exported
+# environment variable takes precedence.
+load_dotenv(override=False)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 models = [
     # "gemini-2.0-flash",

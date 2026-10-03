@@ -190,8 +190,11 @@ def credential_shaped_env_names(text: str) -> set[str]:
             continue
         name, value = line.split("=", 1)
         name, value = name.strip(), value.strip()
+        if not re.fullmatch(r"[A-Z][A-Z0-9_]*", name):
+            continue
         if not value or not any(
-            token in name.upper() for token in ("KEY", "TOKEN", "SECRET")
+            token in name.upper()
+            for token in ("KEY", "TOKEN", "SECRET", "PASSWORD")
         ):
             continue
         lowered = value.lower()
@@ -215,13 +218,18 @@ def credential_shaped_env_names(text: str) -> set[str]:
 
 def historical_env_secret_key_names() -> list[str]:
     """Inspect every historical .env blob while exposing variable names only."""
-    revisions = run(
-        "git", "rev-list", "--all", "--", ".env", capture=True, check=False
+    objects = run(
+        "git", "rev-list", "--objects", "--all", capture=True, check=False
     ).splitlines()
     names: set[str] = set()
-    for revision in revisions:
+    seen_blobs: set[str] = set()
+    for item in objects:
+        object_id, separator, object_path = item.partition(" ")
+        if not separator or Path(object_path).name != ".env" or object_id in seen_blobs:
+            continue
+        seen_blobs.add(object_id)
         previous_env = run(
-            "git", "show", f"{revision}:.env", capture=True, check=False
+            "git", "cat-file", "blob", object_id, capture=True, check=False
         )
         names.update(credential_shaped_env_names(previous_env))
     return sorted(names)

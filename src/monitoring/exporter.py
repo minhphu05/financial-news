@@ -67,7 +67,7 @@ ALLOWED_PIPELINES = _csv_env(
 )
 ALLOWED_SOURCES = _csv_env(
     "MONITORING_SOURCE_ALLOWLIST",
-    "cafef.vn,local-release.test,phase05-it.local,phase05-recovery.local,phase07-monitoring.local",
+    "cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com,local-release.test,phase05-it.local,phase05-recovery.local,phase07-monitoring.local",
 )
 
 
@@ -169,7 +169,9 @@ class SnapshotReader:
                     (os.getenv("METADATA_CDC_SLOT", "metadata_cdc_slot"),),
                 )
                 slot = cursor.fetchone()
-        return {"runs": runs, "stages": stages, "slot": None if slot is None else dict(slot)}
+                from .crawler_metrics import read as read_crawler
+                crawler = read_crawler(cursor)
+        return {"runs": runs, "stages": stages, "slot": None if slot is None else dict(slot), **crawler}
 
 
 def _json_get(url: str, timeout: float = 4.0) -> Any:
@@ -272,6 +274,9 @@ class FinancialNewsCollector:
         )
         success.add_metric([], collection_ok)
         yield success
+
+        from .crawler_metrics import collect as collect_crawler
+        yield from collect_crawler(snapshot)
 
         run_totals: dict[tuple[str, str, str, str], int] = defaultdict(int)
         latest_runs: dict[tuple[str, str, str], dict[str, Any]] = {}
