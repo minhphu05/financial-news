@@ -6,10 +6,9 @@ from dotenv import load_dotenv
 from google import genai
 from model_runner import process_batch
 
-load_dotenv(
-    dotenv_path="/Users/kittnguyen/Documents/DS201_Finance/src/llms_inference/gemini_models/config/.env",
-    override=True
-)
+# Load the repository-level ignored .env when present. An already exported
+# environment variable takes precedence.
+load_dotenv(override=False)
 # --- CẤU HÌNH ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Thay đổi model ở đây nếu cần
