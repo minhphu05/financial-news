@@ -1,0 +1,45 @@
+{
+  "source_id": "vnexpress",
+  "host": "vnexpress.net",
+  "observed_at": "2026-10-03",
+  "status": "HTTP_ACCESSIBLE",
+  "fetch_strategy": "public_http",
+  "browser_required": false,
+  "raw_schema_version": "vnexpress-raw-v1",
+  "sample": {
+    "url": "https://vnexpress.net/gdp-quy-iii-tang-9-95-5127865.html",
+    "final_url": "https://vnexpress.net/gdp-quy-iii-tang-9-95-5127865.html",
+    "status": 200
+  },
+  "html_sha256": "29a2803b0cd0c3f4bf77addf2e3e48e9a136adde8084f54cd37e71cd51f77571",
+  "observed_selectors": {
+    "title": "h1.title-detail",
+    "body": "article.fck_detail"
+  },
+  "title_node_count": 1,
+  "body_node_count": 1,
+  "body_paragraph_count": 26,
+  "discovery_url": "https://vnexpress.net/kinh-doanh",
+  "robots_url": "https://vnexpress.net/robots.txt",
+  "robots_evidence": "User-agent: *\nAllow: /\nAllow: /ads.txt\n\nSitemap: https://vnexpress.net/sitemap.xml\nSitemap: https://vnexpress.net/google-news-sitemap.xml\nSitemap: https://vnexpress.net/images-2026-sitemap.xml\n\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /\nUser-agent: Claude-Web\nDisallow: /\nUser-agent: Google-Extended\nDisallow: /\nUser-agent: Google-CloudVertexBot\nDisallow: /\nUser-agent: Applebot-Extended\nDisallow: /\nUser-agent: CCBot\nDisallow: /\nUser-agent: Bytespider\nDisallow: /\nUser-agent: cohere-ai\nDisallow: /\nUser-agent: ImagesiftBot\nDisallow: /\nUser-agent: MyCentralAIScraperBot\nDisallow: /\nUser-agent: SeekrBot\nDisallow: /\nUser-agent: omgili\nUser-agent: omgilibot\nDisallow: /\nUser-agent: news-please\nDisallow: /\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: ChatGPT-User\nAllow: /\nUser-agent: Claude-SearchBot\nAllow: /\nUser-agent: Claude-User\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: Perplexity-User\nAllow: /\nUser-agent: DuckAssistBot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\nUser-agent: Baiduspider\nAllow: /\nUser-agent: Slurp\nAllow: /\n\nUser-agent: AliyunSecBot\nDisallow: /\nUser-agent: AmazonBot\nDisallow: /\nUser-agent: archive.org_bot\nDisallow: /\nUser-agent: AudigentAdBot\nDisallow: /\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot\nDisallow: /\nUser-agent: BLEXBot\nDisallow: /\nUser-agent: DataForSeoBot\nDisallow: /\nUser-agent: Diffbot\nDisallow: /\nUser-agent: EchoboxBot\nDisallow: /\nUser-agent: FriendlyCrawler\nDisallow: /\nUser-agent: Jetslide\nDisallow: /\nUser-agent: magpie-crawler\nDisallow: /\nUser-agent: NewsNow\nDisallow: /\nUser-agent: peer39_crawler\nUser-agent: peer39_crawler/1.0\nDisallow: /\nUser-agent: Poseidon Research Crawler\nDisallow: /\nUser-agent: quillbot.com\nDisallow: /\nUser-agent: Quora-Bot\nDisallow: /\nUser-agent: Scrapy\nDisallow: /\nUser-agent: SeznamHomepageCrawler\nDisallow: /\nUser-agent: TaraGroup Intelligent Bot\nDisallow: /\nUser-agent: Timpibot\nDisallow: /\nUser-agent: TurnitinBot\nDisallow: /\nUser-agent: ViennaTinyBot\nDisallow: /\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n",
+  "limitations": [
+    "One page observed; layout variants need additional evidence.",
+    "HTTP access does not grant redistribution rights."
+  ],
+  "discovery_status": 200,
+  "raw_payload_field_types": {
+    "title_detail": "str",
+    "description": "str",
+    "fck_detail_html": "str",
+    "pubdate": "str",
+    "journalist": "NoneType",
+    "json_ld": "list",
+    "image_urls": "list",
+    "category": "str",
+    "observed_canonical_url": "str"
+  },
+  "discovered_article_count": 50,
+  "parser_validation": "one_observed_article_passed",
+  "parser_status": "OBSERVED_ARTICLE_AND_OFFLINE_FIXTURE_PASS",
+  "payload_origin": "Project-owned parser keys derived from observed DOM/meta nodes; not a claimed official API schema"
+}

@@ -945,3 +945,25 @@ make local-stop
 - Compose còn service legacy nhưng `make bootstrap`/`make monitoring-up` chỉ khởi động tập service Phase 01–07 cần thiết.
 
 Sau khi điền `.env`, dựng DuckDB và collection Qdrant mặc định, hệ thống đủ để thực hiện chuỗi demo 10 phút ở mục 19 mà không cần thêm feature hoặc thay đổi data contract.
+
+## Demo Phase08: crawler đa nguồn
+
+Không cần API key từ các trang báo. Fixture có nội dung tổng hợp để kiểm thử, không phải bài báo thật.
+
+```sh
+make crawler-init
+make test-crawler
+make crawler-demo
+make crawler-airflow-smoke
+make crawler-monitoring-smoke
+```
+
+Smoke live có chủ đích, tối đa một bài đủ điều kiện mỗi nguồn:
+
+```sh
+make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1
+make crawler-publish CRAWLER_SOURCE=all
+make crawler-status
+```
+
+Mở Airflow: DAG `news_crawling_pipeline`; mặc định fixture và lịch tắt. Mở Grafana: **Financial News — Multisource Crawling**. Đối chiếu `artifacts/phase8-live-e2e.json` để xem số bài/chunk/point thực tế; truy vết batch trong `crawler_operations.batches`. Các nguồn được phục vụ bằng collection Qdrant và file DuckDB riêng; không ghi đè dữ liệu CafeF mẫu hoặc dữ liệu live bằng fixture. Chi tiết giới hạn, robots, backfill và phục hồi: `docs/crawler-operations.md`.

@@ -1,0 +1,479 @@
+{
+  "verified_at": "2026-10-03",
+  "base_commit": "e300b09",
+  "branch": "feature/multisource-news-crawler",
+  "phase6_acceptance_exit": 2,
+  "phase7_acceptance_exit": 0,
+  "phase6_failure_reason": "Historical credential exposure; functional prerequisites passed",
+  "checks": {
+    "ci_unit_tests": 23,
+    "bronze_silver_spark_integration": 1,
+    "gold_spark_unit": 1,
+    "metadata_unit_tests": 7,
+    "baseline_airflow_tests": 7,
+    "phase7_monitoring_unit_tests": 3,
+    "local_release_e2e": "PASS",
+    "recovery_backfill_resume": "PASS",
+    "metadata_snapshot_crud_restart_kafka_outage_postgres_restart": "PASS",
+    "phase7_monitoring_failure_recovery": "PASS",
+    "all_service_health": "PASS"
+  },
+  "historical_secret_key_names": [
+    "API_TOKEN",
+    "GEMINI_API_KEY",
+    "JWT_SECRET_KEY",
+    "OPENROUTER_API_KEY",
+    "VOYAGE_API_KEY"
+  ],
+  "phase5_recovery": {
+    "status": "PASS",
+    "scenario_id": "dfa894d171",
+    "run_ids": {
+      "backfill": "recovery-backfill-dfa894d171",
+      "backfill_repeat": "recovery-backfill-repeat-dfa894d171",
+      "reprocess": "recovery-reprocess-dfa894d171",
+      "qdrant_failure": "recovery-qdrant-failure-dfa894d171",
+      "schema_drift": "recovery-schema-drift-dfa894d171"
+    },
+    "backfill_range": [
+      "2026-08-01",
+      "2026-08-03"
+    ],
+    "repeat_backfill_silver_affected": [
+      0,
+      0,
+      0
+    ],
+    "reprocess_force_required": true,
+    "qdrant_failure_recorded": true,
+    "gold_documents_durable_during_qdrant_failure": 5,
+    "checkpoint_before_retry": null,
+    "checkpoint_after_retry": {
+      "pipeline_name": "financial_news_incremental:fe7d0e423f94",
+      "source": "phase05-recovery.local",
+      "last_successful_partition": "2026-08-04",
+      "last_successful_run_id": "recovery-qdrant-failure-dfa894d171",
+      "updated_at": "2026-10-03 05:42:23.374571+00:00"
+    },
+    "qdrant_attempts": 2,
+    "upstream_successful_stage_attempts": {
+      "2026-08-04:bronze_ingest": 1,
+      "2026-08-04:duckdb_publish": 1,
+      "2026-08-04:gold_analytics_refresh": 1,
+      "2026-08-04:gold_rag_merge": 1,
+      "2026-08-04:schema_validation": 1,
+      "2026-08-04:silver_merge": 1
+    },
+    "schema_drift_failed_before_bronze": true,
+    "duration_seconds": 276.404,
+    "completed_at": "2026-10-03T05:42:29.332363+00:00"
+  },
+  "metadata_cdc": {
+    "status": "success",
+    "mode": "lifecycle",
+    "verified_at": "2026-10-03T05:42:42.764670+00:00",
+    "connector": {
+      "name": "metadata-control-plane",
+      "connector": {
+        "state": "RUNNING",
+        "worker_id": "172.19.0.14:8083",
+        "version": "3.3.2.Final"
+      },
+      "tasks": [
+        {
+          "id": 0,
+          "state": "RUNNING",
+          "worker_id": "172.19.0.14:8083",
+          "version": "3.3.2.Final"
+        }
+      ],
+      "type": "source"
+    },
+    "database": {
+      "wal_level": "logical",
+      "publication": {
+        "name": "metadata_cdc_publication",
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": true,
+        "tables": [
+          "control_metadata.news_sources",
+          "control_metadata.pipeline_configs"
+        ]
+      },
+      "replication_slot": {
+        "name": "metadata_cdc_slot",
+        "plugin": "pgoutput",
+        "type": "logical",
+        "active": true,
+        "database": "financial_metadata"
+      }
+    },
+    "database_before_events": {
+      "wal_level": "logical",
+      "publication": {
+        "name": "metadata_cdc_publication",
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": true,
+        "tables": [
+          "control_metadata.news_sources",
+          "control_metadata.pipeline_configs"
+        ]
+      },
+      "replication_slot": {
+        "name": "metadata_cdc_slot",
+        "plugin": "pgoutput",
+        "type": "logical",
+        "active": true,
+        "database": "financial_metadata"
+      }
+    },
+    "database_constraints": {
+      "rejected_invalid_cases": [
+        "blank_source_name",
+        "nonpositive_config_version"
+      ]
+    },
+    "topics": [
+      "platform.control_metadata.news_sources",
+      "platform.control_metadata.pipeline_configs"
+    ],
+    "snapshot_events": [
+      {
+        "topic": "platform.control_metadata.pipeline_configs",
+        "partition": 0,
+        "offset": 0,
+        "key": {
+          "config_id": "financial-news-local-v1"
+        },
+        "operation": "snapshot",
+        "entity": "pipeline_configs",
+        "changed_fields": [
+          "config_id",
+          "config_version",
+          "created_at",
+          "enabled",
+          "parameters",
+          "pipeline_name",
+          "source_id",
+          "updated_at"
+        ],
+        "before": null,
+        "after": {
+          "config_id": "financial-news-local-v1",
+          "pipeline_name": "financial-news-medallion",
+          "source_id": "cafef.vn",
+          "enabled": true,
+          "config_version": 1,
+          "parameters": "{\"chunk_size\": 900, \"chunk_overlap\": 120, \"processing_mode\": \"local-snapshot\", \"processing_version\": \"cafef-v1.1\"}",
+          "created_at": "2026-09-30T13:54:18.467154Z",
+          "updated_at": "2026-09-30T13:54:18.467154Z"
+        },
+        "event_timestamp": 1790776477388
+      },
+      {
+        "topic": "platform.control_metadata.news_sources",
+        "partition": 0,
+        "offset": 0,
+        "key": {
+          "source_id": "cafef.vn"
+        },
+        "operation": "snapshot",
+        "entity": "news_sources",
+        "changed_fields": [
+          "base_url",
+          "config",
+          "created_at",
+          "description",
+          "enabled",
+          "source_id",
+          "source_name",
+          "source_type",
+          "updated_at"
+        ],
+        "before": null,
+        "after": {
+          "source_id": "cafef.vn",
+          "source_name": "CafeF sample snapshot",
+          "source_type": "snapshot",
+          "enabled": true,
+          "base_url": "https://cafef.vn",
+          "description": "Checked-in CafeF news snapshot used by the local financial-news pipeline.",
+          "config": "{\"input_path\": \"data/raw/cafef_news_raw_final.json\"}",
+          "created_at": "2026-09-30T13:54:18.467154Z",
+          "updated_at": "2026-09-30T13:54:18.467154Z"
+        },
+        "event_timestamp": 1790776477379
+      }
+    ],
+    "lifecycle": {
+      "source_id": "cdc-lifecycle-4214007aef59",
+      "stable_key": {
+        "source_id": "cdc-lifecycle-4214007aef59"
+      },
+      "operations": [
+        "insert",
+        "update",
+        "update",
+        "delete",
+        "tombstone"
+      ],
+      "offsets": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "update_enabled": [
+        true,
+        false
+      ],
+      "reenable_enabled": [
+        false,
+        true
+      ]
+    },
+    "events_scanned": 27
+  },
+  "kafka_recovery": {
+    "status": "success",
+    "mode": "kafka-outage-recovery",
+    "verified_at": "2026-10-03T05:43:11.672677+00:00",
+    "database_commit_during_outage": {
+      "status": "database-committed-kafka-unavailable",
+      "source_id": "cdc-kafka-outage-c13880cf5efb",
+      "committed_at": "2026-10-03T05:43:01.824693+00:00"
+    },
+    "connector": {
+      "name": "metadata-control-plane",
+      "connector": {
+        "state": "RUNNING",
+        "worker_id": "172.19.0.14:8083",
+        "version": "3.3.2.Final"
+      },
+      "tasks": [
+        {
+          "id": 0,
+          "state": "RUNNING",
+          "worker_id": "172.19.0.14:8083",
+          "version": "3.3.2.Final"
+        }
+      ],
+      "type": "source"
+    },
+    "database": {
+      "wal_level": "logical",
+      "publication": {
+        "name": "metadata_cdc_publication",
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": true,
+        "tables": [
+          "control_metadata.news_sources",
+          "control_metadata.pipeline_configs"
+        ]
+      },
+      "replication_slot": {
+        "name": "metadata_cdc_slot",
+        "plugin": "pgoutput",
+        "type": "logical",
+        "active": true,
+        "database": "financial_metadata"
+      }
+    },
+    "events": [
+      {
+        "topic": "platform.control_metadata.news_sources",
+        "partition": 0,
+        "offset": 31,
+        "key": {
+          "source_id": "cdc-kafka-outage-c13880cf5efb"
+        },
+        "operation": "insert",
+        "entity": "news_sources",
+        "changed_fields": [
+          "base_url",
+          "config",
+          "created_at",
+          "description",
+          "enabled",
+          "source_id",
+          "source_name",
+          "source_type",
+          "updated_at"
+        ],
+        "before": null,
+        "after": {
+          "source_id": "cdc-kafka-outage-c13880cf5efb",
+          "source_name": "Kafka outage CDC proof",
+          "source_type": "snapshot",
+          "enabled": true,
+          "base_url": null,
+          "description": "Committed while Kafka was stopped",
+          "config": "{}",
+          "created_at": "2026-10-03T05:43:01.810684Z",
+          "updated_at": "2026-10-03T05:43:01.810684Z"
+        },
+        "event_timestamp": 1791006181970
+      },
+      {
+        "topic": "platform.control_metadata.news_sources",
+        "partition": 0,
+        "offset": 32,
+        "key": {
+          "source_id": "cdc-kafka-outage-c13880cf5efb"
+        },
+        "operation": "delete",
+        "entity": "news_sources",
+        "changed_fields": [
+          "base_url",
+          "config",
+          "created_at",
+          "description",
+          "enabled",
+          "source_id",
+          "source_name",
+          "source_type",
+          "updated_at"
+        ],
+        "before": {
+          "source_id": "cdc-kafka-outage-c13880cf5efb",
+          "source_name": "Kafka outage CDC proof",
+          "source_type": "snapshot",
+          "enabled": true,
+          "base_url": null,
+          "description": "Committed while Kafka was stopped",
+          "config": "{}",
+          "created_at": "2026-10-03T05:43:01.810684Z",
+          "updated_at": "2026-10-03T05:43:01.810684Z"
+        },
+        "after": null,
+        "event_timestamp": 1791006191280
+      },
+      {
+        "topic": "platform.control_metadata.news_sources",
+        "partition": 0,
+        "offset": 33,
+        "key": {
+          "source_id": "cdc-kafka-outage-c13880cf5efb"
+        },
+        "operation": "tombstone",
+        "entity": "news_sources",
+        "changed_fields": [],
+        "before": null,
+        "after": null,
+        "event_timestamp": null
+      }
+    ],
+    "events_scanned": 35
+  },
+  "postgres_recovery": {
+    "status": "success",
+    "mode": "postgres-recovery",
+    "verified_at": "2026-10-03T05:43:28.736764+00:00",
+    "connector": {
+      "name": "metadata-control-plane",
+      "connector": {
+        "state": "RUNNING",
+        "worker_id": "172.19.0.14:8083",
+        "version": "3.3.2.Final"
+      },
+      "tasks": [
+        {
+          "id": 0,
+          "state": "RUNNING",
+          "worker_id": "172.19.0.14:8083",
+          "version": "3.3.2.Final"
+        }
+      ],
+      "type": "source"
+    },
+    "database": {
+      "wal_level": "logical",
+      "publication": {
+        "name": "metadata_cdc_publication",
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": true,
+        "tables": [
+          "control_metadata.news_sources",
+          "control_metadata.pipeline_configs"
+        ]
+      },
+      "replication_slot": {
+        "name": "metadata_cdc_slot",
+        "plugin": "pgoutput",
+        "type": "logical",
+        "active": true,
+        "database": "financial_metadata"
+      }
+    },
+    "database_before_events": {
+      "wal_level": "logical",
+      "publication": {
+        "name": "metadata_cdc_publication",
+        "insert": true,
+        "update": true,
+        "delete": true,
+        "truncate": true,
+        "tables": [
+          "control_metadata.news_sources",
+          "control_metadata.pipeline_configs"
+        ]
+      },
+      "replication_slot": {
+        "name": "metadata_cdc_slot",
+        "plugin": "pgoutput",
+        "type": "logical",
+        "active": false,
+        "database": "financial_metadata"
+      }
+    },
+    "database_constraints": {
+      "rejected_invalid_cases": [
+        "blank_source_name",
+        "nonpositive_config_version"
+      ]
+    },
+    "topics": [
+      "platform.control_metadata.news_sources",
+      "platform.control_metadata.pipeline_configs"
+    ],
+    "snapshot_events": [],
+    "lifecycle": {
+      "source_id": "cdc-postgres-recovery-e3146cf71534",
+      "stable_key": {
+        "source_id": "cdc-postgres-recovery-e3146cf71534"
+      },
+      "operations": [
+        "insert",
+        "update",
+        "update",
+        "delete",
+        "tombstone"
+      ],
+      "offsets": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "update_enabled": [
+        true,
+        false
+      ],
+      "reenable_enabled": [
+        false,
+        true
+      ]
+    },
+    "events_scanned": 42
+  }
+}

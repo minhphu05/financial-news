@@ -65,7 +65,10 @@ x-airflow-common: &airflow-common
     NEWS_QDRANT_COLLECTION: ${NEWS_QDRANT_COLLECTION:-news_chunks_local_v1}
     NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
     AIRFLOW_NEWS_INDEX_LIMIT: ${AIRFLOW_NEWS_INDEX_LIMIT:-96}
+    AIRFLOW_NEWS_CRAWLER_SCHEDULE: ${AIRFLOW_NEWS_CRAWLER_SCHEDULE:-}
+    AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE: ${AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE:-false}
     AIRFLOW_NEWS_INCREMENTAL_SCHEDULE: ${AIRFLOW_NEWS_INCREMENTAL_SCHEDULE:-}
+    CRAWLER_WORK_DIR: ${AIRFLOW_CRAWLER_WORK_DIR:-/opt/airflow/local/crawler}
     NEWS_DUCKDB_PATH: ${AIRFLOW_NEWS_DUCKDB_PATH:-/opt/airflow/local/analytics.duckdb}
     METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
     METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
@@ -265,6 +268,8 @@ services:
       NEWS_QDRANT_COLLECTION: ${NEWS_QDRANT_COLLECTION:-news_chunks_local_v1}
       NEWS_INDEX_LIMIT: ${NEWS_INDEX_LIMIT:-0}
       NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
+      CRAWLER_USER_AGENT: ${CRAWLER_USER_AGENT:-FinancialNewsResearch/0.1}
+      CRAWLER_WORK_DIR: ${CRAWLER_WORK_DIR:-/app/local/crawler}
       NEWS_DUCKDB_PATH: ${NEWS_DUCKDB_PATH:-/app/local/analytics.duckdb}
       METADATA_POSTGRES_HOST: ${METADATA_POSTGRES_HOST:-postgresql}
       METADATA_POSTGRES_INTERNAL_PORT: ${METADATA_POSTGRES_INTERNAL_PORT:-5432}
@@ -548,7 +553,7 @@ services:
       <<: *metadata-tools-env
       MONITORING_PIPELINE_EXPORTER_PORT: 9108
       MONITORING_PIPELINE_ALLOWLIST: ${MONITORING_PIPELINE_ALLOWLIST:-financial_news_incremental,phase05_integration,local_release_e2e}
-      MONITORING_SOURCE_ALLOWLIST: ${MONITORING_SOURCE_ALLOWLIST:-cafef.vn,local-release.test,phase05-it.local,phase05-recovery.local,phase07-monitoring.local}
+      MONITORING_SOURCE_ALLOWLIST: ${MONITORING_SOURCE_ALLOWLIST:-cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com,local-release.test,phase05-it.local,phase05-recovery.local,phase07-monitoring.local}
       AIRFLOW_HEALTH_URL: ${AIRFLOW_HEALTH_URL:-http://airflow-webserver:8080/health}
     ports:
       - "${MONITORING_PIPELINE_EXPORTER_EXTERNAL_PORT:-9108}:9108"

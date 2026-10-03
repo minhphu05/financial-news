@@ -258,3 +258,11 @@ quality, freshness and host resource observations. This supports repeatable
 local demonstrations of normal processing, dependency failure, quality failure
 and recovery. Baseline values and their limits are recorded in
 [local-monitoring-baseline.md](local-monitoring-baseline.md).
+
+## Phase08 crawler observability
+
+The existing exporter now optionally reads `crawler_operations` through the existing read-only monitoring role. It remains compatible with pre-crawler databases. Metrics: `financial_news_crawler_runs_total`, `financial_news_crawler_articles_total`, `financial_news_crawler_last_duration_seconds`, `financial_news_crawler_last_success_timestamp_seconds`, `financial_news_crawler_frontier_urls`, `financial_news_crawler_pending_batches`. Labels use only fixed source keys, fixture/live kind, bounded statuses and outcome categories. URLs/article IDs/crawl-run IDs are not labels.
+
+The seventh provisioned dashboard is **Financial News — Multisource Crawling** (`news-crawler`). Three additional local alerts bring the ruleset to 15: `CrawlerSourceBlocked`, `CrawlerParserFailures`, `CrawlerDownstreamBacklog`. Thresholds/windows live in the rules configuration. These crawler alerts target live observations; manual crawling has no freshness SLA. Gauge totals represent retained operational history and can decrease if that history is explicitly removed.
+
+Run `make crawler-monitoring-smoke` for actual exporter series, Prometheus rule-loading and Grafana provisioning checks; `make test-monitoring` includes three crawler cardinality/compatibility tests. If a long-lived bind mount retains an old directory inode, recreate Prometheus/Grafana, then check rules through `promtool` and the API.

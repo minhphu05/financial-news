@@ -146,3 +146,9 @@ Spark transformations consume DataFrames and contracts, not MinIO client objects
 9. Run `make monitoring-up`, then `make monitoring-test`. Inspect the provisioned overview, operations, data-quality, freshness, CDC, and resource dashboards. Use `make phase7-acceptance` to demonstrate Qdrant, data-quality, and Debezium failure/recovery behavior.
 
 The specific implementation milestones and evidence gates are in [implementation-plan.md](implementation-plan.md).
+
+## Phase08 multisource input extension
+
+Verified source-specific crawlers for CafeF, VnExpress, Tuổi Trẻ, Thanh Niên and Báo Mới feed immutable MinIO Landing. Source adapters emit the existing JSON-array Bronze boundary. The existing Spark/Delta Silver, enrichment hooks, Gold and serving jobs are reused. See [crawler architecture](crawling-architecture.md), [operations](crawler-operations.md) and [mapping matrix](source-mapping-matrix.md).
+
+Crawler state is in `crawler_operations`; configuration is in the existing `control_metadata.news_sources.config`. Kafka remains metadata-only. Airflow DAG `news_crawling_pipeline` uses source-level `crawl -> publish` groups, default manual fixture mode and no schedule. Optional live scheduling requires an explicit environment flag. Live and fixture processing versions/serving are separate; each source has its own Qdrant collection and DuckDB file to match existing reconciliation semantics. No cloud implementation was introduced.

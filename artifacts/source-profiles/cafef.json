@@ -1,0 +1,45 @@
+{
+  "source_id": "cafef",
+  "host": "cafef.vn",
+  "observed_at": "2026-10-03",
+  "status": "HTTP_ACCESSIBLE",
+  "fetch_strategy": "public_http",
+  "browser_required": false,
+  "raw_schema_version": "cafef-raw-v1",
+  "sample": {
+    "url": "https://cafef.vn/tang-truong-gdp-viet-nam-9-thang-nam-2026-cao-ky-luc-trong-15-nam-tro-lai-day-rieng-quy-iii-gan-can-moc-10-188261003092740641.chn",
+    "final_url": "https://cafef.vn/tang-truong-gdp-viet-nam-9-thang-nam-2026-cao-ky-luc-trong-15-nam-tro-lai-day-rieng-quy-iii-gan-can-moc-10-188261003092740641.chn",
+    "status": 200
+  },
+  "html_sha256": "93cbc35c7abf3d0522f53a7b0b0caa86f9ee2c7012c5234eb024e4214f92e085",
+  "observed_selectors": {
+    "title": "h1.title",
+    "body": "div.afcbc-body"
+  },
+  "title_node_count": 1,
+  "body_node_count": 1,
+  "body_paragraph_count": 14,
+  "discovery_url": "https://cafef.vn/vi-mo-dau-tu.chn",
+  "robots_url": "https://cafef.vn/robots.txt",
+  "robots_evidence": "User-agent: *\nAllow: /\nSitemap: https://cafef.vn/sitemap.xml\nSitemap: https://cafef.vn/google-news-sitemap.xml\n",
+  "limitations": [
+    "One page observed; layout variants need additional evidence.",
+    "HTTP access does not grant redistribution rights."
+  ],
+  "discovery_status": 200,
+  "raw_payload_field_types": {
+    "h1_title": "str",
+    "meta_description": "str",
+    "detail_content_html": "str",
+    "article_published_time": "str",
+    "article_author": "str",
+    "json_ld": "list",
+    "image_urls": "list",
+    "category": "NoneType",
+    "observed_canonical_url": "str"
+  },
+  "discovered_article_count": 39,
+  "parser_validation": "one_observed_article_passed",
+  "parser_status": "OBSERVED_ARTICLE_AND_OFFLINE_FIXTURE_PASS",
+  "payload_origin": "Project-owned parser keys derived from observed DOM/meta nodes; not a claimed official API schema"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "data_kind": "LIVE",
+  "sources": {
+    "cafef": {
+      "pipeline_run_id": "pipeline-crawl-cafef-bc7eae811e5563487fbf9653cc3385b6",
+      "processing_date": "2026-10-03",
+      "silver_articles": 1,
+      "gold_documents": 1,
+      "gold_chunks": 3,
+      "qdrant_points": 3,
+      "duckdb_articles": 1,
+      "reconciliation": "PASS"
+    },
+    "vnexpress": {
+      "pipeline_run_id": "pipeline-crawl-vnexpress-65c81f3755b4bd01fccee1520d71d8e7",
+      "processing_date": "2026-10-03",
+      "silver_articles": 1,
+      "gold_documents": 1,
+      "gold_chunks": 7,
+      "qdrant_points": 7,
+      "duckdb_articles": 1,
+      "reconciliation": "PASS"
+    },
+    "tuoitre": {
+      "pipeline_run_id": "pipeline-crawl-tuoitre-612b3575ee755af3eee88d79c187ff8f",
+      "processing_date": "2026-10-03",
+      "silver_articles": 1,
+      "gold_documents": 1,
+      "gold_chunks": 3,
+      "qdrant_points": 3,
+      "duckdb_articles": 1,
+      "reconciliation": "PASS"
+    },
+    "thanhnien": {
+      "pipeline_run_id": "pipeline-crawl-thanhnien-630d96a3b5e6bddd01fdfceca222b93c",
+      "processing_date": "2026-10-03",
+      "silver_articles": 1,
+      "gold_documents": 1,
+      "gold_chunks": 12,
+      "qdrant_points": 12,
+      "duckdb_articles": 1,
+      "reconciliation": "PASS"
+    },
+    "baomoi": {
+      "pipeline_run_id": "pipeline-crawl-baomoi-bf2c5232ecce854bf6588dc5e8ef764c",
+      "processing_date": "2026-10-03",
+      "silver_articles": 1,
+      "gold_documents": 1,
+      "gold_chunks": 14,
+      "qdrant_points": 14,
+      "duckdb_articles": 1,
+      "reconciliation": "PASS"
+    }
+  }
+}

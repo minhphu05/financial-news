@@ -809,3 +809,17 @@ Xem toàn bộ command đang hỗ trợ:
 ```bash
 make help
 ```
+
+## Phase08: local multisource crawling
+
+Five verified public HTTP source parsers feed source-specific Landing envelopes and explicit adapters into the existing Bronze/Silver/Gold pipeline. Crawling is bounded and live requests are opt-in; the sample-data path remains supported.
+
+```sh
+make crawler-init
+make phase8-acceptance        # offline website fixtures; real local services
+make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1  # explicit tiny live smoke
+make crawler-publish CRAWLER_SOURCE=all
+make crawler-status
+```
+
+Start with [crawler operations](docs/crawler-operations.md), [architecture](docs/crawling-architecture.md), [source mappings](docs/source-mapping-matrix.md) and [current status](docs/agent_tasks/CURRENT_STATUS.md). Airflow DAG: `news_crawling_pipeline`, manual fixture mode by default. Dashboard: **Financial News — Multisource Crawling**. No cloud deployment, article Kafka queue or crawler bypass is implemented.

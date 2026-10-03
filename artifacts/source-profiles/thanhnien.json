@@ -1,0 +1,45 @@
+{
+  "source_id": "thanhnien",
+  "host": "thanhnien.vn",
+  "observed_at": "2026-10-03",
+  "status": "HTTP_ACCESSIBLE",
+  "fetch_strategy": "public_http",
+  "browser_required": false,
+  "raw_schema_version": "thanhnien-raw-v1",
+  "sample": {
+    "url": "https://thanhnien.vn/gdp-tang-hon-9-12-dia-phuong-tang-truong-2-con-so-185261003100645239.htm",
+    "final_url": "https://thanhnien.vn/gdp-tang-hon-9-12-dia-phuong-tang-truong-2-con-so-185261003100645239.htm",
+    "status": 200
+  },
+  "html_sha256": "2d49f9ee4cf24585daf927c3006f4f0a650cff92e4228fd015061e4c9bc99721",
+  "observed_selectors": {
+    "title": "h1.detail-title",
+    "body": "div.afcbc-body"
+  },
+  "title_node_count": 1,
+  "body_node_count": 1,
+  "body_paragraph_count": 11,
+  "discovery_url": "https://thanhnien.vn/kinh-te.htm",
+  "robots_url": "https://thanhnien.vn/robots.txt",
+  "robots_evidence": "User-agent: *\nAllow: /\nDisallow: /tim-kiem.htm\nDisallow: /news-*.htm\nSitemap: https://thanhnien.vn/sitemap.xml\nSitemap: https://thanhnien.vn/google-news-sitemap.xml\n",
+  "limitations": [
+    "One page observed; layout variants need additional evidence.",
+    "HTTP access does not grant redistribution rights."
+  ],
+  "discovery_status": 200,
+  "raw_payload_field_types": {
+    "headline": "str",
+    "standfirst": "str",
+    "body_html": "str",
+    "publication_time": "str",
+    "byline": "str",
+    "json_ld": "list",
+    "image_urls": "list",
+    "category": "str",
+    "observed_canonical_url": "str"
+  },
+  "discovered_article_count": 57,
+  "parser_validation": "one_observed_article_passed",
+  "parser_status": "OBSERVED_ARTICLE_AND_OFFLINE_FIXTURE_PASS",
+  "payload_origin": "Project-owned parser keys derived from observed DOM/meta nodes; not a claimed official API schema"
+}

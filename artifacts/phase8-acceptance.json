@@ -1,0 +1,1390 @@
+{
+  "generated_at": "2026-10-03T06:18:02.759500+00:00",
+  "checks": {
+    "five_fixture_sources_verified": true,
+    "reconciliation_reports_pass": true,
+    "no_crawler_or_article_tables_in_cdc": true
+  },
+  "sources": [
+    {
+      "source": "baomoi",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "cafef",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "fixture-acceptance:baomoi",
+      "status": "SUCCESS",
+      "runs": 6
+    },
+    {
+      "source": "fixture-acceptance:cafef",
+      "status": "SUCCESS",
+      "runs": 14
+    },
+    {
+      "source": "fixture-acceptance:thanhnien",
+      "status": "SUCCESS",
+      "runs": 6
+    },
+    {
+      "source": "fixture-acceptance:tuoitre",
+      "status": "SUCCESS",
+      "runs": 6
+    },
+    {
+      "source": "fixture-acceptance:vnexpress",
+      "status": "SUCCESS",
+      "runs": 10
+    },
+    {
+      "source": "fixture:baomoi",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "fixture:cafef",
+      "status": "SUCCESS",
+      "runs": 2
+    },
+    {
+      "source": "fixture:thanhnien",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "fixture:tuoitre",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "fixture-unit:cafef",
+      "status": "BLOCKED",
+      "runs": 1
+    },
+    {
+      "source": "fixture-unit:vnexpress",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "fixture:vnexpress",
+      "status": "SUCCESS",
+      "runs": 2
+    },
+    {
+      "source": "thanhnien",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "tuoitre",
+      "status": "SUCCESS",
+      "runs": 1
+    },
+    {
+      "source": "vnexpress",
+      "status": "SUCCESS",
+      "runs": 1
+    }
+  ],
+  "batches": [
+    {
+      "source": "baomoi",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "cafef",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "fixture-acceptance:baomoi",
+      "status": "SUCCESS",
+      "batches": 3
+    },
+    {
+      "source": "fixture-acceptance:cafef",
+      "status": "SUCCESS",
+      "batches": 8
+    },
+    {
+      "source": "fixture-acceptance:thanhnien",
+      "status": "SUCCESS",
+      "batches": 3
+    },
+    {
+      "source": "fixture-acceptance:tuoitre",
+      "status": "SUCCESS",
+      "batches": 3
+    },
+    {
+      "source": "fixture-acceptance:vnexpress",
+      "status": "SUCCESS",
+      "batches": 7
+    },
+    {
+      "source": "fixture:baomoi",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "fixture:cafef",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "fixture:thanhnien",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "fixture:tuoitre",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "fixture-unit:vnexpress",
+      "status": "PENDING",
+      "batches": 1
+    },
+    {
+      "source": "fixture:vnexpress",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "thanhnien",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "tuoitre",
+      "status": "SUCCESS",
+      "batches": 1
+    },
+    {
+      "source": "vnexpress",
+      "status": "SUCCESS",
+      "batches": 1
+    }
+  ],
+  "cdc_publication_tables": [
+    {
+      "schemaname": "control_metadata",
+      "tablename": "news_sources"
+    },
+    {
+      "schemaname": "control_metadata",
+      "tablename": "pipeline_configs"
+    }
+  ],
+  "reconciliation": [
+    {
+      "source": "baomoi.com",
+      "run_id": "pipeline-crawl-baomoi-3e85f42fc6efd838e53896d5cfecaa30",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-baomoi-3e85f42fc6efd838e53896d5cfecaa30-2026-10-03",
+        "source": "baomoi.com",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-baomoi-3e85f42fc6efd838e53896d5cfecaa30-2026-10-03.json",
+        "completed_at": "2026-10-03T06:17:55.497252+00:00",
+        "duration_seconds": 1.553,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.562
+      }
+    },
+    {
+      "source": "thanhnien.vn",
+      "run_id": "pipeline-crawl-thanhnien-8b4938d87f7cecde41a1344fdee2085a",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-thanhnien-8b4938d87f7cecde41a1344fdee2085a-2026-10-03",
+        "source": "thanhnien.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-thanhnien-8b4938d87f7cecde41a1344fdee2085a-2026-10-03.json",
+        "completed_at": "2026-10-03T06:17:16.311040+00:00",
+        "duration_seconds": 1.733,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.742
+      }
+    },
+    {
+      "source": "tuoitre.vn",
+      "run_id": "pipeline-crawl-tuoitre-2aedd7adf5ce5faf36bc04169681dd24",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-tuoitre-2aedd7adf5ce5faf36bc04169681dd24-2026-10-03",
+        "source": "tuoitre.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-tuoitre-2aedd7adf5ce5faf36bc04169681dd24-2026-10-03.json",
+        "completed_at": "2026-10-03T06:16:31.051602+00:00",
+        "duration_seconds": 1.994,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 2.002
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-0ffd88788add14e55f5725b1b27e269a",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-0ffd88788add14e55f5725b1b27e269a-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-0ffd88788add14e55f5725b1b27e269a-2026-10-03.json",
+        "completed_at": "2026-10-03T06:14:36.047340+00:00",
+        "duration_seconds": 1.816,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.826
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-2fa9e4d94ea7e906c657bc966a3b8b55",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-2fa9e4d94ea7e906c657bc966a3b8b55-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-2fa9e4d94ea7e906c657bc966a3b8b55-2026-10-03.json",
+        "completed_at": "2026-10-03T06:14:08.808276+00:00",
+        "duration_seconds": 1.759,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.766
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-f7d9c6d061341beeaa15c25216258fbf-2026-10-03.json",
+        "completed_at": "2026-10-03T06:13:42.238376+00:00",
+        "duration_seconds": 1.758,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.766
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-6870376e5ac60efce3ac15bbb0b8ba10-2026-10-03.json",
+        "completed_at": "2026-10-03T06:13:15.338005+00:00",
+        "duration_seconds": 1.853,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.858
+      }
+    },
+    {
+      "source": "baomoi.com",
+      "run_id": "pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950-2026-10-03",
+        "source": "baomoi.com",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-baomoi-ce00be9cc8e03998e1337503d7110950-2026-10-03.json",
+        "completed_at": "2026-10-03T06:12:47.656151+00:00",
+        "duration_seconds": 1.379,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.388
+      }
+    },
+    {
+      "source": "thanhnien.vn",
+      "run_id": "pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d-2026-10-03",
+        "source": "thanhnien.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-thanhnien-4fd53897e437d3103c38768d8552410d-2026-10-03.json",
+        "completed_at": "2026-10-03T06:12:26.069096+00:00",
+        "duration_seconds": 1.48,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.487
+      }
+    },
+    {
+      "source": "tuoitre.vn",
+      "run_id": "pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1-2026-10-03",
+        "source": "tuoitre.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-tuoitre-082739f1a1e9e4eb09725f239188f6b1-2026-10-03.json",
+        "completed_at": "2026-10-03T06:12:04.591797+00:00",
+        "duration_seconds": 1.373,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.379
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-938bbfeda47e7df79f9339e0815e7d8b-2026-10-03.json",
+        "completed_at": "2026-10-03T06:11:43.011432+00:00",
+        "duration_seconds": 1.509,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.517
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-f5262a758cf914b7ee7f0148b8502027-2026-10-03.json",
+        "completed_at": "2026-10-03T06:11:20.985370+00:00",
+        "duration_seconds": 1.509,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.516
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-dfb5bb719034da6f982e8687e6e8570d",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-dfb5bb719034da6f982e8687e6e8570d-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-dfb5bb719034da6f982e8687e6e8570d-2026-10-03.json",
+        "completed_at": "2026-10-03T06:08:06.507462+00:00",
+        "duration_seconds": 1.631,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.638
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-e2eb21befc4b19c3092b0ac807a4cec4",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-e2eb21befc4b19c3092b0ac807a4cec4-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-e2eb21befc4b19c3092b0ac807a4cec4-2026-10-03.json",
+        "completed_at": "2026-10-03T06:07:26.948095+00:00",
+        "duration_seconds": 1.687,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.693
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-5f4c6e9b4fdaa1f47ebda2a43f8d7b2c",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-5f4c6e9b4fdaa1f47ebda2a43f8d7b2c-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-5f4c6e9b4fdaa1f47ebda2a43f8d7b2c-2026-10-03.json",
+        "completed_at": "2026-10-03T06:07:07.314151+00:00",
+        "duration_seconds": 2.287,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 2.3
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-69fcd486263a23db642aaa77344f61b3",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-69fcd486263a23db642aaa77344f61b3-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-69fcd486263a23db642aaa77344f61b3-2026-10-03.json",
+        "completed_at": "2026-10-03T06:06:35.185499+00:00",
+        "duration_seconds": 1.916,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.924
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-9a2ae6981b6b67dd03e8763560023452",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-9a2ae6981b6b67dd03e8763560023452-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-9a2ae6981b6b67dd03e8763560023452-2026-10-03.json",
+        "completed_at": "2026-10-03T06:06:06.859587+00:00",
+        "duration_seconds": 1.858,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.864
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-cd8830143ddd77138c021261d7861529",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-cd8830143ddd77138c021261d7861529-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-cd8830143ddd77138c021261d7861529-2026-10-03.json",
+        "completed_at": "2026-10-03T06:05:42.004749+00:00",
+        "duration_seconds": 1.793,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.802
+      }
+    },
+    {
+      "source": "baomoi.com",
+      "run_id": "pipeline-crawl-baomoi-bf2c5232ecce854bf6588dc5e8ef764c",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 14,
+          "orphan_chunks": 0,
+          "qdrant_points": 14,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-baomoi-bf2c5232ecce854bf6588dc5e8ef764c-2026-10-03",
+        "source": "baomoi.com",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-baomoi-bf2c5232ecce854bf6588dc5e8ef764c-2026-10-03.json",
+        "completed_at": "2026-10-03T06:05:18.334670+00:00",
+        "duration_seconds": 1.867,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "crawl-v1",
+        "stage_duration_seconds": 1.878
+      }
+    },
+    {
+      "source": "baomoi.com",
+      "run_id": "pipeline-crawl-baomoi-a6514b4c124f1a13d8aea661dc96a3e4",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-baomoi-a6514b4c124f1a13d8aea661dc96a3e4-2026-10-03",
+        "source": "baomoi.com",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-baomoi-a6514b4c124f1a13d8aea661dc96a3e4-2026-10-03.json",
+        "completed_at": "2026-10-03T06:05:12.401091+00:00",
+        "duration_seconds": 1.674,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.682
+      }
+    },
+    {
+      "source": "thanhnien.vn",
+      "run_id": "pipeline-crawl-thanhnien-630d96a3b5e6bddd01fdfceca222b93c",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 12,
+          "orphan_chunks": 0,
+          "qdrant_points": 12,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-thanhnien-630d96a3b5e6bddd01fdfceca222b93c-2026-10-03",
+        "source": "thanhnien.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-thanhnien-630d96a3b5e6bddd01fdfceca222b93c-2026-10-03.json",
+        "completed_at": "2026-10-03T06:04:57.111215+00:00",
+        "duration_seconds": 1.836,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "crawl-v1",
+        "stage_duration_seconds": 1.845
+      }
+    },
+    {
+      "source": "thanhnien.vn",
+      "run_id": "pipeline-crawl-thanhnien-67c0b715bf29f20e9523647657e87899",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-thanhnien-67c0b715bf29f20e9523647657e87899-2026-10-03",
+        "source": "thanhnien.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-thanhnien-67c0b715bf29f20e9523647657e87899-2026-10-03.json",
+        "completed_at": "2026-10-03T06:04:46.190791+00:00",
+        "duration_seconds": 1.906,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.915
+      }
+    },
+    {
+      "source": "tuoitre.vn",
+      "run_id": "pipeline-crawl-tuoitre-612b3575ee755af3eee88d79c187ff8f",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 3,
+          "orphan_chunks": 0,
+          "qdrant_points": 3,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-tuoitre-612b3575ee755af3eee88d79c187ff8f-2026-10-03",
+        "source": "tuoitre.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-tuoitre-612b3575ee755af3eee88d79c187ff8f-2026-10-03.json",
+        "completed_at": "2026-10-03T06:04:35.717447+00:00",
+        "duration_seconds": 1.938,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "crawl-v1",
+        "stage_duration_seconds": 1.947
+      }
+    },
+    {
+      "source": "tuoitre.vn",
+      "run_id": "pipeline-crawl-tuoitre-1fa66bd4d02cf436ab4345df041e8b36",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-tuoitre-1fa66bd4d02cf436ab4345df041e8b36-2026-10-03",
+        "source": "tuoitre.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-tuoitre-1fa66bd4d02cf436ab4345df041e8b36-2026-10-03.json",
+        "completed_at": "2026-10-03T06:04:19.538050+00:00",
+        "duration_seconds": 1.697,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.706
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-65c81f3755b4bd01fccee1520d71d8e7",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 7,
+          "orphan_chunks": 0,
+          "qdrant_points": 7,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-65c81f3755b4bd01fccee1520d71d8e7-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-65c81f3755b4bd01fccee1520d71d8e7-2026-10-03.json",
+        "completed_at": "2026-10-03T06:04:14.036551+00:00",
+        "duration_seconds": 1.993,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "crawl-v1",
+        "stage_duration_seconds": 2.004
+      }
+    },
+    {
+      "source": "vnexpress.net",
+      "run_id": "pipeline-crawl-vnexpress-c3338397e67e1710f16e547cbdb21700",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-vnexpress-c3338397e67e1710f16e547cbdb21700-2026-10-03",
+        "source": "vnexpress.net",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-vnexpress-c3338397e67e1710f16e547cbdb21700-2026-10-03.json",
+        "completed_at": "2026-10-03T06:03:52.249363+00:00",
+        "duration_seconds": 1.901,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.91
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-bc7eae811e5563487fbf9653cc3385b6",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 3,
+          "orphan_chunks": 0,
+          "qdrant_points": 3,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-bc7eae811e5563487fbf9653cc3385b6-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-bc7eae811e5563487fbf9653cc3385b6-2026-10-03.json",
+        "completed_at": "2026-10-03T06:03:49.475892+00:00",
+        "duration_seconds": 2.724,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "crawl-v1",
+        "stage_duration_seconds": 2.733
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-d38f9df8c7850538393b94a1405af2b5",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-d38f9df8c7850538393b94a1405af2b5-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-d38f9df8c7850538393b94a1405af2b5-2026-10-03.json",
+        "completed_at": "2026-10-03T06:02:06.934010+00:00",
+        "duration_seconds": 3.236,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 3.247
+      }
+    },
+    {
+      "source": "cafef.vn",
+      "run_id": "pipeline-crawl-cafef-c85fb7f223a59d40635d4506c5c7315f",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-cafef-c85fb7f223a59d40635d4506c5c7315f-2026-10-03",
+        "source": "cafef.vn",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-cafef-c85fb7f223a59d40635d4506c5c7315f-2026-10-03.json",
+        "completed_at": "2026-10-03T06:00:01.337822+00:00",
+        "duration_seconds": 3.263,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 3.275
+      }
+    },
+    {
+      "source": "baomoi.com",
+      "run_id": "pipeline-crawl-baomoi-2643c3037e8a36e7dbab153a21653b0d",
+      "metrics": {
+        "checks": {
+          "gold_chunk_ids_unique": true,
+          "gold_document_ids_unique": true,
+          "silver_article_ids_unique": true,
+          "chunks_reference_documents": true,
+          "qdrant_matches_gold_chunks": true,
+          "silver_gold_documents_match": true,
+          "duckdb_matches_analytics_manifest": true
+        },
+        "counts": {
+          "gold_chunks": 1,
+          "orphan_chunks": 0,
+          "qdrant_points": 1,
+          "gold_documents": 1,
+          "duckdb_articles": 1,
+          "silver_articles": 1,
+          "gold_duplicate_ids": 0,
+          "chunk_duplicate_ids": 0,
+          "qdrant_stale_points": 0,
+          "silver_duplicate_ids": 0,
+          "orphan_gold_documents": 0,
+          "qdrant_missing_points": 0,
+          "missing_gold_documents": 0,
+          "analytics_manifest_articles": 1
+        },
+        "run_id": "pipeline-crawl-baomoi-2643c3037e8a36e7dbab153a21653b0d-2026-10-03",
+        "source": "baomoi.com",
+        "status": "PASS",
+        "report_key": "operations/reconciliation/pipeline-crawl-baomoi-2643c3037e8a36e7dbab153a21653b0d-2026-10-03.json",
+        "completed_at": "2026-10-03T05:59:15.693544+00:00",
+        "duration_seconds": 1.912,
+        "embedding_model_id": "fastembed-0.8.0:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "processing_version": "fixture-crawl-v1",
+        "stage_duration_seconds": 1.92
+      }
+    }
+  ],
+  "status": "PASS"
+}

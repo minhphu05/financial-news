@@ -104,3 +104,27 @@ groups:
           severity: warning
         annotations:
           summary: "Metadata CDC logical replication slot is inactive"
+
+  - name: financial-news-crawling
+    rules:
+      - alert: CrawlerSourceBlocked
+        expr: increase(financial_news_crawler_runs_total{status="BLOCKED",data_kind="live"}[15m]) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Public HTTP crawler source blocked; inspect policy/status before retry"
+      - alert: CrawlerParserFailures
+        expr: increase(financial_news_crawler_articles_total{outcome="parser_failures",data_kind="live"}[30m]) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Observed source layout may have changed"
+      - alert: CrawlerDownstreamBacklog
+        expr: financial_news_crawler_pending_batches{data_kind="live"} > 0
+        for: 30m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Durable crawler batch awaits the existing downstream pipeline"

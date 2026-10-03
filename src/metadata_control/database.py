@@ -78,7 +78,7 @@ def provision(settings: MetadataSettings) -> dict:
                     sql.Identifier(settings.database), monitoring_role
                 )
             )
-            for readable_schema in (settings.schema, "pipeline_operations"):
+            for readable_schema in (settings.schema, "pipeline_operations", "crawler_operations"):
                 cursor.execute(
                     "SELECT 1 FROM pg_namespace WHERE nspname = %s",
                     (readable_schema,),

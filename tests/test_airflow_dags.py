@@ -94,6 +94,22 @@ class AirflowDagTest(unittest.TestCase):
         self.assertFalse(task.do_xcom_push)
         self.assertEqual(task.retries, 1)
 
+    def test_crawler_dag_source_batches_are_manual_and_isolated(self):
+        dag=self.bag.get_dag("news_crawling_pipeline")
+        self.assertIsNotNone(dag)
+        self.assertIsNone(dag.schedule_interval)
+        self.assertFalse(dag.catchup)
+        self.assertEqual(dag.max_active_runs,1)
+        self.assertEqual(len(dag.tasks),10)
+        for source in ("cafef","vnexpress","tuoitre","thanhnien","baomoi"):
+            fetch=dag.get_task(source+".crawl")
+            publish=dag.get_task(source+".publish")
+            self.assertEqual(fetch.downstream_task_ids,{publish.task_id})
+            self.assertEqual(fetch.retries,0)
+            self.assertFalse(fetch.do_xcom_push)
+            self.assertIn("src.crawling.airflow_jobs",fetch.bash_command)
+            self.assertIn("/app/src/crawling/airflow_jobs.py",publish.bash_command)
+
     def test_missing_required_configuration_fails_clearly(self):
         required = ("NEWS_STORAGE_ENDPOINT", "NEWS_STORAGE_BUCKET", "NEWS_SOURCE_FILE", "NEWS_QDRANT_URL")
         with patch.dict(os.environ, {name: "" for name in required}, clear=False):

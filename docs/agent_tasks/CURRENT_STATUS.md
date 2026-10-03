@@ -1,7 +1,7 @@
 # Current implementation status
 
-Verified on 2026-10-01 at base commit `ef544ec` plus the current Phase 07
-working tree. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git
+Latest verification: 2026-10-03, Phase08 crawler branch based on `e300b09`.
+Earlier Phase01–07 checkpoint details below retain their original dates. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git
 commit, or push was created.
 
 ## Release verdict
@@ -10,7 +10,7 @@ commit, or push was created.
 
 The Phase 06 implementation and every functional local test pass. The release
 gate remains closed because `.env` was committed in the first repository commit
-and contains four values with credential shapes. The current tree removes the
+and later commits also exposed credential-shaped values. The current tree removes the
 file from tracking and ignores future `.env` files, but deletion from the next
 commit does not remove the values from Git history.
 
@@ -20,6 +20,7 @@ Affected credential names, with values intentionally omitted:
 - `JWT_SECRET_KEY`
 - `OPENROUTER_API_KEY`
 - `VOYAGE_API_KEY`
+- `GEMINI_API_KEY`
 
 Required owner action before changing the verdict: revoke or rotate the exposed
 credentials, choose a coordinated history rewrite or clean repository migration,
@@ -35,7 +36,8 @@ then scan a fresh clone and rerun `make phase6-acceptance`.
 | 04 — Metadata CDC | COMPLETE | Seven unit tests plus snapshot, lifecycle, Connect restart, Kafka outage, and PostgreSQL restart tests passed. |
 | 05 — Pipeline hardening | COMPLETE | Nine unit tests, the full incremental integration, and the full recovery/backfill suite passed after Phase 06 changes. |
 | 06 — Local release/cloud readiness | IMPLEMENTED; RELEASE BLOCKED | Clean bootstrap, configuration profiles, E2E, rebuilds, health, and regression checks passed. Security audit keeps the aggregate report at FAIL. |
-| 07 — Local monitoring/observability | COMPLETE | Prometheus, Grafana, exporters, 6 dashboards, 12 alert rules, smoke/cardinality checks, and all three failure/recovery scenarios passed. |
+| 07 — Local monitoring/observability | COMPLETE | Fresh Phase07 acceptance passed; original 6 dashboards/12 alerts remain functional. Phase08 adds one dashboard and three alerts. |
+| 08 — Multisource crawling/ingestion | COMPLETE (LOCAL) | `make phase8-acceptance` exit 0; 26 crawler tests, 8 DAG tests, 6 monitoring unit tests, 2 real observability tests, all-five fixture scheduler run, all-five tiny live E2E. |
 
 ## Verified local architecture
 
@@ -102,7 +104,7 @@ The canonical CafeF snapshot results remain unchanged: 15,457 raw records,
   `spark_storage.configure_storage()`.
 - The local provider remains MinIO/S3A. The future-cloud profile can express a
   valid ABFSS authority but fails clearly before execution because the ADLS byte
-  adapter, Hadoop ABFS connector, and cloud identity belong to Phase 08.
+  adapter, Hadoop ABFS connector, and cloud identity belong to a later approved cloud phase.
 - Local, test, and future-cloud profiles validate successfully.
 - Service endpoints, ports, model paths, Qdrant collection, DuckDB path, and
   credentials are externalized through environment variables and Compose.
@@ -246,7 +248,7 @@ The mapping and migration manifest are documented in:
 
 MinIO can be replaced at the configuration, object-store adapter, Spark
 filesystem adapter, and deployment layers without rewriting cleaning,
-normalization, deduplication, chunking, or aggregation logic. Phase 08 still
+normalization, deduplication, chunking, or aggregation logic. A later approved cloud phase still
 must add an ADLS byte adapter, compatible Hadoop ABFS dependencies, Azure
 identity, and nonproduction integration tests.
 
@@ -354,7 +356,7 @@ Realistic options:
 After the owner completes option 1, scan a fresh clone and rerun the complete
 acceptance command. Do not tag `local-rc1` until the report is PASS.
 
-## Recommended Phase 08 sequence
+## Historical cloud migration recommendation (deferred)
 
 1. Resolve the credential/history blocker and make the Phase 06 report PASS.
 2. Approve cloud provider, region, network, identity, and analytical serving
@@ -374,3 +376,84 @@ acceptance command. Do not tag `local-rc1` until the report is PASS.
 Crawler, frontend, LLM chatbot, Power BI, stock streaming, Flink, Azure
 provisioning, ADLS migration, Kubernetes, Terraform, and Helm remain outside
 Phase 07.
+
+## Phase08 checkpoint — multisource crawling (2026-10-03)
+
+Branch: `feature/multisource-news-crawler`; base commit `e300b09`.
+The authorized Phase08 is now **local crawling**, with cloud migration deferred.
+No commit, push, cloud resource or article Kafka queue has been created.
+
+Status: **COMPLETE (LOCAL)** — `make phase8-acceptance` returned exit 0.
+Cloud release remains blocked by historical credentials; no cloud work started.
+
+### Previous platform verification
+
+Fresh pre-change `make phase6-acceptance` completed functional prerequisites but
+returned exit 2 at the release/security report. `make phase7-acceptance` returned
+exit 0. Evidence is in `artifacts/phase8-baseline.json`. The security gate remains
+**NOT READY FOR CLOUD MIGRATION**: historical keys include `API_TOKEN`,
+`JWT_SECRET_KEY`, `GEMINI_API_KEY`, `OPENROUTER_API_KEY`, `VOYAGE_API_KEY`.
+Values are deliberately omitted. There is no news-site API key requirement for
+these five public HTTP crawlers.
+
+### Implemented boundaries
+
+- Five source-specific raw payloads/common crawl envelopes, observed selectors,
+  offline synthetic fixtures and source profiles/contracts.
+- Robots-aware ordinary HTTP, same-host redirects, bounded pacing/retries,
+  persistent Retry-After cooldown and no bypass.
+- `crawler_operations` migration `0002_crawler_operations`: source state, crawl
+  runs, frontier, attempts and durable batch outbox. Existing migration `0001`
+  and canonical schemas remain unchanged.
+- Separate crawler source configuration rows in existing
+  `control_metadata.news_sources.config`; direct PostgreSQL reads, no CDC
+  consumer dependency. Publication still captures only the two metadata tables.
+- Exact HTML plus source payload/lineage in MinIO Landing; adapters emit the
+  existing JSON-array Bronze contract. Metadata unsupported by current canonical
+  normalization stays in Landing; no fabricated ticker/NER fields.
+- Existing Phase05 runner handles Silver/Gold/Qdrant/DuckDB publication and resume.
+  Source-specific serving matches existing reconciliation. Sample CafeF input and
+  its processing version remain supported.
+- Default-manual `news_crawling_pipeline`: five source groups, 10 tasks, one active
+  DAG run/task; scheduled live crawling requires explicit configuration opt-in.
+- Seventh Grafana dashboard **Financial News — Multisource Crawling**, bounded
+  crawler metrics and three new alerts (15 total local alert rules).
+
+### Evidence already verified
+
+- 26 parser/HTTP/Landing/PostgreSQL/frontier tests passed, including bounded
+  backfill, explicit recrawl, content reversion, retry cooldown and isolation.
+- Eight DAG/import/structure tests passed.
+- Six monitoring unit tests (three existing + three crawler) passed.
+- Two-source scheduler-managed fixture DAG smoke passed.
+- Final five-source fixture vertical slice passed in 229.472 s (earlier run
+  370.206 s), with actual local
+  FastEmbed/Delta/Qdrant/DuckDB, changed/unchanged behavior and outbox recovery.
+- Five live sources each fetched one eligible article and passed full downstream
+  reconciliation: CafeF 3 chunks/points; VnExpress 7; Tuổi Trẻ 3; Thanh Niên 12;
+  Báo Mới 14. Total: 5 articles/documents, 39 chunks/Qdrant points, 5 DuckDB articles
+  across source-specific files. See `artifacts/phase8-live-e2e.json`.
+
+Final acceptance also passed a real **all-five-source scheduler DAG**: 10/10
+source tasks SUCCESS, plus two exporter/Prometheus/Grafana integration tests.
+`promtool` loaded 15 valid rules. Fresh full Gold regression passed (4 unit tests,
+1 Spark unit, 1 complete serving integration). Fresh Phase05 regression passed
+(9 unit tests, real incremental integration in 116.295 s).
+
+The first Phase05 incremental regression attempt encountered S3 HTTP 400 while
+reading a parquet file during analytics. The repeat passed. Root cause was not
+established; no speculative transformation workaround was introduced. Both results
+are recorded in `artifacts/phase8-regression.json`.
+
+Acceptance evidence: `artifacts/phase8-acceptance.json`,
+`artifacts/phase8-fixture-e2e.json`, `artifacts/phase8-live-smoke.json`,
+`artifacts/phase8-live-e2e.json`, `artifacts/phase8-baseline.json`,
+`artifacts/phase8-regression.json`. Full engineering report:
+`docs/phase8-engineering-report.md`.
+
+### Operational entry points
+
+See `docs/crawler-operations.md` for initialization, fixture acceptance, explicit
+live smoke, controlled recrawl/backfill, source config, storage lineage, serving
+isolation, scheduler opt-in, monitoring and recovery. Default next activity is
+bounded local collection/validation; cloud deployment remains outside this phase.

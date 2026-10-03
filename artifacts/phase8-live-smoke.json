@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "source": "cafef",
+      "crawl_run_id": "crawl-cafef-f3ce54e859074cbe9de56b510118eb91",
+      "status": "SUCCESS",
+      "error": null,
+      "discovered": 39,
+      "fetched": 1,
+      "changed": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "parser_failures": 0,
+      "http_429": 0,
+      "http_403": 0,
+      "retry_count": 0,
+      "batch_ids": [
+        "crawl-cafef-bc7eae811e5563487fbf9653cc3385b6"
+      ],
+      "bronze_ingestion_id": "6a5866b642db0aecbe3816155088c43fd7f7018de9897a21a1f1386d705ba01d",
+      "request_count": 3,
+      "duration_seconds": 6.396
+    },
+    {
+      "source": "vnexpress",
+      "crawl_run_id": "crawl-vnexpress-b122b724627a41b0ac310a2e13423611",
+      "status": "SUCCESS",
+      "error": null,
+      "discovered": 50,
+      "fetched": 1,
+      "changed": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "parser_failures": 0,
+      "http_429": 0,
+      "http_403": 0,
+      "retry_count": 0,
+      "batch_ids": [
+        "crawl-vnexpress-65c81f3755b4bd01fccee1520d71d8e7"
+      ],
+      "bronze_ingestion_id": "d5cdfe290060b86002274d3cd1c170d88887ea4945afd7c2d2fc4095afbcce43",
+      "request_count": 3,
+      "duration_seconds": 6.583
+    },
+    {
+      "source": "tuoitre",
+      "crawl_run_id": "crawl-tuoitre-5326bf007cd6431d8c010873c85c30c8",
+      "status": "SUCCESS",
+      "error": null,
+      "discovered": 16,
+      "fetched": 1,
+      "changed": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "parser_failures": 0,
+      "http_429": 0,
+      "http_403": 0,
+      "retry_count": 0,
+      "batch_ids": [
+        "crawl-tuoitre-612b3575ee755af3eee88d79c187ff8f"
+      ],
+      "bronze_ingestion_id": "58f2c827aa01f6c1ed4cb095aad7bc8245046a6c7e200c1e143915f9425c4c46",
+      "request_count": 3,
+      "duration_seconds": 6.199
+    },
+    {
+      "source": "thanhnien",
+      "crawl_run_id": "crawl-thanhnien-5d2e10ed7869449a996f53ad2f65c421",
+      "status": "SUCCESS",
+      "error": null,
+      "discovered": 57,
+      "fetched": 1,
+      "changed": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "parser_failures": 0,
+      "http_429": 0,
+      "http_403": 0,
+      "retry_count": 0,
+      "batch_ids": [
+        "crawl-thanhnien-630d96a3b5e6bddd01fdfceca222b93c"
+      ],
+      "bronze_ingestion_id": "753b6e23c492484241b3d5f422f9b5cdd57daabab03e47bd1faf812676746abb",
+      "request_count": 3,
+      "duration_seconds": 6.335
+    },
+    {
+      "source": "baomoi",
+      "crawl_run_id": "crawl-baomoi-2260df1229a64fcaa8a8e515dcaa3cb0",
+      "status": "SUCCESS",
+      "error": null,
+      "discovered": 61,
+      "fetched": 1,
+      "changed": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "parser_failures": 0,
+      "http_429": 0,
+      "http_403": 0,
+      "retry_count": 0,
+      "batch_ids": [
+        "crawl-baomoi-bf2c5232ecce854bf6588dc5e8ef764c"
+      ],
+      "bronze_ingestion_id": "2a1af680ccc1ba47393f1abe8a384fabbdafcc827613379dc05e028724e9bc0d",
+      "request_count": 3,
+      "duration_seconds": 6.335
+    }
+  ]
+}
