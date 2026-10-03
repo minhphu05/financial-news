@@ -53,14 +53,14 @@ The boxes below are release gates. Evidence is regenerated with
 - [x] Local-to-cloud component mapping and ADLS checklist exist.
 - [x] Kubernetes workload/state/readiness inventory exists without manifests.
 - [x] Migration manifest includes data, config, code impact, validation, and rollback.
-- [x] Phase 08 cloud sequence is documented and no cloud resource has been provisioned.
+- [x] Future cloud sequence is documented and no cloud resource has been provisioned. Phase08 now means local multisource crawling, not cloud migration.
 
 ## Verdict
 
 **Current verdict: `NOT READY`** because likely credentials remain in Git history.
 All other boxes must remain green after that remediation.
 
-`READY FOR CLOUD MIGRATION` means ready to start the controlled Phase 08 adapter
+`READY FOR CLOUD MIGRATION` means ready to start separately approved cloud adapter
 and deployment work. It does not mean production ready. The final verdict must
 match `artifacts/local-release-report.json` and `CURRENT_STATUS.md` after the
 acceptance command completes.

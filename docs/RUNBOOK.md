@@ -3,7 +3,9 @@
 > **Legacy scraper/application runbook — UNUSED FOR NOW.** For the current
 > Bronze → Silver → Gold platform use [local-release.md](local-release.md),
 > [pipeline-operations.md](pipeline-operations.md), and
-> [monitoring-observability.md](monitoring-observability.md).
+> [monitoring-observability.md](monitoring-observability.md). For Phase08 live
+> crawling, daily scheduling and incremental recovery use
+> [crawler-operations.md](crawler-operations.md).
 
 Day-to-day operations: starting services, running the scraper, debugging problems, and maintaining the stack.
 

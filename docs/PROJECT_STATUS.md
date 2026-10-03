@@ -1,5 +1,11 @@
 # Hiện trạng dự án Financial News / ViFinNER
 
+> **Bản rà soát lịch sử ngày 20/09/2026.** Trạng thái Phase01–08 hiện tại nằm trong
+> [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md). Pipeline Spark/Delta/Airflow và
+> crawler 5 nguồn đã được triển khai local; xem [kiến trúc local](local-architecture.md)
+> và [vận hành crawler](crawler-operations.md). Không dùng các nhận định dưới đây
+> làm checkpoint hiện tại.
+
 **Thời điểm rà soát:** 20/09/2026 · **Nhánh:** `development` · **Commit:** `037038a`
 
 **Đối chiếu đề cương khóa luận:** xem [`THESIS_ALIGNMENT.md`](THESIS_ALIGNMENT.md). Đề cương xác định **ba đầu ra**: nghiên cứu ViFinNER, website/RAG, và streaming dữ liệu giá cổ phiếu + Power BI. Tài liệu hiện trạng này chủ yếu mô tả những gì đã có trong repository; không nên hiểu hai hướng mã đang có là toàn bộ phạm vi khóa luận.

@@ -1,5 +1,11 @@
 # Incremental Scraping
 
+> **Historical keyword/cursor scraper behavior.** These settings describe
+> `src/scraper`, not Phase08 incremental ingestion. The active crawler uses a
+> PostgreSQL URL frontier, observation hashes and durable pending batches. See
+> [crawler operations](crawler-operations.md#incremental-behavior-across-daily-runs)
+> for current scheduling and recovery semantics.
+
 This document explains how the scraper avoids re-downloading content it has already seen, how it resumes after being interrupted, and how to tune the relevant parameters.
 
 ---

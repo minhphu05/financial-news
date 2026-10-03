@@ -5,9 +5,9 @@ Phase 08 extends the existing platform. The canonical data contract and transfor
 ```mermaid
 flowchart LR
   Sources[Five public news sites] --> HTTP[Robots-aware bounded HTTP]
-  HTTP --> Parsers[Source-specific parsers]
-  Parsers --> Landing[MinIO immutable Landing: HTML + envelope]
-  Landing --> Adapters[Source adapters]
+  HTTP --> Landing[MinIO immutable Landing: HTML + envelope]
+  Landing --> Parsers[Source-specific parsers / parsed envelope]
+  Parsers --> Adapters[Source adapters]
   Adapters --> Boundary[Existing JSON-array Bronze boundary]
   Boundary --> Bronze[Immutable Bronze]
   Bronze --> Silver[Spark / Delta Silver]
@@ -36,6 +36,14 @@ Landing and adapted batches are immutable, content addressed and stored before a
 ## Local scope
 
 MinIO, Docker Compose, PostgreSQL, Spark, Airflow, Qdrant, DuckDB and existing monitoring. No cloud resources or Kubernetes. HTTP accessibility is documented separately from parser validation and downstream acceptance.
+
+## Scheduling and incremental state
+
+The integrated `news_crawling_pipeline` calls standalone `crawl -> publish` jobs for each source; publish reuses the Phase05 runner rather than triggering the dated-file incremental DAG. The default is manual fixture execution. Live scheduling requires both the cron setting and explicit opt-in flag. The DAG uses `Asia/Ho_Chi_Minh`, `catchup=False`, one active run/task and a default limit of one article per source. See [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in) for the daily example, batch-limit behavior and shutdown commands.
+
+Incremental eligibility is driven by persistent canonical URLs, timestamps and observation hashes in PostgreSQL, not just publication date. Changed observations become new batches; unchanged observations create no downstream batch. Source failures and pending downstream batches remain recoverable. A listing-only discovery path and bounded batches do not guarantee complete daily coverage. Gold Analytics still performs the existing full refresh.
+
+Future migration must preserve Landing and the durable medallion hierarchy together with `control_metadata`, `pipeline_operations` and `crawler_operations`. Qdrant/DuckDB can be rebuilt from Gold. ADLS requires an adapter/runtime/identity change; current configuration boundaries do not imply an implemented cloud connection. See [migration manifest](cloud-migration-manifest.md).
 
 ## Local acceptance checkpoint
 

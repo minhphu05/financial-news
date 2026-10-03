@@ -1,6 +1,6 @@
 # Phase08 local crawler operations
 
-Use the existing local platform first; see `README.md`, `docs/local-operations.md` and `docs/metadata-cdc.md` for baseline service/bootstrap credentials. The crawler uses public HTTP and requires **no news-site API credential**. Storage/PostgreSQL/Airflow continue using local service configuration. Historical credential exposure remains a separate repository release blocker.
+Use the existing local platform first; see [README](../README.md), [local release](local-release.md) and [metadata control plane](metadata-control-plane.md) for baseline service/bootstrap credentials. The crawler uses public HTTP and requires **no news-site API credential**. Storage/PostgreSQL/Airflow continue using local service configuration. Historical credential exposure remains a separate repository release blocker.
 
 ## Initialize and verify
 
@@ -108,7 +108,65 @@ make crawler-demo
 make crawler-airflow-smoke
 ```
 
-Only after reviewing all source policies/acceptance, an operator may set `AIRFLOW_NEWS_CRAWLER_SCHEDULE=*/15 * * * *` and `AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true` in local `.env`, then recreate scheduler/webserver. Blank/false keeps recurring public requests disabled. Catchup stays false; this is a conservative local cadence, not a production SLA. Remove the schedule/flag to return to manual operation.
+### Daily live scheduling (operator opt-in)
+
+The following is an example configuration, **not an already enabled schedule**. After reviewing source policies and running bounded live acceptance, set these values in the ignored local `.env`:
+
+```dotenv
+AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"
+AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true
+```
+
+Apply the environment and verify DAG imports before unpausing:
+
+```sh
+docker compose up -d --force-recreate airflow-scheduler airflow-webserver
+docker compose exec -T airflow-scheduler airflow dags list-import-errors
+docker compose exec -T airflow-scheduler airflow dags unpause news_crawling_pipeline
+```
+
+`0 6 * * *` schedules a daily run at 06:00 in the DAG's `Asia/Ho_Chi_Minh` timezone. Airflow UI timestamps may use another display timezone. `catchup=False` does not recreate all missed calendar runs. The crawler discovers currently visible listing URLs and reads its persistent frontier; it does **not** restrict article publication dates to the Airflow data interval. Its batch processing date is the current Vietnam date at crawl time. Use the explicit backfill CLI for reviewed historical URLs.
+
+Scheduled live runs use all five sources and the DAG's default **`limit=1` per source per run**, with a hard permitted range of 1–20. Manual trigger conf can change that run's limit. It does not change later scheduled defaults. The seeded PostgreSQL `max_articles=3` does not override the Airflow limit: the DAG explicitly passes its `limit` parameter. Changing the default for recurring runs currently requires an explicit DAG parameter change and verification; there is no scheduled batch-size environment variable yet.
+
+Do not interpret a daily schedule as complete daily coverage. Discovery uses configured listing pages, not a verified full archive, and a one-article batch can accumulate a backlog. Newly discovered URLs have selection priority, so repeated backlog can delay eligible rechecks. Choose cadence/capacity only after observing discovered/fetched counts, frontier backlog, last successful crawl and pending publication batches. No production throughput or completeness SLA has been demonstrated.
+
+The existing `news_incremental_pipeline` is a separate dated-file path. Crawled batches call the Phase05 runner directly through each source's `publish` task; do not enable the dated-file DAG as an extra consumer of crawler batches.
+
+To stop recurring crawling, pause the DAG and restore manual defaults in `.env`:
+
+```sh
+docker compose exec -T airflow-scheduler airflow dags pause news_crawling_pipeline
+```
+
+```dotenv
+AIRFLOW_NEWS_CRAWLER_SCHEDULE=
+AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=false
+```
+
+Recreate scheduler/webserver after restoring those values. Pausing prevents future scheduling; it does not cancel a run already in progress. These instructions do not themselves enable public website requests.
+
+### Incremental behavior across daily runs
+
+| Observation/state | Current behavior |
+|---|---|
+| New canonical URL | Insert into persistent `(source, canonical_url)` frontier; process when selected within the batch limit. |
+| Previously successful URL | Recheck only after `next_eligible_at`, and only within `recent_days` since first discovery. Defaults are 6 hours and 7 days. |
+| Unchanged normalized content/title/summary/publication | Preserve raw Landing evidence; create no new downstream batch. HTML layout changes alone do not create an update. |
+| Changed observation | Commit a new immutable adapted batch, then reuse Phase05 Silver/Gold/serving processing and reconciliation. |
+| Transient source failure | Persist retry eligibility/cooldown; retry only eligible rows within existing attempt limits. |
+| Downstream failure | Keep durable pending/failed batch and resume publisher without another website request. |
+| URL absent from the next listing | Do not infer article deletion; there is no approved upstream article deletion contract. |
+
+Six hours is an eligibility delay, not a separate timer: a daily DAG rechecks at its next selected run, not every six hours. Discovery state and hashes must survive scheduler/container restarts. Successful URLs outside the recent window require explicit recrawl if they need revisiting. NEW/RETRY rows are not excluded by that recent-success window.
+
+Incremental ingestion does not mean every downstream operation is a delta-only computation: Silver/Gold use the existing hardened path, while Gold Analytics currently performs a deliberate full refresh. Qdrant and DuckDB remain derived serving systems, with source-scoped collections/files.
+
+### Cloud deployment handoff
+
+Keep the same source jobs and thin DAG. Supply service endpoints, storage/identity adapters and deployment settings outside parser/transformation logic. Preserve **both** Landing/Bronze/Silver/Gold and PostgreSQL `crawler_operations` plus source configuration; migrating only lake files loses frontier/hash/cooldown/outbox continuity. Suspend local scheduling and finish or record in-flight batches before taking a consistent cutover checkpoint. Keep cloud scheduling paused until migrated pending batches, per-source serving outputs and incremental replay reconcile.
+
+ADLS execution is not installed: it still needs the byte adapter, compatible ABFS runtime and approved identity. No cloud services or Kubernetes resources have been provisioned. See [cloud migration plan](cloud-migration-plan.md) and [migration manifest](cloud-migration-manifest.md) for validation and rollback; the historical credential release blocker remains unresolved.
 
 ## Monitoring
 

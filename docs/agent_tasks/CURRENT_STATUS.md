@@ -457,3 +457,32 @@ See `docs/crawler-operations.md` for initialization, fixture acceptance, explici
 live smoke, controlled recrawl/backfill, source config, storage lineage, serving
 isolation, scheduler opt-in, monitoring and recovery. Default next activity is
 bounded local collection/validation; cloud deployment remains outside this phase.
+
+### Documentation consistency checkpoint — 2026-10-03
+
+Documentation was checked against the crawler DAG, jobs, frontier SQL, migration,
+storage factory and existing Phase08 evidence. README now includes the live input
+path in its main architecture/status, rather than only in an appended section.
+The daily scheduling example is 06:00 `Asia/Ho_Chi_Minh`, with explicit live
+opt-in; this documentation update did not enable a schedule or run a live crawl.
+
+Current scheduled default remains one article per source per run (hard maximum
+20). Manual run conf does not update recurring defaults; the Airflow limit
+overrides the seeded metadata batch-size default. Six-hour recheck eligibility
+is evaluated at a selected crawl run, within seven days since first discovery;
+it is not an independent timer. Listing discovery and batch limits do not imply
+complete daily coverage. Gold Analytics still performs a full refresh.
+
+Cloud plan/manifest now inventory immutable Landing and the `crawler_operations`
+frontier/hash/cooldown/outbox state, per-source serving, consistent cutover and
+rollback. Obsolete references assigning cloud deployment to Phase08 were removed
+from current release guides. Legacy scraper/planning documents are labeled as
+historical, with links to the current path. No contracts, runtime code, services
+or release verdict changed; previous test evidence above remains the recorded
+execution result, not a newly executed acceptance run.
+
+Documentation validation: all 19 changed Markdown files passed local link/linked
+heading and fenced-block checks. Static checks matched the documented DAG/source
+defaults, migration table names, Make targets and recorded live/acceptance JSON.
+`git diff --check` passed after fixing Markdown trailing whitespace. No runtime
+test suite was rerun for this documentation-only change.
