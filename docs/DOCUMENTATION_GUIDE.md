@@ -37,6 +37,7 @@ credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng t
 | Kiểm tra PostgreSQL → Debezium → Kafka | [metadata-control-plane.md](metadata-control-plane.md) | [metadata-event-contracts.md](metadata-event-contracts.md) |
 | Xem dashboard, metrics, alerts hoặc service lỗi | [monitoring-observability.md](monitoring-observability.md) | [local baseline](local-monitoring-baseline.md) |
 | Demo với giảng viên | [demo-guide-vi.md](demo-guide-vi.md) | [news sources](news-sources.md), [Phase08 report](phase8-engineering-report.md) |
+| Báo cáo tiến độ và demo Phase08 theo lời thoại | [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md), [Phase08 live E2E](../artifacts/phase8-live-e2e.json) |
 | Vẽ sơ đồ pipeline hiện tại | [local-architecture.md](local-architecture.md) | [crawling-architecture.md](crawling-architecture.md), [monitoring](monitoring-observability.md) |
 | Chuẩn bị lên cloud | [cloud-migration-plan.md](cloud-migration-plan.md) | [migration manifest](cloud-migration-manifest.md), [credential remediation](credential-remediation.md), [release checklist](local-release-checklist.md) |
 | Hiểu lý do chọn công nghệ/giới hạn | [decisions.md](decisions.md) | [local architecture](local-architecture.md) |
@@ -85,6 +86,7 @@ credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng t
 | [monitoring-observability.md](monitoring-observability.md) | Metrics sources, exporter, 7 dashboards/15 rules, setup và troubleshooting Phase07/08. |
 | [local-monitoring-baseline.md](local-monitoring-baseline.md) | Resource/timing/failure observations ở baseline Phase07; dùng để so sánh, không xem như benchmark cloud. |
 | [demo-guide-vi.md](demo-guide-vi.md) | Hướng dẫn tiếng Việt để demo services/data/SQL/retrieval/failure và crawler; phần đầu giữ baseline Phase07, phần cuối có demo Phase08. |
+| [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | Lời thoại báo cáo tiến độ Phase01–08, demo fixture/live evidence, fallback, Q&A và dẫn chứng tới source docs/artifacts. |
 
 ### Release, bảo mật và cloud
 
