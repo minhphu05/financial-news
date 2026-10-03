@@ -2,6 +2,10 @@
 
 Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa luận, với pipeline lakehouse chạy local đã được kiểm chứng từ dữ liệu CafeF có sẵn và các batch crawl nhỏ từ 5 nguồn.
 
+**Bắt đầu đọc tài liệu:** [Documentation guide](docs/DOCUMENTATION_GUIDE.md)
+giải thích từng document và thứ tự đọc theo nhu cầu. Để biết nguồn/chuyên mục,
+cơ chế và số liệu đã crawl, xem [News sources](docs/news-sources.md).
+
 Luồng chính hiện tại:
 
 ```text
@@ -624,7 +628,7 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 
 ```text
 .
-├── airflow/dags/               # DAG Phase 03/05
+├── airflow/dags/               # DAG Phase 03/05/08
 ├── artifacts/                  # Kết quả smoke, recovery, performance
 ├── config/                     # Local/test/future-cloud profiles + version manifest
 ├── data/
@@ -636,14 +640,15 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 ├── docs/                       # Architecture, contracts, runbooks, phase tasks
 ├── metadata/migrations/        # PostgreSQL control_metadata migrations
 ├── monitoring/                 # Prometheus, alerts, Grafana dashboards, exporter config
-├── operations/migrations/      # PostgreSQL pipeline_operations migrations
+├── operations/migrations/      # PostgreSQL pipeline_operations + crawler_operations
 ├── src/
+│   ├── crawling/               # 5-source HTTP, Landing, adapters, frontier, publish
 │   ├── news_pipeline/          # Bronze, Silver, Gold, serving, hardened runner
 │   ├── pipeline_operations/    # Run/stage/checkpoint/lock repository
 │   ├── metadata_control/       # PostgreSQL/Debezium/Kafka control plane
-│   ├── monitoring/             # Read-only Phase 07 metrics exporter
+│   ├── monitoring/             # Read-only Phase 07/08 metrics exporter
 │   ├── model/                  # ViFinNER research
-│   ├── scraper/                # Crawler ngoài scope hiện tại
+│   ├── scraper/                # Legacy crawler; không dùng trong medallion pipeline
 │   ├── rag/                    # RAG/API modules có từ trước
 │   └── flows/                  # Prefect flows có từ trước
 ├── tests/                      # Unit/integration/recovery/DAG/release tests + fixtures
@@ -709,6 +714,12 @@ Phase 07 đã chứng minh:
 
 Baseline đo được trên máy local nằm tại
 [docs/local-monitoring-baseline.md](docs/local-monitoring-baseline.md).
+
+Phase 08 đã kiểm chứng thêm 5 bài crawl thật đi hết pipeline, tổng 39
+chunks/Qdrant points và reconciliation PASS cho từng nguồn. Cấu hình monitoring
+hiện có **7 dashboards / 15 alert rules**, gồm dashboard crawler và 3 alerts mới.
+Bằng chứng: [artifacts/phase8-live-e2e.json](artifacts/phase8-live-e2e.json) và
+[artifacts/phase8-acceptance.json](artifacts/phase8-acceptance.json).
 
 ## Dừng và dọn môi trường
 
@@ -799,7 +810,9 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 
 ## Tài liệu
 
-Đọc theo nhu cầu:
+Đọc [hướng dẫn chọn tài liệu](docs/DOCUMENTATION_GUIDE.md) để tìm điểm bắt đầu,
+vai trò từng document và phân biệt tài liệu hiện tại với tài liệu lịch sử.
+Các tài liệu chính:
 
 1. [docs/agent_tasks/CURRENT_STATUS.md](docs/agent_tasks/CURRENT_STATUS.md) — trạng thái và bằng chứng mới nhất.
 2. [docs/local-architecture.md](docs/local-architecture.md) — kiến trúc local hiện tại.
@@ -818,6 +831,7 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 15. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
 16. [docs/crawler-operations.md](docs/crawler-operations.md) — crawler 5 nguồn, schedule hằng ngày, incremental và recovery.
 17. [docs/crawling-architecture.md](docs/crawling-architecture.md) — tích hợp crawler vào Phase 01–07 và state cần giữ khi migration.
+18. [docs/news-sources.md](docs/news-sources.md) — 5 nguồn/chuyên mục, cơ chế crawl, selectors và bằng chứng live/fixture.
 
 Xem toàn bộ command đang hỗ trợ:
 

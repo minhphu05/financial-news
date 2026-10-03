@@ -1,5 +1,10 @@
 # Financial News RAG Stack - Environment Setup Guide
 
+> **Legacy application setup guide.** For the current Phase01–08 data platform,
+> use [local release](local-release.md), [crawler operations](crawler-operations.md)
+> and [README](../README.md). The application services and credentials below
+> are not prerequisites for the local medallion/crawler slice.
+
 ## Overview
 
 This document describes the environment configuration and setup for the Financial News RAG (Retrieval-Augmented Generation) Stack. The stack consists of multiple interconnected services orchestrated via Docker Compose.

@@ -2,6 +2,10 @@
 
 Phase 08 uses source-specific raw schemas. `docs/data-contracts.md` remains authoritative and unchanged.
 
+For the source-selection origin, default listing pages, crawl mechanism and
+actual live counts, start with [news sources](news-sources.md). For navigation
+across all project documentation, use [documentation guide](DOCUMENTATION_GUIDE.md).
+
 | Source | Parser body (observed) | Raw schema | Publication evidence | Strategy |
 | --- | --- | --- | --- | --- |
 | CafeF | `div.afcbc-body` | cafef-raw-v1 | `article:published_time` | public HTTP |
@@ -20,7 +24,7 @@ An adapter produces a JSON array accepted by `src/news_pipeline/source_schema.py
 | --- | --- | --- |
 | link | source-host URL validated by the existing canonical URL function | source_url, canonical_url, article_id |
 | title | observed source heading | normalized title |
-| summary | observed description/sapo, otherwise empty | description |
+| summary | `meta[name="description"]` for all five sources; source-specific aliases include sapo/standfirst; otherwise empty | description |
 | context | observed article-body HTML | cleaned content, existing content_hash |
 | post date | ISO timestamp converted to approved Vietnam local minute format; unsupported value retained | published_at or null, published_at_raw |
 

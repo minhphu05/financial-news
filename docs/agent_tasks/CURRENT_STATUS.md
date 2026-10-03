@@ -481,8 +481,37 @@ historical, with links to the current path. No contracts, runtime code, services
 or release verdict changed; previous test evidence above remains the recorded
 execution result, not a newly executed acceptance run.
 
-Documentation validation: all 19 changed Markdown files passed local link/linked
+Documentation validation: all 21 reviewed Markdown files passed local link/linked
 heading and fenced-block checks. Static checks matched the documented DAG/source
 defaults, migration table names, Make targets and recorded live/acceptance JSON.
 `git diff --check` passed after fixing Markdown trailing whitespace. No runtime
 test suite was rerun for this documentation-only change.
+
+A second consistency review also updated the README repository tree/main
+verification summary, the local architecture's primary diagram and the monitoring
+runbook's primary inventory (seven dashboards/15 rules). The legacy application
+environment guide is now labeled separately from the active platform setup.
+
+### Source inventory and documentation navigation — 2026-10-03
+
+Added `docs/news-sources.md`: user-specified five-source origin, implementation
+choice of economic listings, actual selectors/HTTP mechanism, extraction
+boundaries and recorded live smoke (223 discovered URLs, five fetched articles,
+39 chunks/points). It distinguishes those measurements from the historical
+sample and synthetic fixtures; no broader live collection is claimed.
+
+Added `docs/DOCUMENTATION_GUIDE.md`: first-reading sequence, navigation by task,
+an explanation of every document under `docs`, phase specifications versus
+execution evidence, historical/application guides, research/module documents
+and links to actual code/artifacts. README, crawler runbook/architecture and
+source mapping link these entry points. Summary mapping was clarified to match
+the parser's actual `meta[name="description"]` extraction.
+
+This change is documentation-only; no source request, configuration change,
+schedule activation or contract redesign was performed.
+
+Validation passed: links/headings/fences in seven new/modified documents; catalogue
+coverage of all 48 Markdown documents under `docs` and all 62 repository Markdown
+documents outside data/artifacts; source settings/selectors and smoke totals
+matched code/recorded JSON; `git diff --check` passed. No runtime tests were
+rerun for this documentation-only change.
