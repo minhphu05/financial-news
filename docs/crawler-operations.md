@@ -1,5 +1,9 @@
 # Phase08 local crawler operations
 
+For the five source websites, default sections, parser behavior and live
+verification scope, read [news sources](news-sources.md). For an explanation of
+each project document and reading order, use [documentation guide](DOCUMENTATION_GUIDE.md).
+
 Use the existing local platform first; see [README](../README.md), [local release](local-release.md) and [metadata control plane](metadata-control-plane.md) for baseline service/bootstrap credentials. The crawler uses public HTTP and requires **no news-site API credential**. Storage/PostgreSQL/Airflow continue using local service configuration. Historical credential exposure remains a separate repository release blocker.
 
 ## Initialize and verify

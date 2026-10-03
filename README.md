@@ -2,6 +2,10 @@
 
 Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa luận, với pipeline lakehouse chạy local đã được kiểm chứng từ dữ liệu CafeF có sẵn và các batch crawl nhỏ từ 5 nguồn.
 
+**Bắt đầu đọc tài liệu:** [Documentation guide](docs/DOCUMENTATION_GUIDE.md)
+giải thích từng document và thứ tự đọc theo nhu cầu. Để biết nguồn/chuyên mục,
+cơ chế và số liệu đã crawl, xem [News sources](docs/news-sources.md).
+
 Luồng chính hiện tại:
 
 ```text
@@ -806,7 +810,9 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 
 ## Tài liệu
 
-Đọc theo nhu cầu:
+Đọc [hướng dẫn chọn tài liệu](docs/DOCUMENTATION_GUIDE.md) để tìm điểm bắt đầu,
+vai trò từng document và phân biệt tài liệu hiện tại với tài liệu lịch sử.
+Các tài liệu chính:
 
 1. [docs/agent_tasks/CURRENT_STATUS.md](docs/agent_tasks/CURRENT_STATUS.md) — trạng thái và bằng chứng mới nhất.
 2. [docs/local-architecture.md](docs/local-architecture.md) — kiến trúc local hiện tại.
@@ -825,6 +831,7 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 15. [src/model/docs/README_VI.md](src/model/docs/README_VI.md) — nhánh nghiên cứu ViFinNER.
 16. [docs/crawler-operations.md](docs/crawler-operations.md) — crawler 5 nguồn, schedule hằng ngày, incremental và recovery.
 17. [docs/crawling-architecture.md](docs/crawling-architecture.md) — tích hợp crawler vào Phase 01–07 và state cần giữ khi migration.
+18. [docs/news-sources.md](docs/news-sources.md) — 5 nguồn/chuyên mục, cơ chế crawl, selectors và bằng chứng live/fixture.
 
 Xem toàn bộ command đang hỗ trợ:
 

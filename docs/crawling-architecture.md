@@ -2,6 +2,10 @@
 
 Phase 08 extends the existing platform. The canonical data contract and transformations remain in `docs/data-contracts.md` and `src/news_pipeline`.
 
+Source websites/sections, parser selectors and the actual live smoke inventory
+are summarized in [news sources](news-sources.md). Start with
+[documentation guide](DOCUMENTATION_GUIDE.md) to choose related documents.
+
 ```mermaid
 flowchart LR
   Sources[Five public news sites] --> HTTP[Robots-aware bounded HTTP]
