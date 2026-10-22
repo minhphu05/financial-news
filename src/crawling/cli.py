@@ -19,6 +19,13 @@ def main():
     for name in ("crawl", "recrawl", "backfill", "live-smoke", "publish"):
         p = sub.add_parser(name)
         p.add_argument("--source", choices=[*SOURCES, "all"], required=True)
+        if name == "publish":
+            p.add_argument("--max-batches", type=int)
+            p.add_argument(
+                "--respect-retry",
+                action="store_true",
+                help="Honor automatic eligibility/attempt budgets; manual default permits immediate bounded replay",
+            )
         if name != "publish":
             p.add_argument("--limit", type=int, default=1)
             p.add_argument("--url", action="append")
@@ -72,7 +79,12 @@ def main():
             for source in SOURCES if args.source == "all" else [args.source]:
                 try:
                     if args.command == "publish":
-                        r = publish(source, repository=repo)
+                        r = publish(
+                            source,
+                            repository=repo,
+                            max_batches=args.max_batches,
+                            respect_retry=args.respect_retry,
+                        )
                     else:
                         r = crawl(
                             source,
@@ -86,6 +98,8 @@ def main():
                             else "NORMAL",
                             from_date=getattr(args, "from_date", None),
                             to_date=getattr(args, "to_date", None),
+                            allow_live=True,
+                            skip_busy=True,
                         )
                     results.append(r)
                 except Exception as e:  # noqa: BLE001 - one source must not cancel others

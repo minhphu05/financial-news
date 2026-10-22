@@ -3,7 +3,7 @@
 This runbook describes the Phase 07 monitoring plane for the local financial-news
 platform, extended in Phase08 for crawler metrics. It observes the existing
 data and control planes without moving transformation logic into monitoring
-services. Current configuration has seven dashboards and 15 alert rules;
+services. Phase09 extends heartbeat/Landing/layer/backlog telemetry and the existing crawler dashboard. Current configuration has seven dashboards and 19 alert rules;
 the original Phase07 acceptance evidence remains a six-dashboard/12-rule baseline.
 
 ## Architecture
@@ -127,9 +127,11 @@ article content is not transported through Kafka.
 
 ## Alert rules
 
-The repository provisions 15 local rules: the original 12 below plus
+The repository provisions 19 local rules: the original 12 below plus
 `CrawlerSourceBlocked`, `CrawlerParserFailures` and `CrawlerDownstreamBacklog`
-described in [Phase08 crawler observability](#phase08-crawler-observability).
+described in [Phase08 crawler observability](#phase08-crawler-observability), and Phase09's `CrawlerParserSuccessRatioLow`, `CrawlerOutboxRetryBudgetExhausted`, `CrawlerOldestPendingTooOld` and `CrawlerScheduledHeartbeatStale`.
+
+Phase09 distinguishes completed crawl heartbeat (including policy skips), successful crawl, durable HTML Landing completion and successful downstream stage timestamps linked to outbox batches. Latest measured Landing-to-layer intervals and pending age are independent. Missing historical timestamps stay unavailable rather than zero. See the [current operational runbook](crawler-operations.md#timestamp-metrics-and-report-semantics) and [Phase09 report](phase9-engineering-report.md) for definitions, sample thresholds, actual verification and pending real-time burn-in.
 
 | Rule | Local condition |
 |---|---|

@@ -1,0 +1,95 @@
+rule_files:
+  - ../rules/financial-news.yml
+evaluation_interval: 1m
+tests:
+  - interval: 1m
+    input_series:
+      - series: 'financial_news_crawler_articles_total{source="cafef",data_kind="live",outcome="parser_failures"}'
+        values: '0+1x12'
+      - series: 'financial_news_crawler_articles_total{source="cafef",data_kind="live",outcome="parse_successes"}'
+        values: '0+0x12'
+    alert_rule_test:
+      - eval_time: 3m
+        alertname: CrawlerParserSuccessRatioLow
+        exp_alerts: []
+      - eval_time: 10m
+        alertname: CrawlerParserSuccessRatioLow
+        exp_alerts:
+          - exp_labels:
+              source: cafef
+              data_kind: live
+              severity: warning
+            exp_annotations:
+              summary: "Parser failure ratio or repeated empty discoveries need review; local tunable thresholds"
+  - interval: 1m
+    input_series:
+      - series: 'financial_news_crawler_source_blocked{source="cafef",data_kind="live"}'
+        values: '1 1 1 0 0 0'
+    alert_rule_test:
+      - eval_time: 2m
+        alertname: CrawlerSourceBlocked
+        exp_alerts:
+          - exp_labels:
+              source: cafef
+              data_kind: live
+              severity: warning
+            exp_annotations:
+              summary: "Public HTTP crawler source blocked; inspect policy/status before retry"
+      - eval_time: 5m
+        alertname: CrawlerSourceBlocked
+        exp_alerts: []
+  - interval: 1m
+    input_series:
+      - series: 'financial_news_crawler_articles_total{source="cafef",data_kind="live",outcome="discovery_empty"}'
+        # Empty discovery once every 30 minutes, matching the proposed cadence.
+        values: '0+0x29 1+0x29 2+0x29 3+0x159'
+    alert_rule_test:
+      - eval_time: 50m
+        alertname: CrawlerParserSuccessRatioLow
+        exp_alerts: []
+      - eval_time: 100m
+        alertname: CrawlerParserSuccessRatioLow
+        exp_alerts:
+          - exp_labels:
+              source: cafef
+              data_kind: live
+              severity: warning
+            exp_annotations:
+              summary: "Parser failure ratio or repeated empty discoveries need review; local tunable thresholds"
+      - eval_time: 245m
+        alertname: CrawlerParserSuccessRatioLow
+        exp_alerts: []
+  - interval: 1m
+    input_series:
+      - series: 'financial_news_crawler_outbox_exhausted_batches{source="cafef",data_kind="live"}'
+        values: '0 1 1 0 0 0'
+    alert_rule_test:
+      - eval_time: 2m
+        alertname: CrawlerOutboxRetryBudgetExhausted
+        exp_alerts:
+          - exp_labels:
+              source: cafef
+              data_kind: live
+              severity: warning
+            exp_annotations:
+              summary: "Automatic downstream retries exhausted; preserve input and review before manual replay"
+      - eval_time: 5m
+        alertname: CrawlerOutboxRetryBudgetExhausted
+        exp_alerts: []
+  - interval: 1m
+    input_series:
+      - series: 'financial_news_crawler_oldest_pending_timestamp_seconds{source="cafef",data_kind="live"}'
+        values: '0+0x40'
+    alert_rule_test:
+      - eval_time: 20m
+        alertname: CrawlerOldestPendingTooOld
+        exp_alerts: []
+      - eval_time: 35m
+        alertname: CrawlerOldestPendingTooOld
+        exp_alerts:
+          - exp_labels:
+              source: cafef
+              data_kind: live
+              severity: warning
+            exp_annotations:
+              summary: "Oldest durable unpublished crawler batch is over the local 30-minute threshold"

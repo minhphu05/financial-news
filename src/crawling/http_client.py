@@ -144,6 +144,7 @@ class HttpClient:
         self.last_request = 0.0
         self.request_count = 0
         self.retry_count = 0
+        self.request_duration_seconds = 0.0
         self.policy = None
         self.opener = build_opener(
             SameHostRedirect(
@@ -160,6 +161,7 @@ class HttpClient:
 
     def _request(self, url):
         self._pace()
+        started = time.monotonic()
         try:
             with self.opener.open(
                 Request(
@@ -195,6 +197,8 @@ class HttpClient:
             ) from e
         except (URLError, TimeoutError, OSError) as e:
             raise FetchError("network_error", retryable=True) from e
+        finally:
+            self.request_duration_seconds += time.monotonic() - started
 
     def check_robots(self):
         try:

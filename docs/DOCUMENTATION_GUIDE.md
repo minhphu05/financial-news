@@ -21,6 +21,8 @@ bằng chứng tiny smoke 1 bài/nguồn. Schedule live mặc định tắt. Clo
 chưa thực hiện và release gate vẫn `NOT READY FOR CLOUD MIGRATION` vì vấn đề
 credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng thái mới nhất.
 
+Phase09 mở rộng vận hành local có kiểm soát; đọc [engineering report](phase9-engineering-report.md) để phân biệt implementation/functional acceptance với burn-in 24h/72h đang chờ bằng chứng thời gian thực. [Runbook hiện hành](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) mô tả policy, lịch, recovery, reporting và kill-switch.
+
 ## 2. Tôi cần làm gì thì đọc tài liệu nào?
 
 | Nhu cầu | Đọc đầu tiên | Đọc tiếp |
@@ -28,6 +30,7 @@ credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng t
 | Nắm tình hình để tiếp tục project | [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md) | [README](../README.md), [local architecture](local-architecture.md) |
 | Biết đã crawl báo nào, lấy bài như thế nào | [news-sources.md](news-sources.md) | [source mappings](source-mapping-matrix.md), source contract tương ứng |
 | Chạy crawler, schedule mỗi ngày, kiểm tra incremental | [crawler-operations.md](crawler-operations.md) | [crawler architecture](crawling-architecture.md), [pipeline operations](pipeline-operations.md) |
+| Kiểm chứng scheduling, báo cáo ngày, burn-in Phase09 | [phase9-engineering-report.md](phase9-engineering-report.md) | [Phase09 task specification](agent_tasks/09-continuous-local-crawling-scheduling-burnin.md), [runbook](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) |
 | Khởi động môi trường local sạch | [local-release.md](local-release.md) | [README](../README.md), [release checklist](local-release-checklist.md) |
 | Tìm schema, field mapping hoặc quy tắc dedup | [data-contracts.md](data-contracts.md) | [source mappings](source-mapping-matrix.md), [metadata events](metadata-event-contracts.md) |
 | Chạy/tìm lỗi Bronze → Silver | [bronze-silver-local.md](bronze-silver-local.md) | [data contracts](data-contracts.md), [pipeline operations](pipeline-operations.md) |

@@ -16,6 +16,7 @@ x-airflow-common: &airflow-common
   image: financial-news-airflow:2.11.2
   environment: &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    PYTHONDONTWRITEBYTECODE: '1'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
     AIRFLOW__CORE__DAG_RUN_CONF_OVERRIDES_PARAMS: 'true'
@@ -66,6 +67,7 @@ x-airflow-common: &airflow-common
     NEWS_INDEX_BATCH_SIZE: ${NEWS_INDEX_BATCH_SIZE:-32}
     AIRFLOW_NEWS_INDEX_LIMIT: ${AIRFLOW_NEWS_INDEX_LIMIT:-96}
     AIRFLOW_NEWS_CRAWLER_SCHEDULE: ${AIRFLOW_NEWS_CRAWLER_SCHEDULE:-}
+    AIRFLOW_NEWS_CRAWLER_LIMIT: ${AIRFLOW_NEWS_CRAWLER_LIMIT:-1}
     AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE: ${AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE:-false}
     AIRFLOW_NEWS_INCREMENTAL_SCHEDULE: ${AIRFLOW_NEWS_INCREMENTAL_SCHEDULE:-}
     CRAWLER_WORK_DIR: ${AIRFLOW_CRAWLER_WORK_DIR:-/opt/airflow/local/crawler}
@@ -697,6 +699,7 @@ services:
     volumes:
       - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
       - ./monitoring/prometheus/rules:/etc/prometheus/rules:ro
+      - ./monitoring/prometheus/tests:/etc/prometheus/tests:ro
       - prometheus_data:/prometheus
     depends_on:
       platform-metrics-exporter:

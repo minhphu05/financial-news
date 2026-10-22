@@ -25,6 +25,8 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 
 > Phase 08 đã tích hợp crawler CafeF, VnExpress, Tuổi Trẻ, Thanh Niên và Báo Mới. Lịch crawl tự động mặc định tắt; live smoke đã kiểm chứng 1 bài/nguồn. Kafka chỉ truyền metadata điều khiển; nội dung bài báo không đi qua Kafka.
 
+Phase09 bổ sung runtime policy live theo source, giới hạn replay/backoff, telemetry và báo cáo vận hành. Manual fixture vẫn là mặc định; lịch/live cần opt-in và policy được review. Acceptance chức năng tách khỏi burn-in **24h/72h thật**, chưa được coi hoàn tất chỉ từ fixture tests. Xem [Phase09 engineering report](docs/phase9-engineering-report.md) và [runbook](docs/crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence).
+
 ## Mục lục
 
 - [Phạm vi và trạng thái](#phạm-vi-và-trạng-thái)
@@ -60,6 +62,7 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 | 06 | Local release candidate và cloud-readiness | Kỹ thuật hoàn thành; release gate `NOT READY` |
 | 07 | Local monitoring, dashboard, alert và failure observability | Hoàn thành |
 | 08 | Crawler 5 nguồn → Landing → pipeline hiện có | Hoàn thành local; 5 bài thật / 39 chunks được kiểm chứng |
+| 09 | Continuous scheduling, bounded recovery, telemetry và burn-in | Chức năng PASS; live B1 và burn-in 24h/72h PENDING |
 
 Cloud/Azure/Kubernetes migration chưa được thực hiện. Phase 06 chỉ tạo release
 local tái lập được, kiểm chứng adapter/config boundary và lập migration manifest.

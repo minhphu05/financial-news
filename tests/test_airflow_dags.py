@@ -1,6 +1,7 @@
 """Airflow DAG import, structure, configuration, and thin-orchestration tests."""
 
 import os
+import runpy
 from pathlib import Path
 import sys
 import unittest
@@ -115,6 +116,25 @@ class AirflowDagTest(unittest.TestCase):
         with patch.dict(os.environ, {name: "" for name in required}, clear=False):
             with self.assertRaisesRegex(RuntimeError, "Missing required pipeline configuration"):
                 required_runtime_config()
+
+    def test_crawler_schedule_on_keeps_manual_fixture_safe_and_bounds_concurrency(self):
+        with patch.dict(os.environ, {"AIRFLOW_NEWS_CRAWLER_SCHEDULE": "*/30 * * * *", "AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE": "true", "AIRFLOW_NEWS_CRAWLER_LIMIT": "2"}):
+            dag = runpy.run_path(str(DAG_FOLDER / "news_crawling_pipeline.py"))["dag"]
+        self.assertEqual(dag.schedule_interval, "*/30 * * * *")
+        self.assertFalse(dag.catchup)
+        self.assertEqual((dag.max_active_runs, dag.max_active_tasks), (1, 1))
+        self.assertTrue(dag.params["fixture_mode"])
+        self.assertFalse(dag.params["allow_live"])
+        self.assertEqual(dag.params["limit"], 2)
+        self.assertEqual(dag.get_task("cafef.publish").trigger_rule, "all_done")
+
+    def test_crawler_invalid_scheduling_fails_without_making_requests(self):
+        with patch.dict(os.environ, {"AIRFLOW_NEWS_CRAWLER_SCHEDULE": "*/30 * * * *", "AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE": "false"}):
+            with self.assertRaisesRegex(RuntimeError, "explicit"):
+                runpy.run_path(str(DAG_FOLDER / "news_crawling_pipeline.py"))
+        with patch.dict(os.environ, {"AIRFLOW_NEWS_CRAWLER_SCHEDULE": "", "AIRFLOW_NEWS_CRAWLER_LIMIT": "21"}):
+            with self.assertRaisesRegex(ValueError, "between 1 and 20"):
+                runpy.run_path(str(DAG_FOLDER / "news_crawling_pipeline.py"))
 
     def test_dag_files_do_not_contain_transformation_implementations(self):
         forbidden = ("pyspark", "SparkSession", "normalize_observation", "ArticleChunker", "TextEmbedding")

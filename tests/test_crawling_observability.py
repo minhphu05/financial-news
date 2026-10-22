@@ -27,7 +27,8 @@ class LocalCrawlerObservabilityTest(unittest.TestCase):
             for sample in family.samples:
                 count += 1
                 self.assertLessEqual(
-                    set(sample.labels), {"source", "data_kind", "status", "outcome"}
+                    set(sample.labels),
+                    {"source", "data_kind", "status", "outcome", "layer"},
                 )
                 self.assertIn(
                     sample.labels["source"],

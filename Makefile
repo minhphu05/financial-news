@@ -507,3 +507,17 @@ phase8-acceptance: test-crawler crawler-demo airflow-test test-monitoring crawle
 	$(COMPOSE) run --rm --user 0 --no-deps news-pipeline python3 /app/tools/phase8_report.py
 	cp data/local/phase8-acceptance.json artifacts/phase8-acceptance.json
 	cp data/local/phase8-e2e.json artifacts/phase8-fixture-e2e.json
+
+# Phase09 functional checks are separate from real elapsed-time burn-in evidence.
+.PHONY: phase9-acceptance phase9-config-check phase9-daily-report phase9-burnin-report
+phase9-acceptance:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase9.py acceptance
+
+phase9-config-check:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase9.py config-check
+
+phase9-daily-report:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase9.py daily-report $(if $(START),--start '$(START)',) $(if $(END),--end '$(END)',) $(if $(FIXTURE),--fixture,)
+
+phase9-burnin-report:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase9.py burnin-report $(if $(SESSION),--session '$(SESSION)',)

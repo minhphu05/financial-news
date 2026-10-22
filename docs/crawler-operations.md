@@ -1,4 +1,6 @@
-# Phase08 local crawler operations
+# Local crawler operations — Phase08 / Phase09
+
+Phase09 extends the existing jobs with runtime live policy, bounded publisher retries, telemetry and evidence commands. Functional verification and real 24h/72h burn-in are separate gates; see [Phase09 engineering report](phase9-engineering-report.md). Earlier Phase08 results below remain dated evidence.
 
 For the five source websites, default sections, parser behavior and live
 verification scope, read [news sources](news-sources.md). For an explanation of
@@ -19,6 +21,8 @@ make phase8-acceptance
 `phase8-acceptance` runs parser/policy/frontier tests, the five-source fixture vertical slice, Airflow import tests, a real scheduler-managed fixture DAG, and local exporter/Prometheus/Grafana checks. It makes no HTTP requests to news websites. Embedding uses the established actual FastEmbed model; the initial model download/cache is part of the existing platform setup.
 
 ## Explicit live smoke / small incremental batch
+
+Phase09 requires both the explicit `--allow-live` command flag and source runtime `live_enabled=true`; missing policy means false. Before enabling a source, review its current access/robots/terms and record a reference with the policy command in the Phase09 workflow below. A denied source produces a persisted `SKIPPED` result without HTTP, rather than pretending to have fetched zero new articles successfully.
 
 ```sh
 make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1
@@ -131,7 +135,7 @@ docker compose exec -T airflow-scheduler airflow dags unpause news_crawling_pipe
 
 `0 6 * * *` schedules a daily run at 06:00 in the DAG's `Asia/Ho_Chi_Minh` timezone. Airflow UI timestamps may use another display timezone. `catchup=False` does not recreate all missed calendar runs. The crawler discovers currently visible listing URLs and reads its persistent frontier; it does **not** restrict article publication dates to the Airflow data interval. Its batch processing date is the current Vietnam date at crawl time. Use the explicit backfill CLI for reviewed historical URLs.
 
-Scheduled live runs use all five sources and the DAG's default **`limit=1` per source per run**, with a hard permitted range of 1–20. Manual trigger conf can change that run's limit. It does not change later scheduled defaults. The seeded PostgreSQL `max_articles=3` does not override the Airflow limit: the DAG explicitly passes its `limit` parameter. Changing the default for recurring runs currently requires an explicit DAG parameter change and verification; there is no scheduled batch-size environment variable yet.
+Scheduled live runs use all five source groups and default **`limit=1` per source per run**, with a hard permitted range of 1–20. Phase09 adds `AIRFLOW_NEWS_CRAWLER_LIMIT` for the parsed recurring default. Manual trigger conf can change only that run's limit. The runtime effective fetch cap is the smaller of the requested limit and source `config.crawler.max_articles` (seed default three). Changing PostgreSQL policy does not alter the cron expression; changing schedule environment requires scheduler recreation/reparse.
 
 Do not interpret a daily schedule as complete daily coverage. Discovery uses configured listing pages, not a verified full archive, and a one-article batch can accumulate a backlog. Newly discovered URLs have selection priority, so repeated backlog can delay eligible rechecks. Choose cadence/capacity only after observing discovered/fetched counts, frontier backlog, last successful crawl and pending publication batches. No production throughput or completeness SLA has been demonstrated.
 
@@ -186,3 +190,143 @@ Alerts in `monitoring/prometheus/rules/financial-news.yml`: `CrawlerSourceBlocke
 ## Evidence / limitations
 
 See `artifacts/phase8-live-smoke.json`, `phase8-live-e2e.json`, `phase8-fixture-e2e.json`, `phase8-acceptance.json` and source profiles. Test HTML uses explicitly synthetic bodies with observed DOM structures; full news content under `data/local` is excluded from Git. One live article/layout per source and tiny economic-listing smoke are not broad production coverage. Browser-only layouts, archive traversal, content licensing, unified serving, long retention and cloud deployment are outside this local verification.
+
+## Phase09 controlled scheduling and unattended evidence
+
+### Upgrade an existing local workspace
+
+With standalone jobs idle, run `make crawler-init` before Phase09 commands. It builds the existing images, applies additive operations migrations and seeds only missing source rows. Migration `0003_continuous_crawling` adds operational skip/block/retry state; it does not change article contracts or add CDC tables. Existing source configuration and persisted lake/frontier data are retained. The target also recreates the exporter, Prometheus and Grafana to load current telemetry assets. Recreate the scheduler/webserver after changing their environment, then inspect `make phase9-config-check` and the parsed DAG before unpausing.
+
+Operational rollback means pausing/disabling scheduling first. SQL downgrade is guarded and can refuse while Phase09-only statuses/history exist; do not delete operational evidence to force it. No downgrade was exercised as part of the local acceptance.
+
+### Runtime policy and manual safety
+
+`control_metadata.news_sources.enabled` remains the source switch. Optional keys added under the existing `config.crawler` object default to:
+
+| Key | Default | Meaning |
+|---|---:|---|
+| `live_enabled` | false | Additional source-level live opt-in; absent also denies live |
+| `request_timeout_seconds` | 20 | HTTP timeout; bounded 1–120 seconds |
+| `http_retries` | 2 | Bounded 0–3 transient retries; existing Retry-After/robots behavior retained |
+| `max_response_bytes` | 5,000,000 | Response bound, at most 5 MB |
+| `publish_max_batches` | 2 | Maximum durable batches replayed per source publish call |
+| `publish_max_attempts` | 5 | Automatic attempt budget; exhausted batches remain visible for review |
+| `publish_retry_base_seconds` | 60 | Initial automatic retry delay |
+| `publish_retry_max_seconds` | 3,600 | Exponential delay cap; up to 10% jitter within the cap |
+| `heartbeat_max_age_seconds` | 7,200 | Local alert threshold; configurable, not a demonstrated SLA |
+
+Existing delay/recheck/recent-window fields remain in the same JSON object. Seed does not overwrite existing operator rows. Migration `0003_continuous_crawling` adds operational skip/block and outbox attempt/eligibility fields, without changing article contracts or CDC publication. New defaults are applied in code to old configuration rows.
+
+Inspect configuration from the actual scheduler environment:
+
+```sh
+make operations-migrate
+make phase9-config-check
+```
+
+Enable a reviewed source explicitly; the reference must identify a real review, not a fabricated approval:
+
+```sh
+docker compose run --rm --no-deps news-pipeline \
+  python3 -m src.crawling.operations policy --source cafef \
+  --live-enabled true --policy-reviewed \
+  --policy-reference 'path-or-URL-of-the-actual-dated-policy-review'
+```
+
+Review/enable each intended source individually. For the initial local cadence, configure the ignored `.env`:
+
+```dotenv
+AIRFLOW_NEWS_CRAWLER_SCHEDULE="*/30 * * * *"
+AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true
+AIRFLOW_NEWS_CRAWLER_LIMIT=1
+```
+
+Recreate scheduler/webserver as in the scheduling procedure above, check import errors and effective config, then unpause. The DAG retains `catchup=False`, one active run and one active task. Its manual defaults remain **fixture=true, allow_live=false even while the schedule is live-enabled**. Only actual Airflow `scheduled` run types use the automatic live switch; manual live still needs explicit conf and source policy.
+
+Source disabled/live-denied/cooldown/block outcomes skip without a fetch. HTTP 401/403, challenge/robots blocks latch in `source_state`; future runs make no source requests until reviewed. Retry-After remains a persisted cooldown. Parser failures are distinct from successful HTTP responses; unavailable optional publication timestamps remain nullable by contract. A source fetch failure does not prevent its `publish` task from trying already accepted batches (`all_done` dependency), subject to current source enablement.
+
+### Pause, isolate and rollback
+
+Pause the DAG first. Disable affected source live policy without deleting any frontier, raw object or pending batch:
+
+```sh
+docker compose exec -T airflow-scheduler airflow dags pause news_crawling_pipeline
+docker compose run --rm --no-deps news-pipeline \
+  python3 -m src.crawling.operations policy --source cafef --live-enabled false
+```
+
+Restore empty schedule and `AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=false` in `.env`, then recreate scheduler/webserver. Pausing does not cancel an already running task; its work remains bounded. Confirm in-flight work settles before backup or restart drills. Do not use destructive reset for scheduler rollback.
+
+After diagnosing a latched block and reviewing current policy, clear only its operational latch. This preserves any Retry-After cooldown and does not enable live policy or bypass robots:
+
+```sh
+docker compose run --rm --no-deps news-pipeline \
+  python3 -m src.crawling.operations clear-block --source cafef --policy-reviewed
+```
+
+### Backlog and recovery
+
+Scheduled/DAG publication honors `next_eligible_at`, attempt budget and batch cap. A held source advisory lock prevents double claim. The next lock holder converts an interrupted `RUNNING` publisher to retryable `FAILED`, preserving Landing/manifest/bytes. Repeated failures use bounded exponential backoff and remain visible when the budget is exhausted. A successful task can mean its bounded eligible pass finished while other batches remain deferred; the returned `status=PENDING` and `pending_batches_remaining` distinguish that case from an empty backlog.
+
+Manual publisher calls are an explicit immediate replay of accepted data, still capped by source `publish_max_batches`; they do not refetch news websites. To honor the automatic eligibility/budget instead, use:
+
+```sh
+docker compose run --rm --user 0 --no-deps news-pipeline \
+  /opt/spark/bin/spark-submit \
+  --packages io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4 \
+  --conf spark.jars.ivy=/opt/news-ivy /app/src/crawling/publish_runner.py \
+  --source cafef --max-batches 1 --respect-retry
+```
+
+Inspect crawler status, pending age and retry exhaustion before a manual override. Repair service/configuration, replay durable batches, then require Phase05 reconciliation. Stage SUCCESS reuse assumes those outputs remain available; this phase does not add distributed transactions, event-time conflict resolution or a general guarantee for process death between every pair of commits. Raw HTML before the frontier/outbox commit remains durable but may need another fetch if that uncommitted crawl is restarted.
+
+### Timestamp, metrics and report semantics
+
+The crawler persists first/last **completed durable HTML Landing writes**, fetch/parse/new/update/unchanged counts and Airflow run context. A completed crawl heartbeat includes policy skips; `last_success_at` remains a successful crawl, not proof of downstream publication. Latest layer timestamps come from successful pipeline stages linked to outbox batches. Latency is first durable Landing → stage finish, not article publication age or user-visible response latency.
+
+The crawler dashboard now includes heartbeat, pending age, layer freshness, measured Landing-to-layer interval, retry exhaustion, live policy and local resource context. New alerts cover parser success ratio (at least five attempts) or repeated empty discoveries (at least three in two hours), exhausted retries, oldest pending age and missing/stale heartbeat for enabled live sources. The two-hour empty-discovery window accommodates the proposed 30-minute cadence; synthetic alert tests cover that cadence and subsequent resolution. Empty listings are a drift suspicion, not proof that a website failed; known URLs with no due article are a separate normal no-new-work case. Block alerts also read the persisted latch so a blocked source is not silently considered recovered after an event window expires. These thresholds are local tunable configuration. Labels stay bounded; no URL/article/run IDs are metric labels. HTTP duration measures a request chain after its initial pacing wait; same-host redirect pacing inside that chain is included. There is no measured HTTP duration for synthetic transport.
+
+The heartbeat alert is armed by `live_enabled` source policy rather than by cron. After a manual live smoke, disable that policy if recurring operation is not intended; otherwise a missing heartbeat is expected to warn after the configured age. Clearing a block latch can leave the recent block-event alert firing until its 15-minute observation window expires.
+
+Generate a closed-window report; timezone offsets are required for explicit timestamps:
+
+```sh
+make phase9-daily-report
+make phase9-daily-report START=2026-10-20T00:00:00+07:00 END=2026-10-21T00:00:00+07:00
+make phase9-daily-report FIXTURE=1
+```
+
+The explicit window must already be closed. Reports under ignored `artifacts/phase9/daily-reports/` separate run cohorts, reconstructed pending-at-end, completion-based latency samples and alert-history observations. Latency samples are per outbox batch/stage, deduplicated across successful attempts; they are not a per-article latency distribution. p50 requires a measured sample; p95 stays N/A below 20 samples. Historical rows lacking Landing timestamps remain N/A. No mean article-arrival rate, throughput SLA or RAG-quality claim is inferred from these reports.
+
+Alert-history coverage reports the number of query steps with Prometheus self-scrape data. An empty alert list with missing history remains unknown; even complete query-step availability does not prove uninterrupted raw scrapes or service uptime. Fixture reports aggregate all selected fixture namespaces and are not counts of the live business corpus.
+
+`python3 -m src.crawling.operations storage` measures selected source prefixes through bounded S3 listing and PostgreSQL relation sizes. It is periodic administration, not an expensive Prometheus scrape. Truncated listings are explicitly lower bounds; same-host Bronze includes historical snapshots/fixtures. CPU/memory/disk are shared-workstation observations. Set `PHASE9_PROMETHEUS_URL` for a nondefault host Prometheus endpoint.
+
+### Functional acceptance and controlled drills
+
+```sh
+make phase9-acceptance
+python3 tools/phase9_recovery.py
+python3 tools/phase9_scheduler_smoke.py
+```
+
+Acceptance is offline for news websites; it uses real local services. The restart drill writes only fixture serving, injects a test endpoint failure, restarts the scheduler and verifies durable resume/reconciliation without another crawl. The scheduler safety drill temporarily uses a two-minute cron **only when every source live policy is disabled**, observes at least two actual scheduled cycles/skips, then pauses immediately and verifies that all queued/running cycles have settled before restoring the original manual environment. It checks history again after rollback, so an extra failed cycle cannot be hidden by the first two successes. It is not a live burn-in. Run drills with other source jobs idle; they intentionally restart the local scheduler. Neither command deletes live lake/frontier data.
+
+### Real 24h → 72h burn-in
+
+Before activation, pass functional acceptance, perform the bounded live-policy/access checks, confirm health/resources and record an actual backup/recovery reference. A consistent backup procedure must quiesce scheduler **and standalone writers**, preserve PostgreSQL control/operations/frontier/outbox together with Landing/Bronze/Delta/Gold, and verify restore into isolated destinations before relying on it. Database-only backup or a copy missing Delta logs is insufficient. Backup/restore completion is not implied by this runbook or by passing fixture tests.
+
+After configuring reviewed source policies and the chosen cadence, start evidence collection explicitly:
+
+```sh
+python3 tools/phase9.py burnin-start --hours 24 --live-opt-in \
+  --backup-reference path/to/actual-backup-or-reviewed-recovery-reference \
+  --sources cafef vnexpress tuoitre thanhnien baomoi
+# Use the session path printed by the previous command:
+python3 tools/phase9.py watch --session artifacts/phase9/burnin-<actual-session>.json
+make phase9-burnin-report SESSION=artifacts/phase9/burnin-<actual-session>.json
+```
+
+Keep the collector in a supervised terminal/session on the awake workstation. The collector does not schedule crawls; Airflow does. It samples telemetry/storage/resources every five minutes, records boot ID and monotonic time, and pauses the DAG on stop/error/completion. A block/rate-limit, reconciliation failure, unavailable critical target, less than 2 GiB disk free or less than 128 MiB available memory causes a conservative local hard stop; these floors are operational safeguards, not capacity results. Preserve evidence and review incidents before resuming. SIGKILL/power loss cannot run cleanup; pause the DAG immediately on recovery and treat the interrupted window as incomplete.
+
+The report requires full real elapsed time, coverage without large gaps, stable boot identity, actual scheduled run evidence, live success, and reviewed backlog/failures. A fixture, an edited start date or a short test does not satisfy it. The automatic go/no-go is conservative: unresolved failures keep it from PASS. Only after a genuine 24h PASS and review, unpause for the next window and run `burnin-start --hours 72 --previous-24h-report <actual-pass-report>` with the same explicit prerequisites. Seven days is optional. `make phase9-burnin-report` without a real session returns PENDING.
