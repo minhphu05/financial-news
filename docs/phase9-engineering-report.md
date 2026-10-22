@@ -159,3 +159,13 @@ Ruff check **24 Python files PASS**, exit **0**; format check **21 files PASS**,
 Các runtime artifact Phase05/08 vốn đã track và bytecode bị tests cập nhật đã được copy vào `artifacts/phase9/regression-evidence/<original-path>`, rồi trả đúng bytes của HEAD. Chỉ khôi phục các file ban đầu sạch và do quá trình kiểm thử tạo thay đổi; không khôi phục code/tài liệu đang triển khai hoặc specification của người dùng. Manifest: `runtime-artifact-restoration.json`. Evidence mới vẫn còn đầy đủ trong ignored `artifacts/phase9/`; không có Git commit/push, cloud resource hoặc history rewrite.
 
 **Phần còn lại:** review access/policy nguồn hiện tại; xác định và kiểm chứng backup/restore; B1 controlled live cycles; B2 24h thật; đánh giá incidents/resource growth/ngưỡng; rồi B3 72h thật. Actual burn-in start/end và live volume của các window này đều **N/A — NOT STARTED**. CP0–CP2 đạt phạm vi functional; CP3–CP4 và phase-level CP5 close-out còn **PENDING**. Historical security workstream giữ cloud verdict **NOT READY FOR CLOUD MIGRATION**.
+
+## Đồng bộ tài liệu sau merge — 22/10/2026
+
+Lượt rà soát tài liệu bắt đầu tại `8bd1f7e`; branch/base ở đầu báo cáo mô tả
+phiên implementation gốc. README, architecture/operations, demo, các tài liệu
+release/cloud và bộ báo cáo luận văn đã được đối chiếu với source Phase09.
+Danh sách claim được sửa và kiểm tra nằm trong
+[báo cáo rà soát tài liệu](phase9-documentation-review.md). Không thực thi lại
+acceptance, bật lịch hoặc crawl website ở lượt này; không tạo kết quả performance
+mới. Functional/burn-in/security verdict và failure provenance ở trên giữ nguyên.

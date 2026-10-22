@@ -58,8 +58,39 @@ holds URL frontier, hashes, cooldown and durable pending batches; it is excluded
 from metadata CDC. Airflow schedules bounded `crawl -> publish` source jobs.\
 **Consequence:** unchanged observations do not create downstream batches; failed
 publication resumes without another fetch. Gold Analytics remains full refresh.
-The default-manual DAG has live scheduling opt-in and one article per source per
-run, which is not complete daily coverage. Cloud migration must preserve Landing
+The default-manual DAG has live scheduling opt-in and a default of one article
+per source per run; Phase09 makes the recurring limit configurable within source
+policy bounds. Neither setting guarantees complete daily coverage. Cloud migration must preserve Landing
 and crawler state along with the medallion hierarchy; Qdrant/DuckDB remain
 rebuildable. See [crawler operations](crawler-operations.md) and
 [migration manifest](cloud-migration-manifest.md).
+
+## ADR-009 — Separate scheduling, source policy and operational evidence
+
+**Decision (Phase09, 2026-10-22):** parse the DAG schedule/global opt-in from
+environment; read each source's enabled/live/HTTP/replay policy at task start.
+Manual runs default to fixtures. Effective crawl capacity is the minimum of the
+requested limit and source cap. Publisher tasks use `all_done` to attempt durable
+backlog after a fetch failure, while preserving source policy, due time and
+retry budget. Automatic publication has a bounded batch cap; a source advisory
+lock protects claim/reclaim of interrupted attempts. Manual replay is a bounded
+operator override, with `--respect-retry` available.
+
+**Reason:** a cron expression alone cannot govern source access or downstream
+recovery. Persisted skip/block/attempt state supports diagnosis and replay
+without a new website fetch. Separate heartbeat, Landing and layer timestamps
+avoid treating a skipped/successful crawl as proof of fresh serving data.
+
+**Consequence/trade-off:** conservative caps and serial execution limit throughput;
+metadata changes can reduce work below the requested batch size. The design
+does not provide distributed request budgets or a transaction across all stores.
+Source review records and backup references require operator verification.
+Real-time burn-in evidence must include actual elapsed time, scheduler/live
+history, sample gaps and resources; synthetic tests only validate gate logic.
+Functional verification passed, but B1 live and real 24h/72h remain pending.
+
+**Implementation:** `airflow/dags/news_crawling_pipeline.py`,
+`src/crawling/{airflow_jobs,policy,jobs,state,reporting,burnin}.py`,
+`operations/migrations/0003_continuous_crawling.up.sql` and
+`src/monitoring/crawler_metrics.py`. See [runbook](crawler-operations.md) and
+[Phase09 engineering report](phase9-engineering-report.md).

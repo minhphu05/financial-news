@@ -2,7 +2,8 @@
 
 This is a planning manifest. No migration or cloud connection has run.
 
-Updated on 2026-10-03 for Phase08 local crawling. Cloud migration is a later
+Reviewed on 2026-10-22 for Phase09 runtime policies and persisted retry state.
+B1 live and real 24h/72h burn-in remain pending. Cloud migration is a later
 separately approved activity. Do not infer cloud readiness from local acceptance;
 the historical credential release gate remains `NOT READY`.
 
@@ -64,11 +65,13 @@ unpause only after explicit cutover approval.\
 **Data:** all three schemas, migration history, checkpoints/run records as
 approved. Crawler state includes `source_state`, `crawl_runs`, `frontier`,
 `crawl_attempts`, `batches` and five `crawler:*` source configuration rows. Preserve
-URL primary keys, hashes, eligibility/cooldown timestamps and manifest/run links.\
+URL primary keys, hashes, eligibility/cooldown timestamps, source block latch,
+outbox attempts/last-attempt/due timestamps, reviewed live policies and manifest/run links.\
 **Configuration:** host/port/database/user/TLS/password or workload identity,
 WAL/slot retention.  
 **Code impact:** none expected behind current settings/repository boundary.  
-**Validation:** migrations (including `0002_crawler_operations`), constraints,
+**Validation:** migrations (including `0002_crawler_operations` and additive
+`0003_continuous_crawling`), constraints,
 row counts, checkpoints, unchanged/changed URL handling and pending-batch replay.
 Inspect publication membership and logical slot health: crawler/pipeline operations
 remain excluded from metadata CDC.\

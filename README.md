@@ -114,7 +114,7 @@ flowchart TB
         BR --> SI[Delta Silver<br/>Spark MERGE]
         SI --> ENR[Enrichment hook]
         ENR --> GR[Gold RAG<br/>documents + chunks]
-        ENR --> GA[Gold Analytics]
+        SI --> GA[Gold Analytics]
         GR --> QD[(Qdrant)]
         GA --> DU[(DuckDB)]
     end
@@ -512,8 +512,10 @@ make monitoring-test
 ```
 
 Mở Prometheus tại <http://localhost:9090> và Grafana tại
-<http://localhost:3000>. Sáu dashboard được provision tự động cho overview,
-pipeline operations, data quality, freshness, metadata CDC và tài nguyên local.
+<http://localhost:3000>. Repository provision bảy dashboard cho overview,
+pipeline operations, data quality, freshness, metadata CDC, tài nguyên local và
+crawler. Cấu hình sau Phase09 có **19 alert rules**; dashboard lưu thêm trong
+volume Grafana không làm thay đổi số dashboard do repository provision.
 
 Chạy acceptance có failure injection Qdrant, Debezium và data quality:
 
@@ -651,7 +653,7 @@ Không hardcode `localhost` trong logic chạy container. Service trong Docker n
 │   ├── news_pipeline/          # Bronze, Silver, Gold, serving, hardened runner
 │   ├── pipeline_operations/    # Run/stage/checkpoint/lock repository
 │   ├── metadata_control/       # PostgreSQL/Debezium/Kafka control plane
-│   ├── monitoring/             # Read-only Phase 07/08 metrics exporter
+│   ├── monitoring/             # Read-only pipeline/crawler metrics, through Phase09
 │   ├── model/                  # ViFinNER research
 │   ├── scraper/                # Legacy crawler; không dùng trong medallion pipeline
 │   ├── rag/                    # RAG/API modules có từ trước
@@ -721,10 +723,19 @@ Baseline đo được trên máy local nằm tại
 [docs/local-monitoring-baseline.md](docs/local-monitoring-baseline.md).
 
 Phase 08 đã kiểm chứng thêm 5 bài crawl thật đi hết pipeline, tổng 39
-chunks/Qdrant points và reconciliation PASS cho từng nguồn. Cấu hình monitoring
-hiện có **7 dashboards / 15 alert rules**, gồm dashboard crawler và 3 alerts mới.
+chunks/Qdrant points và reconciliation PASS cho từng nguồn. Tại checkpoint
+Phase08, monitoring có **7 dashboards / 15 alert rules**.
 Bằng chứng: [artifacts/phase8-live-e2e.json](artifacts/phase8-live-e2e.json) và
 [artifacts/phase8-acceptance.json](artifacts/phase8-acceptance.json).
+
+Checkpoint Phase09 ngày 22/10/2026 có functional verification PASS: tám checkpoint
+giữ từ full-run và scheduling drill được chạy lại sau sửa rollback, từng checkpoint
+exit 0. Các suite gồm 54 policy/report/burn-in/crawler tests, 10 metrics tests,
+regression Phase05/07/08 và restart/replay/reconciliation. Hai scheduled cycles
+với source live policies tắt giữ SUCCESS sau rollback, không queued/running run.
+Đây chưa phải B1 live hoặc burn-in 24h/72h; các gates đó vẫn **PENDING**.
+Monitoring hiện hành là **7 dashboards / 19 alert rules**. Chi tiết và provenance:
+[Phase09 report](docs/phase9-engineering-report.md).
 
 ## Dừng và dọn môi trường
 
@@ -807,7 +818,7 @@ Override cổng trong `.env`, ví dụ `AIRFLOW_WEB_PORT`, `NEWS_MINIO_PORT`, `M
 - ViFinNER enrichment có interface nhưng chưa bị buộc vào pipeline runtime.
 - cAdvisor trên Docker/cgroup-v2 của máy baseline không cung cấp Compose
   container-name label ổn định; resource dashboard hiện dùng host metrics.
-- Ngưỡng alert Phase 07 là default cho local development, chưa phải production SLA.
+- Ngưỡng alert qua Phase09 là cấu hình local; chưa có burn-in để hiệu chỉnh thành SLO/SLA.
 - ADLS byte adapter, Hadoop ABFS runtime và workload identity được hoãn sang một giai đoạn cloud được phê duyệt riêng; Phase 08 hiện là crawling local.
 - `.env` cũ vẫn tồn tại trong lịch sử Git. Cần revoke/rotate các credential liên
   quan và quyết định history rewrite hoặc tạo lịch sử sạch trước cloud migration.
@@ -837,6 +848,9 @@ Các tài liệu chính:
 16. [docs/crawler-operations.md](docs/crawler-operations.md) — crawler 5 nguồn, schedule hằng ngày, incremental và recovery.
 17. [docs/crawling-architecture.md](docs/crawling-architecture.md) — tích hợp crawler vào Phase 01–07 và state cần giữ khi migration.
 18. [docs/news-sources.md](docs/news-sources.md) — 5 nguồn/chuyên mục, cơ chế crawl, selectors và bằng chứng live/fixture.
+19. [docs/phase9-engineering-report.md](docs/phase9-engineering-report.md) — vận hành local, kiểm chứng chức năng và burn-in còn pending.
+20. [docs/demo-guide-vi.md](docs/demo-guide-vi.md) — kịch bản demo hiện hành và phạm vi từng loại evidence.
+21. [docs/phase9-documentation-review.md](docs/phase9-documentation-review.md) — các tài liệu được đồng bộ sau Phase09 và kết quả kiểm tra tính nhất quán.
 
 Xem toàn bộ command đang hỗ trợ:
 
@@ -851,7 +865,8 @@ Five verified public HTTP source parsers feed source-specific Landing envelopes 
 ```sh
 make crawler-init
 make phase8-acceptance        # offline website fixtures; real local services
-make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1  # explicit tiny live smoke
+# Chỉ chạy live-smoke sau khi review và bật live policy từng nguồn theo runbook.
+make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1
 make crawler-publish CRAWLER_SOURCE=all
 make crawler-status
 ```
@@ -862,9 +877,14 @@ Start with [crawler operations](docs/crawler-operations.md), [architecture](docs
 
 Ví dụ cấu hình cho 06:00 giờ Việt Nam trong `.env` (chưa bật sẵn):
 
+Trước đó phải bật `config.crawler.live_enabled` cho từng nguồn đã review bằng
+policy command trong [runbook](docs/crawler-operations.md#runtime-policy-and-manual-safety).
+Cron và global live switch không tự bật source policy.
+
 ```dotenv
 AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"
 AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true
+AIRFLOW_NEWS_CRAWLER_LIMIT=1
 ```
 
 ```sh
@@ -873,7 +893,11 @@ docker compose exec -T airflow-scheduler airflow dags list-import-errors
 docker compose exec -T airflow-scheduler airflow dags unpause news_crawling_pipeline
 ```
 
-DAG dùng `Asia/Ho_Chi_Minh`, `catchup=False`, mặc định **1 bài/nguồn/lần chạy**. Tham số của một manual run không thay đổi default của những scheduled run sau; `max_articles` trong metadata không ghi đè giới hạn Airflow truyền vào.
+DAG dùng `Asia/Ho_Chi_Minh`, `catchup=False`, mặc định **1 bài/nguồn/lần chạy**.
+`AIRFLOW_NEWS_CRAWLER_LIMIT` đặt default khi parse DAG; runtime còn bị cap bởi
+`max_articles` của source. Manual defaults luôn `fixture_mode=true`,
+`allow_live=false`, kể cả khi bật lịch live. Conf của một manual run không đổi
+default của các scheduled run sau.
 
 Incremental dựa trên frontier/hash PostgreSQL: URL mới được xử lý, bài đã biết được kiểm tra lại khi đủ điều kiện, observation không đổi không tạo batch mới, batch downstream lỗi có thể publish lại mà không crawl lại. Gold Analytics vẫn full refresh. Discovery hiện chỉ dùng listing đã cấu hình; không đảm bảo thu đủ mọi bài xuất bản trong ngày.
 

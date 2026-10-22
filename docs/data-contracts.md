@@ -1,5 +1,16 @@
 # Data Contracts
 
+Scope note, reviewed 2026-10-22: sections 1–4 are the dated file-profile snapshot,
+and sections 5–10 retain the original contract proposal. Actual implemented
+Silver/Gold fields are defined by `src/news_pipeline/silver.py`, `gold_rag.py`
+and `analytics.py`; see [local architecture](local-architecture.md). The current
+crawler supports five source adapters, documented in the
+[mapping matrix](source-mapping-matrix.md), without expanding the canonical
+contract to every parsed field. Phase09 migration `0003_continuous_crawling`
+adds operational skip/block/retry state only. Crawl/Landing/layer timestamps
+have distinct meanings; see [report semantics](crawler-operations.md#timestamp-metrics-and-report-semantics).
+This review does not regenerate source counts or claim a new schema version.
+
 <!-- BEGIN GENERATED OBSERVED DATA -->
 
 ## 1. Data Sources Currently Available

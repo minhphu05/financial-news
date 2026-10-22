@@ -4,6 +4,13 @@
 `src/crawling`, dữ liệu mẫu có sẵn và kết quả live smoke đã ghi nhận. Đây không
 phải báo cáo crawl mới hoặc cam kết thu thập đầy đủ mọi bài của các website.
 
+Ghi chú vận hành cập nhật 22/10/2026: các quan sát website và số lượng bên dưới
+giữ ngày kiểm chứng gốc, không phải một lượt crawl mới. Sau Phase09, live cần
+opt-in và runtime policy `enabled/live_enabled` theo từng nguồn; manual mặc định
+fixture. Giới hạn mỗi lượt còn chịu source cap. Functional verification đã PASS;
+B1 live và burn-in 24h/72h còn PENDING. Xem [runbook hiện hành](crawler-operations.md)
+và [Phase09 report](phase9-engineering-report.md).
+
 ## 1. Danh sách nguồn đến từ đâu?
 
 Yêu cầu Phase08 xác định 5 nguồn: **CafeF, VnExpress, Báo Mới, Tuổi Trẻ và

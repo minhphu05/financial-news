@@ -1,6 +1,7 @@
 # Current implementation status
 
-Latest work checkpoint: **2026-10-22**, Phase09 on `feat/Phase-9`, base `583a382`.
+Latest implementation checkpoint: **2026-10-22**, Phase09 developed on `feat/Phase-9`, base `583a382`.
+Documentation review on 2026-10-22 started at `8bd1f7e` after the repository workflow merged Phase09; the branch/base above describe the implementation run, not the current checkout.
 Functional verification is **PASS** (eight full-run checks plus a corrected scheduling recheck, all exit 0); real 24h/72h burn-in is **PENDING**, so Phase09 is not DONE. See the Phase09 section/report below.
 Phase01–08 checkpoint details retain their original dates, including the 2026-10-03 Phase08 verification based on `e300b09`; those changes were subsequently committed/merged by the repository workflow. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git commit, or push was created during the Phase09 work.
 
@@ -47,9 +48,8 @@ Existing dated news data
   -> MinIO Bronze (immutable bytes + manifest)
   -> Spark cleaning/validation/deduplication
   -> Delta Silver
-  -> enrichment hook
-  -> Gold RAG documents/chunks -> Qdrant
-  -> Gold Analytics           -> DuckDB
+       -> no-op enrichment -> Gold RAG documents/chunks -> Qdrant
+       -> Gold Analytics Parquet + manifest             -> DuckDB
 
 Airflow -> standalone job commands
 
@@ -527,3 +527,20 @@ Canonical contracts, transformations/enrichment, Gold-derived serving and metada
 **B0 functional: PASS. B1 controlled live cycles: PENDING. B2 24h: PENDING. B3 72h: PENDING. Overall Phase09: not DONE.** No real-duration collector session was started; actual burn-in start/end are N/A. Historical credential audit continues to block cloud readiness. Complete current policy/access review, backup/recovery verification and the runbook prerequisites before starting live collection. Passing a fixture algorithm test is not time-based evidence.
 
 Implementation, failures/retries, acceptance matrix and limitations: [Phase09 engineering report](../phase9-engineering-report.md). Operator enable/pause/replay/report/rollback and real-duration collection: [crawler runbook](../crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence). The earlier Phase01–08 sections are dated history, not a claim that their original verification dates/counts were updated by this phase.
+
+### Post-Phase09 documentation consistency — 2026-10-22
+
+Reviewed the merged Phase09 source/evidence and synchronized README/navigation,
+architecture/operations, demo/presentation, release/cloud planning and thesis
+artifacts. Added ADR-009 and a
+[documentation review](../phase9-documentation-review.md) with the affected claims
+and verification scope. Corrected Analytics to read Silver directly and labeled
+the NoOp enrichment/events boundary. Historical Phase06–08 results retain their
+dates and measurements; Phase09 functional PASS does not complete B1/24h/72h.
+
+Documentation checks cover local links/headings, balanced Markdown fences,
+dashboard/rule/DAG inventory and thesis structure/evidence. The read-only
+data-contract drift check passed without changes; the generated observed block
+is byte-identical to HEAD. No runtime tests, services, schedules, source code or
+configuration were changed. `docs/thesis/` and `docs/present-demo/` remain ignored
+by existing Git rules; their local updates are documented in the review.

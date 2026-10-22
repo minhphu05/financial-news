@@ -3,6 +3,12 @@
 The boxes below are release gates. Evidence is regenerated with
 `make phase6-acceptance`; volatile JSON reports are ignored by Git.
 
+These checked boxes retain the recorded `local-rc1` verification scope; they are
+not a fresh Phase09 full release run. Phase09 functional verification and the
+remaining live B1/24h/72h gates are tracked in the
+[Phase09 report](phase9-engineering-report.md). Its functional PASS does not
+check the historical-credential remediation box or establish cloud readiness.
+
 ## Configuration and security
 
 - [x] Local, test, and future-cloud templates parse and validate.

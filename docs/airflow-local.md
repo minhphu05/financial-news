@@ -224,14 +224,21 @@ reuses the existing Phase05 runner and reconciles the source's outputs. No
 parsing/transformation logic or per-article tasks are placed in the DAG, and it
 does not trigger the dated-file `news_incremental_pipeline`.
 
-Default settings are `schedule=None`, fixture mode, `catchup=False`, one active
-run/task and `limit=1` per source. For a daily live schedule, the operator must
-set both `AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"` and
-`AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true`, recreate scheduler/webserver,
-check imports and unpause the DAG. Its timezone is `Asia/Ho_Chi_Minh`.
-Manual trigger conf affects that run only; the metadata batch limit does not
-override the explicit Airflow limit. Scheduled capacity changes require an
-explicit default-parameter change and verification with the current code.
+Default settings are `schedule=None`, `fixture_mode=true`, `allow_live=false`,
+`catchup=False`, one active run/task and `limit=1` per source. These manual
+defaults stay fixture-safe when automatic live scheduling is enabled. Actual
+scheduled runs use the parsed global live switch, then check source runtime
+`enabled/live_enabled` policy before HTTP. A reviewed source policy is required
+in addition to `AIRFLOW_NEWS_CRAWLER_SCHEDULE="0 6 * * *"` and
+`AIRFLOW_CRAWLER_ALLOW_SCHEDULED_LIVE=true`. Recreate scheduler/webserver,
+check imports and unpause only after configuring those gates. Timezone is
+`Asia/Ho_Chi_Minh`.
+
+`AIRFLOW_NEWS_CRAWLER_LIMIT` sets the parsed default (1–20); effective runtime
+limit is further capped by the source's `max_articles`. Manual conf affects only
+that run. `publish` uses `all_done` so accepted batches can be attempted after a
+fetch failure, while source policy and automatic retry eligibility/budget still
+apply. Airflow retries do not replace application outbox state/backoff.
 
 Persistent PostgreSQL frontier/hash/outbox state governs incremental work, not
 the DAG's data interval. No complete daily or archive coverage has been proved.
@@ -240,3 +247,9 @@ for exact commands, current limits, disabling the schedule and replaying pending
 batches. The Phase03 evidence/limits above describe the original snapshot DAGs;
 Phase08 fixture scheduler and tiny live evidence are recorded separately in
 [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md).
+
+Phase09 functional evidence includes two real scheduled cycles with all source
+live policies denied and no HTTP. The corrected safety drill pauses, verifies
+queued/running work has settled, restores configuration and checks history again.
+It does not prove live B1 or 24h/72h burn-in. See the [Phase09 report](phase9-engineering-report.md)
+and [current runbook](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence).

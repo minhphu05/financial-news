@@ -1,12 +1,42 @@
 # Hướng dẫn kiến trúc và demo nền tảng dữ liệu tin tức tài chính
 
-Tài liệu này mô tả đúng trạng thái repository sau Phase 07. Phạm vi hiện tại là xử lý dữ liệu tin tức đã có sẵn; crawler, giao diện người dùng, LLM, triển khai Azure và Kubernetes chưa thuộc đường demo này.
+Cập nhật tài liệu **22/10/2026**, sau triển khai chức năng Phase09. Demo hiện có hai đầu vào: snapshot CafeF và crawler năm nguồn (fixture hoặc live opt-in), cùng đi qua pipeline local đến Qdrant/DuckDB. Functional verification Phase09 PASS theo full-run cộng focused scheduling recheck; B1 live và burn-in 24h/72h còn **PENDING**. API/frontend/chatbot đời trước, NER runtime và cloud chưa thuộc đường acceptance này.
+
+Đọc [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md) và [Phase09 report](phase9-engineering-report.md) để lấy phạm vi bằng chứng mới nhất. [Crawler runbook](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) là nguồn hướng dẫn policy/scheduling/recovery hiện hành. Các counts snapshot, retrieval smoke và live Phase08 bên dưới giữ mốc đo gốc; lượt cập nhật tài liệu này không chạy lại chúng.
+
+## Bắt đầu demo sau Phase09
+
+Với `.env` đã cấu hình, chuẩn bị trước buổi trình bày:
+
+```sh
+make bootstrap
+make monitoring-up
+make crawler-init
+make phase9-config-check
+make crawler-demo
+make crawler-airflow-smoke
+make phase9-daily-report FIXTURE=1
+```
+
+Fixture dùng nội dung tổng hợp, nhưng Spark/Delta/MinIO/FastEmbed/Qdrant/DuckDB chạy thật. Các job Spark nên chạy chuẩn bị trước; trong buổi demo mở artifact, MinIO, Airflow, truy vấn và dashboard. Không dùng acceptance dài làm demo ngắn.
+
+| Nội dung demo | Entry point / chỗ quan sát | Phạm vi chứng minh |
+|---|---|---|
+| Pipeline từ dữ liệu có sẵn | `make e2e-local`, Demo A | Fixture release cô lập, correctness và rebuild; provider deterministic của release không đánh giá mô hình |
+| Crawler năm nguồn | `make crawler-demo`, mục Demo Phase08 cuối tài liệu | Parser/adapter, Landing, changed/unchanged và outbox; website transport tổng hợp |
+| Điều phối crawler | `make crawler-airflow-smoke`, Airflow `news_crawling_pipeline` | Manual fixture, năm nhóm/10 tasks, không HTTP website |
+| Retrieval/SQL | Demo C/D | Semantic top-k và ba view DuckDB trên dataset/collection đã chọn |
+| CDC/monitoring | Demo E, Grafana/Prometheus | Hai bảng metadata; bảy dashboard provisioned/19 rules |
+| Vận hành Phase09 | `make phase9-config-check`, `make phase9-daily-report FIXTURE=1` | Policy, báo cáo cửa sổ đóng, freshness/backlog; không thay burn-in thật |
+| Drill nâng cao, ngoài demo ngắn | `python3 tools/phase9_recovery.py`, `python3 tools/phase9_scheduler_smoke.py` | Restart/replay; tối thiểu hai scheduled cycles bị source policy deny, pause/settle/restore/history check |
+
+Drills có restart scheduler, chỉ chạy khi các job khác đã nghỉ và theo runbook. Scheduling safety proof không phải B1 live. Semantic search mặc định dùng collection snapshot CafeF; crawler có collection/DuckDB riêng theo nguồn, chưa có serving facade hợp nhất.
 
 > **Nguyên tắc khi demo:** Bronze, Silver và Gold là các lớp dữ liệu bền vững. Qdrant và DuckDB là hệ phục vụ dẫn xuất, có thể dựng lại từ Gold. Kafka ở Phase 04 chỉ truyền thay đổi metadata điều khiển; nội dung bài báo và chunk không đi qua Kafka.
 
 # 1. Tổng quan hệ thống hiện tại
 
-## Trạng thái qua Phase 07
+## Các khả năng local đã có qua Phase09
 
 Repository đã có một lát cắt dọc chạy cục bộ gồm:
 
@@ -16,11 +46,13 @@ Repository đã có một lát cắt dọc chạy cục bộ gồm:
 - gọi enrichment hook độc lập với mô hình ViFinNER; hook hiện là passthrough nên không chặn pipeline;
 - chia đoạn, tạo embedding bằng FastEmbed và lập chỉ mục Gold RAG vào Qdrant;
 - tạo ba bộ tổng hợp Gold Analytics dạng Parquet và phát hành vào DuckDB;
-- điều phối các job độc lập bằng Airflow;
+- điều phối các job độc lập bằng bốn DAG Airflow;
 - lưu metadata điều khiển và metadata vận hành trong PostgreSQL;
 - phát CDC của hai bảng metadata qua WAL, Debezium/Kafka Connect và Kafka;
 - xử lý incremental, backfill, reprocess, resume, checkpoint, khóa partition, đối soát và idempotency;
-- thu thập metrics bằng Prometheus, hiển thị sáu dashboard Grafana và đánh giá 12 luật cảnh báo.
+- thu thập metrics bằng Prometheus, provision bảy dashboard Grafana và đánh giá 19 luật cảnh báo;
+- policy live từng nguồn, block latch/cooldown, replay có cap/backoff/budget và báo cáo ngày;
+- recorder/gate cho burn-in thật; chưa có kết quả 24h/72h để công bố.
 
 Dữ liệu CafeF đầy đủ đã được kiểm chứng trong các artifact trước đó gồm 15.457 bản ghi nguồn, 12.673 bài Silver hợp lệ, 25 reject, 2.759 bản trùng, 15.431 mention, 12.673 Gold document và 66.260 chunk. Lát cắt acceptance cô lập của Phase 06 có 3 bài Silver, 3 Gold document, 3 chunk, 3 điểm Qdrant và 3 bài được đối soát trong DuckDB.
 
@@ -30,7 +62,7 @@ Dữ liệu CafeF đầy đủ đã được kiểm chứng trong các artifact 
 - **PySpark + Delta Lake:** thực thi biến đổi nặng; Spark chạy cục bộ với `local[2]`, Delta Spark 3.2.1 trên Spark 3.5.3.
 - **Bronze:** giữ nguyên byte nguồn theo SHA-256, kèm manifest và tham chiếu partition logic.
 - **Silver:** chuẩn hóa HTML/text, Unicode NFC, khoảng trắng, thời gian, metadata, URL; sinh `article_id`, `content_hash`; tách reject và loại trùng.
-- **Enrichment hook:** điểm nối cho entities, mã cổ phiếu và sự kiện tài chính. Hiện chưa chạy ViFinNER thật.
+- **Enrichment hook:** interface `ArticleEnricher`; runtime `NoOpEnricher` trả `entities=null`, status `unavailable`. Mã cổ phiếu hiện lấy từ associations của nguồn; typed financial events và tích hợp ViFinNER là hướng phát triển.
 - **Gold RAG:** document/chunk Delta có ID ổn định; embedding đa ngôn ngữ 384 chiều.
 - **Qdrant:** chỉ mục tìm kiếm ngữ nghĩa dẫn xuất, collection mặc định `news_chunks_local_v1`.
 - **Gold Analytics:** ba bộ Parquet tổng hợp được commit bằng manifest.
@@ -38,7 +70,7 @@ Dữ liệu CafeF đầy đủ đã được kiểm chứng trong các artifact 
 
 ## Orchestration Plane
 
-Airflow 2.11.2 điều phối ba DAG. DAG chỉ gọi các entrypoint CLI/Python/Spark đã chạy độc lập; logic biến đổi không nằm trong DAG. Silver DAG kích hoạt Gold DAG và chờ Gold hoàn tất. DAG incremental là adapter mỏng cho runner Phase 05.
+Airflow 2.11.2 điều phối bốn DAG: Silver, Gold, incremental và crawling. DAG chỉ gọi các entrypoint CLI/Python/Spark đã chạy độc lập; logic biến đổi không nằm trong DAG. Silver DAG kích hoạt Gold DAG và chờ Gold hoàn tất. DAG incremental là adapter mỏng cho runner Phase 05.
 
 ## Control Plane
 
@@ -50,7 +82,7 @@ Schema PostgreSQL `pipeline_operations` lưu run, từng lần chạy stage, che
 
 ## Observability Plane
 
-Exporter của dự án đọc metadata vận hành ở chế độ read-only. Các exporter PostgreSQL, Kafka, Airflow StatsD, MinIO, Qdrant, node exporter và cAdvisor đưa metrics vào Prometheus. Grafana được provision từ file trong repository. Prometheus giữ dữ liệu 7 ngày theo cấu hình mặc định và nạp 12 luật cảnh báo.
+Exporter của dự án đọc metadata vận hành ở chế độ read-only. Các exporter PostgreSQL, Kafka, Airflow StatsD, MinIO, Qdrant, node exporter và cAdvisor đưa metrics vào Prometheus. Grafana được provision từ file trong repository. Prometheus giữ dữ liệu bảy ngày theo cấu hình mặc định và nạp 19 luật cảnh báo. Phase07 từng kiểm chứng sáu dashboard/12 rules; đó là baseline lịch sử.
 
 # 2. Sơ đồ luồng dữ liệu hiện tại
 
@@ -59,11 +91,13 @@ Exporter của dự án đọc metadata vận hành ở chế độ read-only. C
 ```mermaid
 flowchart LR
     A[File JSON CafeF có sẵn] --> B[Bronze bất biến trên MinIO]
+    WEB[Năm nguồn HTTP] --> LAND[Landing và source adapter]
+    LAND --> B
     B --> C[PySpark: kiểm tra, làm sạch, chuẩn hóa, loại trùng]
     C --> D[Delta Silver]
     D --> E[Enrichment hook]
     E --> F[Delta Gold RAG documents và chunks]
-    E --> G[Gold Analytics Parquet]
+    D --> G[Gold Analytics Parquet]
     F --> H[FastEmbed]
     H --> I[Qdrant]
     G --> J[DuckDB]
@@ -151,7 +185,7 @@ flowchart LR
     NE[node-exporter] --> P
     CA[cAdvisor] --> P
     P --> G[Grafana]
-    P --> R[12 luật cảnh báo]
+    P --> R[19 luật cảnh báo]
 ```
 
 # 3. Danh mục service
@@ -174,7 +208,7 @@ flowchart LR
 | Kafka exporter | `kafka-exporter` | Topic offset và consumer lag | 9308 | `http://localhost:9308/metrics` | Prometheus target | Có cho monitoring |
 | Airflow StatsD exporter | `airflow-statsd-exporter` | Chuyển Airflow StatsD sang Prometheus | 9102 | `http://localhost:9102/metrics` | Prometheus target | Có cho monitoring |
 | Prometheus | `prometheus` | Lưu/query metrics và đánh giá alert | 9090 | `http://localhost:9090` | `promtool check healthy` | Có |
-| Grafana | `grafana` | Sáu dashboard được provision | 3000 | `http://localhost:3000` | `/api/health` | Có |
+| Grafana | `grafana` | Bảy dashboard được provision | 3000 | `http://localhost:3000` | `/api/health` | Có |
 | cAdvisor | `cadvisor` | Metrics cgroup/container | 8080 | `http://localhost:8080` | Prometheus target | Có cho dashboard tài nguyên |
 | Node exporter | `node-exporter` | CPU, RAM, network, filesystem host | 9100 | `http://localhost:9100/metrics` | Prometheus target | Có cho dashboard tài nguyên |
 
@@ -221,6 +255,7 @@ Không commit `.env`. Không dùng credential cloud trong môi trường demo.
 ```bash
 make bootstrap
 make monitoring-up
+make crawler-init
 make monitoring-health
 ```
 
@@ -244,7 +279,7 @@ Chạy checklist này trước buổi trình bày, không chờ đến lúc đ�
 # Trạng thái container
 docker compose ps
 
-# Ba DAG và lỗi import
+# Bốn DAG và lỗi import
 make airflow-dags
 
 # Health tổng hợp của monitoring
@@ -270,7 +305,7 @@ curl -fsS http://localhost:9090/api/v1/targets \
   | python3 -c 'import json,sys; d=json.load(sys.stdin); print([(x["labels"].get("job"),x["health"]) for x in d["data"]["activeTargets"]])'
 ```
 
-Trong MinIO Console, xác nhận bucket `financial-news` có Bronze/Silver/Gold. Trong Grafana, xác nhận đủ sáu dashboard ở mục 16.
+Trong MinIO Console, xác nhận bucket `financial-news` có Bronze/Silver/Gold. Trong Grafana, xác nhận đủ bảy dashboard ở mục 16.
 
 Nếu lệnh DuckDB báo file chưa tồn tại hoặc collection `news_chunks_local_v1` chưa có, dựng lại hai projection trước demo:
 
@@ -602,7 +637,7 @@ Không chạy một pipeline trên namespace CafeF chính trong lúc cố ý t�
 
 # 16. Kịch bản Demo J — Monitoring / Grafana
 
-Repository provision đúng sáu dashboard:
+Repository provision đúng bảy dashboard:
 
 ## 1. Financial News Platform — Overview
 
@@ -639,6 +674,14 @@ Repository provision đúng sáu dashboard:
 - **Panels:** CPU, RAM, network RX/TX, filesystem còn trống và top cgroup memory.
 - **Metrics:** node exporter và `container_memory_working_set_bytes`.
 - **Giới hạn:** trên host Docker/cgroup v2 đã kiểm tra, cAdvisor không cung cấp nhãn tên Compose ổn định; panel tài nguyên thể hiện host/cgroup, không khẳng định chi tiết theo service.
+
+## 7. Financial News — Multisource Crawling
+
+UID `news-crawler`, 14 panel tại checkpoint Phase09: source outcomes, frontier,
+outbox, heartbeat, Landing/layer freshness, retry exhaustion, policy và tài nguyên.
+Bốn rules bổ sung đưa cấu hình lên 19; xem [monitoring runbook](monitoring-observability.md).
+Latency là first durable HTML Landing → stage finish theo batch; p95 dưới 20 mẫu
+là N/A. Dashboard thêm trong volume không phải dashboard mới do repository provision.
 
 # 17. Demo cảnh báo
 
@@ -726,7 +769,7 @@ Chỉ demo cảnh báo trực tiếp nếu đã kiểm tra trước và có thê
 6. **10:30–13:00:** CDC live INSERT/UPDATE/DELETE.
 7. **13:00–15:00:** incremental/idempotency/backfill artifacts và `pipeline-status`.
 8. **15:00–18:00:** QdrantDown hoặc DebeziumConnectorDown, phục hồi.
-9. **18:00–20:00:** sáu dashboard, metrics đánh giá và giới hạn.
+9. **18:00–20:00:** bảy dashboard, metrics đánh giá và giới hạn.
 
 # 20. Kịch bản thuyết trình tiếng Việt
 
@@ -833,6 +876,7 @@ docker compose down
 cp .env.example .env              # chỉ lần đầu; điền secret cục bộ
 make bootstrap
 make monitoring-up
+make crawler-init
 make monitoring-health
 ```
 
@@ -894,7 +938,10 @@ make local-stop
 # hoặc: docker compose down
 ```
 
-# 25. Báo cáo xác minh tài liệu
+# 25. Báo cáo xác minh tài liệu — checkpoint lịch sử trước Phase09
+
+Các kết quả và quan sát môi trường trong mục này thuộc lượt xác minh gốc. Thông tin thiếu `.env`/collection khi đó không được dùng làm tình trạng máy hiện tại. Checkpoint Phase09 và phạm vi chưa hoàn tất xem report liên kết ở đầu tài liệu.
+
 
 ## File và thành phần đã kiểm tra
 
@@ -958,7 +1005,11 @@ make crawler-airflow-smoke
 make crawler-monitoring-smoke
 ```
 
-Smoke live có chủ đích, tối đa một bài đủ điều kiện mỗi nguồn:
+Smoke live có chủ đích, tối đa một bài đủ điều kiện mỗi nguồn. Trước khi chạy,
+review access/robots/Terms hiện tại và bật `config.crawler.live_enabled` riêng từng
+nguồn theo [runtime policy](crawler-operations.md#runtime-policy-and-manual-safety).
+`--allow-live` hoặc global schedule flag đơn lẻ chưa đủ; source bị deny trả SKIPPED,
+không phải một lần crawl thành công. Lượt cập nhật này không kiểm tra website lại:
 
 ```sh
 make crawler-live-smoke CRAWLER_SOURCE=all CRAWLER_LIMIT=1

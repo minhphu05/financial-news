@@ -5,6 +5,13 @@ time. They are descriptive observations from a development machine with warm
 Docker and model caches. Eight operational samples are too few for a capacity
 claim, percentile target, or production SLA.
 
+This is a historical measurement baseline. Current Phase09 configuration has
+seven provisioned dashboards and 19 alert rules; see
+[monitoring](monitoring-observability.md) and the
+[Phase09 report](phase9-engineering-report.md). No new timing/resource benchmark
+is introduced by the 2026-10-22 documentation review. Live B1 and real 24h/72h
+burn-in remain pending.
+
 ## Environment and dataset
 
 - Host: 20 logical CPUs, 15.32 GiB RAM.

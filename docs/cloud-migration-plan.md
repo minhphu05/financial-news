@@ -7,8 +7,10 @@ cleaning, normalization, validation, deduplication, enrichment hook, chunking,
 and analytical aggregation code consumes logical object URIs and data contracts.
 Provider and deployment changes remain at configuration and adapter boundaries.
 
-Updated for the implemented Phase08 local crawler on 2026-10-03. Phase08 now
-means local multisource crawling, **not cloud deployment**. This plan describes a
+Updated against Phase09 source and recorded evidence on 2026-10-22. Phase08
+implements local multisource crawling; Phase09 adds controlled local operations.
+Functional verification has passed, while B1 live and real 24h/72h burn-in remain
+pending. This plan describes a
 later separately approved migration. Local crawler acceptance does not clear the
 historical credential/history release blocker; the cloud verdict remains
 `NOT READY FOR CLOUD MIGRATION`.
@@ -78,14 +80,19 @@ Reuse `news_crawling_pipeline` and standalone `crawl -> publish` jobs. Inject
 configuration. The existing DAG uses `Asia/Ho_Chi_Minh`, `catchup=False`, one
 active run/task and a default limit of one article per source; cloud deployment
 alone does not increase throughput or discovery coverage. There is currently no
-environment variable for the scheduled batch-limit default. See
+environment-only way to bypass source policy. `AIRFLOW_NEWS_CRAWLER_LIMIT`
+sets the scheduled batch default (1–20, default 1), further capped by source
+`max_articles`. Source `enabled/live_enabled`, block latch and Retry-After remain
+runtime gates; manual triggers stay fixture-safe by default. See
 [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in)
 for the implemented daily example and parameter behavior.
 
 Before cutover, pause local scheduling, allow active writers to finish and record
 pending crawler/pipeline batches. Copy Landing and the durable data hierarchy
 with a consistent PostgreSQL checkpoint, including source config, frontier URL
-identity, observation hashes, eligibility/cooldown timestamps and batch manifests.
+identity, observation hashes, eligibility/cooldown timestamps, source block latch,
+outbox attempts/due times and batch manifests. Preserve the reviewed source live
+policies and migrations through `0003_continuous_crawling`.
 Retain relative object keys and processing versions or provide an explicitly
 validated mapping. Keep cloud scheduling paused during migration and validate
 unchanged/changed observations and pending-batch recovery before enabling it.
@@ -111,7 +118,7 @@ article Kafka queue or Kafka-triggered Airflow.
 7. Deploy Spark job execution and Airflow; retain standalone job commands.
 8. Copy Landing and durable lake data with validation in the migration manifest.
 9. Rebuild Qdrant and the analytical serving layer from Gold.
-10. Run relevant Phase 01–08 regression, crawler incremental/recovery and a cloud
+10. Run relevant Phase01–09 functional regression, crawler incremental/recovery and a cloud
     acceptance gate before cutover. Enable the reviewed crawler schedule only
     after state and serving reconciliation pass.
 11. Keep MinIO available for rollback until hashes, counts, Delta history, and

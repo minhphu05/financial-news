@@ -1,5 +1,14 @@
 # Phase08 engineering report — local multisource crawling
 
+> Historical Phase08 implementation/evidence checkpoint, 03/10/2026. Counts,
+> branch and working-tree observations below describe that execution. For current
+> source live-policy gates, parsed batch limit, bounded replay and monitoring,
+> use [crawler operations](crawler-operations.md) and the
+> [Phase09 report](phase9-engineering-report.md). Current provisioning is seven
+> dashboards/19 rules; live B1 and real 24h/72h Phase09 burn-in remain PENDING.
+> Historical live command examples below require the additional source policy
+> review/enablement documented in the current runbook before use today.
+
 Verified: 2026-10-03. Branch: `feature/multisource-news-crawler`, base `e300b09`.
 
 **Verdict: COMPLETE (LOCAL).** `make phase8-acceptance` exited 0. No commit/push or cloud deployment was performed. Cloud-release verdict remains **NOT READY FOR CLOUD MIGRATION** because credentials exist in Git history; crawler functionality does not resolve that owner/security action.

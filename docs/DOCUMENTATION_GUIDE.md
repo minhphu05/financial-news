@@ -1,8 +1,8 @@
 # Hướng dẫn đọc tài liệu dự án
 
 **Điểm bắt đầu:** dùng tài liệu này để chọn tài liệu cần đọc, không cần đọc hết
-repository theo thứ tự file. Đối chiếu danh mục ngày **03/10/2026**, sau Phase08
-local multisource crawling. Đây là mục lục và hướng dẫn; không thay thế contracts,
+repository theo thứ tự file. Đối chiếu danh mục ngày **22/10/2026**, sau triển khai
+chức năng Phase09; live B1 và burn-in 24h/72h còn PENDING. Đây là mục lục và hướng dẫn; không thay thế contracts,
 runbooks hay bằng chứng kiểm chứng của từng phase.
 
 ## 1. Đọc lần đầu theo thứ tự nào?
@@ -16,8 +16,9 @@ runbooks hay bằng chứng kiểm chứng của từng phase.
 5. [Data contracts](data-contracts.md): input/canonical Silver/Gold, identity và quality rules.
 6. Chọn runbook theo công việc ở bảng dưới.
 
-Checkpoint hiện tại: Phase01–08 đã có implementation local; crawl thật mới có
-bằng chứng tiny smoke 1 bài/nguồn. Schedule live mặc định tắt. Cloud deployment
+Checkpoint hiện tại: Phase01–08 có implementation local; Phase09 đạt functional
+verification qua full-run cộng focused scheduling recheck. Crawl thật mới có
+bằng chứng tiny smoke Phase08 1 bài/nguồn, chưa có B1/24h/72h Phase09. Schedule live mặc định tắt. Cloud deployment
 chưa thực hiện và release gate vẫn `NOT READY FOR CLOUD MIGRATION` vì vấn đề
 credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng thái mới nhất.
 
@@ -39,8 +40,8 @@ Phase09 mở rộng vận hành local có kiểm soát; đọc [engineering repo
 | Hiểu DAG hoặc kiểm tra lịch Airflow | [airflow-local.md](airflow-local.md) | [crawler operations](crawler-operations.md) cho DAG crawl |
 | Kiểm tra PostgreSQL → Debezium → Kafka | [metadata-control-plane.md](metadata-control-plane.md) | [metadata-event-contracts.md](metadata-event-contracts.md) |
 | Xem dashboard, metrics, alerts hoặc service lỗi | [monitoring-observability.md](monitoring-observability.md) | [local baseline](local-monitoring-baseline.md) |
-| Demo với giảng viên | [demo-guide-vi.md](demo-guide-vi.md) | [news sources](news-sources.md), [Phase08 report](phase8-engineering-report.md) |
-| Báo cáo tiến độ và demo Phase08 theo lời thoại | [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md), [Phase08 live E2E](../artifacts/phase8-live-e2e.json) |
+| Demo với giảng viên | [demo-guide-vi.md](demo-guide-vi.md) | [crawler operations](crawler-operations.md), [Phase09 report](phase9-engineering-report.md) |
+| Báo cáo tiến độ và demo đến checkpoint Phase09 theo lời thoại | [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md), [Phase08 live E2E](../artifacts/phase8-live-e2e.json), [Phase09 report](phase9-engineering-report.md) |
 | Vẽ sơ đồ pipeline hiện tại | [local-architecture.md](local-architecture.md) | [crawling-architecture.md](crawling-architecture.md), [monitoring](monitoring-observability.md) |
 | Chuẩn bị lên cloud | [cloud-migration-plan.md](cloud-migration-plan.md) | [migration manifest](cloud-migration-manifest.md), [credential remediation](credential-remediation.md), [release checklist](local-release-checklist.md) |
 | Hiểu lý do chọn công nghệ/giới hạn | [decisions.md](decisions.md) | [local architecture](local-architecture.md) |
@@ -86,10 +87,12 @@ Phase09 mở rộng vận hành local có kiểm soát; đọc [engineering repo
 | [airflow-local.md](airflow-local.md) | DAGs, dependencies/retries, UI, smoke/import tests; có mục riêng cho crawler Phase08. |
 | [metadata-control-plane.md](metadata-control-plane.md) | Schema/migrations control metadata, publication/slot, Connect/Kafka và CDC lifecycle/recovery Phase04. |
 | [metadata-event-contracts.md](metadata-event-contracts.md) | Envelope CDC, topics, keys, snapshot/update/delete/tombstone và consumer behavior. |
-| [monitoring-observability.md](monitoring-observability.md) | Metrics sources, exporter, 7 dashboards/15 rules, setup và troubleshooting Phase07/08. |
+| [monitoring-observability.md](monitoring-observability.md) | Metrics sources, exporter, 7 dashboards/19 rules hiện hành, setup và troubleshooting qua Phase09. |
 | [local-monitoring-baseline.md](local-monitoring-baseline.md) | Resource/timing/failure observations ở baseline Phase07; dùng để so sánh, không xem như benchmark cloud. |
-| [demo-guide-vi.md](demo-guide-vi.md) | Hướng dẫn tiếng Việt để demo services/data/SQL/retrieval/failure và crawler; phần đầu giữ baseline Phase07, phần cuối có demo Phase08. |
-| [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | Lời thoại báo cáo tiến độ Phase01–08, demo fixture/live evidence, fallback, Q&A và dẫn chứng tới source docs/artifacts. |
+| [demo-guide-vi.md](demo-guide-vi.md) | Điểm bắt đầu demo hiện hành: services/data/SQL/retrieval/crawler, vận hành Phase09 và evidence lịch sử được gắn ngày. |
+| [present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md](present-demo/BAO_CAO_TIEN_DO_VA_DEMO.md) | Lời thoại đến checkpoint Phase09 functional; fixture/live evidence, fallback, Q&A và giới hạn burn-in. File hiện thuộc thư mục Git ignore. |
+| [phase9-engineering-report.md](phase9-engineering-report.md) | Implementation, functional verification hợp nhất, thất bại đã giữ evidence và B1/24h/72h PENDING. |
+| [phase9-documentation-review.md](phase9-documentation-review.md) | Đợt đồng bộ tài liệu sau Phase09: các claim đã sửa, source đối chiếu, lịch sử được giữ và kiểm tra tài liệu. |
 
 ### Release, bảo mật và cloud
 
@@ -117,6 +120,7 @@ code, tests và artifacts; không rebuild completed work chỉ vì task viết �
 | [06-local-release-cloud-readiness.md](agent_tasks/06-local-release-cloud-readiness.md) | Local release/clean bootstrap/rebuildability và readiness; không provision cloud. |
 | [07-monitoring-observability-local.md](agent_tasks/07-monitoring-observability-local.md) | Monitoring/dashboard/alert/failure verification; các khuyến nghị cloud ở task là lịch sử. |
 | [08-multisource-crawling-ingestion-local.md](agent_tasks/08-multisource-crawling-ingestion-local.md) | 5 nguồn, discovery/parser/adapter, Landing, incremental và tích hợp pipeline. Phase08 hiện là crawling local. |
+| [09-continuous-local-crawling-scheduling-burnin.md](agent_tasks/09-continuous-local-crawling-scheduling-burnin.md) | Controlled scheduling, source policy, replay, telemetry/report và các gate burn-in thật; specification không chứng minh phase đã DONE. |
 
 ## 5. Tài liệu lịch sử hoặc thuộc application cũ
 

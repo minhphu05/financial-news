@@ -10,7 +10,9 @@ Qdrant, DuckDB, bootstrap/reset tooling, deterministic acceptance fixtures,
 derived-store rebuild tests, Prometheus, provisioned Grafana dashboards, and
 read-only/native metrics exporters. Phase08 adds five bounded public HTTP source
 crawlers, immutable Landing and persistent crawler state, with a default-manual
-Airflow DAG; it does not deploy cloud services.
+Airflow DAG. Phase09 adds source runtime policies, bounded retry/replay and
+operational reporting; functional verification passed, while B1 live and real
+24h/72h burn-in remain pending. Neither phase deploys cloud services.
 
 **FUTURE CLOUD TARGET:** ADLS Gen2 or approved storage, scalable Spark, managed
 or Kubernetes Airflow/PostgreSQL/Kafka/Qdrant, workload identity, and Kubernetes
@@ -19,7 +21,7 @@ credential exists in Phase 06. See [cloud-migration-plan.md](cloud-migration-pla
 
 ## Current implemented slice
 
-The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 runs these entrypoints through Airflow 2.11.2. Phase 04 adds a separate control plane in which PostgreSQL metadata changes flow through Debezium to compacted Kafka topics. Phase 05 adds current-state Silver/Gold Delta tables, affected-record merges, PostgreSQL run/checkpoint/lock state, restartable CLI and Airflow execution, reconciliation, and health checks. Phase 07 reads those operational records and native service endpoints into Prometheus, provisions six Grafana dashboards, and evaluates 12 local alert rules without changing transformation behavior.
+The final CafeF snapshot is imported to MinIO Bronze. Local Spark reads it into the Phase 01 Silver Delta articles, article associations, and rejects. Phase 02 reads Silver by configured URI, writes Gold documents and chunks as Delta in MinIO, and builds three Gold analytical Parquet datasets. A real local FastEmbed model projects Gold chunks into the persistent Qdrant service; a separate DuckDB job publishes only the committed Gold analytical manifest. Each job retains an independent Makefile command and metrics in MinIO. The no-op enrichment boundary keeps `entities` null. Phase 03 runs these entrypoints through Airflow 2.11.2. Phase 04 adds a separate control plane in which PostgreSQL metadata changes flow through Debezium to compacted Kafka topics. Phase 05 adds current-state Silver/Gold Delta tables, affected-record merges, PostgreSQL run/checkpoint/lock state, restartable CLI and Airflow execution, reconciliation, and health checks. Phase07 introduced operational/native metrics, six dashboards and 12 rules. Current configuration after Phase09 provisions seven dashboards and 19 rules, with source policy, heartbeat, Landing/layer freshness, replay budget and window reports. See the Phase09 checkpoint below for the limits of functional verification.
 
 ## End-to-end path
 
@@ -48,9 +50,10 @@ flowchart TB
         D --> E[MinIO Silver: current Delta MERGE + immutable snapshots]
         E --> F[Enrichment hook: passthrough initially]
         F --> G[Deterministic chunking]
-        G --> H[MinIO Gold: affected RAG MERGE + analytics extracts]
+        G --> H[MinIO Gold RAG: affected documents and chunks]
         H --> I[Embedding / Qdrant index job]
-        H --> J[DuckDB serving build: local file]
+        E --> AN[Gold Analytics: Parquet extracts and committed manifest]
+        AN --> J[DuckDB serving build: local file]
     end
     subgraph OB[Observability]
         EX[Pipeline + service exporters] --> PM[Prometheus]
@@ -115,7 +118,7 @@ Silver cleaning includes schema and quality validation, conservative HTML/text c
 
 The 15,457 raw observations are expected to yield **at most** 12,698 URL-level articles after validation, while mentions can exceed the article count. These are audit baselines, not acceptance values for Silver. If two URLs share a content hash, keep both article identities initially and flag them as candidate content duplicates. Select a canonical article version deterministically (for example, completeness then stable source row order), while collecting **all** ticker/keyword mentions. Parse timestamps with explicit CafeF formats; a value such as `16:44 PM` must be flagged or handled by a documented rule, with `published_at_raw` preserved and no assumed UTC offset. Silver text rules should follow the existing NFC/whitespace/boilerplate behavior with regression examples; do not mutate Bronze.
 
-The enrichment hook accepts a versioned Silver article contract and returns structured attributes plus `enrichment_status`, `enricher_name`, and `enricher_version`. The initial adapter is **passthrough** and creates no NER dependency. A future ViFinNER adapter can be attached without rewriting ingestion, Silver, or chunking. Failures should be recorded per article without losing the cleaned article.
+`ArticleEnricher.enrich(article)` accepts and returns a dictionary. The implemented `NoOpEnricher` preserves the article and sets `entities=None`, `enrichment_status="unavailable"` and `enricher_version=None`; no `enricher_name` or typed financial-event field is implemented. Gold RAG derives `stock_symbols` from source associations, not runtime NER. ViFinNER integration and a richer error/result contract remain future work. See `src/news_pipeline/enrichment.py` and `gold_rag.py`.
 
 Implemented/serving Gold datasets under MinIO:
 
@@ -123,12 +126,13 @@ Implemented/serving Gold datasets under MinIO:
 |---|---|---|
 | `gold.articles` | One article per `article_id` and publication version | cleaned article, resolved ticker/keyword arrays or linked mention table, enrichment fields/status, source URL, publication date, lineage. |
 | `gold.chunks` | One chunk per `(article_id, article_version, chunker_version, chunk_index)` | stable `chunk_id`, content, position, title/URL, source, ticker list, keyword list, publication date, content hash. |
-| `gold.article_tickers` or export view | One article/ticker pair | Dates and measures needed for ticker and time analytics. |
-| `gold.pipeline_quality` or export view | One run/source/reason grouping | Input/accepted/rejected counts and publication version for DuckDB quality views. |
+| `news_daily` | One source/publication-date pair | Article count and average content length; excludes unparsed publication dates. |
+| `news_by_source` | One source | Article count, parsed/unparsed counts and average content length. |
+| `news_publication_status` | One source/publication-status pair | Article count by parsed/unparsed publication date. |
 
 Chunk output must include the version of text and splitting rules. A changed article or chunker setting produces a new logical chunk set and triggers deletion of obsolete Qdrant points for that article/version. The current splitter can supply behavior, but its parameters must be explicit and tests must verify deterministic ordering, length, and overlap. Gold remains useful without vectors; embedding is a separate projection job. The embedding model name, vector dimension, model revision, and indexing run belong in the Qdrant manifest/payload. Qdrant point IDs should derive from versioned `chunk_id` plus embedding model; the index job reconciles point count and removes stale points.
 
-DuckDB is built from one published Gold version into a temporary local file, validated, and then atomically made current. Expected views include daily article counts, articles by ticker, source, and publication date, plus quality/rejection counts. These analytical datasets can later feed Power BI without making Power BI a local runtime dependency. Prefer explicit Gold exports with a manifest to avoid mixing Delta versions. The DuckDB file is disposable and can be rebuilt; it is not a replacement for Silver/Gold.
+DuckDB is built from one published Gold version into a temporary local file, validated, and then atomically made current. Implemented analytical datasets are `news_daily`, `news_by_source` and `news_publication_status`, derived directly from Silver by `src/news_pipeline/analytics.py`. Ticker/event analytics and richer quality datasets remain design extensions. These analytical datasets can later feed Power BI without making Power BI a local runtime dependency. Prefer explicit Gold exports with a manifest to avoid mixing Delta versions. The DuckDB file is disposable and can be rebuilt; it is not a replacement for Silver/Gold.
 
 ## Interfaces and job boundary
 
@@ -165,7 +169,7 @@ Verified source-specific crawlers for CafeF, VnExpress, Tuổi Trẻ, Thanh Niê
 
 Crawler state is in `crawler_operations`; configuration is in the existing `control_metadata.news_sources.config`. Kafka remains metadata-only. Airflow DAG `news_crawling_pipeline` uses source-level `crawl -> publish` groups, default manual fixture mode and no schedule. Optional live scheduling requires an explicit environment flag. Live and fixture processing versions/serving are separate; each source has its own Qdrant collection and DuckDB file to match existing reconciliation semantics. No cloud implementation was introduced.
 
-Daily scheduling can use `0 6 * * *` in the DAG's `Asia/Ho_Chi_Minh` timezone after explicit live opt-in. Current scheduled capacity is one article per source per run; cadence does not guarantee complete listing/archive coverage. The frontier decides new/retry/recheck work, observation hashes suppress unchanged downstream batches, and pending batches resume through the Phase05 runner. Gold Analytics remains full refresh. Phase08 adds one dashboard/three rules to the Phase07 baseline, giving seven dashboards/15 rules. See [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in) for exact commands and parameter behavior.
+Daily scheduling can use `0 6 * * *` in the DAG's `Asia/Ho_Chi_Minh` timezone after explicit live opt-in. The scheduled default is `AIRFLOW_NEWS_CRAWLER_LIMIT=1` (valid range 1–20), with the effective cap also bounded by source `max_articles`. Live requires the global opt-in plus reviewed source `enabled/live_enabled` policy. Manual run defaults remain fixture-safe. Cadence does not guarantee complete listing/archive coverage. The frontier decides new/retry/recheck work, observation hashes suppress unchanged downstream batches, and pending batches resume through the Phase05 runner. Gold Analytics remains full refresh. Phase08 adds one dashboard/three rules to the Phase07 baseline, giving seven dashboards/15 rules at that historical checkpoint; Phase09 brings the current rules total to 19. See [crawler operations](crawler-operations.md#daily-live-scheduling-operator-opt-in) for exact commands and parameter behavior.
 
 Future migration must preserve Landing and `crawler_operations` alongside Bronze/Silver/Gold, `control_metadata` and `pipeline_operations`. See [migration manifest](cloud-migration-manifest.md) for a consistent cutover checkpoint. ADLS adapter/runtime/identity work remains unimplemented and the historical credential release gate stays `NOT READY`.
 

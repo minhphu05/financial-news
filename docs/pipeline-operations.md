@@ -302,5 +302,20 @@ The final isolated Phase 05 integration run covers idempotent rerun, one new art
 - The local PostgreSQL, Kafka, Qdrant, and Airflow services use development defaults. Kafka is a single plaintext broker.
 - PostgreSQL run/checkpoint state and MinIO/Delta commits are not one distributed transaction. Stage records plus reconciliation provide recovery after a partial commit.
 - Qdrant and DuckDB remain derived stores and can temporarily lag durable Gold during an outage.
-- Airflow scheduling requires an external process to place dated source fixtures; crawler work remains out of scope.
+- The dated-file incremental DAG needs an external process to place dated input.
+  Phase08/09 live collection uses the separate crawler DAG and durable outbox;
+  it does not make the dated-file DAG discover websites.
 - Local timings include container startup, warm caches, and shared-laptop load.
+
+## Phase09 crawler publication boundary
+
+Crawler publication reuses this Phase05 runner with stable batch run IDs.
+Migration `0003_continuous_crawling` adds crawler-only publishing attempts,
+`RUNNING` recovery, due time and retry budget. Automatic/DAG replay defaults to
+at most two batches per source call and five attempts, with capped exponential
+backoff/jitter; these are policy defaults, not throughput results. Manual replay
+is bounded but can explicitly bypass automatic due time/budget; use
+`--respect-retry` to retain them. This does not change the runner's own
+checkpoint/partition semantics or add a distributed transaction. See
+[current crawler operations](crawler-operations.md#backlog-and-recovery) and
+[Phase09 evidence](phase9-engineering-report.md).

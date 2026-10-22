@@ -16,6 +16,14 @@ checked-in news fixture
 Airflow orchestrates standalone jobs. PostgreSQL, Debezium, and Kafka carry
 control metadata only. Qdrant and DuckDB are disposable projections.
 
+This guide retains the Phase06 baseline and its historical measurements. The
+current pipeline also supports Phase08 crawler input and Phase09 controlled
+scheduling/replay/reporting. Phase09 functional verification passed via retained
+full-run checks plus a corrected scheduling recheck; live B1 and real 24h/72h
+burn-in remain pending. Use the [crawler runbook](crawler-operations.md) and
+[Phase09 report](phase9-engineering-report.md) for those operations. This does
+not renew every release gate or clear the historical cloud/security blocker.
+
 ## Clean start
 
 Required host tools are Docker Engine, Docker Compose v2, GNU Make, and Git.

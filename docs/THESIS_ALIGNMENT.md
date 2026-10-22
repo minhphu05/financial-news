@@ -10,6 +10,15 @@
 
 ## Kết luận ngắn
 
+> **Checkpoint Phase09, 22/10/2026:** safe scheduling/runtime policies, bounded
+> replay, heartbeat/freshness/backlog telemetry và reporting đã triển khai và
+> có functional verification PASS theo full-run cộng focused scheduling recheck.
+> B1 live và burn-in 24h/72h còn PENDING; không suy ra production/cloud readiness.
+> Provisioning hiện có bảy dashboard/19 rules. NER runtime, Gold-to-chatbot bridge,
+> streaming giá và Power BI chưa được hoàn thành bởi Phase09. Xem
+> [Phase09 report](phase9-engineering-report.md). Ma trận gốc ngày 20/09 bên dưới
+> vẫn là lịch sử đối chiếu đề cương, không mô tả hiện trạng Spark/Airflow.
+
 > **Checkpoint Phase08, 03/10/2026:** pipeline tin tức local đã có Spark/Delta,
 > Airflow, metadata CDC và monitoring; crawler CafeF, VnExpress, Tuổi Trẻ,
 > Thanh Niên, Báo Mới đã tích hợp vào Bronze/Silver/Gold. Live E2E kiểm chứng
