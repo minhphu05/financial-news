@@ -1,5 +1,12 @@
 # Xử lý credential từng được commit
 
+**Cập nhật Phase10 — 22/10/2026:** bằng chứng hiện tại vẫn chưa xác nhận issuer
+revocation hoặc history cleanup. Các thao tác local và rehearsal cũ bên dưới là
+lịch sử, không tự đóng incident. Dùng [incident runbook](security/incident-response-runbook.md),
+[history decision/runbook](security/git-history-remediation-runbook.md) và
+[Phase10 report](phase10-security-cloud-readiness-report.md). B1/24h/72h Phase09
+cũng còn pending; cloud vẫn NO-GO.
+
 ## Phạm vi phát hiện
 
 Kiểm tra repository ngày 03/10/2026 xác định các tên biến sau từng có giá trị
@@ -27,8 +34,8 @@ giá trị khỏi lịch sử.
 - release audit quét mọi blob có basename `.env` trong lịch sử và chỉ báo tên
   biến, không xuất giá trị;
 - hai secret nội bộ trong `.env` local được tạo lại;
-- ba API key ngoài trong local configuration được vô hiệu hóa cho tới khi có
-  key thay thế.
+- ba API key ngoài được bỏ giá trị trong local configuration cho tới khi có
+  key thay thế; thao tác đó không revoke key ở issuer và không xác minh invalid.
 
 ## Việc chủ tài khoản phải thực hiện
 
@@ -55,23 +62,11 @@ không thu hồi được. Rewrite cần loại hai đường dẫn sau khỏi t
 src/model/llms_inference/gemini_models/config/.env
 ```
 
-Dùng `git filter-repo` trong một clone sạch, kiểm tra lại bằng secret scanner,
-sau đó force-push có kiểm soát bằng `--force-with-lease`. Mọi collaborator phải
-clone lại hoặc reset về lịch sử mới. Không chạy rewrite khi còn thay đổi chưa
-commit và không push trước khi chủ repository xác nhận cửa sổ phối hợp.
-
-Ví dụ trong clone bảo trì riêng:
-
-```bash
-git filter-repo --force \
-  --path .env \
-  --path src/model/llms_inference/gemini_models/config/.env \
-  --invert-paths
-
-git log --all -- .env src/model/llms_inference/gemini_models/config/.env
-git push origin --force-with-lease --all
-git push origin --force-with-lease --tags
-```
+Owner phải phê duyệt freeze, restricted backup, scope, tool/version, rehearsal
+và kế hoạch contributors/forks/PR cache trước khi thực thi. Tham khảo
+[runbook hiện hành](security/git-history-remediation-runbook.md); không có lệnh
+rewrite/force-push chạy mặc định trong Make/CI. Hai path trên là scope tối thiểu,
+không bảo đảm secret chưa được sao chép sang nơi khác.
 
 Không coi repository an toàn chỉ vì lệnh `git log` không còn kết quả. Release
 gate chỉ có thể chuyển sang sẵn sàng sau khi key đã được revoke/rotate, remote

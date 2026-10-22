@@ -1,5 +1,10 @@
 # Local release candidate `local-rc1`
 
+Current security review: **Phase10 NO-GO**, 2026-10-23. Existing historical gate
+still fails; the new scanner/prevention controls do not establish issuer
+invalidation or authorize migration. See [Phase10 report](phase10-security-cloud-readiness-report.md).
+The baseline measurements below retain their original scope/date.
+
 ## Purpose
 
 `local-rc1` is the reproducible Phase 06 baseline for the financial-news data

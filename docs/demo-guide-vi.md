@@ -1,5 +1,12 @@
 # Hướng dẫn kiến trúc và demo nền tảng dữ liệu tin tức tài chính
 
+**Checkpoint bổ sung 23/10/2026:** Phase10 có local secret/pre-commit guard,
+synthetic rejection, hồi quy fixture và cloud design DRAFT. Không demo secret
+thật, raw scanner output hoặc `.env`; dùng `make phase10-test` và sanitized
+verdict từ [Phase10 report](phase10-security-cloud-readiness-report.md).
+`make phase10-acceptance` hiện trả NO-GO/exit 2 là gate chặn đúng, không phải
+bằng chứng đã revoke/history-clean. P09 live/burn-in vẫn pending; không Azure demo.
+
 Cập nhật tài liệu **22/10/2026**, sau triển khai chức năng Phase09. Demo hiện có hai đầu vào: snapshot CafeF và crawler năm nguồn (fixture hoặc live opt-in), cùng đi qua pipeline local đến Qdrant/DuckDB. Functional verification Phase09 PASS theo full-run cộng focused scheduling recheck; B1 live và burn-in 24h/72h còn **PENDING**. API/frontend/chatbot đời trước, NER runtime và cloud chưa thuộc đường acceptance này.
 
 Đọc [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md) và [Phase09 report](phase9-engineering-report.md) để lấy phạm vi bằng chứng mới nhất. [Crawler runbook](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) là nguồn hướng dẫn policy/scheduling/recovery hiện hành. Các counts snapshot, retrieval smoke và live Phase08 bên dưới giữ mốc đo gốc; lượt cập nhật tài liệu này không chạy lại chúng.

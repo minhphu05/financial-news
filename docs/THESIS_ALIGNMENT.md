@@ -10,6 +10,13 @@
 
 ## Kết luận ngắn
 
+> **Checkpoint Phase10, 23/10/2026:** redacted secret scans, staged-byte guard,
+> CI/pre-commit configuration, synthetic rejection, selected regressions và
+> dependency/image advisory inventory đã có implementation/evidence local.
+> Issuer invalidation, history cleanup và owner sign-off chưa đạt; P09 real
+> burn-in còn pending. Cloud design pack là DRAFT, không là Azure implementation.
+> Kết luận release vẫn **NO-GO**. Xem [Phase10 report](phase10-security-cloud-readiness-report.md).
+
 > **Checkpoint Phase09, 22/10/2026:** safe scheduling/runtime policies, bounded
 > replay, heartbeat/freshness/backlog telemetry và reporting đã triển khai và
 > có functional verification PASS theo full-run cộng focused scheduling recheck.

@@ -1,0 +1,12 @@
+title = "Financial-news: upstream rules plus deterministic synthetic guard test"
+
+[extend]
+useDefault = true
+
+# Deliberately invalid, non-provider sentinel. Tests construct it at runtime.
+# No history baseline, path allowlist, or blanket suppression is configured.
+[[rules]]
+id = "financial-news-synthetic-secret"
+description = "Synthetic security acceptance sentinel; never a real credential"
+regex = '''FINNEWS_SYNTHETIC_SECRET_[A-Z0-9]{24}'''
+keywords = ["FINNEWS_SYNTHETIC_SECRET_"]

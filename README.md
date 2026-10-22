@@ -16,9 +16,8 @@ Existing CafeF data ---------------------------+
   -> MinIO Bronze
   -> Spark cleaning / normalization / deduplication
   -> Delta Lake Silver
-  -> enrichment hook
-  -> Gold RAG + Gold Analytics
-  -> Qdrant + DuckDB
+       -> no-op enrichment -> Gold RAG -> Qdrant
+       -> Gold Analytics manifest     -> DuckDB
 ```
 
 Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka tạo control plane cho metadata cấu hình. Prometheus, Grafana và các exporter cung cấp metrics, dashboard và alert local. Pipeline hỗ trợ incremental processing, backfill, reprocess, resume, checkpoint, reconciliation và health check.
@@ -26,6 +25,14 @@ Airflow điều phối các job độc lập. PostgreSQL, Debezium và Kafka t�
 > Phase 08 đã tích hợp crawler CafeF, VnExpress, Tuổi Trẻ, Thanh Niên và Báo Mới. Lịch crawl tự động mặc định tắt; live smoke đã kiểm chứng 1 bài/nguồn. Kafka chỉ truyền metadata điều khiển; nội dung bài báo không đi qua Kafka.
 
 Phase09 bổ sung runtime policy live theo source, giới hạn replay/backoff, telemetry và báo cáo vận hành. Manual fixture vẫn là mặc định; lịch/live cần opt-in và policy được review. Acceptance chức năng tách khỏi burn-in **24h/72h thật**, chưa được coi hoàn tất chỉ từ fixture tests. Xem [Phase09 engineering report](docs/phase9-engineering-report.md) và [runbook](docs/crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence).
+
+**Checkpoint Phase10, 23/10/2026:** đã có redacted secret scans, pre-commit/CI
+guardrails, synthetic negative tests, dependency/image inventory và bộ thiết kế
+ADLS/IAM/network/cost/rollback. **Cloud vẫn NO-GO**: chưa có issuer invalidation,
+history gate còn FAIL, advisory chưa xử lý và P09 live/burn-in còn pending.
+Xem [Phase10 report](docs/phase10-security-cloud-readiness-report.md),
+[secret policy](docs/security/secret-handling-policy.md) và
+[P11 entry gate](docs/cloud/phase11-entry-checklist.md). Không có cloud deployment.
 
 ## Mục lục
 

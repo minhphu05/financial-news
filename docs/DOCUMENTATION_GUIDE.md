@@ -1,8 +1,8 @@
 # Hướng dẫn đọc tài liệu dự án
 
 **Điểm bắt đầu:** dùng tài liệu này để chọn tài liệu cần đọc, không cần đọc hết
-repository theo thứ tự file. Đối chiếu danh mục ngày **22/10/2026**, sau triển khai
-chức năng Phase09; live B1 và burn-in 24h/72h còn PENDING. Đây là mục lục và hướng dẫn; không thay thế contracts,
+repository theo thứ tự file. Đối chiếu danh mục ngày **23/10/2026**, sau Phase10
+audit/guardrails local; cloud NO-GO, Phase09 live B1 và burn-in 24h/72h còn PENDING. Đây là mục lục và hướng dẫn; không thay thế contracts,
 runbooks hay bằng chứng kiểm chứng của từng phase.
 
 ## 1. Đọc lần đầu theo thứ tự nào?
@@ -23,6 +23,11 @@ chưa thực hiện và release gate vẫn `NOT READY FOR CLOUD MIGRATION` vì v
 credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng thái mới nhất.
 
 Phase09 mở rộng vận hành local có kiểm soát; đọc [engineering report](phase9-engineering-report.md) để phân biệt implementation/functional acceptance với burn-in 24h/72h đang chờ bằng chứng thời gian thực. [Runbook hiện hành](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) mô tả policy, lịch, recovery, reporting và kill-switch.
+
+Phase10 đã thêm scanner/prevention tests và CI/pre-commit configuration, chạy
+audit/hồi quy local, phát hiện dependency/image advisories và lập Azure design
+pack. Incident, history cleanup và sign-off **chưa hoàn tất**, nên không được
+coi cloud-ready. Đọc [Phase10 report](phase10-security-cloud-readiness-report.md).
 
 ## 2. Tôi cần làm gì thì đọc tài liệu nào?
 
@@ -101,6 +106,15 @@ Phase09 mở rộng vận hành local có kiểm soát; đọc [engineering repo
 | [local-release.md](local-release.md) | Clean bootstrap, profiles, reset/rebuild, acceptance và baseline local release Phase06. |
 | [local-release-checklist.md](local-release-checklist.md) | Release gates, bằng chứng cần đạt và cách hiểu READY/NOT READY. |
 | [credential-remediation.md](credential-remediation.md) | Các loại credential lộ trong lịch sử, rotation/revocation, diễn tập và quy trình history remediation; không chứa giá trị secret. |
+| [phase10-security-cloud-readiness-report.md](phase10-security-cloud-readiness-report.md) | CP0–CP6, actual scans/tests/exit codes, advisory triage, owner blockers và verdict NO-GO. |
+| [security/secret-handling-policy.md](security/secret-handling-policy.md) | Gitleaks/checksum, staged-byte scan, CI/pre-commit, dependency audit và sanitization boundaries. |
+| [security/incident-response-runbook.md](security/incident-response-runbook.md) | Owner rotation/revocation/recovery và bằng chứng invalidation; chưa thực thi thay owner. |
+| [security/git-history-remediation-runbook.md](security/git-history-remediation-runbook.md) | Approval/freeze/backup/rehearsal/refs/forks/cache; chưa rewrite hoặc remote mutation. |
+| [cloud/azure-target-architecture.md](cloud/azure-target-architecture.md) | Target design DRAFT; storage-first P11, platform P12, chưa provision. |
+| [cloud/adls-gen2-migration-preflight.md](cloud/adls-gen2-migration-preflight.md) | Layout, actual version boundary, ABFS/Delta/HNS, parity/canary/restore tests cần làm sau GO. |
+| [cloud/identity-access-matrix.md](cloud/identity-access-matrix.md) | Principal/operation/scope/owner draft, data-plane rights và auth integration gaps. |
+| [cloud/cloud-network-cost-rollback-plan.md](cloud/cloud-network-cost-rollback-plan.md) | Connectivity/cost worksheet/hard-stop/rollback, input và ngân sách còn UNKNOWN. |
+| [cloud/phase11-entry-checklist.md](cloud/phase11-entry-checklist.md) | Entry gates hiện NO-GO; không có quyền bắt đầu canary/cloud migration. |
 | [cloud-migration-plan.md](cloud-migration-plan.md) | Local → cloud mapping, ADLS/Kubernetes readiness và thứ tự migration tương lai; không phải cloud đã triển khai. |
 | [cloud-migration-manifest.md](cloud-migration-manifest.md) | Theo từng component: data/config/code impact, validation/rollback; có Landing và crawler frontier/outbox cutover. |
 
@@ -121,6 +135,7 @@ code, tests và artifacts; không rebuild completed work chỉ vì task viết �
 | [07-monitoring-observability-local.md](agent_tasks/07-monitoring-observability-local.md) | Monitoring/dashboard/alert/failure verification; các khuyến nghị cloud ở task là lịch sử. |
 | [08-multisource-crawling-ingestion-local.md](agent_tasks/08-multisource-crawling-ingestion-local.md) | 5 nguồn, discovery/parser/adapter, Landing, incremental và tích hợp pipeline. Phase08 hiện là crawling local. |
 | [09-continuous-local-crawling-scheduling-burnin.md](agent_tasks/09-continuous-local-crawling-scheduling-burnin.md) | Controlled scheduling, source policy, replay, telemetry/report và các gate burn-in thật; specification không chứng minh phase đã DONE. |
+| [10-security-secret-remediation-final-cloud-readiness.md](agent_tasks/10-security-secret-remediation-final-cloud-readiness.md) | Security/issuer/history guards và cloud design review; task specification vẫn là yêu cầu gốc, execution thực tế ở Phase10 report. |
 
 ## 5. Tài liệu lịch sử hoặc thuộc application cũ
 

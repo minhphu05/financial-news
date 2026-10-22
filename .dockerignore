@@ -16,3 +16,19 @@ docs/
 notebooks/
 *.log
 .pytest_cache/
+# Runtime evidence and credentials must never become image layers.
+artifacts/
+logs/
+secrets/
+.secrets/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/id_rsa
+**/id_ed25519
+**/*.dump
+**/*.backup

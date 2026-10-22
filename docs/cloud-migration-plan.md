@@ -1,5 +1,11 @@
 # Local to cloud migration plan
 
+Phase10 review checkpoint, 2026-10-23: **NO-GO**. Source/guardrails/regressions and
+the [Azure design pack](cloud/azure-target-architecture.md) are documented, while
+issuer/history, P09 duration, advisory triage and owner sign-off gates remain
+unresolved. [Phase11 entry](cloud/phase11-entry-checklist.md) is storage-only and
+requires a future explicit GO; this plan authorizes no provisioning/migration.
+
 ## Release boundary
 
 Phase 06 prepares migration and does not provision cloud infrastructure. The

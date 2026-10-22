@@ -2,6 +2,12 @@
 
 This is a planning manifest. No migration or cloud connection has run.
 
+Phase10 review (2026-10-23) retains **NO-GO**. New
+[ADLS compatibility/ledger/canary preflight](cloud/adls-gen2-migration-preflight.md)
+and [network/cost/rollback plan](cloud/cloud-network-cost-rollback-plan.md) are
+drafts requiring owner review, source inventory/restore proof and closed security/
+P09 gates. No object count/bytes or backup result is fabricated by this update.
+
 Reviewed on 2026-10-22 for Phase09 runtime policies and persisted retry state.
 B1 live and real 24h/72h burn-in remain pending. Cloud migration is a later
 separately approved activity. Do not infer cloud readiness from local acceptance;

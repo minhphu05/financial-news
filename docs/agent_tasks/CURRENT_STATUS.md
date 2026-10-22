@@ -1,5 +1,28 @@
 # Current implementation status
 
+Latest work checkpoint: **2026-10-23**, Phase10 local audit/prevention and design
+pack prepared on baseline `240823c`. **Phase10 NOT DONE; cloud NO-GO.** Issuer
+invalidation/history remediation, required P09 live/burn-in and owner sign-off
+remain blocked/pending; dependency/image findings also remain open. See the
+[Phase10 report](../phase10-security-cloud-readiness-report.md). The Phase09 and
+documentation checkpoints below retain their actual execution dates/provenance.
+
+Phase10 verification: 16 local guard/readiness tests PASS; selected runtime suite
+passed 77 pipeline/crawler/PostgreSQL tests, 17 monitoring/metadata tests, 10 DAG
+tests, five-source fixture E2E and monitoring/two crawler observability tests.
+A separate metadata CDC lifecycle smoke succeeded. These are scoped current
+checks, not full P05/07/08/09 acceptance reruns or replacement-credential tests.
+Working-tree/index scan PASS; history scan FAIL (three pattern hits), existing
+checker FAIL (five variable names). Exact commands/UTC/image/package metadata and
+NO-GO decision are in ignored `artifacts/phase10/`; no raw secret values retained.
+Current effective cron/live switch and all five source live policies remain off.
+
+Runbooks/design pack and evidence index are complete for review; issuer/history,
+remote CI/protection and authorized cloud sign-off remain owner-dependent. The
+existing `.gitignore` also ignores `docs/thesis/` and `docs/present-demo/`; their
+Phase10 updates are local and are not included in a normal Git diff. No source
+pipeline/canonical contract, local secret or history checker was changed.
+
 Latest implementation checkpoint: **2026-10-22**, Phase09 developed on `feat/Phase-9`, base `583a382`.
 Documentation review on 2026-10-22 started at `8bd1f7e` after the repository workflow merged Phase09; the branch/base above describe the implementation run, not the current checkout.
 Functional verification is **PASS** (eight full-run checks plus a corrected scheduling recheck, all exit 0); real 24h/72h burn-in is **PENDING**, so Phase09 is not DONE. See the Phase09 section/report below.
@@ -40,6 +63,7 @@ then scan a fresh clone and rerun `make phase6-acceptance`.
 | 07 — Local monitoring/observability | COMPLETE | Fresh Phase07 acceptance passed; original 6 dashboards/12 alerts remain functional. Phase08 adds one dashboard and three alerts. |
 | 08 — Multisource crawling/ingestion | COMPLETE (LOCAL) | `make phase8-acceptance` exit 0; 26 crawler tests, 8 DAG tests, 6 monitoring unit tests, 2 real observability tests, all-five fixture scheduler run, all-five tiny live E2E. |
 | 09 — Continuous local operations/burn-in | FUNCTIONAL PASS; BURN-IN PENDING | Nine functional checkpoints PASS: full-run evidence plus corrected scheduling recheck; safe policies, bounded replay, reports, restart/reconciliation and settled denied cycles. Live B1 and real 24h/72h remain PENDING. |
+| 10 — Security remediation/final cloud readiness | LOCAL GUARDS IMPLEMENTED; OVERALL NO-GO | Redacted history/tree/index/local-config scans, tested preventive controls, selected regressions and cloud design DRAFT. Existing Phase06 gate FAIL; no owner invalidation/history cleanup/sign-off; advisory findings and P09 required live evidence unresolved. |
 
 ## Verified local architecture
 

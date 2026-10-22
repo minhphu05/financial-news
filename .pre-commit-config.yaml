@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: financial-news-secret-scan
+        name: Pinned Gitleaks scan of staged bytes (metadata-only output)
+        entry: python3 tools/security_scan.py staged
+        language: system
+        pass_filenames: false
+        always_run: true

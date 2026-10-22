@@ -12,5 +12,18 @@ artifacts/local-release-report.json
 artifacts/phase7-*.json
 artifacts/phase07-*.log
 artifacts/phase9/
+artifacts/phase10/
+# Local credential material and generated incident/runtime output.
+secrets/
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.dump
+*.backup
+logs/
 thesis
 present-demo

@@ -95,6 +95,8 @@ help:
 	@echo "  make monitoring-test    - Run monitoring unit and smoke tests."
 	@echo "  make monitoring-baseline - Run two isolated pipeline samples and capture a baseline."
 	@echo "  make phase7-acceptance  - Run normal, quality, failure, recovery, CDC, and regression checks."
+	@echo "  make phase10-test       - Run local security/readiness guards with invalid synthetic fixtures."
+	@echo "  make phase10-acceptance - Check security evidence; nonzero while issuer/history/P09 gates are open."
 
 SPARK_PACKAGES = io.delta:delta-spark_2.12:3.2.1,org.apache.hadoop:hadoop-aws:3.3.4
 SPARK_SUBMIT = /opt/spark/bin/spark-submit --packages $(SPARK_PACKAGES) --conf spark.jars.ivy=/opt/news-ivy
@@ -521,3 +523,35 @@ phase9-daily-report:
 
 phase9-burnin-report:
 	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase9.py burnin-report $(if $(SESSION),--session '$(SESSION)',)
+
+# Phase10 does not rotate accounts, rewrite history, or authorize cloud resources.
+.PHONY: phase10-security-tools phase10-preflight phase10-security-scan phase10-history-gate phase10-test phase10-regressions phase10-acceptance phase10-readiness-report phase10-dependency-audit phase10-image-config-scan
+phase10-security-tools:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/security_scan.py install
+
+phase10-preflight:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py preflight
+
+phase10-security-scan:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py security-scan
+
+phase10-history-gate:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py phase6-gate
+
+phase10-test:
+	PYTHONDONTWRITEBYTECODE=1 python3 -m unittest tests.test_phase10_security tests.test_phase10_readiness -v
+
+phase10-dependency-audit:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/supply_chain_audit.py --direct-only
+
+phase10-image-config-scan:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py image-config-scan
+
+phase10-regressions:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py regressions
+
+phase10-acceptance:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py acceptance
+
+phase10-readiness-report:
+	PYTHONDONTWRITEBYTECODE=1 python3 tools/phase10.py readiness-report

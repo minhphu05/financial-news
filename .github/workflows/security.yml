@@ -1,0 +1,46 @@
+name: Security gates
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  guard-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - run: python3 tools/security_scan.py install
+      - run: PYTHONDONTWRITEBYTECODE=1 python3 -m unittest tests.test_phase10_security tests.test_phase10_readiness -v
+  current-tree:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - run: python3 tools/security_scan.py install
+      - run: python3 tools/security_scan.py working-tree
+  history-release-gate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - run: python3 tools/security_scan.py install
+      # Expected to stay red while historical findings remain unresolved.
+      - run: python3 tools/security_scan.py history
+      - run: python3 tools/phase10.py phase6-gate
+  direct-dependency-audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      # Installed image/transitive/OS coverage is a separate local image gate.
+      - run: |
+          python3 -m venv /tmp/financial-news-ci-audit
+          /tmp/financial-news-ci-audit/bin/python -m pip install pip-audit==2.10.1
+          /tmp/financial-news-ci-audit/bin/python tools/supply_chain_audit.py --direct-only

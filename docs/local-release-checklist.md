@@ -9,6 +9,13 @@ remaining live B1/24h/72h gates are tracked in the
 [Phase09 report](phase9-engineering-report.md). Its functional PASS does not
 check the historical-credential remediation box or establish cloud readiness.
 
+Phase10 checkpoint (2026-10-23): redacted scans, preventive controls and selected
+regressions have evidence, but issuer invalidation/history cleanup, P09 required
+live windows, vulnerability remediation and authorized sign-off remain unresolved.
+The current decision is **NO-GO**; see the [Phase10 report](phase10-security-cloud-readiness-report.md)
+and [P11 entry checklist](cloud/phase11-entry-checklist.md). Do not check security
+boxes based only on local fixture or synthetic tests.
+
 ## Configuration and security
 
 - [x] Local, test, and future-cloud templates parse and validate.
