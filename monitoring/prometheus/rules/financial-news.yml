@@ -108,7 +108,7 @@ groups:
   - name: financial-news-crawling
     rules:
       - alert: CrawlerSourceBlocked
-        expr: increase(financial_news_crawler_runs_total{status="BLOCKED",data_kind="live"}[15m]) > 0
+        expr: sum without(status) (increase(financial_news_crawler_runs_total{status="BLOCKED",data_kind="live"}[15m])) > 0 or financial_news_crawler_source_blocked{data_kind="live"} > 0
         for: 1m
         labels:
           severity: warning
@@ -128,3 +128,42 @@ groups:
           severity: warning
         annotations:
           summary: "Durable crawler batch awaits the existing downstream pipeline"
+      - alert: CrawlerParserSuccessRatioLow
+        expr: >-
+          (increase(financial_news_crawler_articles_total{outcome="parser_failures",data_kind="live"}[1h])
+          / ignoring(outcome) clamp_min(increase(financial_news_crawler_articles_total{outcome="parser_failures",data_kind="live"}[1h])
+          + ignoring(outcome) increase(financial_news_crawler_articles_total{outcome="parse_successes",data_kind="live"}[1h]), 1) > 0.5)
+          and ignoring(outcome) (increase(financial_news_crawler_articles_total{outcome="parser_failures",data_kind="live"}[1h])
+          + ignoring(outcome) increase(financial_news_crawler_articles_total{outcome="parse_successes",data_kind="live"}[1h]) >= 5)
+          or (sum without(outcome) (increase(financial_news_crawler_articles_total{outcome="discovery_empty",data_kind="live"}[2h])) >= 3)
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Parser failure ratio or repeated empty discoveries need review; local tunable thresholds"
+      - alert: CrawlerOutboxRetryBudgetExhausted
+        expr: financial_news_crawler_outbox_exhausted_batches{data_kind="live"} > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Automatic downstream retries exhausted; preserve input and review before manual replay"
+      - alert: CrawlerOldestPendingTooOld
+        expr: time() - financial_news_crawler_oldest_pending_timestamp_seconds{data_kind="live"} > 1800
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Oldest durable unpublished crawler batch is over the local 30-minute threshold"
+      - alert: CrawlerScheduledHeartbeatStale
+        expr: >-
+          ((time() - financial_news_crawler_last_completed_timestamp_seconds{data_kind="live"}
+          > on(source) group_left financial_news_crawler_heartbeat_max_age_seconds)
+          and on(source) (financial_news_crawler_live_enabled == 1))
+          or ((financial_news_crawler_live_enabled == 1)
+          unless on(source) financial_news_crawler_last_completed_timestamp_seconds{data_kind="live"})
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Enabled live source has no recent completed crawl heartbeat; inspect scheduler and policy"

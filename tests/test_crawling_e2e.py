@@ -28,7 +28,7 @@ def main():
         repo.seed()
         # Re-enable only this fixture suite's rows, for deterministic repeatability.
         repo.query(
-            "UPDATE crawler_operations.frontier SET next_eligible_at=now(),status='NEW',observation_hash=NULL WHERE source LIKE 'fixture-acceptance:%%'"
+            "UPDATE crawler_operations.frontier SET first_seen_at=now(),next_eligible_at=now(),status='NEW',observation_hash=NULL WHERE source LIKE 'fixture-acceptance:%%'"
         )
         repo.query(
             "UPDATE crawler_operations.source_state SET cooldown_until=NULL WHERE source LIKE 'fixture-acceptance:%%'"

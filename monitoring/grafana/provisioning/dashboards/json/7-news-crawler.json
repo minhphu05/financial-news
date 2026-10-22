@@ -140,13 +140,230 @@
           "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Completed crawl heartbeat age (includes policy skips)",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 24
+      },
+      "targets": [
+        {
+          "expr": "time() - financial_news_crawler_last_completed_timestamp_seconds",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "Oldest unpublished batch age",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 24
+      },
+      "targets": [
+        {
+          "expr": "time() - financial_news_crawler_oldest_pending_timestamp_seconds",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "Crawler-linked downstream freshness",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 32
+      },
+      "targets": [
+        {
+          "expr": "time() - financial_news_crawler_layer_last_success_timestamp_seconds",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "Latest measured Landing to downstream stage",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 32
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_landing_to_layer_seconds",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "title": "Automatic retry budgets exhausted",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 40
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_outbox_exhausted_batches",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "Live runtime policy (independent of DAG cron)",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 40
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_live_enabled",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "title": "Mean HTTP chain seconds per request hop",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 48
+      },
+      "targets": [
+        {
+          "expr": "financial_news_crawler_http_duration_seconds_total / ignoring(outcome) financial_news_crawler_articles_total{outcome=\"request_count\"}",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "title": "Host available memory (shared workstation)",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 48
+      },
+      "targets": [
+        {
+          "expr": "node_memory_MemAvailable_bytes",
+          "refId": "A",
+          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes"
+        }
+      }
     }
   ],
   "refresh": "10s",
   "schemaVersion": 39,
   "tags": [
-    "phase07",
-    "overview"
+    "financial-news",
+    "crawler",
+    "phase09"
   ],
   "templating": {
     "list": []
@@ -157,7 +374,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Financial News \u2014 Multisource Crawling",
+  "title": "Financial News — Multisource Crawling",
   "uid": "news-crawler",
-  "version": 1
+  "version": 2
 }

@@ -1,14 +1,14 @@
 # Current implementation status
 
-Latest verification: 2026-10-03, Phase08 crawler branch based on `e300b09`.
-Earlier Phase01–07 checkpoint details below retain their original dates. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git
-commit, or push was created.
+Latest work checkpoint: **2026-10-22**, Phase09 on `feat/Phase-9`, base `583a382`.
+Functional verification is **PASS** (eight full-run checks plus a corrected scheduling recheck, all exit 0); real 24h/72h burn-in is **PENDING**, so Phase09 is not DONE. See the Phase09 section/report below.
+Phase01–08 checkpoint details retain their original dates, including the 2026-10-03 Phase08 verification based on `e300b09`; those changes were subsequently committed/merged by the repository workflow. No Azure resource, Kubernetes manifest, Terraform, Helm, tag, Git commit, or push was created during the Phase09 work.
 
 ## Release verdict
 
 **`NOT READY FOR CLOUD MIGRATION`**
 
-The Phase 06 implementation and every functional local test pass. The release
+The Phase06 implementation and its recorded functional local tests passed at that checkpoint. Current Phase09 verification is recorded separately below. The release
 gate remains closed because `.env` was committed in the first repository commit
 and later commits also exposed credential-shaped values. The current tree removes the
 file from tracking and ignores future `.env` files, but deletion from the next
@@ -38,6 +38,7 @@ then scan a fresh clone and rerun `make phase6-acceptance`.
 | 06 — Local release/cloud readiness | IMPLEMENTED; RELEASE BLOCKED | Clean bootstrap, configuration profiles, E2E, rebuilds, health, and regression checks passed. Security audit keeps the aggregate report at FAIL. |
 | 07 — Local monitoring/observability | COMPLETE | Fresh Phase07 acceptance passed; original 6 dashboards/12 alerts remain functional. Phase08 adds one dashboard and three alerts. |
 | 08 — Multisource crawling/ingestion | COMPLETE (LOCAL) | `make phase8-acceptance` exit 0; 26 crawler tests, 8 DAG tests, 6 monitoring unit tests, 2 real observability tests, all-five fixture scheduler run, all-five tiny live E2E. |
+| 09 — Continuous local operations/burn-in | FUNCTIONAL PASS; BURN-IN PENDING | Nine functional checkpoints PASS: full-run evidence plus corrected scheduling recheck; safe policies, bounded replay, reports, restart/reconciliation and settled denied cycles. Live B1 and real 24h/72h remain PENDING. |
 
 ## Verified local architecture
 
@@ -515,3 +516,14 @@ coverage of all 48 Markdown documents under `docs` and all 62 repository Markdow
 documents outside data/artifacts; source settings/selectors and smoke totals
 matched code/recorded JSON; `git diff --check` passed. No runtime tests were
 rerun for this documentation-only change.
+
+
+## Phase09 functional implementation checkpoint — 2026-10-22
+
+**Composed functional verification PASS**, all nine checkpoints exit 0. The original full target exited 0, but extended verification found an extra scheduled cycle failed during teardown. Its evidence is retained in `artifacts/phase9/attempt-3/`. Eight unchanged full-run checks were retained; after correcting pause/settle/restore and the post-rollback check, `python3 tools/phase9_scheduler_smoke.py` was rerun with exit 0. This is a focused rerun, not another full target invocation. Includes 54 policy/report/burn-in/crawler tests, 10 metrics tests, Phase08 regression with 10 DAG tests and real five-source fixture pipeline, Phase05 and Phase07 regressions, real scheduler restart with durable fixture replay/reconciliation, and two actual scheduled safety cycles with all five live source policies denied; both remain SUCCESS after rollback and no queued/running cycles remain. The extra alert-cadence test passed after tuning the empty-discovery window; Prometheus loaded 19 rules and the existing crawler dashboard has 14 panels. Repository provisioning remains seven dashboards; workspace Grafana also contains one previously persisted dashboard, which was retained.
+
+Canonical contracts, transformations/enrichment, Gold-derived serving and metadata-only CDC remain unchanged. Additive operations migration `0003_continuous_crawling` is applied; publication still covers only the two `control_metadata` tables. Scheduling configuration was restored to manual (`schedule=None`, scheduled-live=false), with all source live policies false. Runtime evidence is ignored under `artifacts/phase9/`; newly generated tracked Phase05/08 artifacts were archived there and restored to their committed historical snapshots. No commit, push, cloud deployment or credential-history remediation was performed.
+
+**B0 functional: PASS. B1 controlled live cycles: PENDING. B2 24h: PENDING. B3 72h: PENDING. Overall Phase09: not DONE.** No real-duration collector session was started; actual burn-in start/end are N/A. Historical credential audit continues to block cloud readiness. Complete current policy/access review, backup/recovery verification and the runbook prerequisites before starting live collection. Passing a fixture algorithm test is not time-based evidence.
+
+Implementation, failures/retries, acceptance matrix and limitations: [Phase09 engineering report](../phase9-engineering-report.md). Operator enable/pause/replay/report/rollback and real-duration collection: [crawler runbook](../crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence). The earlier Phase01–08 sections are dated history, not a claim that their original verification dates/counts were updated by this phase.

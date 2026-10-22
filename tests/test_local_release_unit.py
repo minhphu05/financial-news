@@ -61,8 +61,10 @@ class LocalReleaseUnitTest(unittest.TestCase):
             settings.object_uri("silver/articles"),
             "abfss://financial-news@thesisstore.dfs.core.windows.net/silver/articles",
         )
-        with self.assertRaisesRegex(ValueError, "Phase 08"):
+        with self.assertRaisesRegex(ValueError, "adapter.*deferred"):
             create_object_store(settings)
+        with self.assertRaisesRegex(ValueError, "ADLS execution is not installed"):
+            configure_storage(FakeBuilder(), settings)
 
     def test_release_audit_reports_only_historical_secret_names(self):
         names = credential_shaped_env_names(

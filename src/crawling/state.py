@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from src.pipeline_operations.config import OperationsSettings
 
 from .sources import SOURCES
+from .policy import DEFAULTS, PolicySkip, effective_policy
 
 
 class SourceBusy(RuntimeError):
@@ -87,6 +88,7 @@ class Repository:
                         "CRAWLER_USER_AGENT", "FinancialNewsResearch/0.1"
                     ),
                     "processing_version": "crawl-v1",
+                    **DEFAULTS,
                 }
             }
             self.query(
@@ -97,36 +99,35 @@ class Repository:
         self.grant_monitoring()
         return list(SOURCES)
 
-    def config(self, key):
+    def config(self, key, *, allow_disabled=False):
         rows = self.query(
             "SELECT enabled,config FROM control_metadata.news_sources WHERE source_id=%s",
             ("crawler:" + key,),
         )
         if not rows:
             raise ValueError("crawler_source_not_seeded")
-        if not rows[0]["enabled"]:
-            raise ValueError("crawler_source_disabled")
+        if not rows[0]["enabled"] and not allow_disabled:
+            raise PolicySkip("crawler_source_disabled")
         config = rows[0]["config"]["crawler"]
-        s = SOURCES[key]
-        if (
-            config["adapter"] != key
-            or config["raw_schema_version"] != s.raw_schema_version
-            or config["parser_version"] != s.parser_version
-        ):
-            raise ValueError("crawler_config_version_mismatch")
-        if (
-            not 1 <= int(config["max_articles"]) <= 20
-            or not 1 <= int(config["max_attempts"]) <= 10
-            or float(config["request_interval_seconds"]) < 1
-            or float(config["recheck_hours"]) < 1
-            or not 1 <= int(config["recent_days"]) <= 30
-        ):
-            raise ValueError("invalid_bounded_crawler_config")
-        for url in config["discovery_urls"]:
-            s.url(url)
-        if len(config["discovery_urls"]) > 3:
-            raise ValueError("too_many_listing_pages")
-        return config
+        return effective_policy(SOURCES[key], config, enabled=rows[0]["enabled"])
+
+    def record_skip(self, source, run, trigger, reason, context=None):
+        self.query(
+            "INSERT INTO crawler_operations.crawl_runs(crawl_run_id,source,trigger_type,status,finished_at,metrics) "
+            "VALUES(%s,%s,%s,'SKIPPED',now(),%s::jsonb)",
+            (
+                run,
+                source,
+                trigger,
+                json.dumps(
+                    {
+                        "outcome": "SKIPPED_BY_POLICY",
+                        "skip_reason": reason,
+                        **(context or {}),
+                    }
+                ),
+            ),
+        )
 
     def start(self, source, run, trigger):
         self.query(
@@ -134,9 +135,11 @@ class Repository:
             (source,),
         )
         state = self.query(
-            "SELECT cooldown_until FROM crawler_operations.source_state WHERE source=%s",
+            "SELECT cooldown_until,blocked_at FROM crawler_operations.source_state WHERE source=%s",
             (source,),
         )[0]
+        if state["blocked_at"]:
+            raise SourceBusy("source_blocked_requires_policy_review")
         if state["cooldown_until"] and state["cooldown_until"] > datetime.now(
             timezone.utc
         ):
@@ -206,6 +209,7 @@ class Repository:
         http = getattr(error, "status", None)
         if http in (401, 403):
             status = "BLOCKED"
+            self.block(source, getattr(error, "reason", "blocked_http"))
         cooldown = max(getattr(error, "retry_after", 0), min(3600, 60 * 2**attempts))
         self.query(
             """UPDATE crawler_operations.frontier SET status=%s,attempts=%s,next_eligible_at=now()+%s::interval,
@@ -227,6 +231,34 @@ class Repository:
         if getattr(error, "retry_after", 0):
             self.cooldown(source, error.retry_after)
         return status
+
+    def block(self, source, reason):
+        self.query(
+            "UPDATE crawler_operations.source_state SET blocked_at=now(),blocked_reason=%s WHERE source=%s",
+            (reason, source),
+        )
+
+    def recover_publishing(self, source):
+        # Called under the same source advisory lock; an old RUNNING publisher is dead.
+        self.query(
+            "UPDATE crawler_operations.batches SET status='FAILED',error_message='Interrupted publisher; source lock released' "
+            "WHERE source=%s AND status='RUNNING'",
+            (source,),
+        )
+
+    def due_batches(self, source, limit, max_attempts, *, force=False):
+        return self.query(
+            "SELECT * FROM crawler_operations.batches WHERE source=%s AND status<>'SUCCESS' "
+            "AND (%s OR (next_eligible_at<=now() AND attempts<%s)) ORDER BY created_at,batch_id LIMIT %s",
+            (source, force, max_attempts, limit),
+        )
+
+    def claim_batch(self, batch_id):
+        return self.query(
+            "UPDATE crawler_operations.batches SET status='RUNNING',attempts=attempts+1,last_attempt_at=now() "
+            "WHERE batch_id=%s AND status<>'SUCCESS' RETURNING attempts",
+            (batch_id,),
+        )[0]["attempts"]
 
     def cooldown(self, source, seconds):
         self.query(
