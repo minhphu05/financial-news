@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "CPU/RAM/filesystem là máy phát triển dùng chung, không phải riêng pipeline. Network hiện là namespace Docker của node-exporter (eth0), KHÔNG phải toàn bộ NIC host. Cgroup có cả parent/child, không cộng thành tổng RAM container. Không có benchmark hoặc capacity/SLA được suy ra từ các đồ thị này.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "Host CPU used",
+      "title": "CPU bận — toàn workstation",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -19,28 +92,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
+        "y": 5,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
           "expr": "100 * (1 - avg(rate(node_cpu_seconds_total{mode=\"idle\"}[2m])))",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "CPU toàn máy",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "percent"
+          "unit": "percent",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Trung bình mọi CPU từ node exporter, gồm ứng dụng khác. Cửa sổ rate 2 phút; không phải CPU riêng Spark."
     },
     {
       "id": 2,
-      "title": "Host memory used",
+      "title": "RAM sử dụng — toàn workstation",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -48,28 +154,61 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 0,
+        "y": 5,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
           "expr": "node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "RAM đang dùng",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "bytes"
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "MemTotal - MemAvailable, không phải RSS của pipeline; khác used theo công thức cache khác của công cụ hệ thống."
     },
     {
       "id": 3,
-      "title": "Host network receive",
+      "title": "Network nhận — namespace node-exporter",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -77,28 +216,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 8,
+        "y": 15,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "sum by (device) (rate(node_network_receive_bytes_total{device!=\"lo\"}[2m]))",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "sum by(device) (rate(node_network_receive_bytes_total{device!=\"lo\"}[2m]))",
+          "legendFormat": "{{device}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "Bps"
+          "unit": "Bps",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Compose dùng bridge network; /proc/net quan sát namespace exporter, hiện chỉ eth0. Không đại diện tải mạng card Wi-Fi/Ethernet host."
     },
     {
       "id": 4,
-      "title": "Host network transmit",
+      "title": "Network gửi — namespace node-exporter",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -106,28 +278,61 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 8,
+        "y": 15,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "sum by (device) (rate(node_network_transmit_bytes_total{device!=\"lo\"}[2m]))",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "sum by(device) (rate(node_network_transmit_bytes_total{device!=\"lo\"}[2m]))",
+          "legendFormat": "{{device}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "Bps"
+          "unit": "Bps",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Cùng giới hạn namespace như network nhận. Không là lưu lượng crawler riêng."
     },
     {
       "id": 5,
-      "title": "Host filesystem available",
+      "title": "Dung lượng còn trống theo filesystem",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -135,74 +340,362 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 16,
+        "y": 25,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
           "expr": "node_filesystem_avail_bytes{fstype!~\"tmpfs|overlay\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "{{mountpoint}} · {{device}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "bytes"
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Dung lượng khả dụng từ node exporter. Đối chiếu df ở đúng filesystem; không phải riêng kích thước MinIO bucket."
     },
     {
       "id": 6,
-      "title": "Observed cgroups (container name labels unavailable on this host)",
+      "title": "Top 15 cgroup RAM — không cộng parent/child",
       "type": "table",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 12,
-        "y": 16,
-        "w": 12,
-        "h": 8
+        "x": 0,
+        "y": 35,
+        "w": 24,
+        "h": 11
       },
       "targets": [
         {
           "refId": "A",
           "expr": "topk(15, container_memory_working_set_bytes)",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "{{id}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "table",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "bytes"
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          }
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "^(Lớp|Nguồn|Pipeline|Stage|Loại số liệu|Topic|Partition|Mức độ|Cgroup ID)$"
+            },
+            "properties": [
+              {
+                "id": "noValue",
+                "value": "—"
+              }
+            ]
+          }
+        ]
       },
       "options": {
         "showHeader": true,
         "cellHeight": "sm"
+      },
+      "description": "cAdvisor trên máy này chưa có nhãn tên Docker container. Giữ Cgroup ID để nhận diện, gồm root/user.slice và nhóm con chồng lặp; không cộng các hàng.",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "instance": true,
+              "job": true
+            },
+            "renameByName": {
+              "source": "Nguồn",
+              "pipeline": "Pipeline",
+              "stage": "Stage",
+              "layer": "Lớp",
+              "kind": "Loại số liệu",
+              "status": "Trạng thái",
+              "topic": "Topic",
+              "partition": "Partition",
+              "device": "Thiết bị",
+              "id": "Cgroup ID",
+              "Value": "Giá trị",
+              "alertname": "Cảnh báo",
+              "severity": "Mức độ"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "stat",
+      "gridPos": {
+        "x": 0,
+        "y": 46,
+        "w": 8,
+        "h": 6
+      },
+      "title": "RAM khả dụng — toàn workstation",
+      "description": "Dùng để theo dõi áp lực bộ nhớ. Hard-stop pilot có floor vận hành riêng, không phải cấu hình capacity đã benchmark.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "node_memory_MemAvailable_bytes",
+          "legendFormat": "RAM khả dụng",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 8,
+      "type": "stat",
+      "gridPos": {
+        "x": 8,
+        "y": 46,
+        "w": 8,
+        "h": 6
+      },
+      "title": "Tỷ lệ RAM đang sử dụng",
+      "description": "Phần trăm toàn workstation, không tự gán ngưỡng production.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "100 * (1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)",
+          "legendFormat": "RAM toàn máy",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percent",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 9,
+      "type": "stat",
+      "gridPos": {
+        "x": 16,
+        "y": 46,
+        "w": 8,
+        "h": 6
+      },
+      "title": "Telemetry tài nguyên đang scrape được?",
+      "description": "0/No data: các đồ thị tài nguyên có thể thiếu mẫu. Không nối dữ liệu qua outage.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "min by(job) (up{job=~\"node-exporter|cadvisor\"})",
+          "legendFormat": "{{job}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
       }
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
-    "resources"
+    "resources",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
     "list": []
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Local Infrastructure — Resources",
   "uid": "financial-news-local-resources",
-  "version": 1
+  "version": 2
 }

@@ -590,7 +590,7 @@ services:
     restart: unless-stopped
     command:
       - --kafka.server=kafka:9092
-      - --topic.filter=platform\\.control_metadata\\..*
+      - --topic.filter=platform[.]control_metadata[.].*
       - --group.filter=metadata-.*|phase07-.*
       - --log.level=warn
     ports:

@@ -6,375 +6,1337 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
-      "id": 1,
-      "title": "Crawl runs",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
       "gridPos": {
-        "h": 8,
-        "w": 12,
         "x": 0,
-        "y": 0
+        "y": 0,
+        "w": 24,
+        "h": 5
       },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_runs_total",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
+      "options": {
+        "mode": "markdown",
+        "content": "Theo dõi pilot: mặc định live và cả 5 nguồn. Đọc metrics health → cờ live/block → pending/tuổi crawl → đồ thị. Chọn 1 nguồn để chẩn đoán. Các số _total là lũy kế ledger, gồm lỗi cũ; time range không biến chúng thành số của pilot. Fixture được chọn riêng, không trộn mặc định.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
     },
     {
-      "id": 2,
-      "title": "Fetched / changed / rejected",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
+      "id": 15,
+      "type": "stat",
       "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 0
-      },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_articles_total",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Frontier eligibility states",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
         "x": 0,
-        "y": 8
+        "y": 5,
+        "w": 8,
+        "h": 6
       },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_frontier_urls",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Durable batches awaiting downstream",
-      "type": "timeseries",
+      "title": "Exporter đọc ledger thành công?",
+      "description": "Kiểm ô này trước khi diễn giải No data ở các panel crawler. 1 = read-only DB snapshot thành công.",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 8
+        "uid": "prometheus-main"
       },
       "targets": [
         {
-          "expr": "financial_news_crawler_pending_batches",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Latest batch duration",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 0,
-        "y": 16
-      },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_last_duration_seconds",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Last successful live crawl age",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 16
-      },
-      "targets": [
-        {
-          "expr": "time() - financial_news_crawler_last_success_timestamp_seconds{data_kind=\"live\"}",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{status}} {{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Completed crawl heartbeat age (includes policy skips)",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 0,
-        "y": 24
-      },
-      "targets": [
-        {
-          "expr": "time() - financial_news_crawler_last_completed_timestamp_seconds",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "financial_news_exporter_collection_success",
+          "legendFormat": "Collection",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Cờ cấu hình cho phép live — không phải health",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 5,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_live_enabled{source=~\"${crawl_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "TẮT",
+                  "color": "gray"
+                },
+                "1": {
+                  "text": "BẬT",
+                  "color": "blue"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "description": "Chỉ cờ config của nguồn, không chịu data_kind filter, không đổi cron và không kiểm live_until. Quyền thực thi còn phụ thuộc expiry/robots/block/cooldown và DAG unpause.",
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 16,
+      "type": "stat",
+      "gridPos": {
+        "x": 16,
+        "y": 5,
+        "w": 8,
+        "h": 6
+      },
+      "title": "Nguồn đang bị block latch?",
+      "description": "0 = không có block latch, 1 = bị khóa cần review policy. Không tự clear block hoặc bypass để làm xanh.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_source_blocked{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "KHÔNG",
+                  "color": "green"
+                },
+                "1": {
+                  "text": "BỊ KHÓA",
+                  "color": "red"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 17,
+      "type": "stat",
+      "gridPos": {
+        "x": 0,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "title": "Batch pending hiện tại",
+      "description": "Snapshot theo live/fixture. 0 là không còn batch chờ; không chứng minh không từng lỗi trong phiên.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_pending_batches{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Tuổi lần crawl SUCCESS gần nhất",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "time() - financial_news_crawler_last_success_timestamp_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "Không gồm policy skip. Tuổi tăng giữa lịch 30 phút là bình thường. Không phải tuổi published_at của article.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Batch hết retry budget cần review",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_outbox_exhausted_batches{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"} or on(source,data_kind) (financial_news_crawler_pending_batches{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"} * 0)",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "description": "0 được suy từ pending snapshot đã thu được khi không có nhóm exhausted; không đổi thiếu toàn bộ telemetry thành 0.",
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      }
+    },
+    {
+      "id": 1,
+      "title": "Run crawl theo trạng thái — lũy kế ledger",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 17,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_runs_total{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "Lũy kế/snapshot từ PostgreSQL, không phải số phát sinh trong khoảng thời gian đang chọn; đổi time range chỉ đổi diễn biến hiển thị. Giữ cả lỗi đã phục hồi, không lấy increase()/rate() như counter đơn điệu. SUCCESS crawl chưa chứng minh Gold/serving đã phát hành.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Kết quả article — lũy kế ledger",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 17,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_articles_total{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\",outcome=~\"fetched|new_articles|updated_articles|unchanged|failed\"}",
+          "legendFormat": "{{source}} · {{outcome}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "Lũy kế/snapshot từ PostgreSQL, không phải số phát sinh trong khoảng thời gian đang chọn; đổi time range chỉ đổi diễn biến hiển thị. Giữ cả lỗi đã phục hồi, không lấy increase()/rate() như counter đơn điệu. fetched có thể parse lỗi; một URL được fetch nhiều lần không phải nhiều article duy nhất.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Frontier: số URL hiện tại theo trạng thái",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 27,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_frontier_urls{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "Snapshot tập URL NEW/RETRY/SUCCESS/PERMANENT_FAILURE/PARSE_FAILURE/BLOCKED. Không phải tất cả đều due; phải xem next_eligible_at/cooldown trong ledger.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Batch chưa publish — diễn biến",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 27,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_pending_batches{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "0 = không có batch chưa SUCCESS ở snapshot. >0 có thể đang chạy/retry hoặc lỗi; xem pending age và attempts.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "Thời gian crawl batch gần nhất",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 37,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_crawler_last_duration_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "description": "Thời gian crawl/parse/Landing/Bronze, không gồm toàn bộ Spark/embedding/publication. Skip không có duration sẽ không giả lập 0.",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "title": "Tuổi heartbeat hoàn tất — kể cả skip",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 37,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "time() - financial_news_crawler_last_completed_timestamp_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "Heartbeat cập nhật cả khi skip/policy deny. Vì thế heartbeat mới không chứng minh nguồn đã crawl live thành công.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     },
     {
       "id": 8,
-      "title": "Oldest unpublished batch age",
+      "title": "Tuổi batch pending lâu nhất",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
+        "uid": "prometheus-main"
       },
       "gridPos": {
-        "h": 8,
+        "x": 0,
+        "y": 47,
         "w": 12,
-        "x": 12,
-        "y": 24
+        "h": 10
       },
       "targets": [
         {
-          "expr": "time() - financial_news_crawler_oldest_pending_timestamp_seconds",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "(time() - financial_news_crawler_oldest_pending_timestamp_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"}) or on(source,data_kind) (financial_news_crawler_pending_batches{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"} == 0)",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "0 chỉ khi pending metric xác nhận không còn batch. Nếu có backlog nhưng thiếu timestamp thì giữ No data để điều tra, không bịa tuổi 0.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     },
     {
       "id": 9,
-      "title": "Crawler-linked downstream freshness",
+      "title": "Tuổi downstream thành công gắn với crawler",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
+        "uid": "prometheus-main"
       },
       "gridPos": {
-        "h": 8,
+        "x": 12,
+        "y": 47,
         "w": 12,
-        "x": 0,
-        "y": 32
+        "h": 10
       },
       "targets": [
         {
-          "expr": "time() - financial_news_crawler_layer_last_success_timestamp_seconds",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "time() - financial_news_crawler_layer_last_success_timestamp_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\",layer=~\"${layer:regex}\"}",
+          "legendFormat": "{{source}} · {{layer}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "Successful stage liên kết outbox của đúng live/fixture. Tăng khi không có article thay đổi là bình thường; không phải tuổi bài báo.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     },
     {
       "id": 10,
-      "title": "Latest measured Landing to downstream stage",
+      "title": "Landing đầu tiên → stage hoàn tất gần nhất",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
+        "uid": "prometheus-main"
       },
       "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 32
-      },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_landing_to_layer_seconds",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        }
-      }
-    },
-    {
-      "id": 11,
-      "title": "Automatic retry budgets exhausted",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
         "x": 0,
-        "y": 40
-      },
-      "targets": [
-        {
-          "expr": "financial_news_crawler_outbox_exhausted_batches",
-          "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "short"
-        }
-      }
-    },
-    {
-      "id": 12,
-      "title": "Live runtime policy (independent of DAG cron)",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "h": 8,
+        "y": 57,
         "w": 12,
-        "x": 12,
-        "y": 40
+        "h": 10
       },
       "targets": [
         {
-          "expr": "financial_news_crawler_live_enabled",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "financial_news_crawler_landing_to_layer_seconds{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\",layer=~\"${layer:regex}\"}",
+          "legendFormat": "{{source}} · {{layer}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "short"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "Độ trễ batch đo từ first durable HTML Landing đến stage finish, gồm chờ/retry. Snapshot gần nhất; không phải p95, tốc độ bài/giây hay benchmark.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     },
     {
       "id": 13,
-      "title": "Mean HTTP chain seconds per request hop",
+      "title": "HTTP chain trung bình / request hop — toàn ledger",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
+        "uid": "prometheus-main"
       },
       "gridPos": {
-        "h": 8,
+        "x": 12,
+        "y": 57,
         "w": 12,
-        "x": 0,
-        "y": 48
+        "h": 10
       },
       "targets": [
         {
-          "expr": "financial_news_crawler_http_duration_seconds_total / ignoring(outcome) financial_news_crawler_articles_total{outcome=\"request_count\"}",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "financial_news_crawler_http_duration_seconds_total{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\"} / ignoring(outcome) (financial_news_crawler_articles_total{source=~\"${crawl_source:regex}\",data_kind=\"${data_kind}\",outcome=\"request_count\"} > 0)",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "Tổng HTTP elapsed / tổng request hops đã ghi. Initial pacing wait bị loại, redirect pacing trong chain được tính. Không phải độ trễ fetch article riêng hoặc trung bình cửa sổ; fixture không có phép đo HTTP thật.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     },
     {
       "id": 14,
-      "title": "Host available memory (shared workstation)",
+      "title": "RAM khả dụng — toàn workstation",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
-        "uid": "prometheus"
+        "uid": "prometheus-main"
       },
       "gridPos": {
-        "h": 8,
+        "x": 0,
+        "y": 67,
         "w": 12,
-        "x": 12,
-        "y": 48
+        "h": 10
       },
       "targets": [
         {
-          "expr": "node_memory_MemAvailable_bytes",
           "refId": "A",
-          "legendFormat": "{{source}} {{data_kind}} {{layer}}"
+          "expr": "node_memory_MemAvailable_bytes",
+          "legendFormat": "RAM khả dụng",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "bytes"
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "description": "Toàn máy dùng chung, không lọc theo source/data_kind; không phải RAM riêng crawler.",
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
       }
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "financial-news",
     "crawler",
-    "phase09"
+    "phase09",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "crawl_source",
+        "label": "Nguồn crawl",
+        "type": "custom",
+        "query": "cafef,vnexpress,tuoitre,thanhnien,baomoi",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "cafef|vnexpress|tuoitre|thanhnien|baomoi",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "cafef",
+            "value": "cafef",
+            "selected": false
+          },
+          {
+            "text": "vnexpress",
+            "value": "vnexpress",
+            "selected": false
+          },
+          {
+            "text": "tuoitre",
+            "value": "tuoitre",
+            "selected": false
+          },
+          {
+            "text": "thanhnien",
+            "value": "thanhnien",
+            "selected": false
+          },
+          {
+            "text": "baomoi",
+            "value": "baomoi",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "data_kind",
+        "label": "Loại dữ liệu",
+        "type": "custom",
+        "query": "live,fixture",
+        "multi": false,
+        "includeAll": false,
+        "allValue": null,
+        "current": {
+          "text": "live",
+          "value": "live"
+        },
+        "options": [
+          {
+            "text": "live",
+            "value": "live",
+            "selected": true
+          },
+          {
+            "text": "fixture",
+            "value": "fixture",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "layer",
+        "label": "Lớp downstream",
+        "type": "custom",
+        "query": "silver,gold_rag,gold_analytics,qdrant,duckdb",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "silver|gold_rag|gold_analytics|qdrant|duckdb",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "silver",
+            "value": "silver",
+            "selected": false
+          },
+          {
+            "text": "gold_rag",
+            "value": "gold_rag",
+            "selected": false
+          },
+          {
+            "text": "gold_analytics",
+            "value": "gold_analytics",
+            "selected": false
+          },
+          {
+            "text": "qdrant",
+            "value": "qdrant",
+            "selected": false
+          },
+          {
+            "text": "duckdb",
+            "value": "duckdb",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Financial News — Multisource Crawling",
   "uid": "news-crawler",
-  "version": 2
+  "version": 3
 }

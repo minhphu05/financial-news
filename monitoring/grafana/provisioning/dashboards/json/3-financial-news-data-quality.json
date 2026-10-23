@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Đọc invalid → gate → reconciliation. Duplicate có thể là kết quả loại trùng đúng; không đồng nghĩa lỗi. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế. Chất lượng ở đây là schema/cleaning/đối soát, không phải đánh giá NER, semantic search hay RAG.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "Invalid records",
+      "title": "Bản ghi invalid — Silver attempt gần nhất",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -19,19 +92,47 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
-        "w": 6,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_quality_invalid_records",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_quality_invalid_records{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 1
+              }
+            ]
+          }
+        },
         "overrides": []
       },
       "options": {
@@ -43,35 +144,52 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Số reject ở latest Silver attempt, không phải tổng reject toàn kho. Khi attempt đang chạy hoặc chưa có metrics, số 0 chưa chứng minh dữ liệu đã được kiểm."
     },
     {
       "id": 2,
-      "title": "Duplicate records",
+      "title": "Bản ghi duplicate — Silver attempt gần nhất",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 6,
-        "y": 0,
-        "w": 6,
+        "x": 8,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_quality_duplicate_records",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_quality_duplicate_records{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
         "overrides": []
       },
       "options": {
@@ -83,205 +201,464 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Số bản ghi loại trùng của attempt gần nhất. Giá trị dương có thể là hoạt động dedup bình thường."
     },
     {
       "id": 3,
-      "title": "Duplicate ratio",
+      "title": "Tỷ lệ duplicate — Silver attempt gần nhất",
       "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 5,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_quality_duplicate_ratio{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "duplicate/input của latest attempt. Không là tỷ lệ trùng toàn corpus hoặc toàn cửa sổ."
+    },
+    {
+      "id": 4,
+      "title": "Schema + Silver attempt gần nhất SUCCESS?",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_quality_gate_pass{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "orange",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "CHƯA SUCCESS",
+                  "color": "orange"
+                },
+                "1": {
+                  "text": "SUCCESS",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "1 khi cả latest schema_validation và silver_merge là SUCCESS. 0 có thể do đang chạy, chưa đủ stage hoặc lỗi; không đồng nghĩa mọi article đạt chất lượng nội dung."
+    },
+    {
+      "id": 5,
+      "title": "Đối soát gần nhất PASS?",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_reconciliation_pass{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "orange",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "CHƯA PASS",
+                  "color": "orange"
+                },
+                "1": {
+                  "text": "PASS",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "1 khi latest reconciliation SUCCESS và metrics.status=PASS; 0 nếu đang chạy/lỗi. So Silver/Gold/Qdrant/DuckDB theo contract; không đánh giá chất lượng câu trả lời RAG."
+    },
+    {
+      "id": 6,
+      "title": "Bronze/Silver: số của attempt gần nhất",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 17,
+        "w": 12,
+        "h": 10
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_pipeline_records{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",stage=~\"bronze_ingest|silver_merge\",kind=~\"input|output|invalid|duplicate|silver_articles\"}",
+          "legendFormat": "{{source}} · {{stage}} · {{kind}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "input/output/invalid/duplicate là hiệu ứng batch; silver_articles là tổng current table. Không áp một đẳng thức cho các snapshot khác stage/thời điểm."
+    },
+    {
+      "id": 7,
+      "title": "Silver/Gold: article, document và chunk",
+      "type": "timeseries",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
         "x": 12,
-        "y": 0,
-        "w": 6,
-        "h": 6
+        "y": 17,
+        "w": 12,
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_quality_duplicate_ratio",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_pipeline_records{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",stage=~\"silver_merge|gold_rag_merge|reconciliation\",kind=~\"silver_articles|input_articles|documents|chunks|gold_documents|gold_chunks\"}",
+          "legendFormat": "{{source}} · {{stage}} · {{kind}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "percentunit"
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
       "options": {
-        "reduceOptions": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
           "calcs": [
             "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
+          ]
         },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 4,
-      "title": "Quality gate pass",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 18,
-        "y": 0,
-        "w": 6,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_quality_gate_pass",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
         }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
       },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 5,
-      "title": "Reconciliation pass",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 0,
-        "y": 6,
-        "w": 6,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_reconciliation_pass",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Bronze and Silver record relationship",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 6,
-        "y": 6,
-        "w": 18,
-        "h": 8
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_pipeline_records{stage=~\"bronze_ingest|silver_merge\",kind=~\"input|output|invalid|duplicate|silver_articles\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "options": {}
-    },
-    {
-      "id": 7,
-      "title": "Silver and Gold relationship",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 0,
-        "y": 14,
-        "w": 24,
-        "h": 8
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_pipeline_records{stage=~\"silver_merge|gold_rag_merge|reconciliation\",kind=~\"silver_articles|input_articles|documents|chunks|gold_documents|gold_chunks\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "options": {}
+      "description": "Một article có thể tạo nhiều chunk. So current counts tại reconciliation; không kỳ vọng chunks = articles. Chọn một nguồn để tránh nhiều đường."
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
-    "quality"
+    "quality",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "pipeline",
+        "label": "Pipeline",
+        "type": "custom",
+        "query": "financial_news_incremental,phase05_integration,local_release_e2e,other",
+        "multi": false,
+        "includeAll": false,
+        "allValue": null,
+        "current": {
+          "text": "financial_news_incremental",
+          "value": "financial_news_incremental"
+        },
+        "options": [
+          {
+            "text": "financial_news_incremental",
+            "value": "financial_news_incremental",
+            "selected": true
+          },
+          {
+            "text": "phase05_integration",
+            "value": "phase05_integration",
+            "selected": false
+          },
+          {
+            "text": "local_release_e2e",
+            "value": "local_release_e2e",
+            "selected": false
+          },
+          {
+            "text": "other",
+            "value": "other",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "news_source",
+        "label": "Nguồn tin (hostname)",
+        "type": "custom",
+        "query": "cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "cafef[.]vn|vnexpress[.]net|tuoitre[.]vn|thanhnien[.]vn|baomoi[.]com",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "cafef.vn",
+            "value": "cafef.vn",
+            "selected": false
+          },
+          {
+            "text": "vnexpress.net",
+            "value": "vnexpress.net",
+            "selected": false
+          },
+          {
+            "text": "tuoitre.vn",
+            "value": "tuoitre.vn",
+            "selected": false
+          },
+          {
+            "text": "thanhnien.vn",
+            "value": "thanhnien.vn",
+            "selected": false
+          },
+          {
+            "text": "baomoi.com",
+            "value": "baomoi.com",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Financial News Pipeline — Data Quality",
   "uid": "financial-news-data-quality",
-  "version": 1
+  "version": 2
 }

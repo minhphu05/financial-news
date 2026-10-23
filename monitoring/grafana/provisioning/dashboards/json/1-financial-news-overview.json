@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Đọc từ các ô dịch vụ → mở Crawling để theo dõi live → Operations/Quality/Freshness để tìm stage. Các ô dịch vụ, tổng vector Qdrant và cảnh báo là toàn stack; bộ lọc chỉ tác động các panel pipeline. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "Critical scrape targets",
+      "title": "Dịch vụ: Prometheus có scrape được không?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -19,19 +92,62 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
-        "w": 12,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "min by (job) (up{job=~\"pipeline-exporter|postgresql|kafka|airflow-statsd|minio|qdrant\"})",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "{{job}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -43,35 +159,79 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "1 = scrape thành công; 0 = scrape lỗi. Exporter up chưa chứng minh database/ứng dụng khỏe: đọc thêm các ô collection, scheduler và CDC."
     },
     {
       "id": 2,
-      "title": "Pipeline exporter collection",
+      "title": "Exporter đọc PostgreSQL thành công?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 12,
-        "y": 0,
-        "w": 6,
+        "x": 8,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "financial_news_exporter_collection_success",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "PostgreSQL collection",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -83,35 +243,79 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "1 = lần đọc read-only metadata gần nhất thành công. 0 hoặc thiếu dữ liệu: các panel dữ liệu không đủ tin cậy."
     },
     {
       "id": 3,
-      "title": "Airflow scheduler",
+      "title": "Airflow scheduler khỏe?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 18,
-        "y": 0,
-        "w": 6,
+        "x": 16,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "financial_news_airflow_component_up{component=\"scheduler\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "Scheduler",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -123,15 +327,16 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Trạng thái từ Airflow health API. 1 không có nghĩa DAG đang unpause hoặc nguồn đang được phép live."
     },
     {
       "id": 4,
-      "title": "Pipeline runs by status",
+      "title": "Run pipeline theo trạng thái — lũy kế ledger",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -139,26 +344,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 6,
+        "y": 11,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_runs_total",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "sum by (source,status) (financial_news_pipeline_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"})",
+          "legendFormat": "{{source}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Lũy kế/snapshot từ PostgreSQL, không phải số phát sinh trong khoảng thời gian đang chọn; đổi time range chỉ đổi diễn biến hiển thị. Giữ cả lỗi đã phục hồi, không lấy increase()/rate() như counter đơn điệu. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế."
     },
     {
       "id": 5,
-      "title": "Layer freshness",
+      "title": "Tuổi cập nhật thành công theo lớp",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -166,28 +406,61 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 6,
+        "y": 11,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_freshness_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}} · {{layer}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Số giây kể từ successful stage gần nhất. Tăng giữa các lần xử lý là bình thường; không phải tuổi xuất bản bài báo. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế."
     },
     {
       "id": 6,
-      "title": "Active alerts",
+      "title": "Cảnh báo đang firing — toàn stack",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -195,19 +468,47 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 14,
-        "w": 6,
+        "y": 21,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "count(ALERTS{alertstate=\"firing\"})",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "(count(ALERTS{alertstate=\"firing\"}) or vector(0)) and on() (up{job=\"prometheus\"} == 1)",
+          "legendFormat": "Cảnh báo firing",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 1
+              }
+            ]
+          }
+        },
         "overrides": []
       },
       "options": {
@@ -219,35 +520,52 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "0 chỉ khi truy vấn Prometheus đang có dữ liệu và không có alert firing. Bao gồm cảnh báo dataset kiểm thử/lịch sử; xem bảng phía dưới."
     },
     {
       "id": 7,
-      "title": "Qdrant vectors",
+      "title": "Vector Qdrant — tất cả collection",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 6,
-        "y": 14,
-        "w": 6,
+        "x": 8,
+        "y": 21,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "collections_vector_total",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "Tất cả collection",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
         "overrides": []
       },
       "options": {
@@ -259,35 +577,79 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Native Qdrant metric: tổng vector toàn instance, gồm cả fixture/collection kiểm thử. Không phải số article và không lọc theo hostname."
     },
     {
       "id": 8,
-      "title": "DuckDB operational state",
+      "title": "Lần publish DuckDB gần nhất thành công?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 12,
-        "y": 14,
-        "w": 6,
+        "x": 16,
+        "y": 21,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_duckdb_operational_up",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_duckdb_operational_up{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "orange",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "CHƯA SUCCESS",
+                  "color": "orange"
+                },
+                "1": {
+                  "text": "SUCCESS",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -299,35 +661,79 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "1 = latest publish stage SUCCESS, 0 = attempt đang chạy hoặc lỗi. Đây là trạng thái ledger, không phải probe mở file DuckDB hiện tại. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế."
     },
     {
       "id": 9,
-      "title": "CDC connector",
+      "title": "Debezium connector RUNNING?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 18,
-        "y": 14,
-        "w": 6,
+        "x": 0,
+        "y": 27,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "financial_news_debezium_connector_up",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "Connector",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -339,29 +745,202 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Chỉ CDC metadata, không là hàng đợi article. Xem dashboard CDC để kiểm task/slot/offset."
+    },
+    {
+      "id": 10,
+      "type": "table",
+      "gridPos": {
+        "x": 0,
+        "y": 33,
+        "w": 24,
+        "h": 11
+      },
+      "title": "Chi tiết cảnh báo đang firing",
+      "description": "Cảnh báo toàn stack. source=phase05-recovery.local là dataset fault-injection cũ, không phải nguồn live. Không xóa alert để làm dashboard xanh.",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "ALERTS{alertstate=\"firing\"}",
+          "legendFormat": "{{alertname}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "table",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "^(Lớp|Nguồn|Pipeline|Stage|Loại số liệu|Topic|Partition|Mức độ|Cgroup ID)$"
+            },
+            "properties": [
+              {
+                "id": "noValue",
+                "value": "—"
+              }
+            ]
+          }
+        ]
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      },
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "instance": true,
+              "job": true
+            },
+            "renameByName": {
+              "source": "Nguồn",
+              "pipeline": "Pipeline",
+              "stage": "Stage",
+              "layer": "Lớp",
+              "kind": "Loại số liệu",
+              "status": "Trạng thái",
+              "topic": "Topic",
+              "partition": "Partition",
+              "device": "Thiết bị",
+              "id": "Cgroup ID",
+              "Value": "Giá trị",
+              "alertname": "Cảnh báo",
+              "severity": "Mức độ"
+            }
+          }
+        }
+      ]
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
-    "overview"
+    "overview",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "pipeline",
+        "label": "Pipeline",
+        "type": "custom",
+        "query": "financial_news_incremental,phase05_integration,local_release_e2e,other",
+        "multi": false,
+        "includeAll": false,
+        "allValue": null,
+        "current": {
+          "text": "financial_news_incremental",
+          "value": "financial_news_incremental"
+        },
+        "options": [
+          {
+            "text": "financial_news_incremental",
+            "value": "financial_news_incremental",
+            "selected": true
+          },
+          {
+            "text": "phase05_integration",
+            "value": "phase05_integration",
+            "selected": false
+          },
+          {
+            "text": "local_release_e2e",
+            "value": "local_release_e2e",
+            "selected": false
+          },
+          {
+            "text": "other",
+            "value": "other",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "news_source",
+        "label": "Nguồn tin (hostname)",
+        "type": "custom",
+        "query": "cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "cafef[.]vn|vnexpress[.]net|tuoitre[.]vn|thanhnien[.]vn|baomoi[.]com",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "cafef.vn",
+            "value": "cafef.vn",
+            "selected": false
+          },
+          {
+            "text": "vnexpress.net",
+            "value": "vnexpress.net",
+            "selected": false
+          },
+          {
+            "text": "tuoitre.vn",
+            "value": "tuoitre.vn",
+            "selected": false
+          },
+          {
+            "text": "thanhnien.vn",
+            "value": "thanhnien.vn",
+            "selected": false
+          },
+          {
+            "text": "baomoi.com",
+            "value": "baomoi.com",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Financial News Platform — Overview",
   "uid": "financial-news-overview",
-  "version": 1
+  "version": 2
 }

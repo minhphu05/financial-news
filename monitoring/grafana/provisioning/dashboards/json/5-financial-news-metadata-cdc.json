@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Chỉ theo dõi CDC của hai bảng control_metadata: PostgreSQL WAL → Debezium → Kafka. Article/chunk không đi qua Kafka. Đọc broker/connector/task/slot → offset → lag. Không có thay đổi metadata thì offset đứng yên và event age tăng là bình thường.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "Kafka broker",
+      "title": "Kafka metadata probe thành công?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -19,19 +92,62 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
-        "w": 4,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
           "expr": "financial_news_kafka_broker_up",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "legendFormat": "Kafka",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -43,55 +159,16 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "1 = bounded metadata request thành công."
     },
     {
       "id": 2,
-      "title": "PostgreSQL exporter",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 4,
-        "y": 0,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "up{job=\"postgresql\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 3,
-      "title": "Debezium connector",
+      "title": "PostgreSQL chấp nhận kết nối?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -99,19 +176,62 @@
       },
       "gridPos": {
         "x": 8,
-        "y": 0,
-        "w": 4,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_debezium_connector_up",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "pg_up",
+          "legendFormat": "PostgreSQL",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -123,55 +243,16 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Dùng pg_up để kiểm database, không chỉ HTTP scrape của exporter."
     },
     {
-      "id": 4,
-      "title": "Debezium task",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 12,
-        "y": 0,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_debezium_task_up",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 5,
-      "title": "Replication slot active",
+      "id": 3,
+      "title": "Debezium connector RUNNING?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -179,19 +260,62 @@
       },
       "gridPos": {
         "x": 16,
-        "y": 0,
-        "w": 4,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_cdc_replication_slot_active",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_debezium_connector_up",
+          "legendFormat": "Connector",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
         "overrides": []
       },
       "options": {
@@ -203,36 +327,78 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Connect REST: connector state."
     },
     {
-      "id": 6,
-      "title": "Replication slot WAL lag",
+      "id": 4,
+      "title": "Tất cả Debezium task RUNNING?",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 20,
-        "y": 0,
-        "w": 4,
+        "x": 0,
+        "y": 11,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_cdc_replication_slot_lag_bytes",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_debezium_task_up",
+          "legendFormat": "Task",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "bytes"
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "LỖI",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "OK",
+                  "color": "green"
+                }
+              }
+            }
+          ]
         },
         "overrides": []
       },
@@ -245,15 +411,157 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Connect REST: toàn bộ tasks RUNNING."
+    },
+    {
+      "id": 5,
+      "title": "Replication slot đang active?",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_cdc_replication_slot_active",
+          "legendFormat": "Slot",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "INACTIVE",
+                  "color": "red"
+                },
+                "1": {
+                  "text": "ACTIVE",
+                  "color": "green"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "1 = slot được sử dụng; cần đọc cùng lag và connector/task."
+    },
+    {
+      "id": 6,
+      "title": "Khoảng WAL tới confirmed flush LSN",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 11,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_cdc_replication_slot_lag_bytes",
+          "legendFormat": "WAL bytes",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "pg_current_wal_lsn - confirmed_flush_lsn, đơn vị bytes. Có thể gồm WAL không thuộc bảng CDC; không phải số article/Kafka backlog. Quan sát xu hướng, không tự đặt SLA."
     },
     {
       "id": 7,
-      "title": "Metadata topic high watermarks",
+      "title": "High watermark của topic/partition",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -261,26 +569,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 6,
+        "y": 17,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_cdc_topic_latest_offset",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_cdc_topic_latest_offset{topic=~\"${topic:regex}\"}",
+          "legendFormat": "{{topic}} · p{{partition}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Offset kế tiếp/high watermark, không phải số bài hoặc số event trong time range. Snapshot/schema/tombstone cũng tạo record."
     },
     {
       "id": 8,
-      "title": "Consumer lag",
+      "title": "Lag của consumer group đã commit offset",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -288,26 +631,61 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 6,
+        "y": 17,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "kafka_consumergroup_lag{consumergroup=~\"metadata-.*|phase07-.*\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "kafka_consumergroup_lag{topic=~\"${topic:regex}\",consumergroup=~\"metadata-.*|phase07-.*\"}",
+          "legendFormat": "{{consumergroup}} · {{topic}} · p{{partition}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Chưa có group/offset hợp lệ: No data là thiếu phép đo, không đổi thành lag=0. Exporter probe không commit offset; Debezium producer không tạo consumer group."
     },
     {
       "id": 9,
-      "title": "Latest metadata CDC event age",
+      "title": "Tuổi event metadata gần nhất",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -315,73 +693,197 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 14,
+        "y": 27,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "time() - financial_news_cdc_latest_event_timestamp_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "time() - financial_news_cdc_latest_event_timestamp_seconds{topic=~\"${topic:regex}\"}",
+          "legendFormat": "{{topic}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Tuổi Kafka record có timestamp gần nhất. Không có metadata changes thì tuổi tăng bình thường; không suy thành CDC end-to-end latency."
     },
     {
       "id": 10,
-      "title": "Metadata CDC topic partitions",
+      "title": "Số partition metadata theo Kafka exporter",
       "type": "table",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 12,
-        "y": 14,
-        "w": 12,
-        "h": 8
+        "x": 0,
+        "y": 37,
+        "w": 24,
+        "h": 11
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "kafka_topic_partitions{topic=~\"platform\\.control_metadata\\..*\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "kafka_topic_partitions{topic=~\"${topic:regex}\"}",
+          "legendFormat": "{{topic}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "table",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
-        "overrides": []
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "^(Lớp|Nguồn|Pipeline|Stage|Loại số liệu|Topic|Partition|Mức độ|Cgroup ID)$"
+            },
+            "properties": [
+              {
+                "id": "noValue",
+                "value": "—"
+              }
+            ]
+          }
+        ]
       },
       "options": {
         "showHeader": true,
         "cellHeight": "sm"
-      }
+      },
+      "description": "Số partition do kafka-exporter quan sát cho từng topic. Regex dùng biến topic hợp lệ; thiếu metric phải kiểm exporter/topic filter.",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "instance": true,
+              "job": true
+            },
+            "renameByName": {
+              "source": "Nguồn",
+              "pipeline": "Pipeline",
+              "stage": "Stage",
+              "layer": "Lớp",
+              "kind": "Loại số liệu",
+              "status": "Trạng thái",
+              "topic": "Topic",
+              "partition": "Partition",
+              "device": "Thiết bị",
+              "id": "Cgroup ID",
+              "Value": "Giá trị",
+              "alertname": "Cảnh báo",
+              "severity": "Mức độ"
+            }
+          }
+        }
+      ]
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
     "control-plane",
-    "cdc"
+    "cdc",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "topic",
+        "label": "Topic metadata",
+        "type": "custom",
+        "query": "platform.control_metadata.news_sources,platform.control_metadata.pipeline_configs",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "platform[.]control_metadata[.](news_sources|pipeline_configs)",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "platform.control_metadata.news_sources",
+            "value": "platform.control_metadata.news_sources",
+            "selected": false
+          },
+          {
+            "text": "platform.control_metadata.pipeline_configs",
+            "value": "platform.control_metadata.pipeline_configs",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Metadata Control Plane — CDC",
   "uid": "financial-news-metadata-cdc",
-  "version": 1
+  "version": 2
 }

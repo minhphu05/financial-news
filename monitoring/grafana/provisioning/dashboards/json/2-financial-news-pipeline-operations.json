@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Đọc tỷ lệ run hoàn tất và thời gian → stage nào lâu/lỗi → record volumes. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế. Bộ đếm là ledger toàn lịch sử, không phải số run trong time range.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "End-to-end run duration",
+      "title": "Thời gian run hoàn tất gần nhất",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -19,29 +92,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
+        "y": 5,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_last_run_duration_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_pipeline_last_run_duration_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {},
-      "description": "Processing time excludes Airflow scheduling delay."
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Runner started_at → finished_at; không gồm thời gian chờ Airflow. Một đường FAILED cũ có thể tồn tại cạnh SUCCESS mới. Không phải histogram/p95."
     },
     {
       "id": 2,
-      "title": "Stage duration",
+      "title": "Thời gian attempt stage gần nhất",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -49,28 +154,61 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 0,
+        "y": 5,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_stage_duration_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_pipeline_stage_duration_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}} · {{stage}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Snapshot attempt gần nhất của từng stage, không phải tổng thời gian của mọi stage trong cửa sổ. Chọn một nguồn để xem rõ."
     },
     {
       "id": 3,
-      "title": "Run totals",
+      "title": "Run theo trạng thái — lũy kế ledger",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -78,26 +216,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 8,
+        "y": 15,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_runs_total",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "sum by(source,status) (financial_news_pipeline_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"})",
+          "legendFormat": "{{source}} · {{status}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Lũy kế/snapshot từ PostgreSQL, không phải số phát sinh trong khoảng thời gian đang chọn; đổi time range chỉ đổi diễn biến hiển thị. Giữ cả lỗi đã phục hồi, không lấy increase()/rate() như counter đơn điệu."
     },
     {
       "id": 4,
-      "title": "Completed-run success ratio",
+      "title": "Tỷ lệ run hoàn tất SUCCESS — toàn ledger",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -105,20 +278,34 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 8,
-        "w": 6,
-        "h": 8
+        "y": 15,
+        "w": 8,
+        "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "sum(financial_news_pipeline_runs_total{status=\"SUCCESS\"}) / clamp_min(sum(financial_news_pipeline_runs_total{status=~\"SUCCESS|FAILED\"}), 1)",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "((sum(financial_news_pipeline_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",status=\"SUCCESS\"}) or vector(0)) / sum(financial_news_pipeline_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",status=~\"SUCCESS|FAILED\"})) and on() (sum(financial_news_pipeline_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",status=~\"SUCCESS|FAILED\"}) > 0) and on() (financial_news_exporter_collection_success == 1)",
+          "legendFormat": "Run SUCCESS / (SUCCESS + FAILED)",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "percentunit"
+          "unit": "percentunit",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
         },
         "overrides": []
       },
@@ -131,45 +318,103 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Loại RUNNING khỏi mẫu số. Không phải success rate riêng pilot hay SLO. Chưa có completed run: không tính 0%/100% giả."
     },
     {
       "id": 5,
-      "title": "Latest stage record volumes",
+      "title": "Record counts của attempt stage gần nhất",
       "type": "table",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
       },
       "gridPos": {
-        "x": 18,
-        "y": 8,
-        "w": 6,
-        "h": 8
+        "x": 0,
+        "y": 25,
+        "w": 24,
+        "h": 11
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_records",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_pipeline_records{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}",
+          "legendFormat": "{{source}} · {{stage}} · {{kind}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "table",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
-        "overrides": []
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "^(Lớp|Nguồn|Pipeline|Stage|Loại số liệu|Topic|Partition|Mức độ|Cgroup ID)$"
+            },
+            "properties": [
+              {
+                "id": "noValue",
+                "value": "—"
+              }
+            ]
+          }
+        ]
       },
       "options": {
         "showHeader": true,
         "cellHeight": "sm"
-      }
+      },
+      "description": "Bảng snapshot hiện tại: nguồn, stage, loại số liệu, giá trị. input/output/chunk/aggregation là đơn vị khác nhau, không cộng tất cả thành tổng bài.",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "instance": true,
+              "job": true
+            },
+            "renameByName": {
+              "source": "Nguồn",
+              "pipeline": "Pipeline",
+              "stage": "Stage",
+              "layer": "Lớp",
+              "kind": "Loại số liệu",
+              "status": "Trạng thái",
+              "topic": "Topic",
+              "partition": "Partition",
+              "device": "Thiết bị",
+              "id": "Cgroup ID",
+              "Value": "Giá trị",
+              "alertname": "Cảnh báo",
+              "severity": "Mức độ"
+            }
+          }
+        }
+      ]
     },
     {
       "id": 6,
-      "title": "Airflow scheduler heartbeat",
+      "title": "Nhịp scheduler nhận được / giây",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -177,26 +422,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 16,
+        "y": 36,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "airflow_scheduler_heartbeat",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "rate(airflow_scheduler_heartbeat[2m])",
+          "legendFormat": "Scheduler heartbeat/s",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "ops",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Counter native StatsD đổi sang rate cửa sổ 2 phút. Có reset khi restart; không phải số DAG run. Cần tối thiểu hai mẫu scrape."
     },
     {
       "id": 7,
-      "title": "Failed stage attempts",
+      "title": "Attempt stage thất bại — lũy kế, kể cả đã phục hồi",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -204,40 +484,160 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 16,
+        "y": 36,
         "w": 12,
-        "h": 8
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_pipeline_stage_runs_total{status=\"FAILED\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "sum by(source,stage) (financial_news_pipeline_stage_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",status=\"FAILED\"}) or on(source,stage) (sum by(source,stage) (financial_news_pipeline_stage_runs_total{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\"}) * 0)",
+          "legendFormat": "{{source}} · {{stage}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
+        },
         "overrides": []
       },
-      "options": {}
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Lũy kế/snapshot từ PostgreSQL, không phải số phát sinh trong khoảng thời gian đang chọn; đổi time range chỉ đổi diễn biến hiển thị. Giữ cả lỗi đã phục hồi, không lấy increase()/rate() như counter đơn điệu. Giá trị >0 không tự chứng minh stage hiện tại đang lỗi."
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
-    "pipeline"
+    "pipeline",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "pipeline",
+        "label": "Pipeline",
+        "type": "custom",
+        "query": "financial_news_incremental,phase05_integration,local_release_e2e,other",
+        "multi": false,
+        "includeAll": false,
+        "allValue": null,
+        "current": {
+          "text": "financial_news_incremental",
+          "value": "financial_news_incremental"
+        },
+        "options": [
+          {
+            "text": "financial_news_incremental",
+            "value": "financial_news_incremental",
+            "selected": true
+          },
+          {
+            "text": "phase05_integration",
+            "value": "phase05_integration",
+            "selected": false
+          },
+          {
+            "text": "local_release_e2e",
+            "value": "local_release_e2e",
+            "selected": false
+          },
+          {
+            "text": "other",
+            "value": "other",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "news_source",
+        "label": "Nguồn tin (hostname)",
+        "type": "custom",
+        "query": "cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "cafef[.]vn|vnexpress[.]net|tuoitre[.]vn|thanhnien[.]vn|baomoi[.]com",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "cafef.vn",
+            "value": "cafef.vn",
+            "selected": false
+          },
+          {
+            "text": "vnexpress.net",
+            "value": "vnexpress.net",
+            "selected": false
+          },
+          {
+            "text": "tuoitre.vn",
+            "value": "tuoitre.vn",
+            "selected": false
+          },
+          {
+            "text": "thanhnien.vn",
+            "value": "thanhnien.vn",
+            "selected": false
+          },
+          {
+            "text": "baomoi.com",
+            "value": "baomoi.com",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Financial News Pipeline — Operations",
   "uid": "financial-news-pipeline-operations",
-  "version": 1
+  "version": 2
 }

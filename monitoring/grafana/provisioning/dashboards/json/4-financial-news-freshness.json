@@ -6,12 +6,85 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-  "links": [],
+  "links": [
+    {
+      "title": "Tổng quan",
+      "url": "/d/financial-news-overview",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Crawler live",
+      "url": "/d/news-crawler",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Vận hành",
+      "url": "/d/financial-news-pipeline-operations",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Chất lượng",
+      "url": "/d/financial-news-data-quality",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Độ mới",
+      "url": "/d/financial-news-freshness",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "CDC metadata",
+      "url": "/d/financial-news-metadata-cdc",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    },
+    {
+      "title": "Tài nguyên",
+      "url": "/d/financial-news-local-resources",
+      "type": "link",
+      "targetBlank": false,
+      "includeVars": false,
+      "keepTime": true
+    }
+  ],
   "liveNow": false,
   "panels": [
     {
+      "id": 100,
+      "type": "text",
+      "title": "Cách đọc dashboard này",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 5
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Tuổi cập nhật = thời điểm đo trừ lần successful stage gần nhất; KHÔNG là tuổi bài báo hay tốc độ thu thập. Tăng giữa hai lượt là bình thường; nguồn không có dữ liệu thay đổi có thể giữ mốc cũ. Lọc theo pipeline/hostname ở đầu trang. Metrics pipeline là snapshot ledger, có thể gồm fixture cùng hostname; chỉ dashboard Crawling có bộ lọc live/fixture. Không suy ra số bài trong cửa sổ pilot từ số lũy kế.\n\n**Cách dùng:** giờ Việt Nam · mặc định 1 giờ gần nhất · refresh 30 giây. Ô số/bảng lấy snapshot tại cuối khoảng chọn; đồ thị hiển thị diễn biến. `Chưa có số liệu` khác với 0. Đọc tooltip (ⓘ) của từng panel. Đổi dashboard sẽ giữ thời gian và trả bộ lọc về mặc định để tránh nhầm hostname với source key.\n\nBộ lọc lớp chỉ tác động biểu đồ/bảng, mặc định Silver; các ô số từng lớp vẫn hiển thị đầy đủ."
+      },
+      "transparent": false
+    },
+    {
       "id": 1,
-      "title": "Freshness by layer",
+      "title": "Tuổi cập nhật theo nguồn và lớp",
       "type": "timeseries",
       "datasource": {
         "type": "prometheus",
@@ -19,155 +92,61 @@
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
-        "w": 24,
-        "h": 9
+        "y": 5,
+        "w": 12,
+        "h": 10
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_freshness_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=~\"${data_layer:regex}\"}",
+          "legendFormat": "{{source}} · {{layer}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": false,
+          "range": true,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "stepAfter",
+            "fillOpacity": 4,
+            "showPoints": "never",
+            "spanNulls": false
+          }
         },
         "overrides": []
       },
-      "options": {},
-      "description": "Current time minus the Phase 05 successful stage completion timestamp."
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "description": "Đường sawtooth giảm khi stage thành công, tăng khi chờ lượt mới. Khoảng trắng là thiếu mẫu, không nối qua outage. Bộ lọc lớp ở đầu trang áp dụng cho biểu đồ/bảng này; mặc định silver để giảm số đường."
     },
     {
       "id": 2,
-      "title": "Bronze freshness",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 0,
-        "y": 9,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"bronze\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 3,
-      "title": "Silver freshness",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 4,
-        "y": 9,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"silver\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 4,
-      "title": "Gold RAG freshness",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 8,
-        "y": 9,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"gold_rag\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 5,
-      "title": "Qdrant freshness",
+      "title": "Tuổi cập nhật Bronze",
       "type": "stat",
       "datasource": {
         "type": "prometheus",
@@ -175,20 +154,34 @@
       },
       "gridPos": {
         "x": 12,
-        "y": 9,
-        "w": 4,
+        "y": 5,
+        "w": 8,
         "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"qdrant\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"bronze\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
         },
         "overrides": []
       },
@@ -201,100 +194,17 @@
           "values": false
         },
         "orientation": "auto",
-        "textMode": "auto",
+        "textMode": "value_and_name",
         "colorMode": "value",
-        "graphMode": "area",
+        "graphMode": "none",
         "justifyMode": "auto"
-      }
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
     },
     {
-      "id": 6,
-      "title": "Gold Analytics freshness",
+      "id": 3,
+      "title": "Tuổi cập nhật Silver",
       "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 16,
-        "y": 9,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"gold_analytics\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 7,
-      "title": "DuckDB freshness",
-      "type": "stat",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus-main"
-      },
-      "gridPos": {
-        "x": 20,
-        "y": 9,
-        "w": 4,
-        "h": 6
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "expr": "financial_news_data_freshness_seconds{layer=\"duckdb\"}",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "orientation": "auto",
-        "textMode": "auto",
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto"
-      }
-    },
-    {
-      "id": 8,
-      "title": "Last successful layer timestamps",
-      "type": "table",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus-main"
@@ -302,44 +212,536 @@
       "gridPos": {
         "x": 0,
         "y": 15,
-        "w": 24,
-        "h": 8
+        "w": 8,
+        "h": 6
       },
       "targets": [
         {
           "refId": "A",
-          "expr": "financial_news_data_last_success_timestamp_seconds",
-          "legendFormat": "{{job}} {{pipeline}} {{source}} {{stage}} {{layer}} {{status}} {{component}}"
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"silver\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
         }
       ],
       "fieldConfig": {
         "defaults": {
-          "unit": "dateTimeAsIso"
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
         },
         "overrides": []
       },
       "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
+    },
+    {
+      "id": 4,
+      "title": "Tuổi cập nhật Gold RAG",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 15,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"gold_rag\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
+    },
+    {
+      "id": 5,
+      "title": "Tuổi cập nhật Qdrant",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 15,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"qdrant\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
+    },
+    {
+      "id": 6,
+      "title": "Tuổi cập nhật Gold Analytics",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 21,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"gold_analytics\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
+    },
+    {
+      "id": 7,
+      "title": "Tuổi cập nhật DuckDB",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 21,
+        "w": 8,
+        "h": 6
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_freshness_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=\"duckdb\"}",
+          "legendFormat": "{{source}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "time_series",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "noValue": "Chưa có số liệu",
+          "decimals": 1,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "auto",
+        "textMode": "value_and_name",
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto"
+      },
+      "description": "Snapshot tại cuối time range, tính từ latest successful stage. Không có ngưỡng SLA mới được suy diễn từ giá trị này."
+    },
+    {
+      "id": 8,
+      "title": "Mốc successful stage gần nhất — giờ Việt Nam",
+      "type": "table",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus-main"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 27,
+        "w": 24,
+        "h": 11
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "financial_news_data_last_success_timestamp_seconds{pipeline=~\"${pipeline:regex}\",source=~\"${news_source:regex}\",layer=~\"${data_layer:regex}\"} * 1000",
+          "legendFormat": "{{source}} · {{layer}}",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus-main"
+          },
+          "instant": true,
+          "range": false,
+          "format": "table",
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "noValue": "Chưa có số liệu",
+          "decimals": 0,
+          "color": {
+            "mode": "palette-classic"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Giá trị"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "time:DD/MM/YYYY HH:mm:ss"
+              },
+              {
+                "id": "decimals",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byRegexp",
+              "options": "^(Lớp|Nguồn|Pipeline|Stage|Loại số liệu|Topic|Partition|Mức độ|Cgroup ID)$"
+            },
+            "properties": [
+              {
+                "id": "noValue",
+                "value": "—"
+              }
+            ]
+          }
+        ]
+      },
+      "options": {
         "showHeader": true,
         "cellHeight": "sm"
-      }
+      },
+      "description": "Epoch giây từ exporter được nhân 1000 cho Date/Time của Grafana. Đây là thời điểm xử lý, không phải published_at của article. Bộ lọc lớp ở đầu trang áp dụng cho biểu đồ/bảng này; mặc định silver để giảm số đường.",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "instance": true,
+              "job": true
+            },
+            "renameByName": {
+              "source": "Nguồn",
+              "pipeline": "Pipeline",
+              "stage": "Stage",
+              "layer": "Lớp",
+              "kind": "Loại số liệu",
+              "status": "Trạng thái",
+              "topic": "Topic",
+              "partition": "Partition",
+              "device": "Thiết bị",
+              "id": "Cgroup ID",
+              "Value": "Giá trị",
+              "alertname": "Cảnh báo",
+              "severity": "Mức độ"
+            }
+          }
+        }
+      ]
     }
   ],
-  "refresh": "10s",
+  "refresh": "30s",
   "schemaVersion": 39,
   "tags": [
     "phase07",
-    "freshness"
+    "freshness",
+    "financial-news",
+    "huong-dan-vi"
   ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "name": "pipeline",
+        "label": "Pipeline",
+        "type": "custom",
+        "query": "financial_news_incremental,phase05_integration,local_release_e2e,other",
+        "multi": false,
+        "includeAll": false,
+        "allValue": null,
+        "current": {
+          "text": "financial_news_incremental",
+          "value": "financial_news_incremental"
+        },
+        "options": [
+          {
+            "text": "financial_news_incremental",
+            "value": "financial_news_incremental",
+            "selected": true
+          },
+          {
+            "text": "phase05_integration",
+            "value": "phase05_integration",
+            "selected": false
+          },
+          {
+            "text": "local_release_e2e",
+            "value": "local_release_e2e",
+            "selected": false
+          },
+          {
+            "text": "other",
+            "value": "other",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "news_source",
+        "label": "Nguồn tin (hostname)",
+        "type": "custom",
+        "query": "cafef.vn,vnexpress.net,tuoitre.vn,thanhnien.vn,baomoi.com",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "cafef[.]vn|vnexpress[.]net|tuoitre[.]vn|thanhnien[.]vn|baomoi[.]com",
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": true
+          },
+          {
+            "text": "cafef.vn",
+            "value": "cafef.vn",
+            "selected": false
+          },
+          {
+            "text": "vnexpress.net",
+            "value": "vnexpress.net",
+            "selected": false
+          },
+          {
+            "text": "tuoitre.vn",
+            "value": "tuoitre.vn",
+            "selected": false
+          },
+          {
+            "text": "thanhnien.vn",
+            "value": "thanhnien.vn",
+            "selected": false
+          },
+          {
+            "text": "baomoi.com",
+            "value": "baomoi.com",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      },
+      {
+        "name": "data_layer",
+        "label": "Lớp cho biểu đồ/bảng",
+        "type": "custom",
+        "query": "bronze,silver,gold_rag,gold_analytics,qdrant,duckdb",
+        "multi": true,
+        "includeAll": true,
+        "allValue": "bronze|silver|gold_rag|gold_analytics|qdrant|duckdb",
+        "current": {
+          "text": "silver",
+          "value": "silver"
+        },
+        "options": [
+          {
+            "text": "All",
+            "value": "$__all",
+            "selected": false
+          },
+          {
+            "text": "bronze",
+            "value": "bronze",
+            "selected": false
+          },
+          {
+            "text": "silver",
+            "value": "silver",
+            "selected": true
+          },
+          {
+            "text": "gold_rag",
+            "value": "gold_rag",
+            "selected": false
+          },
+          {
+            "text": "gold_analytics",
+            "value": "gold_analytics",
+            "selected": false
+          },
+          {
+            "text": "qdrant",
+            "value": "qdrant",
+            "selected": false
+          },
+          {
+            "text": "duckdb",
+            "value": "duckdb",
+            "selected": false
+          }
+        ],
+        "hide": 0
+      }
+    ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "browser",
+  "timezone": "Asia/Ho_Chi_Minh",
   "title": "Financial News Pipeline — Freshness",
   "uid": "financial-news-freshness",
-  "version": 1
+  "version": 2
 }
