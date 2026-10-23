@@ -1,8 +1,17 @@
 # Phase09 — Vận hành crawler local theo lịch và bằng chứng burn-in
 
+**Bổ sung vận hành 23/10:** [pilot report](phase9-pilot-report-2026-10-23.md)
+ghi phiên năm nguồn đủ bốn giờ, 50 mẫu/8 scheduled cycles, cleanup PASS; automatic
+verdict **PENDING** do crawl failures/partial. Từ trưa đến 22:58: 45 bài mới,
+270 chunks mới, 45 batch reconciliation PASS, live backlog cuối kỳ=0.
+Đã có live evidence cả năm; clean B1 overall chưa chốt PASS, formal 24h/72h
+vẫn PENDING. Các mục CP/acceptance ngày 22/10 dưới đây giữ provenance lịch sử;
+“NOT STARTED/N/A” trong các mục đó không phủ nhận pilot mới, cũng không đổi
+formal burn-in thành đã hoàn tất. Phase10 có workstream riêng, cloud vẫn NO-GO.
+
 Ngày thực hiện: **22/10/2026**, timezone hiển thị `Asia/Ho_Chi_Minh`; timestamps máy đọc trong evidence dùng UTC. Branch `feat/Phase-9`, base `583a382`. Phạm vi local, không commit/push/merge/rebase hoặc triển khai cloud.
 
-**Trạng thái đã kiểm chứng:** implementation chức năng **PASS** theo full-run cộng focused recheck sau sửa rollback (chín checkpoint, từng checkpoint exit 0). Burn-in 24h: **PENDING**; 72h: **PENDING**; toàn Phase09 **chưa DONE**. Không chuyển sang Phase10 hoặc đổi cloud verdict.
+**Trạng thái đã kiểm chứng tại checkpoint 22/10:** implementation chức năng **PASS** theo full-run cộng focused recheck sau sửa rollback (chín checkpoint, từng checkpoint exit 0). Burn-in 24h: **PENDING**; 72h: **PENDING**; toàn Phase09 **chưa DONE**. Không chuyển sang Phase10 hoặc đổi cloud verdict trong lượt đó.
 
 ## CP0 — Preflight và sai khác với handover
 
@@ -158,7 +167,7 @@ Ruff check **24 Python files PASS**, exit **0**; format check **21 files PASS**,
 
 Các runtime artifact Phase05/08 vốn đã track và bytecode bị tests cập nhật đã được copy vào `artifacts/phase9/regression-evidence/<original-path>`, rồi trả đúng bytes của HEAD. Chỉ khôi phục các file ban đầu sạch và do quá trình kiểm thử tạo thay đổi; không khôi phục code/tài liệu đang triển khai hoặc specification của người dùng. Manifest: `runtime-artifact-restoration.json`. Evidence mới vẫn còn đầy đủ trong ignored `artifacts/phase9/`; không có Git commit/push, cloud resource hoặc history rewrite.
 
-**Phần còn lại:** review access/policy nguồn hiện tại; xác định và kiểm chứng backup/restore; B1 controlled live cycles; B2 24h thật; đánh giá incidents/resource growth/ngưỡng; rồi B3 72h thật. Actual burn-in start/end và live volume của các window này đều **N/A — NOT STARTED**. CP0–CP2 đạt phạm vi functional; CP3–CP4 và phase-level CP5 close-out còn **PENDING**. Historical security workstream giữ cloud verdict **NOT READY FOR CLOUD MIGRATION**.
+**Phần còn lại tại ngày 22/10:** review access/policy nguồn hiện tại; xác định và kiểm chứng backup/restore; B1 controlled live cycles; B2 24h thật; đánh giá incidents/resource growth/ngưỡng; rồi B3 72h thật. Actual burn-in start/end và live volume của các window này đều **N/A — NOT STARTED**. CP0–CP2 đạt phạm vi functional; CP3–CP4 và phase-level CP5 close-out còn **PENDING**. Historical security workstream giữ cloud verdict **NOT READY FOR CLOUD MIGRATION**.
 
 ## Đồng bộ tài liệu sau merge — 22/10/2026
 

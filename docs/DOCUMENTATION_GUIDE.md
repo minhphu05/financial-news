@@ -1,8 +1,16 @@
 # Hướng dẫn đọc tài liệu dự án
 
+Kết quả chạy thực tế mới nhất: [Báo cáo từ trưa 23/10 và chốt pilot bốn giờ](phase9-pilot-report-2026-10-23.md)
+— số liệu theo cửa sổ, sự cố Báo Mới, tài nguyên, cleanup và công việc còn lại.
+
+Đọc dashboard Grafana: [Hướng dẫn tiếng Việt cho cả 7 dashboard và từng panel](grafana-dashboard-guide-vi.md); [báo cáo rà soát/sửa](grafana-dashboard-review-2026-10-23.md).
+
+Chạy thử ngắn và giám sát local: [Pilot 4 giờ](phase9-pilot-guide-vi.md), tách khỏi burn-in 24h/72h.
+
 **Điểm bắt đầu:** dùng tài liệu này để chọn tài liệu cần đọc, không cần đọc hết
 repository theo thứ tự file. Đối chiếu danh mục ngày **23/10/2026**, sau Phase10
-audit/guardrails local; cloud NO-GO, Phase09 live B1 và burn-in 24h/72h còn PENDING. Đây là mục lục và hướng dẫn; không thay thế contracts,
+audit/guardrails local và pilot bốn giờ. Pilot đủ thời gian nhưng verdict PENDING;
+clean B1/formal burn-in 24h/72h còn PENDING, cloud NO-GO. Đây là mục lục và hướng dẫn; không thay thế contracts,
 runbooks hay bằng chứng kiểm chứng của từng phase.
 
 ## 1. Đọc lần đầu theo thứ tự nào?
@@ -17,8 +25,10 @@ runbooks hay bằng chứng kiểm chứng của từng phase.
 6. Chọn runbook theo công việc ở bảng dưới.
 
 Checkpoint hiện tại: Phase01–08 có implementation local; Phase09 đạt functional
-verification qua full-run cộng focused scheduling recheck. Crawl thật mới có
-bằng chứng tiny smoke Phase08 1 bài/nguồn, chưa có B1/24h/72h Phase09. Schedule live mặc định tắt. Cloud deployment
+verification qua full-run cộng focused scheduling recheck. Ngày 23/10 đã có pilot
+live năm nguồn bốn giờ/50 mẫu, verdict PENDING do crawl lỗi; formal 24h/72h chưa
+hoàn tất. DAG đã pause, source live off; cron/global opt-in còn cấu hình từ pilot.
+Đọc [báo cáo chạy thực tế](phase9-pilot-report-2026-10-23.md). Cloud deployment
 chưa thực hiện và release gate vẫn `NOT READY FOR CLOUD MIGRATION` vì vấn đề
 credential lịch sử. Xem CURRENT_STATUS để lấy kết quả và trạng thái mới nhất.
 

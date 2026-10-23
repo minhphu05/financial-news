@@ -1,5 +1,29 @@
 # Current implementation status
 
+**Chốt pilot 23/10/2026, rà soát từ trưa đến 22:58 +07:** phiên năm nguồn chạy
+đủ **14:04:58–18:04:58**, thu **50 mẫu**, tự pause DAG/tắt live cả năm nguồn
+khoảng 18:05. Không collection error/hard-stop/sample gap lớn; tám scheduled
+cycles không overlap. **Pilot verdict PENDING**, không PASS: Tuổi Trẻ có lỗi
+preflight/repair; Báo Mới còn sáu scheduled PARTIAL do unsupported redirect.
+Riêng tám cycles tạo **34 bài**, toàn cửa sổ từ trưa tạo **45 bài mới/270 chunks**,
+**45 batch reconciliation PASS**, backlog live cuối kỳ=0. Pilot report có
+38 new observations/39 reconciliation PASS do cohort start và stage-completion
+khác nhau; không cộng phiên hai nguồn bị hủy vào bốn giờ. B1 đã có live evidence
+cả năm nhưng **chưa chốt clean overall PASS**; formal 24h/72h vẫn PENDING,
+Phase09 chưa DONE, cloud NO-GO. Xem [báo cáo chốt phiên](../phase9-pilot-report-2026-10-23.md)
+và [pilot guide](../phase9-pilot-guide-vi.md).
+
+Hiện DAG paused, năm live policies=false, expiry đã hết; không có live run mới
+trong ledger từ deadline đến 22:58. Cron 30 phút/global scheduled-live=true còn
+giữ từ pilot, chưa restore manual environment; **không còn là trạng thái mọi env
+flag đều off**. Services vẫn chạy để xem dashboard. `runtime.json` đã bổ sung
+closeout, giữ launch metadata riêng; report/samples gốc không bị ghi đè.
+
+Dashboard review 23/10/2026: sửa topic filter Kafka exporter/PromQL CDC, timestamp,
+Instant tables/stats, filters và legend; 7 dashboards/68 target queries kiểm được.
+Xem [hướng dẫn đọc Grafana](../grafana-dashboard-guide-vi.md) và
+[review report](../grafana-dashboard-review-2026-10-23.md). Không đổi pilot/cloud gate.
+
 Latest work checkpoint: **2026-10-23**, Phase10 local audit/prevention and design
 pack prepared on baseline `240823c`. **Phase10 NOT DONE; cloud NO-GO.** Issuer
 invalidation/history remediation, required P09 live/burn-in and owner sign-off
@@ -15,7 +39,9 @@ checks, not full P05/07/08/09 acceptance reruns or replacement-credential tests.
 Working-tree/index scan PASS; history scan FAIL (three pattern hits), existing
 checker FAIL (five variable names). Exact commands/UTC/image/package metadata and
 NO-GO decision are in ignored `artifacts/phase10/`; no raw secret values retained.
-Current effective cron/live switch and all five source live policies remain off.
+At the Phase10 audit checkpoint, cron/live switch and all five source live
+policies were off. The later pilot settings and closeout supersede that runtime
+snapshot; see the dated pilot section above.
 
 Runbooks/design pack and evidence index are complete for review; issuer/history,
 remote CI/protection and authorized cloud sign-off remain owner-dependent. The
@@ -62,7 +88,7 @@ then scan a fresh clone and rerun `make phase6-acceptance`.
 | 06 — Local release/cloud readiness | IMPLEMENTED; RELEASE BLOCKED | Clean bootstrap, configuration profiles, E2E, rebuilds, health, and regression checks passed. Security audit keeps the aggregate report at FAIL. |
 | 07 — Local monitoring/observability | COMPLETE | Fresh Phase07 acceptance passed; original 6 dashboards/12 alerts remain functional. Phase08 adds one dashboard and three alerts. |
 | 08 — Multisource crawling/ingestion | COMPLETE (LOCAL) | `make phase8-acceptance` exit 0; 26 crawler tests, 8 DAG tests, 6 monitoring unit tests, 2 real observability tests, all-five fixture scheduler run, all-five tiny live E2E. |
-| 09 — Continuous local operations/burn-in | FUNCTIONAL PASS; BURN-IN PENDING | Nine functional checkpoints PASS: full-run evidence plus corrected scheduling recheck; safe policies, bounded replay, reports, restart/reconciliation and settled denied cycles. Live B1 and real 24h/72h remain PENDING. |
+| 09 — Continuous local operations/burn-in | FUNCTIONAL PASS; PILOT PENDING; BURN-IN PENDING | Nine functional checkpoints PASS. Five-source 4h window completed with 50 samples/8 scheduled cycles; redirects keep pilot/B1 clean acceptance pending. Formal 24h/72h remain PENDING. |
 | 10 — Security remediation/final cloud readiness | LOCAL GUARDS IMPLEMENTED; OVERALL NO-GO | Redacted history/tree/index/local-config scans, tested preventive controls, selected regressions and cloud design DRAFT. Existing Phase06 gate FAIL; no owner invalidation/history cleanup/sign-off; advisory findings and P09 required live evidence unresolved. |
 
 ## Verified local architecture

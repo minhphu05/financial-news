@@ -80,3 +80,38 @@ chạy suite runtime, không bật live/schedule và không thực hiện thao t
 local nhưng không xuất hiện trong `git diff` thông thường. Không thay ignore
 rules hoặc stage các file trong nhiệm vụ này; trạng thái này cần được biết khi
 người dùng chuẩn bị commit tài liệu. Không commit/push/merge/rebase/deploy.
+
+## 6. Đồng bộ sau pilot thực tế — 23/10/2026
+
+[Báo cáo chốt phiên](phase9-pilot-report-2026-10-23.md) thay trạng thái STARTED bằng
+kết quả đủ thời gian nhưng PENDING. CURRENT_STATUS, README, mục lục, demo,
+runbook/monitoring, Phase09/10 reports và các artifact luận văn đã bổ sung cùng
+ranh giới: 45 bài mới từ trưa/270 chunks/45 batch PASS; 34 bài scheduled-only;
+38 observations/39 reconciliation trong report pilot do grain khác nhau.
+B1 có live evidence nhưng clean overall PASS chưa đạt; 24h/72h/cloud không đổi.
+Không viết lại tests lịch sử thành vừa rerun hoặc dọn failed history.
+
+Closeout chỉ đọc DB/Airflow/Prometheus, lưu evidence riêng và chốt tài liệu;
+không thay source/config, restart services hoặc chạy crawl/fault injection mới.
+Kiểm lại dashboard audit 7/68 PASS; consumer lag N/A đúng nghĩa. Các kiểm tra
+links/fences/structure cuối phiên nằm trong closeout evidence, không thay full
+acceptance. Tài liệu thesis/present-demo vẫn bị Git ignore theo cấu hình có sẵn.
+
+## 7. Kiểm tra trước khi chia sẻ thay đổi — 23/10/2026
+
+Đã chạy lại 36 unit tests về policy/report, burn-in, pilot và parser: PASS.
+Test redirect riêng với PostgreSQL thật và synthetic HTTP: một test PASS,
+namespace fixture riêng được dọn sau test, không crawl website thật. Dashboard
+audit đạt bảy dashboards/68 queries; consumer lag không có offset vẫn N/A.
+Kiểm tra 13 tài liệu/288 local links và Markdown fences không có lỗi;
+`git diff --check` đạt. Đây là kiểm tra đóng gói thay đổi, không full acceptance
+hoặc bằng chứng live/burn-in mới. Logs nằm trong ignored
+`artifacts/phase9/push-review/`.
+
+Working-tree secret scan và staged scans của ba nhóm thay đổi đều PASS, không
+phát hiện secret mới trong phạm vi đã scan. Không chạy lại hoặc bỏ qua historical
+security gate; history incident và cloud NO-GO giữ nguyên.
+Theo lựa chọn của chủ repository, `.codex/`, toàn bộ `graphify-out/`,
+`docs/thesis/` và `docs/present-demo/` giữ local; phần Graphify trong `AGENTS.md`
+đã track được giữ ngoài commit. Engineering reports/runbooks/dashboard guides
+được chia sẻ cùng code và tests. Không đưa raw data, private backups hoặc env lên Git.

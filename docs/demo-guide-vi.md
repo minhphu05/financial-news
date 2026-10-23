@@ -1,13 +1,23 @@
 # Hướng dẫn kiến trúc và demo nền tảng dữ liệu tin tức tài chính
 
+**Demo kết quả 23/10:** [báo cáo chốt pilot](phase9-pilot-report-2026-10-23.md)
+đã có 45 bài mới/270 chunks từ trưa, 45 batch reconciliation PASS; riêng tám
+scheduled cycles tạo 34 bài. Mở Airflow lịch sử 14:30–18:00 và Grafana absolute
+range 14:04:58–18:05:15 để giải thích. DAG đã pause/live off, không chờ cycle
+mới. Pilot PENDING do lỗi nguồn; không gọi là burn-in 24h/72h PASS.
+
+**Đọc Grafana:** [hướng dẫn từng dashboard/panel](grafana-dashboard-guide-vi.md) giải thích bộ lọc, số lũy kế, freshness, No data và cảnh báo kiểm thử cũ.
+
+**Pilot 4 giờ:** xem [hướng dẫn chạy và giám sát](phase9-pilot-guide-vi.md). Đây là thử nghiệm ngắn riêng; không thay gate 24h/72h hoặc tự mở cloud gate. Trạng thái thực tế nằm trong runtime evidence.
+
 **Checkpoint bổ sung 23/10/2026:** Phase10 có local secret/pre-commit guard,
 synthetic rejection, hồi quy fixture và cloud design DRAFT. Không demo secret
 thật, raw scanner output hoặc `.env`; dùng `make phase10-test` và sanitized
 verdict từ [Phase10 report](phase10-security-cloud-readiness-report.md).
 `make phase10-acceptance` hiện trả NO-GO/exit 2 là gate chặn đúng, không phải
-bằng chứng đã revoke/history-clean. P09 live/burn-in vẫn pending; không Azure demo.
+bằng chứng đã revoke/history-clean. Clean live acceptance/formal burn-in P09 vẫn pending; không Azure demo.
 
-Cập nhật tài liệu **22/10/2026**, sau triển khai chức năng Phase09. Demo hiện có hai đầu vào: snapshot CafeF và crawler năm nguồn (fixture hoặc live opt-in), cùng đi qua pipeline local đến Qdrant/DuckDB. Functional verification Phase09 PASS theo full-run cộng focused scheduling recheck; B1 live và burn-in 24h/72h còn **PENDING**. API/frontend/chatbot đời trước, NER runtime và cloud chưa thuộc đường acceptance này.
+Cập nhật tài liệu **22/10/2026**, sau triển khai chức năng Phase09. Demo hiện có hai đầu vào: snapshot CafeF và crawler năm nguồn (fixture hoặc live opt-in), cùng đi qua pipeline local đến Qdrant/DuckDB. Functional verification Phase09 PASS theo full-run cộng focused scheduling recheck; B1 clean acceptance và burn-in 24h/72h còn **PENDING**; live evidence mới có trong pilot 23/10. API/frontend/chatbot đời trước, NER runtime và cloud chưa thuộc đường acceptance này.
 
 Đọc [CURRENT_STATUS](agent_tasks/CURRENT_STATUS.md) và [Phase09 report](phase9-engineering-report.md) để lấy phạm vi bằng chứng mới nhất. [Crawler runbook](crawler-operations.md#phase09-controlled-scheduling-and-unattended-evidence) là nguồn hướng dẫn policy/scheduling/recovery hiện hành. Các counts snapshot, retrieval smoke và live Phase08 bên dưới giữ mốc đo gốc; lượt cập nhật tài liệu này không chạy lại chúng.
 

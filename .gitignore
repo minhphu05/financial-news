@@ -27,3 +27,7 @@ id_ed25519
 logs/
 thesis
 present-demo
+
+# Personal agent tooling and generated knowledge graph stay local.
+/.codex/
+/graphify-out/

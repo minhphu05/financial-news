@@ -1,5 +1,12 @@
 # Phase10 — Security remediation và final cloud readiness
 
+**Đối chiếu dependency P09 sau pilot, 23/10 lúc closeout:** đã có bốn giờ live
+năm nguồn với 50 mẫu; pilot PENDING vì crawl failures/partial, clean B1 chưa
+chốt PASS và formal 24h/72h vẫn PENDING. Xem [báo cáo vận hành](phase9-pilot-report-2026-10-23.md).
+Các trạng thái “B1 chưa có live” trong checkpoint audit dưới đây là lịch sử.
+Không chạy lại security scan/owner remediation trong lượt closeout; Phase10
+vẫn NO-GO, không thay issuer/history/advisory/sign-off bằng pilot evidence.
+
 Thực thi local **22–23/10/2026**, cập nhật báo cáo **23/10/2026**,
 `Asia/Ho_Chi_Minh`. JSON evidence dùng UTC. Baseline: branch `development`, HEAD
 `240823cc6f2c1fa77f1609467b46fe21bcd5f858`. Ban đầu chỉ specification Phase10 của

@@ -1,5 +1,11 @@
 # Local crawler operations — Phase08 / Phase09
 
+**23/10/2026 pilot closeout:** [Kết quả chạy từ trưa và phiên bốn giờ](phase9-pilot-report-2026-10-23.md).
+Window completed, 50 samples, eight scheduled cycles; pilot verdict PENDING
+because source crawl failures/partial remain. DAG paused and all live policies
+false after deadline; cron/global opt-in remain configured. Formal 24h/72h and
+cloud gates are unchanged.
+
 Phase09 extends the existing jobs with runtime live policy, bounded publisher retries, telemetry and evidence commands. Functional verification and real 24h/72h burn-in are separate gates; see [Phase09 engineering report](phase9-engineering-report.md). Earlier Phase08 results below remain dated evidence.
 
 For the five source websites, default sections, parser behavior and live
@@ -311,6 +317,23 @@ python3 tools/phase9_scheduler_smoke.py
 ```
 
 Acceptance is offline for news websites; it uses real local services. The restart drill writes only fixture serving, injects a test endpoint failure, restarts the scheduler and verifies durable resume/reconciliation without another crawl. The scheduler safety drill temporarily uses a two-minute cron **only when every source live policy is disabled**, observes at least two actual scheduled cycles/skips, then pauses immediately and verifies that all queued/running cycles have settled before restoring the original manual environment. It checks history again after rollback, so an extra failed cycle cannot be hidden by the first two successes. It is not a live burn-in. Run drills with other source jobs idle; they intentionally restart the local scheduler. Neither command deletes live lake/frontier data.
+
+### Short pilot with a fixed end time
+
+A separate user-requested 1/2/4-hour pilot is available through
+`python3 tools/phase9_pilot.py`; see the [Vietnamese pilot guide](phase9-pilot-guide-vi.md)
+for the five-source run, services, UI links, evidence, stop and report commands.
+A short pilot does not satisfy the following 24h/72h gates. Current session metadata
+and user systemd units are recorded in ignored `artifacts/phase9/pilot/runtime.json`.
+
+Source policy accepts optional `--live-until <timezone-aware-timestamp>` when
+explicitly enabling a reviewed source. The gate denies new live work after this
+deadline, even if its collector dies; invalid/naive values fail closed. Existing
+policies without a deadline keep their previous behavior. Enabling a source without
+`--live-until` explicitly clears an old deadline. Fixture transport is unaffected.
+Collector/timer pause and disable live at the end; in-flight bounded work must
+settle. Keep initial incidents in the report; a successful terminal publish task
+with `all_done` is not proof that its preceding crawl succeeded.
 
 ### Real 24h → 72h burn-in
 

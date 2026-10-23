@@ -1,5 +1,12 @@
 # Local monitoring and observability
 
+**Kết quả giám sát pilot 23/10:** [báo cáo vận hành](phase9-pilot-report-2026-10-23.md)
+ghi coverage 50 mẫu, tài nguyên, alert history và hạn chế latest-attempt quality
+alerts. Bốn giờ đã kết thúc với verdict PENDING; không suy từ dashboard xanh
+thành burn-in hoặc cloud PASS.
+
+Vietnamese dashboard reading guide: [Cách đọc từng dashboard/panel](grafana-dashboard-guide-vi.md). See the [23/10/2026 dashboard review](grafana-dashboard-review-2026-10-23.md) for query/configuration fixes and current instrumentation limits.
+
 This runbook describes the Phase 07 monitoring plane for the local financial-news
 platform, extended in Phase08 for crawler metrics. It observes the existing
 data and control planes without moving transformation logic into monitoring
@@ -64,7 +71,7 @@ history.
 | Airflow | Airflow native StatsD output through `statsd_exporter` | scheduler, DAG, task and executor metrics exposed by Airflow 2.11.2 |
 | MinIO | native Prometheus endpoint | health, capacity and request metrics |
 | Qdrant | native `/metrics` endpoint | availability, request and collection metrics |
-| Host/container | `node_exporter` and cAdvisor | CPU, memory, filesystem, network and cgroup observations |
+| Host/container | `node_exporter` and cAdvisor | CPU/memory/filesystem, exporter-namespace network and overlapping cgroup observations |
 
 The exporter listens on `:9108` and provides `/metrics` and `/health`. Its
 PostgreSQL session sets `default_transaction_read_only=on`. The
@@ -119,7 +126,7 @@ dashboards are provisioned from `monitoring/grafana/provisioning/`.
 | Financial News Pipeline — Data Quality | invalid/duplicate records, quality gate, schema and reconciliation observations |
 | Financial News Pipeline — Freshness | Bronze through serving publication timestamps and age |
 | Metadata Control Plane — CDC | Kafka, metadata topics, Debezium, CDC timestamps and PostgreSQL slot |
-| Local Infrastructure — Resources | host CPU, memory, filesystem and network from node exporter |
+| Local Infrastructure — Resources | host CPU/memory/filesystem; network from the exporter Docker namespace |
 | Financial News — Multisource Crawling | per-source runs, HTTP/parser failures, frontier, freshness and pending publication batches |
 
 The CDC dashboard covers only PostgreSQL metadata control events. Financial-news

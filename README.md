@@ -1,5 +1,13 @@
 # Financial News Data Platform / ViFinNER
 
+**Kết quả thực chạy 23/10:** pilot năm nguồn đủ bốn giờ/50 mẫu, tự dừng khoảng
+18:05; verdict PENDING do redirect failures/partial. Từ trưa đến 22:58 tạo 45 bài
+mới/270 chunks, 45 batch reconciliation PASS, live backlog cuối kỳ=0.
+[Báo cáo vận hành và tồn đọng](docs/phase9-pilot-report-2026-10-23.md).
+Formal 24h/72h vẫn PENDING; cloud NO-GO.
+
+Grafana: [Hướng dẫn đọc 7 dashboard bằng tiếng Việt](docs/grafana-dashboard-guide-vi.md).
+
 Nền tảng dữ liệu tin tức tài chính tiếng Việt phục vụ khóa luận, với pipeline lakehouse chạy local đã được kiểm chứng từ dữ liệu CafeF có sẵn và các batch crawl nhỏ từ 5 nguồn.
 
 **Bắt đầu đọc tài liệu:** [Documentation guide](docs/DOCUMENTATION_GUIDE.md)
@@ -29,7 +37,7 @@ Phase09 bổ sung runtime policy live theo source, giới hạn replay/backoff, 
 **Checkpoint Phase10, 23/10/2026:** đã có redacted secret scans, pre-commit/CI
 guardrails, synthetic negative tests, dependency/image inventory và bộ thiết kế
 ADLS/IAM/network/cost/rollback. **Cloud vẫn NO-GO**: chưa có issuer invalidation,
-history gate còn FAIL, advisory chưa xử lý và P09 live/burn-in còn pending.
+history gate còn FAIL, advisory chưa xử lý và P09 clean live acceptance/formal burn-in còn pending.
 Xem [Phase10 report](docs/phase10-security-cloud-readiness-report.md),
 [secret policy](docs/security/secret-handling-policy.md) và
 [P11 entry gate](docs/cloud/phase11-entry-checklist.md). Không có cloud deployment.
@@ -69,7 +77,7 @@ Xem [Phase10 report](docs/phase10-security-cloud-readiness-report.md),
 | 06 | Local release candidate và cloud-readiness | Kỹ thuật hoàn thành; release gate `NOT READY` |
 | 07 | Local monitoring, dashboard, alert và failure observability | Hoàn thành |
 | 08 | Crawler 5 nguồn → Landing → pipeline hiện có | Hoàn thành local; 5 bài thật / 39 chunks được kiểm chứng |
-| 09 | Continuous scheduling, bounded recovery, telemetry và burn-in | Chức năng PASS; live B1 và burn-in 24h/72h PENDING |
+| 09 | Continuous scheduling, bounded recovery, telemetry và burn-in | Chức năng PASS; pilot 4h đủ thời gian nhưng PENDING do crawl lỗi; formal 24h/72h PENDING |
 
 Cloud/Azure/Kubernetes migration chưa được thực hiện. Phase 06 chỉ tạo release
 local tái lập được, kiểm chứng adapter/config boundary và lập migration manifest.
@@ -740,7 +748,9 @@ giữ từ full-run và scheduling drill được chạy lại sau sửa rollbac
 exit 0. Các suite gồm 54 policy/report/burn-in/crawler tests, 10 metrics tests,
 regression Phase05/07/08 và restart/replay/reconciliation. Hai scheduled cycles
 với source live policies tắt giữ SUCCESS sau rollback, không queued/running run.
-Đây chưa phải B1 live hoặc burn-in 24h/72h; các gates đó vẫn **PENDING**.
+Hai denied cycles ở checkpoint ngày 22/10 chưa phải B1 live. Pilot ngày 23/10
+đã có live evidence; clean B1 và formal burn-in 24h/72h vẫn **PENDING**, xem báo cáo
+vận hành ở đầu README.
 Monitoring hiện hành là **7 dashboards / 19 alert rules**. Chi tiết và provenance:
 [Phase09 report](docs/phase9-engineering-report.md).
 
