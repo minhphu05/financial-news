@@ -1,18 +1,41 @@
 """Conservative real-time burn-in evidence gates; never sleep or simulate runtime."""
 
-from datetime import datetime, timedelta, timezone
 import json
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .reporting import timestamp
 
 
 def assess(session, samples, *, now=None):
+    if session.get("kind", "burnin") != "burnin" or session["hours"] not in (24, 72):
+        raise ValueError("burnin_duration_must_be_24_or_72_real_hours")
+    return _assess_window(session, samples, now=now)
+
+
+def assess_pilot(session, samples, *, now=None):
+    """A short live pilot never satisfies the formal 24h/72h burn-in gates."""
+    if session.get("kind") != "pilot" or session["hours"] not in (1, 2, 4):
+        raise ValueError("pilot_requires_explicit_kind_and_1_2_or_4_hours")
+    result = {
+        **_assess_window(session, samples, now=now),
+        "kind": "pilot",
+        "scope": "Short live scheduled pilot only; not Phase09 24h/72h acceptance",
+        "burnin_24h": "PENDING",
+        "burnin_72h": "PENDING",
+        "cloud_verdict": "NOT READY FOR CLOUD MIGRATION",
+    }
+    if samples and samples[-1].get("scheduler", {}).get("active_scheduled_runs"):
+        result["gaps"].append("Scheduled tasks have not settled after pilot shutdown")
+        if result["status"] == "PASS":
+            result["status"] = "PENDING"
+    return result
+
+
+def _assess_window(session, samples, *, now=None):
     now = timestamp(now or datetime.now(timezone.utc))
     start = timestamp(session["started_at"])
     hours = session["hours"]
-    if hours not in (24, 72):
-        raise ValueError("burnin_duration_must_be_24_or_72_real_hours")
     end = start + timedelta(hours=hours)
     result = {
         "started_at": start,

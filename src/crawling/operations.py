@@ -1,9 +1,9 @@
 """Read operational evidence and explicitly administer local source policy."""
 
 import argparse
-from datetime import datetime, timedelta, timezone
 import json
 import os
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .policy import DEFAULTS
@@ -92,6 +92,7 @@ def config_check(repo):
                 *DEFAULTS,
             )
         }
+        policies[key]["live_until"] = policy.get("live_until")
         policies[key]["policy_review_recorded"] = bool(
             policy.get("policy_reviewed_at") and policy.get("policy_review_reference")
         )
@@ -105,9 +106,15 @@ def config_check(repo):
     }
 
 
-def set_live_policy(repo, source, enabled, *, reviewed=False, reference=None):
+def set_live_policy(
+    repo, source, enabled, *, reviewed=False, reference=None, live_until=None
+):
     if enabled and (not reviewed or not reference or not reference.strip()):
         raise ValueError("enabling_live_requires_explicit_policy_review_and_reference")
+    if live_until is not None:
+        live_until = timestamp(live_until).isoformat()
+        if timestamp(live_until) <= datetime.now(timezone.utc):
+            raise ValueError("live_until_must_be_in_the_future")
     # Validate the old configuration before changing only operational JSON keys.
     repo.config(source, allow_disabled=True)
     patch = {"live_enabled": enabled}
@@ -115,6 +122,7 @@ def set_live_policy(repo, source, enabled, *, reviewed=False, reference=None):
         patch.update(
             policy_reviewed_at=datetime.now(timezone.utc).isoformat(),
             policy_review_reference=reference,
+            live_until=live_until,
         )
     repo.query(
         "UPDATE control_metadata.news_sources SET config=jsonb_set(config,'{crawler}',(config->'crawler') || %s::jsonb) WHERE source_id=%s",
@@ -152,6 +160,7 @@ def main():
     policy.add_argument("--live-enabled", choices=("true", "false"), required=True)
     policy.add_argument("--policy-reviewed", action="store_true")
     policy.add_argument("--policy-reference")
+    policy.add_argument("--live-until", type=timestamp)
     unblock = commands.add_parser("clear-block")
     unblock.add_argument("--source", choices=SOURCES, required=True)
     unblock.add_argument("--policy-reviewed", action="store_true", required=True)
@@ -168,6 +177,7 @@ def main():
                 args.live_enabled == "true",
                 reviewed=args.policy_reviewed,
                 reference=args.policy_reference,
+                live_until=args.live_until,
             )
         elif args.command == "clear-block":
             result = clear_block(repo, args.source)

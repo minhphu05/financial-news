@@ -2,6 +2,7 @@
 
 import math
 import random
+from datetime import datetime, timezone
 
 
 class PolicySkip(ValueError):
@@ -82,6 +83,15 @@ def gate(policy, *, fixture=False, allow_live=False):
         return "live_opt_in_required"
     if not fixture and not policy["live_enabled"]:
         return "source_live_disabled"
+    if not fixture and policy.get("live_until") is not None:
+        try:
+            deadline = datetime.fromisoformat(policy["live_until"])
+            if deadline.tzinfo is None:
+                return "source_live_deadline_invalid"
+        except (ValueError, TypeError):
+            return "source_live_deadline_invalid"
+        if datetime.now(timezone.utc) >= deadline:
+            return "source_live_expired"
     return None
 
 

@@ -19,9 +19,9 @@ from src.news_pipeline.structured_log import event
 from .adapters import SourceAdapter
 from .http_client import FetchError, HttpClient
 from .landing import Landing, encoded
+from .policy import batch_limit, failure_category, gate, retry_delay
 from .sources import SOURCES, ParseError
 from .state import Repository, SourceBusy
-from .policy import batch_limit, failure_category, gate, retry_delay
 
 
 def crawl(
@@ -190,10 +190,19 @@ def crawl(
                 try:
                     response = client.fetch(row["canonical_url"])
                     metrics["fetched"] += 1
+                    try:
+                        article_url = source.url(response.url, article=True)
+                    except ValueError as exc:
+                        # A stale link can redirect to a home/unsupported page.
+                        # Record a terminal URL failure instead of aborting the
+                        # batch and selecting the same NEW link indefinitely.
+                        raise FetchError(
+                            "unsupported_article_redirect", response.status
+                        ) from exc
                     envelope = {
                         "source": source_key,
                         "data_kind": data_kind,
-                        "url": source.url(response.url, article=True),
+                        "url": article_url,
                         "requested_url": row["canonical_url"],
                         "crawl_run_id": run,
                         "fetched_at": datetime.now(timezone.utc).isoformat(),
